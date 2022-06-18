@@ -35,11 +35,8 @@ fn icon_name(path: &PathBuf) -> String {
     name.to_upper_camel_case()
 }
 
-const SVG_PATH: &str = "./svgs";
-const OUTPUT_PATH: &str = "../lib/src/icon.rs";
-
-fn main() {
-    let dir_entries = WalkDir::new(SVG_PATH)
+fn create_icon_file(svg_path: &str, output_path: &str) {
+    let dir_entries = WalkDir::new(svg_path)
         .into_iter()
         .filter_map(|e| e.ok())
         .collect::<Vec<_>>();
@@ -69,18 +66,7 @@ fn main() {
     }
 
     let mut scope = Scope::new();
-
-    // add struct block for icon data
-    let icon_data = scope
-        .new_struct("Icon")
-        .generic("'a")
-        .derive("Clone")
-        .derive("Debug")
-        .derive("PartialEq")
-        .vis("pub");
-    icon_data.field("pub view_box", "&'a str");
-    icon_data.field("pub xmlns", "&'a str");
-    icon_data.field("pub d", "&'a str");
+    scope.raw("use super::Icon;");
 
     // add icon data
     for icon in icons.iter() {
@@ -96,7 +82,18 @@ pub const Fa{}: Icon = Icon {{
     }
 
     // write to file
-    let mut file = File::create(OUTPUT_PATH).unwrap();
+    let mut file = File::create(output_path).unwrap();
     file.write_all(scope.to_string().as_bytes()).unwrap();
     file.flush().unwrap();
+}
+
+fn main() {
+    const SVG_BASE_PATH: &str = "../../font-awesome/svgs";
+    const OUTPUT_BASE_PATH: &str = "../lib/src";
+
+    for icon_type in vec!["brands", "regular", "solid"].into_iter() {
+        let svg_path = format!("{}/{}", SVG_BASE_PATH, icon_type);
+        let output_path = format!("{}/{}_icons.rs", OUTPUT_BASE_PATH, icon_type);
+        create_icon_file(&svg_path, &output_path);
+    }
 }

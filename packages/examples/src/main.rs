@@ -1,6 +1,6 @@
 use dioxus::prelude::*;
 
-use dioxus_fontawesome::icon::Fa42Group;
+use dioxus_fontawesome::brands_icons::FaRust;
 use dioxus_fontawesome::Icon;
 
 fn main() {
@@ -20,7 +20,7 @@ fn app(cx: Scope) -> Element {
             p { "Dioxus is a portable, performant, and ergonomic framework for building cross-platform user interfaces in Rust." },
             Icon {
                 size: 60,
-                icon: Fa42Group,
+                icon: FaRust,
             }
         }
     ))
