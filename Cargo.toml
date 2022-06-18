@@ -1,11 +1,8 @@
-[package]
-name = "dioxus-fontawesome"
-version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-scraper = "0.13.0"
-codegen = "0.1.3"
-heck = "0.4.0"
+# monorepo only work when using virtual manifest
+# see: https://github.com/rust-lang/cargo/issues/7467#issuecomment-867632379
+[workspace]
+members = [
+    "packages/codegen",
+    "packages/examples",
+    "packages/lib",
+]
