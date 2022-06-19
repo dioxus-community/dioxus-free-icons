@@ -1,4 +1,4 @@
-use super::Icon;
+use super::super::Icon;
 
 #[allow(dead_code, non_upper_case_globals)]
 pub const FaViadeoSquare: Icon = Icon {

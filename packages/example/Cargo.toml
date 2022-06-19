@@ -8,7 +8,7 @@ edition = "2021"
 
 [dependencies]
 dioxus = { version = "0.2.4", features = ["web"] }
-dioxus-fontawesome = { path = "../lib" }
+dioxus-free-icons = { path = "../lib" }
 
 log = "0.4.6"
 
