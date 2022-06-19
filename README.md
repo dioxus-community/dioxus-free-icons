@@ -52,8 +52,6 @@ This library aims to be a react-icons-like library for dioxus projects.
 ### Development
 
 ```sh
-git submodule update --init  # fetch icon sources
-
 // generate icon files
 cd packages/codegen
 cargo run
