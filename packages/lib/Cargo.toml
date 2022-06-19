@@ -2,6 +2,11 @@
 name = "dioxus-free-icons"
 version = "0.1.0"
 edition = "2021"
+authors = ["Daiki Nishikawa <nd.12021218@gmail.com>"]
+description = "Use free svg icons in your Dioxus projects easily with dioxus-free-icons."
+license = "MIT"
+repository = "https://github.com/nissy-dev/dioxus-free-icons"
+readme = "../../README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
