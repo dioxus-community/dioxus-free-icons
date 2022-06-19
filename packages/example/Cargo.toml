@@ -1,0 +1,17 @@
+[package]
+name = "hello-dioxus"
+version = "0.1.0"
+authors = ["nissy-dev <nd.12021218@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dioxus = { version = "0.2.4", features = ["web"] }
+dioxus-free-icons = { path = "../lib" }
+
+log = "0.4.6"
+
+# WebAssembly Debug
+wasm-logger = "0.2.0"
+console_error_panic_hook = "0.1.7"

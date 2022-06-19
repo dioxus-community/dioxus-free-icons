@@ -1,0 +1,8 @@
+# monorepo only work when using virtual manifest
+# see: https://github.com/rust-lang/cargo/issues/7467#issuecomment-867632379
+[workspace]
+members = [
+    "packages/codegen",
+    "packages/example",
+    "packages/lib",
+]
