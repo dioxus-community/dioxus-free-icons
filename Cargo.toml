@@ -3,6 +3,6 @@
 [workspace]
 members = [
     "packages/codegen",
-    "packages/examples",
+    "packages/example",
     "packages/lib",
 ]
