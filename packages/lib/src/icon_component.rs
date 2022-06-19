@@ -1,5 +1,6 @@
 use dioxus::prelude::*;
 
+/// Icon data structure
 #[derive(Clone, Debug, PartialEq)]
 pub struct Icon<'a> {
     pub view_box: &'a str,
@@ -7,6 +8,7 @@ pub struct Icon<'a> {
     pub d: &'a str,
 }
 
+/// Icon component Props
 #[derive(PartialEq, Props)]
 pub struct IconProps<'a> {
     /// An optional class for the `<svg>` element.
@@ -25,6 +27,7 @@ pub struct IconProps<'a> {
     pub icon: Icon<'a>,
 }
 
+/// Icon component which generates SVG elements
 #[allow(non_snake_case)]
 pub fn Icon<'a>(cx: Scope<'a, IconProps<'a>>) -> Element<'a> {
     cx.render(rsx! {
