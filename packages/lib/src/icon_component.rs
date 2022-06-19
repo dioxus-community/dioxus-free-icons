@@ -1,7 +1,7 @@
 use dioxus::prelude::*;
 
 /// Icon data structure
-#[derive(Clone, Debug, PartialEq)]
+#[derive(Clone, Copy, Debug, PartialEq)]
 pub struct Icon<'a> {
     pub view_box: &'a str,
     pub xmlns: &'a str,

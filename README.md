@@ -2,7 +2,7 @@
 
 Use free svg icons in your [Dioxus](https://dioxuslabs.com/) projects easily with dioxus-free-icons.
 
-More information about this crate can be found in the [crate documentation]().
+More information about this crate can be found in the [crate documentation](https://docs.rs/dioxus-free-icons/0.1.0/dioxus_free_icons/).
 
 ## Install
 
