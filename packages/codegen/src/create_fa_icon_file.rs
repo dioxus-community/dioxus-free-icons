@@ -6,6 +6,7 @@ use std::path::PathBuf;
 
 use codegen::Scope;
 use heck::ToUpperCamelCase;
+use scraper::ElementRef;
 use scraper::Html;
 use scraper::Selector;
 use walkdir::WalkDir;
@@ -43,6 +44,18 @@ pub fn create_fa_icon_file(svg_path: &str, output_path: &str) {
     for file in files {
         let svg_str = fs::read_to_string(&file).unwrap();
         let fragment = Html::parse_fragment(&svg_str);
+        fragment.tree.nodes().for_each(|node| {
+            // println!("{:?}", node.value());
+            if node.value().is_element() {
+                let element = ElementRef::wrap(node).unwrap().value();
+                // println!("{:?}", element.attrs);
+                if element.attrs.len() != 0 {
+                    println!("{:?}", element);
+                    // println!("{:?}", element.attrs);
+                }
+            }
+        });
+        // println!("{:?}", fragment.tree.nodes().map(|e| e.children()));
         let svg_data = fragment.select(&svg_selector).next().unwrap();
         let path_data = fragment.select(&path_selector).next().unwrap();
 
