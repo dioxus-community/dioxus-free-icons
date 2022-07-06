@@ -4,3 +4,6 @@
 [submodule "icon_resources/heroicons"]
 	path = icon_resources/heroicons
 	url = git@github.com:tailwindlabs/heroicons.git
+[submodule "icon_resources/ionicons"]
+	path = icon_resources/ionicons
+	url = git@github.com:ionic-team/ionicons.git

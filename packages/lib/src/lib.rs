@@ -4,7 +4,7 @@
 //! This library provides Icon component, which will generate SVG for a Font Awesome icon.
 //!
 //! Basic usage:
-//! ```rust
+//! ```ignore
 //! use dioxus::prelude::*;
 //! use dioxus_free_icons::icons::fa_brands_icons::FaRust;
 //! use dioxus_free_icons::Icon;
