@@ -1,6 +1,6 @@
 use dioxus::prelude::*;
 
-/// Icon data structure
+/// Icon shape trait
 pub trait IconShape {
     fn view_box(&self) -> String;
     fn xmlns(&self) -> String;
