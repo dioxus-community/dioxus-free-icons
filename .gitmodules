@@ -1,3 +1,9 @@
-[submodule "font-awesome"]
-	path = font-awesome
+[submodule "icon_resources/font-awesome"]
+	path = icon_resources/font-awesome
 	url = git@github.com:FortAwesome/Font-Awesome.git
+[submodule "icon_resources/heroicons"]
+	path = icon_resources/heroicons
+	url = git@github.com:tailwindlabs/heroicons.git
+[submodule "icon_resources/ionicons"]
+	path = icon_resources/ionicons
+	url = git@github.com:ionic-team/ionicons.git

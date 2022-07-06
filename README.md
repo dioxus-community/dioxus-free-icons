@@ -41,7 +41,9 @@ This project is licensed under the MIT license.
 
 Icon Library|License|Version
 ---|---|---
-[Font Awesome](https://fontawesome.com/)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)| [6.1.1](https://github.com/FortAwesome/Font-Awesome/tree/b452a2c086a5e3f319df61b1ce1db7d8e1ad2b7c)
+[Font Awesome](https://fontawesome.com/)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)| [6.1.1](https://github.com/FortAwesome/Font-Awesome/tree/6.1.1)
+[heroicons](https://heroicons.com/)|[MIT License](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE)| [1.0.6](https://github.com/tailwindlabs/heroicons/tree/v1.0.6)
+[ionicons](https://ionic.io/ionicons)|[MIT License](https://github.com/ionic-team/ionicons/blob/main/LICENSE)| [6.0.2](https://github.com/ionic-team/ionicons/tree/v6.0.2)
 
 ## Contribution
 
@@ -64,3 +66,9 @@ cd packages/exmaple
 cargo install dioxus-cli
 dioxus serve
 ```
+
+### Update icons
+
+1. checkout a new tag in the icon resource submodule
+2. create new icon files
+3. Update README.md and check the LICENSE

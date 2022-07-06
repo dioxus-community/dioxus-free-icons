@@ -22,7 +22,13 @@ SOFTWARE.
 
 ---
 Icons are taken from the Font Awesome projects,
-so please check the project licence accordingly.
+so please check the project license accordingly.
 
 Font Awesome - https://fontawesome.com/
 License: CC BY 4.0 License https://creativecommons.org/licenses/by/4.0/
+
+heroicons - https://heroicons.com/
+License: MIT License https://github.com/tailwindlabs/heroicons/blob/master/LICENSE
+
+ionicons - https://ionic.io/ionicons
+License: MIT License https://github.com/ionic-team/ionicons/blob/main/LICENSE
