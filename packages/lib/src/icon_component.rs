@@ -31,6 +31,8 @@ pub struct IconProps<'a, T: IconShape> {
 pub fn Icon<'a, T: IconShape>(cx: Scope<'a, IconProps<'a, T>>) -> Element<'a> {
     cx.render(rsx! {
         svg {
+            stroke: "currentColor",
+            stroke_width: "0",
             class: format_args!("{}", cx.props.class.unwrap_or("")),
             height: format_args!("{}", cx.props.size),
             width: format_args!("{}", cx.props.size),

@@ -33,4 +33,9 @@ fn main() {
     const BS_SVG_BASE_PATH: &str = "../../icon_resources/bootstrap/icons";
     let output_path = format!("{}/bs_icons.rs", OUTPUT_BASE_PATH);
     create_icon_file::create_icon_file(&BS_SVG_BASE_PATH, &output_path, "Bs");
+
+    // create feather icons
+    const FI_SVG_BASE_PATH: &str = "../../icon_resources/bootstrap/icons";
+    let output_path = format!("{}/fi_icons.rs", OUTPUT_BASE_PATH);
+    create_icon_file::create_icon_file(&FI_SVG_BASE_PATH, &output_path, "Fi");
 }
