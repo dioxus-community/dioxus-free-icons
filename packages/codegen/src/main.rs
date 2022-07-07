@@ -23,4 +23,9 @@ fn main() {
     const IO_SVG_BASE_PATH: &str = "../../icon_resources/ionicons/src/svg";
     let output_path = format!("{}/io_icons.rs", OUTPUT_BASE_PATH);
     create_icon_file::create_icon_file(&IO_SVG_BASE_PATH, &output_path, "Io");
+
+    // create octicons
+    const GO_SVG_BASE_PATH: &str = "../../icon_resources/octicons/icons";
+    let output_path = format!("{}/go_icons.rs", OUTPUT_BASE_PATH);
+    create_icon_file::create_icon_file(&GO_SVG_BASE_PATH, &output_path, "Go");
 }

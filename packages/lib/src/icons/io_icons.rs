@@ -12,33 +12,33 @@ impl IconShape for IoBagRemoveOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                x2: "192",
-                fill: "none",
-                stroke_linecap: "round",
-                stroke_width: "32",
                 x1: "320",
-                stroke_linejoin: "round",
-                y2: "320",
                 stroke: "#000",
+                x2: "192",
                 y1: "320",
-            }
-            path {
-                fill: "none",
-                stroke_linejoin: "round",
-                fill_rule: "evenodd",
-                d: "M80,176a16,16,0,0,0-16,16V408c0,30.24,25.76,56,56,56H392c30.24,0,56-24.51,56-54.75V192a16,16,0,0,0-16-16Z",
-                stroke: "#000",
                 stroke_width: "32",
                 stroke_linecap: "round",
+                stroke_linejoin: "round",
+                fill: "none",
+                y2: "320",
             }
             path {
+                d: "M80,176a16,16,0,0,0-16,16V408c0,30.24,25.76,56,56,56H392c30.24,0,56-24.51,56-54.75V192a16,16,0,0,0-16-16Z",
                 stroke_linecap: "round",
-                fill: "none",
-                fill_rule: "evenodd",
+                stroke_linejoin: "round",
                 stroke: "#000",
+                fill_rule: "evenodd",
+                stroke_width: "32",
+                fill: "none",
+            }
+            path {
                 d: "M160,176V144a96,96,0,0,1,96-96h0a96,96,0,0,1,96,96v32",
                 stroke_linejoin: "round",
                 stroke_width: "32",
+                stroke_linecap: "round",
+                fill_rule: "evenodd",
+                fill: "none",
+                stroke: "#000",
             }
         }
     }
@@ -141,19 +141,19 @@ impl IconShape for IoEllipsisHorizontalSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "256",
                 cx: "256",
                 r: "48",
+                cy: "256",
             }
             circle {
-                cy: "256",
                 r: "48",
                 cx: "416",
+                cy: "256",
             }
             circle {
                 cy: "256",
-                r: "48",
                 cx: "96",
+                r: "48",
             }
         }
     }
@@ -265,12 +265,12 @@ impl IconShape for IoBedOutline {
                 d: "M48,416v-8a24.07,24.07,0,0,1,24-24H440a24.07,24.07,0,0,1,24,24v8",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M112,240V224a32.09,32.09,0,0,1,32-32h80a32.09,32.09,0,0,1,32,32v16",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M256,240V224a32.09,32.09,0,0,1,32-32h80a32.09,32.09,0,0,1,32,32v16",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M256,240V224a32.09,32.09,0,0,1,32-32h80a32.09,32.09,0,0,1,32,32v16",
             }
         }
     }
@@ -304,73 +304,73 @@ impl IconShape for IoDiceOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                stroke_width: "32",
-                stroke_linecap: "round",
-                stroke_linejoin: "round",
-                stroke: "#000",
-                fill: "none",
                 d: "M448,341.37V170.61A32,32,0,0,0,432.11,143l-152-88.46a47.94,47.94,0,0,0-48.24,0L79.89,143A32,32,0,0,0,64,170.61V341.37A32,32,0,0,0,79.89,369l152,88.46a48,48,0,0,0,48.24,0l152-88.46A32,32,0,0,0,448,341.37Z",
+                stroke_linecap: "round",
+                stroke_width: "32",
+                fill: "none",
+                stroke: "#000",
+                stroke_linejoin: "round",
             }
             polyline {
-                points: "69 153.99 256 263.99 443 153.99",
                 stroke_width: "32",
-                fill: "none",
-                stroke: "#000",
                 stroke_linecap: "round",
+                fill: "none",
                 stroke_linejoin: "round",
+                stroke: "#000",
+                points: "69 153.99 256 263.99 443 153.99",
             }
             line {
-                fill: "none",
                 y2: "263.99",
-                stroke: "#000",
+                fill: "none",
                 stroke_linejoin: "round",
-                stroke_linecap: "round",
-                stroke_width: "32",
-                x1: "256",
-                x2: "256",
                 y1: "463.99",
+                x1: "256",
+                stroke_width: "32",
+                x2: "256",
+                stroke: "#000",
+                stroke_linecap: "round",
             }
             ellipse {
-                cy: "152",
-                rx: "24",
                 cx: "256",
                 ry: "16",
+                rx: "24",
+                cy: "152",
             }
             ellipse {
                 rx: "16",
-                cy: "296",
                 ry: "24",
                 cx: "208",
+                cy: "296",
             }
             ellipse {
-                cy: "328",
                 rx: "16",
+                cy: "328",
                 ry: "24",
                 cx: "112",
             }
             ellipse {
                 cy: "296",
-                rx: "16",
+                ry: "24",
                 cx: "304",
-                ry: "24",
+                rx: "16",
             }
             ellipse {
+                ry: "24",
                 cy: "240",
-                ry: "24",
-                rx: "16",
                 cx: "400",
+                rx: "16",
             }
             ellipse {
-                rx: "16",
-                ry: "24",
                 cx: "304",
                 cy: "384",
+                rx: "16",
+                ry: "24",
             }
             ellipse {
+                rx: "16",
+                cx: "400",
                 cy: "328",
                 ry: "24",
-                cx: "400",
-                rx: "16",
             }
         }
     }
@@ -411,9 +411,9 @@ impl IconShape for IoMedalSharp {
                 d: "M496,144,424,32,298,231.08a128,128,0,0,0-84,0L189.53,192H43.82l86.66,134.89a128,128,0,1,0,251,0ZM256,422a70,70,0,1,1,70-70A70.08,70.08,0,0,1,256,422Z",
             }
             circle {
-                r: "32",
-                cx: "256",
                 cy: "352",
+                cx: "256",
+                r: "32",
             }
         }
     }
@@ -430,72 +430,72 @@ impl IconShape for IoCalendarNumberOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                stroke: "#000",
-                stroke_width: "32",
-                height: "384",
-                stroke_linejoin: "round",
                 x: "48",
-                fill: "none",
                 rx: "48",
+                fill: "none",
                 y: "80",
+                stroke: "#000",
+                height: "384",
+                stroke_width: "32",
                 width: "416",
+                stroke_linejoin: "round",
             }
             line {
-                y1: "48",
-                y2: "80",
                 x1: "128",
-                stroke_linejoin: "round",
-                stroke_linecap: "round",
+                fill: "none",
                 stroke: "#000",
                 stroke_width: "32",
                 x2: "128",
-                fill: "none",
-            }
-            line {
-                stroke: "#000",
                 stroke_linecap: "round",
+                y1: "48",
                 stroke_linejoin: "round",
                 y2: "80",
-                x2: "384",
-                fill: "none",
-                stroke_width: "32",
-                x1: "384",
-                y1: "48",
             }
             line {
+                y2: "80",
+                stroke_linejoin: "round",
                 fill: "none",
+                stroke: "#000",
+                stroke_linecap: "round",
+                x1: "384",
+                y1: "48",
+                x2: "384",
+                stroke_width: "32",
+            }
+            line {
+                x1: "464",
+                y2: "160",
+                stroke: "#000",
+                stroke_width: "32",
                 x2: "48",
                 y1: "160",
-                stroke: "#000",
-                x1: "464",
                 stroke_linejoin: "round",
-                y2: "160",
-                stroke_width: "32",
                 stroke_linecap: "round",
+                fill: "none",
             }
             polyline {
-                fill: "none",
-                stroke_width: "32",
-                points: "304 260 347.42 228 352 228 352 396",
+                stroke_linejoin: "round",
                 stroke: "#000",
                 stroke_linecap: "round",
-                stroke_linejoin: "round",
+                points: "304 260 347.42 228 352 228 352 396",
+                fill: "none",
+                stroke_width: "32",
             }
             path {
-                stroke_linecap: "round",
-                stroke_linejoin: "round",
-                stroke_width: "32",
                 fill: "none",
                 d: "M191.87,306.63c9.11,0,25.79-4.28,36.72-15.47a37.9,37.9,0,0,0,11.13-27.26c0-26.12-22.59-39.9-47.89-39.9-21.4,0-33.52,11.61-37.85,18.93",
                 stroke: "#000",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
             path {
+                stroke: "#000",
+                stroke_linecap: "round",
+                stroke_width: "32",
                 stroke_linejoin: "round",
                 fill: "none",
                 d: "M149,374.16c4.88,8.27,19.71,25.84,43.88,25.84,28.59,0,52.12-15.94,52.12-43.82,0-12.62-3.66-24-11.58-32.07-12.36-12.64-31.25-17.48-41.55-17.48",
-                stroke_linecap: "round",
-                stroke_width: "32",
-                stroke: "#000",
             }
         }
     }
@@ -564,17 +564,17 @@ impl IconShape for IoLockOpenOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M336,112a80,80,0,0,0-160,0v96",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M336,112a80,80,0,0,0-160,0v96",
             }
             rect {
-                x: "96",
-                height: "272",
-                ry: "48",
                 y: "208",
+                ry: "48",
                 rx: "48",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 width: "320",
+                height: "272",
+                x: "96",
             }
         }
     }
@@ -595,8 +595,8 @@ impl IconShape for IoBicycleOutline {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M124,288a76,76,0,1,0,76,76,76.24,76.24,0,0,0-76-76Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
                 points: "256 360 256 274 192 232 272 144 312 216 368 216",
@@ -717,8 +717,8 @@ impl IconShape for IoPlayCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 d: "M216.32,334.44,330.77,265.3a10.89,10.89,0,0,0,0-18.6L216.32,177.56A10.78,10.78,0,0,0,200,186.87V325.13A10.78,10.78,0,0,0,216.32,334.44Z",
@@ -762,9 +762,9 @@ impl IconShape for IoEnterSharp {
             }
             rect {
                 y: "240",
-                height: "32",
-                width: "128",
                 x: "32",
+                width: "128",
+                height: "32",
             }
         }
     }
@@ -785,10 +785,10 @@ impl IconShape for IoSearchOutline {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                y1: "338.29",
-                x1: "338.29",
-                x2: "448",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                x1: "338.29",
+                y1: "338.29",
+                x2: "448",
                 y2: "448",
             }
         }
@@ -845,10 +845,10 @@ impl IconShape for IoArrowDown {
             }
             line {
                 x1: "256",
+                y2: "100",
+                y1: "392",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 x2: "256",
-                y1: "392",
-                y2: "100",
             }
         }
     }
@@ -902,8 +902,8 @@ impl IconShape for IoWarningOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M85.57,446.25H426.43a32,32,0,0,0,28.17-47.17L284.18,82.58c-12.09-22.44-44.27-22.44-56.36,0L57.4,399.08A32,32,0,0,0,85.57,446.25Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M250.26,195.39l5.74,122,5.73-121.95a5.74,5.74,0,0,0-5.79-6h0A5.74,5.74,0,0,0,250.26,195.39Z",
@@ -944,8 +944,8 @@ impl IconShape for IoHelpOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:40px",
                 d: "M160,164s1.44-33,33.54-59.46C212.6,88.83,235.49,84.28,256,84c18.73-.23,35.47,2.94,45.48,7.82C318.59,100.2,352,120.6,352,164c0,45.67-29.18,66.37-62.35,89.18S248,298.36,248,324",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:40px",
             }
             circle {
                 cx: "248",
@@ -988,42 +988,42 @@ impl IconShape for IoList {
         rsx! {
             line {
                 x2: "448",
-                y1: "144",
                 x1: "160",
                 y2: "144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
+                y1: "144",
             }
             line {
                 x2: "448",
                 y2: "256",
-                y1: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 x1: "160",
+                y1: "256",
             }
             line {
                 x2: "448",
+                y1: "368",
                 y2: "368",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
-                y1: "368",
                 x1: "160",
             }
             circle {
-                r: "16",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                cx: "80",
                 cy: "144",
-            }
-            circle {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "80",
-                cy: "256",
                 r: "16",
             }
             circle {
                 cx: "80",
+                r: "16",
+                cy: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+            }
+            circle {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 r: "16",
                 cy: "368",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cx: "80",
             }
         }
     }
@@ -1213,8 +1213,8 @@ impl IconShape for IoVolumeHighOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M320,320c9.74-19.38,16-40.84,16-64,0-23.48-6-44.42-16-64",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M320,320c9.74-19.38,16-40.84,16-64,0-23.48-6-44.42-16-64",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -1239,15 +1239,15 @@ impl IconShape for IoArrowForward {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 points: "268 112 412 256 268 400",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
             line {
-                y1: "256",
-                x2: "100",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 y2: "256",
                 x1: "392",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
+                y1: "256",
+                x2: "100",
             }
         }
     }
@@ -1281,18 +1281,18 @@ impl IconShape for IoOpenOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M384,224V408a40,40,0,0,1-40,40H104a40,40,0,0,1-40-40V168a40,40,0,0,1,40-40H271.48",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M384,224V408a40,40,0,0,1-40,40H104a40,40,0,0,1-40-40V168a40,40,0,0,1,40-40H271.48",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "336 64 448 64 448 176",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "224",
                 y1: "288",
+                x1: "224",
                 x2: "440",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "72",
             }
         }
@@ -1310,8 +1310,8 @@ impl IconShape for IoTrendingUpOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "352 144 464 144 464 256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "352 144 464 144 464 256",
             }
             path {
                 d: "M48,368,169.37,246.63a32,32,0,0,1,45.26,0l50.74,50.74a32,32,0,0,0,45.26,0L448,160",
@@ -1369,26 +1369,26 @@ impl IconShape for IoSchoolOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polygon {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "32 192 256 64 480 192 256 320 32 192",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
                 points: "112 240 112 368 256 448 400 368 400 240",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "368",
-                x1: "480",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "480",
                 y2: "192",
+                x1: "480",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "368",
             }
             line {
-                x2: "256",
                 x1: "256",
-                y1: "320",
-                y2: "448",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "448",
+                x2: "256",
+                y1: "320",
             }
         }
     }
@@ -1466,8 +1466,8 @@ impl IconShape for IoMusicalNotesOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M416,295.94v80c0,13.91-8.93,25.59-22,30l-22,8c-25.9,8.72-52-10.42-52-38h0a33.37,33.37,0,0,1,23-32l51-18.15c13.07-4.4,22-15.94,22-29.85V58a10,10,0,0,0-12.6-9.61L204,102a16.48,16.48,0,0,0-12,16v226c0,13.91-8.93,25.6-22,30l-52,18c-13.88,4.68-22,17.22-22,32h0c0,27.58,26.52,46.55,52,38l22-8c13.07-4.4,22-16.08,22-30v-80",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -1491,8 +1491,8 @@ impl IconShape for IoVolumeMediumSharp {
                 d: "M352,320c9.74-19.41,16-40.81,16-64,0-23.51-6-44.4-16-64",
             }
             path {
-                d: "M400,368c19.48-34,32-64,32-112s-12-77.7-32-112",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
+                d: "M400,368c19.48-34,32-64,32-112s-12-77.7-32-112",
             }
         }
     }
@@ -1631,8 +1631,8 @@ impl IconShape for IoCheckmarkSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "416 128 192 384 96 288",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:44px",
+                points: "416 128 192 384 96 288",
             }
         }
     }
@@ -1649,40 +1649,40 @@ impl IconShape for IoPartlySunnyOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 d: "M90.61,306.85A16.07,16.07,0,0,0,104,293.6C116.09,220.17,169.63,176,232,176c57.93,0,96.62,37.75,112.2,77.74a15.84,15.84,0,0,0,12.2,9.87c50,8.15,91.6,41.54,91.6,99.59C448,422.6,399.4,464,340,464H106c-49.5,0-90-24.7-90-79.2C16,336.33,54.67,312.58,90.61,306.85Z",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M384.8,271.4a80,80,0,1,0-123.55-92",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "208",
-                x1: "464",
-                x2: "496",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "208",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "464",
+                y1: "208",
+                x2: "496",
             }
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "336",
-                y1: "48",
-                y2: "80",
                 x1: "336",
+                y1: "48",
+                x2: "336",
+                y2: "80",
             }
             line {
-                y2: "117.49",
                 x1: "222.86",
+                y2: "117.49",
                 y1: "94.86",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "245.49",
             }
             line {
-                x2: "426.51",
                 x1: "449.14",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "94.86",
                 y2: "117.49",
+                x2: "426.51",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -1751,18 +1751,18 @@ impl IconShape for IoAddSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                x2: "256",
-                y1: "112",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
-                x1: "256",
                 y2: "400",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
+                y1: "112",
+                x1: "256",
+                x2: "256",
             }
             line {
-                y2: "256",
-                x1: "400",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
-                y1: "256",
                 x2: "112",
+                y1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
+                x1: "400",
+                y2: "256",
             }
         }
     }
@@ -1852,30 +1852,30 @@ impl IconShape for IoBagCheckOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                stroke_linecap: "round",
-                stroke_linejoin: "round",
                 points: "320 264 230.4 376 192 331.12",
-                stroke: "#000",
+                stroke_linejoin: "round",
                 fill: "none",
                 stroke_width: "32",
+                stroke: "#000",
+                stroke_linecap: "round",
             }
             path {
-                stroke_linecap: "round",
-                stroke_linejoin: "round",
-                fill_rule: "evenodd",
+                stroke: "#000",
                 stroke_width: "32",
-                fill: "none",
+                stroke_linejoin: "round",
                 d: "M80,176a16,16,0,0,0-16,16V408c0,30.24,25.76,56,56,56H392c30.24,0,56-24.51,56-54.75V192a16,16,0,0,0-16-16Z",
-                stroke: "#000",
+                stroke_linecap: "round",
+                fill: "none",
+                fill_rule: "evenodd",
             }
             path {
-                d: "M160,176V144a96,96,0,0,1,96-96h0a96,96,0,0,1,96,96v32",
-                stroke_linecap: "round",
-                stroke_width: "32",
-                stroke: "#000",
-                fill: "none",
                 stroke_linejoin: "round",
+                stroke_width: "32",
                 fill_rule: "evenodd",
+                fill: "none",
+                stroke: "#000",
+                stroke_linecap: "round",
+                d: "M160,176V144a96,96,0,0,1,96-96h0a96,96,0,0,1,96,96v32",
             }
         }
     }
@@ -1909,15 +1909,15 @@ impl IconShape for IoInformation {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "196 220 260 220 260 392",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:40px",
+                points: "196 220 260 220 260 392",
             }
             line {
-                x2: "325",
-                y1: "396",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:40px",
-                x1: "187",
+                y1: "396",
                 y2: "396",
+                x1: "187",
+                x2: "325",
             }
             path {
                 d: "M256,160a32,32,0,1,1,32-32A32,32,0,0,1,256,160Z",
@@ -1937,33 +1937,33 @@ impl IconShape for IoMaleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                stroke: "#000",
-                fill: "none",
-                stroke_width: "32",
-                r: "152",
-                stroke_linejoin: "round",
-                stroke_linecap: "round",
-                cy: "296",
                 cx: "216",
+                r: "152",
+                stroke: "#000",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                cy: "296",
+                stroke_width: "32",
+                fill: "none",
             }
             polyline {
+                stroke_linecap: "round",
                 stroke_linejoin: "round",
-                stroke_width: "32",
                 fill: "none",
+                stroke_width: "32",
                 points: "448 160 448 64 352 64",
                 stroke: "#000",
-                stroke_linecap: "round",
             }
             line {
-                y1: "188",
-                x2: "448",
-                stroke_width: "32",
-                y2: "64",
                 stroke_linejoin: "round",
-                fill: "none",
+                y2: "64",
                 x1: "324",
+                stroke_width: "32",
                 stroke: "#000",
                 stroke_linecap: "round",
+                x2: "448",
+                fill: "none",
+                y1: "188",
             }
         }
     }
@@ -1997,19 +1997,19 @@ impl IconShape for IoArrowUpCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "176 249.38 256 170 336 249.38",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y2: "342",
                 x2: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "342",
                 x1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "181.03",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -2026,31 +2026,31 @@ impl IconShape for IoBeerOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M352,200V440a40.12,40.12,0,0,1-40,40H136a40.12,40.12,0,0,1-40-40V224",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M352,200V440a40.12,40.12,0,0,1-40,40H136a40.12,40.12,0,0,1-40-40V224",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M352,224h40a56.16,56.16,0,0,1,56,56v80a56.16,56.16,0,0,1-56,56H352",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                x1: "224",
-                x2: "224",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "224",
                 y1: "256",
+                x2: "224",
                 y2: "416",
             }
             line {
+                y2: "416",
+                y1: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "288",
-                y1: "256",
                 x2: "288",
-                y2: "416",
             }
             line {
+                x2: "160",
                 x1: "160",
                 y1: "256",
-                x2: "160",
                 y2: "416",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
@@ -2063,8 +2063,8 @@ impl IconShape for IoBeerOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                d: "M145.83,64.71C163.22,44.89,187.57,32,216,32c52.38,0,94,42.84,94,95.21A95,95,0,0,1,308.33,145",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M145.83,64.71C163.22,44.89,187.57,32,216,32c52.38,0,94,42.84,94,95.21A95,95,0,0,1,308.33,145",
             }
         }
     }
@@ -2085,8 +2085,8 @@ impl IconShape for IoChevronForwardCircleOutline {
                 d: "M64,256c0,106,86,192,192,192s192-86,192-192S362,64,256,64,64,150,64,256Z",
             }
             polyline {
-                points: "216 352 312 256 216 160",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "216 352 312 256 216 160",
             }
         }
     }
@@ -2155,8 +2155,8 @@ impl IconShape for IoRepeat {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "320 120 368 168 320 216",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "320 120 368 168 320 216",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -2185,20 +2185,20 @@ impl IconShape for IoAccessibilityOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "56",
                 cx: "256",
-                stroke: "#000",
-                fill: "none",
+                cy: "56",
                 stroke_width: "32",
                 r: "40",
+                fill: "none",
+                stroke: "#000",
                 stroke_linejoin: "round",
             }
             path {
-                d: "M204.23,274.44c2.9-18.06,4.2-35.52-.5-47.59-4-10.38-12.7-16.19-23.2-20.15L88,176.76c-12-4-23.21-10.7-24-23.94-1-17,14-28,29-24,0,0,88,31.14,163,31.14s162-31,162-31c18-5,30,9,30,23.79,0,14.21-11,19.21-24,23.94l-88,31.91c-8,3-21,9-26,18.18-6,10.75-5,29.53-2.1,47.59l5.9,29.63L351.21,467.9c2.8,13.15-6.3,25.44-19.4,27.74S308,489,304.12,476.28L266.56,360.35q-2.71-8.34-4.8-16.87L256,320l-5.3,21.65q-2.52,10.35-5.8,20.48L208,476.18c-4,12.85-14.5,21.75-27.6,19.46S158,480.05,160.94,467.9l37.39-163.83Z",
                 stroke_width: "32",
+                d: "M204.23,274.44c2.9-18.06,4.2-35.52-.5-47.59-4-10.38-12.7-16.19-23.2-20.15L88,176.76c-12-4-23.21-10.7-24-23.94-1-17,14-28,29-24,0,0,88,31.14,163,31.14s162-31,162-31c18-5,30,9,30,23.79,0,14.21-11,19.21-24,23.94l-88,31.91c-8,3-21,9-26,18.18-6,10.75-5,29.53-2.1,47.59l5.9,29.63L351.21,467.9c2.8,13.15-6.3,25.44-19.4,27.74S308,489,304.12,476.28L266.56,360.35q-2.71-8.34-4.8-16.87L256,320l-5.3,21.65q-2.52,10.35-5.8,20.48L208,476.18c-4,12.85-14.5,21.75-27.6,19.46S158,480.05,160.94,467.9l37.39-163.83Z",
                 fill: "none",
-                stroke: "#000",
                 stroke_linejoin: "round",
+                stroke: "#000",
             }
         }
     }
@@ -2232,27 +2232,27 @@ impl IconShape for IoMegaphoneOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M407.94,52.22S321.3,160,240,160H80a16,16,0,0,0-16,16v96a16,16,0,0,0,16,16H240c81.3,0,167.94,108.23,167.94,108.23,6.06,8,24.06,2.52,24.06-9.83V62C432,49.69,415,43.18,407.94,52.22Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M407.94,52.22S321.3,160,240,160H80a16,16,0,0,0-16,16v96a16,16,0,0,0,16,16H240c81.3,0,167.94,108.23,167.94,108.23,6.06,8,24.06,2.52,24.06-9.83V62C432,49.69,415,43.18,407.94,52.22Z",
             }
             path {
                 d: "M64,256s-16-6-16-32,16-32,16-32",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M448,246s16-4.33,16-22-16-22-16-22",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M448,246s16-4.33,16-22-16-22-16-22",
             }
             line {
+                y1: "160",
                 x1: "256",
                 x2: "256",
-                y1: "160",
                 y2: "288",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "160",
                 x1: "112",
+                y1: "160",
                 x2: "112",
                 y2: "288",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -2361,11 +2361,11 @@ impl IconShape for IoLogOutOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "432",
                 y1: "256",
-                y2: "256",
-                x1: "176",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "176",
+                x2: "432",
+                y2: "256",
             }
         }
     }
@@ -2383,8 +2383,8 @@ impl IconShape for IoMicOffSharp {
         rsx! {
             line {
                 y2: "64",
-                x1: "432",
                 y1: "400",
+                x1: "432",
                 x2: "96",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
@@ -2445,8 +2445,8 @@ impl IconShape for IoReturnUpForwardOutline {
                 points: "400 160 464 224 400 288",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M448,224H154C95.24,224,48,273.33,48,332v20",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -2464,9 +2464,9 @@ impl IconShape for IoTennisballOutline {
         rsx! {
             circle {
                 cx: "256",
-                cy: "256",
                 r: "208",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cy: "256",
             }
             path {
                 d: "M461.43,271.44c-5.09.37-8.24.56-13.43.56-114.88,0-208-93.12-208-208,0-5.37.2-8.69.6-14",
@@ -2509,47 +2509,47 @@ impl IconShape for IoCalendarClearOutline {
         rsx! {
             rect {
                 height: "384",
-                width: "416",
-                stroke: "#000",
-                stroke_linejoin: "round",
-                rx: "48",
-                y: "80",
-                stroke_width: "32",
                 fill: "none",
+                y: "80",
+                rx: "48",
                 x: "48",
+                stroke_linejoin: "round",
+                stroke: "#000",
+                stroke_width: "32",
+                width: "416",
             }
             line {
-                y2: "80",
                 stroke_width: "32",
+                x1: "128",
+                y2: "80",
+                fill: "none",
+                x2: "128",
                 stroke: "#000",
+                stroke_linejoin: "round",
                 stroke_linecap: "round",
                 y1: "48",
-                x2: "128",
-                fill: "none",
-                x1: "128",
-                stroke_linejoin: "round",
             }
             line {
                 stroke: "#000",
-                stroke_linejoin: "round",
-                stroke_linecap: "round",
-                x2: "384",
-                fill: "none",
-                y2: "80",
                 stroke_width: "32",
                 x1: "384",
+                x2: "384",
+                stroke_linejoin: "round",
+                stroke_linecap: "round",
+                y2: "80",
                 y1: "48",
+                fill: "none",
             }
             line {
-                x1: "464",
-                stroke: "#000",
-                stroke_linejoin: "round",
-                x2: "48",
-                y1: "160",
-                stroke_linecap: "round",
-                stroke_width: "32",
                 y2: "160",
+                x2: "48",
+                stroke: "#000",
+                stroke_linecap: "round",
+                x1: "464",
                 fill: "none",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+                y1: "160",
             }
         }
     }
@@ -2570,25 +2570,25 @@ impl IconShape for IoBulbOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
+                x1: "224",
                 y2: "480",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "288",
                 y1: "480",
-                x1: "224",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 x2: "304",
+                x1: "208",
+                y2: "432",
                 y1: "432",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "432",
-                x1: "208",
             }
             line {
-                x1: "256",
                 y1: "384",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "256",
                 x2: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "256",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -2633,11 +2633,11 @@ impl IconShape for IoArrowUpOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
             line {
-                x1: "256",
-                y1: "120",
                 x2: "256",
                 y2: "412",
+                y1: "120",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
+                x1: "256",
             }
         }
     }
@@ -2654,19 +2654,19 @@ impl IconShape for IoInformationCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M248,64C146.39,64,64,146.39,64,248s82.39,184,184,184,184-82.39,184-184S349.61,64,248,64Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M248,64C146.39,64,64,146.39,64,248s82.39,184,184,184,184-82.39,184-184S349.61,64,248,64Z",
             }
             polyline {
-                points: "220 220 252 220 252 336",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "220 220 252 220 252 336",
             }
             line {
-                y1: "340",
-                y2: "340",
+                x2: "296",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x1: "208",
-                x2: "296",
+                y2: "340",
+                y1: "340",
             }
             path {
                 d: "M248,130a26,26,0,1,0,26,26A26,26,0,0,0,248,130Z",
@@ -2686,32 +2686,32 @@ impl IconShape for IoBarChartOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M32,32V464a16,16,0,0,0,16,16H480",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M32,32V464a16,16,0,0,0,16,16H480",
             }
             rect {
-                height: "192",
-                width: "80",
-                y: "224",
-                rx: "20",
                 x: "96",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y: "224",
+                width: "80",
                 ry: "20",
+                height: "192",
+                rx: "20",
             }
             rect {
+                x: "240",
+                y: "176",
+                rx: "20",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 height: "240",
                 width: "80",
-                rx: "20",
-                y: "176",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 ry: "20",
-                x: "240",
             }
             rect {
-                rx: "20",
-                height: "304",
-                x: "383.64",
                 ry: "20",
+                rx: "20",
+                x: "383.64",
+                height: "304",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y: "112",
                 width: "80",
@@ -2788,45 +2788,45 @@ impl IconShape for IoLibraryOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
+                width: "64",
                 rx: "16",
-                x: "32",
                 height: "368",
                 ry: "16",
-                width: "64",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                x: "32",
                 y: "96",
             }
             line {
-                y1: "224",
-                x1: "112",
-                x2: "240",
-                y2: "224",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "112",
+                y1: "224",
+                y2: "224",
+                x2: "240",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "240",
                 x1: "112",
-                y1: "400",
+                x2: "240",
                 y2: "400",
+                y1: "400",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             rect {
-                height: "304",
+                rx: "16",
                 y: "160",
-                rx: "16",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                x: "112",
                 width: "128",
+                height: "304",
+                x: "112",
                 ry: "16",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             rect {
-                y: "48",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 ry: "16",
-                width: "96",
                 height: "416",
-                x: "256",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 rx: "16",
+                x: "256",
+                y: "48",
+                width: "96",
             }
             path {
                 d: "M422.46,96.11l-40.4,4.25c-11.12,1.17-19.18,11.57-17.93,23.1l34.92,321.59c1.26,11.53,11.37,20,22.49,18.84l40.4-4.25c11.12-1.17,19.18-11.57,17.93-23.1L445,115C443.69,103.42,433.58,94.94,422.46,96.11Z",
@@ -2881,8 +2881,8 @@ impl IconShape for IoTrashSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M296,64H216a7.91,7.91,0,0,0-8,8V96h96V72A7.91,7.91,0,0,0,296,64Z",
                 style: "fill:none",
+                d: "M296,64H216a7.91,7.91,0,0,0-8,8V96h96V72A7.91,7.91,0,0,0,296,64Z",
             }
             path {
                 d: "M292,64H220a4,4,0,0,0-4,4V96h80V68A4,4,0,0,0,292,64Z",
@@ -2940,13 +2940,13 @@ impl IconShape for IoWalletOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                x: "48",
                 height: "288",
-                width: "416",
-                rx: "48",
-                ry: "48",
                 y: "144",
+                width: "416",
+                ry: "48",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                rx: "48",
+                x: "48",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
@@ -2970,29 +2970,29 @@ impl IconShape for IoBatteryFullOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                x: "32",
-                ry: "45.7",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 rx: "45.7",
                 y: "144",
-                width: "400",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                x: "32",
                 height: "224",
+                width: "400",
+                ry: "45.7",
             }
             rect {
-                y: "198.93",
-                x: "85.69",
-                width: "292.63",
-                rx: "4",
-                ry: "4",
-                height: "114.14",
                 style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                rx: "4",
+                width: "292.63",
+                height: "114.14",
+                ry: "4",
+                x: "85.69",
+                y: "198.93",
             }
             line {
+                x2: "480",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x1: "480",
                 y1: "218.67",
-                x2: "480",
                 y2: "293.33",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -3009,12 +3009,12 @@ impl IconShape for IoTimeOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M256,64C150,64,64,150,64,256s86,192,192,192,192-86,192-192S362,64,256,64Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M256,64C150,64,64,150,64,256s86,192,192,192,192-86,192-192S362,64,256,64Z",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "256 128 256 272 352 272",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -3049,31 +3049,31 @@ impl IconShape for IoThunderstormOutline {
         rsx! {
             line {
                 y2: "400",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "352",
-                x1: "120",
                 x2: "96",
-            }
-            line {
-                x2: "120",
-                y1: "432",
+                x1: "120",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "464",
-                x1: "136",
             }
             line {
-                x1: "400",
+                x1: "136",
+                y1: "432",
+                y2: "464",
+                x2: "120",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+            }
+            line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "352",
-                y2: "400",
                 x2: "376",
+                x1: "400",
+                y2: "400",
             }
             line {
-                x2: "400",
-                y1: "432",
-                y2: "464",
-                x1: "416",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "416",
+                y2: "464",
+                y1: "432",
+                x2: "400",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -3098,50 +3098,50 @@ impl IconShape for IoTelescopeOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                stroke_linecap: "round",
-                stroke_linejoin: "round",
-                fill: "none",
-                stroke_width: "32",
                 stroke: "#000",
+                stroke_linejoin: "round",
+                stroke_linecap: "round",
+                stroke_width: "32",
+                fill: "none",
                 d: "M39.93,327.56l-4.71-8.13A24,24,0,0,1,44,286.64l86.87-50.07a16,16,0,0,1,21.89,5.86l12.71,22a16,16,0,0,1-5.86,21.85L72.76,336.35A24.06,24.06,0,0,1,39.93,327.56Z",
             }
             path {
+                d: "M170.68,273.72,147.12,233a24,24,0,0,1,8.8-32.78l124.46-71.75a16,16,0,0,1,21.89,5.86l31.57,54.59A16,16,0,0,1,328,210.76L203.51,282.5A24,24,0,0,1,170.68,273.72Z",
                 stroke_width: "32",
-                stroke_linejoin: "round",
                 fill: "none",
                 stroke: "#000",
-                d: "M170.68,273.72,147.12,233a24,24,0,0,1,8.8-32.78l124.46-71.75a16,16,0,0,1,21.89,5.86l31.57,54.59A16,16,0,0,1,328,210.76L203.51,282.5A24,24,0,0,1,170.68,273.72Z",
                 stroke_linecap: "round",
+                stroke_linejoin: "round",
             }
             path {
+                stroke: "#000",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
                 stroke_width: "32",
                 d: "M341.85,202.21l-46.51-80.43A24,24,0,0,1,304.14,89l93.29-53.78A24.07,24.07,0,0,1,430.27,44l46.51,80.43a24,24,0,0,1-8.8,32.79L374.69,211A24.06,24.06,0,0,1,341.85,202.21Z",
-                stroke: "#000",
-                stroke_linecap: "round",
                 fill: "none",
-                stroke_linejoin: "round",
             }
             line {
-                stroke_linecap: "round",
-                y2: "272.01",
-                stroke: "#000",
-                stroke_width: "32",
-                fill: "none",
-                y1: "480",
                 stroke_linejoin: "round",
                 x1: "127.59",
+                stroke_linecap: "round",
+                fill: "none",
+                y1: "480",
+                y2: "272.01",
+                stroke_width: "32",
+                stroke: "#000",
                 x2: "223.73",
             }
             line {
-                x1: "271.8",
                 stroke_width: "32",
+                y1: "256.02",
                 fill: "none",
+                stroke_linejoin: "round",
+                stroke_linecap: "round",
+                x1: "271.8",
+                x2: "368.55",
                 stroke: "#000",
                 y2: "448",
-                y1: "256.02",
-                stroke_linecap: "round",
-                stroke_linejoin: "round",
-                x2: "368.55",
             }
         }
     }
@@ -3158,18 +3158,18 @@ impl IconShape for IoAddOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "256",
                 y2: "400",
                 y1: "112",
             }
             line {
+                y2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "400",
                 y1: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "112",
-                y2: "256",
             }
         }
     }
@@ -3206,10 +3206,10 @@ impl IconShape for IoCafeSharp {
                 d: "M448,64H80V318.34a19.83,19.83,0,0,0,5.86,14.14l29.65,29.66A19.87,19.87,0,0,0,129.66,368H334.34a19.87,19.87,0,0,0,14.15-5.86l29.65-29.66A19.83,19.83,0,0,0,384,318.34V192h32a16,16,0,0,0,11.31-4.69l32-32A16,16,0,0,0,464,144V80A16,16,0,0,0,448,64Zm-16,73.37L409.37,160H384V96h48Z",
             }
             rect {
-                height: "32",
-                y: "400",
                 width: "368",
                 x: "48",
+                y: "400",
+                height: "32",
             }
         }
     }
@@ -3243,22 +3243,22 @@ impl IconShape for IoScaleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                width: "416",
-                stroke_width: "32",
                 stroke: "#000",
                 stroke_linejoin: "round",
-                x: "48",
-                y: "48",
-                fill: "none",
                 height: "416",
+                stroke_width: "32",
+                y: "48",
+                width: "416",
                 rx: "96",
+                x: "48",
+                fill: "none",
             }
             path {
-                stroke_linejoin: "round",
                 stroke_width: "32",
+                stroke_linejoin: "round",
+                fill: "none",
                 d: "M388.94,151.56c-24.46-22.28-68.72-51.4-132.94-51.4s-108.48,29.12-132.94,51.4A34.66,34.66,0,0,0,120,199.64l33.32,39.21a26.07,26.07,0,0,0,33.6,5.21c15.92-9.83,40.91-21.64,69.1-21.64s53.18,11.81,69.1,21.64a26.07,26.07,0,0,0,33.6-5.21L392,199.64A34.66,34.66,0,0,0,388.94,151.56Z",
                 stroke: "#000",
-                fill: "none",
             }
         }
     }
@@ -3283,15 +3283,15 @@ impl IconShape for IoCodeDownloadSharp {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:42px",
             }
             polyline {
-                points: "192 288.1 256 352 320 288.1",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:42px",
+                points: "192 288.1 256 352 320 288.1",
             }
             line {
-                y1: "160",
                 y2: "336.03",
-                x2: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:42px",
                 x1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:42px",
+                x2: "256",
+                y1: "160",
             }
         }
     }
@@ -3326,24 +3326,24 @@ impl IconShape for IoReorderThree {
         rsx! {
             line {
                 x1: "102",
-                y1: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
                 x2: "410",
+                y1: "256",
                 y2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
             }
             line {
-                x2: "410",
                 y2: "176",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
-                y1: "176",
                 x1: "102",
+                y1: "176",
+                x2: "410",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
                 y1: "336",
-                x1: "102",
                 x2: "410",
                 y2: "336",
+                x1: "102",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
             }
         }
     }
@@ -3507,9 +3507,9 @@ impl IconShape for IoBuildOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             circle {
+                r: "16",
                 cx: "96",
                 cy: "416",
-                r: "16",
             }
         }
     }
@@ -3526,9 +3526,9 @@ impl IconShape for IoCompassSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "256",
                 cx: "256",
                 r: "24",
+                cy: "256",
             }
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm48,256L144,368l64-160,160-64Z",
@@ -3607,9 +3607,9 @@ impl IconShape for IoLogoNoSmoking {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                y: "256",
                 width: "16",
                 height: "48",
+                y: "256",
                 x: "360",
             }
             polygon {
@@ -3623,9 +3623,9 @@ impl IconShape for IoLogoNoSmoking {
             }
             rect {
                 x: "384",
-                height: "48",
-                width: "16",
                 y: "256",
+                width: "16",
+                height: "48",
             }
             path {
                 d: "M360.1,212.7c-8.8-4.1-22-5.7-45.6-5.7h-3.6c-12.7.1-15.9-.1-20-6.1-2.8-4.2-1-14.8,3.7-21.9a8,8,0,0,0,.4-8.2,8.26,8.26,0,0,0-7-4.3,53.67,53.67,0,0,1-18.3-3.9c-10.6-4.5-15.6-12.1-15.6-23.1,0-25.8,21.8-27.7,22.8-27.7v-16c-12,0-38.8,11-38.8,43.7,0,17.5,9,31,25.7,38a66.58,66.58,0,0,0,12,3.6c-3.3,9.8-3.6,20.9,1.7,28.7,9,13.3,20.3,13.2,33.3,13.1h3.5c26.3,0,34.6,2.3,38.9,4.3,5.7,2.6,6.8,7.5,6.6,15.7v1h16v-1C375.8,235.8,376.1,220.1,360.1,212.7Z",
@@ -3709,18 +3709,18 @@ impl IconShape for IoPinOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "256",
                 r: "64",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cy: "96",
+                cx: "256",
             }
             path {
                 d: "M272,164a9,9,0,0,0-9-9H249a9,9,0,0,0-9,9V457.56a32.09,32.09,0,0,0,2.49,12.38l10.07,24a3.92,3.92,0,0,0,6.88,0l10.07-24A32.09,32.09,0,0,0,272,457.56Z",
             }
             circle {
-                r: "24",
                 cx: "280",
                 cy: "72",
+                r: "24",
             }
         }
     }
@@ -3792,28 +3792,28 @@ impl IconShape for IoBatteryHalf {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                width: "400",
-                ry: "45.7",
-                y: "144",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 height: "224",
-                rx: "45.7",
+                ry: "45.7",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 x: "32",
+                rx: "45.7",
+                width: "400",
+                y: "144",
             }
             rect {
-                rx: "4",
-                ry: "4",
-                style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
-                height: "114.13",
                 width: "154.31",
                 x: "85.69",
                 y: "198.93",
+                style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                rx: "4",
+                height: "114.13",
+                ry: "4",
             }
             line {
-                y2: "293.33",
-                y1: "218.67",
-                x1: "480",
                 x2: "480",
+                y1: "218.67",
+                y2: "293.33",
+                x1: "480",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
         }
@@ -3831,14 +3831,14 @@ impl IconShape for IoAlert {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M256,80c-8.66,0-16.58,7.36-16,16l8,216a8,8,0,0,0,8,8h0a8,8,0,0,0,8-8l8-216C272.58,87.36,264.66,80,256,80Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             circle {
-                r: "16",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                cy: "416",
                 cx: "256",
+                r: "16",
+                cy: "416",
             }
         }
     }
@@ -3879,16 +3879,16 @@ impl IconShape for IoPauseOutline {
         rsx! {
             rect {
                 x: "176",
-                y: "96",
                 width: "16",
+                y: "96",
                 height: "320",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             rect {
                 width: "16",
                 height: "320",
-                y: "96",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y: "96",
                 x: "320",
             }
         }
@@ -3923,8 +3923,8 @@ impl IconShape for IoHeartCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
             path {
                 d: "M256,360a16,16,0,0,1-9-2.78c-39.3-26.68-56.32-45-65.7-56.41-20-24.37-29.58-49.4-29.3-76.5.31-31.06,25.22-56.33,55.53-56.33,20.4,0,35,10.63,44.1,20.41a6,6,0,0,0,8.72,0c9.11-9.78,23.7-20.41,44.1-20.41,30.31,0,55.22,25.27,55.53,56.33.28,27.1-9.31,52.13-29.3,76.5-9.38,11.44-26.4,29.73-65.7,56.41A16,16,0,0,1,256,360Z",
@@ -3952,8 +3952,8 @@ impl IconShape for IoWifiOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M447.72,182.11a288,288,0,0,0-383.44,0",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M447.72,182.11a288,288,0,0,0-383.44,0",
             }
             path {
                 d: "M256,416a32,32,0,1,1,32-32A32,32,0,0,1,256,416Z",
@@ -3997,8 +3997,8 @@ impl IconShape for IoFlameOutline {
                 d: "M112,320c0-93,124-165,96-272,66,0,192,96,192,272a144,144,0,0,1-288,0Z",
             }
             path {
-                d: "M320,368c0,57.71-32,80-64,80s-64-22.29-64-80,40-86,32-128C266,240,320,310.29,320,368Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M320,368c0,57.71-32,80-64,80s-64-22.29-64-80,40-86,32-128C266,240,320,310.29,320,368Z",
             }
         }
     }
@@ -4092,8 +4092,8 @@ impl IconShape for IoBodySharp {
         rsx! {
             circle {
                 cx: "256",
-                cy: "56",
                 r: "56",
+                cy: "56",
             }
             polygon {
                 points: "464 128 48 128 48 180 192 180 160 505.13 211 512 232.65 320 279.67 320 301 512 352 505.02 320 180 464 180 464 128",
@@ -4122,12 +4122,12 @@ impl IconShape for IoLibrary {
                 d: "M112,448a32,32,0,0,0,32,32h64a32,32,0,0,0,32-32V418a2,2,0,0,0-2-2H114a2,2,0,0,0-2,2Z",
             }
             rect {
-                height: "144",
                 x: "112",
                 rx: "2",
                 ry: "2",
                 y: "240",
                 width: "128",
+                height: "144",
             }
             path {
                 d: "M320,480H288a32,32,0,0,1-32-32V64a32,32,0,0,1,32-32h32a32,32,0,0,1,32,32V448A32,32,0,0,1,320,480Z",
@@ -4184,8 +4184,8 @@ impl IconShape for IoChevronDown {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 points: "112 184 256 328 400 184",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
         }
     }
@@ -4223,34 +4223,34 @@ impl IconShape for IoStopwatchOutline {
         rsx! {
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "152",
-                x1: "256",
                 y1: "232",
                 x2: "256",
-            }
-            line {
-                y2: "72",
-                y1: "88",
-                x2: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
+                y2: "152",
                 x1: "256",
             }
             line {
-                x1: "132",
-                y1: "132",
+                y1: "88",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
+                y2: "72",
+                x2: "256",
+                x1: "256",
+            }
+            line {
                 x2: "120",
+                x1: "132",
                 y2: "120",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
+                y1: "132",
             }
             circle {
                 cx: "256",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 cy: "272",
                 r: "32",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                d: "M256,96A176,176,0,1,0,432,272,176,176,0,0,0,256,96Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M256,96A176,176,0,1,0,432,272,176,176,0,0,0,256,96Z",
             }
         }
     }
@@ -4287,8 +4287,8 @@ impl IconShape for IoEyeSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "256",
                 r: "64",
+                cy: "256",
                 cx: "256",
             }
             path {
@@ -4326,25 +4326,25 @@ impl IconShape for IoSwapVerticalSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "464 208 352 96 240 208",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 x1: "352",
-                y2: "416",
                 y1: "113.13",
                 x2: "352",
+                y2: "416",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "48 304 160 416 272 304",
             }
             line {
-                x2: "160",
-                y1: "398",
-                x1: "160",
                 y2: "96",
+                x2: "160",
+                x1: "160",
+                y1: "398",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
         }
@@ -4367,17 +4367,17 @@ impl IconShape for IoCheckmarkDone {
             }
             line {
                 x1: "144",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "288",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "48",
                 y1: "384",
             }
             line {
+                x2: "232",
+                y1: "128",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "284",
                 x1: "368",
-                y1: "128",
-                x2: "232",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -4415,25 +4415,25 @@ impl IconShape for IoReorderThreeSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                y2: "256",
-                x1: "102",
                 y1: "256",
-                x2: "410",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px",
-            }
-            line {
                 x1: "102",
-                y2: "176",
-                y1: "176",
                 x2: "410",
+                y2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px",
             }
             line {
+                y1: "176",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px",
+                x1: "102",
+                x2: "410",
+                y2: "176",
+            }
+            line {
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px",
+                x1: "102",
+                y1: "336",
                 y2: "336",
                 x2: "410",
-                x1: "102",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px",
-                y1: "336",
             }
         }
     }
@@ -4450,8 +4450,8 @@ impl IconShape for IoReturnDownForwardSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "400 352 464 288 400 224",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                points: "400 352 464 288 400 224",
             }
             polyline {
                 points: "448 288 48 288 48 160",
@@ -4530,10 +4530,10 @@ impl IconShape for IoLogoReddit {
                 d: "M324,256a36,36,0,1,0,36,36A36,36,0,0,0,324,256Z",
             }
             circle {
-                cx: "188",
-                r: "36",
                 transform: "translate(-97.43 94.17) rotate(-22.5)",
+                r: "36",
                 cy: "292",
+                cx: "188",
             }
             path {
                 d: "M496,253.77c0-31.19-25.14-56.56-56-56.56a55.72,55.72,0,0,0-35.61,12.86c-35-23.77-80.78-38.32-129.65-41.27l22-79L363.15,103c1.9,26.48,24,47.49,50.65,47.49,28,0,50.78-23,50.78-51.21S441,48,413,48c-19.53,0-36.31,11.19-44.85,28.77l-90-17.89L247.05,168.4l-4.63.13c-50.63,2.21-98.34,16.93-134.77,41.53A55.38,55.38,0,0,0,72,197.21c-30.89,0-56,25.37-56,56.56a56.43,56.43,0,0,0,28.11,49.06,98.65,98.65,0,0,0-.89,13.34c.11,39.74,22.49,77,63,105C146.36,448.77,199.51,464,256,464s109.76-15.23,149.83-42.89c40.53-28,62.85-65.27,62.85-105.06a109.32,109.32,0,0,0-.84-13.3A56.32,56.32,0,0,0,496,253.77ZM414,75a24,24,0,1,1-24,24A24,24,0,0,1,414,75ZM42.72,253.77a29.6,29.6,0,0,1,29.42-29.71,29,29,0,0,1,13.62,3.43c-15.5,14.41-26.93,30.41-34.07,47.68A30.23,30.23,0,0,1,42.72,253.77ZM390.82,399c-35.74,24.59-83.6,38.14-134.77,38.14S157,423.61,121.29,399c-33-22.79-51.24-52.26-51.24-83A78.5,78.5,0,0,1,75,288.72c5.68-15.74,16.16-30.48,31.15-43.79a155.17,155.17,0,0,1,14.76-11.53l.3-.21,0,0,.24-.17c35.72-24.52,83.52-38,134.61-38s98.9,13.51,134.62,38l.23.17.34.25A156.57,156.57,0,0,1,406,244.92c15,13.32,25.48,28.05,31.16,43.81a85.44,85.44,0,0,1,4.31,17.67,77.29,77.29,0,0,1,.6,9.65C442.06,346.77,423.86,376.24,390.82,399Zm69.6-123.92c-7.13-17.28-18.56-33.29-34.07-47.72A29.09,29.09,0,0,1,440,224a29.59,29.59,0,0,1,29.41,29.71A30.07,30.07,0,0,1,460.42,275.1Z",
@@ -4573,21 +4573,21 @@ impl IconShape for IoCheckmarkDoneSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:44px",
                 points: "465 127 241 384 149 292",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:44px",
             }
             line {
                 y1: "385",
-                x2: "47",
                 x1: "140",
+                x2: "47",
                 y2: "292",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:44px",
             }
             line {
-                x2: "236",
                 x1: "363",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:44px",
                 y2: "273",
+                x2: "236",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:44px",
                 y1: "127",
             }
         }
@@ -4609,8 +4609,8 @@ impl IconShape for IoShirtOutline {
                 d: "M314.56,48S291.78,56,256,56s-58.56-8-58.56-8a31.94,31.94,0,0,0-10.57,1.8L32,104l16.63,88,48.88,5.52A24,24,0,0,1,118.8,222.1L112,464H400l-6.8-241.9a24,24,0,0,1,21.29-24.58L463.37,192,480,104,325.13,49.8A31.94,31.94,0,0,0,314.56,48Z",
             }
             path {
-                d: "M333.31,52.66a80,80,0,0,1-154.62,0",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M333.31,52.66a80,80,0,0,1-154.62,0",
             }
         }
     }
@@ -4664,12 +4664,12 @@ impl IconShape for IoRadioButtonOnOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             circle {
-                cx: "256",
                 r: "144",
+                cx: "256",
                 cy: "256",
             }
         }
@@ -4741,67 +4741,67 @@ impl IconShape for IoBusOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                ry: "32",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                width: "352",
+                height: "192",
                 rx: "32",
                 y: "112",
-                width: "352",
+                ry: "32",
                 x: "80",
-                height: "192",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             rect {
-                rx: "32",
-                y: "304",
                 height: "128",
+                rx: "32",
                 ry: "32",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                width: "352",
                 x: "80",
+                width: "352",
+                y: "304",
             }
             path {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M400,112H112A32.09,32.09,0,0,1,80,80h0a32.09,32.09,0,0,1,32-32H400a32.09,32.09,0,0,1,32,32h0A32.09,32.09,0,0,1,400,112Z",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M144,432v22a10,10,0,0,1-10,10H106a10,10,0,0,1-10-10V432Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M416,432v22a10,10,0,0,1-10,10H378a10,10,0,0,1-10-10V432Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M416,432v22a10,10,0,0,1-10,10H378a10,10,0,0,1-10-10V432Z",
             }
             circle {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 cy: "368",
                 cx: "368",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 r: "16",
             }
             circle {
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                cy: "368",
                 cx: "144",
+                cy: "368",
                 r: "16",
             }
             line {
+                x1: "256",
                 y1: "112",
                 x2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "256",
                 y2: "304",
             }
             line {
-                y1: "80",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "80",
                 x1: "80",
+                x2: "80",
+                y1: "80",
                 y2: "368",
             }
             line {
-                x1: "432",
-                x2: "432",
-                y2: "368",
-                y1: "80",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "432",
+                x1: "432",
+                y1: "80",
+                y2: "368",
             }
         }
     }
@@ -4818,70 +4818,70 @@ impl IconShape for IoBaseballOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                y1: "108.6",
-                x2: "233.68",
-                y2: "126.19",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "294.25",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "108.6",
+                y2: "126.19",
+                x2: "233.68",
             }
             line {
-                x2: "265.63",
-                y2: "192.51",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "156.11",
                 x1: "317.13",
+                y1: "156.11",
+                y2: "192.51",
+                x2: "265.63",
             }
             line {
                 x2: "319.49",
-                y2: "246.37",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "355.89",
+                y2: "246.37",
                 y1: "194.87",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 x2: "385.81",
-                x1: "403.4",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "278.32",
+                x1: "403.4",
                 y1: "217.75",
+                y2: "278.32",
             }
             circle {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                r: "192",
-                cx: "256",
                 cy: "256",
+                cx: "256",
+                r: "192",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M432.94,255.05A192,192,0,0,1,256.63,74.35",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 x2: "126.13",
-                y2: "233.74",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "294.31",
                 x1: "108.54",
+                y1: "294.31",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "233.74",
             }
             line {
-                y1: "317.19",
-                y2: "265.69",
-                x1: "156.05",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "192.45",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "317.19",
+                x1: "156.05",
+                y2: "265.69",
             }
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "246.31",
-                y1: "355.95",
-                y2: "319.55",
                 x1: "194.81",
+                x2: "246.31",
+                y2: "319.55",
+                y1: "355.95",
             }
             line {
                 x2: "278.26",
-                y2: "385.87",
-                x1: "217.69",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "403.46",
+                x1: "217.69",
+                y2: "385.87",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M255,433.61A192,192,0,0,0,74.29,256.69",
@@ -4962,61 +4962,61 @@ impl IconShape for IoStorefrontOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                x1: "448",
-                x2: "448",
-                stroke_linejoin: "round",
-                y2: "240",
                 stroke: "#000",
                 stroke_linecap: "round",
-                stroke_width: "32",
-                fill: "none",
+                x2: "448",
                 y1: "448",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+                y2: "240",
+                x1: "448",
+                fill: "none",
             }
             line {
+                fill: "none",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
                 y2: "448",
+                stroke: "#000",
+                stroke_width: "32",
+                x1: "64",
                 y1: "240",
                 x2: "64",
-                stroke: "#000",
-                stroke_linejoin: "round",
-                x1: "64",
-                stroke_linecap: "round",
-                stroke_width: "32",
-                fill: "none",
             }
             path {
                 fill: "none",
-                d: "M382.47,48H129.53C107.74,48,88.06,60,79.6,78.46L36.3,173c-14.58,31.81,9.63,67.85,47.19,69q1,0,2,0c31.4,0,56.85-25.18,56.85-52.23,0,27,25.46,52.23,56.86,52.23S256,218.62,256,189.77c0,27,25.45,52.23,56.85,52.23s56.86-23.38,56.86-52.23c0,28.85,25.45,52.23,56.85,52.23q1,0,1.95,0c37.56-1.17,61.77-37.21,47.19-69L432.4,78.46C423.94,60,404.26,48,382.47,48Z",
-                stroke_linejoin: "round",
                 stroke: "#000",
-                stroke_width: "32",
                 stroke_linecap: "round",
+                d: "M382.47,48H129.53C107.74,48,88.06,60,79.6,78.46L36.3,173c-14.58,31.81,9.63,67.85,47.19,69q1,0,2,0c31.4,0,56.85-25.18,56.85-52.23,0,27,25.46,52.23,56.86,52.23S256,218.62,256,189.77c0,27,25.45,52.23,56.85,52.23s56.86-23.38,56.86-52.23c0,28.85,25.45,52.23,56.85,52.23q1,0,1.95,0c37.56-1.17,61.77-37.21,47.19-69L432.4,78.46C423.94,60,404.26,48,382.47,48Z",
+                stroke_width: "32",
+                stroke_linejoin: "round",
             }
             line {
-                stroke_linejoin: "round",
-                x1: "32",
-                stroke: "#000",
                 x2: "480",
-                fill: "none",
-                stroke_width: "32",
                 y2: "464",
+                fill: "none",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+                stroke: "#000",
+                x1: "32",
                 stroke_linecap: "round",
                 y1: "464",
             }
             path {
-                fill: "none",
-                stroke_linejoin: "round",
-                d: "M136,288h80a24,24,0,0,1,24,24v88a0,0,0,0,1,0,0H112a0,0,0,0,1,0,0V312A24,24,0,0,1,136,288Z",
                 stroke: "#000",
-                stroke_linecap: "round",
+                stroke_linejoin: "round",
                 stroke_width: "32",
+                stroke_linecap: "round",
+                d: "M136,288h80a24,24,0,0,1,24,24v88a0,0,0,0,1,0,0H112a0,0,0,0,1,0,0V312A24,24,0,0,1,136,288Z",
+                fill: "none",
             }
             path {
-                fill: "none",
                 d: "M288,464V312a24,24,0,0,1,24-24h64a24,24,0,0,1,24,24V464",
+                stroke_linejoin: "round",
+                stroke: "#000",
+                fill: "none",
                 stroke_linecap: "round",
                 stroke_width: "32",
-                stroke: "#000",
-                stroke_linejoin: "round",
             }
         }
     }
@@ -5033,20 +5033,20 @@ impl IconShape for IoBatteryDead {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                ry: "45.7",
-                height: "224",
                 x: "31",
+                ry: "45.7",
                 y: "144",
+                height: "224",
                 rx: "45.7",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 width: "400",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                x2: "479",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y2: "293.33",
                 x1: "479",
                 y1: "218.67",
-                y2: "293.33",
+                x2: "479",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -5122,20 +5122,20 @@ impl IconShape for IoPeopleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M402,168c-2.93,40.67-33.1,72-66,72s-63.12-31.32-66-72c-3-42.31,26.37-72,66-72S405,126.46,402,168Z",
-            }
-            path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
-                d: "M336,304c-65.17,0-127.84,32.37-143.54,95.41-2.08,8.34,3.15,16.59,11.72,16.59H467.83c8.57,0,13.77-8.25,11.72-16.59C463.85,335.36,401.18,304,336,304Z",
-            }
-            path {
-                d: "M200,185.94C197.66,218.42,173.28,244,147,244S96.3,218.43,94,185.94C91.61,152.15,115.34,128,147,128S202.39,152.77,200,185.94Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M336,304c-65.17,0-127.84,32.37-143.54,95.41-2.08,8.34,3.15,16.59,11.72,16.59H467.83c8.57,0,13.77-8.25,11.72-16.59C463.85,335.36,401.18,304,336,304Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+            }
+            path {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M200,185.94C197.66,218.42,173.28,244,147,244S96.3,218.43,94,185.94C91.61,152.15,115.34,128,147,128S202.39,152.77,200,185.94Z",
+            }
+            path {
                 d: "M206,306c-18.05-8.27-37.93-11.45-59-11.45-52,0-102.1,25.85-114.65,76.2C30.7,377.41,34.88,384,41.72,384H154",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -5153,19 +5153,19 @@ impl IconShape for IoUnlinkOutline {
         rsx! {
             path {
                 stroke_linecap: "round",
-                stroke_linejoin: "round",
-                stroke_width: "36",
-                stroke: "#000",
                 d: "M208,352H144a96,96,0,0,1,0-192h64",
                 fill: "none",
+                stroke: "#000",
+                stroke_width: "36",
+                stroke_linejoin: "round",
             }
             path {
-                fill: "none",
-                stroke_linecap: "round",
+                stroke_linejoin: "round",
                 stroke_width: "36",
                 d: "M304,160h64a96,96,0,0,1,0,192H304",
-                stroke_linejoin: "round",
                 stroke: "#000",
+                fill: "none",
+                stroke_linecap: "round",
             }
         }
     }
@@ -5209,10 +5209,10 @@ impl IconShape for IoFlashlightOutline {
             }
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                y2: "223",
                 x1: "289",
                 y1: "81",
                 x2: "431",
+                y2: "223",
             }
         }
     }
@@ -5229,8 +5229,8 @@ impl IconShape for IoMusicalNoteOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M240,343.31V424a32.28,32.28,0,0,1-21.88,30.65l-21.47,7.23c-25.9,8.71-52.65-10.75-52.65-38.32h0A34.29,34.29,0,0,1,167.25,391l50.87-17.12A32.29,32.29,0,0,0,240,343.24V92a16.13,16.13,0,0,1,12.06-15.66L360.49,48.2A6,6,0,0,1,368,54v57.76a16.13,16.13,0,0,1-12.12,15.67l-91.64,23.13A32.25,32.25,0,0,0,240,181.91V221.3",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M240,343.31V424a32.28,32.28,0,0,1-21.88,30.65l-21.47,7.23c-25.9,8.71-52.65-10.75-52.65-38.32h0A34.29,34.29,0,0,1,167.25,391l50.87-17.12A32.29,32.29,0,0,0,240,343.24V92a16.13,16.13,0,0,1,12.06-15.66L360.49,48.2A6,6,0,0,1,368,54v57.76a16.13,16.13,0,0,1-12.12,15.67l-91.64,23.13A32.25,32.25,0,0,0,240,181.91V221.3",
             }
         }
     }
@@ -5275,8 +5275,8 @@ impl IconShape for IoPencilOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M420.69,68.69,398.07,91.31l22.62,22.63,22.62-22.63a16,16,0,0,0,0-22.62h0A16,16,0,0,0,420.69,68.69Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -5293,8 +5293,8 @@ impl IconShape for IoLogoVk {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill-rule:evenodd",
                 d: "M484.7,132c3.56-11.28,0-19.48-15.75-19.48H416.58c-13.21,0-19.31,7.18-22.87,14.86,0,0-26.94,65.6-64.56,108.13-12.2,12.3-17.79,16.4-24.4,16.4-3.56,0-8.14-4.1-8.14-15.37V131.47c0-13.32-4.06-19.47-15.25-19.47H199c-8.14,0-13.22,6.15-13.22,12.3,0,12.81,18.81,15.89,20.84,51.76V254c0,16.91-3,20-9.66,20-17.79,0-61-66.11-86.92-141.44C105,117.64,99.88,112,86.66,112H33.79C18.54,112,16,119.17,16,126.86c0,13.84,17.79,83.53,82.86,175.77,43.21,63,104.72,96.86,160.13,96.86,33.56,0,37.62-7.69,37.62-20.5V331.33c0-15.37,3.05-17.93,13.73-17.93,7.62,0,21.35,4.09,52.36,34.33C398.28,383.6,404.38,400,424.21,400h52.36c15.25,0,22.37-7.69,18.3-22.55-4.57-14.86-21.86-36.38-44.23-62-12.2-14.34-30.5-30.23-36.09-37.92-7.62-10.25-5.59-14.35,0-23.57-.51,0,63.55-91.22,70.15-122",
+                style: "fill-rule:evenodd",
             }
         }
     }
@@ -5333,14 +5333,14 @@ impl IconShape for IoEllipsisVertical {
                 r: "48",
             }
             circle {
-                cy: "416",
                 cx: "256",
+                cy: "416",
                 r: "48",
             }
             circle {
+                cy: "96",
                 cx: "256",
                 r: "48",
-                cy: "96",
             }
         }
     }
@@ -5391,13 +5391,13 @@ impl IconShape for IoRadioButtonOn {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
             circle {
                 cx: "256",
-                r: "144",
                 cy: "256",
+                r: "144",
             }
         }
     }
@@ -5414,17 +5414,17 @@ impl IconShape for IoPhonePortraitOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
+                width: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x: "128",
+                height: "480",
                 rx: "48",
                 ry: "48",
-                x: "128",
-                width: "256",
-                height: "480",
                 y: "16",
             }
             path {
-                d: "M176,16h24a8,8,0,0,1,8,8h0a16,16,0,0,0,16,16h64a16,16,0,0,0,16-16h0a8,8,0,0,1,8-8h24",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M176,16h24a8,8,0,0,1,8,8h0a16,16,0,0,0,16,16h64a16,16,0,0,0,16-16h0a8,8,0,0,1,8-8h24",
             }
         }
     }
@@ -5460,10 +5460,10 @@ impl IconShape for IoArchiveSharp {
             rect {
                 x: "32",
                 y: "48",
-                height: "80",
-                rx: "12",
                 width: "448",
+                height: "80",
                 ry: "12",
+                rx: "12",
             }
             path {
                 d: "M64,160V440a24,24,0,0,0,24,24H424a24,24,0,0,0,24-24V160ZM256,390.63,169.32,304,192,281.32,240,329.37V208h32V329.37l48.07-48.07,22.61,22.64Z",
@@ -5503,19 +5503,19 @@ impl IconShape for IoThermometerOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M307.72,302.27a8,8,0,0,1-3.72-6.75V80a48,48,0,0,0-48-48h0a48,48,0,0,0-48,48V295.52a8,8,0,0,1-3.71,6.74,97.51,97.51,0,0,0-44.19,86.07A96,96,0,0,0,352,384,97.49,97.49,0,0,0,307.72,302.27Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                y2: "384",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y1: "112",
                 x2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y2: "384",
                 x1: "256",
             }
             circle {
-                cx: "256",
                 cy: "384",
+                cx: "256",
                 r: "48",
             }
         }
@@ -5567,8 +5567,8 @@ impl IconShape for IoPricetagOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M435.25,48H312.35a14.46,14.46,0,0,0-10.2,4.2L56.45,297.9a28.85,28.85,0,0,0,0,40.7l117,117a28.85,28.85,0,0,0,40.7,0L459.75,210a14.46,14.46,0,0,0,4.2-10.2V76.8A28.66,28.66,0,0,0,435.25,48Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M435.25,48H312.35a14.46,14.46,0,0,0-10.2,4.2L56.45,297.9a28.85,28.85,0,0,0,0,40.7l117,117a28.85,28.85,0,0,0,40.7,0L459.75,210a14.46,14.46,0,0,0,4.2-10.2V76.8A28.66,28.66,0,0,0,435.25,48Z",
             }
             path {
                 d: "M384,160a32,32,0,1,1,32-32A32,32,0,0,1,384,160Z",
@@ -5631,17 +5631,17 @@ impl IconShape for IoClipboardOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M336,64h32a48,48,0,0,1,48,48V432a48,48,0,0,1-48,48H144a48,48,0,0,1-48-48V112a48,48,0,0,1,48-48h32",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                d: "M336,64h32a48,48,0,0,1,48,48V432a48,48,0,0,1-48,48H144a48,48,0,0,1-48-48V112a48,48,0,0,1,48-48h32",
             }
             rect {
+                width: "160",
                 ry: "26.13",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 rx: "26.13",
+                x: "176",
                 height: "64",
                 y: "32",
-                x: "176",
-                width: "160",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -5692,19 +5692,19 @@ impl IconShape for IoToggleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 cy: "256",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 cx: "368",
                 r: "128",
             }
             rect {
-                x: "16",
-                ry: "128",
+                rx: "128",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                ry: "128",
                 width: "480",
+                x: "16",
                 y: "128",
                 height: "256",
-                rx: "128",
             }
         }
     }
@@ -5725,8 +5725,8 @@ impl IconShape for IoHomeOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M480,256,266.89,52c-5-5.28-16.69-5.34-21.78,0L32,256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -5856,8 +5856,8 @@ impl IconShape for IoShuffleOutline {
                 d: "M64,160h85.19a80,80,0,0,1,66.56,35.62l80.5,120.76A80,80,0,0,0,362.81,352H416",
             }
             path {
-                d: "M416,160H362.81a80,80,0,0,0-66.56,35.62L288,208",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M416,160H362.81a80,80,0,0,0-66.56,35.62L288,208",
             }
         }
     }
@@ -5894,23 +5894,23 @@ impl IconShape for IoTextOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "32 415.5 152 95.5 272 415.5",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "32 415.5 152 95.5 272 415.5",
             }
             line {
-                x1: "230",
                 y1: "303.5",
-                x2: "74",
                 y2: "303.5",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "230",
+                x2: "74",
             }
             path {
                 d: "M326,239.5c12.19-28.69,41-48,74-48h0c46,0,80,32,80,80v144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M320,358.5c0,36,26.86,58,60,58,54,0,100-27,100-106v-15c-20,0-58,1-92,5C355.23,304.36,320,319.5,320,358.5Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -5948,44 +5948,44 @@ impl IconShape for IoFileTrayStackedOutline {
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             line {
+                x1: "48",
+                y1: "336",
                 x2: "192",
                 y2: "336",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "336",
-                x1: "48",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "320",
                 y1: "336",
-                x2: "464",
                 y2: "336",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "464",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M192,336a64,64,0,0,0,128,0",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 d: "M384,32H128c-26,0-43,14-48,40L48,192v96a48.14,48.14,0,0,0,48,48H416a48.14,48.14,0,0,0,48-48V192L432,72C427,45,409,32,384,32Z",
             }
             line {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "48",
                 x2: "192",
                 y1: "192",
                 y2: "192",
-                x1: "48",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "192",
+                x2: "464",
                 x1: "320",
                 y1: "192",
-                x2: "464",
+                y2: "192",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M192,192a64,64,0,0,0,128,0",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -6019,8 +6019,8 @@ impl IconShape for IoRadioButtonOff {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -6060,14 +6060,14 @@ impl IconShape for IoLocationOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M256,48c-79.5,0-144,61.39-144,137,0,87,96,224.87,131.25,272.49a15.77,15.77,0,0,0,25.5,0C304,409.89,400,272.07,400,185,400,109.39,335.5,48,256,48Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M256,48c-79.5,0-144,61.39-144,137,0,87,96,224.87,131.25,272.49a15.77,15.77,0,0,0,25.5,0C304,409.89,400,272.07,400,185,400,109.39,335.5,48,256,48Z",
             }
             circle {
+                cx: "256",
                 cy: "192",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 r: "48",
-                cx: "256",
             }
         }
     }
@@ -6084,10 +6084,10 @@ impl IconShape for IoContrastOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "256",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 cx: "256",
                 r: "208",
+                cy: "256",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M256,464C141.12,464,48,370.88,48,256S141.12,48,256,48Z",
@@ -6141,34 +6141,34 @@ impl IconShape for IoCutOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "104",
                 r: "56",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cy: "152",
             }
             circle {
+                r: "56",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cy: "360",
                 cx: "104",
-                r: "56",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 d: "M157,175,146,190,183,205s3.46-6.42,7-10Z",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 d: "M154.17,334.43,460,162c-2.5-6.7-28-12-64-4-29.12,6.47-121.16,29.05-159.16,56.05C205.85,236.06,227,272,192,298c-25.61,19-44.43,22.82-44.43,22.82Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                d: "M344.47,278.24,295,306.67c14.23,6.74,65.54,33.27,117,36.33,14.92.89,30,.39,39-6Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M344.47,278.24,295,306.67c14.23,6.74,65.54,33.27,117,36.33,14.92.89,30,.39,39-6Z",
             }
             circle {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 r: "32",
                 cy: "240",
                 cx: "256",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -6185,26 +6185,26 @@ impl IconShape for IoSwapHorizontalSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "304 48 416 160 304 272",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                points: "304 48 416 160 304 272",
             }
             line {
-                x2: "96",
-                y2: "160",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
-                x1: "398.87",
                 y1: "160",
+                x1: "398.87",
+                y2: "160",
+                x2: "96",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
                 points: "208 464 96 352 208 240",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                x1: "114",
                 y1: "352",
-                x2: "416",
-                y2: "352",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                x2: "416",
+                x1: "114",
+                y2: "352",
             }
         }
     }
@@ -6225,10 +6225,10 @@ impl IconShape for IoInformationOutline {
                 points: "196 220 260 220 260 392",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:40px",
-                y2: "396",
-                x2: "325",
                 y1: "396",
+                x2: "325",
+                y2: "396",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:40px",
                 x1: "187",
             }
             path {
@@ -6249,8 +6249,8 @@ impl IconShape for IoBookmarksOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M128,80V64a48.14,48.14,0,0,1,48-48H400a48.14,48.14,0,0,1,48,48V432l-80-64",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                d: "M128,80V64a48.14,48.14,0,0,1,48-48H400a48.14,48.14,0,0,1,48,48V432l-80-64",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
@@ -6272,12 +6272,12 @@ impl IconShape for IoStopOutline {
         rsx! {
             rect {
                 ry: "24",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 width: "320",
-                rx: "24",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 y: "96",
-                x: "96",
                 height: "320",
+                x: "96",
+                rx: "24",
             }
         }
     }
@@ -6298,8 +6298,8 @@ impl IconShape for IoDocumentOutline {
                 d: "M416,221.25V416a48,48,0,0,1-48,48H144a48,48,0,0,1-48-48V96a48,48,0,0,1,48-48h98.75a32,32,0,0,1,22.62,9.37L406.63,198.63A32,32,0,0,1,416,221.25Z",
             }
             path {
-                d: "M256,56V176a32,32,0,0,0,32,32H408",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M256,56V176a32,32,0,0,0,32,32H408",
             }
         }
     }
@@ -6355,8 +6355,8 @@ impl IconShape for IoChevronBackCircleOutline {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
-                points: "296 352 200 256 296 160",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "296 352 200 256 296 160",
             }
         }
     }
@@ -6397,17 +6397,17 @@ impl IconShape for IoCarSportOutline {
                 d: "M469.71,234.6c-7.33-9.73-34.56-16.43-46.08-33.94s-20.95-55.43-50.27-70S288,112,256,112s-88,4-117.36,18.63-38.75,52.52-50.27,70S49.62,224.87,42.29,234.6,29.8,305.84,32.94,336s9,48,9,48h86c14.08,0,18.66-5.29,47.46-8C207,373,238,372,256,372s50,1,81.58,4c28.8,2.73,33.53,8,47.46,8h85s5.86-17.84,9-48S477,244.33,469.71,234.6Z",
             }
             rect {
-                y: "384",
-                height: "16",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 width: "56",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                height: "16",
                 x: "400",
+                y: "384",
             }
             rect {
-                x: "56",
-                height: "16",
-                width: "56",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                width: "56",
+                height: "16",
+                x: "56",
                 y: "384",
             }
             path {
@@ -6420,18 +6420,18 @@ impl IconShape for IoCarSportOutline {
                 d: "M80.43,243.05a3.23,3.23,0,0,1,3.1-3c11.81-.42,23.8.42,45.07,6.69a93.88,93.88,0,0,1,30.08,15.06c2.28,1.78,1.47,6.59-1.39,7.1A455.32,455.32,0,0,1,104.47,272c-10.59,0-21.52-3-23.55-12.44A52.41,52.41,0,0,1,80.43,243.05Z",
             }
             line {
-                y1: "192",
-                x1: "432",
-                x2: "448",
-                y2: "192",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "192",
+                x2: "448",
+                x1: "432",
+                y2: "192",
             }
             line {
-                x2: "80",
-                y2: "192",
-                y1: "192",
-                x1: "64",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "192",
+                y2: "192",
+                x2: "80",
+                x1: "64",
             }
             path {
                 d: "M78,211s46.35-12,178-12,178,12,178,12",
@@ -6469,137 +6469,137 @@ impl IconShape for IoLogoAppleAr {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+                stroke: "#000",
                 fill: "none",
                 points: "201.14 64 256 32 310.86 64",
-                stroke_linejoin: "round",
-                stroke: "#000",
-                stroke_width: "32",
+                stroke_linecap: "round",
             }
             line {
                 y1: "32",
-                x1: "256",
+                stroke: "#000",
+                stroke_linecap: "round",
                 fill: "none",
                 stroke_miterlimit: "10",
-                stroke: "#000",
-                y2: "112",
-                stroke_linecap: "round",
                 stroke_width: "32",
                 x2: "256",
+                x1: "256",
+                y2: "112",
             }
             polyline {
-                stroke_linejoin: "round",
-                stroke_width: "32",
                 points: "310.86 448 256 480 201.14 448",
                 fill: "none",
-                stroke_linecap: "round",
                 stroke: "#000",
+                stroke_linecap: "round",
+                stroke_width: "32",
+                stroke_linejoin: "round",
             }
             line {
-                stroke_width: "32",
-                x1: "256",
-                stroke_linecap: "round",
-                stroke_miterlimit: "10",
-                y1: "480",
-                stroke: "#000",
-                x2: "256",
-                fill: "none",
                 y2: "400",
+                stroke_miterlimit: "10",
+                fill: "none",
+                stroke_width: "32",
+                x2: "256",
+                x1: "256",
+                stroke: "#000",
+                y1: "480",
+                stroke_linecap: "round",
             }
             polyline {
-                stroke_linecap: "round",
-                fill: "none",
-                stroke_linejoin: "round",
-                stroke_width: "32",
                 stroke: "#000",
+                stroke_linejoin: "round",
                 points: "64 207.51 64 144 117.15 112.49",
+                fill: "none",
+                stroke_linecap: "round",
+                stroke_width: "32",
             }
             line {
-                y2: "184",
-                stroke_miterlimit: "10",
-                y1: "144",
                 x2: "131.29",
+                y1: "144",
                 fill: "none",
-                stroke_width: "32",
                 stroke: "#000",
-                stroke_linecap: "round",
+                stroke_miterlimit: "10",
+                stroke_width: "32",
                 x1: "64",
+                y2: "184",
+                stroke_linecap: "round",
             }
             polyline {
-                fill: "none",
-                stroke: "#000",
                 points: "448 304.49 448 368 394.85 399.51",
-                stroke_linecap: "round",
                 stroke_linejoin: "round",
                 stroke_width: "32",
+                stroke: "#000",
+                fill: "none",
+                stroke_linecap: "round",
             }
             line {
-                stroke_width: "32",
-                stroke_miterlimit: "10",
-                stroke: "#000",
-                y1: "368",
-                stroke_linecap: "round",
-                x1: "448",
-                x2: "380.71",
                 y2: "328",
+                x2: "380.71",
+                stroke_linecap: "round",
+                stroke_width: "32",
                 fill: "none",
+                y1: "368",
+                stroke: "#000",
+                x1: "448",
+                stroke_miterlimit: "10",
             }
             polyline {
-                stroke_linejoin: "round",
-                fill: "none",
                 stroke: "#000",
-                stroke_linecap: "round",
+                fill: "none",
                 points: "117.15 400 64 368 64 304.49",
+                stroke_linejoin: "round",
+                stroke_linecap: "round",
                 stroke_width: "32",
             }
             line {
                 stroke_linecap: "round",
-                x2: "130.64",
-                stroke_width: "32",
-                y2: "328",
                 x1: "64",
                 y1: "368",
-                stroke: "#000",
-                stroke_miterlimit: "10",
+                x2: "130.64",
+                y2: "328",
                 fill: "none",
-            }
-            polyline {
                 stroke_width: "32",
                 stroke: "#000",
+                stroke_miterlimit: "10",
+            }
+            polyline {
+                stroke_linejoin: "round",
+                stroke_linecap: "round",
+                stroke: "#000",
+                stroke_width: "32",
                 points: "394.85 112.49 448 144 448 207.51",
                 fill: "none",
-                stroke_linecap: "round",
-                stroke_linejoin: "round",
             }
             line {
+                stroke_miterlimit: "10",
+                y1: "144",
+                x2: "380.71",
+                stroke: "#000",
+                y2: "184",
+                stroke_width: "32",
+                x1: "448",
                 stroke_linecap: "round",
                 fill: "none",
-                stroke_miterlimit: "10",
-                stroke_width: "32",
-                y1: "144",
-                x1: "448",
-                x2: "380.71",
-                y2: "184",
-                stroke: "#000",
             }
             polyline {
-                stroke_miterlimit: "10",
-                stroke: "#000",
-                stroke_width: "32",
-                fill: "none",
-                points: "256 320 256 256 310.86 224",
                 stroke_linecap: "round",
+                points: "256 320 256 256 310.86 224",
+                fill: "none",
+                stroke_miterlimit: "10",
+                stroke_width: "32",
+                stroke: "#000",
             }
             line {
-                stroke_width: "32",
-                y1: "256",
-                y2: "224",
-                x1: "256",
                 x2: "201.14",
+                x1: "256",
+                y1: "256",
+                fill: "none",
+                stroke: "#000",
+                stroke_width: "32",
                 stroke_linecap: "round",
                 stroke_miterlimit: "10",
-                stroke: "#000",
-                fill: "none",
+                y2: "224",
             }
         }
     }
@@ -6616,14 +6616,14 @@ impl IconShape for IoTrashOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M112,112l20,320c.95,18.49,14.4,32,32,32H348c17.67,0,30.87-13.51,32-32l20-320",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 x1: "80",
                 y2: "112",
-                y1: "112",
                 x2: "432",
+                y1: "112",
                 style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
@@ -6631,25 +6631,25 @@ impl IconShape for IoTrashOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "176",
-                y2: "400",
-                x2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-            }
-            line {
                 y2: "400",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "176",
-                x2: "192",
+                x2: "256",
+            }
+            line {
                 x1: "184",
+                y2: "400",
+                x2: "192",
+                y1: "176",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 y2: "400",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "328",
                 y1: "176",
                 x2: "320",
-                x1: "328",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -6695,33 +6695,33 @@ impl IconShape for IoCarOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M80,224l37.78-88.15C123.93,121.5,139.6,112,157.11,112H354.89c17.51,0,33.18,9.5,39.33,23.85L432,224",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M80,224l37.78-88.15C123.93,121.5,139.6,112,157.11,112H354.89c17.51,0,33.18,9.5,39.33,23.85L432,224",
             }
             rect {
-                x: "80",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y: "224",
                 width: "352",
                 height: "144",
-                y: "224",
+                x: "80",
             }
             polyline {
                 points: "112 368 112 400 80 400 80 368",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "432 368 432 400 400 400 400 368",
-            }
-            circle {
-                cy: "288",
-                r: "16",
-                cx: "144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             circle {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cx: "144",
                 r: "16",
+                cy: "288",
+            }
+            circle {
                 cx: "368",
+                r: "16",
                 cy: "288",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
@@ -6740,11 +6740,11 @@ impl IconShape for IoImagesSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             ellipse {
+                cy: "219.33",
+                style: "fill:none",
                 rx: "46.29",
                 cx: "373.14",
-                cy: "219.33",
                 ry: "46",
-                style: "fill:none",
             }
             path {
                 d: "M80,132V460a20,20,0,0,0,20,20H492a20,20,0,0,0,20-20V132a20,20,0,0,0-20-20H100A20,20,0,0,0,80,132Zm293.14,41.33a46,46,0,1,1-46.28,46A46.19,46.19,0,0,1,373.14,173.33Zm-261.41,276V353.85l122.76-110.2L328.27,337l-113,112.33Zm368.27,0H259l144.58-144L480,370.59Z",
@@ -6789,24 +6789,24 @@ impl IconShape for IoTerminalOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 y: "48",
-                height: "416",
-                rx: "48",
-                width: "448",
                 x: "32",
+                width: "448",
                 ry: "48",
+                height: "416",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                rx: "48",
             }
             polyline {
-                points: "96 112 176 176 96 240",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "96 112 176 176 96 240",
             }
             line {
-                y2: "240",
-                x2: "256",
-                x1: "192",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "240",
+                x1: "192",
                 y1: "240",
+                x2: "256",
             }
         }
     }
@@ -6877,8 +6877,8 @@ impl IconShape for IoChatbubbleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M87.49,380c1.19-4.38-1.44-10.47-3.95-14.86A44.86,44.86,0,0,0,81,361.34a199.81,199.81,0,0,1-33-110C47.65,139.09,140.73,48,255.83,48,356.21,48,440,117.54,459.58,209.85A199,199,0,0,1,464,251.49c0,112.41-89.49,204.93-204.59,204.93-18.3,0-43-4.6-56.47-8.37s-26.92-8.77-30.39-10.11a31.09,31.09,0,0,0-11.12-2.07,30.71,30.71,0,0,0-12.09,2.43L81.51,462.78A16,16,0,0,1,76.84,464a9.6,9.6,0,0,1-9.57-9.74,15.85,15.85,0,0,1,.6-3.29Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -6932,8 +6932,8 @@ impl IconShape for IoCloudCircleOutline {
                 d: "M333.88,240.59a8,8,0,0,1-6.66-6.66C320.68,192.78,290.82,168,256,168c-32.37,0-53.93,21.22-62.48,43.58a7.92,7.92,0,0,1-6.16,5c-27.67,4.35-50.82,22.56-51.35,54.3-.52,31.53,25.51,57.11,57,57.11H326c27.5,0,50-13.72,50-44C376,256.77,354,243.58,333.88,240.59Z",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -6989,8 +6989,8 @@ impl IconShape for IoCallOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M451,374c-15.88-16-54.34-39.35-73-48.76C353.7,313,351.7,312,332.6,326.19c-12.74,9.47-21.21,17.93-36.12,14.75s-47.31-21.11-75.68-49.39-47.34-61.62-50.53-76.48,5.41-23.23,14.79-36c13.22-18,12.22-21,.92-45.3-8.81-18.9-32.84-57-48.9-72.8C119.9,44,119.9,47,108.83,51.6A160.15,160.15,0,0,0,83,65.37C67,76,58.12,84.83,51.91,98.1s-9,44.38,23.07,102.64,54.57,88.05,101.14,134.49S258.5,406.64,310.85,436c64.76,36.27,89.6,29.2,102.91,23s22.18-15,32.83-31a159.09,159.09,0,0,0,13.8-25.8C465,391.17,468,391.17,451,374Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M451,374c-15.88-16-54.34-39.35-73-48.76C353.7,313,351.7,312,332.6,326.19c-12.74,9.47-21.21,17.93-36.12,14.75s-47.31-21.11-75.68-49.39-47.34-61.62-50.53-76.48,5.41-23.23,14.79-36c13.22-18,12.22-21,.92-45.3-8.81-18.9-32.84-57-48.9-72.8C119.9,44,119.9,47,108.83,51.6A160.15,160.15,0,0,0,83,65.37C67,76,58.12,84.83,51.91,98.1s-9,44.38,23.07,102.64,54.57,88.05,101.14,134.49S258.5,406.64,310.85,436c64.76,36.27,89.6,29.2,102.91,23s22.18-15,32.83-31a159.09,159.09,0,0,0,13.8-25.8C465,391.17,468,391.17,451,374Z",
             }
         }
     }
@@ -7032,24 +7032,24 @@ impl IconShape for IoWalkOutline {
                 d: "M127.9,293.05V218.53S165.16,144,202.42,144",
             }
             line {
-                x2: "304",
                 x1: "370.1",
+                x2: "304",
+                y1: "274.42",
                 y2: "231",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "274.42",
             }
             line {
-                y1: "478.36",
-                y2: "400",
                 x1: "170.53",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "224",
+                y2: "400",
+                y1: "478.36",
             }
             circle {
-                cy: "69.48",
                 r: "37.26",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "258.32",
+                cy: "69.48",
             }
         }
     }
@@ -7100,41 +7100,41 @@ impl IconShape for IoMedalOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "256",
                 cy: "352",
-                r: "112",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cx: "256",
+                r: "112",
             }
             circle {
                 cx: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cy: "352",
                 r: "48",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M147,323,41.84,159.32a32,32,0,0,1-1.7-31.61l31-62A32,32,0,0,1,99.78,48H412.22a32,32,0,0,1,28.62,17.69l31,62a32,32,0,0,1-1.7,31.61L365,323",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M147,323,41.84,159.32a32,32,0,0,1-1.7-31.61l31-62A32,32,0,0,1,99.78,48H412.22a32,32,0,0,1,28.62,17.69l31,62a32,32,0,0,1-1.7,31.61L365,323",
             }
             line {
+                x1: "371",
+                y1: "144",
                 x2: "37",
                 y2: "144",
-                x1: "371",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "144",
             }
             line {
                 y2: "250",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "52.6",
-                x2: "305",
                 x1: "428.74",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "305",
+                y1: "52.6",
             }
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "144",
-                y2: "250",
-                x1: "140.55",
                 x2: "207",
+                x1: "140.55",
+                y2: "250",
             }
         }
     }
@@ -7168,23 +7168,23 @@ impl IconShape for IoPrismOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                stroke_width: "32",
+                stroke_linecap: "round",
                 fill: "none",
+                d: "M229.73,45.88,37.53,327.79a31.79,31.79,0,0,0,11.31,46L241,476.26a31.77,31.77,0,0,0,29.92,0l192.2-102.51a31.79,31.79,0,0,0,11.31-46L282.27,45.88A31.8,31.8,0,0,0,229.73,45.88Z",
+                stroke_width: "32",
                 stroke_linejoin: "round",
                 stroke: "#000",
-                stroke_linecap: "round",
-                d: "M229.73,45.88,37.53,327.79a31.79,31.79,0,0,0,11.31,46L241,476.26a31.77,31.77,0,0,0,29.92,0l192.2-102.51a31.79,31.79,0,0,0,11.31-46L282.27,45.88A31.8,31.8,0,0,0,229.73,45.88Z",
             }
             line {
-                stroke_linejoin: "round",
-                x2: "256",
-                fill: "none",
-                y2: "480",
-                stroke: "#000",
-                x1: "256",
                 y1: "32",
-                stroke_linecap: "round",
+                x1: "256",
+                stroke_linejoin: "round",
                 stroke_width: "32",
+                x2: "256",
+                stroke: "#000",
+                y2: "480",
+                stroke_linecap: "round",
+                fill: "none",
             }
         }
     }
@@ -7201,22 +7201,22 @@ impl IconShape for IoEllipsisHorizontalOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "256",
                 r: "32",
-                cy: "256",
+                cx: "256",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                cy: "256",
             }
             circle {
-                r: "32",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 cx: "416",
                 cy: "256",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                r: "32",
             }
             circle {
-                cy: "256",
-                r: "32",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 cx: "96",
+                cy: "256",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                r: "32",
             }
         }
     }
@@ -7250,34 +7250,34 @@ impl IconShape for IoMove {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "176 112 256 32 336 112",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 x2: "256",
-                y1: "32",
                 x1: "255.98",
+                y1: "32",
                 y2: "480",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "176 400 256 480 336 400",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
                 points: "400 176 480 256 400 336",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "112 176 32 256 112 336",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 x2: "480",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "32",
-                y1: "256",
                 y2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "256",
+                x1: "32",
             }
         }
     }
@@ -7321,8 +7321,8 @@ impl IconShape for IoReturnUpBack {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M64,224H358c58.76,0,106,49.33,106,108v20",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -7356,8 +7356,8 @@ impl IconShape for IoManOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M208,208V472a23.73,23.73,0,0,0,24,24h0a23.73,23.73,0,0,0,24-24",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M208,208V472a23.73,23.73,0,0,0,24,24h0a23.73,23.73,0,0,0,24-24",
             }
             path {
                 d: "M256,336V472a23.73,23.73,0,0,0,24,24h0a23.73,23.73,0,0,0,24-24V208",
@@ -7369,9 +7369,9 @@ impl IconShape for IoManOutline {
             }
             circle {
                 cy: "56",
+                cx: "256",
                 r: "40",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                cx: "256",
             }
         }
     }
@@ -7388,55 +7388,55 @@ impl IconShape for IoSunnySharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                x: "234",
                 y: "26",
-                height: "92",
                 width: "44",
+                height: "92",
+                x: "234",
             }
             rect {
-                x: "234",
                 width: "44",
                 height: "92",
                 y: "394",
+                x: "234",
             }
             rect {
-                transform: "translate(24.07 309.89) rotate(-45)",
-                y: "103.89",
                 x: "340.11",
-                height: "44",
+                y: "103.89",
+                transform: "translate(24.07 309.89) rotate(-45)",
                 width: "92",
+                height: "44",
             }
             rect {
-                transform: "translate(-236.14 202.1) rotate(-45)",
                 x: "79.89",
+                height: "44",
+                transform: "translate(-236.14 202.1) rotate(-45)",
                 y: "364.11",
                 width: "92",
-                height: "44",
             }
             rect {
                 height: "44",
-                y: "234",
                 x: "394",
-                width: "92",
-            }
-            rect {
                 y: "234",
-                height: "44",
-                x: "26",
                 width: "92",
             }
             rect {
-                transform: "translate(-159.93 386.11) rotate(-45)",
+                x: "26",
+                height: "44",
+                width: "92",
+                y: "234",
+            }
+            rect {
                 x: "364.11",
                 y: "340.11",
-                height: "92",
                 width: "44",
+                transform: "translate(-159.93 386.11) rotate(-45)",
+                height: "92",
             }
             rect {
-                transform: "translate(-52.15 125.89) rotate(-45)",
                 width: "44",
                 x: "103.89",
                 height: "92",
+                transform: "translate(-52.15 125.89) rotate(-45)",
                 y: "79.89",
             }
             path {
@@ -7480,8 +7480,8 @@ impl IconShape for IoChevronUp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "112 328 256 184 400 328",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
+                points: "112 328 256 184 400 328",
             }
         }
     }
@@ -7502,32 +7502,32 @@ impl IconShape for IoRainyOutline {
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "384",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "112",
                 y2: "432",
+                y1: "384",
                 x1: "144",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x1: "224",
+                y2: "480",
                 x2: "160",
-                y1: "384",
-                y2: "480",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "384",
+                x1: "224",
             }
             line {
-                x2: "272",
                 x1: "304",
-                y2: "432",
+                x2: "272",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "432",
                 y1: "384",
             }
             line {
-                y2: "480",
-                y1: "384",
                 x2: "320",
-                x1: "384",
+                y2: "480",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "384",
+                x1: "384",
             }
         }
     }
@@ -7544,8 +7544,8 @@ impl IconShape for IoTrendingUpSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "352 144 464 144 464 256",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
@@ -7583,8 +7583,8 @@ impl IconShape for IoAttachOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M216.08,192V335.85a40.08,40.08,0,0,0,80.15,0l.13-188.55a67.94,67.94,0,1,0-135.87,0V337.12a95.51,95.51,0,1,0,191,0V159.74",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M216.08,192V335.85a40.08,40.08,0,0,0,80.15,0l.13-188.55a67.94,67.94,0,1,0-135.87,0V337.12a95.51,95.51,0,1,0,191,0V159.74",
             }
         }
     }
@@ -7601,16 +7601,16 @@ impl IconShape for IoFilterSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                y: "120",
-                height: "48",
-                width: "480",
                 x: "16",
+                height: "48",
+                y: "120",
+                width: "480",
             }
             rect {
+                x: "96",
                 y: "232",
                 width: "320",
                 height: "48",
-                x: "96",
             }
             rect {
                 width: "128",
@@ -7633,11 +7633,11 @@ impl IconShape for IoMicOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                x2: "320",
-                y2: "448",
-                y1: "448",
                 x1: "192",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "448",
+                y2: "448",
+                x2: "320",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -7645,10 +7645,10 @@ impl IconShape for IoMicOutline {
             }
             line {
                 x2: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "448",
-                y1: "368",
                 x1: "256",
+                y1: "368",
+                y2: "448",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -7715,8 +7715,8 @@ impl IconShape for IoThumbsDownSharp {
                 d: "M56,320l156.05,12-23,89.4c-6.08,26.6.7,41.87,22.39,48.62l34.69,9.85a4,4,0,0,0,4.4-1.72l129-202.34a8,8,0,0,1,6.81-3.81H496V64H378.39a48,48,0,0,1-15.18-2.46l-76.3-25.43A80,80,0,0,0,261.61,32H83.68c-19,0-31.5,13.52-35.23,32.16L16,206.42V280C16,302.06,34,318,56,320Z",
             }
             path {
-                style: "fill:none",
                 d: "M378.45,273.93A15.84,15.84,0,0,1,386,272h0a15.93,15.93,0,0,0-7.51,1.91Z",
+                style: "fill:none",
             }
             path {
                 d: "M337.86,343.22l-.13.22a2.53,2.53,0,0,1,.13-.22c20.5-35.51,30.36-55,33.82-62h0C368.21,288.28,358.34,307.73,337.86,343.22Z",
@@ -7780,19 +7780,19 @@ impl IconShape for IoBusinessOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                x2: "176",
                 y2: "480",
-                x1: "176",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "416",
+                x1: "176",
+                x2: "176",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M80,32H272a32,32,0,0,1,32,32V476a4,4,0,0,1-4,4H48a0,0,0,0,1,0,0V64A32,32,0,0,1,80,32Z",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M320,192H432a32,32,0,0,1,32,32V480a0,0,0,0,1,0,0H304a0,0,0,0,1,0,0V208A16,16,0,0,1,320,192Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M98.08,431.87a16,16,0,1,1,13.79-13.79A16,16,0,0,1,98.08,431.87Z",
@@ -7831,11 +7831,11 @@ impl IconShape for IoBusinessOutline {
                 d: "M258.08,271.87a16,16,0,1,1,13.79-13.79A16,16,0,0,1,258.08,271.87Z",
             }
             ellipse {
-                cx: "256",
-                ry: "16.03",
-                cy: "176",
                 transform: "translate(-49.47 232.56) rotate(-45)",
+                cy: "176",
                 rx: "15.95",
+                ry: "16.03",
+                cx: "256",
             }
             path {
                 d: "M258.08,111.87a16,16,0,1,1,13.79-13.79A16,16,0,0,1,258.08,111.87Z",
@@ -7881,24 +7881,24 @@ impl IconShape for IoGiftOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             rect {
-                width: "384",
-                x: "64",
-                height: "112",
-                ry: "32",
                 rx: "32",
+                x: "64",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y: "160",
+                width: "384",
+                height: "112",
+                ry: "32",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M416,272V416a48,48,0,0,1-48,48H144a48,48,0,0,1-48-48V272",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "464",
-                x2: "256",
                 x1: "256",
                 y1: "160",
+                x2: "256",
+                y2: "464",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -7918,8 +7918,8 @@ impl IconShape for IoCaretForwardCircleOutline {
                 d: "M238.23,342.43l89.09-74.13a16,16,0,0,0,0-24.6l-89.09-74.13A16,16,0,0,0,212,181.86V330.14A16,16,0,0,0,238.23,342.43Z",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -7936,9 +7936,9 @@ impl IconShape for IoRadioSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             ellipse {
-                rx: "36",
-                ry: "35.99",
                 cy: "256",
+                ry: "35.99",
+                rx: "36",
                 cx: "256",
             }
             path {
@@ -8035,42 +8035,42 @@ impl IconShape for IoQrCode {
         rsx! {
             rect {
                 height: "80",
-                width: "80",
-                y: "336",
                 rx: "8",
                 ry: "8",
                 x: "336",
+                width: "80",
+                y: "336",
             }
             rect {
-                ry: "8",
-                width: "64",
-                height: "64",
                 x: "272",
+                width: "64",
+                ry: "8",
                 rx: "8",
                 y: "272",
+                height: "64",
             }
             rect {
+                height: "64",
+                rx: "8",
                 width: "64",
                 ry: "8",
                 y: "416",
                 x: "416",
-                height: "64",
-                rx: "8",
             }
             rect {
-                width: "48",
-                rx: "8",
                 x: "432",
                 y: "272",
+                width: "48",
                 height: "48",
                 ry: "8",
+                rx: "8",
             }
             rect {
-                rx: "8",
                 x: "272",
+                y: "432",
+                rx: "8",
                 ry: "8",
                 height: "48",
-                y: "432",
                 width: "48",
             }
             path {
@@ -8114,55 +8114,55 @@ impl IconShape for IoKeypadOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                r: "32",
                 cy: "448",
                 cx: "256",
+                r: "32",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             circle {
-                r: "32",
-                cy: "320",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 cx: "256",
+                r: "32",
+                cy: "320",
             }
             path {
                 d: "M288,192a32,32,0,1,1-32-32A32,32,0,0,1,288,192Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             circle {
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 r: "32",
                 cx: "256",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 cy: "64",
             }
             circle {
-                cy: "320",
+                cx: "384",
                 r: "32",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
-                cx: "384",
+                cy: "320",
             }
             circle {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
-                cx: "384",
-                r: "32",
                 cy: "192",
+                cx: "384",
+                r: "32",
             }
             circle {
-                cx: "384",
                 cy: "64",
                 r: "32",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                cx: "384",
             }
             circle {
-                cx: "128",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 r: "32",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                cx: "128",
                 cy: "320",
             }
             circle {
-                cx: "128",
                 r: "32",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                cx: "128",
                 cy: "192",
             }
             circle {
@@ -8186,58 +8186,58 @@ impl IconShape for IoQrCodeSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                x: "336",
-                y: "336",
                 width: "80",
+                x: "336",
                 height: "80",
+                y: "336",
             }
             rect {
-                width: "64",
                 x: "272",
-                height: "64",
                 y: "272",
+                width: "64",
+                height: "64",
             }
             rect {
-                x: "416",
                 y: "416",
-                height: "64",
                 width: "64",
+                height: "64",
+                x: "416",
             }
             rect {
-                y: "272",
-                height: "48",
                 x: "432",
+                y: "272",
                 width: "48",
+                height: "48",
             }
             rect {
-                height: "48",
                 x: "272",
-                y: "432",
+                height: "48",
                 width: "48",
+                y: "432",
             }
             rect {
                 y: "96",
+                height: "80",
                 width: "80",
                 x: "336",
-                height: "80",
             }
             path {
                 d: "M480,240H272V32H480ZM316,196H436V76H316Z",
             }
             rect {
-                x: "96",
-                y: "96",
-                width: "80",
                 height: "80",
+                x: "96",
+                width: "80",
+                y: "96",
             }
             path {
                 d: "M240,240H32V32H240ZM76,196H196V76H76Z",
             }
             rect {
-                height: "80",
+                width: "80",
                 y: "336",
                 x: "96",
-                width: "80",
+                height: "80",
             }
             path {
                 d: "M240,480H32V272H240ZM76,436H196V316H76Z",
@@ -8257,20 +8257,20 @@ impl IconShape for IoBatteryDeadOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                y: "144",
                 width: "400",
-                height: "224",
                 rx: "45.7",
                 ry: "45.7",
-                x: "31",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                x: "31",
+                y: "144",
+                height: "224",
             }
             line {
                 x1: "479",
-                x2: "479",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y1: "218.67",
                 y2: "293.33",
+                x2: "479",
             }
         }
     }
@@ -8289,15 +8289,15 @@ impl IconShape for IoReorderTwoOutline {
             line {
                 y1: "304",
                 y2: "304",
-                x1: "112",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "400",
+                x1: "112",
             }
             line {
-                y2: "208",
-                x1: "112",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "208",
+                y2: "208",
+                x1: "112",
                 x2: "400",
             }
         }
@@ -8318,11 +8318,11 @@ impl IconShape for IoFlashlightSharp {
                 points: "330 16 287.32 58.7 453.3 224.68 496 182 330 16",
             }
             ellipse {
-                cy: "287.3",
+                ry: "19.96",
                 rx: "20.03",
                 cx: "224.68",
+                cy: "287.3",
                 style: "fill:none",
-                ry: "19.96",
             }
             path {
                 d: "M429.21,243.85,268,82.59,249.65,168,16,402l94,94L344.23,262.2Zm-189,56.07a20,20,0,1,1,0-25.25A20,20,0,0,1,240.19,299.92Z",
@@ -8389,103 +8389,103 @@ impl IconShape for IoFilmOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
+                y: "96",
                 width: "416",
                 x: "48",
+                rx: "28",
+                ry: "28",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 height: "320",
-                rx: "28",
-                y: "96",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                ry: "28",
             }
             rect {
                 height: "80",
-                rx: "28",
+                width: "80",
                 ry: "28",
+                rx: "28",
+                x: "384",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 y: "336",
-                x: "384",
-                width: "80",
             }
             rect {
                 y: "256",
-                height: "80",
-                width: "80",
-                x: "384",
                 ry: "28",
+                x: "384",
+                width: "80",
                 rx: "28",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                height: "80",
             }
             rect {
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                width: "80",
+                height: "80",
+                ry: "28",
                 x: "384",
                 y: "176",
-                width: "80",
-                height: "80",
                 rx: "28",
-                ry: "28",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             rect {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                width: "80",
-                height: "80",
-                ry: "28",
                 y: "96",
-                x: "384",
                 rx: "28",
+                width: "80",
+                ry: "28",
+                x: "384",
+                height: "80",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             rect {
+                height: "80",
                 rx: "28",
+                width: "80",
+                x: "48",
+                ry: "28",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 y: "336",
-                width: "80",
-                ry: "28",
-                x: "48",
-                height: "80",
             }
             rect {
-                width: "80",
-                height: "80",
-                rx: "28",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 y: "256",
-                x: "48",
+                rx: "28",
                 ry: "28",
+                width: "80",
+                x: "48",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                height: "80",
             }
             rect {
+                width: "80",
                 y: "176",
-                height: "80",
-                rx: "28",
                 ry: "28",
+                rx: "28",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 x: "48",
-                width: "80",
+                height: "80",
             }
             rect {
+                x: "48",
+                width: "80",
                 height: "80",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 rx: "28",
                 ry: "28",
-                x: "48",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 y: "96",
-                width: "80",
             }
             rect {
                 height: "160",
                 rx: "28",
-                width: "256",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                y: "96",
                 ry: "28",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 x: "128",
+                y: "96",
+                width: "256",
             }
             rect {
                 y: "256",
+                x: "128",
+                height: "160",
                 rx: "28",
                 ry: "28",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                height: "160",
                 width: "256",
-                x: "128",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -8519,45 +8519,45 @@ impl IconShape for IoSnowOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
+                y1: "32",
+                x1: "256",
                 x2: "256",
                 y2: "480",
-                x1: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "32",
             }
             path {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M313.72,80A111.47,111.47,0,0,1,256,96a111.47,111.47,0,0,1-57.72-16",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M198.28,432a112.11,112.11,0,0,1,115.44,0",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
+                x2: "62.01",
+                y1: "144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "368",
-                y1: "144",
                 x1: "449.99",
-                x2: "62.01",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M437.27,218a112.09,112.09,0,0,1-57.71-100",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M74.73,294a112.09,112.09,0,0,1,57.71,100",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y2: "368",
-                x2: "449.99",
-                x1: "62.01",
                 y1: "144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "62.01",
+                y2: "368",
+                x2: "449.99",
             }
             path {
-                d: "M74.73,218a112.09,112.09,0,0,0,57.71-100",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M74.73,218a112.09,112.09,0,0,0,57.71-100",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -8579,8 +8579,8 @@ impl IconShape for IoEllipsisHorizontalCircle {
         rsx! {
             circle {
                 r: "26",
-                cy: "256",
                 cx: "256",
+                cy: "256",
             }
             circle {
                 r: "26",
@@ -8589,12 +8589,12 @@ impl IconShape for IoEllipsisHorizontalCircle {
             }
             circle {
                 cy: "256",
-                cx: "166",
                 r: "26",
+                cx: "166",
             }
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
         }
     }
@@ -8631,28 +8631,28 @@ impl IconShape for IoGitBranchOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "96",
-                r: "48",
                 cx: "160",
+                cy: "96",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                r: "48",
             }
             circle {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                cx: "160",
                 r: "48",
                 cy: "416",
-            }
-            line {
-                y1: "368",
-                x2: "160",
-                y2: "144",
-                x1: "160",
+                cx: "160",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            line {
+                x1: "160",
+                x2: "160",
+                y1: "368",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "144",
+            }
             circle {
-                r: "48",
-                cx: "352",
                 cy: "160",
+                cx: "352",
+                r: "48",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
@@ -8694,26 +8694,26 @@ impl IconShape for IoCodeWorking {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
+                cy: "256",
+                style: "stroke:#000;stroke-miterlimit:10;stroke-width:10px",
+                r: "26",
                 cx: "256",
-                cy: "256",
-                r: "26",
-                style: "stroke:#000;stroke-miterlimit:10;stroke-width:10px",
             }
             circle {
-                style: "stroke:#000;stroke-miterlimit:10;stroke-width:10px",
-                cy: "256",
                 cx: "346",
+                cy: "256",
+                style: "stroke:#000;stroke-miterlimit:10;stroke-width:10px",
                 r: "26",
             }
             circle {
-                cy: "256",
-                r: "26",
                 cx: "166",
                 style: "stroke:#000;stroke-miterlimit:10;stroke-width:10px",
+                cy: "256",
+                r: "26",
             }
             polyline {
-                points: "160 368 32 256 160 144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:42px",
+                points: "160 368 32 256 160 144",
             }
             polyline {
                 points: "352 368 480 256 352 144",
@@ -8734,22 +8734,22 @@ impl IconShape for IoBan {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "256",
-                fill: "none",
-                r: "200",
-                stroke: "#000",
                 stroke_miterlimit: "10",
+                cy: "256",
+                stroke: "#000",
                 stroke_width: "48",
                 cx: "256",
+                r: "200",
+                fill: "none",
             }
             line {
-                x1: "114.58",
-                y1: "114.58",
                 stroke: "#000",
-                stroke_miterlimit: "10",
                 stroke_width: "48",
+                x1: "114.58",
                 x2: "397.42",
                 y2: "397.42",
+                y1: "114.58",
+                stroke_miterlimit: "10",
             }
         }
     }
@@ -8796,29 +8796,29 @@ impl IconShape for IoGlobeSharp {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:44px",
             }
             path {
-                d: "M256,48c-58.07,0-112.67,93.13-112.67,208S197.93,464,256,464s112.67-93.13,112.67-208S314.07,48,256,48Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:44px",
+                d: "M256,48c-58.07,0-112.67,93.13-112.67,208S197.93,464,256,464s112.67-93.13,112.67-208S314.07,48,256,48Z",
             }
             path {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
                 d: "M117.33,121.33c38.24,27.15,86.38,43.34,138.67,43.34s100.43-16.19,138.67-43.34",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
             }
             path {
-                d: "M394.67,390.67c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43,16.19-138.67,43.34",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
+                d: "M394.67,390.67c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43,16.19-138.67,43.34",
             }
             line {
+                y2: "464",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:44px",
-                x2: "256",
                 x1: "256",
                 y1: "48",
-                y2: "464",
+                x2: "256",
             }
             line {
-                y1: "256",
                 x1: "464",
-                y2: "256",
+                y1: "256",
                 x2: "48",
+                y2: "256",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:44px",
             }
         }
@@ -8837,45 +8837,45 @@ impl IconShape for IoListSharp {
         rsx! {
             line {
                 x2: "464",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:48px",
                 y2: "144",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:48px",
                 x1: "144",
                 y1: "144",
             }
             line {
-                x1: "144",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:48px",
-                y2: "256",
-                y1: "256",
                 x2: "464",
+                y2: "256",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:48px",
+                x1: "144",
+                y1: "256",
             }
             line {
-                y1: "368",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:48px",
-                x2: "464",
                 x1: "144",
+                y1: "368",
                 y2: "368",
+                x2: "464",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:48px",
             }
             rect {
+                height: "32",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
+                x: "64",
                 y: "128",
+                width: "32",
+            }
+            rect {
                 x: "64",
                 width: "32",
-                height: "32",
-            }
-            rect {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
                 y: "240",
                 height: "32",
-                x: "64",
-                width: "32",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
             }
             rect {
-                y: "352",
+                height: "32",
                 x: "64",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
                 width: "32",
-                height: "32",
+                y: "352",
             }
         }
     }
@@ -8967,8 +8967,8 @@ impl IconShape for IoPlaySkipBackCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z",
             }
             path {
                 d: "M192,176a16,16,0,0,1,16,16v53l111.68-67.46A10.78,10.78,0,0,1,336,186.87V325.13a10.78,10.78,0,0,1-16.32,9.31L208,267v53a16,16,0,0,1-32,0V192A16,16,0,0,1,192,176Z",
@@ -9010,8 +9010,8 @@ impl IconShape for IoAtCircleOutline {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:28px",
                 d: "M300.81,358.29c-20.83,7.42-34.05,9.59-54.19,9.59-61.17,0-106.39-50.07-101-111.84S205,144.21,266.14,144.21c68.92,0,106.79,45.55,101.47,106.55-4,45.54-32.8,58.66-47.89,56-14.2-2.55-25.92-15.52-23.75-40.35l5.62-44.66c-7.58-9.17-28.11-18-49.93-14.54C231.77,210.3,209,228,206.56,256s14.49,50.84,39.93,50.84,47.86-18.39,50.69-50.84",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:28px",
             }
         }
     }
@@ -9028,24 +9028,24 @@ impl IconShape for IoTransgenderOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                r: "128",
-                cy: "256",
-                cx: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cx: "256",
+                cy: "256",
+                r: "128",
             }
             line {
-                y1: "352",
                 x1: "448",
                 x2: "352",
-                y2: "448",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "352",
+                y2: "448",
             }
             line {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "176",
                 y1: "80",
-                y2: "175.98",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "80.02",
+                y2: "175.98",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -9056,23 +9056,23 @@ impl IconShape for IoTransgenderOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "48",
-                x1: "464",
-                x2: "346.5",
                 y2: "165.5",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "346.5",
+                x1: "464",
+                y1: "48",
             }
             line {
-                y2: "165.49",
                 y1: "48",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "48",
                 x2: "165.49",
+                y2: "165.49",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y2: "346.37",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "464",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "346.37",
                 y1: "464",
                 x2: "346.65",
             }
@@ -9125,72 +9125,72 @@ impl IconShape for IoHelpBuoyOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "256",
-                cy: "256",
                 r: "208",
+                cy: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cx: "256",
             }
             circle {
                 cy: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "256",
                 r: "80",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 y1: "54",
-                x1: "208",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "216",
                 y2: "186",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "208",
+                x2: "216",
             }
             line {
+                x2: "304",
                 y2: "54",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "186",
                 x1: "296",
-                x2: "304",
             }
             line {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "208",
-                y1: "458",
                 x2: "216",
+                y1: "458",
                 y2: "326",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x1: "296",
-                y1: "326",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "326",
+                x1: "296",
                 x2: "304",
                 y2: "458",
             }
             line {
-                x2: "326",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "458",
                 y1: "208",
+                x2: "326",
                 y2: "216",
+                x1: "458",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+            }
+            line {
+                x1: "326",
+                y1: "296",
+                x2: "458",
+                y2: "304",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+            }
+            line {
+                y2: "216",
+                x1: "54",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "208",
+                x2: "186",
             }
             line {
                 y2: "304",
-                x1: "326",
-                x2: "458",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "296",
-            }
-            line {
-                y1: "208",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "216",
-                x2: "186",
-                x1: "54",
-            }
-            line {
-                x1: "186",
                 x2: "54",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "304",
-                y1: "296",
+                x1: "186",
             }
         }
     }
@@ -9241,26 +9241,26 @@ impl IconShape for IoEyedropOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M262.51,204.22,70,396.69C57.56,409.15,48,464,48,464s54.38-9.09,67.31-22L307.8,249.51",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             rect {
+                transform: "translate(234.54 -157.83) rotate(45)",
+                x: "211.72",
+                height: "64.05",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                ry: "32.03",
                 width: "192.15",
                 rx: "32.03",
                 y: "172.19",
-                x: "211.72",
-                height: "64.05",
-                ry: "32.03",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                transform: "translate(234.54 -157.83) rotate(45)",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M289.91,141s20.57,8.57,37.22-8.08L381.8,62.29c18.5-19.41,49.26-18.69,67.94,0h0c18.68,18.68,19.34,48.81,0,67.93l-70.68,54.67c-15.65,15.65-8.08,37.22-8.08,37.22",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M115.31,442s-26.48,17.34-44.56-.73S70,396.69,70,396.69",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -9277,9 +9277,9 @@ impl IconShape for IoLogoWechat {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
+                d: "M408.67,298.53a21,21,0,1,1,20.9-21,20.85,20.85,0,0,1-20.9,21m-102.17,0a21,21,0,1,1,20.9-21,20.84,20.84,0,0,1-20.9,21M458.59,417.39C491.1,394.08,512,359.13,512,319.51c0-71.08-68.5-129.35-154.41-129.35S203.17,248.43,203.17,319.51s68.5,129.34,154.42,129.34c17.41,0,34.83-2.33,49.92-7,2.49-.86,3.48-1.17,4.64-1.17a16.67,16.67,0,0,1,8.13,2.34L454,462.83a11.62,11.62,0,0,0,3.48,1.17,5,5,0,0,0,4.65-4.66,14.27,14.27,0,0,0-.77-3.86c-.41-1.46-5-16-7.36-25.27a18.94,18.94,0,0,1-.33-3.47,11.4,11.4,0,0,1,5-9.35",
                 id: "XMLID_501_-1",
                 data_name: "XMLID 501 -1",
-                d: "M408.67,298.53a21,21,0,1,1,20.9-21,20.85,20.85,0,0,1-20.9,21m-102.17,0a21,21,0,1,1,20.9-21,20.84,20.84,0,0,1-20.9,21M458.59,417.39C491.1,394.08,512,359.13,512,319.51c0-71.08-68.5-129.35-154.41-129.35S203.17,248.43,203.17,319.51s68.5,129.34,154.42,129.34c17.41,0,34.83-2.33,49.92-7,2.49-.86,3.48-1.17,4.64-1.17a16.67,16.67,0,0,1,8.13,2.34L454,462.83a11.62,11.62,0,0,0,3.48,1.17,5,5,0,0,0,4.65-4.66,14.27,14.27,0,0,0-.77-3.86c-.41-1.46-5-16-7.36-25.27a18.94,18.94,0,0,1-.33-3.47,11.4,11.4,0,0,1,5-9.35",
             }
             path {
                 data_name: "XMLID 505 -7",
@@ -9336,9 +9336,9 @@ impl IconShape for IoEllipseOutline {
         rsx! {
             circle {
                 cx: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                r: "192",
                 cy: "256",
+                r: "192",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -9376,22 +9376,22 @@ impl IconShape for IoSwapVertical {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x1: "352",
-                x2: "352",
-                y2: "416",
-                y1: "113.13",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "113.13",
+                x1: "352",
+                y2: "416",
+                x2: "352",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "48 304 160 416 272 304",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x1: "160",
-                y2: "96",
                 y1: "398",
                 x2: "160",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "160",
+                y2: "96",
             }
         }
     }
@@ -9411,8 +9411,8 @@ impl IconShape for IoArrowUndoCircleOutline {
                 d: "M245.09,327.74V290.42c57.07,0,84.51,13.47,108.58,38.68,5.4,5.65,15,1.32,14.29-6.43-5.45-61.45-34.14-117.09-122.87-117.09V168.26a8.32,8.32,0,0,0-14.05-6L146.58,242a8.2,8.2,0,0,0,0,11.94L231,333.71A8.32,8.32,0,0,0,245.09,327.74Z",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M256,64C150,64,64,150,64,256s86,192,192,192,192-86,192-192S362,64,256,64Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -9429,63 +9429,63 @@ impl IconShape for IoOptionsOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "128",
                 y2: "128",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "448",
                 x1: "368",
-                y1: "128",
             }
             line {
-                y2: "128",
+                x1: "64",
                 y1: "128",
+                y2: "128",
                 x2: "304",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "64",
             }
             line {
                 x1: "368",
+                x2: "448",
                 y2: "384",
                 y1: "384",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "448",
             }
             line {
-                y1: "384",
-                x2: "304",
                 y2: "384",
-                x1: "64",
+                y1: "384",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "64",
+                x2: "304",
             }
             line {
                 x2: "448",
                 y1: "256",
-                y2: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "208",
+                y2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "64",
                 y2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "256",
                 x2: "144",
+                x1: "64",
             }
             circle {
-                cy: "128",
                 cx: "336",
+                cy: "128",
                 r: "32",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             circle {
-                r: "32",
-                cx: "176",
                 cy: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cx: "176",
+                r: "32",
             }
             circle {
-                r: "32",
                 cx: "336",
                 cy: "384",
+                r: "32",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
@@ -9507,11 +9507,11 @@ impl IconShape for IoSwapHorizontal {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "160",
-                y2: "160",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "96",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "160",
                 x1: "398.87",
+                y2: "160",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -9519,10 +9519,10 @@ impl IconShape for IoSwapHorizontal {
             }
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "352",
                 x1: "114",
                 y1: "352",
                 x2: "416",
+                y2: "352",
             }
         }
     }
@@ -9556,40 +9556,40 @@ impl IconShape for IoEaselOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                ry: "32",
-                x: "48",
-                height: "272",
-                y: "80",
-                rx: "32",
                 width: "416",
+                rx: "32",
+                ry: "32",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                x: "48",
+                y: "80",
+                height: "272",
             }
             line {
-                y2: "352",
                 x2: "256",
+                y2: "352",
                 x1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "416",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x1: "256",
-                y1: "80",
                 x2: "256",
-                y2: "48",
+                y1: "80",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "256",
+                y2: "48",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "368",
                 y1: "464",
+                x2: "368",
                 y2: "352",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "400",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "112",
-                y1: "464",
                 x2: "144",
+                y1: "464",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "352",
             }
         }
@@ -9607,13 +9607,13 @@ impl IconShape for IoPhoneLandscapeOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                x: "128",
-                y: "16",
-                transform: "translate(0 512) rotate(-90)",
-                height: "480",
                 ry: "48",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y: "16",
                 rx: "48",
+                x: "128",
+                transform: "translate(0 512) rotate(-90)",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                height: "480",
                 width: "256",
             }
             path {
@@ -9635,11 +9635,11 @@ impl IconShape for IoFlashOffSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                x: "240.44",
-                y: "0.03",
                 width: "31.11",
-                transform: "translate(-106.04 256) rotate(-45)",
+                y: "0.03",
                 height: "511.95",
+                x: "240.44",
+                transform: "translate(-106.04 256) rotate(-45)",
             }
             polygon {
                 points: "80 304 224 304 192 496 300.18 366.18 151.82 217.82 80 304",
@@ -9664,93 +9664,93 @@ impl IconShape for IoQrCodeOutline {
             rect {
                 width: "80",
                 rx: "8",
-                ry: "8",
-                x: "336",
-                y: "336",
                 height: "80",
+                ry: "8",
+                y: "336",
+                x: "336",
             }
             rect {
-                height: "64",
-                rx: "8",
-                ry: "8",
-                y: "272",
-                width: "64",
                 x: "272",
+                width: "64",
+                ry: "8",
+                rx: "8",
+                height: "64",
+                y: "272",
             }
             rect {
-                ry: "8",
                 width: "64",
                 x: "416",
-                height: "64",
                 y: "416",
                 rx: "8",
+                ry: "8",
+                height: "64",
             }
             rect {
-                y: "272",
-                width: "48",
-                height: "48",
-                rx: "8",
-                ry: "8",
                 x: "432",
+                width: "48",
+                y: "272",
+                height: "48",
+                rx: "8",
+                ry: "8",
             }
             rect {
-                x: "272",
                 width: "48",
+                y: "432",
+                x: "272",
                 height: "48",
                 ry: "8",
-                y: "432",
                 rx: "8",
             }
             rect {
-                height: "80",
+                ry: "8",
                 x: "336",
-                rx: "8",
-                ry: "8",
-                y: "96",
                 width: "80",
+                y: "96",
+                height: "80",
+                rx: "8",
             }
             rect {
+                rx: "16",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 height: "176",
                 ry: "16",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x: "288",
-                y: "48",
                 width: "176",
-                rx: "16",
+                y: "48",
             }
             rect {
                 y: "96",
+                x: "96",
                 width: "80",
                 rx: "8",
-                x: "96",
                 height: "80",
                 ry: "8",
             }
             rect {
-                ry: "16",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                width: "176",
                 height: "176",
                 rx: "16",
-                x: "48",
                 y: "48",
+                ry: "16",
+                x: "48",
+                width: "176",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             rect {
                 rx: "8",
                 ry: "8",
-                y: "336",
                 x: "96",
+                y: "336",
                 width: "80",
                 height: "80",
             }
             rect {
-                height: "176",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                ry: "16",
-                x: "48",
                 y: "288",
+                x: "48",
                 rx: "16",
+                ry: "16",
                 width: "176",
+                height: "176",
             }
         }
     }
@@ -9767,19 +9767,19 @@ impl IconShape for IoLink {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M200.66,352H144a96,96,0,0,1,0-192h55.41",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
+                d: "M200.66,352H144a96,96,0,0,1,0-192h55.41",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 d: "M312.59,160H368a96,96,0,0,1,0,192H311.34",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
             line {
-                x2: "344.93",
                 x1: "169.07",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
-                y2: "256",
                 y1: "256",
+                x2: "344.93",
+                y2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
         }
     }
@@ -9856,10 +9856,10 @@ impl IconShape for IoPowerSharp {
                 d: "M256,464C141.31,464,48,370.77,48,256.18A207.44,207.44,0,0,1,122.76,96.05l16.9-14,28.17,33.72-16.9,14A163.72,163.72,0,0,0,92,256.18c0,90.39,73.57,163.93,164,163.93s164-73.54,164-163.93a163.38,163.38,0,0,0-59.83-126.36l-17-14,28-33.82,17,14A207.13,207.13,0,0,1,464,256.18C464,370.77,370.69,464,256,464Z",
             }
             rect {
-                x: "234",
                 y: "48",
                 width: "44",
                 height: "224",
+                x: "234",
             }
         }
     }
@@ -9916,16 +9916,16 @@ impl IconShape for IoVolumeHighSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 d: "M320,320c9.74-19.38,16-40.84,16-64,0-23.48-6-44.42-16-64",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 d: "M368,368c19.48-33.92,32-64.06,32-112s-12-77.74-32-112",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                d: "M416,416c30-46,48-91.43,48-160S446,143,416,96",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                d: "M416,416c30-46,48-91.43,48-160S446,143,416,96",
             }
             polygon {
                 points: "125.65 176.1 32 176.1 32 335.9 125.65 335.9 256 440 256 72 125.65 176.1",
@@ -9979,15 +9979,15 @@ impl IconShape for IoBookOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M256,160c16-63.16,76.43-95.41,208-96a15.94,15.94,0,0,1,16,16V368a16,16,0,0,1-16,16c-128,0-177.45,25.81-208,64-30.37-38-80-64-208-64-9.88,0-16-8.05-16-17.93V80A15.94,15.94,0,0,1,48,64C179.57,64.59,240,96.84,256,160Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y2: "448",
-                x1: "256",
-                x2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "160",
+                x1: "256",
+                x2: "256",
+                y2: "448",
             }
         }
     }
@@ -10004,24 +10004,24 @@ impl IconShape for IoGitCommitOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 r: "96",
+                cy: "256",
             }
             line {
+                x1: "160",
+                y1: "256",
+                y2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "48",
-                y1: "256",
-                y2: "256",
-                x1: "160",
             }
             line {
-                y1: "256",
-                x2: "352",
-                y2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "256",
                 x1: "464",
+                x2: "352",
+                y1: "256",
             }
         }
     }
@@ -10038,25 +10038,25 @@ impl IconShape for IoMailOpenOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M441.6,171.61,266.87,85.37a24.57,24.57,0,0,0-21.74,0L70.4,171.61A40,40,0,0,0,48,207.39V392c0,22.09,18.14,40,40.52,40h335c22.38,0,40.52-17.91,40.52-40V207.39A40,40,0,0,0,441.6,171.61Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M397.33,368,268.07,267.46a24,24,0,0,0-29.47,0L109.33,368",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M397.33,368,268.07,267.46a24,24,0,0,0-29.47,0L109.33,368",
             }
             line {
-                y2: "192",
-                y1: "295",
-                x2: "445.33",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "309.33",
+                x2: "445.33",
+                y2: "192",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "295",
             }
             line {
                 y1: "192",
                 y2: "297",
-                x2: "200.33",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "200.33",
                 x1: "61.33",
             }
         }
@@ -10074,26 +10074,26 @@ impl IconShape for IoCropOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M144,48V320a48,48,0,0,0,48,48H464",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M144,48V320a48,48,0,0,0,48,48H464",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M368,304V192a48,48,0,0,0-48-48H208",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "368",
                 y2: "464",
-                y1: "368",
-                x1: "368",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "368",
+                x1: "368",
+                y1: "368",
             }
             line {
                 x1: "144",
                 y1: "144",
                 x2: "48",
-                y2: "144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "144",
             }
         }
     }
@@ -10266,12 +10266,12 @@ impl IconShape for IoAt {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M320,254.27c-4.5,51-40.12,80-80.55,80s-67.34-35.82-63.45-80,37.12-80,77.55-80S323.88,210.27,320,254.27Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M320,254.27c-4.5,51-40.12,80-80.55,80s-67.34-35.82-63.45-80,37.12-80,77.55-80S323.88,210.27,320,254.27Z",
             }
             path {
-                d: "M319.77,415.77c-28.56,12-47.28,14.5-79.28,14.5-97.2,0-169-78.8-160.49-176s94.31-176,191.51-176C381,78.27,441.19,150,432.73,246c-6.31,71.67-52.11,92.32-76.09,88.07-22.56-4-41.18-24.42-37.74-63.5l8.48-96.25",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M319.77,415.77c-28.56,12-47.28,14.5-79.28,14.5-97.2,0-169-78.8-160.49-176s94.31-176,191.51-176C381,78.27,441.19,150,432.73,246c-6.31,71.67-52.11,92.32-76.09,88.07-22.56-4-41.18-24.42-37.74-63.5l8.48-96.25",
             }
         }
     }
@@ -10305,84 +10305,84 @@ impl IconShape for IoKeypadSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
+                height: "96",
+                y: "16",
+                width: "96",
+                rx: "8",
+                ry: "8",
                 x: "80",
-                width: "96",
-                rx: "8",
-                height: "96",
-                y: "16",
-                ry: "8",
             }
             rect {
                 width: "96",
+                height: "96",
+                ry: "8",
+                rx: "8",
                 x: "208",
-                height: "96",
-                rx: "8",
-                ry: "8",
                 y: "16",
             }
             rect {
-                height: "96",
+                width: "96",
+                rx: "8",
                 ry: "8",
-                y: "16",
                 x: "336",
-                width: "96",
-                rx: "8",
+                y: "16",
+                height: "96",
             }
             rect {
+                rx: "8",
+                ry: "8",
                 width: "96",
-                height: "96",
                 x: "80",
                 y: "144",
-                rx: "8",
-                ry: "8",
+                height: "96",
             }
             rect {
+                y: "144",
                 height: "96",
-                ry: "8",
+                rx: "8",
                 x: "208",
-                y: "144",
                 width: "96",
-                rx: "8",
+                ry: "8",
             }
             rect {
+                y: "144",
+                height: "96",
                 width: "96",
                 rx: "8",
                 ry: "8",
-                y: "144",
-                height: "96",
                 x: "336",
             }
             rect {
-                width: "96",
                 ry: "8",
-                height: "96",
-                rx: "8",
-                x: "80",
+                width: "96",
                 y: "272",
+                x: "80",
+                rx: "8",
+                height: "96",
             }
             rect {
-                y: "272",
                 width: "96",
+                rx: "8",
                 height: "96",
                 ry: "8",
-                rx: "8",
+                y: "272",
                 x: "208",
             }
             rect {
-                height: "96",
                 rx: "8",
                 y: "400",
                 width: "96",
+                height: "96",
                 x: "208",
                 ry: "8",
             }
             rect {
-                ry: "8",
-                y: "272",
-                width: "96",
-                x: "336",
-                rx: "8",
                 height: "96",
+                rx: "8",
+                ry: "8",
+                width: "96",
+                y: "272",
+                x: "336",
             }
         }
     }
@@ -10399,8 +10399,8 @@ impl IconShape for IoReturnDownForward {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "400 352 464 288 400 224",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -10441,11 +10441,11 @@ impl IconShape for IoEyeOffSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                x: "240.44",
-                height: "511.95",
                 transform: "translate(-106.04 256) rotate(-45)",
-                width: "31.11",
+                height: "511.95",
+                x: "240.44",
                 y: "0.03",
+                width: "31.11",
             }
             path {
                 d: "M259.34,192.09l60.57,60.57A64.07,64.07,0,0,0,259.34,192.09Z",
@@ -10494,32 +10494,32 @@ impl IconShape for IoGitCompareOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "304 160 240 96 304 32",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "304 160 240 96 304 32",
             }
             polyline {
                 points: "207 352 271 416 207 480",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             circle {
+                cy: "96",
                 r: "48",
                 cx: "112",
-                cy: "96",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             circle {
-                cy: "416",
-                r: "48",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "400",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                r: "48",
+                cy: "416",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M256,96h84a60,60,0,0,1,60,60V368",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M255,416H171a60,60,0,0,1-60-60V144",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -10536,8 +10536,8 @@ impl IconShape for IoReturnDownBack {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "112 352 48 288 112 224",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M64,288H358c58.76,0,106-49.33,106-108V160",
@@ -10632,20 +10632,20 @@ impl IconShape for IoCameraReverseOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M350.54,148.68l-26.62-42.06C318.31,100.08,310.62,96,302,96H210c-8.62,0-16.31,4.08-21.92,10.62l-26.62,42.06C155.85,155.23,148.62,160,140,160H80a32,32,0,0,0-32,32V384a32,32,0,0,0,32,32H432a32,32,0,0,0,32-32V192a32,32,0,0,0-32-32H373C364.35,160,356.15,155.23,350.54,148.68Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M350.54,148.68l-26.62-42.06C318.31,100.08,310.62,96,302,96H210c-8.62,0-16.31,4.08-21.92,10.62l-26.62,42.06C155.85,155.23,148.62,160,140,160H80a32,32,0,0,0-32,32V384a32,32,0,0,0,32,32H432a32,32,0,0,0,32-32V192a32,32,0,0,0-32-32H373C364.35,160,356.15,155.23,350.54,148.68Z",
             }
             polyline {
-                points: "124 158 124 136 100 136 100 158",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "124 158 124 136 100 136 100 158",
             }
             path {
-                d: "M335.76,285.22V271.91a80,80,0,0,0-131-61.6M176,258.78v13.31a80,80,0,0,0,130.73,61.8",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M335.76,285.22V271.91a80,80,0,0,0-131-61.6M176,258.78v13.31a80,80,0,0,0,130.73,61.8",
             }
             polyline {
-                points: "196 272 176 252 156 272",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "196 272 176 252 156 272",
             }
             polyline {
                 points: "356 272 336 292 316 272",
@@ -10689,27 +10689,27 @@ impl IconShape for IoGitMergeOutline {
                 r: "48",
             }
             circle {
-                r: "48",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cy: "416",
                 cx: "129",
+                r: "48",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "144",
                 x1: "129",
                 x2: "129",
                 y2: "368",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "144",
             }
             circle {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cy: "288",
                 cx: "385",
                 r: "48",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M129,144c0,96,112,144,208,144",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -10729,10 +10729,10 @@ impl IconShape for IoPushSharp {
                 d: "M272,352V204.63l64,64L358.63,246,256,143.37,153.37,246,176,268.63l64-64V352H92a12,12,0,0,1-12-12V44A12,12,0,0,1,92,32H420a12,12,0,0,1,12,12V340a12,12,0,0,1-12,12Z",
             }
             rect {
-                x: "240",
-                width: "32",
-                height: "128",
                 y: "352",
+                width: "32",
+                x: "240",
+                height: "128",
             }
         }
     }
@@ -10749,8 +10749,8 @@ impl IconShape for IoPeopleSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "184",
                 cx: "152",
+                cy: "184",
                 r: "72",
             }
             path {
@@ -10802,22 +10802,22 @@ impl IconShape for IoMicSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                y2: "448",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
-                x1: "192",
                 x2: "320",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 y1: "448",
+                y2: "448",
+                x1: "192",
             }
             path {
                 d: "M384,208v32c0,70.4-57.6,128-128,128h0c-70.4,0-128-57.6-128-128V208",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                y2: "448",
-                y1: "368",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 x2: "256",
+                y2: "448",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 x1: "256",
+                y1: "368",
             }
             path {
                 d: "M256,320a78.83,78.83,0,0,1-56.55-24.1A80.89,80.89,0,0,1,176,239V128a79.69,79.69,0,0,1,80-80c44.86,0,80,35.14,80,80V239C336,283.66,300.11,320,256,320Z",
@@ -10884,11 +10884,11 @@ impl IconShape for IoCafeOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "416",
                 x1: "64",
                 y2: "416",
+                y1: "416",
                 x2: "400",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -11016,21 +11016,21 @@ impl IconShape for IoFileTrayFullOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M384,80H128c-26,0-43,14-48,40L48,272V384a48.14,48.14,0,0,0,48,48H416a48.14,48.14,0,0,0,48-48V272L432,120C427,93,409,80,384,80Z",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                d: "M384,80H128c-26,0-43,14-48,40L48,272V384a48.14,48.14,0,0,0,48,48H416a48.14,48.14,0,0,0,48-48V272L432,120C427,93,409,80,384,80Z",
             }
             line {
-                x2: "192",
-                x1: "48",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "272",
                 y1: "272",
+                x1: "48",
+                x2: "192",
+                y2: "272",
             }
             line {
-                y2: "272",
+                y1: "272",
                 x1: "320",
                 x2: "464",
-                y1: "272",
+                y2: "272",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
@@ -11038,18 +11038,18 @@ impl IconShape for IoFileTrayFullOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x1: "144",
                 y1: "144",
-                y2: "144",
-                x2: "368",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "144",
+                x1: "144",
+                x2: "368",
             }
             line {
-                x2: "384",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "208",
                 y1: "208",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "128",
+                x2: "384",
+                y2: "208",
             }
         }
     }
@@ -11067,8 +11067,8 @@ impl IconShape for IoSettings {
         rsx! {
             circle {
                 r: "48",
-                cx: "256",
                 cy: "256",
+                cx: "256",
             }
             path {
                 d: "M470.39,300l-.47-.38-31.56-24.75a16.11,16.11,0,0,1-6.1-13.33l0-11.56a16,16,0,0,1,6.11-13.22L469.92,212l.47-.38a26.68,26.68,0,0,0,5.9-34.06l-42.71-73.9a1.59,1.59,0,0,1-.13-.22A26.86,26.86,0,0,0,401,92.14l-.35.13L363.55,107.2a15.94,15.94,0,0,1-14.47-1.29q-4.92-3.1-10-5.86a15.94,15.94,0,0,1-8.19-11.82L325.3,48.64l-.12-.72A27.22,27.22,0,0,0,298.76,26H213.24a26.92,26.92,0,0,0-26.45,22.39l-.09.56-5.57,39.67A16,16,0,0,1,173,100.44c-3.42,1.84-6.76,3.79-10,5.82a15.92,15.92,0,0,1-14.43,1.27l-37.13-15-.35-.14a26.87,26.87,0,0,0-32.48,11.34l-.13.22L35.71,177.9A26.71,26.71,0,0,0,41.61,212l.47.38,31.56,24.75a16.11,16.11,0,0,1,6.1,13.33l0,11.56a16,16,0,0,1-6.11,13.22L42.08,300l-.47.38a26.68,26.68,0,0,0-5.9,34.06l42.71,73.9a1.59,1.59,0,0,1,.13.22A26.86,26.86,0,0,0,111,419.86l.35-.13,37.07-14.93a15.94,15.94,0,0,1,14.47,1.29q4.92,3.11,10,5.86a15.94,15.94,0,0,1,8.19,11.82l5.56,39.59.12.72A27.22,27.22,0,0,0,213.24,486h85.52a26.92,26.92,0,0,0,26.45-22.39l.09-.56,5.57-39.67a16,16,0,0,1,8.18-11.82c3.42-1.84,6.76-3.79,10-5.82a15.92,15.92,0,0,1,14.43-1.27l37.13,14.95.35.14a26.85,26.85,0,0,0,32.48-11.34,2.53,2.53,0,0,1,.13-.22l42.71-73.89A26.7,26.7,0,0,0,470.39,300ZM335.91,259.76a80,80,0,1,1-83.66-83.67A80.21,80.21,0,0,1,335.91,259.76Z",
@@ -11105,12 +11105,12 @@ impl IconShape for IoReturnUpForward {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "400 160 464 224 400 288",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M448,224H154C95.24,224,48,273.33,48,332v20",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M448,224H154C95.24,224,48,273.33,48,332v20",
             }
         }
     }
@@ -11131,8 +11131,8 @@ impl IconShape for IoPersonAddSharp {
             }
             circle {
                 cy: "144",
-                cx: "288",
                 r: "112",
+                cx: "288",
             }
             path {
                 d: "M288,288c-69.42,0-208,42.88-208,128v64H496V416C496,330.88,357.42,288,288,288Z",
@@ -11153,24 +11153,24 @@ impl IconShape for IoFilterOutline {
         rsx! {
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "144",
                 y1: "144",
-                x1: "32",
                 x2: "480",
+                x1: "32",
+                y2: "144",
             }
             line {
-                x1: "112",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "400",
                 y1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "256",
+                x1: "112",
             }
             line {
                 y1: "368",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "304",
-                y2: "368",
                 x1: "208",
+                x2: "304",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "368",
             }
         }
     }
@@ -11205,17 +11205,17 @@ impl IconShape for IoReorderTwoSharp {
         rsx! {
             line {
                 y1: "304",
+                x1: "118",
+                y2: "304",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px",
                 x2: "394",
-                y2: "304",
-                x1: "118",
             }
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px",
-                x2: "394",
-                x1: "118",
                 y1: "208",
                 y2: "208",
+                x1: "118",
+                x2: "394",
             }
         }
     }
@@ -11280,24 +11280,24 @@ impl IconShape for IoRibbonOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
+                r: "128",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "256",
                 cy: "160",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                r: "128",
             }
             path {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M143.65,227.82,48,400l86.86-.42a16,16,0,0,1,13.82,7.8L192,480l88.33-194.32",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M366.54,224,464,400l-86.86-.42a16,16,0,0,0-13.82,7.8L320,480,256,339.2",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M366.54,224,464,400l-86.86-.42a16,16,0,0,0-13.82,7.8L320,480,256,339.2",
             }
             circle {
                 cx: "256",
-                cy: "160",
                 r: "64",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cy: "160",
             }
         }
     }
@@ -11409,13 +11409,13 @@ impl IconShape for IoCart {
         rsx! {
             circle {
                 r: "32",
-                cx: "176",
                 cy: "416",
+                cx: "176",
             }
             circle {
-                cy: "416",
-                cx: "400",
                 r: "32",
+                cx: "400",
+                cy: "416",
             }
             path {
                 d: "M456.8,120.78A23.92,23.92,0,0,0,438.24,112H133.89l-6.13-34.78A16,16,0,0,0,112,64H48a16,16,0,0,0,0,32H98.58l45.66,258.78A16,16,0,0,0,160,368H416a16,16,0,0,0,0-32H173.42l-5.64-32H409.44A24.07,24.07,0,0,0,433,284.71l28.8-144A24,24,0,0,0,456.8,120.78Z",
@@ -11462,11 +11462,11 @@ impl IconShape for IoRemoveSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                y2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
                 x1: "400",
-                y1: "256",
+                y2: "256",
                 x2: "112",
+                y1: "256",
             }
         }
     }
@@ -11483,16 +11483,16 @@ impl IconShape for IoLocateOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
+                x2: "256",
                 x1: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
-                x2: "256",
-                y1: "96",
                 y2: "56",
+                y1: "96",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
-                y2: "416",
                 x1: "256",
+                y2: "416",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 x2: "256",
                 y1: "456",
             }
@@ -11503,16 +11503,16 @@ impl IconShape for IoLocateOutline {
             line {
                 y2: "256",
                 x1: "416",
-                x2: "456",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 y1: "256",
+                x2: "456",
             }
             line {
                 y1: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
-                y2: "256",
                 x1: "56",
+                y2: "256",
                 x2: "96",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
         }
     }
@@ -11529,27 +11529,27 @@ impl IconShape for IoArchiveOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M80,152V408a40.12,40.12,0,0,0,40,40H392a40.12,40.12,0,0,0,40-40V152",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M80,152V408a40.12,40.12,0,0,0,40,40H392a40.12,40.12,0,0,0,40-40V152",
             }
             rect {
-                width: "416",
+                y: "64",
+                x: "48",
+                height: "80",
                 rx: "28",
                 ry: "28",
+                width: "416",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                height: "80",
-                x: "48",
-                y: "64",
             }
             polyline {
                 points: "320 304 256 368 192 304",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
+                y1: "345.89",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "224",
                 x1: "256",
-                y1: "345.89",
                 x2: "256",
             }
         }
@@ -11567,13 +11567,13 @@ impl IconShape for IoInvertModeOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
+                cx: "256",
+                cy: "256",
                 r: "208",
-                stroke_miterlimit: "10",
-                stroke_width: "32",
                 fill: "none",
                 stroke: "#000",
-                cy: "256",
-                cx: "256",
+                stroke_miterlimit: "10",
+                stroke_width: "32",
             }
             path {
                 d: "M256,176V336a80,80,0,0,1,0-160Z",
@@ -11635,14 +11635,14 @@ impl IconShape for IoFileTrayFullSharp {
             rect {
                 x: "128",
                 height: "38",
-                width: "256",
                 y: "128",
+                width: "256",
             }
             rect {
-                height: "38",
                 y: "192",
-                x: "112",
+                height: "38",
                 width: "288",
+                x: "112",
             }
             path {
                 d: "M448,64H64L32,256V448H480V256ZM436,256H320a64,64,0,0,1-128,0H76L98,106H414Z",
@@ -11691,12 +11691,12 @@ impl IconShape for IoArchive {
                 d: "M64,164V408a56,56,0,0,0,56,56H392a56,56,0,0,0,56-56V164a4,4,0,0,0-4-4H68A4,4,0,0,0,64,164ZM331,315.63l-63.69,63.68a16,16,0,0,1-22.62,0L181,315.63c-6.09-6.09-6.65-16-.85-22.38a16,16,0,0,1,23.16-.56L240,329.37V224.45c0-8.61,6.62-16,15.23-16.43A16,16,0,0,1,272,224V329.37l36.69-36.68a16,16,0,0,1,23.16.56C337.65,299.62,337.09,309.54,331,315.63Z",
             }
             rect {
+                height: "80",
+                y: "48",
+                width: "448",
                 rx: "32",
                 ry: "32",
                 x: "32",
-                y: "48",
-                width: "448",
-                height: "80",
             }
         }
     }
@@ -11787,44 +11787,44 @@ impl IconShape for IoBagAddOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                fill: "none",
-                y2: "384",
-                stroke_linecap: "round",
-                stroke_width: "32",
-                stroke_linejoin: "round",
-                stroke: "#000",
-                x1: "256",
                 x2: "256",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                x1: "256",
+                stroke: "#000",
                 y1: "256",
+                stroke_width: "32",
+                y2: "384",
+                fill: "none",
             }
             line {
-                fill: "none",
                 stroke_linecap: "round",
-                x2: "192",
-                y2: "320",
-                stroke_linejoin: "round",
                 x1: "320",
+                y2: "320",
+                x2: "192",
+                stroke_width: "32",
                 y1: "320",
                 stroke: "#000",
-                stroke_width: "32",
+                stroke_linejoin: "round",
+                fill: "none",
             }
             path {
                 d: "M80,176a16,16,0,0,0-16,16V408c0,30.24,25.76,56,56,56H392c30.24,0,56-24.51,56-54.75V192a16,16,0,0,0-16-16Z",
-                stroke_linecap: "round",
                 stroke: "#000",
-                stroke_width: "32",
                 fill: "none",
-                stroke_linejoin: "round",
                 fill_rule: "evenodd",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
             path {
-                stroke_linecap: "round",
+                stroke_width: "32",
                 fill_rule: "evenodd",
-                fill: "none",
-                d: "M160,176V144a96,96,0,0,1,96-96h0a96,96,0,0,1,96,96v32",
+                stroke_linecap: "round",
                 stroke: "#000",
                 stroke_linejoin: "round",
-                stroke_width: "32",
+                fill: "none",
+                d: "M160,176V144a96,96,0,0,1,96-96h0a96,96,0,0,1,96,96v32",
             }
         }
     }
@@ -11841,15 +11841,15 @@ impl IconShape for IoSwapHorizontalOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "304 48 416 160 304 272",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "304 48 416 160 304 272",
             }
             line {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "160",
                 x2: "96",
                 x1: "398.87",
                 y1: "160",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -11877,11 +11877,11 @@ impl IconShape for IoRemoveOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                y1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "112",
                 y2: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "400",
+                y1: "256",
             }
         }
     }
@@ -11995,8 +11995,8 @@ impl IconShape for IoAirplaneOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M407.72,224c-3.4,0-14.79.1-18,.3l-64.9,1.7a1.83,1.83,0,0,1-1.69-.9L193.55,67.56A9,9,0,0,0,186.89,64H160l73,161a2.35,2.35,0,0,1-2.26,3.35l-121.69,1.8a8.06,8.06,0,0,1-6.6-3.1l-37-45c-3-3.9-8.62-6-13.51-6H33.08c-1.29,0-1.1,1.21-.75,2.43L52.17,249.9a16.3,16.3,0,0,1,0,11.9L32.31,333c-.59,1.95-.52,3,1.77,3H52c8.14,0,9.25-1.06,13.41-6.3l37.7-45.7a8.19,8.19,0,0,1,6.6-3.1l120.68,2.7a2.7,2.7,0,0,1,2.43,3.74L160,448h26.64a9,9,0,0,0,6.65-3.55L323.14,287c.39-.6,2-.9,2.69-.9l63.9,1.7c3.3.2,14.59.3,18,.3C452,288.1,480,275.93,480,256S452.12,224,407.72,224Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -12013,25 +12013,25 @@ impl IconShape for IoMagnet {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                x1: "191.98",
                 x2: "191.98",
-                y1: "463.79",
                 y2: "415.79",
+                x1: "191.98",
+                style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y1: "463.79",
             }
             line {
-                style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                y1: "421.61",
                 x1: "90.16",
+                y1: "421.61",
                 x2: "124.1",
                 y2: "387.67",
+                style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
                 x1: "47.98",
-                y1: "319.79",
                 y2: "319.79",
-                style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x2: "95.98",
+                y1: "319.79",
+                style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 d: "M267.56,312.32l-31.11,31.11a16,16,0,0,0,0,22.63l45.26,45.25a16,16,0,0,0,22.62,0l31.12-31.11a4,4,0,0,0,0-5.66l-62.23-62.22A4,4,0,0,0,267.56,312.32Z",
@@ -12141,12 +12141,12 @@ impl IconShape for IoHandRightOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M368,256V80a32,32,0,0,0-32-32h0a32,32,0,0,0-32,32V240",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M240,241V96a32,32,0,0,0-32-32h0a32,32,0,0,0-32,32V320",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M304,240V48a32,32,0,0,0-32-32h0a32,32,0,0,0-32,32V240",
@@ -12171,32 +12171,32 @@ impl IconShape for IoFootstepsOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M200,246.84c8.81,58.62-7.33,90.67-52.91,97.41-50.65,7.49-71.52-26.44-80.33-85.06-11.85-78.88,16-127.94,55.71-131.1C158.61,125.22,191.18,188.23,200,246.84Z",
-                stroke_miterlimit: "10",
-                fill: "none",
-                stroke_width: "32",
                 stroke: "#000",
+                fill: "none",
+                stroke_miterlimit: "10",
+                stroke_width: "32",
+                d: "M200,246.84c8.81,58.62-7.33,90.67-52.91,97.41-50.65,7.49-71.52-26.44-80.33-85.06-11.85-78.88,16-127.94,55.71-131.1C158.61,125.22,191.18,188.23,200,246.84Z",
             }
             path {
+                fill: "none",
                 stroke_miterlimit: "10",
                 stroke: "#000",
                 stroke_width: "32",
-                fill: "none",
                 d: "M223.65,409.53c3.13,33.28-14.86,64.34-42,69.66-27.4,5.36-58.71-16.37-65.09-49.19s17.75-34.56,47.32-40.21S219.87,369.39,223.65,409.53Z",
             }
             path {
+                d: "M312,150.83c-8.81,58.62,7.33,90.67,52.9,97.41,50.66,7.49,71.52-26.44,80.33-85.06,11.86-78.89-16-128.22-55.7-131.1C353.13,29.44,320.82,92.21,312,150.83Z",
+                fill: "none",
+                stroke: "#000",
                 stroke_miterlimit: "10",
                 stroke_width: "32",
-                fill: "none",
-                d: "M312,150.83c-8.81,58.62,7.33,90.67,52.9,97.41,50.66,7.49,71.52-26.44,80.33-85.06,11.86-78.89-16-128.22-55.7-131.1C353.13,29.44,320.82,92.21,312,150.83Z",
-                stroke: "#000",
             }
             path {
-                stroke_width: "32",
-                stroke: "#000",
-                stroke_miterlimit: "10",
                 d: "M288.35,313.53c-3.13,33.27,14.86,64.34,42,69.66,27.4,5.36,58.71-16.37,65.09-49.19s-17.75-34.56-47.32-40.22S292.13,273.38,288.35,313.53Z",
+                stroke_miterlimit: "10",
+                stroke: "#000",
                 fill: "none",
+                stroke_width: "32",
             }
         }
     }
@@ -12213,35 +12213,35 @@ impl IconShape for IoMaleFemaleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "200",
+                r: "136",
                 cx: "216",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                r: "136",
+                cy: "200",
             }
             line {
-                y1: "352",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "216",
-                y2: "480",
+                y1: "352",
                 x1: "216",
+                y2: "480",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x1: "272",
+                x2: "160",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "416",
+                x1: "272",
                 y1: "416",
-                x2: "160",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "432 112 432 32 352 32",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "128.72",
                 y2: "32",
-                x2: "432",
+                y1: "128.72",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "335.28",
+                x2: "432",
             }
         }
     }
@@ -12384,61 +12384,61 @@ impl IconShape for IoSubwayOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                x: "112",
-                width: "288",
-                y: "32",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                y: "32",
+                x: "112",
                 ry: "48",
-                rx: "48",
+                width: "288",
                 height: "352",
+                rx: "48",
             }
             line {
-                x2: "304",
                 y2: "80",
                 x1: "208",
+                x2: "304",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "80",
             }
             rect {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                height: "96",
-                width: "288",
                 y: "128",
-                ry: "32",
-                rx: "32",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                width: "288",
                 x: "112",
+                height: "96",
+                rx: "32",
+                ry: "32",
             }
             circle {
                 cy: "320",
-                r: "16",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 cx: "176",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                r: "16",
             }
             circle {
-                cx: "336",
                 cy: "320",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                cx: "336",
                 r: "16",
             }
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "368",
                 x1: "144",
                 y1: "464",
+                x2: "368",
                 y2: "464",
             }
             line {
+                y1: "432",
                 x1: "336",
                 x2: "384",
                 y2: "480",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "432",
             }
             line {
-                x1: "176",
-                y2: "480",
                 x2: "128",
+                y2: "480",
                 y1: "432",
+                x1: "176",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
@@ -12461,21 +12461,21 @@ impl IconShape for IoExpand {
             }
             line {
                 x1: "421.8",
-                y1: "421.77",
-                x2: "304",
                 y2: "304",
+                x2: "304",
+                y1: "421.77",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                points: "80 192 80 80 192 80",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "80 192 80 80 192 80",
             }
             line {
                 y2: "208",
-                x1: "90.2",
-                y1: "90.23",
-                x2: "208",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "90.23",
+                x1: "90.2",
+                x2: "208",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -12483,21 +12483,21 @@ impl IconShape for IoExpand {
             }
             line {
                 x2: "304",
-                y1: "90.2",
-                y2: "208",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "421.77",
+                y1: "90.2",
+                y2: "208",
             }
             polyline {
-                points: "192 432 80 432 80 320",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "192 432 80 432 80 320",
             }
             line {
-                y1: "421.8",
-                x2: "208",
-                y2: "304",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "208",
                 x1: "90.23",
+                y1: "421.8",
+                y2: "304",
             }
         }
     }
@@ -12514,9 +12514,9 @@ impl IconShape for IoDiscSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                r: "32",
                 cy: "256",
                 cx: "256",
+                r: "32",
             }
             path {
                 d: "M414.39,97.61A224,224,0,1,0,97.61,414.39,224,224,0,1,0,414.39,97.61ZM256,336a80,80,0,1,1,80-80A80.09,80.09,0,0,1,256,336Z",
@@ -12612,8 +12612,8 @@ impl IconShape for IoBandage {
                 d: "M137.21,295.6a47.81,47.81,0,0,1-9.43-13.38L69,341a72.2,72.2,0,0,0,0,102h0a72.37,72.37,0,0,0,102,0l58.77-58.76a47.81,47.81,0,0,1-13.38-9.43Z",
             }
             path {
-                d: "M392,48a71.55,71.55,0,0,0-51,21l-55.92,55.91a48.05,48.05,0,0,1,13.36,9.45l79.19,79.19a48.05,48.05,0,0,1,9.45,13.36L443,171A72,72,0,0,0,392,48Z",
                 style: "fill:none",
+                d: "M392,48a71.55,71.55,0,0,0-51,21l-55.92,55.91a48.05,48.05,0,0,1,13.36,9.45l79.19,79.19a48.05,48.05,0,0,1,9.45,13.36L443,171A72,72,0,0,0,392,48Z",
             }
             path {
                 d: "M275.8,157a16,16,0,0,0-22.63,0l-93.34,93.34a16,16,0,0,0,0,22.63l79.2,79.2h0a16,16,0,0,0,22.63,0L355,258.83a16,16,0,0,0,0-22.63ZM219.31,267.31a16,16,0,1,1,0-22.62A16,16,0,0,1,219.31,267.31Zm48,48a16,16,0,1,1,0-22.62A16,16,0,0,1,267.31,315.31Zm0-96a16,16,0,1,1,0-22.62A16,16,0,0,1,267.31,219.31Zm48,48a16,16,0,1,1,0-22.62A16,16,0,0,1,315.31,267.31Z",
@@ -12643,11 +12643,11 @@ impl IconShape for IoResizeOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
+                y2: "400.02",
+                x1: "405.77",
                 y1: "106.2",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "405.77",
                 x2: "111.98",
-                y2: "400.02",
             }
             polyline {
                 points: "208 416 96 416 96 304",
@@ -12671,10 +12671,10 @@ impl IconShape for IoEaselSharp {
                 d: "M468,64H278V32H234V64H44A12,12,0,0,0,32,76V356a12,12,0,0,0,12,12h78.19L89.93,470.46l36.53,9.61L161.74,368H234v64h44V368h71.84l31,111.7,36.83-8.57L389.05,368H468a12,12,0,0,0,12-12V76A12,12,0,0,0,468,64ZM442,330H70V102H442Z",
             }
             rect {
-                height: "192",
-                y: "120",
-                width: "336",
                 x: "88",
+                width: "336",
+                y: "120",
+                height: "192",
             }
         }
     }
@@ -12753,14 +12753,14 @@ impl IconShape for IoChatboxEllipsesOutline {
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             circle {
+                r: "32",
                 cy: "216",
                 cx: "160",
-                r: "32",
             }
             circle {
-                cy: "216",
-                cx: "256",
                 r: "32",
+                cx: "256",
+                cy: "216",
             }
             circle {
                 cx: "352",
@@ -12799,13 +12799,13 @@ impl IconShape for IoEyeOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M255.66,112c-77.94,0-157.89,45.11-220.83,135.33a16,16,0,0,0-.27,17.77C82.92,340.8,161.8,400,255.66,400,348.5,400,429,340.62,477.45,264.75a16.14,16.14,0,0,0,0-17.47C428.89,172.28,347.8,112,255.66,112Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M255.66,112c-77.94,0-157.89,45.11-220.83,135.33a16,16,0,0,0-.27,17.77C82.92,340.8,161.8,400,255.66,400,348.5,400,429,340.62,477.45,264.75a16.14,16.14,0,0,0,0-17.47C428.89,172.28,347.8,112,255.66,112Z",
             }
             circle {
-                cy: "256",
                 r: "80",
                 cx: "256",
+                cy: "256",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
@@ -12860,8 +12860,8 @@ impl IconShape for IoReloadOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M400,148l-21.12-24.57A191.43,191.43,0,0,0,240,64C134,64,48,150,48,256s86,192,192,192A192.09,192.09,0,0,0,421.07,320",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 d: "M464,97.42V208a16,16,0,0,1-16,16H337.42c-14.26,0-21.4-17.23-11.32-27.31L436.69,86.1C446.77,76,464,83.16,464,97.42Z",
@@ -12910,11 +12910,11 @@ impl IconShape for IoTv {
                 d: "M447.86,384H64.14A48.2,48.2,0,0,1,16,335.86V128.14A48.2,48.2,0,0,1,64.14,80H447.86A48.2,48.2,0,0,1,496,128.14V335.86A48.2,48.2,0,0,1,447.86,384Z",
             }
             line {
+                y1: "416",
+                y2: "416",
                 x1: "128",
                 style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x2: "384",
-                y1: "416",
-                y2: "416",
             }
         }
     }
@@ -12931,24 +12931,24 @@ impl IconShape for IoThumbsDownOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M192,53.84S208,48,256,48s74,16,96,32h64a64,64,0,0,1,64,64v48a64,64,0,0,1-64,64H386a32.34,32.34,0,0,0-27.37,15.4S350,290.19,324,335.22,248,448,240,464c-29,0-43-22-34-47.71,10.28-29.39,23.71-54.38,27.46-87.09.54-4.78-3.14-12-8-12L96,307",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M192,53.84S208,48,256,48s74,16,96,32h64a64,64,0,0,1,64,64v48a64,64,0,0,1-64,64H386a32.34,32.34,0,0,0-27.37,15.4S350,290.19,324,335.22,248,448,240,464c-29,0-43-22-34-47.71,10.28-29.39,23.71-54.38,27.46-87.09.54-4.78-3.14-12-8-12L96,307",
             }
             path {
-                d: "M96,241l80,2c20,1.84,32,12.4,32,30h0c0,17.6-14,28.84-32,30l-80,4c-17.6,0-32-16.4-32-34v-.17A32,32,0,0,1,96,241Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M96,241l80,2c20,1.84,32,12.4,32,30h0c0,17.6-14,28.84-32,30l-80,4c-17.6,0-32-16.4-32-34v-.17A32,32,0,0,1,96,241Z",
             }
             path {
                 d: "M64,176l112,2c18,.84,32,12.41,32,30h0c0,17.61-14,28.86-32,30L64,240a32.1,32.1,0,0,1-32-32h0A32.1,32.1,0,0,1,64,176Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                d: "M112,48l64,3c21,1.84,32,11.4,32,29h0c0,17.6-14.4,30-32,30l-64,2A32.09,32.09,0,0,1,80,80h0A32.09,32.09,0,0,1,112,48Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M112,48l64,3c21,1.84,32,11.4,32,29h0c0,17.6-14.4,30-32,30l-64,2A32.09,32.09,0,0,1,80,80h0A32.09,32.09,0,0,1,112,48Z",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M80,112l96,2c19,.84,32,12.4,32,30h0c0,17.6-13,28.84-32,30l-96,2a32.09,32.09,0,0,1-32-32h0A32.09,32.09,0,0,1,80,112Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -12969,9 +12969,9 @@ impl IconShape for IoRadioButtonOnSharp {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
             circle {
+                cx: "256",
                 cy: "256",
                 r: "144",
-                cx: "256",
             }
         }
     }
@@ -12988,24 +12988,24 @@ impl IconShape for IoBandageOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                width: "560.87",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                ry: "88.12",
-                transform: "translate(-106.04 256) rotate(-45)",
-                height: "176.25",
-                x: "-24.43",
-                rx: "88.12",
                 y: "167.88",
+                height: "176.25",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                rx: "88.12",
+                transform: "translate(-106.04 256) rotate(-45)",
+                width: "560.87",
+                ry: "88.12",
+                x: "-24.43",
             }
             rect {
-                height: "196",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                transform: "translate(255.41 -107.45) rotate(45)",
-                ry: "32",
-                rx: "32",
+                y: "156.59",
                 width: "176",
                 x: "169.41",
-                y: "156.59",
+                transform: "translate(255.41 -107.45) rotate(45)",
+                ry: "32",
+                height: "196",
+                rx: "32",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             circle {
                 r: "16",
@@ -13013,19 +13013,19 @@ impl IconShape for IoBandageOutline {
                 cy: "208",
             }
             circle {
+                r: "16",
+                cy: "256",
                 cx: "304",
-                cy: "256",
-                r: "16",
             }
             circle {
+                r: "16",
+                cy: "256",
                 cx: "208",
-                cy: "256",
-                r: "16",
             }
             circle {
-                cx: "256",
                 r: "16",
                 cy: "304",
+                cx: "256",
             }
         }
     }
@@ -13091,16 +13091,16 @@ impl IconShape for IoLogoTwitch {
                 d: "M80,32,48,112V416h96v64h64l64-64h80L464,304V32ZM416,288l-64,64H256l-64,64V352H112V80H416Z",
             }
             rect {
-                height: "129",
-                width: "48",
-                x: "320",
                 y: "143",
+                x: "320",
+                width: "48",
+                height: "129",
             }
             rect {
-                y: "143",
-                height: "129",
-                width: "48",
                 x: "208",
+                y: "143",
+                width: "48",
+                height: "129",
             }
         }
     }
@@ -13199,44 +13199,44 @@ impl IconShape for IoContractSharp {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                y2: "432",
-                x1: "314.2",
                 x2: "432",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                y2: "432",
                 y1: "314.23",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                x1: "314.2",
             }
             polyline {
-                points: "208 96 208 208 96 208",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                points: "208 96 208 208 96 208",
             }
             line {
-                x2: "80",
-                y1: "197.77",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
-                y2: "80",
+                y1: "197.77",
                 x1: "197.8",
+                x2: "80",
+                y2: "80",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "416 208 304 208 304 96",
             }
             line {
-                x1: "314.23",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
-                y1: "197.8",
                 y2: "80",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 x2: "432",
+                x1: "314.23",
+                y1: "197.8",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "96 304 208 304 208 416",
             }
             line {
-                x2: "80",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 x1: "197.77",
+                x2: "80",
                 y2: "432",
                 y1: "314.2",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -13285,13 +13285,13 @@ impl IconShape for IoInvertMode {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                stroke: "#000",
-                fill: "none",
-                stroke_miterlimit: "10",
-                stroke_width: "32",
-                cy: "256",
-                r: "208",
                 cx: "256",
+                fill: "none",
+                cy: "256",
+                stroke: "#000",
+                stroke_width: "32",
+                r: "208",
+                stroke_miterlimit: "10",
             }
             path {
                 d: "M256,176V336a80,80,0,0,0,0-160Z",
@@ -13369,20 +13369,20 @@ impl IconShape for IoTvOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
+                x: "32",
+                ry: "32.14",
+                y: "96",
                 width: "448",
                 height: "272",
                 rx: "32.14",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                x: "32",
-                y: "96",
-                ry: "32.14",
             }
             line {
+                x1: "128",
                 y1: "416",
+                x2: "384",
                 y2: "416",
                 style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                x2: "384",
-                x1: "128",
             }
         }
     }
@@ -13403,21 +13403,21 @@ impl IconShape for IoCheckmarkDoneCircleOutline {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "368 192 256.13 320 208.18 272",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x1: "191.95",
-                x2: "144",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "320",
                 y2: "272",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "191.95",
+                x2: "144",
             }
             line {
-                y1: "192",
-                x1: "305.71",
                 x2: "254.16",
+                y1: "192",
                 y2: "251",
+                x1: "305.71",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
@@ -13435,10 +13435,10 @@ impl IconShape for IoLogoNpm {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                y: "213.1",
                 height: "57.1",
                 x: "227.6",
                 width: "28.4",
+                y: "213.1",
             }
             path {
                 d: "M0,156V327.4H142.2V356H256V327.4H512V156ZM142.2,298.9H113.8V213.2H85.3v85.7H28.4V184.6H142.2Zm142.2,0H227.5v28.6H170.6V184.6H284.4Zm199.2,0H455.2V213.2H426.8v85.7H398.4V213.2H370v85.7H313.1V184.6H483.8V298.9Z",
@@ -13487,8 +13487,8 @@ impl IconShape for IoVideocamOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M374.79,308.78,457.5,367A16,16,0,0,0,480,352.38V159.62A16,16,0,0,0,457.5,145l-82.71,58.22A16,16,0,0,0,368,216.3v79.4A16,16,0,0,0,374.79,308.78Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M268,384H84a52.15,52.15,0,0,1-52-52V180a52.15,52.15,0,0,1,52-52H268.48A51.68,51.68,0,0,1,320,179.52V332A52.15,52.15,0,0,1,268,384Z",
@@ -13526,15 +13526,15 @@ impl IconShape for IoPintOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M132.43,162c-6.24-34-4.49-45.55-3.07-68.39L132.27,47a16,16,0,0,1,15.94-15H363.78a16,16,0,0,1,15.94,15l2.91,46.61c1.43,22.86,3.19,34.39-3.06,68.45-5.93,32.29-43.71,133.27-43.71,238.32V472a8,8,0,0,1-8,8H184.12a8,8,0,0,1-8-8V400.37C176.13,307.9,138.66,196.07,132.43,162Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M132.43,162c-6.24-34-4.49-45.55-3.07-68.39L132.27,47a16,16,0,0,1,15.94-15H363.78a16,16,0,0,1,15.94,15l2.91,46.61c1.43,22.86,3.19,34.39-3.06,68.45-5.93,32.29-43.71,133.27-43.71,238.32V472a8,8,0,0,1-8,8H184.12a8,8,0,0,1-8-8V400.37C176.13,307.9,138.66,196.07,132.43,162Z",
             }
             line {
                 x1: "135.21",
-                y1: "96",
-                x2: "376.79",
                 y2: "96",
+                y1: "96",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "376.79",
             }
         }
     }
@@ -13648,8 +13648,8 @@ impl IconShape for IoCaretUpCircleOutline {
                 d: "M342.43,273.77,268.3,184.68a16,16,0,0,0-24.6,0l-74.13,89.09A16,16,0,0,0,181.86,300H330.14A16,16,0,0,0,342.43,273.77Z",
             }
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
         }
     }
@@ -13666,22 +13666,22 @@ impl IconShape for IoFishOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M240,152c-50.71,12.21-94.15,52.31-120.3,73.43a261.14,261.14,0,0,0-23.81-19.58C59.53,179.29,16,176,16,176s11.37,51.53,41.36,79.83C27.37,284.14,16,335.67,16,335.67s43.53-3.29,79.89-29.85a259.18,259.18,0,0,0,23.61-19.41C145.6,307.55,189.24,347.75,240,360l-16,56c39.43-6.67,78.86-35.51,94.72-48.25C448,362,496,279,496,256c0-22-48-106-176.89-111.73C303.52,131.78,263.76,102.72,224,96Z",
-                fill: "none",
                 stroke: "#000",
                 stroke_linejoin: "round",
                 stroke_width: "32",
+                d: "M240,152c-50.71,12.21-94.15,52.31-120.3,73.43a261.14,261.14,0,0,0-23.81-19.58C59.53,179.29,16,176,16,176s11.37,51.53,41.36,79.83C27.37,284.14,16,335.67,16,335.67s43.53-3.29,79.89-29.85a259.18,259.18,0,0,0,23.61-19.41C145.6,307.55,189.24,347.75,240,360l-16,56c39.43-6.67,78.86-35.51,94.72-48.25C448,362,496,279,496,256c0-22-48-106-176.89-111.73C303.52,131.78,263.76,102.72,224,96Z",
+                fill: "none",
             }
             circle {
                 cy: "239.99",
-                r: "16",
                 cx: "416",
+                r: "16",
             }
             path {
                 stroke_width: "32",
+                stroke_linecap: "round",
                 stroke_miterlimit: "20",
                 d: "M378.37,356a199.22,199.22,0,0,1,0-200",
-                stroke_linecap: "round",
                 stroke: "#000",
                 fill: "none",
             }
@@ -13700,69 +13700,69 @@ impl IconShape for IoColorWandOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                width: "63.03",
-                y: "122.9",
                 transform: "translate(-129.23 312) rotate(-45)",
-                stroke: "#000",
                 stroke_width: "32",
-                x: "280.48",
+                stroke: "#000",
                 fill: "none",
-                stroke_miterlimit: "10",
+                x: "280.48",
+                y: "122.9",
+                width: "63.03",
                 height: "378.2",
                 rx: "31.52",
+                stroke_miterlimit: "10",
             }
             path {
                 d: "M178.38,178.38h0a31.64,31.64,0,0,0,0,44.75L223.25,268,268,223.25l-44.87-44.87A31.64,31.64,0,0,0,178.38,178.38Z",
             }
             line {
-                x1: "48",
-                x2: "96",
-                y1: "192",
                 stroke_miterlimit: "10",
-                stroke_width: "32",
+                x2: "96",
                 stroke: "#000",
                 stroke_linecap: "round",
+                y1: "192",
                 y2: "192",
+                stroke_width: "32",
+                x1: "48",
             }
             line {
-                stroke_linecap: "round",
                 x2: "124.12",
                 stroke_width: "32",
+                y2: "124.12",
+                stroke: "#000",
+                stroke_linecap: "round",
                 x1: "90.18",
-                y2: "124.12",
-                y1: "90.18",
-                stroke: "#000",
                 stroke_miterlimit: "10",
+                y1: "90.18",
             }
             line {
-                stroke: "#000",
-                y1: "48",
                 stroke_width: "32",
-                stroke_miterlimit: "10",
                 stroke_linecap: "round",
-                x2: "192",
                 x1: "192",
+                stroke_miterlimit: "10",
+                x2: "192",
+                y1: "48",
                 y2: "96",
+                stroke: "#000",
             }
             line {
-                x2: "259.88",
-                stroke_width: "32",
-                stroke_linecap: "round",
-                stroke: "#000",
-                y2: "124.12",
                 stroke_miterlimit: "10",
+                stroke: "#000",
+                stroke_width: "32",
                 y1: "90.18",
+                y2: "124.12",
+                x2: "259.88",
                 x1: "293.82",
+                stroke_linecap: "round",
             }
             line {
-                stroke_linecap: "round",
-                y1: "259.88",
-                x1: "124.12",
-                x2: "90.18",
-                stroke: "#000",
                 stroke_miterlimit: "10",
+                stroke_linecap: "round",
+                x1: "124.12",
                 stroke_width: "32",
+                y1: "259.88",
                 y2: "293.82",
+                stroke: "#000",
+                x2: "90.18",
             }
         }
     }
@@ -13783,8 +13783,8 @@ impl IconShape for IoChevronDownCircleOutline {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
-                points: "352 216 256 312 160 216",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "352 216 256 312 160 216",
             }
         }
     }
@@ -13847,15 +13847,15 @@ impl IconShape for IoVideocamOff {
                 d: "M464,384.39a32,32,0,0,1-13-2.77,15.77,15.77,0,0,1-2.71-1.54l-82.71-58.22h0A32,32,0,0,1,352,295.7V216.3a32,32,0,0,1,13.58-26.16l82.71-58.22a15.77,15.77,0,0,1,2.71-1.54,32,32,0,0,1,45,29.24V352.38a32,32,0,0,1-32,32Z",
             }
             line {
-                x2: "80",
                 stroke: "#000",
                 stroke_linecap: "round",
-                stroke_miterlimit: "10",
-                stroke_width: "32",
-                fill: "none",
-                y2: "80",
-                x1: "416",
                 y1: "416",
+                fill: "none",
+                stroke_miterlimit: "10",
+                x1: "416",
+                stroke_width: "32",
+                x2: "80",
+                y2: "80",
             }
         }
     }
@@ -13932,12 +13932,12 @@ impl IconShape for IoArrowForwardCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "262.62 336 342 256 262.62 176",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "262.62 336 342 256 262.62 176",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "330.97",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "256",
                 x2: "170",
                 y2: "256",
@@ -13961,8 +13961,8 @@ impl IconShape for IoSyncSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M434.67,285.59v-29.8C434.67,157.06,354.43,77,255.47,77a179,179,0,0,0-140.14,67.36m-38.53,82v29.8C76.8,355,157,435,256,435a180.45,180.45,0,0,0,140-66.92",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                d: "M434.67,285.59v-29.8C434.67,157.06,354.43,77,255.47,77a179,179,0,0,0-140.14,67.36m-38.53,82v29.8C76.8,355,157,435,256,435a180.45,180.45,0,0,0,140-66.92",
             }
             polyline {
                 points: "32 256 76 212 122 256",
@@ -14004,9 +14004,9 @@ impl IconShape for IoWomanSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "255.75",
                 cy: "56",
                 r: "56",
+                cx: "255.75",
             }
             path {
                 d: "M310.28,191.4h.05l7.66-2.3,36.79,122.6,46-13.8-16.21-54.16c0-.12,0-.24-.07-.36l-16.84-56.12-4.71-15.74h0l-.9-3H362l-2.51-8.45a44.84,44.84,0,0,0-43-32.08H195.24a44.84,44.84,0,0,0-43,32.08l-2.51,8.45h-.06l-.9,3h0l-4.71,15.74-16.84,56.12c0,.12,0,.24-.07.36L110.94,297.9l46,13.8L193.7,189.1l7.54,2.26L148.25,368h51.5V512h52V368h8V512h52V368h51.51Z",
@@ -14046,31 +14046,31 @@ impl IconShape for IoRainySharp {
                 d: "M364,336H130c-29.5,0-54.92-7.83-73.53-22.64C35.23,296.44,24,271.35,24,240.8c0-26.66,10.08-49.8,29.14-66.91,15.24-13.68,36.17-23.21,59-26.84h0c.06,0,.08,0,.09-.05,6.44-39,23.83-72.09,50.31-95.68A140.24,140.24,0,0,1,256,16c30.23,0,58.48,9.39,81.71,27.17a142.69,142.69,0,0,1,45.36,60.66c29.41,4.82,54.72,17.11,73.19,35.54C477,160.11,488,187.71,488,219.2c0,32.85-13.13,62.87-37,84.52C428.11,324.54,397.2,336,364,336Zm19-232.18Z",
             }
             rect {
-                y: "386",
                 height: "32",
+                transform: "translate(-275.7 288.83) rotate(-56.31)",
                 x: "87.16",
                 width: "89.69",
-                transform: "translate(-275.7 288.83) rotate(-56.31)",
-            }
-            rect {
-                height: "32",
-                transform: "translate(-267.17 352.77) rotate(-56.31)",
-                x: "122.31",
-                y: "410",
-                width: "147.38",
-            }
-            rect {
-                height: "32",
-                transform: "translate(-204.46 421.96) rotate(-56.31)",
-                x: "247.16",
-                width: "89.69",
                 y: "386",
             }
             rect {
                 width: "147.38",
-                transform: "translate(-195.93 485.9) rotate(-56.31)",
-                x: "282.31",
+                transform: "translate(-267.17 352.77) rotate(-56.31)",
                 y: "410",
+                x: "122.31",
+                height: "32",
+            }
+            rect {
+                transform: "translate(-204.46 421.96) rotate(-56.31)",
+                y: "386",
+                width: "89.69",
+                x: "247.16",
+                height: "32",
+            }
+            rect {
+                x: "282.31",
+                transform: "translate(-195.93 485.9) rotate(-56.31)",
+                y: "410",
+                width: "147.38",
                 height: "32",
             }
         }
@@ -14089,10 +14089,10 @@ impl IconShape for IoTrain {
         rsx! {
             ellipse {
                 rx: "32.05",
-                cx: "256",
                 cy: "304",
-                transform: "translate(-139.98 270.06) rotate(-45)",
                 ry: "31.94",
+                cx: "256",
+                transform: "translate(-139.98 270.06) rotate(-45)",
             }
             path {
                 d: "M352,32H337a10,10,0,0,1-7.87-3.78A31.94,31.94,0,0,0,304,16H208a32,32,0,0,0-26.11,13.52A6,6,0,0,1,177,32H160c-36.81,0-64,28.84-64,64V351c0,23.27,25.6,42.06,83,60.94a753,753,0,0,0,73.77,19.73,16,16,0,0,0,6.46,0A753,753,0,0,0,333,411.94c57.4-18.88,83-37.67,83-60.94V96A64,64,0,0,0,352,32ZM184,128H328a8,8,0,0,1,8,8v48a8,8,0,0,1-8,8H184a8,8,0,0,1-8-8V136A8,8,0,0,1,184,128Zm76.18,239.87a64,64,0,1,1,59.69-59.69A64.07,64.07,0,0,1,260.18,367.87Z",
@@ -14115,14 +14115,14 @@ impl IconShape for IoPulseOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "48 320 112 320 176 64 240 448 304 224 336 320 400 320",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             circle {
-                cx: "432",
-                cy: "320",
                 r: "32",
+                cy: "320",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cx: "432",
             }
         }
     }
@@ -14185,18 +14185,18 @@ impl IconShape for IoShareOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M336,192h40a40,40,0,0,1,40,40V424a40,40,0,0,1-40,40H136a40,40,0,0,1-40-40V232a40,40,0,0,1,40-40h40",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "336 128 256 48 176 128",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 x1: "256",
-                y1: "321",
-                y2: "48",
                 x2: "256",
+                y2: "48",
+                y1: "321",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
@@ -14254,8 +14254,8 @@ impl IconShape for IoLogoFacebook {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M480,257.35c0-123.7-100.3-224-224-224s-224,100.3-224,224c0,111.8,81.9,204.47,189,221.29V322.12H164.11V257.35H221V208c0-56.13,33.45-87.16,84.61-87.16,24.51,0,50.15,4.38,50.15,4.38v55.13H327.5c-27.81,0-36.51,17.26-36.51,35v42h62.12l-9.92,64.77H291V478.66C398.1,461.85,480,369.18,480,257.35Z",
                 fill_rule: "evenodd",
+                d: "M480,257.35c0-123.7-100.3-224-224-224s-224,100.3-224,224c0,111.8,81.9,204.47,189,221.29V322.12H164.11V257.35H221V208c0-56.13,33.45-87.16,84.61-87.16,24.51,0,50.15,4.38,50.15,4.38v55.13H327.5c-27.81,0-36.51,17.26-36.51,35v42h62.12l-9.92,64.77H291V478.66C398.1,461.85,480,369.18,480,257.35Z",
             }
         }
     }
@@ -14272,21 +14272,21 @@ impl IconShape for IoRadioOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "256",
                 r: "32",
                 cy: "256.02",
+                cx: "256",
             }
             path {
                 d: "M184.25,192.25a96,96,0,0,0,0,127.52",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M327.77,319.77a96,96,0,0,0,0-127.52",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M327.77,319.77a96,96,0,0,0,0-127.52",
             }
             path {
-                d: "M133.28,141.28a168,168,0,0,0,0,229.44",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M133.28,141.28a168,168,0,0,0,0,229.44",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -14297,8 +14297,8 @@ impl IconShape for IoRadioOutline {
                 d: "M435,416a240.34,240.34,0,0,0,0-320",
             }
             path {
-                d: "M77,96a240.34,240.34,0,0,0,0,320",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M77,96a240.34,240.34,0,0,0,0,320",
             }
         }
     }
@@ -14315,8 +14315,8 @@ impl IconShape for IoLogoAmplify {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M112.31,268l40.36-68.69,34.65,59-67.54,115h135L289.31,432H16Zm58.57-99.76,33.27-56.67L392.44,432H325.76ZM222.67,80h66.59L496,432H429.32Z",
                 style: "fill-rule:evenodd",
+                d: "M112.31,268l40.36-68.69,34.65,59-67.54,115h135L289.31,432H16Zm58.57-99.76,33.27-56.67L392.44,432H325.76ZM222.67,80h66.59L496,432H429.32Z",
             }
         }
     }
@@ -14334,9 +14334,9 @@ impl IconShape for IoVideocamOffSharp {
         rsx! {
             rect {
                 width: "32",
-                x: "232",
                 y: "-5.59",
                 height: "507.18",
+                x: "232",
                 transform: "translate(-102.72 248) rotate(-45)",
             }
             path {
@@ -14394,14 +14394,14 @@ impl IconShape for IoCodeWorkingOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "256",
                 r: "26",
+                cy: "256",
                 cx: "256",
             }
             circle {
-                cx: "346",
-                cy: "256",
                 r: "26",
+                cy: "256",
+                cx: "346",
             }
             circle {
                 cy: "256",
@@ -14409,8 +14409,8 @@ impl IconShape for IoCodeWorkingOutline {
                 r: "26",
             }
             polyline {
-                points: "160 368 32 256 160 144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "160 368 32 256 160 144",
             }
             polyline {
                 points: "352 368 480 256 352 144",
@@ -14465,8 +14465,8 @@ impl IconShape for IoMoonOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M160,136c0-30.62,4.51-61.61,16-88C99.57,81.27,48,159.32,48,248c0,119.29,96.71,216,216,216,88.68,0,166.73-51.57,200-128-26.39,11.49-57.38,16-88,16C256.71,352,160,255.29,160,136Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M160,136c0-30.62,4.51-61.61,16-88C99.57,81.27,48,159.32,48,248c0,119.29,96.71,216,216,216,88.68,0,166.73-51.57,200-128-26.39,11.49-57.38,16-88,16C256.71,352,160,255.29,160,136Z",
             }
         }
     }
@@ -14637,8 +14637,8 @@ impl IconShape for IoLogoFigma {
                 d: "M336,176a80,80,0,0,0,0-160H176a80,80,0,0,0,0,160,80,80,0,0,0,0,160,80,80,0,1,0,80,80V176Z",
             }
             circle {
-                cx: "336",
                 cy: "256",
+                cx: "336",
                 r: "80",
             }
         }
@@ -14693,8 +14693,8 @@ impl IconShape for IoReturnUpForwardSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "400 160 464 224 400 288",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                points: "400 160 464 224 400 288",
             }
             polyline {
                 points: "448 224 48 224 48 352",
@@ -14716,29 +14716,29 @@ impl IconShape for IoTrophyOutline {
         rsx! {
             line {
                 y2: "464",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "464",
-                x2: "336",
                 x1: "176",
+                x2: "336",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "256",
                 y1: "464",
                 y2: "336",
             }
             path {
-                d: "M384,224c0-50.64-.08-134.63-.12-160a16,16,0,0,0-16-16l-223.79.26a16,16,0,0,0-16,15.95c0,30.58-.13,129.17-.13,159.79,0,64.28,83,112,128,112S384,288.28,384,224Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M384,224c0-50.64-.08-134.63-.12-160a16,16,0,0,0-16-16l-223.79.26a16,16,0,0,0-16,15.95c0,30.58-.13,129.17-.13,159.79,0,64.28,83,112,128,112S384,288.28,384,224Z",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M128,96H48v16c0,55.22,33.55,112,80,112",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M384,96h80v16c0,55.22-33.55,112-80,112",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -14755,8 +14755,8 @@ impl IconShape for IoRestaurantOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 d: "M57.49,47.74,425.92,416.17a37.28,37.28,0,0,1,0,52.72h0a37.29,37.29,0,0,1-52.72,0l-90-91.55A32,32,0,0,1,274,354.91v-5.53a32,32,0,0,0-9.52-22.78l-11.62-10.73a32,32,0,0,0-29.8-7.44h0A48.53,48.53,0,0,1,176.5,295.8L91.07,210.36C40.39,159.68,21.74,83.15,57.49,47.74Z",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -14767,15 +14767,15 @@ impl IconShape for IoRestaurantOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "360",
+                x1: "440",
                 y2: "152",
                 y1: "72",
+                x2: "360",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "440",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M200,368,100.28,468.28a40,40,0,0,1-56.56,0h0a40,40,0,0,1,0-56.56L128,328",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -14863,9 +14863,9 @@ impl IconShape for IoFlowerSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "256",
-                cy: "256",
                 r: "43",
+                cy: "256",
+                cx: "256",
             }
             path {
                 d: "M475.93,303.91a67.49,67.49,0,0,0-47.62-115.6c-2.88,0-6.2.14-9.93.43,2.75-2.36,5.23-4.62,7.33-6.71A67.83,67.83,0,0,0,378,66.33h-.25a67.27,67.27,0,0,0-47.82,20c-2.11,2.11-4.37,4.59-6.72,7.33.29-3.75.44-7.07.44-9.93a67.69,67.69,0,1,0-135.38,0c0,2.87.15,6.19.44,9.93-2.36-2.74-4.62-5.22-6.72-7.33a67.27,67.27,0,0,0-47.82-20H134A67.9,67.9,0,0,0,86.29,182c2.1,2.09,4.58,4.35,7.34,6.72-3.74-.29-7.06-.44-9.94-.44a67.69,67.69,0,0,0,0,135.38c2.86,0,6.18-.15,9.93-.44-2.74,2.35-5.22,4.61-7.33,6.72a67.55,67.55,0,0,0,47.82,115.42h.25A67.32,67.32,0,0,0,182,425.71c2.09-2.1,4.35-4.58,6.71-7.33-.28,3.73-.43,7.05-.43,9.93a67.69,67.69,0,0,0,135.38,0c0-2.87-.15-6.19-.44-9.94,2.36,2.75,4.62,5.24,6.72,7.34a67.32,67.32,0,0,0,47.67,19.68h.25A67.5,67.5,0,0,0,425.71,330c-2.11-2.11-4.59-4.37-7.33-6.72,3.75.29,7.07.44,9.93.44A67.27,67.27,0,0,0,475.93,303.91ZM256,341a85,85,0,1,1,85-85A85.1,85.1,0,0,1,256,341Z",
@@ -14885,15 +14885,15 @@ impl IconShape for IoPaperPlaneOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M53.12,199.94l400-151.39a8,8,0,0,1,10.33,10.33l-151.39,400a8,8,0,0,1-15-.34L229.66,292.45a16,16,0,0,0-10.11-10.11L53.46,215A8,8,0,0,1,53.12,199.94Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M53.12,199.94l400-151.39a8,8,0,0,1,10.33,10.33l-151.39,400a8,8,0,0,1-15-.34L229.66,292.45a16,16,0,0,0-10.11-10.11L53.46,215A8,8,0,0,1,53.12,199.94Z",
             }
             line {
+                x2: "227",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "460",
                 y2: "285",
                 y1: "52",
-                x2: "227",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -14956,18 +14956,18 @@ impl IconShape for IoCubeOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M448,341.37V170.61A32,32,0,0,0,432.11,143l-152-88.46a47.94,47.94,0,0,0-48.24,0L79.89,143A32,32,0,0,0,64,170.61V341.37A32,32,0,0,0,79.89,369l152,88.46a48,48,0,0,0,48.24,0l152-88.46A32,32,0,0,0,448,341.37Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M448,341.37V170.61A32,32,0,0,0,432.11,143l-152-88.46a47.94,47.94,0,0,0-48.24,0L79.89,143A32,32,0,0,0,64,170.61V341.37A32,32,0,0,0,79.89,369l152,88.46a48,48,0,0,0,48.24,0l152-88.46A32,32,0,0,0,448,341.37Z",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "69 153.99 256 263.99 443 153.99",
             }
             line {
+                y1: "463.99",
                 x2: "256",
                 y2: "263.99",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "463.99",
                 x1: "256",
             }
         }
@@ -15064,12 +15064,12 @@ impl IconShape for IoBrushOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M452.37,59.63h0a40.49,40.49,0,0,0-57.26,0L184,294.74c23.08,4.7,46.12,27.29,49.26,49.26L452.37,116.89A40.49,40.49,0,0,0,452.37,59.63Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M138,336c-29.88,0-54,24.5-54,54.86,0,23.95-20.88,36.57-36,36.57C64.56,449.74,92.82,464,120,464c39.78,0,72-32.73,72-73.14C192,360.5,167.88,336,138,336Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -15086,8 +15086,8 @@ impl IconShape for IoSquareOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M416,448H96a32.09,32.09,0,0,1-32-32V96A32.09,32.09,0,0,1,96,64H416a32.09,32.09,0,0,1,32,32V416A32.09,32.09,0,0,1,416,448Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -15108,11 +15108,11 @@ impl IconShape for IoPlaySkipBackOutline {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                y1: "80",
-                x1: "112",
-                y2: "432",
                 x2: "112",
+                y1: "80",
+                y2: "432",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                x1: "112",
             }
         }
     }
@@ -15232,41 +15232,41 @@ impl IconShape for IoListOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
+                x1: "160",
+                y2: "144",
                 y1: "144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "144",
                 x2: "448",
-                x1: "160",
             }
             line {
-                x1: "160",
-                y1: "256",
                 x2: "448",
                 y2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "160",
+                y1: "256",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "160",
-                y2: "368",
                 y1: "368",
+                y2: "368",
                 x2: "448",
-            }
-            circle {
-                cy: "144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                r: "16",
-                cx: "80",
             }
             circle {
+                r: "16",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "80",
+                cy: "144",
+            }
+            circle {
                 cy: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 r: "16",
+                cx: "80",
             }
             circle {
-                cx: "80",
                 cy: "368",
+                cx: "80",
                 r: "16",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
@@ -15319,20 +15319,20 @@ impl IconShape for IoLaptopOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                y: "96",
-                ry: "32.14",
                 x: "48",
+                height: "304",
+                ry: "32.14",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 width: "416",
                 rx: "32.14",
-                height: "304",
+                y: "96",
             }
             line {
-                y2: "416",
-                style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x2: "496",
-                y1: "416",
+                style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x1: "16",
+                y1: "416",
+                y2: "416",
             }
         }
     }
@@ -15518,8 +15518,8 @@ impl IconShape for IoSyncOutline {
                 points: "32 256 76 212 122 256",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "480 256 436 300 390 256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -15553,46 +15553,46 @@ impl IconShape for IoBarbellOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                y2: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "256",
                 x2: "464",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "48",
+                y2: "256",
+                y1: "256",
             }
             rect {
-                width: "32",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                rx: "16",
-                ry: "16",
                 y: "128",
                 height: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x: "384",
-            }
-            rect {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                width: "32",
                 rx: "16",
+                width: "32",
                 ry: "16",
+            }
+            rect {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y: "128",
-                x: "96",
+                rx: "16",
                 height: "256",
+                width: "32",
+                ry: "16",
+                x: "96",
             }
             rect {
-                height: "128",
-                y: "192",
-                rx: "8",
-                ry: "8",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x: "32",
+                y: "192",
+                rx: "8",
                 width: "16",
+                ry: "8",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                height: "128",
             }
             rect {
-                height: "128",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                width: "16",
                 rx: "8",
-                ry: "8",
                 y: "192",
+                ry: "8",
+                height: "128",
+                width: "16",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x: "464",
             }
         }
@@ -15873,29 +15873,29 @@ impl IconShape for IoBatteryFull {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                ry: "45.7",
-                width: "400",
-                height: "224",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 rx: "45.7",
-                x: "32",
                 y: "144",
+                height: "224",
+                ry: "45.7",
+                x: "32",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                width: "400",
             }
             rect {
+                rx: "4",
+                x: "85.69",
+                ry: "4",
+                style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 height: "114.14",
                 y: "198.93",
-                rx: "4",
-                ry: "4",
                 width: "292.63",
-                x: "85.69",
-                style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                y2: "293.33",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                x1: "480",
-                x2: "480",
                 y1: "218.67",
+                x1: "480",
+                y2: "293.33",
+                x2: "480",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -15970,30 +15970,30 @@ impl IconShape for IoGitPullRequestOutline {
         rsx! {
             circle {
                 r: "48",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "128",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cy: "416",
             }
             line {
-                y2: "368",
-                x2: "128",
-                x1: "128",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "144",
+                x1: "128",
+                x2: "128",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "368",
             }
             polyline {
-                points: "288 160 224 96 288 32",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "288 160 224 96 288 32",
             }
             circle {
                 cx: "128",
+                cy: "96",
                 r: "48",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                cy: "96",
             }
             circle {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cy: "416",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "384",
                 r: "48",
             }
@@ -16036,8 +16036,8 @@ impl IconShape for IoSaveOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M380.93,57.37A32,32,0,0,0,358.3,48H94.22A46.21,46.21,0,0,0,48,94.22V417.78A46.21,46.21,0,0,0,94.22,464H417.78A46.36,46.36,0,0,0,464,417.78V153.7a32,32,0,0,0-9.37-22.63ZM256,416a64,64,0,1,1,64-64A63.92,63.92,0,0,1,256,416Zm48-224H112a16,16,0,0,1-16-16V112a16,16,0,0,1,16-16H304a16,16,0,0,1,16,16v64A16,16,0,0,1,304,192Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -16057,27 +16057,27 @@ impl IconShape for IoPizzaSharp {
                 d: "M442.3,67.82h0C383.92,44.72,317.78,32,256,32c-63.57,0-129.8,12.51-186.56,35.25C49.18,75.48,42,80,42,80l22,44,37.53-16.14C147.58,89.53,199.19,80,256.51,80,314,80,364.6,89.23,411.26,108.25h0L448,124l22-44S463,76,442.3,67.82Z",
             }
             ellipse {
-                cx: "320.48",
-                cy: "207.99",
                 rx: "31.97",
-                transform: "translate(-53.23 287.42) rotate(-44.98)",
+                cx: "320.48",
                 ry: "32.03",
+                transform: "translate(-53.23 287.42) rotate(-44.98)",
+                cy: "207.99",
                 style: "fill:none",
             }
             ellipse {
-                cx: "192.48",
-                cy: "191.99",
                 transform: "translate(-79.38 192.25) rotate(-44.98)",
                 ry: "32.03",
-                rx: "31.97",
                 style: "fill:none",
+                rx: "31.97",
+                cx: "192.48",
+                cy: "191.99",
             }
             ellipse {
-                transform: "translate(-151.13 274.96) rotate(-44.98)",
                 ry: "32.03",
+                rx: "31.97",
+                transform: "translate(-151.13 274.96) rotate(-44.98)",
                 cy: "319.99",
                 style: "fill:none",
-                rx: "31.97",
                 cx: "256.48",
             }
             path {
@@ -16115,69 +16115,69 @@ impl IconShape for IoFootballOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "256",
-                cy: "256",
-                r: "192",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                cx: "256",
+                r: "192",
+                cy: "256",
             }
             polygon {
-                points: "256 175.15 179.91 238.98 200 320 256 320 312 320 332.09 238.98 256 175.15",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "256 175.15 179.91 238.98 200 320 256 320 312 320 332.09 238.98 256 175.15",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "332.09 238.98 384.96 216.58 410.74 143.32",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 x2: "384.96",
+                y2: "216.58",
+                y1: "269.97",
                 x1: "447",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "269.97",
-                y2: "216.58",
             }
             polyline {
-                points: "179.91 238.98 127.04 216.58 101.26 143.32",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "179.91 238.98 127.04 216.58 101.26 143.32",
             }
             line {
-                y2: "216.58",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "65",
                 y1: "269.97",
                 x2: "127.04",
-                x1: "65",
+                y2: "216.58",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "256 175.15 256 117.58 320 74.94",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "74.93",
+                x2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "192",
-                x2: "256",
                 y2: "117.58",
+                y1: "74.93",
             }
             polyline {
-                points: "312 320 340 368 312 439",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "312 320 340 368 312 439",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "368",
-                x1: "410.74",
-                y1: "368",
                 x2: "342",
+                y2: "368",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "368",
+                x1: "410.74",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "200 320 172 368 200.37 439.5",
             }
             line {
+                x2: "172",
+                y2: "368",
+                x1: "101.63",
                 y1: "368",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "172",
-                x1: "101.63",
-                y2: "368",
             }
         }
     }
@@ -16194,15 +16194,15 @@ impl IconShape for IoPersonRemoveSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                width: "144",
-                height: "36",
                 y: "214",
+                height: "36",
                 x: "16",
+                width: "144",
             }
             circle {
+                cy: "144",
                 cx: "288",
                 r: "112",
-                cy: "144",
             }
             path {
                 d: "M288,288c-69.42,0-208,42.88-208,128v64H496V416C496,330.88,357.42,288,288,288Z",
@@ -16345,33 +16345,33 @@ impl IconShape for IoReaderOutline {
         rsx! {
             rect {
                 width: "320",
-                y: "48",
-                x: "96",
-                ry: "48",
                 height: "416",
                 rx: "48",
+                ry: "48",
+                x: "96",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                y: "48",
             }
             line {
+                x1: "176",
                 y1: "128",
                 x2: "336",
-                x1: "176",
                 y2: "128",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 x1: "176",
-                x2: "336",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "208",
                 y1: "208",
+                x2: "336",
+                y2: "208",
             }
             line {
-                x2: "256",
-                y2: "288",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "256",
                 y1: "288",
                 x1: "176",
+                y2: "288",
             }
         }
     }
@@ -16490,8 +16490,8 @@ impl IconShape for IoCreateOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M384,224V408a40,40,0,0,1-40,40H104a40,40,0,0,1-40-40V168a40,40,0,0,1,40-40H271.48",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M459.94,53.25a16.06,16.06,0,0,0-23.22-.56L424.35,65a8,8,0,0,0,0,11.31l11.34,11.32a8,8,0,0,0,11.34,0l12.06-12C465.19,69.54,465.76,59.62,459.94,53.25Z",
@@ -16518,8 +16518,8 @@ impl IconShape for IoPlayForwardOutline {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M260.57,145.52v221c0,13.28,13,21.72,23.63,15.35l188.87-113c9.24-5.53,9.24-20.07,0-25.6l-188.87-113C273.56,123.8,260.57,132.24,260.57,145.52Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -16536,9 +16536,9 @@ impl IconShape for IoStopSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                width: "352",
                 x: "80",
                 height: "352",
+                width: "352",
                 y: "80",
             }
         }
@@ -16556,33 +16556,33 @@ impl IconShape for IoColorPaletteOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M430.11,347.9c-6.6-6.1-16.3-7.6-24.6-9-11.5-1.9-15.9-4-22.6-10-14.3-12.7-14.3-31.1,0-43.8l30.3-26.9c46.4-41,46.4-108.2,0-149.2-34.2-30.1-80.1-45-127.8-45-55.7,0-113.9,20.3-158.8,60.1-83.5,73.8-83.5,194.7,0,268.5,41.5,36.7,97.5,55,152.9,55.4h1.7c55.4,0,110-17.9,148.8-52.4C444.41,382.9,442,359,430.11,347.9Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             circle {
-                r: "32",
                 cy: "208",
+                r: "32",
                 cx: "144",
             }
             circle {
-                cy: "311",
                 cx: "152",
+                cy: "311",
                 r: "32",
             }
             circle {
-                r: "32",
                 cx: "224",
                 cy: "144",
+                r: "32",
             }
             circle {
                 cy: "367",
-                r: "48",
                 cx: "256",
+                r: "48",
             }
             circle {
-                cy: "144",
                 r: "32",
                 cx: "328",
+                cy: "144",
             }
         }
     }
@@ -16599,27 +16599,27 @@ impl IconShape for IoImageOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                y: "80",
+                height: "352",
                 ry: "48",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                x: "48",
-                height: "352",
-                width: "416",
                 rx: "48",
+                x: "48",
+                y: "80",
+                width: "416",
             }
             circle {
-                cx: "336",
-                cy: "176",
-                r: "32",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                cx: "336",
+                r: "32",
+                cy: "176",
             }
             path {
                 d: "M304,335.79,213.34,245.3A32,32,0,0,0,169.47,244L48,352",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M224,432,347.34,308.66a32,32,0,0,1,43.11-2L464,368",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -16639,10 +16639,10 @@ impl IconShape for IoLogInSharp {
                 d: "M432,80H192a16,16,0,0,0-16,16V240H329.37l-64-64L288,153.37l91.31,91.32a16,16,0,0,1,0,22.62L288,358.63,265.37,336l64-64H176V416a16,16,0,0,0,16,16H432a16,16,0,0,0,16-16V96A16,16,0,0,0,432,80Z",
             }
             rect {
-                x: "64",
-                y: "240",
                 width: "112",
                 height: "32",
+                x: "64",
+                y: "240",
             }
         }
     }
@@ -16719,8 +16719,8 @@ impl IconShape for IoWifi {
                 d: "M462,175.86a309,309,0,0,0-411.44,0,21,21,0,1,0,28,31.29,267,267,0,0,1,355.43,0,21,21,0,0,0,28-31.31Z",
             }
             circle {
-                r: "32",
                 cx: "256.28",
+                r: "32",
                 cy: "393.41",
             }
         }
@@ -16745,8 +16745,8 @@ impl IconShape for IoPricetagsOutline {
                 d: "M352,144a32,32,0,1,1,32-32A32,32,0,0,1,352,144Z",
             }
             path {
-                d: "M230,480,492,218a13.81,13.81,0,0,0,4-10V80",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M230,480,492,218a13.81,13.81,0,0,0,4-10V80",
             }
         }
     }
@@ -16763,11 +16763,11 @@ impl IconShape for IoWatch {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                x: "136",
+                ry: "56",
+                y: "136",
                 width: "240",
                 height: "240",
-                y: "136",
-                ry: "56",
+                x: "136",
                 rx: "56",
             }
             path {
@@ -16942,8 +16942,8 @@ impl IconShape for IoReturnDownBackSharp {
                 points: "112 352 48 288 112 224",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "64 288 464 288 464 160",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -17014,17 +17014,17 @@ impl IconShape for IoAdd {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                x1: "256",
-                y1: "112",
-                y2: "400",
                 x2: "256",
+                y2: "400",
+                y1: "112",
+                x1: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 x2: "112",
                 y1: "256",
-                y2: "256",
                 x1: "400",
+                y2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
@@ -17120,28 +17120,28 @@ impl IconShape for IoSparklesOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                stroke_linejoin: "round",
-                fill: "none",
-                d: "M259.92,262.91,216.4,149.77a9,9,0,0,0-16.8,0L156.08,262.91a9,9,0,0,1-5.17,5.17L37.77,311.6a9,9,0,0,0,0,16.8l113.14,43.52a9,9,0,0,1,5.17,5.17L199.6,490.23a9,9,0,0,0,16.8,0l43.52-113.14a9,9,0,0,1,5.17-5.17L378.23,328.4a9,9,0,0,0,0-16.8L265.09,268.08A9,9,0,0,1,259.92,262.91Z",
                 stroke: "#000",
+                d: "M259.92,262.91,216.4,149.77a9,9,0,0,0-16.8,0L156.08,262.91a9,9,0,0,1-5.17,5.17L37.77,311.6a9,9,0,0,0,0,16.8l113.14,43.52a9,9,0,0,1,5.17,5.17L199.6,490.23a9,9,0,0,0,16.8,0l43.52-113.14a9,9,0,0,1,5.17-5.17L378.23,328.4a9,9,0,0,0,0-16.8L265.09,268.08A9,9,0,0,1,259.92,262.91Z",
                 stroke_linecap: "round",
+                stroke_linejoin: "round",
                 stroke_width: "32",
+                fill: "none",
             }
             polygon {
-                stroke: "#000",
-                stroke_width: "32",
-                fill: "none",
                 points: "108 68 88 16 68 68 16 88 68 108 88 160 108 108 160 88 108 68",
                 stroke_linecap: "round",
-                stroke_linejoin: "round",
-            }
-            polygon {
                 stroke: "#000",
-                stroke_linecap: "round",
-                fill: "none",
-                points: "426.67 117.33 400 48 373.33 117.33 304 144 373.33 170.67 400 240 426.67 170.67 496 144 426.67 117.33",
                 stroke_linejoin: "round",
                 stroke_width: "32",
+                fill: "none",
+            }
+            polygon {
+                stroke_linejoin: "round",
+                stroke_width: "32",
+                fill: "none",
+                stroke: "#000",
+                points: "426.67 117.33 400 48 373.33 117.33 304 144 373.33 170.67 400 240 426.67 170.67 496 144 426.67 117.33",
+                stroke_linecap: "round",
             }
         }
     }
@@ -17158,11 +17158,11 @@ impl IconShape for IoExtensionPuzzleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                stroke_width: "32",
-                fill: "none",
-                d: "M413.66,246.1H386a2,2,0,0,1-2-2V166.86A38.86,38.86,0,0,0,345.14,128H267.9a2,2,0,0,1-2-2V98.34c0-27.14-21.5-49.86-48.64-50.33a49.53,49.53,0,0,0-50.4,49.51V126a2,2,0,0,1-2,2H87.62A39.74,39.74,0,0,0,48,167.62V238a2,2,0,0,0,2,2H76.91c29.37,0,53.68,25.48,54.09,54.85.42,29.87-23.51,57.15-53.29,57.15H50a2,2,0,0,0-2,2v70.38A39.74,39.74,0,0,0,87.62,464H158a2,2,0,0,0,2-2V441.07c0-30.28,24.75-56.35,55-57.06,30.1-.7,57,20.31,57,50.28V462a2,2,0,0,0,2,2h71.14A38.86,38.86,0,0,0,384,425.14v-78a2,2,0,0,1,2-2h28.48c27.63,0,49.52-22.67,49.52-50.4S440.8,246.1,413.66,246.1Z",
-                stroke: "#000",
                 stroke_linejoin: "round",
+                stroke_width: "32",
+                d: "M413.66,246.1H386a2,2,0,0,1-2-2V166.86A38.86,38.86,0,0,0,345.14,128H267.9a2,2,0,0,1-2-2V98.34c0-27.14-21.5-49.86-48.64-50.33a49.53,49.53,0,0,0-50.4,49.51V126a2,2,0,0,1-2,2H87.62A39.74,39.74,0,0,0,48,167.62V238a2,2,0,0,0,2,2H76.91c29.37,0,53.68,25.48,54.09,54.85.42,29.87-23.51,57.15-53.29,57.15H50a2,2,0,0,0-2,2v70.38A39.74,39.74,0,0,0,87.62,464H158a2,2,0,0,0,2-2V441.07c0-30.28,24.75-56.35,55-57.06,30.1-.7,57,20.31,57,50.28V462a2,2,0,0,0,2,2h71.14A38.86,38.86,0,0,0,384,425.14v-78a2,2,0,0,1,2-2h28.48c27.63,0,49.52-22.67,49.52-50.4S440.8,246.1,413.66,246.1Z",
+                fill: "none",
+                stroke: "#000",
                 stroke_linecap: "round",
             }
         }
@@ -17180,15 +17180,15 @@ impl IconShape for IoArrowForwardOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 points: "268 112 412 256 268 400",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 x1: "392",
-                x2: "100",
-                y1: "256",
                 y2: "256",
+                y1: "256",
+                x2: "100",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
         }
     }
@@ -17228,28 +17228,28 @@ impl IconShape for IoBowlingBallOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "256",
                 stroke_width: "32",
-                cx: "256",
-                r: "208",
-                fill: "none",
                 stroke: "#000",
                 stroke_miterlimit: "10",
+                r: "208",
+                cy: "256",
+                fill: "none",
+                cx: "256",
             }
             circle {
-                cy: "200",
-                r: "24",
                 cx: "288",
+                r: "24",
+                cy: "200",
             }
             circle {
-                r: "24",
                 cy: "128",
                 cx: "296",
+                r: "24",
             }
             circle {
                 cy: "168",
-                r: "24",
                 cx: "360",
+                r: "24",
             }
         }
     }
@@ -17327,28 +17327,28 @@ impl IconShape for IoTrainOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M344,48H320a16,16,0,0,0-16-16H208a16,16,0,0,0-16,16H168a56.16,56.16,0,0,0-56,56V351c0,35.3,144,65,144,65s144-29.7,144-65V104A56,56,0,0,0,344,48ZM256,352a48,48,0,1,1,48-48A48,48,0,0,1,256,352Zm96-160a16,16,0,0,1-16,16H176a16,16,0,0,1-16-16V128a16,16,0,0,1,16-16H336a16,16,0,0,1,16,16Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M344,48H320a16,16,0,0,0-16-16H208a16,16,0,0,0-16,16H168a56.16,56.16,0,0,0-56,56V351c0,35.3,144,65,144,65s144-29.7,144-65V104A56,56,0,0,0,344,48ZM256,352a48,48,0,1,1,48-48A48,48,0,0,1,256,352Zm96-160a16,16,0,0,1-16,16H176a16,16,0,0,1-16-16V128a16,16,0,0,1,16-16H336a16,16,0,0,1,16,16Z",
             }
             line {
-                x1: "144",
                 x2: "368",
-                y1: "464",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "464",
                 y2: "464",
+                x1: "144",
             }
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "336",
-                y2: "480",
                 y1: "432",
                 x2: "384",
+                y2: "480",
             }
             line {
                 y1: "432",
+                x2: "128",
                 y2: "480",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "128",
                 x1: "176",
             }
         }
@@ -17366,28 +17366,28 @@ impl IconShape for IoBriefcaseOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                y: "128",
-                height: "320",
-                x: "32",
                 rx: "48",
                 ry: "48",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                y: "128",
                 width: "448",
+                x: "32",
+                height: "320",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M144,128V96a32,32,0,0,1,32-32H336a32,32,0,0,1,32,32v32",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "240",
                 x2: "32",
+                x1: "480",
+                y1: "240",
                 y2: "240",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "480",
             }
             path {
-                d: "M320,240v24a8,8,0,0,1-8,8H200a8,8,0,0,1-8-8V240",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M320,240v24a8,8,0,0,1-8,8H200a8,8,0,0,1-8-8V240",
             }
         }
     }
@@ -17458,15 +17458,15 @@ impl IconShape for IoRemoveCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
             line {
-                y1: "256",
-                x2: "176",
                 x1: "336",
                 y2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "256",
+                x2: "176",
             }
         }
     }
@@ -17517,8 +17517,8 @@ impl IconShape for IoReturnUpBackOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "112 160 48 224 112 288",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -17556,8 +17556,8 @@ impl IconShape for IoMedicalOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M429.93,174.27l-16.47-28.59a15.49,15.49,0,0,0-21.15-5.7l-98.39,57a4,4,0,0,1-6-3.5L288,80a16,16,0,0,0-16-16H240a16,16,0,0,0-16,16l.07,113.57a4,4,0,0,1-6,3.5l-98.39-57a15.49,15.49,0,0,0-21.15,5.7L82.07,174.37a15.42,15.42,0,0,0,5.69,21.1l98.49,57.08a4,4,0,0,1,0,6.9L87.76,316.53a15.54,15.54,0,0,0-5.69,21.1l16.47,28.59a15.49,15.49,0,0,0,21.15,5.7l98.39-57a4,4,0,0,1,6,3.5L224,432a16,16,0,0,0,16,16h32a16,16,0,0,0,16-16l-.07-113.67a4,4,0,0,1,6-3.5l98.39,57a15.49,15.49,0,0,0,21.15-5.7l16.47-28.59a15.42,15.42,0,0,0-5.69-21.1l-98.49-57.08a4,4,0,0,1,0-6.9l98.49-57.08A15.51,15.51,0,0,0,429.93,174.27Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -17574,12 +17574,12 @@ impl IconShape for IoShieldHalf {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                stroke_width: "32",
-                stroke: "#000",
                 stroke_linecap: "round",
                 stroke_linejoin: "round",
-                d: "M48.9,112.37C138.32,96.33,175.29,84.45,256,48c80.71,36.45,117.68,48.33,207.1,64.37C479.3,369.13,271.42,457.79,256,464,240.58,457.79,32.7,369.13,48.9,112.37Z",
                 fill: "none",
+                stroke_width: "32",
+                stroke: "#000",
+                d: "M48.9,112.37C138.32,96.33,175.29,84.45,256,48c80.71,36.45,117.68,48.33,207.1,64.37C479.3,369.13,271.42,457.79,256,464,240.58,457.79,32.7,369.13,48.9,112.37Z",
             }
             path {
                 d: "M256,48c80.71,36.45,117.68,48.33,207.1,64.37C479.3,369.13,271.42,457.79,256,464Z",
@@ -17599,22 +17599,22 @@ impl IconShape for IoMic {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
+                x2: "320",
                 y2: "448",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "320",
-                x1: "192",
                 y1: "448",
+                x1: "192",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M384,208v32c0,70.4-57.6,128-128,128h0c-70.4,0-128-57.6-128-128V208",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "256",
-                y2: "448",
-                x1: "256",
                 y1: "368",
+                x2: "256",
+                x1: "256",
+                y2: "448",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M256,320a78.83,78.83,0,0,1-56.55-24.1A80.89,80.89,0,0,1,176,239V128a79.69,79.69,0,0,1,80-80c44.86,0,80,35.14,80,80V239C336,283.66,300.11,320,256,320Z",
@@ -17634,36 +17634,36 @@ impl IconShape for IoShareSocialOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "128",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cy: "256",
                 r: "48",
             }
             circle {
                 cx: "384",
                 cy: "112",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 r: "48",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             circle {
-                cy: "400",
+                r: "48",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "384",
-                r: "48",
+                cy: "400",
             }
             line {
-                x1: "169.83",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "376.47",
                 y1: "279.53",
                 x2: "342.17",
+                y2: "376.47",
+                x1: "169.83",
             }
             line {
+                y2: "232.47",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "342.17",
                 y1: "135.53",
                 x2: "169.83",
-                y2: "232.47",
             }
         }
     }
@@ -17695,16 +17695,16 @@ impl IconShape for IoBonfireOutline {
                 d: "M176.55,355,107,403.38a32.34,32.34,0,0,0-6,4.35,26.33,26.33,0,0,0,0,38.56,29.39,29.39,0,0,0,40.36,0,30.75,30.75,0,0,0,4-4.68L197.9,373c3.5-5.58,2.92-12.49-2-17.06A15,15,0,0,0,176.55,355Z",
             }
             path {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M368,125.09c0-55.7-49.22-89.16-94.2-93.06a8,8,0,0,0-8.69,7.71c-3.12,76-109.38,110.69-119.87,178.68-7,45.4,16.65,72.37,34.31,85.78a15.94,15.94,0,0,0,23.93-5.62c22.5-45.86,74.33-63.49,109.72-85.94C356.08,185.44,368,156.2,368,125.09Z",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M240,95.7c-12.82-23-30.51-31-59.16-31.63a3.86,3.86,0,0,0-4.06,3.51C175.83,101.8,144,112.43,144,140.73c0,19.37,5.39,29,17.16,39.28",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M352.45,178.76c8.6,14.31,15.55,30.08,15.55,48,0,52.52-42.47,93.1-94.86,93.1a94.42,94.42,0,0,1-65.14-26",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -17721,26 +17721,26 @@ impl IconShape for IoFileTrayOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 d: "M384,80H128c-26,0-43,14-48,40L48,272V384a48.14,48.14,0,0,0,48,48H416a48.14,48.14,0,0,0,48-48V272L432,120C427,93,409,80,384,80Z",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 x2: "192",
                 x1: "48",
-                y1: "272",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "272",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "272",
             }
             line {
-                x2: "464",
                 y1: "272",
+                x2: "464",
                 y2: "272",
-                x1: "320",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "320",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M192,272a64,64,0,0,0,128,0",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -17757,8 +17757,8 @@ impl IconShape for IoRadioButtonOffOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -17873,17 +17873,17 @@ impl IconShape for IoGlassesOutline {
                 d: "M224,232a32,32,0,0,1,64,0",
             }
             line {
-                x1: "448",
                 x2: "464",
-                y2: "200",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "200",
+                y2: "200",
+                x1: "448",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "200",
                 x2: "48",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "200",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "200",
                 x1: "64",
             }
             path {
@@ -17938,11 +17938,11 @@ impl IconShape for IoCodeDownloadOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "256",
+                y2: "336.03",
+                y1: "160",
                 x1: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "160",
-                y2: "336.03",
+                x2: "256",
             }
         }
     }
@@ -17959,31 +17959,31 @@ impl IconShape for IoMedkitOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                rx: "48",
+                height: "352",
                 y: "112",
+                width: "448",
                 ry: "48",
                 x: "32",
-                height: "352",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                width: "448",
+                rx: "48",
             }
             path {
-                d: "M144,112V80a32,32,0,0,1,32-32H336a32,32,0,0,1,32,32v32",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M144,112V80a32,32,0,0,1,32-32H336a32,32,0,0,1,32,32v32",
             }
             line {
-                y1: "208",
-                y2: "368",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "256",
                 x2: "256",
+                y2: "368",
+                y1: "208",
             }
             line {
+                y1: "288",
+                x2: "176",
+                x1: "336",
                 y2: "288",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "288",
-                x1: "336",
-                x2: "176",
             }
         }
     }
@@ -18038,8 +18038,8 @@ impl IconShape for IoKeyOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 d: "M218.1,167.17c0,13,0,25.6,4.1,37.4-43.1,50.6-156.9,184.3-167.5,194.5a20.17,20.17,0,0,0-6.7,15c0,8.5,5.2,16.7,9.6,21.3,6.6,6.9,34.8,33,40,28,15.4-15,18.5-19,24.8-25.2,9.5-9.3-1-28.3,2.3-36s6.8-9.2,12.5-10.4,15.8,2.9,23.7,3c8.3.1,12.8-3.4,19-9.2,5-4.6,8.6-8.9,8.7-15.6.2-9-12.8-20.9-3.1-30.4s23.7,6.2,34,5,22.8-15.5,24.1-21.6-11.7-21.8-9.7-30.7c.7-3,6.8-10,11.4-11s25,6.9,29.6,5.9c5.6-1.2,12.1-7.1,17.4-10.4,15.5,6.7,29.6,9.4,47.7,9.4,68.5,0,124-53.4,124-119.2S408.5,48,340,48,218.1,101.37,218.1,167.17ZM400,144a32,32,0,1,1-32-32A32,32,0,0,1,400,144Z",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -18113,8 +18113,8 @@ impl IconShape for IoReload {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M400,148l-21.12-24.57A191.43,191.43,0,0,0,240,64C134,64,48,150,48,256s86,192,192,192A192.09,192.09,0,0,0,421.07,320",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 d: "M464,97.42V208a16,16,0,0,1-16,16H337.42c-14.26,0-21.4-17.23-11.32-27.31L436.69,86.1C446.77,76,464,83.16,464,97.42Z",
@@ -18229,12 +18229,12 @@ impl IconShape for IoNotificationsOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M427.68,351.43C402,320,383.87,304,383.87,217.35,383.87,138,343.35,109.73,310,96c-4.43-1.82-8.6-6-9.95-10.55C294.2,65.54,277.8,48,256,48S217.79,65.55,212,85.47c-1.35,4.6-5.52,8.71-9.95,10.53-33.39,13.75-73.87,41.92-73.87,121.35C128.13,304,110,320,84.32,351.43,73.68,364.45,83,384,101.61,384H410.49C429,384,438.26,364.39,427.68,351.43Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M320,384v16a64,64,0,0,1-128,0V384",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M320,384v16a64,64,0,0,1-128,0V384",
             }
         }
     }
@@ -18308,15 +18308,15 @@ impl IconShape for IoArrowDownSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
                 points: "112 268 256 412 400 268",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
             }
             line {
+                x1: "256",
                 x2: "256",
                 y2: "100",
-                x1: "256",
-                y1: "392",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
+                y1: "392",
             }
         }
     }
@@ -18385,16 +18385,16 @@ impl IconShape for IoRepeatOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "320 120 368 168 320 216",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "320 120 368 168 320 216",
             }
             path {
                 d: "M352,168H144a80.24,80.24,0,0,0-80,80v16",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "192 392 144 344 192 296",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M160,344H368a80.24,80.24,0,0,0,80-80V248",
@@ -18415,8 +18415,8 @@ impl IconShape for IoRefresh {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M320,146s24.36-12-64-12A160,160,0,1,0,416,294",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
                 points: "256 58 336 138 256 218",
@@ -18474,24 +18474,24 @@ impl IconShape for IoReorderThreeOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "96",
+                y1: "256",
                 x2: "416",
                 y2: "256",
-                y1: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "176",
                 x2: "416",
-                y2: "176",
                 x1: "96",
+                y1: "176",
+                y2: "176",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
+                x1: "96",
+                x2: "416",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "336",
-                x2: "416",
-                x1: "96",
                 y1: "336",
             }
         }
@@ -18526,26 +18526,26 @@ impl IconShape for IoPrintOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M384,368h24a40.12,40.12,0,0,0,40-40V168a40.12,40.12,0,0,0-40-40H104a40.12,40.12,0,0,0-40,40V328a40.12,40.12,0,0,0,40,40h24",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                d: "M384,368h24a40.12,40.12,0,0,0,40-40V168a40.12,40.12,0,0,0-40-40H104a40.12,40.12,0,0,0-40,40V328a40.12,40.12,0,0,0,40,40h24",
             }
             rect {
+                ry: "24.32",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 x: "128",
                 y: "240",
                 height: "208",
                 rx: "24.32",
-                ry: "24.32",
                 width: "256",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 d: "M384,128V104a40.12,40.12,0,0,0-40-40H168a40.12,40.12,0,0,0-40,40v24",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             circle {
-                cx: "392",
                 cy: "184",
                 r: "24",
+                cx: "392",
             }
         }
     }
@@ -18582,20 +18582,20 @@ impl IconShape for IoBodyOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "256",
-                fill: "none",
+                r: "40",
                 stroke_miterlimit: "10",
                 stroke_width: "32",
-                cy: "56",
+                fill: "none",
                 stroke: "#000",
-                r: "40",
+                cx: "256",
+                cy: "56",
             }
             path {
-                d: "M199.3,295.62h0l-30.4,172.2a24,24,0,0,0,19.5,27.8,23.76,23.76,0,0,0,27.6-19.5l21-119.9v.2s5.2-32.5,17.5-32.5h3.1c12.5,0,17.5,32.5,17.5,32.5v-.1l21,119.9a23.92,23.92,0,1,0,47.1-8.4l-30.4-172.2-4.9-29.7c-2.9-18.1-4.2-47.6.5-59.7,4-10.4,14.13-14.2,23.2-14.2H424a24,24,0,0,0,0-48H88a24,24,0,0,0,0,48h92.5c9.23,0,19.2,3.8,23.2,14.2,4.7,12.1,3.4,41.6.5,59.7Z",
-                fill: "none",
+                stroke_width: "32",
                 stroke_miterlimit: "10",
                 stroke: "#000",
-                stroke_width: "32",
+                d: "M199.3,295.62h0l-30.4,172.2a24,24,0,0,0,19.5,27.8,23.76,23.76,0,0,0,27.6-19.5l21-119.9v.2s5.2-32.5,17.5-32.5h3.1c12.5,0,17.5,32.5,17.5,32.5v-.1l21,119.9a23.92,23.92,0,1,0,47.1-8.4l-30.4-172.2-4.9-29.7c-2.9-18.1-4.2-47.6.5-59.7,4-10.4,14.13-14.2,23.2-14.2H424a24,24,0,0,0,0-48H88a24,24,0,0,0,0,48h92.5c9.23,0,19.2,3.8,23.2,14.2,4.7,12.1,3.4,41.6.5,59.7Z",
+                fill: "none",
             }
         }
     }
@@ -18629,8 +18629,8 @@ impl IconShape for IoPizzaOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M404.76,123.08C358.37,104.18,309.69,96,256,96S149.9,105,107.1,122.68c-8.08,3.3-15.26,9-10.07,19.5C101.24,150.71,203,375,241.66,455a15.94,15.94,0,0,0,28.72,0L414.43,142.78C417.62,135.88,415.33,127.38,404.76,123.08Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M404.76,123.08C358.37,104.18,309.69,96,256,96S149.9,105,107.1,122.68c-8.08,3.3-15.26,9-10.07,19.5C101.24,150.71,203,375,241.66,455a15.94,15.94,0,0,0,28.72,0L414.43,142.78C417.62,135.88,415.33,127.38,404.76,123.08Z",
             }
             path {
                 d: "M436.38,82.68C384.31,62.08,320.17,48,256,48S128.65,60.78,75.48,82.08C70.79,84,62,88.43,64.41,95.88L74.09,120c4,8.2,8.67,8.2,15.06,8.2,1.79,0,4.29-1,7.28-2.18A442.46,442.46,0,0,1,256,96c56.76,0,114.91,12,159.6,30,3.59,1.4,5.59,2.18,7.28,2.18,6.58,0,10.38,2.19,15-8.1L447.65,96C449.66,90,442.66,85.18,436.38,82.68Z",
@@ -18638,18 +18638,18 @@ impl IconShape for IoPizzaOutline {
             }
             circle {
                 cx: "192",
-                cy: "192",
                 r: "32",
+                cy: "192",
             }
             circle {
-                r: "32",
-                cy: "208",
                 cx: "320",
+                cy: "208",
+                r: "32",
             }
             circle {
                 cy: "320",
-                r: "32",
                 cx: "256",
+                r: "32",
             }
         }
     }
@@ -18670,10 +18670,10 @@ impl IconShape for IoArrowBackOutline {
                 points: "244 400 100 256 244 112",
             }
             line {
-                y2: "256",
-                x2: "412",
                 y1: "256",
+                x2: "412",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
+                y2: "256",
                 x1: "120",
             }
         }
@@ -18708,8 +18708,8 @@ impl IconShape for IoEarthOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M464,256c0-114.87-93.13-208-208-208S48,141.13,48,256s93.13,208,208,208S464,370.87,464,256Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 d: "M445.57,172.14c-16.06.1-14.48,29.73-34.49,15.75-7.43-5.18-12-12.71-21.33-15-8.15-2-16.5.08-24.55,1.47-9.15,1.58-20,2.29-26.94,9.22-6.71,6.67-10.26,15.62-17.4,22.33-13.81,13-19.64,27.19-10.7,45.57,8.6,17.67,26.59,27.26,46,26,19.07-1.27,38.88-12.33,38.33,15.38-.2,9.8,1.85,16.6,4.86,25.71,2.79,8.4,2.6,16.54,3.24,25.21,1.18,16.2,4.16,34.36,12.2,48.67l15-21.16c1.85-2.62,5.72-6.29,6.64-9.38,1.63-5.47-1.58-14.87-1.95-21s-.19-12.34-1.13-18.47c-1.32-8.59-6.4-16.64-7.1-25.13-1.29-15.81,1.6-28.43-10.58-41.65-11.76-12.75-29-15.81-45.47-13.22-8.3,1.3-41.71,6.64-28.3-12.33,2.65-3.73,7.28-6.79,10.26-10.34,2.59-3.09,4.84-8.77,7.88-11.18s17-5.18,21-3.95,8.17,7,11.64,9.56a49.89,49.89,0,0,0,21.81,9.36c13.66,2,42.22-5.94,42-23.46C456.45,191.7,448.65,180,445.57,172.14Z",
@@ -18764,8 +18764,8 @@ impl IconShape for IoCloudyOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 d: "M100.18,241.19a15.93,15.93,0,0,0,13.37-13.25C126.6,145.59,186.34,96,256,96c64.69,0,107.79,42.36,124.92,87a16.11,16.11,0,0,0,12.53,10.18C449.36,202.06,496,239.21,496,304c0,66-54,112-120,112H116c-55,0-100-27.44-100-88C16,273.57,59.89,247.19,100.18,241.19Z",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -18791,10 +18791,10 @@ impl IconShape for IoLibrarySharp {
                 d: "M112,416v52a12,12,0,0,0,12,12H228a12,12,0,0,0,12-12V416Z",
             }
             rect {
+                x: "112",
                 height: "144",
                 y: "240",
                 width: "128",
-                x: "112",
             }
             path {
                 d: "M340,480H268a12,12,0,0,1-12-12V44a12,12,0,0,1,12-12h72a12,12,0,0,1,12,12V468A12,12,0,0,1,340,480Z",
@@ -18817,18 +18817,18 @@ impl IconShape for IoCameraOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M350.54,148.68l-26.62-42.06C318.31,100.08,310.62,96,302,96H210c-8.62,0-16.31,4.08-21.92,10.62l-26.62,42.06C155.85,155.23,148.62,160,140,160H80a32,32,0,0,0-32,32V384a32,32,0,0,0,32,32H432a32,32,0,0,0,32-32V192a32,32,0,0,0-32-32H373C364.35,160,356.15,155.23,350.54,148.68Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M350.54,148.68l-26.62-42.06C318.31,100.08,310.62,96,302,96H210c-8.62,0-16.31,4.08-21.92,10.62l-26.62,42.06C155.85,155.23,148.62,160,140,160H80a32,32,0,0,0-32,32V384a32,32,0,0,0,32,32H432a32,32,0,0,0,32-32V192a32,32,0,0,0-32-32H373C364.35,160,356.15,155.23,350.54,148.68Z",
             }
             circle {
-                cy: "272",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
-                r: "80",
+                cy: "272",
                 cx: "256",
+                r: "80",
             }
             polyline {
-                points: "124 158 124 136 100 136 100 158",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "124 158 124 136 100 136 100 158",
             }
         }
     }
@@ -18845,84 +18845,84 @@ impl IconShape for IoAppsOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
+                y: "64",
                 width: "80",
-                rx: "40",
                 x: "64",
+                height: "80",
                 ry: "40",
-                y: "64",
-                height: "80",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
-            }
-            rect {
-                x: "216",
-                height: "80",
-                y: "64",
                 rx: "40",
-                width: "80",
-                ry: "40",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             rect {
+                height: "80",
                 y: "64",
+                ry: "40",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                rx: "40",
+                x: "216",
+                width: "80",
+            }
+            rect {
+                x: "368",
+                ry: "40",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                rx: "40",
+                y: "64",
+                height: "80",
+                width: "80",
+            }
+            rect {
+                rx: "40",
+                ry: "40",
+                y: "216",
+                height: "80",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                x: "64",
+                width: "80",
+            }
+            rect {
+                width: "80",
+                height: "80",
+                rx: "40",
+                x: "216",
+                ry: "40",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                y: "216",
+            }
+            rect {
+                width: "80",
                 height: "80",
                 x: "368",
-                rx: "40",
                 ry: "40",
+                rx: "40",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
-                width: "80",
+                y: "216",
             }
             rect {
+                width: "80",
+                rx: "40",
+                ry: "40",
                 x: "64",
-                height: "80",
-                rx: "40",
-                ry: "40",
-                y: "216",
-                width: "80",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
-            }
-            rect {
-                width: "80",
-                y: "216",
-                height: "80",
-                rx: "40",
-                ry: "40",
-                x: "216",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
-            }
-            rect {
-                ry: "40",
-                x: "368",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
-                y: "216",
-                width: "80",
-                height: "80",
-                rx: "40",
-            }
-            rect {
-                height: "80",
-                rx: "40",
-                y: "368",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
-                x: "64",
-                ry: "40",
-                width: "80",
-            }
-            rect {
                 y: "368",
                 height: "80",
+            }
+            rect {
                 ry: "40",
+                height: "80",
                 width: "80",
                 rx: "40",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 x: "216",
+                y: "368",
             }
             rect {
-                height: "80",
                 width: "80",
                 rx: "40",
                 x: "368",
-                ry: "40",
+                height: "80",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                ry: "40",
                 y: "368",
             }
         }
@@ -18943,9 +18943,9 @@ impl IconShape for IoSave {
                 d: "M465.94,119.76l-73.7-73.7h0A47.68,47.68,0,0,0,358.3,32H96A64,64,0,0,0,32,96V416a64,64,0,0,0,64,64H416a64,64,0,0,0,64-64V153.7A47.68,47.68,0,0,0,465.94,119.76ZM120,112H296a8,8,0,0,1,8,8v48a8,8,0,0,1-8,8H120a8,8,0,0,1-8-8V120A8,8,0,0,1,120,112ZM259.75,431.91a80,80,0,1,1,76.16-76.16A80.06,80.06,0,0,1,259.75,431.91Z",
             }
             circle {
-                r: "48",
                 cx: "256",
                 cy: "352",
+                r: "48",
             }
         }
     }
@@ -18982,12 +18982,12 @@ impl IconShape for IoScan {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M342,444h46a56,56,0,0,0,56-56V342",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
+                d: "M342,444h46a56,56,0,0,0,56-56V342",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
                 d: "M444,170V124a56,56,0,0,0-56-56H342",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
@@ -19058,15 +19058,15 @@ impl IconShape for IoMoveOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "176 112 256 32 336 112",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "176 112 256 32 336 112",
             }
             line {
-                y2: "480",
                 x2: "256",
                 x1: "255.98",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "32",
+                y2: "480",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -19081,11 +19081,11 @@ impl IconShape for IoMoveOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "32",
                 x2: "480",
+                x1: "32",
                 y2: "256",
                 y1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -19102,11 +19102,11 @@ impl IconShape for IoNotificationsOffSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
+                transform: "translate(-106.04 256) rotate(-45)",
+                height: "575.06",
+                x: "240",
                 y: "-31.53",
                 width: "32",
-                x: "240",
-                height: "575.06",
-                transform: "translate(-106.04 256) rotate(-45)",
             }
             path {
                 d: "M256,480a80.09,80.09,0,0,0,73.3-48H182.7A80.09,80.09,0,0,0,256,480Z",
@@ -19149,20 +19149,20 @@ impl IconShape for IoMapOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M313.27,124.64,198.73,51.36a32,32,0,0,0-29.28.35L56.51,127.49A16,16,0,0,0,48,141.63v295.8a16,16,0,0,0,23.49,14.14l97.82-63.79a32,32,0,0,1,29.5-.24l111.86,73a32,32,0,0,0,29.27-.11l115.43-75.94a16,16,0,0,0,8.63-14.2V74.57a16,16,0,0,0-23.49-14.14l-98,63.86A32,32,0,0,1,313.27,124.64Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M313.27,124.64,198.73,51.36a32,32,0,0,0-29.28.35L56.51,127.49A16,16,0,0,0,48,141.63v295.8a16,16,0,0,0,23.49,14.14l97.82-63.79a32,32,0,0,1,29.5-.24l111.86,73a32,32,0,0,0,29.27-.11l115.43-75.94a16,16,0,0,0,8.63-14.2V74.57a16,16,0,0,0-23.49-14.14l-98,63.86A32,32,0,0,1,313.27,124.64Z",
             }
             line {
+                y2: "464",
+                x2: "328",
                 x1: "328",
                 y1: "128",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "464",
-                x2: "328",
             }
             line {
-                x1: "184",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "184",
+                x1: "184",
                 y1: "48",
                 y2: "384",
             }
@@ -19189,18 +19189,18 @@ impl IconShape for IoFastFoodOutline {
                 d: "M336,336c17.67,0,32,17.91,32,40h0c0,22.09-14.33,40-32,40H64c-17.67,0-32-17.91-32-40h0c0-22.09,14.33-40,32-40",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M344,336H179.31a8,8,0,0,0-5.65,2.34l-26.83,26.83a4,4,0,0,1-5.66,0l-26.83-26.83a8,8,0,0,0-5.65-2.34H56a24,24,0,0,1-24-24h0a24,24,0,0,1,24-24H344a24,24,0,0,1,24,24h0A24,24,0,0,1,344,336Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M64,276v-.22c0-55,45-83.78,100-83.78h72c55,0,100,29,100,84v-.22",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y1: "112",
                 x1: "241",
                 y2: "175.97",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x2: "248.44",
             }
             path {
@@ -19208,15 +19208,15 @@ impl IconShape for IoFastFoodOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
-                points: "368 112 384 48 431 32",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "368 112 384 48 431 32",
             }
             line {
                 x2: "480",
-                x1: "224",
-                y1: "112",
                 y2: "112",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y1: "112",
+                x1: "224",
             }
         }
     }
@@ -19253,22 +19253,22 @@ impl IconShape for IoBusinessSharp {
                 d: "M320,176V16H32V496H160V400h32v96H480V176ZM112,432H80V400h32Zm0-80H80V320h32Zm0-80H80V240h32Zm0-80H80V160h32Zm0-80H80V80h32ZM240,80h32v32H240ZM192,352H160V320h32Zm0-80H160V240h32Zm0-80H160V160h32Zm0-80H160V80h32Zm80,320H240V400h32Zm0-80H240V320h32Zm0-80H240V240h32Zm0-80H240V160h32v32ZM448,464H320V432h32V400H320V352h32V320H320V272h32V240H320V208H448Z",
             }
             rect {
+                height: "32",
                 y: "400",
                 width: "32",
-                height: "32",
                 x: "384",
             }
             rect {
-                x: "384",
+                height: "32",
                 y: "320",
+                x: "384",
                 width: "32",
-                height: "32",
             }
             rect {
-                height: "32",
-                width: "32",
                 x: "384",
+                height: "32",
                 y: "240",
+                width: "32",
             }
         }
     }
@@ -19285,14 +19285,14 @@ impl IconShape for IoArrowForwardSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "268 112 412 256 268 400",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
+                points: "268 112 412 256 268 400",
             }
             line {
                 y2: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
-                x2: "100",
                 y1: "256",
+                x2: "100",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
                 x1: "392",
             }
         }
@@ -19327,19 +19327,19 @@ impl IconShape for IoResizeSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "304 96 416 96 416 208",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
                 y1: "106.2",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
-                x1: "405.77",
                 x2: "111.98",
+                x1: "405.77",
                 y2: "400.02",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "208 416 96 416 96 304",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -19420,10 +19420,10 @@ impl IconShape for IoVolumeMute {
         rsx! {
             line {
                 y2: "80",
-                x2: "64",
                 y1: "432",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x1: "416",
+                x2: "64",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 d: "M243.33,98.86a23.89,23.89,0,0,0-25.55,1.82l-.66.51L188.6,124.54a8,8,0,0,0-.59,11.85l54.33,54.33A8,8,0,0,0,256,185.06V120.57A24.51,24.51,0,0,0,243.33,98.86Z",
@@ -19455,65 +19455,65 @@ impl IconShape for IoSunnyOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
+                y1: "48",
                 x2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y2: "96",
-                y1: "48",
                 x1: "256",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y2: "464",
-                x1: "256",
-                x2: "256",
                 y1: "416",
+                x2: "256",
+                x1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
+                y2: "142.86",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x1: "403.08",
                 y1: "108.92",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x2: "369.14",
-                y2: "142.86",
             }
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                x2: "108.92",
-                y1: "369.14",
                 x1: "142.86",
+                y1: "369.14",
                 y2: "403.08",
+                x2: "108.92",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y1: "256",
-                x1: "464",
                 x2: "416",
+                x1: "464",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y2: "256",
             }
             line {
+                y1: "256",
+                x2: "48",
+                x1: "96",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y2: "256",
-                y1: "256",
-                x1: "96",
-                x2: "48",
             }
             line {
                 x2: "369.14",
                 x1: "403.08",
-                y2: "369.14",
                 y1: "403.08",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y2: "369.14",
             }
             line {
+                x1: "142.86",
                 x2: "108.92",
+                y1: "142.86",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y2: "108.92",
-                y1: "142.86",
-                x1: "142.86",
             }
             circle {
                 cy: "256",
-                cx: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                cx: "256",
                 r: "80",
             }
         }
@@ -19535,8 +19535,8 @@ impl IconShape for IoFitnessOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "48 256 160 256 208 160 256 320 304 224 336 288 464 288",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -19645,8 +19645,8 @@ impl IconShape for IoReturnDownBackOutline {
                 points: "112 352 48 288 112 224",
             }
             path {
-                d: "M64,288H358c58.76,0,106-49.33,106-108V160",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M64,288H358c58.76,0,106-49.33,106-108V160",
             }
         }
     }
@@ -19663,53 +19663,53 @@ impl IconShape for IoAmericanFootballOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             ellipse {
-                transform: "translate(-106.04 256) rotate(-45)",
                 cx: "256",
-                cy: "256",
                 rx: "267.57",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                transform: "translate(-106.04 256) rotate(-45)",
                 ry: "173.44",
+                cy: "256",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "334.04",
-                y1: "177.96",
-                x1: "334.04",
                 x2: "177.96",
+                x1: "334.04",
+                y1: "177.96",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x1: "278.3",
-                x2: "233.7",
-                y1: "278.3",
                 y2: "233.7",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "278.3",
+                y1: "278.3",
+                x2: "233.7",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "233.7",
                 x2: "278.3",
-                y2: "189.11",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "322.89",
+                y2: "189.11",
+                y1: "233.7",
             }
             line {
-                x2: "300.6",
-                y2: "55.32",
-                x1: "456.68",
                 y1: "211.4",
+                x1: "456.68",
+                x2: "300.6",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "55.32",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "456.68",
                 x2: "55.32",
-                x1: "211.4",
+                y1: "456.68",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "300.6",
+                x1: "211.4",
             }
             line {
-                y2: "278.3",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "189.11",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "233.7",
+                y2: "278.3",
                 y1: "322.89",
             }
         }
@@ -19727,20 +19727,20 @@ impl IconShape for IoShuffleSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "400 304 448 352 400 400",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "400 112 448 160 400 208",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "64 352 192 352 252 260",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "64 160 192 160 320 352 416 352",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
@@ -19762,39 +19762,39 @@ impl IconShape for IoCellularOutline {
         rsx! {
             rect {
                 height: "320",
-                ry: "8",
-                y: "96",
                 width: "64",
                 rx: "8",
+                ry: "8",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                y: "96",
                 x: "416",
             }
             rect {
                 x: "288",
-                y: "176",
-                width: "64",
                 height: "240",
+                y: "176",
                 rx: "8",
-                ry: "8",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                width: "64",
+                ry: "8",
             }
             rect {
-                rx: "8",
-                y: "240",
-                height: "176",
-                ry: "8",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 x: "160",
                 width: "64",
+                height: "176",
+                y: "240",
+                rx: "8",
+                ry: "8",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             rect {
-                height: "112",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                rx: "8",
+                height: "112",
                 y: "304",
+                x: "32",
                 width: "64",
                 ry: "8",
-                x: "32",
+                rx: "8",
             }
         }
     }
@@ -19927,8 +19927,8 @@ impl IconShape for IoThumbsUp {
                 d: "M133.55,238.06A15.85,15.85,0,0,1,126,240h0a15.82,15.82,0,0,0,7.51-1.92Z",
             }
             path {
-                style: "fill:none",
                 d: "M174.14,168.78l.13-.23-.13.23c-20.5,35.51-30.36,54.95-33.82,62h0C143.79,223.71,153.66,204.27,174.14,168.78Z",
+                style: "fill:none",
             }
             path {
                 d: "M139.34,232.84l1-2a16.27,16.27,0,0,1-6.77,7.25A16.35,16.35,0,0,0,139.34,232.84Z",
@@ -19951,19 +19951,19 @@ impl IconShape for IoEllipsisVerticalCircle {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                r: "26",
                 cy: "256",
                 cx: "256",
+                r: "26",
             }
             circle {
+                cx: "256",
                 r: "26",
                 cy: "346",
-                cx: "256",
             }
             circle {
                 cy: "166",
-                cx: "256",
                 r: "26",
+                cx: "256",
             }
             path {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
@@ -20035,48 +20035,48 @@ impl IconShape for IoContract {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "304 416 304 304 416 304",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "304 416 304 304 416 304",
             }
             line {
                 y2: "432",
+                x1: "314.2",
+                y1: "314.23",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "432",
-                y1: "314.23",
-                x1: "314.2",
             }
             polyline {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "208 96 208 208 96 208",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "80",
-                x1: "197.8",
-                y1: "197.77",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "80",
+                y1: "197.77",
+                x1: "197.8",
+                x2: "80",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "416 208 304 208 304 96",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "80",
+                x1: "314.23",
                 x2: "432",
                 y1: "197.8",
-                x1: "314.23",
+                y2: "80",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                points: "96 304 208 304 208 416",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "96 304 208 304 208 416",
             }
             line {
-                x2: "80",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "314.2",
+                x2: "80",
                 x1: "197.77",
                 y2: "432",
-                y1: "314.2",
             }
         }
     }
@@ -20110,19 +20110,19 @@ impl IconShape for IoLinkOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M208,352H144a96,96,0,0,1,0-192h64",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:36px",
+                d: "M208,352H144a96,96,0,0,1,0-192h64",
             }
             path {
                 d: "M304,160h64a96,96,0,0,1,0,192H304",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:36px",
             }
             line {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:36px",
                 x1: "163.29",
+                y1: "256",
                 x2: "350.71",
                 y2: "256",
-                y1: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:36px",
             }
         }
     }
@@ -20298,9 +20298,9 @@ impl IconShape for IoCameraSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
+                cy: "272",
                 cx: "256",
                 r: "64",
-                cy: "272",
             }
             path {
                 d: "M456,144H373c-3,0-6.72-1.94-9.62-5l-27.28-42.8C325,80,320,80,302,80H210c-18,0-24,0-34.07,16.21L148.62,139c-2.22,2.42-5.34,5-8.62,5V128a8,8,0,0,0-8-8H92a8,8,0,0,0-8,8v16H56a24,24,0,0,0-24,24V408a24,24,0,0,0,24,24H456a24,24,0,0,0,24-24V168A24,24,0,0,0,456,144ZM260.51,367.9a96,96,0,1,1,91.39-91.39A96.11,96.11,0,0,1,260.51,367.9Z",
@@ -20383,9 +20383,9 @@ impl IconShape for IoLogoIonic {
                 d: "M256,153.9A102.1,102.1,0,1,0,358.1,256,102.23,102.23,0,0,0,256,153.9Z",
             }
             circle {
+                cx: "402.59",
                 r: "46.52",
                 cy: "116.45",
-                cx: "402.59",
             }
             path {
                 d: "M459.86,163.2l-1.95-4.28-3.11,3.52a70,70,0,0,1-28.06,19.32l-3,1.1,1.22,2.93A181.43,181.43,0,0,1,439,256c0,100.92-82.1,183-183,183S73,356.92,73,256,155.08,73,256,73a180.94,180.94,0,0,1,78.43,17.7L337.3,92l1.25-2.92A70.19,70.19,0,0,1,359.21,62l3.67-2.93L358.71,57A221.61,221.61,0,0,0,256,32C132.49,32,32,132.49,32,256S132.49,480,256,480,480,379.51,480,256A222.19,222.19,0,0,0,459.86,163.2Z",
@@ -20422,10 +20422,10 @@ impl IconShape for IoHardwareChipSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                width: "192",
-                height: "192",
-                y: "160",
                 x: "160",
+                height: "192",
+                width: "192",
+                y: "160",
             }
             path {
                 d: "M480,198V154H448V88a24,24,0,0,0-24-24H358V32H314V64H278V32H234V64H198V32H154V64H88A24,24,0,0,0,64,88v66H32v44H64v36H32v44H64v36H32v44H64v66a24,24,0,0,0,24,24h66v32h44V448h36v32h44V448h36v32h44V448h66a24,24,0,0,0,24-24V358h32V314H448V278h32V234H448V198ZM128,128H384V384H128Z",
@@ -20468,18 +20468,18 @@ impl IconShape for IoCloseOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                x1: "368",
-                y1: "368",
-                x2: "144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "368",
                 y2: "144",
+                x1: "368",
+                x2: "144",
             }
             line {
+                y2: "368",
                 x1: "368",
                 y1: "144",
-                x2: "144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "368",
+                x2: "144",
             }
         }
     }
@@ -20517,25 +20517,25 @@ impl IconShape for IoWineOutline {
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                x1: "256",
-                y2: "432",
                 x2: "256",
+                x1: "256",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 y1: "272",
+                y2: "432",
             }
             line {
-                y2: "432",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "432",
                 y1: "432",
                 x2: "160",
                 x1: "352",
             }
             line {
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                y1: "160",
                 x1: "112",
                 x2: "400",
-                y1: "160",
                 y2: "160",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -20574,43 +20574,43 @@ impl IconShape for IoApertureOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "94.59",
-                x2: "360",
                 x1: "360",
+                y1: "94.59",
                 y2: "296",
+                x2: "360",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "212.87",
+                y2: "360",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "443.13",
+                y1: "212.87",
                 x2: "296",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "360",
             }
             line {
-                x1: "417.41",
-                y2: "360",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "360",
                 x2: "216",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "360",
+                x1: "417.41",
+                y1: "360",
             }
             line {
+                y1: "443.13",
+                y2: "299.13",
                 x1: "299.13",
                 x2: "155.13",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "299.13",
-                y1: "443.13",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "152",
-                x1: "152",
                 y1: "416",
+                x2: "152",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "216",
+                x1: "152",
             }
             line {
                 y2: "155.13",
@@ -20620,18 +20620,18 @@ impl IconShape for IoApertureOutline {
                 x2: "212.87",
             }
             line {
-                x1: "94.59",
                 y1: "152",
-                y2: "152",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "288",
+                x1: "94.59",
+                y2: "152",
             }
             line {
                 y1: "68.87",
-                y2: "216",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "360",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "212.87",
+                y2: "216",
             }
         }
     }
@@ -20691,9 +20691,9 @@ impl IconShape for IoSearchCircleOutline {
             }
             line {
                 x2: "336",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y1: "283.64",
                 y2: "336",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x1: "283.64",
             }
         }
@@ -20733,8 +20733,8 @@ impl IconShape for IoTrendingDownSharp {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "48 144 192 288 288 192 448 352",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -20755,15 +20755,15 @@ impl IconShape for IoCloudDownloadOutline {
                 d: "M320,336h76c55,0,100-21.21,100-75.6s-53-73.47-96-75.6C391.11,99.74,329,48,256,48c-69,0-113.44,45.79-128,91.2-60,5.7-112,35.88-112,98.4S70,336,136,336h56",
             }
             polyline {
-                points: "192 400.1 256 464 320 400.1",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "192 400.1 256 464 320 400.1",
             }
             line {
-                y1: "224",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "256",
-                y2: "448.03",
                 x2: "256",
+                x1: "256",
+                y1: "224",
+                y2: "448.03",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -20784,10 +20784,10 @@ impl IconShape for IoPlanetOutline {
                 d: "M413.48,284.46c58.87,47.24,91.61,89,80.31,108.55-17.85,30.85-138.78-5.48-270.1-81.15S.37,149.84,18.21,119c11.16-19.28,62.58-12.32,131.64,14.09",
             }
             circle {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                cy: "256",
                 r: "160",
                 cx: "256",
-                cy: "256",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -20824,60 +20824,60 @@ impl IconShape for IoTodayOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                height: "384",
-                fill: "none",
-                stroke_linejoin: "round",
+                width: "416",
                 stroke_width: "32",
+                stroke_linejoin: "round",
+                rx: "48",
+                fill: "none",
+                x: "48",
+                height: "384",
                 stroke: "#000",
                 y: "80",
-                width: "416",
-                x: "48",
-                rx: "48",
             }
             line {
-                stroke_linejoin: "round",
-                stroke_width: "32",
-                x1: "128",
                 x2: "128",
-                y2: "80",
-                stroke: "#000",
-                fill: "none",
                 stroke_linecap: "round",
+                x1: "128",
+                stroke: "#000",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+                y2: "80",
                 y1: "48",
+                fill: "none",
             }
             line {
-                fill: "none",
-                x2: "384",
-                stroke: "#000",
                 stroke_linecap: "round",
-                y1: "48",
-                stroke_width: "32",
                 stroke_linejoin: "round",
+                x2: "384",
+                y1: "48",
+                stroke: "#000",
                 x1: "384",
+                fill: "none",
                 y2: "80",
+                stroke_width: "32",
             }
             rect {
-                height: "96",
-                rx: "13",
-                stroke_linecap: "round",
-                stroke_width: "32",
-                x: "112",
-                stroke_linejoin: "round",
                 y: "224",
-                width: "96",
                 fill: "none",
                 stroke: "#000",
+                stroke_linecap: "round",
+                x: "112",
+                rx: "13",
+                height: "96",
+                stroke_width: "32",
+                stroke_linejoin: "round",
+                width: "96",
             }
             line {
                 x1: "464",
-                stroke_linecap: "round",
+                y2: "160",
                 x2: "48",
-                stroke_linejoin: "round",
-                stroke_width: "32",
                 stroke: "#000",
                 y1: "160",
                 fill: "none",
-                y2: "160",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
         }
     }
@@ -20963,8 +20963,8 @@ impl IconShape for IoPlayBackCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 d: "M117.23,246.7l114.45-69.14A10.78,10.78,0,0,1,248,186.87v53.32l103.68-62.63A10.78,10.78,0,0,1,368,186.87V325.13a10.78,10.78,0,0,1-16.32,9.31L248,271.81v53.32a10.78,10.78,0,0,1-16.32,9.31L117.23,265.3A10.89,10.89,0,0,1,117.23,246.7Z",
@@ -21021,8 +21021,8 @@ impl IconShape for IoChevronBack {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "328 112 184 256 328 400",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
+                points: "328 112 184 256 328 400",
             }
         }
     }
@@ -21093,14 +21093,14 @@ impl IconShape for IoTabletLandscapeOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                height: "480",
-                y: "16",
-                x: "80",
                 width: "352",
-                transform: "translate(0 512) rotate(-90)",
+                height: "480",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                ry: "48",
                 rx: "48",
+                x: "80",
+                transform: "translate(0 512) rotate(-90)",
+                y: "16",
+                ry: "48",
             }
         }
     }
@@ -21138,22 +21138,22 @@ impl IconShape for IoSwapVerticalOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "352",
-                x1: "352",
                 y1: "113.13",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "352",
                 y2: "416",
+                x2: "352",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                points: "48 304 160 416 272 304",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "48 304 160 416 272 304",
             }
             line {
-                x2: "160",
                 x1: "160",
-                y2: "96",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "398",
+                x2: "160",
+                y2: "96",
             }
         }
     }
@@ -21210,8 +21210,8 @@ impl IconShape for IoCamera {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "256",
                 cy: "272",
+                cx: "256",
                 r: "64",
             }
             path {
@@ -21292,42 +21292,42 @@ impl IconShape for IoMagnetSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                y1: "463.58",
-                x2: "191.98",
+                x1: "191.98",
                 y2: "415.58",
                 style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
-                x1: "191.98",
+                y1: "463.58",
+                x2: "191.98",
             }
             line {
-                y2: "387.46",
-                style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
-                y1: "421.4",
                 x2: "124.1",
+                style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 x1: "90.16",
+                y1: "421.4",
+                y2: "387.46",
             }
             line {
-                x1: "47.98",
-                x2: "95.98",
-                y2: "319.58",
-                y1: "319.58",
                 style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                y1: "319.58",
+                x1: "47.98",
+                y2: "319.58",
+                x2: "95.98",
             }
             path {
                 d: "M422.2,89.82a144,144,0,0,0-203.71-.07l-67.88,67.88,67.88,67.89,67.88-67.89a48,48,0,0,1,68.46.59c18.3,18.92,17.48,49.24-1.14,67.86L286.37,293.4l67.88,67.88,66.91-66.91C477.53,238,478.53,146.22,422.2,89.82Z",
             }
             rect {
-                width: "64",
-                transform: "translate(-126.67 167.86) rotate(-45)",
                 x: "107.29",
-                y: "188.83",
                 height: "96",
+                transform: "translate(-126.67 167.86) rotate(-45)",
+                y: "188.83",
+                width: "64",
             }
             rect {
-                y: "324.59",
-                width: "64",
-                x: "243.06",
                 height: "96",
                 transform: "translate(-182.9 303.62) rotate(-45)",
+                y: "324.59",
+                x: "243.06",
+                width: "64",
             }
         }
     }
@@ -21364,50 +21364,50 @@ impl IconShape for IoCashOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                x: "32",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 width: "448",
-                ry: "16",
-                rx: "16",
+                y: "80",
                 height: "256",
                 transform: "translate(512 416) rotate(180)",
-                y: "80",
+                ry: "16",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                rx: "16",
+                x: "32",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "384",
                 x2: "448",
-                y2: "384",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "64",
+                y2: "384",
+                y1: "384",
             }
             line {
-                x1: "96",
                 y1: "432",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "416",
                 y2: "432",
+                x1: "96",
             }
             circle {
+                r: "80",
+                cy: "208",
                 cx: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                cy: "208",
-                r: "80",
             }
             path {
-                d: "M480,160a80,80,0,0,1-80-80",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M480,160a80,80,0,0,1-80-80",
             }
             path {
                 d: "M32,160a80,80,0,0,0,80-80",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M480,256a80,80,0,0,0-80,80",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M480,256a80,80,0,0,0-80,80",
             }
             path {
-                d: "M32,256a80,80,0,0,1,80,80",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M32,256a80,80,0,0,1,80,80",
             }
         }
     }
@@ -21552,23 +21552,23 @@ impl IconShape for IoHappyOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "232",
                 cx: "184",
+                cy: "232",
                 r: "24",
             }
             path {
                 d: "M256.05,384c-45.42,0-83.62-29.53-95.71-69.83A8,8,0,0,1,168.16,304H343.85a8,8,0,0,1,7.82,10.17C339.68,354.47,301.47,384,256.05,384Z",
             }
             circle {
-                cx: "328",
                 cy: "232",
+                cx: "328",
                 r: "24",
             }
             circle {
                 cy: "256",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 cx: "256",
                 r: "208",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -21585,8 +21585,8 @@ impl IconShape for IoArrowRedoOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M448,256,272,88v96C103.57,184,64,304.77,64,424c48.61-62.24,91.6-96,208-96v96Z",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                d: "M448,256,272,88v96C103.57,184,64,304.77,64,424c48.61-62.24,91.6-96,208-96v96Z",
             }
         }
     }
@@ -21620,16 +21620,16 @@ impl IconShape for IoPodiumOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M32,160V456a8,8,0,0,0,8,8H176V160a16,16,0,0,0-16-16H48A16,16,0,0,0,32,160Z",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M320,48H192a16,16,0,0,0-16,16V464H336V64A16,16,0,0,0,320,48Z",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M464,208H352a16,16,0,0,0-16,16V464H472a8,8,0,0,0,8-8V224A16,16,0,0,0,464,208Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M464,208H352a16,16,0,0,0-16,16V464H472a8,8,0,0,0,8-8V224A16,16,0,0,0,464,208Z",
             }
         }
     }
@@ -21714,15 +21714,15 @@ impl IconShape for IoAlbumsSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                y: "64",
-                height: "32",
                 width: "256",
+                height: "32",
+                y: "64",
                 x: "128",
             }
             rect {
-                x: "96",
-                width: "320",
                 y: "112",
+                width: "320",
+                x: "96",
                 height: "32",
             }
             path {
@@ -21743,35 +21743,35 @@ impl IconShape for IoBalloonOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
+                d: "M414.11,153.82C429.66,264.4,345.85,357.09,282.54,366s-169.48-57.5-185-167.68a159.82,159.82,0,1,1,316.53-44.49Z",
                 stroke: "#000",
                 stroke_miterlimit: "10",
                 stroke_width: "32",
-                d: "M414.11,153.82C429.66,264.4,345.85,357.09,282.54,366s-169.48-57.5-185-167.68a159.82,159.82,0,1,1,316.53-44.49Z",
                 fill: "none",
             }
             path {
-                stroke: "#000",
-                fill: "none",
-                stroke_miterlimit: "10",
-                stroke_linecap: "round",
                 stroke_width: "32",
                 d: "M236.06,308.05c-32.83-13-67.08-43.1-82.27-85.46",
+                fill: "none",
+                stroke_linecap: "round",
+                stroke: "#000",
+                stroke_miterlimit: "10",
             }
             path {
-                fill: "none",
                 stroke_width: "32",
-                stroke: "#000",
+                fill: "none",
                 d: "M367.7,495.78c-32.83-13-63.31-40.06-78.5-82.41",
+                stroke: "#000",
                 stroke_linecap: "round",
                 stroke_miterlimit: "10",
             }
             polygon {
-                fill: "none",
-                points: "266.71 368.21 257.54 417.82 320.85 408.92 298.36 363.76 266.71 368.21",
                 stroke_linecap: "round",
-                stroke: "#000",
+                points: "266.71 368.21 257.54 417.82 320.85 408.92 298.36 363.76 266.71 368.21",
                 stroke_linejoin: "round",
+                fill: "none",
                 stroke_width: "32",
+                stroke: "#000",
             }
         }
     }
@@ -21788,8 +21788,8 @@ impl IconShape for IoScanCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
             path {
                 d: "M296,352h28a28,28,0,0,0,28-28V296",
@@ -21800,8 +21800,8 @@ impl IconShape for IoScanCircleOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M216,352H188a28,28,0,0,1-28-28V296",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M216,352H188a28,28,0,0,1-28-28V296",
             }
             path {
                 d: "M160,216V188a28,28,0,0,1,28-28h28",
@@ -21844,23 +21844,23 @@ impl IconShape for IoBanOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                stroke: "#000",
                 stroke_width: "32",
+                cy: "256",
+                stroke: "#000",
+                fill: "none",
                 stroke_miterlimit: "10",
                 r: "208",
-                cy: "256",
-                fill: "none",
                 cx: "256",
             }
             line {
-                x1: "108.92",
-                fill: "none",
                 stroke_miterlimit: "10",
-                stroke_width: "32",
-                x2: "403.08",
-                stroke: "#000",
-                y2: "403.08",
                 y1: "108.92",
+                x2: "403.08",
+                x1: "108.92",
+                y2: "403.08",
+                fill: "none",
+                stroke: "#000",
+                stroke_width: "32",
             }
         }
     }
@@ -21898,10 +21898,10 @@ impl IconShape for IoAlertSharp {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             rect {
-                y: "400",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 x: "240",
                 height: "32",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                y: "400",
                 width: "32",
             }
         }
@@ -21945,27 +21945,27 @@ impl IconShape for IoAlbumsOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                height: "256",
-                rx: "28.87",
-                width: "384",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                y: "176",
+                width: "384",
                 ry: "28.87",
+                rx: "28.87",
+                y: "176",
+                height: "256",
                 x: "64",
             }
             line {
-                style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x2: "368",
                 x1: "144",
-                y1: "80",
                 y2: "80",
+                style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y1: "80",
             }
             line {
                 y1: "128",
-                y2: "128",
-                x1: "112",
                 x2: "400",
                 style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                x1: "112",
+                y2: "128",
             }
         }
     }
@@ -21986,43 +21986,43 @@ impl IconShape for IoNewspaperOutline {
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 d: "M416,464h0a48,48,0,0,1-48-48V128h72a24,24,0,0,1,24,24V416A48,48,0,0,1,416,464Z",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "304",
+                x1: "240",
                 y1: "128",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "240",
-                y2: "128",
-            }
-            line {
-                y1: "192",
-                x1: "240",
-                y2: "192",
                 x2: "304",
+                y2: "128",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y2: "256",
-                x1: "112",
+                y2: "192",
+                x1: "240",
+                x2: "304",
+                y1: "192",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+            }
+            line {
                 y1: "256",
                 x2: "304",
+                x1: "112",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "256",
             }
             line {
-                y2: "320",
                 y1: "320",
-                x1: "112",
-                x2: "304",
+                y2: "320",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "304",
+                x1: "112",
             }
             line {
-                y1: "384",
-                y2: "384",
+                x2: "304",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "112",
-                x2: "304",
+                y2: "384",
+                y1: "384",
             }
             path {
                 d: "M176,208H112a16,16,0,0,1-16-16V128a16,16,0,0,1,16-16h64a16,16,0,0,1,16,16v64A16,16,0,0,1,176,208Z",
@@ -22042,34 +22042,34 @@ impl IconShape for IoAlarmOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M416.07,272a160,160,0,1,0-160,160A160,160,0,0,0,416.07,272Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M416.07,272a160,160,0,1,0-160,160A160,160,0,0,0,416.07,272Z",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M142.12,91.21A46.67,46.67,0,0,0,112,80l-2.79.08C83.66,81.62,64,104,64.07,131c0,13.21,4.66,19.37,10.88,27.23A4.55,4.55,0,0,0,78.19,160h.88a3.23,3.23,0,0,0,2.54-1.31L142.38,99a5.38,5.38,0,0,0,1.55-4A5.26,5.26,0,0,0,142.12,91.21Z",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M369.88,91.21A46.67,46.67,0,0,1,400,80l2.79.08C428.34,81.62,448,104,447.93,131c0,13.21-4.66,19.37-10.88,27.23a4.55,4.55,0,0,1-3.24,1.76h-.88a3.23,3.23,0,0,1-2.54-1.31L369.62,99a5.38,5.38,0,0,1-1.55-4A5.26,5.26,0,0,1,369.88,91.21Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
-                points: "256.07 160 256.07 272 176.07 272",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "256.07 160 256.07 272 176.07 272",
             }
             line {
                 x1: "416.07",
+                x2: "376.07",
+                y1: "432",
                 y2: "392",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "432",
-                x2: "376.07",
             }
             line {
-                x1: "96.07",
-                y1: "432",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "392",
                 x2: "136.07",
+                y1: "432",
+                y2: "392",
+                x1: "96.07",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -22094,8 +22094,8 @@ impl IconShape for IoVolumeMediumOutline {
                 d: "M352,320c9.74-19.41,16-40.81,16-64,0-23.51-6-44.4-16-64",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M400,368c19.48-34,32-64,32-112s-12-77.7-32-112",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -22116,11 +22116,11 @@ impl IconShape for IoArrowDownOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 y1: "392",
                 x2: "256",
                 y2: "100",
                 x1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
         }
     }
@@ -22292,29 +22292,29 @@ impl IconShape for IoBatteryHalfOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
+                rx: "45.7",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                height: "224",
+                width: "400",
+                ry: "45.7",
                 x: "32",
                 y: "144",
-                height: "224",
-                rx: "45.7",
-                ry: "45.7",
-                width: "400",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             rect {
-                y: "198.93",
                 height: "114.13",
-                width: "154.31",
-                x: "85.69",
                 rx: "4",
-                ry: "4",
+                y: "198.93",
+                width: "154.31",
                 style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                x: "85.69",
+                ry: "4",
             }
             line {
-                y2: "293.33",
                 x1: "480",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x2: "480",
+                y2: "293.33",
                 y1: "218.67",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -22372,12 +22372,12 @@ impl IconShape for IoHelpSharp {
                 d: "M160,164c0-10,1.44-33,33.54-59.46C212.6,88.83,235.49,84.28,256,84c18.73-.23,35.47,2.94,45.48,7.82C318.59,100.2,352,120.6,352,164c0,45.67-29.18,66.37-62.35,89.18S248,290.36,248,316",
             }
             rect {
-                x: "220",
                 rx: "3.5",
                 ry: "3.5",
-                height: "56",
                 y: "368",
+                x: "220",
                 width: "56",
+                height: "56",
             }
         }
     }
@@ -22398,8 +22398,8 @@ impl IconShape for IoShapesOutline {
                 points: "336 320 32 320 184 48 336 320",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 d: "M265.32,194.51A144,144,0,1,1,192,320",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -22434,23 +22434,23 @@ impl IconShape for IoRecordingOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "128",
                 cy: "256",
-                r: "96",
+                cx: "128",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                r: "96",
             }
             circle {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "384",
-                cy: "256",
                 r: "96",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cy: "256",
             }
             line {
                 y2: "352",
-                x1: "128",
                 x2: "384",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "352",
+                x1: "128",
             }
         }
     }
@@ -22467,12 +22467,12 @@ impl IconShape for IoChevronUpCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "352 296 256 200 160 296",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M256,64C150,64,64,150,64,256s86,192,192,192,192-86,192-192S362,64,256,64Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -22526,16 +22526,16 @@ impl IconShape for IoGlobeOutline {
             }
             line {
                 y2: "464",
-                y1: "48",
-                x2: "256",
                 x1: "256",
+                x2: "256",
+                y1: "48",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                x1: "464",
                 y1: "256",
                 y2: "256",
                 x2: "48",
+                x1: "464",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
@@ -22574,36 +22574,36 @@ impl IconShape for IoLanguageOutline {
         rsx! {
             line {
                 x2: "336",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "112",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "48",
                 y1: "112",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "192",
-                x2: "192",
                 y1: "64",
+                x2: "192",
                 y2: "112",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "272 448 368 224 464 448",
             }
             line {
+                y1: "384",
+                x2: "434.5",
                 x1: "301.5",
                 y2: "384",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "434.5",
-                y1: "384",
             }
             path {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M281.3,112S257,206,199,277,80,384,80,384",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M256,336s-35-27-72-75-56-85-56-85",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -22649,8 +22649,8 @@ impl IconShape for IoTrash {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none",
                 d: "M296,64H216a7.91,7.91,0,0,0-8,8V96h96V72A7.91,7.91,0,0,0,296,64Z",
+                style: "fill:none",
             }
             path {
                 d: "M432,96H336V72a40,40,0,0,0-40-40H216a40,40,0,0,0-40,40V96H80a16,16,0,0,0,0,32H97L116,432.92c1.42,26.85,22,47.08,48,47.08H348c26.13,0,46.3-19.78,48-47L415,128h17a16,16,0,0,0,0-32ZM192.57,416H192a16,16,0,0,1-16-15.43l-8-224a16,16,0,1,1,32-1.14l8,224A16,16,0,0,1,192.57,416ZM272,400a16,16,0,0,1-32,0V176a16,16,0,0,1,32,0ZM304,96H208V72a7.91,7.91,0,0,1,8-8h80a7.91,7.91,0,0,1,8,8Zm32,304.57A16,16,0,0,1,320,416h-.58A16,16,0,0,1,304,399.43l8-224a16,16,0,1,1,32,1.14Z",
@@ -22730,13 +22730,13 @@ impl IconShape for IoTabletPortraitOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                y: "16",
-                width: "352",
                 rx: "48",
                 ry: "48",
-                height: "480",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                width: "352",
                 x: "80",
+                height: "480",
+                y: "16",
             }
         }
     }
@@ -22796,8 +22796,8 @@ impl IconShape for IoAttachSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M216.08,192V335.55a40.08,40.08,0,0,0,80.15,0L296.36,147a67.94,67.94,0,1,0-135.87,0V336.82a95.51,95.51,0,0,0,191,0V159.44",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                d: "M216.08,192V335.55a40.08,40.08,0,0,0,80.15,0L296.36,147a67.94,67.94,0,1,0-135.87,0V336.82a95.51,95.51,0,0,0,191,0V159.44",
             }
         }
     }
@@ -22815,21 +22815,21 @@ impl IconShape for IoEllipsisVerticalOutline {
         rsx! {
             circle {
                 cx: "256",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 r: "32",
                 cy: "256",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             circle {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
-                r: "32",
                 cx: "256",
+                r: "32",
                 cy: "416",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             circle {
-                r: "32",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 cx: "256",
                 cy: "96",
+                r: "32",
             }
         }
     }
@@ -22932,27 +22932,27 @@ impl IconShape for IoColorWandSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                width: "95.03",
-                height: "110.51",
-                transform: "translate(-85.38 206.12) rotate(-45)",
                 y: "150.86",
+                width: "95.03",
+                transform: "translate(-85.38 206.12) rotate(-45)",
                 x: "158.6",
+                height: "110.51",
             }
             polygon {
                 points: "301.41 234.21 234.22 301.41 412 480 480 412 301.41 234.21",
             }
             rect {
-                x: "32",
-                y: "176",
                 height: "32",
+                y: "176",
                 width: "80",
+                x: "32",
             }
             rect {
-                height: "80",
-                y: "67.22",
-                width: "32",
                 x: "91.22",
+                y: "67.22",
                 transform: "translate(-44.41 107.22) rotate(-45)",
+                width: "32",
+                height: "80",
             }
             rect {
                 height: "80",
@@ -22961,18 +22961,18 @@ impl IconShape for IoColorWandSharp {
                 width: "32",
             }
             rect {
-                y: "91.22",
                 height: "32",
+                width: "80",
                 x: "236.92",
                 transform: "translate(5.29 227.22) rotate(-45)",
-                width: "80",
+                y: "91.22",
             }
             rect {
-                x: "67.22",
                 height: "32",
                 y: "260.92",
-                transform: "translate(-164.41 156.92) rotate(-45)",
                 width: "80",
+                transform: "translate(-164.41 156.92) rotate(-45)",
+                x: "67.22",
             }
         }
     }
@@ -22992,16 +22992,16 @@ impl IconShape for IoBatteryFullSharp {
                 d: "M17,384H449V128H17ZM49,160H417V352H49Z",
             }
             rect {
+                height: "146.13",
+                y: "182.94",
                 x: "70.69",
                 width: "324.63",
-                y: "182.94",
-                height: "146.13",
             }
             rect {
                 x: "465",
                 y: "202.67",
-                width: "32",
                 height: "106.67",
+                width: "32",
             }
         }
     }
@@ -23058,12 +23058,12 @@ impl IconShape for IoShieldHalfOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                fill: "none",
-                stroke_width: "32",
-                stroke_linejoin: "round",
                 d: "M463.1,112.37C373.68,96.33,336.71,84.45,256,48,175.29,84.45,138.32,96.33,48.9,112.37,32.7,369.13,240.58,457.79,256,464,271.42,457.79,479.3,369.13,463.1,112.37Z",
+                fill: "none",
                 stroke: "#000",
                 stroke_linecap: "round",
+                stroke_width: "32",
+                stroke_linejoin: "round",
             }
             path {
                 d: "M256,48C175.29,84.45,138.32,96.33,48.9,112.37,32.7,369.13,240.58,457.79,256,464Z",
@@ -23100,92 +23100,92 @@ impl IconShape for IoCalendarOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                stroke_linejoin: "round",
-                stroke_width: "32",
-                height: "384",
-                rx: "48",
                 width: "416",
-                stroke: "#000",
-                x: "48",
-                fill: "none",
+                stroke_linejoin: "round",
                 y: "80",
+                height: "384",
+                fill: "none",
+                stroke_width: "32",
+                rx: "48",
+                x: "48",
+                stroke: "#000",
+            }
+            circle {
+                cx: "296",
+                cy: "232",
+                r: "24",
             }
             circle {
                 cy: "232",
                 r: "24",
-                cx: "296",
+                cx: "376",
             }
             circle {
+                cy: "312",
+                cx: "296",
+                r: "24",
+            }
+            circle {
+                cy: "312",
                 r: "24",
                 cx: "376",
-                cy: "232",
-            }
-            circle {
-                cx: "296",
-                cy: "312",
-                r: "24",
-            }
-            circle {
-                cx: "376",
-                cy: "312",
-                r: "24",
             }
             circle {
                 cy: "312",
-                r: "24",
-                cx: "136",
-            }
-            circle {
-                r: "24",
-                cx: "216",
-                cy: "312",
-            }
-            circle {
-                cy: "392",
                 cx: "136",
                 r: "24",
             }
             circle {
-                cy: "392",
                 r: "24",
+                cy: "312",
                 cx: "216",
             }
             circle {
-                cx: "296",
+                cy: "392",
                 r: "24",
+                cx: "136",
+            }
+            circle {
+                cx: "216",
+                cy: "392",
+                r: "24",
+            }
+            circle {
+                r: "24",
+                cx: "296",
                 cy: "392",
             }
             line {
-                y1: "48",
-                y2: "80",
                 stroke_linejoin: "round",
+                stroke_linecap: "round",
+                y1: "48",
+                x1: "128",
+                stroke_width: "32",
+                x2: "128",
+                y2: "80",
+                stroke: "#000",
                 fill: "none",
+            }
+            line {
+                stroke_linejoin: "round",
                 stroke_width: "32",
                 stroke_linecap: "round",
-                x1: "128",
-                x2: "128",
-                stroke: "#000",
-            }
-            line {
-                x1: "384",
-                y2: "80",
-                y1: "48",
-                fill: "none",
                 x2: "384",
                 stroke: "#000",
-                stroke_linejoin: "round",
-                stroke_linecap: "round",
-                stroke_width: "32",
+                x1: "384",
+                y1: "48",
+                fill: "none",
+                y2: "80",
             }
             line {
-                y2: "160",
-                stroke_linejoin: "round",
                 fill: "none",
-                x2: "48",
-                y1: "160",
-                stroke_width: "32",
                 x1: "464",
+                stroke_width: "32",
                 stroke: "#000",
+                y1: "160",
+                stroke_linejoin: "round",
+                y2: "160",
+                x2: "48",
             }
         }
     }
@@ -23210,12 +23210,12 @@ impl IconShape for IoThumbsUpOutline {
                 d: "M416,271l-80-2c-20-1.84-32-12.4-32-30h0c0-17.6,14-28.84,32-30l80-4c17.6,0,32,16.4,32,34v.17A32,32,0,0,1,416,271Z",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M448,336l-112-2c-18-.84-32-12.41-32-30h0c0-17.61,14-28.86,32-30l112-2a32.1,32.1,0,0,1,32,32h0A32.1,32.1,0,0,1,448,336Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                d: "M400,464l-64-3c-21-1.84-32-11.4-32-29h0c0-17.6,14.4-30,32-30l64-2a32.09,32.09,0,0,1,32,32h0A32.09,32.09,0,0,1,400,464Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M400,464l-64-3c-21-1.84-32-11.4-32-29h0c0-17.6,14.4-30,32-30l64-2a32.09,32.09,0,0,1,32,32h0A32.09,32.09,0,0,1,400,464Z",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
@@ -23287,8 +23287,8 @@ impl IconShape for IoHourglassOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M145.61,464H366.39c19.8,0,35.55-16.29,33.42-35.06C386.06,308,304,310,304,256s83.11-51,95.8-172.94c2-18.78-13.61-35.06-33.41-35.06H145.61c-19.8,0-35.37,16.28-33.41,35.06C124.89,205,208,201,208,256s-82.06,52-95.8,172.94C110.06,447.71,125.81,464,145.61,464Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M145.61,464H366.39c19.8,0,35.55-16.29,33.42-35.06C386.06,308,304,310,304,256s83.11-51,95.8-172.94c2-18.78-13.61-35.06-33.41-35.06H145.61c-19.8,0-35.37,16.28-33.41,35.06C124.89,205,208,201,208,256s-82.06,52-95.8,172.94C110.06,447.71,125.81,464,145.61,464Z",
             }
             path {
                 d: "M343.3,432H169.13c-15.6,0-20-18-9.06-29.16C186.55,376,240,356.78,240,326V224c0-19.85-38-35-61.51-67.2-3.88-5.31-3.49-12.8,6.37-12.8H327.59c8.41,0,10.23,7.43,6.4,12.75C310.82,189,272,204.05,272,224V326c0,30.53,55.71,47,80.4,76.87C362.35,414.91,358.87,432,343.3,432Z",
@@ -23392,20 +23392,20 @@ impl IconShape for IoDocumentsOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M336,264.13V436c0,24.3-19.05,44-42.95,44H107C83.05,480,64,460.3,64,436V172a44.26,44.26,0,0,1,44-44h94.12a24.55,24.55,0,0,1,17.49,7.36l109.15,111A25.4,25.4,0,0,1,336,264.13Z",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                d: "M336,264.13V436c0,24.3-19.05,44-42.95,44H107C83.05,480,64,460.3,64,436V172a44.26,44.26,0,0,1,44-44h94.12a24.55,24.55,0,0,1,17.49,7.36l109.15,111A25.4,25.4,0,0,1,336,264.13Z",
             }
             path {
-                d: "M200,128V236a28.34,28.34,0,0,0,28,28H336",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M200,128V236a28.34,28.34,0,0,0,28,28H336",
             }
             path {
                 d: "M176,128V76a44.26,44.26,0,0,1,44-44h94a24.83,24.83,0,0,1,17.61,7.36l109.15,111A25.09,25.09,0,0,1,448,168V340c0,24.3-19.05,44-42.95,44H344",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M312,32V140a28.34,28.34,0,0,0,28,28H448",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M312,32V140a28.34,28.34,0,0,0,28,28H448",
             }
         }
     }
@@ -23457,25 +23457,25 @@ impl IconShape for IoCardOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                y: "96",
-                ry: "56",
-                x: "48",
                 width: "416",
-                height: "320",
                 rx: "56",
+                ry: "56",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                height: "320",
+                x: "48",
+                y: "96",
             }
             line {
                 x1: "48",
+                x2: "464",
                 y2: "192",
                 y1: "192",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:60px",
-                x2: "464",
             }
             rect {
                 width: "48",
-                x: "128",
                 height: "20",
+                x: "128",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:60px",
                 y: "300",
             }
@@ -23519,8 +23519,8 @@ impl IconShape for IoSyncCircleOutline {
                 d: "M351.82,271.87v-16A96.15,96.15,0,0,0,184.09,192m-24.2,48.17v16A96.22,96.22,0,0,0,327.81,320",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "135.87 256 159.46 232.4 184.13 256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -23602,8 +23602,8 @@ impl IconShape for IoChevronForwardSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
                 points: "184 112 328 256 184 400",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
             }
         }
     }
@@ -23628,24 +23628,24 @@ impl IconShape for IoPartlySunnySharp {
             rect {
                 x: "448",
                 y: "192",
-                width: "64",
                 height: "32",
+                width: "64",
             }
             rect {
-                x: "320",
-                width: "32",
-                height: "64",
                 y: "32",
+                width: "32",
+                x: "320",
+                height: "64",
             }
             path {
                 d: "M255.35,129.63l12.45-12.45L223.18,72.55,200.55,95.18l33.17,33.17h.6A172,172,0,0,1,255.35,129.63Z",
             }
             rect {
-                x: "406.27",
-                width: "63.11",
-                height: "32",
                 transform: "translate(53.16 340.68) rotate(-45)",
+                width: "63.11",
                 y: "90.18",
+                x: "406.27",
+                height: "32",
             }
         }
     }
@@ -23684,31 +23684,31 @@ impl IconShape for IoBackspaceOutline {
                 d: "M135.19,390.14A28.79,28.79,0,0,0,156.87,400H403.13A29,29,0,0,0,432,371.13V140.87A29,29,0,0,0,403.13,112H156.87a28.84,28.84,0,0,0-21.67,9.84v0L46.33,256l88.86,134.11Z",
             }
             line {
-                x2: "206.66",
-                x1: "336.67",
                 y1: "192.33",
                 y2: "322.34",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "206.66",
+                x1: "336.67",
             }
             line {
+                y1: "322.34",
+                x2: "206.66",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "336.67",
                 y2: "192.33",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "336.67",
-                y1: "322.34",
-                x2: "206.66",
             }
             line {
+                y1: "192.33",
+                x1: "336.67",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "206.66",
                 y2: "322.34",
-                y1: "192.33",
-                x1: "336.67",
             }
             line {
                 y1: "322.34",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "336.67",
                 x2: "206.66",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "192.33",
             }
         }
@@ -23746,25 +23746,25 @@ impl IconShape for IoExpandOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "432 320 432 432 320 432",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "304",
-                y1: "421.77",
-                x1: "421.8",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "421.8",
+                y1: "421.77",
                 y2: "304",
+                x2: "304",
             }
             polyline {
                 points: "80 192 80 80 192 80",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "208",
-                x1: "90.2",
-                y1: "90.23",
                 y2: "208",
+                y1: "90.23",
+                x1: "90.2",
+                x2: "208",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
@@ -23772,21 +23772,21 @@ impl IconShape for IoExpandOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y2: "208",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "421.77",
                 x2: "304",
+                y2: "208",
                 y1: "90.2",
+                x1: "421.77",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
                 points: "192 432 80 432 80 320",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "208",
-                x1: "90.23",
-                y1: "421.8",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "208",
+                y1: "421.8",
+                x1: "90.23",
                 y2: "304",
             }
         }
@@ -23805,21 +23805,21 @@ impl IconShape for IoBagOutline {
         rsx! {
             path {
                 stroke_linecap: "round",
-                stroke: "#000",
-                stroke_width: "32",
                 stroke_linejoin: "round",
-                fill_rule: "evenodd",
-                fill: "none",
+                stroke: "#000",
                 d: "M80,176a16,16,0,0,0-16,16V408c0,30.24,25.76,56,56,56H392c30.24,0,56-24.51,56-54.75V192a16,16,0,0,0-16-16Z",
+                stroke_width: "32",
+                fill: "none",
+                fill_rule: "evenodd",
             }
             path {
-                d: "M160,176V144a96,96,0,0,1,96-96h0a96,96,0,0,1,96,96v32",
                 stroke_linecap: "round",
-                stroke: "#000",
-                fill: "none",
                 stroke_width: "32",
                 stroke_linejoin: "round",
                 fill_rule: "evenodd",
+                d: "M160,176V144a96,96,0,0,1,96-96h0a96,96,0,0,1,96,96v32",
+                fill: "none",
+                stroke: "#000",
             }
         }
     }
@@ -23857,12 +23857,12 @@ impl IconShape for IoPieChartOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M256.05,80.65Q263.94,80,272,80c106,0,192,86,192,192S378,464,272,464A192.09,192.09,0,0,1,89.12,330.65",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M256.05,80.65Q263.94,80,272,80c106,0,192,86,192,192S378,464,272,464A192.09,192.09,0,0,1,89.12,330.65",
             }
             path {
-                d: "M256,48C141.12,48,48,141.12,48,256a207.29,207.29,0,0,0,18.09,85L256,256Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M256,48C141.12,48,48,141.12,48,256a207.29,207.29,0,0,0,18.09,85L256,256Z",
             }
         }
     }
@@ -23900,15 +23900,15 @@ impl IconShape for IoArrowBackCircleOutline {
                 points: "249.38 336 170 256 249.38 176",
             }
             line {
-                x1: "181.03",
                 y1: "256",
-                x2: "342",
                 y2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "342",
+                x1: "181.03",
             }
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
         }
     }
@@ -23925,19 +23925,19 @@ impl IconShape for IoUnlink {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                fill: "none",
-                stroke: "#000",
-                stroke_linejoin: "round",
-                stroke_linecap: "round",
-                stroke_width: "48",
                 d: "M200.66,352H144a96,96,0,0,1,0-192h55.41",
+                stroke: "#000",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                fill: "none",
+                stroke_width: "48",
             }
             path {
-                stroke: "#000",
-                stroke_linecap: "round",
-                stroke_width: "48",
-                d: "M312.59,160H368a96,96,0,0,1,0,192H311.34",
                 fill: "none",
+                d: "M312.59,160H368a96,96,0,0,1,0,192H311.34",
+                stroke: "#000",
+                stroke_width: "48",
+                stroke_linecap: "round",
                 stroke_linejoin: "round",
             }
         }
@@ -23999,25 +23999,25 @@ impl IconShape for IoMenuOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                x2: "432",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x1: "80",
                 y1: "160",
-                y2: "160",
-            }
-            line {
-                y2: "256",
-                y1: "256",
-                x1: "80",
                 x2: "432",
+                y2: "160",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                x2: "432",
-                y1: "352",
+                y1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y2: "256",
                 x1: "80",
+                x2: "432",
+            }
+            line {
+                y1: "352",
                 y2: "352",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                x1: "80",
+                x2: "432",
             }
         }
     }
@@ -24059,18 +24059,18 @@ impl IconShape for IoEllipsisVerticalCircleOutline {
                 cx: "256",
             }
             circle {
-                r: "26",
                 cy: "346",
                 cx: "256",
-            }
-            circle {
-                cx: "256",
-                cy: "166",
                 r: "26",
             }
+            circle {
+                cy: "166",
+                r: "26",
+                cx: "256",
+            }
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
         }
     }
@@ -24110,9 +24110,9 @@ impl IconShape for IoRibbonSharp {
                 d: "M403,256.74a176.9,176.9,0,0,1-88.18,69.14L273.7,415.5,319,512l58-96H492Z",
             }
             circle {
-                cy: "160",
                 cx: "256.02",
                 r: "48",
+                cy: "160",
             }
             path {
                 d: "M256,16c-79.4,0-144,64.6-144,144s64.6,144,144,144,144-64.6,144-144S335.4,16,256,16Zm0,224a80,80,0,1,1,80-80A80.09,80.09,0,0,1,256,240Z",
@@ -24132,18 +24132,18 @@ impl IconShape for IoUmbrellaOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M256,272V432a32,32,0,0,1-32,32h0a32,32,0,0,1-32-32",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M256,272V432a32,32,0,0,1-32,32h0a32,32,0,0,1-32-32",
             }
             path {
                 d: "M464,272c0-114.88-93.12-208-208-208S48,157.12,48,272h0a67.88,67.88,0,0,1,96,0h0a78.28,78.28,0,0,1,102.31-7.27L256,272l9.69-7.27A78.28,78.28,0,0,1,368,272h0a67.88,67.88,0,0,1,96,0Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
+                x2: "256",
                 x1: "256",
                 y1: "64",
                 y2: "48",
-                x2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
@@ -24200,14 +24200,14 @@ impl IconShape for IoResize {
             }
             line {
                 x2: "111.98",
+                x1: "405.77",
                 y2: "400.02",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "405.77",
                 y1: "106.2",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "208 416 96 416 96 304",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -24295,25 +24295,25 @@ impl IconShape for IoThunderstormSharp {
                 transform: "translate(-276.6 304.44) rotate(-63.43)",
             }
             rect {
-                y: "432",
                 transform: "translate(-329.95 362.13) rotate(-63.43)",
-                width: "67.78",
-                height: "32",
                 x: "94.11",
+                y: "432",
+                height: "32",
+                width: "67.78",
             }
             rect {
+                y: "360",
+                x: "345.17",
+                width: "85.67",
                 transform: "translate(-121.83 554.88) rotate(-63.43)",
                 height: "32",
-                y: "360",
-                width: "85.67",
-                x: "345.17",
             }
             rect {
+                y: "432",
                 height: "32",
                 x: "374.11",
-                y: "432",
-                transform: "translate(-175.17 612.57) rotate(-63.43)",
                 width: "67.78",
+                transform: "translate(-175.17 612.57) rotate(-63.43)",
             }
         }
     }
@@ -24334,14 +24334,14 @@ impl IconShape for IoPersonRemoveOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M288,304c-87,0-175.3,48-191.64,138.6-2,10.92,4.21,21.4,15.65,21.4H464c11.44,0,17.62-10.48,15.65-21.4C463.3,352,375,304,288,304Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M288,304c-87,0-175.3,48-191.64,138.6-2,10.92,4.21,21.4,15.65,21.4H464c11.44,0,17.62-10.48,15.65-21.4C463.3,352,375,304,288,304Z",
             }
             line {
                 x2: "32",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "232",
                 x1: "144",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "232",
             }
         }
@@ -24367,11 +24367,11 @@ impl IconShape for IoPushOutline {
                 points: "176 240 256 160 336 240",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "256",
                 y2: "176",
                 x1: "256",
                 y1: "464",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -24400,8 +24400,8 @@ impl IconShape for IoCash {
                 d: "M480,240h16V176H480a96.11,96.11,0,0,1-96-96V64H128V80a96.11,96.11,0,0,1-96,96H16v64c5,0,10.34,0,16,0a96.11,96.11,0,0,1,96,96v16H384V336A96.11,96.11,0,0,1,480,240ZM256,304a96,96,0,1,1,96-96A96.11,96.11,0,0,1,256,304Z",
             }
             circle {
-                cx: "256",
                 cy: "208",
+                cx: "256",
                 r: "64",
             }
             path {
@@ -24428,36 +24428,36 @@ impl IconShape for IoLocate {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                x1: "256",
                 y1: "96",
+                y2: "56",
                 x2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
-                y2: "56",
+                x1: "256",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 y1: "456",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
+                x2: "256",
                 y2: "416",
                 x1: "256",
-                x2: "256",
             }
             path {
                 d: "M256,112A144,144,0,1,0,400,256,144,144,0,0,0,256,112Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
             line {
-                y2: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 x2: "456",
                 x1: "416",
+                y2: "256",
                 y1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
             line {
-                y1: "256",
                 x2: "96",
+                x1: "56",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 y2: "256",
-                x1: "56",
+                y1: "256",
             }
         }
     }
@@ -24531,30 +24531,30 @@ impl IconShape for IoDocumentLockOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                stroke_linecap: "round",
                 stroke_width: "32",
-                fill: "none",
-                stroke_linejoin: "round",
                 d: "M288,304V286c0-16.63-14.26-30-32-30s-32,13.37-32,30v18",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                fill: "none",
                 stroke: "#000",
             }
             path {
                 d: "M304,416H208a32,32,0,0,1-32-32V336a32,32,0,0,1,32-32h96a32,32,0,0,1,32,32v48A32,32,0,0,1,304,416Z",
             }
             path {
-                d: "M416,221.25V416a48,48,0,0,1-48,48H144a48,48,0,0,1-48-48V96a48,48,0,0,1,48-48h98.75a32,32,0,0,1,22.62,9.37L406.63,198.63A32,32,0,0,1,416,221.25Z",
-                stroke_linejoin: "round",
-                fill: "none",
                 stroke_width: "32",
+                d: "M416,221.25V416a48,48,0,0,1-48,48H144a48,48,0,0,1-48-48V96a48,48,0,0,1,48-48h98.75a32,32,0,0,1,22.62,9.37L406.63,198.63A32,32,0,0,1,416,221.25Z",
+                fill: "none",
+                stroke_linejoin: "round",
                 stroke: "#000",
             }
             path {
+                stroke_linejoin: "round",
                 stroke_width: "32",
-                stroke: "#000",
                 stroke_linecap: "round",
                 d: "M256,50.88V176a32,32,0,0,0,32,32H413.12",
                 fill: "none",
-                stroke_linejoin: "round",
+                stroke: "#000",
             }
         }
     }
@@ -24663,31 +24663,31 @@ impl IconShape for IoTrashBinOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M432,144,403.33,419.74A32,32,0,0,1,371.55,448H140.46a32,32,0,0,1-31.78-28.26L80,144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M432,144,403.33,419.74A32,32,0,0,1,371.55,448H140.46a32,32,0,0,1-31.78-28.26L80,144",
             }
             rect {
-                rx: "16",
-                y: "64",
+                height: "80",
                 width: "448",
+                x: "32",
                 ry: "16",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x: "32",
-                height: "80",
+                y: "64",
+                rx: "16",
             }
             line {
                 x2: "200",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "352",
                 x1: "312",
                 y1: "240",
-                y2: "352",
             }
             line {
-                x2: "200",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "352",
                 x1: "312",
+                y1: "352",
+                x2: "200",
                 y2: "240",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -24704,19 +24704,19 @@ impl IconShape for IoEllipsisHorizontalCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
+                cy: "256",
                 cx: "256",
                 r: "26",
-                cy: "256",
             }
             circle {
-                cy: "256",
                 cx: "346",
                 r: "26",
+                cy: "256",
             }
             circle {
                 cy: "256",
-                r: "26",
                 cx: "166",
+                r: "26",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
@@ -24798,8 +24798,8 @@ impl IconShape for IoSearchCircle {
                 d: "M256,64C150.13,64,64,150.13,64,256s86.13,192,192,192,192-86.13,192-192S361.87,64,256,64Zm91.31,283.31a16,16,0,0,1-22.62,0l-42.84-42.83a88.08,88.08,0,1,1,22.63-22.63l42.83,42.84A16,16,0,0,1,347.31,347.31Z",
             }
             circle {
-                cx: "232",
                 cy: "232",
+                cx: "232",
                 r: "56",
             }
         }
@@ -24834,17 +24834,17 @@ impl IconShape for IoLocateSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:48px",
+                x2: "256",
                 x1: "256",
                 y2: "56",
                 y1: "96",
-                x2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:48px",
             }
             line {
                 y2: "416",
-                x2: "256",
                 y1: "456",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:48px",
+                x2: "256",
                 x1: "256",
             }
             path {
@@ -24852,18 +24852,18 @@ impl IconShape for IoLocateSharp {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:48px",
             }
             line {
+                y1: "256",
                 y2: "256",
+                x1: "416",
                 x2: "456",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:48px",
-                y1: "256",
-                x1: "416",
             }
             line {
                 x1: "56",
-                y2: "256",
-                y1: "256",
-                x2: "96",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:48px",
+                x2: "96",
+                y1: "256",
+                y2: "256",
             }
         }
     }
@@ -24917,13 +24917,13 @@ impl IconShape for IoBrowsersOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                width: "416",
+                x: "48",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 rx: "48",
                 height: "384",
-                y: "64",
-                x: "48",
+                width: "416",
                 ry: "48",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                y: "64",
             }
             path {
                 d: "M397.82,64H114.18C77.69,64,48,94.15,48,131.2V176H64c0-16,16-32,32-32H416c16,0,32,16,32,32h16V131.2C464,94.15,434.31,64,397.82,64Z",
@@ -24943,8 +24943,8 @@ impl IconShape for IoVolumeLowOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M189.65,192H120a8,8,0,0,0-8,8V312a8,8,0,0,0,8,8h69.65a16,16,0,0,1,10.14,3.63l91.47,75A8,8,0,0,0,304,392.17V119.83a8,8,0,0,0-12.74-6.44l-91.47,75A16,16,0,0,1,189.65,192Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M189.65,192H120a8,8,0,0,0-8,8V312a8,8,0,0,0,8,8h69.65a16,16,0,0,1,10.14,3.63l91.47,75A8,8,0,0,0,304,392.17V119.83a8,8,0,0,0-12.74-6.44l-91.47,75A16,16,0,0,1,189.65,192Z",
             }
             path {
                 d: "M384,320c9.74-19.41,16-40.81,16-64,0-23.51-6-44.4-16-64",
@@ -24985,61 +24985,61 @@ impl IconShape for IoDiamondOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M35.42,188.21,243.17,457.67a16.17,16.17,0,0,0,25.66,0L476.58,188.21a16.52,16.52,0,0,0,.95-18.75L407.06,55.71A16.22,16.22,0,0,0,393.27,48H118.73a16.22,16.22,0,0,0-13.79,7.71L34.47,169.46A16.52,16.52,0,0,0,35.42,188.21Z",
-                fill: "none",
-                stroke_linejoin: "round",
-                stroke: "#000",
                 stroke_linecap: "round",
+                stroke_linejoin: "round",
                 stroke_width: "32",
+                fill: "none",
+                d: "M35.42,188.21,243.17,457.67a16.17,16.17,0,0,0,25.66,0L476.58,188.21a16.52,16.52,0,0,0,.95-18.75L407.06,55.71A16.22,16.22,0,0,0,393.27,48H118.73a16.22,16.22,0,0,0-13.79,7.71L34.47,169.46A16.52,16.52,0,0,0,35.42,188.21Z",
+                stroke: "#000",
             }
             line {
+                stroke: "#000",
+                stroke_linejoin: "round",
+                x1: "48",
+                y1: "176",
+                stroke_linecap: "round",
                 stroke_width: "32",
+                y2: "176",
                 fill: "none",
                 x2: "464",
-                stroke_linecap: "round",
-                y2: "176",
-                stroke_linejoin: "round",
-                stroke: "#000",
-                y1: "176",
-                x1: "48",
             }
             polyline {
+                stroke_width: "32",
+                fill: "none",
+                stroke: "#000",
+                stroke_linejoin: "round",
                 points: "400 64 352 176 256 48",
-                fill: "none",
-                stroke_linejoin: "round",
-                stroke: "#000",
                 stroke_linecap: "round",
-                stroke_width: "32",
             }
             polyline {
-                stroke_width: "32",
-                points: "112 64 160 176 256 48",
-                stroke: "#000",
-                fill: "none",
-                stroke_linejoin: "round",
                 stroke_linecap: "round",
+                stroke: "#000",
+                stroke_width: "32",
+                stroke_linejoin: "round",
+                fill: "none",
+                points: "112 64 160 176 256 48",
             }
             line {
-                x1: "256",
+                y1: "448",
                 x2: "160",
                 stroke_linecap: "round",
-                stroke: "#000",
-                y1: "448",
-                stroke_width: "32",
                 fill: "none",
-                y2: "176",
+                x1: "256",
                 stroke_linejoin: "round",
+                y2: "176",
+                stroke: "#000",
+                stroke_width: "32",
             }
             line {
-                stroke_width: "32",
                 x1: "256",
-                y2: "176",
-                stroke_linejoin: "round",
-                y1: "448",
                 x2: "352",
-                fill: "none",
+                stroke_width: "32",
                 stroke_linecap: "round",
+                fill: "none",
+                stroke_linejoin: "round",
                 stroke: "#000",
+                y1: "448",
+                y2: "176",
             }
         }
     }
@@ -25056,20 +25056,20 @@ impl IconShape for IoJournalOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                x: "96",
                 y: "48",
-                height: "416",
-                width: "320",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 rx: "48",
                 ry: "48",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                width: "320",
+                x: "96",
+                height: "416",
             }
             line {
-                y2: "464",
-                x2: "320",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:60px",
                 x1: "320",
+                y2: "464",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:60px",
                 y1: "48",
+                x2: "320",
             }
         }
     }
@@ -25174,16 +25174,16 @@ impl IconShape for IoBatteryHalfSharp {
                 d: "M17,384H449V128H17ZM49,160H417V352H49Z",
             }
             rect {
+                height: "146.16",
                 width: "185.31",
                 x: "70.69",
                 y: "182.92",
-                height: "146.16",
             }
             rect {
-                x: "465",
+                height: "106.67",
                 y: "202.67",
                 width: "32",
-                height: "106.67",
+                x: "465",
             }
         }
     }
@@ -25208,11 +25208,11 @@ impl IconShape for IoExitOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "464",
-                x1: "191",
                 y2: "256",
+                x1: "191",
                 y1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -25233,30 +25233,30 @@ impl IconShape for IoMoveSharp {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 x1: "255.98",
-                y2: "480",
                 x2: "256",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 y1: "32",
+                y2: "480",
             }
             polyline {
                 points: "176 400 256 480 336 400",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
-                points: "400 176 480 256 400 336",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                points: "400 176 480 256 400 336",
             }
             polyline {
-                points: "112 176 32 256 112 336",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                points: "112 176 32 256 112 336",
             }
             line {
-                y1: "256",
                 x1: "32",
+                y1: "256",
                 x2: "480",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 y2: "256",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -25273,8 +25273,8 @@ impl IconShape for IoPlayForwardCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
             path {
                 d: "M394.77,246.7,280.32,177.56A10.78,10.78,0,0,0,264,186.87v53.32L160.32,177.56A10.78,10.78,0,0,0,144,186.87V325.13a10.78,10.78,0,0,0,16.32,9.31L264,271.81v53.32a10.78,10.78,0,0,0,16.32,9.31L394.77,265.3A10.89,10.89,0,0,0,394.77,246.7Z",
@@ -25328,9 +25328,9 @@ impl IconShape for IoWoman {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                r: "56",
                 cx: "255.75",
                 cy: "56",
+                r: "56",
             }
             path {
                 d: "M394.63,277.9,384.3,243.49s0-.07,0-.11l-22.46-74.86h-.05l-2.51-8.45a44.87,44.87,0,0,0-43-32.08h-120a44.84,44.84,0,0,0-43,32.08l-2.51,8.45h-.06l-22.46,74.86s0,.07,0,.11L117.88,277.9c-3.12,10.39,2.3,21.66,12.57,25.14a20,20,0,0,0,25.6-13.18l25.58-85.25h0l2.17-7.23A8,8,0,0,1,199.33,200a7.78,7.78,0,0,1-.17,1.61v0L155.43,347.4A16,16,0,0,0,170.75,368h29V482.69c0,16.46,10.53,29.31,24,29.31s24-12.85,24-29.31V368h16V482.69c0,16.46,10.53,29.31,24,29.31s24-12.85,24-29.31V368h30a16,16,0,0,0,15.33-20.6L313.34,201.59a7.52,7.52,0,0,1-.16-1.59,8,8,0,0,1,15.54-2.63l2.17,7.23h0l25.57,85.25A20,20,0,0,0,382.05,303C392.32,299.56,397.74,288.29,394.63,277.9Z",
@@ -25350,16 +25350,16 @@ impl IconShape for IoHelpCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M256,80A176,176,0,1,0,432,256,176,176,0,0,0,256,80Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M256,80A176,176,0,1,0,432,256,176,176,0,0,0,256,80Z",
             }
             path {
                 d: "M200,202.29s.84-17.5,19.57-32.57C230.68,160.77,244,158.18,256,158c10.93-.14,20.69,1.67,26.53,4.45,10,4.76,29.47,16.38,29.47,41.09,0,26-17,37.81-36.37,50.8S251,281.43,251,296",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:28px",
             }
             circle {
-                r: "20",
                 cx: "250",
+                r: "20",
                 cy: "348",
             }
         }
@@ -25379,18 +25379,18 @@ impl IconShape for IoUnlinkSharp {
             path {
                 stroke_linejoin: "round",
                 stroke_width: "48",
-                stroke_linecap: "square",
                 stroke: "#000",
                 d: "M200.66,352H144a96,96,0,0,1,0-192h55.41",
                 fill: "none",
+                stroke_linecap: "square",
             }
             path {
                 stroke_width: "48",
-                stroke_linecap: "square",
-                d: "M312.59,160H368a96,96,0,0,1,0,192H311.34",
-                fill: "none",
                 stroke: "#000",
+                fill: "none",
+                d: "M312.59,160H368a96,96,0,0,1,0,192H311.34",
                 stroke_linejoin: "round",
+                stroke_linecap: "square",
             }
         }
     }
@@ -25407,17 +25407,17 @@ impl IconShape for IoLockClosedOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M336,208V113a80,80,0,0,0-160,0v95",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             rect {
                 ry: "48",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x: "96",
+                y: "208",
+                height: "272",
                 width: "320",
                 rx: "48",
-                x: "96",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                height: "272",
-                y: "208",
             }
         }
     }
@@ -25486,19 +25486,19 @@ impl IconShape for IoCodeSlashOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "160 368 32 256 160 144",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
                 points: "352 368 480 256 352 144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "96",
                 x2: "208",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "416",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "304",
+                y1: "96",
             }
         }
     }
@@ -25515,13 +25515,13 @@ impl IconShape for IoContractOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "304 416 304 304 416 304",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "304 416 304 304 416 304",
             }
             line {
                 y2: "432",
-                x1: "314.2",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "314.2",
                 y1: "314.23",
                 x2: "432",
             }
@@ -25530,33 +25530,33 @@ impl IconShape for IoContractOutline {
                 points: "208 96 208 208 96 208",
             }
             line {
-                x2: "80",
-                y2: "80",
-                y1: "197.77",
                 x1: "197.8",
+                x2: "80",
+                y1: "197.77",
+                y2: "80",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "416 208 304 208 304 96",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "432",
-                y1: "197.8",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "80",
                 x1: "314.23",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "432",
+                y2: "80",
+                y1: "197.8",
             }
             polyline {
                 points: "96 304 208 304 208 416",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "80",
-                x1: "197.77",
                 y1: "314.2",
+                x1: "197.77",
                 y2: "432",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "80",
             }
         }
     }
@@ -25577,11 +25577,11 @@ impl IconShape for IoArrowBack {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
             line {
-                y2: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
                 x2: "412",
-                y1: "256",
                 x1: "120",
+                y2: "256",
+                y1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
         }
     }
@@ -25632,26 +25632,26 @@ impl IconShape for IoDocumentTextOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 d: "M416,221.25V416a48,48,0,0,1-48,48H144a48,48,0,0,1-48-48V96a48,48,0,0,1,48-48h98.75a32,32,0,0,1,22.62,9.37L406.63,198.63A32,32,0,0,1,416,221.25Z",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M256,56V176a32,32,0,0,0,32,32H408",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y2: "288",
+                x2: "336",
                 y1: "288",
+                y2: "288",
                 x1: "176",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "336",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "336",
                 y1: "368",
                 y2: "368",
-                x2: "336",
                 x1: "176",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -25743,21 +25743,21 @@ impl IconShape for IoPodiumSharp {
         rsx! {
             rect {
                 y: "32",
-                height: "448",
                 x: "160",
                 width: "192",
+                height: "448",
             }
             rect {
                 width: "112",
-                y: "192",
-                x: "384",
                 height: "288",
+                x: "384",
+                y: "192",
             }
             rect {
-                width: "112",
-                height: "352",
-                x: "16",
                 y: "128",
+                height: "352",
+                width: "112",
+                x: "16",
             }
         }
     }
@@ -25774,8 +25774,8 @@ impl IconShape for IoRefreshOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M320,146s24.36-12-64-12A160,160,0,1,0,416,294",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M320,146s24.36-12-64-12A160,160,0,1,0,416,294",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -25852,47 +25852,47 @@ impl IconShape for IoBarcodeOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M384,400.33l35.13-.33A29,29,0,0,0,448,371.13V140.87A29,29,0,0,0,419.13,112l-35.13.33",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M384,400.33l35.13-.33A29,29,0,0,0,448,371.13V140.87A29,29,0,0,0,419.13,112l-35.13.33",
             }
             path {
-                d: "M128,112l-36.8.33c-15.88,0-27.2,13-27.2,28.87V371.47c0,15.87,11.32,28.86,27.2,28.86L128,400",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M128,112l-36.8.33c-15.88,0-27.2,13-27.2,28.87V371.47c0,15.87,11.32,28.86,27.2,28.86L128,400",
             }
             line {
                 y2: "320",
-                x1: "384",
-                x2: "384",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "384",
                 y1: "192",
+                x2: "384",
             }
             line {
+                x2: "320",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "320",
                 y1: "160",
-                x2: "320",
                 y2: "352",
             }
             line {
-                x1: "256",
-                y2: "336",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "176",
                 x2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "256",
+                y2: "336",
             }
             line {
                 x2: "192",
-                x1: "192",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "192",
                 y2: "352",
                 y1: "160",
             }
             line {
-                x1: "128",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "320",
                 y1: "192",
+                x1: "128",
+                y2: "320",
                 x2: "128",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -25909,8 +25909,8 @@ impl IconShape for IoPlaySkipForwardCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 d: "M320,176a16,16,0,0,0-16,16v53L192.32,177.56A10.78,10.78,0,0,0,176,186.87V325.13a10.78,10.78,0,0,0,16.32,9.31L304,267v53a16,16,0,0,0,32,0V192A16,16,0,0,0,320,176Z",
@@ -25973,20 +25973,20 @@ impl IconShape for IoDiscOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
+                cy: "256",
                 r: "208",
-                cy: "256",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 cx: "256",
             }
             circle {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                cx: "256",
+                cy: "256",
                 r: "96",
-                cx: "256",
-                cy: "256",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             circle {
-                cx: "256",
                 r: "32",
+                cx: "256",
                 cy: "256",
             }
         }
@@ -26028,29 +26028,29 @@ impl IconShape for IoTrailSignOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                y1: "400",
-                x2: "256",
+                x1: "256",
                 y2: "464",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "256",
+                y1: "400",
+                x2: "256",
             }
             line {
-                x2: "256",
                 x1: "256",
                 y1: "208",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "272",
-            }
-            line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "48",
-                x1: "256",
-                y2: "80",
                 x2: "256",
             }
-            path {
+            line {
+                x1: "256",
+                y1: "48",
+                y2: "80",
+                x2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+            }
+            path {
                 d: "M416,208H102.63a16,16,0,0,1-11.32-4.69L32,144,91.31,84.69A16,16,0,0,1,102.63,80H416a16,16,0,0,1,16,16v96A16,16,0,0,1,416,208Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M96,400H409.37a16,16,0,0,0,11.32-4.69L480,336l-59.31-59.31A16,16,0,0,0,409.37,272H96a16,16,0,0,0-16,16v96A16,16,0,0,0,96,400Z",
@@ -26139,19 +26139,19 @@ impl IconShape for IoLogInOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M192,176V136a40,40,0,0,1,40-40H392a40,40,0,0,1,40,40V376a40,40,0,0,1-40,40H240c-22.09,0-48-17.91-48-40V336",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M192,176V136a40,40,0,0,1,40-40H392a40,40,0,0,1,40,40V376a40,40,0,0,1-40,40H240c-22.09,0-48-17.91-48-40V336",
             }
             polyline {
                 points: "288 336 368 256 288 176",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "352",
                 y2: "256",
-                x1: "80",
-                y1: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "80",
+                x2: "352",
+                y1: "256",
             }
         }
     }
@@ -26226,24 +26226,24 @@ impl IconShape for IoDesktopOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
+                rx: "32",
                 ry: "32",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                y: "64",
-                height: "320",
-                rx: "32",
-                x: "32",
                 width: "448",
+                height: "320",
+                x: "32",
+                y: "64",
             }
             polygon {
-                style: "stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "304 448 296 384 216 384 208 448 304 448",
+                style: "stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "144",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "368",
-                y2: "448",
                 y1: "448",
+                y2: "448",
+                x2: "144",
+                x1: "368",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M32,304v48a32.09,32.09,0,0,0,32,32H448a32.09,32.09,0,0,0,32-32V304Zm224,64a16,16,0,1,1,16-16A16,16,0,0,1,256,368Z",
@@ -26413,8 +26413,8 @@ impl IconShape for IoLayersOutline {
                 d: "M160,308.52,77.3,345.63c-17.6,8-17.6,21.1,0,29.1l148,67.5c16.89,7.69,44.69,7.69,61.58,0l148-67.5c17.6-8,17.6-21.1,0-29.1l-79.94-38.47",
             }
             path {
-                d: "M160,204.48,77.2,241.64c-17.6,8-17.6,21.1,0,29.1l148,67.49c16.89,7.7,44.69,7.7,61.58,0l148-67.49c17.7-8,17.7-21.1.1-29.1L352,204.48",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M160,204.48,77.2,241.64c-17.6,8-17.6,21.1,0,29.1l148,67.49c16.89,7.7,44.69,7.7,61.58,0l148-67.49c17.7-8,17.7-21.1.1-29.1L352,204.48",
             }
         }
     }
@@ -26448,55 +26448,55 @@ impl IconShape for IoTicketOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                stroke: "#000",
-                fill: "none",
-                stroke_miterlimit: "10",
-                stroke_width: "32",
                 d: "M366.05,146a46.7,46.7,0,0,1-2.42-63.42,3.87,3.87,0,0,0-.22-5.26L319.28,33.14a3.89,3.89,0,0,0-5.5,0l-70.34,70.34a23.62,23.62,0,0,0-5.71,9.24h0a23.66,23.66,0,0,1-14.95,15h0a23.7,23.7,0,0,0-9.25,5.71L33.14,313.78a3.89,3.89,0,0,0,0,5.5l44.13,44.13a3.87,3.87,0,0,0,5.26.22,46.69,46.69,0,0,1,65.84,65.84,3.87,3.87,0,0,0,.22,5.26l44.13,44.13a3.89,3.89,0,0,0,5.5,0l180.4-180.39a23.7,23.7,0,0,0,5.71-9.25h0a23.66,23.66,0,0,1,14.95-15h0a23.62,23.62,0,0,0,9.24-5.71l70.34-70.34a3.89,3.89,0,0,0,0-5.5l-44.13-44.13a3.87,3.87,0,0,0-5.26-.22A46.7,46.7,0,0,1,366.05,146Z",
+                stroke: "#000",
+                stroke_width: "32",
+                fill: "none",
+                stroke_miterlimit: "10",
             }
             line {
+                stroke_linecap: "round",
                 y1: "140.44",
-                fill: "none",
+                x2: "233.99",
                 stroke_width: "32",
-                y2: "123.93",
                 x1: "250.5",
+                y2: "123.93",
                 stroke_miterlimit: "10",
                 stroke: "#000",
-                stroke_linecap: "round",
-                x2: "233.99",
+                fill: "none",
             }
             line {
-                stroke_linecap: "round",
-                stroke_miterlimit: "10",
-                stroke: "#000",
-                fill: "none",
                 stroke_width: "32",
-                y2: "173.46",
                 x1: "294.52",
                 y1: "184.46",
                 x2: "283.51",
+                stroke_linecap: "round",
+                y2: "173.46",
+                stroke_miterlimit: "10",
+                stroke: "#000",
+                fill: "none",
             }
             line {
-                y2: "217.48",
                 stroke: "#000",
+                x2: "327.54",
                 y1: "228.49",
+                stroke_miterlimit: "10",
+                fill: "none",
+                stroke_width: "32",
                 x1: "338.54",
                 stroke_linecap: "round",
-                stroke_miterlimit: "10",
-                stroke_width: "32",
-                x2: "327.54",
-                fill: "none",
+                y2: "217.48",
             }
             line {
                 stroke_miterlimit: "10",
                 x2: "371.56",
                 fill: "none",
-                stroke_linecap: "round",
-                x1: "388.07",
-                y1: "278.01",
                 y2: "261.5",
                 stroke_width: "32",
                 stroke: "#000",
+                stroke_linecap: "round",
+                y1: "278.01",
+                x1: "388.07",
             }
         }
     }
@@ -26517,8 +26517,8 @@ impl IconShape for IoCodeOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "352 368 480 256 352 144",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -26572,8 +26572,8 @@ impl IconShape for IoMailUnreadOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M320,96H88a40,40,0,0,0-40,40V376a40,40,0,0,0,40,40H422.73a40,40,0,0,0,40-40V239",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M320,96H88a40,40,0,0,0-40,40V376a40,40,0,0,0,40,40H422.73a40,40,0,0,0,40-40V239",
             }
             polyline {
                 points: "112 160 256 272 343 206.33",
@@ -26581,8 +26581,8 @@ impl IconShape for IoMailUnreadOutline {
             }
             circle {
                 cx: "431.95",
-                r: "47.95",
                 cy: "128.05",
+                r: "47.95",
             }
             path {
                 d: "M432,192a63.95,63.95,0,1,1,63.95-63.95A64,64,0,0,1,432,192Zm0-95.9a32,32,0,1,0,31.95,32A32,32,0,0,0,432,96.1Z",
@@ -26709,8 +26709,8 @@ impl IconShape for IoSync {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                points: "32 256 76 212 122 256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "32 256 76 212 122 256",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -26731,25 +26731,25 @@ impl IconShape for IoIdCardOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
+                y: "32",
+                stroke_linejoin: "round",
+                width: "320",
                 rx: "48",
+                x: "96",
+                stroke: "#000",
+                fill: "none",
                 stroke_width: "32",
                 height: "448",
-                fill: "none",
-                stroke_linejoin: "round",
-                y: "32",
-                stroke: "#000",
-                x: "96",
-                width: "320",
             }
             line {
-                fill: "none",
-                x1: "208",
                 stroke: "#000",
                 stroke_linecap: "round",
-                stroke_linejoin: "round",
                 stroke_width: "32",
                 y1: "80",
+                stroke_linejoin: "round",
                 y2: "80",
+                fill: "none",
+                x1: "208",
                 x2: "304",
             }
             path {
@@ -26809,45 +26809,45 @@ impl IconShape for IoListCircleOutline {
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "224",
-                y1: "184",
                 x2: "352",
                 y2: "184",
+                y1: "184",
             }
             line {
                 x1: "224",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "352",
                 y2: "256",
                 y1: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
                 x1: "224",
                 x2: "352",
+                y2: "327",
                 y1: "327",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "327",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M448,258c0-106-86-192-192-192S64,152,64,258s86,192,192,192S448,364,448,258Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             circle {
-                cx: "168",
                 cy: "184",
                 r: "8",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cx: "168",
             }
             circle {
-                cx: "168",
-                cy: "257",
                 r: "8",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cy: "257",
+                cx: "168",
             }
             circle {
                 cy: "328",
+                cx: "168",
                 r: "8",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                cx: "168",
             }
         }
     }
@@ -26921,8 +26921,8 @@ impl IconShape for IoHeadsetOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M83,384c-13-33-35-93.37-35-128C48,141.12,149.33,48,256,48s208,93.12,208,208c0,34.63-23,97-35,128",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
@@ -26984,10 +26984,10 @@ impl IconShape for IoCloudOfflineSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                transform: "translate(-106.04 256) rotate(-45)",
                 height: "575.06",
-                x: "240",
                 y: "-31.53",
+                transform: "translate(-106.04 256) rotate(-45)",
+                x: "240",
                 width: "32",
             }
             path {
@@ -27011,9 +27011,9 @@ impl IconShape for IoEye {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
+                r: "64",
                 cx: "256",
                 cy: "256",
-                r: "64",
             }
             path {
                 d: "M490.84,238.6c-26.46-40.92-60.79-75.68-99.27-100.53C349,110.55,302,96,255.66,96c-42.52,0-84.33,12.15-124.27,36.11C90.66,156.54,53.76,192.23,21.71,238.18a31.92,31.92,0,0,0-.64,35.54c26.41,41.33,60.4,76.14,98.28,100.65C162,402,207.9,416,255.66,416c46.71,0,93.81-14.43,136.2-41.72,38.46-24.77,72.72-59.66,99.08-100.92A32.2,32.2,0,0,0,490.84,238.6ZM256,352a96,96,0,1,1,96-96A96.11,96.11,0,0,1,256,352Z",
@@ -27033,12 +27033,12 @@ impl IconShape for IoReloadCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M341.54,197.85l-11.37-13.23a103.37,103.37,0,1,0,22.71,105.84",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 d: "M367.32,162a8.44,8.44,0,0,0-6,2.54l-59.54,59.54a8.61,8.61,0,0,0,6.09,14.71h59.54a8.62,8.62,0,0,0,8.62-8.62V170.61a8.61,8.61,0,0,0-8.68-8.63Z",
@@ -27085,9 +27085,9 @@ impl IconShape for IoCashSharp {
                 d: "M416,336v16h80V272H480A64.07,64.07,0,0,0,416,336Z",
             }
             circle {
+                r: "64",
                 cx: "256",
                 cy: "208",
-                r: "64",
             }
         }
     }
@@ -27104,8 +27104,8 @@ impl IconShape for IoTrashBinSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polygon {
-                style: "fill:none",
                 points: "337.46 240 312 214.54 256 270.54 200 214.54 174.54 240 230.54 296 174.54 352 200 377.46 256 321.46 312 377.46 337.46 352 281.46 296 337.46 240",
+                style: "fill:none",
             }
             polygon {
                 style: "fill:none",
@@ -27115,12 +27115,12 @@ impl IconShape for IoTrashBinSharp {
                 d: "M64,160,93.74,442.51A24,24,0,0,0,117.61,464H394.39a24,24,0,0,0,23.87-21.49L448,160ZM312,377.46l-56-56-56,56L174.54,352l56-56-56-56L200,214.54l56,56,56-56L337.46,240l-56,56,56,56Z",
             }
             rect {
-                rx: "12",
-                width: "448",
-                y: "48",
                 x: "32",
+                y: "48",
                 height: "80",
                 ry: "12",
+                width: "448",
+                rx: "12",
             }
         }
     }
@@ -27235,8 +27235,8 @@ impl IconShape for IoLocation {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "256",
                 cy: "192",
+                cx: "256",
                 r: "32",
             }
             path {
@@ -27259,37 +27259,37 @@ impl IconShape for IoStatsChartOutline {
             rect {
                 height: "160",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                width: "48",
                 x: "64",
                 y: "320",
                 rx: "8",
                 ry: "8",
-                width: "48",
             }
             rect {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                rx: "8",
                 x: "288",
+                ry: "8",
                 width: "48",
-                height: "256",
-                rx: "8",
                 y: "224",
-                ry: "8",
+                height: "256",
             }
             rect {
-                x: "400",
                 y: "112",
-                rx: "8",
-                height: "368",
                 width: "48",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                rx: "8",
                 ry: "8",
+                height: "368",
+                x: "400",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             rect {
-                ry: "8",
                 height: "448",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                width: "48",
-                x: "176",
                 rx: "8",
+                ry: "8",
+                x: "176",
+                width: "48",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y: "32",
             }
         }
@@ -27307,9 +27307,9 @@ impl IconShape for IoFlower {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "256",
-                cy: "256",
                 r: "48",
+                cy: "256",
+                cx: "256",
             }
             path {
                 d: "M475.93,303.91a67.49,67.49,0,0,0-44.34-115.53,5.2,5.2,0,0,1-4.58-3.21h0a5.21,5.21,0,0,1,1-5.51A67.83,67.83,0,0,0,378,66.33h-.25A67.13,67.13,0,0,0,332.35,84a5.21,5.21,0,0,1-5.52,1h0a5.23,5.23,0,0,1-3.22-4.58,67.68,67.68,0,0,0-135.23,0A5.2,5.2,0,0,1,185.17,85h0a5.21,5.21,0,0,1-5.52-1,67.11,67.11,0,0,0-45.44-17.69H134A67.91,67.91,0,0,0,84,179.65a5.21,5.21,0,0,1,1,5.51h0a5.2,5.2,0,0,1-4.58,3.21,67.71,67.71,0,0,0,0,135.23A5.23,5.23,0,0,1,85,326.83h0a5.22,5.22,0,0,1-1,5.52,67.54,67.54,0,0,0,50.08,113h.25A67.38,67.38,0,0,0,179.65,428a5.21,5.21,0,0,1,5.51-1h0a5.2,5.2,0,0,1,3.21,4.58,67.71,67.71,0,0,0,135.23,0,5.23,5.23,0,0,1,3.22-4.58h0a5.21,5.21,0,0,1,5.51,1,67.38,67.38,0,0,0,45.29,17.42h.25a67.48,67.48,0,0,0,50.08-113,5.22,5.22,0,0,1-1-5.52h0a5.23,5.23,0,0,1,4.58-3.22A67.31,67.31,0,0,0,475.93,303.91ZM256,336a80,80,0,1,1,80-80A80.09,80.09,0,0,1,256,336Z",
@@ -27363,39 +27363,39 @@ impl IconShape for IoVideocamOffOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                stroke_linecap: "round",
-                fill: "none",
-                d: "M374.79,308.78,457.5,367A16,16,0,0,0,480,352.38V159.62A16,16,0,0,0,457.5,145l-82.71,58.22A16,16,0,0,0,368,216.3v79.4A16,16,0,0,0,374.79,308.78Z",
                 stroke: "#000",
-                stroke_width: "32",
                 stroke_linejoin: "round",
+                d: "M374.79,308.78,457.5,367A16,16,0,0,0,480,352.38V159.62A16,16,0,0,0,457.5,145l-82.71,58.22A16,16,0,0,0,368,216.3v79.4A16,16,0,0,0,374.79,308.78Z",
+                fill: "none",
+                stroke_linecap: "round",
+                stroke_width: "32",
             }
             path {
-                d: "M50.19,140.57A51.94,51.94,0,0,0,32,180V332a52.15,52.15,0,0,0,52,52H268a51.6,51.6,0,0,0,22-4.9",
-                fill: "none",
-                stroke_width: "32",
-                stroke_linecap: "round",
                 stroke_miterlimit: "10",
                 stroke: "#000",
+                d: "M50.19,140.57A51.94,51.94,0,0,0,32,180V332a52.15,52.15,0,0,0,52,52H268a51.6,51.6,0,0,0,22-4.9",
+                stroke_linecap: "round",
+                fill: "none",
+                stroke_width: "32",
             }
             path {
                 stroke_linecap: "round",
-                stroke_width: "32",
+                stroke: "#000",
+                fill: "none",
                 stroke_miterlimit: "10",
                 d: "M208,128h60.48A51.68,51.68,0,0,1,320,179.52V248",
-                fill: "none",
-                stroke: "#000",
+                stroke_width: "32",
             }
             line {
-                stroke_miterlimit: "10",
                 y1: "416",
-                x1: "416",
                 stroke_linecap: "round",
+                stroke_width: "32",
                 x2: "80",
                 stroke: "#000",
-                fill: "none",
                 y2: "80",
-                stroke_width: "32",
+                fill: "none",
+                x1: "416",
+                stroke_miterlimit: "10",
             }
         }
     }
@@ -27438,8 +27438,8 @@ impl IconShape for IoNotificationsCircleSharp {
                 d: "M295.68,351.43c0,.19,0,.38,0,.57H296Z",
             }
             path {
-                style: "fill:none",
                 d: "M256,384c22.28,0,39.36-10.63,39.66-32H216C216,373.75,233.53,384,256,384Z",
+                style: "fill:none",
             }
             path {
                 d: "M295.67,352H296l-.32-.57C295.68,351.62,295.67,351.81,295.67,352Z",
@@ -27528,14 +27528,14 @@ impl IconShape for IoMicCircleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
             line {
                 x1: "224",
+                y1: "368",
                 x2: "288",
                 y2: "368",
-                y1: "368",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
@@ -27543,19 +27543,19 @@ impl IconShape for IoMicCircleOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x1: "256",
-                y1: "320",
-                y2: "368",
-                x2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "320",
+                x2: "256",
+                y2: "368",
+                x1: "256",
             }
             rect {
-                ry: "48",
                 width: "96",
                 rx: "48",
                 height: "160",
-                x: "208",
+                ry: "48",
                 y: "128",
+                x: "208",
             }
         }
     }
@@ -27611,12 +27611,12 @@ impl IconShape for IoGift {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M200,144h40V104a40,40,0,1,0-40,40Z",
                 style: "fill:none",
+                d: "M200,144h40V104a40,40,0,1,0-40,40Z",
             }
             path {
-                d: "M352,104a40,40,0,0,0-80,0v40h40A40,40,0,0,0,352,104Z",
                 style: "fill:none",
+                d: "M352,104a40,40,0,0,0-80,0v40h40A40,40,0,0,0,352,104Z",
             }
             path {
                 d: "M80,416a64,64,0,0,0,64,64h92a4,4,0,0,0,4-4V292a4,4,0,0,0-4-4H88a8,8,0,0,0-8,8Z",
@@ -27642,15 +27642,15 @@ impl IconShape for IoArrowBackSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
                 points: "244 400 100 256 244 112",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
             }
             line {
-                y1: "256",
                 x2: "412",
                 x1: "120",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
+                y1: "256",
                 y2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
             }
         }
     }
@@ -27667,19 +27667,19 @@ impl IconShape for IoDownloadOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M336,176h40a40,40,0,0,1,40,40V424a40,40,0,0,1-40,40H136a40,40,0,0,1-40-40V216a40,40,0,0,1,40-40h40",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "176 272 256 352 336 272",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y2: "336",
-                x2: "256",
                 x1: "256",
+                x2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "48",
+                y2: "336",
             }
         }
     }
@@ -27730,19 +27730,19 @@ impl IconShape for IoEllipsisHorizontal {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                r: "48",
                 cx: "256",
                 cy: "256",
+                r: "48",
             }
             circle {
+                cy: "256",
                 cx: "416",
                 r: "48",
-                cy: "256",
             }
             circle {
+                r: "48",
                 cy: "256",
                 cx: "96",
-                r: "48",
             }
         }
     }
@@ -27759,12 +27759,12 @@ impl IconShape for IoPlayBackOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M480,145.52v221c0,13.28-13,21.72-23.63,15.35L267.5,268.8c-9.24-5.53-9.24-20.07,0-25.6l188.87-113C467,123.8,480,132.24,480,145.52Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M480,145.52v221c0,13.28-13,21.72-23.63,15.35L267.5,268.8c-9.24-5.53-9.24-20.07,0-25.6l188.87-113C467,123.8,480,132.24,480,145.52Z",
             }
             path {
-                d: "M251.43,145.52v221c0,13.28-13,21.72-23.63,15.35L38.93,268.8c-9.24-5.53-9.24-20.07,0-25.6l188.87-113C238.44,123.8,251.43,132.24,251.43,145.52Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M251.43,145.52v221c0,13.28-13,21.72-23.63,15.35L38.93,268.8c-9.24-5.53-9.24-20.07,0-25.6l188.87-113C238.44,123.8,251.43,132.24,251.43,145.52Z",
             }
         }
     }
@@ -27858,21 +27858,21 @@ impl IconShape for IoNotificationsOffOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M128.51,204.59q-.37,6.15-.37,12.76C128.14,304,110,320,84.33,351.43,73.69,364.45,83,384,101.62,384H320",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M414.5,335.3c-18.48-23.45-30.62-47.05-30.62-118C383.88,138,343.36,109.73,310,96c-4.43-1.82-8.6-6-9.95-10.55C294.21,65.54,277.82,48,256,48S217.8,65.55,212,85.47c-1.35,4.6-5.52,8.71-10,10.53a149.57,149.57,0,0,0-18,8.79",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M320,384v16a64,64,0,0,1-128,0V384",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
+                y2: "64",
                 y1: "448",
                 x2: "64",
-                y2: "64",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x1: "448",
             }
@@ -27915,8 +27915,8 @@ impl IconShape for IoAlertCircleOutline {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M250.26,166.05,256,288l5.73-121.95a5.74,5.74,0,0,0-5.79-6h0A5.74,5.74,0,0,0,250.26,166.05Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M256,367.91a20,20,0,1,1,20-20A20,20,0,0,1,256,367.91Z",
@@ -27936,11 +27936,11 @@ impl IconShape for IoMicOff {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
+                x1: "432",
                 x2: "96",
                 y1: "400",
                 y2: "64",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                x1: "432",
             }
             path {
                 d: "M400,240V208.45c0-8.61-6.62-16-15.23-16.43A16,16,0,0,0,368,208v32a111.68,111.68,0,0,1-2.68,24.38,2,2,0,0,0,.53,1.84l22.59,22.59a2,2,0,0,0,3.29-.72A143.27,143.27,0,0,0,400,240Z",
@@ -27990,17 +27990,17 @@ impl IconShape for IoAddCircleOutline {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "256",
                 y1: "176",
                 y2: "336",
                 x1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "176",
-                y1: "256",
                 x1: "336",
+                y1: "256",
                 y2: "256",
+                x2: "176",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
@@ -28062,105 +28062,105 @@ impl IconShape for IoHardwareChipOutline {
         rsx! {
             rect {
                 ry: "48",
-                width: "352",
-                height: "352",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                height: "352",
                 x: "80",
                 y: "80",
+                width: "352",
                 rx: "48",
             }
             rect {
-                ry: "16",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 x: "144",
                 y: "144",
-                width: "224",
                 height: "224",
+                ry: "16",
                 rx: "16",
+                width: "224",
+            }
+            line {
+                y1: "80",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "256",
+                x1: "256",
+                y2: "48",
             }
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "256",
-                x2: "256",
-                y2: "48",
-                y1: "80",
-            }
-            line {
-                x2: "336",
                 y2: "48",
                 x1: "336",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "336",
                 y1: "80",
             }
             line {
+                x2: "176",
                 x1: "176",
                 y1: "80",
-                x2: "176",
                 y2: "48",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y2: "432",
-                x1: "256",
-                y1: "464",
-                x2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "432",
+                y1: "464",
+                x1: "256",
+                x2: "256",
             }
             line {
-                y2: "432",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "336",
                 y1: "464",
                 x2: "336",
-            }
-            line {
-                x1: "176",
+                x1: "336",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "432",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "176",
+            }
+            line {
                 y1: "464",
-            }
-            line {
-                y1: "256",
-                x2: "464",
+                y2: "432",
+                x2: "176",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "256",
-                x1: "432",
+                x1: "176",
             }
             line {
-                x2: "464",
-                y2: "336",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "432",
+                y1: "256",
+                y2: "256",
+                x2: "464",
+            }
+            line {
+                y2: "336",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "336",
-            }
-            line {
-                y1: "176",
                 x1: "432",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "176",
                 x2: "464",
             }
             line {
-                y1: "256",
+                y2: "176",
+                x1: "432",
+                y1: "176",
+                x2: "464",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+            }
+            line {
                 x1: "48",
                 x2: "80",
                 y2: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "256",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "336",
-                x1: "48",
+                x2: "80",
                 y1: "336",
-                x2: "80",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "48",
+                y2: "336",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "176",
-                x2: "80",
                 x1: "48",
+                x2: "80",
+                y1: "176",
                 y2: "176",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -28253,9 +28253,9 @@ impl IconShape for IoArrowUp {
                 points: "112 244 256 100 400 244",
             }
             line {
-                y2: "412",
                 x1: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
+                y2: "412",
                 y1: "120",
                 x2: "256",
             }
@@ -28274,36 +28274,36 @@ impl IconShape for IoFemaleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                fill: "none",
+                stroke_width: "32",
+                cy: "184",
                 stroke: "#000",
+                stroke_linecap: "round",
+                cx: "256",
+                fill: "none",
                 r: "152",
                 stroke_linejoin: "round",
-                stroke_width: "32",
-                stroke_linecap: "round",
-                cy: "184",
-                cx: "256",
             }
             line {
-                x1: "256",
+                fill: "none",
                 x2: "256",
-                stroke_linejoin: "round",
+                stroke_linecap: "round",
                 y1: "336",
-                stroke_width: "32",
                 y2: "480",
                 stroke: "#000",
-                fill: "none",
-                stroke_linecap: "round",
+                stroke_width: "32",
+                stroke_linejoin: "round",
+                x1: "256",
             }
             line {
-                stroke_width: "32",
-                y2: "416",
-                x1: "314",
-                stroke: "#000",
                 y1: "416",
+                x1: "314",
+                y2: "416",
+                stroke: "#000",
+                stroke_width: "32",
                 x2: "198",
-                stroke_linecap: "round",
                 fill: "none",
                 stroke_linejoin: "round",
+                stroke_linecap: "round",
             }
         }
     }
@@ -28324,8 +28324,8 @@ impl IconShape for IoRefreshSharp {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "256 58 336 138 256 218",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -28379,11 +28379,11 @@ impl IconShape for IoVolumeMuteSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                x2: "64",
                 x1: "416",
-                y2: "80",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                x2: "64",
                 y1: "432",
+                y2: "80",
             }
             path {
                 d: "M352,256c0-24.56-5.81-47.88-17.75-71.27L327,170.47,298.48,185l7.27,14.25C315.34,218.06,320,236.62,320,256a112.91,112.91,0,0,1-.63,11.74l27.32,27.32A148.8,148.8,0,0,0,352,256Z",
@@ -28486,11 +28486,11 @@ impl IconShape for IoRemove {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "256",
                 y1: "256",
-                x1: "400",
+                y2: "256",
                 x2: "112",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "400",
             }
         }
     }
@@ -28604,10 +28604,10 @@ impl IconShape for IoLinkSharp {
                 d: "M312.59,160H368a96,96,0,0,1,0,192H311.34",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:48px",
-                x2: "344.93",
-                y2: "256",
                 y1: "256",
+                x2: "344.93",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:48px",
+                y2: "256",
                 x1: "169.07",
             }
         }
@@ -28648,8 +28648,8 @@ impl IconShape for IoAttach {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M216.08,192V335.85a40.08,40.08,0,0,0,80.15,0l.13-188.55a67.94,67.94,0,1,0-135.87,0V337.12a95.51,95.51,0,1,0,191,0V159.74",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M216.08,192V335.85a40.08,40.08,0,0,0,80.15,0l.13-188.55a67.94,67.94,0,1,0-135.87,0V337.12a95.51,95.51,0,1,0,191,0V159.74",
             }
         }
     }
@@ -28700,12 +28700,12 @@ impl IconShape for IoTrashBin {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                width: "448",
                 height: "80",
                 rx: "32",
                 ry: "32",
-                y: "48",
                 x: "32",
+                y: "48",
+                width: "448",
             }
             path {
                 d: "M74.45,160a8,8,0,0,0-8,8.83L92.76,421.39a1.5,1.5,0,0,0,0,.22A48,48,0,0,0,140.45,464H371.54a48,48,0,0,0,47.67-42.39l0-.21,26.27-252.57a8,8,0,0,0-8-8.83ZM323.31,340.69a16,16,0,1,1-22.63,22.62L256,318.63l-44.69,44.68a16,16,0,0,1-22.63-22.62L233.37,296l-44.69-44.69a16,16,0,0,1,22.63-22.62L256,273.37l44.68-44.68a16,16,0,0,1,22.63,22.62L278.62,296Z",
@@ -28725,14 +28725,14 @@ impl IconShape for IoCartSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "176",
                 cy: "416",
                 r: "32",
+                cx: "176",
             }
             circle {
-                r: "32",
-                cx: "400",
                 cy: "416",
+                cx: "400",
+                r: "32",
             }
             polygon {
                 points: "167.78 304 429.12 304 467.52 112 133.89 112 125.42 64 32 64 32 96 98.58 96 146.58 368 432 368 432 336 173.42 336 167.78 304",
@@ -28753,10 +28753,10 @@ impl IconShape for IoMicOffOutline {
         rsx! {
             line {
                 x1: "432",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y1: "400",
-                y2: "64",
                 x2: "96",
+                y2: "64",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 d: "M400,240V208.45c0-8.61-6.62-16-15.23-16.43A16,16,0,0,0,368,208v32a111.58,111.58,0,0,1-2.45,23.31,4.05,4.05,0,0,0,1.07,3.69l21.82,21.81a2,2,0,0,0,3.29-.72A143.27,143.27,0,0,0,400,240Z",
@@ -28846,44 +28846,44 @@ impl IconShape for IoExpandSharp {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
+                y1: "421.77",
+                y2: "304",
+                x1: "421.8",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 x2: "304",
-                y2: "304",
-                y1: "421.77",
-                x1: "421.8",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "80 192 80 80 192 80",
             }
             line {
-                x2: "208",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
-                y2: "208",
-                y1: "90.23",
                 x1: "90.2",
+                y1: "90.23",
+                x2: "208",
+                y2: "208",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "320 80 432 80 432 192",
             }
             line {
-                x1: "421.77",
-                x2: "304",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
-                y1: "90.2",
                 y2: "208",
+                x2: "304",
+                y1: "90.2",
+                x1: "421.77",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 points: "192 432 80 432 80 320",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                y2: "304",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
-                x1: "90.23",
                 x2: "208",
+                x1: "90.23",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 y1: "421.8",
+                y2: "304",
             }
         }
     }
@@ -28904,8 +28904,8 @@ impl IconShape for IoGiftSharp {
                 style: "fill:none",
             }
             path {
-                style: "fill:none",
                 d: "M234,110a34,34,0,1,0-34,34h34Z",
+                style: "fill:none",
             }
             path {
                 d: "M234,144h44V256H442a22,22,0,0,0,22-22V166a22,22,0,0,0-22-22H382.18A77.95,77.95,0,0,0,256,55.79,78,78,0,0,0,129.81,144H70a22,22,0,0,0-22,22v68a22,22,0,0,0,22,22H234Zm44-34a34,34,0,1,1,34,34H278Zm-112,0a34,34,0,1,1,68,0v34H200A34,34,0,0,1,166,110Z",
@@ -29005,32 +29005,32 @@ impl IconShape for IoReorderFourOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                x2: "416",
-                y2: "304",
                 x1: "96",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "304",
-            }
-            line {
-                y2: "208",
-                x1: "96",
+                y2: "304",
                 x2: "416",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+            }
+            line {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "96",
                 y1: "208",
+                x2: "416",
+                y2: "208",
             }
             line {
+                x1: "96",
                 y1: "112",
-                y2: "112",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "96",
                 x2: "416",
+                y2: "112",
             }
             line {
-                x1: "96",
                 y1: "400",
+                y2: "400",
+                x1: "96",
                 x2: "416",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y2: "400",
             }
         }
     }
@@ -29047,46 +29047,46 @@ impl IconShape for IoBarcodeSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "400 400.33 448 400 448 112 400 112.33",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
+                points: "400 400.33 448 400 448 112 400 112.33",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
                 points: "112 112 64 112.33 64 400.33 112 400",
             }
             line {
-                y2: "320",
-                y1: "192",
                 x1: "384",
+                y2: "320",
                 x2: "384",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
+                y1: "192",
             }
             line {
                 x1: "320",
                 y2: "352",
                 x2: "320",
-                y1: "160",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
+                y1: "160",
             }
             line {
                 x1: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
                 y1: "176",
                 x2: "256",
                 y2: "336",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
             }
             line {
+                y2: "352",
+                x2: "192",
                 y1: "160",
                 x1: "192",
-                x2: "192",
-                y2: "352",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x1: "128",
-                y2: "320",
                 y1: "192",
+                x1: "128",
                 x2: "128",
+                y2: "320",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
             }
         }
@@ -29121,8 +29121,8 @@ impl IconShape for IoBasketOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 d: "M68.4,192A20.38,20.38,0,0,0,48,212.2a17.87,17.87,0,0,0,.8,5.5L100.5,400a40.46,40.46,0,0,0,39.1,29.5H372.4A40.88,40.88,0,0,0,411.7,400l51.7-182.3.6-5.5A20.38,20.38,0,0,0,443.6,192H68.4ZM261.72,352.07A42.07,42.07,0,1,1,304,310,42.27,42.27,0,0,1,261.72,352.07Z",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
                 points: "160 192 256 64 352 192",
@@ -29144,43 +29144,43 @@ impl IconShape for IoFilterCircleOutline {
         rsx! {
             path {
                 stroke: "#000",
+                stroke_miterlimit: "10",
                 stroke_width: "32",
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
-                stroke_miterlimit: "10",
                 fill: "none",
             }
             line {
                 stroke_width: "32",
-                x1: "144",
-                stroke_linecap: "round",
-                fill: "none",
-                stroke: "#000",
                 stroke_linejoin: "round",
+                x1: "144",
                 y1: "208",
                 x2: "368",
                 y2: "208",
+                fill: "none",
+                stroke_linecap: "round",
+                stroke: "#000",
             }
             line {
-                x2: "336",
+                stroke_linejoin: "round",
                 stroke: "#000",
                 stroke_width: "32",
+                y1: "272",
+                fill: "none",
+                y2: "272",
+                x2: "336",
                 x1: "176",
                 stroke_linecap: "round",
-                fill: "none",
-                y1: "272",
-                y2: "272",
-                stroke_linejoin: "round",
             }
             line {
                 stroke_linejoin: "round",
-                y2: "336",
-                stroke_width: "32",
-                stroke: "#000",
-                x1: "224",
                 x2: "288",
-                stroke_linecap: "round",
                 y1: "336",
+                stroke_linecap: "round",
+                stroke_width: "32",
+                x1: "224",
                 fill: "none",
+                stroke: "#000",
+                y2: "336",
             }
         }
     }
@@ -29214,9 +29214,9 @@ impl IconShape for IoMedal {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
+                cy: "352",
                 r: "32",
                 cx: "256",
-                cy: "352",
             }
             path {
                 d: "M99.78,32A48,48,0,0,0,56.84,58.53l-31,62A48.26,48.26,0,0,0,24.28,160h278.2a4,4,0,0,0,3.39-1.87l75.5-120A4,4,0,0,0,378,32Z",
@@ -29302,8 +29302,8 @@ impl IconShape for IoBeakerOutline {
                 x2: "432",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "176",
-                x1: "112",
                 y1: "176",
+                x1: "112",
             }
         }
     }
@@ -29344,18 +29344,18 @@ impl IconShape for IoCheckmarkDoneOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "144",
-                x2: "48",
                 y1: "384",
+                x2: "48",
                 y2: "288",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "232",
-                x1: "368",
                 y1: "128",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "284",
+                x1: "368",
+                x2: "232",
             }
         }
     }
@@ -29508,16 +29508,16 @@ impl IconShape for IoWomanOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                d: "M256,368V472a23.73,23.73,0,0,0,24,24h0a23.73,23.73,0,0,0,24-24V368",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M256,368V472a23.73,23.73,0,0,0,24,24h0a23.73,23.73,0,0,0,24-24V368",
             }
             path {
-                d: "M183,274a23.73,23.73,0,0,1-29.84,16.18h0a23.72,23.72,0,0,1-16.17-29.84l25-84.28A44.85,44.85,0,0,1,205,144H307a44.85,44.85,0,0,1,43,32.08l25,84.28a23.72,23.72,0,0,1-16.17,29.84h0A23.73,23.73,0,0,1,329.05,274",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M183,274a23.73,23.73,0,0,1-29.84,16.18h0a23.72,23.72,0,0,1-16.17-29.84l25-84.28A44.85,44.85,0,0,1,205,144H307a44.85,44.85,0,0,1,43,32.08l25,84.28a23.72,23.72,0,0,1-16.17,29.84h0A23.73,23.73,0,0,1,329.05,274",
             }
             circle {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 cx: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 cy: "56",
                 r: "40",
             }
@@ -29598,12 +29598,12 @@ impl IconShape for IoReturnDownForwardOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "400 352 464 288 400 224",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M448,288H154C95.24,288,48,238.67,48,180V160",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -29620,32 +29620,32 @@ impl IconShape for IoReorderFourSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                y1: "304",
-                x2: "410",
-                y2: "304",
                 x1: "102",
+                y2: "304",
+                x2: "410",
+                y1: "304",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px",
             }
             line {
+                x1: "102",
+                y2: "208",
                 y1: "208",
                 x2: "410",
-                y2: "208",
-                x1: "102",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px",
             }
             line {
-                x1: "102",
-                y1: "112",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px",
-                x2: "410",
                 y2: "112",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px",
+                x1: "102",
+                x2: "410",
+                y1: "112",
             }
             line {
-                y2: "400",
-                x1: "102",
                 y1: "400",
                 x2: "410",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px",
+                y2: "400",
+                x1: "102",
             }
         }
     }
@@ -29662,12 +29662,12 @@ impl IconShape for IoFlowerOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M215.08,156.92c-4.89-24-10.77-56.27-10.77-73.23A51.36,51.36,0,0,1,256,32h0c28.55,0,51.69,23.69,51.69,51.69,0,16.5-5.85,48.95-10.77,73.23",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                d: "M215.08,355.08c-4.91,24.06-10.77,56.16-10.77,73.23A51.36,51.36,0,0,0,256,480h0c28.55,0,51.69-23.69,51.69-51.69,0-16.54-5.85-48.93-10.77-73.23",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M215.08,355.08c-4.91,24.06-10.77,56.16-10.77,73.23A51.36,51.36,0,0,0,256,480h0c28.55,0,51.69-23.69,51.69-51.69,0-16.54-5.85-48.93-10.77-73.23",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
@@ -29682,8 +29682,8 @@ impl IconShape for IoFlowerOutline {
                 d: "M296.92,156.92c13.55-20.48,32.3-47.25,44.37-59.31a51.35,51.35,0,0,1,73.1,0h0c20.19,20.19,19.8,53.3,0,73.1-11.66,11.67-38.67,30.67-59.31,44.37",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 d: "M156.92,296.92c-20.48,13.55-47.25,32.3-59.31,44.37a51.35,51.35,0,0,0,0,73.1h0c20.19,20.19,53.3,19.8,73.1,0,11.67-11.66,30.67-38.67,44.37-59.31",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 d: "M355.08,296.92c20.48,13.55,47.25,32.3,59.31,44.37a51.35,51.35,0,0,1,0,73.1h0c-20.19,20.19-53.3,19.8-73.1,0-11.69-11.69-30.66-38.65-44.37-59.31",
@@ -29694,10 +29694,10 @@ impl IconShape for IoFlowerOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             circle {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                cx: "256",
                 cy: "256",
                 r: "64",
-                cx: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -29753,49 +29753,49 @@ impl IconShape for IoAnalyticsOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
-                y2: "192",
                 x1: "344",
                 x2: "432",
                 y1: "280",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "192",
             }
             line {
+                x2: "296",
                 y1: "216",
                 x1: "232",
-                x2: "296",
                 y2: "280",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "184",
-                y2: "216",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "80",
                 y1: "320",
+                x1: "80",
+                x2: "184",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "216",
             }
             circle {
                 cy: "168",
-                cx: "456",
-                r: "24",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                r: "24",
+                cx: "456",
             }
             circle {
+                cy: "304",
                 r: "24",
                 cx: "320",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                cy: "304",
             }
             circle {
-                cy: "192",
-                r: "24",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "208",
+                cy: "192",
+                r: "24",
             }
             circle {
-                cy: "344",
-                cx: "56",
                 r: "24",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cy: "344",
+                cx: "56",
             }
         }
     }
@@ -29816,8 +29816,8 @@ impl IconShape for IoPowerOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "64",
                 x1: "256",
+                y1: "64",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "256",
                 y2: "256",
@@ -29841,12 +29841,12 @@ impl IconShape for IoRoseOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M264,180.19c-19.69-27-38.2-38.69-52.7-46.59C162.6,107.1,96,96,96,96c41.5,43.7,37.2,90.1,32,128,0,0-3.87,32.88,1.91,58.41",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M264,180.19c-19.69-27-38.2-38.69-52.7-46.59C162.6,107.1,96,96,96,96c41.5,43.7,37.2,90.1,32,128,0,0-3.87,32.88,1.91,58.41",
             }
             path {
-                d: "M372,139.15C356.55,102.6,336,64,336,64s-63.32,0-135.69,64",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M372,139.15C356.55,102.6,336,64,336,64s-63.32,0-135.69,64",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -29976,17 +29976,17 @@ impl IconShape for IoReorderTwo {
         rsx! {
             line {
                 x1: "118",
-                x2: "394",
                 y1: "304",
-                y2: "304",
+                x2: "394",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
+                y2: "304",
             }
             line {
-                y1: "208",
                 x2: "394",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
-                x1: "118",
                 y2: "208",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
+                y1: "208",
+                x1: "118",
             }
         }
     }
@@ -30003,19 +30003,19 @@ impl IconShape for IoEnterOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M176,176V136a40,40,0,0,1,40-40H424a40,40,0,0,1,40,40V376a40,40,0,0,1-40,40H216a40,40,0,0,1-40-40V336",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M176,176V136a40,40,0,0,1,40-40H424a40,40,0,0,1,40,40V376a40,40,0,0,1-40,40H216a40,40,0,0,1-40-40V336",
             }
             polyline {
-                points: "272 336 352 256 272 176",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                points: "272 336 352 256 272 176",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "256",
                 x1: "48",
-                x2: "336",
+                y1: "256",
                 y2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "336",
             }
         }
     }
@@ -30032,28 +30032,28 @@ impl IconShape for IoBagHandleOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                fill: "none",
-                stroke: "#000",
                 stroke_linecap: "round",
+                fill: "none",
                 stroke_linejoin: "round",
-                stroke_width: "32",
                 d: "M80,176a16,16,0,0,0-16,16V408c0,30.24,25.76,56,56,56H392c30.24,0,56-24.51,56-54.75V192a16,16,0,0,0-16-16Z",
+                stroke_width: "32",
+                stroke: "#000",
             }
             path {
                 fill: "none",
-                stroke_linecap: "round",
-                stroke_linejoin: "round",
-                stroke_width: "32",
                 d: "M160,176V144a96,96,0,0,1,96-96h0a96,96,0,0,1,96,96v32",
                 stroke: "#000",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
             path {
-                fill: "none",
                 stroke: "#000",
+                fill: "none",
+                stroke_linejoin: "round",
+                d: "M160,224v16a96,96,0,0,0,96,96h0a96,96,0,0,0,96-96V224",
                 stroke_linecap: "round",
                 stroke_width: "32",
-                d: "M160,224v16a96,96,0,0,0,96,96h0a96,96,0,0,0,96-96V224",
-                stroke_linejoin: "round",
             }
         }
     }
@@ -30090,10 +30090,10 @@ impl IconShape for IoMedkitSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                height: "24",
-                y: "72",
-                width: "176",
                 x: "168",
+                width: "176",
+                y: "72",
+                height: "24",
                 style: "fill:none",
             }
             path {
@@ -30206,8 +30206,8 @@ impl IconShape for IoLogoFirebase {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M93.19,329.38,140.64,25.31c1.64-10.37,15.55-12.82,20.46-3.55l51,95.45ZM432,400,385.26,123.21a11,11,0,0,0-18.54-6L80,400l159.36,91.91a33.18,33.18,0,0,0,31.91,0ZM302.36,158.93,265.82,89.39a10.86,10.86,0,0,0-19.36,0L85.83,375.74Z",
                 id: "icon",
+                d: "M93.19,329.38,140.64,25.31c1.64-10.37,15.55-12.82,20.46-3.55l51,95.45ZM432,400,385.26,123.21a11,11,0,0,0-18.54-6L80,400l159.36,91.91a33.18,33.18,0,0,0,31.91,0ZM302.36,158.93,265.82,89.39a10.86,10.86,0,0,0-19.36,0L85.83,375.74Z",
             }
         }
     }
@@ -30227,12 +30227,12 @@ impl IconShape for IoTvSharp {
                 d: "M488,384H24a8,8,0,0,1-8-8V88a8,8,0,0,1,8-8H488a8,8,0,0,1,8,8V376A8,8,0,0,1,488,384Z",
             }
             rect {
-                width: "288",
-                height: "32",
+                ry: "4",
                 x: "112",
+                height: "32",
+                width: "288",
                 y: "400",
                 rx: "4",
-                ry: "4",
             }
         }
     }
@@ -30249,8 +30249,8 @@ impl IconShape for IoSadOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "184",
                 r: "24",
+                cx: "184",
                 cy: "232",
             }
             path {
@@ -30262,10 +30262,10 @@ impl IconShape for IoSadOutline {
                 cy: "232",
             }
             circle {
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                cx: "256",
                 cy: "256",
                 r: "208",
-                cx: "256",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -30322,23 +30322,23 @@ impl IconShape for IoNutritionOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M352,128c-32.26-2.89-64,16-96,16s-63.75-19-96-16c-64,6-96,64-96,160,0,80,64,192,111.2,192s51.94-24,80.8-24,33.59,24,80.8,24S448,368,448,288C448,192,419,134,352,128Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M352,128c-32.26-2.89-64,16-96,16s-63.75-19-96-16c-64,6-96,64-96,160,0,80,64,192,111.2,192s51.94-24,80.8-24,33.59,24,80.8,24S448,368,448,288C448,192,419,134,352,128Z",
             }
             path {
                 d: "M323.92,83.14c-21,21-45.66,27-58.82,28.79A8,8,0,0,1,256,103.2a97.6,97.6,0,0,1,28.61-59.33c22-22,46-26.9,58.72-27.85A8,8,0,0,1,352,24.94,98,98,0,0,1,323.92,83.14Z",
             }
             ellipse {
-                cy: "304",
                 rx: "24",
                 cx: "216",
+                cy: "304",
                 ry: "48",
             }
             ellipse {
-                cx: "296",
-                cy: "304",
-                ry: "48",
                 rx: "24",
+                ry: "48",
+                cy: "304",
+                cx: "296",
             }
         }
     }
@@ -30494,20 +30494,20 @@ impl IconShape for IoShuffle {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "400 112 448 160 400 208",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M64,352h85.19a80,80,0,0,0,66.56-35.62L256,256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M64,352h85.19a80,80,0,0,0,66.56-35.62L256,256",
             }
             path {
                 d: "M64,160h85.19a80,80,0,0,1,66.56,35.62l80.5,120.76A80,80,0,0,0,362.81,352H416",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M416,160H362.81a80,80,0,0,0-66.56,35.62L288,208",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M416,160H362.81a80,80,0,0,0-66.56,35.62L288,208",
             }
         }
     }
@@ -30549,18 +30549,18 @@ impl IconShape for IoReceiptOutline {
                 d: "M480,272V384a80,80,0,0,1-80,80h0a80,80,0,0,1-80-80V336H48a15.86,15.86,0,0,0-16,16c0,64,6.74,112,80,112H400",
             }
             line {
-                y2: "144",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "224",
                 y1: "144",
                 x2: "416",
-                x1: "224",
+                y2: "144",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x1: "288",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "224",
                 y2: "224",
+                x1: "288",
                 x2: "416",
+                y1: "224",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -30736,57 +30736,57 @@ impl IconShape for IoNuclearOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 cy: "256",
                 r: "192",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                cx: "256",
             }
             circle {
+                cx: "256",
                 r: "64",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
-                cx: "256",
                 cy: "256",
             }
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                y2: "85",
-                x1: "224",
                 y1: "192",
+                x1: "224",
+                y2: "85",
                 x2: "171",
             }
             line {
-                x2: "341",
-                y1: "192",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x1: "288",
                 y2: "85",
+                x2: "341",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y1: "192",
             }
             line {
+                y2: "255.94",
                 x2: "446.96",
                 y1: "255.81",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                y2: "255.94",
                 x1: "327.55",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
+                y2: "408.19",
                 x1: "299.09",
                 y1: "313.13",
                 x2: "371.34",
-                y2: "408.19",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                x1: "184.45",
-                y1: "255.81",
-                x2: "65.04",
                 y2: "255.94",
+                x1: "184.45",
+                x2: "65.04",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y1: "255.81",
             }
             line {
-                y1: "313.13",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y2: "408.19",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x2: "140.66",
+                y1: "313.13",
                 x1: "212.91",
             }
         }
@@ -30824,8 +30824,8 @@ impl IconShape for IoTrendingDown {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "352 368 464 368 464 256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M48,144,169.37,265.37a32,32,0,0,0,45.26,0l50.74-50.74a32,32,0,0,1,45.26,0L448,352",
@@ -30903,9 +30903,9 @@ impl IconShape for IoWalk {
                 d: "M171.91,493.47a18.5,18.5,0,0,1-14.83-7.41c-6.14-8.18-4-17.18,3.7-25.92l59.95-74.66a7.41,7.41,0,0,1,10.76,2.06c1.56,2.54,3.38,5.65,5.19,9.09,5.24,9.95,6,16.11-1.68,25.7-8,10-52,67.44-52,67.44C180.38,492.75,175.77,493.47,171.91,493.47Z",
             }
             circle {
-                cy: "69.56",
                 cx: "257",
                 r: "37.04",
+                cy: "69.56",
                 style: "stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:16px",
             }
         }
@@ -30944,13 +30944,13 @@ impl IconShape for IoCheckboxOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             rect {
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                y: "64",
                 x: "64",
+                width: "384",
+                height: "384",
                 rx: "48",
                 ry: "48",
-                y: "64",
-                height: "384",
-                width: "384",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -31097,8 +31097,8 @@ impl IconShape for IoArrowRedoCircleOutline {
                 d: "M266.91,327.74V290.42c-57.07,0-84.51,13.47-108.58,38.68-5.4,5.65-15,1.32-14.29-6.43,5.45-61.45,34.14-117.09,122.87-117.09V168.26a8.32,8.32,0,0,1,14-6L365.42,242a8.2,8.2,0,0,1,0,11.94L281,333.71A8.32,8.32,0,0,1,266.91,327.74Z",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M64,256c0,106,86,192,192,192s192-86,192-192S362,64,256,64,64,150,64,256Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -31243,13 +31243,13 @@ impl IconShape for IoNewspaperSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
+                width: "96",
                 height: "96",
+                style: "fill:none",
+                y: "112",
+                x: "96",
                 rx: "16",
                 ry: "16",
-                style: "fill:none",
-                x: "96",
-                y: "112",
-                width: "96",
             }
             path {
                 d: "M468,112H416V416a32,32,0,0,0,32,32h0a32,32,0,0,0,32-32V124A12,12,0,0,0,468,112Z",
@@ -31272,13 +31272,13 @@ impl IconShape for IoHelp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M160,164s1.44-33,33.54-59.46C212.6,88.83,235.49,84.28,256,84c18.73-.23,35.47,2.94,45.48,7.82C318.59,100.2,352,120.6,352,164c0,45.67-29.18,66.37-62.35,89.18S248,298.36,248,324",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:40px",
+                d: "M160,164s1.44-33,33.54-59.46C212.6,88.83,235.49,84.28,256,84c18.73-.23,35.47,2.94,45.48,7.82C318.59,100.2,352,120.6,352,164c0,45.67-29.18,66.37-62.35,89.18S248,298.36,248,324",
             }
             circle {
+                cx: "248",
                 cy: "399.99",
                 r: "32",
-                cx: "248",
             }
         }
     }
@@ -31299,11 +31299,11 @@ impl IconShape for IoArrowDownCircleOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "256",
-                y1: "330.97",
-                y2: "170",
                 x2: "256",
+                y2: "170",
+                y1: "330.97",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
@@ -31368,11 +31368,11 @@ impl IconShape for IoPlaySkipForwardOutline {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                x2: "400",
                 y1: "80",
                 y2: "432",
                 x1: "400",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                x2: "400",
             }
         }
     }
@@ -31411,19 +31411,19 @@ impl IconShape for IoWatchOutline {
             rect {
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 rx: "64",
-                y: "112",
                 height: "288",
-                width: "288",
                 x: "112",
+                width: "288",
+                y: "112",
                 ry: "64",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 d: "M176,112V40a8,8,0,0,1,8-8H328a8,8,0,0,1,8,8v72",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M336,400v72a8,8,0,0,1-8,8H184a8,8,0,0,1-8-8V400",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                d: "M336,400v72a8,8,0,0,1-8,8H184a8,8,0,0,1-8-8V400",
             }
         }
     }
@@ -31460,40 +31460,40 @@ impl IconShape for IoGridOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                height: "176",
                 width: "176",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                height: "176",
                 y: "48",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 ry: "20",
                 rx: "20",
                 x: "48",
             }
             rect {
+                width: "176",
                 rx: "20",
                 ry: "20",
-                x: "288",
+                height: "176",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y: "48",
-                width: "176",
-                height: "176",
-            }
-            rect {
-                ry: "20",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                width: "176",
-                x: "48",
-                rx: "20",
-                height: "176",
-                y: "288",
-            }
-            rect {
-                height: "176",
-                width: "176",
-                y: "288",
-                ry: "20",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x: "288",
+            }
+            rect {
+                ry: "20",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y: "288",
+                width: "176",
+                height: "176",
                 rx: "20",
+                x: "48",
+            }
+            rect {
+                y: "288",
+                rx: "20",
+                width: "176",
+                ry: "20",
+                x: "288",
+                height: "176",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -31532,10 +31532,10 @@ impl IconShape for IoVolumeMuteOutline {
         rsx! {
             line {
                 x1: "416",
-                y1: "432",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x2: "64",
                 y2: "80",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y1: "432",
             }
             path {
                 d: "M224,136.92v33.8a4,4,0,0,0,1.17,2.82l24,24a4,4,0,0,0,6.83-2.82V120.57a24.53,24.53,0,0,0-12.67-21.72,23.91,23.91,0,0,0-25.55,1.83,8.27,8.27,0,0,0-.66.51l-31.94,26.15a4,4,0,0,0-.29,5.92l17.05,17.06a4,4,0,0,0,5.37.26Z",
@@ -31567,30 +31567,30 @@ impl IconShape for IoDuplicateOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                y: "128",
-                width: "336",
                 ry: "57",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                width: "336",
                 height: "336",
                 rx: "57",
                 x: "128",
+                y: "128",
             }
             path {
                 d: "M383.5,128l.5-24a56.16,56.16,0,0,0-56-56H112a64.19,64.19,0,0,0-64,64V328a56.16,56.16,0,0,0,56,56h24",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
+                x2: "296",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "216",
-                x1: "296",
                 y2: "376",
-                x2: "296",
+                x1: "296",
             }
             line {
-                x2: "216",
-                x1: "376",
                 y1: "296",
+                x2: "216",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "376",
                 y2: "296",
             }
         }
@@ -31608,16 +31608,16 @@ impl IconShape for IoBulbSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                y: "464",
                 height: "32",
-                x: "208",
                 width: "96",
+                x: "208",
+                y: "464",
             }
             rect {
                 y: "416",
-                x: "192",
-                width: "128",
                 height: "32",
+                width: "128",
+                x: "192",
             }
             path {
                 d: "M369.42,62.69C339.35,32.58,299.07,16,256,16A159.62,159.62,0,0,0,96,176c0,46.62,17.87,90.23,49,119.64l4.36,4.09C167.37,316.57,192,339.64,192,360v40h48V269.11L195.72,244,214,217.72,256,240l41.29-22.39,19.1,25.68-44.39,26V400h48V360c0-19.88,24.36-42.93,42.15-59.77l4.91-4.66C399.08,265,416,223.61,416,176A159.16,159.16,0,0,0,369.42,62.69Z",
@@ -31674,16 +31674,16 @@ impl IconShape for IoConstructOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M436.67,184.11a27.17,27.17,0,0,1-38.3,0l-22.48-22.49a27.15,27.15,0,0,1,0-38.29l50.89-50.89a.85.85,0,0,0-.26-1.38C393.68,57,351.09,64.15,324.05,91c-25.88,25.69-27.35,64.27-17.87,98a27,27,0,0,1-7.67,27.14l-173,160.76a40.76,40.76,0,1,0,57.57,57.54l162.15-173.3A27,27,0,0,1,372,253.44c33.46,8.94,71.49,7.26,97.07-17.94,27.49-27.08,33.42-74.94,20.1-102.33a.85.85,0,0,0-1.36-.22Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M436.67,184.11a27.17,27.17,0,0,1-38.3,0l-22.48-22.49a27.15,27.15,0,0,1,0-38.29l50.89-50.89a.85.85,0,0,0-.26-1.38C393.68,57,351.09,64.15,324.05,91c-25.88,25.69-27.35,64.27-17.87,98a27,27,0,0,1-7.67,27.14l-173,160.76a40.76,40.76,0,1,0,57.57,57.54l162.15-173.3A27,27,0,0,1,372,253.44c33.46,8.94,71.49,7.26,97.07-17.94,27.49-27.08,33.42-74.94,20.1-102.33a.85.85,0,0,0-1.36-.22Z",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M224,284c-17.48-17-25.49-24.91-31-30.29a18.24,18.24,0,0,1-3.33-21.35,20.76,20.76,0,0,1,3.5-4.62l15.68-15.29a18.66,18.66,0,0,1,5.63-3.87,18.11,18.11,0,0,1,20,3.62c5.45,5.29,15.43,15,33.41,32.52",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M317.07,291.3c40.95,38.1,90.62,83.27,110,99.41a13.46,13.46,0,0,1,.94,19.92L394.63,444a14,14,0,0,1-20.29-.76c-16.53-19.18-61.09-67.11-99.27-107",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M317.07,291.3c40.95,38.1,90.62,83.27,110,99.41a13.46,13.46,0,0,1,.94,19.92L394.63,444a14,14,0,0,1-20.29-.76c-16.53-19.18-61.09-67.11-99.27-107",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
@@ -31716,8 +31716,8 @@ impl IconShape for IoRepeatSharp {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
-                points: "160 344 448 344 448 248",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                points: "160 344 448 344 448 248",
             }
         }
     }
@@ -31870,16 +31870,16 @@ impl IconShape for IoCloseCircleOutline {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
             line {
+                x2: "192",
+                x1: "320",
                 y1: "320",
                 y2: "192",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "320",
-                x2: "192",
             }
             line {
                 x2: "320",
-                x1: "192",
                 y2: "192",
+                x1: "192",
                 y1: "320",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
@@ -31905,20 +31905,20 @@ impl IconShape for IoGitNetworkOutline {
             }
             circle {
                 r: "48",
+                cy: "416",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "256",
-                cy: "416",
             }
             line {
-                y2: "368",
+                x2: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "256",
                 x1: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "256",
+                y2: "368",
             }
             circle {
-                cx: "384",
                 cy: "96",
+                cx: "384",
                 r: "48",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
@@ -31927,8 +31927,8 @@ impl IconShape for IoGitNetworkOutline {
                 d: "M128,144c0,74.67,68.92,112,128,112",
             }
             path {
-                d: "M384,144c0,74.67-68.92,112-128,112",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M384,144c0,74.67-68.92,112-128,112",
             }
         }
     }
@@ -31945,14 +31945,14 @@ impl IconShape for IoAlertOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M256,80c-8.66,0-16.58,7.36-16,16l8,216a8,8,0,0,0,8,8h0a8,8,0,0,0,8-8l8-216C272.58,87.36,264.66,80,256,80Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             circle {
-                cy: "416",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                r: "16",
                 cx: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                cy: "416",
+                r: "16",
             }
         }
     }
@@ -32023,12 +32023,12 @@ impl IconShape for IoWalkSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M315.09,481.38,258.14,366.26l-45-57.56a73.11,73.11,0,0,1-10.16-37.17V142h15.73A40.36,40.36,0,0,1,259,182.32V344.84",
                 style: "stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
+                d: "M315.09,481.38,258.14,366.26l-45-57.56a73.11,73.11,0,0,1-10.16-37.17V142h15.73A40.36,40.36,0,0,1,259,182.32V344.84",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
                 points: "128.18 291.5 128.18 216.73 193.13 151.63",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
             }
             polygon {
                 points: "376.35 295.73 292.4 239.35 292.4 194.67 397.08 267.62 376.35 295.73",
@@ -32037,10 +32037,10 @@ impl IconShape for IoWalkSharp {
                 points: "175.13 498.58 153.7 471.67 234.03 390.13 249.56 422.2 175.13 498.58",
             }
             circle {
-                cx: "259.02",
-                style: "stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:16px",
-                cy: "67.21",
                 r: "37.38",
+                cy: "67.21",
+                style: "stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:16px",
+                cx: "259.02",
             }
         }
     }
@@ -32133,25 +32133,25 @@ impl IconShape for IoMenu {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             line {
+                x1: "88",
+                y1: "152",
+                y2: "152",
                 x2: "424",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px",
-                x1: "88",
-                y2: "152",
-                y1: "152",
             }
             line {
                 y1: "256",
-                x2: "424",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px",
-                y2: "256",
+                x2: "424",
                 x1: "88",
+                y2: "256",
             }
             line {
-                y2: "360",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px",
+                x1: "88",
                 y1: "360",
                 x2: "424",
-                x1: "88",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px",
+                y2: "360",
             }
         }
     }
@@ -32172,8 +32172,8 @@ impl IconShape for IoSearchCircleSharp {
             }
             circle {
                 cy: "232",
-                cx: "232",
                 r: "56",
+                cx: "232",
             }
         }
     }
@@ -32190,12 +32190,12 @@ impl IconShape for IoFolderOpenOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M64,192V120a40,40,0,0,1,40-40h75.89a40,40,0,0,1,22.19,6.72l27.84,18.56A40,40,0,0,0,252.11,112H408a40,40,0,0,1,40,40v40",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M479.9,226.55,463.68,392a40,40,0,0,1-39.93,40H88.25a40,40,0,0,1-39.93-40L32.1,226.55A32,32,0,0,1,64,192h384.1A32,32,0,0,1,479.9,226.55Z",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -32216,11 +32216,11 @@ impl IconShape for IoInformationSharp {
                 points: "196 220 260 220 260 392",
             }
             line {
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:40px",
+                y2: "396",
                 x2: "325",
                 y1: "396",
                 x1: "187",
-                y2: "396",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:40px",
             }
             path {
                 d: "M256,160a32,32,0,1,1,32-32A32,32,0,0,1,256,160Z",
@@ -32243,20 +32243,20 @@ impl IconShape for IoPrintSharp {
                 d: "M400,96V56a8,8,0,0,0-8-8H120a8,8,0,0,0-8,8V96",
             }
             rect {
-                height: "160",
                 width: "208",
-                ry: "4",
+                height: "160",
+                y: "264",
+                x: "152",
                 rx: "4",
                 style: "fill:none",
-                x: "152",
-                y: "264",
+                ry: "4",
             }
             rect {
-                rx: "4",
-                width: "208",
-                height: "160",
-                y: "264",
                 x: "152",
+                width: "208",
+                rx: "4",
+                y: "264",
+                height: "160",
                 ry: "4",
                 style: "fill:none",
             }
@@ -32282,51 +32282,51 @@ impl IconShape for IoMagnetOutline {
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M353.94,225.94a48,48,0,0,0-67.88-67.88",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
+                y1: "464",
+                x2: "192",
                 x1: "192",
                 y2: "416",
                 style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                y1: "464",
-                x2: "192",
             }
             line {
+                x1: "90.18",
                 y2: "387.88",
                 y1: "421.82",
-                x1: "90.18",
                 style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x2: "124.12",
             }
             line {
+                style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y1: "320",
                 x2: "96",
-                style: "stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                y2: "320",
                 x1: "48",
+                y2: "320",
             }
             path {
                 d: "M286.06,158.06,172.92,271.19a32,32,0,0,1-45.25,0L105,248.57a32,32,0,0,1,0-45.26L218.18,90.17",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M421.83,293.82,308.69,407a32,32,0,0,1-45.26,0l-22.62-22.63a32,32,0,0,1,0-45.26L353.94,225.94",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                d: "M421.83,293.82,308.69,407a32,32,0,0,1-45.26,0l-22.62-22.63a32,32,0,0,1,0-45.26L353.94,225.94",
             }
             line {
-                y1: "169.98",
                 y2: "237.87",
-                x2: "207.48",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 x1: "139.6",
+                y1: "169.98",
+                x2: "207.48",
             }
             line {
-                y2: "373.63",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
-                y1: "305.75",
-                x2: "343.25",
                 x1: "275.36",
+                x2: "343.25",
+                y1: "305.75",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                y2: "373.63",
             }
         }
     }
@@ -32424,8 +32424,8 @@ impl IconShape for IoReturnUpBackSharp {
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
             polyline {
-                points: "64 224 464 224 464 352",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                points: "64 224 464 224 464 352",
             }
         }
     }
@@ -32446,8 +32446,8 @@ impl IconShape for IoDownloadSharp {
             }
             rect {
                 x: "240",
-                height: "128",
                 y: "32",
+                height: "128",
                 width: "32",
             }
         }
@@ -32519,8 +32519,8 @@ impl IconShape for IoBoatOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M461.93,261.05c-2-4.76-6.71-7.83-11.67-9.49L263.08,177.08a23.78,23.78,0,0,0-14.17,0l-187,74.52c-5,1.56-9.83,4.77-11.81,9.53s-2.94,9.37-1,15.08L95.63,395.36A7.46,7.46,0,0,0,103.1,400c26.69-1.68,50.31-15.23,68.38-32.5a7.66,7.66,0,0,1,10.49,0C201.29,386,227,400,256,400s54.56-14,73.88-32.54a7.67,7.67,0,0,1,10.5,0c18.07,17.28,41.69,30.86,68.38,32.54a7.45,7.45,0,0,0,7.46-4.61l46.7-119.16C464.9,271.45,463.91,265.82,461.93,261.05Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 d: "M416,473.14a6.84,6.84,0,0,0-3.56-6c-27.08-14.55-51.77-36.82-62.63-48a10.05,10.05,0,0,0-12.72-1.51c-50.33,32.42-111.61,32.44-161.95.05a10.09,10.09,0,0,0-12.82,1.56c-10.77,11.28-35.19,33.3-62.43,47.75A7.15,7.15,0,0,0,96,472.72a6.73,6.73,0,0,0,7.92,7.15c20.85-4.18,41-13.68,60.2-23.83a8.71,8.71,0,0,1,8-.06A185.14,185.14,0,0,0,340,456a8.82,8.82,0,0,1,8.09.06c19.1,10,39.22,19.59,60,23.8a6.72,6.72,0,0,0,7.95-6.71Z",
@@ -32535,9 +32535,9 @@ impl IconShape for IoBoatOutline {
             }
             line {
                 x2: "256",
-                y2: "396.45",
                 y1: "183.6",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "396.45",
                 x1: "256",
             }
         }
@@ -32557,10 +32557,10 @@ impl IconShape for IoWatchSharp {
             rect {
                 rx: "8",
                 ry: "8",
-                width: "240",
-                y: "136",
                 height: "240",
                 x: "136",
+                width: "240",
+                y: "136",
             }
             path {
                 d: "M384,96H336V16H176V96H128a32,32,0,0,0-32,32V384a32,32,0,0,0,32,32h48v80H336V416h48a32,32,0,0,0,32-32V128A32,32,0,0,0,384,96Zm8,272a24,24,0,0,1-24,24H144a24,24,0,0,1-24-24V144a24,24,0,0,1,24-24H368a24,24,0,0,1,24,24Z",
@@ -32580,8 +32580,8 @@ impl IconShape for IoCodeDownload {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                points: "160 368 32 256 160 144",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:42px",
+                points: "160 368 32 256 160 144",
             }
             polyline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:42px",
@@ -32592,11 +32592,11 @@ impl IconShape for IoCodeDownload {
                 points: "192 288.1 256 352 320 288.1",
             }
             line {
-                x1: "256",
-                x2: "256",
-                y1: "160",
                 y2: "336.03",
+                y1: "160",
+                x1: "256",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:42px",
+                x2: "256",
             }
         }
     }
@@ -32630,21 +32630,21 @@ impl IconShape for IoGameControllerOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M467.51,248.83c-18.4-83.18-45.69-136.24-89.43-149.17A91.5,91.5,0,0,0,352,96c-26.89,0-48.11,16-96,16s-69.15-16-96-16a99.09,99.09,0,0,0-27.2,3.66C89,112.59,61.94,165.7,43.33,248.83c-19,84.91-15.56,152,21.58,164.88,26,9,49.25-9.61,71.27-37,25-31.2,55.79-40.8,119.82-40.8s93.62,9.6,118.66,40.8c22,27.41,46.11,45.79,71.42,37.16C487.1,399.86,486.52,334.74,467.51,248.83Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M467.51,248.83c-18.4-83.18-45.69-136.24-89.43-149.17A91.5,91.5,0,0,0,352,96c-26.89,0-48.11,16-96,16s-69.15-16-96-16a99.09,99.09,0,0,0-27.2,3.66C89,112.59,61.94,165.7,43.33,248.83c-19,84.91-15.56,152,21.58,164.88,26,9,49.25-9.61,71.27-37,25-31.2,55.79-40.8,119.82-40.8s93.62,9.6,118.66,40.8c22,27.41,46.11,45.79,71.42,37.16C487.1,399.86,486.52,334.74,467.51,248.83Z",
             }
             circle {
+                cy: "224",
                 r: "20",
                 cx: "292",
-                cy: "224",
             }
             path {
                 d: "M336,288a20,20,0,1,1,20-19.95A20,20,0,0,1,336,288Z",
             }
             circle {
+                r: "20",
                 cx: "336",
                 cy: "180",
-                r: "20",
             }
             circle {
                 cx: "380",
@@ -32653,17 +32653,17 @@ impl IconShape for IoGameControllerOutline {
             }
             line {
                 y2: "272",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y1: "176",
                 x1: "160",
                 x2: "160",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "176",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "208",
                 y2: "224",
-                x2: "112",
                 y1: "224",
+                x1: "208",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "112",
             }
         }
     }
@@ -32697,18 +32697,18 @@ impl IconShape for IoSkullOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M448,225.64v99a64,64,0,0,1-40.23,59.42l-23.68,9.47A32,32,0,0,0,364.6,417l-10,50.14A16,16,0,0,1,338.88,480H173.12a16,16,0,0,1-15.69-12.86L147.4,417a32,32,0,0,0-19.49-23.44l-23.68-9.47A64,64,0,0,1,64,324.67V224C64,118.08,149.77,32.19,255.65,32S448,119.85,448,225.64Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M448,225.64v99a64,64,0,0,1-40.23,59.42l-23.68,9.47A32,32,0,0,0,364.6,417l-10,50.14A16,16,0,0,1,338.88,480H173.12a16,16,0,0,1-15.69-12.86L147.4,417a32,32,0,0,0-19.49-23.44l-23.68-9.47A64,64,0,0,1,64,324.67V224C64,118.08,149.77,32.19,255.65,32S448,119.85,448,225.64Z",
             }
             circle {
                 cx: "168",
-                r: "40",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 cy: "280",
+                r: "40",
             }
             circle {
-                cy: "280",
                 r: "40",
+                cy: "280",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 cx: "344",
             }
@@ -32717,25 +32717,25 @@ impl IconShape for IoSkullOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x2: "256",
                 y2: "480",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "256",
                 y1: "448",
+                x2: "256",
             }
             line {
+                y1: "448",
                 y2: "480",
+                x2: "208",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "208",
-                y1: "448",
-                x2: "208",
             }
             line {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x2: "304",
-                y2: "480",
-                y1: "448",
                 x1: "304",
+                y1: "448",
+                y2: "480",
             }
         }
     }
@@ -32790,28 +32790,28 @@ impl IconShape for IoImagesOutline {
                 d: "M432,112V96a48.14,48.14,0,0,0-48-48H64A48.14,48.14,0,0,0,16,96V352a48.14,48.14,0,0,0,48,48H80",
             }
             rect {
-                x: "96",
-                height: "336",
                 ry: "45.99",
-                rx: "45.99",
                 y: "128",
+                rx: "45.99",
+                x: "96",
                 width: "400",
+                height: "336",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
             }
             ellipse {
-                ry: "30.55",
-                cx: "372.92",
-                cy: "219.64",
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 rx: "30.77",
+                cy: "219.64",
+                cx: "372.92",
+                ry: "30.55",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M342.15,372.17,255,285.78a30.93,30.93,0,0,0-42.18-1.21L96,387.64",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M265.23,464,383.82,346.27a31,31,0,0,1,41.46-1.87L496,402.91",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -32871,8 +32871,8 @@ impl IconShape for IoWaterOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M400,320c0,88.37-55.63,144-144,144S112,408.37,112,320c0-94.83,103.23-222.85,134.89-259.88a12,12,0,0,1,18.23,0C296.77,97.15,400,225.17,400,320Z",
                 style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
+                d: "M400,320c0,88.37-55.63,144-144,144S112,408.37,112,320c0-94.83,103.23-222.85,134.89-259.88a12,12,0,0,1,18.23,0C296.77,97.15,400,225.17,400,320Z",
             }
             path {
                 d: "M344,328a72,72,0,0,1-72,72",
@@ -32893,8 +32893,8 @@ impl IconShape for IoCheckmarkOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "416 128 192 384 96 288",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -32938,8 +32938,8 @@ impl IconShape for IoMan {
         rsx! {
             circle {
                 cx: "256",
-                cy: "56",
                 r: "56",
+                cy: "56",
             }
             path {
                 d: "M304,128H208a64.19,64.19,0,0,0-64,64V299.52c0,10.85,8.43,20.08,19.27,20.47A20,20,0,0,0,184,300V200.27a8.18,8.18,0,0,1,7.47-8.25,8,8,0,0,1,8.53,8V489a23,23,0,0,0,23,23h0a23,23,0,0,0,23-23V346.34A10.24,10.24,0,0,1,255.33,336,10,10,0,0,1,266,346V489a23,23,0,0,0,23,23h0a23,23,0,0,0,23-23V200.27a8.18,8.18,0,0,1,7.47-8.25,8,8,0,0,1,8.53,8v99.52c0,10.85,8.43,20.08,19.27,20.47A20,20,0,0,0,368,300V192A64.19,64.19,0,0,0,304,128Z",
@@ -32979,14 +32979,14 @@ impl IconShape for IoEllipsisVerticalSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cy: "256",
                 r: "48",
+                cy: "256",
                 cx: "256",
             }
             circle {
-                r: "48",
                 cx: "256",
                 cy: "416",
+                r: "48",
             }
             circle {
                 cx: "256",
@@ -33012,18 +33012,18 @@ impl IconShape for IoPauseCircleOutline {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
             }
             line {
-                y2: "320",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                x1: "208",
                 y1: "192",
                 x2: "208",
-                x1: "208",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y2: "320",
             }
             line {
-                y2: "320",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 x1: "304",
-                y1: "192",
+                y2: "320",
                 x2: "304",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y1: "192",
             }
         }
     }
@@ -33043,28 +33043,28 @@ impl IconShape for IoPawSharp {
                 d: "M442.8,361.82C434,336.72,413.49,324,393.69,311.7c-17.23-10.71-33.5-20.83-44.14-39C320.22,222.37,304.11,192,256.06,192s-64.21,30.38-93.61,80.69c-10.65,18.21-27,28.35-44.25,39.08-19.8,12.31-40.27,25-49.1,50.05A78.06,78.06,0,0,0,64,390.11C64,430.85,96.45,464,132.4,464s83.31-18.13,123.76-18.13S343.31,464,379.71,464,448,430.85,448,390.11A78.3,78.3,0,0,0,442.8,361.82Z",
             }
             ellipse {
+                cy: "216",
                 rx: "56",
                 ry: "72",
                 cx: "72",
-                cy: "216",
             }
             ellipse {
-                cy: "120",
-                rx: "56",
                 cx: "184",
                 ry: "72",
+                rx: "56",
+                cy: "120",
             }
             ellipse {
+                ry: "72",
                 cx: "328",
                 cy: "120",
                 rx: "56",
-                ry: "72",
             }
             ellipse {
                 cy: "216",
-                ry: "72",
-                cx: "440",
                 rx: "56",
+                cx: "440",
+                ry: "72",
             }
         }
     }
@@ -33081,16 +33081,16 @@ impl IconShape for IoHardwareChip {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none",
                 d: "M352,128H160a32,32,0,0,0-32,32V352a32,32,0,0,0,32,32H352a32,32,0,0,0,32-32V160A32,32,0,0,0,352,128Zm0,216a8,8,0,0,1-8,8H168a8,8,0,0,1-8-8V168a8,8,0,0,1,8-8H344a8,8,0,0,1,8,8Z",
+                style: "fill:none",
             }
             rect {
                 x: "160",
-                rx: "8",
-                ry: "8",
                 width: "192",
                 height: "192",
                 y: "160",
+                rx: "8",
+                ry: "8",
             }
             path {
                 d: "M464,192a16,16,0,0,0,0-32H448V128a64.07,64.07,0,0,0-64-64H352V48a16,16,0,0,0-32,0V64H272V48a16,16,0,0,0-32,0V64H192V48a16,16,0,0,0-32,0V64H128a64.07,64.07,0,0,0-64,64v32H48a16,16,0,0,0,0,32H64v48H48a16,16,0,0,0,0,32H64v48H48a16,16,0,0,0,0,32H64v32a64.07,64.07,0,0,0,64,64h32v16a16,16,0,0,0,32,0V448h48v16a16,16,0,0,0,32,0V448h48v16a16,16,0,0,0,32,0V448h32a64.07,64.07,0,0,0,64-64V352h16a16,16,0,0,0,0-32H448V272h16a16,16,0,0,0,0-32H448V192ZM384,352a32,32,0,0,1-32,32H160a32,32,0,0,1-32-32V160a32,32,0,0,1,32-32H352a32,32,0,0,1,32,32Z",
@@ -33156,11 +33156,11 @@ impl IconShape for IoFolderOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y1: "192",
-                x1: "32",
-                x2: "480",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y2: "192",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "32",
+                y1: "192",
+                x2: "480",
             }
         }
     }
@@ -33271,8 +33271,8 @@ impl IconShape for IoScanOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M336,448h56a56,56,0,0,0,56-56V336",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M448,176V120a56,56,0,0,0-56-56H336",
@@ -33342,61 +33342,61 @@ impl IconShape for IoCalculatorOutline {
         rsx! {
             rect {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                y: "48",
-                height: "416",
                 rx: "32",
-                width: "288",
-                ry: "32",
+                y: "48",
                 x: "112",
+                height: "416",
+                ry: "32",
+                width: "288",
             }
             rect {
-                x: "160.01",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y: "112",
                 height: "64",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x: "160.01",
                 width: "191.99",
             }
             circle {
+                cy: "248",
+                r: "24",
                 cx: "168",
-                r: "24",
-                cy: "248",
             }
             circle {
                 cy: "248",
+                r: "24",
                 cx: "256",
-                r: "24",
             }
             circle {
-                cy: "248",
                 r: "24",
                 cx: "344",
+                cy: "248",
             }
             circle {
-                r: "24",
-                cy: "328",
                 cx: "168",
+                cy: "328",
+                r: "24",
             }
             circle {
-                r: "24",
                 cx: "256",
                 cy: "328",
+                r: "24",
             }
             circle {
-                r: "24",
                 cx: "168",
                 cy: "408",
+                r: "24",
             }
             circle {
+                cx: "256",
                 r: "24",
                 cy: "408",
-                cx: "256",
             }
             rect {
-                rx: "24",
-                x: "320",
+                width: "48",
                 height: "128",
                 y: "304",
-                width: "48",
+                x: "320",
+                rx: "24",
                 ry: "24",
             }
         }
@@ -33432,21 +33432,21 @@ impl IconShape for IoColorFilterOutline {
         rsx! {
             circle {
                 r: "120",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 cy: "184",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 cx: "256",
             }
             circle {
-                cx: "344",
                 cy: "328",
-                r: "120",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
+                cx: "344",
+                r: "120",
             }
             circle {
-                cy: "328",
-                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 cx: "168",
+                style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 r: "120",
+                cy: "328",
             }
         }
     }
@@ -33481,10 +33481,10 @@ impl IconShape for IoCopyOutline {
         rsx! {
             rect {
                 x: "128",
+                width: "336",
                 rx: "57",
                 ry: "57",
                 height: "336",
-                width: "336",
                 style: "fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px",
                 y: "128",
             }
@@ -33524,49 +33524,49 @@ impl IconShape for IoBugOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                d: "M370,378c28.89,23.52,46,46.07,46,86",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M370,378c28.89,23.52,46,46.07,46,86",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M142,378c-28.89,23.52-46,46.06-46,86",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M384,208c28.89-23.52,32-56.07,32-96",
             }
             path {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M128,206c-28.89-23.52-32-54.06-32-94",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                y2: "288.13",
-                x2: "384",
-                y1: "288.13",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "464",
+                y1: "288.13",
+                x2: "384",
+                y2: "288.13",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                x2: "48",
                 y2: "288.13",
-                y1: "288.13",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x2: "48",
+                y1: "288.13",
                 x1: "128",
             }
             line {
-                x2: "256",
-                y2: "448",
-                x1: "256",
-                y1: "192",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "256",
+                y2: "448",
+                y1: "192",
+                x2: "256",
             }
             path {
                 d: "M256,448h0c-70.4,0-128-57.6-128-128V223.93c0-65.07,57.6-96,128-96h0c70.4,0,128,25.6,128,96V320C384,390.4,326.4,448,256,448Z",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M179.43,143.52A49.08,49.08,0,0,1,176,127.79,80,80,0,0,1,255.79,48h.42A80,80,0,0,1,336,127.79a41.91,41.91,0,0,1-3.12,14.3",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -33583,30 +33583,30 @@ impl IconShape for IoBasketballOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                cx: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cy: "256",
                 r: "192",
+                cx: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M432.94,255.05A192,192,0,0,1,256.63,74.35",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M255,433.61A192,192,0,0,0,74.29,256.69",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x1: "120.24",
-                y1: "120.24",
                 x2: "391.76",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y1: "120.24",
                 y2: "391.76",
+                x1: "120.24",
             }
             line {
+                x2: "391.76",
                 x1: "120.24",
                 y1: "391.76",
-                x2: "391.76",
                 y2: "120.24",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
@@ -33671,17 +33671,17 @@ impl IconShape for IoMailOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                x: "48",
-                rx: "40",
-                ry: "40",
-                width: "416",
                 y: "96",
                 height: "320",
+                ry: "40",
+                width: "416",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                rx: "40",
+                x: "48",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "112 160 256 272 400 160",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -33735,8 +33735,8 @@ impl IconShape for IoAlertCircleSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polygon {
-                points: "240 304 272 304 278 144 234 144 240 304",
                 style: "fill:none",
+                points: "240 304 272 304 278 144 234 144 240 304",
             }
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm20,319.91H236v-40h40ZM272,304H240l-6-160h44Z",
@@ -33780,39 +33780,39 @@ impl IconShape for IoSpeedometerOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             line {
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y1: "128",
                 x2: "256",
                 y2: "160",
-                y1: "128",
                 x1: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                y1: "288",
-                y2: "288",
-                x2: "384",
                 x1: "416",
+                x2: "384",
+                y2: "288",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y1: "288",
             }
             line {
-                y1: "288",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y2: "288",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y1: "288",
                 x2: "96",
                 x1: "128",
             }
             line {
-                x1: "165.49",
-                x2: "142.86",
-                y1: "197.49",
                 y2: "174.86",
+                x2: "142.86",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y1: "197.49",
+                x1: "165.49",
             }
             line {
-                x2: "369.14",
-                y1: "197.49",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
                 y2: "174.86",
                 x1: "346.51",
+                y1: "197.49",
+                x2: "369.14",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
         }
     }
@@ -33903,30 +33903,30 @@ impl IconShape for IoCodeWorkingSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             circle {
-                style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:10px",
+                r: "26",
+                cy: "256",
                 cx: "256",
-                cy: "256",
-                r: "26",
-            }
-            circle {
-                cy: "256",
-                r: "26",
                 style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:10px",
-                cx: "346",
             }
             circle {
+                style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:10px",
                 r: "26",
+                cx: "346",
+                cy: "256",
+            }
+            circle {
                 cx: "166",
                 style: "stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:10px",
                 cy: "256",
+                r: "26",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:42px",
                 points: "160 368 32 256 160 144",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:42px",
             }
             polyline {
-                points: "352 368 480 256 352 144",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:42px",
+                points: "352 368 480 256 352 144",
             }
         }
     }
@@ -33966,11 +33966,11 @@ impl IconShape for IoServerOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             ellipse {
-                cy: "128",
-                ry: "80",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                cx: "256",
                 rx: "192",
+                cx: "256",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                ry: "80",
+                cy: "128",
             }
             path {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
@@ -33981,8 +33981,8 @@ impl IconShape for IoServerOutline {
                 d: "M448,300c0,44.18-86,80-192,80S64,344.18,64,300",
             }
             path {
-                d: "M64,127.24V384.76C64,428.52,150,464,256,464s192-35.48,192-79.24V127.24",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M64,127.24V384.76C64,428.52,150,464,256,464s192-35.48,192-79.24V127.24",
             }
         }
     }
@@ -33999,19 +33999,19 @@ impl IconShape for IoCloudOfflineOutline {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             path {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 d: "M93.72,183.25C49.49,198.05,16,233.1,16,288c0,66,54,112,120,112H320.37",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                d: "M467.82,377.74C485.24,363.3,496,341.61,496,312c0-59.82-53-85.76-96-88-8.89-89.54-71-144-144-144-26.16,0-48.79,6.93-67.6,18.14",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M467.82,377.74C485.24,363.3,496,341.61,496,312c0-59.82-53-85.76-96-88-8.89-89.54-71-144-144-144-26.16,0-48.79,6.93-67.6,18.14",
             }
             line {
-                x2: "64",
-                y2: "64",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                x1: "448",
                 y1: "448",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y2: "64",
+                x2: "64",
+                x1: "448",
             }
         }
     }
@@ -34048,18 +34048,18 @@ impl IconShape for IoBatteryDeadSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
+                x: "32",
                 y: "144",
                 width: "400",
                 height: "224",
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
-                x: "32",
             }
             line {
-                x2: "480",
+                x1: "480",
+                y2: "293.33",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
                 y1: "218.67",
-                y2: "293.33",
-                x1: "480",
+                x2: "480",
             }
         }
     }
@@ -34077,31 +34077,31 @@ impl IconShape for IoReorderFour {
         rsx! {
             line {
                 y2: "304",
-                x1: "102",
+                x2: "410",
                 y1: "304",
-                x2: "410",
+                x1: "102",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
             }
             line {
+                x2: "410",
                 y1: "208",
-                x2: "410",
                 y2: "208",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
                 x1: "102",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
             }
             line {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
-                x1: "102",
-                y1: "112",
+                x2: "410",
                 y2: "112",
-                x2: "410",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
+                y1: "112",
+                x1: "102",
             }
             line {
-                x2: "410",
-                x1: "102",
-                y2: "400",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
+                y2: "400",
+                x1: "102",
                 y1: "400",
+                x2: "410",
             }
         }
     }
@@ -34135,8 +34135,8 @@ impl IconShape for IoChevronBackSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
                 points: "328 112 184 256 328 400",
+                style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
             }
         }
     }
@@ -34173,12 +34173,12 @@ impl IconShape for IoEasel {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                y: "112",
+                x: "80",
                 width: "352",
                 rx: "12",
                 ry: "12",
+                y: "112",
                 height: "208",
-                x: "80",
             }
             path {
                 d: "M432,64H272V48a16,16,0,0,0-32,0V64H80a48.05,48.05,0,0,0-48,48V320a48.05,48.05,0,0,0,48,48h42.79L96.62,459.6a16,16,0,1,0,30.76,8.8L156.07,368H240v48a16,16,0,0,0,32,0V368h83.93l28.69,100.4a16,16,0,1,0,30.76-8.8L389.21,368H432a48.05,48.05,0,0,0,48-48V112A48.05,48.05,0,0,0,432,64Zm16,256a16,16,0,0,1-16,16H80a16,16,0,0,1-16-16V112A16,16,0,0,1,80,96H432a16,16,0,0,1,16,16Z",
@@ -34221,9 +34221,9 @@ impl IconShape for IoRibbon {
                 d: "M477.64,391.88,406.11,262.71a4,4,0,0,0-6.74-.36,176.5,176.5,0,0,1-78.31,61.42,16.09,16.09,0,0,0-8.72,8.25l-36.86,81.1a7.92,7.92,0,0,0,0,6.6l30.27,66.59c2.45,5.41,8.59,9.36,14.52,9.69h0a16.3,16.3,0,0,0,13.7-8.12L372.5,423.3c2.89-4.85,8.13-7.33,13.78-7.3h78.77c6.67,0,11.72-3.48,14-10A16.92,16.92,0,0,0,477.64,391.88Z",
             }
             ellipse {
-                cy: "160",
-                rx: "48.01",
                 cx: "256.26",
+                rx: "48.01",
+                cy: "160",
                 ry: "48",
             }
             path {
@@ -34299,16 +34299,16 @@ impl IconShape for IoLogoWebComponent {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             polygon {
-                style: "fill:none",
                 points: "179.9 388 179.9 388 103.74 256 179.9 388",
+                style: "fill:none",
             }
             polygon {
+                style: "fill:none",
                 points: "179.9 388 332.11 388 408.26 256 332.11 124 179.9 124 103.74 256 179.9 388",
-                style: "fill:none",
             }
             polygon {
-                style: "fill:none",
                 points: "103.74 256 179.9 124 179.9 124 103.74 256",
+                style: "fill:none",
             }
             polygon {
                 points: "496 256 376 48 239.74 48 195.9 124 332.11 124 408.26 256 332.11 388 195.9 388 239.74 464 376 464 496 256",
@@ -34337,9 +34337,9 @@ impl IconShape for IoArrowUpSharp {
             line {
                 y2: "412",
                 style: "fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
+                x1: "256",
                 y1: "120",
                 x2: "256",
-                x1: "256",
             }
         }
     }
@@ -34357,17 +34357,17 @@ impl IconShape for IoFlaskOutline {
         rsx! {
             line {
                 x2: "336",
-                x1: "176",
-                y1: "48",
                 y2: "48",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                y1: "48",
+                x1: "176",
             }
             line {
                 x1: "118",
-                y1: "304",
+                y2: "304",
                 x2: "394",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-                y2: "304",
+                y1: "304",
             }
             path {
                 d: "M208,48v93.48a64.09,64.09,0,0,1-9.88,34.18L73.21,373.49C48.4,412.78,76.63,464,123.08,464H388.92c46.45,0,74.68-51.22,49.87-90.51L313.87,175.66A64.09,64.09,0,0,1,304,141.48V48",
@@ -34409,22 +34409,22 @@ impl IconShape for IoPersonAddOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
-                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
                 d: "M288,304c-87,0-175.3,48-191.64,138.6-2,10.92,4.21,21.4,15.65,21.4H464c11.44,0,17.62-10.48,15.65-21.4C463.3,352,375,304,288,304Z",
+                style: "fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px",
             }
             line {
-                x1: "88",
-                y2: "288",
-                x2: "88",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 y1: "176",
+                x2: "88",
+                x1: "88",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                y2: "288",
             }
             line {
-                x1: "144",
-                x2: "32",
-                y1: "232",
-                y2: "232",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                x1: "144",
+                y1: "232",
+                x2: "32",
+                y2: "232",
             }
         }
     }
@@ -34475,10 +34475,10 @@ impl IconShape for IoSquareSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                width: "416",
                 x: "48",
-                height: "416",
                 y: "48",
+                height: "416",
+                width: "416",
             }
         }
     }
@@ -34529,76 +34529,76 @@ impl IconShape for IoAppsSharp {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                height: "112",
+                y: "48",
+                rx: "8",
                 ry: "8",
+                width: "112",
                 x: "48",
-                y: "48",
-                width: "112",
-                rx: "8",
-            }
-            rect {
-                rx: "8",
-                ry: "8",
-                width: "112",
-                x: "200",
-                y: "48",
                 height: "112",
             }
             rect {
+                y: "48",
+                x: "200",
+                height: "112",
                 rx: "8",
                 ry: "8",
+                width: "112",
+            }
+            rect {
                 y: "48",
                 x: "352",
                 width: "112",
                 height: "112",
-            }
-            rect {
                 rx: "8",
                 ry: "8",
+            }
+            rect {
                 x: "48",
-                height: "112",
-                width: "112",
                 y: "200",
-            }
-            rect {
-                ry: "8",
-                y: "200",
-                x: "200",
-                width: "112",
-                height: "112",
                 rx: "8",
+                height: "112",
+                ry: "8",
+                width: "112",
             }
             rect {
+                x: "200",
+                rx: "8",
+                width: "112",
+                ry: "8",
+                height: "112",
                 y: "200",
+            }
+            rect {
+                rx: "8",
+                y: "200",
+                width: "112",
                 x: "352",
                 height: "112",
-                rx: "8",
-                width: "112",
                 ry: "8",
             }
             rect {
+                rx: "8",
+                height: "112",
+                width: "112",
                 y: "352",
                 x: "48",
-                width: "112",
-                rx: "8",
-                height: "112",
                 ry: "8",
             }
             rect {
-                rx: "8",
-                ry: "8",
-                y: "352",
                 x: "200",
                 width: "112",
+                y: "352",
+                ry: "8",
+                rx: "8",
                 height: "112",
             }
             rect {
-                width: "112",
                 height: "112",
                 rx: "8",
-                x: "352",
                 ry: "8",
+                x: "352",
                 y: "352",
+                width: "112",
             }
         }
     }
@@ -34624,10 +34624,10 @@ impl IconShape for IoCloudUploadOutline {
             }
             line {
                 x2: "256",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 x1: "256",
-                y2: "207.79",
                 y1: "448.21",
+                y2: "207.79",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
         }
     }
@@ -34648,14 +34648,14 @@ impl IconShape for IoChatbubbleEllipsesOutline {
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
             circle {
-                cx: "160",
-                cy: "256",
                 r: "32",
+                cy: "256",
+                cx: "160",
             }
             circle {
-                cy: "256",
                 r: "32",
                 cx: "256",
+                cy: "256",
             }
             circle {
                 cy: "256",
@@ -34737,19 +34737,19 @@ impl IconShape for IoCartOutline {
         rsx! {
             circle {
                 cy: "416",
+                r: "16",
                 cx: "176",
                 style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-                r: "16",
             }
             circle {
-                cy: "416",
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 cx: "400",
+                cy: "416",
                 r: "16",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             polyline {
-                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
                 points: "48 80 112 80 160 352 416 352",
+                style: "fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
             path {
                 d: "M160,288H409.44a8,8,0,0,0,7.85-6.43l28.8-144a8,8,0,0,0-7.85-9.57H128",

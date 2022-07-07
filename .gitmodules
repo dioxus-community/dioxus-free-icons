@@ -7,3 +7,6 @@
 [submodule "icon_resources/ionicons"]
 	path = icon_resources/ionicons
 	url = git@github.com:ionic-team/ionicons.git
+[submodule "icon_resources/octicons"]
+	path = icon_resources/octicons
+	url = git@github.com:primer/octicons.git
