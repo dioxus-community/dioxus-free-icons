@@ -13,3 +13,6 @@
 [submodule "icon_resources/bootstrap"]
 	path = icon_resources/bootstrap
 	url = git@github.com:twbs/icons.git
+[submodule "icon_resources/feather"]
+	path = icon_resources/feather
+	url = git@github.com:feathericons/feather.git
