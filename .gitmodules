@@ -10,3 +10,6 @@
 [submodule "icon_resources/octicons"]
 	path = icon_resources/octicons
 	url = git@github.com:primer/octicons.git
+[submodule "icon_resources/bootstrap"]
+	path = icon_resources/bootstrap
+	url = git@github.com:twbs/icons.git
