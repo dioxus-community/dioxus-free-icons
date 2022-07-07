@@ -28,4 +28,9 @@ fn main() {
     const GO_SVG_BASE_PATH: &str = "../../icon_resources/octicons/icons";
     let output_path = format!("{}/go_icons.rs", OUTPUT_BASE_PATH);
     create_icon_file::create_icon_file(&GO_SVG_BASE_PATH, &output_path, "Go");
+
+    // create bootstrap icons
+    const BS_SVG_BASE_PATH: &str = "../../icon_resources/bootstrap/icons";
+    let output_path = format!("{}/bs_icons.rs", OUTPUT_BASE_PATH);
+    create_icon_file::create_icon_file(&BS_SVG_BASE_PATH, &output_path, "Bs");
 }

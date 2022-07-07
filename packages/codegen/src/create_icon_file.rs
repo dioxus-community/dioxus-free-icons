@@ -6,6 +6,7 @@ use std::path::PathBuf;
 
 use heck::ToSnakeCase;
 use heck::ToUpperCamelCase;
+use regex::Regex;
 use scraper::node::Element;
 use scraper::ElementRef;
 use scraper::Html;
@@ -106,16 +107,26 @@ pub fn extract_svg_child_elements(elements: &[&Element]) -> String {
         .into_iter()
         .map(|element| {
             let tag_name = element.name();
-            let child_elements = element
+            let mut element_attrs = element
                 .attrs()
-                .map(|(name, value)| {
-                    format!("                {}: \"{}\",", name.to_snake_case(), value)
+                .filter_map(|(name, value)| {
+                    let re = Regex::new(r"^data-.*$").unwrap();
+                    if !re.is_match(&name) {
+                        Some(format!(
+                            "                {}: \"{}\",",
+                            name.to_snake_case(),
+                            value
+                        ))
+                    } else {
+                        None
+                    }
                 })
-                .collect::<Vec<_>>()
-                .join("\n");
-            "            {TAG_NAME} {\n{CHILD_ELEMENTS}\n            }"
+                .collect::<Vec<_>>();
+            element_attrs.sort();
+            let attrs_str = element_attrs.join("\n");
+            "            {TAG_NAME} {\n{ATTRS}\n            }"
                 .replace("{TAG_NAME}", tag_name)
-                .replace("{CHILD_ELEMENTS}", &child_elements)
+                .replace("{ATTRS}", &attrs_str)
         })
         .collect::<Vec<_>>()
         .join("\n")

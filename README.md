@@ -41,10 +41,12 @@ This project is licensed under the MIT license.
 
 Icon Library|License|Version
 ---|---|---
+[Bootstrap Icons](https://icons.getbootstrap.com/)|[MIT License](https://github.com/twbs/icons/blob/main/LICENSE.md)| [1.8.3](https://github.com/twbs/icons/tree/v1.8.3)
 [Font Awesome](https://fontawesome.com/)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)| [6.1.1](https://github.com/FortAwesome/Font-Awesome/tree/6.1.1)
 [Heroicons](https://heroicons.com/)|[MIT License](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE)| [1.0.6](https://github.com/tailwindlabs/heroicons/tree/v1.0.6)
 [Ionicons](https://ionic.io/ionicons)|[MIT License](https://github.com/ionic-team/ionicons/blob/main/LICENSE)| [6.0.2](https://github.com/ionic-team/ionicons/tree/v6.0.2)
-[Octicons](https://primer.style/octicons/)|[MIT License](https://github.com/primer/octicons/blob/main/LICENSE)| [17.3.0](https://github.com/primer/octicons/releases/tag/v17.3.0)
+[Octicons](https://primer.style/octicons/)|[MIT License](https://github.com/primer/octicons/blob/main/LICENSE)| [17.3.0](https://github.com/primer/octicons/tree/v17.3.0)
+
 
 
 
