@@ -12,7 +12,8 @@ use scraper::ElementRef;
 use scraper::Html;
 use walkdir::WalkDir;
 
-const ICON_TEMPLATE: &str = r#"pub struct {ICON_NAME};
+const ICON_TEMPLATE: &str = r#"#[derive(Copy, Clone, Debug)]
+pub struct {ICON_NAME};
 impl IconShape for {ICON_NAME} {
     fn view_box(&self) -> String {
         String::from("{VIEW_BOX}")

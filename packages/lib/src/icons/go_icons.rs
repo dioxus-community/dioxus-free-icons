@@ -1,6 +1,7 @@
 use super::super::IconShape;
 use dioxus::prelude::*;
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRepoTemplate24;
 impl IconShape for GoRepoTemplate24 {
     fn view_box(&self) -> String {
@@ -18,6 +19,7 @@ impl IconShape for GoRepoTemplate24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCircle24;
 impl IconShape for GoCircle24 {
     fn view_box(&self) -> String {
@@ -36,6 +38,7 @@ impl IconShape for GoCircle24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMirror16;
 impl IconShape for GoMirror16 {
     fn view_box(&self) -> String {
@@ -54,6 +57,7 @@ impl IconShape for GoMirror16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCodescan16;
 impl IconShape for GoCodescan16 {
     fn view_box(&self) -> String {
@@ -75,6 +79,7 @@ impl IconShape for GoCodescan16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLock24;
 impl IconShape for GoLock24 {
     fn view_box(&self) -> String {
@@ -93,6 +98,7 @@ impl IconShape for GoLock24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoZap24;
 impl IconShape for GoZap24 {
     fn view_box(&self) -> String {
@@ -111,6 +117,7 @@ impl IconShape for GoZap24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoX16;
 impl IconShape for GoX16 {
     fn view_box(&self) -> String {
@@ -129,6 +136,7 @@ impl IconShape for GoX16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLinkExternal16;
 impl IconShape for GoLinkExternal16 {
     fn view_box(&self) -> String {
@@ -147,6 +155,7 @@ impl IconShape for GoLinkExternal16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoListUnordered16;
 impl IconShape for GoListUnordered16 {
     fn view_box(&self) -> String {
@@ -165,6 +174,7 @@ impl IconShape for GoListUnordered16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHorizontalRule16;
 impl IconShape for GoHorizontalRule16 {
     fn view_box(&self) -> String {
@@ -183,6 +193,7 @@ impl IconShape for GoHorizontalRule16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSingleSelect24;
 impl IconShape for GoSingleSelect24 {
     fn view_box(&self) -> String {
@@ -204,6 +215,7 @@ impl IconShape for GoSingleSelect24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFeedRocket16;
 impl IconShape for GoFeedRocket16 {
     fn view_box(&self) -> String {
@@ -222,6 +234,7 @@ impl IconShape for GoFeedRocket16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTasklist24;
 impl IconShape for GoTasklist24 {
     fn view_box(&self) -> String {
@@ -243,6 +256,7 @@ impl IconShape for GoTasklist24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCodeOfConduct16;
 impl IconShape for GoCodeOfConduct16 {
     fn view_box(&self) -> String {
@@ -261,6 +275,7 @@ impl IconShape for GoCodeOfConduct16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRepoPull16;
 impl IconShape for GoRepoPull16 {
     fn view_box(&self) -> String {
@@ -279,6 +294,7 @@ impl IconShape for GoRepoPull16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMail24;
 impl IconShape for GoMail24 {
     fn view_box(&self) -> String {
@@ -297,6 +313,7 @@ impl IconShape for GoMail24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitPullRequestClosed16;
 impl IconShape for GoGitPullRequestClosed16 {
     fn view_box(&self) -> String {
@@ -315,6 +332,7 @@ impl IconShape for GoGitPullRequestClosed16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDatabase16;
 impl IconShape for GoDatabase16 {
     fn view_box(&self) -> String {
@@ -333,6 +351,7 @@ impl IconShape for GoDatabase16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitBranch16;
 impl IconShape for GoGitBranch16 {
     fn view_box(&self) -> String {
@@ -351,6 +370,7 @@ impl IconShape for GoGitBranch16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBellSlash16;
 impl IconShape for GoBellSlash16 {
     fn view_box(&self) -> String {
@@ -369,6 +389,7 @@ impl IconShape for GoBellSlash16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitCompare16;
 impl IconShape for GoGitCompare16 {
     fn view_box(&self) -> String {
@@ -387,6 +408,7 @@ impl IconShape for GoGitCompare16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoStack24;
 impl IconShape for GoStack24 {
     fn view_box(&self) -> String {
@@ -413,6 +435,7 @@ impl IconShape for GoStack24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFeedStar16;
 impl IconShape for GoFeedStar16 {
     fn view_box(&self) -> String {
@@ -431,6 +454,7 @@ impl IconShape for GoFeedStar16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoShieldCheck24;
 impl IconShape for GoShieldCheck24 {
     fn view_box(&self) -> String {
@@ -452,6 +476,7 @@ impl IconShape for GoShieldCheck24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHubot16;
 impl IconShape for GoHubot16 {
     fn view_box(&self) -> String {
@@ -470,6 +495,7 @@ impl IconShape for GoHubot16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRepo16;
 impl IconShape for GoRepo16 {
     fn view_box(&self) -> String {
@@ -488,6 +514,7 @@ impl IconShape for GoRepo16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLocation16;
 impl IconShape for GoLocation16 {
     fn view_box(&self) -> String {
@@ -506,6 +533,7 @@ impl IconShape for GoLocation16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoStarFill16;
 impl IconShape for GoStarFill16 {
     fn view_box(&self) -> String {
@@ -524,6 +552,7 @@ impl IconShape for GoStarFill16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoKebabHorizontal24;
 impl IconShape for GoKebabHorizontal24 {
     fn view_box(&self) -> String {
@@ -542,6 +571,7 @@ impl IconShape for GoKebabHorizontal24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPersonAdd24;
 impl IconShape for GoPersonAdd24 {
     fn view_box(&self) -> String {
@@ -560,6 +590,7 @@ impl IconShape for GoPersonAdd24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRows24;
 impl IconShape for GoRows24 {
     fn view_box(&self) -> String {
@@ -578,6 +609,7 @@ impl IconShape for GoRows24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTrash24;
 impl IconShape for GoTrash24 {
     fn view_box(&self) -> String {
@@ -602,6 +634,7 @@ impl IconShape for GoTrash24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCalendar24;
 impl IconShape for GoCalendar24 {
     fn view_box(&self) -> String {
@@ -620,6 +653,7 @@ impl IconShape for GoCalendar24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoIssueClosed24;
 impl IconShape for GoIssueClosed24 {
     fn view_box(&self) -> String {
@@ -641,6 +675,7 @@ impl IconShape for GoIssueClosed24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHourglass24;
 impl IconShape for GoHourglass24 {
     fn view_box(&self) -> String {
@@ -659,6 +694,7 @@ impl IconShape for GoHourglass24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoReply24;
 impl IconShape for GoReply24 {
     fn view_box(&self) -> String {
@@ -676,6 +712,7 @@ impl IconShape for GoReply24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFeedForked16;
 impl IconShape for GoFeedForked16 {
     fn view_box(&self) -> String {
@@ -694,6 +731,7 @@ impl IconShape for GoFeedForked16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoXCircleFill16;
 impl IconShape for GoXCircleFill16 {
     fn view_box(&self) -> String {
@@ -712,6 +750,7 @@ impl IconShape for GoXCircleFill16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoColumns16;
 impl IconShape for GoColumns16 {
     fn view_box(&self) -> String {
@@ -730,6 +769,7 @@ impl IconShape for GoColumns16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMute16;
 impl IconShape for GoMute16 {
     fn view_box(&self) -> String {
@@ -748,6 +788,7 @@ impl IconShape for GoMute16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoChevronRight24;
 impl IconShape for GoChevronRight24 {
     fn view_box(&self) -> String {
@@ -766,6 +807,7 @@ impl IconShape for GoChevronRight24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCodespaces24;
 impl IconShape for GoCodespaces24 {
     fn view_box(&self) -> String {
@@ -788,6 +830,7 @@ impl IconShape for GoCodespaces24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowBoth16;
 impl IconShape for GoArrowBoth16 {
     fn view_box(&self) -> String {
@@ -806,6 +849,7 @@ impl IconShape for GoArrowBoth16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPulse24;
 impl IconShape for GoPulse24 {
     fn view_box(&self) -> String {
@@ -824,6 +868,7 @@ impl IconShape for GoPulse24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileBinary16;
 impl IconShape for GoFileBinary16 {
     fn view_box(&self) -> String {
@@ -842,6 +887,7 @@ impl IconShape for GoFileBinary16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoListOrdered24;
 impl IconShape for GoListOrdered24 {
     fn view_box(&self) -> String {
@@ -859,6 +905,7 @@ impl IconShape for GoListOrdered24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSearch24;
 impl IconShape for GoSearch24 {
     fn view_box(&self) -> String {
@@ -877,6 +924,7 @@ impl IconShape for GoSearch24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDiff16;
 impl IconShape for GoDiff16 {
     fn view_box(&self) -> String {
@@ -895,6 +943,7 @@ impl IconShape for GoDiff16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCopilot16;
 impl IconShape for GoCopilot16 {
     fn view_box(&self) -> String {
@@ -916,6 +965,7 @@ impl IconShape for GoCopilot16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileCode24;
 impl IconShape for GoFileCode24 {
     fn view_box(&self) -> String {
@@ -937,6 +987,7 @@ impl IconShape for GoFileCode24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoContainer16;
 impl IconShape for GoContainer16 {
     fn view_box(&self) -> String {
@@ -955,6 +1006,7 @@ impl IconShape for GoContainer16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPaste16;
 impl IconShape for GoPaste16 {
     fn view_box(&self) -> String {
@@ -973,6 +1025,7 @@ impl IconShape for GoPaste16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoShareAndroid24;
 impl IconShape for GoShareAndroid24 {
     fn view_box(&self) -> String {
@@ -991,6 +1044,7 @@ impl IconShape for GoShareAndroid24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoVersions24;
 impl IconShape for GoVersions24 {
     fn view_box(&self) -> String {
@@ -1009,6 +1063,7 @@ impl IconShape for GoVersions24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSidebarCollapse24;
 impl IconShape for GoSidebarCollapse24 {
     fn view_box(&self) -> String {
@@ -1031,6 +1086,7 @@ impl IconShape for GoSidebarCollapse24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHistory16;
 impl IconShape for GoHistory16 {
     fn view_box(&self) -> String {
@@ -1049,6 +1105,7 @@ impl IconShape for GoHistory16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPerson16;
 impl IconShape for GoPerson16 {
     fn view_box(&self) -> String {
@@ -1067,6 +1124,7 @@ impl IconShape for GoPerson16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLogoGithub16;
 impl IconShape for GoLogoGithub16 {
     fn view_box(&self) -> String {
@@ -1085,6 +1143,7 @@ impl IconShape for GoLogoGithub16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoNumber24;
 impl IconShape for GoNumber24 {
     fn view_box(&self) -> String {
@@ -1103,6 +1162,7 @@ impl IconShape for GoNumber24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHome24;
 impl IconShape for GoHome24 {
     fn view_box(&self) -> String {
@@ -1121,6 +1181,7 @@ impl IconShape for GoHome24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBookmark16;
 impl IconShape for GoBookmark16 {
     fn view_box(&self) -> String {
@@ -1139,6 +1200,7 @@ impl IconShape for GoBookmark16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDiffModified16;
 impl IconShape for GoDiffModified16 {
     fn view_box(&self) -> String {
@@ -1157,6 +1219,7 @@ impl IconShape for GoDiffModified16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoClock24;
 impl IconShape for GoClock24 {
     fn view_box(&self) -> String {
@@ -1178,6 +1241,7 @@ impl IconShape for GoClock24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBug16;
 impl IconShape for GoBug16 {
     fn view_box(&self) -> String {
@@ -1196,6 +1260,7 @@ impl IconShape for GoBug16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFeedPerson16;
 impl IconShape for GoFeedPerson16 {
     fn view_box(&self) -> String {
@@ -1214,6 +1279,7 @@ impl IconShape for GoFeedPerson16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoNoEntry24;
 impl IconShape for GoNoEntry24 {
     fn view_box(&self) -> String {
@@ -1232,6 +1298,7 @@ impl IconShape for GoNoEntry24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowRight24;
 impl IconShape for GoArrowRight24 {
     fn view_box(&self) -> String {
@@ -1250,6 +1317,7 @@ impl IconShape for GoArrowRight24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLightBulb16;
 impl IconShape for GoLightBulb16 {
     fn view_box(&self) -> String {
@@ -1268,6 +1336,7 @@ impl IconShape for GoLightBulb16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoComment24;
 impl IconShape for GoComment24 {
     fn view_box(&self) -> String {
@@ -1286,6 +1355,7 @@ impl IconShape for GoComment24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileZip24;
 impl IconShape for GoFileZip24 {
     fn view_box(&self) -> String {
@@ -1310,6 +1380,7 @@ impl IconShape for GoFileZip24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBookmarkSlash24;
 impl IconShape for GoBookmarkSlash24 {
     fn view_box(&self) -> String {
@@ -1331,6 +1402,7 @@ impl IconShape for GoBookmarkSlash24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowLeft16;
 impl IconShape for GoArrowLeft16 {
     fn view_box(&self) -> String {
@@ -1349,6 +1421,7 @@ impl IconShape for GoArrowLeft16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoItalic16;
 impl IconShape for GoItalic16 {
     fn view_box(&self) -> String {
@@ -1367,6 +1440,7 @@ impl IconShape for GoItalic16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBold16;
 impl IconShape for GoBold16 {
     fn view_box(&self) -> String {
@@ -1385,6 +1459,7 @@ impl IconShape for GoBold16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSquareFill16;
 impl IconShape for GoSquareFill16 {
     fn view_box(&self) -> String {
@@ -1403,6 +1478,7 @@ impl IconShape for GoSquareFill16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFilter24;
 impl IconShape for GoFilter24 {
     fn view_box(&self) -> String {
@@ -1420,6 +1496,7 @@ impl IconShape for GoFilter24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDesktopDownload24;
 impl IconShape for GoDesktopDownload24 {
     fn view_box(&self) -> String {
@@ -1441,6 +1518,7 @@ impl IconShape for GoDesktopDownload24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoXCircleFill12;
 impl IconShape for GoXCircleFill12 {
     fn view_box(&self) -> String {
@@ -1459,6 +1537,7 @@ impl IconShape for GoXCircleFill12 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoUnfold16;
 impl IconShape for GoUnfold16 {
     fn view_box(&self) -> String {
@@ -1476,6 +1555,7 @@ impl IconShape for GoUnfold16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoWorkflow24;
 impl IconShape for GoWorkflow24 {
     fn view_box(&self) -> String {
@@ -1494,6 +1574,7 @@ impl IconShape for GoWorkflow24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSun16;
 impl IconShape for GoSun16 {
     fn view_box(&self) -> String {
@@ -1512,6 +1593,7 @@ impl IconShape for GoSun16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPencil24;
 impl IconShape for GoPencil24 {
     fn view_box(&self) -> String {
@@ -1530,6 +1612,7 @@ impl IconShape for GoPencil24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRepoPush16;
 impl IconShape for GoRepoPush16 {
     fn view_box(&self) -> String {
@@ -1548,6 +1631,7 @@ impl IconShape for GoRepoPush16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSquare24;
 impl IconShape for GoSquare24 {
     fn view_box(&self) -> String {
@@ -1566,6 +1650,7 @@ impl IconShape for GoSquare24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPeople24;
 impl IconShape for GoPeople24 {
     fn view_box(&self) -> String {
@@ -1587,6 +1672,7 @@ impl IconShape for GoPeople24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoKey16;
 impl IconShape for GoKey16 {
     fn view_box(&self) -> String {
@@ -1605,6 +1691,7 @@ impl IconShape for GoKey16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoChevronLeft16;
 impl IconShape for GoChevronLeft16 {
     fn view_box(&self) -> String {
@@ -1623,6 +1710,7 @@ impl IconShape for GoChevronLeft16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoReport24;
 impl IconShape for GoReport24 {
     fn view_box(&self) -> String {
@@ -1641,6 +1729,7 @@ impl IconShape for GoReport24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileDirectory16;
 impl IconShape for GoFileDirectory16 {
     fn view_box(&self) -> String {
@@ -1659,6 +1748,7 @@ impl IconShape for GoFileDirectory16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileDirectoryOpenFill16;
 impl IconShape for GoFileDirectoryOpenFill16 {
     fn view_box(&self) -> String {
@@ -1676,6 +1766,7 @@ impl IconShape for GoFileDirectoryOpenFill16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCode24;
 impl IconShape for GoCode24 {
     fn view_box(&self) -> String {
@@ -1694,6 +1785,7 @@ impl IconShape for GoCode24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoImage24;
 impl IconShape for GoImage24 {
     fn view_box(&self) -> String {
@@ -1712,6 +1804,7 @@ impl IconShape for GoImage24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHeartFill24;
 impl IconShape for GoHeartFill24 {
     fn view_box(&self) -> String {
@@ -1729,6 +1822,7 @@ impl IconShape for GoHeartFill24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSquirrel24;
 impl IconShape for GoSquirrel24 {
     fn view_box(&self) -> String {
@@ -1746,6 +1840,7 @@ impl IconShape for GoSquirrel24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowDown16;
 impl IconShape for GoArrowDown16 {
     fn view_box(&self) -> String {
@@ -1764,6 +1859,7 @@ impl IconShape for GoArrowDown16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoNote16;
 impl IconShape for GoNote16 {
     fn view_box(&self) -> String {
@@ -1782,6 +1878,7 @@ impl IconShape for GoNote16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBlocked24;
 impl IconShape for GoBlocked24 {
     fn view_box(&self) -> String {
@@ -1800,6 +1897,7 @@ impl IconShape for GoBlocked24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHash24;
 impl IconShape for GoHash24 {
     fn view_box(&self) -> String {
@@ -1818,6 +1916,7 @@ impl IconShape for GoHash24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoChecklist16;
 impl IconShape for GoChecklist16 {
     fn view_box(&self) -> String {
@@ -1836,6 +1935,7 @@ impl IconShape for GoChecklist16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoIssueReopened24;
 impl IconShape for GoIssueReopened24 {
     fn view_box(&self) -> String {
@@ -1856,6 +1956,7 @@ impl IconShape for GoIssueReopened24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGear16;
 impl IconShape for GoGear16 {
     fn view_box(&self) -> String {
@@ -1874,6 +1975,7 @@ impl IconShape for GoGear16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCheckCircleFill24;
 impl IconShape for GoCheckCircleFill24 {
     fn view_box(&self) -> String {
@@ -1892,6 +1994,7 @@ impl IconShape for GoCheckCircleFill24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDeviceDesktop16;
 impl IconShape for GoDeviceDesktop16 {
     fn view_box(&self) -> String {
@@ -1910,6 +2013,7 @@ impl IconShape for GoDeviceDesktop16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoStopwatch24;
 impl IconShape for GoStopwatch24 {
     fn view_box(&self) -> String {
@@ -1928,6 +2032,7 @@ impl IconShape for GoStopwatch24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBook24;
 impl IconShape for GoBook24 {
     fn view_box(&self) -> String {
@@ -1946,6 +2051,7 @@ impl IconShape for GoBook24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoShield16;
 impl IconShape for GoShield16 {
     fn view_box(&self) -> String {
@@ -1964,6 +2070,7 @@ impl IconShape for GoShield16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCodeReview16;
 impl IconShape for GoCodeReview16 {
     fn view_box(&self) -> String {
@@ -1982,6 +2089,7 @@ impl IconShape for GoCodeReview16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCloud16;
 impl IconShape for GoCloud16 {
     fn view_box(&self) -> String {
@@ -2000,6 +2108,7 @@ impl IconShape for GoCloud16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTriangleRight16;
 impl IconShape for GoTriangleRight16 {
     fn view_box(&self) -> String {
@@ -2017,6 +2126,7 @@ impl IconShape for GoTriangleRight16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoScreenFull24;
 impl IconShape for GoScreenFull24 {
     fn view_box(&self) -> String {
@@ -2035,6 +2145,7 @@ impl IconShape for GoScreenFull24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoEyeClosed16;
 impl IconShape for GoEyeClosed16 {
     fn view_box(&self) -> String {
@@ -2053,6 +2164,7 @@ impl IconShape for GoEyeClosed16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileDiff16;
 impl IconShape for GoFileDiff16 {
     fn view_box(&self) -> String {
@@ -2071,6 +2183,7 @@ impl IconShape for GoFileDiff16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMention24;
 impl IconShape for GoMention24 {
     fn view_box(&self) -> String {
@@ -2089,6 +2202,7 @@ impl IconShape for GoMention24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDot16;
 impl IconShape for GoDot16 {
     fn view_box(&self) -> String {
@@ -2107,6 +2221,7 @@ impl IconShape for GoDot16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPlay24;
 impl IconShape for GoPlay24 {
     fn view_box(&self) -> String {
@@ -2128,6 +2243,7 @@ impl IconShape for GoPlay24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoThumbsup16;
 impl IconShape for GoThumbsup16 {
     fn view_box(&self) -> String {
@@ -2146,6 +2262,7 @@ impl IconShape for GoThumbsup16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRocket16;
 impl IconShape for GoRocket16 {
     fn view_box(&self) -> String {
@@ -2164,6 +2281,7 @@ impl IconShape for GoRocket16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoStop16;
 impl IconShape for GoStop16 {
     fn view_box(&self) -> String {
@@ -2182,6 +2300,7 @@ impl IconShape for GoStop16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileSymlinkFile16;
 impl IconShape for GoFileSymlinkFile16 {
     fn view_box(&self) -> String {
@@ -2200,6 +2319,7 @@ impl IconShape for GoFileSymlinkFile16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoChevronDown16;
 impl IconShape for GoChevronDown16 {
     fn view_box(&self) -> String {
@@ -2218,6 +2338,7 @@ impl IconShape for GoChevronDown16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoAccessibility16;
 impl IconShape for GoAccessibility16 {
     fn view_box(&self) -> String {
@@ -2236,6 +2357,7 @@ impl IconShape for GoAccessibility16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTools16;
 impl IconShape for GoTools16 {
     fn view_box(&self) -> String {
@@ -2254,6 +2376,7 @@ impl IconShape for GoTools16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLogoGist16;
 impl IconShape for GoLogoGist16 {
     fn view_box(&self) -> String {
@@ -2272,6 +2395,7 @@ impl IconShape for GoLogoGist16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoVideo16;
 impl IconShape for GoVideo16 {
     fn view_box(&self) -> String {
@@ -2293,6 +2417,7 @@ impl IconShape for GoVideo16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCloudOffline16;
 impl IconShape for GoCloudOffline16 {
     fn view_box(&self) -> String {
@@ -2314,6 +2439,7 @@ impl IconShape for GoCloudOffline16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBeaker24;
 impl IconShape for GoBeaker24 {
     fn view_box(&self) -> String {
@@ -2332,6 +2458,7 @@ impl IconShape for GoBeaker24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGrabber24;
 impl IconShape for GoGrabber24 {
     fn view_box(&self) -> String {
@@ -2350,6 +2477,7 @@ impl IconShape for GoGrabber24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCheckCircle24;
 impl IconShape for GoCheckCircle24 {
     fn view_box(&self) -> String {
@@ -2371,6 +2499,7 @@ impl IconShape for GoCheckCircle24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSkip24;
 impl IconShape for GoSkip24 {
     fn view_box(&self) -> String {
@@ -2392,6 +2521,7 @@ impl IconShape for GoSkip24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoIssueDraft24;
 impl IconShape for GoIssueDraft24 {
     fn view_box(&self) -> String {
@@ -2410,6 +2540,7 @@ impl IconShape for GoIssueDraft24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBellFill16;
 impl IconShape for GoBellFill16 {
     fn view_box(&self) -> String {
@@ -2427,6 +2558,7 @@ impl IconShape for GoBellFill16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileSubmodule16;
 impl IconShape for GoFileSubmodule16 {
     fn view_box(&self) -> String {
@@ -2445,6 +2577,7 @@ impl IconShape for GoFileSubmodule16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGraph24;
 impl IconShape for GoGraph24 {
     fn view_box(&self) -> String {
@@ -2465,6 +2598,7 @@ impl IconShape for GoGraph24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSidebarExpand24;
 impl IconShape for GoSidebarExpand24 {
     fn view_box(&self) -> String {
@@ -2487,6 +2621,7 @@ impl IconShape for GoSidebarExpand24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoVerified16;
 impl IconShape for GoVerified16 {
     fn view_box(&self) -> String {
@@ -2505,6 +2640,7 @@ impl IconShape for GoVerified16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowDownLeft24;
 impl IconShape for GoArrowDownLeft24 {
     fn view_box(&self) -> String {
@@ -2523,6 +2659,7 @@ impl IconShape for GoArrowDownLeft24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBriefcase16;
 impl IconShape for GoBriefcase16 {
     fn view_box(&self) -> String {
@@ -2541,6 +2678,7 @@ impl IconShape for GoBriefcase16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArchive24;
 impl IconShape for GoArchive24 {
     fn view_box(&self) -> String {
@@ -2565,6 +2703,7 @@ impl IconShape for GoArchive24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBookmarkFill24;
 impl IconShape for GoBookmarkFill24 {
     fn view_box(&self) -> String {
@@ -2583,6 +2722,7 @@ impl IconShape for GoBookmarkFill24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoUnlock16;
 impl IconShape for GoUnlock16 {
     fn view_box(&self) -> String {
@@ -2601,6 +2741,7 @@ impl IconShape for GoUnlock16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTable24;
 impl IconShape for GoTable24 {
     fn view_box(&self) -> String {
@@ -2619,6 +2760,7 @@ impl IconShape for GoTable24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileBadge16;
 impl IconShape for GoFileBadge16 {
     fn view_box(&self) -> String {
@@ -2640,6 +2782,7 @@ impl IconShape for GoFileBadge16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDiamond16;
 impl IconShape for GoDiamond16 {
     fn view_box(&self) -> String {
@@ -2658,6 +2801,7 @@ impl IconShape for GoDiamond16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBrowser16;
 impl IconShape for GoBrowser16 {
     fn view_box(&self) -> String {
@@ -2676,6 +2820,7 @@ impl IconShape for GoBrowser16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDeviceCamera16;
 impl IconShape for GoDeviceCamera16 {
     fn view_box(&self) -> String {
@@ -2694,6 +2839,7 @@ impl IconShape for GoDeviceCamera16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCommentDiscussion24;
 impl IconShape for GoCommentDiscussion24 {
     fn view_box(&self) -> String {
@@ -2715,6 +2861,7 @@ impl IconShape for GoCommentDiscussion24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCircleSlash24;
 impl IconShape for GoCircleSlash24 {
     fn view_box(&self) -> String {
@@ -2733,6 +2880,7 @@ impl IconShape for GoCircleSlash24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSmiley16;
 impl IconShape for GoSmiley16 {
     fn view_box(&self) -> String {
@@ -2751,6 +2899,7 @@ impl IconShape for GoSmiley16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDeviceMobile24;
 impl IconShape for GoDeviceMobile24 {
     fn view_box(&self) -> String {
@@ -2772,6 +2921,7 @@ impl IconShape for GoDeviceMobile24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitPullRequestDraft16;
 impl IconShape for GoGitPullRequestDraft16 {
     fn view_box(&self) -> String {
@@ -2793,6 +2943,7 @@ impl IconShape for GoGitPullRequestDraft16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHeading16;
 impl IconShape for GoHeading16 {
     fn view_box(&self) -> String {
@@ -2811,6 +2962,7 @@ impl IconShape for GoHeading16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoShare24;
 impl IconShape for GoShare24 {
     fn view_box(&self) -> String {
@@ -2829,6 +2981,7 @@ impl IconShape for GoShare24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRepoForked16;
 impl IconShape for GoRepoForked16 {
     fn view_box(&self) -> String {
@@ -2847,6 +3000,7 @@ impl IconShape for GoRepoForked16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoProject24;
 impl IconShape for GoProject24 {
     fn view_box(&self) -> String {
@@ -2868,6 +3022,7 @@ impl IconShape for GoProject24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTelescopeFill16;
 impl IconShape for GoTelescopeFill16 {
     fn view_box(&self) -> String {
@@ -2886,6 +3041,7 @@ impl IconShape for GoTelescopeFill16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMegaphone16;
 impl IconShape for GoMegaphone16 {
     fn view_box(&self) -> String {
@@ -2912,6 +3068,7 @@ impl IconShape for GoMegaphone16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPackageDependents16;
 impl IconShape for GoPackageDependents16 {
     fn view_box(&self) -> String {
@@ -2930,6 +3087,7 @@ impl IconShape for GoPackageDependents16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFeedTrophy16;
 impl IconShape for GoFeedTrophy16 {
     fn view_box(&self) -> String {
@@ -2951,6 +3109,7 @@ impl IconShape for GoFeedTrophy16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDuplicate24;
 impl IconShape for GoDuplicate24 {
     fn view_box(&self) -> String {
@@ -2975,6 +3134,7 @@ impl IconShape for GoDuplicate24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRuby16;
 impl IconShape for GoRuby16 {
     fn view_box(&self) -> String {
@@ -2993,6 +3153,7 @@ impl IconShape for GoRuby16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPlus24;
 impl IconShape for GoPlus24 {
     fn view_box(&self) -> String {
@@ -3011,6 +3172,7 @@ impl IconShape for GoPlus24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBroadcast16;
 impl IconShape for GoBroadcast16 {
     fn view_box(&self) -> String {
@@ -3029,6 +3191,7 @@ impl IconShape for GoBroadcast16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMultiSelect16;
 impl IconShape for GoMultiSelect16 {
     fn view_box(&self) -> String {
@@ -3050,6 +3213,7 @@ impl IconShape for GoMultiSelect16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCopilot48;
 impl IconShape for GoCopilot48 {
     fn view_box(&self) -> String {
@@ -3071,6 +3235,7 @@ impl IconShape for GoCopilot48 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoUnverified16;
 impl IconShape for GoUnverified16 {
     fn view_box(&self) -> String {
@@ -3089,6 +3254,7 @@ impl IconShape for GoUnverified16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTerminal16;
 impl IconShape for GoTerminal16 {
     fn view_box(&self) -> String {
@@ -3107,6 +3273,7 @@ impl IconShape for GoTerminal16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMeter16;
 impl IconShape for GoMeter16 {
     fn view_box(&self) -> String {
@@ -3125,6 +3292,7 @@ impl IconShape for GoMeter16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoThumbsdown16;
 impl IconShape for GoThumbsdown16 {
     fn view_box(&self) -> String {
@@ -3143,6 +3311,7 @@ impl IconShape for GoThumbsdown16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoUnmute24;
 impl IconShape for GoUnmute24 {
     fn view_box(&self) -> String {
@@ -3167,6 +3336,7 @@ impl IconShape for GoUnmute24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDiffRenamed16;
 impl IconShape for GoDiffRenamed16 {
     fn view_box(&self) -> String {
@@ -3185,6 +3355,7 @@ impl IconShape for GoDiffRenamed16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLink16;
 impl IconShape for GoLink16 {
     fn view_box(&self) -> String {
@@ -3203,6 +3374,7 @@ impl IconShape for GoLink16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoShieldX16;
 impl IconShape for GoShieldX16 {
     fn view_box(&self) -> String {
@@ -3221,6 +3393,7 @@ impl IconShape for GoShieldX16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPlug24;
 impl IconShape for GoPlug24 {
     fn view_box(&self) -> String {
@@ -3239,6 +3412,7 @@ impl IconShape for GoPlug24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLog16;
 impl IconShape for GoLog16 {
     fn view_box(&self) -> String {
@@ -3260,6 +3434,7 @@ impl IconShape for GoLog16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSync24;
 impl IconShape for GoSync24 {
     fn view_box(&self) -> String {
@@ -3277,6 +3452,7 @@ impl IconShape for GoSync24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBell16;
 impl IconShape for GoBell16 {
     fn view_box(&self) -> String {
@@ -3298,6 +3474,7 @@ impl IconShape for GoBell16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDeviceCameraVideo24;
 impl IconShape for GoDeviceCameraVideo24 {
     fn view_box(&self) -> String {
@@ -3316,6 +3493,7 @@ impl IconShape for GoDeviceCameraVideo24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoQuestion24;
 impl IconShape for GoQuestion24 {
     fn view_box(&self) -> String {
@@ -3337,6 +3515,7 @@ impl IconShape for GoQuestion24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDotFill24;
 impl IconShape for GoDotFill24 {
     fn view_box(&self) -> String {
@@ -3354,6 +3533,7 @@ impl IconShape for GoDotFill24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTelescope24;
 impl IconShape for GoTelescope24 {
     fn view_box(&self) -> String {
@@ -3375,6 +3555,7 @@ impl IconShape for GoTelescope24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLaw24;
 impl IconShape for GoLaw24 {
     fn view_box(&self) -> String {
@@ -3393,6 +3574,7 @@ impl IconShape for GoLaw24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMoon24;
 impl IconShape for GoMoon24 {
     fn view_box(&self) -> String {
@@ -3411,6 +3593,7 @@ impl IconShape for GoMoon24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGlobe16;
 impl IconShape for GoGlobe16 {
     fn view_box(&self) -> String {
@@ -3429,6 +3612,7 @@ impl IconShape for GoGlobe16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCodeSquare24;
 impl IconShape for GoCodeSquare24 {
     fn view_box(&self) -> String {
@@ -3450,6 +3634,7 @@ impl IconShape for GoCodeSquare24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFoldUp16;
 impl IconShape for GoFoldUp16 {
     fn view_box(&self) -> String {
@@ -3467,6 +3652,7 @@ impl IconShape for GoFoldUp16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileDirectoryFill24;
 impl IconShape for GoFileDirectoryFill24 {
     fn view_box(&self) -> String {
@@ -3485,6 +3671,7 @@ impl IconShape for GoFileDirectoryFill24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoXCircle16;
 impl IconShape for GoXCircle16 {
     fn view_box(&self) -> String {
@@ -3503,6 +3690,7 @@ impl IconShape for GoXCircle16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPlusCircle16;
 impl IconShape for GoPlusCircle16 {
     fn view_box(&self) -> String {
@@ -3521,6 +3709,7 @@ impl IconShape for GoPlusCircle16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSignIn24;
 impl IconShape for GoSignIn24 {
     fn view_box(&self) -> String {
@@ -3539,6 +3728,7 @@ impl IconShape for GoSignIn24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitPullRequest24;
 impl IconShape for GoGitPullRequest24 {
     fn view_box(&self) -> String {
@@ -3561,6 +3751,7 @@ impl IconShape for GoGitPullRequest24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDependabot16;
 impl IconShape for GoDependabot16 {
     fn view_box(&self) -> String {
@@ -3582,6 +3773,7 @@ impl IconShape for GoDependabot16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoScreenNormal24;
 impl IconShape for GoScreenNormal24 {
     fn view_box(&self) -> String {
@@ -3600,6 +3792,7 @@ impl IconShape for GoScreenNormal24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTriangleLeft16;
 impl IconShape for GoTriangleLeft16 {
     fn view_box(&self) -> String {
@@ -3617,6 +3810,7 @@ impl IconShape for GoTriangleLeft16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPin24;
 impl IconShape for GoPin24 {
     fn view_box(&self) -> String {
@@ -3635,6 +3829,7 @@ impl IconShape for GoPin24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPackageDependencies24;
 impl IconShape for GoPackageDependencies24 {
     fn view_box(&self) -> String {
@@ -3656,6 +3851,7 @@ impl IconShape for GoPackageDependencies24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoShieldLock24;
 impl IconShape for GoShieldLock24 {
     fn view_box(&self) -> String {
@@ -3674,6 +3870,7 @@ impl IconShape for GoShieldLock24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoApps16;
 impl IconShape for GoApps16 {
     fn view_box(&self) -> String {
@@ -3692,6 +3889,7 @@ impl IconShape for GoApps16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoNorthStar16;
 impl IconShape for GoNorthStar16 {
     fn view_box(&self) -> String {
@@ -3709,6 +3907,7 @@ impl IconShape for GoNorthStar16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCrossReference16;
 impl IconShape for GoCrossReference16 {
     fn view_box(&self) -> String {
@@ -3727,6 +3926,7 @@ impl IconShape for GoCrossReference16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTag24;
 impl IconShape for GoTag24 {
     fn view_box(&self) -> String {
@@ -3748,6 +3948,7 @@ impl IconShape for GoTag24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCpu24;
 impl IconShape for GoCpu24 {
     fn view_box(&self) -> String {
@@ -3770,6 +3971,7 @@ impl IconShape for GoCpu24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCopy24;
 impl IconShape for GoCopy24 {
     fn view_box(&self) -> String {
@@ -3791,6 +3993,7 @@ impl IconShape for GoCopy24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRepoLocked24;
 impl IconShape for GoRepoLocked24 {
     fn view_box(&self) -> String {
@@ -3812,6 +4015,7 @@ impl IconShape for GoRepoLocked24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDash24;
 impl IconShape for GoDash24 {
     fn view_box(&self) -> String {
@@ -3830,6 +4034,7 @@ impl IconShape for GoDash24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPersonFill24;
 impl IconShape for GoPersonFill24 {
     fn view_box(&self) -> String {
@@ -3847,6 +4052,7 @@ impl IconShape for GoPersonFill24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoStar24;
 impl IconShape for GoStar24 {
     fn view_box(&self) -> String {
@@ -3865,6 +4071,7 @@ impl IconShape for GoStar24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoIssueOpened16;
 impl IconShape for GoIssueOpened16 {
     fn view_box(&self) -> String {
@@ -3886,6 +4093,7 @@ impl IconShape for GoIssueOpened16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGift24;
 impl IconShape for GoGift24 {
     fn view_box(&self) -> String {
@@ -3904,6 +4112,7 @@ impl IconShape for GoGift24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoIterations16;
 impl IconShape for GoIterations16 {
     fn view_box(&self) -> String {
@@ -3921,6 +4130,7 @@ impl IconShape for GoIterations16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFlame24;
 impl IconShape for GoFlame24 {
     fn view_box(&self) -> String {
@@ -3939,6 +4149,7 @@ impl IconShape for GoFlame24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoUpload24;
 impl IconShape for GoUpload24 {
     fn view_box(&self) -> String {
@@ -3957,6 +4168,7 @@ impl IconShape for GoUpload24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoOrganization24;
 impl IconShape for GoOrganization24 {
     fn view_box(&self) -> String {
@@ -3978,6 +4190,7 @@ impl IconShape for GoOrganization24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFold24;
 impl IconShape for GoFold24 {
     fn view_box(&self) -> String {
@@ -4004,6 +4217,7 @@ impl IconShape for GoFold24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDownload24;
 impl IconShape for GoDownload24 {
     fn view_box(&self) -> String {
@@ -4021,6 +4235,7 @@ impl IconShape for GoDownload24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTabExternal16;
 impl IconShape for GoTabExternal16 {
     fn view_box(&self) -> String {
@@ -4041,6 +4256,7 @@ impl IconShape for GoTabExternal16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSortAsc24;
 impl IconShape for GoSortAsc24 {
     fn view_box(&self) -> String {
@@ -4058,6 +4274,7 @@ impl IconShape for GoSortAsc24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFeedTag16;
 impl IconShape for GoFeedTag16 {
     fn view_box(&self) -> String {
@@ -4079,6 +4296,7 @@ impl IconShape for GoFeedTag16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoKeyAsterisk16;
 impl IconShape for GoKeyAsterisk16 {
     fn view_box(&self) -> String {
@@ -4100,6 +4318,7 @@ impl IconShape for GoKeyAsterisk16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTrophy16;
 impl IconShape for GoTrophy16 {
     fn view_box(&self) -> String {
@@ -4118,6 +4337,7 @@ impl IconShape for GoTrophy16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCommit24;
 impl IconShape for GoCommit24 {
     fn view_box(&self) -> String {
@@ -4140,6 +4360,7 @@ impl IconShape for GoCommit24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoInfinity16;
 impl IconShape for GoInfinity16 {
     fn view_box(&self) -> String {
@@ -4158,6 +4379,7 @@ impl IconShape for GoInfinity16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPackage24;
 impl IconShape for GoPackage24 {
     fn view_box(&self) -> String {
@@ -4176,6 +4398,7 @@ impl IconShape for GoPackage24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTypography16;
 impl IconShape for GoTypography16 {
     fn view_box(&self) -> String {
@@ -4194,6 +4417,7 @@ impl IconShape for GoTypography16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileRemoved16;
 impl IconShape for GoFileRemoved16 {
     fn view_box(&self) -> String {
@@ -4212,6 +4436,7 @@ impl IconShape for GoFileRemoved16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoStrikethrough16;
 impl IconShape for GoStrikethrough16 {
     fn view_box(&self) -> String {
@@ -4230,6 +4455,7 @@ impl IconShape for GoStrikethrough16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFoldDown24;
 impl IconShape for GoFoldDown24 {
     fn view_box(&self) -> String {
@@ -4252,6 +4478,7 @@ impl IconShape for GoFoldDown24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTriangleUp24;
 impl IconShape for GoTriangleUp24 {
     fn view_box(&self) -> String {
@@ -4269,6 +4496,7 @@ impl IconShape for GoTriangleUp24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMilestone16;
 impl IconShape for GoMilestone16 {
     fn view_box(&self) -> String {
@@ -4287,6 +4515,7 @@ impl IconShape for GoMilestone16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSignOut24;
 impl IconShape for GoSignOut24 {
     fn view_box(&self) -> String {
@@ -4305,6 +4534,7 @@ impl IconShape for GoSignOut24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHeart16;
 impl IconShape for GoHeart16 {
     fn view_box(&self) -> String {
@@ -4323,6 +4553,7 @@ impl IconShape for GoHeart16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileMoved16;
 impl IconShape for GoFileMoved16 {
     fn view_box(&self) -> String {
@@ -4343,6 +4574,7 @@ impl IconShape for GoFileMoved16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoInfo24;
 impl IconShape for GoInfo24 {
     fn view_box(&self) -> String {
@@ -4364,6 +4596,7 @@ impl IconShape for GoInfo24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTriangleDown16;
 impl IconShape for GoTriangleDown16 {
     fn view_box(&self) -> String {
@@ -4381,6 +4614,7 @@ impl IconShape for GoTriangleDown16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoEye24;
 impl IconShape for GoEye24 {
     fn view_box(&self) -> String {
@@ -4402,6 +4636,7 @@ impl IconShape for GoEye24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitMerge16;
 impl IconShape for GoGitMerge16 {
     fn view_box(&self) -> String {
@@ -4420,6 +4655,7 @@ impl IconShape for GoGitMerge16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRss16;
 impl IconShape for GoRss16 {
     fn view_box(&self) -> String {
@@ -4438,6 +4674,7 @@ impl IconShape for GoRss16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoChevronUp16;
 impl IconShape for GoChevronUp16 {
     fn view_box(&self) -> String {
@@ -4456,6 +4693,7 @@ impl IconShape for GoChevronUp16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMortarBoard16;
 impl IconShape for GoMortarBoard16 {
     fn view_box(&self) -> String {
@@ -4474,6 +4712,7 @@ impl IconShape for GoMortarBoard16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPaperAirplane24;
 impl IconShape for GoPaperAirplane24 {
     fn view_box(&self) -> String {
@@ -4492,6 +4731,7 @@ impl IconShape for GoPaperAirplane24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitCommit24;
 impl IconShape for GoGitCommit24 {
     fn view_box(&self) -> String {
@@ -4510,6 +4750,7 @@ impl IconShape for GoGitCommit24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCodescanCheckmark24;
 impl IconShape for GoCodescanCheckmark24 {
     fn view_box(&self) -> String {
@@ -4531,6 +4772,7 @@ impl IconShape for GoCodescanCheckmark24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSortDesc16;
 impl IconShape for GoSortDesc16 {
     fn view_box(&self) -> String {
@@ -4552,6 +4794,7 @@ impl IconShape for GoSortDesc16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCheck16;
 impl IconShape for GoCheck16 {
     fn view_box(&self) -> String {
@@ -4570,6 +4813,7 @@ impl IconShape for GoCheck16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoServer24;
 impl IconShape for GoServer24 {
     fn view_box(&self) -> String {
@@ -4591,6 +4835,7 @@ impl IconShape for GoServer24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoAlert24;
 impl IconShape for GoAlert24 {
     fn view_box(&self) -> String {
@@ -4612,6 +4857,7 @@ impl IconShape for GoAlert24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFile16;
 impl IconShape for GoFile16 {
     fn view_box(&self) -> String {
@@ -4630,6 +4876,7 @@ impl IconShape for GoFile16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCreditCard24;
 impl IconShape for GoCreditCard24 {
     fn view_box(&self) -> String {
@@ -4651,6 +4898,7 @@ impl IconShape for GoCreditCard24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowSwitch16;
 impl IconShape for GoArrowSwitch16 {
     fn view_box(&self) -> String {
@@ -4668,6 +4916,7 @@ impl IconShape for GoArrowSwitch16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowUp16;
 impl IconShape for GoArrowUp16 {
     fn view_box(&self) -> String {
@@ -4686,6 +4935,7 @@ impl IconShape for GoArrowUp16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoQuote16;
 impl IconShape for GoQuote16 {
     fn view_box(&self) -> String {
@@ -4704,6 +4954,7 @@ impl IconShape for GoQuote16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoInbox16;
 impl IconShape for GoInbox16 {
     fn view_box(&self) -> String {
@@ -4722,6 +4973,7 @@ impl IconShape for GoInbox16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTypography24;
 impl IconShape for GoTypography24 {
     fn view_box(&self) -> String {
@@ -4740,6 +4992,7 @@ impl IconShape for GoTypography24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPackage16;
 impl IconShape for GoPackage16 {
     fn view_box(&self) -> String {
@@ -4758,6 +5011,7 @@ impl IconShape for GoPackage16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoInfinity24;
 impl IconShape for GoInfinity24 {
     fn view_box(&self) -> String {
@@ -4776,6 +5030,7 @@ impl IconShape for GoInfinity24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTrophy24;
 impl IconShape for GoTrophy24 {
     fn view_box(&self) -> String {
@@ -4794,6 +5049,7 @@ impl IconShape for GoTrophy24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMarkdown16;
 impl IconShape for GoMarkdown16 {
     fn view_box(&self) -> String {
@@ -4812,6 +5068,7 @@ impl IconShape for GoMarkdown16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDownload16;
 impl IconShape for GoDownload16 {
     fn view_box(&self) -> String {
@@ -4830,6 +5087,7 @@ impl IconShape for GoDownload16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSortAsc16;
 impl IconShape for GoSortAsc16 {
     fn view_box(&self) -> String {
@@ -4848,6 +5106,7 @@ impl IconShape for GoSortAsc16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFold16;
 impl IconShape for GoFold16 {
     fn view_box(&self) -> String {
@@ -4865,6 +5124,7 @@ impl IconShape for GoFold16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoUpload16;
 impl IconShape for GoUpload16 {
     fn view_box(&self) -> String {
@@ -4883,6 +5143,7 @@ impl IconShape for GoUpload16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFlame16;
 impl IconShape for GoFlame16 {
     fn view_box(&self) -> String {
@@ -4901,6 +5162,7 @@ impl IconShape for GoFlame16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoIterations24;
 impl IconShape for GoIterations24 {
     fn view_box(&self) -> String {
@@ -4918,6 +5180,7 @@ impl IconShape for GoIterations24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGift16;
 impl IconShape for GoGift16 {
     fn view_box(&self) -> String {
@@ -4936,6 +5199,7 @@ impl IconShape for GoGift16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFeedRepo16;
 impl IconShape for GoFeedRepo16 {
     fn view_box(&self) -> String {
@@ -4954,6 +5218,7 @@ impl IconShape for GoFeedRepo16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoOrganization16;
 impl IconShape for GoOrganization16 {
     fn view_box(&self) -> String {
@@ -4972,6 +5237,7 @@ impl IconShape for GoOrganization16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoStar16;
 impl IconShape for GoStar16 {
     fn view_box(&self) -> String {
@@ -4990,6 +5256,7 @@ impl IconShape for GoStar16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoIssueOpened24;
 impl IconShape for GoIssueOpened24 {
     fn view_box(&self) -> String {
@@ -5008,6 +5275,7 @@ impl IconShape for GoIssueOpened24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCpu16;
 impl IconShape for GoCpu16 {
     fn view_box(&self) -> String {
@@ -5026,6 +5294,7 @@ impl IconShape for GoCpu16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPersonFill16;
 impl IconShape for GoPersonFill16 {
     fn view_box(&self) -> String {
@@ -5043,6 +5312,7 @@ impl IconShape for GoPersonFill16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDash16;
 impl IconShape for GoDash16 {
     fn view_box(&self) -> String {
@@ -5061,6 +5331,7 @@ impl IconShape for GoDash16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRepoLocked16;
 impl IconShape for GoRepoLocked16 {
     fn view_box(&self) -> String {
@@ -5082,6 +5353,7 @@ impl IconShape for GoRepoLocked16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCopy16;
 impl IconShape for GoCopy16 {
     fn view_box(&self) -> String {
@@ -5104,6 +5376,7 @@ impl IconShape for GoCopy16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCrossReference24;
 impl IconShape for GoCrossReference24 {
     fn view_box(&self) -> String {
@@ -5124,6 +5397,7 @@ impl IconShape for GoCrossReference24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTag16;
 impl IconShape for GoTag16 {
     fn view_box(&self) -> String {
@@ -5142,6 +5416,7 @@ impl IconShape for GoTag16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoNorthStar24;
 impl IconShape for GoNorthStar24 {
     fn view_box(&self) -> String {
@@ -5159,6 +5434,7 @@ impl IconShape for GoNorthStar24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPackageDependencies16;
 impl IconShape for GoPackageDependencies16 {
     fn view_box(&self) -> String {
@@ -5177,6 +5453,7 @@ impl IconShape for GoPackageDependencies16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoShieldLock16;
 impl IconShape for GoShieldLock16 {
     fn view_box(&self) -> String {
@@ -5195,6 +5472,7 @@ impl IconShape for GoShieldLock16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoScreenNormal16;
 impl IconShape for GoScreenNormal16 {
     fn view_box(&self) -> String {
@@ -5213,6 +5491,7 @@ impl IconShape for GoScreenNormal16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDependabot24;
 impl IconShape for GoDependabot24 {
     fn view_box(&self) -> String {
@@ -5234,6 +5513,7 @@ impl IconShape for GoDependabot24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPin16;
 impl IconShape for GoPin16 {
     fn view_box(&self) -> String {
@@ -5252,6 +5532,7 @@ impl IconShape for GoPin16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTriangleLeft24;
 impl IconShape for GoTriangleLeft24 {
     fn view_box(&self) -> String {
@@ -5269,6 +5550,7 @@ impl IconShape for GoTriangleLeft24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitPullRequest16;
 impl IconShape for GoGitPullRequest16 {
     fn view_box(&self) -> String {
@@ -5287,6 +5569,7 @@ impl IconShape for GoGitPullRequest16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDiffRemoved16;
 impl IconShape for GoDiffRemoved16 {
     fn view_box(&self) -> String {
@@ -5305,6 +5588,7 @@ impl IconShape for GoDiffRemoved16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoXCircle24;
 impl IconShape for GoXCircle24 {
     fn view_box(&self) -> String {
@@ -5326,6 +5610,7 @@ impl IconShape for GoXCircle24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSignIn16;
 impl IconShape for GoSignIn16 {
     fn view_box(&self) -> String {
@@ -5344,6 +5629,7 @@ impl IconShape for GoSignIn16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPlusCircle24;
 impl IconShape for GoPlusCircle24 {
     fn view_box(&self) -> String {
@@ -5365,6 +5651,7 @@ impl IconShape for GoPlusCircle24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTab24;
 impl IconShape for GoTab24 {
     fn view_box(&self) -> String {
@@ -5382,6 +5669,7 @@ impl IconShape for GoTab24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowSwitch24;
 impl IconShape for GoArrowSwitch24 {
     fn view_box(&self) -> String {
@@ -5399,6 +5687,7 @@ impl IconShape for GoArrowSwitch24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoInbox24;
 impl IconShape for GoInbox24 {
     fn view_box(&self) -> String {
@@ -5417,6 +5706,7 @@ impl IconShape for GoInbox24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowUp24;
 impl IconShape for GoArrowUp24 {
     fn view_box(&self) -> String {
@@ -5435,6 +5725,7 @@ impl IconShape for GoArrowUp24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoQuote24;
 impl IconShape for GoQuote24 {
     fn view_box(&self) -> String {
@@ -5453,6 +5744,7 @@ impl IconShape for GoQuote24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCreditCard16;
 impl IconShape for GoCreditCard16 {
     fn view_box(&self) -> String {
@@ -5474,6 +5766,7 @@ impl IconShape for GoCreditCard16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoServer16;
 impl IconShape for GoServer16 {
     fn view_box(&self) -> String {
@@ -5492,6 +5785,7 @@ impl IconShape for GoServer16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFile24;
 impl IconShape for GoFile24 {
     fn view_box(&self) -> String {
@@ -5510,6 +5804,7 @@ impl IconShape for GoFile24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoAlert16;
 impl IconShape for GoAlert16 {
     fn view_box(&self) -> String {
@@ -5528,6 +5823,7 @@ impl IconShape for GoAlert16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSortDesc24;
 impl IconShape for GoSortDesc24 {
     fn view_box(&self) -> String {
@@ -5545,6 +5841,7 @@ impl IconShape for GoSortDesc24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCheck24;
 impl IconShape for GoCheck24 {
     fn view_box(&self) -> String {
@@ -5563,6 +5860,7 @@ impl IconShape for GoCheck24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowUpRight24;
 impl IconShape for GoArrowUpRight24 {
     fn view_box(&self) -> String {
@@ -5581,6 +5879,7 @@ impl IconShape for GoArrowUpRight24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPaperAirplane16;
 impl IconShape for GoPaperAirplane16 {
     fn view_box(&self) -> String {
@@ -5599,6 +5898,7 @@ impl IconShape for GoPaperAirplane16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHomeFill24;
 impl IconShape for GoHomeFill24 {
     fn view_box(&self) -> String {
@@ -5616,6 +5916,7 @@ impl IconShape for GoHomeFill24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMortarBoard24;
 impl IconShape for GoMortarBoard24 {
     fn view_box(&self) -> String {
@@ -5634,6 +5935,7 @@ impl IconShape for GoMortarBoard24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCodescanCheckmark16;
 impl IconShape for GoCodescanCheckmark16 {
     fn view_box(&self) -> String {
@@ -5655,6 +5957,7 @@ impl IconShape for GoCodescanCheckmark16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitCommit16;
 impl IconShape for GoGitCommit16 {
     fn view_box(&self) -> String {
@@ -5673,6 +5976,7 @@ impl IconShape for GoGitCommit16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCopilot96;
 impl IconShape for GoCopilot96 {
     fn view_box(&self) -> String {
@@ -5694,6 +5998,7 @@ impl IconShape for GoCopilot96 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitMerge24;
 impl IconShape for GoGitMerge24 {
     fn view_box(&self) -> String {
@@ -5720,6 +6025,7 @@ impl IconShape for GoGitMerge24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFeedHeart16;
 impl IconShape for GoFeedHeart16 {
     fn view_box(&self) -> String {
@@ -5738,6 +6044,7 @@ impl IconShape for GoFeedHeart16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRss24;
 impl IconShape for GoRss24 {
     fn view_box(&self) -> String {
@@ -5756,6 +6063,7 @@ impl IconShape for GoRss24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoChevronUp24;
 impl IconShape for GoChevronUp24 {
     fn view_box(&self) -> String {
@@ -5774,6 +6082,7 @@ impl IconShape for GoChevronUp24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTriangleDown24;
 impl IconShape for GoTriangleDown24 {
     fn view_box(&self) -> String {
@@ -5791,6 +6100,7 @@ impl IconShape for GoTriangleDown24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoEye16;
 impl IconShape for GoEye16 {
     fn view_box(&self) -> String {
@@ -5809,6 +6119,7 @@ impl IconShape for GoEye16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoInfo16;
 impl IconShape for GoInfo16 {
     fn view_box(&self) -> String {
@@ -5827,6 +6138,7 @@ impl IconShape for GoInfo16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHeart24;
 impl IconShape for GoHeart24 {
     fn view_box(&self) -> String {
@@ -5845,6 +6157,7 @@ impl IconShape for GoHeart24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPaintbrush16;
 impl IconShape for GoPaintbrush16 {
     fn view_box(&self) -> String {
@@ -5863,6 +6176,7 @@ impl IconShape for GoPaintbrush16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSignOut16;
 impl IconShape for GoSignOut16 {
     fn view_box(&self) -> String {
@@ -5881,6 +6195,7 @@ impl IconShape for GoSignOut16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMilestone24;
 impl IconShape for GoMilestone24 {
     fn view_box(&self) -> String {
@@ -5899,6 +6214,7 @@ impl IconShape for GoMilestone24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTriangleUp16;
 impl IconShape for GoTriangleUp16 {
     fn view_box(&self) -> String {
@@ -5916,6 +6232,7 @@ impl IconShape for GoTriangleUp16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoStrikethrough24;
 impl IconShape for GoStrikethrough24 {
     fn view_box(&self) -> String {
@@ -5934,6 +6251,7 @@ impl IconShape for GoStrikethrough24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFoldDown16;
 impl IconShape for GoFoldDown16 {
     fn view_box(&self) -> String {
@@ -5951,6 +6269,7 @@ impl IconShape for GoFoldDown16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoAlertFill12;
 impl IconShape for GoAlertFill12 {
     fn view_box(&self) -> String {
@@ -5969,6 +6288,7 @@ impl IconShape for GoAlertFill12 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoShare16;
 impl IconShape for GoShare16 {
     fn view_box(&self) -> String {
@@ -5987,6 +6307,7 @@ impl IconShape for GoShare16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRepoForked24;
 impl IconShape for GoRepoForked24 {
     fn view_box(&self) -> String {
@@ -6013,6 +6334,7 @@ impl IconShape for GoRepoForked24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHeading24;
 impl IconShape for GoHeading24 {
     fn view_box(&self) -> String {
@@ -6031,6 +6353,7 @@ impl IconShape for GoHeading24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitPullRequestDraft24;
 impl IconShape for GoGitPullRequestDraft24 {
     fn view_box(&self) -> String {
@@ -6052,6 +6375,7 @@ impl IconShape for GoGitPullRequestDraft24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDeviceMobile16;
 impl IconShape for GoDeviceMobile16 {
     fn view_box(&self) -> String {
@@ -6070,6 +6394,7 @@ impl IconShape for GoDeviceMobile16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCircleSlash16;
 impl IconShape for GoCircleSlash16 {
     fn view_box(&self) -> String {
@@ -6088,6 +6413,7 @@ impl IconShape for GoCircleSlash16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSmiley24;
 impl IconShape for GoSmiley24 {
     fn view_box(&self) -> String {
@@ -6112,6 +6438,7 @@ impl IconShape for GoSmiley24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCommentDiscussion16;
 impl IconShape for GoCommentDiscussion16 {
     fn view_box(&self) -> String {
@@ -6130,6 +6457,7 @@ impl IconShape for GoCommentDiscussion16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBrowser24;
 impl IconShape for GoBrowser24 {
     fn view_box(&self) -> String {
@@ -6148,6 +6476,7 @@ impl IconShape for GoBrowser24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDiamond24;
 impl IconShape for GoDiamond24 {
     fn view_box(&self) -> String {
@@ -6166,6 +6495,7 @@ impl IconShape for GoDiamond24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTable16;
 impl IconShape for GoTable16 {
     fn view_box(&self) -> String {
@@ -6184,6 +6514,7 @@ impl IconShape for GoTable16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArchive16;
 impl IconShape for GoArchive16 {
     fn view_box(&self) -> String {
@@ -6202,6 +6533,7 @@ impl IconShape for GoArchive16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoUnlock24;
 impl IconShape for GoUnlock24 {
     fn view_box(&self) -> String {
@@ -6220,6 +6552,7 @@ impl IconShape for GoUnlock24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBriefcase24;
 impl IconShape for GoBriefcase24 {
     fn view_box(&self) -> String {
@@ -6238,6 +6571,7 @@ impl IconShape for GoBriefcase24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGraph16;
 impl IconShape for GoGraph16 {
     fn view_box(&self) -> String {
@@ -6256,6 +6590,7 @@ impl IconShape for GoGraph16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileSubmodule24;
 impl IconShape for GoFileSubmodule24 {
     fn view_box(&self) -> String {
@@ -6274,6 +6609,7 @@ impl IconShape for GoFileSubmodule24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoVerified24;
 impl IconShape for GoVerified24 {
     fn view_box(&self) -> String {
@@ -6295,6 +6631,7 @@ impl IconShape for GoVerified24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSidebarExpand16;
 impl IconShape for GoSidebarExpand16 {
     fn view_box(&self) -> String {
@@ -6317,6 +6654,7 @@ impl IconShape for GoSidebarExpand16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDiffIgnored16;
 impl IconShape for GoDiffIgnored16 {
     fn view_box(&self) -> String {
@@ -6335,6 +6673,7 @@ impl IconShape for GoDiffIgnored16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoIssueDraft16;
 impl IconShape for GoIssueDraft16 {
     fn view_box(&self) -> String {
@@ -6353,6 +6692,7 @@ impl IconShape for GoIssueDraft16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSkip16;
 impl IconShape for GoSkip16 {
     fn view_box(&self) -> String {
@@ -6371,6 +6711,7 @@ impl IconShape for GoSkip16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBellFill24;
 impl IconShape for GoBellFill24 {
     fn view_box(&self) -> String {
@@ -6389,6 +6730,7 @@ impl IconShape for GoBellFill24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGrabber16;
 impl IconShape for GoGrabber16 {
     fn view_box(&self) -> String {
@@ -6407,6 +6749,7 @@ impl IconShape for GoGrabber16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCheckCircle16;
 impl IconShape for GoCheckCircle16 {
     fn view_box(&self) -> String {
@@ -6425,6 +6768,7 @@ impl IconShape for GoCheckCircle16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFoldUp24;
 impl IconShape for GoFoldUp24 {
     fn view_box(&self) -> String {
@@ -6447,6 +6791,7 @@ impl IconShape for GoFoldUp24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileDirectoryFill16;
 impl IconShape for GoFileDirectoryFill16 {
     fn view_box(&self) -> String {
@@ -6464,6 +6809,7 @@ impl IconShape for GoFileDirectoryFill16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCodeSquare16;
 impl IconShape for GoCodeSquare16 {
     fn view_box(&self) -> String {
@@ -6482,6 +6828,7 @@ impl IconShape for GoCodeSquare16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileMedia24;
 impl IconShape for GoFileMedia24 {
     fn view_box(&self) -> String {
@@ -6500,6 +6847,7 @@ impl IconShape for GoFileMedia24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGlobe24;
 impl IconShape for GoGlobe24 {
     fn view_box(&self) -> String {
@@ -6518,6 +6866,7 @@ impl IconShape for GoGlobe24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileAdded16;
 impl IconShape for GoFileAdded16 {
     fn view_box(&self) -> String {
@@ -6536,6 +6885,7 @@ impl IconShape for GoFileAdded16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDeviceCameraVideo16;
 impl IconShape for GoDeviceCameraVideo16 {
     fn view_box(&self) -> String {
@@ -6554,6 +6904,7 @@ impl IconShape for GoDeviceCameraVideo16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMoon16;
 impl IconShape for GoMoon16 {
     fn view_box(&self) -> String {
@@ -6572,6 +6923,7 @@ impl IconShape for GoMoon16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLaw16;
 impl IconShape for GoLaw16 {
     fn view_box(&self) -> String {
@@ -6590,6 +6942,7 @@ impl IconShape for GoLaw16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTelescope16;
 impl IconShape for GoTelescope16 {
     fn view_box(&self) -> String {
@@ -6608,6 +6961,7 @@ impl IconShape for GoTelescope16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDotFill16;
 impl IconShape for GoDotFill16 {
     fn view_box(&self) -> String {
@@ -6626,6 +6980,7 @@ impl IconShape for GoDotFill16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoQuestion16;
 impl IconShape for GoQuestion16 {
     fn view_box(&self) -> String {
@@ -6644,6 +6999,7 @@ impl IconShape for GoQuestion16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSync16;
 impl IconShape for GoSync16 {
     fn view_box(&self) -> String {
@@ -6662,6 +7018,7 @@ impl IconShape for GoSync16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoWebhook16;
 impl IconShape for GoWebhook16 {
     fn view_box(&self) -> String {
@@ -6685,6 +7042,7 @@ impl IconShape for GoWebhook16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBell24;
 impl IconShape for GoBell24 {
     fn view_box(&self) -> String {
@@ -6703,6 +7061,7 @@ impl IconShape for GoBell24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBookmarkSlashFill24;
 impl IconShape for GoBookmarkSlashFill24 {
     fn view_box(&self) -> String {
@@ -6721,6 +7080,7 @@ impl IconShape for GoBookmarkSlashFill24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPlug16;
 impl IconShape for GoPlug16 {
     fn view_box(&self) -> String {
@@ -6739,6 +7099,7 @@ impl IconShape for GoPlug16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoShieldX24;
 impl IconShape for GoShieldX24 {
     fn view_box(&self) -> String {
@@ -6760,6 +7121,7 @@ impl IconShape for GoShieldX24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLink24;
 impl IconShape for GoLink24 {
     fn view_box(&self) -> String {
@@ -6780,6 +7142,7 @@ impl IconShape for GoLink24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoUnmute16;
 impl IconShape for GoUnmute16 {
     fn view_box(&self) -> String {
@@ -6798,6 +7161,7 @@ impl IconShape for GoUnmute16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoThumbsdown24;
 impl IconShape for GoThumbsdown24 {
     fn view_box(&self) -> String {
@@ -6816,6 +7180,7 @@ impl IconShape for GoThumbsdown24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoUnverified24;
 impl IconShape for GoUnverified24 {
     fn view_box(&self) -> String {
@@ -6837,6 +7202,7 @@ impl IconShape for GoUnverified24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowDownRight24;
 impl IconShape for GoArrowDownRight24 {
     fn view_box(&self) -> String {
@@ -6855,6 +7221,7 @@ impl IconShape for GoArrowDownRight24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTerminal24;
 impl IconShape for GoTerminal24 {
     fn view_box(&self) -> String {
@@ -6876,6 +7243,7 @@ impl IconShape for GoTerminal24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBroadcast24;
 impl IconShape for GoBroadcast24 {
     fn view_box(&self) -> String {
@@ -6893,6 +7261,7 @@ impl IconShape for GoBroadcast24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMultiSelect24;
 impl IconShape for GoMultiSelect24 {
     fn view_box(&self) -> String {
@@ -6914,6 +7283,7 @@ impl IconShape for GoMultiSelect24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDuplicate16;
 impl IconShape for GoDuplicate16 {
     fn view_box(&self) -> String {
@@ -6938,6 +7308,7 @@ impl IconShape for GoDuplicate16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPlus16;
 impl IconShape for GoPlus16 {
     fn view_box(&self) -> String {
@@ -6956,6 +7327,7 @@ impl IconShape for GoPlus16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRuby24;
 impl IconShape for GoRuby24 {
     fn view_box(&self) -> String {
@@ -6974,6 +7346,7 @@ impl IconShape for GoRuby24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPackageDependents24;
 impl IconShape for GoPackageDependents24 {
     fn view_box(&self) -> String {
@@ -6995,6 +7368,7 @@ impl IconShape for GoPackageDependents24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMegaphone24;
 impl IconShape for GoMegaphone24 {
     fn view_box(&self) -> String {
@@ -7013,6 +7387,7 @@ impl IconShape for GoMegaphone24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTelescopeFill24;
 impl IconShape for GoTelescopeFill24 {
     fn view_box(&self) -> String {
@@ -7034,6 +7409,7 @@ impl IconShape for GoTelescopeFill24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoProject16;
 impl IconShape for GoProject16 {
     fn view_box(&self) -> String {
@@ -7052,6 +7428,7 @@ impl IconShape for GoProject16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileDirectory24;
 impl IconShape for GoFileDirectory24 {
     fn view_box(&self) -> String {
@@ -7070,6 +7447,7 @@ impl IconShape for GoFileDirectory24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoReport16;
 impl IconShape for GoReport16 {
     fn view_box(&self) -> String {
@@ -7088,6 +7466,7 @@ impl IconShape for GoReport16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoChevronLeft24;
 impl IconShape for GoChevronLeft24 {
     fn view_box(&self) -> String {
@@ -7106,6 +7485,7 @@ impl IconShape for GoChevronLeft24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoKey24;
 impl IconShape for GoKey24 {
     fn view_box(&self) -> String {
@@ -7127,6 +7507,7 @@ impl IconShape for GoKey24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPeople16;
 impl IconShape for GoPeople16 {
     fn view_box(&self) -> String {
@@ -7145,6 +7526,7 @@ impl IconShape for GoPeople16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPencil16;
 impl IconShape for GoPencil16 {
     fn view_box(&self) -> String {
@@ -7163,6 +7545,7 @@ impl IconShape for GoPencil16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSun24;
 impl IconShape for GoSun24 {
     fn view_box(&self) -> String {
@@ -7181,6 +7564,7 @@ impl IconShape for GoSun24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSquare16;
 impl IconShape for GoSquare16 {
     fn view_box(&self) -> String {
@@ -7199,6 +7583,7 @@ impl IconShape for GoSquare16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRepoPush24;
 impl IconShape for GoRepoPush24 {
     fn view_box(&self) -> String {
@@ -7219,6 +7604,7 @@ impl IconShape for GoRepoPush24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoWorkflow16;
 impl IconShape for GoWorkflow16 {
     fn view_box(&self) -> String {
@@ -7237,6 +7623,7 @@ impl IconShape for GoWorkflow16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoUnfold24;
 impl IconShape for GoUnfold24 {
     fn view_box(&self) -> String {
@@ -7263,6 +7650,7 @@ impl IconShape for GoUnfold24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDesktopDownload16;
 impl IconShape for GoDesktopDownload16 {
     fn view_box(&self) -> String {
@@ -7283,6 +7671,7 @@ impl IconShape for GoDesktopDownload16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFilter16;
 impl IconShape for GoFilter16 {
     fn view_box(&self) -> String {
@@ -7301,6 +7690,7 @@ impl IconShape for GoFilter16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoNoEntryFill12;
 impl IconShape for GoNoEntryFill12 {
     fn view_box(&self) -> String {
@@ -7319,6 +7709,7 @@ impl IconShape for GoNoEntryFill12 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSquareFill24;
 impl IconShape for GoSquareFill24 {
     fn view_box(&self) -> String {
@@ -7337,6 +7728,7 @@ impl IconShape for GoSquareFill24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBold24;
 impl IconShape for GoBold24 {
     fn view_box(&self) -> String {
@@ -7355,6 +7747,7 @@ impl IconShape for GoBold24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoItalic24;
 impl IconShape for GoItalic24 {
     fn view_box(&self) -> String {
@@ -7373,6 +7766,7 @@ impl IconShape for GoItalic24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowLeft24;
 impl IconShape for GoArrowLeft24 {
     fn view_box(&self) -> String {
@@ -7391,6 +7785,7 @@ impl IconShape for GoArrowLeft24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBookmarkSlash16;
 impl IconShape for GoBookmarkSlash16 {
     fn view_box(&self) -> String {
@@ -7409,6 +7804,7 @@ impl IconShape for GoBookmarkSlash16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileZip16;
 impl IconShape for GoFileZip16 {
     fn view_box(&self) -> String {
@@ -7427,6 +7823,7 @@ impl IconShape for GoFileZip16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSliders16;
 impl IconShape for GoSliders16 {
     fn view_box(&self) -> String {
@@ -7444,6 +7841,7 @@ impl IconShape for GoSliders16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLightBulb24;
 impl IconShape for GoLightBulb24 {
     fn view_box(&self) -> String {
@@ -7462,6 +7860,7 @@ impl IconShape for GoLightBulb24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCopilotError16;
 impl IconShape for GoCopilotError16 {
     fn view_box(&self) -> String {
@@ -7480,6 +7879,7 @@ impl IconShape for GoCopilotError16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoComment16;
 impl IconShape for GoComment16 {
     fn view_box(&self) -> String {
@@ -7498,6 +7898,7 @@ impl IconShape for GoComment16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoNoEntry16;
 impl IconShape for GoNoEntry16 {
     fn view_box(&self) -> String {
@@ -7519,6 +7920,7 @@ impl IconShape for GoNoEntry16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowRight16;
 impl IconShape for GoArrowRight16 {
     fn view_box(&self) -> String {
@@ -7537,6 +7939,7 @@ impl IconShape for GoArrowRight16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDiffAdded16;
 impl IconShape for GoDiffAdded16 {
     fn view_box(&self) -> String {
@@ -7555,6 +7958,7 @@ impl IconShape for GoDiffAdded16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBug24;
 impl IconShape for GoBug24 {
     fn view_box(&self) -> String {
@@ -7573,6 +7977,7 @@ impl IconShape for GoBug24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoClock16;
 impl IconShape for GoClock16 {
     fn view_box(&self) -> String {
@@ -7591,6 +7996,7 @@ impl IconShape for GoClock16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCopilotWarning16;
 impl IconShape for GoCopilotWarning16 {
     fn view_box(&self) -> String {
@@ -7613,6 +8019,7 @@ impl IconShape for GoCopilotWarning16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoVideo24;
 impl IconShape for GoVideo24 {
     fn view_box(&self) -> String {
@@ -7634,6 +8041,7 @@ impl IconShape for GoVideo24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBeaker16;
 impl IconShape for GoBeaker16 {
     fn view_box(&self) -> String {
@@ -7652,6 +8060,7 @@ impl IconShape for GoBeaker16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCloudOffline24;
 impl IconShape for GoCloudOffline24 {
     fn view_box(&self) -> String {
@@ -7673,6 +8082,7 @@ impl IconShape for GoCloudOffline24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTools24;
 impl IconShape for GoTools24 {
     fn view_box(&self) -> String {
@@ -7691,6 +8101,7 @@ impl IconShape for GoTools24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFeedDiscussion16;
 impl IconShape for GoFeedDiscussion16 {
     fn view_box(&self) -> String {
@@ -7709,6 +8120,7 @@ impl IconShape for GoFeedDiscussion16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileSymlinkFile24;
 impl IconShape for GoFileSymlinkFile24 {
     fn view_box(&self) -> String {
@@ -7727,6 +8139,7 @@ impl IconShape for GoFileSymlinkFile24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoChevronDown24;
 impl IconShape for GoChevronDown24 {
     fn view_box(&self) -> String {
@@ -7745,6 +8158,7 @@ impl IconShape for GoChevronDown24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoStop24;
 impl IconShape for GoStop24 {
     fn view_box(&self) -> String {
@@ -7766,6 +8180,7 @@ impl IconShape for GoStop24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRocket24;
 impl IconShape for GoRocket24 {
     fn view_box(&self) -> String {
@@ -7784,6 +8199,7 @@ impl IconShape for GoRocket24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoThumbsup24;
 impl IconShape for GoThumbsup24 {
     fn view_box(&self) -> String {
@@ -7802,6 +8218,7 @@ impl IconShape for GoThumbsup24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPlay16;
 impl IconShape for GoPlay16 {
     fn view_box(&self) -> String {
@@ -7820,6 +8237,7 @@ impl IconShape for GoPlay16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileDiff24;
 impl IconShape for GoFileDiff24 {
     fn view_box(&self) -> String {
@@ -7841,6 +8259,7 @@ impl IconShape for GoFileDiff24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoEyeClosed24;
 impl IconShape for GoEyeClosed24 {
     fn view_box(&self) -> String {
@@ -7862,6 +8281,7 @@ impl IconShape for GoEyeClosed24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoIdBadge16;
 impl IconShape for GoIdBadge16 {
     fn view_box(&self) -> String {
@@ -7883,6 +8303,7 @@ impl IconShape for GoIdBadge16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDot24;
 impl IconShape for GoDot24 {
     fn view_box(&self) -> String {
@@ -7901,6 +8322,7 @@ impl IconShape for GoDot24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMention16;
 impl IconShape for GoMention16 {
     fn view_box(&self) -> String {
@@ -7919,6 +8341,7 @@ impl IconShape for GoMention16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoShield24;
 impl IconShape for GoShield24 {
     fn view_box(&self) -> String {
@@ -7940,6 +8363,7 @@ impl IconShape for GoShield24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoScreenFull16;
 impl IconShape for GoScreenFull16 {
     fn view_box(&self) -> String {
@@ -7958,6 +8382,7 @@ impl IconShape for GoScreenFull16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTriangleRight24;
 impl IconShape for GoTriangleRight24 {
     fn view_box(&self) -> String {
@@ -7975,6 +8400,7 @@ impl IconShape for GoTriangleRight24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCodeReview24;
 impl IconShape for GoCodeReview24 {
     fn view_box(&self) -> String {
@@ -7996,6 +8422,7 @@ impl IconShape for GoCodeReview24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCloud24;
 impl IconShape for GoCloud24 {
     fn view_box(&self) -> String {
@@ -8014,6 +8441,7 @@ impl IconShape for GoCloud24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBook16;
 impl IconShape for GoBook16 {
     fn view_box(&self) -> String {
@@ -8032,6 +8460,7 @@ impl IconShape for GoBook16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoStopwatch16;
 impl IconShape for GoStopwatch16 {
     fn view_box(&self) -> String {
@@ -8050,6 +8479,7 @@ impl IconShape for GoStopwatch16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDeviceDesktop24;
 impl IconShape for GoDeviceDesktop24 {
     fn view_box(&self) -> String {
@@ -8068,6 +8498,7 @@ impl IconShape for GoDeviceDesktop24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCheckCircleFill16;
 impl IconShape for GoCheckCircleFill16 {
     fn view_box(&self) -> String {
@@ -8086,6 +8517,7 @@ impl IconShape for GoCheckCircleFill16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGear24;
 impl IconShape for GoGear24 {
     fn view_box(&self) -> String {
@@ -8108,6 +8540,7 @@ impl IconShape for GoGear24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoIssueReopened16;
 impl IconShape for GoIssueReopened16 {
     fn view_box(&self) -> String {
@@ -8128,6 +8561,7 @@ impl IconShape for GoIssueReopened16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBlocked16;
 impl IconShape for GoBlocked16 {
     fn view_box(&self) -> String {
@@ -8146,6 +8580,7 @@ impl IconShape for GoBlocked16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoNote24;
 impl IconShape for GoNote24 {
     fn view_box(&self) -> String {
@@ -8168,6 +8603,7 @@ impl IconShape for GoNote24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoChecklist24;
 impl IconShape for GoChecklist24 {
     fn view_box(&self) -> String {
@@ -8188,6 +8624,7 @@ impl IconShape for GoChecklist24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHash16;
 impl IconShape for GoHash16 {
     fn view_box(&self) -> String {
@@ -8206,6 +8643,7 @@ impl IconShape for GoHash16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowDown24;
 impl IconShape for GoArrowDown24 {
     fn view_box(&self) -> String {
@@ -8224,6 +8662,7 @@ impl IconShape for GoArrowDown24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFeedMerged16;
 impl IconShape for GoFeedMerged16 {
     fn view_box(&self) -> String {
@@ -8242,6 +8681,7 @@ impl IconShape for GoFeedMerged16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHeartFill16;
 impl IconShape for GoHeartFill16 {
     fn view_box(&self) -> String {
@@ -8260,6 +8700,7 @@ impl IconShape for GoHeartFill16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSquirrel16;
 impl IconShape for GoSquirrel16 {
     fn view_box(&self) -> String {
@@ -8278,6 +8719,7 @@ impl IconShape for GoSquirrel16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoImage16;
 impl IconShape for GoImage16 {
     fn view_box(&self) -> String {
@@ -8296,6 +8738,7 @@ impl IconShape for GoImage16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCode16;
 impl IconShape for GoCode16 {
     fn view_box(&self) -> String {
@@ -8314,6 +8757,7 @@ impl IconShape for GoCode16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTrash16;
 impl IconShape for GoTrash16 {
     fn view_box(&self) -> String {
@@ -8332,6 +8776,7 @@ impl IconShape for GoTrash16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRepoClone16;
 impl IconShape for GoRepoClone16 {
     fn view_box(&self) -> String {
@@ -8350,6 +8795,7 @@ impl IconShape for GoRepoClone16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRows16;
 impl IconShape for GoRows16 {
     fn view_box(&self) -> String {
@@ -8368,6 +8814,7 @@ impl IconShape for GoRows16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCalendar16;
 impl IconShape for GoCalendar16 {
     fn view_box(&self) -> String {
@@ -8386,6 +8833,7 @@ impl IconShape for GoCalendar16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoKebabHorizontal16;
 impl IconShape for GoKebabHorizontal16 {
     fn view_box(&self) -> String {
@@ -8403,6 +8851,7 @@ impl IconShape for GoKebabHorizontal16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPersonAdd16;
 impl IconShape for GoPersonAdd16 {
     fn view_box(&self) -> String {
@@ -8421,6 +8870,7 @@ impl IconShape for GoPersonAdd16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoStarFill24;
 impl IconShape for GoStarFill24 {
     fn view_box(&self) -> String {
@@ -8439,6 +8889,7 @@ impl IconShape for GoStarFill24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLocation24;
 impl IconShape for GoLocation24 {
     fn view_box(&self) -> String {
@@ -8460,6 +8911,7 @@ impl IconShape for GoLocation24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRepo24;
 impl IconShape for GoRepo24 {
     fn view_box(&self) -> String {
@@ -8481,6 +8933,7 @@ impl IconShape for GoRepo24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCheckCircleFill12;
 impl IconShape for GoCheckCircleFill12 {
     fn view_box(&self) -> String {
@@ -8499,6 +8952,7 @@ impl IconShape for GoCheckCircleFill12 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoShieldCheck16;
 impl IconShape for GoShieldCheck16 {
     fn view_box(&self) -> String {
@@ -8517,6 +8971,7 @@ impl IconShape for GoShieldCheck16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHubot24;
 impl IconShape for GoHubot24 {
     fn view_box(&self) -> String {
@@ -8541,6 +8996,7 @@ impl IconShape for GoHubot24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitBranch24;
 impl IconShape for GoGitBranch24 {
     fn view_box(&self) -> String {
@@ -8567,6 +9023,7 @@ impl IconShape for GoGitBranch24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoStack16;
 impl IconShape for GoStack16 {
     fn view_box(&self) -> String {
@@ -8585,6 +9042,7 @@ impl IconShape for GoStack16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitCompare24;
 impl IconShape for GoGitCompare24 {
     fn view_box(&self) -> String {
@@ -8611,6 +9069,7 @@ impl IconShape for GoGitCompare24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBellSlash24;
 impl IconShape for GoBellSlash24 {
     fn view_box(&self) -> String {
@@ -8632,6 +9091,7 @@ impl IconShape for GoBellSlash24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDatabase24;
 impl IconShape for GoDatabase24 {
     fn view_box(&self) -> String {
@@ -8650,6 +9110,7 @@ impl IconShape for GoDatabase24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoGitPullRequestClosed24;
 impl IconShape for GoGitPullRequestClosed24 {
     fn view_box(&self) -> String {
@@ -8671,6 +9132,7 @@ impl IconShape for GoGitPullRequestClosed24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMail16;
 impl IconShape for GoMail16 {
     fn view_box(&self) -> String {
@@ -8689,6 +9151,7 @@ impl IconShape for GoMail16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoThreeBars16;
 impl IconShape for GoThreeBars16 {
     fn view_box(&self) -> String {
@@ -8707,6 +9170,7 @@ impl IconShape for GoThreeBars16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCodeOfConduct24;
 impl IconShape for GoCodeOfConduct24 {
     fn view_box(&self) -> String {
@@ -8725,6 +9189,7 @@ impl IconShape for GoCodeOfConduct24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoTasklist16;
 impl IconShape for GoTasklist16 {
     fn view_box(&self) -> String {
@@ -8743,6 +9208,7 @@ impl IconShape for GoTasklist16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSingleSelect16;
 impl IconShape for GoSingleSelect16 {
     fn view_box(&self) -> String {
@@ -8764,6 +9230,7 @@ impl IconShape for GoSingleSelect16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoListUnordered24;
 impl IconShape for GoListUnordered24 {
     fn view_box(&self) -> String {
@@ -8782,6 +9249,7 @@ impl IconShape for GoListUnordered24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLinkExternal24;
 impl IconShape for GoLinkExternal24 {
     fn view_box(&self) -> String {
@@ -8802,6 +9270,7 @@ impl IconShape for GoLinkExternal24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHorizontalRule24;
 impl IconShape for GoHorizontalRule24 {
     fn view_box(&self) -> String {
@@ -8820,6 +9289,7 @@ impl IconShape for GoHorizontalRule24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoZap16;
 impl IconShape for GoZap16 {
     fn view_box(&self) -> String {
@@ -8838,6 +9308,7 @@ impl IconShape for GoZap16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoX24;
 impl IconShape for GoX24 {
     fn view_box(&self) -> String {
@@ -8856,6 +9327,7 @@ impl IconShape for GoX24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoLock16;
 impl IconShape for GoLock16 {
     fn view_box(&self) -> String {
@@ -8874,6 +9346,7 @@ impl IconShape for GoLock16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCodescan24;
 impl IconShape for GoCodescan24 {
     fn view_box(&self) -> String {
@@ -8895,6 +9368,7 @@ impl IconShape for GoCodescan24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMirror24;
 impl IconShape for GoMirror24 {
     fn view_box(&self) -> String {
@@ -8913,6 +9387,7 @@ impl IconShape for GoMirror24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCircle16;
 impl IconShape for GoCircle16 {
     fn view_box(&self) -> String {
@@ -8931,6 +9406,7 @@ impl IconShape for GoCircle16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMarkGithub16;
 impl IconShape for GoMarkGithub16 {
     fn view_box(&self) -> String {
@@ -8949,6 +9425,7 @@ impl IconShape for GoMarkGithub16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoEllipsis16;
 impl IconShape for GoEllipsis16 {
     fn view_box(&self) -> String {
@@ -8967,6 +9444,7 @@ impl IconShape for GoEllipsis16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRepoTemplate16;
 impl IconShape for GoRepoTemplate16 {
     fn view_box(&self) -> String {
@@ -8985,6 +9463,7 @@ impl IconShape for GoRepoTemplate16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoBookmark24;
 impl IconShape for GoBookmark24 {
     fn view_box(&self) -> String {
@@ -9003,6 +9482,7 @@ impl IconShape for GoBookmark24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHome16;
 impl IconShape for GoHome16 {
     fn view_box(&self) -> String {
@@ -9021,6 +9501,7 @@ impl IconShape for GoHome16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPerson24;
 impl IconShape for GoPerson24 {
     fn view_box(&self) -> String {
@@ -9039,6 +9520,7 @@ impl IconShape for GoPerson24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHistory24;
 impl IconShape for GoHistory24 {
     fn view_box(&self) -> String {
@@ -9059,6 +9541,7 @@ impl IconShape for GoHistory24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoNumber16;
 impl IconShape for GoNumber16 {
     fn view_box(&self) -> String {
@@ -9077,6 +9560,7 @@ impl IconShape for GoNumber16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoShareAndroid16;
 impl IconShape for GoShareAndroid16 {
     fn view_box(&self) -> String {
@@ -9095,6 +9579,7 @@ impl IconShape for GoShareAndroid16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSidebarCollapse16;
 impl IconShape for GoSidebarCollapse16 {
     fn view_box(&self) -> String {
@@ -9117,6 +9602,7 @@ impl IconShape for GoSidebarCollapse16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoVersions16;
 impl IconShape for GoVersions16 {
     fn view_box(&self) -> String {
@@ -9135,6 +9621,7 @@ impl IconShape for GoVersions16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoContainer24;
 impl IconShape for GoContainer24 {
     fn view_box(&self) -> String {
@@ -9153,6 +9640,7 @@ impl IconShape for GoContainer24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileCode16;
 impl IconShape for GoFileCode16 {
     fn view_box(&self) -> String {
@@ -9171,6 +9659,7 @@ impl IconShape for GoFileCode16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPaste24;
 impl IconShape for GoPaste24 {
     fn view_box(&self) -> String {
@@ -9193,6 +9682,7 @@ impl IconShape for GoPaste24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCopilot24;
 impl IconShape for GoCopilot24 {
     fn view_box(&self) -> String {
@@ -9214,6 +9704,7 @@ impl IconShape for GoCopilot24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoDiff24;
 impl IconShape for GoDiff24 {
     fn view_box(&self) -> String {
@@ -9232,6 +9723,7 @@ impl IconShape for GoDiff24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoSearch16;
 impl IconShape for GoSearch16 {
     fn view_box(&self) -> String {
@@ -9250,6 +9742,7 @@ impl IconShape for GoSearch16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowUpLeft24;
 impl IconShape for GoArrowUpLeft24 {
     fn view_box(&self) -> String {
@@ -9268,6 +9761,7 @@ impl IconShape for GoArrowUpLeft24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoListOrdered16;
 impl IconShape for GoListOrdered16 {
     fn view_box(&self) -> String {
@@ -9286,6 +9780,7 @@ impl IconShape for GoListOrdered16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoRepoDeleted16;
 impl IconShape for GoRepoDeleted16 {
     fn view_box(&self) -> String {
@@ -9306,6 +9801,7 @@ impl IconShape for GoRepoDeleted16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoPulse16;
 impl IconShape for GoPulse16 {
     fn view_box(&self) -> String {
@@ -9324,6 +9820,7 @@ impl IconShape for GoPulse16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoFileBinary24;
 impl IconShape for GoFileBinary24 {
     fn view_box(&self) -> String {
@@ -9349,6 +9846,7 @@ impl IconShape for GoFileBinary24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoArrowBoth24;
 impl IconShape for GoArrowBoth24 {
     fn view_box(&self) -> String {
@@ -9366,6 +9864,7 @@ impl IconShape for GoArrowBoth24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoCodespaces16;
 impl IconShape for GoCodespaces16 {
     fn view_box(&self) -> String {
@@ -9388,6 +9887,7 @@ impl IconShape for GoCodespaces16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoChevronRight16;
 impl IconShape for GoChevronRight16 {
     fn view_box(&self) -> String {
@@ -9406,6 +9906,7 @@ impl IconShape for GoChevronRight16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoColumns24;
 impl IconShape for GoColumns24 {
     fn view_box(&self) -> String {
@@ -9424,6 +9925,7 @@ impl IconShape for GoColumns24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoXCircleFill24;
 impl IconShape for GoXCircleFill24 {
     fn view_box(&self) -> String {
@@ -9442,6 +9944,7 @@ impl IconShape for GoXCircleFill24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoMute24;
 impl IconShape for GoMute24 {
     fn view_box(&self) -> String {
@@ -9463,6 +9966,7 @@ impl IconShape for GoMute24 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoReply16;
 impl IconShape for GoReply16 {
     fn view_box(&self) -> String {
@@ -9481,6 +9985,7 @@ impl IconShape for GoReply16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoHourglass16;
 impl IconShape for GoHourglass16 {
     fn view_box(&self) -> String {
@@ -9499,6 +10004,7 @@ impl IconShape for GoHourglass16 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct GoIssueClosed16;
 impl IconShape for GoIssueClosed16 {
     fn view_box(&self) -> String {
