@@ -1,6 +1,7 @@
 use super::super::IconShape;
 use dioxus::prelude::*;
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiHand;
 impl IconShape for HiHand {
     fn view_box(&self) -> String {
@@ -21,6 +22,7 @@ impl IconShape for HiHand {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiSearch;
 impl IconShape for HiSearch {
     fn view_box(&self) -> String {
@@ -41,6 +43,7 @@ impl IconShape for HiSearch {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowDown;
 impl IconShape for HiArrowDown {
     fn view_box(&self) -> String {
@@ -61,6 +64,7 @@ impl IconShape for HiArrowDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiVolumeOff;
 impl IconShape for HiVolumeOff {
     fn view_box(&self) -> String {
@@ -87,6 +91,7 @@ impl IconShape for HiVolumeOff {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDotsHorizontal;
 impl IconShape for HiDotsHorizontal {
     fn view_box(&self) -> String {
@@ -113,6 +118,7 @@ impl IconShape for HiDotsHorizontal {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiScissors;
 impl IconShape for HiScissors {
     fn view_box(&self) -> String {
@@ -137,6 +143,7 @@ impl IconShape for HiScissors {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCog;
 impl IconShape for HiCog {
     fn view_box(&self) -> String {
@@ -157,6 +164,7 @@ impl IconShape for HiCog {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCurrencyPound;
 impl IconShape for HiCurrencyPound {
     fn view_box(&self) -> String {
@@ -177,6 +185,7 @@ impl IconShape for HiCurrencyPound {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiSortDescending;
 impl IconShape for HiSortDescending {
     fn view_box(&self) -> String {
@@ -207,6 +216,7 @@ impl IconShape for HiSortDescending {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiReply;
 impl IconShape for HiReply {
     fn view_box(&self) -> String {
@@ -227,6 +237,7 @@ impl IconShape for HiReply {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiThumbUp;
 impl IconShape for HiThumbUp {
     fn view_box(&self) -> String {
@@ -249,6 +260,7 @@ impl IconShape for HiThumbUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiTranslate;
 impl IconShape for HiTranslate {
     fn view_box(&self) -> String {
@@ -269,6 +281,7 @@ impl IconShape for HiTranslate {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiAdjustments;
 impl IconShape for HiAdjustments {
     fn view_box(&self) -> String {
@@ -295,6 +308,7 @@ impl IconShape for HiAdjustments {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiUser;
 impl IconShape for HiUser {
     fn view_box(&self) -> String {
@@ -315,6 +329,7 @@ impl IconShape for HiUser {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiViewGrid;
 impl IconShape for HiViewGrid {
     fn view_box(&self) -> String {
@@ -345,6 +360,7 @@ impl IconShape for HiViewGrid {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiReceiptTax;
 impl IconShape for HiReceiptTax {
     fn view_box(&self) -> String {
@@ -365,6 +381,7 @@ impl IconShape for HiReceiptTax {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiXCircle;
 impl IconShape for HiXCircle {
     fn view_box(&self) -> String {
@@ -385,6 +402,7 @@ impl IconShape for HiXCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiViewList;
 impl IconShape for HiViewList {
     fn view_box(&self) -> String {
@@ -405,6 +423,7 @@ impl IconShape for HiViewList {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiHome;
 impl IconShape for HiHome {
     fn view_box(&self) -> String {
@@ -423,6 +442,7 @@ impl IconShape for HiHome {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiGlobeAlt;
 impl IconShape for HiGlobeAlt {
     fn view_box(&self) -> String {
@@ -443,6 +463,7 @@ impl IconShape for HiGlobeAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChevronDoubleRight;
 impl IconShape for HiChevronDoubleRight {
     fn view_box(&self) -> String {
@@ -469,6 +490,7 @@ impl IconShape for HiChevronDoubleRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiLibrary;
 impl IconShape for HiLibrary {
     fn view_box(&self) -> String {
@@ -489,6 +511,7 @@ impl IconShape for HiLibrary {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChevronDown;
 impl IconShape for HiChevronDown {
     fn view_box(&self) -> String {
@@ -509,6 +532,7 @@ impl IconShape for HiChevronDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChevronDoubleLeft;
 impl IconShape for HiChevronDoubleLeft {
     fn view_box(&self) -> String {
@@ -529,6 +553,7 @@ impl IconShape for HiChevronDoubleLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiLogout;
 impl IconShape for HiLogout {
     fn view_box(&self) -> String {
@@ -549,6 +574,7 @@ impl IconShape for HiLogout {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChip;
 impl IconShape for HiChip {
     fn view_box(&self) -> String {
@@ -573,6 +599,7 @@ impl IconShape for HiChip {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiTicket;
 impl IconShape for HiTicket {
     fn view_box(&self) -> String {
@@ -591,6 +618,7 @@ impl IconShape for HiTicket {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiTag;
 impl IconShape for HiTag {
     fn view_box(&self) -> String {
@@ -611,6 +639,7 @@ impl IconShape for HiTag {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiBriefcase;
 impl IconShape for HiBriefcase {
     fn view_box(&self) -> String {
@@ -635,6 +664,7 @@ impl IconShape for HiBriefcase {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowCircleUp;
 impl IconShape for HiArrowCircleUp {
     fn view_box(&self) -> String {
@@ -655,6 +685,7 @@ impl IconShape for HiArrowCircleUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiSaveAs;
 impl IconShape for HiSaveAs {
     fn view_box(&self) -> String {
@@ -681,6 +712,7 @@ impl IconShape for HiSaveAs {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDocumentSearch;
 impl IconShape for HiDocumentSearch {
     fn view_box(&self) -> String {
@@ -705,6 +737,7 @@ impl IconShape for HiDocumentSearch {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMap;
 impl IconShape for HiMap {
     fn view_box(&self) -> String {
@@ -737,6 +770,7 @@ impl IconShape for HiMap {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiInbox;
 impl IconShape for HiInbox {
     fn view_box(&self) -> String {
@@ -757,6 +791,7 @@ impl IconShape for HiInbox {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMicrophone;
 impl IconShape for HiMicrophone {
     fn view_box(&self) -> String {
@@ -777,6 +812,7 @@ impl IconShape for HiMicrophone {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDatabase;
 impl IconShape for HiDatabase {
     fn view_box(&self) -> String {
@@ -803,6 +839,7 @@ impl IconShape for HiDatabase {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPuzzle;
 impl IconShape for HiPuzzle {
     fn view_box(&self) -> String {
@@ -821,6 +858,7 @@ impl IconShape for HiPuzzle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDuplicate;
 impl IconShape for HiDuplicate {
     fn view_box(&self) -> String {
@@ -843,6 +881,7 @@ impl IconShape for HiDuplicate {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiFolderRemove;
 impl IconShape for HiFolderRemove {
     fn view_box(&self) -> String {
@@ -862,6 +901,7 @@ impl IconShape for HiFolderRemove {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiTerminal;
 impl IconShape for HiTerminal {
     fn view_box(&self) -> String {
@@ -882,6 +922,7 @@ impl IconShape for HiTerminal {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiSparkles;
 impl IconShape for HiSparkles {
     fn view_box(&self) -> String {
@@ -908,6 +949,7 @@ impl IconShape for HiSparkles {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChevronUp;
 impl IconShape for HiChevronUp {
     fn view_box(&self) -> String {
@@ -928,6 +970,7 @@ impl IconShape for HiChevronUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiFolderOpen;
 impl IconShape for HiFolderOpen {
     fn view_box(&self) -> String {
@@ -952,6 +995,7 @@ impl IconShape for HiFolderOpen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDocumentAdd;
 impl IconShape for HiDocumentAdd {
     fn view_box(&self) -> String {
@@ -972,6 +1016,7 @@ impl IconShape for HiDocumentAdd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiX;
 impl IconShape for HiX {
     fn view_box(&self) -> String {
@@ -992,6 +1037,7 @@ impl IconShape for HiX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiAtSymbol;
 impl IconShape for HiAtSymbol {
     fn view_box(&self) -> String {
@@ -1012,6 +1058,7 @@ impl IconShape for HiAtSymbol {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiBookmarkAlt;
 impl IconShape for HiBookmarkAlt {
     fn view_box(&self) -> String {
@@ -1032,6 +1079,7 @@ impl IconShape for HiBookmarkAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCloudUpload;
 impl IconShape for HiCloudUpload {
     fn view_box(&self) -> String {
@@ -1054,6 +1102,7 @@ impl IconShape for HiCloudUpload {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiFire;
 impl IconShape for HiFire {
     fn view_box(&self) -> String {
@@ -1074,6 +1123,7 @@ impl IconShape for HiFire {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiBan;
 impl IconShape for HiBan {
     fn view_box(&self) -> String {
@@ -1094,6 +1144,7 @@ impl IconShape for HiBan {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiShoppingBag;
 impl IconShape for HiShoppingBag {
     fn view_box(&self) -> String {
@@ -1114,6 +1165,7 @@ impl IconShape for HiShoppingBag {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChatAlt2;
 impl IconShape for HiChatAlt2 {
     fn view_box(&self) -> String {
@@ -1136,6 +1188,7 @@ impl IconShape for HiChatAlt2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowSmUp;
 impl IconShape for HiArrowSmUp {
     fn view_box(&self) -> String {
@@ -1156,6 +1209,7 @@ impl IconShape for HiArrowSmUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChevronRight;
 impl IconShape for HiChevronRight {
     fn view_box(&self) -> String {
@@ -1176,6 +1230,7 @@ impl IconShape for HiChevronRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiClipboard;
 impl IconShape for HiClipboard {
     fn view_box(&self) -> String {
@@ -1198,6 +1253,7 @@ impl IconShape for HiClipboard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiLink;
 impl IconShape for HiLink {
     fn view_box(&self) -> String {
@@ -1218,6 +1274,7 @@ impl IconShape for HiLink {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiKey;
 impl IconShape for HiKey {
     fn view_box(&self) -> String {
@@ -1238,6 +1295,7 @@ impl IconShape for HiKey {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiBeaker;
 impl IconShape for HiBeaker {
     fn view_box(&self) -> String {
@@ -1258,6 +1316,7 @@ impl IconShape for HiBeaker {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowRight;
 impl IconShape for HiArrowRight {
     fn view_box(&self) -> String {
@@ -1278,6 +1337,7 @@ impl IconShape for HiArrowRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiSelector;
 impl IconShape for HiSelector {
     fn view_box(&self) -> String {
@@ -1298,6 +1358,7 @@ impl IconShape for HiSelector {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiQrcode;
 impl IconShape for HiQrcode {
     fn view_box(&self) -> String {
@@ -1358,6 +1419,7 @@ impl IconShape for HiQrcode {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCurrencyRupee;
 impl IconShape for HiCurrencyRupee {
     fn view_box(&self) -> String {
@@ -1378,6 +1440,7 @@ impl IconShape for HiCurrencyRupee {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMenuAlt4;
 impl IconShape for HiMenuAlt4 {
     fn view_box(&self) -> String {
@@ -1404,6 +1467,7 @@ impl IconShape for HiMenuAlt4 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPaperClip;
 impl IconShape for HiPaperClip {
     fn view_box(&self) -> String {
@@ -1424,6 +1488,7 @@ impl IconShape for HiPaperClip {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArchive;
 impl IconShape for HiArchive {
     fn view_box(&self) -> String {
@@ -1448,6 +1513,7 @@ impl IconShape for HiArchive {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPhoneOutgoing;
 impl IconShape for HiPhoneOutgoing {
     fn view_box(&self) -> String {
@@ -1470,6 +1536,7 @@ impl IconShape for HiPhoneOutgoing {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMail;
 impl IconShape for HiMail {
     fn view_box(&self) -> String {
@@ -1492,6 +1559,7 @@ impl IconShape for HiMail {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCurrencyBangladeshi;
 impl IconShape for HiCurrencyBangladeshi {
     fn view_box(&self) -> String {
@@ -1512,6 +1580,7 @@ impl IconShape for HiCurrencyBangladeshi {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDownload;
 impl IconShape for HiDownload {
     fn view_box(&self) -> String {
@@ -1532,6 +1601,7 @@ impl IconShape for HiDownload {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChatAlt;
 impl IconShape for HiChatAlt {
     fn view_box(&self) -> String {
@@ -1552,6 +1622,7 @@ impl IconShape for HiChatAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiBookOpen;
 impl IconShape for HiBookOpen {
     fn view_box(&self) -> String {
@@ -1570,6 +1641,7 @@ impl IconShape for HiBookOpen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiLocationMarker;
 impl IconShape for HiLocationMarker {
     fn view_box(&self) -> String {
@@ -1590,6 +1662,7 @@ impl IconShape for HiLocationMarker {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowSmDown;
 impl IconShape for HiArrowSmDown {
     fn view_box(&self) -> String {
@@ -1610,6 +1683,7 @@ impl IconShape for HiArrowSmDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiServer;
 impl IconShape for HiServer {
     fn view_box(&self) -> String {
@@ -1636,6 +1710,7 @@ impl IconShape for HiServer {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPlusSm;
 impl IconShape for HiPlusSm {
     fn view_box(&self) -> String {
@@ -1656,6 +1731,7 @@ impl IconShape for HiPlusSm {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiInboxIn;
 impl IconShape for HiInboxIn {
     fn view_box(&self) -> String {
@@ -1678,6 +1754,7 @@ impl IconShape for HiInboxIn {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowNarrowLeft;
 impl IconShape for HiArrowNarrowLeft {
     fn view_box(&self) -> String {
@@ -1698,6 +1775,7 @@ impl IconShape for HiArrowNarrowLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiLogin;
 impl IconShape for HiLogin {
     fn view_box(&self) -> String {
@@ -1718,6 +1796,7 @@ impl IconShape for HiLogin {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiVariable;
 impl IconShape for HiVariable {
     fn view_box(&self) -> String {
@@ -1738,6 +1817,7 @@ impl IconShape for HiVariable {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMenuAlt1;
 impl IconShape for HiMenuAlt1 {
     fn view_box(&self) -> String {
@@ -1770,6 +1850,7 @@ impl IconShape for HiMenuAlt1 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiBell;
 impl IconShape for HiBell {
     fn view_box(&self) -> String {
@@ -1792,6 +1873,7 @@ impl IconShape for HiBell {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCode;
 impl IconShape for HiCode {
     fn view_box(&self) -> String {
@@ -1812,6 +1894,7 @@ impl IconShape for HiCode {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCake;
 impl IconShape for HiCake {
     fn view_box(&self) -> String {
@@ -1832,6 +1915,7 @@ impl IconShape for HiCake {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowNarrowUp;
 impl IconShape for HiArrowNarrowUp {
     fn view_box(&self) -> String {
@@ -1852,6 +1936,7 @@ impl IconShape for HiArrowNarrowUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiFlag;
 impl IconShape for HiFlag {
     fn view_box(&self) -> String {
@@ -1872,6 +1957,7 @@ impl IconShape for HiFlag {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiEyeOff;
 impl IconShape for HiEyeOff {
     fn view_box(&self) -> String {
@@ -1896,6 +1982,7 @@ impl IconShape for HiEyeOff {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiStop;
 impl IconShape for HiStop {
     fn view_box(&self) -> String {
@@ -1916,6 +2003,7 @@ impl IconShape for HiStop {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowCircleLeft;
 impl IconShape for HiArrowCircleLeft {
     fn view_box(&self) -> String {
@@ -1936,6 +2024,7 @@ impl IconShape for HiArrowCircleLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiNewspaper;
 impl IconShape for HiNewspaper {
     fn view_box(&self) -> String {
@@ -1960,6 +2049,7 @@ impl IconShape for HiNewspaper {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCube;
 impl IconShape for HiCube {
     fn view_box(&self) -> String {
@@ -1986,6 +2076,7 @@ impl IconShape for HiCube {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiEmojiHappy;
 impl IconShape for HiEmojiHappy {
     fn view_box(&self) -> String {
@@ -2006,6 +2097,7 @@ impl IconShape for HiEmojiHappy {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMinusSm;
 impl IconShape for HiMinusSm {
     fn view_box(&self) -> String {
@@ -2026,6 +2118,7 @@ impl IconShape for HiMinusSm {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDotsCircleHorizontal;
 impl IconShape for HiDotsCircleHorizontal {
     fn view_box(&self) -> String {
@@ -2046,6 +2139,7 @@ impl IconShape for HiDotsCircleHorizontal {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiSupport;
 impl IconShape for HiSupport {
     fn view_box(&self) -> String {
@@ -2066,6 +2160,7 @@ impl IconShape for HiSupport {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiClipboardList;
 impl IconShape for HiClipboardList {
     fn view_box(&self) -> String {
@@ -2090,6 +2185,7 @@ impl IconShape for HiClipboardList {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiUserRemove;
 impl IconShape for HiUserRemove {
     fn view_box(&self) -> String {
@@ -2116,6 +2212,7 @@ impl IconShape for HiUserRemove {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPlus;
 impl IconShape for HiPlus {
     fn view_box(&self) -> String {
@@ -2136,6 +2233,7 @@ impl IconShape for HiPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDocument;
 impl IconShape for HiDocument {
     fn view_box(&self) -> String {
@@ -2156,6 +2254,7 @@ impl IconShape for HiDocument {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMusicNote;
 impl IconShape for HiMusicNote {
     fn view_box(&self) -> String {
@@ -2174,6 +2273,7 @@ impl IconShape for HiMusicNote {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCheck;
 impl IconShape for HiCheck {
     fn view_box(&self) -> String {
@@ -2194,6 +2294,7 @@ impl IconShape for HiCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMenuAlt2;
 impl IconShape for HiMenuAlt2 {
     fn view_box(&self) -> String {
@@ -2226,6 +2327,7 @@ impl IconShape for HiMenuAlt2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiViewBoards;
 impl IconShape for HiViewBoards {
     fn view_box(&self) -> String {
@@ -2252,6 +2354,7 @@ impl IconShape for HiViewBoards {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiRss;
 impl IconShape for HiRss {
     fn view_box(&self) -> String {
@@ -2278,6 +2381,7 @@ impl IconShape for HiRss {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiWifi;
 impl IconShape for HiWifi {
     fn view_box(&self) -> String {
@@ -2298,6 +2402,7 @@ impl IconShape for HiWifi {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMenuAlt3;
 impl IconShape for HiMenuAlt3 {
     fn view_box(&self) -> String {
@@ -2330,6 +2435,7 @@ impl IconShape for HiMenuAlt3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiScale;
 impl IconShape for HiScale {
     fn view_box(&self) -> String {
@@ -2350,6 +2456,7 @@ impl IconShape for HiScale {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowCircleRight;
 impl IconShape for HiArrowCircleRight {
     fn view_box(&self) -> String {
@@ -2370,6 +2477,7 @@ impl IconShape for HiArrowCircleRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiUserAdd;
 impl IconShape for HiUserAdd {
     fn view_box(&self) -> String {
@@ -2396,6 +2504,7 @@ impl IconShape for HiUserAdd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowSmLeft;
 impl IconShape for HiArrowSmLeft {
     fn view_box(&self) -> String {
@@ -2416,6 +2525,7 @@ impl IconShape for HiArrowSmLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiZoomIn;
 impl IconShape for HiZoomIn {
     fn view_box(&self) -> String {
@@ -2440,6 +2550,7 @@ impl IconShape for HiZoomIn {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowSmRight;
 impl IconShape for HiArrowSmRight {
     fn view_box(&self) -> String {
@@ -2460,6 +2571,7 @@ impl IconShape for HiArrowSmRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCubeTransparent;
 impl IconShape for HiCubeTransparent {
     fn view_box(&self) -> String {
@@ -2480,6 +2592,7 @@ impl IconShape for HiCubeTransparent {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiRefresh;
 impl IconShape for HiRefresh {
     fn view_box(&self) -> String {
@@ -2500,6 +2613,7 @@ impl IconShape for HiRefresh {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCheckCircle;
 impl IconShape for HiCheckCircle {
     fn view_box(&self) -> String {
@@ -2520,6 +2634,7 @@ impl IconShape for HiCheckCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiThumbDown;
 impl IconShape for HiThumbDown {
     fn view_box(&self) -> String {
@@ -2542,6 +2657,7 @@ impl IconShape for HiThumbDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDeviceTablet;
 impl IconShape for HiDeviceTablet {
     fn view_box(&self) -> String {
@@ -2562,6 +2678,7 @@ impl IconShape for HiDeviceTablet {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiSave;
 impl IconShape for HiSave {
     fn view_box(&self) -> String {
@@ -2584,6 +2701,7 @@ impl IconShape for HiSave {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiStatusOnline;
 impl IconShape for HiStatusOnline {
     fn view_box(&self) -> String {
@@ -2604,6 +2722,7 @@ impl IconShape for HiStatusOnline {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPaperAirplane;
 impl IconShape for HiPaperAirplane {
     fn view_box(&self) -> String {
@@ -2622,6 +2741,7 @@ impl IconShape for HiPaperAirplane {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiShieldExclamation;
 impl IconShape for HiShieldExclamation {
     fn view_box(&self) -> String {
@@ -2642,6 +2762,7 @@ impl IconShape for HiShieldExclamation {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiFastForward;
 impl IconShape for HiFastForward {
     fn view_box(&self) -> String {
@@ -2660,6 +2781,7 @@ impl IconShape for HiFastForward {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCurrencyYen;
 impl IconShape for HiCurrencyYen {
     fn view_box(&self) -> String {
@@ -2680,6 +2802,7 @@ impl IconShape for HiCurrencyYen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiZoomOut;
 impl IconShape for HiZoomOut {
     fn view_box(&self) -> String {
@@ -2706,6 +2829,7 @@ impl IconShape for HiZoomOut {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPlay;
 impl IconShape for HiPlay {
     fn view_box(&self) -> String {
@@ -2726,6 +2850,7 @@ impl IconShape for HiPlay {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChat;
 impl IconShape for HiChat {
     fn view_box(&self) -> String {
@@ -2746,6 +2871,7 @@ impl IconShape for HiChat {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPencilAlt;
 impl IconShape for HiPencilAlt {
     fn view_box(&self) -> String {
@@ -2770,6 +2896,7 @@ impl IconShape for HiPencilAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCursorClick;
 impl IconShape for HiCursorClick {
     fn view_box(&self) -> String {
@@ -2790,6 +2917,7 @@ impl IconShape for HiCursorClick {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiTable;
 impl IconShape for HiTable {
     fn view_box(&self) -> String {
@@ -2810,6 +2938,7 @@ impl IconShape for HiTable {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiBadgeCheck;
 impl IconShape for HiBadgeCheck {
     fn view_box(&self) -> String {
@@ -2830,6 +2959,7 @@ impl IconShape for HiBadgeCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDocumentText;
 impl IconShape for HiDocumentText {
     fn view_box(&self) -> String {
@@ -2850,6 +2980,7 @@ impl IconShape for HiDocumentText {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCamera;
 impl IconShape for HiCamera {
     fn view_box(&self) -> String {
@@ -2870,6 +3001,7 @@ impl IconShape for HiCamera {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPrinter;
 impl IconShape for HiPrinter {
     fn view_box(&self) -> String {
@@ -2890,6 +3022,7 @@ impl IconShape for HiPrinter {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiTruck;
 impl IconShape for HiTruck {
     fn view_box(&self) -> String {
@@ -2920,6 +3053,7 @@ impl IconShape for HiTruck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiIdentification;
 impl IconShape for HiIdentification {
     fn view_box(&self) -> String {
@@ -2940,6 +3074,7 @@ impl IconShape for HiIdentification {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDeviceMobile;
 impl IconShape for HiDeviceMobile {
     fn view_box(&self) -> String {
@@ -2960,6 +3095,7 @@ impl IconShape for HiDeviceMobile {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDocumentReport;
 impl IconShape for HiDocumentReport {
     fn view_box(&self) -> String {
@@ -2980,6 +3116,7 @@ impl IconShape for HiDocumentReport {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDocumentDownload;
 impl IconShape for HiDocumentDownload {
     fn view_box(&self) -> String {
@@ -3000,6 +3137,7 @@ impl IconShape for HiDocumentDownload {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiEmojiSad;
 impl IconShape for HiEmojiSad {
     fn view_box(&self) -> String {
@@ -3020,6 +3158,7 @@ impl IconShape for HiEmojiSad {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiExclamationCircle;
 impl IconShape for HiExclamationCircle {
     fn view_box(&self) -> String {
@@ -3040,6 +3179,7 @@ impl IconShape for HiExclamationCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCurrencyEuro;
 impl IconShape for HiCurrencyEuro {
     fn view_box(&self) -> String {
@@ -3060,6 +3200,7 @@ impl IconShape for HiCurrencyEuro {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowsExpand;
 impl IconShape for HiArrowsExpand {
     fn view_box(&self) -> String {
@@ -3080,6 +3221,7 @@ impl IconShape for HiArrowsExpand {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiTrash;
 impl IconShape for HiTrash {
     fn view_box(&self) -> String {
@@ -3100,6 +3242,7 @@ impl IconShape for HiTrash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChartBar;
 impl IconShape for HiChartBar {
     fn view_box(&self) -> String {
@@ -3126,6 +3269,7 @@ impl IconShape for HiChartBar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiViewGridAdd;
 impl IconShape for HiViewGridAdd {
     fn view_box(&self) -> String {
@@ -3156,6 +3300,7 @@ impl IconShape for HiViewGridAdd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiSwitchHorizontal;
 impl IconShape for HiSwitchHorizontal {
     fn view_box(&self) -> String {
@@ -3178,6 +3323,7 @@ impl IconShape for HiSwitchHorizontal {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiVolumeUp;
 impl IconShape for HiVolumeUp {
     fn view_box(&self) -> String {
@@ -3204,6 +3350,7 @@ impl IconShape for HiVolumeUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiHashtag;
 impl IconShape for HiHashtag {
     fn view_box(&self) -> String {
@@ -3224,6 +3371,7 @@ impl IconShape for HiHashtag {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPresentationChartLine;
 impl IconShape for HiPresentationChartLine {
     fn view_box(&self) -> String {
@@ -3244,6 +3392,7 @@ impl IconShape for HiPresentationChartLine {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiTemplate;
 impl IconShape for HiTemplate {
     fn view_box(&self) -> String {
@@ -3270,6 +3419,7 @@ impl IconShape for HiTemplate {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiStar;
 impl IconShape for HiStar {
     fn view_box(&self) -> String {
@@ -3288,6 +3438,7 @@ impl IconShape for HiStar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiSun;
 impl IconShape for HiSun {
     fn view_box(&self) -> String {
@@ -3308,6 +3459,7 @@ impl IconShape for HiSun {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiReceiptRefund;
 impl IconShape for HiReceiptRefund {
     fn view_box(&self) -> String {
@@ -3328,6 +3480,7 @@ impl IconShape for HiReceiptRefund {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowCircleDown;
 impl IconShape for HiArrowCircleDown {
     fn view_box(&self) -> String {
@@ -3348,6 +3501,7 @@ impl IconShape for HiArrowCircleDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiFolderDownload;
 impl IconShape for HiFolderDownload {
     fn view_box(&self) -> String {
@@ -3367,6 +3521,7 @@ impl IconShape for HiFolderDownload {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChartPie;
 impl IconShape for HiChartPie {
     fn view_box(&self) -> String {
@@ -3389,6 +3544,7 @@ impl IconShape for HiChartPie {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCash;
 impl IconShape for HiCash {
     fn view_box(&self) -> String {
@@ -3409,6 +3565,7 @@ impl IconShape for HiCash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMailOpen;
 impl IconShape for HiMailOpen {
     fn view_box(&self) -> String {
@@ -3429,6 +3586,7 @@ impl IconShape for HiMailOpen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCollection;
 impl IconShape for HiCollection {
     fn view_box(&self) -> String {
@@ -3455,6 +3613,7 @@ impl IconShape for HiCollection {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiSearchCircle;
 impl IconShape for HiSearchCircle {
     fn view_box(&self) -> String {
@@ -3479,6 +3638,7 @@ impl IconShape for HiSearchCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPlusCircle;
 impl IconShape for HiPlusCircle {
     fn view_box(&self) -> String {
@@ -3499,6 +3659,7 @@ impl IconShape for HiPlusCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowNarrowDown;
 impl IconShape for HiArrowNarrowDown {
     fn view_box(&self) -> String {
@@ -3519,6 +3680,7 @@ impl IconShape for HiArrowNarrowDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiInformationCircle;
 impl IconShape for HiInformationCircle {
     fn view_box(&self) -> String {
@@ -3539,6 +3701,7 @@ impl IconShape for HiInformationCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCreditCard;
 impl IconShape for HiCreditCard {
     fn view_box(&self) -> String {
@@ -3563,6 +3726,7 @@ impl IconShape for HiCreditCard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiUserCircle;
 impl IconShape for HiUserCircle {
     fn view_box(&self) -> String {
@@ -3583,6 +3747,7 @@ impl IconShape for HiUserCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiLightningBolt;
 impl IconShape for HiLightningBolt {
     fn view_box(&self) -> String {
@@ -3603,6 +3768,7 @@ impl IconShape for HiLightningBolt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiOfficeBuilding;
 impl IconShape for HiOfficeBuilding {
     fn view_box(&self) -> String {
@@ -3623,6 +3789,7 @@ impl IconShape for HiOfficeBuilding {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPencil;
 impl IconShape for HiPencil {
     fn view_box(&self) -> String {
@@ -3645,6 +3812,7 @@ impl IconShape for HiPencil {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiStatusOffline;
 impl IconShape for HiStatusOffline {
     fn view_box(&self) -> String {
@@ -3671,6 +3839,7 @@ impl IconShape for HiStatusOffline {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiUserGroup;
 impl IconShape for HiUserGroup {
     fn view_box(&self) -> String {
@@ -3709,6 +3878,7 @@ impl IconShape for HiUserGroup {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDocumentDuplicate;
 impl IconShape for HiDocumentDuplicate {
     fn view_box(&self) -> String {
@@ -3731,6 +3901,7 @@ impl IconShape for HiDocumentDuplicate {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiClock;
 impl IconShape for HiClock {
     fn view_box(&self) -> String {
@@ -3751,6 +3922,7 @@ impl IconShape for HiClock {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPhone;
 impl IconShape for HiPhone {
     fn view_box(&self) -> String {
@@ -3769,6 +3941,7 @@ impl IconShape for HiPhone {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiEye;
 impl IconShape for HiEye {
     fn view_box(&self) -> String {
@@ -3793,6 +3966,7 @@ impl IconShape for HiEye {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiLightBulb;
 impl IconShape for HiLightBulb {
     fn view_box(&self) -> String {
@@ -3835,6 +4009,7 @@ impl IconShape for HiLightBulb {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPhoneMissedCall;
 impl IconShape for HiPhoneMissedCall {
     fn view_box(&self) -> String {
@@ -3857,6 +4032,7 @@ impl IconShape for HiPhoneMissedCall {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiGift;
 impl IconShape for HiGift {
     fn view_box(&self) -> String {
@@ -3885,6 +4061,7 @@ impl IconShape for HiGift {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiExternalLink;
 impl IconShape for HiExternalLink {
     fn view_box(&self) -> String {
@@ -3907,6 +4084,7 @@ impl IconShape for HiExternalLink {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiQuestionMarkCircle;
 impl IconShape for HiQuestionMarkCircle {
     fn view_box(&self) -> String {
@@ -3927,6 +4105,7 @@ impl IconShape for HiQuestionMarkCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiShare;
 impl IconShape for HiShare {
     fn view_box(&self) -> String {
@@ -3945,6 +4124,7 @@ impl IconShape for HiShare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowUp;
 impl IconShape for HiArrowUp {
     fn view_box(&self) -> String {
@@ -3965,6 +4145,7 @@ impl IconShape for HiArrowUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiFolderAdd;
 impl IconShape for HiFolderAdd {
     fn view_box(&self) -> String {
@@ -3984,6 +4165,7 @@ impl IconShape for HiFolderAdd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiFilter;
 impl IconShape for HiFilter {
     fn view_box(&self) -> String {
@@ -4004,6 +4186,7 @@ impl IconShape for HiFilter {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowNarrowRight;
 impl IconShape for HiArrowNarrowRight {
     fn view_box(&self) -> String {
@@ -4024,6 +4207,7 @@ impl IconShape for HiArrowNarrowRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPhoneIncoming;
 impl IconShape for HiPhoneIncoming {
     fn view_box(&self) -> String {
@@ -4046,6 +4230,7 @@ impl IconShape for HiPhoneIncoming {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPhotograph;
 impl IconShape for HiPhotograph {
     fn view_box(&self) -> String {
@@ -4066,6 +4251,7 @@ impl IconShape for HiPhotograph {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCalendar;
 impl IconShape for HiCalendar {
     fn view_box(&self) -> String {
@@ -4086,6 +4272,7 @@ impl IconShape for HiCalendar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiVideoCamera;
 impl IconShape for HiVideoCamera {
     fn view_box(&self) -> String {
@@ -4108,6 +4295,7 @@ impl IconShape for HiVideoCamera {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiGlobe;
 impl IconShape for HiGlobe {
     fn view_box(&self) -> String {
@@ -4128,6 +4316,7 @@ impl IconShape for HiGlobe {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiArrowLeft;
 impl IconShape for HiArrowLeft {
     fn view_box(&self) -> String {
@@ -4148,6 +4337,7 @@ impl IconShape for HiArrowLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMinusCircle;
 impl IconShape for HiMinusCircle {
     fn view_box(&self) -> String {
@@ -4168,6 +4358,7 @@ impl IconShape for HiMinusCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDesktopComputer;
 impl IconShape for HiDesktopComputer {
     fn view_box(&self) -> String {
@@ -4188,6 +4379,7 @@ impl IconShape for HiDesktopComputer {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiLockClosed;
 impl IconShape for HiLockClosed {
     fn view_box(&self) -> String {
@@ -4208,6 +4400,7 @@ impl IconShape for HiLockClosed {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiFingerPrint;
 impl IconShape for HiFingerPrint {
     fn view_box(&self) -> String {
@@ -4240,6 +4433,7 @@ impl IconShape for HiFingerPrint {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCloud;
 impl IconShape for HiCloud {
     fn view_box(&self) -> String {
@@ -4258,6 +4452,7 @@ impl IconShape for HiCloud {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDocumentRemove;
 impl IconShape for HiDocumentRemove {
     fn view_box(&self) -> String {
@@ -4278,6 +4473,7 @@ impl IconShape for HiDocumentRemove {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiRewind;
 impl IconShape for HiRewind {
     fn view_box(&self) -> String {
@@ -4296,6 +4492,7 @@ impl IconShape for HiRewind {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiSpeakerphone;
 impl IconShape for HiSpeakerphone {
     fn view_box(&self) -> String {
@@ -4316,6 +4513,7 @@ impl IconShape for HiSpeakerphone {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiUpload;
 impl IconShape for HiUpload {
     fn view_box(&self) -> String {
@@ -4336,6 +4534,7 @@ impl IconShape for HiUpload {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiTrendingDown;
 impl IconShape for HiTrendingDown {
     fn view_box(&self) -> String {
@@ -4356,6 +4555,7 @@ impl IconShape for HiTrendingDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPause;
 impl IconShape for HiPause {
     fn view_box(&self) -> String {
@@ -4376,6 +4576,7 @@ impl IconShape for HiPause {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiBookmark;
 impl IconShape for HiBookmark {
     fn view_box(&self) -> String {
@@ -4394,6 +4595,7 @@ impl IconShape for HiBookmark {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiSwitchVertical;
 impl IconShape for HiSwitchVertical {
     fn view_box(&self) -> String {
@@ -4416,6 +4618,7 @@ impl IconShape for HiSwitchVertical {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCurrencyDollar;
 impl IconShape for HiCurrencyDollar {
     fn view_box(&self) -> String {
@@ -4444,6 +4647,7 @@ impl IconShape for HiCurrencyDollar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCloudDownload;
 impl IconShape for HiCloudDownload {
     fn view_box(&self) -> String {
@@ -4464,6 +4668,7 @@ impl IconShape for HiCloudDownload {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiLockOpen;
 impl IconShape for HiLockOpen {
     fn view_box(&self) -> String {
@@ -4482,6 +4687,7 @@ impl IconShape for HiLockOpen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMenu;
 impl IconShape for HiMenu {
     fn view_box(&self) -> String {
@@ -4514,6 +4720,7 @@ impl IconShape for HiMenu {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiBackspace;
 impl IconShape for HiBackspace {
     fn view_box(&self) -> String {
@@ -4534,6 +4741,7 @@ impl IconShape for HiBackspace {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiShoppingCart;
 impl IconShape for HiShoppingCart {
     fn view_box(&self) -> String {
@@ -4560,6 +4768,7 @@ impl IconShape for HiShoppingCart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiSortAscending;
 impl IconShape for HiSortAscending {
     fn view_box(&self) -> String {
@@ -4590,6 +4799,7 @@ impl IconShape for HiSortAscending {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiCalculator;
 impl IconShape for HiCalculator {
     fn view_box(&self) -> String {
@@ -4610,6 +4820,7 @@ impl IconShape for HiCalculator {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChartSquareBar;
 impl IconShape for HiChartSquareBar {
     fn view_box(&self) -> String {
@@ -4630,6 +4841,7 @@ impl IconShape for HiChartSquareBar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiShieldCheck;
 impl IconShape for HiShieldCheck {
     fn view_box(&self) -> String {
@@ -4650,6 +4862,7 @@ impl IconShape for HiShieldCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiClipboardCopy;
 impl IconShape for HiClipboardCopy {
     fn view_box(&self) -> String {
@@ -4676,6 +4889,7 @@ impl IconShape for HiClipboardCopy {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiPresentationChartBar;
 impl IconShape for HiPresentationChartBar {
     fn view_box(&self) -> String {
@@ -4696,6 +4910,7 @@ impl IconShape for HiPresentationChartBar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiFolder;
 impl IconShape for HiFolder {
     fn view_box(&self) -> String {
@@ -4714,6 +4929,7 @@ impl IconShape for HiFolder {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiUsers;
 impl IconShape for HiUsers {
     fn view_box(&self) -> String {
@@ -4744,6 +4960,7 @@ impl IconShape for HiUsers {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiColorSwatch;
 impl IconShape for HiColorSwatch {
     fn view_box(&self) -> String {
@@ -4764,6 +4981,7 @@ impl IconShape for HiColorSwatch {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiClipboardCheck;
 impl IconShape for HiClipboardCheck {
     fn view_box(&self) -> String {
@@ -4788,6 +5006,7 @@ impl IconShape for HiClipboardCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMinus;
 impl IconShape for HiMinus {
     fn view_box(&self) -> String {
@@ -4808,6 +5027,7 @@ impl IconShape for HiMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChevronDoubleDown;
 impl IconShape for HiChevronDoubleDown {
     fn view_box(&self) -> String {
@@ -4828,6 +5048,7 @@ impl IconShape for HiChevronDoubleDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChevronLeft;
 impl IconShape for HiChevronLeft {
     fn view_box(&self) -> String {
@@ -4848,6 +5069,7 @@ impl IconShape for HiChevronLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiAnnotation;
 impl IconShape for HiAnnotation {
     fn view_box(&self) -> String {
@@ -4868,6 +5090,7 @@ impl IconShape for HiAnnotation {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiFilm;
 impl IconShape for HiFilm {
     fn view_box(&self) -> String {
@@ -4888,6 +5111,7 @@ impl IconShape for HiFilm {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiMoon;
 impl IconShape for HiMoon {
     fn view_box(&self) -> String {
@@ -4906,6 +5130,7 @@ impl IconShape for HiMoon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiExclamation;
 impl IconShape for HiExclamation {
     fn view_box(&self) -> String {
@@ -4926,6 +5151,7 @@ impl IconShape for HiExclamation {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiDotsVertical;
 impl IconShape for HiDotsVertical {
     fn view_box(&self) -> String {
@@ -4952,6 +5178,7 @@ impl IconShape for HiDotsVertical {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiChevronDoubleUp;
 impl IconShape for HiChevronDoubleUp {
     fn view_box(&self) -> String {
@@ -4972,6 +5199,7 @@ impl IconShape for HiChevronDoubleUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiHeart;
 impl IconShape for HiHeart {
     fn view_box(&self) -> String {
@@ -4992,6 +5220,7 @@ impl IconShape for HiHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiTrendingUp;
 impl IconShape for HiTrendingUp {
     fn view_box(&self) -> String {
@@ -5012,6 +5241,7 @@ impl IconShape for HiTrendingUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct HiAcademicCap;
 impl IconShape for HiAcademicCap {
     fn view_box(&self) -> String {

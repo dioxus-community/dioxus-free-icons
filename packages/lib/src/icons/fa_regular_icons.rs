@@ -1,6 +1,7 @@
 use super::super::IconShape;
 use dioxus::prelude::*;
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCommentDots;
 impl IconShape for FaCommentDots {
     fn view_box(&self) -> String {
@@ -18,6 +19,7 @@ impl IconShape for FaCommentDots {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFileZipper;
 impl IconShape for FaFileZipper {
     fn view_box(&self) -> String {
@@ -35,6 +37,7 @@ impl IconShape for FaFileZipper {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHand;
 impl IconShape for FaHand {
     fn view_box(&self) -> String {
@@ -52,6 +55,7 @@ impl IconShape for FaHand {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaClone;
 impl IconShape for FaClone {
     fn view_box(&self) -> String {
@@ -69,6 +73,7 @@ impl IconShape for FaClone {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFileExcel;
 impl IconShape for FaFileExcel {
     fn view_box(&self) -> String {
@@ -86,6 +91,7 @@ impl IconShape for FaFileExcel {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaTrashCan;
 impl IconShape for FaTrashCan {
     fn view_box(&self) -> String {
@@ -103,6 +109,7 @@ impl IconShape for FaTrashCan {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrinTongueWink;
 impl IconShape for FaFaceGrinTongueWink {
     fn view_box(&self) -> String {
@@ -120,6 +127,7 @@ impl IconShape for FaFaceGrinTongueWink {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHourglass;
 impl IconShape for FaHourglass {
     fn view_box(&self) -> String {
@@ -137,6 +145,7 @@ impl IconShape for FaHourglass {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaChessRook;
 impl IconShape for FaChessRook {
     fn view_box(&self) -> String {
@@ -154,6 +163,7 @@ impl IconShape for FaChessRook {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrimace;
 impl IconShape for FaFaceGrimace {
     fn view_box(&self) -> String {
@@ -171,6 +181,7 @@ impl IconShape for FaFaceGrimace {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaChessKnight;
 impl IconShape for FaChessKnight {
     fn view_box(&self) -> String {
@@ -188,6 +199,7 @@ impl IconShape for FaChessKnight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaUser;
 impl IconShape for FaUser {
     fn view_box(&self) -> String {
@@ -205,6 +217,7 @@ impl IconShape for FaUser {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaIdBadge;
 impl IconShape for FaIdBadge {
     fn view_box(&self) -> String {
@@ -222,6 +235,7 @@ impl IconShape for FaIdBadge {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCircle;
 impl IconShape for FaCircle {
     fn view_box(&self) -> String {
@@ -239,6 +253,7 @@ impl IconShape for FaCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCopyright;
 impl IconShape for FaCopyright {
     fn view_box(&self) -> String {
@@ -256,6 +271,7 @@ impl IconShape for FaCopyright {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaSquareCaretDown;
 impl IconShape for FaSquareCaretDown {
     fn view_box(&self) -> String {
@@ -273,6 +289,7 @@ impl IconShape for FaSquareCaretDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHandPointRight;
 impl IconShape for FaHandPointRight {
     fn view_box(&self) -> String {
@@ -290,6 +307,7 @@ impl IconShape for FaHandPointRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceLaugh;
 impl IconShape for FaFaceLaugh {
     fn view_box(&self) -> String {
@@ -307,6 +325,7 @@ impl IconShape for FaFaceLaugh {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaMoneyBill1;
 impl IconShape for FaMoneyBill1 {
     fn view_box(&self) -> String {
@@ -324,6 +343,7 @@ impl IconShape for FaMoneyBill1 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFileWord;
 impl IconShape for FaFileWord {
     fn view_box(&self) -> String {
@@ -341,6 +361,7 @@ impl IconShape for FaFileWord {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrinTongue;
 impl IconShape for FaFaceGrinTongue {
     fn view_box(&self) -> String {
@@ -358,6 +379,7 @@ impl IconShape for FaFaceGrinTongue {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaObjectGroup;
 impl IconShape for FaObjectGroup {
     fn view_box(&self) -> String {
@@ -375,6 +397,7 @@ impl IconShape for FaObjectGroup {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCircleLeft;
 impl IconShape for FaCircleLeft {
     fn view_box(&self) -> String {
@@ -392,6 +415,7 @@ impl IconShape for FaCircleLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFileAudio;
 impl IconShape for FaFileAudio {
     fn view_box(&self) -> String {
@@ -409,6 +433,7 @@ impl IconShape for FaFileAudio {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceMeh;
 impl IconShape for FaFaceMeh {
     fn view_box(&self) -> String {
@@ -426,6 +451,7 @@ impl IconShape for FaFaceMeh {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaMap;
 impl IconShape for FaMap {
     fn view_box(&self) -> String {
@@ -443,6 +469,7 @@ impl IconShape for FaMap {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaComments;
 impl IconShape for FaComments {
     fn view_box(&self) -> String {
@@ -460,6 +487,7 @@ impl IconShape for FaComments {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaSquareCaretRight;
 impl IconShape for FaSquareCaretRight {
     fn view_box(&self) -> String {
@@ -477,6 +505,7 @@ impl IconShape for FaSquareCaretRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFile;
 impl IconShape for FaFile {
     fn view_box(&self) -> String {
@@ -494,6 +523,7 @@ impl IconShape for FaFile {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaShareFromSquare;
 impl IconShape for FaShareFromSquare {
     fn view_box(&self) -> String {
@@ -511,6 +541,7 @@ impl IconShape for FaShareFromSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaPenToSquare;
 impl IconShape for FaPenToSquare {
     fn view_box(&self) -> String {
@@ -528,6 +559,7 @@ impl IconShape for FaPenToSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaSquareFull;
 impl IconShape for FaSquareFull {
     fn view_box(&self) -> String {
@@ -545,6 +577,7 @@ impl IconShape for FaSquareFull {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFileVideo;
 impl IconShape for FaFileVideo {
     fn view_box(&self) -> String {
@@ -562,6 +595,7 @@ impl IconShape for FaFileVideo {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFolderOpen;
 impl IconShape for FaFolderOpen {
     fn view_box(&self) -> String {
@@ -579,6 +613,7 @@ impl IconShape for FaFolderOpen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaKeyboard;
 impl IconShape for FaKeyboard {
     fn view_box(&self) -> String {
@@ -596,6 +631,7 @@ impl IconShape for FaKeyboard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrinSquintTears;
 impl IconShape for FaFaceGrinSquintTears {
     fn view_box(&self) -> String {
@@ -613,6 +649,7 @@ impl IconShape for FaFaceGrinSquintTears {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceLaughWink;
 impl IconShape for FaFaceLaughWink {
     fn view_box(&self) -> String {
@@ -630,6 +667,7 @@ impl IconShape for FaFaceLaughWink {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrinWink;
 impl IconShape for FaFaceGrinWink {
     fn view_box(&self) -> String {
@@ -647,6 +685,7 @@ impl IconShape for FaFaceGrinWink {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceRollingEyes;
 impl IconShape for FaFaceRollingEyes {
     fn view_box(&self) -> String {
@@ -664,6 +703,7 @@ impl IconShape for FaFaceRollingEyes {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaClipboard;
 impl IconShape for FaClipboard {
     fn view_box(&self) -> String {
@@ -681,6 +721,7 @@ impl IconShape for FaClipboard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCircleQuestion;
 impl IconShape for FaCircleQuestion {
     fn view_box(&self) -> String {
@@ -698,6 +739,7 @@ impl IconShape for FaCircleQuestion {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaLifeRing;
 impl IconShape for FaLifeRing {
     fn view_box(&self) -> String {
@@ -715,6 +757,7 @@ impl IconShape for FaLifeRing {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCalendarPlus;
 impl IconShape for FaCalendarPlus {
     fn view_box(&self) -> String {
@@ -732,6 +775,7 @@ impl IconShape for FaCalendarPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCirclePlay;
 impl IconShape for FaCirclePlay {
     fn view_box(&self) -> String {
@@ -749,6 +793,7 @@ impl IconShape for FaCirclePlay {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCalendarCheck;
 impl IconShape for FaCalendarCheck {
     fn view_box(&self) -> String {
@@ -766,6 +811,7 @@ impl IconShape for FaCalendarCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaThumbsDown;
 impl IconShape for FaThumbsDown {
     fn view_box(&self) -> String {
@@ -783,6 +829,7 @@ impl IconShape for FaThumbsDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaEnvelope;
 impl IconShape for FaEnvelope {
     fn view_box(&self) -> String {
@@ -800,6 +847,7 @@ impl IconShape for FaEnvelope {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHandPointLeft;
 impl IconShape for FaHandPointLeft {
     fn view_box(&self) -> String {
@@ -817,6 +865,7 @@ impl IconShape for FaHandPointLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrinBeamSweat;
 impl IconShape for FaFaceGrinBeamSweat {
     fn view_box(&self) -> String {
@@ -834,6 +883,7 @@ impl IconShape for FaFaceGrinBeamSweat {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHandLizard;
 impl IconShape for FaHandLizard {
     fn view_box(&self) -> String {
@@ -851,6 +901,7 @@ impl IconShape for FaHandLizard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaSquareCheck;
 impl IconShape for FaSquareCheck {
     fn view_box(&self) -> String {
@@ -868,6 +919,7 @@ impl IconShape for FaSquareCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceFrownOpen;
 impl IconShape for FaFaceFrownOpen {
     fn view_box(&self) -> String {
@@ -885,6 +937,7 @@ impl IconShape for FaFaceFrownOpen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHandScissors;
 impl IconShape for FaHandScissors {
     fn view_box(&self) -> String {
@@ -902,6 +955,7 @@ impl IconShape for FaHandScissors {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceMehBlank;
 impl IconShape for FaFaceMehBlank {
     fn view_box(&self) -> String {
@@ -919,6 +973,7 @@ impl IconShape for FaFaceMehBlank {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHandPointUp;
 impl IconShape for FaHandPointUp {
     fn view_box(&self) -> String {
@@ -936,6 +991,7 @@ impl IconShape for FaHandPointUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaObjectUngroup;
 impl IconShape for FaObjectUngroup {
     fn view_box(&self) -> String {
@@ -953,6 +1009,7 @@ impl IconShape for FaObjectUngroup {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCircleCheck;
 impl IconShape for FaCircleCheck {
     fn view_box(&self) -> String {
@@ -970,6 +1027,7 @@ impl IconShape for FaCircleCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFileImage;
 impl IconShape for FaFileImage {
     fn view_box(&self) -> String {
@@ -987,6 +1045,7 @@ impl IconShape for FaFileImage {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaBell;
 impl IconShape for FaBell {
     fn view_box(&self) -> String {
@@ -1004,6 +1063,7 @@ impl IconShape for FaBell {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFlag;
 impl IconShape for FaFlag {
     fn view_box(&self) -> String {
@@ -1021,6 +1081,7 @@ impl IconShape for FaFlag {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHandPeace;
 impl IconShape for FaHandPeace {
     fn view_box(&self) -> String {
@@ -1038,6 +1099,7 @@ impl IconShape for FaHandPeace {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaChessKing;
 impl IconShape for FaChessKing {
     fn view_box(&self) -> String {
@@ -1055,6 +1117,7 @@ impl IconShape for FaChessKing {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaNewspaper;
 impl IconShape for FaNewspaper {
     fn view_box(&self) -> String {
@@ -1072,6 +1135,7 @@ impl IconShape for FaNewspaper {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaSnowflake;
 impl IconShape for FaSnowflake {
     fn view_box(&self) -> String {
@@ -1089,6 +1153,7 @@ impl IconShape for FaSnowflake {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaStarHalf;
 impl IconShape for FaStarHalf {
     fn view_box(&self) -> String {
@@ -1106,6 +1171,7 @@ impl IconShape for FaStarHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaEnvelopeOpen;
 impl IconShape for FaEnvelopeOpen {
     fn view_box(&self) -> String {
@@ -1123,6 +1189,7 @@ impl IconShape for FaEnvelopeOpen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceFrown;
 impl IconShape for FaFaceFrown {
     fn view_box(&self) -> String {
@@ -1140,6 +1207,7 @@ impl IconShape for FaFaceFrown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHardDrive;
 impl IconShape for FaHardDrive {
     fn view_box(&self) -> String {
@@ -1157,6 +1225,7 @@ impl IconShape for FaHardDrive {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHospital;
 impl IconShape for FaHospital {
     fn view_box(&self) -> String {
@@ -1174,6 +1243,7 @@ impl IconShape for FaHospital {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrinTongueSquint;
 impl IconShape for FaFaceGrinTongueSquint {
     fn view_box(&self) -> String {
@@ -1191,6 +1261,7 @@ impl IconShape for FaFaceGrinTongueSquint {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceSmileWink;
 impl IconShape for FaFaceSmileWink {
     fn view_box(&self) -> String {
@@ -1208,6 +1279,7 @@ impl IconShape for FaFaceSmileWink {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceDizzy;
 impl IconShape for FaFaceDizzy {
     fn view_box(&self) -> String {
@@ -1225,6 +1297,7 @@ impl IconShape for FaFaceDizzy {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceSadTear;
 impl IconShape for FaFaceSadTear {
     fn view_box(&self) -> String {
@@ -1242,6 +1315,7 @@ impl IconShape for FaFaceSadTear {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCalendarXmark;
 impl IconShape for FaCalendarXmark {
     fn view_box(&self) -> String {
@@ -1259,6 +1333,7 @@ impl IconShape for FaCalendarXmark {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCopy;
 impl IconShape for FaCopy {
     fn view_box(&self) -> String {
@@ -1276,6 +1351,7 @@ impl IconShape for FaCopy {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFileLines;
 impl IconShape for FaFileLines {
     fn view_box(&self) -> String {
@@ -1293,6 +1369,7 @@ impl IconShape for FaFileLines {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaClosedCaptioning;
 impl IconShape for FaClosedCaptioning {
     fn view_box(&self) -> String {
@@ -1310,6 +1387,7 @@ impl IconShape for FaClosedCaptioning {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFontAwesome;
 impl IconShape for FaFontAwesome {
     fn view_box(&self) -> String {
@@ -1327,6 +1405,7 @@ impl IconShape for FaFontAwesome {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaImage;
 impl IconShape for FaImage {
     fn view_box(&self) -> String {
@@ -1344,6 +1423,7 @@ impl IconShape for FaImage {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHandPointDown;
 impl IconShape for FaHandPointDown {
     fn view_box(&self) -> String {
@@ -1361,6 +1441,7 @@ impl IconShape for FaHandPointDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaLightbulb;
 impl IconShape for FaLightbulb {
     fn view_box(&self) -> String {
@@ -1378,6 +1459,7 @@ impl IconShape for FaLightbulb {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrinStars;
 impl IconShape for FaFaceGrinStars {
     fn view_box(&self) -> String {
@@ -1395,6 +1477,7 @@ impl IconShape for FaFaceGrinStars {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaImages;
 impl IconShape for FaImages {
     fn view_box(&self) -> String {
@@ -1412,6 +1495,7 @@ impl IconShape for FaImages {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaRectangleXmark;
 impl IconShape for FaRectangleXmark {
     fn view_box(&self) -> String {
@@ -1429,6 +1513,7 @@ impl IconShape for FaRectangleXmark {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrinSquint;
 impl IconShape for FaFaceGrinSquint {
     fn view_box(&self) -> String {
@@ -1446,6 +1531,7 @@ impl IconShape for FaFaceGrinSquint {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCircleUp;
 impl IconShape for FaCircleUp {
     fn view_box(&self) -> String {
@@ -1463,6 +1549,7 @@ impl IconShape for FaCircleUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHandBackFist;
 impl IconShape for FaHandBackFist {
     fn view_box(&self) -> String {
@@ -1480,6 +1567,7 @@ impl IconShape for FaHandBackFist {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaMessage;
 impl IconShape for FaMessage {
     fn view_box(&self) -> String {
@@ -1497,6 +1585,7 @@ impl IconShape for FaMessage {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaThumbsUp;
 impl IconShape for FaThumbsUp {
     fn view_box(&self) -> String {
@@ -1514,6 +1603,7 @@ impl IconShape for FaThumbsUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceSmile;
 impl IconShape for FaFaceSmile {
     fn view_box(&self) -> String {
@@ -1531,6 +1621,7 @@ impl IconShape for FaFaceSmile {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaSquare;
 impl IconShape for FaSquare {
     fn view_box(&self) -> String {
@@ -1548,6 +1639,7 @@ impl IconShape for FaSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaEyeSlash;
 impl IconShape for FaEyeSlash {
     fn view_box(&self) -> String {
@@ -1565,6 +1657,7 @@ impl IconShape for FaEyeSlash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaPaperPlane;
 impl IconShape for FaPaperPlane {
     fn view_box(&self) -> String {
@@ -1582,6 +1675,7 @@ impl IconShape for FaPaperPlane {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrinHearts;
 impl IconShape for FaFaceGrinHearts {
     fn view_box(&self) -> String {
@@ -1599,6 +1693,7 @@ impl IconShape for FaFaceGrinHearts {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCircleRight;
 impl IconShape for FaCircleRight {
     fn view_box(&self) -> String {
@@ -1616,6 +1711,7 @@ impl IconShape for FaCircleRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFloppyDisk;
 impl IconShape for FaFloppyDisk {
     fn view_box(&self) -> String {
@@ -1633,6 +1729,7 @@ impl IconShape for FaFloppyDisk {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFilePowerpoint;
 impl IconShape for FaFilePowerpoint {
     fn view_box(&self) -> String {
@@ -1650,6 +1747,7 @@ impl IconShape for FaFilePowerpoint {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaNoteSticky;
 impl IconShape for FaNoteSticky {
     fn view_box(&self) -> String {
@@ -1667,6 +1765,7 @@ impl IconShape for FaNoteSticky {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHandSpock;
 impl IconShape for FaHandSpock {
     fn view_box(&self) -> String {
@@ -1684,6 +1783,7 @@ impl IconShape for FaHandSpock {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaGem;
 impl IconShape for FaGem {
     fn view_box(&self) -> String {
@@ -1701,6 +1801,7 @@ impl IconShape for FaGem {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaChartBar;
 impl IconShape for FaChartBar {
     fn view_box(&self) -> String {
@@ -1718,6 +1819,7 @@ impl IconShape for FaChartBar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaPaste;
 impl IconShape for FaPaste {
     fn view_box(&self) -> String {
@@ -1735,6 +1837,7 @@ impl IconShape for FaPaste {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaWindowMaximize;
 impl IconShape for FaWindowMaximize {
     fn view_box(&self) -> String {
@@ -1752,6 +1855,7 @@ impl IconShape for FaWindowMaximize {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaAddressBook;
 impl IconShape for FaAddressBook {
     fn view_box(&self) -> String {
@@ -1769,6 +1873,7 @@ impl IconShape for FaAddressBook {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaRectangleList;
 impl IconShape for FaRectangleList {
     fn view_box(&self) -> String {
@@ -1786,6 +1891,7 @@ impl IconShape for FaRectangleList {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaStar;
 impl IconShape for FaStar {
     fn view_box(&self) -> String {
@@ -1803,6 +1909,7 @@ impl IconShape for FaStar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaSun;
 impl IconShape for FaSun {
     fn view_box(&self) -> String {
@@ -1820,6 +1927,7 @@ impl IconShape for FaSun {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaAddressCard;
 impl IconShape for FaAddressCard {
     fn view_box(&self) -> String {
@@ -1837,6 +1945,7 @@ impl IconShape for FaAddressCard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCircleStop;
 impl IconShape for FaCircleStop {
     fn view_box(&self) -> String {
@@ -1854,6 +1963,7 @@ impl IconShape for FaCircleStop {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCircleXmark;
 impl IconShape for FaCircleXmark {
     fn view_box(&self) -> String {
@@ -1871,6 +1981,7 @@ impl IconShape for FaCircleXmark {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaLemon;
 impl IconShape for FaLemon {
     fn view_box(&self) -> String {
@@ -1888,6 +1999,7 @@ impl IconShape for FaLemon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCompass;
 impl IconShape for FaCompass {
     fn view_box(&self) -> String {
@@ -1905,6 +2017,7 @@ impl IconShape for FaCompass {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceSurprise;
 impl IconShape for FaFaceSurprise {
     fn view_box(&self) -> String {
@@ -1922,6 +2035,7 @@ impl IconShape for FaFaceSurprise {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCreditCard;
 impl IconShape for FaCreditCard {
     fn view_box(&self) -> String {
@@ -1939,6 +2053,7 @@ impl IconShape for FaCreditCard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCircleUser;
 impl IconShape for FaCircleUser {
     fn view_box(&self) -> String {
@@ -1956,6 +2071,7 @@ impl IconShape for FaCircleUser {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaClock;
 impl IconShape for FaClock {
     fn view_box(&self) -> String {
@@ -1973,6 +2089,7 @@ impl IconShape for FaClock {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaWindowMinimize;
 impl IconShape for FaWindowMinimize {
     fn view_box(&self) -> String {
@@ -1990,6 +2107,7 @@ impl IconShape for FaWindowMinimize {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFolderClosed;
 impl IconShape for FaFolderClosed {
     fn view_box(&self) -> String {
@@ -2007,6 +2125,7 @@ impl IconShape for FaFolderClosed {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaEye;
 impl IconShape for FaEye {
     fn view_box(&self) -> String {
@@ -2024,6 +2143,7 @@ impl IconShape for FaEye {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaSquareCaretUp;
 impl IconShape for FaSquareCaretUp {
     fn view_box(&self) -> String {
@@ -2041,6 +2161,7 @@ impl IconShape for FaSquareCaretUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaSquarePlus;
 impl IconShape for FaSquarePlus {
     fn view_box(&self) -> String {
@@ -2058,6 +2179,7 @@ impl IconShape for FaSquarePlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaRegistered;
 impl IconShape for FaRegistered {
     fn view_box(&self) -> String {
@@ -2075,6 +2197,7 @@ impl IconShape for FaRegistered {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceKissWinkHeart;
 impl IconShape for FaFaceKissWinkHeart {
     fn view_box(&self) -> String {
@@ -2092,6 +2215,7 @@ impl IconShape for FaFaceKissWinkHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceSadCry;
 impl IconShape for FaFaceSadCry {
     fn view_box(&self) -> String {
@@ -2109,6 +2233,7 @@ impl IconShape for FaFaceSadCry {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCalendarMinus;
 impl IconShape for FaCalendarMinus {
     fn view_box(&self) -> String {
@@ -2126,6 +2251,7 @@ impl IconShape for FaCalendarMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaIdCard;
 impl IconShape for FaIdCard {
     fn view_box(&self) -> String {
@@ -2143,6 +2269,7 @@ impl IconShape for FaIdCard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaChessPawn;
 impl IconShape for FaChessPawn {
     fn view_box(&self) -> String {
@@ -2160,6 +2287,7 @@ impl IconShape for FaChessPawn {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceSmileBeam;
 impl IconShape for FaFaceSmileBeam {
     fn view_box(&self) -> String {
@@ -2177,6 +2305,7 @@ impl IconShape for FaFaceSmileBeam {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaBellSlash;
 impl IconShape for FaBellSlash {
     fn view_box(&self) -> String {
@@ -2194,6 +2323,7 @@ impl IconShape for FaBellSlash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHandshake;
 impl IconShape for FaHandshake {
     fn view_box(&self) -> String {
@@ -2211,6 +2341,7 @@ impl IconShape for FaHandshake {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaComment;
 impl IconShape for FaComment {
     fn view_box(&self) -> String {
@@ -2228,6 +2359,7 @@ impl IconShape for FaComment {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCalendar;
 impl IconShape for FaCalendar {
     fn view_box(&self) -> String {
@@ -2245,6 +2377,7 @@ impl IconShape for FaCalendar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaSquareMinus;
 impl IconShape for FaSquareMinus {
     fn view_box(&self) -> String {
@@ -2262,6 +2395,7 @@ impl IconShape for FaSquareMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceTired;
 impl IconShape for FaFaceTired {
     fn view_box(&self) -> String {
@@ -2279,6 +2413,7 @@ impl IconShape for FaFaceTired {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrin;
 impl IconShape for FaFaceGrin {
     fn view_box(&self) -> String {
@@ -2296,6 +2431,7 @@ impl IconShape for FaFaceGrin {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaChessQueen;
 impl IconShape for FaChessQueen {
     fn view_box(&self) -> String {
@@ -2313,6 +2449,7 @@ impl IconShape for FaChessQueen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFileCode;
 impl IconShape for FaFileCode {
     fn view_box(&self) -> String {
@@ -2330,6 +2467,7 @@ impl IconShape for FaFileCode {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFutbol;
 impl IconShape for FaFutbol {
     fn view_box(&self) -> String {
@@ -2347,6 +2485,7 @@ impl IconShape for FaFutbol {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceFlushed;
 impl IconShape for FaFaceFlushed {
     fn view_box(&self) -> String {
@@ -2364,6 +2503,7 @@ impl IconShape for FaFaceFlushed {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceKiss;
 impl IconShape for FaFaceKiss {
     fn view_box(&self) -> String {
@@ -2381,6 +2521,7 @@ impl IconShape for FaFaceKiss {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaBookmark;
 impl IconShape for FaBookmark {
     fn view_box(&self) -> String {
@@ -2398,6 +2539,7 @@ impl IconShape for FaBookmark {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCircleDot;
 impl IconShape for FaCircleDot {
     fn view_box(&self) -> String {
@@ -2415,6 +2557,7 @@ impl IconShape for FaCircleDot {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHandPointer;
 impl IconShape for FaHandPointer {
     fn view_box(&self) -> String {
@@ -2432,6 +2575,7 @@ impl IconShape for FaHandPointer {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaStarHalfStroke;
 impl IconShape for FaStarHalfStroke {
     fn view_box(&self) -> String {
@@ -2449,6 +2593,7 @@ impl IconShape for FaStarHalfStroke {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrinBeam;
 impl IconShape for FaFaceGrinBeam {
     fn view_box(&self) -> String {
@@ -2466,6 +2611,7 @@ impl IconShape for FaFaceGrinBeam {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrinWide;
 impl IconShape for FaFaceGrinWide {
     fn view_box(&self) -> String {
@@ -2483,6 +2629,7 @@ impl IconShape for FaFaceGrinWide {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceGrinTears;
 impl IconShape for FaFaceGrinTears {
     fn view_box(&self) -> String {
@@ -2500,6 +2647,7 @@ impl IconShape for FaFaceGrinTears {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceLaughBeam;
 impl IconShape for FaFaceLaughBeam {
     fn view_box(&self) -> String {
@@ -2517,6 +2665,7 @@ impl IconShape for FaFaceLaughBeam {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceKissBeam;
 impl IconShape for FaFaceKissBeam {
     fn view_box(&self) -> String {
@@ -2534,6 +2683,7 @@ impl IconShape for FaFaceKissBeam {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceAngry;
 impl IconShape for FaFaceAngry {
     fn view_box(&self) -> String {
@@ -2551,6 +2701,7 @@ impl IconShape for FaFaceAngry {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaWindowRestore;
 impl IconShape for FaWindowRestore {
     fn view_box(&self) -> String {
@@ -2568,6 +2719,7 @@ impl IconShape for FaWindowRestore {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCirclePause;
 impl IconShape for FaCirclePause {
     fn view_box(&self) -> String {
@@ -2585,6 +2737,7 @@ impl IconShape for FaCirclePause {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaChessBishop;
 impl IconShape for FaChessBishop {
     fn view_box(&self) -> String {
@@ -2602,6 +2755,7 @@ impl IconShape for FaChessBishop {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCircleDown;
 impl IconShape for FaCircleDown {
     fn view_box(&self) -> String {
@@ -2619,6 +2773,7 @@ impl IconShape for FaCircleDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaBuilding;
 impl IconShape for FaBuilding {
     fn view_box(&self) -> String {
@@ -2636,6 +2791,7 @@ impl IconShape for FaBuilding {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFolder;
 impl IconShape for FaFolder {
     fn view_box(&self) -> String {
@@ -2653,6 +2809,7 @@ impl IconShape for FaFolder {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFilePdf;
 impl IconShape for FaFilePdf {
     fn view_box(&self) -> String {
@@ -2670,6 +2827,7 @@ impl IconShape for FaFilePdf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaMoon;
 impl IconShape for FaMoon {
     fn view_box(&self) -> String {
@@ -2687,6 +2845,7 @@ impl IconShape for FaMoon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaFaceLaughSquint;
 impl IconShape for FaFaceLaughSquint {
     fn view_box(&self) -> String {
@@ -2704,6 +2863,7 @@ impl IconShape for FaFaceLaughSquint {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaSquareCaretLeft;
 impl IconShape for FaSquareCaretLeft {
     fn view_box(&self) -> String {
@@ -2721,6 +2881,7 @@ impl IconShape for FaSquareCaretLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaCalendarDays;
 impl IconShape for FaCalendarDays {
     fn view_box(&self) -> String {
@@ -2738,6 +2899,7 @@ impl IconShape for FaCalendarDays {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct FaHeart;
 impl IconShape for FaHeart {
     fn view_box(&self) -> String {

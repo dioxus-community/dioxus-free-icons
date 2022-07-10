@@ -1,6 +1,7 @@
 use super::super::IconShape;
 use dioxus::prelude::*;
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsColumns;
 impl IconShape for BsColumns {
     fn view_box(&self) -> String {
@@ -18,6 +19,7 @@ impl IconShape for BsColumns {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayerBackward;
 impl IconShape for BsLayerBackward {
     fn view_box(&self) -> String {
@@ -38,6 +40,7 @@ impl IconShape for BsLayerBackward {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBagXFill;
 impl IconShape for BsBagXFill {
     fn view_box(&self) -> String {
@@ -56,6 +59,7 @@ impl IconShape for BsBagXFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFolderFill;
 impl IconShape for BsFolderFill {
     fn view_box(&self) -> String {
@@ -73,6 +77,7 @@ impl IconShape for BsFolderFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHypnotize;
 impl IconShape for BsHypnotize {
     fn view_box(&self) -> String {
@@ -94,6 +99,7 @@ impl IconShape for BsHypnotize {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLadder;
 impl IconShape for BsLadder {
     fn view_box(&self) -> String {
@@ -111,6 +117,7 @@ impl IconShape for BsLadder {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadge8kFill;
 impl IconShape for BsBadge8kFill {
     fn view_box(&self) -> String {
@@ -131,6 +138,7 @@ impl IconShape for BsBadge8kFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileArrowUp;
 impl IconShape for BsFileArrowUp {
     fn view_box(&self) -> String {
@@ -151,6 +159,7 @@ impl IconShape for BsFileArrowUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCupStraw;
 impl IconShape for BsCupStraw {
     fn view_box(&self) -> String {
@@ -168,6 +177,7 @@ impl IconShape for BsCupStraw {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBootstrap;
 impl IconShape for BsBootstrap {
     fn view_box(&self) -> String {
@@ -188,6 +198,7 @@ impl IconShape for BsBootstrap {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowRightSquare;
 impl IconShape for BsArrowRightSquare {
     fn view_box(&self) -> String {
@@ -206,6 +217,7 @@ impl IconShape for BsArrowRightSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2PulseFill;
 impl IconShape for BsClipboard2PulseFill {
     fn view_box(&self) -> String {
@@ -226,6 +238,7 @@ impl IconShape for BsClipboard2PulseFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQuestionOctagon;
 impl IconShape for BsQuestionOctagon {
     fn view_box(&self) -> String {
@@ -246,6 +259,7 @@ impl IconShape for BsQuestionOctagon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJustifyLeft;
 impl IconShape for BsJustifyLeft {
     fn view_box(&self) -> String {
@@ -264,6 +278,7 @@ impl IconShape for BsJustifyLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLightning;
 impl IconShape for BsLightning {
     fn view_box(&self) -> String {
@@ -281,6 +296,7 @@ impl IconShape for BsLightning {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretDown;
 impl IconShape for BsCaretDown {
     fn view_box(&self) -> String {
@@ -298,6 +314,7 @@ impl IconShape for BsCaretDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatSquareText;
 impl IconShape for BsChatSquareText {
     fn view_box(&self) -> String {
@@ -318,6 +335,7 @@ impl IconShape for BsChatSquareText {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPatchPlusFill;
 impl IconShape for BsPatchPlusFill {
     fn view_box(&self) -> String {
@@ -335,6 +353,7 @@ impl IconShape for BsPatchPlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGrid;
 impl IconShape for BsGrid {
     fn view_box(&self) -> String {
@@ -352,6 +371,7 @@ impl IconShape for BsGrid {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTriangle;
 impl IconShape for BsTriangle {
     fn view_box(&self) -> String {
@@ -369,6 +389,7 @@ impl IconShape for BsTriangle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsToggleOn;
 impl IconShape for BsToggleOn {
     fn view_box(&self) -> String {
@@ -386,6 +407,7 @@ impl IconShape for BsToggleOn {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMedium;
 impl IconShape for BsMedium {
     fn view_box(&self) -> String {
@@ -403,6 +425,7 @@ impl IconShape for BsMedium {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSim;
 impl IconShape for BsSim {
     fn view_box(&self) -> String {
@@ -423,6 +446,7 @@ impl IconShape for BsSim {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCodeSlash;
 impl IconShape for BsCodeSlash {
     fn view_box(&self) -> String {
@@ -440,6 +464,7 @@ impl IconShape for BsCodeSlash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSearch;
 impl IconShape for BsSearch {
     fn view_box(&self) -> String {
@@ -457,6 +482,7 @@ impl IconShape for BsSearch {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInboxFill;
 impl IconShape for BsInboxFill {
     fn view_box(&self) -> String {
@@ -474,6 +500,7 @@ impl IconShape for BsInboxFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCurrencyBitcoin;
 impl IconShape for BsCurrencyBitcoin {
     fn view_box(&self) -> String {
@@ -491,6 +518,7 @@ impl IconShape for BsCurrencyBitcoin {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWifi2;
 impl IconShape for BsWifi2 {
     fn view_box(&self) -> String {
@@ -508,6 +536,7 @@ impl IconShape for BsWifi2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileExcelFill;
 impl IconShape for BsFileExcelFill {
     fn view_box(&self) -> String {
@@ -525,6 +554,7 @@ impl IconShape for BsFileExcelFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsIncognito;
 impl IconShape for BsIncognito {
     fn view_box(&self) -> String {
@@ -543,6 +573,7 @@ impl IconShape for BsIncognito {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2Date;
 impl IconShape for BsCalendar2Date {
     fn view_box(&self) -> String {
@@ -566,6 +597,7 @@ impl IconShape for BsCalendar2Date {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsReplyAllFill;
 impl IconShape for BsReplyAllFill {
     fn view_box(&self) -> String {
@@ -586,6 +618,7 @@ impl IconShape for BsReplyAllFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSdCardFill;
 impl IconShape for BsSdCardFill {
     fn view_box(&self) -> String {
@@ -603,6 +636,7 @@ impl IconShape for BsSdCardFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardPlus;
 impl IconShape for BsClipboardPlus {
     fn view_box(&self) -> String {
@@ -627,6 +661,7 @@ impl IconShape for BsClipboardPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEraser;
 impl IconShape for BsEraser {
     fn view_box(&self) -> String {
@@ -644,6 +679,7 @@ impl IconShape for BsEraser {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsListUl;
 impl IconShape for BsListUl {
     fn view_box(&self) -> String {
@@ -662,6 +698,7 @@ impl IconShape for BsListUl {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpCircle;
 impl IconShape for BsArrowUpCircle {
     fn view_box(&self) -> String {
@@ -680,6 +717,7 @@ impl IconShape for BsArrowUpCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsReceipt;
 impl IconShape for BsReceipt {
     fn view_box(&self) -> String {
@@ -700,6 +738,7 @@ impl IconShape for BsReceipt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPauseCircle;
 impl IconShape for BsPauseCircle {
     fn view_box(&self) -> String {
@@ -720,6 +759,7 @@ impl IconShape for BsPauseCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCheckSquare;
 impl IconShape for BsCheckSquare {
     fn view_box(&self) -> String {
@@ -740,6 +780,7 @@ impl IconShape for BsCheckSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPatchMinusFill;
 impl IconShape for BsPatchMinusFill {
     fn view_box(&self) -> String {
@@ -757,6 +798,7 @@ impl IconShape for BsPatchMinusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDown;
 impl IconShape for BsArrowDown {
     fn view_box(&self) -> String {
@@ -775,6 +817,7 @@ impl IconShape for BsArrowDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSortUpAlt;
 impl IconShape for BsSortUpAlt {
     fn view_box(&self) -> String {
@@ -792,6 +835,7 @@ impl IconShape for BsSortUpAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeWc;
 impl IconShape for BsBadgeWc {
     fn view_box(&self) -> String {
@@ -812,6 +856,7 @@ impl IconShape for BsBadgeWc {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTypeH2;
 impl IconShape for BsTypeH2 {
     fn view_box(&self) -> String {
@@ -829,6 +874,7 @@ impl IconShape for BsTypeH2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCheckLg;
 impl IconShape for BsCheckLg {
     fn view_box(&self) -> String {
@@ -846,6 +892,7 @@ impl IconShape for BsCheckLg {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRecordFill;
 impl IconShape for BsRecordFill {
     fn view_box(&self) -> String {
@@ -864,6 +911,7 @@ impl IconShape for BsRecordFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQuestionDiamond;
 impl IconShape for BsQuestionDiamond {
     fn view_box(&self) -> String {
@@ -884,6 +932,7 @@ impl IconShape for BsQuestionDiamond {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAlignEnd;
 impl IconShape for BsAlignEnd {
     fn view_box(&self) -> String {
@@ -905,6 +954,7 @@ impl IconShape for BsAlignEnd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSearchHeartFill;
 impl IconShape for BsSearchHeartFill {
     fn view_box(&self) -> String {
@@ -922,6 +972,7 @@ impl IconShape for BsSearchHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGraphUpArrow;
 impl IconShape for BsGraphUpArrow {
     fn view_box(&self) -> String {
@@ -940,6 +991,7 @@ impl IconShape for BsGraphUpArrow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2XFill;
 impl IconShape for BsCalendar2XFill {
     fn view_box(&self) -> String {
@@ -957,6 +1009,7 @@ impl IconShape for BsCalendar2XFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsList;
 impl IconShape for BsList {
     fn view_box(&self) -> String {
@@ -975,6 +1028,7 @@ impl IconShape for BsList {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPinAngle;
 impl IconShape for BsPinAngle {
     fn view_box(&self) -> String {
@@ -992,6 +1046,7 @@ impl IconShape for BsPinAngle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkSpreadsheetFill;
 impl IconShape for BsFileEarmarkSpreadsheetFill {
     fn view_box(&self) -> String {
@@ -1012,6 +1067,7 @@ impl IconShape for BsFileEarmarkSpreadsheetFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeGif;
 impl IconShape for BsFiletypeGif {
     fn view_box(&self) -> String {
@@ -1030,6 +1086,7 @@ impl IconShape for BsFiletypeGif {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipEndBtnFill;
 impl IconShape for BsSkipEndBtnFill {
     fn view_box(&self) -> String {
@@ -1047,6 +1104,7 @@ impl IconShape for BsSkipEndBtnFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVolumeOff;
 impl IconShape for BsVolumeOff {
     fn view_box(&self) -> String {
@@ -1064,6 +1122,7 @@ impl IconShape for BsVolumeOff {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSteam;
 impl IconShape for BsSteam {
     fn view_box(&self) -> String {
@@ -1084,6 +1143,7 @@ impl IconShape for BsSteam {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatLeftTextFill;
 impl IconShape for BsChatLeftTextFill {
     fn view_box(&self) -> String {
@@ -1101,6 +1161,7 @@ impl IconShape for BsChatLeftTextFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsOutlet;
 impl IconShape for BsOutlet {
     fn view_box(&self) -> String {
@@ -1121,6 +1182,7 @@ impl IconShape for BsOutlet {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMegaphone;
 impl IconShape for BsMegaphone {
     fn view_box(&self) -> String {
@@ -1138,6 +1200,7 @@ impl IconShape for BsMegaphone {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeSass;
 impl IconShape for BsFiletypeSass {
     fn view_box(&self) -> String {
@@ -1156,6 +1219,7 @@ impl IconShape for BsFiletypeSass {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHandIndexThumbFill;
 impl IconShape for BsHandIndexThumbFill {
     fn view_box(&self) -> String {
@@ -1173,6 +1237,7 @@ impl IconShape for BsHandIndexThumbFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInfoSquare;
 impl IconShape for BsInfoSquare {
     fn view_box(&self) -> String {
@@ -1193,6 +1258,7 @@ impl IconShape for BsInfoSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkText;
 impl IconShape for BsFileEarmarkText {
     fn view_box(&self) -> String {
@@ -1213,6 +1279,7 @@ impl IconShape for BsFileEarmarkText {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileExcel;
 impl IconShape for BsFileExcel {
     fn view_box(&self) -> String {
@@ -1233,6 +1300,7 @@ impl IconShape for BsFileExcel {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHouseDoor;
 impl IconShape for BsHouseDoor {
     fn view_box(&self) -> String {
@@ -1250,6 +1318,7 @@ impl IconShape for BsHouseDoor {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCircleHalf;
 impl IconShape for BsCircleHalf {
     fn view_box(&self) -> String {
@@ -1267,6 +1336,7 @@ impl IconShape for BsCircleHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonVideo;
 impl IconShape for BsPersonVideo {
     fn view_box(&self) -> String {
@@ -1287,6 +1357,7 @@ impl IconShape for BsPersonVideo {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHouse;
 impl IconShape for BsHouse {
     fn view_box(&self) -> String {
@@ -1309,6 +1380,7 @@ impl IconShape for BsHouse {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeptagonFill;
 impl IconShape for BsHeptagonFill {
     fn view_box(&self) -> String {
@@ -1327,6 +1399,7 @@ impl IconShape for BsHeptagonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkTextFill;
 impl IconShape for BsFileEarmarkTextFill {
     fn view_box(&self) -> String {
@@ -1344,6 +1417,7 @@ impl IconShape for BsFileEarmarkTextFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSortNumericUp;
 impl IconShape for BsSortNumericUp {
     fn view_box(&self) -> String {
@@ -1368,6 +1442,7 @@ impl IconShape for BsSortNumericUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInfoSquareFill;
 impl IconShape for BsInfoSquareFill {
     fn view_box(&self) -> String {
@@ -1385,6 +1460,7 @@ impl IconShape for BsInfoSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTypeH3;
 impl IconShape for BsTypeH3 {
     fn view_box(&self) -> String {
@@ -1402,6 +1478,7 @@ impl IconShape for BsTypeH3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEaselFill;
 impl IconShape for BsEaselFill {
     fn view_box(&self) -> String {
@@ -1419,6 +1496,7 @@ impl IconShape for BsEaselFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephoneOutboundFill;
 impl IconShape for BsTelephoneOutboundFill {
     fn view_box(&self) -> String {
@@ -1437,6 +1515,7 @@ impl IconShape for BsTelephoneOutboundFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephoneForwardFill;
 impl IconShape for BsTelephoneForwardFill {
     fn view_box(&self) -> String {
@@ -1455,6 +1534,7 @@ impl IconShape for BsTelephoneForwardFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTextareaResize;
 impl IconShape for BsTextareaResize {
     fn view_box(&self) -> String {
@@ -1472,6 +1552,7 @@ impl IconShape for BsTextareaResize {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPcHorizontal;
 impl IconShape for BsPcHorizontal {
     fn view_box(&self) -> String {
@@ -1489,6 +1570,7 @@ impl IconShape for BsPcHorizontal {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypePsd;
 impl IconShape for BsFiletypePsd {
     fn view_box(&self) -> String {
@@ -1507,6 +1589,7 @@ impl IconShape for BsFiletypePsd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWind;
 impl IconShape for BsWind {
     fn view_box(&self) -> String {
@@ -1524,6 +1607,7 @@ impl IconShape for BsWind {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatLeftDotsFill;
 impl IconShape for BsChatLeftDotsFill {
     fn view_box(&self) -> String {
@@ -1541,6 +1625,7 @@ impl IconShape for BsChatLeftDotsFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTicketPerforated;
 impl IconShape for BsTicketPerforated {
     fn view_box(&self) -> String {
@@ -1561,6 +1646,7 @@ impl IconShape for BsTicketPerforated {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkZip;
 impl IconShape for BsFileEarmarkZip {
     fn view_box(&self) -> String {
@@ -1581,6 +1667,7 @@ impl IconShape for BsFileEarmarkZip {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileCodeFill;
 impl IconShape for BsFileCodeFill {
     fn view_box(&self) -> String {
@@ -1598,6 +1685,7 @@ impl IconShape for BsFileCodeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayoutTextWindow;
 impl IconShape for BsLayoutTextWindow {
     fn view_box(&self) -> String {
@@ -1618,6 +1706,7 @@ impl IconShape for BsLayoutTextWindow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSave2;
 impl IconShape for BsSave2 {
     fn view_box(&self) -> String {
@@ -1635,6 +1724,7 @@ impl IconShape for BsSave2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTypeItalic;
 impl IconShape for BsTypeItalic {
     fn view_box(&self) -> String {
@@ -1652,6 +1742,7 @@ impl IconShape for BsTypeItalic {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDice5Fill;
 impl IconShape for BsDice5Fill {
     fn view_box(&self) -> String {
@@ -1669,6 +1760,7 @@ impl IconShape for BsDice5Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDice4Fill;
 impl IconShape for BsDice4Fill {
     fn view_box(&self) -> String {
@@ -1686,6 +1778,7 @@ impl IconShape for BsDice4Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonCircle;
 impl IconShape for BsPersonCircle {
     fn view_box(&self) -> String {
@@ -1707,6 +1800,7 @@ impl IconShape for BsPersonCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsScissors;
 impl IconShape for BsScissors {
     fn view_box(&self) -> String {
@@ -1724,6 +1818,7 @@ impl IconShape for BsScissors {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlayCircle;
 impl IconShape for BsPlayCircle {
     fn view_box(&self) -> String {
@@ -1744,6 +1839,7 @@ impl IconShape for BsPlayCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkBinary;
 impl IconShape for BsFileEarmarkBinary {
     fn view_box(&self) -> String {
@@ -1764,6 +1860,7 @@ impl IconShape for BsFileEarmarkBinary {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileZip;
 impl IconShape for BsFileZip {
     fn view_box(&self) -> String {
@@ -1784,6 +1881,7 @@ impl IconShape for BsFileZip {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownSquareFill;
 impl IconShape for BsArrowDownSquareFill {
     fn view_box(&self) -> String {
@@ -1801,6 +1899,7 @@ impl IconShape for BsArrowDownSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipStartFill;
 impl IconShape for BsSkipStartFill {
     fn view_box(&self) -> String {
@@ -1818,6 +1917,7 @@ impl IconShape for BsSkipStartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBorderOuter;
 impl IconShape for BsBorderOuter {
     fn view_box(&self) -> String {
@@ -1838,6 +1938,7 @@ impl IconShape for BsBorderOuter {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeJava;
 impl IconShape for BsFiletypeJava {
     fn view_box(&self) -> String {
@@ -1856,6 +1957,7 @@ impl IconShape for BsFiletypeJava {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkArrowUpFill;
 impl IconShape for BsFileEarmarkArrowUpFill {
     fn view_box(&self) -> String {
@@ -1873,6 +1975,7 @@ impl IconShape for BsFileEarmarkArrowUpFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGrid3x2Gap;
 impl IconShape for BsGrid3x2Gap {
     fn view_box(&self) -> String {
@@ -1890,6 +1993,7 @@ impl IconShape for BsGrid3x2Gap {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretUpFill;
 impl IconShape for BsCaretUpFill {
     fn view_box(&self) -> String {
@@ -1907,6 +2011,7 @@ impl IconShape for BsCaretUpFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiExpressionlessFill;
 impl IconShape for BsEmojiExpressionlessFill {
     fn view_box(&self) -> String {
@@ -1924,6 +2029,7 @@ impl IconShape for BsEmojiExpressionlessFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSearchHeart;
 impl IconShape for BsSearchHeart {
     fn view_box(&self) -> String {
@@ -1944,6 +2050,7 @@ impl IconShape for BsSearchHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSignpostSplit;
 impl IconShape for BsSignpostSplit {
     fn view_box(&self) -> String {
@@ -1961,6 +2068,7 @@ impl IconShape for BsSignpostSplit {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTools;
 impl IconShape for BsTools {
     fn view_box(&self) -> String {
@@ -1978,6 +2086,7 @@ impl IconShape for BsTools {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronContract;
 impl IconShape for BsChevronContract {
     fn view_box(&self) -> String {
@@ -1996,6 +2105,7 @@ impl IconShape for BsChevronContract {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBackspaceFill;
 impl IconShape for BsBackspaceFill {
     fn view_box(&self) -> String {
@@ -2013,6 +2123,7 @@ impl IconShape for BsBackspaceFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCameraReelsFill;
 impl IconShape for BsCameraReelsFill {
     fn view_box(&self) -> String {
@@ -2036,6 +2147,7 @@ impl IconShape for BsCameraReelsFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStrava;
 impl IconShape for BsStrava {
     fn view_box(&self) -> String {
@@ -2053,6 +2165,7 @@ impl IconShape for BsStrava {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsXOctagon;
 impl IconShape for BsXOctagon {
     fn view_box(&self) -> String {
@@ -2073,6 +2186,7 @@ impl IconShape for BsXOctagon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2Fill;
 impl IconShape for BsCalendar2Fill {
     fn view_box(&self) -> String {
@@ -2090,6 +2204,7 @@ impl IconShape for BsCalendar2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkWord;
 impl IconShape for BsFileEarmarkWord {
     fn view_box(&self) -> String {
@@ -2110,6 +2225,7 @@ impl IconShape for BsFileEarmarkWord {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar3Fill;
 impl IconShape for BsCalendar3Fill {
     fn view_box(&self) -> String {
@@ -2127,6 +2243,7 @@ impl IconShape for BsCalendar3Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileWordFill;
 impl IconShape for BsFileWordFill {
     fn view_box(&self) -> String {
@@ -2144,6 +2261,7 @@ impl IconShape for BsFileWordFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEasel;
 impl IconShape for BsFileEasel {
     fn view_box(&self) -> String {
@@ -2164,6 +2282,7 @@ impl IconShape for BsFileEasel {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSuitClub;
 impl IconShape for BsSuitClub {
     fn view_box(&self) -> String {
@@ -2181,6 +2300,7 @@ impl IconShape for BsSuitClub {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldLock;
 impl IconShape for BsShieldLock {
     fn view_box(&self) -> String {
@@ -2201,6 +2321,7 @@ impl IconShape for BsShieldLock {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMeta;
 impl IconShape for BsMeta {
     fn view_box(&self) -> String {
@@ -2219,6 +2340,7 @@ impl IconShape for BsMeta {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCurrencyPound;
 impl IconShape for BsCurrencyPound {
     fn view_box(&self) -> String {
@@ -2236,6 +2358,7 @@ impl IconShape for BsCurrencyPound {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHourglass;
 impl IconShape for BsHourglass {
     fn view_box(&self) -> String {
@@ -2253,6 +2376,7 @@ impl IconShape for BsHourglass {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMicrosoft;
 impl IconShape for BsMicrosoft {
     fn view_box(&self) -> String {
@@ -2270,6 +2394,7 @@ impl IconShape for BsMicrosoft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWifi1;
 impl IconShape for BsWifi1 {
     fn view_box(&self) -> String {
@@ -2287,6 +2412,7 @@ impl IconShape for BsWifi1 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarDayFill;
 impl IconShape for BsCalendarDayFill {
     fn view_box(&self) -> String {
@@ -2304,6 +2430,7 @@ impl IconShape for BsCalendarDayFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxes;
 impl IconShape for BsBoxes {
     fn view_box(&self) -> String {
@@ -2321,6 +2448,7 @@ impl IconShape for BsBoxes {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSortAlphaUpAlt;
 impl IconShape for BsSortAlphaUpAlt {
     fn view_box(&self) -> String {
@@ -2345,6 +2473,7 @@ impl IconShape for BsSortAlphaUpAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTextIndentRight;
 impl IconShape for BsTextIndentRight {
     fn view_box(&self) -> String {
@@ -2362,6 +2491,7 @@ impl IconShape for BsTextIndentRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPieChartFill;
 impl IconShape for BsPieChartFill {
     fn view_box(&self) -> String {
@@ -2379,6 +2509,7 @@ impl IconShape for BsPieChartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilePptFill;
 impl IconShape for BsFilePptFill {
     fn view_box(&self) -> String {
@@ -2399,6 +2530,7 @@ impl IconShape for BsFilePptFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsReply;
 impl IconShape for BsReply {
     fn view_box(&self) -> String {
@@ -2416,6 +2548,7 @@ impl IconShape for BsReply {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2HeartFill;
 impl IconShape for BsCalendar2HeartFill {
     fn view_box(&self) -> String {
@@ -2433,6 +2566,7 @@ impl IconShape for BsCalendar2HeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBodyText;
 impl IconShape for BsBodyText {
     fn view_box(&self) -> String {
@@ -2451,6 +2585,7 @@ impl IconShape for BsBodyText {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatSquareDotsFill;
 impl IconShape for BsChatSquareDotsFill {
     fn view_box(&self) -> String {
@@ -2468,6 +2603,7 @@ impl IconShape for BsChatSquareDotsFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSunrise;
 impl IconShape for BsSunrise {
     fn view_box(&self) -> String {
@@ -2485,6 +2621,7 @@ impl IconShape for BsSunrise {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileSpreadsheetFill;
 impl IconShape for BsFileSpreadsheetFill {
     fn view_box(&self) -> String {
@@ -2502,6 +2639,7 @@ impl IconShape for BsFileSpreadsheetFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCheckAll;
 impl IconShape for BsCheckAll {
     fn view_box(&self) -> String {
@@ -2519,6 +2657,7 @@ impl IconShape for BsCheckAll {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownRightCircle;
 impl IconShape for BsArrowDownRightCircle {
     fn view_box(&self) -> String {
@@ -2537,6 +2676,7 @@ impl IconShape for BsArrowDownRightCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGenderTrans;
 impl IconShape for BsGenderTrans {
     fn view_box(&self) -> String {
@@ -2555,6 +2695,7 @@ impl IconShape for BsGenderTrans {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUpcScan;
 impl IconShape for BsUpcScan {
     fn view_box(&self) -> String {
@@ -2572,6 +2713,7 @@ impl IconShape for BsUpcScan {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeScss;
 impl IconShape for BsFiletypeScss {
     fn view_box(&self) -> String {
@@ -2590,6 +2732,7 @@ impl IconShape for BsFiletypeScss {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLightningFill;
 impl IconShape for BsLightningFill {
     fn view_box(&self) -> String {
@@ -2607,6 +2750,7 @@ impl IconShape for BsLightningFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournalBookmarkFill;
 impl IconShape for BsJournalBookmarkFill {
     fn view_box(&self) -> String {
@@ -2631,6 +2775,7 @@ impl IconShape for BsJournalBookmarkFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTypeH1;
 impl IconShape for BsTypeH1 {
     fn view_box(&self) -> String {
@@ -2648,6 +2793,7 @@ impl IconShape for BsTypeH1 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTicketPerforatedFill;
 impl IconShape for BsTicketPerforatedFill {
     fn view_box(&self) -> String {
@@ -2665,6 +2811,7 @@ impl IconShape for BsTicketPerforatedFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiFrownFill;
 impl IconShape for BsEmojiFrownFill {
     fn view_box(&self) -> String {
@@ -2682,6 +2829,7 @@ impl IconShape for BsEmojiFrownFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilePdfFill;
 impl IconShape for BsFilePdfFill {
     fn view_box(&self) -> String {
@@ -2703,6 +2851,7 @@ impl IconShape for BsFilePdfFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSnow;
 impl IconShape for BsSnow {
     fn view_box(&self) -> String {
@@ -2720,6 +2869,7 @@ impl IconShape for BsSnow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsXDiamond;
 impl IconShape for BsXDiamond {
     fn view_box(&self) -> String {
@@ -2737,6 +2887,7 @@ impl IconShape for BsXDiamond {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTranslate;
 impl IconShape for BsTranslate {
     fn view_box(&self) -> String {
@@ -2757,6 +2908,7 @@ impl IconShape for BsTranslate {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUiRadios;
 impl IconShape for BsUiRadios {
     fn view_box(&self) -> String {
@@ -2774,6 +2926,7 @@ impl IconShape for BsUiRadios {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBasket3Fill;
 impl IconShape for BsBasket3Fill {
     fn view_box(&self) -> String {
@@ -2791,6 +2944,7 @@ impl IconShape for BsBasket3Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBasket2Fill;
 impl IconShape for BsBasket2Fill {
     fn view_box(&self) -> String {
@@ -2808,6 +2962,7 @@ impl IconShape for BsBasket2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkPlay;
 impl IconShape for BsFileEarmarkPlay {
     fn view_box(&self) -> String {
@@ -2828,6 +2983,7 @@ impl IconShape for BsFileEarmarkPlay {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExclamationLg;
 impl IconShape for BsExclamationLg {
     fn view_box(&self) -> String {
@@ -2845,6 +3001,7 @@ impl IconShape for BsExclamationLg {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBinocularsFill;
 impl IconShape for BsBinocularsFill {
     fn view_box(&self) -> String {
@@ -2862,6 +3019,7 @@ impl IconShape for BsBinocularsFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilePerson;
 impl IconShape for BsFilePerson {
     fn view_box(&self) -> String {
@@ -2882,6 +3040,7 @@ impl IconShape for BsFilePerson {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopePaperHeartFill;
 impl IconShape for BsEnvelopePaperHeartFill {
     fn view_box(&self) -> String {
@@ -2900,6 +3059,7 @@ impl IconShape for BsEnvelopePaperHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQrCodeScan;
 impl IconShape for BsQrCodeScan {
     fn view_box(&self) -> String {
@@ -2929,6 +3089,7 @@ impl IconShape for BsQrCodeScan {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPrinterFill;
 impl IconShape for BsPrinterFill {
     fn view_box(&self) -> String {
@@ -2949,6 +3110,7 @@ impl IconShape for BsPrinterFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPhoneVibrateFill;
 impl IconShape for BsPhoneVibrateFill {
     fn view_box(&self) -> String {
@@ -2966,6 +3128,7 @@ impl IconShape for BsPhoneVibrateFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatSquareTextFill;
 impl IconShape for BsChatSquareTextFill {
     fn view_box(&self) -> String {
@@ -2983,6 +3146,7 @@ impl IconShape for BsChatSquareTextFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMenuAppFill;
 impl IconShape for BsMenuAppFill {
     fn view_box(&self) -> String {
@@ -3000,6 +3164,7 @@ impl IconShape for BsMenuAppFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUmbrella;
 impl IconShape for BsUmbrella {
     fn view_box(&self) -> String {
@@ -3017,6 +3182,7 @@ impl IconShape for BsUmbrella {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeVr;
 impl IconShape for BsBadgeVr {
     fn view_box(&self) -> String {
@@ -3037,6 +3203,7 @@ impl IconShape for BsBadgeVr {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVolumeDown;
 impl IconShape for BsVolumeDown {
     fn view_box(&self) -> String {
@@ -3054,6 +3221,7 @@ impl IconShape for BsVolumeDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldFillX;
 impl IconShape for BsShieldFillX {
     fn view_box(&self) -> String {
@@ -3071,6 +3239,7 @@ impl IconShape for BsShieldFillX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCartPlus;
 impl IconShape for BsCartPlus {
     fn view_box(&self) -> String {
@@ -3091,6 +3260,7 @@ impl IconShape for BsCartPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFullscreen;
 impl IconShape for BsFullscreen {
     fn view_box(&self) -> String {
@@ -3108,6 +3278,7 @@ impl IconShape for BsFullscreen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmark;
 impl IconShape for BsFileEarmark {
     fn view_box(&self) -> String {
@@ -3125,6 +3296,7 @@ impl IconShape for BsFileEarmark {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudMoonFill;
 impl IconShape for BsCloudMoonFill {
     fn view_box(&self) -> String {
@@ -3145,6 +3317,7 @@ impl IconShape for BsCloudMoonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsModem;
 impl IconShape for BsModem {
     fn view_box(&self) -> String {
@@ -3165,6 +3338,7 @@ impl IconShape for BsModem {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeTm;
 impl IconShape for BsBadgeTm {
     fn view_box(&self) -> String {
@@ -3185,6 +3359,7 @@ impl IconShape for BsBadgeTm {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCardText;
 impl IconShape for BsCardText {
     fn view_box(&self) -> String {
@@ -3205,6 +3380,7 @@ impl IconShape for BsCardText {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSuitDiamondFill;
 impl IconShape for BsSuitDiamondFill {
     fn view_box(&self) -> String {
@@ -3222,6 +3398,7 @@ impl IconShape for BsSuitDiamondFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeartArrow;
 impl IconShape for BsHeartArrow {
     fn view_box(&self) -> String {
@@ -3239,6 +3416,7 @@ impl IconShape for BsHeartArrow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCartDash;
 impl IconShape for BsCartDash {
     fn view_box(&self) -> String {
@@ -3259,6 +3437,7 @@ impl IconShape for BsCartDash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBezier2;
 impl IconShape for BsBezier2 {
     fn view_box(&self) -> String {
@@ -3277,6 +3456,7 @@ impl IconShape for BsBezier2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHandThumbsUp;
 impl IconShape for BsHandThumbsUp {
     fn view_box(&self) -> String {
@@ -3294,6 +3474,7 @@ impl IconShape for BsHandThumbsUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShift;
 impl IconShape for BsShift {
     fn view_box(&self) -> String {
@@ -3311,6 +3492,7 @@ impl IconShape for BsShift {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileDiffFill;
 impl IconShape for BsFileDiffFill {
     fn view_box(&self) -> String {
@@ -3328,6 +3510,7 @@ impl IconShape for BsFileDiffFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileMinus;
 impl IconShape for BsFileMinus {
     fn view_box(&self) -> String {
@@ -3348,6 +3531,7 @@ impl IconShape for BsFileMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsXCircle;
 impl IconShape for BsXCircle {
     fn view_box(&self) -> String {
@@ -3368,6 +3552,7 @@ impl IconShape for BsXCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipForwardFill;
 impl IconShape for BsSkipForwardFill {
     fn view_box(&self) -> String {
@@ -3385,6 +3570,7 @@ impl IconShape for BsSkipForwardFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTypeBold;
 impl IconShape for BsTypeBold {
     fn view_box(&self) -> String {
@@ -3402,6 +3588,7 @@ impl IconShape for BsTypeBold {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSendFill;
 impl IconShape for BsSendFill {
     fn view_box(&self) -> String {
@@ -3419,6 +3606,7 @@ impl IconShape for BsSendFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeptagon;
 impl IconShape for BsHeptagon {
     fn view_box(&self) -> String {
@@ -3436,6 +3624,7 @@ impl IconShape for BsHeptagon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeTiff;
 impl IconShape for BsFiletypeTiff {
     fn view_box(&self) -> String {
@@ -3454,6 +3643,7 @@ impl IconShape for BsFiletypeTiff {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookFill;
 impl IconShape for BsBookFill {
     fn view_box(&self) -> String {
@@ -3471,6 +3661,7 @@ impl IconShape for BsBookFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowBarLeft;
 impl IconShape for BsArrowBarLeft {
     fn view_box(&self) -> String {
@@ -3489,6 +3680,7 @@ impl IconShape for BsArrowBarLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBagDash;
 impl IconShape for BsBagDash {
     fn view_box(&self) -> String {
@@ -3510,6 +3702,7 @@ impl IconShape for BsBagDash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonDash;
 impl IconShape for BsPersonDash {
     fn view_box(&self) -> String {
@@ -3531,6 +3724,7 @@ impl IconShape for BsPersonDash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar4Range;
 impl IconShape for BsCalendar4Range {
     fn view_box(&self) -> String {
@@ -3551,6 +3745,7 @@ impl IconShape for BsCalendar4Range {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFolderCheck;
 impl IconShape for BsFolderCheck {
     fn view_box(&self) -> String {
@@ -3571,6 +3766,7 @@ impl IconShape for BsFolderCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowsMove;
 impl IconShape for BsArrowsMove {
     fn view_box(&self) -> String {
@@ -3589,6 +3785,7 @@ impl IconShape for BsArrowsMove {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMotherboard;
 impl IconShape for BsMotherboard {
     fn view_box(&self) -> String {
@@ -3609,6 +3806,7 @@ impl IconShape for BsMotherboard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayoutSidebar;
 impl IconShape for BsLayoutSidebar {
     fn view_box(&self) -> String {
@@ -3626,6 +3824,7 @@ impl IconShape for BsLayoutSidebar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowDownLeft;
 impl IconShape for BsBoxArrowDownLeft {
     fn view_box(&self) -> String {
@@ -3648,6 +3847,7 @@ impl IconShape for BsBoxArrowDownLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFolder2Open;
 impl IconShape for BsFolder2Open {
     fn view_box(&self) -> String {
@@ -3665,6 +3865,7 @@ impl IconShape for BsFolder2Open {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHddStack;
 impl IconShape for BsHddStack {
     fn view_box(&self) -> String {
@@ -3688,6 +3889,7 @@ impl IconShape for BsHddStack {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonPlus;
 impl IconShape for BsPersonPlus {
     fn view_box(&self) -> String {
@@ -3709,6 +3911,7 @@ impl IconShape for BsPersonPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBagPlus;
 impl IconShape for BsBagPlus {
     fn view_box(&self) -> String {
@@ -3730,6 +3933,7 @@ impl IconShape for BsBagPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCircle;
 impl IconShape for BsCircle {
     fn view_box(&self) -> String {
@@ -3747,6 +3951,7 @@ impl IconShape for BsCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsViewList;
 impl IconShape for BsViewList {
     fn view_box(&self) -> String {
@@ -3764,6 +3969,7 @@ impl IconShape for BsViewList {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVolumeOffFill;
 impl IconShape for BsVolumeOffFill {
     fn view_box(&self) -> String {
@@ -3781,6 +3987,7 @@ impl IconShape for BsVolumeOffFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsViewStacked;
 impl IconShape for BsViewStacked {
     fn view_box(&self) -> String {
@@ -3798,6 +4005,7 @@ impl IconShape for BsViewStacked {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiSmileUpsideDownFill;
 impl IconShape for BsEmojiSmileUpsideDownFill {
     fn view_box(&self) -> String {
@@ -3815,6 +4023,7 @@ impl IconShape for BsEmojiSmileUpsideDownFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPerson;
 impl IconShape for BsPerson {
     fn view_box(&self) -> String {
@@ -3832,6 +4041,7 @@ impl IconShape for BsPerson {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUiChecksGrid;
 impl IconShape for BsUiChecksGrid {
     fn view_box(&self) -> String {
@@ -3849,6 +4059,7 @@ impl IconShape for BsUiChecksGrid {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkXFill;
 impl IconShape for BsFileEarmarkXFill {
     fn view_box(&self) -> String {
@@ -3866,6 +4077,7 @@ impl IconShape for BsFileEarmarkXFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBalloonHeart;
 impl IconShape for BsBalloonHeart {
     fn view_box(&self) -> String {
@@ -3884,6 +4096,7 @@ impl IconShape for BsBalloonHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShop;
 impl IconShape for BsShop {
     fn view_box(&self) -> String {
@@ -3901,6 +4114,7 @@ impl IconShape for BsShop {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBatteryHalf;
 impl IconShape for BsBatteryHalf {
     fn view_box(&self) -> String {
@@ -3921,6 +4135,7 @@ impl IconShape for BsBatteryHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSafe;
 impl IconShape for BsSafe {
     fn view_box(&self) -> String {
@@ -3941,6 +4156,7 @@ impl IconShape for BsSafe {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUiChecks;
 impl IconShape for BsUiChecks {
     fn view_box(&self) -> String {
@@ -3958,6 +4174,7 @@ impl IconShape for BsUiChecks {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMailbox;
 impl IconShape for BsMailbox {
     fn view_box(&self) -> String {
@@ -3978,6 +4195,7 @@ impl IconShape for BsMailbox {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeOpenHeart;
 impl IconShape for BsEnvelopeOpenHeart {
     fn view_box(&self) -> String {
@@ -3996,6 +4214,7 @@ impl IconShape for BsEnvelopeOpenHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilePlay;
 impl IconShape for BsFilePlay {
     fn view_box(&self) -> String {
@@ -4016,6 +4235,7 @@ impl IconShape for BsFilePlay {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHandbag;
 impl IconShape for BsHandbag {
     fn view_box(&self) -> String {
@@ -4033,6 +4253,7 @@ impl IconShape for BsHandbag {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkBarGraphFill;
 impl IconShape for BsFileEarmarkBarGraphFill {
     fn view_box(&self) -> String {
@@ -4050,6 +4271,7 @@ impl IconShape for BsFileEarmarkBarGraphFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUsbDriveFill;
 impl IconShape for BsUsbDriveFill {
     fn view_box(&self) -> String {
@@ -4067,6 +4289,7 @@ impl IconShape for BsUsbDriveFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSliders;
 impl IconShape for BsSliders {
     fn view_box(&self) -> String {
@@ -4085,6 +4308,7 @@ impl IconShape for BsSliders {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudRainHeavy;
 impl IconShape for BsCloudRainHeavy {
     fn view_box(&self) -> String {
@@ -4102,6 +4326,7 @@ impl IconShape for BsCloudRainHeavy {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudLightningRain;
 impl IconShape for BsCloudLightningRain {
     fn view_box(&self) -> String {
@@ -4119,6 +4344,7 @@ impl IconShape for BsCloudLightningRain {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSendX;
 impl IconShape for BsSendX {
     fn view_box(&self) -> String {
@@ -4139,6 +4365,7 @@ impl IconShape for BsSendX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExclamationDiamond;
 impl IconShape for BsExclamationDiamond {
     fn view_box(&self) -> String {
@@ -4159,6 +4386,7 @@ impl IconShape for BsExclamationDiamond {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRssFill;
 impl IconShape for BsRssFill {
     fn view_box(&self) -> String {
@@ -4176,6 +4404,7 @@ impl IconShape for BsRssFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronDoubleRight;
 impl IconShape for BsChevronDoubleRight {
     fn view_box(&self) -> String {
@@ -4198,6 +4427,7 @@ impl IconShape for BsChevronDoubleRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpShort;
 impl IconShape for BsArrowUpShort {
     fn view_box(&self) -> String {
@@ -4216,6 +4446,7 @@ impl IconShape for BsArrowUpShort {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRecycle;
 impl IconShape for BsRecycle {
     fn view_box(&self) -> String {
@@ -4233,6 +4464,7 @@ impl IconShape for BsRecycle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEject;
 impl IconShape for BsEject {
     fn view_box(&self) -> String {
@@ -4250,6 +4482,7 @@ impl IconShape for BsEject {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpLeft;
 impl IconShape for BsArrowUpLeft {
     fn view_box(&self) -> String {
@@ -4268,6 +4501,7 @@ impl IconShape for BsArrowUpLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudPlusFill;
 impl IconShape for BsCloudPlusFill {
     fn view_box(&self) -> String {
@@ -4285,6 +4519,7 @@ impl IconShape for BsCloudPlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFullscreenExit;
 impl IconShape for BsFullscreenExit {
     fn view_box(&self) -> String {
@@ -4302,6 +4537,7 @@ impl IconShape for BsFullscreenExit {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShareFill;
 impl IconShape for BsShareFill {
     fn view_box(&self) -> String {
@@ -4319,6 +4555,7 @@ impl IconShape for BsShareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2CheckFill;
 impl IconShape for BsClipboard2CheckFill {
     fn view_box(&self) -> String {
@@ -4339,6 +4576,7 @@ impl IconShape for BsClipboard2CheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrow90degUp;
 impl IconShape for BsArrow90degUp {
     fn view_box(&self) -> String {
@@ -4357,6 +4595,7 @@ impl IconShape for BsArrow90degUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudFog2;
 impl IconShape for BsCloudFog2 {
     fn view_box(&self) -> String {
@@ -4374,6 +4613,7 @@ impl IconShape for BsCloudFog2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronDown;
 impl IconShape for BsChevronDown {
     fn view_box(&self) -> String {
@@ -4392,6 +4632,7 @@ impl IconShape for BsChevronDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPenFill;
 impl IconShape for BsPenFill {
     fn view_box(&self) -> String {
@@ -4409,6 +4650,7 @@ impl IconShape for BsPenFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStopFill;
 impl IconShape for BsStopFill {
     fn view_box(&self) -> String {
@@ -4426,6 +4668,7 @@ impl IconShape for BsStopFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeKey;
 impl IconShape for BsFiletypeKey {
     fn view_box(&self) -> String {
@@ -4444,6 +4687,7 @@ impl IconShape for BsFiletypeKey {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronDoubleLeft;
 impl IconShape for BsChevronDoubleLeft {
     fn view_box(&self) -> String {
@@ -4466,6 +4710,7 @@ impl IconShape for BsChevronDoubleLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkMinus;
 impl IconShape for BsFileEarmarkMinus {
     fn view_box(&self) -> String {
@@ -4486,6 +4731,7 @@ impl IconShape for BsFileEarmarkMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonHeart;
 impl IconShape for BsPersonHeart {
     fn view_box(&self) -> String {
@@ -4503,6 +4749,7 @@ impl IconShape for BsPersonHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatLeftFill;
 impl IconShape for BsChatLeftFill {
     fn view_box(&self) -> String {
@@ -4520,6 +4767,7 @@ impl IconShape for BsChatLeftFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudCheck;
 impl IconShape for BsCloudCheck {
     fn view_box(&self) -> String {
@@ -4541,6 +4789,7 @@ impl IconShape for BsCloudCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHexagon;
 impl IconShape for BsHexagon {
     fn view_box(&self) -> String {
@@ -4558,6 +4807,7 @@ impl IconShape for BsHexagon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExclamationOctagon;
 impl IconShape for BsExclamationOctagon {
     fn view_box(&self) -> String {
@@ -4578,6 +4828,7 @@ impl IconShape for BsExclamationOctagon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsReceiptCutoff;
 impl IconShape for BsReceiptCutoff {
     fn view_box(&self) -> String {
@@ -4598,6 +4849,7 @@ impl IconShape for BsReceiptCutoff {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPostageHeartFill;
 impl IconShape for BsPostageHeartFill {
     fn view_box(&self) -> String {
@@ -4618,6 +4870,7 @@ impl IconShape for BsPostageHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGridFill;
 impl IconShape for BsGridFill {
     fn view_box(&self) -> String {
@@ -4635,6 +4888,7 @@ impl IconShape for BsGridFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSunFill;
 impl IconShape for BsSunFill {
     fn view_box(&self) -> String {
@@ -4652,6 +4906,7 @@ impl IconShape for BsSunFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkMinusFill;
 impl IconShape for BsFileEarmarkMinusFill {
     fn view_box(&self) -> String {
@@ -4669,6 +4924,7 @@ impl IconShape for BsFileEarmarkMinusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRecordBtnFill;
 impl IconShape for BsRecordBtnFill {
     fn view_box(&self) -> String {
@@ -4686,6 +4942,7 @@ impl IconShape for BsRecordBtnFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkEaselFill;
 impl IconShape for BsFileEarmarkEaselFill {
     fn view_box(&self) -> String {
@@ -4706,6 +4963,7 @@ impl IconShape for BsFileEarmarkEaselFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSortNumericUpAlt;
 impl IconShape for BsSortNumericUpAlt {
     fn view_box(&self) -> String {
@@ -4727,6 +4985,7 @@ impl IconShape for BsSortNumericUpAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsThunderboltFill;
 impl IconShape for BsThunderboltFill {
     fn view_box(&self) -> String {
@@ -4744,6 +5003,7 @@ impl IconShape for BsThunderboltFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBorderCenter;
 impl IconShape for BsBorderCenter {
     fn view_box(&self) -> String {
@@ -4761,6 +5021,7 @@ impl IconShape for BsBorderCenter {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileWord;
 impl IconShape for BsFileWord {
     fn view_box(&self) -> String {
@@ -4781,6 +5042,7 @@ impl IconShape for BsFileWord {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTruckFlatbed;
 impl IconShape for BsTruckFlatbed {
     fn view_box(&self) -> String {
@@ -4798,6 +5060,7 @@ impl IconShape for BsTruckFlatbed {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTextCenter;
 impl IconShape for BsTextCenter {
     fn view_box(&self) -> String {
@@ -4816,6 +5079,7 @@ impl IconShape for BsTextCenter {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeYml;
 impl IconShape for BsFiletypeYml {
     fn view_box(&self) -> String {
@@ -4834,6 +5098,7 @@ impl IconShape for BsFiletypeYml {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGlobe2;
 impl IconShape for BsGlobe2 {
     fn view_box(&self) -> String {
@@ -4851,6 +5116,7 @@ impl IconShape for BsGlobe2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldPlus;
 impl IconShape for BsShieldPlus {
     fn view_box(&self) -> String {
@@ -4871,6 +5137,7 @@ impl IconShape for BsShieldPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeartbreak;
 impl IconShape for BsHeartbreak {
     fn view_box(&self) -> String {
@@ -4889,6 +5156,7 @@ impl IconShape for BsHeartbreak {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayoutTextSidebarReverse;
 impl IconShape for BsLayoutTextSidebarReverse {
     fn view_box(&self) -> String {
@@ -4909,6 +5177,7 @@ impl IconShape for BsLayoutTextSidebarReverse {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeWav;
 impl IconShape for BsFiletypeWav {
     fn view_box(&self) -> String {
@@ -4927,6 +5196,7 @@ impl IconShape for BsFiletypeWav {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSignpost;
 impl IconShape for BsSignpost {
     fn view_box(&self) -> String {
@@ -4944,6 +5214,7 @@ impl IconShape for BsSignpost {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDoorClosed;
 impl IconShape for BsDoorClosed {
     fn view_box(&self) -> String {
@@ -4964,6 +5235,7 @@ impl IconShape for BsDoorClosed {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGithub;
 impl IconShape for BsGithub {
     fn view_box(&self) -> String {
@@ -4981,6 +5253,7 @@ impl IconShape for BsGithub {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronBarLeft;
 impl IconShape for BsChevronBarLeft {
     fn view_box(&self) -> String {
@@ -4999,6 +5272,7 @@ impl IconShape for BsChevronBarLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSortAlphaUp;
 impl IconShape for BsSortAlphaUp {
     fn view_box(&self) -> String {
@@ -5020,6 +5294,7 @@ impl IconShape for BsSortAlphaUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDisplayport;
 impl IconShape for BsDisplayport {
     fn view_box(&self) -> String {
@@ -5040,6 +5315,7 @@ impl IconShape for BsDisplayport {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkArrowDown;
 impl IconShape for BsFileEarmarkArrowDown {
     fn view_box(&self) -> String {
@@ -5060,6 +5336,7 @@ impl IconShape for BsFileEarmarkArrowDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBarChartFill;
 impl IconShape for BsBarChartFill {
     fn view_box(&self) -> String {
@@ -5077,6 +5354,7 @@ impl IconShape for BsBarChartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarMinusFill;
 impl IconShape for BsCalendarMinusFill {
     fn view_box(&self) -> String {
@@ -5094,6 +5372,7 @@ impl IconShape for BsCalendarMinusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCone;
 impl IconShape for BsCone {
     fn view_box(&self) -> String {
@@ -5111,6 +5390,7 @@ impl IconShape for BsCone {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUsb;
 impl IconShape for BsUsb {
     fn view_box(&self) -> String {
@@ -5131,6 +5411,7 @@ impl IconShape for BsUsb {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHouseFill;
 impl IconShape for BsHouseFill {
     fn view_box(&self) -> String {
@@ -5153,6 +5434,7 @@ impl IconShape for BsHouseFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatLeftHeart;
 impl IconShape for BsChatLeftHeart {
     fn view_box(&self) -> String {
@@ -5173,6 +5455,7 @@ impl IconShape for BsChatLeftHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTicket;
 impl IconShape for BsTicket {
     fn view_box(&self) -> String {
@@ -5190,6 +5473,7 @@ impl IconShape for BsTicket {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSpeakerFill;
 impl IconShape for BsSpeakerFill {
     fn view_box(&self) -> String {
@@ -5210,6 +5494,7 @@ impl IconShape for BsSpeakerFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudSleet;
 impl IconShape for BsCloudSleet {
     fn view_box(&self) -> String {
@@ -5227,6 +5512,7 @@ impl IconShape for BsCloudSleet {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkPlayFill;
 impl IconShape for BsFileEarmarkPlayFill {
     fn view_box(&self) -> String {
@@ -5244,6 +5530,7 @@ impl IconShape for BsFileEarmarkPlayFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeCheckFill;
 impl IconShape for BsEnvelopeCheckFill {
     fn view_box(&self) -> String {
@@ -5264,6 +5551,7 @@ impl IconShape for BsEnvelopeCheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCrop;
 impl IconShape for BsCrop {
     fn view_box(&self) -> String {
@@ -5281,6 +5569,7 @@ impl IconShape for BsCrop {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeAdFill;
 impl IconShape for BsBadgeAdFill {
     fn view_box(&self) -> String {
@@ -5301,6 +5590,7 @@ impl IconShape for BsBadgeAdFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSimFill;
 impl IconShape for BsSimFill {
     fn view_box(&self) -> String {
@@ -5321,6 +5611,7 @@ impl IconShape for BsSimFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretDownSquare;
 impl IconShape for BsCaretDownSquare {
     fn view_box(&self) -> String {
@@ -5341,6 +5632,7 @@ impl IconShape for BsCaretDownSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudHaze2;
 impl IconShape for BsCloudHaze2 {
     fn view_box(&self) -> String {
@@ -5358,6 +5650,7 @@ impl IconShape for BsCloudHaze2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBagCheck;
 impl IconShape for BsBagCheck {
     fn view_box(&self) -> String {
@@ -5379,6 +5672,7 @@ impl IconShape for BsBagCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCartCheckFill;
 impl IconShape for BsCartCheckFill {
     fn view_box(&self) -> String {
@@ -5396,6 +5690,7 @@ impl IconShape for BsCartCheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTag;
 impl IconShape for BsTag {
     fn view_box(&self) -> String {
@@ -5416,6 +5711,7 @@ impl IconShape for BsTag {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBagHeartFill;
 impl IconShape for BsBagHeartFill {
     fn view_box(&self) -> String {
@@ -5433,6 +5729,7 @@ impl IconShape for BsBagHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPatchExclamationFill;
 impl IconShape for BsPatchExclamationFill {
     fn view_box(&self) -> String {
@@ -5450,6 +5747,7 @@ impl IconShape for BsPatchExclamationFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsOption;
 impl IconShape for BsOption {
     fn view_box(&self) -> String {
@@ -5467,6 +5765,7 @@ impl IconShape for BsOption {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeDoc;
 impl IconShape for BsFiletypeDoc {
     fn view_box(&self) -> String {
@@ -5485,6 +5784,7 @@ impl IconShape for BsFiletypeDoc {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBriefcase;
 impl IconShape for BsBriefcase {
     fn view_box(&self) -> String {
@@ -5502,6 +5802,7 @@ impl IconShape for BsBriefcase {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiSmileUpsideDown;
 impl IconShape for BsEmojiSmileUpsideDown {
     fn view_box(&self) -> String {
@@ -5522,6 +5823,7 @@ impl IconShape for BsEmojiSmileUpsideDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCircleFill;
 impl IconShape for BsCircleFill {
     fn view_box(&self) -> String {
@@ -5541,6 +5843,7 @@ impl IconShape for BsCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTrashFill;
 impl IconShape for BsTrashFill {
     fn view_box(&self) -> String {
@@ -5558,6 +5861,7 @@ impl IconShape for BsTrashFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAlignBottom;
 impl IconShape for BsAlignBottom {
     fn view_box(&self) -> String {
@@ -5582,6 +5886,7 @@ impl IconShape for BsAlignBottom {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExclamationSquare;
 impl IconShape for BsExclamationSquare {
     fn view_box(&self) -> String {
@@ -5602,6 +5907,7 @@ impl IconShape for BsExclamationSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkEasel;
 impl IconShape for BsFileEarmarkEasel {
     fn view_box(&self) -> String {
@@ -5622,6 +5928,7 @@ impl IconShape for BsFileEarmarkEasel {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeptagonHalf;
 impl IconShape for BsHeptagonHalf {
     fn view_box(&self) -> String {
@@ -5639,6 +5946,7 @@ impl IconShape for BsHeptagonHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkX;
 impl IconShape for BsFileEarmarkX {
     fn view_box(&self) -> String {
@@ -5659,6 +5967,7 @@ impl IconShape for BsFileEarmarkX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudSlashFill;
 impl IconShape for BsCloudSlashFill {
     fn view_box(&self) -> String {
@@ -5677,6 +5986,7 @@ impl IconShape for BsCloudSlashFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlugin;
 impl IconShape for BsPlugin {
     fn view_box(&self) -> String {
@@ -5695,6 +6005,7 @@ impl IconShape for BsPlugin {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsNutFill;
 impl IconShape for BsNutFill {
     fn view_box(&self) -> String {
@@ -5712,6 +6023,7 @@ impl IconShape for BsNutFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCursorText;
 impl IconShape for BsCursorText {
     fn view_box(&self) -> String {
@@ -5729,6 +6041,7 @@ impl IconShape for BsCursorText {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLightbulbFill;
 impl IconShape for BsLightbulbFill {
     fn view_box(&self) -> String {
@@ -5746,6 +6059,7 @@ impl IconShape for BsLightbulbFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkFontFill;
 impl IconShape for BsFileEarmarkFontFill {
     fn view_box(&self) -> String {
@@ -5763,6 +6077,7 @@ impl IconShape for BsFileEarmarkFontFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronBarUp;
 impl IconShape for BsChevronBarUp {
     fn view_box(&self) -> String {
@@ -5781,6 +6096,7 @@ impl IconShape for BsChevronBarUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPhoneLandscape;
 impl IconShape for BsPhoneLandscape {
     fn view_box(&self) -> String {
@@ -5801,6 +6117,7 @@ impl IconShape for BsPhoneLandscape {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeVrFill;
 impl IconShape for BsBadgeVrFill {
     fn view_box(&self) -> String {
@@ -5821,6 +6138,7 @@ impl IconShape for BsBadgeVrFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsThermometerHalf;
 impl IconShape for BsThermometerHalf {
     fn view_box(&self) -> String {
@@ -5841,6 +6159,7 @@ impl IconShape for BsThermometerHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronBarContract;
 impl IconShape for BsChevronBarContract {
     fn view_box(&self) -> String {
@@ -5859,6 +6178,7 @@ impl IconShape for BsChevronBarContract {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudPlus;
 impl IconShape for BsCloudPlus {
     fn view_box(&self) -> String {
@@ -5880,6 +6200,7 @@ impl IconShape for BsCloudPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDistributeHorizontal;
 impl IconShape for BsDistributeHorizontal {
     fn view_box(&self) -> String {
@@ -5901,6 +6222,7 @@ impl IconShape for BsDistributeHorizontal {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUsbPlug;
 impl IconShape for BsUsbPlug {
     fn view_box(&self) -> String {
@@ -5918,6 +6240,7 @@ impl IconShape for BsUsbPlug {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeadset;
 impl IconShape for BsHeadset {
     fn view_box(&self) -> String {
@@ -5935,6 +6258,7 @@ impl IconShape for BsHeadset {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHandThumbsDown;
 impl IconShape for BsHandThumbsDown {
     fn view_box(&self) -> String {
@@ -5952,6 +6276,7 @@ impl IconShape for BsHandThumbsDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsConeStriped;
 impl IconShape for BsConeStriped {
     fn view_box(&self) -> String {
@@ -5969,6 +6294,7 @@ impl IconShape for BsConeStriped {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMap;
 impl IconShape for BsMap {
     fn view_box(&self) -> String {
@@ -5987,6 +6313,7 @@ impl IconShape for BsMap {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInbox;
 impl IconShape for BsInbox {
     fn view_box(&self) -> String {
@@ -6004,6 +6331,7 @@ impl IconShape for BsInbox {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBlockquoteLeft;
 impl IconShape for BsBlockquoteLeft {
     fn view_box(&self) -> String {
@@ -6021,6 +6349,7 @@ impl IconShape for BsBlockquoteLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpRightSquare;
 impl IconShape for BsArrowUpRightSquare {
     fn view_box(&self) -> String {
@@ -6039,6 +6368,7 @@ impl IconShape for BsArrowUpRightSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkRichtextFill;
 impl IconShape for BsFileEarmarkRichtextFill {
     fn view_box(&self) -> String {
@@ -6056,6 +6386,7 @@ impl IconShape for BsFileEarmarkRichtextFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlusSquare;
 impl IconShape for BsPlusSquare {
     fn view_box(&self) -> String {
@@ -6076,6 +6407,7 @@ impl IconShape for BsPlusSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeMdx;
 impl IconShape for BsFiletypeMdx {
     fn view_box(&self) -> String {
@@ -6094,6 +6426,7 @@ impl IconShape for BsFiletypeMdx {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPower;
 impl IconShape for BsPower {
     fn view_box(&self) -> String {
@@ -6114,6 +6447,7 @@ impl IconShape for BsPower {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarDay;
 impl IconShape for BsCalendarDay {
     fn view_box(&self) -> String {
@@ -6134,6 +6468,7 @@ impl IconShape for BsCalendarDay {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWrenchAdjustableCircleFill;
 impl IconShape for BsWrenchAdjustableCircleFill {
     fn view_box(&self) -> String {
@@ -6154,6 +6489,7 @@ impl IconShape for BsWrenchAdjustableCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeFill;
 impl IconShape for BsEnvelopeFill {
     fn view_box(&self) -> String {
@@ -6171,6 +6507,7 @@ impl IconShape for BsEnvelopeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudSlash;
 impl IconShape for BsCloudSlash {
     fn view_box(&self) -> String {
@@ -6192,6 +6529,7 @@ impl IconShape for BsCloudSlash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayoutSidebarReverse;
 impl IconShape for BsLayoutSidebarReverse {
     fn view_box(&self) -> String {
@@ -6209,6 +6547,7 @@ impl IconShape for BsLayoutSidebarReverse {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2PlusFill;
 impl IconShape for BsClipboard2PlusFill {
     fn view_box(&self) -> String {
@@ -6229,6 +6568,7 @@ impl IconShape for BsClipboard2PlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCheckCircleFill;
 impl IconShape for BsCheckCircleFill {
     fn view_box(&self) -> String {
@@ -6246,6 +6586,7 @@ impl IconShape for BsCheckCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonBadgeFill;
 impl IconShape for BsPersonBadgeFill {
     fn view_box(&self) -> String {
@@ -6263,6 +6604,7 @@ impl IconShape for BsPersonBadgeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClouds;
 impl IconShape for BsClouds {
     fn view_box(&self) -> String {
@@ -6283,6 +6625,7 @@ impl IconShape for BsClouds {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2Plus;
 impl IconShape for BsClipboard2Plus {
     fn view_box(&self) -> String {
@@ -6306,6 +6649,7 @@ impl IconShape for BsClipboard2Plus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephonePlus;
 impl IconShape for BsTelephonePlus {
     fn view_box(&self) -> String {
@@ -6327,6 +6671,7 @@ impl IconShape for BsTelephonePlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileBinaryFill;
 impl IconShape for BsFileBinaryFill {
     fn view_box(&self) -> String {
@@ -6347,6 +6692,7 @@ impl IconShape for BsFileBinaryFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUsbC;
 impl IconShape for BsUsbC {
     fn view_box(&self) -> String {
@@ -6367,6 +6713,7 @@ impl IconShape for BsUsbC {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpLeftSquareFill;
 impl IconShape for BsArrowUpLeftSquareFill {
     fn view_box(&self) -> String {
@@ -6384,6 +6731,7 @@ impl IconShape for BsArrowUpLeftSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBackspaceReverseFill;
 impl IconShape for BsBackspaceReverseFill {
     fn view_box(&self) -> String {
@@ -6401,6 +6749,7 @@ impl IconShape for BsBackspaceReverseFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSlashCircleFill;
 impl IconShape for BsSlashCircleFill {
     fn view_box(&self) -> String {
@@ -6418,6 +6767,7 @@ impl IconShape for BsSlashCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEarbuds;
 impl IconShape for BsEarbuds {
     fn view_box(&self) -> String {
@@ -6436,6 +6786,7 @@ impl IconShape for BsEarbuds {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatRightTextFill;
 impl IconShape for BsChatRightTextFill {
     fn view_box(&self) -> String {
@@ -6453,6 +6804,7 @@ impl IconShape for BsChatRightTextFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHouseDoorFill;
 impl IconShape for BsHouseDoorFill {
     fn view_box(&self) -> String {
@@ -6470,6 +6822,7 @@ impl IconShape for BsHouseDoorFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTornado;
 impl IconShape for BsTornado {
     fn view_box(&self) -> String {
@@ -6487,6 +6840,7 @@ impl IconShape for BsTornado {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatLeftQuote;
 impl IconShape for BsChatLeftQuote {
     fn view_box(&self) -> String {
@@ -6507,6 +6861,7 @@ impl IconShape for BsChatLeftQuote {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCheck2Square;
 impl IconShape for BsCheck2Square {
     fn view_box(&self) -> String {
@@ -6527,6 +6882,7 @@ impl IconShape for BsCheck2Square {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWallet2;
 impl IconShape for BsWallet2 {
     fn view_box(&self) -> String {
@@ -6544,6 +6900,7 @@ impl IconShape for BsWallet2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2Range;
 impl IconShape for BsCalendar2Range {
     fn view_box(&self) -> String {
@@ -6564,6 +6921,7 @@ impl IconShape for BsCalendar2Range {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFile;
 impl IconShape for BsFile {
     fn view_box(&self) -> String {
@@ -6581,6 +6939,7 @@ impl IconShape for BsFile {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCartPlusFill;
 impl IconShape for BsCartPlusFill {
     fn view_box(&self) -> String {
@@ -6598,6 +6957,7 @@ impl IconShape for BsCartPlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPuzzle;
 impl IconShape for BsPuzzle {
     fn view_box(&self) -> String {
@@ -6615,6 +6975,7 @@ impl IconShape for BsPuzzle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMenuButtonWide;
 impl IconShape for BsMenuButtonWide {
     fn view_box(&self) -> String {
@@ -6635,6 +6996,7 @@ impl IconShape for BsMenuButtonWide {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsListStars;
 impl IconShape for BsListStars {
     fn view_box(&self) -> String {
@@ -6656,6 +7018,7 @@ impl IconShape for BsListStars {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeCc;
 impl IconShape for BsBadgeCc {
     fn view_box(&self) -> String {
@@ -6676,6 +7039,7 @@ impl IconShape for BsBadgeCc {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMortarboardFill;
 impl IconShape for BsMortarboardFill {
     fn view_box(&self) -> String {
@@ -6696,6 +7060,7 @@ impl IconShape for BsMortarboardFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkSlidesFill;
 impl IconShape for BsFileEarmarkSlidesFill {
     fn view_box(&self) -> String {
@@ -6716,6 +7081,7 @@ impl IconShape for BsFileEarmarkSlidesFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxSeam;
 impl IconShape for BsBoxSeam {
     fn view_box(&self) -> String {
@@ -6733,6 +7099,7 @@ impl IconShape for BsBoxSeam {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSignal;
 impl IconShape for BsSignal {
     fn view_box(&self) -> String {
@@ -6750,6 +7117,7 @@ impl IconShape for BsSignal {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTabletFill;
 impl IconShape for BsTabletFill {
     fn view_box(&self) -> String {
@@ -6767,6 +7135,7 @@ impl IconShape for BsTabletFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiles;
 impl IconShape for BsFiles {
     fn view_box(&self) -> String {
@@ -6784,6 +7153,7 @@ impl IconShape for BsFiles {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkExcel;
 impl IconShape for BsFileEarmarkExcel {
     fn view_box(&self) -> String {
@@ -6804,6 +7174,7 @@ impl IconShape for BsFileEarmarkExcel {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeSh;
 impl IconShape for BsFiletypeSh {
     fn view_box(&self) -> String {
@@ -6822,6 +7193,7 @@ impl IconShape for BsFiletypeSh {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRecordCircleFill;
 impl IconShape for BsRecordCircleFill {
     fn view_box(&self) -> String {
@@ -6839,6 +7211,7 @@ impl IconShape for BsRecordCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiDizzyFill;
 impl IconShape for BsEmojiDizzyFill {
     fn view_box(&self) -> String {
@@ -6856,6 +7229,7 @@ impl IconShape for BsEmojiDizzyFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatRightDotsFill;
 impl IconShape for BsChatRightDotsFill {
     fn view_box(&self) -> String {
@@ -6873,6 +7247,7 @@ impl IconShape for BsChatRightDotsFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeOpenHeartFill;
 impl IconShape for BsEnvelopeOpenHeartFill {
     fn view_box(&self) -> String {
@@ -6893,6 +7268,7 @@ impl IconShape for BsEnvelopeOpenHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVoicemail;
 impl IconShape for BsVoicemail {
     fn view_box(&self) -> String {
@@ -6910,6 +7286,7 @@ impl IconShape for BsVoicemail {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownLeftSquareFill;
 impl IconShape for BsArrowDownLeftSquareFill {
     fn view_box(&self) -> String {
@@ -6927,6 +7304,7 @@ impl IconShape for BsArrowDownLeftSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStopCircleFill;
 impl IconShape for BsStopCircleFill {
     fn view_box(&self) -> String {
@@ -6944,6 +7322,7 @@ impl IconShape for BsStopCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarkFill;
 impl IconShape for BsBookmarkFill {
     fn view_box(&self) -> String {
@@ -6961,6 +7340,7 @@ impl IconShape for BsBookmarkFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHouseHeartFill;
 impl IconShape for BsHouseHeartFill {
     fn view_box(&self) -> String {
@@ -6981,6 +7361,7 @@ impl IconShape for BsHouseHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTerminal;
 impl IconShape for BsTerminal {
     fn view_box(&self) -> String {
@@ -7001,6 +7382,7 @@ impl IconShape for BsTerminal {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiAngryFill;
 impl IconShape for BsEmojiAngryFill {
     fn view_box(&self) -> String {
@@ -7018,6 +7400,7 @@ impl IconShape for BsEmojiAngryFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCashCoin;
 impl IconShape for BsCashCoin {
     fn view_box(&self) -> String {
@@ -7045,6 +7428,7 @@ impl IconShape for BsCashCoin {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookHalf;
 impl IconShape for BsBookHalf {
     fn view_box(&self) -> String {
@@ -7062,6 +7446,7 @@ impl IconShape for BsBookHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournalMedical;
 impl IconShape for BsJournalMedical {
     fn view_box(&self) -> String {
@@ -7086,6 +7471,7 @@ impl IconShape for BsJournalMedical {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCartDashFill;
 impl IconShape for BsCartDashFill {
     fn view_box(&self) -> String {
@@ -7103,6 +7489,7 @@ impl IconShape for BsCartDashFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGrid3x3Gap;
 impl IconShape for BsGrid3x3Gap {
     fn view_box(&self) -> String {
@@ -7120,6 +7507,7 @@ impl IconShape for BsGrid3x3Gap {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeDocx;
 impl IconShape for BsFiletypeDocx {
     fn view_box(&self) -> String {
@@ -7138,6 +7526,7 @@ impl IconShape for BsFiletypeDocx {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiWink;
 impl IconShape for BsEmojiWink {
     fn view_box(&self) -> String {
@@ -7158,6 +7547,7 @@ impl IconShape for BsEmojiWink {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardHeartFill;
 impl IconShape for BsClipboardHeartFill {
     fn view_box(&self) -> String {
@@ -7180,6 +7570,7 @@ impl IconShape for BsClipboardHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronUp;
 impl IconShape for BsChevronUp {
     fn view_box(&self) -> String {
@@ -7198,6 +7589,7 @@ impl IconShape for BsChevronUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSuitHeartFill;
 impl IconShape for BsSuitHeartFill {
     fn view_box(&self) -> String {
@@ -7215,6 +7607,7 @@ impl IconShape for BsSuitHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCompassFill;
 impl IconShape for BsCompassFill {
     fn view_box(&self) -> String {
@@ -7232,6 +7625,7 @@ impl IconShape for BsCompassFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFolderSymlink;
 impl IconShape for BsFolderSymlink {
     fn view_box(&self) -> String {
@@ -7252,6 +7646,7 @@ impl IconShape for BsFolderSymlink {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiKiss;
 impl IconShape for BsEmojiKiss {
     fn view_box(&self) -> String {
@@ -7270,6 +7665,7 @@ impl IconShape for BsEmojiKiss {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatHeartFill;
 impl IconShape for BsChatHeartFill {
     fn view_box(&self) -> String {
@@ -7287,6 +7683,7 @@ impl IconShape for BsChatHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDpad;
 impl IconShape for BsDpad {
     fn view_box(&self) -> String {
@@ -7307,6 +7704,7 @@ impl IconShape for BsDpad {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatFill;
 impl IconShape for BsChatFill {
     fn view_box(&self) -> String {
@@ -7324,6 +7722,7 @@ impl IconShape for BsChatFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHddNetwork;
 impl IconShape for BsHddNetwork {
     fn view_box(&self) -> String {
@@ -7344,6 +7743,7 @@ impl IconShape for BsHddNetwork {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatLeft;
 impl IconShape for BsChatLeft {
     fn view_box(&self) -> String {
@@ -7361,6 +7761,7 @@ impl IconShape for BsChatLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownLeft;
 impl IconShape for BsArrowDownLeft {
     fn view_box(&self) -> String {
@@ -7379,6 +7780,7 @@ impl IconShape for BsArrowDownLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHandThumbsDownFill;
 impl IconShape for BsHandThumbsDownFill {
     fn view_box(&self) -> String {
@@ -7396,6 +7798,7 @@ impl IconShape for BsHandThumbsDownFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileText;
 impl IconShape for BsFileText {
     fn view_box(&self) -> String {
@@ -7416,6 +7819,7 @@ impl IconShape for BsFileText {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatText;
 impl IconShape for BsChatText {
     fn view_box(&self) -> String {
@@ -7436,6 +7840,7 @@ impl IconShape for BsChatText {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStickyFill;
 impl IconShape for BsStickyFill {
     fn view_box(&self) -> String {
@@ -7453,6 +7858,7 @@ impl IconShape for BsStickyFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDroplet;
 impl IconShape for BsDroplet {
     fn view_box(&self) -> String {
@@ -7475,6 +7881,7 @@ impl IconShape for BsDroplet {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMastodon;
 impl IconShape for BsMastodon {
     fn view_box(&self) -> String {
@@ -7492,6 +7899,7 @@ impl IconShape for BsMastodon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeTtf;
 impl IconShape for BsFiletypeTtf {
     fn view_box(&self) -> String {
@@ -7510,6 +7918,7 @@ impl IconShape for BsFiletypeTtf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileFill;
 impl IconShape for BsFileFill {
     fn view_box(&self) -> String {
@@ -7528,6 +7937,7 @@ impl IconShape for BsFileFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsKeyboard;
 impl IconShape for BsKeyboard {
     fn view_box(&self) -> String {
@@ -7548,6 +7958,7 @@ impl IconShape for BsKeyboard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBox2;
 impl IconShape for BsBox2 {
     fn view_box(&self) -> String {
@@ -7565,6 +7976,7 @@ impl IconShape for BsBox2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsX;
 impl IconShape for BsX {
     fn view_box(&self) -> String {
@@ -7582,6 +7994,7 @@ impl IconShape for BsX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUsbSymbol;
 impl IconShape for BsUsbSymbol {
     fn view_box(&self) -> String {
@@ -7599,6 +8012,7 @@ impl IconShape for BsUsbSymbol {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJoystick;
 impl IconShape for BsJoystick {
     fn view_box(&self) -> String {
@@ -7619,6 +8033,7 @@ impl IconShape for BsJoystick {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBarChart;
 impl IconShape for BsBarChart {
     fn view_box(&self) -> String {
@@ -7636,6 +8051,7 @@ impl IconShape for BsBarChart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQrCode;
 impl IconShape for BsQrCode {
     fn view_box(&self) -> String {
@@ -7665,6 +8081,7 @@ impl IconShape for BsQrCode {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRouterFill;
 impl IconShape for BsRouterFill {
     fn view_box(&self) -> String {
@@ -7691,6 +8108,7 @@ impl IconShape for BsRouterFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileBarGraphFill;
 impl IconShape for BsFileBarGraphFill {
     fn view_box(&self) -> String {
@@ -7708,6 +8126,7 @@ impl IconShape for BsFileBarGraphFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSendExclamation;
 impl IconShape for BsSendExclamation {
     fn view_box(&self) -> String {
@@ -7728,6 +8147,7 @@ impl IconShape for BsSendExclamation {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExclamationTriangle;
 impl IconShape for BsExclamationTriangle {
     fn view_box(&self) -> String {
@@ -7748,6 +8168,7 @@ impl IconShape for BsExclamationTriangle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDot;
 impl IconShape for BsDot {
     fn view_box(&self) -> String {
@@ -7765,6 +8186,7 @@ impl IconShape for BsDot {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudsFill;
 impl IconShape for BsCloudsFill {
     fn view_box(&self) -> String {
@@ -7785,6 +8207,7 @@ impl IconShape for BsCloudsFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQuestionCircle;
 impl IconShape for BsQuestionCircle {
     fn view_box(&self) -> String {
@@ -7805,6 +8228,7 @@ impl IconShape for BsQuestionCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopePlusFill;
 impl IconShape for BsEnvelopePlusFill {
     fn view_box(&self) -> String {
@@ -7825,6 +8249,7 @@ impl IconShape for BsEnvelopePlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVimeo;
 impl IconShape for BsVimeo {
     fn view_box(&self) -> String {
@@ -7842,6 +8267,7 @@ impl IconShape for BsVimeo {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCartXFill;
 impl IconShape for BsCartXFill {
     fn view_box(&self) -> String {
@@ -7859,6 +8285,7 @@ impl IconShape for BsCartXFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipBackwardCircle;
 impl IconShape for BsSkipBackwardCircle {
     fn view_box(&self) -> String {
@@ -7879,6 +8306,7 @@ impl IconShape for BsSkipBackwardCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFlower3;
 impl IconShape for BsFlower3 {
     fn view_box(&self) -> String {
@@ -7896,6 +8324,7 @@ impl IconShape for BsFlower3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarkPlusFill;
 impl IconShape for BsBookmarkPlusFill {
     fn view_box(&self) -> String {
@@ -7914,6 +8343,7 @@ impl IconShape for BsBookmarkPlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeOtf;
 impl IconShape for BsFiletypeOtf {
     fn view_box(&self) -> String {
@@ -7932,6 +8362,7 @@ impl IconShape for BsFiletypeOtf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQuestion;
 impl IconShape for BsQuestion {
     fn view_box(&self) -> String {
@@ -7949,6 +8380,7 @@ impl IconShape for BsQuestion {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLock;
 impl IconShape for BsLock {
     fn view_box(&self) -> String {
@@ -7966,6 +8398,7 @@ impl IconShape for BsLock {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSendExclamationFill;
 impl IconShape for BsSendExclamationFill {
     fn view_box(&self) -> String {
@@ -7986,6 +8419,7 @@ impl IconShape for BsSendExclamationFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDice2;
 impl IconShape for BsDice2 {
     fn view_box(&self) -> String {
@@ -8006,6 +8440,7 @@ impl IconShape for BsDice2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudUpload;
 impl IconShape for BsCloudUpload {
     fn view_box(&self) -> String {
@@ -8028,6 +8463,7 @@ impl IconShape for BsCloudUpload {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsThreeDots;
 impl IconShape for BsThreeDots {
     fn view_box(&self) -> String {
@@ -8045,6 +8481,7 @@ impl IconShape for BsThreeDots {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsNodePlus;
 impl IconShape for BsNodePlus {
     fn view_box(&self) -> String {
@@ -8063,6 +8500,7 @@ impl IconShape for BsNodePlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPostcard;
 impl IconShape for BsPostcard {
     fn view_box(&self) -> String {
@@ -8081,6 +8519,7 @@ impl IconShape for BsPostcard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAwardFill;
 impl IconShape for BsAwardFill {
     fn view_box(&self) -> String {
@@ -8101,6 +8540,7 @@ impl IconShape for BsAwardFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPiggyBank;
 impl IconShape for BsPiggyBank {
     fn view_box(&self) -> String {
@@ -8122,6 +8562,7 @@ impl IconShape for BsPiggyBank {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDiagram3;
 impl IconShape for BsDiagram3 {
     fn view_box(&self) -> String {
@@ -8140,6 +8581,7 @@ impl IconShape for BsDiagram3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSdCard;
 impl IconShape for BsSdCard {
     fn view_box(&self) -> String {
@@ -8161,6 +8603,7 @@ impl IconShape for BsSdCard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournalCode;
 impl IconShape for BsJournalCode {
     fn view_box(&self) -> String {
@@ -8185,6 +8628,7 @@ impl IconShape for BsJournalCode {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRecord2;
 impl IconShape for BsRecord2 {
     fn view_box(&self) -> String {
@@ -8205,6 +8649,7 @@ impl IconShape for BsRecord2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkLock2Fill;
 impl IconShape for BsFileEarmarkLock2Fill {
     fn view_box(&self) -> String {
@@ -8225,6 +8670,7 @@ impl IconShape for BsFileEarmarkLock2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarMonth;
 impl IconShape for BsCalendarMonth {
     fn view_box(&self) -> String {
@@ -8245,6 +8691,7 @@ impl IconShape for BsCalendarMonth {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiNeutral;
 impl IconShape for BsEmojiNeutral {
     fn view_box(&self) -> String {
@@ -8265,6 +8712,7 @@ impl IconShape for BsEmojiNeutral {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSoundwave;
 impl IconShape for BsSoundwave {
     fn view_box(&self) -> String {
@@ -8283,6 +8731,7 @@ impl IconShape for BsSoundwave {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowReturnRight;
 impl IconShape for BsArrowReturnRight {
     fn view_box(&self) -> String {
@@ -8301,6 +8750,7 @@ impl IconShape for BsArrowReturnRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudDrizzle;
 impl IconShape for BsCloudDrizzle {
     fn view_box(&self) -> String {
@@ -8318,6 +8768,7 @@ impl IconShape for BsCloudDrizzle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDeviceHdd;
 impl IconShape for BsDeviceHdd {
     fn view_box(&self) -> String {
@@ -8341,6 +8792,7 @@ impl IconShape for BsDeviceHdd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDashCircle;
 impl IconShape for BsDashCircle {
     fn view_box(&self) -> String {
@@ -8361,6 +8813,7 @@ impl IconShape for BsDashCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarEvent;
 impl IconShape for BsCalendarEvent {
     fn view_box(&self) -> String {
@@ -8381,6 +8834,7 @@ impl IconShape for BsCalendarEvent {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDistributeVertical;
 impl IconShape for BsDistributeVertical {
     fn view_box(&self) -> String {
@@ -8402,6 +8856,7 @@ impl IconShape for BsDistributeVertical {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeDashFill;
 impl IconShape for BsEnvelopeDashFill {
     fn view_box(&self) -> String {
@@ -8422,6 +8877,7 @@ impl IconShape for BsEnvelopeDashFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowDownRight;
 impl IconShape for BsBoxArrowDownRight {
     fn view_box(&self) -> String {
@@ -8444,6 +8900,7 @@ impl IconShape for BsBoxArrowDownRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEyeFill;
 impl IconShape for BsEyeFill {
     fn view_box(&self) -> String {
@@ -8464,6 +8921,7 @@ impl IconShape for BsEyeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPen;
 impl IconShape for BsPen {
     fn view_box(&self) -> String {
@@ -8481,6 +8939,7 @@ impl IconShape for BsPen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeSdFill;
 impl IconShape for BsBadgeSdFill {
     fn view_box(&self) -> String {
@@ -8501,6 +8960,7 @@ impl IconShape for BsBadgeSdFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPipFill;
 impl IconShape for BsPipFill {
     fn view_box(&self) -> String {
@@ -8518,6 +8978,7 @@ impl IconShape for BsPipFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileFont;
 impl IconShape for BsFileFont {
     fn view_box(&self) -> String {
@@ -8538,6 +8999,7 @@ impl IconShape for BsFileFont {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoombox;
 impl IconShape for BsBoombox {
     fn view_box(&self) -> String {
@@ -8564,6 +9026,7 @@ impl IconShape for BsBoombox {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronRight;
 impl IconShape for BsChevronRight {
     fn view_box(&self) -> String {
@@ -8582,6 +9045,7 @@ impl IconShape for BsChevronRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsToggle2Off;
 impl IconShape for BsToggle2Off {
     fn view_box(&self) -> String {
@@ -8602,6 +9066,7 @@ impl IconShape for BsToggle2Off {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarkDashFill;
 impl IconShape for BsBookmarkDashFill {
     fn view_box(&self) -> String {
@@ -8620,6 +9085,7 @@ impl IconShape for BsBookmarkDashFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMegaphoneFill;
 impl IconShape for BsMegaphoneFill {
     fn view_box(&self) -> String {
@@ -8637,6 +9103,7 @@ impl IconShape for BsMegaphoneFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHourglassSplit;
 impl IconShape for BsHourglassSplit {
     fn view_box(&self) -> String {
@@ -8654,6 +9121,7 @@ impl IconShape for BsHourglassSplit {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStarFill;
 impl IconShape for BsStarFill {
     fn view_box(&self) -> String {
@@ -8671,6 +9139,7 @@ impl IconShape for BsStarFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard;
 impl IconShape for BsClipboard {
     fn view_box(&self) -> String {
@@ -8691,6 +9160,7 @@ impl IconShape for BsClipboard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCamera2;
 impl IconShape for BsCamera2 {
     fn view_box(&self) -> String {
@@ -8711,6 +9181,7 @@ impl IconShape for BsCamera2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDiagram2;
 impl IconShape for BsDiagram2 {
     fn view_box(&self) -> String {
@@ -8729,6 +9200,7 @@ impl IconShape for BsDiagram2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInstagram;
 impl IconShape for BsInstagram {
     fn view_box(&self) -> String {
@@ -8746,6 +9218,7 @@ impl IconShape for BsInstagram {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonBadge;
 impl IconShape for BsPersonBadge {
     fn view_box(&self) -> String {
@@ -8766,6 +9239,7 @@ impl IconShape for BsPersonBadge {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeRaw;
 impl IconShape for BsFiletypeRaw {
     fn view_box(&self) -> String {
@@ -8784,6 +9258,7 @@ impl IconShape for BsFiletypeRaw {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkPersonFill;
 impl IconShape for BsFileEarmarkPersonFill {
     fn view_box(&self) -> String {
@@ -8801,6 +9276,7 @@ impl IconShape for BsFileEarmarkPersonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLink;
 impl IconShape for BsLink {
     fn view_box(&self) -> String {
@@ -8821,6 +9297,7 @@ impl IconShape for BsLink {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldSlashFill;
 impl IconShape for BsShieldSlashFill {
     fn view_box(&self) -> String {
@@ -8839,6 +9316,7 @@ impl IconShape for BsShieldSlashFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayoutThreeColumns;
 impl IconShape for BsLayoutThreeColumns {
     fn view_box(&self) -> String {
@@ -8856,6 +9334,7 @@ impl IconShape for BsLayoutThreeColumns {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipForwardBtnFill;
 impl IconShape for BsSkipForwardBtnFill {
     fn view_box(&self) -> String {
@@ -8873,6 +9352,7 @@ impl IconShape for BsSkipForwardBtnFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDice3;
 impl IconShape for BsDice3 {
     fn view_box(&self) -> String {
@@ -8893,6 +9373,7 @@ impl IconShape for BsDice3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsToggleOff;
 impl IconShape for BsToggleOff {
     fn view_box(&self) -> String {
@@ -8910,6 +9391,7 @@ impl IconShape for BsToggleOff {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsKey;
 impl IconShape for BsKey {
     fn view_box(&self) -> String {
@@ -8930,6 +9412,7 @@ impl IconShape for BsKey {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudHailFill;
 impl IconShape for BsCloudHailFill {
     fn view_box(&self) -> String {
@@ -8947,6 +9430,7 @@ impl IconShape for BsCloudHailFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownLeftCircle;
 impl IconShape for BsArrowDownLeftCircle {
     fn view_box(&self) -> String {
@@ -8965,6 +9449,7 @@ impl IconShape for BsArrowDownLeftCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCardHeading;
 impl IconShape for BsCardHeading {
     fn view_box(&self) -> String {
@@ -8985,6 +9470,7 @@ impl IconShape for BsCardHeading {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHexagonHalf;
 impl IconShape for BsHexagonHalf {
     fn view_box(&self) -> String {
@@ -9002,6 +9488,7 @@ impl IconShape for BsHexagonHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFlower2;
 impl IconShape for BsFlower2 {
     fn view_box(&self) -> String {
@@ -9019,6 +9506,7 @@ impl IconShape for BsFlower2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGrid1x2Fill;
 impl IconShape for BsGrid1x2Fill {
     fn view_box(&self) -> String {
@@ -9036,6 +9524,7 @@ impl IconShape for BsGrid1x2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBlockquoteRight;
 impl IconShape for BsBlockquoteRight {
     fn view_box(&self) -> String {
@@ -9053,6 +9542,7 @@ impl IconShape for BsBlockquoteRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUsbMicro;
 impl IconShape for BsUsbMicro {
     fn view_box(&self) -> String {
@@ -9073,6 +9563,7 @@ impl IconShape for BsUsbMicro {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDoorOpen;
 impl IconShape for BsDoorOpen {
     fn view_box(&self) -> String {
@@ -9093,6 +9584,7 @@ impl IconShape for BsDoorOpen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudSun;
 impl IconShape for BsCloudSun {
     fn view_box(&self) -> String {
@@ -9113,6 +9605,7 @@ impl IconShape for BsCloudSun {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowRight;
 impl IconShape for BsArrowRight {
     fn view_box(&self) -> String {
@@ -9131,6 +9624,7 @@ impl IconShape for BsArrowRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSquareFill;
 impl IconShape for BsSquareFill {
     fn view_box(&self) -> String {
@@ -9148,6 +9642,7 @@ impl IconShape for BsSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarPlus;
 impl IconShape for BsCalendarPlus {
     fn view_box(&self) -> String {
@@ -9168,6 +9663,7 @@ impl IconShape for BsCalendarPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBrush;
 impl IconShape for BsBrush {
     fn view_box(&self) -> String {
@@ -9185,6 +9681,7 @@ impl IconShape for BsBrush {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournalBookmark;
 impl IconShape for BsJournalBookmark {
     fn view_box(&self) -> String {
@@ -9209,6 +9706,7 @@ impl IconShape for BsJournalBookmark {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowRightShort;
 impl IconShape for BsArrowRightShort {
     fn view_box(&self) -> String {
@@ -9227,6 +9725,7 @@ impl IconShape for BsArrowRightShort {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipForwardBtn;
 impl IconShape for BsSkipForwardBtn {
     fn view_box(&self) -> String {
@@ -9247,6 +9746,7 @@ impl IconShape for BsSkipForwardBtn {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAt;
 impl IconShape for BsAt {
     fn view_box(&self) -> String {
@@ -9264,6 +9764,7 @@ impl IconShape for BsAt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHurricane;
 impl IconShape for BsHurricane {
     fn view_box(&self) -> String {
@@ -9281,6 +9782,7 @@ impl IconShape for BsHurricane {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStopCircle;
 impl IconShape for BsStopCircle {
     fn view_box(&self) -> String {
@@ -9301,6 +9803,7 @@ impl IconShape for BsStopCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDisplayportFill;
 impl IconShape for BsDisplayportFill {
     fn view_box(&self) -> String {
@@ -9318,6 +9821,7 @@ impl IconShape for BsDisplayportFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileSpreadsheet;
 impl IconShape for BsFileSpreadsheet {
     fn view_box(&self) -> String {
@@ -9335,6 +9839,7 @@ impl IconShape for BsFileSpreadsheet {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowLeftCircle;
 impl IconShape for BsArrowLeftCircle {
     fn view_box(&self) -> String {
@@ -9353,6 +9858,7 @@ impl IconShape for BsArrowLeftCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTerminalX;
 impl IconShape for BsTerminalX {
     fn view_box(&self) -> String {
@@ -9373,6 +9879,7 @@ impl IconShape for BsTerminalX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCameraVideoOffFill;
 impl IconShape for BsCameraVideoOffFill {
     fn view_box(&self) -> String {
@@ -9391,6 +9898,7 @@ impl IconShape for BsCameraVideoOffFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCursorFill;
 impl IconShape for BsCursorFill {
     fn view_box(&self) -> String {
@@ -9408,6 +9916,7 @@ impl IconShape for BsCursorFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInboxes;
 impl IconShape for BsInboxes {
     fn view_box(&self) -> String {
@@ -9425,6 +9934,7 @@ impl IconShape for BsInboxes {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileRichtextFill;
 impl IconShape for BsFileRichtextFill {
     fn view_box(&self) -> String {
@@ -9442,6 +9952,7 @@ impl IconShape for BsFileRichtextFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileImageFill;
 impl IconShape for BsFileImageFill {
     fn view_box(&self) -> String {
@@ -9462,6 +9973,7 @@ impl IconShape for BsFileImageFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTagsFill;
 impl IconShape for BsTagsFill {
     fn view_box(&self) -> String {
@@ -9482,6 +9994,7 @@ impl IconShape for BsTagsFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowsAngleExpand;
 impl IconShape for BsArrowsAngleExpand {
     fn view_box(&self) -> String {
@@ -9500,6 +10013,7 @@ impl IconShape for BsArrowsAngleExpand {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudLightningFill;
 impl IconShape for BsCloudLightningFill {
     fn view_box(&self) -> String {
@@ -9517,6 +10031,7 @@ impl IconShape for BsCloudLightningFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarCheck;
 impl IconShape for BsCalendarCheck {
     fn view_box(&self) -> String {
@@ -9537,6 +10052,7 @@ impl IconShape for BsCalendarCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeHeic;
 impl IconShape for BsFiletypeHeic {
     fn view_box(&self) -> String {
@@ -9555,6 +10071,7 @@ impl IconShape for BsFiletypeHeic {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPauseBtn;
 impl IconShape for BsPauseBtn {
     fn view_box(&self) -> String {
@@ -9575,6 +10092,7 @@ impl IconShape for BsPauseBtn {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownUp;
 impl IconShape for BsArrowDownUp {
     fn view_box(&self) -> String {
@@ -9593,6 +10111,7 @@ impl IconShape for BsArrowDownUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowsFullscreen;
 impl IconShape for BsArrowsFullscreen {
     fn view_box(&self) -> String {
@@ -9611,6 +10130,7 @@ impl IconShape for BsArrowsFullscreen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeHeart;
 impl IconShape for BsEnvelopeHeart {
     fn view_box(&self) -> String {
@@ -9629,6 +10149,7 @@ impl IconShape for BsEnvelopeHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStopwatch;
 impl IconShape for BsStopwatch {
     fn view_box(&self) -> String {
@@ -9649,6 +10170,7 @@ impl IconShape for BsStopwatch {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMenuUp;
 impl IconShape for BsMenuUp {
     fn view_box(&self) -> String {
@@ -9666,6 +10188,7 @@ impl IconShape for BsMenuUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMusicNoteBeamed;
 impl IconShape for BsMusicNoteBeamed {
     fn view_box(&self) -> String {
@@ -9690,6 +10213,7 @@ impl IconShape for BsMusicNoteBeamed {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBorderAll;
 impl IconShape for BsBorderAll {
     fn view_box(&self) -> String {
@@ -9707,6 +10231,7 @@ impl IconShape for BsBorderAll {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar3EventFill;
 impl IconShape for BsCalendar3EventFill {
     fn view_box(&self) -> String {
@@ -9725,6 +10250,7 @@ impl IconShape for BsCalendar3EventFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudSnow;
 impl IconShape for BsCloudSnow {
     fn view_box(&self) -> String {
@@ -9742,6 +10268,7 @@ impl IconShape for BsCloudSnow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarWeek;
 impl IconShape for BsCalendarWeek {
     fn view_box(&self) -> String {
@@ -9762,6 +10289,7 @@ impl IconShape for BsCalendarWeek {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsListTask;
 impl IconShape for BsListTask {
     fn view_box(&self) -> String {
@@ -9787,6 +10315,7 @@ impl IconShape for BsListTask {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBricks;
 impl IconShape for BsBricks {
     fn view_box(&self) -> String {
@@ -9804,6 +10333,7 @@ impl IconShape for BsBricks {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHospitalFill;
 impl IconShape for BsHospitalFill {
     fn view_box(&self) -> String {
@@ -9821,6 +10351,7 @@ impl IconShape for BsHospitalFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDice1;
 impl IconShape for BsDice1 {
     fn view_box(&self) -> String {
@@ -9843,6 +10374,7 @@ impl IconShape for BsDice1 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeAi;
 impl IconShape for BsFiletypeAi {
     fn view_box(&self) -> String {
@@ -9861,6 +10393,7 @@ impl IconShape for BsFiletypeAi {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpLeftCircleFill;
 impl IconShape for BsArrowUpLeftCircleFill {
     fn view_box(&self) -> String {
@@ -9878,6 +10411,7 @@ impl IconShape for BsArrowUpLeftCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHouseHeart;
 impl IconShape for BsHouseHeart {
     fn view_box(&self) -> String {
@@ -9898,6 +10432,7 @@ impl IconShape for BsHouseHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsType;
 impl IconShape for BsType {
     fn view_box(&self) -> String {
@@ -9915,6 +10450,7 @@ impl IconShape for BsType {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSlashSquareFill;
 impl IconShape for BsSlashSquareFill {
     fn view_box(&self) -> String {
@@ -9932,6 +10468,7 @@ impl IconShape for BsSlashSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBank2;
 impl IconShape for BsBank2 {
     fn view_box(&self) -> String {
@@ -9949,6 +10486,7 @@ impl IconShape for BsBank2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonLinesFill;
 impl IconShape for BsPersonLinesFill {
     fn view_box(&self) -> String {
@@ -9966,6 +10504,7 @@ impl IconShape for BsPersonLinesFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCheckSquareFill;
 impl IconShape for BsCheckSquareFill {
     fn view_box(&self) -> String {
@@ -9983,6 +10522,7 @@ impl IconShape for BsCheckSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCart;
 impl IconShape for BsCart {
     fn view_box(&self) -> String {
@@ -10000,6 +10540,7 @@ impl IconShape for BsCart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarkCheckFill;
 impl IconShape for BsBookmarkCheckFill {
     fn view_box(&self) -> String {
@@ -10018,6 +10559,7 @@ impl IconShape for BsBookmarkCheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowThroughHeartFill;
 impl IconShape for BsArrowThroughHeartFill {
     fn view_box(&self) -> String {
@@ -10036,6 +10578,7 @@ impl IconShape for BsArrowThroughHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudyFill;
 impl IconShape for BsCloudyFill {
     fn view_box(&self) -> String {
@@ -10053,6 +10596,7 @@ impl IconShape for BsCloudyFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeXFill;
 impl IconShape for BsEnvelopeXFill {
     fn view_box(&self) -> String {
@@ -10073,6 +10617,7 @@ impl IconShape for BsEnvelopeXFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelope;
 impl IconShape for BsEnvelope {
     fn view_box(&self) -> String {
@@ -10090,6 +10635,7 @@ impl IconShape for BsEnvelope {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileMedicalFill;
 impl IconShape for BsFileMedicalFill {
     fn view_box(&self) -> String {
@@ -10107,6 +10653,7 @@ impl IconShape for BsFileMedicalFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBorderInner;
 impl IconShape for BsBorderInner {
     fn view_box(&self) -> String {
@@ -10130,6 +10677,7 @@ impl IconShape for BsBorderInner {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephoneXFill;
 impl IconShape for BsTelephoneXFill {
     fn view_box(&self) -> String {
@@ -10148,6 +10696,7 @@ impl IconShape for BsTelephoneXFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournalMinus;
 impl IconShape for BsJournalMinus {
     fn view_box(&self) -> String {
@@ -10172,6 +10721,7 @@ impl IconShape for BsJournalMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadge4kFill;
 impl IconShape for BsBadge4kFill {
     fn view_box(&self) -> String {
@@ -10192,6 +10742,7 @@ impl IconShape for BsBadge4kFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAspectRatio;
 impl IconShape for BsAspectRatio {
     fn view_box(&self) -> String {
@@ -10212,6 +10763,7 @@ impl IconShape for BsAspectRatio {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsImageAlt;
 impl IconShape for BsImageAlt {
     fn view_box(&self) -> String {
@@ -10229,6 +10781,7 @@ impl IconShape for BsImageAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephoneInboundFill;
 impl IconShape for BsTelephoneInboundFill {
     fn view_box(&self) -> String {
@@ -10247,6 +10800,7 @@ impl IconShape for BsTelephoneInboundFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArchive;
 impl IconShape for BsArchive {
     fn view_box(&self) -> String {
@@ -10264,6 +10818,7 @@ impl IconShape for BsArchive {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiExpressionless;
 impl IconShape for BsEmojiExpressionless {
     fn view_box(&self) -> String {
@@ -10284,6 +10839,7 @@ impl IconShape for BsEmojiExpressionless {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonX;
 impl IconShape for BsPersonX {
     fn view_box(&self) -> String {
@@ -10305,6 +10861,7 @@ impl IconShape for BsPersonX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretUp;
 impl IconShape for BsCaretUp {
     fn view_box(&self) -> String {
@@ -10322,6 +10879,7 @@ impl IconShape for BsCaretUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBrightnessLow;
 impl IconShape for BsBrightnessLow {
     fn view_box(&self) -> String {
@@ -10339,6 +10897,7 @@ impl IconShape for BsBrightnessLow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiLaughingFill;
 impl IconShape for BsEmojiLaughingFill {
     fn view_box(&self) -> String {
@@ -10356,6 +10915,7 @@ impl IconShape for BsEmojiLaughingFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpLeftSquare;
 impl IconShape for BsArrowUpLeftSquare {
     fn view_box(&self) -> String {
@@ -10374,6 +10934,7 @@ impl IconShape for BsArrowUpLeftSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTicketDetailedFill;
 impl IconShape for BsTicketDetailedFill {
     fn view_box(&self) -> String {
@@ -10391,6 +10952,7 @@ impl IconShape for BsTicketDetailedFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBorderWidth;
 impl IconShape for BsBorderWidth {
     fn view_box(&self) -> String {
@@ -10408,6 +10970,7 @@ impl IconShape for BsBorderWidth {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCart3;
 impl IconShape for BsCart3 {
     fn view_box(&self) -> String {
@@ -10425,6 +10988,7 @@ impl IconShape for BsCart3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSuitSpade;
 impl IconShape for BsSuitSpade {
     fn view_box(&self) -> String {
@@ -10442,6 +11006,7 @@ impl IconShape for BsSuitSpade {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMagnet;
 impl IconShape for BsMagnet {
     fn view_box(&self) -> String {
@@ -10459,6 +11024,7 @@ impl IconShape for BsMagnet {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudSnowFill;
 impl IconShape for BsCloudSnowFill {
     fn view_box(&self) -> String {
@@ -10476,6 +11042,7 @@ impl IconShape for BsCloudSnowFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUsbPlugFill;
 impl IconShape for BsUsbPlugFill {
     fn view_box(&self) -> String {
@@ -10493,6 +11060,7 @@ impl IconShape for BsUsbPlugFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkImage;
 impl IconShape for BsFileEarmarkImage {
     fn view_box(&self) -> String {
@@ -10513,6 +11081,7 @@ impl IconShape for BsFileEarmarkImage {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardXFill;
 impl IconShape for BsClipboardXFill {
     fn view_box(&self) -> String {
@@ -10533,6 +11102,7 @@ impl IconShape for BsClipboardXFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPatchQuestion;
 impl IconShape for BsPatchQuestion {
     fn view_box(&self) -> String {
@@ -10556,6 +11126,7 @@ impl IconShape for BsPatchQuestion {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilePostFill;
 impl IconShape for BsFilePostFill {
     fn view_box(&self) -> String {
@@ -10573,6 +11144,7 @@ impl IconShape for BsFilePostFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretLeftFill;
 impl IconShape for BsCaretLeftFill {
     fn view_box(&self) -> String {
@@ -10590,6 +11162,7 @@ impl IconShape for BsCaretLeftFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShield;
 impl IconShape for BsShield {
     fn view_box(&self) -> String {
@@ -10607,6 +11180,7 @@ impl IconShape for BsShield {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCart2;
 impl IconShape for BsCart2 {
     fn view_box(&self) -> String {
@@ -10624,6 +11198,7 @@ impl IconShape for BsCart2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDownload;
 impl IconShape for BsDownload {
     fn view_box(&self) -> String {
@@ -10644,6 +11219,7 @@ impl IconShape for BsDownload {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsKanban;
 impl IconShape for BsKanban {
     fn view_box(&self) -> String {
@@ -10664,6 +11240,7 @@ impl IconShape for BsKanban {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownLeftCircleFill;
 impl IconShape for BsArrowDownLeftCircleFill {
     fn view_box(&self) -> String {
@@ -10681,6 +11258,7 @@ impl IconShape for BsArrowDownLeftCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBracesAsterisk;
 impl IconShape for BsBracesAsterisk {
     fn view_box(&self) -> String {
@@ -10699,6 +11277,7 @@ impl IconShape for BsBracesAsterisk {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPatchCheckFill;
 impl IconShape for BsPatchCheckFill {
     fn view_box(&self) -> String {
@@ -10716,6 +11295,7 @@ impl IconShape for BsPatchCheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipBackwardBtnFill;
 impl IconShape for BsSkipBackwardBtnFill {
     fn view_box(&self) -> String {
@@ -10733,6 +11313,7 @@ impl IconShape for BsSkipBackwardBtnFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGit;
 impl IconShape for BsGit {
     fn view_box(&self) -> String {
@@ -10750,6 +11331,7 @@ impl IconShape for BsGit {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWindowFullscreen;
 impl IconShape for BsWindowFullscreen {
     fn view_box(&self) -> String {
@@ -10770,6 +11352,7 @@ impl IconShape for BsWindowFullscreen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPin;
 impl IconShape for BsPin {
     fn view_box(&self) -> String {
@@ -10787,6 +11370,7 @@ impl IconShape for BsPin {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPentagonFill;
 impl IconShape for BsPentagonFill {
     fn view_box(&self) -> String {
@@ -10804,6 +11388,7 @@ impl IconShape for BsPentagonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownShort;
 impl IconShape for BsArrowDownShort {
     fn view_box(&self) -> String {
@@ -10822,6 +11407,7 @@ impl IconShape for BsArrowDownShort {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatLeftText;
 impl IconShape for BsChatLeftText {
     fn view_box(&self) -> String {
@@ -10842,6 +11428,7 @@ impl IconShape for BsChatLeftText {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWebcam;
 impl IconShape for BsWebcam {
     fn view_box(&self) -> String {
@@ -10862,6 +11449,7 @@ impl IconShape for BsWebcam {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUnlockFill;
 impl IconShape for BsUnlockFill {
     fn view_box(&self) -> String {
@@ -10879,6 +11467,7 @@ impl IconShape for BsUnlockFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournalPlus;
 impl IconShape for BsJournalPlus {
     fn view_box(&self) -> String {
@@ -10903,6 +11492,7 @@ impl IconShape for BsJournalPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudHaze2Fill;
 impl IconShape for BsCloudHaze2Fill {
     fn view_box(&self) -> String {
@@ -10920,6 +11510,7 @@ impl IconShape for BsCloudHaze2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilterCircle;
 impl IconShape for BsFilterCircle {
     fn view_box(&self) -> String {
@@ -10940,6 +11531,7 @@ impl IconShape for BsFilterCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCheck2All;
 impl IconShape for BsCheck2All {
     fn view_box(&self) -> String {
@@ -10960,6 +11552,7 @@ impl IconShape for BsCheck2All {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarWeekFill;
 impl IconShape for BsCalendarWeekFill {
     fn view_box(&self) -> String {
@@ -10977,6 +11570,7 @@ impl IconShape for BsCalendarWeekFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSlashCircle;
 impl IconShape for BsSlashCircle {
     fn view_box(&self) -> String {
@@ -10997,6 +11591,7 @@ impl IconShape for BsSlashCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSendCheckFill;
 impl IconShape for BsSendCheckFill {
     fn view_box(&self) -> String {
@@ -11017,6 +11612,7 @@ impl IconShape for BsSendCheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTreeFill;
 impl IconShape for BsTreeFill {
     fn view_box(&self) -> String {
@@ -11034,6 +11630,7 @@ impl IconShape for BsTreeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2Check;
 impl IconShape for BsClipboard2Check {
     fn view_box(&self) -> String {
@@ -11057,6 +11654,7 @@ impl IconShape for BsClipboard2Check {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsProjector;
 impl IconShape for BsProjector {
     fn view_box(&self) -> String {
@@ -11077,6 +11675,7 @@ impl IconShape for BsProjector {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFlower1;
 impl IconShape for BsFlower1 {
     fn view_box(&self) -> String {
@@ -11094,6 +11693,7 @@ impl IconShape for BsFlower1 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsServer;
 impl IconShape for BsServer {
     fn view_box(&self) -> String {
@@ -11117,6 +11717,7 @@ impl IconShape for BsServer {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTv;
 impl IconShape for BsTv {
     fn view_box(&self) -> String {
@@ -11134,6 +11735,7 @@ impl IconShape for BsTv {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsApp;
 impl IconShape for BsApp {
     fn view_box(&self) -> String {
@@ -11151,6 +11753,7 @@ impl IconShape for BsApp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipForward;
 impl IconShape for BsSkipForward {
     fn view_box(&self) -> String {
@@ -11168,6 +11771,7 @@ impl IconShape for BsSkipForward {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMapFill;
 impl IconShape for BsMapFill {
     fn view_box(&self) -> String {
@@ -11186,6 +11790,7 @@ impl IconShape for BsMapFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileBreak;
 impl IconShape for BsFileBreak {
     fn view_box(&self) -> String {
@@ -11203,6 +11808,7 @@ impl IconShape for BsFileBreak {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSuitClubFill;
 impl IconShape for BsSuitClubFill {
     fn view_box(&self) -> String {
@@ -11220,6 +11826,7 @@ impl IconShape for BsSuitClubFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlayCircleFill;
 impl IconShape for BsPlayCircleFill {
     fn view_box(&self) -> String {
@@ -11237,6 +11844,7 @@ impl IconShape for BsPlayCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPencilSquare;
 impl IconShape for BsPencilSquare {
     fn view_box(&self) -> String {
@@ -11258,6 +11866,7 @@ impl IconShape for BsPencilSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatRightDots;
 impl IconShape for BsChatRightDots {
     fn view_box(&self) -> String {
@@ -11278,6 +11887,7 @@ impl IconShape for BsChatRightDots {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkBreak;
 impl IconShape for BsFileEarmarkBreak {
     fn view_box(&self) -> String {
@@ -11295,6 +11905,7 @@ impl IconShape for BsFileEarmarkBreak {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowClockwise;
 impl IconShape for BsArrowClockwise {
     fn view_box(&self) -> String {
@@ -11316,6 +11927,7 @@ impl IconShape for BsArrowClockwise {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBatteryCharging;
 impl IconShape for BsBatteryCharging {
     fn view_box(&self) -> String {
@@ -11342,6 +11954,7 @@ impl IconShape for BsBatteryCharging {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFolder2;
 impl IconShape for BsFolder2 {
     fn view_box(&self) -> String {
@@ -11359,6 +11972,7 @@ impl IconShape for BsFolder2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPauseCircleFill;
 impl IconShape for BsPauseCircleFill {
     fn view_box(&self) -> String {
@@ -11376,6 +11990,7 @@ impl IconShape for BsPauseCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarkStar;
 impl IconShape for BsBookmarkStar {
     fn view_box(&self) -> String {
@@ -11396,6 +12011,7 @@ impl IconShape for BsBookmarkStar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPatchPlus;
 impl IconShape for BsPatchPlus {
     fn view_box(&self) -> String {
@@ -11417,6 +12033,7 @@ impl IconShape for BsPatchPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeJson;
 impl IconShape for BsFiletypeJson {
     fn view_box(&self) -> String {
@@ -11435,6 +12052,7 @@ impl IconShape for BsFiletypeJson {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeTxt;
 impl IconShape for BsFiletypeTxt {
     fn view_box(&self) -> String {
@@ -11453,6 +12071,7 @@ impl IconShape for BsFiletypeTxt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudArrowUp;
 impl IconShape for BsCloudArrowUp {
     fn view_box(&self) -> String {
@@ -11474,6 +12093,7 @@ impl IconShape for BsCloudArrowUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayers;
 impl IconShape for BsLayers {
     fn view_box(&self) -> String {
@@ -11491,6 +12111,7 @@ impl IconShape for BsLayers {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCameraReels;
 impl IconShape for BsCameraReels {
     fn view_box(&self) -> String {
@@ -11514,6 +12135,7 @@ impl IconShape for BsCameraReels {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSlash;
 impl IconShape for BsSlash {
     fn view_box(&self) -> String {
@@ -11531,6 +12153,7 @@ impl IconShape for BsSlash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldFillExclamation;
 impl IconShape for BsShieldFillExclamation {
     fn view_box(&self) -> String {
@@ -11549,6 +12172,7 @@ impl IconShape for BsShieldFillExclamation {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMusicPlayer;
 impl IconShape for BsMusicPlayer {
     fn view_box(&self) -> String {
@@ -11572,6 +12196,7 @@ impl IconShape for BsMusicPlayer {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBook;
 impl IconShape for BsBook {
     fn view_box(&self) -> String {
@@ -11589,6 +12214,7 @@ impl IconShape for BsBook {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2MonthFill;
 impl IconShape for BsCalendar2MonthFill {
     fn view_box(&self) -> String {
@@ -11609,6 +12235,7 @@ impl IconShape for BsCalendar2MonthFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilterRight;
 impl IconShape for BsFilterRight {
     fn view_box(&self) -> String {
@@ -11626,6 +12253,7 @@ impl IconShape for BsFilterRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCardImage;
 impl IconShape for BsCardImage {
     fn view_box(&self) -> String {
@@ -11646,6 +12274,7 @@ impl IconShape for BsCardImage {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHddNetworkFill;
 impl IconShape for BsHddNetworkFill {
     fn view_box(&self) -> String {
@@ -11663,6 +12292,7 @@ impl IconShape for BsHddNetworkFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHdmi;
 impl IconShape for BsHdmi {
     fn view_box(&self) -> String {
@@ -11683,6 +12313,7 @@ impl IconShape for BsHdmi {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudFogFill;
 impl IconShape for BsCloudFogFill {
     fn view_box(&self) -> String {
@@ -11700,6 +12331,7 @@ impl IconShape for BsCloudFogFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatSquareQuote;
 impl IconShape for BsChatSquareQuote {
     fn view_box(&self) -> String {
@@ -11720,6 +12352,7 @@ impl IconShape for BsChatSquareQuote {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMarkdownFill;
 impl IconShape for BsMarkdownFill {
     fn view_box(&self) -> String {
@@ -11737,6 +12370,7 @@ impl IconShape for BsMarkdownFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTerminalDash;
 impl IconShape for BsTerminalDash {
     fn view_box(&self) -> String {
@@ -11757,6 +12391,7 @@ impl IconShape for BsTerminalDash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDice4;
 impl IconShape for BsDice4 {
     fn view_box(&self) -> String {
@@ -11777,6 +12412,7 @@ impl IconShape for BsDice4 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeCs;
 impl IconShape for BsFiletypeCs {
     fn view_box(&self) -> String {
@@ -11795,6 +12431,7 @@ impl IconShape for BsFiletypeCs {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsParagraph;
 impl IconShape for BsParagraph {
     fn view_box(&self) -> String {
@@ -11812,6 +12449,7 @@ impl IconShape for BsParagraph {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlug;
 impl IconShape for BsPlug {
     fn view_box(&self) -> String {
@@ -11829,6 +12467,7 @@ impl IconShape for BsPlug {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldX;
 impl IconShape for BsShieldX {
     fn view_box(&self) -> String {
@@ -11849,6 +12488,7 @@ impl IconShape for BsShieldX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsForwardFill;
 impl IconShape for BsForwardFill {
     fn view_box(&self) -> String {
@@ -11866,6 +12506,7 @@ impl IconShape for BsForwardFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEyedropper;
 impl IconShape for BsEyedropper {
     fn view_box(&self) -> String {
@@ -11883,6 +12524,7 @@ impl IconShape for BsEyedropper {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTerminalPlus;
 impl IconShape for BsTerminalPlus {
     fn view_box(&self) -> String {
@@ -11903,6 +12545,7 @@ impl IconShape for BsTerminalPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkPptFill;
 impl IconShape for BsFileEarmarkPptFill {
     fn view_box(&self) -> String {
@@ -11923,6 +12566,7 @@ impl IconShape for BsFileEarmarkPptFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronBarExpand;
 impl IconShape for BsChevronBarExpand {
     fn view_box(&self) -> String {
@@ -11941,6 +12585,7 @@ impl IconShape for BsChevronBarExpand {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRecordBtn;
 impl IconShape for BsRecordBtn {
     fn view_box(&self) -> String {
@@ -11961,6 +12606,7 @@ impl IconShape for BsRecordBtn {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWallet;
 impl IconShape for BsWallet {
     fn view_box(&self) -> String {
@@ -11978,6 +12624,7 @@ impl IconShape for BsWallet {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadge3d;
 impl IconShape for BsBadge3d {
     fn view_box(&self) -> String {
@@ -11998,6 +12645,7 @@ impl IconShape for BsBadge3d {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAlarmFill;
 impl IconShape for BsAlarmFill {
     fn view_box(&self) -> String {
@@ -12015,6 +12663,7 @@ impl IconShape for BsAlarmFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPeopleFill;
 impl IconShape for BsPeopleFill {
     fn view_box(&self) -> String {
@@ -12039,6 +12688,7 @@ impl IconShape for BsPeopleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileImage;
 impl IconShape for BsFileImage {
     fn view_box(&self) -> String {
@@ -12059,6 +12709,7 @@ impl IconShape for BsFileImage {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsThermometerHigh;
 impl IconShape for BsThermometerHigh {
     fn view_box(&self) -> String {
@@ -12079,6 +12730,7 @@ impl IconShape for BsThermometerHigh {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFunnelFill;
 impl IconShape for BsFunnelFill {
     fn view_box(&self) -> String {
@@ -12096,6 +12748,7 @@ impl IconShape for BsFunnelFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBell;
 impl IconShape for BsBell {
     fn view_box(&self) -> String {
@@ -12113,6 +12766,7 @@ impl IconShape for BsBell {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileMusicFill;
 impl IconShape for BsFileMusicFill {
     fn view_box(&self) -> String {
@@ -12130,6 +12784,7 @@ impl IconShape for BsFileMusicFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsController;
 impl IconShape for BsController {
     fn view_box(&self) -> String {
@@ -12150,6 +12805,7 @@ impl IconShape for BsController {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLampFill;
 impl IconShape for BsLampFill {
     fn view_box(&self) -> String {
@@ -12171,6 +12827,7 @@ impl IconShape for BsLampFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeHd;
 impl IconShape for BsBadgeHd {
     fn view_box(&self) -> String {
@@ -12191,6 +12848,7 @@ impl IconShape for BsBadgeHd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkPdfFill;
 impl IconShape for BsFileEarmarkPdfFill {
     fn view_box(&self) -> String {
@@ -12212,6 +12870,7 @@ impl IconShape for BsFileEarmarkPdfFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFunnel;
 impl IconShape for BsFunnel {
     fn view_box(&self) -> String {
@@ -12229,6 +12888,7 @@ impl IconShape for BsFunnel {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCode;
 impl IconShape for BsCode {
     fn view_box(&self) -> String {
@@ -12246,6 +12906,7 @@ impl IconShape for BsCode {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEyeSlashFill;
 impl IconShape for BsEyeSlashFill {
     fn view_box(&self) -> String {
@@ -12266,6 +12927,7 @@ impl IconShape for BsEyeSlashFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsXOctagonFill;
 impl IconShape for BsXOctagonFill {
     fn view_box(&self) -> String {
@@ -12283,6 +12945,7 @@ impl IconShape for BsXOctagonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2EventFill;
 impl IconShape for BsCalendar2EventFill {
     fn view_box(&self) -> String {
@@ -12300,6 +12963,7 @@ impl IconShape for BsCalendar2EventFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipStartBtnFill;
 impl IconShape for BsSkipStartBtnFill {
     fn view_box(&self) -> String {
@@ -12317,6 +12981,7 @@ impl IconShape for BsSkipStartBtnFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarkHeart;
 impl IconShape for BsBookmarkHeart {
     fn view_box(&self) -> String {
@@ -12338,6 +13003,7 @@ impl IconShape for BsBookmarkHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelegram;
 impl IconShape for BsTelegram {
     fn view_box(&self) -> String {
@@ -12355,6 +13021,7 @@ impl IconShape for BsTelegram {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSquareHalf;
 impl IconShape for BsSquareHalf {
     fn view_box(&self) -> String {
@@ -12372,6 +13039,7 @@ impl IconShape for BsSquareHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsXDiamondFill;
 impl IconShape for BsXDiamondFill {
     fn view_box(&self) -> String {
@@ -12389,6 +13057,7 @@ impl IconShape for BsXDiamondFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsThermometer;
 impl IconShape for BsThermometer {
     fn view_box(&self) -> String {
@@ -12409,6 +13078,7 @@ impl IconShape for BsThermometer {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCast;
 impl IconShape for BsCast {
     fn view_box(&self) -> String {
@@ -12429,6 +13099,7 @@ impl IconShape for BsCast {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHexagonFill;
 impl IconShape for BsHexagonFill {
     fn view_box(&self) -> String {
@@ -12447,6 +13118,7 @@ impl IconShape for BsHexagonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeOpenFill;
 impl IconShape for BsEnvelopeOpenFill {
     fn view_box(&self) -> String {
@@ -12464,6 +13136,7 @@ impl IconShape for BsEnvelopeOpenFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFlag;
 impl IconShape for BsFlag {
     fn view_box(&self) -> String {
@@ -12481,6 +13154,7 @@ impl IconShape for BsFlag {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPostcardFill;
 impl IconShape for BsPostcardFill {
     fn view_box(&self) -> String {
@@ -12501,6 +13175,7 @@ impl IconShape for BsPostcardFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiSmileFill;
 impl IconShape for BsEmojiSmileFill {
     fn view_box(&self) -> String {
@@ -12518,6 +13193,7 @@ impl IconShape for BsEmojiSmileFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInfoCircleFill;
 impl IconShape for BsInfoCircleFill {
     fn view_box(&self) -> String {
@@ -12535,6 +13211,7 @@ impl IconShape for BsInfoCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShopWindow;
 impl IconShape for BsShopWindow {
     fn view_box(&self) -> String {
@@ -12552,6 +13229,7 @@ impl IconShape for BsShopWindow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardPlusFill;
 impl IconShape for BsClipboardPlusFill {
     fn view_box(&self) -> String {
@@ -12572,6 +13250,7 @@ impl IconShape for BsClipboardPlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephonePlusFill;
 impl IconShape for BsTelephonePlusFill {
     fn view_box(&self) -> String {
@@ -12590,6 +13269,7 @@ impl IconShape for BsTelephonePlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDice5;
 impl IconShape for BsDice5 {
     fn view_box(&self) -> String {
@@ -12610,6 +13290,7 @@ impl IconShape for BsDice5 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowLeftShort;
 impl IconShape for BsArrowLeftShort {
     fn view_box(&self) -> String {
@@ -12628,6 +13309,7 @@ impl IconShape for BsArrowLeftShort {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretUpSquare;
 impl IconShape for BsCaretUpSquare {
     fn view_box(&self) -> String {
@@ -12648,6 +13330,7 @@ impl IconShape for BsCaretUpSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBandaidFill;
 impl IconShape for BsBandaidFill {
     fn view_box(&self) -> String {
@@ -12665,6 +13348,7 @@ impl IconShape for BsBandaidFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBattery;
 impl IconShape for BsBattery {
     fn view_box(&self) -> String {
@@ -12682,6 +13366,7 @@ impl IconShape for BsBattery {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBox2HeartFill;
 impl IconShape for BsBox2HeartFill {
     fn view_box(&self) -> String {
@@ -12699,6 +13384,7 @@ impl IconShape for BsBox2HeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPatchCheck;
 impl IconShape for BsPatchCheck {
     fn view_box(&self) -> String {
@@ -12720,6 +13406,7 @@ impl IconShape for BsPatchCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBorderMiddle;
 impl IconShape for BsBorderMiddle {
     fn view_box(&self) -> String {
@@ -12737,6 +13424,7 @@ impl IconShape for BsBorderMiddle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileArrowUpFill;
 impl IconShape for BsFileArrowUpFill {
     fn view_box(&self) -> String {
@@ -12754,6 +13442,7 @@ impl IconShape for BsFileArrowUpFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownSquare;
 impl IconShape for BsArrowDownSquare {
     fn view_box(&self) -> String {
@@ -12772,6 +13461,7 @@ impl IconShape for BsArrowDownSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarRangeFill;
 impl IconShape for BsCalendarRangeFill {
     fn view_box(&self) -> String {
@@ -12789,6 +13479,7 @@ impl IconShape for BsCalendarRangeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUsbDrive;
 impl IconShape for BsUsbDrive {
     fn view_box(&self) -> String {
@@ -12806,6 +13497,7 @@ impl IconShape for BsUsbDrive {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilesAlt;
 impl IconShape for BsFilesAlt {
     fn view_box(&self) -> String {
@@ -12823,6 +13515,7 @@ impl IconShape for BsFilesAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStop;
 impl IconShape for BsStop {
     fn view_box(&self) -> String {
@@ -12840,6 +13533,7 @@ impl IconShape for BsStop {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWebcamFill;
 impl IconShape for BsWebcamFill {
     fn view_box(&self) -> String {
@@ -12860,6 +13554,7 @@ impl IconShape for BsWebcamFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowBarUp;
 impl IconShape for BsArrowBarUp {
     fn view_box(&self) -> String {
@@ -12878,6 +13573,7 @@ impl IconShape for BsArrowBarUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowInLeft;
 impl IconShape for BsBoxArrowInLeft {
     fn view_box(&self) -> String {
@@ -12900,6 +13596,7 @@ impl IconShape for BsBoxArrowInLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsNewspaper;
 impl IconShape for BsNewspaper {
     fn view_box(&self) -> String {
@@ -12920,6 +13617,7 @@ impl IconShape for BsNewspaper {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTicketFill;
 impl IconShape for BsTicketFill {
     fn view_box(&self) -> String {
@@ -12937,6 +13635,7 @@ impl IconShape for BsTicketFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoomboxFill;
 impl IconShape for BsBoomboxFill {
     fn view_box(&self) -> String {
@@ -12957,6 +13656,7 @@ impl IconShape for BsBoomboxFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrow90degDown;
 impl IconShape for BsArrow90degDown {
     fn view_box(&self) -> String {
@@ -12975,6 +13675,7 @@ impl IconShape for BsArrow90degDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDisc;
 impl IconShape for BsDisc {
     fn view_box(&self) -> String {
@@ -12995,6 +13696,7 @@ impl IconShape for BsDisc {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHourglassTop;
 impl IconShape for BsHourglassTop {
     fn view_box(&self) -> String {
@@ -13012,6 +13714,7 @@ impl IconShape for BsHourglassTop {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMarkdown;
 impl IconShape for BsMarkdown {
     fn view_box(&self) -> String {
@@ -13040,6 +13743,7 @@ impl IconShape for BsMarkdown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileMedical;
 impl IconShape for BsFileMedical {
     fn view_box(&self) -> String {
@@ -13060,6 +13764,7 @@ impl IconShape for BsFileMedical {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeExclamation;
 impl IconShape for BsEnvelopeExclamation {
     fn view_box(&self) -> String {
@@ -13080,6 +13785,7 @@ impl IconShape for BsEnvelopeExclamation {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUmbrellaFill;
 impl IconShape for BsUmbrellaFill {
     fn view_box(&self) -> String {
@@ -13098,6 +13804,7 @@ impl IconShape for BsUmbrellaFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownCircleFill;
 impl IconShape for BsArrowDownCircleFill {
     fn view_box(&self) -> String {
@@ -13115,6 +13822,7 @@ impl IconShape for BsArrowDownCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDice2Fill;
 impl IconShape for BsDice2Fill {
     fn view_box(&self) -> String {
@@ -13132,6 +13840,7 @@ impl IconShape for BsDice2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStarHalf;
 impl IconShape for BsStarHalf {
     fn view_box(&self) -> String {
@@ -13149,6 +13858,7 @@ impl IconShape for BsStarHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowReturnLeft;
 impl IconShape for BsArrowReturnLeft {
     fn view_box(&self) -> String {
@@ -13167,6 +13877,7 @@ impl IconShape for BsArrowReturnLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDice3Fill;
 impl IconShape for BsDice3Fill {
     fn view_box(&self) -> String {
@@ -13184,6 +13895,7 @@ impl IconShape for BsDice3Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCameraVideoOff;
 impl IconShape for BsCameraVideoOff {
     fn view_box(&self) -> String {
@@ -13202,6 +13914,7 @@ impl IconShape for BsCameraVideoOff {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHddStackFill;
 impl IconShape for BsHddStackFill {
     fn view_box(&self) -> String {
@@ -13219,6 +13932,7 @@ impl IconShape for BsHddStackFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsNodePlusFill;
 impl IconShape for BsNodePlusFill {
     fn view_box(&self) -> String {
@@ -13236,6 +13950,7 @@ impl IconShape for BsNodePlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCursor;
 impl IconShape for BsCursor {
     fn view_box(&self) -> String {
@@ -13253,6 +13968,7 @@ impl IconShape for BsCursor {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDeviceHddFill;
 impl IconShape for BsDeviceHddFill {
     fn view_box(&self) -> String {
@@ -13273,6 +13989,7 @@ impl IconShape for BsDeviceHddFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCartCheck;
 impl IconShape for BsCartCheck {
     fn view_box(&self) -> String {
@@ -13293,6 +14010,7 @@ impl IconShape for BsCartCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCpu;
 impl IconShape for BsCpu {
     fn view_box(&self) -> String {
@@ -13310,6 +14028,7 @@ impl IconShape for BsCpu {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkArrowUp;
 impl IconShape for BsFileEarmarkArrowUp {
     fn view_box(&self) -> String {
@@ -13330,6 +14049,7 @@ impl IconShape for BsFileEarmarkArrowUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeXml;
 impl IconShape for BsFiletypeXml {
     fn view_box(&self) -> String {
@@ -13348,6 +14068,7 @@ impl IconShape for BsFiletypeXml {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBorder;
 impl IconShape for BsBorder {
     fn view_box(&self) -> String {
@@ -13365,6 +14086,7 @@ impl IconShape for BsBorder {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretRight;
 impl IconShape for BsCaretRight {
     fn view_box(&self) -> String {
@@ -13382,6 +14104,7 @@ impl IconShape for BsCaretRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFolderX;
 impl IconShape for BsFolderX {
     fn view_box(&self) -> String {
@@ -13402,6 +14125,7 @@ impl IconShape for BsFolderX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPinFill;
 impl IconShape for BsPinFill {
     fn view_box(&self) -> String {
@@ -13419,6 +14143,7 @@ impl IconShape for BsPinFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournalAlbum;
 impl IconShape for BsJournalAlbum {
     fn view_box(&self) -> String {
@@ -13442,6 +14167,7 @@ impl IconShape for BsJournalAlbum {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRecord;
 impl IconShape for BsRecord {
     fn view_box(&self) -> String {
@@ -13459,6 +14185,7 @@ impl IconShape for BsRecord {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronCompactLeft;
 impl IconShape for BsChevronCompactLeft {
     fn view_box(&self) -> String {
@@ -13477,6 +14204,7 @@ impl IconShape for BsChevronCompactLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar3Range;
 impl IconShape for BsCalendar3Range {
     fn view_box(&self) -> String {
@@ -13497,6 +14225,7 @@ impl IconShape for BsCalendar3Range {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMailbox2;
 impl IconShape for BsMailbox2 {
     fn view_box(&self) -> String {
@@ -13517,6 +14246,7 @@ impl IconShape for BsMailbox2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGenderAmbiguous;
 impl IconShape for BsGenderAmbiguous {
     fn view_box(&self) -> String {
@@ -13535,6 +14265,7 @@ impl IconShape for BsGenderAmbiguous {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkPlusFill;
 impl IconShape for BsFileEarmarkPlusFill {
     fn view_box(&self) -> String {
@@ -13552,6 +14283,7 @@ impl IconShape for BsFileEarmarkPlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileSlides;
 impl IconShape for BsFileSlides {
     fn view_box(&self) -> String {
@@ -13572,6 +14304,7 @@ impl IconShape for BsFileSlides {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeOpen;
 impl IconShape for BsEnvelopeOpen {
     fn view_box(&self) -> String {
@@ -13589,6 +14322,7 @@ impl IconShape for BsEnvelopeOpen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2WeekFill;
 impl IconShape for BsCalendar2WeekFill {
     fn view_box(&self) -> String {
@@ -13606,6 +14340,7 @@ impl IconShape for BsCalendar2WeekFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBootstrapFill;
 impl IconShape for BsBootstrapFill {
     fn view_box(&self) -> String {
@@ -13626,6 +14361,7 @@ impl IconShape for BsBootstrapFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiDizzy;
 impl IconShape for BsEmojiDizzy {
     fn view_box(&self) -> String {
@@ -13646,6 +14382,7 @@ impl IconShape for BsEmojiDizzy {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTrophy;
 impl IconShape for BsTrophy {
     fn view_box(&self) -> String {
@@ -13663,6 +14400,7 @@ impl IconShape for BsTrophy {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHash;
 impl IconShape for BsHash {
     fn view_box(&self) -> String {
@@ -13680,6 +14418,7 @@ impl IconShape for BsHash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldMinus;
 impl IconShape for BsShieldMinus {
     fn view_box(&self) -> String {
@@ -13700,6 +14439,7 @@ impl IconShape for BsShieldMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarCheckFill;
 impl IconShape for BsCalendarCheckFill {
     fn view_box(&self) -> String {
@@ -13717,6 +14457,7 @@ impl IconShape for BsCalendarCheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBatteryFull;
 impl IconShape for BsBatteryFull {
     fn view_box(&self) -> String {
@@ -13737,6 +14478,7 @@ impl IconShape for BsBatteryFull {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlus;
 impl IconShape for BsPlus {
     fn view_box(&self) -> String {
@@ -13754,6 +14496,7 @@ impl IconShape for BsPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardMinus;
 impl IconShape for BsClipboardMinus {
     fn view_box(&self) -> String {
@@ -13778,6 +14521,7 @@ impl IconShape for BsClipboardMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGearWide;
 impl IconShape for BsGearWide {
     fn view_box(&self) -> String {
@@ -13795,6 +14539,7 @@ impl IconShape for BsGearWide {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMusicNote;
 impl IconShape for BsMusicNote {
     fn view_box(&self) -> String {
@@ -13819,6 +14564,7 @@ impl IconShape for BsMusicNote {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCheck;
 impl IconShape for BsCheck {
     fn view_box(&self) -> String {
@@ -13836,6 +14582,7 @@ impl IconShape for BsCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMenuButton;
 impl IconShape for BsMenuButton {
     fn view_box(&self) -> String {
@@ -13856,6 +14603,7 @@ impl IconShape for BsMenuButton {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDash;
 impl IconShape for BsDash {
     fn view_box(&self) -> String {
@@ -13873,6 +14621,7 @@ impl IconShape for BsDash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiKissFill;
 impl IconShape for BsEmojiKissFill {
     fn view_box(&self) -> String {
@@ -13891,6 +14640,7 @@ impl IconShape for BsEmojiKissFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsNut;
 impl IconShape for BsNut {
     fn view_box(&self) -> String {
@@ -13911,6 +14661,7 @@ impl IconShape for BsNut {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretLeftSquareFill;
 impl IconShape for BsCaretLeftSquareFill {
     fn view_box(&self) -> String {
@@ -13928,6 +14679,7 @@ impl IconShape for BsCaretLeftSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardPulse;
 impl IconShape for BsClipboardPulse {
     fn view_box(&self) -> String {
@@ -13946,6 +14698,7 @@ impl IconShape for BsClipboardPulse {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkFill;
 impl IconShape for BsFileEarmarkFill {
     fn view_box(&self) -> String {
@@ -13963,6 +14716,7 @@ impl IconShape for BsFileEarmarkFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkLockFill;
 impl IconShape for BsFileEarmarkLockFill {
     fn view_box(&self) -> String {
@@ -13983,6 +14737,7 @@ impl IconShape for BsFileEarmarkLockFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayoutSidebarInset;
 impl IconShape for BsLayoutSidebarInset {
     fn view_box(&self) -> String {
@@ -14003,6 +14758,7 @@ impl IconShape for BsLayoutSidebarInset {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStopBtnFill;
 impl IconShape for BsStopBtnFill {
     fn view_box(&self) -> String {
@@ -14020,6 +14776,7 @@ impl IconShape for BsStopBtnFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHospital;
 impl IconShape for BsHospital {
     fn view_box(&self) -> String {
@@ -14040,6 +14797,7 @@ impl IconShape for BsHospital {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBluetooth;
 impl IconShape for BsBluetooth {
     fn view_box(&self) -> String {
@@ -14058,6 +14816,7 @@ impl IconShape for BsBluetooth {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSafe2Fill;
 impl IconShape for BsSafe2Fill {
     fn view_box(&self) -> String {
@@ -14078,6 +14837,7 @@ impl IconShape for BsSafe2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPieChart;
 impl IconShape for BsPieChart {
     fn view_box(&self) -> String {
@@ -14095,6 +14855,7 @@ impl IconShape for BsPieChart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2Minus;
 impl IconShape for BsCalendar2Minus {
     fn view_box(&self) -> String {
@@ -14118,6 +14879,7 @@ impl IconShape for BsCalendar2Minus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileBreakFill;
 impl IconShape for BsFileBreakFill {
     fn view_box(&self) -> String {
@@ -14135,6 +14897,7 @@ impl IconShape for BsFileBreakFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeadphones;
 impl IconShape for BsHeadphones {
     fn view_box(&self) -> String {
@@ -14152,6 +14915,7 @@ impl IconShape for BsHeadphones {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCart4;
 impl IconShape for BsCart4 {
     fn view_box(&self) -> String {
@@ -14169,6 +14933,7 @@ impl IconShape for BsCart4 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudHaze;
 impl IconShape for BsCloudHaze {
     fn view_box(&self) -> String {
@@ -14186,6 +14951,7 @@ impl IconShape for BsCloudHaze {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2MinusFill;
 impl IconShape for BsClipboard2MinusFill {
     fn view_box(&self) -> String {
@@ -14206,6 +14972,7 @@ impl IconShape for BsClipboard2MinusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRss;
 impl IconShape for BsRss {
     fn view_box(&self) -> String {
@@ -14226,6 +14993,7 @@ impl IconShape for BsRss {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGiftFill;
 impl IconShape for BsGiftFill {
     fn view_box(&self) -> String {
@@ -14243,6 +15011,7 @@ impl IconShape for BsGiftFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldFillPlus;
 impl IconShape for BsShieldFillPlus {
     fn view_box(&self) -> String {
@@ -14261,6 +15030,7 @@ impl IconShape for BsShieldFillPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipEndBtn;
 impl IconShape for BsSkipEndBtn {
     fn view_box(&self) -> String {
@@ -14281,6 +15051,7 @@ impl IconShape for BsSkipEndBtn {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWifi;
 impl IconShape for BsWifi {
     fn view_box(&self) -> String {
@@ -14301,6 +15072,7 @@ impl IconShape for BsWifi {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiFrown;
 impl IconShape for BsEmojiFrown {
     fn view_box(&self) -> String {
@@ -14321,6 +15093,7 @@ impl IconShape for BsEmojiFrown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGraphDown;
 impl IconShape for BsGraphDown {
     fn view_box(&self) -> String {
@@ -14339,6 +15112,7 @@ impl IconShape for BsGraphDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsXLg;
 impl IconShape for BsXLg {
     fn view_box(&self) -> String {
@@ -14356,6 +15130,7 @@ impl IconShape for BsXLg {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWatch;
 impl IconShape for BsWatch {
     fn view_box(&self) -> String {
@@ -14376,6 +15151,7 @@ impl IconShape for BsWatch {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSuitDiamond;
 impl IconShape for BsSuitDiamond {
     fn view_box(&self) -> String {
@@ -14393,6 +15169,7 @@ impl IconShape for BsSuitDiamond {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMouse3Fill;
 impl IconShape for BsMouse3Fill {
     fn view_box(&self) -> String {
@@ -14410,6 +15187,7 @@ impl IconShape for BsMouse3Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournalArrowUp;
 impl IconShape for BsJournalArrowUp {
     fn view_box(&self) -> String {
@@ -14434,6 +15212,7 @@ impl IconShape for BsJournalArrowUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDice6;
 impl IconShape for BsDice6 {
     fn view_box(&self) -> String {
@@ -14454,6 +15233,7 @@ impl IconShape for BsDice6 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWindowDesktop;
 impl IconShape for BsWindowDesktop {
     fn view_box(&self) -> String {
@@ -14474,6 +15254,7 @@ impl IconShape for BsWindowDesktop {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsListNested;
 impl IconShape for BsListNested {
     fn view_box(&self) -> String {
@@ -14492,6 +15273,7 @@ impl IconShape for BsListNested {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMouse2Fill;
 impl IconShape for BsMouse2Fill {
     fn view_box(&self) -> String {
@@ -14509,6 +15291,7 @@ impl IconShape for BsMouse2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHddRackFill;
 impl IconShape for BsHddRackFill {
     fn view_box(&self) -> String {
@@ -14526,6 +15309,7 @@ impl IconShape for BsHddRackFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBarChartLine;
 impl IconShape for BsBarChartLine {
     fn view_box(&self) -> String {
@@ -14543,6 +15327,7 @@ impl IconShape for BsBarChartLine {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkCheckFill;
 impl IconShape for BsFileEarmarkCheckFill {
     fn view_box(&self) -> String {
@@ -14560,6 +15345,7 @@ impl IconShape for BsFileEarmarkCheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPatchExclamation;
 impl IconShape for BsPatchExclamation {
     fn view_box(&self) -> String {
@@ -14580,6 +15366,7 @@ impl IconShape for BsPatchExclamation {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCameraVideoFill;
 impl IconShape for BsCameraVideoFill {
     fn view_box(&self) -> String {
@@ -14598,6 +15385,7 @@ impl IconShape for BsCameraVideoFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPostcardHeart;
 impl IconShape for BsPostcardHeart {
     fn view_box(&self) -> String {
@@ -14619,6 +15407,7 @@ impl IconShape for BsPostcardHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSafeFill;
 impl IconShape for BsSafeFill {
     fn view_box(&self) -> String {
@@ -14639,6 +15428,7 @@ impl IconShape for BsSafeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSpeedometer2;
 impl IconShape for BsSpeedometer2 {
     fn view_box(&self) -> String {
@@ -14660,6 +15450,7 @@ impl IconShape for BsSpeedometer2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldFillMinus;
 impl IconShape for BsShieldFillMinus {
     fn view_box(&self) -> String {
@@ -14678,6 +15469,7 @@ impl IconShape for BsShieldFillMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatQuoteFill;
 impl IconShape for BsChatQuoteFill {
     fn view_box(&self) -> String {
@@ -14695,6 +15487,7 @@ impl IconShape for BsChatQuoteFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardHeart;
 impl IconShape for BsClipboardHeart {
     fn view_box(&self) -> String {
@@ -14719,6 +15512,7 @@ impl IconShape for BsClipboardHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatSquareHeart;
 impl IconShape for BsChatSquareHeart {
     fn view_box(&self) -> String {
@@ -14739,6 +15533,7 @@ impl IconShape for BsChatSquareHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInfo;
 impl IconShape for BsInfo {
     fn view_box(&self) -> String {
@@ -14756,6 +15551,7 @@ impl IconShape for BsInfo {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsReplyFill;
 impl IconShape for BsReplyFill {
     fn view_box(&self) -> String {
@@ -14773,6 +15569,7 @@ impl IconShape for BsReplyFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronCompactUp;
 impl IconShape for BsChevronCompactUp {
     fn view_box(&self) -> String {
@@ -14791,6 +15588,7 @@ impl IconShape for BsChevronCompactUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkBarGraph;
 impl IconShape for BsFileEarmarkBarGraph {
     fn view_box(&self) -> String {
@@ -14811,6 +15609,7 @@ impl IconShape for BsFileEarmarkBarGraph {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSpotify;
 impl IconShape for BsSpotify {
     fn view_box(&self) -> String {
@@ -14828,6 +15627,7 @@ impl IconShape for BsSpotify {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowDown;
 impl IconShape for BsBoxArrowDown {
     fn view_box(&self) -> String {
@@ -14850,6 +15650,7 @@ impl IconShape for BsBoxArrowDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFan;
 impl IconShape for BsFan {
     fn view_box(&self) -> String {
@@ -14870,6 +15671,7 @@ impl IconShape for BsFan {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkRuledFill;
 impl IconShape for BsFileEarmarkRuledFill {
     fn view_box(&self) -> String {
@@ -14887,6 +15689,7 @@ impl IconShape for BsFileEarmarkRuledFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPalette;
 impl IconShape for BsPalette {
     fn view_box(&self) -> String {
@@ -14907,6 +15710,7 @@ impl IconShape for BsPalette {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowBarRight;
 impl IconShape for BsArrowBarRight {
     fn view_box(&self) -> String {
@@ -14925,6 +15729,7 @@ impl IconShape for BsArrowBarRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatSquareFill;
 impl IconShape for BsChatSquareFill {
     fn view_box(&self) -> String {
@@ -14942,6 +15747,7 @@ impl IconShape for BsChatSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPentagonHalf;
 impl IconShape for BsPentagonHalf {
     fn view_box(&self) -> String {
@@ -14959,6 +15765,7 @@ impl IconShape for BsPentagonHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2Heart;
 impl IconShape for BsCalendar2Heart {
     fn view_box(&self) -> String {
@@ -14977,6 +15784,7 @@ impl IconShape for BsCalendar2Heart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGear;
 impl IconShape for BsGear {
     fn view_box(&self) -> String {
@@ -14997,6 +15805,7 @@ impl IconShape for BsGear {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSpeedometer;
 impl IconShape for BsSpeedometer {
     fn view_box(&self) -> String {
@@ -15018,6 +15827,7 @@ impl IconShape for BsSpeedometer {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkFont;
 impl IconShape for BsFileEarmarkFont {
     fn view_box(&self) -> String {
@@ -15038,6 +15848,7 @@ impl IconShape for BsFileEarmarkFont {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCameraFill;
 impl IconShape for BsCameraFill {
     fn view_box(&self) -> String {
@@ -15058,6 +15869,7 @@ impl IconShape for BsCameraFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatRight;
 impl IconShape for BsChatRight {
     fn view_box(&self) -> String {
@@ -15075,6 +15887,7 @@ impl IconShape for BsChatRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJustifyRight;
 impl IconShape for BsJustifyRight {
     fn view_box(&self) -> String {
@@ -15093,6 +15906,7 @@ impl IconShape for BsJustifyRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPeople;
 impl IconShape for BsPeople {
     fn view_box(&self) -> String {
@@ -15110,6 +15924,7 @@ impl IconShape for BsPeople {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInfoCircle;
 impl IconShape for BsInfoCircle {
     fn view_box(&self) -> String {
@@ -15130,6 +15945,7 @@ impl IconShape for BsInfoCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeTmFill;
 impl IconShape for BsBadgeTmFill {
     fn view_box(&self) -> String {
@@ -15147,6 +15963,7 @@ impl IconShape for BsBadgeTmFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipStartCircle;
 impl IconShape for BsSkipStartCircle {
     fn view_box(&self) -> String {
@@ -15167,6 +15984,7 @@ impl IconShape for BsSkipStartCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkMedical;
 impl IconShape for BsFileEarmarkMedical {
     fn view_box(&self) -> String {
@@ -15187,6 +16005,7 @@ impl IconShape for BsFileEarmarkMedical {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeJsx;
 impl IconShape for BsFiletypeJsx {
     fn view_box(&self) -> String {
@@ -15205,6 +16024,7 @@ impl IconShape for BsFiletypeJsx {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEjectFill;
 impl IconShape for BsEjectFill {
     fn view_box(&self) -> String {
@@ -15222,6 +16042,7 @@ impl IconShape for BsEjectFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowRight;
 impl IconShape for BsBoxArrowRight {
     fn view_box(&self) -> String {
@@ -15244,6 +16065,7 @@ impl IconShape for BsBoxArrowRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMotherboardFill;
 impl IconShape for BsMotherboardFill {
     fn view_box(&self) -> String {
@@ -15264,6 +16086,7 @@ impl IconShape for BsMotherboardFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlugFill;
 impl IconShape for BsPlugFill {
     fn view_box(&self) -> String {
@@ -15281,6 +16104,7 @@ impl IconShape for BsPlugFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudFog;
 impl IconShape for BsCloudFog {
     fn view_box(&self) -> String {
@@ -15298,6 +16122,7 @@ impl IconShape for BsCloudFog {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileX;
 impl IconShape for BsFileX {
     fn view_box(&self) -> String {
@@ -15318,6 +16143,7 @@ impl IconShape for BsFileX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardFill;
 impl IconShape for BsClipboardFill {
     fn view_box(&self) -> String {
@@ -15336,6 +16162,7 @@ impl IconShape for BsClipboardFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeXls;
 impl IconShape for BsFiletypeXls {
     fn view_box(&self) -> String {
@@ -15354,6 +16181,7 @@ impl IconShape for BsFiletypeXls {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMoonStars;
 impl IconShape for BsMoonStars {
     fn view_box(&self) -> String {
@@ -15374,6 +16202,7 @@ impl IconShape for BsMoonStars {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowInDownRight;
 impl IconShape for BsBoxArrowInDownRight {
     fn view_box(&self) -> String {
@@ -15396,6 +16225,7 @@ impl IconShape for BsBoxArrowInDownRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSave2Fill;
 impl IconShape for BsSave2Fill {
     fn view_box(&self) -> String {
@@ -15413,6 +16243,7 @@ impl IconShape for BsSave2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudUploadFill;
 impl IconShape for BsCloudUploadFill {
     fn view_box(&self) -> String {
@@ -15431,6 +16262,7 @@ impl IconShape for BsCloudUploadFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsKeyFill;
 impl IconShape for BsKeyFill {
     fn view_box(&self) -> String {
@@ -15448,6 +16280,7 @@ impl IconShape for BsKeyFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFolderPlus;
 impl IconShape for BsFolderPlus {
     fn view_box(&self) -> String {
@@ -15468,6 +16301,7 @@ impl IconShape for BsFolderPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkZipFill;
 impl IconShape for BsFileEarmarkZipFill {
     fn view_box(&self) -> String {
@@ -15488,6 +16322,7 @@ impl IconShape for BsFileEarmarkZipFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeM4p;
 impl IconShape for BsFiletypeM4p {
     fn view_box(&self) -> String {
@@ -15506,6 +16341,7 @@ impl IconShape for BsFiletypeM4p {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLaptopFill;
 impl IconShape for BsLaptopFill {
     fn view_box(&self) -> String {
@@ -15523,6 +16359,7 @@ impl IconShape for BsLaptopFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGripHorizontal;
 impl IconShape for BsGripHorizontal {
     fn view_box(&self) -> String {
@@ -15540,6 +16377,7 @@ impl IconShape for BsGripHorizontal {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretUpSquareFill;
 impl IconShape for BsCaretUpSquareFill {
     fn view_box(&self) -> String {
@@ -15557,6 +16395,7 @@ impl IconShape for BsCaretUpSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephoneMinusFill;
 impl IconShape for BsTelephoneMinusFill {
     fn view_box(&self) -> String {
@@ -15575,6 +16414,7 @@ impl IconShape for BsTelephoneMinusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMic;
 impl IconShape for BsMic {
     fn view_box(&self) -> String {
@@ -15595,6 +16435,7 @@ impl IconShape for BsMic {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRainbow;
 impl IconShape for BsRainbow {
     fn view_box(&self) -> String {
@@ -15612,6 +16453,7 @@ impl IconShape for BsRainbow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSafe2;
 impl IconShape for BsSafe2 {
     fn view_box(&self) -> String {
@@ -15632,6 +16474,7 @@ impl IconShape for BsSafe2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSegmentedNav;
 impl IconShape for BsSegmentedNav {
     fn view_box(&self) -> String {
@@ -15649,6 +16492,7 @@ impl IconShape for BsSegmentedNav {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsReception2;
 impl IconShape for BsReception2 {
     fn view_box(&self) -> String {
@@ -15666,6 +16510,7 @@ impl IconShape for BsReception2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatSquareDots;
 impl IconShape for BsChatSquareDots {
     fn view_box(&self) -> String {
@@ -15686,6 +16531,7 @@ impl IconShape for BsChatSquareDots {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonWorkspace;
 impl IconShape for BsPersonWorkspace {
     fn view_box(&self) -> String {
@@ -15706,6 +16552,7 @@ impl IconShape for BsPersonWorkspace {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonSquare;
 impl IconShape for BsPersonSquare {
     fn view_box(&self) -> String {
@@ -15726,6 +16573,7 @@ impl IconShape for BsPersonSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudDrizzleFill;
 impl IconShape for BsCloudDrizzleFill {
     fn view_box(&self) -> String {
@@ -15743,6 +16591,7 @@ impl IconShape for BsCloudDrizzleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileTextFill;
 impl IconShape for BsFileTextFill {
     fn view_box(&self) -> String {
@@ -15760,6 +16609,7 @@ impl IconShape for BsFileTextFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCreditCard2BackFill;
 impl IconShape for BsCreditCard2BackFill {
     fn view_box(&self) -> String {
@@ -15777,6 +16627,7 @@ impl IconShape for BsCreditCard2BackFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSortNumericDownAlt;
 impl IconShape for BsSortNumericDownAlt {
     fn view_box(&self) -> String {
@@ -15798,6 +16649,7 @@ impl IconShape for BsSortNumericDownAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsZoomIn;
 impl IconShape for BsZoomIn {
     fn view_box(&self) -> String {
@@ -15823,6 +16675,7 @@ impl IconShape for BsZoomIn {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWrenchAdjustable;
 impl IconShape for BsWrenchAdjustable {
     fn view_box(&self) -> String {
@@ -15843,6 +16696,7 @@ impl IconShape for BsWrenchAdjustable {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2X;
 impl IconShape for BsCalendar2X {
     fn view_box(&self) -> String {
@@ -15866,6 +16720,7 @@ impl IconShape for BsCalendar2X {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDoorClosedFill;
 impl IconShape for BsDoorClosedFill {
     fn view_box(&self) -> String {
@@ -15883,6 +16738,7 @@ impl IconShape for BsDoorClosedFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiSunglassesFill;
 impl IconShape for BsEmojiSunglassesFill {
     fn view_box(&self) -> String {
@@ -15900,6 +16756,7 @@ impl IconShape for BsEmojiSunglassesFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMenuButtonFill;
 impl IconShape for BsMenuButtonFill {
     fn view_box(&self) -> String {
@@ -15917,6 +16774,7 @@ impl IconShape for BsMenuButtonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPhoneLandscapeFill;
 impl IconShape for BsPhoneLandscapeFill {
     fn view_box(&self) -> String {
@@ -15934,6 +16792,7 @@ impl IconShape for BsPhoneLandscapeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsThermometerLow;
 impl IconShape for BsThermometerLow {
     fn view_box(&self) -> String {
@@ -15954,6 +16813,7 @@ impl IconShape for BsThermometerLow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHdmiFill;
 impl IconShape for BsHdmiFill {
     fn view_box(&self) -> String {
@@ -15971,6 +16831,7 @@ impl IconShape for BsHdmiFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSignpostFill;
 impl IconShape for BsSignpostFill {
     fn view_box(&self) -> String {
@@ -15988,6 +16849,7 @@ impl IconShape for BsSignpostFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkCodeFill;
 impl IconShape for BsFileEarmarkCodeFill {
     fn view_box(&self) -> String {
@@ -16005,6 +16867,7 @@ impl IconShape for BsFileEarmarkCodeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPostageHeart;
 impl IconShape for BsPostageHeart {
     fn view_box(&self) -> String {
@@ -16025,6 +16888,7 @@ impl IconShape for BsPostageHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarksFill;
 impl IconShape for BsBookmarksFill {
     fn view_box(&self) -> String {
@@ -16045,6 +16909,7 @@ impl IconShape for BsBookmarksFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMouse2;
 impl IconShape for BsMouse2 {
     fn view_box(&self) -> String {
@@ -16062,6 +16927,7 @@ impl IconShape for BsMouse2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBag;
 impl IconShape for BsBag {
     fn view_box(&self) -> String {
@@ -16079,6 +16945,7 @@ impl IconShape for BsBag {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGraphDownArrow;
 impl IconShape for BsGraphDownArrow {
     fn view_box(&self) -> String {
@@ -16097,6 +16964,7 @@ impl IconShape for BsGraphDownArrow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPencilFill;
 impl IconShape for BsPencilFill {
     fn view_box(&self) -> String {
@@ -16114,6 +16982,7 @@ impl IconShape for BsPencilFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookshelf;
 impl IconShape for BsBookshelf {
     fn view_box(&self) -> String {
@@ -16131,6 +17000,7 @@ impl IconShape for BsBookshelf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBorderRight;
 impl IconShape for BsBorderRight {
     fn view_box(&self) -> String {
@@ -16148,6 +17018,7 @@ impl IconShape for BsBorderRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarkX;
 impl IconShape for BsBookmarkX {
     fn view_box(&self) -> String {
@@ -16169,6 +17040,7 @@ impl IconShape for BsBookmarkX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretLeftSquare;
 impl IconShape for BsCaretLeftSquare {
     fn view_box(&self) -> String {
@@ -16189,6 +17061,7 @@ impl IconShape for BsCaretLeftSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTicketDetailed;
 impl IconShape for BsTicketDetailed {
     fn view_box(&self) -> String {
@@ -16209,6 +17082,7 @@ impl IconShape for BsTicketDetailed {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2MinusFill;
 impl IconShape for BsCalendar2MinusFill {
     fn view_box(&self) -> String {
@@ -16226,6 +17100,7 @@ impl IconShape for BsCalendar2MinusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTriangleHalf;
 impl IconShape for BsTriangleHalf {
     fn view_box(&self) -> String {
@@ -16243,6 +17118,7 @@ impl IconShape for BsTriangleHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDeviceSsd;
 impl IconShape for BsDeviceSsd {
     fn view_box(&self) -> String {
@@ -16263,6 +17139,7 @@ impl IconShape for BsDeviceSsd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSubtract;
 impl IconShape for BsSubtract {
     fn view_box(&self) -> String {
@@ -16280,6 +17157,7 @@ impl IconShape for BsSubtract {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBagDashFill;
 impl IconShape for BsBagDashFill {
     fn view_box(&self) -> String {
@@ -16298,6 +17176,7 @@ impl IconShape for BsBagDashFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMoonStarsFill;
 impl IconShape for BsMoonStarsFill {
     fn view_box(&self) -> String {
@@ -16318,6 +17197,7 @@ impl IconShape for BsMoonStarsFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWindowX;
 impl IconShape for BsWindowX {
     fn view_box(&self) -> String {
@@ -16341,6 +17221,7 @@ impl IconShape for BsWindowX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAlignStart;
 impl IconShape for BsAlignStart {
     fn view_box(&self) -> String {
@@ -16362,6 +17243,7 @@ impl IconShape for BsAlignStart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSnapchat;
 impl IconShape for BsSnapchat {
     fn view_box(&self) -> String {
@@ -16379,6 +17261,7 @@ impl IconShape for BsSnapchat {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTerminalSplit;
 impl IconShape for BsTerminalSplit {
     fn view_box(&self) -> String {
@@ -16399,6 +17282,7 @@ impl IconShape for BsTerminalSplit {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournalX;
 impl IconShape for BsJournalX {
     fn view_box(&self) -> String {
@@ -16423,6 +17307,7 @@ impl IconShape for BsJournalX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeWcFill;
 impl IconShape for BsBadgeWcFill {
     fn view_box(&self) -> String {
@@ -16440,6 +17325,7 @@ impl IconShape for BsBadgeWcFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowRightCircle;
 impl IconShape for BsArrowRightCircle {
     fn view_box(&self) -> String {
@@ -16458,6 +17344,7 @@ impl IconShape for BsArrowRightCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSortAlphaDownAlt;
 impl IconShape for BsSortAlphaDownAlt {
     fn view_box(&self) -> String {
@@ -16482,6 +17369,7 @@ impl IconShape for BsSortAlphaDownAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarDateFill;
 impl IconShape for BsCalendarDateFill {
     fn view_box(&self) -> String {
@@ -16502,6 +17390,7 @@ impl IconShape for BsCalendarDateFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEggFried;
 impl IconShape for BsEggFried {
     fn view_box(&self) -> String {
@@ -16522,6 +17411,7 @@ impl IconShape for BsEggFried {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMouse3;
 impl IconShape for BsMouse3 {
     fn view_box(&self) -> String {
@@ -16539,6 +17429,7 @@ impl IconShape for BsMouse3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephoneInbound;
 impl IconShape for BsTelephoneInbound {
     fn view_box(&self) -> String {
@@ -16556,6 +17447,7 @@ impl IconShape for BsTelephoneInbound {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInboxesFill;
 impl IconShape for BsInboxesFill {
     fn view_box(&self) -> String {
@@ -16573,6 +17465,7 @@ impl IconShape for BsInboxesFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBrightnessAltHighFill;
 impl IconShape for BsBrightnessAltHighFill {
     fn view_box(&self) -> String {
@@ -16590,6 +17483,7 @@ impl IconShape for BsBrightnessAltHighFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsImage;
 impl IconShape for BsImage {
     fn view_box(&self) -> String {
@@ -16610,6 +17504,7 @@ impl IconShape for BsImage {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsToggles;
 impl IconShape for BsToggles {
     fn view_box(&self) -> String {
@@ -16627,6 +17522,7 @@ impl IconShape for BsToggles {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBasketFill;
 impl IconShape for BsBasketFill {
     fn view_box(&self) -> String {
@@ -16644,6 +17540,7 @@ impl IconShape for BsBasketFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHandIndexFill;
 impl IconShape for BsHandIndexFill {
     fn view_box(&self) -> String {
@@ -16661,6 +17558,7 @@ impl IconShape for BsHandIndexFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBandaid;
 impl IconShape for BsBandaid {
     fn view_box(&self) -> String {
@@ -16681,6 +17579,7 @@ impl IconShape for BsBandaid {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayoutSidebarInsetReverse;
 impl IconShape for BsLayoutSidebarInsetReverse {
     fn view_box(&self) -> String {
@@ -16701,6 +17600,7 @@ impl IconShape for BsLayoutSidebarInsetReverse {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLightbulb;
 impl IconShape for BsLightbulb {
     fn view_box(&self) -> String {
@@ -16718,6 +17618,7 @@ impl IconShape for BsLightbulb {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCheckCircle;
 impl IconShape for BsCheckCircle {
     fn view_box(&self) -> String {
@@ -16738,6 +17639,7 @@ impl IconShape for BsCheckCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSunset;
 impl IconShape for BsSunset {
     fn view_box(&self) -> String {
@@ -16755,6 +17657,7 @@ impl IconShape for BsSunset {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStopBtn;
 impl IconShape for BsStopBtn {
     fn view_box(&self) -> String {
@@ -16775,6 +17678,7 @@ impl IconShape for BsStopBtn {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsReception3;
 impl IconShape for BsReception3 {
     fn view_box(&self) -> String {
@@ -16792,6 +17696,7 @@ impl IconShape for BsReception3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronExpand;
 impl IconShape for BsChevronExpand {
     fn view_box(&self) -> String {
@@ -16810,6 +17715,7 @@ impl IconShape for BsChevronExpand {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSave;
 impl IconShape for BsSave {
     fn view_box(&self) -> String {
@@ -16827,6 +17733,7 @@ impl IconShape for BsSave {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpSquare;
 impl IconShape for BsArrowUpSquare {
     fn view_box(&self) -> String {
@@ -16845,6 +17752,7 @@ impl IconShape for BsArrowUpSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipEndCircleFill;
 impl IconShape for BsSkipEndCircleFill {
     fn view_box(&self) -> String {
@@ -16862,6 +17770,7 @@ impl IconShape for BsSkipEndCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLamp;
 impl IconShape for BsLamp {
     fn view_box(&self) -> String {
@@ -16883,6 +17792,7 @@ impl IconShape for BsLamp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileRuled;
 impl IconShape for BsFileRuled {
     fn view_box(&self) -> String {
@@ -16900,6 +17810,7 @@ impl IconShape for BsFileRuled {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsImages;
 impl IconShape for BsImages {
     fn view_box(&self) -> String {
@@ -16920,6 +17831,7 @@ impl IconShape for BsImages {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFront;
 impl IconShape for BsFront {
     fn view_box(&self) -> String {
@@ -16937,6 +17849,7 @@ impl IconShape for BsFront {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExclamationCircleFill;
 impl IconShape for BsExclamationCircleFill {
     fn view_box(&self) -> String {
@@ -16954,6 +17867,7 @@ impl IconShape for BsExclamationCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarks;
 impl IconShape for BsBookmarks {
     fn view_box(&self) -> String {
@@ -16974,6 +17888,7 @@ impl IconShape for BsBookmarks {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBagPlusFill;
 impl IconShape for BsBagPlusFill {
     fn view_box(&self) -> String {
@@ -16992,6 +17907,7 @@ impl IconShape for BsBagPlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudLightning;
 impl IconShape for BsCloudLightning {
     fn view_box(&self) -> String {
@@ -17009,6 +17925,7 @@ impl IconShape for BsCloudLightning {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsOpticalAudio;
 impl IconShape for BsOpticalAudio {
     fn view_box(&self) -> String {
@@ -17032,6 +17949,7 @@ impl IconShape for BsOpticalAudio {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudArrowDownFill;
 impl IconShape for BsCloudArrowDownFill {
     fn view_box(&self) -> String {
@@ -17049,6 +17967,7 @@ impl IconShape for BsCloudArrowDownFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayersFill;
 impl IconShape for BsLayersFill {
     fn view_box(&self) -> String {
@@ -17069,6 +17988,7 @@ impl IconShape for BsLayersFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsThreeDotsVertical;
 impl IconShape for BsThreeDotsVertical {
     fn view_box(&self) -> String {
@@ -17086,6 +18006,7 @@ impl IconShape for BsThreeDotsVertical {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMenuDown;
 impl IconShape for BsMenuDown {
     fn view_box(&self) -> String {
@@ -17103,6 +18024,7 @@ impl IconShape for BsMenuDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBootstrapReboot;
 impl IconShape for BsBootstrapReboot {
     fn view_box(&self) -> String {
@@ -17123,6 +18045,7 @@ impl IconShape for BsBootstrapReboot {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWindowDock;
 impl IconShape for BsWindowDock {
     fn view_box(&self) -> String {
@@ -17143,6 +18066,7 @@ impl IconShape for BsWindowDock {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2Week;
 impl IconShape for BsCalendar2Week {
     fn view_box(&self) -> String {
@@ -17163,6 +18087,7 @@ impl IconShape for BsCalendar2Week {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar3Week;
 impl IconShape for BsCalendar3Week {
     fn view_box(&self) -> String {
@@ -17183,6 +18108,7 @@ impl IconShape for BsCalendar3Week {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQuora;
 impl IconShape for BsQuora {
     fn view_box(&self) -> String {
@@ -17200,6 +18126,7 @@ impl IconShape for BsQuora {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldExclamation;
 impl IconShape for BsShieldExclamation {
     fn view_box(&self) -> String {
@@ -17220,6 +18147,7 @@ impl IconShape for BsShieldExclamation {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkBinaryFill;
 impl IconShape for BsFileEarmarkBinaryFill {
     fn view_box(&self) -> String {
@@ -17240,6 +18168,7 @@ impl IconShape for BsFileEarmarkBinaryFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeadsetVr;
 impl IconShape for BsHeadsetVr {
     fn view_box(&self) -> String {
@@ -17260,6 +18189,7 @@ impl IconShape for BsHeadsetVr {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPinMap;
 impl IconShape for BsPinMap {
     fn view_box(&self) -> String {
@@ -17282,6 +18212,7 @@ impl IconShape for BsPinMap {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVolumeMute;
 impl IconShape for BsVolumeMute {
     fn view_box(&self) -> String {
@@ -17299,6 +18230,7 @@ impl IconShape for BsVolumeMute {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPaperclip;
 impl IconShape for BsPaperclip {
     fn view_box(&self) -> String {
@@ -17316,6 +18248,7 @@ impl IconShape for BsPaperclip {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDiscFill;
 impl IconShape for BsDiscFill {
     fn view_box(&self) -> String {
@@ -17333,6 +18266,7 @@ impl IconShape for BsDiscFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBroadcast;
 impl IconShape for BsBroadcast {
     fn view_box(&self) -> String {
@@ -17350,6 +18284,7 @@ impl IconShape for BsBroadcast {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAlignMiddle;
 impl IconShape for BsAlignMiddle {
     fn view_box(&self) -> String {
@@ -17367,6 +18302,7 @@ impl IconShape for BsAlignMiddle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatSquare;
 impl IconShape for BsChatSquare {
     fn view_box(&self) -> String {
@@ -17384,6 +18320,7 @@ impl IconShape for BsChatSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2Plus;
 impl IconShape for BsCalendar2Plus {
     fn view_box(&self) -> String {
@@ -17404,6 +18341,7 @@ impl IconShape for BsCalendar2Plus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGenderMale;
 impl IconShape for BsGenderMale {
     fn view_box(&self) -> String {
@@ -17422,6 +18360,7 @@ impl IconShape for BsGenderMale {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSendDashFill;
 impl IconShape for BsSendDashFill {
     fn view_box(&self) -> String {
@@ -17442,6 +18381,7 @@ impl IconShape for BsSendDashFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBack;
 impl IconShape for BsBack {
     fn view_box(&self) -> String {
@@ -17459,6 +18399,7 @@ impl IconShape for BsBack {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBroadcastPin;
 impl IconShape for BsBroadcastPin {
     fn view_box(&self) -> String {
@@ -17476,6 +18417,7 @@ impl IconShape for BsBroadcastPin {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVolumeMuteFill;
 impl IconShape for BsVolumeMuteFill {
     fn view_box(&self) -> String {
@@ -17493,6 +18435,7 @@ impl IconShape for BsVolumeMuteFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsXSquare;
 impl IconShape for BsXSquare {
     fn view_box(&self) -> String {
@@ -17513,6 +18456,7 @@ impl IconShape for BsXSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileSlidesFill;
 impl IconShape for BsFileSlidesFill {
     fn view_box(&self) -> String {
@@ -17533,6 +18477,7 @@ impl IconShape for BsFileSlidesFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarRange;
 impl IconShape for BsCalendarRange {
     fn view_box(&self) -> String {
@@ -17553,6 +18498,7 @@ impl IconShape for BsCalendarRange {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWindowStack;
 impl IconShape for BsWindowStack {
     fn view_box(&self) -> String {
@@ -17573,6 +18519,7 @@ impl IconShape for BsWindowStack {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsReception1;
 impl IconShape for BsReception1 {
     fn view_box(&self) -> String {
@@ -17590,6 +18537,7 @@ impl IconShape for BsReception1 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCurrencyYen;
 impl IconShape for BsCurrencyYen {
     fn view_box(&self) -> String {
@@ -17607,6 +18555,7 @@ impl IconShape for BsCurrencyYen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournalRichtext;
 impl IconShape for BsJournalRichtext {
     fn view_box(&self) -> String {
@@ -17630,6 +18579,7 @@ impl IconShape for BsJournalRichtext {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkExcelFill;
 impl IconShape for BsFileEarmarkExcelFill {
     fn view_box(&self) -> String {
@@ -17647,6 +18597,7 @@ impl IconShape for BsFileEarmarkExcelFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInputCursor;
 impl IconShape for BsInputCursor {
     fn view_box(&self) -> String {
@@ -17668,6 +18619,7 @@ impl IconShape for BsInputCursor {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkLock2;
 impl IconShape for BsFileEarmarkLock2 {
     fn view_box(&self) -> String {
@@ -17688,6 +18640,7 @@ impl IconShape for BsFileEarmarkLock2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAward;
 impl IconShape for BsAward {
     fn view_box(&self) -> String {
@@ -17708,6 +18661,7 @@ impl IconShape for BsAward {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudSunFill;
 impl IconShape for BsCloudSunFill {
     fn view_box(&self) -> String {
@@ -17728,6 +18682,7 @@ impl IconShape for BsCloudSunFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsZoomOut;
 impl IconShape for BsZoomOut {
     fn view_box(&self) -> String {
@@ -17753,6 +18708,7 @@ impl IconShape for BsZoomOut {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLightningChargeFill;
 impl IconShape for BsLightningChargeFill {
     fn view_box(&self) -> String {
@@ -17770,6 +18726,7 @@ impl IconShape for BsLightningChargeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCameraVideo;
 impl IconShape for BsCameraVideo {
     fn view_box(&self) -> String {
@@ -17788,6 +18745,7 @@ impl IconShape for BsCameraVideo {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExclamationDiamondFill;
 impl IconShape for BsExclamationDiamondFill {
     fn view_box(&self) -> String {
@@ -17805,6 +18763,7 @@ impl IconShape for BsExclamationDiamondFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBox;
 impl IconShape for BsBox {
     fn view_box(&self) -> String {
@@ -17822,6 +18781,7 @@ impl IconShape for BsBox {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowInUp;
 impl IconShape for BsBoxArrowInUp {
     fn view_box(&self) -> String {
@@ -17844,6 +18804,7 @@ impl IconShape for BsBoxArrowInUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSendSlashFill;
 impl IconShape for BsSendSlashFill {
     fn view_box(&self) -> String {
@@ -17864,6 +18825,7 @@ impl IconShape for BsSendSlashFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkDiffFill;
 impl IconShape for BsFileEarmarkDiffFill {
     fn view_box(&self) -> String {
@@ -17881,6 +18843,7 @@ impl IconShape for BsFileEarmarkDiffFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExclamationOctagonFill;
 impl IconShape for BsExclamationOctagonFill {
     fn view_box(&self) -> String {
@@ -17898,6 +18861,7 @@ impl IconShape for BsExclamationOctagonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMask;
 impl IconShape for BsMask {
     fn view_box(&self) -> String {
@@ -17915,6 +18879,7 @@ impl IconShape for BsMask {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCardList;
 impl IconShape for BsCardList {
     fn view_box(&self) -> String {
@@ -17935,6 +18900,7 @@ impl IconShape for BsCardList {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPeace;
 impl IconShape for BsPeace {
     fn view_box(&self) -> String {
@@ -17952,6 +18918,7 @@ impl IconShape for BsPeace {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPercent;
 impl IconShape for BsPercent {
     fn view_box(&self) -> String {
@@ -17969,6 +18936,7 @@ impl IconShape for BsPercent {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSaveFill;
 impl IconShape for BsSaveFill {
     fn view_box(&self) -> String {
@@ -17986,6 +18954,7 @@ impl IconShape for BsSaveFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSuitHeart;
 impl IconShape for BsSuitHeart {
     fn view_box(&self) -> String {
@@ -18003,6 +18972,7 @@ impl IconShape for BsSuitHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSquare;
 impl IconShape for BsSquare {
     fn view_box(&self) -> String {
@@ -18020,6 +18990,7 @@ impl IconShape for BsSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAppIndicator;
 impl IconShape for BsAppIndicator {
     fn view_box(&self) -> String {
@@ -18040,6 +19011,7 @@ impl IconShape for BsAppIndicator {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMoonFill;
 impl IconShape for BsMoonFill {
     fn view_box(&self) -> String {
@@ -18057,6 +19029,7 @@ impl IconShape for BsMoonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPauseBtnFill;
 impl IconShape for BsPauseBtnFill {
     fn view_box(&self) -> String {
@@ -18074,6 +19047,7 @@ impl IconShape for BsPauseBtnFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEyeSlash;
 impl IconShape for BsEyeSlash {
     fn view_box(&self) -> String {
@@ -18097,6 +19071,7 @@ impl IconShape for BsEyeSlash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlay;
 impl IconShape for BsPlay {
     fn view_box(&self) -> String {
@@ -18114,6 +19089,7 @@ impl IconShape for BsPlay {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCapslock;
 impl IconShape for BsCapslock {
     fn view_box(&self) -> String {
@@ -18132,6 +19108,7 @@ impl IconShape for BsCapslock {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudFog2Fill;
 impl IconShape for BsCloudFog2Fill {
     fn view_box(&self) -> String {
@@ -18149,6 +19126,7 @@ impl IconShape for BsCloudFog2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeWoff;
 impl IconShape for BsFiletypeWoff {
     fn view_box(&self) -> String {
@@ -18167,6 +19145,7 @@ impl IconShape for BsFiletypeWoff {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeExe;
 impl IconShape for BsFiletypeExe {
     fn view_box(&self) -> String {
@@ -18185,6 +19164,7 @@ impl IconShape for BsFiletypeExe {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChat;
 impl IconShape for BsChat {
     fn view_box(&self) -> String {
@@ -18202,6 +19182,7 @@ impl IconShape for BsChat {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPaypal;
 impl IconShape for BsPaypal {
     fn view_box(&self) -> String {
@@ -18219,6 +19200,7 @@ impl IconShape for BsPaypal {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowRepeat;
 impl IconShape for BsArrowRepeat {
     fn view_box(&self) -> String {
@@ -18240,6 +19222,7 @@ impl IconShape for BsArrowRepeat {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCartFill;
 impl IconShape for BsCartFill {
     fn view_box(&self) -> String {
@@ -18257,6 +19240,7 @@ impl IconShape for BsCartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSendPlusFill;
 impl IconShape for BsSendPlusFill {
     fn view_box(&self) -> String {
@@ -18277,6 +19261,7 @@ impl IconShape for BsSendPlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileCheck;
 impl IconShape for BsFileCheck {
     fn view_box(&self) -> String {
@@ -18297,6 +19282,7 @@ impl IconShape for BsFileCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiSmile;
 impl IconShape for BsEmojiSmile {
     fn view_box(&self) -> String {
@@ -18317,6 +19303,7 @@ impl IconShape for BsEmojiSmile {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypePng;
 impl IconShape for BsFiletypePng {
     fn view_box(&self) -> String {
@@ -18335,6 +19322,7 @@ impl IconShape for BsFiletypePng {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeartFill;
 impl IconShape for BsHeartFill {
     fn view_box(&self) -> String {
@@ -18353,6 +19341,7 @@ impl IconShape for BsHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCoin;
 impl IconShape for BsCoin {
     fn view_box(&self) -> String {
@@ -18376,6 +19365,7 @@ impl IconShape for BsCoin {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBagX;
 impl IconShape for BsBagX {
     fn view_box(&self) -> String {
@@ -18397,6 +19387,7 @@ impl IconShape for BsBagX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPip;
 impl IconShape for BsPip {
     fn view_box(&self) -> String {
@@ -18417,6 +19408,7 @@ impl IconShape for BsPip {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowsCollapse;
 impl IconShape for BsArrowsCollapse {
     fn view_box(&self) -> String {
@@ -18435,6 +19427,7 @@ impl IconShape for BsArrowsCollapse {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkRichtext;
 impl IconShape for BsFileEarmarkRichtext {
     fn view_box(&self) -> String {
@@ -18455,6 +19448,7 @@ impl IconShape for BsFileEarmarkRichtext {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2Data;
 impl IconShape for BsClipboard2Data {
     fn view_box(&self) -> String {
@@ -18478,6 +19472,7 @@ impl IconShape for BsClipboard2Data {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDashCircleFill;
 impl IconShape for BsDashCircleFill {
     fn view_box(&self) -> String {
@@ -18495,6 +19490,7 @@ impl IconShape for BsDashCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStickies;
 impl IconShape for BsStickies {
     fn view_box(&self) -> String {
@@ -18515,6 +19511,7 @@ impl IconShape for BsStickies {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUsbMini;
 impl IconShape for BsUsbMini {
     fn view_box(&self) -> String {
@@ -18535,6 +19532,7 @@ impl IconShape for BsUsbMini {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTable;
 impl IconShape for BsTable {
     fn view_box(&self) -> String {
@@ -18552,6 +19550,7 @@ impl IconShape for BsTable {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDoorOpenFill;
 impl IconShape for BsDoorOpenFill {
     fn view_box(&self) -> String {
@@ -18569,6 +19568,7 @@ impl IconShape for BsDoorOpenFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSend;
 impl IconShape for BsSend {
     fn view_box(&self) -> String {
@@ -18586,6 +19586,7 @@ impl IconShape for BsSend {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpRightCircleFill;
 impl IconShape for BsArrowUpRightCircleFill {
     fn view_box(&self) -> String {
@@ -18603,6 +19604,7 @@ impl IconShape for BsArrowUpRightCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2X;
 impl IconShape for BsClipboard2X {
     fn view_box(&self) -> String {
@@ -18626,6 +19628,7 @@ impl IconShape for BsClipboard2X {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2XFill;
 impl IconShape for BsClipboard2XFill {
     fn view_box(&self) -> String {
@@ -18646,6 +19649,7 @@ impl IconShape for BsClipboard2XFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarkHeartFill;
 impl IconShape for BsBookmarkHeartFill {
     fn view_box(&self) -> String {
@@ -18663,6 +19667,7 @@ impl IconShape for BsBookmarkHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournalArrowDown;
 impl IconShape for BsJournalArrowDown {
     fn view_box(&self) -> String {
@@ -18687,6 +19692,7 @@ impl IconShape for BsJournalArrowDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarPlusFill;
 impl IconShape for BsCalendarPlusFill {
     fn view_box(&self) -> String {
@@ -18704,6 +19710,7 @@ impl IconShape for BsCalendarPlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPhoneVibrate;
 impl IconShape for BsPhoneVibrate {
     fn view_box(&self) -> String {
@@ -18724,6 +19731,7 @@ impl IconShape for BsPhoneVibrate {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStoplights;
 impl IconShape for BsStoplights {
     fn view_box(&self) -> String {
@@ -18744,6 +19752,7 @@ impl IconShape for BsStoplights {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsReception0;
 impl IconShape for BsReception0 {
     fn view_box(&self) -> String {
@@ -18761,6 +19770,7 @@ impl IconShape for BsReception0 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2Day;
 impl IconShape for BsCalendar2Day {
     fn view_box(&self) -> String {
@@ -18784,6 +19794,7 @@ impl IconShape for BsCalendar2Day {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpSquareFill;
 impl IconShape for BsArrowUpSquareFill {
     fn view_box(&self) -> String {
@@ -18801,6 +19812,7 @@ impl IconShape for BsArrowUpSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlaystation;
 impl IconShape for BsPlaystation {
     fn view_box(&self) -> String {
@@ -18818,6 +19830,7 @@ impl IconShape for BsPlaystation {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSpeaker;
 impl IconShape for BsSpeaker {
     fn view_box(&self) -> String {
@@ -18838,6 +19851,7 @@ impl IconShape for BsSpeaker {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPinMapFill;
 impl IconShape for BsPinMapFill {
     fn view_box(&self) -> String {
@@ -18860,6 +19874,7 @@ impl IconShape for BsPinMapFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipBackwardFill;
 impl IconShape for BsSkipBackwardFill {
     fn view_box(&self) -> String {
@@ -18877,6 +19892,7 @@ impl IconShape for BsSkipBackwardFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFacebook;
 impl IconShape for BsFacebook {
     fn view_box(&self) -> String {
@@ -18894,6 +19910,7 @@ impl IconShape for BsFacebook {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBucketFill;
 impl IconShape for BsBucketFill {
     fn view_box(&self) -> String {
@@ -18911,6 +19928,7 @@ impl IconShape for BsBucketFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownRightSquare;
 impl IconShape for BsArrowDownRightSquare {
     fn view_box(&self) -> String {
@@ -18929,6 +19947,7 @@ impl IconShape for BsArrowDownRightSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsKeyboardFill;
 impl IconShape for BsKeyboardFill {
     fn view_box(&self) -> String {
@@ -18946,6 +19965,7 @@ impl IconShape for BsKeyboardFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar4;
 impl IconShape for BsCalendar4 {
     fn view_box(&self) -> String {
@@ -18963,6 +19983,7 @@ impl IconShape for BsCalendar4 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar3WeekFill;
 impl IconShape for BsCalendar3WeekFill {
     fn view_box(&self) -> String {
@@ -18981,6 +20002,7 @@ impl IconShape for BsCalendar3WeekFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCurrencyExchange;
 impl IconShape for BsCurrencyExchange {
     fn view_box(&self) -> String {
@@ -18998,6 +20020,7 @@ impl IconShape for BsCurrencyExchange {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkWordFill;
 impl IconShape for BsFileEarmarkWordFill {
     fn view_box(&self) -> String {
@@ -19015,6 +20038,7 @@ impl IconShape for BsFileEarmarkWordFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeAac;
 impl IconShape for BsFiletypeAac {
     fn view_box(&self) -> String {
@@ -19033,6 +20057,7 @@ impl IconShape for BsFiletypeAac {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSendPlus;
 impl IconShape for BsSendPlus {
     fn view_box(&self) -> String {
@@ -19053,6 +20078,7 @@ impl IconShape for BsSendPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLightbulbOffFill;
 impl IconShape for BsLightbulbOffFill {
     fn view_box(&self) -> String {
@@ -19070,6 +20096,7 @@ impl IconShape for BsLightbulbOffFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeHdFill;
 impl IconShape for BsBadgeHdFill {
     fn view_box(&self) -> String {
@@ -19090,6 +20117,7 @@ impl IconShape for BsBadgeHdFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsNintendoSwitch;
 impl IconShape for BsNintendoSwitch {
     fn view_box(&self) -> String {
@@ -19110,6 +20138,7 @@ impl IconShape for BsNintendoSwitch {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCamera;
 impl IconShape for BsCamera {
     fn view_box(&self) -> String {
@@ -19130,6 +20159,7 @@ impl IconShape for BsCamera {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayoutSplit;
 impl IconShape for BsLayoutSplit {
     fn view_box(&self) -> String {
@@ -19147,6 +20177,7 @@ impl IconShape for BsLayoutSplit {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPrinter;
 impl IconShape for BsPrinter {
     fn view_box(&self) -> String {
@@ -19167,6 +20198,7 @@ impl IconShape for BsPrinter {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrow90degRight;
 impl IconShape for BsArrow90degRight {
     fn view_box(&self) -> String {
@@ -19185,6 +20217,7 @@ impl IconShape for BsArrow90degRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSendDash;
 impl IconShape for BsSendDash {
     fn view_box(&self) -> String {
@@ -19205,6 +20238,7 @@ impl IconShape for BsSendDash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSmartwatch;
 impl IconShape for BsSmartwatch {
     fn view_box(&self) -> String {
@@ -19225,6 +20259,7 @@ impl IconShape for BsSmartwatch {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMagic;
 impl IconShape for BsMagic {
     fn view_box(&self) -> String {
@@ -19242,6 +20277,7 @@ impl IconShape for BsMagic {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBorderStyle;
 impl IconShape for BsBorderStyle {
     fn view_box(&self) -> String {
@@ -19259,6 +20295,7 @@ impl IconShape for BsBorderStyle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBorderTop;
 impl IconShape for BsBorderTop {
     fn view_box(&self) -> String {
@@ -19276,6 +20313,7 @@ impl IconShape for BsBorderTop {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBagFill;
 impl IconShape for BsBagFill {
     fn view_box(&self) -> String {
@@ -19293,6 +20331,7 @@ impl IconShape for BsBagFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonFill;
 impl IconShape for BsPersonFill {
     fn view_box(&self) -> String {
@@ -19310,6 +20349,7 @@ impl IconShape for BsPersonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExclude;
 impl IconShape for BsExclude {
     fn view_box(&self) -> String {
@@ -19327,6 +20367,7 @@ impl IconShape for BsExclude {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFolderMinus;
 impl IconShape for BsFolderMinus {
     fn view_box(&self) -> String {
@@ -19347,6 +20388,7 @@ impl IconShape for BsFolderMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHddRack;
 impl IconShape for BsHddRack {
     fn view_box(&self) -> String {
@@ -19367,6 +20409,7 @@ impl IconShape for BsHddRack {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowLeft;
 impl IconShape for BsBoxArrowLeft {
     fn view_box(&self) -> String {
@@ -19389,6 +20432,7 @@ impl IconShape for BsBoxArrowLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpRight;
 impl IconShape for BsArrowUpRight {
     fn view_box(&self) -> String {
@@ -19407,6 +20451,7 @@ impl IconShape for BsArrowUpRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTriangleFill;
 impl IconShape for BsTriangleFill {
     fn view_box(&self) -> String {
@@ -19425,6 +20470,7 @@ impl IconShape for BsTriangleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPinterest;
 impl IconShape for BsPinterest {
     fn view_box(&self) -> String {
@@ -19442,6 +20488,7 @@ impl IconShape for BsPinterest {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTruck;
 impl IconShape for BsTruck {
     fn view_box(&self) -> String {
@@ -19459,6 +20506,7 @@ impl IconShape for BsTruck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStars;
 impl IconShape for BsStars {
     fn view_box(&self) -> String {
@@ -19476,6 +20524,7 @@ impl IconShape for BsStars {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDisplayFill;
 impl IconShape for BsDisplayFill {
     fn view_box(&self) -> String {
@@ -19493,6 +20542,7 @@ impl IconShape for BsDisplayFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUnion;
 impl IconShape for BsUnion {
     fn view_box(&self) -> String {
@@ -19510,6 +20560,7 @@ impl IconShape for BsUnion {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2DateFill;
 impl IconShape for BsCalendar2DateFill {
     fn view_box(&self) -> String {
@@ -19530,6 +20581,7 @@ impl IconShape for BsCalendar2DateFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSunriseFill;
 impl IconShape for BsSunriseFill {
     fn view_box(&self) -> String {
@@ -19547,6 +20599,7 @@ impl IconShape for BsSunriseFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStackOverflow;
 impl IconShape for BsStackOverflow {
     fn view_box(&self) -> String {
@@ -19567,6 +20620,7 @@ impl IconShape for BsStackOverflow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHddFill;
 impl IconShape for BsHddFill {
     fn view_box(&self) -> String {
@@ -19584,6 +20638,7 @@ impl IconShape for BsHddFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatRightFill;
 impl IconShape for BsChatRightFill {
     fn view_box(&self) -> String {
@@ -19601,6 +20656,7 @@ impl IconShape for BsChatRightFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowRightCircleFill;
 impl IconShape for BsArrowRightCircleFill {
     fn view_box(&self) -> String {
@@ -19618,6 +20674,7 @@ impl IconShape for BsArrowRightCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUsbFill;
 impl IconShape for BsUsbFill {
     fn view_box(&self) -> String {
@@ -19635,6 +20692,7 @@ impl IconShape for BsUsbFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCreditCard2Front;
 impl IconShape for BsCreditCard2Front {
     fn view_box(&self) -> String {
@@ -19655,6 +20713,7 @@ impl IconShape for BsCreditCard2Front {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsReception4;
 impl IconShape for BsReception4 {
     fn view_box(&self) -> String {
@@ -19672,6 +20731,7 @@ impl IconShape for BsReception4 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLink45deg;
 impl IconShape for BsLink45deg {
     fn view_box(&self) -> String {
@@ -19692,6 +20752,7 @@ impl IconShape for BsLink45deg {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeMov;
 impl IconShape for BsFiletypeMov {
     fn view_box(&self) -> String {
@@ -19710,6 +20771,7 @@ impl IconShape for BsFiletypeMov {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWhatsapp;
 impl IconShape for BsWhatsapp {
     fn view_box(&self) -> String {
@@ -19727,6 +20789,7 @@ impl IconShape for BsWhatsapp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownRightSquareFill;
 impl IconShape for BsArrowDownRightSquareFill {
     fn view_box(&self) -> String {
@@ -19744,6 +20807,7 @@ impl IconShape for BsArrowDownRightSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGoogle;
 impl IconShape for BsGoogle {
     fn view_box(&self) -> String {
@@ -19761,6 +20825,7 @@ impl IconShape for BsGoogle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVinyl;
 impl IconShape for BsVinyl {
     fn view_box(&self) -> String {
@@ -19784,6 +20849,7 @@ impl IconShape for BsVinyl {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBarChartLineFill;
 impl IconShape for BsBarChartLineFill {
     fn view_box(&self) -> String {
@@ -19801,6 +20867,7 @@ impl IconShape for BsBarChartLineFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSymmetryHorizontal;
 impl IconShape for BsSymmetryHorizontal {
     fn view_box(&self) -> String {
@@ -19818,6 +20885,7 @@ impl IconShape for BsSymmetryHorizontal {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBackspaceReverse;
 impl IconShape for BsBackspaceReverse {
     fn view_box(&self) -> String {
@@ -19838,6 +20906,7 @@ impl IconShape for BsBackspaceReverse {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBucket;
 impl IconShape for BsBucket {
     fn view_box(&self) -> String {
@@ -19855,6 +20924,7 @@ impl IconShape for BsBucket {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLine;
 impl IconShape for BsLine {
     fn view_box(&self) -> String {
@@ -19872,6 +20942,7 @@ impl IconShape for BsLine {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQuestionOctagonFill;
 impl IconShape for BsQuestionOctagonFill {
     fn view_box(&self) -> String {
@@ -19889,6 +20960,7 @@ impl IconShape for BsQuestionOctagonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVectorPen;
 impl IconShape for BsVectorPen {
     fn view_box(&self) -> String {
@@ -19911,6 +20983,7 @@ impl IconShape for BsVectorPen {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEgg;
 impl IconShape for BsEgg {
     fn view_box(&self) -> String {
@@ -19928,6 +21001,7 @@ impl IconShape for BsEgg {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSpellcheck;
 impl IconShape for BsSpellcheck {
     fn view_box(&self) -> String {
@@ -19948,6 +21022,7 @@ impl IconShape for BsSpellcheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarkStarFill;
 impl IconShape for BsBookmarkStarFill {
     fn view_box(&self) -> String {
@@ -19966,6 +21041,7 @@ impl IconShape for BsBookmarkStarFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilePlayFill;
 impl IconShape for BsFilePlayFill {
     fn view_box(&self) -> String {
@@ -19983,6 +21059,7 @@ impl IconShape for BsFilePlayFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQuestionDiamondFill;
 impl IconShape for BsQuestionDiamondFill {
     fn view_box(&self) -> String {
@@ -20000,6 +21077,7 @@ impl IconShape for BsQuestionDiamondFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldFill;
 impl IconShape for BsShieldFill {
     fn view_box(&self) -> String {
@@ -20017,6 +21095,7 @@ impl IconShape for BsShieldFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkCheck;
 impl IconShape for BsFileEarmarkCheck {
     fn view_box(&self) -> String {
@@ -20037,6 +21116,7 @@ impl IconShape for BsFileEarmarkCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBullseye;
 impl IconShape for BsBullseye {
     fn view_box(&self) -> String {
@@ -20063,6 +21143,7 @@ impl IconShape for BsBullseye {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMinecartLoaded;
 impl IconShape for BsMinecartLoaded {
     fn view_box(&self) -> String {
@@ -20084,6 +21165,7 @@ impl IconShape for BsMinecartLoaded {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudMinus;
 impl IconShape for BsCloudMinus {
     fn view_box(&self) -> String {
@@ -20104,6 +21186,7 @@ impl IconShape for BsCloudMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTabletLandscape;
 impl IconShape for BsTabletLandscape {
     fn view_box(&self) -> String {
@@ -20124,6 +21207,7 @@ impl IconShape for BsTabletLandscape {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExclamationCircle;
 impl IconShape for BsExclamationCircle {
     fn view_box(&self) -> String {
@@ -20144,6 +21228,7 @@ impl IconShape for BsExclamationCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonRolodex;
 impl IconShape for BsPersonRolodex {
     fn view_box(&self) -> String {
@@ -20164,6 +21249,7 @@ impl IconShape for BsPersonRolodex {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsIntersect;
 impl IconShape for BsIntersect {
     fn view_box(&self) -> String {
@@ -20181,6 +21267,7 @@ impl IconShape for BsIntersect {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPcDisplayHorizontal;
 impl IconShape for BsPcDisplayHorizontal {
     fn view_box(&self) -> String {
@@ -20198,6 +21285,7 @@ impl IconShape for BsPcDisplayHorizontal {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiWinkFill;
 impl IconShape for BsEmojiWinkFill {
     fn view_box(&self) -> String {
@@ -20215,6 +21303,7 @@ impl IconShape for BsEmojiWinkFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTextIndentLeft;
 impl IconShape for BsTextIndentLeft {
     fn view_box(&self) -> String {
@@ -20232,6 +21321,7 @@ impl IconShape for BsTextIndentLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBagHeart;
 impl IconShape for BsBagHeart {
     fn view_box(&self) -> String {
@@ -20250,6 +21340,7 @@ impl IconShape for BsBagHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInfinity;
 impl IconShape for BsInfinity {
     fn view_box(&self) -> String {
@@ -20267,6 +21358,7 @@ impl IconShape for BsInfinity {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCurrencyEuro;
 impl IconShape for BsCurrencyEuro {
     fn view_box(&self) -> String {
@@ -20284,6 +21376,7 @@ impl IconShape for BsCurrencyEuro {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournalText;
 impl IconShape for BsJournalText {
     fn view_box(&self) -> String {
@@ -20307,6 +21400,7 @@ impl IconShape for BsJournalText {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGem;
 impl IconShape for BsGem {
     fn view_box(&self) -> String {
@@ -20324,6 +21418,7 @@ impl IconShape for BsGem {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHandIndex;
 impl IconShape for BsHandIndex {
     fn view_box(&self) -> String {
@@ -20341,6 +21436,7 @@ impl IconShape for BsHandIndex {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowsExpand;
 impl IconShape for BsArrowsExpand {
     fn view_box(&self) -> String {
@@ -20359,6 +21455,7 @@ impl IconShape for BsArrowsExpand {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTrash;
 impl IconShape for BsTrash {
     fn view_box(&self) -> String {
@@ -20380,6 +21477,7 @@ impl IconShape for BsTrash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowInRight;
 impl IconShape for BsBoxArrowInRight {
     fn view_box(&self) -> String {
@@ -20402,6 +21500,7 @@ impl IconShape for BsBoxArrowInRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLifePreserver;
 impl IconShape for BsLifePreserver {
     fn view_box(&self) -> String {
@@ -20419,6 +21518,7 @@ impl IconShape for BsLifePreserver {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiHeartEyes;
 impl IconShape for BsEmojiHeartEyes {
     fn view_box(&self) -> String {
@@ -20439,6 +21539,7 @@ impl IconShape for BsEmojiHeartEyes {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayoutTextSidebar;
 impl IconShape for BsLayoutTextSidebar {
     fn view_box(&self) -> String {
@@ -20459,6 +21560,7 @@ impl IconShape for BsLayoutTextSidebar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWifiOff;
 impl IconShape for BsWifiOff {
     fn view_box(&self) -> String {
@@ -20476,6 +21578,7 @@ impl IconShape for BsWifiOff {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretRightFill;
 impl IconShape for BsCaretRightFill {
     fn view_box(&self) -> String {
@@ -20493,6 +21596,7 @@ impl IconShape for BsCaretRightFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardDataFill;
 impl IconShape for BsClipboardDataFill {
     fn view_box(&self) -> String {
@@ -20513,6 +21617,7 @@ impl IconShape for BsClipboardDataFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayersHalf;
 impl IconShape for BsLayersHalf {
     fn view_box(&self) -> String {
@@ -20530,6 +21635,7 @@ impl IconShape for BsLayersHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudRainHeavyFill;
 impl IconShape for BsCloudRainHeavyFill {
     fn view_box(&self) -> String {
@@ -20547,6 +21653,7 @@ impl IconShape for BsCloudRainHeavyFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRecordCircle;
 impl IconShape for BsRecordCircle {
     fn view_box(&self) -> String {
@@ -20567,6 +21674,7 @@ impl IconShape for BsRecordCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar3Event;
 impl IconShape for BsCalendar3Event {
     fn view_box(&self) -> String {
@@ -20587,6 +21695,7 @@ impl IconShape for BsCalendar3Event {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsListColumns;
 impl IconShape for BsListColumns {
     fn view_box(&self) -> String {
@@ -20605,6 +21714,7 @@ impl IconShape for BsListColumns {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipBackwardBtn;
 impl IconShape for BsSkipBackwardBtn {
     fn view_box(&self) -> String {
@@ -20625,6 +21735,7 @@ impl IconShape for BsSkipBackwardBtn {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBalloonHeartFill;
 impl IconShape for BsBalloonHeartFill {
     fn view_box(&self) -> String {
@@ -20643,6 +21754,7 @@ impl IconShape for BsBalloonHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatSquareHeartFill;
 impl IconShape for BsChatSquareHeartFill {
     fn view_box(&self) -> String {
@@ -20660,6 +21772,7 @@ impl IconShape for BsChatSquareHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileLock2;
 impl IconShape for BsFileLock2 {
     fn view_box(&self) -> String {
@@ -20680,6 +21793,7 @@ impl IconShape for BsFileLock2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLockFill;
 impl IconShape for BsLockFill {
     fn view_box(&self) -> String {
@@ -20697,6 +21811,7 @@ impl IconShape for BsLockFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlayBtn;
 impl IconShape for BsPlayBtn {
     fn view_box(&self) -> String {
@@ -20717,6 +21832,7 @@ impl IconShape for BsPlayBtn {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMemory;
 impl IconShape for BsMemory {
     fn view_box(&self) -> String {
@@ -20734,6 +21850,7 @@ impl IconShape for BsMemory {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephone;
 impl IconShape for BsTelephone {
     fn view_box(&self) -> String {
@@ -20751,6 +21868,7 @@ impl IconShape for BsTelephone {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPostcardHeartFill;
 impl IconShape for BsPostcardHeartFill {
     fn view_box(&self) -> String {
@@ -20769,6 +21887,7 @@ impl IconShape for BsPostcardHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBrightnessLowFill;
 impl IconShape for BsBrightnessLowFill {
     fn view_box(&self) -> String {
@@ -20786,6 +21905,7 @@ impl IconShape for BsBrightnessLowFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipForwardCircle;
 impl IconShape for BsSkipForwardCircle {
     fn view_box(&self) -> String {
@@ -20806,6 +21926,7 @@ impl IconShape for BsSkipForwardCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsXCircleFill;
 impl IconShape for BsXCircleFill {
     fn view_box(&self) -> String {
@@ -20823,6 +21944,7 @@ impl IconShape for BsXCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVolumeUp;
 impl IconShape for BsVolumeUp {
     fn view_box(&self) -> String {
@@ -20846,6 +21968,7 @@ impl IconShape for BsVolumeUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFolderSymlinkFill;
 impl IconShape for BsFolderSymlinkFill {
     fn view_box(&self) -> String {
@@ -20863,6 +21986,7 @@ impl IconShape for BsFolderSymlinkFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardData;
 impl IconShape for BsClipboardData {
     fn view_box(&self) -> String {
@@ -20886,6 +22010,7 @@ impl IconShape for BsClipboardData {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVr;
 impl IconShape for BsVr {
     fn view_box(&self) -> String {
@@ -20903,6 +22028,7 @@ impl IconShape for BsVr {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPhoneFill;
 impl IconShape for BsPhoneFill {
     fn view_box(&self) -> String {
@@ -20920,6 +22046,7 @@ impl IconShape for BsPhoneFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStar;
 impl IconShape for BsStar {
     fn view_box(&self) -> String {
@@ -20937,6 +22064,7 @@ impl IconShape for BsStar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlusSlashMinus;
 impl IconShape for BsPlusSlashMinus {
     fn view_box(&self) -> String {
@@ -20954,6 +22082,7 @@ impl IconShape for BsPlusSlashMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCollectionPlay;
 impl IconShape for BsCollectionPlay {
     fn view_box(&self) -> String {
@@ -20974,6 +22103,7 @@ impl IconShape for BsCollectionPlay {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardMinusFill;
 impl IconShape for BsClipboardMinusFill {
     fn view_box(&self) -> String {
@@ -20994,6 +22124,7 @@ impl IconShape for BsClipboardMinusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonCheck;
 impl IconShape for BsPersonCheck {
     fn view_box(&self) -> String {
@@ -21015,6 +22146,7 @@ impl IconShape for BsPersonCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretRightSquareFill;
 impl IconShape for BsCaretRightSquareFill {
     fn view_box(&self) -> String {
@@ -21032,6 +22164,7 @@ impl IconShape for BsCaretRightSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGeoFill;
 impl IconShape for BsGeoFill {
     fn view_box(&self) -> String {
@@ -21050,6 +22183,7 @@ impl IconShape for BsGeoFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSun;
 impl IconShape for BsSun {
     fn view_box(&self) -> String {
@@ -21067,6 +22201,7 @@ impl IconShape for BsSun {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWrench;
 impl IconShape for BsWrench {
     fn view_box(&self) -> String {
@@ -21084,6 +22219,7 @@ impl IconShape for BsWrench {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronCompactDown;
 impl IconShape for BsChevronCompactDown {
     fn view_box(&self) -> String {
@@ -21102,6 +22238,7 @@ impl IconShape for BsChevronCompactDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGrid1x2;
 impl IconShape for BsGrid1x2 {
     fn view_box(&self) -> String {
@@ -21119,6 +22256,7 @@ impl IconShape for BsGrid1x2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTsunami;
 impl IconShape for BsTsunami {
     fn view_box(&self) -> String {
@@ -21136,6 +22274,7 @@ impl IconShape for BsTsunami {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrow90degLeft;
 impl IconShape for BsArrow90degLeft {
     fn view_box(&self) -> String {
@@ -21154,6 +22293,7 @@ impl IconShape for BsArrow90degLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeDash;
 impl IconShape for BsEnvelopeDash {
     fn view_box(&self) -> String {
@@ -21174,6 +22314,7 @@ impl IconShape for BsEnvelopeDash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUsbMiniFill;
 impl IconShape for BsUsbMiniFill {
     fn view_box(&self) -> String {
@@ -21191,6 +22332,7 @@ impl IconShape for BsUsbMiniFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarkXFill;
 impl IconShape for BsBookmarkXFill {
     fn view_box(&self) -> String {
@@ -21209,6 +22351,7 @@ impl IconShape for BsBookmarkXFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStickiesFill;
 impl IconShape for BsStickiesFill {
     fn view_box(&self) -> String {
@@ -21229,6 +22372,7 @@ impl IconShape for BsStickiesFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClockFill;
 impl IconShape for BsClockFill {
     fn view_box(&self) -> String {
@@ -21246,6 +22390,7 @@ impl IconShape for BsClockFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatRightHeartFill;
 impl IconShape for BsChatRightHeartFill {
     fn view_box(&self) -> String {
@@ -21263,6 +22408,7 @@ impl IconShape for BsChatRightHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowInDown;
 impl IconShape for BsBoxArrowInDown {
     fn view_box(&self) -> String {
@@ -21285,6 +22431,7 @@ impl IconShape for BsBoxArrowInDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMortarboard;
 impl IconShape for BsMortarboard {
     fn view_box(&self) -> String {
@@ -21305,6 +22452,7 @@ impl IconShape for BsMortarboard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTropicalStorm;
 impl IconShape for BsTropicalStorm {
     fn view_box(&self) -> String {
@@ -21325,6 +22473,7 @@ impl IconShape for BsTropicalStorm {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTagFill;
 impl IconShape for BsTagFill {
     fn view_box(&self) -> String {
@@ -21342,6 +22491,7 @@ impl IconShape for BsTagFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSortDownAlt;
 impl IconShape for BsSortDownAlt {
     fn view_box(&self) -> String {
@@ -21359,6 +22509,7 @@ impl IconShape for BsSortDownAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopePlus;
 impl IconShape for BsEnvelopePlus {
     fn view_box(&self) -> String {
@@ -21379,6 +22530,7 @@ impl IconShape for BsEnvelopePlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeartPulseFill;
 impl IconShape for BsHeartPulseFill {
     fn view_box(&self) -> String {
@@ -21397,6 +22549,7 @@ impl IconShape for BsHeartPulseFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCreditCard2FrontFill;
 impl IconShape for BsCreditCard2FrontFill {
     fn view_box(&self) -> String {
@@ -21414,6 +22567,7 @@ impl IconShape for BsCreditCard2FrontFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkRuled;
 impl IconShape for BsFileEarmarkRuled {
     fn view_box(&self) -> String {
@@ -21431,6 +22585,7 @@ impl IconShape for BsFileEarmarkRuled {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGrid3x2;
 impl IconShape for BsGrid3x2 {
     fn view_box(&self) -> String {
@@ -21448,6 +22603,7 @@ impl IconShape for BsGrid3x2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar3;
 impl IconShape for BsCalendar3 {
     fn view_box(&self) -> String {
@@ -21468,6 +22624,7 @@ impl IconShape for BsCalendar3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowLeftSquareFill;
 impl IconShape for BsArrowLeftSquareFill {
     fn view_box(&self) -> String {
@@ -21485,6 +22642,7 @@ impl IconShape for BsArrowLeftSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHammer;
 impl IconShape for BsHammer {
     fn view_box(&self) -> String {
@@ -21502,6 +22660,7 @@ impl IconShape for BsHammer {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMicMute;
 impl IconShape for BsMicMute {
     fn view_box(&self) -> String {
@@ -21522,6 +22681,7 @@ impl IconShape for BsMicMute {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2PlusFill;
 impl IconShape for BsCalendar2PlusFill {
     fn view_box(&self) -> String {
@@ -21539,6 +22699,7 @@ impl IconShape for BsCalendar2PlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeArFill;
 impl IconShape for BsBadgeArFill {
     fn view_box(&self) -> String {
@@ -21559,6 +22720,7 @@ impl IconShape for BsBadgeArFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShiftFill;
 impl IconShape for BsShiftFill {
     fn view_box(&self) -> String {
@@ -21576,6 +22738,7 @@ impl IconShape for BsShiftFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudFill;
 impl IconShape for BsCloudFill {
     fn view_box(&self) -> String {
@@ -21593,6 +22756,7 @@ impl IconShape for BsCloudFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBrightnessHighFill;
 impl IconShape for BsBrightnessHighFill {
     fn view_box(&self) -> String {
@@ -21610,6 +22774,7 @@ impl IconShape for BsBrightnessHighFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTwitch;
 impl IconShape for BsTwitch {
     fn view_box(&self) -> String {
@@ -21630,6 +22795,7 @@ impl IconShape for BsTwitch {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWindows;
 impl IconShape for BsWindows {
     fn view_box(&self) -> String {
@@ -21647,6 +22813,7 @@ impl IconShape for BsWindows {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudArrowDown;
 impl IconShape for BsCloudArrowDown {
     fn view_box(&self) -> String {
@@ -21668,6 +22835,7 @@ impl IconShape for BsCloudArrowDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBasket3;
 impl IconShape for BsBasket3 {
     fn view_box(&self) -> String {
@@ -21685,6 +22853,7 @@ impl IconShape for BsBasket3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWindowSidebar;
 impl IconShape for BsWindowSidebar {
     fn view_box(&self) -> String {
@@ -21705,6 +22874,7 @@ impl IconShape for BsWindowSidebar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCash;
 impl IconShape for BsCash {
     fn view_box(&self) -> String {
@@ -21725,6 +22895,7 @@ impl IconShape for BsCash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeSd;
 impl IconShape for BsBadgeSd {
     fn view_box(&self) -> String {
@@ -21743,6 +22914,7 @@ impl IconShape for BsBadgeSd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipBackward;
 impl IconShape for BsSkipBackward {
     fn view_box(&self) -> String {
@@ -21760,6 +22932,7 @@ impl IconShape for BsSkipBackward {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephoneFill;
 impl IconShape for BsTelephoneFill {
     fn view_box(&self) -> String {
@@ -21778,6 +22951,7 @@ impl IconShape for BsTelephoneFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEaselFill;
 impl IconShape for BsFileEaselFill {
     fn view_box(&self) -> String {
@@ -21798,6 +22972,7 @@ impl IconShape for BsFileEaselFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2Fill;
 impl IconShape for BsClipboard2Fill {
     fn view_box(&self) -> String {
@@ -21818,6 +22993,7 @@ impl IconShape for BsClipboard2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBug;
 impl IconShape for BsBug {
     fn view_box(&self) -> String {
@@ -21835,6 +23011,7 @@ impl IconShape for BsBug {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHandIndexThumb;
 impl IconShape for BsHandIndexThumb {
     fn view_box(&self) -> String {
@@ -21852,6 +23029,7 @@ impl IconShape for BsHandIndexThumb {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldLockFill;
 impl IconShape for BsShieldLockFill {
     fn view_box(&self) -> String {
@@ -21870,6 +23048,7 @@ impl IconShape for BsShieldLockFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileMinusFill;
 impl IconShape for BsFileMinusFill {
     fn view_box(&self) -> String {
@@ -21887,6 +23066,7 @@ impl IconShape for BsFileMinusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWrenchAdjustableCircle;
 impl IconShape for BsWrenchAdjustableCircle {
     fn view_box(&self) -> String {
@@ -21907,6 +23087,7 @@ impl IconShape for BsWrenchAdjustableCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlusCircleFill;
 impl IconShape for BsPlusCircleFill {
     fn view_box(&self) -> String {
@@ -21924,6 +23105,7 @@ impl IconShape for BsPlusCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkSlides;
 impl IconShape for BsFileEarmarkSlides {
     fn view_box(&self) -> String {
@@ -21944,6 +23126,7 @@ impl IconShape for BsFileEarmarkSlides {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeartbreakFill;
 impl IconShape for BsHeartbreakFill {
     fn view_box(&self) -> String {
@@ -21962,6 +23145,7 @@ impl IconShape for BsHeartbreakFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopePaperHeart;
 impl IconShape for BsEnvelopePaperHeart {
     fn view_box(&self) -> String {
@@ -21980,6 +23164,7 @@ impl IconShape for BsEnvelopePaperHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsYoutube;
 impl IconShape for BsYoutube {
     fn view_box(&self) -> String {
@@ -21997,6 +23182,7 @@ impl IconShape for BsYoutube {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBrightnessAltHigh;
 impl IconShape for BsBrightnessAltHigh {
     fn view_box(&self) -> String {
@@ -22014,6 +23200,7 @@ impl IconShape for BsBrightnessAltHigh {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSuitSpadeFill;
 impl IconShape for BsSuitSpadeFill {
     fn view_box(&self) -> String {
@@ -22031,6 +23218,7 @@ impl IconShape for BsSuitSpadeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCollection;
 impl IconShape for BsCollection {
     fn view_box(&self) -> String {
@@ -22048,6 +23236,7 @@ impl IconShape for BsCollection {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHandbagFill;
 impl IconShape for BsHandbagFill {
     fn view_box(&self) -> String {
@@ -22065,6 +23254,7 @@ impl IconShape for BsHandbagFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGeo;
 impl IconShape for BsGeo {
     fn view_box(&self) -> String {
@@ -22083,6 +23273,7 @@ impl IconShape for BsGeo {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeVoFill;
 impl IconShape for BsBadgeVoFill {
     fn view_box(&self) -> String {
@@ -22103,6 +23294,7 @@ impl IconShape for BsBadgeVoFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCollectionPlayFill;
 impl IconShape for BsCollectionPlayFill {
     fn view_box(&self) -> String {
@@ -22120,6 +23312,7 @@ impl IconShape for BsCollectionPlayFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatLeftHeartFill;
 impl IconShape for BsChatLeftHeartFill {
     fn view_box(&self) -> String {
@@ -22137,6 +23330,7 @@ impl IconShape for BsChatLeftHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarkPlus;
 impl IconShape for BsBookmarkPlus {
     fn view_box(&self) -> String {
@@ -22157,6 +23351,7 @@ impl IconShape for BsBookmarkPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUnlock;
 impl IconShape for BsUnlock {
     fn view_box(&self) -> String {
@@ -22174,6 +23369,7 @@ impl IconShape for BsUnlock {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGeoAlt;
 impl IconShape for BsGeoAlt {
     fn view_box(&self) -> String {
@@ -22194,6 +23390,7 @@ impl IconShape for BsGeoAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarkDash;
 impl IconShape for BsBookmarkDash {
     fn view_box(&self) -> String {
@@ -22215,6 +23412,7 @@ impl IconShape for BsBookmarkDash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileArrowDown;
 impl IconShape for BsFileArrowDown {
     fn view_box(&self) -> String {
@@ -22235,6 +23433,7 @@ impl IconShape for BsFileArrowDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBorderLeft;
 impl IconShape for BsBorderLeft {
     fn view_box(&self) -> String {
@@ -22252,6 +23451,7 @@ impl IconShape for BsBorderLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCompass;
 impl IconShape for BsCompass {
     fn view_box(&self) -> String {
@@ -22272,6 +23472,7 @@ impl IconShape for BsCompass {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSunglasses;
 impl IconShape for BsSunglasses {
     fn view_box(&self) -> String {
@@ -22289,6 +23490,7 @@ impl IconShape for BsSunglasses {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarHeartFill;
 impl IconShape for BsCalendarHeartFill {
     fn view_box(&self) -> String {
@@ -22306,6 +23508,7 @@ impl IconShape for BsCalendarHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipStartCircleFill;
 impl IconShape for BsSkipStartCircleFill {
     fn view_box(&self) -> String {
@@ -22323,6 +23526,7 @@ impl IconShape for BsSkipStartCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlusCircle;
 impl IconShape for BsPlusCircle {
     fn view_box(&self) -> String {
@@ -22343,6 +23547,7 @@ impl IconShape for BsPlusCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeMd;
 impl IconShape for BsFiletypeMd {
     fn view_box(&self) -> String {
@@ -22361,6 +23566,7 @@ impl IconShape for BsFiletypeMd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilterSquareFill;
 impl IconShape for BsFilterSquareFill {
     fn view_box(&self) -> String {
@@ -22378,6 +23584,7 @@ impl IconShape for BsFilterSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpRightCircle;
 impl IconShape for BsArrowUpRightCircle {
     fn view_box(&self) -> String {
@@ -22396,6 +23603,7 @@ impl IconShape for BsArrowUpRightCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBasket2;
 impl IconShape for BsBasket2 {
     fn view_box(&self) -> String {
@@ -22416,6 +23624,7 @@ impl IconShape for BsBasket2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCircleSquare;
 impl IconShape for BsCircleSquare {
     fn view_box(&self) -> String {
@@ -22436,6 +23645,7 @@ impl IconShape for BsCircleSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQuestionCircleFill;
 impl IconShape for BsQuestionCircleFill {
     fn view_box(&self) -> String {
@@ -22453,6 +23663,7 @@ impl IconShape for BsQuestionCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeXlsx;
 impl IconShape for BsFiletypeXlsx {
     fn view_box(&self) -> String {
@@ -22471,6 +23682,7 @@ impl IconShape for BsFiletypeXlsx {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHandThumbsUpFill;
 impl IconShape for BsHandThumbsUpFill {
     fn view_box(&self) -> String {
@@ -22488,6 +23700,7 @@ impl IconShape for BsHandThumbsUpFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudArrowUpFill;
 impl IconShape for BsCloudArrowUpFill {
     fn view_box(&self) -> String {
@@ -22505,6 +23718,7 @@ impl IconShape for BsCloudArrowUpFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudMinusFill;
 impl IconShape for BsCloudMinusFill {
     fn view_box(&self) -> String {
@@ -22522,6 +23736,7 @@ impl IconShape for BsCloudMinusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBicycle;
 impl IconShape for BsBicycle {
     fn view_box(&self) -> String {
@@ -22539,6 +23754,7 @@ impl IconShape for BsBicycle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudMoon;
 impl IconShape for BsCloudMoon {
     fn view_box(&self) -> String {
@@ -22559,6 +23775,7 @@ impl IconShape for BsCloudMoon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBank;
 impl IconShape for BsBank {
     fn view_box(&self) -> String {
@@ -22576,6 +23793,7 @@ impl IconShape for BsBank {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCreditCard;
 impl IconShape for BsCreditCard {
     fn view_box(&self) -> String {
@@ -22596,6 +23814,7 @@ impl IconShape for BsCreditCard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2;
 impl IconShape for BsCalendar2 {
     fn view_box(&self) -> String {
@@ -22616,6 +23835,7 @@ impl IconShape for BsCalendar2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowUp;
 impl IconShape for BsBoxArrowUp {
     fn view_box(&self) -> String {
@@ -22638,6 +23858,7 @@ impl IconShape for BsBoxArrowUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGrid3x3;
 impl IconShape for BsGrid3x3 {
     fn view_box(&self) -> String {
@@ -22655,6 +23876,7 @@ impl IconShape for BsGrid3x3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTextarea;
 impl IconShape for BsTextarea {
     fn view_box(&self) -> String {
@@ -22672,6 +23894,7 @@ impl IconShape for BsTextarea {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDice6Fill;
 impl IconShape for BsDice6Fill {
     fn view_box(&self) -> String {
@@ -22689,6 +23912,7 @@ impl IconShape for BsDice6Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlayBtnFill;
 impl IconShape for BsPlayBtnFill {
     fn view_box(&self) -> String {
@@ -22706,6 +23930,7 @@ impl IconShape for BsPlayBtnFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeJpg;
 impl IconShape for BsFiletypeJpg {
     fn view_box(&self) -> String {
@@ -22724,6 +23949,7 @@ impl IconShape for BsFiletypeJpg {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileFontFill;
 impl IconShape for BsFileFontFill {
     fn view_box(&self) -> String {
@@ -22741,6 +23967,7 @@ impl IconShape for BsFileFontFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeartHalf;
 impl IconShape for BsHeartHalf {
     fn view_box(&self) -> String {
@@ -22758,6 +23985,7 @@ impl IconShape for BsHeartHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVinylFill;
 impl IconShape for BsVinylFill {
     fn view_box(&self) -> String {
@@ -22778,6 +24006,7 @@ impl IconShape for BsVinylFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCheck2Circle;
 impl IconShape for BsCheck2Circle {
     fn view_box(&self) -> String {
@@ -22798,6 +24027,7 @@ impl IconShape for BsCheck2Circle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsThermometerSun;
 impl IconShape for BsThermometerSun {
     fn view_box(&self) -> String {
@@ -22818,6 +24048,7 @@ impl IconShape for BsThermometerSun {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEasel3Fill;
 impl IconShape for BsEasel3Fill {
     fn view_box(&self) -> String {
@@ -22835,6 +24066,7 @@ impl IconShape for BsEasel3Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsReplyAll;
 impl IconShape for BsReplyAll {
     fn view_box(&self) -> String {
@@ -22855,6 +24087,7 @@ impl IconShape for BsReplyAll {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEasel2Fill;
 impl IconShape for BsEasel2Fill {
     fn view_box(&self) -> String {
@@ -22876,6 +24109,7 @@ impl IconShape for BsEasel2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPencil;
 impl IconShape for BsPencil {
     fn view_box(&self) -> String {
@@ -22893,6 +24127,7 @@ impl IconShape for BsPencil {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPostageFill;
 impl IconShape for BsPostageFill {
     fn view_box(&self) -> String {
@@ -22913,6 +24148,7 @@ impl IconShape for BsPostageFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSortAlphaDown;
 impl IconShape for BsSortAlphaDown {
     fn view_box(&self) -> String {
@@ -22934,6 +24170,7 @@ impl IconShape for BsSortAlphaDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPostage;
 impl IconShape for BsPostage {
     fn view_box(&self) -> String {
@@ -22954,6 +24191,7 @@ impl IconShape for BsPostage {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPhoneFlip;
 impl IconShape for BsPhoneFlip {
     fn view_box(&self) -> String {
@@ -22972,6 +24210,7 @@ impl IconShape for BsPhoneFlip {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudRain;
 impl IconShape for BsCloudRain {
     fn view_box(&self) -> String {
@@ -22989,6 +24228,7 @@ impl IconShape for BsCloudRain {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTypeStrikethrough;
 impl IconShape for BsTypeStrikethrough {
     fn view_box(&self) -> String {
@@ -23006,6 +24246,7 @@ impl IconShape for BsTypeStrikethrough {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkPost;
 impl IconShape for BsFileEarmarkPost {
     fn view_box(&self) -> String {
@@ -23026,6 +24267,7 @@ impl IconShape for BsFileEarmarkPost {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClockHistory;
 impl IconShape for BsClockHistory {
     fn view_box(&self) -> String {
@@ -23049,6 +24291,7 @@ impl IconShape for BsClockHistory {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTabletLandscapeFill;
 impl IconShape for BsTabletLandscapeFill {
     fn view_box(&self) -> String {
@@ -23066,6 +24309,7 @@ impl IconShape for BsTabletLandscapeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowBarDown;
 impl IconShape for BsArrowBarDown {
     fn view_box(&self) -> String {
@@ -23084,6 +24328,7 @@ impl IconShape for BsArrowBarDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkImageFill;
 impl IconShape for BsFileEarmarkImageFill {
     fn view_box(&self) -> String {
@@ -23104,6 +24349,7 @@ impl IconShape for BsFileEarmarkImageFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTextParagraph;
 impl IconShape for BsTextParagraph {
     fn view_box(&self) -> String {
@@ -23122,6 +24368,7 @@ impl IconShape for BsTextParagraph {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilePlus;
 impl IconShape for BsFilePlus {
     fn view_box(&self) -> String {
@@ -23142,6 +24389,7 @@ impl IconShape for BsFilePlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsKanbanFill;
 impl IconShape for BsKanbanFill {
     fn view_box(&self) -> String {
@@ -23159,6 +24407,7 @@ impl IconShape for BsKanbanFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatDots;
 impl IconShape for BsChatDots {
     fn view_box(&self) -> String {
@@ -23179,6 +24428,7 @@ impl IconShape for BsChatDots {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowRightSquareFill;
 impl IconShape for BsArrowRightSquareFill {
     fn view_box(&self) -> String {
@@ -23196,6 +24446,7 @@ impl IconShape for BsArrowRightSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2RangeFill;
 impl IconShape for BsCalendar2RangeFill {
     fn view_box(&self) -> String {
@@ -23213,6 +24464,7 @@ impl IconShape for BsCalendar2RangeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsProjectorFill;
 impl IconShape for BsProjectorFill {
     fn view_box(&self) -> String {
@@ -23230,6 +24482,7 @@ impl IconShape for BsProjectorFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDiamond;
 impl IconShape for BsDiamond {
     fn view_box(&self) -> String {
@@ -23247,6 +24500,7 @@ impl IconShape for BsDiamond {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCommand;
 impl IconShape for BsCommand {
     fn view_box(&self) -> String {
@@ -23264,6 +24518,7 @@ impl IconShape for BsCommand {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkLock;
 impl IconShape for BsFileEarmarkLock {
     fn view_box(&self) -> String {
@@ -23284,6 +24539,7 @@ impl IconShape for BsFileEarmarkLock {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudRainFill;
 impl IconShape for BsCloudRainFill {
     fn view_box(&self) -> String {
@@ -23301,6 +24557,7 @@ impl IconShape for BsCloudRainFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownRightCircleFill;
 impl IconShape for BsArrowDownRightCircleFill {
     fn view_box(&self) -> String {
@@ -23318,6 +24575,7 @@ impl IconShape for BsArrowDownRightCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipStartBtn;
 impl IconShape for BsSkipStartBtn {
     fn view_box(&self) -> String {
@@ -23338,6 +24596,7 @@ impl IconShape for BsSkipStartBtn {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClock;
 impl IconShape for BsClock {
     fn view_box(&self) -> String {
@@ -23358,6 +24617,7 @@ impl IconShape for BsClock {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowThroughHeart;
 impl IconShape for BsArrowThroughHeart {
     fn view_box(&self) -> String {
@@ -23376,6 +24636,7 @@ impl IconShape for BsArrowThroughHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsReddit;
 impl IconShape for BsReddit {
     fn view_box(&self) -> String {
@@ -23396,6 +24657,7 @@ impl IconShape for BsReddit {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlusLg;
 impl IconShape for BsPlusLg {
     fn view_box(&self) -> String {
@@ -23414,6 +24676,7 @@ impl IconShape for BsPlusLg {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileArrowDownFill;
 impl IconShape for BsFileArrowDownFill {
     fn view_box(&self) -> String {
@@ -23431,6 +24694,7 @@ impl IconShape for BsFileArrowDownFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRouter;
 impl IconShape for BsRouter {
     fn view_box(&self) -> String {
@@ -23457,6 +24721,7 @@ impl IconShape for BsRouter {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGpuCard;
 impl IconShape for BsGpuCard {
     fn view_box(&self) -> String {
@@ -23480,6 +24745,7 @@ impl IconShape for BsGpuCard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUsbCFill;
 impl IconShape for BsUsbCFill {
     fn view_box(&self) -> String {
@@ -23497,6 +24763,7 @@ impl IconShape for BsUsbCFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsOctagon;
 impl IconShape for BsOctagon {
     fn view_box(&self) -> String {
@@ -23514,6 +24781,7 @@ impl IconShape for BsOctagon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMenuApp;
 impl IconShape for BsMenuApp {
     fn view_box(&self) -> String {
@@ -23531,6 +24799,7 @@ impl IconShape for BsMenuApp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBox2Heart;
 impl IconShape for BsBox2Heart {
     fn view_box(&self) -> String {
@@ -23551,6 +24820,7 @@ impl IconShape for BsBox2Heart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPhone;
 impl IconShape for BsPhone {
     fn view_box(&self) -> String {
@@ -23571,6 +24841,7 @@ impl IconShape for BsPhone {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownLeftSquare;
 impl IconShape for BsArrowDownLeftSquare {
     fn view_box(&self) -> String {
@@ -23589,6 +24860,7 @@ impl IconShape for BsArrowDownLeftSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronCompactRight;
 impl IconShape for BsChevronCompactRight {
     fn view_box(&self) -> String {
@@ -23607,6 +24879,7 @@ impl IconShape for BsChevronCompactRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDropletFill;
 impl IconShape for BsDropletFill {
     fn view_box(&self) -> String {
@@ -23624,6 +24897,7 @@ impl IconShape for BsDropletFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSunsetFill;
 impl IconShape for BsSunsetFill {
     fn view_box(&self) -> String {
@@ -23641,6 +24915,7 @@ impl IconShape for BsSunsetFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonVideo2;
 impl IconShape for BsPersonVideo2 {
     fn view_box(&self) -> String {
@@ -23661,6 +24936,7 @@ impl IconShape for BsPersonVideo2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarEventFill;
 impl IconShape for BsCalendarEventFill {
     fn view_box(&self) -> String {
@@ -23678,6 +24954,7 @@ impl IconShape for BsCalendarEventFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeCcFill;
 impl IconShape for BsBadgeCcFill {
     fn view_box(&self) -> String {
@@ -23695,6 +24972,7 @@ impl IconShape for BsBadgeCcFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowLeftSquare;
 impl IconShape for BsArrowLeftSquare {
     fn view_box(&self) -> String {
@@ -23713,6 +24991,7 @@ impl IconShape for BsArrowLeftSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGearFill;
 impl IconShape for BsGearFill {
     fn view_box(&self) -> String {
@@ -23730,6 +25009,7 @@ impl IconShape for BsGearFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar4Event;
 impl IconShape for BsCalendar4Event {
     fn view_box(&self) -> String {
@@ -23750,6 +25030,7 @@ impl IconShape for BsCalendar4Event {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVolumeDownFill;
 impl IconShape for BsVolumeDownFill {
     fn view_box(&self) -> String {
@@ -23767,6 +25048,7 @@ impl IconShape for BsVolumeDownFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowCounterclockwise;
 impl IconShape for BsArrowCounterclockwise {
     fn view_box(&self) -> String {
@@ -23788,6 +25070,7 @@ impl IconShape for BsArrowCounterclockwise {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEye;
 impl IconShape for BsEye {
     fn view_box(&self) -> String {
@@ -23808,6 +25091,7 @@ impl IconShape for BsEye {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEggFill;
 impl IconShape for BsEggFill {
     fn view_box(&self) -> String {
@@ -23825,6 +25109,7 @@ impl IconShape for BsEggFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2DayFill;
 impl IconShape for BsCalendar2DayFill {
     fn view_box(&self) -> String {
@@ -23842,6 +25127,7 @@ impl IconShape for BsCalendar2DayFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRadioactive;
 impl IconShape for BsRadioactive {
     fn view_box(&self) -> String {
@@ -23862,6 +25148,7 @@ impl IconShape for BsRadioactive {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretDownSquareFill;
 impl IconShape for BsCaretDownSquareFill {
     fn view_box(&self) -> String {
@@ -23879,6 +25166,7 @@ impl IconShape for BsCaretDownSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonHearts;
 impl IconShape for BsPersonHearts {
     fn view_box(&self) -> String {
@@ -23897,6 +25185,7 @@ impl IconShape for BsPersonHearts {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowsAngleContract;
 impl IconShape for BsArrowsAngleContract {
     fn view_box(&self) -> String {
@@ -23915,6 +25204,7 @@ impl IconShape for BsArrowsAngleContract {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileBinary;
 impl IconShape for BsFileBinary {
     fn view_box(&self) -> String {
@@ -23935,6 +25225,7 @@ impl IconShape for BsFileBinary {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUiRadiosGrid;
 impl IconShape for BsUiRadiosGrid {
     fn view_box(&self) -> String {
@@ -23952,6 +25243,7 @@ impl IconShape for BsUiRadiosGrid {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopePaperFill;
 impl IconShape for BsEnvelopePaperFill {
     fn view_box(&self) -> String {
@@ -23970,6 +25262,7 @@ impl IconShape for BsEnvelopePaperFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypePhp;
 impl IconShape for BsFiletypePhp {
     fn view_box(&self) -> String {
@@ -23988,6 +25281,7 @@ impl IconShape for BsFiletypePhp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonVideo3;
 impl IconShape for BsPersonVideo3 {
     fn view_box(&self) -> String {
@@ -24008,6 +25302,7 @@ impl IconShape for BsPersonVideo3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsValentine;
 impl IconShape for BsValentine {
     fn view_box(&self) -> String {
@@ -24029,6 +25324,7 @@ impl IconShape for BsValentine {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeVo;
 impl IconShape for BsBadgeVo {
     fn view_box(&self) -> String {
@@ -24049,6 +25345,7 @@ impl IconShape for BsBadgeVo {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsOpticalAudioFill;
 impl IconShape for BsOpticalAudioFill {
     fn view_box(&self) -> String {
@@ -24069,6 +25366,7 @@ impl IconShape for BsOpticalAudioFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkArrowDownFill;
 impl IconShape for BsFileEarmarkArrowDownFill {
     fn view_box(&self) -> String {
@@ -24086,6 +25384,7 @@ impl IconShape for BsFileEarmarkArrowDownFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDeviceSsdFill;
 impl IconShape for BsDeviceSsdFill {
     fn view_box(&self) -> String {
@@ -24106,6 +25405,7 @@ impl IconShape for BsDeviceSsdFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudHazeFill;
 impl IconShape for BsCloudHazeFill {
     fn view_box(&self) -> String {
@@ -24123,6 +25423,7 @@ impl IconShape for BsCloudHazeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCardChecklist;
 impl IconShape for BsCardChecklist {
     fn view_box(&self) -> String {
@@ -24143,6 +25444,7 @@ impl IconShape for BsCardChecklist {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQuestionSquare;
 impl IconShape for BsQuestionSquare {
     fn view_box(&self) -> String {
@@ -24163,6 +25465,7 @@ impl IconShape for BsQuestionSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQuestionLg;
 impl IconShape for BsQuestionLg {
     fn view_box(&self) -> String {
@@ -24181,6 +25484,7 @@ impl IconShape for BsQuestionLg {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMenuButtonWideFill;
 impl IconShape for BsMenuButtonWideFill {
     fn view_box(&self) -> String {
@@ -24198,6 +25502,7 @@ impl IconShape for BsMenuButtonWideFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCashStack;
 impl IconShape for BsCashStack {
     fn view_box(&self) -> String {
@@ -24218,6 +25523,7 @@ impl IconShape for BsCashStack {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDribbble;
 impl IconShape for BsDribbble {
     fn view_box(&self) -> String {
@@ -24236,6 +25542,7 @@ impl IconShape for BsDribbble {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSendSlash;
 impl IconShape for BsSendSlash {
     fn view_box(&self) -> String {
@@ -24256,6 +25563,7 @@ impl IconShape for BsSendSlash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatRightHeart;
 impl IconShape for BsChatRightHeart {
     fn view_box(&self) -> String {
@@ -24276,6 +25584,7 @@ impl IconShape for BsChatRightHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsXSquareFill;
 impl IconShape for BsXSquareFill {
     fn view_box(&self) -> String {
@@ -24293,6 +25602,7 @@ impl IconShape for BsXSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCollectionFill;
 impl IconShape for BsCollectionFill {
     fn view_box(&self) -> String {
@@ -24310,6 +25620,7 @@ impl IconShape for BsCollectionFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBrightnessAltLow;
 impl IconShape for BsBrightnessAltLow {
     fn view_box(&self) -> String {
@@ -24327,6 +25638,7 @@ impl IconShape for BsBrightnessAltLow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGift;
 impl IconShape for BsGift {
     fn view_box(&self) -> String {
@@ -24344,6 +25656,7 @@ impl IconShape for BsGift {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEarFill;
 impl IconShape for BsEarFill {
     fn view_box(&self) -> String {
@@ -24361,6 +25674,7 @@ impl IconShape for BsEarFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarFill;
 impl IconShape for BsCalendarFill {
     fn view_box(&self) -> String {
@@ -24378,6 +25692,7 @@ impl IconShape for BsCalendarFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTrophyFill;
 impl IconShape for BsTrophyFill {
     fn view_box(&self) -> String {
@@ -24395,6 +25710,7 @@ impl IconShape for BsTrophyFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUsbMicroFill;
 impl IconShape for BsUsbMicroFill {
     fn view_box(&self) -> String {
@@ -24412,6 +25728,7 @@ impl IconShape for BsUsbMicroFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypePptx;
 impl IconShape for BsFiletypePptx {
     fn view_box(&self) -> String {
@@ -24430,6 +25747,7 @@ impl IconShape for BsFiletypePptx {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMouseFill;
 impl IconShape for BsMouseFill {
     fn view_box(&self) -> String {
@@ -24447,6 +25765,7 @@ impl IconShape for BsMouseFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeX;
 impl IconShape for BsEnvelopeX {
     fn view_box(&self) -> String {
@@ -24467,6 +25786,7 @@ impl IconShape for BsEnvelopeX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsXbox;
 impl IconShape for BsXbox {
     fn view_box(&self) -> String {
@@ -24484,6 +25804,7 @@ impl IconShape for BsXbox {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileMusic;
 impl IconShape for BsFileMusic {
     fn view_box(&self) -> String {
@@ -24504,6 +25825,7 @@ impl IconShape for BsFileMusic {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarMonthFill;
 impl IconShape for BsCalendarMonthFill {
     fn view_box(&self) -> String {
@@ -24524,6 +25846,7 @@ impl IconShape for BsCalendarMonthFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoundingBoxCircles;
 impl IconShape for BsBoundingBoxCircles {
     fn view_box(&self) -> String {
@@ -24541,6 +25864,7 @@ impl IconShape for BsBoundingBoxCircles {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGraphUp;
 impl IconShape for BsGraphUp {
     fn view_box(&self) -> String {
@@ -24559,6 +25883,7 @@ impl IconShape for BsGraphUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMoisture;
 impl IconShape for BsMoisture {
     fn view_box(&self) -> String {
@@ -24576,6 +25901,7 @@ impl IconShape for BsMoisture {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonXFill;
 impl IconShape for BsPersonXFill {
     fn view_box(&self) -> String {
@@ -24594,6 +25920,7 @@ impl IconShape for BsPersonXFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGrid3x3GapFill;
 impl IconShape for BsGrid3x3GapFill {
     fn view_box(&self) -> String {
@@ -24611,6 +25938,7 @@ impl IconShape for BsGrid3x3GapFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeSlash;
 impl IconShape for BsEnvelopeSlash {
     fn view_box(&self) -> String {
@@ -24631,6 +25959,7 @@ impl IconShape for BsEnvelopeSlash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDashSquare;
 impl IconShape for BsDashSquare {
     fn view_box(&self) -> String {
@@ -24651,6 +25980,7 @@ impl IconShape for BsDashSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsListColumnsReverse;
 impl IconShape for BsListColumnsReverse {
     fn view_box(&self) -> String {
@@ -24669,6 +25999,7 @@ impl IconShape for BsListColumnsReverse {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsThunderbolt;
 impl IconShape for BsThunderbolt {
     fn view_box(&self) -> String {
@@ -24689,6 +26020,7 @@ impl IconShape for BsThunderbolt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonCheckFill;
 impl IconShape for BsPersonCheckFill {
     fn view_box(&self) -> String {
@@ -24710,6 +26042,7 @@ impl IconShape for BsPersonCheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShare;
 impl IconShape for BsShare {
     fn view_box(&self) -> String {
@@ -24727,6 +26060,7 @@ impl IconShape for BsShare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInputCursorText;
 impl IconShape for BsInputCursorText {
     fn view_box(&self) -> String {
@@ -24748,6 +26082,7 @@ impl IconShape for BsInputCursorText {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMusicNoteList;
 impl IconShape for BsMusicNoteList {
     fn view_box(&self) -> String {
@@ -24776,6 +26111,7 @@ impl IconShape for BsMusicNoteList {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeCss;
 impl IconShape for BsFiletypeCss {
     fn view_box(&self) -> String {
@@ -24794,6 +26130,7 @@ impl IconShape for BsFiletypeCss {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTags;
 impl IconShape for BsTags {
     fn view_box(&self) -> String {
@@ -24814,6 +26151,7 @@ impl IconShape for BsTags {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBorderBottom;
 impl IconShape for BsBorderBottom {
     fn view_box(&self) -> String {
@@ -24831,6 +26169,7 @@ impl IconShape for BsBorderBottom {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiLaughing;
 impl IconShape for BsEmojiLaughing {
     fn view_box(&self) -> String {
@@ -24851,6 +26190,7 @@ impl IconShape for BsEmojiLaughing {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUp;
 impl IconShape for BsArrowUp {
     fn view_box(&self) -> String {
@@ -24869,6 +26209,7 @@ impl IconShape for BsArrowUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRecord2Fill;
 impl IconShape for BsRecord2Fill {
     fn view_box(&self) -> String {
@@ -24889,6 +26230,7 @@ impl IconShape for BsRecord2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSticky;
 impl IconShape for BsSticky {
     fn view_box(&self) -> String {
@@ -24906,6 +26248,7 @@ impl IconShape for BsSticky {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkDiff;
 impl IconShape for BsFileEarmarkDiff {
     fn view_box(&self) -> String {
@@ -24926,6 +26269,7 @@ impl IconShape for BsFileEarmarkDiff {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBugFill;
 impl IconShape for BsBugFill {
     fn view_box(&self) -> String {
@@ -24946,6 +26290,7 @@ impl IconShape for BsBugFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLinkedin;
 impl IconShape for BsLinkedin {
     fn view_box(&self) -> String {
@@ -24963,6 +26308,7 @@ impl IconShape for BsLinkedin {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipEndCircle;
 impl IconShape for BsSkipEndCircle {
     fn view_box(&self) -> String {
@@ -24983,6 +26329,7 @@ impl IconShape for BsSkipEndCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeMp3;
 impl IconShape for BsFiletypeMp3 {
     fn view_box(&self) -> String {
@@ -25001,6 +26348,7 @@ impl IconShape for BsFiletypeMp3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBrightnessHigh;
 impl IconShape for BsBrightnessHigh {
     fn view_box(&self) -> String {
@@ -25018,6 +26366,7 @@ impl IconShape for BsBrightnessHigh {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPaletteFill;
 impl IconShape for BsPaletteFill {
     fn view_box(&self) -> String {
@@ -25035,6 +26384,7 @@ impl IconShape for BsPaletteFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWindowDash;
 impl IconShape for BsWindowDash {
     fn view_box(&self) -> String {
@@ -25058,6 +26408,7 @@ impl IconShape for BsWindowDash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSliders2;
 impl IconShape for BsSliders2 {
     fn view_box(&self) -> String {
@@ -25076,6 +26427,7 @@ impl IconShape for BsSliders2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSignpostSplitFill;
 impl IconShape for BsSignpostSplitFill {
     fn view_box(&self) -> String {
@@ -25093,6 +26445,7 @@ impl IconShape for BsSignpostSplitFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsColumnsGap;
 impl IconShape for BsColumnsGap {
     fn view_box(&self) -> String {
@@ -25110,6 +26463,7 @@ impl IconShape for BsColumnsGap {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowLeftCircleFill;
 impl IconShape for BsArrowLeftCircleFill {
     fn view_box(&self) -> String {
@@ -25127,6 +26481,7 @@ impl IconShape for BsArrowLeftCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSymmetryVertical;
 impl IconShape for BsSymmetryVertical {
     fn view_box(&self) -> String {
@@ -25144,6 +26499,7 @@ impl IconShape for BsSymmetryVertical {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarMinus;
 impl IconShape for BsCalendarMinus {
     fn view_box(&self) -> String {
@@ -25164,6 +26520,7 @@ impl IconShape for BsCalendarMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEthernet;
 impl IconShape for BsEthernet {
     fn view_box(&self) -> String {
@@ -25184,6 +26541,7 @@ impl IconShape for BsEthernet {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSlashLg;
 impl IconShape for BsSlashLg {
     fn view_box(&self) -> String {
@@ -25202,6 +26560,7 @@ impl IconShape for BsSlashLg {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDashCircleDotted;
 impl IconShape for BsDashCircleDotted {
     fn view_box(&self) -> String {
@@ -25219,6 +26578,7 @@ impl IconShape for BsDashCircleDotted {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSlashSquare;
 impl IconShape for BsSlashSquare {
     fn view_box(&self) -> String {
@@ -25239,6 +26599,7 @@ impl IconShape for BsSlashSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExplicit;
 impl IconShape for BsExplicit {
     fn view_box(&self) -> String {
@@ -25259,6 +26620,7 @@ impl IconShape for BsExplicit {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWindowPlus;
 impl IconShape for BsWindowPlus {
     fn view_box(&self) -> String {
@@ -25282,6 +26644,7 @@ impl IconShape for BsWindowPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPiggyBankFill;
 impl IconShape for BsPiggyBankFill {
     fn view_box(&self) -> String {
@@ -25299,6 +26662,7 @@ impl IconShape for BsPiggyBankFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStack;
 impl IconShape for BsStack {
     fn view_box(&self) -> String {
@@ -25319,6 +26683,7 @@ impl IconShape for BsStack {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilterSquare;
 impl IconShape for BsFilterSquare {
     fn view_box(&self) -> String {
@@ -25339,6 +26704,7 @@ impl IconShape for BsFilterSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatRightQuote;
 impl IconShape for BsChatRightQuote {
     fn view_box(&self) -> String {
@@ -25359,6 +26725,7 @@ impl IconShape for BsChatRightQuote {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRobot;
 impl IconShape for BsRobot {
     fn view_box(&self) -> String {
@@ -25379,6 +26746,7 @@ impl IconShape for BsRobot {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypePpt;
 impl IconShape for BsFiletypePpt {
     fn view_box(&self) -> String {
@@ -25397,6 +26765,7 @@ impl IconShape for BsFiletypePpt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTree;
 impl IconShape for BsTree {
     fn view_box(&self) -> String {
@@ -25414,6 +26783,7 @@ impl IconShape for BsTree {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsActivity;
 impl IconShape for BsActivity {
     fn view_box(&self) -> String {
@@ -25432,6 +26802,7 @@ impl IconShape for BsActivity {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGenderFemale;
 impl IconShape for BsGenderFemale {
     fn view_box(&self) -> String {
@@ -25450,6 +26821,7 @@ impl IconShape for BsGenderFemale {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTwitter;
 impl IconShape for BsTwitter {
     fn view_box(&self) -> String {
@@ -25467,6 +26839,7 @@ impl IconShape for BsTwitter {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHourglassBottom;
 impl IconShape for BsHourglassBottom {
     fn view_box(&self) -> String {
@@ -25484,6 +26857,7 @@ impl IconShape for BsHourglassBottom {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeJs;
 impl IconShape for BsFiletypeJs {
     fn view_box(&self) -> String {
@@ -25502,6 +26876,7 @@ impl IconShape for BsFiletypeJs {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilter;
 impl IconShape for BsFilter {
     fn view_box(&self) -> String {
@@ -25519,6 +26894,7 @@ impl IconShape for BsFilter {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSnow3;
 impl IconShape for BsSnow3 {
     fn view_box(&self) -> String {
@@ -25539,6 +26915,7 @@ impl IconShape for BsSnow3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPcDisplay;
 impl IconShape for BsPcDisplay {
     fn view_box(&self) -> String {
@@ -25556,6 +26933,7 @@ impl IconShape for BsPcDisplay {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWater;
 impl IconShape for BsWater {
     fn view_box(&self) -> String {
@@ -25573,6 +26951,7 @@ impl IconShape for BsWater {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFlagFill;
 impl IconShape for BsFlagFill {
     fn view_box(&self) -> String {
@@ -25590,6 +26969,7 @@ impl IconShape for BsFlagFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeAd;
 impl IconShape for BsBadgeAd {
     fn view_box(&self) -> String {
@@ -25610,6 +26990,7 @@ impl IconShape for BsBadgeAd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipEnd;
 impl IconShape for BsSkipEnd {
     fn view_box(&self) -> String {
@@ -25627,6 +27008,7 @@ impl IconShape for BsSkipEnd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLightningCharge;
 impl IconShape for BsLightningCharge {
     fn view_box(&self) -> String {
@@ -25644,6 +27026,7 @@ impl IconShape for BsLightningCharge {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileLock2Fill;
 impl IconShape for BsFileLock2Fill {
     fn view_box(&self) -> String {
@@ -25664,6 +27047,7 @@ impl IconShape for BsFileLock2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSignpost2;
 impl IconShape for BsSignpost2 {
     fn view_box(&self) -> String {
@@ -25681,6 +27065,7 @@ impl IconShape for BsSignpost2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLightbulbOff;
 impl IconShape for BsLightbulbOff {
     fn view_box(&self) -> String {
@@ -25699,6 +27084,7 @@ impl IconShape for BsLightbulbOff {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiSunglasses;
 impl IconShape for BsEmojiSunglasses {
     fn view_box(&self) -> String {
@@ -25719,6 +27105,7 @@ impl IconShape for BsEmojiSunglasses {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEraserFill;
 impl IconShape for BsEraserFill {
     fn view_box(&self) -> String {
@@ -25736,6 +27123,7 @@ impl IconShape for BsEraserFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUpc;
 impl IconShape for BsUpc {
     fn view_box(&self) -> String {
@@ -25753,6 +27141,7 @@ impl IconShape for BsUpc {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2Heart;
 impl IconShape for BsClipboard2Heart {
     fn view_box(&self) -> String {
@@ -25776,6 +27165,7 @@ impl IconShape for BsClipboard2Heart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGeoAltFill;
 impl IconShape for BsGeoAltFill {
     fn view_box(&self) -> String {
@@ -25793,6 +27183,7 @@ impl IconShape for BsGeoAltFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournalCheck;
 impl IconShape for BsJournalCheck {
     fn view_box(&self) -> String {
@@ -25817,6 +27208,7 @@ impl IconShape for BsJournalCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkPostFill;
 impl IconShape for BsFileEarmarkPostFill {
     fn view_box(&self) -> String {
@@ -25834,6 +27226,7 @@ impl IconShape for BsFileEarmarkPostFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBellSlash;
 impl IconShape for BsBellSlash {
     fn view_box(&self) -> String {
@@ -25851,6 +27244,7 @@ impl IconShape for BsBellSlash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTrash3;
 impl IconShape for BsTrash3 {
     fn view_box(&self) -> String {
@@ -25868,6 +27262,7 @@ impl IconShape for BsTrash3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDiscord;
 impl IconShape for BsDiscord {
     fn view_box(&self) -> String {
@@ -25885,6 +27280,7 @@ impl IconShape for BsDiscord {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTextLeft;
 impl IconShape for BsTextLeft {
     fn view_box(&self) -> String {
@@ -25903,6 +27299,7 @@ impl IconShape for BsTextLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypePdf;
 impl IconShape for BsFiletypePdf {
     fn view_box(&self) -> String {
@@ -25921,6 +27318,7 @@ impl IconShape for BsFiletypePdf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeRb;
 impl IconShape for BsFiletypeRb {
     fn view_box(&self) -> String {
@@ -25939,6 +27337,7 @@ impl IconShape for BsFiletypeRb {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlusSquareFill;
 impl IconShape for BsPlusSquareFill {
     fn view_box(&self) -> String {
@@ -25956,6 +27355,7 @@ impl IconShape for BsPlusSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar;
 impl IconShape for BsCalendar {
     fn view_box(&self) -> String {
@@ -25973,6 +27373,7 @@ impl IconShape for BsCalendar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatLeftDots;
 impl IconShape for BsChatLeftDots {
     fn view_box(&self) -> String {
@@ -25993,6 +27394,7 @@ impl IconShape for BsChatLeftDots {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBellFill;
 impl IconShape for BsBellFill {
     fn view_box(&self) -> String {
@@ -26010,6 +27412,7 @@ impl IconShape for BsBellFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkMedicalFill;
 impl IconShape for BsFileEarmarkMedicalFill {
     fn view_box(&self) -> String {
@@ -26027,6 +27430,7 @@ impl IconShape for BsFileEarmarkMedicalFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBellSlashFill;
 impl IconShape for BsBellSlashFill {
     fn view_box(&self) -> String {
@@ -26044,6 +27448,7 @@ impl IconShape for BsBellSlashFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretDownFill;
 impl IconShape for BsCaretDownFill {
     fn view_box(&self) -> String {
@@ -26061,6 +27466,7 @@ impl IconShape for BsCaretDownFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTrash2;
 impl IconShape for BsTrash2 {
     fn view_box(&self) -> String {
@@ -26078,6 +27484,7 @@ impl IconShape for BsTrash2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSliders2Vertical;
 impl IconShape for BsSliders2Vertical {
     fn view_box(&self) -> String {
@@ -26096,6 +27503,7 @@ impl IconShape for BsSliders2Vertical {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGlobe;
 impl IconShape for BsGlobe {
     fn view_box(&self) -> String {
@@ -26113,6 +27521,7 @@ impl IconShape for BsGlobe {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowLeft;
 impl IconShape for BsArrowLeft {
     fn view_box(&self) -> String {
@@ -26131,6 +27540,7 @@ impl IconShape for BsArrowLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAlignCenter;
 impl IconShape for BsAlignCenter {
     fn view_box(&self) -> String {
@@ -26148,6 +27558,7 @@ impl IconShape for BsAlignCenter {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadgeAr;
 impl IconShape for BsBadgeAr {
     fn view_box(&self) -> String {
@@ -26168,6 +27579,7 @@ impl IconShape for BsBadgeAr {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPatchQuestionFill;
 impl IconShape for BsPatchQuestionFill {
     fn view_box(&self) -> String {
@@ -26185,6 +27597,7 @@ impl IconShape for BsPatchQuestionFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPeaceFill;
 impl IconShape for BsPeaceFill {
     fn view_box(&self) -> String {
@@ -26202,6 +27615,7 @@ impl IconShape for BsPeaceFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeCheck;
 impl IconShape for BsEnvelopeCheck {
     fn view_box(&self) -> String {
@@ -26222,6 +27636,7 @@ impl IconShape for BsEnvelopeCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarHeart;
 impl IconShape for BsCalendarHeart {
     fn view_box(&self) -> String {
@@ -26240,6 +27655,7 @@ impl IconShape for BsCalendarHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2CheckFill;
 impl IconShape for BsCalendar2CheckFill {
     fn view_box(&self) -> String {
@@ -26257,6 +27673,7 @@ impl IconShape for BsCalendar2CheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWindowSplit;
 impl IconShape for BsWindowSplit {
     fn view_box(&self) -> String {
@@ -26277,6 +27694,7 @@ impl IconShape for BsWindowSplit {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilterCircleFill;
 impl IconShape for BsFilterCircleFill {
     fn view_box(&self) -> String {
@@ -26294,6 +27712,7 @@ impl IconShape for BsFilterCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownRight;
 impl IconShape for BsArrowDownRight {
     fn view_box(&self) -> String {
@@ -26312,6 +27731,7 @@ impl IconShape for BsArrowDownRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSnow2;
 impl IconShape for BsSnow2 {
     fn view_box(&self) -> String {
@@ -26329,6 +27749,7 @@ impl IconShape for BsSnow2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsOctagonHalf;
 impl IconShape for BsOctagonHalf {
     fn view_box(&self) -> String {
@@ -26346,6 +27767,7 @@ impl IconShape for BsOctagonHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLaptop;
 impl IconShape for BsLaptop {
     fn view_box(&self) -> String {
@@ -26363,6 +27785,7 @@ impl IconShape for BsLaptop {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAspectRatioFill;
 impl IconShape for BsAspectRatioFill {
     fn view_box(&self) -> String {
@@ -26380,6 +27803,7 @@ impl IconShape for BsAspectRatioFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileXFill;
 impl IconShape for BsFileXFill {
     fn view_box(&self) -> String {
@@ -26397,6 +27821,7 @@ impl IconShape for BsFileXFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsToggle2On;
 impl IconShape for BsToggle2On {
     fn view_box(&self) -> String {
@@ -26417,6 +27842,7 @@ impl IconShape for BsToggle2On {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowInUpRight;
 impl IconShape for BsBoxArrowInUpRight {
     fn view_box(&self) -> String {
@@ -26439,6 +27865,7 @@ impl IconShape for BsBoxArrowInUpRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStopwatchFill;
 impl IconShape for BsStopwatchFill {
     fn view_box(&self) -> String {
@@ -26456,6 +27883,7 @@ impl IconShape for BsStopwatchFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHearts;
 impl IconShape for BsHearts {
     fn view_box(&self) -> String {
@@ -26474,6 +27902,7 @@ impl IconShape for BsHearts {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDisplay;
 impl IconShape for BsDisplay {
     fn view_box(&self) -> String {
@@ -26491,6 +27920,7 @@ impl IconShape for BsDisplay {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQuestionSquareFill;
 impl IconShape for BsQuestionSquareFill {
     fn view_box(&self) -> String {
@@ -26508,6 +27938,7 @@ impl IconShape for BsQuestionSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDiamondHalf;
 impl IconShape for BsDiamondHalf {
     fn view_box(&self) -> String {
@@ -26525,6 +27956,7 @@ impl IconShape for BsDiamondHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCreditCardFill;
 impl IconShape for BsCreditCardFill {
     fn view_box(&self) -> String {
@@ -26542,6 +27974,7 @@ impl IconShape for BsCreditCardFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalculatorFill;
 impl IconShape for BsCalculatorFill {
     fn view_box(&self) -> String {
@@ -26559,6 +27992,7 @@ impl IconShape for BsCalculatorFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkPerson;
 impl IconShape for BsFileEarmarkPerson {
     fn view_box(&self) -> String {
@@ -26579,6 +28013,7 @@ impl IconShape for BsFileEarmarkPerson {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMusicPlayerFill;
 impl IconShape for BsMusicPlayerFill {
     fn view_box(&self) -> String {
@@ -26599,6 +28034,7 @@ impl IconShape for BsMusicPlayerFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretLeft;
 impl IconShape for BsCaretLeft {
     fn view_box(&self) -> String {
@@ -26616,6 +28052,7 @@ impl IconShape for BsCaretLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardX;
 impl IconShape for BsClipboardX {
     fn view_box(&self) -> String {
@@ -26640,6 +28077,7 @@ impl IconShape for BsClipboardX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSendCheck;
 impl IconShape for BsSendCheck {
     fn view_box(&self) -> String {
@@ -26660,6 +28098,7 @@ impl IconShape for BsSendCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPc;
 impl IconShape for BsPc {
     fn view_box(&self) -> String {
@@ -26677,6 +28116,7 @@ impl IconShape for BsPc {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatRightText;
 impl IconShape for BsChatRightText {
     fn view_box(&self) -> String {
@@ -26697,6 +28137,7 @@ impl IconShape for BsChatRightText {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipForwardCircleFill;
 impl IconShape for BsSkipForwardCircleFill {
     fn view_box(&self) -> String {
@@ -26714,6 +28155,7 @@ impl IconShape for BsSkipForwardCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowUpRight;
 impl IconShape for BsBoxArrowUpRight {
     fn view_box(&self) -> String {
@@ -26736,6 +28178,7 @@ impl IconShape for BsBoxArrowUpRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpLeftCircle;
 impl IconShape for BsArrowUpLeftCircle {
     fn view_box(&self) -> String {
@@ -26754,6 +28197,7 @@ impl IconShape for BsArrowUpLeftCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlusSquareDotted;
 impl IconShape for BsPlusSquareDotted {
     fn view_box(&self) -> String {
@@ -26771,6 +28215,7 @@ impl IconShape for BsPlusSquareDotted {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldShaded;
 impl IconShape for BsShieldShaded {
     fn view_box(&self) -> String {
@@ -26789,6 +28234,7 @@ impl IconShape for BsShieldShaded {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2Minus;
 impl IconShape for BsClipboard2Minus {
     fn view_box(&self) -> String {
@@ -26812,6 +28258,7 @@ impl IconShape for BsClipboard2Minus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileCode;
 impl IconShape for BsFileCode {
     fn view_box(&self) -> String {
@@ -26832,6 +28279,7 @@ impl IconShape for BsFileCode {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCpuFill;
 impl IconShape for BsCpuFill {
     fn view_box(&self) -> String {
@@ -26852,6 +28300,7 @@ impl IconShape for BsCpuFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSlack;
 impl IconShape for BsSlack {
     fn view_box(&self) -> String {
@@ -26869,6 +28318,7 @@ impl IconShape for BsSlack {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarDate;
 impl IconShape for BsCalendarDate {
     fn view_box(&self) -> String {
@@ -26889,6 +28339,7 @@ impl IconShape for BsCalendarDate {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilterLeft;
 impl IconShape for BsFilterLeft {
     fn view_box(&self) -> String {
@@ -26906,6 +28357,7 @@ impl IconShape for BsFilterLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2Pulse;
 impl IconShape for BsClipboard2Pulse {
     fn view_box(&self) -> String {
@@ -26929,6 +28381,7 @@ impl IconShape for BsClipboard2Pulse {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopePaper;
 impl IconShape for BsEnvelopePaper {
     fn view_box(&self) -> String {
@@ -26946,6 +28399,7 @@ impl IconShape for BsEnvelopePaper {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDice1Fill;
 impl IconShape for BsDice1Fill {
     fn view_box(&self) -> String {
@@ -26963,6 +28417,7 @@ impl IconShape for BsDice1Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPauseFill;
 impl IconShape for BsPauseFill {
     fn view_box(&self) -> String {
@@ -26980,6 +28435,7 @@ impl IconShape for BsPauseFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoundingBox;
 impl IconShape for BsBoundingBox {
     fn view_box(&self) -> String {
@@ -26997,6 +28453,7 @@ impl IconShape for BsBoundingBox {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAlt;
 impl IconShape for BsAlt {
     fn view_box(&self) -> String {
@@ -27014,6 +28471,7 @@ impl IconShape for BsAlt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHr;
 impl IconShape for BsHr {
     fn view_box(&self) -> String {
@@ -27031,6 +28489,7 @@ impl IconShape for BsHr {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloud;
 impl IconShape for BsCloud {
     fn view_box(&self) -> String {
@@ -27048,6 +28507,7 @@ impl IconShape for BsCloud {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPciCard;
 impl IconShape for BsPciCard {
     fn view_box(&self) -> String {
@@ -27068,6 +28528,7 @@ impl IconShape for BsPciCard {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShuffle;
 impl IconShape for BsShuffle {
     fn view_box(&self) -> String {
@@ -27089,6 +28550,7 @@ impl IconShape for BsShuffle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayerForward;
 impl IconShape for BsLayerForward {
     fn view_box(&self) -> String {
@@ -27109,6 +28571,7 @@ impl IconShape for BsLayerForward {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWindow;
 impl IconShape for BsWindow {
     fn view_box(&self) -> String {
@@ -27129,6 +28592,7 @@ impl IconShape for BsWindow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsQuote;
 impl IconShape for BsQuote {
     fn view_box(&self) -> String {
@@ -27146,6 +28610,7 @@ impl IconShape for BsQuote {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatDotsFill;
 impl IconShape for BsChatDotsFill {
     fn view_box(&self) -> String {
@@ -27163,6 +28628,7 @@ impl IconShape for BsChatDotsFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCup;
 impl IconShape for BsCup {
     fn view_box(&self) -> String {
@@ -27180,6 +28646,7 @@ impl IconShape for BsCup {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJustify;
 impl IconShape for BsJustify {
     fn view_box(&self) -> String {
@@ -27198,6 +28665,7 @@ impl IconShape for BsJustify {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGripVertical;
 impl IconShape for BsGripVertical {
     fn view_box(&self) -> String {
@@ -27215,6 +28683,7 @@ impl IconShape for BsGripVertical {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsNodeMinusFill;
 impl IconShape for BsNodeMinusFill {
     fn view_box(&self) -> String {
@@ -27233,6 +28702,7 @@ impl IconShape for BsNodeMinusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiAngry;
 impl IconShape for BsEmojiAngry {
     fn view_box(&self) -> String {
@@ -27253,6 +28723,7 @@ impl IconShape for BsEmojiAngry {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsListCheck;
 impl IconShape for BsListCheck {
     fn view_box(&self) -> String {
@@ -27271,6 +28742,7 @@ impl IconShape for BsListCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephoneX;
 impl IconShape for BsTelephoneX {
     fn view_box(&self) -> String {
@@ -27292,6 +28764,7 @@ impl IconShape for BsTelephoneX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSortNumericDown;
 impl IconShape for BsSortNumericDown {
     fn view_box(&self) -> String {
@@ -27316,6 +28789,7 @@ impl IconShape for BsSortNumericDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPuzzleFill;
 impl IconShape for BsPuzzleFill {
     fn view_box(&self) -> String {
@@ -27333,6 +28807,7 @@ impl IconShape for BsPuzzleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeHeartFill;
 impl IconShape for BsEnvelopeHeartFill {
     fn view_box(&self) -> String {
@@ -27353,6 +28828,7 @@ impl IconShape for BsEnvelopeHeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBagCheckFill;
 impl IconShape for BsBagCheckFill {
     fn view_box(&self) -> String {
@@ -27371,6 +28847,7 @@ impl IconShape for BsBagCheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBox2Fill;
 impl IconShape for BsBox2Fill {
     fn view_box(&self) -> String {
@@ -27388,6 +28865,7 @@ impl IconShape for BsBox2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDropletHalf;
 impl IconShape for BsDropletHalf {
     fn view_box(&self) -> String {
@@ -27410,6 +28888,7 @@ impl IconShape for BsDropletHalf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsUpload;
 impl IconShape for BsUpload {
     fn view_box(&self) -> String {
@@ -27430,6 +28909,7 @@ impl IconShape for BsUpload {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFonts;
 impl IconShape for BsFonts {
     fn view_box(&self) -> String {
@@ -27447,6 +28927,7 @@ impl IconShape for BsFonts {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmarkCheck;
 impl IconShape for BsBookmarkCheck {
     fn view_box(&self) -> String {
@@ -27468,6 +28949,7 @@ impl IconShape for BsBookmarkCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMessenger;
 impl IconShape for BsMessenger {
     fn view_box(&self) -> String {
@@ -27485,6 +28967,7 @@ impl IconShape for BsMessenger {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArchiveFill;
 impl IconShape for BsArchiveFill {
     fn view_box(&self) -> String {
@@ -27502,6 +28985,7 @@ impl IconShape for BsArchiveFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarX;
 impl IconShape for BsCalendarX {
     fn view_box(&self) -> String {
@@ -27522,6 +29006,7 @@ impl IconShape for BsCalendarX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPause;
 impl IconShape for BsPause {
     fn view_box(&self) -> String {
@@ -27539,6 +29024,7 @@ impl IconShape for BsPause {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudDownloadFill;
 impl IconShape for BsCloudDownloadFill {
     fn view_box(&self) -> String {
@@ -27557,6 +29043,7 @@ impl IconShape for BsCloudDownloadFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2Month;
 impl IconShape for BsCalendar2Month {
     fn view_box(&self) -> String {
@@ -27580,6 +29067,7 @@ impl IconShape for BsCalendar2Month {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBalloonFill;
 impl IconShape for BsBalloonFill {
     fn view_box(&self) -> String {
@@ -27598,6 +29086,7 @@ impl IconShape for BsBalloonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMicFill;
 impl IconShape for BsMicFill {
     fn view_box(&self) -> String {
@@ -27618,6 +29107,7 @@ impl IconShape for BsMicFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTextRight;
 impl IconShape for BsTextRight {
     fn view_box(&self) -> String {
@@ -27636,6 +29126,7 @@ impl IconShape for BsTextRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowDownCircle;
 impl IconShape for BsArrowDownCircle {
     fn view_box(&self) -> String {
@@ -27654,6 +29145,7 @@ impl IconShape for BsArrowDownCircle {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudHail;
 impl IconShape for BsCloudHail {
     fn view_box(&self) -> String {
@@ -27671,6 +29163,7 @@ impl IconShape for BsCloudHail {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudy;
 impl IconShape for BsCloudy {
     fn view_box(&self) -> String {
@@ -27688,6 +29181,7 @@ impl IconShape for BsCloudy {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBalloon;
 impl IconShape for BsBalloon {
     fn view_box(&self) -> String {
@@ -27706,6 +29200,7 @@ impl IconShape for BsBalloon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsForward;
 impl IconShape for BsForward {
     fn view_box(&self) -> String {
@@ -27723,6 +29218,7 @@ impl IconShape for BsForward {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTextareaT;
 impl IconShape for BsTextareaT {
     fn view_box(&self) -> String {
@@ -27743,6 +29239,7 @@ impl IconShape for BsTextareaT {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBookmark;
 impl IconShape for BsBookmark {
     fn view_box(&self) -> String {
@@ -27760,6 +29257,7 @@ impl IconShape for BsBookmark {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeSlashFill;
 impl IconShape for BsEnvelopeSlashFill {
     fn view_box(&self) -> String {
@@ -27780,6 +29278,7 @@ impl IconShape for BsEnvelopeSlashFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGrid3x2GapFill;
 impl IconShape for BsGrid3x2GapFill {
     fn view_box(&self) -> String {
@@ -27797,6 +29296,7 @@ impl IconShape for BsGrid3x2GapFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkype;
 impl IconShape for BsSkype {
     fn view_box(&self) -> String {
@@ -27814,6 +29314,7 @@ impl IconShape for BsSkype {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldSlash;
 impl IconShape for BsShieldSlash {
     fn view_box(&self) -> String {
@@ -27832,6 +29333,7 @@ impl IconShape for BsShieldSlash {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBraces;
 impl IconShape for BsBraces {
     fn view_box(&self) -> String {
@@ -27849,6 +29351,7 @@ impl IconShape for BsBraces {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowInUpLeft;
 impl IconShape for BsBoxArrowInUpLeft {
     fn view_box(&self) -> String {
@@ -27871,6 +29374,7 @@ impl IconShape for BsBoxArrowInUpLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsInfoLg;
 impl IconShape for BsInfoLg {
     fn view_box(&self) -> String {
@@ -27888,6 +29392,7 @@ impl IconShape for BsInfoLg {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMinecart;
 impl IconShape for BsMinecart {
     fn view_box(&self) -> String {
@@ -27905,6 +29410,7 @@ impl IconShape for BsMinecart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWalletFill;
 impl IconShape for BsWalletFill {
     fn view_box(&self) -> String {
@@ -27925,6 +29431,7 @@ impl IconShape for BsWalletFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDpadFill;
 impl IconShape for BsDpadFill {
     fn view_box(&self) -> String {
@@ -27942,6 +29449,7 @@ impl IconShape for BsDpadFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAsterisk;
 impl IconShape for BsAsterisk {
     fn view_box(&self) -> String {
@@ -27959,6 +29467,7 @@ impl IconShape for BsAsterisk {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDashSquareDotted;
 impl IconShape for BsDashSquareDotted {
     fn view_box(&self) -> String {
@@ -27976,6 +29485,7 @@ impl IconShape for BsDashSquareDotted {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudCheckFill;
 impl IconShape for BsCloudCheckFill {
     fn view_box(&self) -> String {
@@ -27993,6 +29503,7 @@ impl IconShape for BsCloudCheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkBreakFill;
 impl IconShape for BsFileEarmarkBreakFill {
     fn view_box(&self) -> String {
@@ -28010,6 +29521,7 @@ impl IconShape for BsFileEarmarkBreakFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCapslockFill;
 impl IconShape for BsCapslockFill {
     fn view_box(&self) -> String {
@@ -28027,6 +29539,7 @@ impl IconShape for BsCapslockFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsWordpress;
 impl IconShape for BsWordpress {
     fn view_box(&self) -> String {
@@ -28051,6 +29564,7 @@ impl IconShape for BsWordpress {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTablet;
 impl IconShape for BsTablet {
     fn view_box(&self) -> String {
@@ -28071,6 +29585,7 @@ impl IconShape for BsTablet {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTerminalFill;
 impl IconShape for BsTerminalFill {
     fn view_box(&self) -> String {
@@ -28088,6 +29603,7 @@ impl IconShape for BsTerminalFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEasel3;
 impl IconShape for BsEasel3 {
     fn view_box(&self) -> String {
@@ -28106,6 +29622,7 @@ impl IconShape for BsEasel3 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileDiff;
 impl IconShape for BsFileDiff {
     fn view_box(&self) -> String {
@@ -28126,6 +29643,7 @@ impl IconShape for BsFileDiff {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEasel2;
 impl IconShape for BsEasel2 {
     fn view_box(&self) -> String {
@@ -28144,6 +29662,7 @@ impl IconShape for BsEasel2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBrushFill;
 impl IconShape for BsBrushFill {
     fn view_box(&self) -> String {
@@ -28161,6 +29680,7 @@ impl IconShape for BsBrushFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatSquareQuoteFill;
 impl IconShape for BsChatSquareQuoteFill {
     fn view_box(&self) -> String {
@@ -28178,6 +29698,7 @@ impl IconShape for BsChatSquareQuoteFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileRichtext;
 impl IconShape for BsFileRichtext {
     fn view_box(&self) -> String {
@@ -28198,6 +29719,7 @@ impl IconShape for BsFileRichtext {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCurrencyDollar;
 impl IconShape for BsCurrencyDollar {
     fn view_box(&self) -> String {
@@ -28215,6 +29737,7 @@ impl IconShape for BsCurrencyDollar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsValentine2;
 impl IconShape for BsValentine2 {
     fn view_box(&self) -> String {
@@ -28236,6 +29759,7 @@ impl IconShape for BsValentine2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBrightnessAltLowFill;
 impl IconShape for BsBrightnessAltLowFill {
     fn view_box(&self) -> String {
@@ -28253,6 +29777,7 @@ impl IconShape for BsBrightnessAltLowFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypePy;
 impl IconShape for BsFiletypePy {
     fn view_box(&self) -> String {
@@ -28271,6 +29796,7 @@ impl IconShape for BsFiletypePy {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPinAngleFill;
 impl IconShape for BsPinAngleFill {
     fn view_box(&self) -> String {
@@ -28288,6 +29814,7 @@ impl IconShape for BsPinAngleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowLeftRight;
 impl IconShape for BsArrowLeftRight {
     fn view_box(&self) -> String {
@@ -28306,6 +29833,7 @@ impl IconShape for BsArrowLeftRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTvFill;
 impl IconShape for BsTvFill {
     fn view_box(&self) -> String {
@@ -28323,6 +29851,7 @@ impl IconShape for BsTvFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkCode;
 impl IconShape for BsFileEarmarkCode {
     fn view_box(&self) -> String {
@@ -28343,6 +29872,7 @@ impl IconShape for BsFileEarmarkCode {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPalette2;
 impl IconShape for BsPalette2 {
     fn view_box(&self) -> String {
@@ -28363,6 +29893,7 @@ impl IconShape for BsPalette2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadge4k;
 impl IconShape for BsBadge4k {
     fn view_box(&self) -> String {
@@ -28383,6 +29914,7 @@ impl IconShape for BsBadge4k {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsListOl;
 impl IconShape for BsListOl {
     fn view_box(&self) -> String {
@@ -28404,6 +29936,7 @@ impl IconShape for BsListOl {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudDownload;
 impl IconShape for BsCloudDownload {
     fn view_box(&self) -> String {
@@ -28424,6 +29957,7 @@ impl IconShape for BsCloudDownload {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCheck2;
 impl IconShape for BsCheck2 {
     fn view_box(&self) -> String {
@@ -28441,6 +29975,7 @@ impl IconShape for BsCheck2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephoneOutbound;
 impl IconShape for BsTelephoneOutbound {
     fn view_box(&self) -> String {
@@ -28458,6 +29993,7 @@ impl IconShape for BsTelephoneOutbound {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCupFill;
 impl IconShape for BsCupFill {
     fn view_box(&self) -> String {
@@ -28475,6 +30011,7 @@ impl IconShape for BsCupFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2HeartFill;
 impl IconShape for BsClipboard2HeartFill {
     fn view_box(&self) -> String {
@@ -28497,6 +30034,7 @@ impl IconShape for BsClipboard2HeartFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEar;
 impl IconShape for BsEar {
     fn view_box(&self) -> String {
@@ -28514,6 +30052,7 @@ impl IconShape for BsEar {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlusCircleDotted;
 impl IconShape for BsPlusCircleDotted {
     fn view_box(&self) -> String {
@@ -28531,6 +30070,7 @@ impl IconShape for BsPlusCircleDotted {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephoneForward;
 impl IconShape for BsTelephoneForward {
     fn view_box(&self) -> String {
@@ -28548,6 +30088,7 @@ impl IconShape for BsTelephoneForward {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipEndFill;
 impl IconShape for BsSkipEndFill {
     fn view_box(&self) -> String {
@@ -28565,6 +30106,7 @@ impl IconShape for BsSkipEndFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkSpreadsheet;
 impl IconShape for BsFileEarmarkSpreadsheet {
     fn view_box(&self) -> String {
@@ -28582,6 +30124,7 @@ impl IconShape for BsFileEarmarkSpreadsheet {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayoutTextWindowReverse;
 impl IconShape for BsLayoutTextWindowReverse {
     fn view_box(&self) -> String {
@@ -28602,6 +30145,7 @@ impl IconShape for BsLayoutTextWindowReverse {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileCheckFill;
 impl IconShape for BsFileCheckFill {
     fn view_box(&self) -> String {
@@ -28619,6 +30163,7 @@ impl IconShape for BsFileCheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronBarRight;
 impl IconShape for BsChevronBarRight {
     fn view_box(&self) -> String {
@@ -28637,6 +30182,7 @@ impl IconShape for BsChevronBarRight {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsYinYang;
 impl IconShape for BsYinYang {
     fn view_box(&self) -> String {
@@ -28657,6 +30203,7 @@ impl IconShape for BsYinYang {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowUpLeft;
 impl IconShape for BsBoxArrowUpLeft {
     fn view_box(&self) -> String {
@@ -28679,6 +30226,7 @@ impl IconShape for BsBoxArrowUpLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsVolumeUpFill;
 impl IconShape for BsVolumeUpFill {
     fn view_box(&self) -> String {
@@ -28702,6 +30250,7 @@ impl IconShape for BsVolumeUpFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatTextFill;
 impl IconShape for BsChatTextFill {
     fn view_box(&self) -> String {
@@ -28719,6 +30268,7 @@ impl IconShape for BsChatTextFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2Event;
 impl IconShape for BsCalendar2Event {
     fn view_box(&self) -> String {
@@ -28742,6 +30292,7 @@ impl IconShape for BsCalendar2Event {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatQuote;
 impl IconShape for BsChatQuote {
     fn view_box(&self) -> String {
@@ -28762,6 +30313,7 @@ impl IconShape for BsChatQuote {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipBackwardCircleFill;
 impl IconShape for BsSkipBackwardCircleFill {
     fn view_box(&self) -> String {
@@ -28779,6 +30331,7 @@ impl IconShape for BsSkipBackwardCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar4Week;
 impl IconShape for BsCalendar4Week {
     fn view_box(&self) -> String {
@@ -28799,6 +30352,7 @@ impl IconShape for BsCalendar4Week {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsImageFill;
 impl IconShape for BsImageFill {
     fn view_box(&self) -> String {
@@ -28816,6 +30370,7 @@ impl IconShape for BsImageFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExclamationSquareFill;
 impl IconShape for BsExclamationSquareFill {
     fn view_box(&self) -> String {
@@ -28833,6 +30388,7 @@ impl IconShape for BsExclamationSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsNodeMinus;
 impl IconShape for BsNodeMinus {
     fn view_box(&self) -> String {
@@ -28851,6 +30407,7 @@ impl IconShape for BsNodeMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBackspace;
 impl IconShape for BsBackspace {
     fn view_box(&self) -> String {
@@ -28871,6 +30428,7 @@ impl IconShape for BsBackspace {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileRuledFill;
 impl IconShape for BsFileRuledFill {
     fn view_box(&self) -> String {
@@ -28888,6 +30446,7 @@ impl IconShape for BsFileRuledFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilePersonFill;
 impl IconShape for BsFilePersonFill {
     fn view_box(&self) -> String {
@@ -28905,6 +30464,7 @@ impl IconShape for BsFilePersonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPatchMinus;
 impl IconShape for BsPatchMinus {
     fn view_box(&self) -> String {
@@ -28926,6 +30486,7 @@ impl IconShape for BsPatchMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHdd;
 impl IconShape for BsHdd {
     fn view_box(&self) -> String {
@@ -28946,6 +30507,7 @@ impl IconShape for BsHdd {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct Bs123;
 impl IconShape for Bs123 {
     fn view_box(&self) -> String {
@@ -28963,6 +30525,7 @@ impl IconShape for Bs123 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeTsx;
 impl IconShape for BsFiletypeTsx {
     fn view_box(&self) -> String {
@@ -28981,6 +30544,7 @@ impl IconShape for BsFiletypeTsx {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSortDown;
 impl IconShape for BsSortDown {
     fn view_box(&self) -> String {
@@ -28998,6 +30562,7 @@ impl IconShape for BsSortDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalculator;
 impl IconShape for BsCalculator {
     fn view_box(&self) -> String {
@@ -29018,6 +30583,7 @@ impl IconShape for BsCalculator {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAlignTop;
 impl IconShape for BsAlignTop {
     fn view_box(&self) -> String {
@@ -29041,6 +30607,7 @@ impl IconShape for BsAlignTop {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeSvg;
 impl IconShape for BsFiletypeSvg {
     fn view_box(&self) -> String {
@@ -29059,6 +30626,7 @@ impl IconShape for BsFiletypeSvg {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsApple;
 impl IconShape for BsApple {
     fn view_box(&self) -> String {
@@ -29079,6 +30647,7 @@ impl IconShape for BsApple {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMouse;
 impl IconShape for BsMouse {
     fn view_box(&self) -> String {
@@ -29096,6 +30665,7 @@ impl IconShape for BsMouse {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPentagon;
 impl IconShape for BsPentagon {
     fn view_box(&self) -> String {
@@ -29113,6 +30683,7 @@ impl IconShape for BsPentagon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEyeglasses;
 impl IconShape for BsEyeglasses {
     fn view_box(&self) -> String {
@@ -29130,6 +30701,7 @@ impl IconShape for BsEyeglasses {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsScrewdriver;
 impl IconShape for BsScrewdriver {
     fn view_box(&self) -> String {
@@ -29147,6 +30719,7 @@ impl IconShape for BsScrewdriver {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkPdf;
 impl IconShape for BsFileEarmarkPdf {
     fn view_box(&self) -> String {
@@ -29167,6 +30740,7 @@ impl IconShape for BsFileEarmarkPdf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldCheck;
 impl IconShape for BsShieldCheck {
     fn view_box(&self) -> String {
@@ -29187,6 +30761,7 @@ impl IconShape for BsShieldCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonPlusFill;
 impl IconShape for BsPersonPlusFill {
     fn view_box(&self) -> String {
@@ -29208,6 +30783,7 @@ impl IconShape for BsPersonPlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBoxArrowInDownLeft;
 impl IconShape for BsBoxArrowInDownLeft {
     fn view_box(&self) -> String {
@@ -29230,6 +30806,7 @@ impl IconShape for BsBoxArrowInDownLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudSleetFill;
 impl IconShape for BsCloudSleetFill {
     fn view_box(&self) -> String {
@@ -29247,6 +30824,7 @@ impl IconShape for BsCloudSleetFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendarXFill;
 impl IconShape for BsCalendarXFill {
     fn view_box(&self) -> String {
@@ -29264,6 +30842,7 @@ impl IconShape for BsCalendarXFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkMusic;
 impl IconShape for BsFileEarmarkMusic {
     fn view_box(&self) -> String {
@@ -29284,6 +30863,7 @@ impl IconShape for BsFileEarmarkMusic {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatRightQuoteFill;
 impl IconShape for BsChatRightQuoteFill {
     fn view_box(&self) -> String {
@@ -29301,6 +30881,7 @@ impl IconShape for BsChatRightQuoteFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileBarGraph;
 impl IconShape for BsFileBarGraph {
     fn view_box(&self) -> String {
@@ -29321,6 +30902,7 @@ impl IconShape for BsFileBarGraph {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiNeutralFill;
 impl IconShape for BsEmojiNeutralFill {
     fn view_box(&self) -> String {
@@ -29338,6 +30920,7 @@ impl IconShape for BsEmojiNeutralFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSendXFill;
 impl IconShape for BsSendXFill {
     fn view_box(&self) -> String {
@@ -29358,6 +30941,7 @@ impl IconShape for BsSendXFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCaretRightSquare;
 impl IconShape for BsCaretRightSquare {
     fn view_box(&self) -> String {
@@ -29378,6 +30962,7 @@ impl IconShape for BsCaretRightSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatHeart;
 impl IconShape for BsChatHeart {
     fn view_box(&self) -> String {
@@ -29396,6 +30981,7 @@ impl IconShape for BsChatHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardCheckFill;
 impl IconShape for BsClipboardCheckFill {
     fn view_box(&self) -> String {
@@ -29416,6 +31002,7 @@ impl IconShape for BsClipboardCheckFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkPpt;
 impl IconShape for BsFileEarmarkPpt {
     fn view_box(&self) -> String {
@@ -29436,6 +31023,7 @@ impl IconShape for BsFileEarmarkPpt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTrash3Fill;
 impl IconShape for BsTrash3Fill {
     fn view_box(&self) -> String {
@@ -29453,6 +31041,7 @@ impl IconShape for BsTrash3Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExplicitFill;
 impl IconShape for BsExplicitFill {
     fn view_box(&self) -> String {
@@ -29470,6 +31059,7 @@ impl IconShape for BsExplicitFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBuilding;
 impl IconShape for BsBuilding {
     fn view_box(&self) -> String {
@@ -29491,6 +31081,7 @@ impl IconShape for BsBuilding {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTrash2Fill;
 impl IconShape for BsTrash2Fill {
     fn view_box(&self) -> String {
@@ -29508,6 +31099,7 @@ impl IconShape for BsTrash2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBezier;
 impl IconShape for BsBezier {
     fn view_box(&self) -> String {
@@ -29529,6 +31121,7 @@ impl IconShape for BsBezier {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileZipFill;
 impl IconShape for BsFileZipFill {
     fn view_box(&self) -> String {
@@ -29549,6 +31142,7 @@ impl IconShape for BsFileZipFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBinoculars;
 impl IconShape for BsBinoculars {
     fn view_box(&self) -> String {
@@ -29566,6 +31160,7 @@ impl IconShape for BsBinoculars {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsGearWideConnected;
 impl IconShape for BsGearWideConnected {
     fn view_box(&self) -> String {
@@ -29583,6 +31178,7 @@ impl IconShape for BsGearWideConnected {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkPlus;
 impl IconShape for BsFileEarmarkPlus {
     fn view_box(&self) -> String {
@@ -29603,6 +31199,7 @@ impl IconShape for BsFileEarmarkPlus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFolder;
 impl IconShape for BsFolder {
     fn view_box(&self) -> String {
@@ -29620,6 +31217,7 @@ impl IconShape for BsFolder {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar2Check;
 impl IconShape for BsCalendar2Check {
     fn view_box(&self) -> String {
@@ -29643,6 +31241,7 @@ impl IconShape for BsCalendar2Check {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsAlarm;
 impl IconShape for BsAlarm {
     fn view_box(&self) -> String {
@@ -29663,6 +31262,7 @@ impl IconShape for BsAlarm {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilePpt;
 impl IconShape for BsFilePpt {
     fn view_box(&self) -> String {
@@ -29683,6 +31283,7 @@ impl IconShape for BsFilePpt {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEnvelopeExclamationFill;
 impl IconShape for BsEnvelopeExclamationFill {
     fn view_box(&self) -> String {
@@ -29703,6 +31304,7 @@ impl IconShape for BsEnvelopeExclamationFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSignpost2Fill;
 impl IconShape for BsSignpost2Fill {
     fn view_box(&self) -> String {
@@ -29720,6 +31322,7 @@ impl IconShape for BsSignpost2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileLock;
 impl IconShape for BsFileLock {
     fn view_box(&self) -> String {
@@ -29740,6 +31343,7 @@ impl IconShape for BsFileLock {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBasket;
 impl IconShape for BsBasket {
     fn view_box(&self) -> String {
@@ -29757,6 +31361,7 @@ impl IconShape for BsBasket {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCodeSquare;
 impl IconShape for BsCodeSquare {
     fn view_box(&self) -> String {
@@ -29777,6 +31382,7 @@ impl IconShape for BsCodeSquare {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronBarDown;
 impl IconShape for BsChevronBarDown {
     fn view_box(&self) -> String {
@@ -29795,6 +31401,7 @@ impl IconShape for BsChevronBarDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPlayFill;
 impl IconShape for BsPlayFill {
     fn view_box(&self) -> String {
@@ -29812,6 +31419,7 @@ impl IconShape for BsPlayFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTypeUnderline;
 impl IconShape for BsTypeUnderline {
     fn view_box(&self) -> String {
@@ -29829,6 +31437,7 @@ impl IconShape for BsTypeUnderline {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFingerprint;
 impl IconShape for BsFingerprint {
     fn view_box(&self) -> String {
@@ -29858,6 +31467,7 @@ impl IconShape for BsFingerprint {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2DataFill;
 impl IconShape for BsClipboard2DataFill {
     fn view_box(&self) -> String {
@@ -29878,6 +31488,7 @@ impl IconShape for BsClipboard2DataFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilePdf;
 impl IconShape for BsFilePdf {
     fn view_box(&self) -> String {
@@ -29898,6 +31509,7 @@ impl IconShape for BsFilePdf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilePost;
 impl IconShape for BsFilePost {
     fn view_box(&self) -> String {
@@ -29918,6 +31530,7 @@ impl IconShape for BsFilePost {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDashLg;
 impl IconShape for BsDashLg {
     fn view_box(&self) -> String {
@@ -29936,6 +31549,7 @@ impl IconShape for BsDashLg {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsThermometerSnow;
 impl IconShape for BsThermometerSnow {
     fn view_box(&self) -> String {
@@ -29956,6 +31570,7 @@ impl IconShape for BsThermometerSnow {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSkipStart;
 impl IconShape for BsSkipStart {
     fn view_box(&self) -> String {
@@ -29973,6 +31588,7 @@ impl IconShape for BsSkipStart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDiagram2Fill;
 impl IconShape for BsDiagram2Fill {
     fn view_box(&self) -> String {
@@ -29991,6 +31607,7 @@ impl IconShape for BsDiagram2Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMicMuteFill;
 impl IconShape for BsMicMuteFill {
     fn view_box(&self) -> String {
@@ -30011,6 +31628,7 @@ impl IconShape for BsMicMuteFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCloudLightningRainFill;
 impl IconShape for BsCloudLightningRainFill {
     fn view_box(&self) -> String {
@@ -30028,6 +31646,7 @@ impl IconShape for BsCloudLightningRainFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCreditCard2Back;
 impl IconShape for BsCreditCard2Back {
     fn view_box(&self) -> String {
@@ -30048,6 +31667,7 @@ impl IconShape for BsCreditCard2Back {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDiagram3Fill;
 impl IconShape for BsDiagram3Fill {
     fn view_box(&self) -> String {
@@ -30066,6 +31686,7 @@ impl IconShape for BsDiagram3Fill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboardCheck;
 impl IconShape for BsClipboardCheck {
     fn view_box(&self) -> String {
@@ -30090,6 +31711,7 @@ impl IconShape for BsClipboardCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTiktok;
 impl IconShape for BsTiktok {
     fn view_box(&self) -> String {
@@ -30107,6 +31729,7 @@ impl IconShape for BsTiktok {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileEarmarkMusicFill;
 impl IconShape for BsFileEarmarkMusicFill {
     fn view_box(&self) -> String {
@@ -30124,6 +31747,7 @@ impl IconShape for BsFileEarmarkMusicFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeartPulse;
 impl IconShape for BsHeartPulse {
     fn view_box(&self) -> String {
@@ -30142,6 +31766,7 @@ impl IconShape for BsHeartPulse {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeHtml;
 impl IconShape for BsFiletypeHtml {
     fn view_box(&self) -> String {
@@ -30160,6 +31785,7 @@ impl IconShape for BsFiletypeHtml {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadge8k;
 impl IconShape for BsBadge8k {
     fn view_box(&self) -> String {
@@ -30180,6 +31806,7 @@ impl IconShape for BsBadge8k {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronDoubleDown;
 impl IconShape for BsChevronDoubleDown {
     fn view_box(&self) -> String {
@@ -30202,6 +31829,7 @@ impl IconShape for BsChevronDoubleDown {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFileLockFill;
 impl IconShape for BsFileLockFill {
     fn view_box(&self) -> String {
@@ -30222,6 +31850,7 @@ impl IconShape for BsFileLockFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsTelephoneMinus;
 impl IconShape for BsTelephoneMinus {
     fn view_box(&self) -> String {
@@ -30243,6 +31872,7 @@ impl IconShape for BsTelephoneMinus {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPaintBucket;
 impl IconShape for BsPaintBucket {
     fn view_box(&self) -> String {
@@ -30260,6 +31890,7 @@ impl IconShape for BsPaintBucket {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronLeft;
 impl IconShape for BsChevronLeft {
     fn view_box(&self) -> String {
@@ -30278,6 +31909,7 @@ impl IconShape for BsChevronLeft {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilm;
 impl IconShape for BsFilm {
     fn view_box(&self) -> String {
@@ -30295,6 +31927,7 @@ impl IconShape for BsFilm {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMoon;
 impl IconShape for BsMoon {
     fn view_box(&self) -> String {
@@ -30312,6 +31945,7 @@ impl IconShape for BsMoon {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCalendar3RangeFill;
 impl IconShape for BsCalendar3RangeFill {
     fn view_box(&self) -> String {
@@ -30330,6 +31964,7 @@ impl IconShape for BsCalendar3RangeFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExclamation;
 impl IconShape for BsExclamation {
     fn view_box(&self) -> String {
@@ -30347,6 +31982,7 @@ impl IconShape for BsExclamation {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsLayoutWtf;
 impl IconShape for BsLayoutWtf {
     fn view_box(&self) -> String {
@@ -30364,6 +32000,7 @@ impl IconShape for BsLayoutWtf {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBehance;
 impl IconShape for BsBehance {
     fn view_box(&self) -> String {
@@ -30381,6 +32018,7 @@ impl IconShape for BsBehance {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChatLeftQuoteFill;
 impl IconShape for BsChatLeftQuoteFill {
     fn view_box(&self) -> String {
@@ -30398,6 +32036,7 @@ impl IconShape for BsChatLeftQuoteFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpRightSquareFill;
 impl IconShape for BsArrowUpRightSquareFill {
     fn view_box(&self) -> String {
@@ -30415,6 +32054,7 @@ impl IconShape for BsArrowUpRightSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsClipboard2;
 impl IconShape for BsClipboard2 {
     fn view_box(&self) -> String {
@@ -30435,6 +32075,7 @@ impl IconShape for BsClipboard2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsStoplightsFill;
 impl IconShape for BsStoplightsFill {
     fn view_box(&self) -> String {
@@ -30453,6 +32094,7 @@ impl IconShape for BsStoplightsFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDashSquareFill;
 impl IconShape for BsDashSquareFill {
     fn view_box(&self) -> String {
@@ -30470,6 +32112,7 @@ impl IconShape for BsDashSquareFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBarChartSteps;
 impl IconShape for BsBarChartSteps {
     fn view_box(&self) -> String {
@@ -30487,6 +32130,7 @@ impl IconShape for BsBarChartSteps {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeBmp;
 impl IconShape for BsFiletypeBmp {
     fn view_box(&self) -> String {
@@ -30505,6 +32149,7 @@ impl IconShape for BsFiletypeBmp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsCartX;
 impl IconShape for BsCartX {
     fn view_box(&self) -> String {
@@ -30525,6 +32170,7 @@ impl IconShape for BsCartX {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsChevronDoubleUp;
 impl IconShape for BsChevronDoubleUp {
     fn view_box(&self) -> String {
@@ -30547,6 +32193,7 @@ impl IconShape for BsChevronDoubleUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonDashFill;
 impl IconShape for BsPersonDashFill {
     fn view_box(&self) -> String {
@@ -30568,6 +32215,7 @@ impl IconShape for BsPersonDashFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournals;
 impl IconShape for BsJournals {
     fn view_box(&self) -> String {
@@ -30588,6 +32236,7 @@ impl IconShape for BsJournals {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEasel;
 impl IconShape for BsEasel {
     fn view_box(&self) -> String {
@@ -30605,6 +32254,7 @@ impl IconShape for BsEasel {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFilePlusFill;
 impl IconShape for BsFilePlusFill {
     fn view_box(&self) -> String {
@@ -30622,6 +32272,7 @@ impl IconShape for BsFilePlusFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsArrowUpCircleFill;
 impl IconShape for BsArrowUpCircleFill {
     fn view_box(&self) -> String {
@@ -30639,6 +32290,7 @@ impl IconShape for BsArrowUpCircleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsMagnetFill;
 impl IconShape for BsMagnetFill {
     fn view_box(&self) -> String {
@@ -30656,6 +32308,7 @@ impl IconShape for BsMagnetFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsDiamondFill;
 impl IconShape for BsDiamondFill {
     fn view_box(&self) -> String {
@@ -30674,6 +32327,7 @@ impl IconShape for BsDiamondFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsOctagonFill;
 impl IconShape for BsOctagonFill {
     fn view_box(&self) -> String {
@@ -30691,6 +32345,7 @@ impl IconShape for BsOctagonFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsSortUp;
 impl IconShape for BsSortUp {
     fn view_box(&self) -> String {
@@ -30708,6 +32363,7 @@ impl IconShape for BsSortUp {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsExclamationTriangleFill;
 impl IconShape for BsExclamationTriangleFill {
     fn view_box(&self) -> String {
@@ -30725,6 +32381,7 @@ impl IconShape for BsExclamationTriangleFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsToggles2;
 impl IconShape for BsToggles2 {
     fn view_box(&self) -> String {
@@ -30748,6 +32405,7 @@ impl IconShape for BsToggles2 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeMp4;
 impl IconShape for BsFiletypeMp4 {
     fn view_box(&self) -> String {
@@ -30766,6 +32424,7 @@ impl IconShape for BsFiletypeMp4 {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsShieldFillCheck;
 impl IconShape for BsShieldFillCheck {
     fn view_box(&self) -> String {
@@ -30784,6 +32443,7 @@ impl IconShape for BsShieldFillCheck {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsFiletypeCsv;
 impl IconShape for BsFiletypeCsv {
     fn view_box(&self) -> String {
@@ -30802,6 +32462,7 @@ impl IconShape for BsFiletypeCsv {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsHeart;
 impl IconShape for BsHeart {
     fn view_box(&self) -> String {
@@ -30819,6 +32480,7 @@ impl IconShape for BsHeart {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsModemFill;
 impl IconShape for BsModemFill {
     fn view_box(&self) -> String {
@@ -30836,6 +32498,7 @@ impl IconShape for BsModemFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBadge3dFill;
 impl IconShape for BsBadge3dFill {
     fn view_box(&self) -> String {
@@ -30856,6 +32519,7 @@ impl IconShape for BsBadge3dFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsPersonBoundingBox;
 impl IconShape for BsPersonBoundingBox {
     fn view_box(&self) -> String {
@@ -30876,6 +32540,7 @@ impl IconShape for BsPersonBoundingBox {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsJournal;
 impl IconShape for BsJournal {
     fn view_box(&self) -> String {
@@ -30896,6 +32561,7 @@ impl IconShape for BsJournal {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsEmojiHeartEyesFill;
 impl IconShape for BsEmojiHeartEyesFill {
     fn view_box(&self) -> String {
@@ -30913,6 +32579,7 @@ impl IconShape for BsEmojiHeartEyesFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsBriefcaseFill;
 impl IconShape for BsBriefcaseFill {
     fn view_box(&self) -> String {
@@ -30933,6 +32600,7 @@ impl IconShape for BsBriefcaseFill {
     }
 }
 
+#[derive(Copy, Clone, Debug)]
 pub struct BsRulers;
 impl IconShape for BsRulers {
     fn view_box(&self) -> String {
