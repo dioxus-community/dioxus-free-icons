@@ -8,10 +8,14 @@ edition = "2021"
 
 [dependencies]
 dioxus = { version = "0.2.4", features = ["web"] }
-dioxus-free-icons = { path = "../lib" }
+dioxus-free-icons = { path = "../lib", features = ["font-awesome"] }
 
 log = "0.4.6"
 
 # WebAssembly Debug
 wasm-logger = "0.2.0"
 console_error_panic_hook = "0.1.7"
+
+[profile.release]
+lto = true
+opt-level = 's'
