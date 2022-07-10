@@ -12,3 +12,14 @@ readme = "../../README.md"
 
 [dependencies]
 dioxus = { version = "0.2.4" }
+
+[features]
+font-awesome-brands = []
+font-awesome-regular = []
+font-awesome-solid = []
+bootstrap = []
+feather = []
+octicons = []
+hero-icons-outline = []
+hero-icons-solid = []
+ionicons = []
