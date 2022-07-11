@@ -37,7 +37,11 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
 
     let files = dir_entries
         .into_iter()
-        .filter(|e| e.path().extension() == Some(OsStr::new("svg")))
+        .filter(|e| {
+            let re = Regex::new(r".*-24.svg$").unwrap();
+            !re.is_match(&e.path().to_str().unwrap())
+                && e.path().extension() == Some(OsStr::new("svg"))
+        })
         .map(|dir| PathBuf::from(dir.path()))
         .collect::<Vec<_>>();
 
@@ -92,7 +96,7 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
 fn icon_name(path: &PathBuf) -> String {
     let filename = path.file_name().unwrap().to_str().unwrap();
     let name = filename.split('.').next().unwrap();
-    name.to_upper_camel_case()
+    name.replace("-16", "").to_upper_camel_case()
 }
 
 pub fn extract_svg_attrs(element: &Element) -> (String, String) {
