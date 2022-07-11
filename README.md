@@ -2,7 +2,7 @@
 
 Use free svg icons in your [Dioxus](https://dioxuslabs.com/) projects easily with dioxus-free-icons.
 
-More information about this crate can be found in the [crate documentation](https://docs.rs/dioxus-free-icons/0.3.0/dioxus_free_icons/).
+More information about this crate can be found in the [crate documentation](https://docs.rs/dioxus-free-icons/0.3.1/dioxus_free_icons/).
 
 ## Install
 
@@ -10,7 +10,7 @@ To use `dioxus-free-icons`, add this to your Cargo.toml:
 
 ```toml
 [dependencies]
-dioxus-free-icons = { version = "0.3.0", features = ["font-awesome-brands"] }
+dioxus-free-icons = { version = "0.3.1", features = ["font-awesome-brands"] }
 ```
 
 ## Example
