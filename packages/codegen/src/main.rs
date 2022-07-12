@@ -39,8 +39,6 @@ fn main() {
     let fi_output_path = format!("{}/fi_icons.rs", OUTPUT_BASE_PATH);
     create_icon_file::create_icon_file(&FI_SVG_BASE_PATH, &fi_output_path, "Fi");
 
-    // create_icon_file::create_icon_file("./svgs", "./test.rs", "Bs");
-
     // create material design icons
     const MI_SVG_BASE_PATH: &str = "../../icon_resources/material-design-icons/src";
     for icon_type in vec![
