@@ -2,7 +2,7 @@
 
 Use free svg icons in your [Dioxus](https://dioxuslabs.com/) projects easily with dioxus-free-icons.
 
-More information about this crate can be found in the [crate documentation](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/).
+More information about this crate can be found in the [crate documentation](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/).
 
 ## Install
 
@@ -10,37 +10,37 @@ To use `dioxus-free-icons`, add this to your Cargo.toml:
 
 ```toml
 [dependencies]
-dioxus-free-icons = { version = "0.3.2", features = ["font-awesome-brands"] }
+dioxus-free-icons = { version = "0.4.0", features = ["font-awesome-brands"] }
 ```
 
 ### Support features
 
-- [bootstrap](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/bs_icons/index.html)
-- [font-awesome-brands](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/fa_brands_icons/index.html)
-- [font-awesome-regular](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/fa_regular_icons/index.html)
-- [font-awesome-solid](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/fa_solid_icons/index.html)
-- [feather](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/fi_icons/index.html)
-- [octicons](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/go_icons/index.html)
-- [hero-icons-outline](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/hi_outline_icons/index.html)
-- [hero-icons-solid](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/hi_solid_icons/index.html)
-- [ionicons](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/io_icons/index.html)
-- [material-design-icons-action](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_action_icons/index.html)
-- [material-design-icons-alert](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_alert_icons/index.html)
-- [material-design-icons-av](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_av_icons/index.html)
-- [material-design-icons-communication](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_communication_icons/index.html)
-- [material-design-icons-content](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_content_icons/index.html)
-- [material-design-icons-device](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/io_icons/index.html)
-- [material-design-icons-editor](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_editor_icons/index.html)
-- [material-design-icons-file](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_file_icons/index.html)
-- [material-design-icons-hardware](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_hardware_icons/index.html)
-- [material-design-icons-home](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_home_icons/index.html)
-- [material-design-icons-image](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_image_icons/index.html)
-- [material-design-icons-maps](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_maps_icons/index.html)
-- [material-design-icons-navigation](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_navigation_icons/index.html)
-- [material-design-icons-notification](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_notification_icons/index.html)
-- [material-design-icons-places](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_places_icons/index.html)
-- [material-design-icons-social](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_social_icons/index.html)
-- [material-design-icons-toggle](https://docs.rs/dioxus-free-icons/0.3.2/dioxus_free_icons/icons/md_toggle_icons/index.html)
+- [bootstrap](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/bs_icons/index.html)
+- [font-awesome-brands](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/fa_brands_icons/index.html)
+- [font-awesome-regular](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/fa_regular_icons/index.html)
+- [font-awesome-solid](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/fa_solid_icons/index.html)
+- [feather](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/fi_icons/index.html)
+- [octicons](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/go_icons/index.html)
+- [hero-icons-outline](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/hi_outline_icons/index.html)
+- [hero-icons-solid](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/hi_solid_icons/index.html)
+- [ionicons](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/io_icons/index.html)
+- [material-design-icons-action](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_action_icons/index.html)
+- [material-design-icons-alert](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_alert_icons/index.html)
+- [material-design-icons-av](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_av_icons/index.html)
+- [material-design-icons-communication](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_communication_icons/index.html)
+- [material-design-icons-content](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_content_icons/index.html)
+- [material-design-icons-device](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/io_icons/index.html)
+- [material-design-icons-editor](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_editor_icons/index.html)
+- [material-design-icons-file](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_file_icons/index.html)
+- [material-design-icons-hardware](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_hardware_icons/index.html)
+- [material-design-icons-home](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_home_icons/index.html)
+- [material-design-icons-image](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_image_icons/index.html)
+- [material-design-icons-maps](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_maps_icons/index.html)
+- [material-design-icons-navigation](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_navigation_icons/index.html)
+- [material-design-icons-notification](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_notification_icons/index.html)
+- [material-design-icons-places](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_places_icons/index.html)
+- [material-design-icons-social](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_social_icons/index.html)
+- [material-design-icons-toggle](https://docs.rs/dioxus-free-icons/0.4.0/dioxus_free_icons/icons/md_toggle_icons/index.html)
 
 ## Example
 
