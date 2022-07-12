@@ -30,20 +30,7 @@ impl IconShape for {ICON_NAME} {
 "#;
 
 pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
-    let dir_entries = WalkDir::new(svg_path)
-        .into_iter()
-        .filter_map(|e| e.ok())
-        .collect::<Vec<_>>();
-
-    let files = dir_entries
-        .into_iter()
-        .filter(|e| {
-            let re = Regex::new(r".*-24.svg$").unwrap();
-            !re.is_match(&e.path().to_str().unwrap())
-                && e.path().extension() == Some(OsStr::new("svg"))
-        })
-        .map(|dir| PathBuf::from(dir.path()))
-        .collect::<Vec<_>>();
+    let files = collect_svg_files(svg_path, icon_prefix);
 
     let icon_file = files
         .into_iter()
@@ -67,7 +54,7 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
 
             let svg_element = &elements[0];
             let svg_child_elements = &elements[1..];
-            let icon_name = icon_name(&file);
+            let icon_name = icon_name(&file, icon_prefix);
             let (view_box, xmlns) = extract_svg_attrs(svg_element);
             let child_elements = extract_svg_child_elements(svg_child_elements);
 
@@ -93,10 +80,52 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
     file.flush().unwrap();
 }
 
-fn icon_name(path: &PathBuf) -> String {
-    let filename = path.file_name().unwrap().to_str().unwrap();
-    let name = filename.split('.').next().unwrap();
-    name.replace("-16", "").to_upper_camel_case()
+fn collect_svg_files(svg_path: &str, icon_prefix: &str) -> Vec<PathBuf> {
+    let dir_entries = WalkDir::new(svg_path)
+        .into_iter()
+        .filter_map(|e| e.ok())
+        .collect::<Vec<_>>();
+
+    dir_entries
+        .into_iter()
+        .filter(|e| match icon_prefix {
+            "Go" => {
+                let re = Regex::new(r".*-24.svg$").unwrap();
+                return !re.is_match(&e.path().to_str().unwrap())
+                    && e.path().extension() == Some(OsStr::new("svg"));
+            }
+            "Md" => {
+                let path_str = e.path().as_os_str().to_str().unwrap();
+                let split_vec = path_str.split('/').collect::<Vec<_>>();
+                return split_vec.contains(&"materialicons")
+                    && e.file_name().to_str().unwrap() == "24px.svg"
+                    && e.path().extension() == Some(OsStr::new("svg"));
+            }
+            _ => return e.path().extension() == Some(OsStr::new("svg")),
+        })
+        .map(|dir| PathBuf::from(dir.path()))
+        .collect::<Vec<_>>()
+}
+
+fn icon_name(path: &PathBuf, icon_prefix: &str) -> String {
+    match icon_prefix {
+        "Go" => {
+            let filename = path.file_name().unwrap().to_str().unwrap();
+            let name = filename.split('.').next().unwrap();
+            name.replace("-16", "").to_upper_camel_case()
+        }
+        "Md" => {
+            let path_str = path.as_os_str().to_str().unwrap();
+            let split_vec = path_str.split('/').collect::<Vec<_>>();
+            let name = split_vec[split_vec.len() - 3];
+            name.to_upper_camel_case()
+        }
+        _ => {
+            let filename = path.file_name().unwrap().to_str().unwrap();
+            let name = filename.split('.').next().unwrap();
+            name.to_upper_camel_case()
+        }
+    }
 }
 
 pub fn extract_svg_attrs(element: &Element) -> (String, String) {
