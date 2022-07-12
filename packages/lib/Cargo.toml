@@ -8,8 +8,6 @@ license = "MIT"
 repository = "https://github.com/nissy-dev/dioxus-free-icons"
 readme = "../../README.md"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
 dioxus = { version = "0.2.4" }
 
@@ -23,3 +21,23 @@ octicons = []
 hero-icons-outline = []
 hero-icons-solid = []
 ionicons = []
+material-design-icons-action = []
+material-design-icons-alert = []
+material-design-icons-av = []
+material-design-icons-communication = []
+material-design-icons-content = []
+material-design-icons-device = []
+material-design-icons-editor = []
+material-design-icons-file = []
+material-design-icons-hardware = []
+material-design-icons-home = []
+material-design-icons-image = []
+material-design-icons-maps = []
+material-design-icons-navigation = []
+material-design-icons-notification = []
+material-design-icons-places = []
+material-design-icons-social = []
+material-design-icons-toggle = []
+
+[package.metadata.docs.rs]
+all-features = true

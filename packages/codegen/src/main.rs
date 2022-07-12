@@ -40,4 +40,32 @@ fn main() {
     create_icon_file::create_icon_file(&FI_SVG_BASE_PATH, &fi_output_path, "Fi");
 
     // create_icon_file::create_icon_file("./svgs", "./test.rs", "Bs");
+
+    // create material design icons
+    const MI_SVG_BASE_PATH: &str = "../../icon_resources/material-design-icons/src";
+    for icon_type in vec![
+        "action",
+        "alert",
+        "av",
+        "communication",
+        "content",
+        "device",
+        "editor",
+        "file",
+        "hardware",
+        "home",
+        "image",
+        "maps",
+        "navigation",
+        "notification",
+        "places",
+        "social",
+        "toggle",
+    ]
+    .into_iter()
+    {
+        let svg_path = format!("{}/{}", MI_SVG_BASE_PATH, icon_type);
+        let output_path = format!("{}/md_{}_icons.rs", OUTPUT_BASE_PATH, icon_type);
+        create_icon_file::create_icon_file(&svg_path, &output_path, "Md");
+    }
 }

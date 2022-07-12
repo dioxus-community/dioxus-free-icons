@@ -94,6 +94,13 @@ fn collect_svg_files(svg_path: &str, icon_prefix: &str) -> Vec<PathBuf> {
                 return !re.is_match(&e.path().to_str().unwrap())
                     && e.path().extension() == Some(OsStr::new("svg"));
             }
+            "Md" => {
+                let path_str = e.path().as_os_str().to_str().unwrap();
+                let split_vec = path_str.split('/').collect::<Vec<_>>();
+                return split_vec.contains(&"materialicons")
+                    && e.file_name().to_str().unwrap() == "24px.svg"
+                    && e.path().extension() == Some(OsStr::new("svg"));
+            }
             _ => return e.path().extension() == Some(OsStr::new("svg")),
         })
         .map(|dir| PathBuf::from(dir.path()))
@@ -106,6 +113,12 @@ fn icon_name(path: &PathBuf, icon_prefix: &str) -> String {
             let filename = path.file_name().unwrap().to_str().unwrap();
             let name = filename.split('.').next().unwrap();
             name.replace("-16", "").to_upper_camel_case()
+        }
+        "Md" => {
+            let path_str = path.as_os_str().to_str().unwrap();
+            let split_vec = path_str.split('/').collect::<Vec<_>>();
+            let name = split_vec[split_vec.len() - 3];
+            name.to_upper_camel_case()
         }
         _ => {
             let filename = path.file_name().unwrap().to_str().unwrap();
