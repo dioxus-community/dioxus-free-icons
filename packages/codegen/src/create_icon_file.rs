@@ -90,16 +90,14 @@ fn collect_svg_files(svg_path: &str, icon_prefix: &str) -> Vec<PathBuf> {
         .into_iter()
         .filter(|e| match icon_prefix {
             "Go" => {
-                let re = Regex::new(r".*-24.svg$").unwrap();
-                return !re.is_match(&e.path().to_str().unwrap())
-                    && e.path().extension() == Some(OsStr::new("svg"));
+                let re = Regex::new(r".*-16.svg$").unwrap();
+                return re.is_match(&e.path().to_str().unwrap());
             }
             "Md" => {
                 let path_str = e.path().as_os_str().to_str().unwrap();
                 let split_vec = path_str.split('/').collect::<Vec<_>>();
                 return split_vec.contains(&"materialicons")
-                    && e.file_name().to_str().unwrap() == "24px.svg"
-                    && e.path().extension() == Some(OsStr::new("svg"));
+                    && e.file_name().to_str().unwrap() == "24px.svg";
             }
             _ => return e.path().extension() == Some(OsStr::new("svg")),
         })
