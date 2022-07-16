@@ -19,7 +19,8 @@ fn app(cx: Scope) -> Element {
             h3 { "Frontend that scales." }
             p { "Dioxus is a portable, performant, and ergonomic framework for building cross-platform user interfaces in Rust." },
             Icon {
-                size: 60,
+                width: 60,
+                height: 60,
                 icon: FaRust,
             }
         }
