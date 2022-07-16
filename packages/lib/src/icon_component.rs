@@ -10,20 +10,23 @@ pub trait IconShape {
 /// Icon component Props
 #[derive(PartialEq, Props)]
 pub struct IconProps<'a, T: IconShape> {
-    /// An optional class for the `<svg>` element.
-    #[props(default)]
-    pub class: Option<&'static str>,
-    /// The size of the `<svg>` element. All the heroicons are square, so this
-    /// will be turned into the `height` and `width` attributes for the
-    /// `<svg>`. Defaults to 20.
-    #[props(default = 20)]
-    pub size: u32,
-    /// The color to use for filling the icon. This is only relevant for solid
-    /// icons. Defaults to "currentColor".
-    #[props(default = "currentColor")]
-    pub fill: &'a str,
     /// The icon shape to use.
     pub icon: T,
+    /// The height of the `<svg>` element. Defaults to 20.
+    #[props(default = 20)]
+    pub height: u32,
+    /// The width of the `<svg>` element. Defaults to 20.
+    #[props(default = 20)]
+    pub width: u32,
+    /// The color to use for filling the icon. Defaults to "currentColor".
+    #[props(default = "currentColor")]
+    pub fill: &'a str,
+    /// An class for the `<svg>` element.
+    #[props(default = "")]
+    pub class: &'a str,
+    /// An accessible, short-text description for the icon.
+    #[props(default = "")]
+    pub title: &'a str,
 }
 
 /// Icon component which generates SVG elements
@@ -33,12 +36,15 @@ pub fn Icon<'a, T: IconShape>(cx: Scope<'a, IconProps<'a, T>>) -> Element<'a> {
         svg {
             stroke: "currentColor",
             stroke_width: "0",
-            class: format_args!("{}", cx.props.class.unwrap_or("")),
-            height: format_args!("{}", cx.props.size),
-            width: format_args!("{}", cx.props.size),
+            class: format_args!("{}", cx.props.class),
+            height: format_args!("{}", cx.props.height),
+            width: format_args!("{}", cx.props.width),
             view_box: format_args!("{}", cx.props.icon.view_box()),
             xmlns: format_args!("{}", cx.props.icon.xmlns()),
             fill: format_args!("{}", cx.props.fill),
+            title {
+                "{cx.props.title}"
+            }
             cx.props.icon.child_elements()
         }
     })
