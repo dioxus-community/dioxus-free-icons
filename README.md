@@ -1,5 +1,7 @@
 # dioxus-free-icons
 
+[![Crates.io](https://img.shields.io/crates/v/dioxus-free-icons)](https://crates.io/crates/dioxus-free-icons)
+
 Use free svg icons in your [Dioxus](https://dioxuslabs.com/) projects easily with dioxus-free-icons.
 
 More information about this crate can be found in the [crate documentation](https://docs.rs/dioxus-free-icons/0.5.0/dioxus_free_icons/).
