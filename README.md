@@ -17,6 +17,8 @@ dioxus-free-icons = { version = "0.5.0", features = ["font-awesome-brands"] }
 
 ### Support features
 
+The following features are available. Please see [react-icons site](https://react-icons.github.io/react-icons) to check the icon name and icon design. 
+
 - [bootstrap](https://docs.rs/dioxus-free-icons/0.5.0/dioxus_free_icons/icons/bs_icons/index.html)
 - [font-awesome-brands](https://docs.rs/dioxus-free-icons/0.5.0/dioxus_free_icons/icons/fa_brands_icons/index.html)
 - [font-awesome-regular](https://docs.rs/dioxus-free-icons/0.5.0/dioxus_free_icons/icons/fa_regular_icons/index.html)
@@ -56,7 +58,8 @@ use dioxus_free_icons::Icon;
 fn RustIcon(cx: Scope) -> Element {
     cx.render(rsx! {
         Icon {
-            size: 30,
+            width: 30,
+            height: 30,
             fill: "black",
             icon: Icon::FaRust,
         }
