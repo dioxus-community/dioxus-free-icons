@@ -12,7 +12,8 @@
 //! fn RustIcon(cx: Scope) -> Element {
 //!     cx.render(rsx! {
 //!         Icon {
-//!             size: 30,
+//!             width: 30,
+//!             height: 30,
 //!             fill: "black",
 //!             icon: Icon::FaRust,
 //!         }
