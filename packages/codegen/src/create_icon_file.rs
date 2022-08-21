@@ -126,7 +126,7 @@ fn icon_name(path: &PathBuf, icon_prefix: &str) -> String {
     }
 }
 
-pub fn extract_svg_attrs(element: &Element) -> (String, String) {
+fn extract_svg_attrs(element: &Element) -> (String, String) {
     let view_box = element.attr("viewBox").unwrap();
     let xmlns = element
         .attr("xmlns")
@@ -134,7 +134,7 @@ pub fn extract_svg_attrs(element: &Element) -> (String, String) {
     return (String::from(view_box), String::from(xmlns));
 }
 
-pub fn extract_svg_child_elements(elements: &[&Element]) -> String {
+fn extract_svg_child_elements(elements: &[&Element]) -> String {
     elements
         .into_iter()
         .map(|element| {
