@@ -61,7 +61,7 @@ fn RustIcon(cx: Scope) -> Element {
             width: 30,
             height: 30,
             fill: "black",
-            icon: Icon::FaRust,
+            icon: FaRust,
         }
     })
 }
