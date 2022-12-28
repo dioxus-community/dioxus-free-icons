@@ -13,7 +13,6 @@ impl IconShape for MdSensorDoor {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -36,7 +35,6 @@ impl IconShape for MdSensorWindow {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }

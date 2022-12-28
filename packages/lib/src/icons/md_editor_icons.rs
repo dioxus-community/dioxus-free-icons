@@ -14,7 +14,6 @@ impl IconShape for MdFormatPaint {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M18 4V3c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V6h1v4H9v11c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-9h8V4h-3z",
@@ -36,7 +35,6 @@ impl IconShape for MdMonetizationOn {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.91s4.18 1.39 4.18 3.91c-.01 1.83-1.38 2.83-3.12 3.16z",
@@ -58,7 +56,6 @@ impl IconShape for MdFormatUnderlined {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M12 17c3.31 0 6-2.69 6-6V3h-2.5v8c0 1.93-1.57 3.5-3.5 3.5S8.5 12.93 8.5 11V3H6v8c0 3.31 2.69 6 6 6zm-7 2v2h14v-2H5z",
@@ -80,7 +77,6 @@ impl IconShape for MdFormatItalic {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M10 4v3h2.21l-3.42 8H6v3h8v-3h-2.21l3.42-8H18V4z",
@@ -102,7 +98,6 @@ impl IconShape for MdInsertPhoto {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z",
@@ -124,7 +119,6 @@ impl IconShape for MdFormatListBulleted {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M4 10.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5-.67-1.5-1.5-1.5zm0-6c-.83 0-1.5.67-1.5 1.5S3.17 7.5 4 7.5 5.5 6.83 5.5 6 4.83 4.5 4 4.5zm0 12c-.83 0-1.5.68-1.5 1.5s.68 1.5 1.5 1.5 1.5-.68 1.5-1.5-.67-1.5-1.5-1.5zM7 19h14v-2H7v2zm0-6h14v-2H7v2zm0-8v2h14V5H7z",
@@ -146,7 +140,6 @@ impl IconShape for MdInsertEmoticon {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z",
@@ -168,7 +161,6 @@ impl IconShape for MdFormatShapes {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M23 7V1h-6v2H7V1H1v6h2v10H1v6h6v-2h10v2h6v-6h-2V7h2zM3 3h2v2H3V3zm2 18H3v-2h2v2zm12-2H7v-2H5V7h2V5h10v2h2v10h-2v2zm4 2h-2v-2h2v2zM19 5V3h2v2h-2zm-5.27 9h-3.49l-.73 2H7.89l3.4-9h1.4l3.41 9h-1.63l-.74-2zm-3.04-1.26h2.61L12 8.91l-1.31 3.83z",
@@ -190,7 +182,6 @@ impl IconShape for MdInsertInvitation {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z",
@@ -212,7 +203,6 @@ impl IconShape for MdAddComment {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM17 11h-4v4h-2v-4H7V9h4V5h2v4h4v2z",
@@ -234,7 +224,6 @@ impl IconShape for MdBorderBottom {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M9 11H7v2h2v-2zm4 4h-2v2h2v-2zM9 3H7v2h2V3zm4 8h-2v2h2v-2zM5 3H3v2h2V3zm8 4h-2v2h2V7zm4 4h-2v2h2v-2zm-4-8h-2v2h2V3zm4 0h-2v2h2V3zm2 10h2v-2h-2v2zm0 4h2v-2h-2v2zM5 7H3v2h2V7zm14-4v2h2V3h-2zm0 6h2V7h-2v2zM5 11H3v2h2v-2zM3 21h18v-2H3v2zm2-6H3v2h2v-2z",
@@ -255,7 +244,6 @@ impl IconShape for MdPostAdd {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -297,7 +285,6 @@ impl IconShape for MdInsertChartOutlined {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4zm2.5 2.1h-15V5h15v14.1zm0-16.1h-15c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z",
@@ -319,7 +306,6 @@ impl IconShape for MdModeComment {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18z",
@@ -341,7 +327,6 @@ impl IconShape for MdTableChart {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M10 10.02h5V21h-5zM17 21h3c1.1 0 2-.9 2-2v-9h-5v11zm3-18H5c-1.1 0-2 .9-2 2v3h19V5c0-1.1-.9-2-2-2zM3 19c0 1.1.9 2 2 2h3V10H3v9z",
@@ -363,7 +348,6 @@ impl IconShape for MdFormatColorReset {
         rsx! {
             path {
                 d: "M0 0h24v24H0zm0 0h24v24H0zm0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M18 14c0-4-6-10.8-6-10.8s-1.33 1.51-2.73 3.52l8.59 8.59c.09-.42.14-.86.14-1.31zm-.88 3.12L12.5 12.5 5.27 5.27 4 6.55l3.32 3.32C6.55 11.32 6 12.79 6 14c0 3.31 2.69 6 6 6 1.52 0 2.9-.57 3.96-1.5l2.63 2.63 1.27-1.27-2.74-2.74z",
@@ -385,7 +369,6 @@ impl IconShape for MdBorderVertical {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3 9h2V7H3v2zm0-4h2V3H3v2zm4 16h2v-2H7v2zm0-8h2v-2H7v2zm-4 0h2v-2H3v2zm0 8h2v-2H3v2zm0-4h2v-2H3v2zM7 5h2V3H7v2zm12 12h2v-2h-2v2zm-8 4h2V3h-2v18zm8 0h2v-2h-2v2zm0-8h2v-2h-2v2zm0-10v2h2V3h-2zm0 6h2V7h-2v2zm-4-4h2V3h-2v2zm0 16h2v-2h-2v2zm0-8h2v-2h-2v2z",
@@ -406,7 +389,6 @@ impl IconShape for MdSubscript {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -430,7 +412,6 @@ impl IconShape for MdBarChart {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z",
@@ -452,7 +433,6 @@ impl IconShape for MdPieChart {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97z",
@@ -474,7 +454,6 @@ impl IconShape for MdAddChart {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M6 9.99h2v7H6zm8 3h2v4h-2zm-4-6h2v10h-2zM20 7V4h-2v3h-3v2h3v3h2V9h3V7zm-2 12H4V5h12V3H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-5h-2v5z",
@@ -495,7 +474,6 @@ impl IconShape for MdStackedLineChart {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -519,7 +497,6 @@ impl IconShape for MdTitle {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M5 4v3h5.5v12h3V7H19V4z",
@@ -540,7 +517,6 @@ impl IconShape for MdHighlight {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -564,7 +540,6 @@ impl IconShape for MdFormatTextdirectionLToR {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M9 10v5h2V4h2v11h2V4h2V2H9C6.79 2 5 3.79 5 6s1.79 4 4 4zm12 8l-4-4v3H5v2h12v3l4-4z",
@@ -586,7 +561,6 @@ impl IconShape for MdInsertDriveFile {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M6 2c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z",
@@ -608,7 +582,6 @@ impl IconShape for MdBorderClear {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M7 5h2V3H7v2zm0 8h2v-2H7v2zm0 8h2v-2H7v2zm4-4h2v-2h-2v2zm0 4h2v-2h-2v2zm-8 0h2v-2H3v2zm0-4h2v-2H3v2zm0-4h2v-2H3v2zm0-4h2V7H3v2zm0-4h2V3H3v2zm8 8h2v-2h-2v2zm8 4h2v-2h-2v2zm0-4h2v-2h-2v2zm0 8h2v-2h-2v2zm0-12h2V7h-2v2zm-8 0h2V7h-2v2zm8-6v2h2V3h-2zm-8 2h2V3h-2v2zm4 16h2v-2h-2v2zm0-8h2v-2h-2v2zm0-8h2V3h-2v2z",
@@ -629,7 +602,6 @@ impl IconShape for MdHeight {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -653,7 +625,6 @@ impl IconShape for MdFormatQuote {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z",
@@ -675,7 +646,6 @@ impl IconShape for MdVerticalAlignTop {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M8 11h3v10h2V11h3l-4-4-4 4zM4 3v2h16V3H4z",
@@ -697,7 +667,6 @@ impl IconShape for MdFormatListNumbered {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M2 17h2v.5H3v1h1v.5H2v1h3v-4H2v1zm1-9h1V4H2v1h1v3zm-1 3h1.8L2 13.1v.9h3v-1H3.2L5 10.9V10H2v1zm5-6v2h14V5H7zm0 14h14v-2H7v2zm0-6h14v-2H7v2z",
@@ -718,7 +687,6 @@ impl IconShape for MdFormatColorFill {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -742,7 +710,6 @@ impl IconShape for MdBubbleChart {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             circle {
                 cx: "7.2",
@@ -776,7 +743,6 @@ impl IconShape for MdVerticalAlignCenter {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M8 19h3v4h2v-4h3l-4-4-4 4zm8-14h-3V1h-2v4H8l4 4 4-4zM4 11v2h16v-2H4z",
@@ -797,7 +763,6 @@ impl IconShape for MdDragHandle {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -821,7 +786,6 @@ impl IconShape for MdBorderLeft {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M11 21h2v-2h-2v2zm0-4h2v-2h-2v2zm0-12h2V3h-2v2zm0 4h2V7h-2v2zm0 4h2v-2h-2v2zm-4 8h2v-2H7v2zM7 5h2V3H7v2zm0 8h2v-2H7v2zm-4 8h2V3H3v18zM19 9h2V7h-2v2zm-4 12h2v-2h-2v2zm4-4h2v-2h-2v2zm0-14v2h2V3h-2zm0 10h2v-2h-2v2zm0 8h2v-2h-2v2zm-4-8h2v-2h-2v2zm0-8h2V3h-2v2z",
@@ -843,7 +807,6 @@ impl IconShape for MdFormatIndentDecrease {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M11 17h10v-2H11v2zm-8-5l4 4V8l-4 4zm0 9h18v-2H3v2zM3 3v2h18V3H3zm8 6h10V7H11v2zm0 4h10v-2H11v2z",
@@ -865,7 +828,6 @@ impl IconShape for MdFormatAlignLeft {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M15 15H3v2h12v-2zm0-8H3v2h12V7zM3 13h18v-2H3v2zm0 8h18v-2H3v2zM3 3v2h18V3H3z",
@@ -887,7 +849,6 @@ impl IconShape for MdFormatAlignJustify {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3 21h18v-2H3v2zm0-4h18v-2H3v2zm0-4h18v-2H3v2zm0-4h18V7H3v2zm0-6v2h18V3H3z",
@@ -909,7 +870,6 @@ impl IconShape for MdFormatIndentIncrease {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3 21h18v-2H3v2zM3 8v8l4-4-4-4zm8 9h10v-2H11v2zM3 3v2h18V3H3zm8 6h10V7H11v2zm0 4h10v-2H11v2z",
@@ -931,7 +891,6 @@ impl IconShape for MdInsertComment {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z",
@@ -953,7 +912,6 @@ impl IconShape for MdSpaceBar {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M18 9v4H6V9H4v6h16V9z",
@@ -975,7 +933,6 @@ impl IconShape for MdFormatClear {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3.27 5L2 6.27l6.97 6.97L6.5 19h3l1.57-3.66L16.73 21 18 19.73 3.55 5.27 3.27 5zM6 5v.18L8.82 8h2.4l-.72 1.68 2.1 2.1L14.21 8H20V5H6z",
@@ -997,7 +954,6 @@ impl IconShape for MdScatterPlot {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             circle {
                 cx: "7",
@@ -1030,7 +986,6 @@ impl IconShape for MdTextFields {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1054,7 +1009,6 @@ impl IconShape for MdBorderTop {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M7 21h2v-2H7v2zm0-8h2v-2H7v2zm4 0h2v-2h-2v2zm0 8h2v-2h-2v2zm-8-4h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2v-2H3v2zm0-4h2V7H3v2zm8 8h2v-2h-2v2zm8-8h2V7h-2v2zm0 4h2v-2h-2v2zM3 3v2h18V3H3zm16 14h2v-2h-2v2zm-4 4h2v-2h-2v2zM11 9h2V7h-2v2zm8 12h2v-2h-2v2zm-4-8h2v-2h-2v2z",
@@ -1076,7 +1030,6 @@ impl IconShape for MdScore {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 2h1.5v3l2-3h1.7l-2 3 2 3h-1.7l-2-3v3H12V5zM7 7.25h2.5V6.5H7V5h4v3.75H8.5v.75H11V11H7V7.25zM19 13l-6 6-4-4-4 4v-2.5l4-4 4 4 6-6V13z",
@@ -1098,7 +1051,6 @@ impl IconShape for MdPublish {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M5 4v2h14V4H5zm0 10h4v6h6v-6h4l-7-7-7 7z",
@@ -1119,7 +1071,6 @@ impl IconShape for MdBorderColor {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1144,7 +1095,6 @@ impl IconShape for MdNotes {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M3 18h12v-2H3v2zM3 6v2h18V6H3zm0 7h18v-2H3v2z",
@@ -1166,7 +1116,6 @@ impl IconShape for MdInsertLink {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z",
@@ -1187,7 +1136,6 @@ impl IconShape for MdShortText {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
                 x: "0",
@@ -1212,7 +1160,6 @@ impl IconShape for MdBorderOuter {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M13 7h-2v2h2V7zm0 4h-2v2h2v-2zm4 0h-2v2h2v-2zM3 3v18h18V3H3zm16 16H5V5h14v14zm-6-4h-2v2h2v-2zm-4-4H7v2h2v-2z",
@@ -1234,7 +1181,6 @@ impl IconShape for MdPieChartOutlined {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm1 2.07c3.61.45 6.48 3.33 6.93 6.93H13V4.07zM4 12c0-4.06 3.07-7.44 7-7.93v15.87c-3.93-.5-7-3.88-7-7.94zm9 7.93V13h6.93c-.45 3.61-3.32 6.48-6.93 6.93z",
@@ -1256,7 +1202,6 @@ impl IconShape for MdFormatAlignRight {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3 21h18v-2H3v2zm6-4h12v-2H9v2zm-6-4h18v-2H3v2zm6-4h12V7H9v2zM3 3v2h18V3H3z",
@@ -1277,7 +1222,6 @@ impl IconShape for MdFormatColorText {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1301,7 +1245,6 @@ impl IconShape for MdFormatTextdirectionRToL {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M10 10v5h2V4h2v11h2V4h2V2h-8C7.79 2 6 3.79 6 6s1.79 4 4 4zm-2 7v-3l-4 4 4 4v-3h12v-2H8z",
@@ -1323,7 +1266,6 @@ impl IconShape for MdFormatAlignCenter {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M7 15v2h10v-2H7zm-4 6h18v-2H3v2zm0-8h18v-2H3v2zm4-6v2h10V7H7zM3 3v2h18V3H3z",
@@ -1345,7 +1287,6 @@ impl IconShape for MdFormatBold {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M15.6 10.79c.97-.67 1.65-1.77 1.65-2.79 0-2.26-1.75-4-4-4H7v14h7.04c2.09 0 3.71-1.7 3.71-3.79 0-1.52-.86-2.82-2.15-3.42zM10 6.5h3c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-3v-3zm3.5 9H10v-3h3.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5z",
@@ -1367,7 +1308,6 @@ impl IconShape for MdBorderStyle {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M15 21h2v-2h-2v2zm4 0h2v-2h-2v2zM7 21h2v-2H7v2zm4 0h2v-2h-2v2zm8-4h2v-2h-2v2zm0-4h2v-2h-2v2zM3 3v18h2V5h16V3H3zm16 6h2V7h-2v2z",
@@ -1389,7 +1329,6 @@ impl IconShape for MdMergeType {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M17 20.41L18.41 19 15 15.59 13.59 17 17 20.41zM7.5 8H11v5.59L5.59 19 7 20.41l6-6V8h3.5L12 3.5 7.5 8z",
@@ -1411,7 +1350,6 @@ impl IconShape for MdInsertChart {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z",
@@ -1433,7 +1371,6 @@ impl IconShape for MdBorderHorizontal {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3 21h2v-2H3v2zM5 7H3v2h2V7zM3 17h2v-2H3v2zm4 4h2v-2H7v2zM5 3H3v2h2V3zm4 0H7v2h2V3zm8 0h-2v2h2V3zm-4 4h-2v2h2V7zm0-4h-2v2h2V3zm6 14h2v-2h-2v2zm-8 4h2v-2h-2v2zm-8-8h18v-2H3v2zM19 3v2h2V3h-2zm0 6h2V7h-2v2zm-8 8h2v-2h-2v2zm4 4h2v-2h-2v2zm4 0h2v-2h-2v2z",
@@ -1455,7 +1392,6 @@ impl IconShape for MdAttachFile {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M16.5 6v11.5c0 2.21-1.79 4-4 4s-4-1.79-4-4V5c0-1.38 1.12-2.5 2.5-2.5s2.5 1.12 2.5 2.5v10.5c0 .55-.45 1-1 1s-1-.45-1-1V6H10v9.5c0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5V5c0-2.21-1.79-4-4-4S7 2.79 7 5v12.5c0 3.04 2.46 5.5 5.5 5.5s5.5-2.46 5.5-5.5V6h-1.5z",
@@ -1476,7 +1412,6 @@ impl IconShape for MdStrikethroughS {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1500,7 +1435,6 @@ impl IconShape for MdPadding {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3 3v18h18V3H3zm16 16H5V5h14v14zM11 7h2v2h-2zM7 7h2v2H7zm8 0h2v2h-2z",
@@ -1521,7 +1455,6 @@ impl IconShape for MdSuperscript {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
                 x: "0",
@@ -1547,7 +1480,6 @@ impl IconShape for MdWrapText {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M4 19h6v-2H4v2zM20 5H4v2h16V5zm-3 6H4v2h13.25c1.1 0 2 .9 2 2s-.9 2-2 2H15v-2l-3 3 3 3v-2h2c2.21 0 4-1.79 4-4s-1.79-4-4-4z",
@@ -1569,7 +1501,6 @@ impl IconShape for MdFunctions {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M18 4H6v2l6.5 6L6 18v2h12v-3h-7l5-5-5-5h7z",
@@ -1590,7 +1521,6 @@ impl IconShape for MdTableRows {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1614,7 +1544,6 @@ impl IconShape for MdBorderRight {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M7 21h2v-2H7v2zM3 5h2V3H3v2zm4 0h2V3H7v2zm0 8h2v-2H7v2zm-4 8h2v-2H3v2zm8 0h2v-2h-2v2zm-8-8h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm8 8h2v-2h-2v2zm4-4h2v-2h-2v2zm4-10v18h2V3h-2zm-4 18h2v-2h-2v2zm0-16h2V3h-2v2zm-4 8h2v-2h-2v2zm0-8h2V3h-2v2zm0 4h2V7h-2v2z",
@@ -1636,7 +1565,6 @@ impl IconShape for MdFormatSize {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z",
@@ -1658,7 +1586,6 @@ impl IconShape for MdAttachMoney {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z",
@@ -1680,7 +1607,6 @@ impl IconShape for MdFormatStrikethrough {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M10 19h4v-3h-4v3zM5 4v3h5v3h4V7h5V4H5zM3 14h18v-2H3v2z",
@@ -1702,7 +1628,6 @@ impl IconShape for MdMargin {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3 3v18h18V3H3zm16 16H5V5h14v14zM11 7h2v2h-2zM7 7h2v2H7zm8 0h2v2h-2zm-8 4h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2z",
@@ -1724,7 +1649,6 @@ impl IconShape for MdMoneyOff {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M12.5 6.9c1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-.53.12-1.03.3-1.48.54l1.47 1.47c.41-.17.91-.27 1.51-.27zM5.33 4.06L4.06 5.33 7.5 8.77c0 2.08 1.56 3.21 3.91 3.91l3.51 3.51c-.34.48-1.05.91-2.42.91-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c.96-.18 1.82-.55 2.45-1.12l2.22 2.22 1.27-1.27L5.33 4.06z",
@@ -1746,7 +1670,6 @@ impl IconShape for MdModeEdit {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z",
@@ -1767,7 +1690,6 @@ impl IconShape for MdHorizontalRule {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 fill_rule: "evenodd",
                 height: "24",
                 width: "24",
@@ -1796,7 +1718,6 @@ impl IconShape for MdMultilineChart {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M22 6.92l-1.41-1.41-2.85 3.21C15.68 6.4 12.83 5 9.61 5 6.72 5 4.07 6.16 2 8l1.42 1.42C5.12 7.93 7.27 7 9.61 7c2.74 0 5.09 1.26 6.77 3.24l-2.88 3.24-4-4L2 16.99l1.5 1.5 6-6.01 4 4 4.05-4.55c.75 1.35 1.25 2.9 1.44 4.55H21c-.22-2.3-.95-4.39-2.04-6.14L22 6.92z",
@@ -1818,7 +1739,6 @@ impl IconShape for MdFormatLineSpacing {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M6 7h2.5L5 3.5 1.5 7H4v10H1.5L5 20.5 8.5 17H6V7zm4-2v2h12V5H10zm0 14h12v-2H10v2zm0-6h12v-2H10v2z",
@@ -1840,7 +1760,6 @@ impl IconShape for MdVerticalAlignBottom {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M16 13h-3V3h-2v10H8l4 4 4-4zM4 19v2h16v-2H4z",
@@ -1862,7 +1781,6 @@ impl IconShape for MdShowChart {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z",
@@ -1883,7 +1801,6 @@ impl IconShape for MdLinearScale {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1907,7 +1824,6 @@ impl IconShape for MdBorderAll {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3 3v18h18V3H3zm8 16H5v-6h6v6zm0-8H5V5h6v6zm8 8h-6v-6h6v6zm0-8h-6V5h6v6z",
@@ -1929,7 +1845,6 @@ impl IconShape for MdBorderInner {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3 21h2v-2H3v2zm4 0h2v-2H7v2zM5 7H3v2h2V7zM3 17h2v-2H3v2zM9 3H7v2h2V3zM5 3H3v2h2V3zm12 0h-2v2h2V3zm2 6h2V7h-2v2zm0-6v2h2V3h-2zm-4 18h2v-2h-2v2zM13 3h-2v8H3v2h8v8h2v-8h8v-2h-8V3zm6 18h2v-2h-2v2zm0-4h2v-2h-2v2z",
@@ -1951,7 +1866,6 @@ impl IconShape for MdFormatListNumberedRtl {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M18 17h2v.5h-1v1h1v.5h-2v1h3v-4h-3zm1-9h1V4h-2v1h1zm-1 3h1.8L18 13.1v.9h3v-1h-1.8l1.8-2.1V10h-3zM2 5h14v2H2zm0 12h14v2H2zm0-6h14v2H2z",

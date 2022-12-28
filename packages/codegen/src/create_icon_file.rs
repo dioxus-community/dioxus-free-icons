@@ -143,7 +143,7 @@ fn extract_svg_child_elements(elements: &[&Element]) -> String {
                 .attrs()
                 .filter_map(|(name, value)| {
                     let re = Regex::new(r"^data-.*$").unwrap();
-                    if !re.is_match(&name) {
+                    if !re.is_match(&name) && name != "fill" {
                         Some(format!(
                             "                {}: \"{}\",",
                             name.to_snake_case(),

@@ -14,7 +14,6 @@ impl IconShape for MdChildCare {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             circle {
                 cx: "14.5",
@@ -45,7 +44,6 @@ impl IconShape for MdMicrowave {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -87,7 +85,6 @@ impl IconShape for MdBeachAccess {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M13.127 14.56l1.43-1.43 6.44 6.443L19.57 21zm4.293-5.73l2.86-2.86c-3.95-3.95-10.35-3.96-14.3-.02 3.93-1.3 8.31-.25 11.44 2.88zM5.95 5.98c-3.94 3.95-3.93 10.35.02 14.3l2.86-2.86C5.7 14.29 4.65 9.91 5.95 5.98zm.02-.02l-.01.01c-.38 3.01 1.17 6.88 4.3 10.02l5.73-5.73c-3.13-3.13-7.01-4.68-10.02-4.3z",
@@ -108,7 +105,6 @@ impl IconShape for MdDry {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -131,7 +127,6 @@ impl IconShape for MdWaterDamage {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -154,7 +149,6 @@ impl IconShape for MdFireExtinguisher {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -178,11 +172,9 @@ impl IconShape for MdRvHookup {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M14 11h4v3h-4z",
-                fill: "none",
             }
             path {
                 d: "M20 17v-6c0-1.1-.9-2-2-2H7V7l-3 3 3 3v-2h4v3H4v3c0 1.1.9 2 2 2h2c0 1.66 1.34 3 3 3s3-1.34 3-3h8v-2h-2zm-9 3c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm7-6h-4v-3h4v3zM17 2v2H9v2h8v2l3-3z",
@@ -203,7 +195,6 @@ impl IconShape for MdTty {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
                 x: "0",
@@ -228,7 +219,6 @@ impl IconShape for MdRoomService {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M2 17h20v2H2zm11.84-9.21c.1-.24.16-.51.16-.79 0-1.1-.9-2-2-2s-2 .9-2 2c0 .28.06.55.16.79C6.25 8.6 3.27 11.93 3 16h18c-.27-4.07-3.25-7.4-7.16-8.21z",
@@ -249,7 +239,6 @@ impl IconShape for MdDoNotTouch {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -272,7 +261,6 @@ impl IconShape for MdStorefront {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -295,7 +283,6 @@ impl IconShape for MdEscalator {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -319,7 +306,6 @@ impl IconShape for MdSmokingRooms {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M2 16h15v3H2zm18.5 0H22v3h-1.5zM18 16h1.5v3H18zm.85-8.27c.62-.61 1-1.45 1-2.38C19.85 3.5 18.35 2 16.5 2v1.5c1.02 0 1.85.83 1.85 1.85S17.52 7.2 16.5 7.2v1.5c2.24 0 4 1.83 4 4.07V15H22v-2.24c0-2.22-1.28-4.14-3.15-5.03zm-2.82 2.47H14.5c-1.02 0-1.85-.98-1.85-2s.83-1.75 1.85-1.75v-1.5c-1.85 0-3.35 1.5-3.35 3.35s1.5 3.35 3.35 3.35h1.53c1.05 0 1.97.74 1.97 2.05V15h1.5v-1.64c0-1.81-1.6-3.16-3.47-3.16z",
@@ -340,7 +326,6 @@ impl IconShape for MdCountertops {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -363,7 +348,6 @@ impl IconShape for MdStroller {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -399,7 +383,6 @@ impl IconShape for MdSportsBar {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -423,7 +406,6 @@ impl IconShape for MdAllInclusive {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M18.6 6.62c-1.44 0-2.8.56-3.77 1.53L12 10.66 10.48 12h.01L7.8 14.39c-.64.64-1.49.99-2.4.99-1.87 0-3.39-1.51-3.39-3.38S3.53 8.62 5.4 8.62c.91 0 1.76.35 2.44 1.03l1.13 1 1.51-1.34L9.22 8.2C8.2 7.18 6.84 6.62 5.4 6.62 2.42 6.62 0 9.04 0 12s2.42 5.38 5.4 5.38c1.44 0 2.8-.56 3.77-1.53l2.83-2.5.01.01L13.52 12h-.01l2.69-2.39c.64-.64 1.49-.99 2.4-.99 1.87 0 3.39 1.51 3.39 3.38s-1.52 3.38-3.39 3.38c-.9 0-1.76-.35-2.44-1.03l-1.14-1.01-1.51 1.34 1.27 1.12c1.02 1.01 2.37 1.57 3.82 1.57 2.98 0 5.4-2.41 5.4-5.38s-2.42-5.37-5.4-5.37z",
@@ -445,7 +427,6 @@ impl IconShape for MdBusinessCenter {
         rsx! {
             path {
                 d: "M0 0h24v24H0zm10 5h4v2h-4zm0 0h4v2h-4z",
-                fill: "none",
             }
             path {
                 d: "M10 16v-1H3.01L3 19c0 1.11.89 2 2 2h14c1.11 0 2-.89 2-2v-4h-7v1h-4zm10-9h-4.01V5l-2-2h-4l-2 2v2H4c-1.1 0-2 .9-2 2v3c0 1.11.89 2 2 2h6v-2h4v2h6c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm-6 0h-4V5h4v2z",
@@ -466,7 +447,6 @@ impl IconShape for MdHouseSiding {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -489,7 +469,6 @@ impl IconShape for MdCarpenter {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -513,7 +492,6 @@ impl IconShape for MdFreeBreakfast {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.11 0 2-.9 2-2V5c0-1.11-.89-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z",
@@ -534,7 +512,6 @@ impl IconShape for MdEscalatorWarning {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -557,7 +534,6 @@ impl IconShape for MdGrass {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -581,7 +557,6 @@ impl IconShape for MdGolfCourse {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             circle {
                 cx: "19.5",
@@ -608,7 +583,6 @@ impl IconShape for MdCasino {
         rsx! {
             path {
                 d: "M0 0h24v24H0zm21.02 19c0 1.1-.9 2-2 2h-14c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v14z",
-                fill: "none",
             }
             path {
                 d: "M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM7.5 18c-.83 0-1.5-.67-1.5-1.5S6.67 15 7.5 15s1.5.67 1.5 1.5S8.33 18 7.5 18zm0-9C6.67 9 6 8.33 6 7.5S6.67 6 7.5 6 9 6.67 9 7.5 8.33 9 7.5 9zm4.5 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm0-9c-.83 0-1.5-.67-1.5-1.5S15.67 6 16.5 6s1.5.67 1.5 1.5S17.33 9 16.5 9z",
@@ -629,7 +603,6 @@ impl IconShape for MdTapas {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -652,7 +625,6 @@ impl IconShape for MdChargingStation {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -676,7 +648,6 @@ impl IconShape for MdSmokeFree {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M2 6l6.99 7H2v3h9.99l7 7 1.26-1.25-17-17zm18.5 7H22v3h-1.5zM18 13h1.5v3H18zm.85-8.12c.62-.61 1-1.45 1-2.38h-1.5c0 1.02-.83 1.85-1.85 1.85v1.5c2.24 0 4 1.83 4 4.07V12H22V9.92c0-2.23-1.28-4.15-3.15-5.04zM14.5 8.7h1.53c1.05 0 1.97.74 1.97 2.05V12h1.5v-1.59c0-1.8-1.6-3.16-3.47-3.16H14.5c-1.02 0-1.85-.98-1.85-2s.83-1.75 1.85-1.75V2c-1.85 0-3.35 1.5-3.35 3.35s1.5 3.35 3.35 3.35zm2.5 7.23V13h-2.93z",
@@ -697,7 +668,6 @@ impl IconShape for MdFoundation {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -720,7 +690,6 @@ impl IconShape for MdNoStroller {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -743,7 +712,6 @@ impl IconShape for MdCorporateFare {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -766,7 +734,6 @@ impl IconShape for MdNoDrinks {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -789,7 +756,6 @@ impl IconShape for MdFamilyRestroom {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -812,7 +778,6 @@ impl IconShape for MdCheckroom {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -835,7 +800,6 @@ impl IconShape for MdSoap {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -858,7 +822,6 @@ impl IconShape for MdRoofing {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -881,7 +844,6 @@ impl IconShape for MdNightShelter {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -904,7 +866,6 @@ impl IconShape for MdDoNotStep {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -928,7 +889,6 @@ impl IconShape for MdSpa {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0zm13.97 21.49c-.63.23-1.29.4-1.97.51.68-.12 1.33-.29 1.97-.51zM12 22c-.68-.12-1.33-.29-1.97-.51.64.22 1.29.39 1.97.51z",
-                fill: "none",
             }
             path {
                 d: "M8.55 12c-1.07-.71-2.25-1.27-3.53-1.61 1.28.34 2.46.9 3.53 1.61zm10.43-1.61c-1.29.34-2.49.91-3.57 1.64 1.08-.73 2.28-1.3 3.57-1.64z",
@@ -953,7 +913,6 @@ impl IconShape for MdAcUnit {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M22 11h-4.17l3.24-3.24-1.41-1.42L15 11h-2V9l4.66-4.66-1.42-1.41L13 6.17V2h-2v4.17L7.76 2.93 6.34 4.34 11 9v2H9L4.34 6.34 2.93 7.76 6.17 11H2v2h4.17l-3.24 3.24 1.41 1.42L9 13h2v2l-4.66 4.66 1.42 1.41L11 17.83V22h2v-4.17l3.24 3.24 1.42-1.41L13 15v-2h2l4.66 4.66 1.41-1.42L17.83 13H22z",
@@ -974,7 +933,6 @@ impl IconShape for MdNoFood {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -997,7 +955,6 @@ impl IconShape for MdRoomPreferences {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1020,7 +977,6 @@ impl IconShape for MdNoBackpack {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
                 y: "0",
@@ -1045,7 +1001,6 @@ impl IconShape for MdChildFriendly {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M13 2v8h8c0-4.42-3.58-8-8-8zm6.32 13.89C20.37 14.54 21 12.84 21 11H6.44l-.95-2H2v2h2.22s1.89 4.07 2.12 4.42c-1.1.59-1.84 1.75-1.84 3.08C4.5 20.43 6.07 22 8 22c1.76 0 3.22-1.3 3.46-3h2.08c.24 1.7 1.7 3 3.46 3 1.93 0 3.5-1.57 3.5-3.5 0-1.04-.46-1.97-1.18-2.61zM8 20c-.83 0-1.5-.67-1.5-1.5S7.17 17 8 17s1.5.67 1.5 1.5S8.83 20 8 20zm9 0c-.83 0-1.5-.67-1.5-1.5S16.17 17 17 17s1.5.67 1.5 1.5S17.83 20 17 20z",
@@ -1067,7 +1022,6 @@ impl IconShape for MdHotTub {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             circle {
                 cx: "7",
@@ -1093,7 +1047,6 @@ impl IconShape for MdFence {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1116,7 +1069,6 @@ impl IconShape for MdRiceBowl {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1139,7 +1091,6 @@ impl IconShape for MdNoPhotography {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1162,7 +1113,6 @@ impl IconShape for MdBento {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1185,7 +1135,6 @@ impl IconShape for MdNoCell {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1208,7 +1157,6 @@ impl IconShape for MdUmbrella {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1231,7 +1179,6 @@ impl IconShape for MdHouse {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1254,7 +1201,6 @@ impl IconShape for MdBabyChangingStation {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1277,7 +1223,6 @@ impl IconShape for MdBathtub {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1305,7 +1250,6 @@ impl IconShape for MdWash {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1329,7 +1273,6 @@ impl IconShape for MdAirportShuttle {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M17 5H3c-1.1 0-2 .89-2 2v9h2c0 1.65 1.34 3 3 3s3-1.35 3-3h5.5c0 1.65 1.34 3 3 3s3-1.35 3-3H23v-5l-6-6zM3 11V7h4v4H3zm3 6.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm7-6.5H9V7h4v4zm4.5 6.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM15 11V7h1l4 4h-5z",
@@ -1350,7 +1293,6 @@ impl IconShape for MdNoFlash {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1373,7 +1315,6 @@ impl IconShape for MdBackpack {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
                 y: "0",
@@ -1397,7 +1338,6 @@ impl IconShape for MdFoodBank {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1421,7 +1361,6 @@ impl IconShape for MdKitchen {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M18 2.01L6 2c-1.1 0-2 .89-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.11-.9-1.99-2-1.99zM18 20H6v-9.02h12V20zm0-11H6V4h12v5zM8 5h2v3H8zm0 7h2v5H8z",
@@ -1442,7 +1381,6 @@ impl IconShape for MdElevator {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1465,7 +1403,6 @@ impl IconShape for MdApartment {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -1489,7 +1426,6 @@ impl IconShape for MdPool {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M22 21c-1.11 0-1.73-.37-2.18-.64-.37-.22-.6-.36-1.15-.36-.56 0-.78.13-1.15.36-.46.27-1.07.64-2.18.64s-1.73-.37-2.18-.64c-.37-.22-.6-.36-1.15-.36-.56 0-.78.13-1.15.36-.46.27-1.08.64-2.19.64-1.11 0-1.73-.37-2.18-.64-.37-.23-.6-.36-1.15-.36s-.78.13-1.15.36c-.46.27-1.08.64-2.19.64v-2c.56 0 .78-.13 1.15-.36.46-.27 1.08-.64 2.19-.64s1.73.37 2.18.64c.37.23.59.36 1.15.36.56 0 .78-.13 1.15-.36.46-.27 1.08-.64 2.19-.64 1.11 0 1.73.37 2.18.64.37.22.6.36 1.15.36s.78-.13 1.15-.36c.45-.27 1.07-.64 2.18-.64s1.73.37 2.18.64c.37.23.59.36 1.15.36v2zm0-4.5c-1.11 0-1.73-.37-2.18-.64-.37-.22-.6-.36-1.15-.36-.56 0-.78.13-1.15.36-.45.27-1.07.64-2.18.64s-1.73-.37-2.18-.64c-.37-.22-.6-.36-1.15-.36-.56 0-.78.13-1.15.36-.45.27-1.07.64-2.18.64s-1.73-.37-2.18-.64c-.37-.22-.6-.36-1.15-.36s-.78.13-1.15.36c-.47.27-1.09.64-2.2.64v-2c.56 0 .78-.13 1.15-.36.45-.27 1.07-.64 2.18-.64s1.73.37 2.18.64c.37.22.6.36 1.15.36.56 0 .78-.13 1.15-.36.45-.27 1.07-.64 2.18-.64s1.73.37 2.18.64c.37.22.6.36 1.15.36s.78-.13 1.15-.36c.45-.27 1.07-.64 2.18-.64s1.73.37 2.18.64c.37.22.6.36 1.15.36v2zM8.67 12c.56 0 .78-.13 1.15-.36.46-.27 1.08-.64 2.19-.64 1.11 0 1.73.37 2.18.64.37.22.6.36 1.15.36s.78-.13 1.15-.36c.12-.07.26-.15.41-.23L10.48 5C8.93 3.45 7.5 2.99 5 3v2.5c1.82-.01 2.89.39 4 1.5l1 1-3.25 3.25c.31.12.56.27.77.39.37.23.59.36 1.15.36z",
@@ -1515,7 +1451,6 @@ impl IconShape for MdStairs {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
                 x: "0",
@@ -1557,7 +1492,6 @@ impl IconShape for MdWheelchairPickup {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
                 x: "0",
@@ -1582,7 +1516,6 @@ impl IconShape for MdFitnessCenter {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z",
