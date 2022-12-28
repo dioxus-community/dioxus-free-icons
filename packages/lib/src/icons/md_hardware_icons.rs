@@ -14,7 +14,6 @@ impl IconShape for MdDeviceUnknown {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M17 1H7c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 18H7V5h10v14zM12 6.72c-1.96 0-3.5 1.52-3.5 3.47h1.75c0-.93.82-1.75 1.75-1.75s1.75.82 1.75 1.75c0 1.75-2.63 1.57-2.63 4.45h1.76c0-1.96 2.62-2.19 2.62-4.45 0-1.96-1.54-3.47-3.5-3.47zm-.88 8.8h1.76v1.76h-1.76z",
@@ -36,7 +35,6 @@ impl IconShape for MdKeyboardCapslock {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M12 8.41L16.59 13 18 11.59l-6-6-6 6L7.41 13 12 8.41zM6 18h12v-2H6v2z",
@@ -58,7 +56,6 @@ impl IconShape for MdTablet {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M21 4H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 1.99-.9 1.99-2L23 6c0-1.1-.9-2-2-2zm-2 14H5V6h14v12z",
@@ -80,7 +77,6 @@ impl IconShape for MdHeadset {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
                 opacity: ".1",
             }
             path {
@@ -103,7 +99,6 @@ impl IconShape for MdKeyboardHide {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M20 3H4c-1.1 0-1.99.9-1.99 2L2 15c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9 3h2v2h-2V6zm0 3h2v2h-2V9zM8 6h2v2H8V6zm0 3h2v2H8V9zm-1 2H5V9h2v2zm0-3H5V6h2v2zm9 7H8v-2h8v2zm0-4h-2V9h2v2zm0-3h-2V6h2v2zm3 3h-2V9h2v2zm0-3h-2V6h2v2zm-7 15l4-4H8l4 4z",
@@ -143,7 +138,6 @@ impl IconShape for MdDesktopMac {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7l-2 3v1h8v-1l-2-3h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 12H3V4h18v10z",
@@ -165,7 +159,6 @@ impl IconShape for MdMemory {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M15 9H9v6h6V9zm-2 4h-2v-2h2v2zm8-2V9h-2V7c0-1.1-.9-2-2-2h-2V3h-2v2h-2V3H9v2H7c-1.1 0-2 .9-2 2v2H3v2h2v2H3v2h2v2c0 1.1.9 2 2 2h2v2h2v-2h2v2h2v-2h2c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2zm-4 6H7V7h10v10z",
@@ -187,7 +180,6 @@ impl IconShape for MdKeyboardArrowLeft {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z",
@@ -209,7 +201,6 @@ impl IconShape for MdHeadsetOff {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M12 4c3.87 0 7 3.13 7 7v2h-2.92L21 17.92V11c0-4.97-4.03-9-9-9-1.95 0-3.76.62-5.23 1.68l1.44 1.44C9.3 4.41 10.6 4 12 4zM2.27 1.72L1 3l3.33 3.32C3.49 7.68 3 9.29 3 11v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-1.17.29-2.26.79-3.22L15 17v4h3c.3 0 .59-.06.86-.14L21 23l1.27-1.27-20-20.01z",
@@ -231,7 +222,6 @@ impl IconShape for MdSimCard {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M19.99 4c0-1.1-.89-2-1.99-2h-8L4 8v12c0 1.1.9 2 2 2h12.01c1.1 0 1.99-.9 1.99-2l-.01-16zM9 19H7v-2h2v2zm8 0h-2v-2h2v2zm-8-4H7v-4h2v4zm4 4h-2v-4h2v4zm0-6h-2v-2h2v2zm4 2h-2v-4h2v4z",
@@ -253,7 +243,6 @@ impl IconShape for MdToys {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M12 12c0-3 2.5-5.5 5.5-5.5S23 9 23 12H12zm0 0c0 3-2.5 5.5-5.5 5.5S1 15 1 12h11zm0 0c-3 0-5.5-2.5-5.5-5.5S9 1 12 1v11zm0 0c3 0 5.5 2.5 5.5 5.5S15 23 12 23V12z",
@@ -275,7 +264,6 @@ impl IconShape for MdSecurity {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z",
@@ -297,7 +285,6 @@ impl IconShape for MdSpeaker {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M17 2H7c-1.1 0-2 .9-2 2v16c0 1.1.9 1.99 2 1.99L17 22c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-5 2c1.1 0 2 .9 2 2s-.9 2-2 2c-1.11 0-2-.9-2-2s.89-2 2-2zm0 16c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z",
@@ -319,7 +306,6 @@ impl IconShape for MdSmartphone {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z",
@@ -341,7 +327,6 @@ impl IconShape for MdKeyboardVoice {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M12 15c1.66 0 2.99-1.34 2.99-3L15 6c0-1.66-1.34-3-3-3S9 4.34 9 6v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 15 6.7 12H5c0 3.42 2.72 6.23 6 6.72V22h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z",
@@ -363,11 +348,9 @@ impl IconShape for MdCast {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
                 opacity: ".1",
             }
             path {
@@ -390,7 +373,6 @@ impl IconShape for MdPhonelinkOff {
         rsx! {
             path {
                 d: "M0 0h24v24H0zm0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M22 6V4H6.82l2 2H22zM1.92 1.65L.65 2.92l1.82 1.82C2.18 5.08 2 5.52 2 6v11H0v3h17.73l2.35 2.35 1.27-1.27L3.89 3.62 1.92 1.65zM4 6.27L14.73 17H4V6.27zM23 8h-6c-.55 0-1 .45-1 1v4.18l2 2V10h4v7h-2.18l3 3H23c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1z",
@@ -412,7 +394,6 @@ impl IconShape for MdPhoneAndroid {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M16 1H8C6.34 1 5 2.34 5 4v16c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V4c0-1.66-1.34-3-3-3zm-2 20h-4v-1h4v1zm3.25-3H6.75V4h10.5v14z",
@@ -433,7 +414,6 @@ impl IconShape for MdTabletAndroid {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -457,7 +437,6 @@ impl IconShape for MdGamepad {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M15 7.5V2H9v5.5l3 3 3-3zM7.5 9H2v6h5.5l3-3-3-3zM9 16.5V22h6v-5.5l-3-3-3 3zM16.5 9l-3 3 3 3H22V9h-5.5z",
@@ -479,7 +458,6 @@ impl IconShape for MdPowerInput {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M2 9v2h19V9H2zm0 6h5v-2H2v2zm7 0h5v-2H9v2zm7 0h5v-2h-5v2z",
@@ -501,7 +479,6 @@ impl IconShape for MdLaptopWindows {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M20 18v-1c1.1 0 1.99-.9 1.99-2L22 5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2v1H0v2h24v-2h-4zM4 5h16v10H4V5z",
@@ -523,7 +500,6 @@ impl IconShape for MdSpeakerGroup {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M18.2 1H9.8C8.81 1 8 1.81 8 2.8v14.4c0 .99.81 1.79 1.8 1.79l8.4.01c.99 0 1.8-.81 1.8-1.8V2.8c0-.99-.81-1.8-1.8-1.8zM14 3c1.1 0 2 .89 2 2s-.9 2-2 2-2-.89-2-2 .9-2 2-2zm0 13.5c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z",
@@ -553,7 +529,6 @@ impl IconShape for MdKeyboardReturn {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z",
@@ -575,7 +550,6 @@ impl IconShape for MdPhonelink {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M4 6h18V4H4c-1.1 0-2 .9-2 2v11H0v3h14v-3H4V6zm19 2h-6c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1zm-1 9h-4v-7h4v7z",
@@ -597,7 +571,6 @@ impl IconShape for MdVideogameAsset {
         rsx! {
             path {
                 d: "M0 0v24h24V0H0zm23 16c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h18c1.1 0 2 .9 2 2v8z",
-                fill: "none",
             }
             path {
                 d: "M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4-3c-.83 0-1.5-.67-1.5-1.5S18.67 9 19.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z",
@@ -619,7 +592,6 @@ impl IconShape for MdTv {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z",
@@ -641,7 +613,6 @@ impl IconShape for MdMouse {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M13 1.07V9h7c0-4.08-3.05-7.44-7-7.93zM4 15c0 4.42 3.58 8 8 8s8-3.58 8-8v-4H4v4zm7-13.93C7.05 1.56 4 4.92 4 9h7V1.07z",
@@ -662,7 +633,6 @@ impl IconShape for MdBrowserNotSupported {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -689,7 +659,6 @@ impl IconShape for MdKeyboardArrowDown {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z",
@@ -732,7 +701,6 @@ impl IconShape for MdDeveloperBoard {
             }
             path {
                 d: "M0 0h24v24H0zm0 0h24v24H0z",
-                fill: "none",
             }
         }
     }
@@ -751,7 +719,6 @@ impl IconShape for MdKeyboardArrowUp {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z",
@@ -773,7 +740,6 @@ impl IconShape for MdLaptopMac {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M20 18c1.1 0 1.99-.9 1.99-2L22 5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2H0c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2h-4zM4 5h16v11H4V5zm8 14c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z",
@@ -794,7 +760,6 @@ impl IconShape for MdPointOfSale {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
             }
@@ -818,7 +783,6 @@ impl IconShape for MdHeadsetMic {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
                 opacity: ".1",
             }
             path {
@@ -841,11 +805,9 @@ impl IconShape for MdCastConnected {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
                 opacity: ".1",
             }
             path {
@@ -868,7 +830,6 @@ impl IconShape for MdWatch {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
                 opacity: ".1",
             }
             path {
@@ -891,7 +852,6 @@ impl IconShape for MdLaptopChromebook {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M22 18V3H2v15H0v2h24v-2h-2zm-8 0h-4v-1h4v1zm6-3H4V5h16v10z",
@@ -916,7 +876,6 @@ impl IconShape for MdCastForEducation {
             }
             path {
                 d: "M0,0h24v24H0V0z",
-                fill: "none",
             }
         }
     }
@@ -935,7 +894,6 @@ impl IconShape for MdDesktopWindows {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H3V4h18v12z",
@@ -957,7 +915,6 @@ impl IconShape for MdPhoneIphone {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M15.5 1h-8C6.12 1 5 2.12 5 3.5v17C5 21.88 6.12 23 7.5 23h8c1.38 0 2.5-1.12 2.5-2.5v-17C18 2.12 16.88 1 15.5 1zm-4 21c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5-4H7V4h9v14z",
@@ -979,7 +936,6 @@ impl IconShape for MdKeyboardTab {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M11.59 7.41L15.17 11H1v2h14.17l-3.59 3.59L13 18l6-6-6-6-1.41 1.41zM20 6v12h2V6h-2z",
@@ -1000,7 +956,6 @@ impl IconShape for MdLaptop {
     fn child_elements(&self) -> LazyNodes {
         rsx! {
             rect {
-                fill: "none",
                 height: "24",
                 width: "24",
                 x: "0",
@@ -1025,11 +980,9 @@ impl IconShape for MdDeviceHub {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M17 16l-4-4V8.82C14.16 8.4 15 7.3 15 6c0-1.66-1.34-3-3-3S9 4.34 9 6c0 1.3.84 2.4 2 2.82V12l-4 4H3v5h5v-3.05l4-4.2 4 4.2V21h5v-5h-4z",
@@ -1051,7 +1004,6 @@ impl IconShape for MdKeyboardBackspace {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z",
@@ -1073,7 +1025,6 @@ impl IconShape for MdComputer {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z",
@@ -1095,7 +1046,6 @@ impl IconShape for MdScanner {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M19.8 10.7L4.2 5l-.7 1.9L17.6 12H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-5.5c0-.8-.5-1.6-1.2-1.8zM7 17H5v-2h2v2zm12 0H9v-2h10v2z",
@@ -1117,7 +1067,6 @@ impl IconShape for MdDevicesOther {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M3 6h18V4H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4v-2H3V6zm10 6H9v1.78c-.61.55-1 1.33-1 2.22s.39 1.67 1 2.22V20h4v-1.78c.61-.55 1-1.34 1-2.22s-.39-1.67-1-2.22V12zm-2 5.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM22 8h-6c-.5 0-1 .5-1 1v10c0 .5.5 1 1 1h6c.5 0 1-.5 1-1V9c0-.5-.5-1-1-1zm-1 10h-4v-8h4v8z",
@@ -1139,7 +1088,6 @@ impl IconShape for MdConnectedTv {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12zM4 14v2h2c0-1.11-.89-2-2-2zm0-3v1.43c1.97 0 3.57 1.6 3.57 3.57H9c0-2.76-2.24-5-5-5zm0-3v1.45c3.61 0 6.55 2.93 6.55 6.55H12c0-4.42-3.59-8-8-8z",
@@ -1164,7 +1112,6 @@ impl IconShape for MdKeyboard {
             }
             path {
                 d: "M0 0h24v24H0zm0 0h24v24H0z",
-                fill: "none",
             }
         }
     }
@@ -1183,7 +1130,6 @@ impl IconShape for MdDock {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M8 23h8v-2H8v2zm8-21.99L8 1c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM16 15H8V5h8v10z",
@@ -1205,7 +1151,6 @@ impl IconShape for MdKeyboardArrowRight {
         rsx! {
             path {
                 d: "M0 0h24v24H0V0z",
-                fill: "none",
             }
             path {
                 d: "M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z",
@@ -1227,7 +1172,6 @@ impl IconShape for MdRouter {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
-                fill: "none",
             }
             path {
                 d: "M20.2 5.9l.8-.8C19.6 3.7 17.8 3 16 3s-3.6.7-5 2.1l.8.8C13 4.8 14.5 4.2 16 4.2s3 .6 4.2 1.7zm-.9.8c-.9-.9-2.1-1.4-3.3-1.4s-2.4.5-3.3 1.4l.8.8c.7-.7 1.6-1 2.5-1 .9 0 1.8.3 2.5 1l.8-.8zM19 13h-2V9h-2v4H5c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2zM8 18H6v-2h2v2zm3.5 0h-2v-2h2v2zm3.5 0h-2v-2h2v2z",
