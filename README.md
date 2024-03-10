@@ -55,15 +55,15 @@ use dioxus::prelude::*;
 use dioxus_free_icons::icons::fa_brands_icons::FaRust;
 use dioxus_free_icons::Icon;
 
-fn RustIcon(cx: Scope) -> Element {
-    cx.render(rsx! {
+fn RustIcon() -> Element {
+    rsx!(
         Icon {
             width: 30,
             height: 30,
             fill: "black",
             icon: FaRust,
         }
-    })
+    )
 }
 ```
 
@@ -102,7 +102,7 @@ cargo run
 ```sh
 cd packages/exmaple
 cargo install dioxus-cli
-dioxus serve
+dx serve
 ```
 
 ### Update icons

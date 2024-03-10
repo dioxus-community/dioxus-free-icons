@@ -4,12 +4,12 @@ use dioxus::prelude::*;
 pub trait IconShape {
     fn view_box(&self) -> String;
     fn xmlns(&self) -> String;
-    fn child_elements(&self) -> LazyNodes;
+    fn child_elements(&self) -> Element;
 }
 
 /// Icon component Props
-#[derive(PartialEq, Props)]
-pub struct IconProps<'a, T: IconShape> {
+#[derive(PartialEq, Props, Clone)]
+pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
     /// The icon shape to use.
     pub icon: T,
     /// The height of the `<svg>` element. Defaults to 20.
@@ -19,33 +19,33 @@ pub struct IconProps<'a, T: IconShape> {
     #[props(default = 20)]
     pub width: u32,
     /// The color to use for filling the icon. Defaults to "currentColor".
-    #[props(default = "currentColor")]
-    pub fill: &'a str,
+    #[props(default = "currentColor".to_string())]
+    pub fill: String,
     /// An class for the `<svg>` element.
-    #[props(default = "")]
-    pub class: &'a str,
+    #[props(default = "".to_string())]
+    pub class: String,
     /// An accessible, short-text description for the icon.
-    #[props(default = "")]
-    pub title: &'a str,
+    #[props(default = "".to_string())]
+    pub title: String,
 }
 
 /// Icon component which generates SVG elements
 #[allow(non_snake_case)]
-pub fn Icon<'a, T: IconShape>(cx: Scope<'a, IconProps<'a, T>>) -> Element<'a> {
-    cx.render(rsx! {
+pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> Element {
+    rsx!(
         svg {
             stroke: "currentColor",
             stroke_width: "0",
-            class: format_args!("{}", cx.props.class),
-            height: format_args!("{}", cx.props.height),
-            width: format_args!("{}", cx.props.width),
-            view_box: format_args!("{}", cx.props.icon.view_box()),
-            xmlns: format_args!("{}", cx.props.icon.xmlns()),
-            fill: format_args!("{}", cx.props.fill),
+            class: "{props.class}",
+            height: "{props.height}",
+            width: "{props.width}",
+            view_box: "{props.icon.view_box()}",
+            xmlns: "{props.icon.xmlns()}",
+            fill: "{props.fill}",
             title {
-                "{cx.props.title}"
+                "{props.title}"
             }
-            cx.props.icon.child_elements()
+            {props.icon.child_elements()}
         }
-    })
+    )
 }

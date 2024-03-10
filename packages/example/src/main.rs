@@ -8,11 +8,11 @@ fn main() {
     wasm_logger::init(wasm_logger::Config::default());
     console_error_panic_hook::set_once();
 
-    dioxus_web::launch(app);
+    launch(app);
 }
 
-fn app(cx: Scope) -> Element {
-    cx.render(rsx! (
+fn app() -> Element {
+    rsx! (
         div {
             style: "text-align: center;",
             h1 { "🌗 Dioxus 🚀" }
@@ -24,5 +24,5 @@ fn app(cx: Scope) -> Element {
                 icon: FaRust,
             }
         }
-    ))
+    )
 }

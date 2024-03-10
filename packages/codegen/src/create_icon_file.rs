@@ -1,8 +1,8 @@
-use std::ffi::OsStr;
 use std::fs;
 use std::fs::File;
 use std::io::Write;
 use std::path::PathBuf;
+use std::{ffi::OsStr, path::Path};
 
 use heck::ToSnakeCase;
 use heck::ToUpperCamelCase;
@@ -12,7 +12,7 @@ use scraper::ElementRef;
 use scraper::Html;
 use walkdir::WalkDir;
 
-const ICON_TEMPLATE: &str = r#"#[derive(Copy, Clone, Debug)]
+const ICON_TEMPLATE: &str = r#"#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct {ICON_NAME};
 impl IconShape for {ICON_NAME} {
     fn view_box(&self) -> String {
@@ -21,7 +21,7 @@ impl IconShape for {ICON_NAME} {
     fn xmlns(&self) -> String {
         String::from("{XMLNS}")
     }
-    fn child_elements(&self) -> LazyNodes {
+    fn child_elements(&self) -> Element {
         rsx! {
 {CHILD_ELEMENTS}
         }
@@ -44,11 +44,11 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
                 .filter_map(|node| {
                     if node.value().is_element() {
                         let element = ElementRef::wrap(node).unwrap().value();
-                        if element.attrs.len() != 0 {
+                        if !element.attrs.is_empty() {
                             return Some(element);
                         }
                     }
-                    return None;
+                    None
                 })
                 .collect::<Vec<_>>();
 
@@ -91,7 +91,7 @@ fn collect_svg_files(svg_path: &str, icon_prefix: &str) -> Vec<PathBuf> {
         .filter(|e| match icon_prefix {
             "Go" => {
                 let re = Regex::new(r".*-16.svg$").unwrap();
-                return re.is_match(&e.path().to_str().unwrap());
+                return re.is_match(e.path().to_str().unwrap());
             }
             "Md" => {
                 let path_str = e.path().as_os_str().to_str().unwrap();
@@ -105,7 +105,7 @@ fn collect_svg_files(svg_path: &str, icon_prefix: &str) -> Vec<PathBuf> {
         .collect::<Vec<_>>()
 }
 
-fn icon_name(path: &PathBuf, icon_prefix: &str) -> String {
+fn icon_name(path: &Path, icon_prefix: &str) -> String {
     match icon_prefix {
         "Go" => {
             let filename = path.file_name().unwrap().to_str().unwrap();
@@ -131,19 +131,19 @@ fn extract_svg_attrs(element: &Element) -> (String, String) {
     let xmlns = element
         .attr("xmlns")
         .unwrap_or("http://www.w3.org/2000/svg");
-    return (String::from(view_box), String::from(xmlns));
+    (String::from(view_box), String::from(xmlns))
 }
 
 fn extract_svg_child_elements(elements: &[&Element]) -> String {
     elements
-        .into_iter()
+        .iter()
         .map(|element| {
             let tag_name = element.name();
             let mut element_attrs = element
                 .attrs()
                 .filter_map(|(name, value)| {
                     let re = Regex::new(r"^data-.*$").unwrap();
-                    if !re.is_match(&name) && name != "fill" {
+                    if !re.is_match(name) && name != "fill" {
                         Some(format!(
                             "                {}: \"{}\",",
                             name.to_snake_case(),
