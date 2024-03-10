@@ -94,9 +94,8 @@ fn collect_svg_files(svg_path: &str, icon_prefix: &str) -> Vec<PathBuf> {
                 return re.is_match(e.path().to_str().unwrap());
             }
             "Md" => {
-                let path_str = e.path().as_os_str().to_str().unwrap();
-                let split_vec = path_str.split('/').collect::<Vec<_>>();
-                return split_vec.contains(&"materialicons")
+                let split_vec = e.path().components().collect::<Vec<_>>();
+                return split_vec.iter().any(|c| c.as_os_str() == "materialicons")
                     && e.file_name().to_str().unwrap() == "24px.svg";
             }
             _ => return e.path().extension() == Some(OsStr::new("svg")),
