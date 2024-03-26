@@ -2,8 +2,8 @@ use super::super::IconShape;
 use dioxus::prelude::*;
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdSensorDoor;
+impl IconShape for MdSensorDoor {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -24,8 +24,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdSensorWindow;
+impl IconShape for MdSensorWindow {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }

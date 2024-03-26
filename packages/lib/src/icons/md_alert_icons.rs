@@ -2,8 +2,8 @@ use super::super::IconShape;
 use dioxus::prelude::*;
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdAddAlert;
+impl IconShape for MdAddAlert {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -23,8 +23,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdAutoDelete;
+impl IconShape for MdAutoDelete {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -51,8 +51,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdError;
+impl IconShape for MdError {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -72,8 +72,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdErrorOutline;
+impl IconShape for MdErrorOutline {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -93,8 +93,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdNotificationImportant;
+impl IconShape for MdNotificationImportant {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -114,8 +114,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdWarning;
+impl IconShape for MdWarning {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }

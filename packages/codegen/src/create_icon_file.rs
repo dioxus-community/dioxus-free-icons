@@ -112,10 +112,9 @@ fn icon_name(path: &Path, icon_prefix: &str) -> String {
             name.replace("-16", "").to_upper_camel_case()
         }
         "Md" => {
-            let path_str = path.as_os_str().to_str().unwrap();
-            let split_vec = path_str.split('/').collect::<Vec<_>>();
+            let split_vec = path.components().collect::<Vec<_>>();
             let name = split_vec[split_vec.len() - 3];
-            name.to_upper_camel_case()
+            name.as_os_str().to_str().unwrap().to_upper_camel_case()
         }
         _ => {
             let filename = path.file_name().unwrap().to_str().unwrap();

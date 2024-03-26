@@ -2,8 +2,8 @@ use super::super::IconShape;
 use dioxus::prelude::*;
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md10k;
+impl IconShape for Md10k {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -23,8 +23,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md1k;
+impl IconShape for Md1k {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -44,8 +44,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md1kPlus;
+impl IconShape for Md1kPlus {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -65,8 +65,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md2k;
+impl IconShape for Md2k {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -86,8 +86,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md2kPlus;
+impl IconShape for Md2kPlus {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -107,8 +107,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md3k;
+impl IconShape for Md3k {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -128,8 +128,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md3kPlus;
+impl IconShape for Md3kPlus {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -149,8 +149,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md4k;
+impl IconShape for Md4k {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -170,8 +170,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md4kPlus;
+impl IconShape for Md4kPlus {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -191,8 +191,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md5g;
+impl IconShape for Md5g {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -216,8 +216,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md5k;
+impl IconShape for Md5k {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -237,8 +237,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md5kPlus;
+impl IconShape for Md5kPlus {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -258,8 +258,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md6k;
+impl IconShape for Md6k {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -279,8 +279,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md6kPlus;
+impl IconShape for Md6kPlus {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -300,8 +300,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md7k;
+impl IconShape for Md7k {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -321,8 +321,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md7kPlus;
+impl IconShape for Md7kPlus {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -342,8 +342,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md8k;
+impl IconShape for Md8k {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -363,8 +363,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md8kPlus;
+impl IconShape for Md8kPlus {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -384,8 +384,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md9k;
+impl IconShape for Md9k {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -405,8 +405,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct Md9kPlus;
+impl IconShape for Md9kPlus {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -426,8 +426,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdAddToQueue;
+impl IconShape for MdAddToQueue {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -447,8 +447,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdAirplay;
+impl IconShape for MdAirplay {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -472,8 +472,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdAlbum;
+impl IconShape for MdAlbum {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -493,8 +493,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdArtTrack;
+impl IconShape for MdArtTrack {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -514,8 +514,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdAvTimer;
+impl IconShape for MdAvTimer {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -535,8 +535,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdBrandingWatermark;
+impl IconShape for MdBrandingWatermark {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -556,8 +556,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdCallToAction;
+impl IconShape for MdCallToAction {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -577,8 +577,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdClosedCaption;
+impl IconShape for MdClosedCaption {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -598,8 +598,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdClosedCaptionDisabled;
+impl IconShape for MdClosedCaptionDisabled {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -620,8 +620,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdClosedCaptionOff;
+impl IconShape for MdClosedCaptionOff {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -641,8 +641,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdControlCamera;
+impl IconShape for MdControlCamera {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -667,8 +667,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdEqualizer;
+impl IconShape for MdEqualizer {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -688,8 +688,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdExplicit;
+impl IconShape for MdExplicit {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -709,8 +709,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdFastForward;
+impl IconShape for MdFastForward {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -730,8 +730,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdFastRewind;
+impl IconShape for MdFastRewind {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -751,8 +751,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdFeaturedPlayList;
+impl IconShape for MdFeaturedPlayList {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -772,8 +772,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdFeaturedVideo;
+impl IconShape for MdFeaturedVideo {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -793,8 +793,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdFiberDvr;
+impl IconShape for MdFiberDvr {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -816,8 +816,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdFiberManualRecord;
+impl IconShape for MdFiberManualRecord {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -839,8 +839,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdFiberNew;
+impl IconShape for MdFiberNew {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -862,8 +862,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdFiberPin;
+impl IconShape for MdFiberPin {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -883,8 +883,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdFiberSmartRecord;
+impl IconShape for MdFiberSmartRecord {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -909,8 +909,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdForward10;
+impl IconShape for MdForward10 {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -937,8 +937,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdForward30;
+impl IconShape for MdForward30 {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -965,8 +965,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdForward5;
+impl IconShape for MdForward5 {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -990,8 +990,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdGames;
+impl IconShape for MdGames {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1011,8 +1011,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdHd;
+impl IconShape for MdHd {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1032,8 +1032,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdHearing;
+impl IconShape for MdHearing {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1053,8 +1053,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdHearingDisabled;
+impl IconShape for MdHearingDisabled {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1075,8 +1075,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdHighQuality;
+impl IconShape for MdHighQuality {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1096,8 +1096,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdLibraryAdd;
+impl IconShape for MdLibraryAdd {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1117,8 +1117,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdLibraryAddCheck;
+impl IconShape for MdLibraryAddCheck {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1138,8 +1138,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdLibraryBooks;
+impl IconShape for MdLibraryBooks {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1159,8 +1159,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdLibraryMusic;
+impl IconShape for MdLibraryMusic {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1180,8 +1180,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdLoop;
+impl IconShape for MdLoop {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1201,8 +1201,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdMic;
+impl IconShape for MdMic {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1222,8 +1222,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdMicNone;
+impl IconShape for MdMicNone {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1243,8 +1243,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdMicOff;
+impl IconShape for MdMicOff {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1264,8 +1264,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdMissedVideoCall;
+impl IconShape for MdMissedVideoCall {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1285,8 +1285,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdMovie;
+impl IconShape for MdMovie {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1306,8 +1306,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdMusicVideo;
+impl IconShape for MdMusicVideo {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1327,8 +1327,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdNewReleases;
+impl IconShape for MdNewReleases {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1348,8 +1348,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdNote;
+impl IconShape for MdNote {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1369,8 +1369,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdNotInterested;
+impl IconShape for MdNotInterested {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1390,8 +1390,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdPause;
+impl IconShape for MdPause {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1411,8 +1411,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdPauseCircleFilled;
+impl IconShape for MdPauseCircleFilled {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1432,8 +1432,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdPauseCircleOutline;
+impl IconShape for MdPauseCircleOutline {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1453,8 +1453,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdPlaylistAdd;
+impl IconShape for MdPlaylistAdd {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1474,8 +1474,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdPlaylistAddCheck;
+impl IconShape for MdPlaylistAddCheck {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1496,8 +1496,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdPlaylistPlay;
+impl IconShape for MdPlaylistPlay {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1517,8 +1517,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdPlayArrow;
+impl IconShape for MdPlayArrow {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1538,8 +1538,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdPlayCircleFilled;
+impl IconShape for MdPlayCircleFilled {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1559,8 +1559,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdPlayCircleOutline;
+impl IconShape for MdPlayCircleOutline {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1580,8 +1580,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdPlayDisabled;
+impl IconShape for MdPlayDisabled {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1601,8 +1601,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdQueue;
+impl IconShape for MdQueue {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1622,8 +1622,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdQueueMusic;
+impl IconShape for MdQueueMusic {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1643,8 +1643,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdQueuePlayNext;
+impl IconShape for MdQueuePlayNext {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1666,8 +1666,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdRadio;
+impl IconShape for MdRadio {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1687,8 +1687,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdRecentActors;
+impl IconShape for MdRecentActors {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1708,8 +1708,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdRemoveFromQueue;
+impl IconShape for MdRemoveFromQueue {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1731,8 +1731,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdRepeat;
+impl IconShape for MdRepeat {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1752,8 +1752,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdRepeatOn;
+impl IconShape for MdRepeatOn {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1774,8 +1774,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdRepeatOne;
+impl IconShape for MdRepeatOne {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1795,8 +1795,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdRepeatOneOn;
+impl IconShape for MdRepeatOneOn {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1817,8 +1817,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdReplay;
+impl IconShape for MdReplay {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1838,8 +1838,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdReplay10;
+impl IconShape for MdReplay10 {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1866,8 +1866,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdReplay30;
+impl IconShape for MdReplay30 {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1894,8 +1894,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdReplay5;
+impl IconShape for MdReplay5 {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1919,8 +1919,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdReplayCircleFilled;
+impl IconShape for MdReplayCircleFilled {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1941,8 +1941,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdSd;
+impl IconShape for MdSd {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1962,8 +1962,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdShuffle;
+impl IconShape for MdShuffle {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -1983,8 +1983,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdShuffleOn;
+impl IconShape for MdShuffleOn {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2005,8 +2005,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdSkipNext;
+impl IconShape for MdSkipNext {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2026,8 +2026,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdSkipPrevious;
+impl IconShape for MdSkipPrevious {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2047,8 +2047,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdSlowMotionVideo;
+impl IconShape for MdSlowMotionVideo {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2068,8 +2068,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdSnooze;
+impl IconShape for MdSnooze {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2089,8 +2089,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdSortByAlpha;
+impl IconShape for MdSortByAlpha {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2110,8 +2110,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdSpeed;
+impl IconShape for MdSpeed {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2131,8 +2131,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdStop;
+impl IconShape for MdStop {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2152,8 +2152,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdStopCircle;
+impl IconShape for MdStopCircle {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2175,8 +2175,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdSubscriptions;
+impl IconShape for MdSubscriptions {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2196,8 +2196,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdSubtitles;
+impl IconShape for MdSubtitles {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2217,8 +2217,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdSurroundSound;
+impl IconShape for MdSurroundSound {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2238,8 +2238,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdVideocam;
+impl IconShape for MdVideocam {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2259,8 +2259,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdVideocamOff;
+impl IconShape for MdVideocamOff {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2280,8 +2280,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdVideoCall;
+impl IconShape for MdVideoCall {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2301,8 +2301,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdVideoLabel;
+impl IconShape for MdVideoLabel {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2322,8 +2322,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdVideoLibrary;
+impl IconShape for MdVideoLibrary {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2343,8 +2343,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdVideoSettings;
+impl IconShape for MdVideoSettings {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2371,8 +2371,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdVolumeDown;
+impl IconShape for MdVolumeDown {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2392,8 +2392,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdVolumeMute;
+impl IconShape for MdVolumeMute {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2413,8 +2413,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdVolumeOff;
+impl IconShape for MdVolumeOff {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2434,8 +2434,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdVolumeUp;
+impl IconShape for MdVolumeUp {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2455,8 +2455,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdWeb;
+impl IconShape for MdWeb {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
@@ -2476,8 +2476,8 @@ impl IconShape for MdMaterialDesignIcons {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdMaterialDesignIcons;
-impl IconShape for MdMaterialDesignIcons {
+pub struct MdWebAsset;
+impl IconShape for MdWebAsset {
     fn view_box(&self) -> String {
         String::from("0 0 24 24")
     }
