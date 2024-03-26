@@ -2281,7 +2281,9 @@ impl IconShape for MdHdrOff {
         String::from("http://www.w3.org/2000/svg")
     }
     fn child_elements(&self) -> Element {
-        rsx! {}
+        rsx! {
+
+        }
     }
 }
 

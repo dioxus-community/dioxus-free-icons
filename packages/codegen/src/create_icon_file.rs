@@ -131,7 +131,7 @@ fn extract_svg_attrs(element: &Element) -> (String, String) {
         .unwrap_or("http://www.w3.org/2000/svg");
     (String::from(view_box), String::from(xmlns))
 }
-
+// "fill:none;stroke:#000;
 fn extract_svg_child_elements(elements: &[&Element], icon_prefix: &str) -> String {
     let elements = match icon_prefix {
         "Md" => &elements[1..],
@@ -144,6 +144,11 @@ fn extract_svg_child_elements(elements: &[&Element], icon_prefix: &str) -> Strin
             let mut element_attrs = element
                 .attrs()
                 .filter_map(|(name, value)| {
+                    let value = if icon_prefix == "Io" {
+                        value.replace("fill:none;stroke:#000;", "")
+                    } else {
+                        value.to_string()
+                    };
                     let re = Regex::new(r"^data-.*$").unwrap();
                     if !re.is_match(name) && name != "fill" {
                         Some(format!(

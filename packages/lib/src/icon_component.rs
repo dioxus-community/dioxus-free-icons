@@ -34,7 +34,6 @@ pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
 pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> Element {
     rsx!(
         svg {
-            stroke: "currentColor",
             stroke_width: "0",
             class: "{props.class}",
             height: "{props.height}",
@@ -42,6 +41,7 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
             view_box: "{props.icon.view_box()}",
             xmlns: "{props.icon.xmlns()}",
             fill: "{props.fill}",
+            stroke: "{props.fill}",
             title {
                 "{props.title}"
             }
