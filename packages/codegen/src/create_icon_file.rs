@@ -56,7 +56,7 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
             let svg_child_elements = &elements[1..];
             let icon_name = icon_name(&file, icon_prefix);
             let (view_box, xmlns) = extract_svg_attrs(svg_element);
-            let child_elements = extract_svg_child_elements(svg_child_elements);
+            let child_elements = extract_svg_child_elements(svg_child_elements, icon_prefix);
 
             ICON_TEMPLATE
                 .replace("{ICON_NAME}", &format!("{}{}", icon_prefix, &icon_name))
@@ -132,7 +132,11 @@ fn extract_svg_attrs(element: &Element) -> (String, String) {
     (String::from(view_box), String::from(xmlns))
 }
 
-fn extract_svg_child_elements(elements: &[&Element]) -> String {
+fn extract_svg_child_elements(elements: &[&Element], icon_prefix: &str) -> String {
+    let elements = match icon_prefix {
+        "Md" => &elements[1..],
+        _ => elements,
+    };
     elements
         .iter()
         .map(|element| {
