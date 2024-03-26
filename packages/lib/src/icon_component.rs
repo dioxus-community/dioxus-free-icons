@@ -25,8 +25,7 @@ pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
     #[props(default = "".to_string())]
     pub class: String,
     /// An accessible, short-text description for the icon.
-    #[props(default = "".to_string())]
-    pub title: String,
+    pub title: Option<String>,
 }
 
 /// Icon component which generates SVG elements
@@ -42,9 +41,11 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
             xmlns: "{props.icon.xmlns()}",
             fill: "{props.fill}",
             stroke: "{props.fill}",
-            title {
-                "{props.title}"
-            }
+            if let Some(title_text) = props.title {
+                title {
+                    "{title_text}"
+                }
+            },
             {props.icon.child_elements()}
         }
     )
