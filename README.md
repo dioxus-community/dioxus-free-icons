@@ -1,6 +1,7 @@
-# dioxus-free-icons
-
+[![Discord Server](https://img.shields.io/discord/899851952891002890.svg?logo=discord&style=flat-square)](https://discord.gg/sKJSVNSCDJ)
 [![Crates.io](https://img.shields.io/crates/v/dioxus-free-icons)](https://crates.io/crates/dioxus-free-icons)
+
+# dioxus-free-icons 🙂
 
 Use free svg icons in your [Dioxus](https://dioxuslabs.com/) projects easily with dioxus-free-icons.
 
