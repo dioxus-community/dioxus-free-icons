@@ -1,21 +1,21 @@
 [submodule "icon_resources/font-awesome"]
 	path = icon_resources/font-awesome
-	url = git@github.com:FortAwesome/Font-Awesome.git
+	url = https://github.com/FortAwesome/Font-Awesome
 [submodule "icon_resources/heroicons"]
 	path = icon_resources/heroicons
-	url = git@github.com:tailwindlabs/heroicons.git
+	url = https://github.com/tailwindlabs/heroicons
 [submodule "icon_resources/ionicons"]
 	path = icon_resources/ionicons
-	url = git@github.com:ionic-team/ionicons.git
+	url = https://github.com/ionic-team/ionicons
 [submodule "icon_resources/octicons"]
 	path = icon_resources/octicons
-	url = git@github.com:primer/octicons.git
+	url = https://github.com/primer/octicons
 [submodule "icon_resources/bootstrap"]
 	path = icon_resources/bootstrap
-	url = git@github.com:twbs/icons.git
+	url = https://github.com/twbs/icons
 [submodule "icon_resources/feather"]
 	path = icon_resources/feather
-	url = git@github.com:feathericons/feather.git
+	url = https://github.com/feathericons/feather
 [submodule "icon_resources/material-design-icons"]
 	path = icon_resources/material-design-icons
-	url = git@github.com:google/material-design-icons.git
+	url = https://github.com/google/material-design-icons
