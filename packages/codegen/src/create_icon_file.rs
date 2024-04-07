@@ -30,7 +30,10 @@ impl IconShape for {ICON_NAME} {
 "#;
 
 pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
-    let files = collect_svg_files(svg_path, icon_prefix);
+    let mut files = collect_svg_files(svg_path, icon_prefix);
+    // we sort the files to ensure that the order of the icons is consistent
+    // across different runs of the codegen
+    files.sort();
 
     let icon_file = files
         .into_iter()
@@ -78,6 +81,7 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
     )
     .unwrap();
     file.flush().unwrap();
+    println!("Created icon file: {}", output_path);
 }
 
 fn collect_svg_files(svg_path: &str, icon_prefix: &str) -> Vec<PathBuf> {

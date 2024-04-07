@@ -2,7 +2,10 @@
 name = "dioxus-free-icons"
 version = "0.8.3"
 edition = "2021"
-authors = ["Daiki Nishikawa <nd.12021218@gmail.com>", "Marc Espín <mespinsanz@gmail.com>"]
+authors = [
+    "Daiki Nishikawa <nd.12021218@gmail.com>",
+    "Marc Espín <mespinsanz@gmail.com>",
+]
 description = "Use free svg icons in your Dioxus projects easily with dioxus-free-icons."
 license = "MIT"
 repository = "https://github.com/dioxus-community/dioxus-free-icons"
@@ -17,6 +20,8 @@ font-awesome-regular = []
 font-awesome-solid = []
 bootstrap = []
 feather = []
+flag-icons = []
+flag-icons-rect = []
 octicons = []
 hero-icons-outline = []
 hero-icons-solid = []

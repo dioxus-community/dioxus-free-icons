@@ -20,24 +20,6 @@ impl IconShape for MdApproval {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdAttachment;
-impl IconShape for MdAttachment {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
-    }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M2 12.5C2 9.46 4.46 7 7.5 7H18c2.21 0 4 1.79 4 4s-1.79 4-4 4H9.5C8.12 15 7 13.88 7 12.5S8.12 10 9.5 10H17v2H9.41c-.55 0-.55 1 0 1H18c1.1 0 2-.9 2-2s-.9-2-2-2H7.5C5.57 9 4 10.57 4 12.5S5.57 16 7.5 16H17v2H7.5C4.46 18 2 15.54 2 12.5z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdAttachEmail;
 impl IconShape for MdAttachEmail {
     fn view_box(&self) -> String {
@@ -53,6 +35,24 @@ impl IconShape for MdAttachEmail {
             }
             path {
                 d: "M21,14v4c0,1.1-0.9,2-2,2s-2-0.9-2-2v-4.5c0-0.28,0.22-0.5,0.5-0.5s0.5,0.22,0.5,0.5V18h2v-4.5c0-1.38-1.12-2.5-2.5-2.5 S15,12.12,15,13.5V18c0,2.21,1.79,4,4,4s4-1.79,4-4v-4H21z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdAttachment;
+impl IconShape for MdAttachment {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M2 12.5C2 9.46 4.46 7 7.5 7H18c2.21 0 4 1.79 4 4s-1.79 4-4 4H9.5C8.12 15 7 13.88 7 12.5S8.12 10 9.5 10H17v2H9.41c-.55 0-.55 1 0 1H18c1.1 0 2-.9 2-2s-.9-2-2-2H7.5C5.57 9 4 10.57 4 12.5S5.57 16 7.5 16H17v2H7.5C4.46 18 2 15.54 2 12.5z",
             }
         }
     }

@@ -1173,24 +1173,6 @@ impl IconShape for MdCollectionsBookmark {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdColorize;
-impl IconShape for MdColorize {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
-    }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M20.71 5.63l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-3.12 3.12-1.93-1.91-1.41 1.41 1.42 1.42L3 16.25V21h4.75l8.92-8.92 1.42 1.42 1.41-1.41-1.92-1.92 3.12-3.12c.4-.4.4-1.03.01-1.42zM6.92 19L5 17.08l8.06-8.06 1.92 1.92L6.92 19z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdColorLens;
 impl IconShape for MdColorLens {
     fn view_box(&self) -> String {
@@ -1203,6 +1185,24 @@ impl IconShape for MdColorLens {
         rsx! {
             path {
                 d: "M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdColorize;
+impl IconShape for MdColorize {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M20.71 5.63l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-3.12 3.12-1.93-1.91-1.41 1.41 1.42 1.42L3 16.25V21h4.75l8.92-8.92 1.42 1.42 1.41-1.41-1.92-1.92 3.12-3.12c.4-.4.4-1.03.01-1.42zM6.92 19L5 17.08l8.06-8.06 1.92 1.92L6.92 19z",
             }
         }
     }

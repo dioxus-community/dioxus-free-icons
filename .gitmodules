@@ -19,3 +19,6 @@
 [submodule "icon_resources/material-design-icons"]
 	path = icon_resources/material-design-icons
 	url = https://github.com/google/material-design-icons
+[submodule "icon_resources/flag-icons"]
+	path = icon_resources/flag-icons
+	url = https://github.com/lipis/flag-icons.git

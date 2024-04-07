@@ -6,6 +6,10 @@ pub mod fa_brands_icons;
 pub mod fa_regular_icons;
 #[cfg(feature = "font-awesome-solid")]
 pub mod fa_solid_icons;
+#[cfg(feature = "flag-icons")]
+pub mod fg_icons;
+#[cfg(feature = "flag-icons-rect")]
+pub mod fg_rect_icons;
 #[cfg(feature = "feather")]
 pub mod fi_icons;
 #[cfg(feature = "octicons")]
