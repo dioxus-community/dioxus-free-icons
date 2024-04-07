@@ -5,11 +5,15 @@ authors = ["nissy-dev <nd.12021218@gmail.com>"]
 edition = "2021"
 
 [dependencies]
-dioxus = { version = "0.5.0", features = ["web"] }
+dioxus = { version = "0.5.0", features = ["web", "router"] }
 dioxus-free-icons = { path = "../lib", features = ["font-awesome-brands"] }
-
-log = "0.4.6"
-
+manganis = "0.2.2"
+log = "0.4.21"
+wasm-bindgen-futures = "0.4"
+anyhow = "1.0.81"
+# Browser stdlib bindings
+web-sys = { version = "0.3.68", features = ["Navigator", "Clipboard"] }
+gloo-utils = "0.2.0"
 # WebAssembly Debug
 wasm-logger = "0.2.0"
 console_error_panic_hook = "0.1.7"

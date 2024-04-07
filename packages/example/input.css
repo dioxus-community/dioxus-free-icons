@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.col-span-3 {
+    grid-column: span 3 / span 3;
+}
