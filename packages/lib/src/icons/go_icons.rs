@@ -4,11 +4,14 @@ use dioxus::prelude::*;
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoAccessibility;
 impl IconShape for GoAccessibility {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23,11 +26,14 @@ impl IconShape for GoAccessibility {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoAlert;
 impl IconShape for GoAlert {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -42,11 +48,14 @@ impl IconShape for GoAlert {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoApps;
 impl IconShape for GoApps {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -61,11 +70,14 @@ impl IconShape for GoApps {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoArchive;
 impl IconShape for GoArchive {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -80,11 +92,14 @@ impl IconShape for GoArchive {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoArrowBoth;
 impl IconShape for GoArrowBoth {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -99,11 +114,14 @@ impl IconShape for GoArrowBoth {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoArrowDown;
 impl IconShape for GoArrowDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -118,11 +136,14 @@ impl IconShape for GoArrowDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoArrowLeft;
 impl IconShape for GoArrowLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -137,11 +158,14 @@ impl IconShape for GoArrowLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoArrowRight;
 impl IconShape for GoArrowRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -156,11 +180,14 @@ impl IconShape for GoArrowRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoArrowSwitch;
 impl IconShape for GoArrowSwitch {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -174,11 +201,14 @@ impl IconShape for GoArrowSwitch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoArrowUp;
 impl IconShape for GoArrowUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -193,11 +223,14 @@ impl IconShape for GoArrowUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoBeaker;
 impl IconShape for GoBeaker {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -212,11 +245,14 @@ impl IconShape for GoBeaker {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoBell;
 impl IconShape for GoBell {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -234,11 +270,14 @@ impl IconShape for GoBell {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoBellFill;
 impl IconShape for GoBellFill {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -252,11 +291,14 @@ impl IconShape for GoBellFill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoBellSlash;
 impl IconShape for GoBellSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -271,11 +313,14 @@ impl IconShape for GoBellSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoBlocked;
 impl IconShape for GoBlocked {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -290,11 +335,14 @@ impl IconShape for GoBlocked {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoBold;
 impl IconShape for GoBold {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -309,11 +357,14 @@ impl IconShape for GoBold {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoBook;
 impl IconShape for GoBook {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -328,11 +379,14 @@ impl IconShape for GoBook {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoBookmark;
 impl IconShape for GoBookmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -347,11 +401,14 @@ impl IconShape for GoBookmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoBookmarkSlash;
 impl IconShape for GoBookmarkSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -366,11 +423,14 @@ impl IconShape for GoBookmarkSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoBriefcase;
 impl IconShape for GoBriefcase {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -385,11 +445,14 @@ impl IconShape for GoBriefcase {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoBroadcast;
 impl IconShape for GoBroadcast {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -404,11 +467,14 @@ impl IconShape for GoBroadcast {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoBrowser;
 impl IconShape for GoBrowser {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -423,11 +489,14 @@ impl IconShape for GoBrowser {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoBug;
 impl IconShape for GoBug {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -442,11 +511,14 @@ impl IconShape for GoBug {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCalendar;
 impl IconShape for GoCalendar {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -461,11 +533,14 @@ impl IconShape for GoCalendar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCheck;
 impl IconShape for GoCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -480,11 +555,14 @@ impl IconShape for GoCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCheckCircle;
 impl IconShape for GoCheckCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -499,11 +577,14 @@ impl IconShape for GoCheckCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCheckCircleFill;
 impl IconShape for GoCheckCircleFill {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -518,11 +599,14 @@ impl IconShape for GoCheckCircleFill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoChecklist;
 impl IconShape for GoChecklist {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -537,11 +621,14 @@ impl IconShape for GoChecklist {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoChevronDown;
 impl IconShape for GoChevronDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -556,11 +643,14 @@ impl IconShape for GoChevronDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoChevronLeft;
 impl IconShape for GoChevronLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -575,11 +665,14 @@ impl IconShape for GoChevronLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoChevronRight;
 impl IconShape for GoChevronRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -594,11 +687,14 @@ impl IconShape for GoChevronRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoChevronUp;
 impl IconShape for GoChevronUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -613,11 +709,14 @@ impl IconShape for GoChevronUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCircle;
 impl IconShape for GoCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -632,11 +731,14 @@ impl IconShape for GoCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCircleSlash;
 impl IconShape for GoCircleSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -651,11 +753,14 @@ impl IconShape for GoCircleSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoClock;
 impl IconShape for GoClock {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -670,11 +775,14 @@ impl IconShape for GoClock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCloud;
 impl IconShape for GoCloud {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -689,11 +797,14 @@ impl IconShape for GoCloud {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCloudOffline;
 impl IconShape for GoCloudOffline {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -711,11 +822,14 @@ impl IconShape for GoCloudOffline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCode;
 impl IconShape for GoCode {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -730,11 +844,14 @@ impl IconShape for GoCode {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCodeOfConduct;
 impl IconShape for GoCodeOfConduct {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -749,11 +866,14 @@ impl IconShape for GoCodeOfConduct {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCodeReview;
 impl IconShape for GoCodeReview {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -768,11 +888,14 @@ impl IconShape for GoCodeReview {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCodeSquare;
 impl IconShape for GoCodeSquare {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -787,11 +910,14 @@ impl IconShape for GoCodeSquare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCodescan;
 impl IconShape for GoCodescan {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -809,11 +935,14 @@ impl IconShape for GoCodescan {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCodescanCheckmark;
 impl IconShape for GoCodescanCheckmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -831,11 +960,14 @@ impl IconShape for GoCodescanCheckmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCodespaces;
 impl IconShape for GoCodespaces {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -854,11 +986,14 @@ impl IconShape for GoCodespaces {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoColumns;
 impl IconShape for GoColumns {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -873,11 +1008,14 @@ impl IconShape for GoColumns {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoComment;
 impl IconShape for GoComment {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -892,11 +1030,14 @@ impl IconShape for GoComment {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCommentDiscussion;
 impl IconShape for GoCommentDiscussion {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -911,11 +1052,14 @@ impl IconShape for GoCommentDiscussion {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoContainer;
 impl IconShape for GoContainer {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -930,11 +1074,14 @@ impl IconShape for GoContainer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCopilot;
 impl IconShape for GoCopilot {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -952,11 +1099,14 @@ impl IconShape for GoCopilot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCopilotError;
 impl IconShape for GoCopilotError {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -971,11 +1121,14 @@ impl IconShape for GoCopilotError {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCopilotWarning;
 impl IconShape for GoCopilotWarning {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -994,11 +1147,14 @@ impl IconShape for GoCopilotWarning {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCopy;
 impl IconShape for GoCopy {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1017,11 +1173,14 @@ impl IconShape for GoCopy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCpu;
 impl IconShape for GoCpu {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1036,11 +1195,14 @@ impl IconShape for GoCpu {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCreditCard;
 impl IconShape for GoCreditCard {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1058,11 +1220,14 @@ impl IconShape for GoCreditCard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoCrossReference;
 impl IconShape for GoCrossReference {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1077,11 +1242,14 @@ impl IconShape for GoCrossReference {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDash;
 impl IconShape for GoDash {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1096,11 +1264,14 @@ impl IconShape for GoDash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDatabase;
 impl IconShape for GoDatabase {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1115,11 +1286,14 @@ impl IconShape for GoDatabase {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDependabot;
 impl IconShape for GoDependabot {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1137,11 +1311,14 @@ impl IconShape for GoDependabot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDesktopDownload;
 impl IconShape for GoDesktopDownload {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1158,11 +1335,14 @@ impl IconShape for GoDesktopDownload {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDeviceCamera;
 impl IconShape for GoDeviceCamera {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1177,11 +1357,14 @@ impl IconShape for GoDeviceCamera {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDeviceCameraVideo;
 impl IconShape for GoDeviceCameraVideo {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1196,11 +1379,14 @@ impl IconShape for GoDeviceCameraVideo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDeviceDesktop;
 impl IconShape for GoDeviceDesktop {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1215,11 +1401,14 @@ impl IconShape for GoDeviceDesktop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDeviceMobile;
 impl IconShape for GoDeviceMobile {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1234,11 +1423,14 @@ impl IconShape for GoDeviceMobile {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDiamond;
 impl IconShape for GoDiamond {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1253,11 +1445,14 @@ impl IconShape for GoDiamond {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDiff;
 impl IconShape for GoDiff {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1272,11 +1467,14 @@ impl IconShape for GoDiff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDiffAdded;
 impl IconShape for GoDiffAdded {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1291,11 +1489,14 @@ impl IconShape for GoDiffAdded {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDiffIgnored;
 impl IconShape for GoDiffIgnored {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1310,11 +1511,14 @@ impl IconShape for GoDiffIgnored {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDiffModified;
 impl IconShape for GoDiffModified {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1329,11 +1533,14 @@ impl IconShape for GoDiffModified {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDiffRemoved;
 impl IconShape for GoDiffRemoved {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1348,11 +1555,14 @@ impl IconShape for GoDiffRemoved {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDiffRenamed;
 impl IconShape for GoDiffRenamed {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1367,11 +1577,14 @@ impl IconShape for GoDiffRenamed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDot;
 impl IconShape for GoDot {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1386,11 +1599,14 @@ impl IconShape for GoDot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDotFill;
 impl IconShape for GoDotFill {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1405,11 +1621,14 @@ impl IconShape for GoDotFill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDownload;
 impl IconShape for GoDownload {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1424,11 +1643,14 @@ impl IconShape for GoDownload {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoDuplicate;
 impl IconShape for GoDuplicate {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1449,11 +1671,14 @@ impl IconShape for GoDuplicate {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoEllipsis;
 impl IconShape for GoEllipsis {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1468,11 +1693,14 @@ impl IconShape for GoEllipsis {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoEye;
 impl IconShape for GoEye {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1487,11 +1715,14 @@ impl IconShape for GoEye {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoEyeClosed;
 impl IconShape for GoEyeClosed {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1506,11 +1737,14 @@ impl IconShape for GoEyeClosed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFeedDiscussion;
 impl IconShape for GoFeedDiscussion {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1525,11 +1759,14 @@ impl IconShape for GoFeedDiscussion {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFeedForked;
 impl IconShape for GoFeedForked {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1544,11 +1781,14 @@ impl IconShape for GoFeedForked {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFeedHeart;
 impl IconShape for GoFeedHeart {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1563,11 +1803,14 @@ impl IconShape for GoFeedHeart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFeedMerged;
 impl IconShape for GoFeedMerged {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1582,11 +1825,14 @@ impl IconShape for GoFeedMerged {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFeedPerson;
 impl IconShape for GoFeedPerson {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1601,11 +1847,14 @@ impl IconShape for GoFeedPerson {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFeedRepo;
 impl IconShape for GoFeedRepo {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1620,11 +1869,14 @@ impl IconShape for GoFeedRepo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFeedRocket;
 impl IconShape for GoFeedRocket {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1639,11 +1891,14 @@ impl IconShape for GoFeedRocket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFeedStar;
 impl IconShape for GoFeedStar {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1658,11 +1913,14 @@ impl IconShape for GoFeedStar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFeedTag;
 impl IconShape for GoFeedTag {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1680,11 +1938,14 @@ impl IconShape for GoFeedTag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFeedTrophy;
 impl IconShape for GoFeedTrophy {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1702,11 +1963,14 @@ impl IconShape for GoFeedTrophy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFile;
 impl IconShape for GoFile {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1721,11 +1985,14 @@ impl IconShape for GoFile {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFileAdded;
 impl IconShape for GoFileAdded {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1740,11 +2007,14 @@ impl IconShape for GoFileAdded {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFileBadge;
 impl IconShape for GoFileBadge {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1762,11 +2032,14 @@ impl IconShape for GoFileBadge {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFileBinary;
 impl IconShape for GoFileBinary {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1781,11 +2054,14 @@ impl IconShape for GoFileBinary {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFileCode;
 impl IconShape for GoFileCode {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1800,11 +2076,14 @@ impl IconShape for GoFileCode {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFileDiff;
 impl IconShape for GoFileDiff {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1819,11 +2098,14 @@ impl IconShape for GoFileDiff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFileDirectory;
 impl IconShape for GoFileDirectory {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1838,11 +2120,14 @@ impl IconShape for GoFileDirectory {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFileDirectoryFill;
 impl IconShape for GoFileDirectoryFill {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1856,11 +2141,14 @@ impl IconShape for GoFileDirectoryFill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFileDirectoryOpenFill;
 impl IconShape for GoFileDirectoryOpenFill {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1874,11 +2162,14 @@ impl IconShape for GoFileDirectoryOpenFill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFileMoved;
 impl IconShape for GoFileMoved {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1895,11 +2186,14 @@ impl IconShape for GoFileMoved {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFileRemoved;
 impl IconShape for GoFileRemoved {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1914,11 +2208,14 @@ impl IconShape for GoFileRemoved {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFileSubmodule;
 impl IconShape for GoFileSubmodule {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1933,11 +2230,14 @@ impl IconShape for GoFileSubmodule {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFileSymlinkFile;
 impl IconShape for GoFileSymlinkFile {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1952,11 +2252,14 @@ impl IconShape for GoFileSymlinkFile {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFileZip;
 impl IconShape for GoFileZip {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1971,11 +2274,14 @@ impl IconShape for GoFileZip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFilter;
 impl IconShape for GoFilter {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1990,11 +2296,14 @@ impl IconShape for GoFilter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFlame;
 impl IconShape for GoFlame {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2009,11 +2318,14 @@ impl IconShape for GoFlame {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFold;
 impl IconShape for GoFold {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2027,11 +2339,14 @@ impl IconShape for GoFold {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFoldDown;
 impl IconShape for GoFoldDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2045,11 +2360,14 @@ impl IconShape for GoFoldDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoFoldUp;
 impl IconShape for GoFoldUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2063,11 +2381,14 @@ impl IconShape for GoFoldUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoGear;
 impl IconShape for GoGear {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2082,11 +2403,14 @@ impl IconShape for GoGear {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoGift;
 impl IconShape for GoGift {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2101,11 +2425,14 @@ impl IconShape for GoGift {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoGitBranch;
 impl IconShape for GoGitBranch {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2120,11 +2447,14 @@ impl IconShape for GoGitBranch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoGitCommit;
 impl IconShape for GoGitCommit {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2139,11 +2469,14 @@ impl IconShape for GoGitCommit {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoGitCompare;
 impl IconShape for GoGitCompare {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2158,11 +2491,14 @@ impl IconShape for GoGitCompare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoGitMerge;
 impl IconShape for GoGitMerge {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2177,11 +2513,14 @@ impl IconShape for GoGitMerge {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoGitPullRequest;
 impl IconShape for GoGitPullRequest {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2196,11 +2535,14 @@ impl IconShape for GoGitPullRequest {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoGitPullRequestClosed;
 impl IconShape for GoGitPullRequestClosed {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2215,11 +2557,14 @@ impl IconShape for GoGitPullRequestClosed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoGitPullRequestDraft;
 impl IconShape for GoGitPullRequestDraft {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2237,11 +2582,14 @@ impl IconShape for GoGitPullRequestDraft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoGlobe;
 impl IconShape for GoGlobe {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2256,11 +2604,14 @@ impl IconShape for GoGlobe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoGrabber;
 impl IconShape for GoGrabber {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2275,11 +2626,14 @@ impl IconShape for GoGrabber {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoGraph;
 impl IconShape for GoGraph {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2294,11 +2648,14 @@ impl IconShape for GoGraph {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoHash;
 impl IconShape for GoHash {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2313,11 +2670,14 @@ impl IconShape for GoHash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoHeading;
 impl IconShape for GoHeading {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2332,11 +2692,14 @@ impl IconShape for GoHeading {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoHeart;
 impl IconShape for GoHeart {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2351,11 +2714,14 @@ impl IconShape for GoHeart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoHeartFill;
 impl IconShape for GoHeartFill {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2370,11 +2736,14 @@ impl IconShape for GoHeartFill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoHistory;
 impl IconShape for GoHistory {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2389,11 +2758,14 @@ impl IconShape for GoHistory {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoHome;
 impl IconShape for GoHome {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2408,11 +2780,14 @@ impl IconShape for GoHome {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoHorizontalRule;
 impl IconShape for GoHorizontalRule {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2427,11 +2802,14 @@ impl IconShape for GoHorizontalRule {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoHourglass;
 impl IconShape for GoHourglass {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2446,11 +2824,14 @@ impl IconShape for GoHourglass {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoHubot;
 impl IconShape for GoHubot {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2465,11 +2846,14 @@ impl IconShape for GoHubot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoIdBadge;
 impl IconShape for GoIdBadge {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2487,11 +2871,14 @@ impl IconShape for GoIdBadge {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoImage;
 impl IconShape for GoImage {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2506,11 +2893,14 @@ impl IconShape for GoImage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoInbox;
 impl IconShape for GoInbox {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2525,11 +2915,14 @@ impl IconShape for GoInbox {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoInfinity;
 impl IconShape for GoInfinity {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2544,11 +2937,14 @@ impl IconShape for GoInfinity {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoInfo;
 impl IconShape for GoInfo {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2563,11 +2959,14 @@ impl IconShape for GoInfo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoIssueClosed;
 impl IconShape for GoIssueClosed {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2585,11 +2984,14 @@ impl IconShape for GoIssueClosed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoIssueDraft;
 impl IconShape for GoIssueDraft {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2604,11 +3006,14 @@ impl IconShape for GoIssueDraft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoIssueOpened;
 impl IconShape for GoIssueOpened {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2626,11 +3031,14 @@ impl IconShape for GoIssueOpened {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoIssueReopened;
 impl IconShape for GoIssueReopened {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2647,11 +3055,14 @@ impl IconShape for GoIssueReopened {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoItalic;
 impl IconShape for GoItalic {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2666,11 +3077,14 @@ impl IconShape for GoItalic {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoIterations;
 impl IconShape for GoIterations {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2684,11 +3098,14 @@ impl IconShape for GoIterations {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoKebabHorizontal;
 impl IconShape for GoKebabHorizontal {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2702,11 +3119,14 @@ impl IconShape for GoKebabHorizontal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoKey;
 impl IconShape for GoKey {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2721,11 +3141,14 @@ impl IconShape for GoKey {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoKeyAsterisk;
 impl IconShape for GoKeyAsterisk {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2743,11 +3166,14 @@ impl IconShape for GoKeyAsterisk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoLaw;
 impl IconShape for GoLaw {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2762,11 +3188,14 @@ impl IconShape for GoLaw {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoLightBulb;
 impl IconShape for GoLightBulb {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2781,11 +3210,14 @@ impl IconShape for GoLightBulb {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoLink;
 impl IconShape for GoLink {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2800,11 +3232,14 @@ impl IconShape for GoLink {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoLinkExternal;
 impl IconShape for GoLinkExternal {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2819,11 +3254,14 @@ impl IconShape for GoLinkExternal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoListOrdered;
 impl IconShape for GoListOrdered {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2838,11 +3276,14 @@ impl IconShape for GoListOrdered {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoListUnordered;
 impl IconShape for GoListUnordered {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2857,11 +3298,14 @@ impl IconShape for GoListUnordered {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoLocation;
 impl IconShape for GoLocation {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2876,11 +3320,14 @@ impl IconShape for GoLocation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoLock;
 impl IconShape for GoLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2895,11 +3342,14 @@ impl IconShape for GoLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoLog;
 impl IconShape for GoLog {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2917,11 +3367,14 @@ impl IconShape for GoLog {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoLogoGist;
 impl IconShape for GoLogoGist {
-    fn view_box(&self) -> String {
-        String::from("0 0 25 16")
+    fn view_box(&self) -> &str {
+        "0 0 25 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2936,11 +3389,14 @@ impl IconShape for GoLogoGist {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoLogoGithub;
 impl IconShape for GoLogoGithub {
-    fn view_box(&self) -> String {
-        String::from("0 0 45 16")
+    fn view_box(&self) -> &str {
+        "0 0 45 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2955,11 +3411,14 @@ impl IconShape for GoLogoGithub {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoMail;
 impl IconShape for GoMail {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2974,11 +3433,14 @@ impl IconShape for GoMail {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoMarkGithub;
 impl IconShape for GoMarkGithub {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2993,11 +3455,14 @@ impl IconShape for GoMarkGithub {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoMarkdown;
 impl IconShape for GoMarkdown {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3012,11 +3477,14 @@ impl IconShape for GoMarkdown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoMegaphone;
 impl IconShape for GoMegaphone {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3039,11 +3507,14 @@ impl IconShape for GoMegaphone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoMention;
 impl IconShape for GoMention {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3058,11 +3529,14 @@ impl IconShape for GoMention {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoMeter;
 impl IconShape for GoMeter {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3077,11 +3551,14 @@ impl IconShape for GoMeter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoMilestone;
 impl IconShape for GoMilestone {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3096,11 +3573,14 @@ impl IconShape for GoMilestone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoMirror;
 impl IconShape for GoMirror {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3115,11 +3595,14 @@ impl IconShape for GoMirror {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoMoon;
 impl IconShape for GoMoon {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3134,11 +3617,14 @@ impl IconShape for GoMoon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoMortarBoard;
 impl IconShape for GoMortarBoard {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3153,11 +3639,14 @@ impl IconShape for GoMortarBoard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoMultiSelect;
 impl IconShape for GoMultiSelect {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3175,11 +3664,14 @@ impl IconShape for GoMultiSelect {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoMute;
 impl IconShape for GoMute {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3194,11 +3686,14 @@ impl IconShape for GoMute {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoNoEntry;
 impl IconShape for GoNoEntry {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3216,11 +3711,14 @@ impl IconShape for GoNoEntry {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoNorthStar;
 impl IconShape for GoNorthStar {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3234,11 +3732,14 @@ impl IconShape for GoNorthStar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoNote;
 impl IconShape for GoNote {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3253,11 +3754,14 @@ impl IconShape for GoNote {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoNumber;
 impl IconShape for GoNumber {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3272,11 +3776,14 @@ impl IconShape for GoNumber {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoOrganization;
 impl IconShape for GoOrganization {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3291,11 +3798,14 @@ impl IconShape for GoOrganization {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPackage;
 impl IconShape for GoPackage {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3310,11 +3820,14 @@ impl IconShape for GoPackage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPackageDependencies;
 impl IconShape for GoPackageDependencies {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3329,11 +3842,14 @@ impl IconShape for GoPackageDependencies {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPackageDependents;
 impl IconShape for GoPackageDependents {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3348,11 +3864,14 @@ impl IconShape for GoPackageDependents {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPaintbrush;
 impl IconShape for GoPaintbrush {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3367,11 +3886,14 @@ impl IconShape for GoPaintbrush {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPaperAirplane;
 impl IconShape for GoPaperAirplane {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3386,11 +3908,14 @@ impl IconShape for GoPaperAirplane {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPaste;
 impl IconShape for GoPaste {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3405,11 +3930,14 @@ impl IconShape for GoPaste {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPencil;
 impl IconShape for GoPencil {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3424,11 +3952,14 @@ impl IconShape for GoPencil {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPeople;
 impl IconShape for GoPeople {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3443,11 +3974,14 @@ impl IconShape for GoPeople {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPerson;
 impl IconShape for GoPerson {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3462,11 +3996,14 @@ impl IconShape for GoPerson {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPersonAdd;
 impl IconShape for GoPersonAdd {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3481,11 +4018,14 @@ impl IconShape for GoPersonAdd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPersonFill;
 impl IconShape for GoPersonFill {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3499,11 +4039,14 @@ impl IconShape for GoPersonFill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPin;
 impl IconShape for GoPin {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3518,11 +4061,14 @@ impl IconShape for GoPin {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPlay;
 impl IconShape for GoPlay {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3537,11 +4083,14 @@ impl IconShape for GoPlay {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPlug;
 impl IconShape for GoPlug {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3556,11 +4105,14 @@ impl IconShape for GoPlug {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPlus;
 impl IconShape for GoPlus {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3575,11 +4127,14 @@ impl IconShape for GoPlus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPlusCircle;
 impl IconShape for GoPlusCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3594,11 +4149,14 @@ impl IconShape for GoPlusCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoProject;
 impl IconShape for GoProject {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3613,11 +4171,14 @@ impl IconShape for GoProject {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoPulse;
 impl IconShape for GoPulse {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3632,11 +4193,14 @@ impl IconShape for GoPulse {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoQuestion;
 impl IconShape for GoQuestion {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3651,11 +4215,14 @@ impl IconShape for GoQuestion {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoQuote;
 impl IconShape for GoQuote {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3670,11 +4237,14 @@ impl IconShape for GoQuote {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoReply;
 impl IconShape for GoReply {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3689,11 +4259,14 @@ impl IconShape for GoReply {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoRepo;
 impl IconShape for GoRepo {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3708,11 +4281,14 @@ impl IconShape for GoRepo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoRepoClone;
 impl IconShape for GoRepoClone {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3727,11 +4303,14 @@ impl IconShape for GoRepoClone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoRepoDeleted;
 impl IconShape for GoRepoDeleted {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3748,11 +4327,14 @@ impl IconShape for GoRepoDeleted {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoRepoForked;
 impl IconShape for GoRepoForked {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3767,11 +4349,14 @@ impl IconShape for GoRepoForked {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoRepoLocked;
 impl IconShape for GoRepoLocked {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3789,11 +4374,14 @@ impl IconShape for GoRepoLocked {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoRepoPull;
 impl IconShape for GoRepoPull {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3808,11 +4396,14 @@ impl IconShape for GoRepoPull {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoRepoPush;
 impl IconShape for GoRepoPush {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3827,11 +4418,14 @@ impl IconShape for GoRepoPush {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoRepoTemplate;
 impl IconShape for GoRepoTemplate {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3846,11 +4440,14 @@ impl IconShape for GoRepoTemplate {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoReport;
 impl IconShape for GoReport {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3865,11 +4462,14 @@ impl IconShape for GoReport {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoRocket;
 impl IconShape for GoRocket {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3884,11 +4484,14 @@ impl IconShape for GoRocket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoRows;
 impl IconShape for GoRows {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3903,11 +4506,14 @@ impl IconShape for GoRows {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoRss;
 impl IconShape for GoRss {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3922,11 +4528,14 @@ impl IconShape for GoRss {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoRuby;
 impl IconShape for GoRuby {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3941,11 +4550,14 @@ impl IconShape for GoRuby {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoScreenFull;
 impl IconShape for GoScreenFull {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3960,11 +4572,14 @@ impl IconShape for GoScreenFull {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoScreenNormal;
 impl IconShape for GoScreenNormal {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3979,11 +4594,14 @@ impl IconShape for GoScreenNormal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSearch;
 impl IconShape for GoSearch {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3998,11 +4616,14 @@ impl IconShape for GoSearch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoServer;
 impl IconShape for GoServer {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4017,11 +4638,14 @@ impl IconShape for GoServer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoShare;
 impl IconShape for GoShare {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4036,11 +4660,14 @@ impl IconShape for GoShare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoShareAndroid;
 impl IconShape for GoShareAndroid {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4055,11 +4682,14 @@ impl IconShape for GoShareAndroid {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoShield;
 impl IconShape for GoShield {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4074,11 +4704,14 @@ impl IconShape for GoShield {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoShieldCheck;
 impl IconShape for GoShieldCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4093,11 +4726,14 @@ impl IconShape for GoShieldCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoShieldLock;
 impl IconShape for GoShieldLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4112,11 +4748,14 @@ impl IconShape for GoShieldLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoShieldX;
 impl IconShape for GoShieldX {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4131,11 +4770,14 @@ impl IconShape for GoShieldX {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSidebarCollapse;
 impl IconShape for GoSidebarCollapse {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4154,11 +4796,14 @@ impl IconShape for GoSidebarCollapse {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSidebarExpand;
 impl IconShape for GoSidebarExpand {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4177,11 +4822,14 @@ impl IconShape for GoSidebarExpand {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSignIn;
 impl IconShape for GoSignIn {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4196,11 +4844,14 @@ impl IconShape for GoSignIn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSignOut;
 impl IconShape for GoSignOut {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4215,11 +4866,14 @@ impl IconShape for GoSignOut {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSingleSelect;
 impl IconShape for GoSingleSelect {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4237,11 +4891,14 @@ impl IconShape for GoSingleSelect {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSkip;
 impl IconShape for GoSkip {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4256,11 +4913,14 @@ impl IconShape for GoSkip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSliders;
 impl IconShape for GoSliders {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4274,11 +4934,14 @@ impl IconShape for GoSliders {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSmiley;
 impl IconShape for GoSmiley {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4293,11 +4956,14 @@ impl IconShape for GoSmiley {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSortAsc;
 impl IconShape for GoSortAsc {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4312,11 +4978,14 @@ impl IconShape for GoSortAsc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSortDesc;
 impl IconShape for GoSortDesc {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4334,11 +5003,14 @@ impl IconShape for GoSortDesc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSquare;
 impl IconShape for GoSquare {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4353,11 +5025,14 @@ impl IconShape for GoSquare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSquareFill;
 impl IconShape for GoSquareFill {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4372,11 +5047,14 @@ impl IconShape for GoSquareFill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSquirrel;
 impl IconShape for GoSquirrel {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4391,11 +5069,14 @@ impl IconShape for GoSquirrel {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoStack;
 impl IconShape for GoStack {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4410,11 +5091,14 @@ impl IconShape for GoStack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoStar;
 impl IconShape for GoStar {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4429,11 +5113,14 @@ impl IconShape for GoStar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoStarFill;
 impl IconShape for GoStarFill {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4448,11 +5135,14 @@ impl IconShape for GoStarFill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoStop;
 impl IconShape for GoStop {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4467,11 +5157,14 @@ impl IconShape for GoStop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoStopwatch;
 impl IconShape for GoStopwatch {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4486,11 +5179,14 @@ impl IconShape for GoStopwatch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoStrikethrough;
 impl IconShape for GoStrikethrough {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4505,11 +5201,14 @@ impl IconShape for GoStrikethrough {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSun;
 impl IconShape for GoSun {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4524,11 +5223,14 @@ impl IconShape for GoSun {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoSync;
 impl IconShape for GoSync {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4543,11 +5245,14 @@ impl IconShape for GoSync {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTabExternal;
 impl IconShape for GoTabExternal {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4564,11 +5269,14 @@ impl IconShape for GoTabExternal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTable;
 impl IconShape for GoTable {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4583,11 +5291,14 @@ impl IconShape for GoTable {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTag;
 impl IconShape for GoTag {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4602,11 +5313,14 @@ impl IconShape for GoTag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTasklist;
 impl IconShape for GoTasklist {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4621,11 +5335,14 @@ impl IconShape for GoTasklist {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTelescope;
 impl IconShape for GoTelescope {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4640,11 +5357,14 @@ impl IconShape for GoTelescope {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTelescopeFill;
 impl IconShape for GoTelescopeFill {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4659,11 +5379,14 @@ impl IconShape for GoTelescopeFill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTerminal;
 impl IconShape for GoTerminal {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4678,11 +5401,14 @@ impl IconShape for GoTerminal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoThreeBars;
 impl IconShape for GoThreeBars {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4697,11 +5423,14 @@ impl IconShape for GoThreeBars {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoThumbsdown;
 impl IconShape for GoThumbsdown {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4716,11 +5445,14 @@ impl IconShape for GoThumbsdown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoThumbsup;
 impl IconShape for GoThumbsup {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4735,11 +5467,14 @@ impl IconShape for GoThumbsup {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTools;
 impl IconShape for GoTools {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4754,11 +5489,14 @@ impl IconShape for GoTools {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTrash;
 impl IconShape for GoTrash {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4773,11 +5511,14 @@ impl IconShape for GoTrash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTriangleDown;
 impl IconShape for GoTriangleDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4791,11 +5532,14 @@ impl IconShape for GoTriangleDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTriangleLeft;
 impl IconShape for GoTriangleLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4809,11 +5553,14 @@ impl IconShape for GoTriangleLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTriangleRight;
 impl IconShape for GoTriangleRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4827,11 +5574,14 @@ impl IconShape for GoTriangleRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTriangleUp;
 impl IconShape for GoTriangleUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4845,11 +5595,14 @@ impl IconShape for GoTriangleUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTrophy;
 impl IconShape for GoTrophy {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4864,11 +5617,14 @@ impl IconShape for GoTrophy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoTypography;
 impl IconShape for GoTypography {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4883,11 +5639,14 @@ impl IconShape for GoTypography {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoUnfold;
 impl IconShape for GoUnfold {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4901,11 +5660,14 @@ impl IconShape for GoUnfold {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoUnlock;
 impl IconShape for GoUnlock {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4920,11 +5682,14 @@ impl IconShape for GoUnlock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoUnmute;
 impl IconShape for GoUnmute {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4939,11 +5704,14 @@ impl IconShape for GoUnmute {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoUnverified;
 impl IconShape for GoUnverified {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4958,11 +5726,14 @@ impl IconShape for GoUnverified {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoUpload;
 impl IconShape for GoUpload {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4977,11 +5748,14 @@ impl IconShape for GoUpload {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoVerified;
 impl IconShape for GoVerified {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4996,11 +5770,14 @@ impl IconShape for GoVerified {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoVersions;
 impl IconShape for GoVersions {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5015,11 +5792,14 @@ impl IconShape for GoVersions {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoVideo;
 impl IconShape for GoVideo {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5037,11 +5817,14 @@ impl IconShape for GoVideo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoWebhook;
 impl IconShape for GoWebhook {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5061,11 +5844,14 @@ impl IconShape for GoWebhook {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoWorkflow;
 impl IconShape for GoWorkflow {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5080,11 +5866,14 @@ impl IconShape for GoWorkflow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoX;
 impl IconShape for GoX {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5099,11 +5888,14 @@ impl IconShape for GoX {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoXCircle;
 impl IconShape for GoXCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5118,11 +5910,14 @@ impl IconShape for GoXCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoXCircleFill;
 impl IconShape for GoXCircleFill {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5137,11 +5932,14 @@ impl IconShape for GoXCircleFill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct GoZap;
 impl IconShape for GoZap {
-    fn view_box(&self) -> String {
-        String::from("0 0 16 16")
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {

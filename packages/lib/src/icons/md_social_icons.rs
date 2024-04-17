@@ -4,11 +4,14 @@ use dioxus::prelude::*;
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct Md6FtApart;
 impl IconShape for Md6FtApart {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22,11 +25,14 @@ impl IconShape for Md6FtApart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdAddModerator;
 impl IconShape for MdAddModerator {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -43,11 +49,14 @@ impl IconShape for MdAddModerator {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdArchitecture;
 impl IconShape for MdArchitecture {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -67,11 +76,14 @@ impl IconShape for MdArchitecture {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdCake;
 impl IconShape for MdCake {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -85,11 +97,14 @@ impl IconShape for MdCake {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdCleanHands;
 impl IconShape for MdCleanHands {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -103,11 +118,14 @@ impl IconShape for MdCleanHands {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdConnectWithoutContact;
 impl IconShape for MdConnectWithoutContact {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -121,11 +139,14 @@ impl IconShape for MdConnectWithoutContact {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdConstruction;
 impl IconShape for MdConstruction {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -146,11 +167,14 @@ impl IconShape for MdConstruction {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdCoronavirus;
 impl IconShape for MdCoronavirus {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -164,11 +188,14 @@ impl IconShape for MdCoronavirus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdDeck;
 impl IconShape for MdDeck {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -188,11 +215,14 @@ impl IconShape for MdDeck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdDomain;
 impl IconShape for MdDomain {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -206,11 +236,14 @@ impl IconShape for MdDomain {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdElderly;
 impl IconShape for MdElderly {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -224,11 +257,14 @@ impl IconShape for MdElderly {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdEmojiEmotions;
 impl IconShape for MdEmojiEmotions {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -242,11 +278,14 @@ impl IconShape for MdEmojiEmotions {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdEmojiEvents;
 impl IconShape for MdEmojiEvents {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -260,11 +299,14 @@ impl IconShape for MdEmojiEvents {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdEmojiFlags;
 impl IconShape for MdEmojiFlags {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -278,11 +320,14 @@ impl IconShape for MdEmojiFlags {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdEmojiFoodBeverage;
 impl IconShape for MdEmojiFoodBeverage {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -302,11 +347,14 @@ impl IconShape for MdEmojiFoodBeverage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdEmojiNature;
 impl IconShape for MdEmojiNature {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -323,11 +371,14 @@ impl IconShape for MdEmojiNature {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdEmojiObjects;
 impl IconShape for MdEmojiObjects {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -341,11 +392,14 @@ impl IconShape for MdEmojiObjects {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdEmojiPeople;
 impl IconShape for MdEmojiPeople {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -364,11 +418,14 @@ impl IconShape for MdEmojiPeople {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdEmojiSymbols;
 impl IconShape for MdEmojiSymbols {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -411,11 +468,14 @@ impl IconShape for MdEmojiSymbols {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdEmojiTransportation;
 impl IconShape for MdEmojiTransportation {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -456,11 +516,14 @@ impl IconShape for MdEmojiTransportation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdEngineering;
 impl IconShape for MdEngineering {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -486,11 +549,14 @@ impl IconShape for MdEngineering {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdFacebook;
 impl IconShape for MdFacebook {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -504,11 +570,14 @@ impl IconShape for MdFacebook {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdFireplace;
 impl IconShape for MdFireplace {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -522,11 +591,14 @@ impl IconShape for MdFireplace {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdFollowTheSigns;
 impl IconShape for MdFollowTheSigns {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -540,11 +612,14 @@ impl IconShape for MdFollowTheSigns {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdGroup;
 impl IconShape for MdGroup {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -558,11 +633,14 @@ impl IconShape for MdGroup {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdGroups;
 impl IconShape for MdGroups {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -576,11 +654,14 @@ impl IconShape for MdGroups {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdGroupAdd;
 impl IconShape for MdGroupAdd {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -594,11 +675,14 @@ impl IconShape for MdGroupAdd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdHistoryEdu;
 impl IconShape for MdHistoryEdu {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -612,11 +696,14 @@ impl IconShape for MdHistoryEdu {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdIosShare;
 impl IconShape for MdIosShare {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -630,11 +717,14 @@ impl IconShape for MdIosShare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdKingBed;
 impl IconShape for MdKingBed {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -660,11 +750,14 @@ impl IconShape for MdKingBed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdLocationCity;
 impl IconShape for MdLocationCity {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -678,11 +771,14 @@ impl IconShape for MdLocationCity {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdLuggage;
 impl IconShape for MdLuggage {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -696,11 +792,14 @@ impl IconShape for MdLuggage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdMasks;
 impl IconShape for MdMasks {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -714,11 +813,14 @@ impl IconShape for MdMasks {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdMilitaryTech;
 impl IconShape for MdMilitaryTech {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -732,11 +834,14 @@ impl IconShape for MdMilitaryTech {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdMood;
 impl IconShape for MdMood {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -750,11 +855,14 @@ impl IconShape for MdMood {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdMoodBad;
 impl IconShape for MdMoodBad {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -768,11 +876,14 @@ impl IconShape for MdMoodBad {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdNightsStay;
 impl IconShape for MdNightsStay {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -789,27 +900,31 @@ impl IconShape for MdNightsStay {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdNotifications;
 impl IconShape for MdNotifications {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdNotificationsActive;
 impl IconShape for MdNotificationsActive {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -823,11 +938,14 @@ impl IconShape for MdNotificationsActive {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdNotificationsNone;
 impl IconShape for MdNotificationsNone {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -841,11 +959,14 @@ impl IconShape for MdNotificationsNone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdNotificationsOff;
 impl IconShape for MdNotificationsOff {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -859,11 +980,14 @@ impl IconShape for MdNotificationsOff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdNotificationsPaused;
 impl IconShape for MdNotificationsPaused {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -877,11 +1001,14 @@ impl IconShape for MdNotificationsPaused {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdNoLuggage;
 impl IconShape for MdNoLuggage {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -895,11 +1022,14 @@ impl IconShape for MdNoLuggage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdOutdoorGrill;
 impl IconShape for MdOutdoorGrill {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -922,11 +1052,14 @@ impl IconShape for MdOutdoorGrill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPages;
 impl IconShape for MdPages {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -940,11 +1073,14 @@ impl IconShape for MdPages {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPartyMode;
 impl IconShape for MdPartyMode {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -958,11 +1094,14 @@ impl IconShape for MdPartyMode {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPeople;
 impl IconShape for MdPeople {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -976,11 +1115,14 @@ impl IconShape for MdPeople {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPeopleAlt;
 impl IconShape for MdPeopleAlt {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1009,11 +1151,14 @@ impl IconShape for MdPeopleAlt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPeopleOutline;
 impl IconShape for MdPeopleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1027,11 +1172,14 @@ impl IconShape for MdPeopleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPerson;
 impl IconShape for MdPerson {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1045,11 +1193,14 @@ impl IconShape for MdPerson {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPersonAdd;
 impl IconShape for MdPersonAdd {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1063,11 +1214,14 @@ impl IconShape for MdPersonAdd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPersonAddAlt;
 impl IconShape for MdPersonAddAlt {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1081,11 +1235,14 @@ impl IconShape for MdPersonAddAlt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPersonAddAlt1;
 impl IconShape for MdPersonAddAlt1 {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1099,11 +1256,14 @@ impl IconShape for MdPersonAddAlt1 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPersonOutline;
 impl IconShape for MdPersonOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1117,11 +1277,14 @@ impl IconShape for MdPersonOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPersonRemove;
 impl IconShape for MdPersonRemove {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1135,11 +1298,14 @@ impl IconShape for MdPersonRemove {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPersonRemoveAlt1;
 impl IconShape for MdPersonRemoveAlt1 {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1153,11 +1319,14 @@ impl IconShape for MdPersonRemoveAlt1 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPlusOne;
 impl IconShape for MdPlusOne {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1171,11 +1340,14 @@ impl IconShape for MdPlusOne {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPoll;
 impl IconShape for MdPoll {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1189,11 +1361,14 @@ impl IconShape for MdPoll {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPsychology;
 impl IconShape for MdPsychology {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1210,11 +1385,14 @@ impl IconShape for MdPsychology {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPublic;
 impl IconShape for MdPublic {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1228,11 +1406,14 @@ impl IconShape for MdPublic {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPublicOff;
 impl IconShape for MdPublicOff {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1246,11 +1427,14 @@ impl IconShape for MdPublicOff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdRecommend;
 impl IconShape for MdRecommend {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1264,11 +1448,14 @@ impl IconShape for MdRecommend {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdReduceCapacity;
 impl IconShape for MdReduceCapacity {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1282,11 +1469,14 @@ impl IconShape for MdReduceCapacity {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdRemoveModerator;
 impl IconShape for MdRemoveModerator {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1300,11 +1490,14 @@ impl IconShape for MdRemoveModerator {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSanitizer;
 impl IconShape for MdSanitizer {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1318,11 +1511,14 @@ impl IconShape for MdSanitizer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSchool;
 impl IconShape for MdSchool {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1336,11 +1532,14 @@ impl IconShape for MdSchool {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdScience;
 impl IconShape for MdScience {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1354,11 +1553,14 @@ impl IconShape for MdScience {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSelfImprovement;
 impl IconShape for MdSelfImprovement {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1377,11 +1579,14 @@ impl IconShape for MdSelfImprovement {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSentimentDissatisfied;
 impl IconShape for MdSentimentDissatisfied {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1405,11 +1610,14 @@ impl IconShape for MdSentimentDissatisfied {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSentimentNeutral;
 impl IconShape for MdSentimentNeutral {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1436,11 +1644,14 @@ impl IconShape for MdSentimentNeutral {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSentimentSatisfied;
 impl IconShape for MdSentimentSatisfied {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1464,11 +1675,14 @@ impl IconShape for MdSentimentSatisfied {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSentimentVeryDissatisfied;
 impl IconShape for MdSentimentVeryDissatisfied {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1492,11 +1706,14 @@ impl IconShape for MdSentimentVeryDissatisfied {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSentimentVerySatisfied;
 impl IconShape for MdSentimentVerySatisfied {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1520,11 +1737,14 @@ impl IconShape for MdSentimentVerySatisfied {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdShare;
 impl IconShape for MdShare {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1538,11 +1758,14 @@ impl IconShape for MdShare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSick;
 impl IconShape for MdSick {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1556,11 +1779,14 @@ impl IconShape for MdSick {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSingleBed;
 impl IconShape for MdSingleBed {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1574,11 +1800,14 @@ impl IconShape for MdSingleBed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSports;
 impl IconShape for MdSports {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1597,11 +1826,14 @@ impl IconShape for MdSports {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsBaseball;
 impl IconShape for MdSportsBaseball {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1621,11 +1853,14 @@ impl IconShape for MdSportsBaseball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsBasketball;
 impl IconShape for MdSportsBasketball {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1660,11 +1895,14 @@ impl IconShape for MdSportsBasketball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsCricket;
 impl IconShape for MdSportsCricket {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1690,11 +1928,14 @@ impl IconShape for MdSportsCricket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsEsports;
 impl IconShape for MdSportsEsports {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1708,11 +1949,14 @@ impl IconShape for MdSportsEsports {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsFootball;
 impl IconShape for MdSportsFootball {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1732,11 +1976,14 @@ impl IconShape for MdSportsFootball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsGolf;
 impl IconShape for MdSportsGolf {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1768,11 +2015,14 @@ impl IconShape for MdSportsGolf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsHandball;
 impl IconShape for MdSportsHandball {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1792,11 +2042,14 @@ impl IconShape for MdSportsHandball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsHockey;
 impl IconShape for MdSportsHockey {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1819,11 +2072,14 @@ impl IconShape for MdSportsHockey {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsKabaddi;
 impl IconShape for MdSportsKabaddi {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1848,11 +2104,14 @@ impl IconShape for MdSportsKabaddi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsMma;
 impl IconShape for MdSportsMma {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1869,11 +2128,14 @@ impl IconShape for MdSportsMma {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsMotorsports;
 impl IconShape for MdSportsMotorsports {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1890,11 +2152,14 @@ impl IconShape for MdSportsMotorsports {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsRugby;
 impl IconShape for MdSportsRugby {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1908,11 +2173,14 @@ impl IconShape for MdSportsRugby {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsSoccer;
 impl IconShape for MdSportsSoccer {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1926,11 +2194,14 @@ impl IconShape for MdSportsSoccer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsTennis;
 impl IconShape for MdSportsTennis {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1947,11 +2218,14 @@ impl IconShape for MdSportsTennis {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSportsVolleyball;
 impl IconShape for MdSportsVolleyball {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1980,11 +2254,14 @@ impl IconShape for MdSportsVolleyball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSwitchAccount;
 impl IconShape for MdSwitchAccount {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1998,11 +2275,14 @@ impl IconShape for MdSwitchAccount {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdThumbDownAlt;
 impl IconShape for MdThumbDownAlt {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2016,11 +2296,14 @@ impl IconShape for MdThumbDownAlt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdThumbUpAlt;
 impl IconShape for MdThumbUpAlt {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2034,11 +2317,14 @@ impl IconShape for MdThumbUpAlt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdWhatshot;
 impl IconShape for MdWhatshot {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {

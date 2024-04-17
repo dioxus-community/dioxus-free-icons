@@ -4,11 +4,14 @@ use dioxus::prelude::*;
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAccessibilityOutline;
 impl IconShape for IoAccessibilityOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33,11 +36,14 @@ impl IconShape for IoAccessibilityOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAccessibilitySharp;
 impl IconShape for IoAccessibilitySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -54,11 +60,14 @@ impl IconShape for IoAccessibilitySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAccessibility;
 impl IconShape for IoAccessibility {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -75,11 +84,14 @@ impl IconShape for IoAccessibility {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAddCircleOutline;
 impl IconShape for IoAddCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -108,11 +120,14 @@ impl IconShape for IoAddCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAddCircleSharp;
 impl IconShape for IoAddCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -126,11 +141,14 @@ impl IconShape for IoAddCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAddCircle;
 impl IconShape for IoAddCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -144,11 +162,14 @@ impl IconShape for IoAddCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAddOutline;
 impl IconShape for IoAddOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -173,11 +194,14 @@ impl IconShape for IoAddOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAddSharp;
 impl IconShape for IoAddSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -202,11 +226,14 @@ impl IconShape for IoAddSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAdd;
 impl IconShape for IoAdd {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -231,11 +258,14 @@ impl IconShape for IoAdd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAirplaneOutline;
 impl IconShape for IoAirplaneOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -250,11 +280,14 @@ impl IconShape for IoAirplaneOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAirplaneSharp;
 impl IconShape for IoAirplaneSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -268,11 +301,14 @@ impl IconShape for IoAirplaneSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAirplane;
 impl IconShape for IoAirplane {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -286,11 +322,14 @@ impl IconShape for IoAirplane {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAlarmOutline;
 impl IconShape for IoAlarmOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -331,11 +370,14 @@ impl IconShape for IoAlarmOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAlarmSharp;
 impl IconShape for IoAlarmSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -355,11 +397,14 @@ impl IconShape for IoAlarmSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAlarm;
 impl IconShape for IoAlarm {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -379,11 +424,14 @@ impl IconShape for IoAlarm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAlbumsOutline;
 impl IconShape for IoAlbumsOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -417,11 +465,14 @@ impl IconShape for IoAlbumsOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAlbumsSharp;
 impl IconShape for IoAlbumsSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -447,11 +498,14 @@ impl IconShape for IoAlbumsSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAlbums;
 impl IconShape for IoAlbums {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -471,11 +525,14 @@ impl IconShape for IoAlbums {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAlertCircleOutline;
 impl IconShape for IoAlertCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -497,11 +554,14 @@ impl IconShape for IoAlertCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAlertCircleSharp;
 impl IconShape for IoAlertCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -519,11 +579,14 @@ impl IconShape for IoAlertCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAlertCircle;
 impl IconShape for IoAlertCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -537,11 +600,14 @@ impl IconShape for IoAlertCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAlertOutline;
 impl IconShape for IoAlertOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -562,11 +628,14 @@ impl IconShape for IoAlertOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAlertSharp;
 impl IconShape for IoAlertSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -588,11 +657,14 @@ impl IconShape for IoAlertSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAlert;
 impl IconShape for IoAlert {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -613,11 +685,14 @@ impl IconShape for IoAlert {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAmericanFootballOutline;
 impl IconShape for IoAmericanFootballOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -678,11 +753,14 @@ impl IconShape for IoAmericanFootballOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAmericanFootballSharp;
 impl IconShape for IoAmericanFootballSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -702,11 +780,14 @@ impl IconShape for IoAmericanFootballSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAmericanFootball;
 impl IconShape for IoAmericanFootball {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -726,11 +807,14 @@ impl IconShape for IoAmericanFootball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAnalyticsOutline;
 impl IconShape for IoAnalyticsOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -786,11 +870,14 @@ impl IconShape for IoAnalyticsOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAnalyticsSharp;
 impl IconShape for IoAnalyticsSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -804,11 +891,14 @@ impl IconShape for IoAnalyticsSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAnalytics;
 impl IconShape for IoAnalytics {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -822,11 +912,14 @@ impl IconShape for IoAnalytics {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoApertureOutline;
 impl IconShape for IoApertureOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -897,11 +990,14 @@ impl IconShape for IoApertureOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoApertureSharp;
 impl IconShape for IoApertureSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -939,11 +1035,14 @@ impl IconShape for IoApertureSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAperture;
 impl IconShape for IoAperture {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -981,11 +1080,14 @@ impl IconShape for IoAperture {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAppsOutline;
 impl IconShape for IoAppsOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1077,11 +1179,14 @@ impl IconShape for IoAppsOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAppsSharp;
 impl IconShape for IoAppsSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1164,11 +1269,14 @@ impl IconShape for IoAppsSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoApps;
 impl IconShape for IoApps {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1206,11 +1314,14 @@ impl IconShape for IoApps {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArchiveOutline;
 impl IconShape for IoArchiveOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1245,11 +1356,14 @@ impl IconShape for IoArchiveOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArchiveSharp;
 impl IconShape for IoArchiveSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1271,11 +1385,14 @@ impl IconShape for IoArchiveSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArchive;
 impl IconShape for IoArchive {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1297,11 +1414,14 @@ impl IconShape for IoArchive {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowBackCircleOutline;
 impl IconShape for IoArrowBackCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1327,11 +1447,14 @@ impl IconShape for IoArrowBackCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowBackCircleSharp;
 impl IconShape for IoArrowBackCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1345,11 +1468,14 @@ impl IconShape for IoArrowBackCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowBackCircle;
 impl IconShape for IoArrowBackCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1363,11 +1489,14 @@ impl IconShape for IoArrowBackCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowBackOutline;
 impl IconShape for IoArrowBackOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1389,11 +1518,14 @@ impl IconShape for IoArrowBackOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowBackSharp;
 impl IconShape for IoArrowBackSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1415,11 +1547,14 @@ impl IconShape for IoArrowBackSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowBack;
 impl IconShape for IoArrowBack {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1441,11 +1576,14 @@ impl IconShape for IoArrowBack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowDownCircleOutline;
 impl IconShape for IoArrowDownCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1471,11 +1609,14 @@ impl IconShape for IoArrowDownCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowDownCircleSharp;
 impl IconShape for IoArrowDownCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1489,11 +1630,14 @@ impl IconShape for IoArrowDownCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowDownCircle;
 impl IconShape for IoArrowDownCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1507,11 +1651,14 @@ impl IconShape for IoArrowDownCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowDownOutline;
 impl IconShape for IoArrowDownOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1533,11 +1680,14 @@ impl IconShape for IoArrowDownOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowDownSharp;
 impl IconShape for IoArrowDownSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1559,11 +1709,14 @@ impl IconShape for IoArrowDownSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowDown;
 impl IconShape for IoArrowDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1585,11 +1738,14 @@ impl IconShape for IoArrowDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowForwardCircleOutline;
 impl IconShape for IoArrowForwardCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1615,11 +1771,14 @@ impl IconShape for IoArrowForwardCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowForwardCircleSharp;
 impl IconShape for IoArrowForwardCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1633,11 +1792,14 @@ impl IconShape for IoArrowForwardCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowForwardCircle;
 impl IconShape for IoArrowForwardCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1651,11 +1813,14 @@ impl IconShape for IoArrowForwardCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowForwardOutline;
 impl IconShape for IoArrowForwardOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1677,11 +1842,14 @@ impl IconShape for IoArrowForwardOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowForwardSharp;
 impl IconShape for IoArrowForwardSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1703,11 +1871,14 @@ impl IconShape for IoArrowForwardSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowForward;
 impl IconShape for IoArrowForward {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1729,11 +1900,14 @@ impl IconShape for IoArrowForward {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowRedoCircleOutline;
 impl IconShape for IoArrowRedoCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1751,11 +1925,14 @@ impl IconShape for IoArrowRedoCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowRedoCircleSharp;
 impl IconShape for IoArrowRedoCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1769,11 +1946,14 @@ impl IconShape for IoArrowRedoCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowRedoCircle;
 impl IconShape for IoArrowRedoCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1787,11 +1967,14 @@ impl IconShape for IoArrowRedoCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowRedoOutline;
 impl IconShape for IoArrowRedoOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1806,11 +1989,14 @@ impl IconShape for IoArrowRedoOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowRedoSharp;
 impl IconShape for IoArrowRedoSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1824,11 +2010,14 @@ impl IconShape for IoArrowRedoSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowRedo;
 impl IconShape for IoArrowRedo {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1842,11 +2031,14 @@ impl IconShape for IoArrowRedo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowUndoCircleOutline;
 impl IconShape for IoArrowUndoCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1864,11 +2056,14 @@ impl IconShape for IoArrowUndoCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowUndoCircleSharp;
 impl IconShape for IoArrowUndoCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1882,11 +2077,14 @@ impl IconShape for IoArrowUndoCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowUndoCircle;
 impl IconShape for IoArrowUndoCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1900,11 +2098,14 @@ impl IconShape for IoArrowUndoCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowUndoOutline;
 impl IconShape for IoArrowUndoOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1919,11 +2120,14 @@ impl IconShape for IoArrowUndoOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowUndoSharp;
 impl IconShape for IoArrowUndoSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1937,11 +2141,14 @@ impl IconShape for IoArrowUndoSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowUndo;
 impl IconShape for IoArrowUndo {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1955,11 +2162,14 @@ impl IconShape for IoArrowUndo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowUpCircleOutline;
 impl IconShape for IoArrowUpCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1985,11 +2195,14 @@ impl IconShape for IoArrowUpCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowUpCircleSharp;
 impl IconShape for IoArrowUpCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2003,11 +2216,14 @@ impl IconShape for IoArrowUpCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowUpCircle;
 impl IconShape for IoArrowUpCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2021,11 +2237,14 @@ impl IconShape for IoArrowUpCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowUpOutline;
 impl IconShape for IoArrowUpOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2047,11 +2266,14 @@ impl IconShape for IoArrowUpOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowUpSharp;
 impl IconShape for IoArrowUpSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2073,11 +2295,14 @@ impl IconShape for IoArrowUpSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowUp;
 impl IconShape for IoArrowUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2099,11 +2324,14 @@ impl IconShape for IoArrowUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAtCircleOutline;
 impl IconShape for IoAtCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2122,11 +2350,14 @@ impl IconShape for IoAtCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAtCircleSharp;
 impl IconShape for IoAtCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2143,11 +2374,14 @@ impl IconShape for IoAtCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAtCircle;
 impl IconShape for IoAtCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2164,11 +2398,14 @@ impl IconShape for IoAtCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAtOutline;
 impl IconShape for IoAtOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2187,11 +2424,14 @@ impl IconShape for IoAtOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAtSharp;
 impl IconShape for IoAtSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2205,11 +2445,14 @@ impl IconShape for IoAtSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAt;
 impl IconShape for IoAt {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2228,11 +2471,14 @@ impl IconShape for IoAt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAttachOutline;
 impl IconShape for IoAttachOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2247,11 +2493,14 @@ impl IconShape for IoAttachOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAttachSharp;
 impl IconShape for IoAttachSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2266,11 +2515,14 @@ impl IconShape for IoAttachSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoAttach;
 impl IconShape for IoAttach {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2285,11 +2537,14 @@ impl IconShape for IoAttach {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBackspaceOutline;
 impl IconShape for IoBackspaceOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2332,11 +2587,14 @@ impl IconShape for IoBackspaceOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBackspaceSharp;
 impl IconShape for IoBackspaceSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2350,11 +2608,14 @@ impl IconShape for IoBackspaceSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBackspace;
 impl IconShape for IoBackspace {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2368,11 +2629,14 @@ impl IconShape for IoBackspace {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagAddOutline;
 impl IconShape for IoBagAddOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2419,11 +2683,14 @@ impl IconShape for IoBagAddOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagAddSharp;
 impl IconShape for IoBagAddSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2437,11 +2704,14 @@ impl IconShape for IoBagAddSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagAdd;
 impl IconShape for IoBagAdd {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2455,11 +2725,14 @@ impl IconShape for IoBagAdd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagCheckOutline;
 impl IconShape for IoBagCheckOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2493,11 +2766,14 @@ impl IconShape for IoBagCheckOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagCheckSharp;
 impl IconShape for IoBagCheckSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2511,11 +2787,14 @@ impl IconShape for IoBagCheckSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagCheck;
 impl IconShape for IoBagCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2529,11 +2808,14 @@ impl IconShape for IoBagCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagHandleOutline;
 impl IconShape for IoBagHandleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2565,11 +2847,14 @@ impl IconShape for IoBagHandleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagHandleSharp;
 impl IconShape for IoBagHandleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2583,11 +2868,14 @@ impl IconShape for IoBagHandleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagHandle;
 impl IconShape for IoBagHandle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2601,11 +2889,14 @@ impl IconShape for IoBagHandle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagOutline;
 impl IconShape for IoBagOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2632,11 +2923,14 @@ impl IconShape for IoBagOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagRemoveOutline;
 impl IconShape for IoBagRemoveOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2673,11 +2967,14 @@ impl IconShape for IoBagRemoveOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagRemoveSharp;
 impl IconShape for IoBagRemoveSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2691,11 +2988,14 @@ impl IconShape for IoBagRemoveSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagRemove;
 impl IconShape for IoBagRemove {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2709,11 +3009,14 @@ impl IconShape for IoBagRemove {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBagSharp;
 impl IconShape for IoBagSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2727,11 +3030,14 @@ impl IconShape for IoBagSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBag;
 impl IconShape for IoBag {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2745,11 +3051,14 @@ impl IconShape for IoBag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBalloonOutline;
 impl IconShape for IoBalloonOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2787,11 +3096,14 @@ impl IconShape for IoBalloonOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBalloonSharp;
 impl IconShape for IoBalloonSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2805,11 +3117,14 @@ impl IconShape for IoBalloonSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBalloon;
 impl IconShape for IoBalloon {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2823,11 +3138,14 @@ impl IconShape for IoBalloon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBanOutline;
 impl IconShape for IoBanOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2855,11 +3173,14 @@ impl IconShape for IoBanOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBanSharp;
 impl IconShape for IoBanSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2873,11 +3194,14 @@ impl IconShape for IoBanSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBan;
 impl IconShape for IoBan {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2905,11 +3229,14 @@ impl IconShape for IoBan {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBandageOutline;
 impl IconShape for IoBandageOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2960,11 +3287,14 @@ impl IconShape for IoBandageOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBandageSharp;
 impl IconShape for IoBandageSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2984,11 +3314,14 @@ impl IconShape for IoBandageSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBandage;
 impl IconShape for IoBandage {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3020,11 +3353,14 @@ impl IconShape for IoBandage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBarChartOutline;
 impl IconShape for IoBarChartOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3066,11 +3402,14 @@ impl IconShape for IoBarChartOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBarChartSharp;
 impl IconShape for IoBarChartSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3093,11 +3432,14 @@ impl IconShape for IoBarChartSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBarChart;
 impl IconShape for IoBarChart {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3120,11 +3462,14 @@ impl IconShape for IoBarChart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBarbellOutline;
 impl IconShape for IoBarbellOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3178,11 +3523,14 @@ impl IconShape for IoBarbellOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBarbellSharp;
 impl IconShape for IoBarbellSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3196,11 +3544,14 @@ impl IconShape for IoBarbellSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBarbell;
 impl IconShape for IoBarbell {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3214,11 +3565,14 @@ impl IconShape for IoBarbell {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBarcodeOutline;
 impl IconShape for IoBarcodeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3272,11 +3626,14 @@ impl IconShape for IoBarcodeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBarcodeSharp;
 impl IconShape for IoBarcodeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3330,11 +3687,14 @@ impl IconShape for IoBarcodeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBarcode;
 impl IconShape for IoBarcode {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3348,11 +3708,14 @@ impl IconShape for IoBarcode {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBaseballOutline;
 impl IconShape for IoBaseballOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3433,11 +3796,14 @@ impl IconShape for IoBaseballOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBaseballSharp;
 impl IconShape for IoBaseballSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3457,11 +3823,14 @@ impl IconShape for IoBaseballSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBaseball;
 impl IconShape for IoBaseball {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3481,11 +3850,14 @@ impl IconShape for IoBaseball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBasketOutline;
 impl IconShape for IoBasketOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3504,11 +3876,14 @@ impl IconShape for IoBasketOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBasketSharp;
 impl IconShape for IoBasketSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3525,11 +3900,14 @@ impl IconShape for IoBasketSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBasket;
 impl IconShape for IoBasket {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3543,11 +3921,14 @@ impl IconShape for IoBasket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBasketballOutline;
 impl IconShape for IoBasketballOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3586,11 +3967,14 @@ impl IconShape for IoBasketballOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBasketballSharp;
 impl IconShape for IoBasketballSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3625,11 +4009,14 @@ impl IconShape for IoBasketballSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBasketball;
 impl IconShape for IoBasketball {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3664,11 +4051,14 @@ impl IconShape for IoBasketball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBatteryChargingOutline;
 impl IconShape for IoBatteryChargingOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3697,11 +4087,14 @@ impl IconShape for IoBatteryChargingOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBatteryChargingSharp;
 impl IconShape for IoBatteryChargingSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3733,11 +4126,14 @@ impl IconShape for IoBatteryChargingSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBatteryCharging;
 impl IconShape for IoBatteryCharging {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3766,11 +4162,14 @@ impl IconShape for IoBatteryCharging {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBatteryDeadOutline;
 impl IconShape for IoBatteryDeadOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3797,11 +4196,14 @@ impl IconShape for IoBatteryDeadOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBatteryDeadSharp;
 impl IconShape for IoBatteryDeadSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3826,11 +4228,14 @@ impl IconShape for IoBatteryDeadSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBatteryDead;
 impl IconShape for IoBatteryDead {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3857,11 +4262,14 @@ impl IconShape for IoBatteryDead {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBatteryFullOutline;
 impl IconShape for IoBatteryFullOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3897,11 +4305,14 @@ impl IconShape for IoBatteryFullOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBatteryFullSharp;
 impl IconShape for IoBatteryFullSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3927,11 +4338,14 @@ impl IconShape for IoBatteryFullSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBatteryFull;
 impl IconShape for IoBatteryFull {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3967,11 +4381,14 @@ impl IconShape for IoBatteryFull {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBatteryHalfOutline;
 impl IconShape for IoBatteryHalfOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4007,11 +4424,14 @@ impl IconShape for IoBatteryHalfOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBatteryHalfSharp;
 impl IconShape for IoBatteryHalfSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4037,11 +4457,14 @@ impl IconShape for IoBatteryHalfSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBatteryHalf;
 impl IconShape for IoBatteryHalf {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4077,11 +4500,14 @@ impl IconShape for IoBatteryHalf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBeakerOutline;
 impl IconShape for IoBeakerOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4103,11 +4529,14 @@ impl IconShape for IoBeakerOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBeakerSharp;
 impl IconShape for IoBeakerSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4121,11 +4550,14 @@ impl IconShape for IoBeakerSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBeaker;
 impl IconShape for IoBeaker {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4139,11 +4571,14 @@ impl IconShape for IoBeaker {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBedOutline;
 impl IconShape for IoBedOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4174,11 +4609,14 @@ impl IconShape for IoBedOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBedSharp;
 impl IconShape for IoBedSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4192,11 +4630,14 @@ impl IconShape for IoBedSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBed;
 impl IconShape for IoBed {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4213,11 +4654,14 @@ impl IconShape for IoBed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBeerOutline;
 impl IconShape for IoBeerOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4269,11 +4713,14 @@ impl IconShape for IoBeerOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBeerSharp;
 impl IconShape for IoBeerSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4287,11 +4734,14 @@ impl IconShape for IoBeerSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBeer;
 impl IconShape for IoBeer {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4305,11 +4755,14 @@ impl IconShape for IoBeer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBicycleOutline;
 impl IconShape for IoBicycleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4335,11 +4788,14 @@ impl IconShape for IoBicycleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBicycleSharp;
 impl IconShape for IoBicycleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4362,11 +4818,14 @@ impl IconShape for IoBicycleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBicycle;
 impl IconShape for IoBicycle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4389,11 +4848,14 @@ impl IconShape for IoBicycle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBluetoothOutline;
 impl IconShape for IoBluetoothOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4408,11 +4870,14 @@ impl IconShape for IoBluetoothOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBluetoothSharp;
 impl IconShape for IoBluetoothSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4426,11 +4891,14 @@ impl IconShape for IoBluetoothSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBluetooth;
 impl IconShape for IoBluetooth {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4444,11 +4912,14 @@ impl IconShape for IoBluetooth {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBoatOutline;
 impl IconShape for IoBoatOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4481,11 +4952,14 @@ impl IconShape for IoBoatOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBoatSharp;
 impl IconShape for IoBoatSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4502,11 +4976,14 @@ impl IconShape for IoBoatSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBoat;
 impl IconShape for IoBoat {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4523,11 +5000,14 @@ impl IconShape for IoBoat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBodyOutline;
 impl IconShape for IoBodyOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4552,11 +5032,14 @@ impl IconShape for IoBodyOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBodySharp;
 impl IconShape for IoBodySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4575,11 +5058,14 @@ impl IconShape for IoBodySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBody;
 impl IconShape for IoBody {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4598,11 +5084,14 @@ impl IconShape for IoBody {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBonfireOutline;
 impl IconShape for IoBonfireOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4640,11 +5129,14 @@ impl IconShape for IoBonfireOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBonfireSharp;
 impl IconShape for IoBonfireSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4679,11 +5171,14 @@ impl IconShape for IoBonfireSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBonfire;
 impl IconShape for IoBonfire {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4718,11 +5213,14 @@ impl IconShape for IoBonfire {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBookOutline;
 impl IconShape for IoBookOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4744,11 +5242,14 @@ impl IconShape for IoBookOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBookSharp;
 impl IconShape for IoBookSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4765,11 +5266,14 @@ impl IconShape for IoBookSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBook;
 impl IconShape for IoBook {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4786,11 +5290,14 @@ impl IconShape for IoBook {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBookmarkOutline;
 impl IconShape for IoBookmarkOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4805,11 +5312,14 @@ impl IconShape for IoBookmarkOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBookmarkSharp;
 impl IconShape for IoBookmarkSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4823,11 +5333,14 @@ impl IconShape for IoBookmarkSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBookmark;
 impl IconShape for IoBookmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4841,11 +5354,14 @@ impl IconShape for IoBookmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBookmarksOutline;
 impl IconShape for IoBookmarksOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4864,11 +5380,14 @@ impl IconShape for IoBookmarksOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBookmarksSharp;
 impl IconShape for IoBookmarksSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4885,11 +5404,14 @@ impl IconShape for IoBookmarksSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBookmarks;
 impl IconShape for IoBookmarks {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4906,11 +5428,14 @@ impl IconShape for IoBookmarks {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBowlingBallOutline;
 impl IconShape for IoBowlingBallOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4944,11 +5469,14 @@ impl IconShape for IoBowlingBallOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBowlingBallSharp;
 impl IconShape for IoBowlingBallSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4962,11 +5490,14 @@ impl IconShape for IoBowlingBallSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBowlingBall;
 impl IconShape for IoBowlingBall {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4980,11 +5511,14 @@ impl IconShape for IoBowlingBall {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBriefcaseOutline;
 impl IconShape for IoBriefcaseOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5019,11 +5553,14 @@ impl IconShape for IoBriefcaseOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBriefcaseSharp;
 impl IconShape for IoBriefcaseSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5040,11 +5577,14 @@ impl IconShape for IoBriefcaseSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBriefcase;
 impl IconShape for IoBriefcase {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5065,11 +5605,14 @@ impl IconShape for IoBriefcase {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBrowsersOutline;
 impl IconShape for IoBrowsersOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5092,11 +5635,14 @@ impl IconShape for IoBrowsersOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBrowsersSharp;
 impl IconShape for IoBrowsersSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5110,11 +5656,14 @@ impl IconShape for IoBrowsersSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBrowsers;
 impl IconShape for IoBrowsers {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5128,11 +5677,14 @@ impl IconShape for IoBrowsers {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBrushOutline;
 impl IconShape for IoBrushOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5151,11 +5703,14 @@ impl IconShape for IoBrushOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBrushSharp;
 impl IconShape for IoBrushSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5172,11 +5727,14 @@ impl IconShape for IoBrushSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBrush;
 impl IconShape for IoBrush {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5193,11 +5751,14 @@ impl IconShape for IoBrush {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBugOutline;
 impl IconShape for IoBugOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5253,11 +5814,14 @@ impl IconShape for IoBugOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBugSharp;
 impl IconShape for IoBugSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5274,11 +5838,14 @@ impl IconShape for IoBugSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBug;
 impl IconShape for IoBug {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5295,11 +5862,14 @@ impl IconShape for IoBug {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBuildOutline;
 impl IconShape for IoBuildOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5319,11 +5889,14 @@ impl IconShape for IoBuildOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBuildSharp;
 impl IconShape for IoBuildSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5337,11 +5910,14 @@ impl IconShape for IoBuildSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBuild;
 impl IconShape for IoBuild {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5355,11 +5931,14 @@ impl IconShape for IoBuild {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBulbOutline;
 impl IconShape for IoBulbOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5399,11 +5978,14 @@ impl IconShape for IoBulbOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBulbSharp;
 impl IconShape for IoBulbSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5429,11 +6011,14 @@ impl IconShape for IoBulbSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBulb;
 impl IconShape for IoBulb {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5453,11 +6038,14 @@ impl IconShape for IoBulb {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBusOutline;
 impl IconShape for IoBusOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5531,11 +6119,14 @@ impl IconShape for IoBusOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBusSharp;
 impl IconShape for IoBusSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5553,11 +6144,14 @@ impl IconShape for IoBusSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBus;
 impl IconShape for IoBus {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5571,11 +6165,14 @@ impl IconShape for IoBus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBusinessOutline;
 impl IconShape for IoBusinessOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5665,11 +6262,14 @@ impl IconShape for IoBusinessOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBusinessSharp;
 impl IconShape for IoBusinessSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5701,11 +6301,14 @@ impl IconShape for IoBusinessSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoBusiness;
 impl IconShape for IoBusiness {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5737,11 +6340,14 @@ impl IconShape for IoBusiness {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCafeOutline;
 impl IconShape for IoCafeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5767,11 +6373,14 @@ impl IconShape for IoCafeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCafeSharp;
 impl IconShape for IoCafeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5791,11 +6400,14 @@ impl IconShape for IoCafeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCafe;
 impl IconShape for IoCafe {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5812,11 +6424,14 @@ impl IconShape for IoCafe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCalculatorOutline;
 impl IconShape for IoCalculatorOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5886,11 +6501,14 @@ impl IconShape for IoCalculatorOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCalculatorSharp;
 impl IconShape for IoCalculatorSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5904,11 +6522,14 @@ impl IconShape for IoCalculatorSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCalculator;
 impl IconShape for IoCalculator {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5922,11 +6543,14 @@ impl IconShape for IoCalculator {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCalendarClearOutline;
 impl IconShape for IoCalendarClearOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5977,11 +6601,14 @@ impl IconShape for IoCalendarClearOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCalendarClearSharp;
 impl IconShape for IoCalendarClearSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5998,11 +6625,14 @@ impl IconShape for IoCalendarClearSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCalendarClear;
 impl IconShape for IoCalendarClear {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6019,11 +6649,14 @@ impl IconShape for IoCalendarClear {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCalendarNumberOutline;
 impl IconShape for IoCalendarNumberOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6095,11 +6728,14 @@ impl IconShape for IoCalendarNumberOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCalendarNumberSharp;
 impl IconShape for IoCalendarNumberSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6116,11 +6752,14 @@ impl IconShape for IoCalendarNumberSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCalendarNumber;
 impl IconShape for IoCalendarNumber {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6137,11 +6776,14 @@ impl IconShape for IoCalendarNumber {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCalendarOutline;
 impl IconShape for IoCalendarOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6236,11 +6878,14 @@ impl IconShape for IoCalendarOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCalendarSharp;
 impl IconShape for IoCalendarSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6257,11 +6902,14 @@ impl IconShape for IoCalendarSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCalendar;
 impl IconShape for IoCalendar {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6278,11 +6926,14 @@ impl IconShape for IoCalendar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCallOutline;
 impl IconShape for IoCallOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6297,11 +6948,14 @@ impl IconShape for IoCallOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCallSharp;
 impl IconShape for IoCallSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6315,11 +6969,14 @@ impl IconShape for IoCallSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCall;
 impl IconShape for IoCall {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6333,11 +6990,14 @@ impl IconShape for IoCall {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCameraOutline;
 impl IconShape for IoCameraOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6362,11 +7022,14 @@ impl IconShape for IoCameraOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCameraReverseOutline;
 impl IconShape for IoCameraReverseOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6397,11 +7060,14 @@ impl IconShape for IoCameraReverseOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCameraReverseSharp;
 impl IconShape for IoCameraReverseSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6415,11 +7081,14 @@ impl IconShape for IoCameraReverseSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCameraReverse;
 impl IconShape for IoCameraReverse {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6433,11 +7102,14 @@ impl IconShape for IoCameraReverse {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCameraSharp;
 impl IconShape for IoCameraSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6456,11 +7128,14 @@ impl IconShape for IoCameraSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCamera;
 impl IconShape for IoCamera {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6479,11 +7154,14 @@ impl IconShape for IoCamera {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCarOutline;
 impl IconShape for IoCarOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6525,11 +7203,14 @@ impl IconShape for IoCarOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCarSharp;
 impl IconShape for IoCarSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6543,11 +7224,14 @@ impl IconShape for IoCarSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCarSportOutline;
 impl IconShape for IoCarSportOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6603,11 +7287,14 @@ impl IconShape for IoCarSportOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCarSportSharp;
 impl IconShape for IoCarSportSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6621,11 +7308,14 @@ impl IconShape for IoCarSportSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCarSport;
 impl IconShape for IoCarSport {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6639,11 +7329,14 @@ impl IconShape for IoCarSport {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCar;
 impl IconShape for IoCar {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6657,11 +7350,14 @@ impl IconShape for IoCar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCardOutline;
 impl IconShape for IoCardOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6695,11 +7391,14 @@ impl IconShape for IoCardOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCardSharp;
 impl IconShape for IoCardSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6716,11 +7415,14 @@ impl IconShape for IoCardSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCard;
 impl IconShape for IoCard {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6737,11 +7439,14 @@ impl IconShape for IoCard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretBackCircleOutline;
 impl IconShape for IoCaretBackCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6759,11 +7464,14 @@ impl IconShape for IoCaretBackCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretBackCircleSharp;
 impl IconShape for IoCaretBackCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6777,11 +7485,14 @@ impl IconShape for IoCaretBackCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretBackCircle;
 impl IconShape for IoCaretBackCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6795,11 +7506,14 @@ impl IconShape for IoCaretBackCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretBackOutline;
 impl IconShape for IoCaretBackOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6813,11 +7527,14 @@ impl IconShape for IoCaretBackOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretBackSharp;
 impl IconShape for IoCaretBackSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6831,11 +7548,14 @@ impl IconShape for IoCaretBackSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretBack;
 impl IconShape for IoCaretBack {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6849,11 +7569,14 @@ impl IconShape for IoCaretBack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretDownCircleOutline;
 impl IconShape for IoCaretDownCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6871,11 +7594,14 @@ impl IconShape for IoCaretDownCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretDownCircleSharp;
 impl IconShape for IoCaretDownCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6889,11 +7615,14 @@ impl IconShape for IoCaretDownCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretDownCircle;
 impl IconShape for IoCaretDownCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6907,11 +7636,14 @@ impl IconShape for IoCaretDownCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretDownOutline;
 impl IconShape for IoCaretDownOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6925,11 +7657,14 @@ impl IconShape for IoCaretDownOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretDownSharp;
 impl IconShape for IoCaretDownSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6943,11 +7678,14 @@ impl IconShape for IoCaretDownSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretDown;
 impl IconShape for IoCaretDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6961,11 +7699,14 @@ impl IconShape for IoCaretDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretForwardCircleOutline;
 impl IconShape for IoCaretForwardCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6983,11 +7724,14 @@ impl IconShape for IoCaretForwardCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretForwardCircleSharp;
 impl IconShape for IoCaretForwardCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7001,11 +7745,14 @@ impl IconShape for IoCaretForwardCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretForwardCircle;
 impl IconShape for IoCaretForwardCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7019,11 +7766,14 @@ impl IconShape for IoCaretForwardCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretForwardOutline;
 impl IconShape for IoCaretForwardOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7037,11 +7787,14 @@ impl IconShape for IoCaretForwardOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretForwardSharp;
 impl IconShape for IoCaretForwardSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7055,11 +7808,14 @@ impl IconShape for IoCaretForwardSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretForward;
 impl IconShape for IoCaretForward {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7073,11 +7829,14 @@ impl IconShape for IoCaretForward {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretUpCircleOutline;
 impl IconShape for IoCaretUpCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7095,11 +7854,14 @@ impl IconShape for IoCaretUpCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretUpCircleSharp;
 impl IconShape for IoCaretUpCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7113,11 +7875,14 @@ impl IconShape for IoCaretUpCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretUpCircle;
 impl IconShape for IoCaretUpCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7131,11 +7896,14 @@ impl IconShape for IoCaretUpCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretUpOutline;
 impl IconShape for IoCaretUpOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7149,11 +7917,14 @@ impl IconShape for IoCaretUpOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretUpSharp;
 impl IconShape for IoCaretUpSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7167,11 +7938,14 @@ impl IconShape for IoCaretUpSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCaretUp;
 impl IconShape for IoCaretUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7185,11 +7959,14 @@ impl IconShape for IoCaretUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCartOutline;
 impl IconShape for IoCartOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7220,11 +7997,14 @@ impl IconShape for IoCartOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCartSharp;
 impl IconShape for IoCartSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7248,11 +8028,14 @@ impl IconShape for IoCartSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCart;
 impl IconShape for IoCart {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7276,11 +8059,14 @@ impl IconShape for IoCart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCashOutline;
 impl IconShape for IoCashOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7337,11 +8123,14 @@ impl IconShape for IoCashOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCashSharp;
 impl IconShape for IoCashSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7384,11 +8173,14 @@ impl IconShape for IoCashSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCash;
 impl IconShape for IoCash {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7425,11 +8217,14 @@ impl IconShape for IoCash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCellularOutline;
 impl IconShape for IoCellularOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7476,11 +8271,14 @@ impl IconShape for IoCellularOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCellularSharp;
 impl IconShape for IoCellularSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7503,11 +8301,14 @@ impl IconShape for IoCellularSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCellular;
 impl IconShape for IoCellular {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7530,11 +8331,14 @@ impl IconShape for IoCellular {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatboxEllipsesOutline;
 impl IconShape for IoChatboxEllipsesOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7564,11 +8368,14 @@ impl IconShape for IoChatboxEllipsesOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatboxEllipsesSharp;
 impl IconShape for IoChatboxEllipsesSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7582,11 +8389,14 @@ impl IconShape for IoChatboxEllipsesSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatboxEllipses;
 impl IconShape for IoChatboxEllipses {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7600,11 +8410,14 @@ impl IconShape for IoChatboxEllipses {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatboxOutline;
 impl IconShape for IoChatboxOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7619,11 +8432,14 @@ impl IconShape for IoChatboxOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatboxSharp;
 impl IconShape for IoChatboxSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7637,11 +8453,14 @@ impl IconShape for IoChatboxSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatbox;
 impl IconShape for IoChatbox {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7655,11 +8474,14 @@ impl IconShape for IoChatbox {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatbubbleEllipsesOutline;
 impl IconShape for IoChatbubbleEllipsesOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7689,11 +8511,14 @@ impl IconShape for IoChatbubbleEllipsesOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatbubbleEllipsesSharp;
 impl IconShape for IoChatbubbleEllipsesSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7707,11 +8532,14 @@ impl IconShape for IoChatbubbleEllipsesSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatbubbleEllipses;
 impl IconShape for IoChatbubbleEllipses {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7725,11 +8553,14 @@ impl IconShape for IoChatbubbleEllipses {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatbubbleOutline;
 impl IconShape for IoChatbubbleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7744,11 +8575,14 @@ impl IconShape for IoChatbubbleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatbubbleSharp;
 impl IconShape for IoChatbubbleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7762,11 +8596,14 @@ impl IconShape for IoChatbubbleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatbubble;
 impl IconShape for IoChatbubble {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7780,11 +8617,14 @@ impl IconShape for IoChatbubble {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatbubblesOutline;
 impl IconShape for IoChatbubblesOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7803,11 +8643,14 @@ impl IconShape for IoChatbubblesOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatbubblesSharp;
 impl IconShape for IoChatbubblesSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7824,11 +8667,14 @@ impl IconShape for IoChatbubblesSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChatbubbles;
 impl IconShape for IoChatbubbles {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7848,11 +8694,14 @@ impl IconShape for IoChatbubbles {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckboxOutline;
 impl IconShape for IoCheckboxOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7876,11 +8725,14 @@ impl IconShape for IoCheckboxOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckboxSharp;
 impl IconShape for IoCheckboxSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7894,11 +8746,14 @@ impl IconShape for IoCheckboxSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckbox;
 impl IconShape for IoCheckbox {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7912,11 +8767,14 @@ impl IconShape for IoCheckbox {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckmarkCircleOutline;
 impl IconShape for IoCheckmarkCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7935,11 +8793,14 @@ impl IconShape for IoCheckmarkCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckmarkCircleSharp;
 impl IconShape for IoCheckmarkCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7953,11 +8814,14 @@ impl IconShape for IoCheckmarkCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckmarkCircle;
 impl IconShape for IoCheckmarkCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7971,11 +8835,14 @@ impl IconShape for IoCheckmarkCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckmarkDoneCircleOutline;
 impl IconShape for IoCheckmarkDoneCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8008,11 +8875,14 @@ impl IconShape for IoCheckmarkDoneCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckmarkDoneCircleSharp;
 impl IconShape for IoCheckmarkDoneCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8026,11 +8896,14 @@ impl IconShape for IoCheckmarkDoneCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckmarkDoneCircle;
 impl IconShape for IoCheckmarkDoneCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8044,11 +8917,14 @@ impl IconShape for IoCheckmarkDoneCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckmarkDoneOutline;
 impl IconShape for IoCheckmarkDoneOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8077,11 +8953,14 @@ impl IconShape for IoCheckmarkDoneOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckmarkDoneSharp;
 impl IconShape for IoCheckmarkDoneSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8110,11 +8989,14 @@ impl IconShape for IoCheckmarkDoneSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckmarkDone;
 impl IconShape for IoCheckmarkDone {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8143,11 +9025,14 @@ impl IconShape for IoCheckmarkDone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckmarkOutline;
 impl IconShape for IoCheckmarkOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8162,11 +9047,14 @@ impl IconShape for IoCheckmarkOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckmarkSharp;
 impl IconShape for IoCheckmarkSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8181,11 +9069,14 @@ impl IconShape for IoCheckmarkSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCheckmark;
 impl IconShape for IoCheckmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8200,11 +9091,14 @@ impl IconShape for IoCheckmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronBackCircleOutline;
 impl IconShape for IoChevronBackCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8223,11 +9117,14 @@ impl IconShape for IoChevronBackCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronBackCircleSharp;
 impl IconShape for IoChevronBackCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8241,11 +9138,14 @@ impl IconShape for IoChevronBackCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronBackCircle;
 impl IconShape for IoChevronBackCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8259,11 +9159,14 @@ impl IconShape for IoChevronBackCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronBackOutline;
 impl IconShape for IoChevronBackOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8278,11 +9181,14 @@ impl IconShape for IoChevronBackOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronBackSharp;
 impl IconShape for IoChevronBackSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8297,11 +9203,14 @@ impl IconShape for IoChevronBackSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronBack;
 impl IconShape for IoChevronBack {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8316,11 +9225,14 @@ impl IconShape for IoChevronBack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronDownCircleOutline;
 impl IconShape for IoChevronDownCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8339,11 +9251,14 @@ impl IconShape for IoChevronDownCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronDownCircleSharp;
 impl IconShape for IoChevronDownCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8357,11 +9272,14 @@ impl IconShape for IoChevronDownCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronDownCircle;
 impl IconShape for IoChevronDownCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8375,11 +9293,14 @@ impl IconShape for IoChevronDownCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronDownOutline;
 impl IconShape for IoChevronDownOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8394,11 +9315,14 @@ impl IconShape for IoChevronDownOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronDownSharp;
 impl IconShape for IoChevronDownSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8413,11 +9337,14 @@ impl IconShape for IoChevronDownSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronDown;
 impl IconShape for IoChevronDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8432,11 +9359,14 @@ impl IconShape for IoChevronDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronForwardCircleOutline;
 impl IconShape for IoChevronForwardCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8455,11 +9385,14 @@ impl IconShape for IoChevronForwardCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronForwardCircleSharp;
 impl IconShape for IoChevronForwardCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8473,11 +9406,14 @@ impl IconShape for IoChevronForwardCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronForwardCircle;
 impl IconShape for IoChevronForwardCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8491,11 +9427,14 @@ impl IconShape for IoChevronForwardCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronForwardOutline;
 impl IconShape for IoChevronForwardOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8510,11 +9449,14 @@ impl IconShape for IoChevronForwardOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronForwardSharp;
 impl IconShape for IoChevronForwardSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8529,11 +9471,14 @@ impl IconShape for IoChevronForwardSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronForward;
 impl IconShape for IoChevronForward {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8548,11 +9493,14 @@ impl IconShape for IoChevronForward {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronUpCircleOutline;
 impl IconShape for IoChevronUpCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8571,11 +9519,14 @@ impl IconShape for IoChevronUpCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronUpCircleSharp;
 impl IconShape for IoChevronUpCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8589,11 +9540,14 @@ impl IconShape for IoChevronUpCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronUpCircle;
 impl IconShape for IoChevronUpCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8607,11 +9561,14 @@ impl IconShape for IoChevronUpCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronUpOutline;
 impl IconShape for IoChevronUpOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8626,11 +9583,14 @@ impl IconShape for IoChevronUpOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronUpSharp;
 impl IconShape for IoChevronUpSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8645,11 +9605,14 @@ impl IconShape for IoChevronUpSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronUp;
 impl IconShape for IoChevronUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8664,11 +9627,14 @@ impl IconShape for IoChevronUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoClipboardOutline;
 impl IconShape for IoClipboardOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8692,11 +9658,14 @@ impl IconShape for IoClipboardOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoClipboardSharp;
 impl IconShape for IoClipboardSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8710,11 +9679,14 @@ impl IconShape for IoClipboardSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoClipboard;
 impl IconShape for IoClipboard {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8728,11 +9700,14 @@ impl IconShape for IoClipboard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloseCircleOutline;
 impl IconShape for IoCloseCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8761,11 +9736,14 @@ impl IconShape for IoCloseCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloseCircleSharp;
 impl IconShape for IoCloseCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8779,11 +9757,14 @@ impl IconShape for IoCloseCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloseCircle;
 impl IconShape for IoCloseCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8797,11 +9778,14 @@ impl IconShape for IoCloseCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloseOutline;
 impl IconShape for IoCloseOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8826,11 +9810,14 @@ impl IconShape for IoCloseOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloseSharp;
 impl IconShape for IoCloseSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8844,11 +9831,14 @@ impl IconShape for IoCloseSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoClose;
 impl IconShape for IoClose {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8862,11 +9852,14 @@ impl IconShape for IoClose {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudCircleOutline;
 impl IconShape for IoCloudCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8884,11 +9877,14 @@ impl IconShape for IoCloudCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudCircleSharp;
 impl IconShape for IoCloudCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8902,11 +9898,14 @@ impl IconShape for IoCloudCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudCircle;
 impl IconShape for IoCloudCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8920,11 +9919,14 @@ impl IconShape for IoCloudCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudDoneOutline;
 impl IconShape for IoCloudDoneOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8943,11 +9945,14 @@ impl IconShape for IoCloudDoneOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudDoneSharp;
 impl IconShape for IoCloudDoneSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8961,11 +9966,14 @@ impl IconShape for IoCloudDoneSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudDone;
 impl IconShape for IoCloudDone {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8979,11 +9987,14 @@ impl IconShape for IoCloudDone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudDownloadOutline;
 impl IconShape for IoCloudDownloadOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9009,11 +10020,14 @@ impl IconShape for IoCloudDownloadOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudDownloadSharp;
 impl IconShape for IoCloudDownloadSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9030,11 +10044,14 @@ impl IconShape for IoCloudDownloadSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudDownload;
 impl IconShape for IoCloudDownload {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9051,11 +10068,14 @@ impl IconShape for IoCloudDownload {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudOfflineOutline;
 impl IconShape for IoCloudOfflineOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9081,11 +10101,14 @@ impl IconShape for IoCloudOfflineOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudOfflineSharp;
 impl IconShape for IoCloudOfflineSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9109,11 +10132,14 @@ impl IconShape for IoCloudOfflineSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudOffline;
 impl IconShape for IoCloudOffline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9133,11 +10159,14 @@ impl IconShape for IoCloudOffline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudOutline;
 impl IconShape for IoCloudOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9152,11 +10181,14 @@ impl IconShape for IoCloudOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudSharp;
 impl IconShape for IoCloudSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9170,11 +10202,14 @@ impl IconShape for IoCloudSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudUploadOutline;
 impl IconShape for IoCloudUploadOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9200,11 +10235,14 @@ impl IconShape for IoCloudUploadOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudUploadSharp;
 impl IconShape for IoCloudUploadSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9224,11 +10262,14 @@ impl IconShape for IoCloudUploadSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudUpload;
 impl IconShape for IoCloudUpload {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9245,11 +10286,14 @@ impl IconShape for IoCloudUpload {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloud;
 impl IconShape for IoCloud {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9263,11 +10307,14 @@ impl IconShape for IoCloud {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudyNightOutline;
 impl IconShape for IoCloudyNightOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9286,11 +10333,14 @@ impl IconShape for IoCloudyNightOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudyNightSharp;
 impl IconShape for IoCloudyNightSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9307,11 +10357,14 @@ impl IconShape for IoCloudyNightSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudyNight;
 impl IconShape for IoCloudyNight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9328,11 +10381,14 @@ impl IconShape for IoCloudyNight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudyOutline;
 impl IconShape for IoCloudyOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9347,11 +10403,14 @@ impl IconShape for IoCloudyOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudySharp;
 impl IconShape for IoCloudySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9365,11 +10424,14 @@ impl IconShape for IoCloudySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCloudy;
 impl IconShape for IoCloudy {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9383,11 +10445,14 @@ impl IconShape for IoCloudy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCodeDownloadOutline;
 impl IconShape for IoCodeDownloadOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9417,11 +10482,14 @@ impl IconShape for IoCodeDownloadOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCodeDownloadSharp;
 impl IconShape for IoCodeDownloadSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9451,11 +10519,14 @@ impl IconShape for IoCodeDownloadSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCodeDownload;
 impl IconShape for IoCodeDownload {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9485,11 +10556,14 @@ impl IconShape for IoCodeDownload {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCodeOutline;
 impl IconShape for IoCodeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9508,11 +10582,14 @@ impl IconShape for IoCodeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCodeSharp;
 impl IconShape for IoCodeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9529,11 +10606,14 @@ impl IconShape for IoCodeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCodeSlashOutline;
 impl IconShape for IoCodeSlashOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9559,11 +10639,14 @@ impl IconShape for IoCodeSlashOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCodeSlashSharp;
 impl IconShape for IoCodeSlashSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9583,11 +10666,14 @@ impl IconShape for IoCodeSlashSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCodeSlash;
 impl IconShape for IoCodeSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9607,11 +10693,14 @@ impl IconShape for IoCodeSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCodeWorkingOutline;
 impl IconShape for IoCodeWorkingOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9645,11 +10734,14 @@ impl IconShape for IoCodeWorkingOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCodeWorkingSharp;
 impl IconShape for IoCodeWorkingSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9686,11 +10778,14 @@ impl IconShape for IoCodeWorkingSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCodeWorking;
 impl IconShape for IoCodeWorking {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9727,11 +10822,14 @@ impl IconShape for IoCodeWorking {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCode;
 impl IconShape for IoCode {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9748,11 +10846,14 @@ impl IconShape for IoCode {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCogOutline;
 impl IconShape for IoCogOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9766,11 +10867,14 @@ impl IconShape for IoCogOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCogSharp;
 impl IconShape for IoCogSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9784,11 +10888,14 @@ impl IconShape for IoCogSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCog;
 impl IconShape for IoCog {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9802,11 +10909,14 @@ impl IconShape for IoCog {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoColorFillOutline;
 impl IconShape for IoColorFillOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9825,11 +10935,14 @@ impl IconShape for IoColorFillOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoColorFillSharp;
 impl IconShape for IoColorFillSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9846,11 +10959,14 @@ impl IconShape for IoColorFillSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoColorFill;
 impl IconShape for IoColorFill {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9867,11 +10983,14 @@ impl IconShape for IoColorFill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoColorFilterOutline;
 impl IconShape for IoColorFilterOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9900,11 +11019,14 @@ impl IconShape for IoColorFilterOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoColorFilterSharp;
 impl IconShape for IoColorFilterSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9936,11 +11058,14 @@ impl IconShape for IoColorFilterSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoColorFilter;
 impl IconShape for IoColorFilter {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9972,11 +11097,14 @@ impl IconShape for IoColorFilter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoColorPaletteOutline;
 impl IconShape for IoColorPaletteOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10016,11 +11144,14 @@ impl IconShape for IoColorPaletteOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoColorPaletteSharp;
 impl IconShape for IoColorPaletteSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10034,11 +11165,14 @@ impl IconShape for IoColorPaletteSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoColorPalette;
 impl IconShape for IoColorPalette {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10052,11 +11186,14 @@ impl IconShape for IoColorPalette {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoColorWandOutline;
 impl IconShape for IoColorWandOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10131,11 +11268,14 @@ impl IconShape for IoColorWandOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoColorWandSharp;
 impl IconShape for IoColorWandSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10189,11 +11329,14 @@ impl IconShape for IoColorWandSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoColorWand;
 impl IconShape for IoColorWand {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10202,26 +11345,26 @@ impl IconShape for IoColorWand {
             }
             path {
                 d: "M124.1,140.1c-4.2,0-8.3-1.7-11.3-4.7l-33.9-33.9c-6.2-6.2-6.2-16.4,0-22.6s16.4-6.2,22.6,0l33.9,33.9
-	c6.3,6.2,6.3,16.4,0,22.6C132.4,138.4,128.4,140.1,124.1,140.1z",
+        c6.3,6.2,6.3,16.4,0,22.6C132.4,138.4,128.4,140.1,124.1,140.1z",
             }
             path {
                 d: "M192,112c-8.8,0-16-7.2-16-16V48c0-8.8,7.2-16,16-16s16,7.2,16,16v48C208,104.8,200.8,112,192,112z",
             }
             path {
                 d: "M259.9,140.1c-8.8,0-16-7.2-16-16c0-4.2,1.7-8.3,4.7-11.3l33.9-33.9c6.2-6.2,16.4-6.2,22.6,0c6.2,6.2,6.2,16.4,0,22.6
-	l-33.9,33.9C268.2,138.4,264.1,140.1,259.9,140.1z",
+        l-33.9,33.9C268.2,138.4,264.1,140.1,259.9,140.1z",
             }
             path {
                 d: "M90.2,309.8c-8.8,0-16-7.2-16-16c0-4.2,1.7-8.3,4.7-11.3l33.9-33.9c6.2-6.2,16.4-6.2,22.6,0s6.2,16.4,0,22.6l-33.9,33.9
-	C98.5,308.1,94.4,309.8,90.2,309.8z",
+        C98.5,308.1,94.4,309.8,90.2,309.8z",
             }
             path {
                 d: "M234.2,167c-18.4-18.7-48.5-19-67.2-0.7s-19,48.5-0.7,67.2c0.2,0.2,0.5,0.5,0.7,0.7l39.5,39.5c3.1,3.1,8.2,3.1,11.3,0
-	l55.9-55.9c3.1-3.1,3.1-8.2,0-11.3L234.2,167z",
+        l55.9-55.9c3.1-3.1,3.1-8.2,0-11.3L234.2,167z",
             }
             path {
                 d: "M457,389.8L307.6,240.4c-3.1-3.1-8.2-3.1-11.3,0l-55.9,55.9c-3.1,3.1-3.1,8.2,0,11.3L389.8,457c18.4,18.7,48.5,19,67.2,0.7
-	c18.7-18.4,19-48.5,0.7-67.2C457.5,390.3,457.3,390,457,389.8L457,389.8z",
+        c18.7-18.4,19-48.5,0.7-67.2C457.5,390.3,457.3,390,457,389.8L457,389.8z",
             }
         }
     }
@@ -10230,11 +11373,14 @@ impl IconShape for IoColorWand {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCompassOutline;
 impl IconShape for IoCompassOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10252,11 +11398,14 @@ impl IconShape for IoCompassOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCompassSharp;
 impl IconShape for IoCompassSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10275,11 +11424,14 @@ impl IconShape for IoCompassSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCompass;
 impl IconShape for IoCompass {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10298,11 +11450,14 @@ impl IconShape for IoCompass {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoConstructOutline;
 impl IconShape for IoConstructOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10329,11 +11484,14 @@ impl IconShape for IoConstructOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoConstructSharp;
 impl IconShape for IoConstructSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10353,11 +11511,14 @@ impl IconShape for IoConstructSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoConstruct;
 impl IconShape for IoConstruct {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10377,11 +11538,14 @@ impl IconShape for IoConstruct {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoContractOutline;
 impl IconShape for IoContractOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10436,11 +11600,14 @@ impl IconShape for IoContractOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoContractSharp;
 impl IconShape for IoContractSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10495,11 +11662,14 @@ impl IconShape for IoContractSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoContract;
 impl IconShape for IoContract {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10554,11 +11724,14 @@ impl IconShape for IoContract {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoContrastOutline;
 impl IconShape for IoContrastOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10578,11 +11751,14 @@ impl IconShape for IoContrastOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoContrastSharp;
 impl IconShape for IoContrastSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10596,11 +11772,14 @@ impl IconShape for IoContrastSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoContrast;
 impl IconShape for IoContrast {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10614,11 +11793,14 @@ impl IconShape for IoContrast {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCopyOutline;
 impl IconShape for IoCopyOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10642,11 +11824,14 @@ impl IconShape for IoCopyOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCopySharp;
 impl IconShape for IoCopySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10663,11 +11848,14 @@ impl IconShape for IoCopySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCopy;
 impl IconShape for IoCopy {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10684,11 +11872,14 @@ impl IconShape for IoCopy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCreateOutline;
 impl IconShape for IoCreateOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10709,11 +11900,14 @@ impl IconShape for IoCreateOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCreateSharp;
 impl IconShape for IoCreateSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10736,11 +11930,14 @@ impl IconShape for IoCreateSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCreate;
 impl IconShape for IoCreate {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10760,11 +11957,14 @@ impl IconShape for IoCreate {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCropOutline;
 impl IconShape for IoCropOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10797,11 +11997,14 @@ impl IconShape for IoCropOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCropSharp;
 impl IconShape for IoCropSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10818,11 +12021,14 @@ impl IconShape for IoCropSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCrop;
 impl IconShape for IoCrop {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10839,11 +12045,14 @@ impl IconShape for IoCrop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCubeOutline;
 impl IconShape for IoCubeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10869,11 +12078,14 @@ impl IconShape for IoCubeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCubeSharp;
 impl IconShape for IoCubeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10893,11 +12105,14 @@ impl IconShape for IoCubeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCube;
 impl IconShape for IoCube {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10917,11 +12132,14 @@ impl IconShape for IoCube {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCutOutline;
 impl IconShape for IoCutOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10962,11 +12180,14 @@ impl IconShape for IoCutOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCutSharp;
 impl IconShape for IoCutSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10983,11 +12204,14 @@ impl IconShape for IoCutSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoCut;
 impl IconShape for IoCut {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11007,11 +12231,14 @@ impl IconShape for IoCut {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDesktopOutline;
 impl IconShape for IoDesktopOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11045,11 +12272,14 @@ impl IconShape for IoDesktopOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDesktopSharp;
 impl IconShape for IoDesktopSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11063,11 +12293,14 @@ impl IconShape for IoDesktopSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDesktop;
 impl IconShape for IoDesktop {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11084,11 +12317,14 @@ impl IconShape for IoDesktop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDiamondOutline;
 impl IconShape for IoDiamondOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11150,11 +12386,14 @@ impl IconShape for IoDiamondOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDiamondSharp;
 impl IconShape for IoDiamondSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11189,11 +12428,14 @@ impl IconShape for IoDiamondSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDiamond;
 impl IconShape for IoDiamond {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11225,11 +12467,14 @@ impl IconShape for IoDiamond {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDiceOutline;
 impl IconShape for IoDiceOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11306,11 +12551,14 @@ impl IconShape for IoDiceOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDiceSharp;
 impl IconShape for IoDiceSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11330,11 +12578,14 @@ impl IconShape for IoDiceSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDice;
 impl IconShape for IoDice {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11354,11 +12605,14 @@ impl IconShape for IoDice {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDiscOutline;
 impl IconShape for IoDiscOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11386,11 +12640,14 @@ impl IconShape for IoDiscOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDiscSharp;
 impl IconShape for IoDiscSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11409,11 +12666,14 @@ impl IconShape for IoDiscSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDisc;
 impl IconShape for IoDisc {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11430,11 +12690,14 @@ impl IconShape for IoDisc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocumentAttachOutline;
 impl IconShape for IoDocumentAttachOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11457,11 +12720,14 @@ impl IconShape for IoDocumentAttachOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocumentAttachSharp;
 impl IconShape for IoDocumentAttachSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11478,11 +12744,14 @@ impl IconShape for IoDocumentAttachSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocumentAttach;
 impl IconShape for IoDocumentAttach {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11499,11 +12768,14 @@ impl IconShape for IoDocumentAttach {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocumentLockOutline;
 impl IconShape for IoDocumentLockOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11537,11 +12809,14 @@ impl IconShape for IoDocumentLockOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocumentLockSharp;
 impl IconShape for IoDocumentLockSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11561,11 +12836,14 @@ impl IconShape for IoDocumentLockSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocumentLock;
 impl IconShape for IoDocumentLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11585,11 +12863,14 @@ impl IconShape for IoDocumentLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocumentOutline;
 impl IconShape for IoDocumentOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11608,11 +12889,14 @@ impl IconShape for IoDocumentOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocumentSharp;
 impl IconShape for IoDocumentSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11629,11 +12913,14 @@ impl IconShape for IoDocumentSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocumentTextOutline;
 impl IconShape for IoDocumentTextOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11666,11 +12953,14 @@ impl IconShape for IoDocumentTextOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocumentTextSharp;
 impl IconShape for IoDocumentTextSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11687,11 +12977,14 @@ impl IconShape for IoDocumentTextSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocumentText;
 impl IconShape for IoDocumentText {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11708,11 +13001,14 @@ impl IconShape for IoDocumentText {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocument;
 impl IconShape for IoDocument {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11729,11 +13025,14 @@ impl IconShape for IoDocument {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocumentsOutline;
 impl IconShape for IoDocumentsOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11760,11 +13059,14 @@ impl IconShape for IoDocumentsOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocumentsSharp;
 impl IconShape for IoDocumentsSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11787,11 +13089,14 @@ impl IconShape for IoDocumentsSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDocuments;
 impl IconShape for IoDocuments {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11814,11 +13119,14 @@ impl IconShape for IoDocuments {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDownloadOutline;
 impl IconShape for IoDownloadOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11844,11 +13152,14 @@ impl IconShape for IoDownloadOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDownloadSharp;
 impl IconShape for IoDownloadSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11868,11 +13179,14 @@ impl IconShape for IoDownloadSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDownload;
 impl IconShape for IoDownload {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11889,11 +13203,14 @@ impl IconShape for IoDownload {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDuplicateOutline;
 impl IconShape for IoDuplicateOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11931,11 +13248,14 @@ impl IconShape for IoDuplicateOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDuplicateSharp;
 impl IconShape for IoDuplicateSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11952,11 +13272,14 @@ impl IconShape for IoDuplicateSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoDuplicate;
 impl IconShape for IoDuplicate {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11973,11 +13296,14 @@ impl IconShape for IoDuplicate {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEarOutline;
 impl IconShape for IoEarOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12000,11 +13326,14 @@ impl IconShape for IoEarOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEarSharp;
 impl IconShape for IoEarSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12018,11 +13347,14 @@ impl IconShape for IoEarSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEar;
 impl IconShape for IoEar {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12036,11 +13368,14 @@ impl IconShape for IoEar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEarthOutline;
 impl IconShape for IoEarthOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12070,11 +13405,14 @@ impl IconShape for IoEarthOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEarthSharp;
 impl IconShape for IoEarthSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12106,11 +13444,14 @@ impl IconShape for IoEarthSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEarth;
 impl IconShape for IoEarth {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12124,11 +13465,14 @@ impl IconShape for IoEarth {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEaselOutline;
 impl IconShape for IoEaselOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12176,11 +13520,14 @@ impl IconShape for IoEaselOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEaselSharp;
 impl IconShape for IoEaselSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12200,11 +13547,14 @@ impl IconShape for IoEaselSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEasel;
 impl IconShape for IoEasel {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12226,11 +13576,14 @@ impl IconShape for IoEasel {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEggOutline;
 impl IconShape for IoEggOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12245,11 +13598,14 @@ impl IconShape for IoEggOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEggSharp;
 impl IconShape for IoEggSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12263,11 +13619,14 @@ impl IconShape for IoEggSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEgg;
 impl IconShape for IoEgg {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12281,11 +13640,14 @@ impl IconShape for IoEgg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipseOutline;
 impl IconShape for IoEllipseOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12302,11 +13664,14 @@ impl IconShape for IoEllipseOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipseSharp;
 impl IconShape for IoEllipseSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12320,11 +13685,14 @@ impl IconShape for IoEllipseSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipse;
 impl IconShape for IoEllipse {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12338,11 +13706,14 @@ impl IconShape for IoEllipse {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipsisHorizontalCircleOutline;
 impl IconShape for IoEllipsisHorizontalCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12372,11 +13743,14 @@ impl IconShape for IoEllipsisHorizontalCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipsisHorizontalCircleSharp;
 impl IconShape for IoEllipsisHorizontalCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12390,11 +13764,14 @@ impl IconShape for IoEllipsisHorizontalCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipsisHorizontalCircle;
 impl IconShape for IoEllipsisHorizontalCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12424,11 +13801,14 @@ impl IconShape for IoEllipsisHorizontalCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipsisHorizontalOutline;
 impl IconShape for IoEllipsisHorizontalOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12457,11 +13837,14 @@ impl IconShape for IoEllipsisHorizontalOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipsisHorizontalSharp;
 impl IconShape for IoEllipsisHorizontalSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12487,11 +13870,14 @@ impl IconShape for IoEllipsisHorizontalSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipsisHorizontal;
 impl IconShape for IoEllipsisHorizontal {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12517,11 +13903,14 @@ impl IconShape for IoEllipsisHorizontal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipsisVerticalCircleOutline;
 impl IconShape for IoEllipsisVerticalCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12551,11 +13940,14 @@ impl IconShape for IoEllipsisVerticalCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipsisVerticalCircleSharp;
 impl IconShape for IoEllipsisVerticalCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12569,11 +13961,14 @@ impl IconShape for IoEllipsisVerticalCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipsisVerticalCircle;
 impl IconShape for IoEllipsisVerticalCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12603,11 +13998,14 @@ impl IconShape for IoEllipsisVerticalCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipsisVerticalOutline;
 impl IconShape for IoEllipsisVerticalOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12636,11 +14034,14 @@ impl IconShape for IoEllipsisVerticalOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipsisVerticalSharp;
 impl IconShape for IoEllipsisVerticalSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12666,11 +14067,14 @@ impl IconShape for IoEllipsisVerticalSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEllipsisVertical;
 impl IconShape for IoEllipsisVertical {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12696,11 +14100,14 @@ impl IconShape for IoEllipsisVertical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEnterOutline;
 impl IconShape for IoEnterOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12726,11 +14133,14 @@ impl IconShape for IoEnterOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEnterSharp;
 impl IconShape for IoEnterSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12750,11 +14160,14 @@ impl IconShape for IoEnterSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEnter;
 impl IconShape for IoEnter {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12771,11 +14184,14 @@ impl IconShape for IoEnter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoExitOutline;
 impl IconShape for IoExitOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12801,11 +14217,14 @@ impl IconShape for IoExitOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoExitSharp;
 impl IconShape for IoExitSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12822,11 +14241,14 @@ impl IconShape for IoExitSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoExit;
 impl IconShape for IoExit {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12843,11 +14265,14 @@ impl IconShape for IoExit {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoExpandOutline;
 impl IconShape for IoExpandOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12902,11 +14327,14 @@ impl IconShape for IoExpandOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoExpandSharp;
 impl IconShape for IoExpandSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12961,11 +14389,14 @@ impl IconShape for IoExpandSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoExpand;
 impl IconShape for IoExpand {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13020,11 +14451,14 @@ impl IconShape for IoExpand {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoExtensionPuzzleOutline;
 impl IconShape for IoExtensionPuzzleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13042,11 +14476,14 @@ impl IconShape for IoExtensionPuzzleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoExtensionPuzzleSharp;
 impl IconShape for IoExtensionPuzzleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13060,11 +14497,14 @@ impl IconShape for IoExtensionPuzzleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoExtensionPuzzle;
 impl IconShape for IoExtensionPuzzle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13078,11 +14518,14 @@ impl IconShape for IoExtensionPuzzle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEyeOffOutline;
 impl IconShape for IoEyeOffOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13108,11 +14551,14 @@ impl IconShape for IoEyeOffOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEyeOffSharp;
 impl IconShape for IoEyeOffSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13142,11 +14588,14 @@ impl IconShape for IoEyeOffSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEyeOff;
 impl IconShape for IoEyeOff {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13172,11 +14621,14 @@ impl IconShape for IoEyeOff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEyeOutline;
 impl IconShape for IoEyeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13197,11 +14649,14 @@ impl IconShape for IoEyeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEyeSharp;
 impl IconShape for IoEyeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13220,11 +14675,14 @@ impl IconShape for IoEyeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEye;
 impl IconShape for IoEye {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13243,11 +14701,14 @@ impl IconShape for IoEye {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEyedropOutline;
 impl IconShape for IoEyedropOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13280,11 +14741,14 @@ impl IconShape for IoEyedropOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEyedropSharp;
 impl IconShape for IoEyedropSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13298,11 +14762,14 @@ impl IconShape for IoEyedropSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoEyedrop;
 impl IconShape for IoEyedrop {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13316,11 +14783,14 @@ impl IconShape for IoEyedrop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFastFoodOutline;
 impl IconShape for IoFastFoodOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13369,11 +14839,14 @@ impl IconShape for IoFastFoodOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFastFoodSharp;
 impl IconShape for IoFastFoodSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13393,11 +14866,14 @@ impl IconShape for IoFastFoodSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFastFood;
 impl IconShape for IoFastFood {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13420,11 +14896,14 @@ impl IconShape for IoFastFood {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFemaleOutline;
 impl IconShape for IoFemaleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13464,11 +14943,14 @@ impl IconShape for IoFemaleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFemaleSharp;
 impl IconShape for IoFemaleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13482,11 +14964,14 @@ impl IconShape for IoFemaleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFemale;
 impl IconShape for IoFemale {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13500,11 +14985,14 @@ impl IconShape for IoFemale {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFileTrayFullOutline;
 impl IconShape for IoFileTrayFullOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13551,11 +15039,14 @@ impl IconShape for IoFileTrayFullOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFileTrayFullSharp;
 impl IconShape for IoFileTrayFullSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13581,11 +15072,14 @@ impl IconShape for IoFileTrayFullSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFileTrayFull;
 impl IconShape for IoFileTrayFull {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13605,11 +15099,14 @@ impl IconShape for IoFileTrayFull {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFileTrayOutline;
 impl IconShape for IoFileTrayOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13642,11 +15139,14 @@ impl IconShape for IoFileTrayOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFileTraySharp;
 impl IconShape for IoFileTraySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13660,11 +15160,14 @@ impl IconShape for IoFileTraySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFileTrayStackedOutline;
 impl IconShape for IoFileTrayStackedOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13719,11 +15222,14 @@ impl IconShape for IoFileTrayStackedOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFileTrayStackedSharp;
 impl IconShape for IoFileTrayStackedSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13740,11 +15246,14 @@ impl IconShape for IoFileTrayStackedSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFileTrayStacked;
 impl IconShape for IoFileTrayStacked {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13761,11 +15270,14 @@ impl IconShape for IoFileTrayStacked {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFileTray;
 impl IconShape for IoFileTray {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13779,11 +15291,14 @@ impl IconShape for IoFileTray {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFilmOutline;
 impl IconShape for IoFilmOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13893,11 +15408,14 @@ impl IconShape for IoFilmOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFilmSharp;
 impl IconShape for IoFilmSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13911,11 +15429,14 @@ impl IconShape for IoFilmSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFilm;
 impl IconShape for IoFilm {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13929,11 +15450,14 @@ impl IconShape for IoFilm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFilterCircleOutline;
 impl IconShape for IoFilterCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13980,11 +15504,14 @@ impl IconShape for IoFilterCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFilterCircleSharp;
 impl IconShape for IoFilterCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13998,11 +15525,14 @@ impl IconShape for IoFilterCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFilterCircle;
 impl IconShape for IoFilterCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14016,11 +15546,14 @@ impl IconShape for IoFilterCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFilterOutline;
 impl IconShape for IoFilterOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14052,11 +15585,14 @@ impl IconShape for IoFilterOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFilterSharp;
 impl IconShape for IoFilterSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14085,11 +15621,14 @@ impl IconShape for IoFilterSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFilter;
 impl IconShape for IoFilter {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14109,11 +15648,14 @@ impl IconShape for IoFilter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFingerPrintOutline;
 impl IconShape for IoFingerPrintOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14127,11 +15669,14 @@ impl IconShape for IoFingerPrintOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFingerPrintSharp;
 impl IconShape for IoFingerPrintSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14157,11 +15702,14 @@ impl IconShape for IoFingerPrintSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFingerPrint;
 impl IconShape for IoFingerPrint {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14187,11 +15735,14 @@ impl IconShape for IoFingerPrint {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFishOutline;
 impl IconShape for IoFishOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14220,11 +15771,14 @@ impl IconShape for IoFishOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFishSharp;
 impl IconShape for IoFishSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14241,11 +15795,14 @@ impl IconShape for IoFishSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFish;
 impl IconShape for IoFish {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14262,11 +15819,14 @@ impl IconShape for IoFish {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFitnessOutline;
 impl IconShape for IoFitnessOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14285,11 +15845,14 @@ impl IconShape for IoFitnessOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFitnessSharp;
 impl IconShape for IoFitnessSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14312,11 +15875,14 @@ impl IconShape for IoFitnessSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFitness;
 impl IconShape for IoFitness {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14339,11 +15905,14 @@ impl IconShape for IoFitness {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlagOutline;
 impl IconShape for IoFlagOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14358,11 +15927,14 @@ impl IconShape for IoFlagOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlagSharp;
 impl IconShape for IoFlagSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14376,11 +15948,14 @@ impl IconShape for IoFlagSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlag;
 impl IconShape for IoFlag {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14394,11 +15969,14 @@ impl IconShape for IoFlag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlameOutline;
 impl IconShape for IoFlameOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14417,11 +15995,14 @@ impl IconShape for IoFlameOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlameSharp;
 impl IconShape for IoFlameSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14435,11 +16016,14 @@ impl IconShape for IoFlameSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlame;
 impl IconShape for IoFlame {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14453,11 +16037,14 @@ impl IconShape for IoFlame {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlashOffOutline;
 impl IconShape for IoFlashOffOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14477,11 +16064,14 @@ impl IconShape for IoFlashOffOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlashOffSharp;
 impl IconShape for IoFlashOffSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14505,11 +16095,14 @@ impl IconShape for IoFlashOffSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlashOff;
 impl IconShape for IoFlashOff {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14529,11 +16122,14 @@ impl IconShape for IoFlashOff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlashOutline;
 impl IconShape for IoFlashOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14548,11 +16144,14 @@ impl IconShape for IoFlashOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlashSharp;
 impl IconShape for IoFlashSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14566,11 +16165,14 @@ impl IconShape for IoFlashSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlash;
 impl IconShape for IoFlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14584,11 +16186,14 @@ impl IconShape for IoFlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlashlightOutline;
 impl IconShape for IoFlashlightOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14615,11 +16220,14 @@ impl IconShape for IoFlashlightOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlashlightSharp;
 impl IconShape for IoFlashlightSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14643,11 +16251,14 @@ impl IconShape for IoFlashlightSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlashlight;
 impl IconShape for IoFlashlight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14664,11 +16275,14 @@ impl IconShape for IoFlashlight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlaskOutline;
 impl IconShape for IoFlaskOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14697,11 +16311,14 @@ impl IconShape for IoFlaskOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlaskSharp;
 impl IconShape for IoFlaskSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14715,11 +16332,14 @@ impl IconShape for IoFlaskSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlask;
 impl IconShape for IoFlask {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14733,11 +16353,14 @@ impl IconShape for IoFlask {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlowerOutline;
 impl IconShape for IoFlowerOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14786,11 +16409,14 @@ impl IconShape for IoFlowerOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlowerSharp;
 impl IconShape for IoFlowerSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14809,11 +16435,14 @@ impl IconShape for IoFlowerSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFlower;
 impl IconShape for IoFlower {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14832,11 +16461,14 @@ impl IconShape for IoFlower {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFolderOpenOutline;
 impl IconShape for IoFolderOpenOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14855,11 +16487,14 @@ impl IconShape for IoFolderOpenOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFolderOpenSharp;
 impl IconShape for IoFolderOpenSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14876,11 +16511,14 @@ impl IconShape for IoFolderOpenSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFolderOpen;
 impl IconShape for IoFolderOpen {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14897,11 +16535,14 @@ impl IconShape for IoFolderOpen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFolderOutline;
 impl IconShape for IoFolderOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14923,11 +16564,14 @@ impl IconShape for IoFolderOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFolderSharp;
 impl IconShape for IoFolderSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14944,11 +16588,14 @@ impl IconShape for IoFolderSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFolder;
 impl IconShape for IoFolder {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14965,11 +16612,14 @@ impl IconShape for IoFolder {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFootballOutline;
 impl IconShape for IoFootballOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15045,11 +16695,14 @@ impl IconShape for IoFootballOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFootballSharp;
 impl IconShape for IoFootballSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15063,11 +16716,14 @@ impl IconShape for IoFootballSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFootball;
 impl IconShape for IoFootball {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15081,11 +16737,14 @@ impl IconShape for IoFootball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFootstepsOutline;
 impl IconShape for IoFootstepsOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15120,11 +16779,14 @@ impl IconShape for IoFootstepsOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFootstepsSharp;
 impl IconShape for IoFootstepsSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15147,11 +16809,14 @@ impl IconShape for IoFootstepsSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFootsteps;
 impl IconShape for IoFootsteps {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15174,11 +16839,14 @@ impl IconShape for IoFootsteps {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFunnelOutline;
 impl IconShape for IoFunnelOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15193,11 +16861,14 @@ impl IconShape for IoFunnelOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFunnelSharp;
 impl IconShape for IoFunnelSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15211,11 +16882,14 @@ impl IconShape for IoFunnelSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoFunnel;
 impl IconShape for IoFunnel {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15229,11 +16903,14 @@ impl IconShape for IoFunnel {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGameControllerOutline;
 impl IconShape for IoGameControllerOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15280,11 +16957,14 @@ impl IconShape for IoGameControllerOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGameControllerSharp;
 impl IconShape for IoGameControllerSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15298,11 +16978,14 @@ impl IconShape for IoGameControllerSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGameController;
 impl IconShape for IoGameController {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15316,11 +16999,14 @@ impl IconShape for IoGameController {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGiftOutline;
 impl IconShape for IoGiftOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15359,11 +17045,14 @@ impl IconShape for IoGiftOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGiftSharp;
 impl IconShape for IoGiftSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15391,11 +17080,14 @@ impl IconShape for IoGiftSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGift;
 impl IconShape for IoGift {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15423,11 +17115,14 @@ impl IconShape for IoGift {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitBranchOutline;
 impl IconShape for IoGitBranchOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15467,11 +17162,14 @@ impl IconShape for IoGitBranchOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitBranchSharp;
 impl IconShape for IoGitBranchSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15485,11 +17183,14 @@ impl IconShape for IoGitBranchSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitBranch;
 impl IconShape for IoGitBranch {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15503,11 +17204,14 @@ impl IconShape for IoGitBranch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitCommitOutline;
 impl IconShape for IoGitCommitOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15538,11 +17242,14 @@ impl IconShape for IoGitCommitOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitCommitSharp;
 impl IconShape for IoGitCommitSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15556,11 +17263,14 @@ impl IconShape for IoGitCommitSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitCommit;
 impl IconShape for IoGitCommit {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15574,11 +17284,14 @@ impl IconShape for IoGitCommit {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitCompareOutline;
 impl IconShape for IoGitCompareOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15617,11 +17330,14 @@ impl IconShape for IoGitCompareOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitCompareSharp;
 impl IconShape for IoGitCompareSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15638,11 +17354,14 @@ impl IconShape for IoGitCompareSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitCompare;
 impl IconShape for IoGitCompare {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15659,11 +17378,14 @@ impl IconShape for IoGitCompare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitMergeOutline;
 impl IconShape for IoGitMergeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15703,11 +17425,14 @@ impl IconShape for IoGitMergeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitMergeSharp;
 impl IconShape for IoGitMergeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15721,11 +17446,14 @@ impl IconShape for IoGitMergeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitMerge;
 impl IconShape for IoGitMerge {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15739,11 +17467,14 @@ impl IconShape for IoGitMerge {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitNetworkOutline;
 impl IconShape for IoGitNetworkOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15787,11 +17518,14 @@ impl IconShape for IoGitNetworkOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitNetworkSharp;
 impl IconShape for IoGitNetworkSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15805,11 +17539,14 @@ impl IconShape for IoGitNetworkSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitNetwork;
 impl IconShape for IoGitNetwork {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15823,11 +17560,14 @@ impl IconShape for IoGitNetwork {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitPullRequestOutline;
 impl IconShape for IoGitPullRequestOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15871,11 +17611,14 @@ impl IconShape for IoGitPullRequestOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitPullRequestSharp;
 impl IconShape for IoGitPullRequestSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15892,11 +17635,14 @@ impl IconShape for IoGitPullRequestSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGitPullRequest;
 impl IconShape for IoGitPullRequest {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15913,11 +17659,14 @@ impl IconShape for IoGitPullRequest {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGlassesOutline;
 impl IconShape for IoGlassesOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15954,11 +17703,14 @@ impl IconShape for IoGlassesOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGlassesSharp;
 impl IconShape for IoGlassesSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15972,11 +17724,14 @@ impl IconShape for IoGlassesSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGlasses;
 impl IconShape for IoGlasses {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15990,11 +17745,14 @@ impl IconShape for IoGlasses {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGlobeOutline;
 impl IconShape for IoGlobeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16035,11 +17793,14 @@ impl IconShape for IoGlobeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGlobeSharp;
 impl IconShape for IoGlobeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16080,11 +17841,14 @@ impl IconShape for IoGlobeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGlobe;
 impl IconShape for IoGlobe {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16122,11 +17886,14 @@ impl IconShape for IoGlobe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGolfOutline;
 impl IconShape for IoGolfOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16145,11 +17912,14 @@ impl IconShape for IoGolfOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGolfSharp;
 impl IconShape for IoGolfSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16166,11 +17936,14 @@ impl IconShape for IoGolfSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGolf;
 impl IconShape for IoGolf {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16187,11 +17960,14 @@ impl IconShape for IoGolf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGridOutline;
 impl IconShape for IoGridOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16238,11 +18014,14 @@ impl IconShape for IoGridOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGridSharp;
 impl IconShape for IoGridSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16265,11 +18044,14 @@ impl IconShape for IoGridSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoGrid;
 impl IconShape for IoGrid {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16292,11 +18074,14 @@ impl IconShape for IoGrid {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHammerOutline;
 impl IconShape for IoHammerOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16315,11 +18100,14 @@ impl IconShape for IoHammerOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHammerSharp;
 impl IconShape for IoHammerSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16336,11 +18124,14 @@ impl IconShape for IoHammerSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHammer;
 impl IconShape for IoHammer {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16357,11 +18148,14 @@ impl IconShape for IoHammer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHandLeftOutline;
 impl IconShape for IoHandLeftOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16392,11 +18186,14 @@ impl IconShape for IoHandLeftOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHandLeftSharp;
 impl IconShape for IoHandLeftSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16410,11 +18207,14 @@ impl IconShape for IoHandLeftSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHandLeft;
 impl IconShape for IoHandLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16428,11 +18228,14 @@ impl IconShape for IoHandLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHandRightOutline;
 impl IconShape for IoHandRightOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16463,11 +18266,14 @@ impl IconShape for IoHandRightOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHandRightSharp;
 impl IconShape for IoHandRightSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16481,11 +18287,14 @@ impl IconShape for IoHandRightSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHandRight;
 impl IconShape for IoHandRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16499,11 +18308,14 @@ impl IconShape for IoHandRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHappyOutline;
 impl IconShape for IoHappyOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16533,11 +18345,14 @@ impl IconShape for IoHappyOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHappySharp;
 impl IconShape for IoHappySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16551,11 +18366,14 @@ impl IconShape for IoHappySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHappy;
 impl IconShape for IoHappy {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16569,11 +18387,14 @@ impl IconShape for IoHappy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHardwareChipOutline;
 impl IconShape for IoHardwareChipOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16686,11 +18507,14 @@ impl IconShape for IoHardwareChipOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHardwareChipSharp;
 impl IconShape for IoHardwareChipSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16710,11 +18534,14 @@ impl IconShape for IoHardwareChipSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHardwareChip;
 impl IconShape for IoHardwareChip {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16740,11 +18567,14 @@ impl IconShape for IoHardwareChip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeadsetOutline;
 impl IconShape for IoHeadsetOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16767,11 +18597,14 @@ impl IconShape for IoHeadsetOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeadsetSharp;
 impl IconShape for IoHeadsetSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16785,11 +18618,14 @@ impl IconShape for IoHeadsetSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeadset;
 impl IconShape for IoHeadset {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16803,11 +18639,14 @@ impl IconShape for IoHeadset {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartCircleOutline;
 impl IconShape for IoHeartCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16825,11 +18664,14 @@ impl IconShape for IoHeartCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartCircleSharp;
 impl IconShape for IoHeartCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16843,11 +18685,14 @@ impl IconShape for IoHeartCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartCircle;
 impl IconShape for IoHeartCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16861,11 +18706,14 @@ impl IconShape for IoHeartCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartDislikeCircleOutline;
 impl IconShape for IoHeartDislikeCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16889,11 +18737,14 @@ impl IconShape for IoHeartDislikeCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartDislikeCircleSharp;
 impl IconShape for IoHeartDislikeCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16907,11 +18758,14 @@ impl IconShape for IoHeartDislikeCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartDislikeCircle;
 impl IconShape for IoHeartDislikeCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16925,11 +18779,14 @@ impl IconShape for IoHeartDislikeCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartDislikeOutline;
 impl IconShape for IoHeartDislikeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16949,11 +18806,14 @@ impl IconShape for IoHeartDislikeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartDislikeSharp;
 impl IconShape for IoHeartDislikeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16973,11 +18833,14 @@ impl IconShape for IoHeartDislikeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartDislike;
 impl IconShape for IoHeartDislike {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16997,11 +18860,14 @@ impl IconShape for IoHeartDislike {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartHalfOutline;
 impl IconShape for IoHeartHalfOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17015,11 +18881,14 @@ impl IconShape for IoHeartHalfOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartHalfSharp;
 impl IconShape for IoHeartHalfSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17033,11 +18902,14 @@ impl IconShape for IoHeartHalfSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartHalf;
 impl IconShape for IoHeartHalf {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17051,11 +18923,14 @@ impl IconShape for IoHeartHalf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartOutline;
 impl IconShape for IoHeartOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17070,11 +18945,14 @@ impl IconShape for IoHeartOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeartSharp;
 impl IconShape for IoHeartSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17088,11 +18966,14 @@ impl IconShape for IoHeartSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHeart;
 impl IconShape for IoHeart {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17106,11 +18987,14 @@ impl IconShape for IoHeart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHelpBuoyOutline;
 impl IconShape for IoHelpBuoyOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17189,11 +19073,14 @@ impl IconShape for IoHelpBuoyOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHelpBuoySharp;
 impl IconShape for IoHelpBuoySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17207,11 +19094,14 @@ impl IconShape for IoHelpBuoySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHelpBuoy;
 impl IconShape for IoHelpBuoy {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17225,11 +19115,14 @@ impl IconShape for IoHelpBuoy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHelpCircleOutline;
 impl IconShape for IoHelpCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17253,11 +19146,14 @@ impl IconShape for IoHelpCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHelpCircleSharp;
 impl IconShape for IoHelpCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17275,11 +19171,14 @@ impl IconShape for IoHelpCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHelpCircle;
 impl IconShape for IoHelpCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17293,11 +19192,14 @@ impl IconShape for IoHelpCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHelpOutline;
 impl IconShape for IoHelpOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17317,11 +19219,14 @@ impl IconShape for IoHelpOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHelpSharp;
 impl IconShape for IoHelpSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17344,11 +19249,14 @@ impl IconShape for IoHelpSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHelp;
 impl IconShape for IoHelp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17368,11 +19276,14 @@ impl IconShape for IoHelp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHomeOutline;
 impl IconShape for IoHomeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17395,11 +19306,14 @@ impl IconShape for IoHomeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHomeSharp;
 impl IconShape for IoHomeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17413,11 +19327,14 @@ impl IconShape for IoHomeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHome;
 impl IconShape for IoHome {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17434,11 +19351,14 @@ impl IconShape for IoHome {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHourglassOutline;
 impl IconShape for IoHourglassOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17456,11 +19376,14 @@ impl IconShape for IoHourglassOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHourglassSharp;
 impl IconShape for IoHourglassSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17474,11 +19397,14 @@ impl IconShape for IoHourglassSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoHourglass;
 impl IconShape for IoHourglass {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17492,11 +19418,14 @@ impl IconShape for IoHourglass {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoIceCreamOutline;
 impl IconShape for IoIceCreamOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17515,11 +19444,14 @@ impl IconShape for IoIceCreamOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoIceCreamSharp;
 impl IconShape for IoIceCreamSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17536,11 +19468,14 @@ impl IconShape for IoIceCreamSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoIceCream;
 impl IconShape for IoIceCream {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17557,11 +19492,14 @@ impl IconShape for IoIceCream {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoIdCardOutline;
 impl IconShape for IoIdCardOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17598,11 +19536,14 @@ impl IconShape for IoIdCardOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoIdCardSharp;
 impl IconShape for IoIdCardSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17616,11 +19557,14 @@ impl IconShape for IoIdCardSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoIdCard;
 impl IconShape for IoIdCard {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17634,11 +19578,14 @@ impl IconShape for IoIdCard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoImageOutline;
 impl IconShape for IoImageOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17672,11 +19619,14 @@ impl IconShape for IoImageOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoImageSharp;
 impl IconShape for IoImageSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17690,11 +19640,14 @@ impl IconShape for IoImageSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoImage;
 impl IconShape for IoImage {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17708,11 +19661,14 @@ impl IconShape for IoImage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoImagesOutline;
 impl IconShape for IoImagesOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17751,11 +19707,14 @@ impl IconShape for IoImagesOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoImagesSharp;
 impl IconShape for IoImagesSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17779,11 +19738,14 @@ impl IconShape for IoImagesSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoImages;
 impl IconShape for IoImages {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17800,11 +19762,14 @@ impl IconShape for IoImages {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoInfiniteOutline;
 impl IconShape for IoInfiniteOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17823,11 +19788,14 @@ impl IconShape for IoInfiniteOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoInfiniteSharp;
 impl IconShape for IoInfiniteSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17841,11 +19809,14 @@ impl IconShape for IoInfiniteSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoInfinite;
 impl IconShape for IoInfinite {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17864,11 +19835,14 @@ impl IconShape for IoInfinite {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoInformationCircleOutline;
 impl IconShape for IoInformationCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17897,11 +19871,14 @@ impl IconShape for IoInformationCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoInformationCircleSharp;
 impl IconShape for IoInformationCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17915,11 +19892,14 @@ impl IconShape for IoInformationCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoInformationCircle;
 impl IconShape for IoInformationCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17933,11 +19913,14 @@ impl IconShape for IoInformationCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoInformationOutline;
 impl IconShape for IoInformationOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17962,11 +19945,14 @@ impl IconShape for IoInformationOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoInformationSharp;
 impl IconShape for IoInformationSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17991,11 +19977,14 @@ impl IconShape for IoInformationSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoInformation;
 impl IconShape for IoInformation {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18020,11 +20009,14 @@ impl IconShape for IoInformation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoInvertModeOutline;
 impl IconShape for IoInvertModeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18049,11 +20041,14 @@ impl IconShape for IoInvertModeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoInvertModeSharp;
 impl IconShape for IoInvertModeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18070,11 +20065,14 @@ impl IconShape for IoInvertModeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoInvertMode;
 impl IconShape for IoInvertMode {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18099,11 +20097,14 @@ impl IconShape for IoInvertMode {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoJournalOutline;
 impl IconShape for IoJournalOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18130,11 +20131,14 @@ impl IconShape for IoJournalOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoJournalSharp;
 impl IconShape for IoJournalSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18151,11 +20155,14 @@ impl IconShape for IoJournalSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoJournal;
 impl IconShape for IoJournal {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18172,11 +20179,14 @@ impl IconShape for IoJournal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoKeyOutline;
 impl IconShape for IoKeyOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18191,11 +20201,14 @@ impl IconShape for IoKeyOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoKeySharp;
 impl IconShape for IoKeySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18209,11 +20222,14 @@ impl IconShape for IoKeySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoKey;
 impl IconShape for IoKey {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18227,11 +20243,14 @@ impl IconShape for IoKey {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoKeypadOutline;
 impl IconShape for IoKeypadOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18300,11 +20319,14 @@ impl IconShape for IoKeypadOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoKeypadSharp;
 impl IconShape for IoKeypadSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18395,11 +20417,14 @@ impl IconShape for IoKeypadSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoKeypad;
 impl IconShape for IoKeypad {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18440,11 +20465,14 @@ impl IconShape for IoKeypad {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLanguageOutline;
 impl IconShape for IoLanguageOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18488,11 +20516,14 @@ impl IconShape for IoLanguageOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLanguageSharp;
 impl IconShape for IoLanguageSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18509,11 +20540,14 @@ impl IconShape for IoLanguageSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLanguage;
 impl IconShape for IoLanguage {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18530,11 +20564,14 @@ impl IconShape for IoLanguage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLaptopOutline;
 impl IconShape for IoLaptopOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18561,11 +20598,14 @@ impl IconShape for IoLaptopOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLaptopSharp;
 impl IconShape for IoLaptopSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18579,11 +20619,14 @@ impl IconShape for IoLaptopSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLaptop;
 impl IconShape for IoLaptop {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18597,11 +20640,14 @@ impl IconShape for IoLaptop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLayersOutline;
 impl IconShape for IoLayersOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18624,11 +20670,14 @@ impl IconShape for IoLayersOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLayersSharp;
 impl IconShape for IoLayersSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18648,11 +20697,14 @@ impl IconShape for IoLayersSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLayers;
 impl IconShape for IoLayers {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18672,11 +20724,14 @@ impl IconShape for IoLayers {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLeafOutline;
 impl IconShape for IoLeafOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18695,11 +20750,14 @@ impl IconShape for IoLeafOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLeafSharp;
 impl IconShape for IoLeafSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18716,11 +20774,14 @@ impl IconShape for IoLeafSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLeaf;
 impl IconShape for IoLeaf {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18737,11 +20798,14 @@ impl IconShape for IoLeaf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLibraryOutline;
 impl IconShape for IoLibraryOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18797,11 +20861,14 @@ impl IconShape for IoLibraryOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLibrarySharp;
 impl IconShape for IoLibrarySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18833,11 +20900,14 @@ impl IconShape for IoLibrarySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLibrary;
 impl IconShape for IoLibrary {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18871,11 +20941,14 @@ impl IconShape for IoLibrary {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLinkOutline;
 impl IconShape for IoLinkOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18901,11 +20974,14 @@ impl IconShape for IoLinkOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLinkSharp;
 impl IconShape for IoLinkSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18931,11 +21007,14 @@ impl IconShape for IoLinkSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLink;
 impl IconShape for IoLink {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18961,11 +21040,14 @@ impl IconShape for IoLink {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoListCircleOutline;
 impl IconShape for IoListCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19019,11 +21101,14 @@ impl IconShape for IoListCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoListCircleSharp;
 impl IconShape for IoListCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19037,11 +21122,14 @@ impl IconShape for IoListCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoListCircle;
 impl IconShape for IoListCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19055,11 +21143,14 @@ impl IconShape for IoListCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoListOutline;
 impl IconShape for IoListOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19109,11 +21200,14 @@ impl IconShape for IoListOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoListSharp;
 impl IconShape for IoListSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19166,11 +21260,14 @@ impl IconShape for IoListSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoList;
 impl IconShape for IoList {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19220,11 +21317,14 @@ impl IconShape for IoList {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLocateOutline;
 impl IconShape for IoLocateOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19267,11 +21367,14 @@ impl IconShape for IoLocateOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLocateSharp;
 impl IconShape for IoLocateSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19314,11 +21417,14 @@ impl IconShape for IoLocateSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLocate;
 impl IconShape for IoLocate {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19361,11 +21467,14 @@ impl IconShape for IoLocate {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLocationOutline;
 impl IconShape for IoLocationOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19386,11 +21495,14 @@ impl IconShape for IoLocationOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLocationSharp;
 impl IconShape for IoLocationSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19404,11 +21516,14 @@ impl IconShape for IoLocationSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLocation;
 impl IconShape for IoLocation {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19427,11 +21542,14 @@ impl IconShape for IoLocation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLockClosedOutline;
 impl IconShape for IoLockClosedOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19455,11 +21573,14 @@ impl IconShape for IoLockClosedOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLockClosedSharp;
 impl IconShape for IoLockClosedSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19473,11 +21594,14 @@ impl IconShape for IoLockClosedSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLockClosed;
 impl IconShape for IoLockClosed {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19491,11 +21615,14 @@ impl IconShape for IoLockClosed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLockOpenOutline;
 impl IconShape for IoLockOpenOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19519,11 +21646,14 @@ impl IconShape for IoLockOpenOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLockOpenSharp;
 impl IconShape for IoLockOpenSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19537,11 +21667,14 @@ impl IconShape for IoLockOpenSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLockOpen;
 impl IconShape for IoLockOpen {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19555,11 +21688,14 @@ impl IconShape for IoLockOpen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogInOutline;
 impl IconShape for IoLogInOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19585,11 +21721,14 @@ impl IconShape for IoLogInOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogInSharp;
 impl IconShape for IoLogInSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19609,11 +21748,14 @@ impl IconShape for IoLogInSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogIn;
 impl IconShape for IoLogIn {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19630,11 +21772,14 @@ impl IconShape for IoLogIn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogOutOutline;
 impl IconShape for IoLogOutOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19660,11 +21805,14 @@ impl IconShape for IoLogOutOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogOutSharp;
 impl IconShape for IoLogOutSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19681,11 +21829,14 @@ impl IconShape for IoLogOutSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogOut;
 impl IconShape for IoLogOut {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19702,11 +21853,14 @@ impl IconShape for IoLogOut {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoAlipay;
 impl IconShape for IoLogoAlipay {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19720,11 +21874,14 @@ impl IconShape for IoLogoAlipay {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoAmazon;
 impl IconShape for IoLogoAmazon {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19744,11 +21901,14 @@ impl IconShape for IoLogoAmazon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoAmplify;
 impl IconShape for IoLogoAmplify {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19763,11 +21923,14 @@ impl IconShape for IoLogoAmplify {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoAndroid;
 impl IconShape for IoLogoAndroid {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19782,11 +21945,14 @@ impl IconShape for IoLogoAndroid {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoAngular;
 impl IconShape for IoLogoAngular {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19803,11 +21969,14 @@ impl IconShape for IoLogoAngular {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoAppleAppstore;
 impl IconShape for IoLogoAppleAppstore {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19821,11 +21990,14 @@ impl IconShape for IoLogoAppleAppstore {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoAppleAr;
 impl IconShape for IoLogoAppleAr {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19955,11 +22127,14 @@ impl IconShape for IoLogoAppleAr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoApple;
 impl IconShape for IoLogoApple {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19976,11 +22151,14 @@ impl IconShape for IoLogoApple {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoBehance;
 impl IconShape for IoLogoBehance {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20003,11 +22181,14 @@ impl IconShape for IoLogoBehance {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoBitbucket;
 impl IconShape for IoLogoBitbucket {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20021,11 +22202,14 @@ impl IconShape for IoLogoBitbucket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoBitcoin;
 impl IconShape for IoLogoBitcoin {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20039,11 +22223,14 @@ impl IconShape for IoLogoBitcoin {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoBuffer;
 impl IconShape for IoLogoBuffer {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20063,11 +22250,14 @@ impl IconShape for IoLogoBuffer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoCapacitor;
 impl IconShape for IoLogoCapacitor {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20084,11 +22274,14 @@ impl IconShape for IoLogoCapacitor {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoChrome;
 impl IconShape for IoLogoChrome {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20111,11 +22304,14 @@ impl IconShape for IoLogoChrome {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoClosedCaptioning;
 impl IconShape for IoLogoClosedCaptioning {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20135,11 +22331,14 @@ impl IconShape for IoLogoClosedCaptioning {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoCodepen;
 impl IconShape for IoLogoCodepen {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20174,11 +22373,14 @@ impl IconShape for IoLogoCodepen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoCss3;
 impl IconShape for IoLogoCss3 {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20192,11 +22394,14 @@ impl IconShape for IoLogoCss3 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoDesignernews;
 impl IconShape for IoLogoDesignernews {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20216,11 +22421,14 @@ impl IconShape for IoLogoDesignernews {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoDeviantart;
 impl IconShape for IoLogoDeviantart {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20234,11 +22442,14 @@ impl IconShape for IoLogoDeviantart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoDiscord;
 impl IconShape for IoLogoDiscord {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20258,11 +22469,14 @@ impl IconShape for IoLogoDiscord {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoDocker;
 impl IconShape for IoLogoDocker {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20303,11 +22517,14 @@ impl IconShape for IoLogoDocker {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoDribbble;
 impl IconShape for IoLogoDribbble {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20321,11 +22538,14 @@ impl IconShape for IoLogoDribbble {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoDropbox;
 impl IconShape for IoLogoDropbox {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20339,11 +22559,14 @@ impl IconShape for IoLogoDropbox {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoEdge;
 impl IconShape for IoLogoEdge {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20357,11 +22580,14 @@ impl IconShape for IoLogoEdge {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoElectron;
 impl IconShape for IoLogoElectron {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20393,11 +22619,14 @@ impl IconShape for IoLogoElectron {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoEuro;
 impl IconShape for IoLogoEuro {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20411,11 +22640,14 @@ impl IconShape for IoLogoEuro {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoFacebook;
 impl IconShape for IoLogoFacebook {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20430,11 +22662,14 @@ impl IconShape for IoLogoFacebook {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoFigma;
 impl IconShape for IoLogoFigma {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20453,11 +22688,14 @@ impl IconShape for IoLogoFigma {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoFirebase;
 impl IconShape for IoLogoFirebase {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20472,11 +22710,14 @@ impl IconShape for IoLogoFirebase {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoFirefox;
 impl IconShape for IoLogoFirefox {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20490,11 +22731,14 @@ impl IconShape for IoLogoFirefox {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoFlickr;
 impl IconShape for IoLogoFlickr {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20508,11 +22752,14 @@ impl IconShape for IoLogoFlickr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoFoursquare;
 impl IconShape for IoLogoFoursquare {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20526,11 +22773,14 @@ impl IconShape for IoLogoFoursquare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoGithub;
 impl IconShape for IoLogoGithub {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20544,11 +22794,14 @@ impl IconShape for IoLogoGithub {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoGitlab;
 impl IconShape for IoLogoGitlab {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20562,11 +22815,14 @@ impl IconShape for IoLogoGitlab {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoGooglePlaystore;
 impl IconShape for IoLogoGooglePlaystore {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20589,11 +22845,14 @@ impl IconShape for IoLogoGooglePlaystore {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoGoogle;
 impl IconShape for IoLogoGoogle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20607,11 +22866,14 @@ impl IconShape for IoLogoGoogle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoHackernews;
 impl IconShape for IoLogoHackernews {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20625,11 +22887,14 @@ impl IconShape for IoLogoHackernews {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoHtml5;
 impl IconShape for IoLogoHtml5 {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20643,11 +22908,14 @@ impl IconShape for IoLogoHtml5 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoInstagram;
 impl IconShape for IoLogoInstagram {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20667,11 +22935,14 @@ impl IconShape for IoLogoInstagram {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoIonic;
 impl IconShape for IoLogoIonic {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20693,11 +22964,14 @@ impl IconShape for IoLogoIonic {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoIonitron;
 impl IconShape for IoLogoIonitron {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20714,11 +22988,14 @@ impl IconShape for IoLogoIonitron {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoJavascript;
 impl IconShape for IoLogoJavascript {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20732,11 +23009,14 @@ impl IconShape for IoLogoJavascript {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoLaravel;
 impl IconShape for IoLogoLaravel {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20750,11 +23030,14 @@ impl IconShape for IoLogoLaravel {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoLinkedin;
 impl IconShape for IoLogoLinkedin {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20768,11 +23051,14 @@ impl IconShape for IoLogoLinkedin {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoMarkdown;
 impl IconShape for IoLogoMarkdown {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20786,11 +23072,14 @@ impl IconShape for IoLogoMarkdown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoMastodon;
 impl IconShape for IoLogoMastodon {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20804,11 +23093,14 @@ impl IconShape for IoLogoMastodon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoMedium;
 impl IconShape for IoLogoMedium {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20832,11 +23124,14 @@ impl IconShape for IoLogoMedium {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoMicrosoft;
 impl IconShape for IoLogoMicrosoft {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20859,11 +23154,14 @@ impl IconShape for IoLogoMicrosoft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoNoSmoking;
 impl IconShape for IoLogoNoSmoking {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20901,11 +23199,14 @@ impl IconShape for IoLogoNoSmoking {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoNodejs;
 impl IconShape for IoLogoNodejs {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20922,11 +23223,14 @@ impl IconShape for IoLogoNodejs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoNpm;
 impl IconShape for IoLogoNpm {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20946,11 +23250,14 @@ impl IconShape for IoLogoNpm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoOctocat;
 impl IconShape for IoLogoOctocat {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20970,11 +23277,14 @@ impl IconShape for IoLogoOctocat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoPaypal;
 impl IconShape for IoLogoPaypal {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20991,11 +23301,14 @@ impl IconShape for IoLogoPaypal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoPinterest;
 impl IconShape for IoLogoPinterest {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21009,11 +23322,14 @@ impl IconShape for IoLogoPinterest {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoPlaystation;
 impl IconShape for IoLogoPlaystation {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21033,11 +23349,14 @@ impl IconShape for IoLogoPlaystation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoPwa;
 impl IconShape for IoLogoPwa {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21054,11 +23373,14 @@ impl IconShape for IoLogoPwa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoPython;
 impl IconShape for IoLogoPython {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21075,11 +23397,14 @@ impl IconShape for IoLogoPython {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoReact;
 impl IconShape for IoLogoReact {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21096,11 +23421,14 @@ impl IconShape for IoLogoReact {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoReddit;
 impl IconShape for IoLogoReddit {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21126,11 +23454,14 @@ impl IconShape for IoLogoReddit {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoRss;
 impl IconShape for IoLogoRss {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21150,11 +23481,14 @@ impl IconShape for IoLogoRss {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoSass;
 impl IconShape for IoLogoSass {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21168,11 +23502,14 @@ impl IconShape for IoLogoSass {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoSkype;
 impl IconShape for IoLogoSkype {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21186,11 +23523,14 @@ impl IconShape for IoLogoSkype {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoSlack;
 impl IconShape for IoLogoSlack {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21225,11 +23565,14 @@ impl IconShape for IoLogoSlack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoSnapchat;
 impl IconShape for IoLogoSnapchat {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21243,11 +23586,14 @@ impl IconShape for IoLogoSnapchat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoSoundcloud;
 impl IconShape for IoLogoSoundcloud {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21300,11 +23646,14 @@ impl IconShape for IoLogoSoundcloud {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoStackoverflow;
 impl IconShape for IoLogoStackoverflow {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21321,11 +23670,14 @@ impl IconShape for IoLogoStackoverflow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoSteam;
 impl IconShape for IoLogoSteam {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21339,11 +23691,14 @@ impl IconShape for IoLogoSteam {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoStencil;
 impl IconShape for IoLogoStencil {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21363,11 +23718,14 @@ impl IconShape for IoLogoStencil {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoTableau;
 impl IconShape for IoLogoTableau {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21403,11 +23761,14 @@ impl IconShape for IoLogoTableau {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoTiktok;
 impl IconShape for IoLogoTiktok {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21421,11 +23782,14 @@ impl IconShape for IoLogoTiktok {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoTumblr;
 impl IconShape for IoLogoTumblr {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21439,11 +23803,14 @@ impl IconShape for IoLogoTumblr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoTux;
 impl IconShape for IoLogoTux {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21457,11 +23824,14 @@ impl IconShape for IoLogoTux {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoTwitch;
 impl IconShape for IoLogoTwitch {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21487,11 +23857,14 @@ impl IconShape for IoLogoTwitch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoTwitter;
 impl IconShape for IoLogoTwitter {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21505,11 +23878,14 @@ impl IconShape for IoLogoTwitter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoUsd;
 impl IconShape for IoLogoUsd {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21523,11 +23899,14 @@ impl IconShape for IoLogoUsd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoVenmo;
 impl IconShape for IoLogoVenmo {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21541,11 +23920,14 @@ impl IconShape for IoLogoVenmo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoVercel;
 impl IconShape for IoLogoVercel {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21560,11 +23942,14 @@ impl IconShape for IoLogoVercel {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoVimeo;
 impl IconShape for IoLogoVimeo {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21578,11 +23963,14 @@ impl IconShape for IoLogoVimeo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoVk;
 impl IconShape for IoLogoVk {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21597,11 +23985,14 @@ impl IconShape for IoLogoVk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoVue;
 impl IconShape for IoLogoVue {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21618,11 +24009,14 @@ impl IconShape for IoLogoVue {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoWebComponent;
 impl IconShape for IoLogoWebComponent {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21651,11 +24045,14 @@ impl IconShape for IoLogoWebComponent {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoWechat;
 impl IconShape for IoLogoWechat {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21674,11 +24071,14 @@ impl IconShape for IoLogoWechat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoWhatsapp;
 impl IconShape for IoLogoWhatsapp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21693,11 +24093,14 @@ impl IconShape for IoLogoWhatsapp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoWindows;
 impl IconShape for IoLogoWindows {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21720,11 +24123,14 @@ impl IconShape for IoLogoWindows {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoWordpress;
 impl IconShape for IoLogoWordpress {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21747,11 +24153,14 @@ impl IconShape for IoLogoWordpress {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoXbox;
 impl IconShape for IoLogoXbox {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21774,11 +24183,14 @@ impl IconShape for IoLogoXbox {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoXing;
 impl IconShape for IoLogoXing {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21795,11 +24207,14 @@ impl IconShape for IoLogoXing {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoYahoo;
 impl IconShape for IoLogoYahoo {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21813,11 +24228,14 @@ impl IconShape for IoLogoYahoo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoYen;
 impl IconShape for IoLogoYen {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21831,11 +24249,14 @@ impl IconShape for IoLogoYen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoYoutube;
 impl IconShape for IoLogoYoutube {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21849,11 +24270,14 @@ impl IconShape for IoLogoYoutube {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMagnetOutline;
 impl IconShape for IoMagnetOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21915,11 +24339,14 @@ impl IconShape for IoMagnetOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMagnetSharp;
 impl IconShape for IoMagnetSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21968,11 +24395,14 @@ impl IconShape for IoMagnetSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMagnet;
 impl IconShape for IoMagnet {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22013,11 +24443,14 @@ impl IconShape for IoMagnet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMailOpenOutline;
 impl IconShape for IoMailOpenOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22050,11 +24483,14 @@ impl IconShape for IoMailOpenOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMailOpenSharp;
 impl IconShape for IoMailOpenSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22068,11 +24504,14 @@ impl IconShape for IoMailOpenSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMailOpen;
 impl IconShape for IoMailOpen {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22086,11 +24525,14 @@ impl IconShape for IoMailOpen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMailOutline;
 impl IconShape for IoMailOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22114,11 +24556,14 @@ impl IconShape for IoMailOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMailSharp;
 impl IconShape for IoMailSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22132,11 +24577,14 @@ impl IconShape for IoMailSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMailUnreadOutline;
 impl IconShape for IoMailUnreadOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22163,11 +24611,14 @@ impl IconShape for IoMailUnreadOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMailUnreadSharp;
 impl IconShape for IoMailUnreadSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22184,11 +24635,14 @@ impl IconShape for IoMailUnreadSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMailUnread;
 impl IconShape for IoMailUnread {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22205,11 +24659,14 @@ impl IconShape for IoMailUnread {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMail;
 impl IconShape for IoMail {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22223,11 +24680,14 @@ impl IconShape for IoMail {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMaleFemaleOutline;
 impl IconShape for IoMaleFemaleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22269,11 +24729,14 @@ impl IconShape for IoMaleFemaleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMaleFemaleSharp;
 impl IconShape for IoMaleFemaleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22287,11 +24750,14 @@ impl IconShape for IoMaleFemaleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMaleFemale;
 impl IconShape for IoMaleFemale {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22305,11 +24771,14 @@ impl IconShape for IoMaleFemale {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMaleOutline;
 impl IconShape for IoMaleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22346,11 +24815,14 @@ impl IconShape for IoMaleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMaleSharp;
 impl IconShape for IoMaleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22364,11 +24836,14 @@ impl IconShape for IoMaleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMale;
 impl IconShape for IoMale {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22382,11 +24857,14 @@ impl IconShape for IoMale {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoManOutline;
 impl IconShape for IoManOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22415,11 +24893,14 @@ impl IconShape for IoManOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoManSharp;
 impl IconShape for IoManSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22438,11 +24919,14 @@ impl IconShape for IoManSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMan;
 impl IconShape for IoMan {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22461,11 +24945,14 @@ impl IconShape for IoMan {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMapOutline;
 impl IconShape for IoMapOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22494,11 +24981,14 @@ impl IconShape for IoMapOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMapSharp;
 impl IconShape for IoMapSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22512,11 +25002,14 @@ impl IconShape for IoMapSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMap;
 impl IconShape for IoMap {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22536,11 +25029,14 @@ impl IconShape for IoMap {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMedalOutline;
 impl IconShape for IoMedalOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22588,11 +25084,14 @@ impl IconShape for IoMedalOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMedalSharp;
 impl IconShape for IoMedalSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22614,11 +25113,14 @@ impl IconShape for IoMedalSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMedal;
 impl IconShape for IoMedal {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22640,11 +25142,14 @@ impl IconShape for IoMedal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMedicalOutline;
 impl IconShape for IoMedicalOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22659,11 +25164,14 @@ impl IconShape for IoMedicalOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMedicalSharp;
 impl IconShape for IoMedicalSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22677,11 +25185,14 @@ impl IconShape for IoMedicalSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMedical;
 impl IconShape for IoMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22695,11 +25206,14 @@ impl IconShape for IoMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMedkitOutline;
 impl IconShape for IoMedkitOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22737,11 +25251,14 @@ impl IconShape for IoMedkitOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMedkitSharp;
 impl IconShape for IoMedkitSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22762,11 +25279,14 @@ impl IconShape for IoMedkitSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMedkit;
 impl IconShape for IoMedkit {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22784,11 +25304,14 @@ impl IconShape for IoMedkit {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMegaphoneOutline;
 impl IconShape for IoMegaphoneOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22829,11 +25352,14 @@ impl IconShape for IoMegaphoneOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMegaphoneSharp;
 impl IconShape for IoMegaphoneSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22853,11 +25379,14 @@ impl IconShape for IoMegaphoneSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMegaphone;
 impl IconShape for IoMegaphone {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22877,11 +25406,14 @@ impl IconShape for IoMegaphone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMenuOutline;
 impl IconShape for IoMenuOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22913,11 +25445,14 @@ impl IconShape for IoMenuOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMenuSharp;
 impl IconShape for IoMenuSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22931,11 +25466,14 @@ impl IconShape for IoMenuSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMenu;
 impl IconShape for IoMenu {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22967,11 +25505,14 @@ impl IconShape for IoMenu {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMicCircleOutline;
 impl IconShape for IoMicCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23012,11 +25553,14 @@ impl IconShape for IoMicCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMicCircleSharp;
 impl IconShape for IoMicCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23030,11 +25574,14 @@ impl IconShape for IoMicCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMicCircle;
 impl IconShape for IoMicCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23048,11 +25595,14 @@ impl IconShape for IoMicCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMicOffCircleOutline;
 impl IconShape for IoMicOffCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23081,11 +25631,14 @@ impl IconShape for IoMicOffCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMicOffCircleSharp;
 impl IconShape for IoMicOffCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23099,11 +25652,14 @@ impl IconShape for IoMicOffCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMicOffCircle;
 impl IconShape for IoMicOffCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23117,11 +25673,14 @@ impl IconShape for IoMicOffCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMicOffOutline;
 impl IconShape for IoMicOffOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23151,11 +25710,14 @@ impl IconShape for IoMicOffOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMicOffSharp;
 impl IconShape for IoMicOffSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23185,11 +25747,14 @@ impl IconShape for IoMicOffSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMicOff;
 impl IconShape for IoMicOff {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23219,11 +25784,14 @@ impl IconShape for IoMicOff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMicOutline;
 impl IconShape for IoMicOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23256,11 +25824,14 @@ impl IconShape for IoMicOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMicSharp;
 impl IconShape for IoMicSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23292,11 +25863,14 @@ impl IconShape for IoMicSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMic;
 impl IconShape for IoMic {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23328,11 +25902,14 @@ impl IconShape for IoMic {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMoonOutline;
 impl IconShape for IoMoonOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23347,11 +25924,14 @@ impl IconShape for IoMoonOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMoonSharp;
 impl IconShape for IoMoonSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23365,11 +25945,14 @@ impl IconShape for IoMoonSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMoon;
 impl IconShape for IoMoon {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23383,11 +25966,14 @@ impl IconShape for IoMoon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMoveOutline;
 impl IconShape for IoMoveOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23428,11 +26014,14 @@ impl IconShape for IoMoveOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMoveSharp;
 impl IconShape for IoMoveSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23473,11 +26062,14 @@ impl IconShape for IoMoveSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMove;
 impl IconShape for IoMove {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23518,11 +26110,14 @@ impl IconShape for IoMove {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMusicalNoteOutline;
 impl IconShape for IoMusicalNoteOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23537,11 +26132,14 @@ impl IconShape for IoMusicalNoteOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMusicalNoteSharp;
 impl IconShape for IoMusicalNoteSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23555,11 +26153,14 @@ impl IconShape for IoMusicalNoteSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMusicalNote;
 impl IconShape for IoMusicalNote {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23573,11 +26174,14 @@ impl IconShape for IoMusicalNote {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMusicalNotesOutline;
 impl IconShape for IoMusicalNotesOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23596,11 +26200,14 @@ impl IconShape for IoMusicalNotesOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMusicalNotesSharp;
 impl IconShape for IoMusicalNotesSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23614,11 +26221,14 @@ impl IconShape for IoMusicalNotesSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoMusicalNotes;
 impl IconShape for IoMusicalNotes {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23632,11 +26242,14 @@ impl IconShape for IoMusicalNotes {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNavigateCircleOutline;
 impl IconShape for IoNavigateCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23654,11 +26267,14 @@ impl IconShape for IoNavigateCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNavigateCircleSharp;
 impl IconShape for IoNavigateCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23672,11 +26288,14 @@ impl IconShape for IoNavigateCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNavigateCircle;
 impl IconShape for IoNavigateCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23690,11 +26309,14 @@ impl IconShape for IoNavigateCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNavigateOutline;
 impl IconShape for IoNavigateOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23709,11 +26331,14 @@ impl IconShape for IoNavigateOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNavigateSharp;
 impl IconShape for IoNavigateSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23727,11 +26352,14 @@ impl IconShape for IoNavigateSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNavigate;
 impl IconShape for IoNavigate {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23745,11 +26373,14 @@ impl IconShape for IoNavigate {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNewspaperOutline;
 impl IconShape for IoNewspaperOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23806,11 +26437,14 @@ impl IconShape for IoNewspaperOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNewspaperSharp;
 impl IconShape for IoNewspaperSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23836,11 +26470,14 @@ impl IconShape for IoNewspaperSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNewspaper;
 impl IconShape for IoNewspaper {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23857,11 +26494,14 @@ impl IconShape for IoNewspaper {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNotificationsCircleOutline;
 impl IconShape for IoNotificationsCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23882,11 +26522,14 @@ impl IconShape for IoNotificationsCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNotificationsCircleSharp;
 impl IconShape for IoNotificationsCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23911,11 +26554,14 @@ impl IconShape for IoNotificationsCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNotificationsCircle;
 impl IconShape for IoNotificationsCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23929,11 +26575,14 @@ impl IconShape for IoNotificationsCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNotificationsOffCircleOutline;
 impl IconShape for IoNotificationsOffCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23960,11 +26609,14 @@ impl IconShape for IoNotificationsOffCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNotificationsOffCircleSharp;
 impl IconShape for IoNotificationsOffCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23978,11 +26630,14 @@ impl IconShape for IoNotificationsOffCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNotificationsOffCircle;
 impl IconShape for IoNotificationsOffCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23996,11 +26651,14 @@ impl IconShape for IoNotificationsOffCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNotificationsOffOutline;
 impl IconShape for IoNotificationsOffOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24030,11 +26688,14 @@ impl IconShape for IoNotificationsOffOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNotificationsOffSharp;
 impl IconShape for IoNotificationsOffSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24061,11 +26722,14 @@ impl IconShape for IoNotificationsOffSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNotificationsOff;
 impl IconShape for IoNotificationsOff {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24088,11 +26752,14 @@ impl IconShape for IoNotificationsOff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNotificationsOutline;
 impl IconShape for IoNotificationsOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24111,11 +26778,14 @@ impl IconShape for IoNotificationsOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNotificationsSharp;
 impl IconShape for IoNotificationsSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24132,11 +26802,14 @@ impl IconShape for IoNotificationsSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNotifications;
 impl IconShape for IoNotifications {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24153,11 +26826,14 @@ impl IconShape for IoNotifications {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNuclearOutline;
 impl IconShape for IoNuclearOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24222,11 +26898,14 @@ impl IconShape for IoNuclearOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNuclearSharp;
 impl IconShape for IoNuclearSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24249,11 +26928,14 @@ impl IconShape for IoNuclearSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNuclear;
 impl IconShape for IoNuclear {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24267,11 +26949,14 @@ impl IconShape for IoNuclear {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNutritionOutline;
 impl IconShape for IoNutritionOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24301,11 +26986,14 @@ impl IconShape for IoNutritionOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNutritionSharp;
 impl IconShape for IoNutritionSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24322,11 +27010,14 @@ impl IconShape for IoNutritionSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoNutrition;
 impl IconShape for IoNutrition {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24343,11 +27034,14 @@ impl IconShape for IoNutrition {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoOpenOutline;
 impl IconShape for IoOpenOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24373,11 +27067,14 @@ impl IconShape for IoOpenOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoOpenSharp;
 impl IconShape for IoOpenSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24394,11 +27091,14 @@ impl IconShape for IoOpenSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoOpen;
 impl IconShape for IoOpen {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24415,11 +27115,14 @@ impl IconShape for IoOpen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoOptionsOutline;
 impl IconShape for IoOptionsOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24490,11 +27193,14 @@ impl IconShape for IoOptionsOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoOptionsSharp;
 impl IconShape for IoOptionsSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24514,11 +27220,14 @@ impl IconShape for IoOptionsSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoOptions;
 impl IconShape for IoOptions {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24538,11 +27247,14 @@ impl IconShape for IoOptions {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPaperPlaneOutline;
 impl IconShape for IoPaperPlaneOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24564,11 +27276,14 @@ impl IconShape for IoPaperPlaneOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPaperPlaneSharp;
 impl IconShape for IoPaperPlaneSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24582,11 +27297,14 @@ impl IconShape for IoPaperPlaneSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPaperPlane;
 impl IconShape for IoPaperPlane {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24600,11 +27318,14 @@ impl IconShape for IoPaperPlane {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPartlySunnyOutline;
 impl IconShape for IoPartlySunnyOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24651,11 +27372,14 @@ impl IconShape for IoPartlySunnyOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPartlySunnySharp;
 impl IconShape for IoPartlySunnySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24694,11 +27418,14 @@ impl IconShape for IoPartlySunnySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPartlySunny;
 impl IconShape for IoPartlySunny {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24727,11 +27454,14 @@ impl IconShape for IoPartlySunny {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPauseCircleOutline;
 impl IconShape for IoPauseCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24760,11 +27490,14 @@ impl IconShape for IoPauseCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPauseCircleSharp;
 impl IconShape for IoPauseCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24778,11 +27511,14 @@ impl IconShape for IoPauseCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPauseCircle;
 impl IconShape for IoPauseCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24796,11 +27532,14 @@ impl IconShape for IoPauseCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPauseOutline;
 impl IconShape for IoPauseOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24825,11 +27564,14 @@ impl IconShape for IoPauseOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPauseSharp;
 impl IconShape for IoPauseSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24846,11 +27588,14 @@ impl IconShape for IoPauseSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPause;
 impl IconShape for IoPause {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24867,11 +27612,14 @@ impl IconShape for IoPause {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPawOutline;
 impl IconShape for IoPawOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24902,11 +27650,14 @@ impl IconShape for IoPawOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPawSharp;
 impl IconShape for IoPawSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24944,11 +27695,14 @@ impl IconShape for IoPawSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPaw;
 impl IconShape for IoPaw {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24974,11 +27728,14 @@ impl IconShape for IoPaw {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPencilOutline;
 impl IconShape for IoPencilOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24997,11 +27754,14 @@ impl IconShape for IoPencilOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPencilSharp;
 impl IconShape for IoPencilSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25018,11 +27778,14 @@ impl IconShape for IoPencilSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPencil;
 impl IconShape for IoPencil {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25041,11 +27804,14 @@ impl IconShape for IoPencil {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPeopleCircleOutline;
 impl IconShape for IoPeopleCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25071,11 +27837,14 @@ impl IconShape for IoPeopleCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPeopleCircleSharp;
 impl IconShape for IoPeopleCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25089,11 +27858,14 @@ impl IconShape for IoPeopleCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPeopleCircle;
 impl IconShape for IoPeopleCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25167,11 +27939,14 @@ impl IconShape for IoPeopleCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPeopleOutline;
 impl IconShape for IoPeopleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25198,11 +27973,14 @@ impl IconShape for IoPeopleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPeopleSharp;
 impl IconShape for IoPeopleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25229,11 +28007,14 @@ impl IconShape for IoPeopleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPeople;
 impl IconShape for IoPeople {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25256,11 +28037,14 @@ impl IconShape for IoPeople {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPersonAddOutline;
 impl IconShape for IoPersonAddOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25293,11 +28077,14 @@ impl IconShape for IoPersonAddOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPersonAddSharp;
 impl IconShape for IoPersonAddSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25319,11 +28106,14 @@ impl IconShape for IoPersonAddSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPersonAdd;
 impl IconShape for IoPersonAdd {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25343,11 +28133,14 @@ impl IconShape for IoPersonAdd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPersonCircleOutline;
 impl IconShape for IoPersonCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25364,11 +28157,14 @@ impl IconShape for IoPersonCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPersonCircleSharp;
 impl IconShape for IoPersonCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25382,11 +28178,14 @@ impl IconShape for IoPersonCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPersonCircle;
 impl IconShape for IoPersonCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25400,11 +28199,14 @@ impl IconShape for IoPersonCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPersonOutline;
 impl IconShape for IoPersonOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25423,11 +28225,14 @@ impl IconShape for IoPersonOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPersonRemoveOutline;
 impl IconShape for IoPersonRemoveOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25453,11 +28258,14 @@ impl IconShape for IoPersonRemoveOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPersonRemoveSharp;
 impl IconShape for IoPersonRemoveSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25482,11 +28290,14 @@ impl IconShape for IoPersonRemoveSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPersonRemove;
 impl IconShape for IoPersonRemove {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25506,11 +28317,14 @@ impl IconShape for IoPersonRemove {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPersonSharp;
 impl IconShape for IoPersonSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25524,11 +28338,14 @@ impl IconShape for IoPersonSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPerson;
 impl IconShape for IoPerson {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25545,11 +28362,14 @@ impl IconShape for IoPerson {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPhoneLandscapeOutline;
 impl IconShape for IoPhoneLandscapeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25574,11 +28394,14 @@ impl IconShape for IoPhoneLandscapeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPhoneLandscapeSharp;
 impl IconShape for IoPhoneLandscapeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25592,11 +28415,14 @@ impl IconShape for IoPhoneLandscapeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPhoneLandscape;
 impl IconShape for IoPhoneLandscape {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25616,11 +28442,14 @@ impl IconShape for IoPhoneLandscape {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPhonePortraitOutline;
 impl IconShape for IoPhonePortraitOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25644,11 +28473,14 @@ impl IconShape for IoPhonePortraitOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPhonePortraitSharp;
 impl IconShape for IoPhonePortraitSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25662,11 +28494,14 @@ impl IconShape for IoPhonePortraitSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPhonePortrait;
 impl IconShape for IoPhonePortrait {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25686,11 +28521,14 @@ impl IconShape for IoPhonePortrait {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPieChartOutline;
 impl IconShape for IoPieChartOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25709,11 +28547,14 @@ impl IconShape for IoPieChartOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPieChartSharp;
 impl IconShape for IoPieChartSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25730,11 +28571,14 @@ impl IconShape for IoPieChartSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPieChart;
 impl IconShape for IoPieChart {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25751,11 +28595,14 @@ impl IconShape for IoPieChart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPinOutline;
 impl IconShape for IoPinOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25780,11 +28627,14 @@ impl IconShape for IoPinOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPinSharp;
 impl IconShape for IoPinSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25798,11 +28648,14 @@ impl IconShape for IoPinSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPin;
 impl IconShape for IoPin {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25816,11 +28669,14 @@ impl IconShape for IoPin {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPintOutline;
 impl IconShape for IoPintOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25842,11 +28698,14 @@ impl IconShape for IoPintOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPintSharp;
 impl IconShape for IoPintSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25860,11 +28719,14 @@ impl IconShape for IoPintSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPint;
 impl IconShape for IoPint {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25878,11 +28740,14 @@ impl IconShape for IoPint {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPizzaOutline;
 impl IconShape for IoPizzaOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25916,11 +28781,14 @@ impl IconShape for IoPizzaOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPizzaSharp;
 impl IconShape for IoPizzaSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25961,11 +28829,14 @@ impl IconShape for IoPizzaSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPizza;
 impl IconShape for IoPizza {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25982,11 +28853,14 @@ impl IconShape for IoPizza {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlanetOutline;
 impl IconShape for IoPlanetOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26007,11 +28881,14 @@ impl IconShape for IoPlanetOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlanetSharp;
 impl IconShape for IoPlanetSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26028,11 +28905,14 @@ impl IconShape for IoPlanetSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlanet;
 impl IconShape for IoPlanet {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26049,11 +28929,14 @@ impl IconShape for IoPlanet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayBackCircleOutline;
 impl IconShape for IoPlayBackCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26071,11 +28954,14 @@ impl IconShape for IoPlayBackCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayBackCircleSharp;
 impl IconShape for IoPlayBackCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26089,11 +28975,14 @@ impl IconShape for IoPlayBackCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayBackCircle;
 impl IconShape for IoPlayBackCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26107,11 +28996,14 @@ impl IconShape for IoPlayBackCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayBackOutline;
 impl IconShape for IoPlayBackOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26130,11 +29022,14 @@ impl IconShape for IoPlayBackOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayBackSharp;
 impl IconShape for IoPlayBackSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26151,11 +29046,14 @@ impl IconShape for IoPlayBackSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayBack;
 impl IconShape for IoPlayBack {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26169,11 +29067,14 @@ impl IconShape for IoPlayBack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayCircleOutline;
 impl IconShape for IoPlayCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26191,11 +29092,14 @@ impl IconShape for IoPlayCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayCircleSharp;
 impl IconShape for IoPlayCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26209,11 +29113,14 @@ impl IconShape for IoPlayCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayCircle;
 impl IconShape for IoPlayCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26227,11 +29134,14 @@ impl IconShape for IoPlayCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayForwardCircleOutline;
 impl IconShape for IoPlayForwardCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26249,11 +29159,14 @@ impl IconShape for IoPlayForwardCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayForwardCircleSharp;
 impl IconShape for IoPlayForwardCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26267,11 +29180,14 @@ impl IconShape for IoPlayForwardCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayForwardCircle;
 impl IconShape for IoPlayForwardCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26285,11 +29201,14 @@ impl IconShape for IoPlayForwardCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayForwardOutline;
 impl IconShape for IoPlayForwardOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26308,11 +29227,14 @@ impl IconShape for IoPlayForwardOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayForwardSharp;
 impl IconShape for IoPlayForwardSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26329,11 +29251,14 @@ impl IconShape for IoPlayForwardSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayForward;
 impl IconShape for IoPlayForward {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26347,11 +29272,14 @@ impl IconShape for IoPlayForward {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlayOutline;
 impl IconShape for IoPlayOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26366,11 +29294,14 @@ impl IconShape for IoPlayOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlaySharp;
 impl IconShape for IoPlaySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26384,11 +29315,14 @@ impl IconShape for IoPlaySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlaySkipBackCircleOutline;
 impl IconShape for IoPlaySkipBackCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26406,11 +29340,14 @@ impl IconShape for IoPlaySkipBackCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlaySkipBackCircleSharp;
 impl IconShape for IoPlaySkipBackCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26424,11 +29361,14 @@ impl IconShape for IoPlaySkipBackCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlaySkipBackCircle;
 impl IconShape for IoPlaySkipBackCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26442,11 +29382,14 @@ impl IconShape for IoPlaySkipBackCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlaySkipBackOutline;
 impl IconShape for IoPlaySkipBackOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26468,11 +29411,14 @@ impl IconShape for IoPlaySkipBackOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlaySkipBackSharp;
 impl IconShape for IoPlaySkipBackSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26486,11 +29432,14 @@ impl IconShape for IoPlaySkipBackSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlaySkipBack;
 impl IconShape for IoPlaySkipBack {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26504,11 +29453,14 @@ impl IconShape for IoPlaySkipBack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlaySkipForwardCircleOutline;
 impl IconShape for IoPlaySkipForwardCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26526,11 +29478,14 @@ impl IconShape for IoPlaySkipForwardCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlaySkipForwardCircleSharp;
 impl IconShape for IoPlaySkipForwardCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26544,11 +29499,14 @@ impl IconShape for IoPlaySkipForwardCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlaySkipForwardCircle;
 impl IconShape for IoPlaySkipForwardCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26562,11 +29520,14 @@ impl IconShape for IoPlaySkipForwardCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlaySkipForwardOutline;
 impl IconShape for IoPlaySkipForwardOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26588,11 +29549,14 @@ impl IconShape for IoPlaySkipForwardOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlaySkipForwardSharp;
 impl IconShape for IoPlaySkipForwardSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26606,11 +29570,14 @@ impl IconShape for IoPlaySkipForwardSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlaySkipForward;
 impl IconShape for IoPlaySkipForward {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26624,11 +29591,14 @@ impl IconShape for IoPlaySkipForward {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPlay;
 impl IconShape for IoPlay {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26642,11 +29612,14 @@ impl IconShape for IoPlay {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPodiumOutline;
 impl IconShape for IoPodiumOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26669,11 +29642,14 @@ impl IconShape for IoPodiumOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPodiumSharp;
 impl IconShape for IoPodiumSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26702,11 +29678,14 @@ impl IconShape for IoPodiumSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPodium;
 impl IconShape for IoPodium {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26726,11 +29705,14 @@ impl IconShape for IoPodium {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPowerOutline;
 impl IconShape for IoPowerOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26752,11 +29734,14 @@ impl IconShape for IoPowerOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPowerSharp;
 impl IconShape for IoPowerSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26776,11 +29761,14 @@ impl IconShape for IoPowerSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPower;
 impl IconShape for IoPower {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26797,11 +29785,14 @@ impl IconShape for IoPower {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPricetagOutline;
 impl IconShape for IoPricetagOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26819,11 +29810,14 @@ impl IconShape for IoPricetagOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPricetagSharp;
 impl IconShape for IoPricetagSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26837,11 +29831,14 @@ impl IconShape for IoPricetagSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPricetag;
 impl IconShape for IoPricetag {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26855,11 +29852,14 @@ impl IconShape for IoPricetag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPricetagsOutline;
 impl IconShape for IoPricetagsOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26881,11 +29881,14 @@ impl IconShape for IoPricetagsOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPricetagsSharp;
 impl IconShape for IoPricetagsSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26902,11 +29905,14 @@ impl IconShape for IoPricetagsSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPricetags;
 impl IconShape for IoPricetags {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26923,11 +29929,14 @@ impl IconShape for IoPricetags {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPrintOutline;
 impl IconShape for IoPrintOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26960,11 +29969,14 @@ impl IconShape for IoPrintOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPrintSharp;
 impl IconShape for IoPrintSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26999,11 +30011,14 @@ impl IconShape for IoPrintSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPrint;
 impl IconShape for IoPrint {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27020,11 +30035,14 @@ impl IconShape for IoPrint {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPrismOutline;
 impl IconShape for IoPrismOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27052,11 +30070,14 @@ impl IconShape for IoPrismOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPrismSharp;
 impl IconShape for IoPrismSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27070,11 +30091,14 @@ impl IconShape for IoPrismSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPrism;
 impl IconShape for IoPrism {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27088,11 +30112,14 @@ impl IconShape for IoPrism {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPulseOutline;
 impl IconShape for IoPulseOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27113,11 +30140,14 @@ impl IconShape for IoPulseOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPulseSharp;
 impl IconShape for IoPulseSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27131,11 +30161,14 @@ impl IconShape for IoPulseSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPulse;
 impl IconShape for IoPulse {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27149,11 +30182,14 @@ impl IconShape for IoPulse {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPushOutline;
 impl IconShape for IoPushOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27179,11 +30215,14 @@ impl IconShape for IoPushOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPushSharp;
 impl IconShape for IoPushSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27203,11 +30242,14 @@ impl IconShape for IoPushSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoPush;
 impl IconShape for IoPush {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27224,11 +30266,14 @@ impl IconShape for IoPush {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoQrCodeOutline;
 impl IconShape for IoQrCodeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27330,11 +30375,14 @@ impl IconShape for IoQrCodeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoQrCodeSharp;
 impl IconShape for IoQrCodeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27402,11 +30450,14 @@ impl IconShape for IoQrCodeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoQrCode;
 impl IconShape for IoQrCode {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27466,11 +30517,14 @@ impl IconShape for IoQrCode {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRadioButtonOffOutline;
 impl IconShape for IoRadioButtonOffOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27485,11 +30539,14 @@ impl IconShape for IoRadioButtonOffOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRadioButtonOffSharp;
 impl IconShape for IoRadioButtonOffSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27504,11 +30561,14 @@ impl IconShape for IoRadioButtonOffSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRadioButtonOff;
 impl IconShape for IoRadioButtonOff {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27523,11 +30583,14 @@ impl IconShape for IoRadioButtonOff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRadioButtonOnOutline;
 impl IconShape for IoRadioButtonOnOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27547,11 +30610,14 @@ impl IconShape for IoRadioButtonOnOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRadioButtonOnSharp;
 impl IconShape for IoRadioButtonOnSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27571,11 +30637,14 @@ impl IconShape for IoRadioButtonOnSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRadioButtonOn;
 impl IconShape for IoRadioButtonOn {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27595,11 +30664,14 @@ impl IconShape for IoRadioButtonOn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRadioOutline;
 impl IconShape for IoRadioOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27639,11 +30711,14 @@ impl IconShape for IoRadioOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRadioSharp;
 impl IconShape for IoRadioSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27678,11 +30753,14 @@ impl IconShape for IoRadioSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRadio;
 impl IconShape for IoRadio {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27716,11 +30794,14 @@ impl IconShape for IoRadio {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRainyOutline;
 impl IconShape for IoRainyOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27763,11 +30844,14 @@ impl IconShape for IoRainyOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRainySharp;
 impl IconShape for IoRainySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27809,11 +30893,14 @@ impl IconShape for IoRainySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRainy;
 impl IconShape for IoRainy {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27839,11 +30926,14 @@ impl IconShape for IoRainy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReaderOutline;
 impl IconShape for IoReaderOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27884,11 +30974,14 @@ impl IconShape for IoReaderOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReaderSharp;
 impl IconShape for IoReaderSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27902,11 +30995,14 @@ impl IconShape for IoReaderSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReader;
 impl IconShape for IoReader {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27920,11 +31016,14 @@ impl IconShape for IoReader {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReceiptOutline;
 impl IconShape for IoReceiptOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27957,11 +31056,14 @@ impl IconShape for IoReceiptOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReceiptSharp;
 impl IconShape for IoReceiptSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27978,11 +31080,14 @@ impl IconShape for IoReceiptSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReceipt;
 impl IconShape for IoReceipt {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27999,11 +31104,14 @@ impl IconShape for IoReceipt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRecordingOutline;
 impl IconShape for IoRecordingOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28033,11 +31141,14 @@ impl IconShape for IoRecordingOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRecordingSharp;
 impl IconShape for IoRecordingSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28051,11 +31162,14 @@ impl IconShape for IoRecordingSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRecording;
 impl IconShape for IoRecording {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28069,11 +31183,14 @@ impl IconShape for IoRecording {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRefreshCircleOutline;
 impl IconShape for IoRefreshCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28096,11 +31213,14 @@ impl IconShape for IoRefreshCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRefreshCircleSharp;
 impl IconShape for IoRefreshCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28114,11 +31234,14 @@ impl IconShape for IoRefreshCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRefreshCircle;
 impl IconShape for IoRefreshCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28132,11 +31255,14 @@ impl IconShape for IoRefreshCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRefreshOutline;
 impl IconShape for IoRefreshOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28155,11 +31281,14 @@ impl IconShape for IoRefreshOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRefreshSharp;
 impl IconShape for IoRefreshSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28178,11 +31307,14 @@ impl IconShape for IoRefreshSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRefresh;
 impl IconShape for IoRefresh {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28201,11 +31333,14 @@ impl IconShape for IoRefresh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReloadCircleOutline;
 impl IconShape for IoReloadCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28227,11 +31362,14 @@ impl IconShape for IoReloadCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReloadCircleSharp;
 impl IconShape for IoReloadCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28245,11 +31383,14 @@ impl IconShape for IoReloadCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReloadCircle;
 impl IconShape for IoReloadCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28263,11 +31404,14 @@ impl IconShape for IoReloadCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReloadOutline;
 impl IconShape for IoReloadOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28285,11 +31429,14 @@ impl IconShape for IoReloadOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReloadSharp;
 impl IconShape for IoReloadSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28307,11 +31454,14 @@ impl IconShape for IoReloadSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReload;
 impl IconShape for IoReload {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28329,11 +31479,14 @@ impl IconShape for IoReload {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRemoveCircleOutline;
 impl IconShape for IoRemoveCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28355,11 +31508,14 @@ impl IconShape for IoRemoveCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRemoveCircleSharp;
 impl IconShape for IoRemoveCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28373,11 +31529,14 @@ impl IconShape for IoRemoveCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRemoveCircle;
 impl IconShape for IoRemoveCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28391,11 +31550,14 @@ impl IconShape for IoRemoveCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRemoveOutline;
 impl IconShape for IoRemoveOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28413,11 +31575,14 @@ impl IconShape for IoRemoveOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRemoveSharp;
 impl IconShape for IoRemoveSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28435,11 +31600,14 @@ impl IconShape for IoRemoveSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRemove;
 impl IconShape for IoRemove {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28457,11 +31625,14 @@ impl IconShape for IoRemove {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReorderFourOutline;
 impl IconShape for IoReorderFourOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28500,11 +31671,14 @@ impl IconShape for IoReorderFourOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReorderFourSharp;
 impl IconShape for IoReorderFourSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28543,11 +31717,14 @@ impl IconShape for IoReorderFourSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReorderFour;
 impl IconShape for IoReorderFour {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28586,11 +31763,14 @@ impl IconShape for IoReorderFour {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReorderThreeOutline;
 impl IconShape for IoReorderThreeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28622,11 +31802,14 @@ impl IconShape for IoReorderThreeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReorderThreeSharp;
 impl IconShape for IoReorderThreeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28658,11 +31841,14 @@ impl IconShape for IoReorderThreeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReorderThree;
 impl IconShape for IoReorderThree {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28694,11 +31880,14 @@ impl IconShape for IoReorderThree {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReorderTwoOutline;
 impl IconShape for IoReorderTwoOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28723,11 +31912,14 @@ impl IconShape for IoReorderTwoOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReorderTwoSharp;
 impl IconShape for IoReorderTwoSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28752,11 +31944,14 @@ impl IconShape for IoReorderTwoSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReorderTwo;
 impl IconShape for IoReorderTwo {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28781,11 +31976,14 @@ impl IconShape for IoReorderTwo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRepeatOutline;
 impl IconShape for IoRepeatOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28812,11 +32010,14 @@ impl IconShape for IoRepeatOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRepeatSharp;
 impl IconShape for IoRepeatSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28843,11 +32044,14 @@ impl IconShape for IoRepeatSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRepeat;
 impl IconShape for IoRepeat {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28874,11 +32078,14 @@ impl IconShape for IoRepeat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoResizeOutline;
 impl IconShape for IoResizeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28904,11 +32111,14 @@ impl IconShape for IoResizeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoResizeSharp;
 impl IconShape for IoResizeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28934,11 +32144,14 @@ impl IconShape for IoResizeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoResize;
 impl IconShape for IoResize {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28964,11 +32177,14 @@ impl IconShape for IoResize {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRestaurantOutline;
 impl IconShape for IoRestaurantOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29002,11 +32218,14 @@ impl IconShape for IoRestaurantOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRestaurantSharp;
 impl IconShape for IoRestaurantSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29023,11 +32242,14 @@ impl IconShape for IoRestaurantSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRestaurant;
 impl IconShape for IoRestaurant {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29044,11 +32266,14 @@ impl IconShape for IoRestaurant {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReturnDownBackOutline;
 impl IconShape for IoReturnDownBackOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29067,11 +32292,14 @@ impl IconShape for IoReturnDownBackOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReturnDownBackSharp;
 impl IconShape for IoReturnDownBackSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29090,11 +32318,14 @@ impl IconShape for IoReturnDownBackSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReturnDownBack;
 impl IconShape for IoReturnDownBack {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29113,11 +32344,14 @@ impl IconShape for IoReturnDownBack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReturnDownForwardOutline;
 impl IconShape for IoReturnDownForwardOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29136,11 +32370,14 @@ impl IconShape for IoReturnDownForwardOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReturnDownForwardSharp;
 impl IconShape for IoReturnDownForwardSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29159,11 +32396,14 @@ impl IconShape for IoReturnDownForwardSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReturnDownForward;
 impl IconShape for IoReturnDownForward {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29182,11 +32422,14 @@ impl IconShape for IoReturnDownForward {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReturnUpBackOutline;
 impl IconShape for IoReturnUpBackOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29205,11 +32448,14 @@ impl IconShape for IoReturnUpBackOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReturnUpBackSharp;
 impl IconShape for IoReturnUpBackSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29228,11 +32474,14 @@ impl IconShape for IoReturnUpBackSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReturnUpBack;
 impl IconShape for IoReturnUpBack {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29251,11 +32500,14 @@ impl IconShape for IoReturnUpBack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReturnUpForwardOutline;
 impl IconShape for IoReturnUpForwardOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29274,11 +32526,14 @@ impl IconShape for IoReturnUpForwardOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReturnUpForwardSharp;
 impl IconShape for IoReturnUpForwardSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29297,11 +32552,14 @@ impl IconShape for IoReturnUpForwardSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoReturnUpForward;
 impl IconShape for IoReturnUpForward {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29320,11 +32578,14 @@ impl IconShape for IoReturnUpForward {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRibbonOutline;
 impl IconShape for IoRibbonOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29355,11 +32616,14 @@ impl IconShape for IoRibbonOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRibbonSharp;
 impl IconShape for IoRibbonSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29384,11 +32648,14 @@ impl IconShape for IoRibbonSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRibbon;
 impl IconShape for IoRibbon {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29414,11 +32681,14 @@ impl IconShape for IoRibbon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRocketOutline;
 impl IconShape for IoRocketOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29437,11 +32707,14 @@ impl IconShape for IoRocketOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRocketSharp;
 impl IconShape for IoRocketSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29458,11 +32731,14 @@ impl IconShape for IoRocketSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRocket;
 impl IconShape for IoRocket {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29482,11 +32758,14 @@ impl IconShape for IoRocket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRoseOutline;
 impl IconShape for IoRoseOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29513,11 +32792,14 @@ impl IconShape for IoRoseOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRoseSharp;
 impl IconShape for IoRoseSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29540,11 +32822,14 @@ impl IconShape for IoRoseSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoRose;
 impl IconShape for IoRose {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29567,11 +32852,14 @@ impl IconShape for IoRose {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSadOutline;
 impl IconShape for IoSadOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29601,11 +32889,14 @@ impl IconShape for IoSadOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSadSharp;
 impl IconShape for IoSadSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29619,11 +32910,14 @@ impl IconShape for IoSadSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSad;
 impl IconShape for IoSad {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29637,11 +32931,14 @@ impl IconShape for IoSad {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSaveOutline;
 impl IconShape for IoSaveOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29656,11 +32953,14 @@ impl IconShape for IoSaveOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSaveSharp;
 impl IconShape for IoSaveSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29674,11 +32974,14 @@ impl IconShape for IoSaveSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSave;
 impl IconShape for IoSave {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29697,11 +33000,14 @@ impl IconShape for IoSave {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoScaleOutline;
 impl IconShape for IoScaleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29728,11 +33034,14 @@ impl IconShape for IoScaleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoScaleSharp;
 impl IconShape for IoScaleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29746,11 +33055,14 @@ impl IconShape for IoScaleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoScale;
 impl IconShape for IoScale {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29764,11 +33076,14 @@ impl IconShape for IoScale {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoScanCircleOutline;
 impl IconShape for IoScanCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29799,11 +33114,14 @@ impl IconShape for IoScanCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoScanCircleSharp;
 impl IconShape for IoScanCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29817,11 +33135,14 @@ impl IconShape for IoScanCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoScanCircle;
 impl IconShape for IoScanCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29835,11 +33156,14 @@ impl IconShape for IoScanCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoScanOutline;
 impl IconShape for IoScanOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29866,11 +33190,14 @@ impl IconShape for IoScanOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoScanSharp;
 impl IconShape for IoScanSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29893,11 +33220,14 @@ impl IconShape for IoScanSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoScan;
 impl IconShape for IoScan {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29924,11 +33254,14 @@ impl IconShape for IoScan {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSchoolOutline;
 impl IconShape for IoSchoolOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29961,11 +33294,14 @@ impl IconShape for IoSchoolOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSchoolSharp;
 impl IconShape for IoSchoolSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29982,11 +33318,14 @@ impl IconShape for IoSchoolSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSchool;
 impl IconShape for IoSchool {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30003,11 +33342,14 @@ impl IconShape for IoSchool {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSearchCircleOutline;
 impl IconShape for IoSearchCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30033,11 +33375,14 @@ impl IconShape for IoSearchCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSearchCircleSharp;
 impl IconShape for IoSearchCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30056,11 +33401,14 @@ impl IconShape for IoSearchCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSearchCircle;
 impl IconShape for IoSearchCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30079,11 +33427,14 @@ impl IconShape for IoSearchCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSearchOutline;
 impl IconShape for IoSearchOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30105,11 +33456,14 @@ impl IconShape for IoSearchOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSearchSharp;
 impl IconShape for IoSearchSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30123,11 +33477,14 @@ impl IconShape for IoSearchSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSearch;
 impl IconShape for IoSearch {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30141,11 +33498,14 @@ impl IconShape for IoSearch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSendOutline;
 impl IconShape for IoSendOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30160,11 +33520,14 @@ impl IconShape for IoSendOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSendSharp;
 impl IconShape for IoSendSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30178,11 +33541,14 @@ impl IconShape for IoSendSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSend;
 impl IconShape for IoSend {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30196,11 +33562,14 @@ impl IconShape for IoSend {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoServerOutline;
 impl IconShape for IoServerOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30230,11 +33599,14 @@ impl IconShape for IoServerOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoServerSharp;
 impl IconShape for IoServerSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30257,11 +33629,14 @@ impl IconShape for IoServerSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoServer;
 impl IconShape for IoServer {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30284,11 +33659,14 @@ impl IconShape for IoServer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSettingsOutline;
 impl IconShape for IoSettingsOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30303,11 +33681,14 @@ impl IconShape for IoSettingsOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSettingsSharp;
 impl IconShape for IoSettingsSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30321,11 +33702,14 @@ impl IconShape for IoSettingsSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSettings;
 impl IconShape for IoSettings {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30344,11 +33728,14 @@ impl IconShape for IoSettings {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShapesOutline;
 impl IconShape for IoShapesOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30367,11 +33754,14 @@ impl IconShape for IoShapesOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShapesSharp;
 impl IconShape for IoShapesSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30388,11 +33778,14 @@ impl IconShape for IoShapesSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShapes;
 impl IconShape for IoShapes {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30409,11 +33802,14 @@ impl IconShape for IoShapes {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShareOutline;
 impl IconShape for IoShareOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30439,11 +33835,14 @@ impl IconShape for IoShareOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShareSharp;
 impl IconShape for IoShareSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30460,11 +33859,14 @@ impl IconShape for IoShareSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShareSocialOutline;
 impl IconShape for IoShareSocialOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30507,11 +33909,14 @@ impl IconShape for IoShareSocialOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShareSocialSharp;
 impl IconShape for IoShareSocialSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30525,11 +33930,14 @@ impl IconShape for IoShareSocialSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShareSocial;
 impl IconShape for IoShareSocial {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30543,11 +33951,14 @@ impl IconShape for IoShareSocial {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShare;
 impl IconShape for IoShare {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30564,11 +33975,14 @@ impl IconShape for IoShare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShieldCheckmarkOutline;
 impl IconShape for IoShieldCheckmarkOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30587,11 +34001,14 @@ impl IconShape for IoShieldCheckmarkOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShieldCheckmarkSharp;
 impl IconShape for IoShieldCheckmarkSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30605,11 +34022,14 @@ impl IconShape for IoShieldCheckmarkSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShieldCheckmark;
 impl IconShape for IoShieldCheckmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30623,11 +34043,14 @@ impl IconShape for IoShieldCheckmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShieldHalfOutline;
 impl IconShape for IoShieldHalfOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30648,11 +34071,14 @@ impl IconShape for IoShieldHalfOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShieldHalfSharp;
 impl IconShape for IoShieldHalfSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30666,11 +34092,14 @@ impl IconShape for IoShieldHalfSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShieldHalf;
 impl IconShape for IoShieldHalf {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30691,11 +34120,14 @@ impl IconShape for IoShieldHalf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShieldOutline;
 impl IconShape for IoShieldOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30710,11 +34142,14 @@ impl IconShape for IoShieldOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShieldSharp;
 impl IconShape for IoShieldSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30728,11 +34163,14 @@ impl IconShape for IoShieldSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShield;
 impl IconShape for IoShield {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30746,11 +34184,14 @@ impl IconShape for IoShield {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShirtOutline;
 impl IconShape for IoShirtOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30769,11 +34210,14 @@ impl IconShape for IoShirtOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShirtSharp;
 impl IconShape for IoShirtSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30790,11 +34234,14 @@ impl IconShape for IoShirtSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShirt;
 impl IconShape for IoShirt {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30811,11 +34258,14 @@ impl IconShape for IoShirt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShuffleOutline;
 impl IconShape for IoShuffleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30846,11 +34296,14 @@ impl IconShape for IoShuffleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShuffleSharp;
 impl IconShape for IoShuffleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30881,11 +34334,14 @@ impl IconShape for IoShuffleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoShuffle;
 impl IconShape for IoShuffle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30916,11 +34372,14 @@ impl IconShape for IoShuffle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSkullOutline;
 impl IconShape for IoSkullOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30972,11 +34431,14 @@ impl IconShape for IoSkullOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSkullSharp;
 impl IconShape for IoSkullSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30990,11 +34452,14 @@ impl IconShape for IoSkullSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSkull;
 impl IconShape for IoSkull {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31008,11 +34473,14 @@ impl IconShape for IoSkull {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSnowOutline;
 impl IconShape for IoSnowOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31068,11 +34536,14 @@ impl IconShape for IoSnowOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSnowSharp;
 impl IconShape for IoSnowSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31086,11 +34557,14 @@ impl IconShape for IoSnowSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSnow;
 impl IconShape for IoSnow {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31104,11 +34578,14 @@ impl IconShape for IoSnow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSparklesOutline;
 impl IconShape for IoSparklesOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31140,11 +34617,14 @@ impl IconShape for IoSparklesOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSparklesSharp;
 impl IconShape for IoSparklesSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31164,11 +34644,14 @@ impl IconShape for IoSparklesSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSparkles;
 impl IconShape for IoSparkles {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31188,11 +34671,14 @@ impl IconShape for IoSparkles {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSpeedometerOutline;
 impl IconShape for IoSpeedometerOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31245,11 +34731,14 @@ impl IconShape for IoSpeedometerOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSpeedometerSharp;
 impl IconShape for IoSpeedometerSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31263,11 +34752,14 @@ impl IconShape for IoSpeedometerSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSpeedometer;
 impl IconShape for IoSpeedometer {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31281,11 +34773,14 @@ impl IconShape for IoSpeedometer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSquareOutline;
 impl IconShape for IoSquareOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31300,11 +34795,14 @@ impl IconShape for IoSquareOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSquareSharp;
 impl IconShape for IoSquareSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31321,11 +34819,14 @@ impl IconShape for IoSquareSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSquare;
 impl IconShape for IoSquare {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31339,11 +34840,14 @@ impl IconShape for IoSquare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStarHalfOutline;
 impl IconShape for IoStarHalfOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31361,11 +34865,14 @@ impl IconShape for IoStarHalfOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStarHalfSharp;
 impl IconShape for IoStarHalfSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31379,11 +34886,14 @@ impl IconShape for IoStarHalfSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStarHalf;
 impl IconShape for IoStarHalf {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31401,11 +34911,14 @@ impl IconShape for IoStarHalf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStarOutline;
 impl IconShape for IoStarOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31420,11 +34933,14 @@ impl IconShape for IoStarOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStarSharp;
 impl IconShape for IoStarSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31438,11 +34954,14 @@ impl IconShape for IoStarSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStar;
 impl IconShape for IoStar {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31456,11 +34975,14 @@ impl IconShape for IoStar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStatsChartOutline;
 impl IconShape for IoStatsChartOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31507,11 +35029,14 @@ impl IconShape for IoStatsChartOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStatsChartSharp;
 impl IconShape for IoStatsChartSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31534,11 +35059,14 @@ impl IconShape for IoStatsChartSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStatsChart;
 impl IconShape for IoStatsChart {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31561,11 +35089,14 @@ impl IconShape for IoStatsChart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStopCircleOutline;
 impl IconShape for IoStopCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31583,11 +35114,14 @@ impl IconShape for IoStopCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStopCircleSharp;
 impl IconShape for IoStopCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31601,11 +35135,14 @@ impl IconShape for IoStopCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStopCircle;
 impl IconShape for IoStopCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31619,11 +35156,14 @@ impl IconShape for IoStopCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStopOutline;
 impl IconShape for IoStopOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31643,11 +35183,14 @@ impl IconShape for IoStopOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStopSharp;
 impl IconShape for IoStopSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31664,11 +35207,14 @@ impl IconShape for IoStopSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStop;
 impl IconShape for IoStop {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31682,11 +35228,14 @@ impl IconShape for IoStop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStopwatchOutline;
 impl IconShape for IoStopwatchOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31728,11 +35277,14 @@ impl IconShape for IoStopwatchOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStopwatchSharp;
 impl IconShape for IoStopwatchSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31746,11 +35298,14 @@ impl IconShape for IoStopwatchSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStopwatch;
 impl IconShape for IoStopwatch {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31769,11 +35324,14 @@ impl IconShape for IoStopwatch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStorefrontOutline;
 impl IconShape for IoStorefrontOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31835,11 +35393,14 @@ impl IconShape for IoStorefrontOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStorefrontSharp;
 impl IconShape for IoStorefrontSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31856,11 +35417,14 @@ impl IconShape for IoStorefrontSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoStorefront;
 impl IconShape for IoStorefront {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31877,11 +35441,14 @@ impl IconShape for IoStorefront {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSubwayOutline;
 impl IconShape for IoSubwayOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31950,11 +35517,14 @@ impl IconShape for IoSubwayOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSubwaySharp;
 impl IconShape for IoSubwaySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31971,11 +35541,14 @@ impl IconShape for IoSubwaySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSubway;
 impl IconShape for IoSubway {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31992,11 +35565,14 @@ impl IconShape for IoSubway {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSunnyOutline;
 impl IconShape for IoSunnyOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32069,11 +35645,14 @@ impl IconShape for IoSunnyOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSunnySharp;
 impl IconShape for IoSunnySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32139,11 +35718,14 @@ impl IconShape for IoSunnySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSunny;
 impl IconShape for IoSunny {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32181,11 +35763,14 @@ impl IconShape for IoSunny {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSwapHorizontalOutline;
 impl IconShape for IoSwapHorizontalOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32218,11 +35803,14 @@ impl IconShape for IoSwapHorizontalOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSwapHorizontalSharp;
 impl IconShape for IoSwapHorizontalSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32255,11 +35843,14 @@ impl IconShape for IoSwapHorizontalSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSwapHorizontal;
 impl IconShape for IoSwapHorizontal {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32292,11 +35883,14 @@ impl IconShape for IoSwapHorizontal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSwapVerticalOutline;
 impl IconShape for IoSwapVerticalOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32329,11 +35923,14 @@ impl IconShape for IoSwapVerticalOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSwapVerticalSharp;
 impl IconShape for IoSwapVerticalSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32366,11 +35963,14 @@ impl IconShape for IoSwapVerticalSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSwapVertical;
 impl IconShape for IoSwapVertical {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32403,11 +36003,14 @@ impl IconShape for IoSwapVertical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSyncCircleOutline;
 impl IconShape for IoSyncCircleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32434,11 +36037,14 @@ impl IconShape for IoSyncCircleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSyncCircleSharp;
 impl IconShape for IoSyncCircleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32452,11 +36058,14 @@ impl IconShape for IoSyncCircleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSyncCircle;
 impl IconShape for IoSyncCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32470,11 +36079,14 @@ impl IconShape for IoSyncCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSyncOutline;
 impl IconShape for IoSyncOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32497,11 +36109,14 @@ impl IconShape for IoSyncOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSyncSharp;
 impl IconShape for IoSyncSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32524,11 +36139,14 @@ impl IconShape for IoSyncSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoSync;
 impl IconShape for IoSync {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32551,11 +36169,14 @@ impl IconShape for IoSync {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTabletLandscapeOutline;
 impl IconShape for IoTabletLandscapeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32576,11 +36197,14 @@ impl IconShape for IoTabletLandscapeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTabletLandscapeSharp;
 impl IconShape for IoTabletLandscapeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32594,11 +36218,14 @@ impl IconShape for IoTabletLandscapeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTabletLandscape;
 impl IconShape for IoTabletLandscape {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32615,11 +36242,14 @@ impl IconShape for IoTabletLandscape {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTabletPortraitOutline;
 impl IconShape for IoTabletPortraitOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32639,11 +36269,14 @@ impl IconShape for IoTabletPortraitOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTabletPortraitSharp;
 impl IconShape for IoTabletPortraitSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32657,11 +36290,14 @@ impl IconShape for IoTabletPortraitSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTabletPortrait;
 impl IconShape for IoTabletPortrait {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32678,11 +36314,14 @@ impl IconShape for IoTabletPortrait {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTelescopeOutline;
 impl IconShape for IoTelescopeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32734,11 +36373,14 @@ impl IconShape for IoTelescopeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTelescopeSharp;
 impl IconShape for IoTelescopeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32758,11 +36400,14 @@ impl IconShape for IoTelescopeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTelescope;
 impl IconShape for IoTelescope {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32782,11 +36427,14 @@ impl IconShape for IoTelescope {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTennisballOutline;
 impl IconShape for IoTennisballOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32811,11 +36459,14 @@ impl IconShape for IoTennisballOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTennisballSharp;
 impl IconShape for IoTennisballSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32835,11 +36486,14 @@ impl IconShape for IoTennisballSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTennisball;
 impl IconShape for IoTennisball {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32859,11 +36513,14 @@ impl IconShape for IoTennisball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTerminalOutline;
 impl IconShape for IoTerminalOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32894,11 +36551,14 @@ impl IconShape for IoTerminalOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTerminalSharp;
 impl IconShape for IoTerminalSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32912,11 +36572,14 @@ impl IconShape for IoTerminalSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTerminal;
 impl IconShape for IoTerminal {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32930,11 +36593,14 @@ impl IconShape for IoTerminal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTextOutline;
 impl IconShape for IoTextOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32964,11 +36630,14 @@ impl IconShape for IoTextOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTextSharp;
 impl IconShape for IoTextSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32985,11 +36654,14 @@ impl IconShape for IoTextSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoText;
 impl IconShape for IoText {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33006,11 +36678,14 @@ impl IconShape for IoText {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoThermometerOutline;
 impl IconShape for IoThermometerOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33037,11 +36712,14 @@ impl IconShape for IoThermometerOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoThermometerSharp;
 impl IconShape for IoThermometerSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33055,11 +36733,14 @@ impl IconShape for IoThermometerSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoThermometer;
 impl IconShape for IoThermometer {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33073,11 +36754,14 @@ impl IconShape for IoThermometer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoThumbsDownOutline;
 impl IconShape for IoThumbsDownOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33108,11 +36792,14 @@ impl IconShape for IoThumbsDownOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoThumbsDownSharp;
 impl IconShape for IoThumbsDownSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33137,11 +36824,14 @@ impl IconShape for IoThumbsDownSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoThumbsDown;
 impl IconShape for IoThumbsDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33169,11 +36859,14 @@ impl IconShape for IoThumbsDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoThumbsUpOutline;
 impl IconShape for IoThumbsUpOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33204,11 +36897,14 @@ impl IconShape for IoThumbsUpOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoThumbsUpSharp;
 impl IconShape for IoThumbsUpSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33222,11 +36918,14 @@ impl IconShape for IoThumbsUpSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoThumbsUp;
 impl IconShape for IoThumbsUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33254,11 +36953,14 @@ impl IconShape for IoThumbsUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoThunderstormOutline;
 impl IconShape for IoThunderstormOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33305,11 +37007,14 @@ impl IconShape for IoThunderstormOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoThunderstormSharp;
 impl IconShape for IoThunderstormSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33351,11 +37056,14 @@ impl IconShape for IoThunderstormSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoThunderstorm;
 impl IconShape for IoThunderstorm {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33381,11 +37089,14 @@ impl IconShape for IoThunderstorm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTicketOutline;
 impl IconShape for IoTicketOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33442,11 +37153,14 @@ impl IconShape for IoTicketOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTicketSharp;
 impl IconShape for IoTicketSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33460,11 +37174,14 @@ impl IconShape for IoTicketSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTicket;
 impl IconShape for IoTicket {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33478,11 +37195,14 @@ impl IconShape for IoTicket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTimeOutline;
 impl IconShape for IoTimeOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33501,11 +37221,14 @@ impl IconShape for IoTimeOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTimeSharp;
 impl IconShape for IoTimeSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33519,11 +37242,14 @@ impl IconShape for IoTimeSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTime;
 impl IconShape for IoTime {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33537,11 +37263,14 @@ impl IconShape for IoTime {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTimerOutline;
 impl IconShape for IoTimerOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33559,11 +37288,14 @@ impl IconShape for IoTimerOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTimerSharp;
 impl IconShape for IoTimerSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33577,11 +37309,14 @@ impl IconShape for IoTimerSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTimer;
 impl IconShape for IoTimer {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33595,11 +37330,14 @@ impl IconShape for IoTimer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTodayOutline;
 impl IconShape for IoTodayOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33661,11 +37399,14 @@ impl IconShape for IoTodayOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTodaySharp;
 impl IconShape for IoTodaySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33682,11 +37423,14 @@ impl IconShape for IoTodaySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoToday;
 impl IconShape for IoToday {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33703,11 +37447,14 @@ impl IconShape for IoToday {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoToggleOutline;
 impl IconShape for IoToggleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33733,11 +37480,14 @@ impl IconShape for IoToggleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoToggleSharp;
 impl IconShape for IoToggleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33751,11 +37501,14 @@ impl IconShape for IoToggleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoToggle;
 impl IconShape for IoToggle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33769,11 +37522,14 @@ impl IconShape for IoToggle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrailSignOutline;
 impl IconShape for IoTrailSignOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33813,11 +37569,14 @@ impl IconShape for IoTrailSignOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrailSignSharp;
 impl IconShape for IoTrailSignSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33831,11 +37590,14 @@ impl IconShape for IoTrailSignSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrailSign;
 impl IconShape for IoTrailSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33849,11 +37611,14 @@ impl IconShape for IoTrailSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrainOutline;
 impl IconShape for IoTrainOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33889,11 +37654,14 @@ impl IconShape for IoTrainOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrainSharp;
 impl IconShape for IoTrainSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33910,11 +37678,14 @@ impl IconShape for IoTrainSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrain;
 impl IconShape for IoTrain {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33938,11 +37709,14 @@ impl IconShape for IoTrain {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTransgenderOutline;
 impl IconShape for IoTransgenderOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34002,11 +37776,14 @@ impl IconShape for IoTransgenderOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTransgenderSharp;
 impl IconShape for IoTransgenderSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34020,11 +37797,14 @@ impl IconShape for IoTransgenderSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTransgender;
 impl IconShape for IoTransgender {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34038,11 +37818,14 @@ impl IconShape for IoTransgender {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrashBinOutline;
 impl IconShape for IoTrashBinOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34080,11 +37863,14 @@ impl IconShape for IoTrashBinOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrashBinSharp;
 impl IconShape for IoTrashBinSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34114,11 +37900,14 @@ impl IconShape for IoTrashBinSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrashBin;
 impl IconShape for IoTrashBin {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34140,11 +37929,14 @@ impl IconShape for IoTrashBin {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrashOutline;
 impl IconShape for IoTrashOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34191,11 +37983,14 @@ impl IconShape for IoTrashOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrashSharp;
 impl IconShape for IoTrashSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34217,11 +38012,14 @@ impl IconShape for IoTrashSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrash;
 impl IconShape for IoTrash {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34239,11 +38037,14 @@ impl IconShape for IoTrash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrendingDownOutline;
 impl IconShape for IoTrendingDownOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34262,11 +38063,14 @@ impl IconShape for IoTrendingDownOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrendingDownSharp;
 impl IconShape for IoTrendingDownSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34285,11 +38089,14 @@ impl IconShape for IoTrendingDownSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrendingDown;
 impl IconShape for IoTrendingDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34308,11 +38115,14 @@ impl IconShape for IoTrendingDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrendingUpOutline;
 impl IconShape for IoTrendingUpOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34331,11 +38141,14 @@ impl IconShape for IoTrendingUpOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrendingUpSharp;
 impl IconShape for IoTrendingUpSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34354,11 +38167,14 @@ impl IconShape for IoTrendingUpSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrendingUp;
 impl IconShape for IoTrendingUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34377,11 +38193,14 @@ impl IconShape for IoTrendingUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTriangleOutline;
 impl IconShape for IoTriangleOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34396,11 +38215,14 @@ impl IconShape for IoTriangleOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTriangleSharp;
 impl IconShape for IoTriangleSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34414,11 +38236,14 @@ impl IconShape for IoTriangleSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTriangle;
 impl IconShape for IoTriangle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34432,11 +38257,14 @@ impl IconShape for IoTriangle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrophyOutline;
 impl IconShape for IoTrophyOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34473,11 +38301,14 @@ impl IconShape for IoTrophyOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrophySharp;
 impl IconShape for IoTrophySharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34491,11 +38322,14 @@ impl IconShape for IoTrophySharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTrophy;
 impl IconShape for IoTrophy {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34509,11 +38343,14 @@ impl IconShape for IoTrophy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTvOutline;
 impl IconShape for IoTvOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34540,11 +38377,14 @@ impl IconShape for IoTvOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTvSharp;
 impl IconShape for IoTvSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34566,11 +38406,14 @@ impl IconShape for IoTvSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoTv;
 impl IconShape for IoTv {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34591,11 +38434,14 @@ impl IconShape for IoTv {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoUmbrellaOutline;
 impl IconShape for IoUmbrellaOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34621,11 +38467,14 @@ impl IconShape for IoUmbrellaOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoUmbrellaSharp;
 impl IconShape for IoUmbrellaSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34645,11 +38494,14 @@ impl IconShape for IoUmbrellaSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoUmbrella;
 impl IconShape for IoUmbrella {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34663,11 +38515,14 @@ impl IconShape for IoUmbrella {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoUnlinkOutline;
 impl IconShape for IoUnlinkOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34692,11 +38547,14 @@ impl IconShape for IoUnlinkOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoUnlinkSharp;
 impl IconShape for IoUnlinkSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34721,11 +38579,14 @@ impl IconShape for IoUnlinkSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoUnlink;
 impl IconShape for IoUnlink {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34750,11 +38611,14 @@ impl IconShape for IoUnlink {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVideocamOffOutline;
 impl IconShape for IoVideocamOffOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34796,11 +38660,14 @@ impl IconShape for IoVideocamOffOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVideocamOffSharp;
 impl IconShape for IoVideocamOffSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34824,11 +38691,14 @@ impl IconShape for IoVideocamOffSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVideocamOff;
 impl IconShape for IoVideocamOff {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34858,11 +38728,14 @@ impl IconShape for IoVideocamOff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVideocamOutline;
 impl IconShape for IoVideocamOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34881,11 +38754,14 @@ impl IconShape for IoVideocamOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVideocamSharp;
 impl IconShape for IoVideocamSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34899,11 +38775,14 @@ impl IconShape for IoVideocamSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVideocam;
 impl IconShape for IoVideocam {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34920,11 +38799,14 @@ impl IconShape for IoVideocam {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeHighOutline;
 impl IconShape for IoVolumeHighOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34951,11 +38833,14 @@ impl IconShape for IoVolumeHighOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeHighSharp;
 impl IconShape for IoVolumeHighSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34981,11 +38866,14 @@ impl IconShape for IoVolumeHighSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeHigh;
 impl IconShape for IoVolumeHigh {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35008,11 +38896,14 @@ impl IconShape for IoVolumeHigh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeLowOutline;
 impl IconShape for IoVolumeLowOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35031,11 +38922,14 @@ impl IconShape for IoVolumeLowOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeLowSharp;
 impl IconShape for IoVolumeLowSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35052,11 +38946,14 @@ impl IconShape for IoVolumeLowSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeLow;
 impl IconShape for IoVolumeLow {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35073,11 +38970,14 @@ impl IconShape for IoVolumeLow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeMediumOutline;
 impl IconShape for IoVolumeMediumOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35100,11 +39000,14 @@ impl IconShape for IoVolumeMediumOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeMediumSharp;
 impl IconShape for IoVolumeMediumSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35126,11 +39029,14 @@ impl IconShape for IoVolumeMediumSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeMedium;
 impl IconShape for IoVolumeMedium {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35150,11 +39056,14 @@ impl IconShape for IoVolumeMedium {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeMuteOutline;
 impl IconShape for IoVolumeMuteOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35187,11 +39096,14 @@ impl IconShape for IoVolumeMuteOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeMuteSharp;
 impl IconShape for IoVolumeMuteSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35224,11 +39136,14 @@ impl IconShape for IoVolumeMuteSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeMute;
 impl IconShape for IoVolumeMute {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35261,11 +39176,14 @@ impl IconShape for IoVolumeMute {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeOffOutline;
 impl IconShape for IoVolumeOffOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35280,11 +39198,14 @@ impl IconShape for IoVolumeOffOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeOffSharp;
 impl IconShape for IoVolumeOffSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35298,11 +39219,14 @@ impl IconShape for IoVolumeOffSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoVolumeOff;
 impl IconShape for IoVolumeOff {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35316,11 +39240,14 @@ impl IconShape for IoVolumeOff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWalkOutline;
 impl IconShape for IoWalkOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35359,11 +39286,14 @@ impl IconShape for IoWalkOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWalkSharp;
 impl IconShape for IoWalkSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35394,11 +39324,14 @@ impl IconShape for IoWalkSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWalk;
 impl IconShape for IoWalk {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35429,11 +39362,14 @@ impl IconShape for IoWalk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWalletOutline;
 impl IconShape for IoWalletOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35460,11 +39396,14 @@ impl IconShape for IoWalletOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWalletSharp;
 impl IconShape for IoWalletSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35484,11 +39423,14 @@ impl IconShape for IoWalletSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWallet;
 impl IconShape for IoWallet {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35508,11 +39450,14 @@ impl IconShape for IoWallet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWarningOutline;
 impl IconShape for IoWarningOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35534,11 +39479,14 @@ impl IconShape for IoWarningOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWarningSharp;
 impl IconShape for IoWarningSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35552,11 +39500,14 @@ impl IconShape for IoWarningSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWarning;
 impl IconShape for IoWarning {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35570,11 +39521,14 @@ impl IconShape for IoWarning {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWatchOutline;
 impl IconShape for IoWatchOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35602,11 +39556,14 @@ impl IconShape for IoWatchOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWatchSharp;
 impl IconShape for IoWatchSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35628,11 +39585,14 @@ impl IconShape for IoWatchSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWatch;
 impl IconShape for IoWatch {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35654,11 +39614,14 @@ impl IconShape for IoWatch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWaterOutline;
 impl IconShape for IoWaterOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35677,11 +39640,14 @@ impl IconShape for IoWaterOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWaterSharp;
 impl IconShape for IoWaterSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35695,11 +39661,14 @@ impl IconShape for IoWaterSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWater;
 impl IconShape for IoWater {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35713,11 +39682,14 @@ impl IconShape for IoWater {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWifiOutline;
 impl IconShape for IoWifiOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35743,11 +39715,14 @@ impl IconShape for IoWifiOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWifiSharp;
 impl IconShape for IoWifiSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35773,11 +39748,14 @@ impl IconShape for IoWifiSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWifi;
 impl IconShape for IoWifi {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35802,11 +39780,14 @@ impl IconShape for IoWifi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWineOutline;
 impl IconShape for IoWineOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35842,11 +39823,14 @@ impl IconShape for IoWineOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWineSharp;
 impl IconShape for IoWineSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35860,11 +39844,14 @@ impl IconShape for IoWineSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWine;
 impl IconShape for IoWine {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35878,11 +39865,14 @@ impl IconShape for IoWine {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWomanOutline;
 impl IconShape for IoWomanOutline {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35915,11 +39905,14 @@ impl IconShape for IoWomanOutline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWomanSharp;
 impl IconShape for IoWomanSharp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35938,11 +39931,14 @@ impl IconShape for IoWomanSharp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoWoman;
 impl IconShape for IoWoman {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {

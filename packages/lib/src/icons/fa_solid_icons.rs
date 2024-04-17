@@ -4,11 +4,14 @@ use dioxus::prelude::*;
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct Fa0;
 impl IconShape for Fa0 {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22,11 +25,14 @@ impl IconShape for Fa0 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct Fa1;
 impl IconShape for Fa1 {
-    fn view_box(&self) -> String {
-        String::from("0 0 256 512")
+    fn view_box(&self) -> &str {
+        "0 0 256 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -40,11 +46,14 @@ impl IconShape for Fa1 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct Fa2;
 impl IconShape for Fa2 {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -58,11 +67,14 @@ impl IconShape for Fa2 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct Fa3;
 impl IconShape for Fa3 {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -76,11 +88,14 @@ impl IconShape for Fa3 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct Fa4;
 impl IconShape for Fa4 {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -94,11 +109,14 @@ impl IconShape for Fa4 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct Fa5;
 impl IconShape for Fa5 {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -112,11 +130,14 @@ impl IconShape for Fa5 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct Fa6;
 impl IconShape for Fa6 {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -130,11 +151,14 @@ impl IconShape for Fa6 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct Fa7;
 impl IconShape for Fa7 {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -148,11 +172,14 @@ impl IconShape for Fa7 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct Fa8;
 impl IconShape for Fa8 {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -166,11 +193,14 @@ impl IconShape for Fa8 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct Fa9;
 impl IconShape for Fa9 {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -184,11 +214,14 @@ impl IconShape for Fa9 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaA;
 impl IconShape for FaA {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -202,11 +235,14 @@ impl IconShape for FaA {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAddressBook;
 impl IconShape for FaAddressBook {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -220,11 +256,14 @@ impl IconShape for FaAddressBook {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAddressCard;
 impl IconShape for FaAddressCard {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -238,11 +277,14 @@ impl IconShape for FaAddressCard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAlignCenter;
 impl IconShape for FaAlignCenter {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -256,11 +298,14 @@ impl IconShape for FaAlignCenter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAlignJustify;
 impl IconShape for FaAlignJustify {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -274,11 +319,14 @@ impl IconShape for FaAlignJustify {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAlignLeft;
 impl IconShape for FaAlignLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -292,11 +340,14 @@ impl IconShape for FaAlignLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAlignRight;
 impl IconShape for FaAlignRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -310,11 +361,14 @@ impl IconShape for FaAlignRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAnchorCircleCheck;
 impl IconShape for FaAnchorCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -328,11 +382,14 @@ impl IconShape for FaAnchorCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAnchorCircleExclamation;
 impl IconShape for FaAnchorCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -346,11 +403,14 @@ impl IconShape for FaAnchorCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAnchorCircleXmark;
 impl IconShape for FaAnchorCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -364,11 +424,14 @@ impl IconShape for FaAnchorCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAnchorLock;
 impl IconShape for FaAnchorLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -382,11 +445,14 @@ impl IconShape for FaAnchorLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAnchor;
 impl IconShape for FaAnchor {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -400,11 +466,14 @@ impl IconShape for FaAnchor {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAngleDown;
 impl IconShape for FaAngleDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -418,11 +487,14 @@ impl IconShape for FaAngleDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAngleLeft;
 impl IconShape for FaAngleLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 256 512")
+    fn view_box(&self) -> &str {
+        "0 0 256 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -436,11 +508,14 @@ impl IconShape for FaAngleLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAngleRight;
 impl IconShape for FaAngleRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 256 512")
+    fn view_box(&self) -> &str {
+        "0 0 256 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -454,11 +529,14 @@ impl IconShape for FaAngleRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAngleUp;
 impl IconShape for FaAngleUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -472,11 +550,14 @@ impl IconShape for FaAngleUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAnglesDown;
 impl IconShape for FaAnglesDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -490,11 +571,14 @@ impl IconShape for FaAnglesDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAnglesLeft;
 impl IconShape for FaAnglesLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -508,11 +592,14 @@ impl IconShape for FaAnglesLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAnglesRight;
 impl IconShape for FaAnglesRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -526,11 +613,14 @@ impl IconShape for FaAnglesRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAnglesUp;
 impl IconShape for FaAnglesUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -544,11 +634,14 @@ impl IconShape for FaAnglesUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAnkh;
 impl IconShape for FaAnkh {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -562,11 +655,14 @@ impl IconShape for FaAnkh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAppleWhole;
 impl IconShape for FaAppleWhole {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -580,11 +676,14 @@ impl IconShape for FaAppleWhole {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArchway;
 impl IconShape for FaArchway {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -598,11 +697,14 @@ impl IconShape for FaArchway {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowDown19;
 impl IconShape for FaArrowDown19 {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -616,11 +718,14 @@ impl IconShape for FaArrowDown19 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowDown91;
 impl IconShape for FaArrowDown91 {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -634,11 +739,14 @@ impl IconShape for FaArrowDown91 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowDownAZ;
 impl IconShape for FaArrowDownAZ {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -652,11 +760,14 @@ impl IconShape for FaArrowDownAZ {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowDownLong;
 impl IconShape for FaArrowDownLong {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -670,11 +781,14 @@ impl IconShape for FaArrowDownLong {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowDownShortWide;
 impl IconShape for FaArrowDownShortWide {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -688,11 +802,14 @@ impl IconShape for FaArrowDownShortWide {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowDownUpAcrossLine;
 impl IconShape for FaArrowDownUpAcrossLine {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -706,11 +823,14 @@ impl IconShape for FaArrowDownUpAcrossLine {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowDownUpLock;
 impl IconShape for FaArrowDownUpLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -724,11 +844,14 @@ impl IconShape for FaArrowDownUpLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowDownWideShort;
 impl IconShape for FaArrowDownWideShort {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -742,11 +865,14 @@ impl IconShape for FaArrowDownWideShort {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowDownZA;
 impl IconShape for FaArrowDownZA {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -760,11 +886,14 @@ impl IconShape for FaArrowDownZA {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowDown;
 impl IconShape for FaArrowDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -778,11 +907,14 @@ impl IconShape for FaArrowDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowLeftLong;
 impl IconShape for FaArrowLeftLong {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -796,11 +928,14 @@ impl IconShape for FaArrowLeftLong {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowLeft;
 impl IconShape for FaArrowLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -814,11 +949,14 @@ impl IconShape for FaArrowLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowPointer;
 impl IconShape for FaArrowPointer {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -832,11 +970,14 @@ impl IconShape for FaArrowPointer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowRightArrowLeft;
 impl IconShape for FaArrowRightArrowLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -850,11 +991,14 @@ impl IconShape for FaArrowRightArrowLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowRightFromBracket;
 impl IconShape for FaArrowRightFromBracket {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -868,11 +1012,14 @@ impl IconShape for FaArrowRightFromBracket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowRightLong;
 impl IconShape for FaArrowRightLong {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -886,11 +1033,14 @@ impl IconShape for FaArrowRightLong {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowRightToBracket;
 impl IconShape for FaArrowRightToBracket {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -904,11 +1054,14 @@ impl IconShape for FaArrowRightToBracket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowRightToCity;
 impl IconShape for FaArrowRightToCity {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -922,11 +1075,14 @@ impl IconShape for FaArrowRightToCity {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowRight;
 impl IconShape for FaArrowRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -940,11 +1096,14 @@ impl IconShape for FaArrowRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowRotateLeft;
 impl IconShape for FaArrowRotateLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -958,11 +1117,14 @@ impl IconShape for FaArrowRotateLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowRotateRight;
 impl IconShape for FaArrowRotateRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -976,11 +1138,14 @@ impl IconShape for FaArrowRotateRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowTrendDown;
 impl IconShape for FaArrowTrendDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -994,11 +1159,14 @@ impl IconShape for FaArrowTrendDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowTrendUp;
 impl IconShape for FaArrowTrendUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1012,11 +1180,14 @@ impl IconShape for FaArrowTrendUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowTurnDown;
 impl IconShape for FaArrowTurnDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1030,11 +1201,14 @@ impl IconShape for FaArrowTurnDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowTurnUp;
 impl IconShape for FaArrowTurnUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1048,11 +1222,14 @@ impl IconShape for FaArrowTurnUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowUp19;
 impl IconShape for FaArrowUp19 {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1066,11 +1243,14 @@ impl IconShape for FaArrowUp19 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowUp91;
 impl IconShape for FaArrowUp91 {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1084,11 +1264,14 @@ impl IconShape for FaArrowUp91 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowUpAZ;
 impl IconShape for FaArrowUpAZ {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1102,11 +1285,14 @@ impl IconShape for FaArrowUpAZ {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowUpFromBracket;
 impl IconShape for FaArrowUpFromBracket {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1120,11 +1306,14 @@ impl IconShape for FaArrowUpFromBracket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowUpFromGroundWater;
 impl IconShape for FaArrowUpFromGroundWater {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1138,11 +1327,14 @@ impl IconShape for FaArrowUpFromGroundWater {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowUpFromWaterPump;
 impl IconShape for FaArrowUpFromWaterPump {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1156,11 +1348,14 @@ impl IconShape for FaArrowUpFromWaterPump {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowUpLong;
 impl IconShape for FaArrowUpLong {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1174,11 +1369,14 @@ impl IconShape for FaArrowUpLong {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowUpRightDots;
 impl IconShape for FaArrowUpRightDots {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1192,11 +1390,14 @@ impl IconShape for FaArrowUpRightDots {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowUpRightFromSquare;
 impl IconShape for FaArrowUpRightFromSquare {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1210,11 +1411,14 @@ impl IconShape for FaArrowUpRightFromSquare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowUpShortWide;
 impl IconShape for FaArrowUpShortWide {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1228,11 +1432,14 @@ impl IconShape for FaArrowUpShortWide {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowUpWideShort;
 impl IconShape for FaArrowUpWideShort {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1246,11 +1453,14 @@ impl IconShape for FaArrowUpWideShort {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowUpZA;
 impl IconShape for FaArrowUpZA {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1264,11 +1474,14 @@ impl IconShape for FaArrowUpZA {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowUp;
 impl IconShape for FaArrowUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1282,11 +1495,14 @@ impl IconShape for FaArrowUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsDownToLine;
 impl IconShape for FaArrowsDownToLine {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1300,11 +1516,14 @@ impl IconShape for FaArrowsDownToLine {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsDownToPeople;
 impl IconShape for FaArrowsDownToPeople {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1318,11 +1537,14 @@ impl IconShape for FaArrowsDownToPeople {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsLeftRightToLine;
 impl IconShape for FaArrowsLeftRightToLine {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1336,11 +1558,14 @@ impl IconShape for FaArrowsLeftRightToLine {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsLeftRight;
 impl IconShape for FaArrowsLeftRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1354,11 +1579,14 @@ impl IconShape for FaArrowsLeftRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsRotate;
 impl IconShape for FaArrowsRotate {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1372,11 +1600,14 @@ impl IconShape for FaArrowsRotate {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsSpin;
 impl IconShape for FaArrowsSpin {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1390,11 +1621,14 @@ impl IconShape for FaArrowsSpin {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsSplitUpAndLeft;
 impl IconShape for FaArrowsSplitUpAndLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1408,11 +1642,14 @@ impl IconShape for FaArrowsSplitUpAndLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsToCircle;
 impl IconShape for FaArrowsToCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1426,11 +1663,14 @@ impl IconShape for FaArrowsToCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsToDot;
 impl IconShape for FaArrowsToDot {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1444,11 +1684,14 @@ impl IconShape for FaArrowsToDot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsToEye;
 impl IconShape for FaArrowsToEye {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1462,11 +1705,14 @@ impl IconShape for FaArrowsToEye {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsTurnRight;
 impl IconShape for FaArrowsTurnRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1480,11 +1726,14 @@ impl IconShape for FaArrowsTurnRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsTurnToDots;
 impl IconShape for FaArrowsTurnToDots {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1498,11 +1747,14 @@ impl IconShape for FaArrowsTurnToDots {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsUpDownLeftRight;
 impl IconShape for FaArrowsUpDownLeftRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1516,11 +1768,14 @@ impl IconShape for FaArrowsUpDownLeftRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsUpDown;
 impl IconShape for FaArrowsUpDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 256 512")
+    fn view_box(&self) -> &str {
+        "0 0 256 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1534,11 +1789,14 @@ impl IconShape for FaArrowsUpDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaArrowsUpToLine;
 impl IconShape for FaArrowsUpToLine {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1552,11 +1810,14 @@ impl IconShape for FaArrowsUpToLine {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAsterisk;
 impl IconShape for FaAsterisk {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1570,11 +1831,14 @@ impl IconShape for FaAsterisk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAt;
 impl IconShape for FaAt {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1588,11 +1852,14 @@ impl IconShape for FaAt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAtom;
 impl IconShape for FaAtom {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1606,11 +1873,14 @@ impl IconShape for FaAtom {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAudioDescription;
 impl IconShape for FaAudioDescription {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1624,11 +1894,14 @@ impl IconShape for FaAudioDescription {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAustralSign;
 impl IconShape for FaAustralSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1642,11 +1915,14 @@ impl IconShape for FaAustralSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaAward;
 impl IconShape for FaAward {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1660,11 +1936,14 @@ impl IconShape for FaAward {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaB;
 impl IconShape for FaB {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1678,11 +1957,14 @@ impl IconShape for FaB {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBabyCarriage;
 impl IconShape for FaBabyCarriage {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1696,11 +1978,14 @@ impl IconShape for FaBabyCarriage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBaby;
 impl IconShape for FaBaby {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1714,11 +1999,14 @@ impl IconShape for FaBaby {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBackwardFast;
 impl IconShape for FaBackwardFast {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1732,11 +2020,14 @@ impl IconShape for FaBackwardFast {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBackwardStep;
 impl IconShape for FaBackwardStep {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1750,11 +2041,14 @@ impl IconShape for FaBackwardStep {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBackward;
 impl IconShape for FaBackward {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1768,11 +2062,14 @@ impl IconShape for FaBackward {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBacon;
 impl IconShape for FaBacon {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1786,11 +2083,14 @@ impl IconShape for FaBacon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBacteria;
 impl IconShape for FaBacteria {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1804,11 +2104,14 @@ impl IconShape for FaBacteria {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBacterium;
 impl IconShape for FaBacterium {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1822,11 +2125,14 @@ impl IconShape for FaBacterium {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBagShopping;
 impl IconShape for FaBagShopping {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1840,11 +2146,14 @@ impl IconShape for FaBagShopping {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBahai;
 impl IconShape for FaBahai {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1858,11 +2167,14 @@ impl IconShape for FaBahai {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBahtSign;
 impl IconShape for FaBahtSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1876,11 +2188,14 @@ impl IconShape for FaBahtSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBanSmoking;
 impl IconShape for FaBanSmoking {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1894,11 +2209,14 @@ impl IconShape for FaBanSmoking {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBan;
 impl IconShape for FaBan {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1912,11 +2230,14 @@ impl IconShape for FaBan {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBandage;
 impl IconShape for FaBandage {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1930,11 +2251,14 @@ impl IconShape for FaBandage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBarcode;
 impl IconShape for FaBarcode {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1948,11 +2272,14 @@ impl IconShape for FaBarcode {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBarsProgress;
 impl IconShape for FaBarsProgress {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1966,11 +2293,14 @@ impl IconShape for FaBarsProgress {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBarsStaggered;
 impl IconShape for FaBarsStaggered {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1984,11 +2314,14 @@ impl IconShape for FaBarsStaggered {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBars;
 impl IconShape for FaBars {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2002,11 +2335,14 @@ impl IconShape for FaBars {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBaseballBatBall;
 impl IconShape for FaBaseballBatBall {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2020,11 +2356,14 @@ impl IconShape for FaBaseballBatBall {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBaseball;
 impl IconShape for FaBaseball {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2038,11 +2377,14 @@ impl IconShape for FaBaseball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBasketShopping;
 impl IconShape for FaBasketShopping {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2056,11 +2398,14 @@ impl IconShape for FaBasketShopping {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBasketball;
 impl IconShape for FaBasketball {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2074,11 +2419,14 @@ impl IconShape for FaBasketball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBath;
 impl IconShape for FaBath {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2092,11 +2440,14 @@ impl IconShape for FaBath {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBatteryEmpty;
 impl IconShape for FaBatteryEmpty {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2110,11 +2461,14 @@ impl IconShape for FaBatteryEmpty {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBatteryFull;
 impl IconShape for FaBatteryFull {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2128,11 +2482,14 @@ impl IconShape for FaBatteryFull {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBatteryHalf;
 impl IconShape for FaBatteryHalf {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2146,11 +2503,14 @@ impl IconShape for FaBatteryHalf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBatteryQuarter;
 impl IconShape for FaBatteryQuarter {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2164,11 +2524,14 @@ impl IconShape for FaBatteryQuarter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBatteryThreeQuarters;
 impl IconShape for FaBatteryThreeQuarters {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2182,11 +2545,14 @@ impl IconShape for FaBatteryThreeQuarters {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBedPulse;
 impl IconShape for FaBedPulse {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2200,11 +2566,14 @@ impl IconShape for FaBedPulse {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBed;
 impl IconShape for FaBed {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2218,11 +2587,14 @@ impl IconShape for FaBed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBeerMugEmpty;
 impl IconShape for FaBeerMugEmpty {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2236,11 +2608,14 @@ impl IconShape for FaBeerMugEmpty {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBellConcierge;
 impl IconShape for FaBellConcierge {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2254,11 +2629,14 @@ impl IconShape for FaBellConcierge {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBellSlash;
 impl IconShape for FaBellSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2272,11 +2650,14 @@ impl IconShape for FaBellSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBell;
 impl IconShape for FaBell {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2290,11 +2671,14 @@ impl IconShape for FaBell {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBezierCurve;
 impl IconShape for FaBezierCurve {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2308,11 +2692,14 @@ impl IconShape for FaBezierCurve {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBicycle;
 impl IconShape for FaBicycle {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2326,11 +2713,14 @@ impl IconShape for FaBicycle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBinoculars;
 impl IconShape for FaBinoculars {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2344,11 +2734,14 @@ impl IconShape for FaBinoculars {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBiohazard;
 impl IconShape for FaBiohazard {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2362,11 +2755,14 @@ impl IconShape for FaBiohazard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBitcoinSign;
 impl IconShape for FaBitcoinSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2380,11 +2776,14 @@ impl IconShape for FaBitcoinSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBlenderPhone;
 impl IconShape for FaBlenderPhone {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2398,11 +2797,14 @@ impl IconShape for FaBlenderPhone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBlender;
 impl IconShape for FaBlender {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2416,11 +2818,14 @@ impl IconShape for FaBlender {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBlog;
 impl IconShape for FaBlog {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2434,11 +2839,14 @@ impl IconShape for FaBlog {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBold;
 impl IconShape for FaBold {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2452,11 +2860,14 @@ impl IconShape for FaBold {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBoltLightning;
 impl IconShape for FaBoltLightning {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2470,11 +2881,14 @@ impl IconShape for FaBoltLightning {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBolt;
 impl IconShape for FaBolt {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2488,11 +2902,14 @@ impl IconShape for FaBolt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBomb;
 impl IconShape for FaBomb {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2506,11 +2923,14 @@ impl IconShape for FaBomb {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBone;
 impl IconShape for FaBone {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2524,11 +2944,14 @@ impl IconShape for FaBone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBong;
 impl IconShape for FaBong {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2542,11 +2965,14 @@ impl IconShape for FaBong {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBookAtlas;
 impl IconShape for FaBookAtlas {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2560,11 +2986,14 @@ impl IconShape for FaBookAtlas {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBookBible;
 impl IconShape for FaBookBible {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2578,11 +3007,14 @@ impl IconShape for FaBookBible {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBookBookmark;
 impl IconShape for FaBookBookmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2596,11 +3028,14 @@ impl IconShape for FaBookBookmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBookJournalWhills;
 impl IconShape for FaBookJournalWhills {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2614,11 +3049,14 @@ impl IconShape for FaBookJournalWhills {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBookMedical;
 impl IconShape for FaBookMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2632,11 +3070,14 @@ impl IconShape for FaBookMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBookOpenReader;
 impl IconShape for FaBookOpenReader {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2650,11 +3091,14 @@ impl IconShape for FaBookOpenReader {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBookOpen;
 impl IconShape for FaBookOpen {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2668,11 +3112,14 @@ impl IconShape for FaBookOpen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBookQuran;
 impl IconShape for FaBookQuran {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2686,11 +3133,14 @@ impl IconShape for FaBookQuran {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBookSkull;
 impl IconShape for FaBookSkull {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2704,11 +3154,14 @@ impl IconShape for FaBookSkull {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBook;
 impl IconShape for FaBook {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2722,11 +3175,14 @@ impl IconShape for FaBook {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBookmark;
 impl IconShape for FaBookmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2740,11 +3196,14 @@ impl IconShape for FaBookmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBorderAll;
 impl IconShape for FaBorderAll {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2758,11 +3217,14 @@ impl IconShape for FaBorderAll {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBorderNone;
 impl IconShape for FaBorderNone {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2776,11 +3238,14 @@ impl IconShape for FaBorderNone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBorderTopLeft;
 impl IconShape for FaBorderTopLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2794,11 +3259,14 @@ impl IconShape for FaBorderTopLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBoreHole;
 impl IconShape for FaBoreHole {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2812,11 +3280,14 @@ impl IconShape for FaBoreHole {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBottleDroplet;
 impl IconShape for FaBottleDroplet {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2830,11 +3301,14 @@ impl IconShape for FaBottleDroplet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBottleWater;
 impl IconShape for FaBottleWater {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2848,11 +3322,14 @@ impl IconShape for FaBottleWater {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBowlFood;
 impl IconShape for FaBowlFood {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2866,11 +3343,14 @@ impl IconShape for FaBowlFood {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBowlRice;
 impl IconShape for FaBowlRice {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2884,11 +3364,14 @@ impl IconShape for FaBowlRice {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBowlingBall;
 impl IconShape for FaBowlingBall {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2902,11 +3385,14 @@ impl IconShape for FaBowlingBall {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBoxArchive;
 impl IconShape for FaBoxArchive {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2920,11 +3406,14 @@ impl IconShape for FaBoxArchive {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBoxOpen;
 impl IconShape for FaBoxOpen {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2938,11 +3427,14 @@ impl IconShape for FaBoxOpen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBoxTissue;
 impl IconShape for FaBoxTissue {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2956,11 +3448,14 @@ impl IconShape for FaBoxTissue {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBox;
 impl IconShape for FaBox {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2974,11 +3469,14 @@ impl IconShape for FaBox {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBoxesPacking;
 impl IconShape for FaBoxesPacking {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2992,11 +3490,14 @@ impl IconShape for FaBoxesPacking {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBoxesStacked;
 impl IconShape for FaBoxesStacked {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3010,11 +3511,14 @@ impl IconShape for FaBoxesStacked {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBraille;
 impl IconShape for FaBraille {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3028,11 +3532,14 @@ impl IconShape for FaBraille {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBrain;
 impl IconShape for FaBrain {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3046,11 +3553,14 @@ impl IconShape for FaBrain {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBrazilianRealSign;
 impl IconShape for FaBrazilianRealSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3064,11 +3574,14 @@ impl IconShape for FaBrazilianRealSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBreadSlice;
 impl IconShape for FaBreadSlice {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3082,11 +3595,14 @@ impl IconShape for FaBreadSlice {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBridgeCircleCheck;
 impl IconShape for FaBridgeCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3100,11 +3616,14 @@ impl IconShape for FaBridgeCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBridgeCircleExclamation;
 impl IconShape for FaBridgeCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3118,11 +3637,14 @@ impl IconShape for FaBridgeCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBridgeCircleXmark;
 impl IconShape for FaBridgeCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3136,11 +3658,14 @@ impl IconShape for FaBridgeCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBridgeLock;
 impl IconShape for FaBridgeLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3154,11 +3679,14 @@ impl IconShape for FaBridgeLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBridgeWater;
 impl IconShape for FaBridgeWater {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3172,11 +3700,14 @@ impl IconShape for FaBridgeWater {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBridge;
 impl IconShape for FaBridge {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3190,11 +3721,14 @@ impl IconShape for FaBridge {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBriefcaseMedical;
 impl IconShape for FaBriefcaseMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3208,11 +3742,14 @@ impl IconShape for FaBriefcaseMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBriefcase;
 impl IconShape for FaBriefcase {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3226,11 +3763,14 @@ impl IconShape for FaBriefcase {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBroomBall;
 impl IconShape for FaBroomBall {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3244,11 +3784,14 @@ impl IconShape for FaBroomBall {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBroom;
 impl IconShape for FaBroom {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3262,11 +3805,14 @@ impl IconShape for FaBroom {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBrush;
 impl IconShape for FaBrush {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3280,11 +3826,14 @@ impl IconShape for FaBrush {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBucket;
 impl IconShape for FaBucket {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3298,11 +3847,14 @@ impl IconShape for FaBucket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBugSlash;
 impl IconShape for FaBugSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3316,11 +3868,14 @@ impl IconShape for FaBugSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBug;
 impl IconShape for FaBug {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3334,11 +3889,14 @@ impl IconShape for FaBug {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBugs;
 impl IconShape for FaBugs {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3352,11 +3910,14 @@ impl IconShape for FaBugs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBuildingCircleArrowRight;
 impl IconShape for FaBuildingCircleArrowRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3370,11 +3931,14 @@ impl IconShape for FaBuildingCircleArrowRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBuildingCircleCheck;
 impl IconShape for FaBuildingCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3388,11 +3952,14 @@ impl IconShape for FaBuildingCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBuildingCircleExclamation;
 impl IconShape for FaBuildingCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3406,11 +3973,14 @@ impl IconShape for FaBuildingCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBuildingCircleXmark;
 impl IconShape for FaBuildingCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3424,11 +3994,14 @@ impl IconShape for FaBuildingCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBuildingColumns;
 impl IconShape for FaBuildingColumns {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3442,11 +4015,14 @@ impl IconShape for FaBuildingColumns {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBuildingFlag;
 impl IconShape for FaBuildingFlag {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3460,11 +4036,14 @@ impl IconShape for FaBuildingFlag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBuildingLock;
 impl IconShape for FaBuildingLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3478,11 +4057,14 @@ impl IconShape for FaBuildingLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBuildingNgo;
 impl IconShape for FaBuildingNgo {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3496,11 +4078,14 @@ impl IconShape for FaBuildingNgo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBuildingShield;
 impl IconShape for FaBuildingShield {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3514,11 +4099,14 @@ impl IconShape for FaBuildingShield {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBuildingUn;
 impl IconShape for FaBuildingUn {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3532,11 +4120,14 @@ impl IconShape for FaBuildingUn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBuildingUser;
 impl IconShape for FaBuildingUser {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3550,11 +4141,14 @@ impl IconShape for FaBuildingUser {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBuildingWheat;
 impl IconShape for FaBuildingWheat {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3568,11 +4162,14 @@ impl IconShape for FaBuildingWheat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBuilding;
 impl IconShape for FaBuilding {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3586,11 +4183,14 @@ impl IconShape for FaBuilding {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBullhorn;
 impl IconShape for FaBullhorn {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3604,11 +4204,14 @@ impl IconShape for FaBullhorn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBullseye;
 impl IconShape for FaBullseye {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3622,11 +4225,14 @@ impl IconShape for FaBullseye {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBurger;
 impl IconShape for FaBurger {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3640,11 +4246,14 @@ impl IconShape for FaBurger {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBurst;
 impl IconShape for FaBurst {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3658,11 +4267,14 @@ impl IconShape for FaBurst {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBusSimple;
 impl IconShape for FaBusSimple {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3676,11 +4288,14 @@ impl IconShape for FaBusSimple {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBus;
 impl IconShape for FaBus {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3694,11 +4309,14 @@ impl IconShape for FaBus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaBusinessTime;
 impl IconShape for FaBusinessTime {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3712,11 +4330,14 @@ impl IconShape for FaBusinessTime {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaC;
 impl IconShape for FaC {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3730,11 +4351,14 @@ impl IconShape for FaC {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCakeCandles;
 impl IconShape for FaCakeCandles {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3748,11 +4372,14 @@ impl IconShape for FaCakeCandles {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCalculator;
 impl IconShape for FaCalculator {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3766,11 +4393,14 @@ impl IconShape for FaCalculator {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCalendarCheck;
 impl IconShape for FaCalendarCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3784,11 +4414,14 @@ impl IconShape for FaCalendarCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCalendarDay;
 impl IconShape for FaCalendarDay {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3802,11 +4435,14 @@ impl IconShape for FaCalendarDay {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCalendarDays;
 impl IconShape for FaCalendarDays {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3820,11 +4456,14 @@ impl IconShape for FaCalendarDays {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCalendarMinus;
 impl IconShape for FaCalendarMinus {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3838,11 +4477,14 @@ impl IconShape for FaCalendarMinus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCalendarPlus;
 impl IconShape for FaCalendarPlus {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3856,11 +4498,14 @@ impl IconShape for FaCalendarPlus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCalendarWeek;
 impl IconShape for FaCalendarWeek {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3874,11 +4519,14 @@ impl IconShape for FaCalendarWeek {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCalendarXmark;
 impl IconShape for FaCalendarXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3892,11 +4540,14 @@ impl IconShape for FaCalendarXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCalendar;
 impl IconShape for FaCalendar {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3910,11 +4561,14 @@ impl IconShape for FaCalendar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCameraRetro;
 impl IconShape for FaCameraRetro {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3928,11 +4582,14 @@ impl IconShape for FaCameraRetro {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCameraRotate;
 impl IconShape for FaCameraRotate {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3946,11 +4603,14 @@ impl IconShape for FaCameraRotate {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCamera;
 impl IconShape for FaCamera {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3964,11 +4624,14 @@ impl IconShape for FaCamera {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCampground;
 impl IconShape for FaCampground {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3982,11 +4645,14 @@ impl IconShape for FaCampground {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCandyCane;
 impl IconShape for FaCandyCane {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4000,11 +4666,14 @@ impl IconShape for FaCandyCane {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCannabis;
 impl IconShape for FaCannabis {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4018,11 +4687,14 @@ impl IconShape for FaCannabis {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCapsules;
 impl IconShape for FaCapsules {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4036,11 +4708,14 @@ impl IconShape for FaCapsules {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCarBattery;
 impl IconShape for FaCarBattery {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4054,11 +4729,14 @@ impl IconShape for FaCarBattery {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCarBurst;
 impl IconShape for FaCarBurst {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4072,11 +4750,14 @@ impl IconShape for FaCarBurst {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCarCrash;
 impl IconShape for FaCarCrash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4090,11 +4771,14 @@ impl IconShape for FaCarCrash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCarOn;
 impl IconShape for FaCarOn {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4108,11 +4792,14 @@ impl IconShape for FaCarOn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCarRear;
 impl IconShape for FaCarRear {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4126,11 +4813,14 @@ impl IconShape for FaCarRear {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCarSide;
 impl IconShape for FaCarSide {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4144,11 +4834,14 @@ impl IconShape for FaCarSide {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCarTunnel;
 impl IconShape for FaCarTunnel {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4162,11 +4855,14 @@ impl IconShape for FaCarTunnel {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCar;
 impl IconShape for FaCar {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4180,11 +4876,14 @@ impl IconShape for FaCar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCaravan;
 impl IconShape for FaCaravan {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4198,11 +4897,14 @@ impl IconShape for FaCaravan {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCaretDown;
 impl IconShape for FaCaretDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4216,11 +4918,14 @@ impl IconShape for FaCaretDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCaretLeft;
 impl IconShape for FaCaretLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 256 512")
+    fn view_box(&self) -> &str {
+        "0 0 256 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4234,11 +4939,14 @@ impl IconShape for FaCaretLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCaretRight;
 impl IconShape for FaCaretRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 256 512")
+    fn view_box(&self) -> &str {
+        "0 0 256 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4252,11 +4960,14 @@ impl IconShape for FaCaretRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCaretUp;
 impl IconShape for FaCaretUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4270,11 +4981,14 @@ impl IconShape for FaCaretUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCarrot;
 impl IconShape for FaCarrot {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4288,11 +5002,14 @@ impl IconShape for FaCarrot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCartArrowDown;
 impl IconShape for FaCartArrowDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4306,11 +5023,14 @@ impl IconShape for FaCartArrowDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCartFlatbedSuitcase;
 impl IconShape for FaCartFlatbedSuitcase {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4324,11 +5044,14 @@ impl IconShape for FaCartFlatbedSuitcase {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCartFlatbed;
 impl IconShape for FaCartFlatbed {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4342,11 +5065,14 @@ impl IconShape for FaCartFlatbed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCartPlus;
 impl IconShape for FaCartPlus {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4360,11 +5086,14 @@ impl IconShape for FaCartPlus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCartShopping;
 impl IconShape for FaCartShopping {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4378,11 +5107,14 @@ impl IconShape for FaCartShopping {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCashRegister;
 impl IconShape for FaCashRegister {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4396,11 +5128,14 @@ impl IconShape for FaCashRegister {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCat;
 impl IconShape for FaCat {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4414,11 +5149,14 @@ impl IconShape for FaCat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCediSign;
 impl IconShape for FaCediSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4432,11 +5170,14 @@ impl IconShape for FaCediSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCentSign;
 impl IconShape for FaCentSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4450,11 +5191,14 @@ impl IconShape for FaCentSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCertificate;
 impl IconShape for FaCertificate {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4468,11 +5212,14 @@ impl IconShape for FaCertificate {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChair;
 impl IconShape for FaChair {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4486,11 +5233,14 @@ impl IconShape for FaChair {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChalkboardUser;
 impl IconShape for FaChalkboardUser {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4504,11 +5254,14 @@ impl IconShape for FaChalkboardUser {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChalkboard;
 impl IconShape for FaChalkboard {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4522,11 +5275,14 @@ impl IconShape for FaChalkboard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChampagneGlasses;
 impl IconShape for FaChampagneGlasses {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4540,11 +5296,14 @@ impl IconShape for FaChampagneGlasses {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChargingStation;
 impl IconShape for FaChargingStation {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4558,11 +5317,14 @@ impl IconShape for FaChargingStation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChartArea;
 impl IconShape for FaChartArea {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4576,11 +5338,14 @@ impl IconShape for FaChartArea {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChartBar;
 impl IconShape for FaChartBar {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4594,11 +5359,14 @@ impl IconShape for FaChartBar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChartColumn;
 impl IconShape for FaChartColumn {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4612,11 +5380,14 @@ impl IconShape for FaChartColumn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChartGantt;
 impl IconShape for FaChartGantt {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4630,11 +5401,14 @@ impl IconShape for FaChartGantt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChartLine;
 impl IconShape for FaChartLine {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4648,11 +5422,14 @@ impl IconShape for FaChartLine {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChartPie;
 impl IconShape for FaChartPie {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4666,11 +5443,14 @@ impl IconShape for FaChartPie {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChartSimple;
 impl IconShape for FaChartSimple {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4684,11 +5464,14 @@ impl IconShape for FaChartSimple {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCheckDouble;
 impl IconShape for FaCheckDouble {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4702,11 +5485,14 @@ impl IconShape for FaCheckDouble {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCheckToSlot;
 impl IconShape for FaCheckToSlot {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4720,11 +5506,14 @@ impl IconShape for FaCheckToSlot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCheck;
 impl IconShape for FaCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4738,11 +5527,14 @@ impl IconShape for FaCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCheese;
 impl IconShape for FaCheese {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4756,11 +5548,14 @@ impl IconShape for FaCheese {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChessBishop;
 impl IconShape for FaChessBishop {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4774,11 +5569,14 @@ impl IconShape for FaChessBishop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChessBoard;
 impl IconShape for FaChessBoard {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4792,11 +5590,14 @@ impl IconShape for FaChessBoard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChessKing;
 impl IconShape for FaChessKing {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4810,11 +5611,14 @@ impl IconShape for FaChessKing {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChessKnight;
 impl IconShape for FaChessKnight {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4828,11 +5632,14 @@ impl IconShape for FaChessKnight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChessPawn;
 impl IconShape for FaChessPawn {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4846,11 +5653,14 @@ impl IconShape for FaChessPawn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChessQueen;
 impl IconShape for FaChessQueen {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4864,11 +5674,14 @@ impl IconShape for FaChessQueen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChessRook;
 impl IconShape for FaChessRook {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4882,11 +5695,14 @@ impl IconShape for FaChessRook {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChess;
 impl IconShape for FaChess {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4900,11 +5716,14 @@ impl IconShape for FaChess {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChevronDown;
 impl IconShape for FaChevronDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4918,11 +5737,14 @@ impl IconShape for FaChevronDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChevronLeft;
 impl IconShape for FaChevronLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4936,11 +5758,14 @@ impl IconShape for FaChevronLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChevronRight;
 impl IconShape for FaChevronRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4954,11 +5779,14 @@ impl IconShape for FaChevronRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChevronUp;
 impl IconShape for FaChevronUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4972,11 +5800,14 @@ impl IconShape for FaChevronUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChildDress;
 impl IconShape for FaChildDress {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4990,11 +5821,14 @@ impl IconShape for FaChildDress {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChildReaching;
 impl IconShape for FaChildReaching {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5008,11 +5842,14 @@ impl IconShape for FaChildReaching {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChildRifle;
 impl IconShape for FaChildRifle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5026,11 +5863,14 @@ impl IconShape for FaChildRifle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChild;
 impl IconShape for FaChild {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5044,11 +5884,14 @@ impl IconShape for FaChild {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChildren;
 impl IconShape for FaChildren {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5062,11 +5905,14 @@ impl IconShape for FaChildren {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaChurch;
 impl IconShape for FaChurch {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5080,11 +5926,14 @@ impl IconShape for FaChurch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleArrowDown;
 impl IconShape for FaCircleArrowDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5098,11 +5947,14 @@ impl IconShape for FaCircleArrowDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleArrowLeft;
 impl IconShape for FaCircleArrowLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5116,11 +5968,14 @@ impl IconShape for FaCircleArrowLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleArrowRight;
 impl IconShape for FaCircleArrowRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5134,11 +5989,14 @@ impl IconShape for FaCircleArrowRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleArrowUp;
 impl IconShape for FaCircleArrowUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5152,11 +6010,14 @@ impl IconShape for FaCircleArrowUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleCheck;
 impl IconShape for FaCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5170,11 +6031,14 @@ impl IconShape for FaCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleChevronDown;
 impl IconShape for FaCircleChevronDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5188,11 +6052,14 @@ impl IconShape for FaCircleChevronDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleChevronLeft;
 impl IconShape for FaCircleChevronLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5206,11 +6073,14 @@ impl IconShape for FaCircleChevronLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleChevronRight;
 impl IconShape for FaCircleChevronRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5224,11 +6094,14 @@ impl IconShape for FaCircleChevronRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleChevronUp;
 impl IconShape for FaCircleChevronUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5242,11 +6115,14 @@ impl IconShape for FaCircleChevronUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleDollarToSlot;
 impl IconShape for FaCircleDollarToSlot {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5260,11 +6136,14 @@ impl IconShape for FaCircleDollarToSlot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleDot;
 impl IconShape for FaCircleDot {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5278,11 +6157,14 @@ impl IconShape for FaCircleDot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleDown;
 impl IconShape for FaCircleDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5296,11 +6178,14 @@ impl IconShape for FaCircleDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleExclamation;
 impl IconShape for FaCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5314,11 +6199,14 @@ impl IconShape for FaCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleH;
 impl IconShape for FaCircleH {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5332,11 +6220,14 @@ impl IconShape for FaCircleH {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleHalfStroke;
 impl IconShape for FaCircleHalfStroke {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5350,11 +6241,14 @@ impl IconShape for FaCircleHalfStroke {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleInfo;
 impl IconShape for FaCircleInfo {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5368,11 +6262,14 @@ impl IconShape for FaCircleInfo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleLeft;
 impl IconShape for FaCircleLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5386,11 +6283,14 @@ impl IconShape for FaCircleLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleMinus;
 impl IconShape for FaCircleMinus {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5404,11 +6304,14 @@ impl IconShape for FaCircleMinus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleNodes;
 impl IconShape for FaCircleNodes {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5422,11 +6325,14 @@ impl IconShape for FaCircleNodes {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleNotch;
 impl IconShape for FaCircleNotch {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5440,11 +6346,14 @@ impl IconShape for FaCircleNotch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCirclePause;
 impl IconShape for FaCirclePause {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5458,11 +6367,14 @@ impl IconShape for FaCirclePause {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCirclePlay;
 impl IconShape for FaCirclePlay {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5476,11 +6388,14 @@ impl IconShape for FaCirclePlay {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCirclePlus;
 impl IconShape for FaCirclePlus {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5494,11 +6409,14 @@ impl IconShape for FaCirclePlus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleQuestion;
 impl IconShape for FaCircleQuestion {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5512,11 +6430,14 @@ impl IconShape for FaCircleQuestion {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleRadiation;
 impl IconShape for FaCircleRadiation {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5530,11 +6451,14 @@ impl IconShape for FaCircleRadiation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleRight;
 impl IconShape for FaCircleRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5548,11 +6472,14 @@ impl IconShape for FaCircleRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleStop;
 impl IconShape for FaCircleStop {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5566,11 +6493,14 @@ impl IconShape for FaCircleStop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleUp;
 impl IconShape for FaCircleUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5584,11 +6514,14 @@ impl IconShape for FaCircleUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleUser;
 impl IconShape for FaCircleUser {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5602,11 +6535,14 @@ impl IconShape for FaCircleUser {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircleXmark;
 impl IconShape for FaCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5620,11 +6556,14 @@ impl IconShape for FaCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCircle;
 impl IconShape for FaCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5638,11 +6577,14 @@ impl IconShape for FaCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCity;
 impl IconShape for FaCity {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5656,11 +6598,14 @@ impl IconShape for FaCity {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaClapperboard;
 impl IconShape for FaClapperboard {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5674,11 +6619,14 @@ impl IconShape for FaClapperboard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaClipboardCheck;
 impl IconShape for FaClipboardCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5692,11 +6640,14 @@ impl IconShape for FaClipboardCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaClipboardList;
 impl IconShape for FaClipboardList {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5710,11 +6661,14 @@ impl IconShape for FaClipboardList {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaClipboardQuestion;
 impl IconShape for FaClipboardQuestion {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5728,11 +6682,14 @@ impl IconShape for FaClipboardQuestion {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaClipboardUser;
 impl IconShape for FaClipboardUser {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5746,11 +6703,14 @@ impl IconShape for FaClipboardUser {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaClipboard;
 impl IconShape for FaClipboard {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5764,11 +6724,14 @@ impl IconShape for FaClipboard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaClockRotateLeft;
 impl IconShape for FaClockRotateLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5782,11 +6745,14 @@ impl IconShape for FaClockRotateLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaClock;
 impl IconShape for FaClock {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5800,11 +6766,14 @@ impl IconShape for FaClock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaClone;
 impl IconShape for FaClone {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5818,11 +6787,14 @@ impl IconShape for FaClone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaClosedCaptioning;
 impl IconShape for FaClosedCaptioning {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5836,11 +6808,14 @@ impl IconShape for FaClosedCaptioning {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCloudArrowDown;
 impl IconShape for FaCloudArrowDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5854,11 +6829,14 @@ impl IconShape for FaCloudArrowDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCloudArrowUp;
 impl IconShape for FaCloudArrowUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5872,11 +6850,14 @@ impl IconShape for FaCloudArrowUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCloudBolt;
 impl IconShape for FaCloudBolt {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5890,11 +6871,14 @@ impl IconShape for FaCloudBolt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCloudMeatball;
 impl IconShape for FaCloudMeatball {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5908,11 +6892,14 @@ impl IconShape for FaCloudMeatball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCloudMoonRain;
 impl IconShape for FaCloudMoonRain {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5926,11 +6913,14 @@ impl IconShape for FaCloudMoonRain {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCloudMoon;
 impl IconShape for FaCloudMoon {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5944,11 +6934,14 @@ impl IconShape for FaCloudMoon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCloudRain;
 impl IconShape for FaCloudRain {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5962,11 +6955,14 @@ impl IconShape for FaCloudRain {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCloudShowersHeavy;
 impl IconShape for FaCloudShowersHeavy {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5980,11 +6976,14 @@ impl IconShape for FaCloudShowersHeavy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCloudShowersWater;
 impl IconShape for FaCloudShowersWater {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5998,11 +6997,14 @@ impl IconShape for FaCloudShowersWater {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCloudSunRain;
 impl IconShape for FaCloudSunRain {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6016,11 +7018,14 @@ impl IconShape for FaCloudSunRain {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCloudSun;
 impl IconShape for FaCloudSun {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6034,11 +7039,14 @@ impl IconShape for FaCloudSun {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCloud;
 impl IconShape for FaCloud {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6052,11 +7060,14 @@ impl IconShape for FaCloud {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaClover;
 impl IconShape for FaClover {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6070,11 +7081,14 @@ impl IconShape for FaClover {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCodeBranch;
 impl IconShape for FaCodeBranch {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6088,11 +7102,14 @@ impl IconShape for FaCodeBranch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCodeCommit;
 impl IconShape for FaCodeCommit {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6106,11 +7123,14 @@ impl IconShape for FaCodeCommit {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCodeCompare;
 impl IconShape for FaCodeCompare {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6124,11 +7144,14 @@ impl IconShape for FaCodeCompare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCodeFork;
 impl IconShape for FaCodeFork {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6142,11 +7165,14 @@ impl IconShape for FaCodeFork {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCodeMerge;
 impl IconShape for FaCodeMerge {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6160,11 +7186,14 @@ impl IconShape for FaCodeMerge {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCodePullRequest;
 impl IconShape for FaCodePullRequest {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6178,11 +7207,14 @@ impl IconShape for FaCodePullRequest {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCode;
 impl IconShape for FaCode {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6196,11 +7228,14 @@ impl IconShape for FaCode {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCoins;
 impl IconShape for FaCoins {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6214,11 +7249,14 @@ impl IconShape for FaCoins {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaColonSign;
 impl IconShape for FaColonSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6232,11 +7270,14 @@ impl IconShape for FaColonSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCommentDollar;
 impl IconShape for FaCommentDollar {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6250,11 +7291,14 @@ impl IconShape for FaCommentDollar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCommentDots;
 impl IconShape for FaCommentDots {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6268,11 +7312,14 @@ impl IconShape for FaCommentDots {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCommentMedical;
 impl IconShape for FaCommentMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6286,11 +7333,14 @@ impl IconShape for FaCommentMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCommentSlash;
 impl IconShape for FaCommentSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6304,11 +7354,14 @@ impl IconShape for FaCommentSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCommentSms;
 impl IconShape for FaCommentSms {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6322,11 +7375,14 @@ impl IconShape for FaCommentSms {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaComment;
 impl IconShape for FaComment {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6340,11 +7396,14 @@ impl IconShape for FaComment {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCommentsDollar;
 impl IconShape for FaCommentsDollar {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6358,11 +7417,14 @@ impl IconShape for FaCommentsDollar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaComments;
 impl IconShape for FaComments {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6376,11 +7438,14 @@ impl IconShape for FaComments {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCompactDisc;
 impl IconShape for FaCompactDisc {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6394,11 +7459,14 @@ impl IconShape for FaCompactDisc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCompassDrafting;
 impl IconShape for FaCompassDrafting {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6412,11 +7480,14 @@ impl IconShape for FaCompassDrafting {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCompass;
 impl IconShape for FaCompass {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6430,11 +7501,14 @@ impl IconShape for FaCompass {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCompress;
 impl IconShape for FaCompress {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6448,11 +7522,14 @@ impl IconShape for FaCompress {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaComputerMouse;
 impl IconShape for FaComputerMouse {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6466,11 +7543,14 @@ impl IconShape for FaComputerMouse {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaComputer;
 impl IconShape for FaComputer {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6484,11 +7564,14 @@ impl IconShape for FaComputer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCookieBite;
 impl IconShape for FaCookieBite {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6502,11 +7585,14 @@ impl IconShape for FaCookieBite {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCookie;
 impl IconShape for FaCookie {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6520,11 +7606,14 @@ impl IconShape for FaCookie {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCopy;
 impl IconShape for FaCopy {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6538,11 +7627,14 @@ impl IconShape for FaCopy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCopyright;
 impl IconShape for FaCopyright {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6556,11 +7648,14 @@ impl IconShape for FaCopyright {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCouch;
 impl IconShape for FaCouch {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6574,11 +7669,14 @@ impl IconShape for FaCouch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCow;
 impl IconShape for FaCow {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6592,11 +7690,14 @@ impl IconShape for FaCow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCreditCard;
 impl IconShape for FaCreditCard {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6610,11 +7711,14 @@ impl IconShape for FaCreditCard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCropSimple;
 impl IconShape for FaCropSimple {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6628,11 +7732,14 @@ impl IconShape for FaCropSimple {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCrop;
 impl IconShape for FaCrop {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6646,11 +7753,14 @@ impl IconShape for FaCrop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCross;
 impl IconShape for FaCross {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6664,11 +7774,14 @@ impl IconShape for FaCross {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCrosshairs;
 impl IconShape for FaCrosshairs {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6682,11 +7795,14 @@ impl IconShape for FaCrosshairs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCrow;
 impl IconShape for FaCrow {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6700,11 +7816,14 @@ impl IconShape for FaCrow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCrown;
 impl IconShape for FaCrown {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6718,11 +7837,14 @@ impl IconShape for FaCrown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCrutch;
 impl IconShape for FaCrutch {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6736,11 +7858,14 @@ impl IconShape for FaCrutch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCruzeiroSign;
 impl IconShape for FaCruzeiroSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6754,11 +7879,14 @@ impl IconShape for FaCruzeiroSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCube;
 impl IconShape for FaCube {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6772,11 +7900,14 @@ impl IconShape for FaCube {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCubesStacked;
 impl IconShape for FaCubesStacked {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6790,11 +7921,14 @@ impl IconShape for FaCubesStacked {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaCubes;
 impl IconShape for FaCubes {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6808,11 +7942,14 @@ impl IconShape for FaCubes {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaD;
 impl IconShape for FaD {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6826,11 +7963,14 @@ impl IconShape for FaD {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDatabase;
 impl IconShape for FaDatabase {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6844,11 +7984,14 @@ impl IconShape for FaDatabase {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDeleteLeft;
 impl IconShape for FaDeleteLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6862,11 +8005,14 @@ impl IconShape for FaDeleteLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDemocrat;
 impl IconShape for FaDemocrat {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6880,11 +8026,14 @@ impl IconShape for FaDemocrat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDesktop;
 impl IconShape for FaDesktop {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6898,11 +8047,14 @@ impl IconShape for FaDesktop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDharmachakra;
 impl IconShape for FaDharmachakra {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6916,11 +8068,14 @@ impl IconShape for FaDharmachakra {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiagramNext;
 impl IconShape for FaDiagramNext {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6934,11 +8089,14 @@ impl IconShape for FaDiagramNext {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiagramPredecessor;
 impl IconShape for FaDiagramPredecessor {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6952,11 +8110,14 @@ impl IconShape for FaDiagramPredecessor {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiagramProject;
 impl IconShape for FaDiagramProject {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6970,11 +8131,14 @@ impl IconShape for FaDiagramProject {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiagramSuccessor;
 impl IconShape for FaDiagramSuccessor {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6988,11 +8152,14 @@ impl IconShape for FaDiagramSuccessor {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiamondTurnRight;
 impl IconShape for FaDiamondTurnRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7006,11 +8173,14 @@ impl IconShape for FaDiamondTurnRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiamond;
 impl IconShape for FaDiamond {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7024,11 +8194,14 @@ impl IconShape for FaDiamond {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiceD20;
 impl IconShape for FaDiceD20 {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7042,11 +8215,14 @@ impl IconShape for FaDiceD20 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiceD6;
 impl IconShape for FaDiceD6 {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7060,11 +8236,14 @@ impl IconShape for FaDiceD6 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiceFive;
 impl IconShape for FaDiceFive {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7078,11 +8257,14 @@ impl IconShape for FaDiceFive {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiceFour;
 impl IconShape for FaDiceFour {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7096,11 +8278,14 @@ impl IconShape for FaDiceFour {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiceOne;
 impl IconShape for FaDiceOne {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7114,11 +8299,14 @@ impl IconShape for FaDiceOne {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiceSix;
 impl IconShape for FaDiceSix {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7132,11 +8320,14 @@ impl IconShape for FaDiceSix {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiceThree;
 impl IconShape for FaDiceThree {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7150,11 +8341,14 @@ impl IconShape for FaDiceThree {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDiceTwo;
 impl IconShape for FaDiceTwo {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7168,11 +8362,14 @@ impl IconShape for FaDiceTwo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDice;
 impl IconShape for FaDice {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7186,11 +8383,14 @@ impl IconShape for FaDice {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDisease;
 impl IconShape for FaDisease {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7204,11 +8404,14 @@ impl IconShape for FaDisease {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDisplay;
 impl IconShape for FaDisplay {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7222,11 +8425,14 @@ impl IconShape for FaDisplay {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDivide;
 impl IconShape for FaDivide {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7240,11 +8446,14 @@ impl IconShape for FaDivide {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDna;
 impl IconShape for FaDna {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7258,11 +8467,14 @@ impl IconShape for FaDna {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDog;
 impl IconShape for FaDog {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7276,11 +8488,14 @@ impl IconShape for FaDog {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDollarSign;
 impl IconShape for FaDollarSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7294,11 +8509,14 @@ impl IconShape for FaDollarSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDolly;
 impl IconShape for FaDolly {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7312,11 +8530,14 @@ impl IconShape for FaDolly {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDongSign;
 impl IconShape for FaDongSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7330,11 +8551,14 @@ impl IconShape for FaDongSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDoorClosed;
 impl IconShape for FaDoorClosed {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7348,11 +8572,14 @@ impl IconShape for FaDoorClosed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDoorOpen;
 impl IconShape for FaDoorOpen {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7366,11 +8593,14 @@ impl IconShape for FaDoorOpen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDove;
 impl IconShape for FaDove {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7384,11 +8614,14 @@ impl IconShape for FaDove {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDownLeftAndUpRightToCenter;
 impl IconShape for FaDownLeftAndUpRightToCenter {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7402,11 +8635,14 @@ impl IconShape for FaDownLeftAndUpRightToCenter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDownLong;
 impl IconShape for FaDownLong {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7420,11 +8656,14 @@ impl IconShape for FaDownLong {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDownload;
 impl IconShape for FaDownload {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7438,11 +8677,14 @@ impl IconShape for FaDownload {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDragon;
 impl IconShape for FaDragon {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7456,11 +8698,14 @@ impl IconShape for FaDragon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDrawPolygon;
 impl IconShape for FaDrawPolygon {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7474,11 +8719,14 @@ impl IconShape for FaDrawPolygon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDropletSlash;
 impl IconShape for FaDropletSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7492,11 +8740,14 @@ impl IconShape for FaDropletSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDroplet;
 impl IconShape for FaDroplet {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7510,11 +8761,14 @@ impl IconShape for FaDroplet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDrumSteelpan;
 impl IconShape for FaDrumSteelpan {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7528,11 +8782,14 @@ impl IconShape for FaDrumSteelpan {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDrum;
 impl IconShape for FaDrum {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7546,11 +8803,14 @@ impl IconShape for FaDrum {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDrumstickBite;
 impl IconShape for FaDrumstickBite {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7564,11 +8824,14 @@ impl IconShape for FaDrumstickBite {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDumbbell;
 impl IconShape for FaDumbbell {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7582,11 +8845,14 @@ impl IconShape for FaDumbbell {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDumpsterFire;
 impl IconShape for FaDumpsterFire {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7600,11 +8866,14 @@ impl IconShape for FaDumpsterFire {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDumpster;
 impl IconShape for FaDumpster {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7618,11 +8887,14 @@ impl IconShape for FaDumpster {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaDungeon;
 impl IconShape for FaDungeon {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7636,11 +8908,14 @@ impl IconShape for FaDungeon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaE;
 impl IconShape for FaE {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7654,11 +8929,14 @@ impl IconShape for FaE {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEarDeaf;
 impl IconShape for FaEarDeaf {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7672,11 +8950,14 @@ impl IconShape for FaEarDeaf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEarListen;
 impl IconShape for FaEarListen {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7690,11 +8971,14 @@ impl IconShape for FaEarListen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEarthAfrica;
 impl IconShape for FaEarthAfrica {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7708,11 +8992,14 @@ impl IconShape for FaEarthAfrica {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEarthAmericas;
 impl IconShape for FaEarthAmericas {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7726,11 +9013,14 @@ impl IconShape for FaEarthAmericas {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEarthAsia;
 impl IconShape for FaEarthAsia {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7744,11 +9034,14 @@ impl IconShape for FaEarthAsia {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEarthEurope;
 impl IconShape for FaEarthEurope {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7762,11 +9055,14 @@ impl IconShape for FaEarthEurope {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEarthOceania;
 impl IconShape for FaEarthOceania {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7780,11 +9076,14 @@ impl IconShape for FaEarthOceania {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEgg;
 impl IconShape for FaEgg {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7798,11 +9097,14 @@ impl IconShape for FaEgg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEject;
 impl IconShape for FaEject {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7816,11 +9118,14 @@ impl IconShape for FaEject {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaElevator;
 impl IconShape for FaElevator {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7834,11 +9139,14 @@ impl IconShape for FaElevator {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEllipsisVertical;
 impl IconShape for FaEllipsisVertical {
-    fn view_box(&self) -> String {
-        String::from("0 0 128 512")
+    fn view_box(&self) -> &str {
+        "0 0 128 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7852,11 +9160,14 @@ impl IconShape for FaEllipsisVertical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEllipsis;
 impl IconShape for FaEllipsis {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7870,11 +9181,14 @@ impl IconShape for FaEllipsis {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEnvelopeCircleCheck;
 impl IconShape for FaEnvelopeCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7888,11 +9202,14 @@ impl IconShape for FaEnvelopeCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEnvelopeOpenText;
 impl IconShape for FaEnvelopeOpenText {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7906,11 +9223,14 @@ impl IconShape for FaEnvelopeOpenText {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEnvelopeOpen;
 impl IconShape for FaEnvelopeOpen {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7924,11 +9244,14 @@ impl IconShape for FaEnvelopeOpen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEnvelope;
 impl IconShape for FaEnvelope {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7942,11 +9265,14 @@ impl IconShape for FaEnvelope {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEnvelopesBulk;
 impl IconShape for FaEnvelopesBulk {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7960,11 +9286,14 @@ impl IconShape for FaEnvelopesBulk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEquals;
 impl IconShape for FaEquals {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7978,11 +9307,14 @@ impl IconShape for FaEquals {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEraser;
 impl IconShape for FaEraser {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7996,11 +9328,14 @@ impl IconShape for FaEraser {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEthernet;
 impl IconShape for FaEthernet {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8014,11 +9349,14 @@ impl IconShape for FaEthernet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEuroSign;
 impl IconShape for FaEuroSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8032,11 +9370,14 @@ impl IconShape for FaEuroSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaExclamation;
 impl IconShape for FaExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 128 512")
+    fn view_box(&self) -> &str {
+        "0 0 128 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8050,11 +9391,14 @@ impl IconShape for FaExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaExpand;
 impl IconShape for FaExpand {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8068,11 +9412,14 @@ impl IconShape for FaExpand {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaExplosion;
 impl IconShape for FaExplosion {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8086,11 +9433,14 @@ impl IconShape for FaExplosion {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEyeDropper;
 impl IconShape for FaEyeDropper {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8104,11 +9454,14 @@ impl IconShape for FaEyeDropper {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEyeLowVision;
 impl IconShape for FaEyeLowVision {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8122,11 +9475,14 @@ impl IconShape for FaEyeLowVision {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEyeSlash;
 impl IconShape for FaEyeSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8140,11 +9496,14 @@ impl IconShape for FaEyeSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaEye;
 impl IconShape for FaEye {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8158,11 +9517,14 @@ impl IconShape for FaEye {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaF;
 impl IconShape for FaF {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8176,11 +9538,14 @@ impl IconShape for FaF {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceAngry;
 impl IconShape for FaFaceAngry {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8194,11 +9559,14 @@ impl IconShape for FaFaceAngry {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceDizzy;
 impl IconShape for FaFaceDizzy {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8212,11 +9580,14 @@ impl IconShape for FaFaceDizzy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceFlushed;
 impl IconShape for FaFaceFlushed {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8230,11 +9601,14 @@ impl IconShape for FaFaceFlushed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceFrownOpen;
 impl IconShape for FaFaceFrownOpen {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8248,11 +9622,14 @@ impl IconShape for FaFaceFrownOpen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceFrown;
 impl IconShape for FaFaceFrown {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8266,11 +9643,14 @@ impl IconShape for FaFaceFrown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrimace;
 impl IconShape for FaFaceGrimace {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8284,11 +9664,14 @@ impl IconShape for FaFaceGrimace {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrinBeamSweat;
 impl IconShape for FaFaceGrinBeamSweat {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8302,11 +9685,14 @@ impl IconShape for FaFaceGrinBeamSweat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrinBeam;
 impl IconShape for FaFaceGrinBeam {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8320,11 +9706,14 @@ impl IconShape for FaFaceGrinBeam {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrinHearts;
 impl IconShape for FaFaceGrinHearts {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8338,11 +9727,14 @@ impl IconShape for FaFaceGrinHearts {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrinSquintTears;
 impl IconShape for FaFaceGrinSquintTears {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8356,11 +9748,14 @@ impl IconShape for FaFaceGrinSquintTears {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrinSquint;
 impl IconShape for FaFaceGrinSquint {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8374,11 +9769,14 @@ impl IconShape for FaFaceGrinSquint {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrinStars;
 impl IconShape for FaFaceGrinStars {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8392,11 +9790,14 @@ impl IconShape for FaFaceGrinStars {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrinTears;
 impl IconShape for FaFaceGrinTears {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8410,11 +9811,14 @@ impl IconShape for FaFaceGrinTears {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrinTongueSquint;
 impl IconShape for FaFaceGrinTongueSquint {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8428,11 +9832,14 @@ impl IconShape for FaFaceGrinTongueSquint {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrinTongueWink;
 impl IconShape for FaFaceGrinTongueWink {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8446,11 +9853,14 @@ impl IconShape for FaFaceGrinTongueWink {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrinTongue;
 impl IconShape for FaFaceGrinTongue {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8464,11 +9874,14 @@ impl IconShape for FaFaceGrinTongue {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrinWide;
 impl IconShape for FaFaceGrinWide {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8482,11 +9895,14 @@ impl IconShape for FaFaceGrinWide {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrinWink;
 impl IconShape for FaFaceGrinWink {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8500,11 +9916,14 @@ impl IconShape for FaFaceGrinWink {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceGrin;
 impl IconShape for FaFaceGrin {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8518,11 +9937,14 @@ impl IconShape for FaFaceGrin {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceKissBeam;
 impl IconShape for FaFaceKissBeam {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8536,11 +9958,14 @@ impl IconShape for FaFaceKissBeam {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceKissWinkHeart;
 impl IconShape for FaFaceKissWinkHeart {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8554,11 +9979,14 @@ impl IconShape for FaFaceKissWinkHeart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceKiss;
 impl IconShape for FaFaceKiss {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8572,11 +10000,14 @@ impl IconShape for FaFaceKiss {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceLaughBeam;
 impl IconShape for FaFaceLaughBeam {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8590,11 +10021,14 @@ impl IconShape for FaFaceLaughBeam {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceLaughSquint;
 impl IconShape for FaFaceLaughSquint {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8608,11 +10042,14 @@ impl IconShape for FaFaceLaughSquint {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceLaughWink;
 impl IconShape for FaFaceLaughWink {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8626,11 +10063,14 @@ impl IconShape for FaFaceLaughWink {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceLaugh;
 impl IconShape for FaFaceLaugh {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8644,11 +10084,14 @@ impl IconShape for FaFaceLaugh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceMehBlank;
 impl IconShape for FaFaceMehBlank {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8662,11 +10105,14 @@ impl IconShape for FaFaceMehBlank {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceMeh;
 impl IconShape for FaFaceMeh {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8680,11 +10126,14 @@ impl IconShape for FaFaceMeh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceRollingEyes;
 impl IconShape for FaFaceRollingEyes {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8698,11 +10147,14 @@ impl IconShape for FaFaceRollingEyes {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceSadCry;
 impl IconShape for FaFaceSadCry {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8716,11 +10168,14 @@ impl IconShape for FaFaceSadCry {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceSadTear;
 impl IconShape for FaFaceSadTear {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8734,11 +10189,14 @@ impl IconShape for FaFaceSadTear {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceSmileBeam;
 impl IconShape for FaFaceSmileBeam {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8752,11 +10210,14 @@ impl IconShape for FaFaceSmileBeam {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceSmileWink;
 impl IconShape for FaFaceSmileWink {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8770,11 +10231,14 @@ impl IconShape for FaFaceSmileWink {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceSmile;
 impl IconShape for FaFaceSmile {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8788,11 +10252,14 @@ impl IconShape for FaFaceSmile {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceSurprise;
 impl IconShape for FaFaceSurprise {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8806,11 +10273,14 @@ impl IconShape for FaFaceSurprise {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaceTired;
 impl IconShape for FaFaceTired {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8824,11 +10294,14 @@ impl IconShape for FaFaceTired {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFan;
 impl IconShape for FaFan {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8842,11 +10315,14 @@ impl IconShape for FaFan {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaucetDrip;
 impl IconShape for FaFaucetDrip {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8860,11 +10336,14 @@ impl IconShape for FaFaucetDrip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFaucet;
 impl IconShape for FaFaucet {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8878,11 +10357,14 @@ impl IconShape for FaFaucet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFax;
 impl IconShape for FaFax {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8896,11 +10378,14 @@ impl IconShape for FaFax {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFeatherPointed;
 impl IconShape for FaFeatherPointed {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8914,11 +10399,14 @@ impl IconShape for FaFeatherPointed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFeather;
 impl IconShape for FaFeather {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8932,11 +10420,14 @@ impl IconShape for FaFeather {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFerry;
 impl IconShape for FaFerry {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8950,11 +10441,14 @@ impl IconShape for FaFerry {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileArrowDown;
 impl IconShape for FaFileArrowDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8968,11 +10462,14 @@ impl IconShape for FaFileArrowDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileArrowUp;
 impl IconShape for FaFileArrowUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8986,11 +10483,14 @@ impl IconShape for FaFileArrowUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileAudio;
 impl IconShape for FaFileAudio {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9004,11 +10504,14 @@ impl IconShape for FaFileAudio {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileCircleCheck;
 impl IconShape for FaFileCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9022,11 +10525,14 @@ impl IconShape for FaFileCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileCircleExclamation;
 impl IconShape for FaFileCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9040,11 +10546,14 @@ impl IconShape for FaFileCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileCircleMinus;
 impl IconShape for FaFileCircleMinus {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9058,11 +10567,14 @@ impl IconShape for FaFileCircleMinus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileCirclePlus;
 impl IconShape for FaFileCirclePlus {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9076,11 +10588,14 @@ impl IconShape for FaFileCirclePlus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileCircleQuestion;
 impl IconShape for FaFileCircleQuestion {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9094,11 +10609,14 @@ impl IconShape for FaFileCircleQuestion {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileCircleXmark;
 impl IconShape for FaFileCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9112,11 +10630,14 @@ impl IconShape for FaFileCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileCode;
 impl IconShape for FaFileCode {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9130,11 +10651,14 @@ impl IconShape for FaFileCode {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileContract;
 impl IconShape for FaFileContract {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9148,11 +10672,14 @@ impl IconShape for FaFileContract {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileCsv;
 impl IconShape for FaFileCsv {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9166,11 +10693,14 @@ impl IconShape for FaFileCsv {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileExcel;
 impl IconShape for FaFileExcel {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9184,11 +10714,14 @@ impl IconShape for FaFileExcel {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileExport;
 impl IconShape for FaFileExport {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9202,11 +10735,14 @@ impl IconShape for FaFileExport {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileImage;
 impl IconShape for FaFileImage {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9220,11 +10756,14 @@ impl IconShape for FaFileImage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileImport;
 impl IconShape for FaFileImport {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9238,11 +10777,14 @@ impl IconShape for FaFileImport {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileInvoiceDollar;
 impl IconShape for FaFileInvoiceDollar {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9256,11 +10798,14 @@ impl IconShape for FaFileInvoiceDollar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileInvoice;
 impl IconShape for FaFileInvoice {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9274,11 +10819,14 @@ impl IconShape for FaFileInvoice {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileLines;
 impl IconShape for FaFileLines {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9292,11 +10840,14 @@ impl IconShape for FaFileLines {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileMedical;
 impl IconShape for FaFileMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9310,11 +10861,14 @@ impl IconShape for FaFileMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFilePdf;
 impl IconShape for FaFilePdf {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9328,11 +10882,14 @@ impl IconShape for FaFilePdf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFilePen;
 impl IconShape for FaFilePen {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9346,11 +10903,14 @@ impl IconShape for FaFilePen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFilePowerpoint;
 impl IconShape for FaFilePowerpoint {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9364,11 +10924,14 @@ impl IconShape for FaFilePowerpoint {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFilePrescription;
 impl IconShape for FaFilePrescription {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9382,11 +10945,14 @@ impl IconShape for FaFilePrescription {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileShield;
 impl IconShape for FaFileShield {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9400,11 +10966,14 @@ impl IconShape for FaFileShield {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileSignature;
 impl IconShape for FaFileSignature {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9418,11 +10987,14 @@ impl IconShape for FaFileSignature {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileVideo;
 impl IconShape for FaFileVideo {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9436,11 +11008,14 @@ impl IconShape for FaFileVideo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileWaveform;
 impl IconShape for FaFileWaveform {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9454,11 +11029,14 @@ impl IconShape for FaFileWaveform {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileWord;
 impl IconShape for FaFileWord {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9472,11 +11050,14 @@ impl IconShape for FaFileWord {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFileZipper;
 impl IconShape for FaFileZipper {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9490,11 +11071,14 @@ impl IconShape for FaFileZipper {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFile;
 impl IconShape for FaFile {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9508,11 +11092,14 @@ impl IconShape for FaFile {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFillDrip;
 impl IconShape for FaFillDrip {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9526,11 +11113,14 @@ impl IconShape for FaFillDrip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFill;
 impl IconShape for FaFill {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9544,11 +11134,14 @@ impl IconShape for FaFill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFilm;
 impl IconShape for FaFilm {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9562,11 +11155,14 @@ impl IconShape for FaFilm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFilterCircleDollar;
 impl IconShape for FaFilterCircleDollar {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9580,11 +11176,14 @@ impl IconShape for FaFilterCircleDollar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFilterCircleXmark;
 impl IconShape for FaFilterCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9598,11 +11197,14 @@ impl IconShape for FaFilterCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFilter;
 impl IconShape for FaFilter {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9616,11 +11218,14 @@ impl IconShape for FaFilter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFingerprint;
 impl IconShape for FaFingerprint {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9634,11 +11239,14 @@ impl IconShape for FaFingerprint {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFireBurner;
 impl IconShape for FaFireBurner {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9652,11 +11260,14 @@ impl IconShape for FaFireBurner {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFireExtinguisher;
 impl IconShape for FaFireExtinguisher {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9670,11 +11281,14 @@ impl IconShape for FaFireExtinguisher {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFireFlameCurved;
 impl IconShape for FaFireFlameCurved {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9688,11 +11302,14 @@ impl IconShape for FaFireFlameCurved {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFireFlameSimple;
 impl IconShape for FaFireFlameSimple {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9706,11 +11323,14 @@ impl IconShape for FaFireFlameSimple {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFire;
 impl IconShape for FaFire {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9724,11 +11344,14 @@ impl IconShape for FaFire {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFishFins;
 impl IconShape for FaFishFins {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9742,11 +11365,14 @@ impl IconShape for FaFishFins {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFish;
 impl IconShape for FaFish {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9760,11 +11386,14 @@ impl IconShape for FaFish {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFlagCheckered;
 impl IconShape for FaFlagCheckered {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9778,11 +11407,14 @@ impl IconShape for FaFlagCheckered {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFlagUsa;
 impl IconShape for FaFlagUsa {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9796,11 +11428,14 @@ impl IconShape for FaFlagUsa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFlag;
 impl IconShape for FaFlag {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9814,11 +11449,14 @@ impl IconShape for FaFlag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFlaskVial;
 impl IconShape for FaFlaskVial {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9832,11 +11470,14 @@ impl IconShape for FaFlaskVial {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFlask;
 impl IconShape for FaFlask {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9850,11 +11491,14 @@ impl IconShape for FaFlask {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFloppyDisk;
 impl IconShape for FaFloppyDisk {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9868,11 +11512,14 @@ impl IconShape for FaFloppyDisk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFlorinSign;
 impl IconShape for FaFlorinSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9886,11 +11533,14 @@ impl IconShape for FaFlorinSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFolderClosed;
 impl IconShape for FaFolderClosed {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9904,11 +11554,14 @@ impl IconShape for FaFolderClosed {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFolderMinus;
 impl IconShape for FaFolderMinus {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9922,11 +11575,14 @@ impl IconShape for FaFolderMinus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFolderOpen;
 impl IconShape for FaFolderOpen {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9940,11 +11596,14 @@ impl IconShape for FaFolderOpen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFolderPlus;
 impl IconShape for FaFolderPlus {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9958,11 +11617,14 @@ impl IconShape for FaFolderPlus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFolderTree;
 impl IconShape for FaFolderTree {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9976,11 +11638,14 @@ impl IconShape for FaFolderTree {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFolder;
 impl IconShape for FaFolder {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9994,11 +11659,14 @@ impl IconShape for FaFolder {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFontAwesome;
 impl IconShape for FaFontAwesome {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10012,11 +11680,14 @@ impl IconShape for FaFontAwesome {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFont;
 impl IconShape for FaFont {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10030,11 +11701,14 @@ impl IconShape for FaFont {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFootball;
 impl IconShape for FaFootball {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10048,11 +11722,14 @@ impl IconShape for FaFootball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaForwardFast;
 impl IconShape for FaForwardFast {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10066,11 +11743,14 @@ impl IconShape for FaForwardFast {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaForwardStep;
 impl IconShape for FaForwardStep {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10084,11 +11764,14 @@ impl IconShape for FaForwardStep {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaForward;
 impl IconShape for FaForward {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10102,11 +11785,14 @@ impl IconShape for FaForward {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFrancSign;
 impl IconShape for FaFrancSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10120,11 +11806,14 @@ impl IconShape for FaFrancSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFrog;
 impl IconShape for FaFrog {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10138,11 +11827,14 @@ impl IconShape for FaFrog {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaFutbol;
 impl IconShape for FaFutbol {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10156,11 +11848,14 @@ impl IconShape for FaFutbol {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaG;
 impl IconShape for FaG {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10174,11 +11869,14 @@ impl IconShape for FaG {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGamepad;
 impl IconShape for FaGamepad {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10192,11 +11890,14 @@ impl IconShape for FaGamepad {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGasPump;
 impl IconShape for FaGasPump {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10210,11 +11911,14 @@ impl IconShape for FaGasPump {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGaugeHigh;
 impl IconShape for FaGaugeHigh {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10228,11 +11932,14 @@ impl IconShape for FaGaugeHigh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGaugeSimpleHigh;
 impl IconShape for FaGaugeSimpleHigh {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10246,11 +11953,14 @@ impl IconShape for FaGaugeSimpleHigh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGaugeSimple;
 impl IconShape for FaGaugeSimple {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10264,11 +11974,14 @@ impl IconShape for FaGaugeSimple {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGauge;
 impl IconShape for FaGauge {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10282,11 +11995,14 @@ impl IconShape for FaGauge {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGavel;
 impl IconShape for FaGavel {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10300,11 +12016,14 @@ impl IconShape for FaGavel {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGear;
 impl IconShape for FaGear {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10318,11 +12037,14 @@ impl IconShape for FaGear {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGears;
 impl IconShape for FaGears {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10336,11 +12058,14 @@ impl IconShape for FaGears {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGem;
 impl IconShape for FaGem {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10354,11 +12079,14 @@ impl IconShape for FaGem {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGenderless;
 impl IconShape for FaGenderless {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10372,11 +12100,14 @@ impl IconShape for FaGenderless {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGhost;
 impl IconShape for FaGhost {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10390,11 +12121,14 @@ impl IconShape for FaGhost {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGift;
 impl IconShape for FaGift {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10408,11 +12142,14 @@ impl IconShape for FaGift {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGifts;
 impl IconShape for FaGifts {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10426,11 +12163,14 @@ impl IconShape for FaGifts {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGlassWaterDroplet;
 impl IconShape for FaGlassWaterDroplet {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10444,11 +12184,14 @@ impl IconShape for FaGlassWaterDroplet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGlassWater;
 impl IconShape for FaGlassWater {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10462,11 +12205,14 @@ impl IconShape for FaGlassWater {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGlasses;
 impl IconShape for FaGlasses {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10480,11 +12226,14 @@ impl IconShape for FaGlasses {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGlobe;
 impl IconShape for FaGlobe {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10498,11 +12247,14 @@ impl IconShape for FaGlobe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGolfBallTee;
 impl IconShape for FaGolfBallTee {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10516,11 +12268,14 @@ impl IconShape for FaGolfBallTee {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGopuram;
 impl IconShape for FaGopuram {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10534,11 +12289,14 @@ impl IconShape for FaGopuram {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGraduationCap;
 impl IconShape for FaGraduationCap {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10552,11 +12310,14 @@ impl IconShape for FaGraduationCap {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGreaterThanEqual;
 impl IconShape for FaGreaterThanEqual {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10570,11 +12331,14 @@ impl IconShape for FaGreaterThanEqual {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGreaterThan;
 impl IconShape for FaGreaterThan {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10588,11 +12352,14 @@ impl IconShape for FaGreaterThan {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGripLinesVertical;
 impl IconShape for FaGripLinesVertical {
-    fn view_box(&self) -> String {
-        String::from("0 0 192 512")
+    fn view_box(&self) -> &str {
+        "0 0 192 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10606,11 +12373,14 @@ impl IconShape for FaGripLinesVertical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGripLines;
 impl IconShape for FaGripLines {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10624,11 +12394,14 @@ impl IconShape for FaGripLines {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGripVertical;
 impl IconShape for FaGripVertical {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10642,11 +12415,14 @@ impl IconShape for FaGripVertical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGrip;
 impl IconShape for FaGrip {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10660,11 +12436,14 @@ impl IconShape for FaGrip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGroupArrowsRotate;
 impl IconShape for FaGroupArrowsRotate {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10678,11 +12457,14 @@ impl IconShape for FaGroupArrowsRotate {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGuaraniSign;
 impl IconShape for FaGuaraniSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10696,11 +12478,14 @@ impl IconShape for FaGuaraniSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGuitar;
 impl IconShape for FaGuitar {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10714,11 +12499,14 @@ impl IconShape for FaGuitar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaGun;
 impl IconShape for FaGun {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10732,11 +12520,14 @@ impl IconShape for FaGun {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaH;
 impl IconShape for FaH {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10750,11 +12541,14 @@ impl IconShape for FaH {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHammer;
 impl IconShape for FaHammer {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10768,11 +12562,14 @@ impl IconShape for FaHammer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHamsa;
 impl IconShape for FaHamsa {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10786,11 +12583,14 @@ impl IconShape for FaHamsa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandBackFist;
 impl IconShape for FaHandBackFist {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10804,11 +12604,14 @@ impl IconShape for FaHandBackFist {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandDots;
 impl IconShape for FaHandDots {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10822,11 +12625,14 @@ impl IconShape for FaHandDots {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandFist;
 impl IconShape for FaHandFist {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10840,11 +12646,14 @@ impl IconShape for FaHandFist {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandHoldingDollar;
 impl IconShape for FaHandHoldingDollar {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10858,11 +12667,14 @@ impl IconShape for FaHandHoldingDollar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandHoldingDroplet;
 impl IconShape for FaHandHoldingDroplet {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10876,11 +12688,14 @@ impl IconShape for FaHandHoldingDroplet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandHoldingHand;
 impl IconShape for FaHandHoldingHand {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10894,11 +12709,14 @@ impl IconShape for FaHandHoldingHand {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandHoldingHeart;
 impl IconShape for FaHandHoldingHeart {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10912,11 +12730,14 @@ impl IconShape for FaHandHoldingHeart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandHoldingMedical;
 impl IconShape for FaHandHoldingMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10930,11 +12751,14 @@ impl IconShape for FaHandHoldingMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandHolding;
 impl IconShape for FaHandHolding {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10948,11 +12772,14 @@ impl IconShape for FaHandHolding {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandLizard;
 impl IconShape for FaHandLizard {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10966,11 +12793,14 @@ impl IconShape for FaHandLizard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandMiddleFinger;
 impl IconShape for FaHandMiddleFinger {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10984,11 +12814,14 @@ impl IconShape for FaHandMiddleFinger {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandPeace;
 impl IconShape for FaHandPeace {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11002,11 +12835,14 @@ impl IconShape for FaHandPeace {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandPointDown;
 impl IconShape for FaHandPointDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11020,11 +12856,14 @@ impl IconShape for FaHandPointDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandPointLeft;
 impl IconShape for FaHandPointLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11038,11 +12877,14 @@ impl IconShape for FaHandPointLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandPointRight;
 impl IconShape for FaHandPointRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11056,11 +12898,14 @@ impl IconShape for FaHandPointRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandPointUp;
 impl IconShape for FaHandPointUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11074,11 +12919,14 @@ impl IconShape for FaHandPointUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandPointer;
 impl IconShape for FaHandPointer {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11092,11 +12940,14 @@ impl IconShape for FaHandPointer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandScissors;
 impl IconShape for FaHandScissors {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11110,11 +12961,14 @@ impl IconShape for FaHandScissors {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandSparkles;
 impl IconShape for FaHandSparkles {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11128,11 +12982,14 @@ impl IconShape for FaHandSparkles {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandSpock;
 impl IconShape for FaHandSpock {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11146,11 +13003,14 @@ impl IconShape for FaHandSpock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHand;
 impl IconShape for FaHand {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11164,11 +13024,14 @@ impl IconShape for FaHand {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandcuffs;
 impl IconShape for FaHandcuffs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11182,11 +13045,14 @@ impl IconShape for FaHandcuffs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandsAslInterpreting;
 impl IconShape for FaHandsAslInterpreting {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11200,11 +13066,14 @@ impl IconShape for FaHandsAslInterpreting {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandsBound;
 impl IconShape for FaHandsBound {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11218,11 +13087,14 @@ impl IconShape for FaHandsBound {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandsBubbles;
 impl IconShape for FaHandsBubbles {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11236,11 +13108,14 @@ impl IconShape for FaHandsBubbles {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandsClapping;
 impl IconShape for FaHandsClapping {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11254,11 +13129,14 @@ impl IconShape for FaHandsClapping {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandsHoldingChild;
 impl IconShape for FaHandsHoldingChild {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11272,11 +13150,14 @@ impl IconShape for FaHandsHoldingChild {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandsHoldingCircle;
 impl IconShape for FaHandsHoldingCircle {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11290,11 +13171,14 @@ impl IconShape for FaHandsHoldingCircle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandsHolding;
 impl IconShape for FaHandsHolding {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11308,11 +13192,14 @@ impl IconShape for FaHandsHolding {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandsPraying;
 impl IconShape for FaHandsPraying {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11326,11 +13213,14 @@ impl IconShape for FaHandsPraying {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHands;
 impl IconShape for FaHands {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11344,11 +13234,14 @@ impl IconShape for FaHands {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandshakeAngle;
 impl IconShape for FaHandshakeAngle {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11362,11 +13255,14 @@ impl IconShape for FaHandshakeAngle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandshakeSimpleSlash;
 impl IconShape for FaHandshakeSimpleSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11380,11 +13276,14 @@ impl IconShape for FaHandshakeSimpleSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandshakeSimple;
 impl IconShape for FaHandshakeSimple {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11398,11 +13297,14 @@ impl IconShape for FaHandshakeSimple {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandshakeSlash;
 impl IconShape for FaHandshakeSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11416,11 +13318,14 @@ impl IconShape for FaHandshakeSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHandshake;
 impl IconShape for FaHandshake {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11434,11 +13339,14 @@ impl IconShape for FaHandshake {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHanukiah;
 impl IconShape for FaHanukiah {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11452,11 +13360,14 @@ impl IconShape for FaHanukiah {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHardDrive;
 impl IconShape for FaHardDrive {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11470,11 +13381,14 @@ impl IconShape for FaHardDrive {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHashtag;
 impl IconShape for FaHashtag {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11488,11 +13402,14 @@ impl IconShape for FaHashtag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHatCowboySide;
 impl IconShape for FaHatCowboySide {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11506,11 +13423,14 @@ impl IconShape for FaHatCowboySide {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHatCowboy;
 impl IconShape for FaHatCowboy {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11524,11 +13444,14 @@ impl IconShape for FaHatCowboy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHatWizard;
 impl IconShape for FaHatWizard {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11542,11 +13465,14 @@ impl IconShape for FaHatWizard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeadSideCoughSlash;
 impl IconShape for FaHeadSideCoughSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11560,11 +13486,14 @@ impl IconShape for FaHeadSideCoughSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeadSideCough;
 impl IconShape for FaHeadSideCough {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11578,11 +13507,14 @@ impl IconShape for FaHeadSideCough {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeadSideMask;
 impl IconShape for FaHeadSideMask {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11596,11 +13528,14 @@ impl IconShape for FaHeadSideMask {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeadSideVirus;
 impl IconShape for FaHeadSideVirus {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11614,11 +13549,14 @@ impl IconShape for FaHeadSideVirus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeading;
 impl IconShape for FaHeading {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11632,11 +13570,14 @@ impl IconShape for FaHeading {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeadphonesSimple;
 impl IconShape for FaHeadphonesSimple {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11650,11 +13591,14 @@ impl IconShape for FaHeadphonesSimple {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeadphones;
 impl IconShape for FaHeadphones {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11668,11 +13612,14 @@ impl IconShape for FaHeadphones {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeadset;
 impl IconShape for FaHeadset {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11686,11 +13633,14 @@ impl IconShape for FaHeadset {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeartCircleBolt;
 impl IconShape for FaHeartCircleBolt {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11704,11 +13654,14 @@ impl IconShape for FaHeartCircleBolt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeartCircleCheck;
 impl IconShape for FaHeartCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11722,11 +13675,14 @@ impl IconShape for FaHeartCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeartCircleExclamation;
 impl IconShape for FaHeartCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11740,11 +13696,14 @@ impl IconShape for FaHeartCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeartCircleMinus;
 impl IconShape for FaHeartCircleMinus {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11758,11 +13717,14 @@ impl IconShape for FaHeartCircleMinus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeartCirclePlus;
 impl IconShape for FaHeartCirclePlus {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11776,11 +13738,14 @@ impl IconShape for FaHeartCirclePlus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeartCircleXmark;
 impl IconShape for FaHeartCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11794,11 +13759,14 @@ impl IconShape for FaHeartCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeartCrack;
 impl IconShape for FaHeartCrack {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11812,11 +13780,14 @@ impl IconShape for FaHeartCrack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeartPulse;
 impl IconShape for FaHeartPulse {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11830,11 +13801,14 @@ impl IconShape for FaHeartPulse {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHeart;
 impl IconShape for FaHeart {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11848,11 +13822,14 @@ impl IconShape for FaHeart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHelicopterSymbol;
 impl IconShape for FaHelicopterSymbol {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11866,11 +13843,14 @@ impl IconShape for FaHelicopterSymbol {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHelicopter;
 impl IconShape for FaHelicopter {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11884,11 +13864,14 @@ impl IconShape for FaHelicopter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHelmetSafety;
 impl IconShape for FaHelmetSafety {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11902,11 +13885,14 @@ impl IconShape for FaHelmetSafety {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHelmetUn;
 impl IconShape for FaHelmetUn {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11920,11 +13906,14 @@ impl IconShape for FaHelmetUn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHighlighter;
 impl IconShape for FaHighlighter {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11938,11 +13927,14 @@ impl IconShape for FaHighlighter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHillAvalanche;
 impl IconShape for FaHillAvalanche {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11956,11 +13948,14 @@ impl IconShape for FaHillAvalanche {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHillRockslide;
 impl IconShape for FaHillRockslide {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11974,11 +13969,14 @@ impl IconShape for FaHillRockslide {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHippo;
 impl IconShape for FaHippo {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11992,11 +13990,14 @@ impl IconShape for FaHippo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHockeyPuck;
 impl IconShape for FaHockeyPuck {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12010,11 +14011,14 @@ impl IconShape for FaHockeyPuck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHollyBerry;
 impl IconShape for FaHollyBerry {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12028,11 +14032,14 @@ impl IconShape for FaHollyBerry {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHorseHead;
 impl IconShape for FaHorseHead {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12046,11 +14053,14 @@ impl IconShape for FaHorseHead {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHorse;
 impl IconShape for FaHorse {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12064,11 +14074,14 @@ impl IconShape for FaHorse {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHospitalUser;
 impl IconShape for FaHospitalUser {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12082,11 +14095,14 @@ impl IconShape for FaHospitalUser {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHospital;
 impl IconShape for FaHospital {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12100,11 +14116,14 @@ impl IconShape for FaHospital {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHotTubPerson;
 impl IconShape for FaHotTubPerson {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12118,11 +14137,14 @@ impl IconShape for FaHotTubPerson {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHotdog;
 impl IconShape for FaHotdog {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12136,11 +14158,14 @@ impl IconShape for FaHotdog {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHotel;
 impl IconShape for FaHotel {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12154,11 +14179,14 @@ impl IconShape for FaHotel {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHourglassEmpty;
 impl IconShape for FaHourglassEmpty {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12172,11 +14200,14 @@ impl IconShape for FaHourglassEmpty {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHourglassEnd;
 impl IconShape for FaHourglassEnd {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12190,11 +14221,14 @@ impl IconShape for FaHourglassEnd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHourglassStart;
 impl IconShape for FaHourglassStart {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12208,11 +14242,14 @@ impl IconShape for FaHourglassStart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHourglass;
 impl IconShape for FaHourglass {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12226,11 +14263,14 @@ impl IconShape for FaHourglass {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseChimneyCrack;
 impl IconShape for FaHouseChimneyCrack {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12244,11 +14284,14 @@ impl IconShape for FaHouseChimneyCrack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseChimneyMedical;
 impl IconShape for FaHouseChimneyMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12262,11 +14305,14 @@ impl IconShape for FaHouseChimneyMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseChimneyUser;
 impl IconShape for FaHouseChimneyUser {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12280,11 +14326,14 @@ impl IconShape for FaHouseChimneyUser {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseChimneyWindow;
 impl IconShape for FaHouseChimneyWindow {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12298,11 +14347,14 @@ impl IconShape for FaHouseChimneyWindow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseChimney;
 impl IconShape for FaHouseChimney {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12316,11 +14368,14 @@ impl IconShape for FaHouseChimney {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseCircleCheck;
 impl IconShape for FaHouseCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12334,11 +14389,14 @@ impl IconShape for FaHouseCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseCircleExclamation;
 impl IconShape for FaHouseCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12352,11 +14410,14 @@ impl IconShape for FaHouseCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseCircleXmark;
 impl IconShape for FaHouseCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12370,11 +14431,14 @@ impl IconShape for FaHouseCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseCrack;
 impl IconShape for FaHouseCrack {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12388,11 +14452,14 @@ impl IconShape for FaHouseCrack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseFire;
 impl IconShape for FaHouseFire {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12406,11 +14473,14 @@ impl IconShape for FaHouseFire {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseFlag;
 impl IconShape for FaHouseFlag {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12424,11 +14494,14 @@ impl IconShape for FaHouseFlag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseFloodWaterCircleArrowRight;
 impl IconShape for FaHouseFloodWaterCircleArrowRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12442,11 +14515,14 @@ impl IconShape for FaHouseFloodWaterCircleArrowRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseFloodWater;
 impl IconShape for FaHouseFloodWater {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12460,11 +14536,14 @@ impl IconShape for FaHouseFloodWater {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseLaptop;
 impl IconShape for FaHouseLaptop {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12478,11 +14557,14 @@ impl IconShape for FaHouseLaptop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseLock;
 impl IconShape for FaHouseLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12496,11 +14578,14 @@ impl IconShape for FaHouseLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseMedicalCircleCheck;
 impl IconShape for FaHouseMedicalCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12514,11 +14599,14 @@ impl IconShape for FaHouseMedicalCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseMedicalCircleExclamation;
 impl IconShape for FaHouseMedicalCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12532,11 +14620,14 @@ impl IconShape for FaHouseMedicalCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseMedicalCircleXmark;
 impl IconShape for FaHouseMedicalCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12550,11 +14641,14 @@ impl IconShape for FaHouseMedicalCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseMedicalFlag;
 impl IconShape for FaHouseMedicalFlag {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12568,11 +14662,14 @@ impl IconShape for FaHouseMedicalFlag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseMedical;
 impl IconShape for FaHouseMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12586,11 +14683,14 @@ impl IconShape for FaHouseMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseSignal;
 impl IconShape for FaHouseSignal {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12604,11 +14704,14 @@ impl IconShape for FaHouseSignal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseTsunami;
 impl IconShape for FaHouseTsunami {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12622,11 +14725,14 @@ impl IconShape for FaHouseTsunami {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouseUser;
 impl IconShape for FaHouseUser {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12640,11 +14746,14 @@ impl IconShape for FaHouseUser {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHouse;
 impl IconShape for FaHouse {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12658,11 +14767,14 @@ impl IconShape for FaHouse {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHryvniaSign;
 impl IconShape for FaHryvniaSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12676,11 +14788,14 @@ impl IconShape for FaHryvniaSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaHurricane;
 impl IconShape for FaHurricane {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12694,11 +14809,14 @@ impl IconShape for FaHurricane {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaICursor;
 impl IconShape for FaICursor {
-    fn view_box(&self) -> String {
-        String::from("0 0 256 512")
+    fn view_box(&self) -> &str {
+        "0 0 256 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12712,11 +14830,14 @@ impl IconShape for FaICursor {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaI;
 impl IconShape for FaI {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12730,11 +14851,14 @@ impl IconShape for FaI {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaIceCream;
 impl IconShape for FaIceCream {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12748,11 +14872,14 @@ impl IconShape for FaIceCream {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaIcicles;
 impl IconShape for FaIcicles {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12766,11 +14893,14 @@ impl IconShape for FaIcicles {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaIcons;
 impl IconShape for FaIcons {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12784,11 +14914,14 @@ impl IconShape for FaIcons {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaIdBadge;
 impl IconShape for FaIdBadge {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12802,11 +14935,14 @@ impl IconShape for FaIdBadge {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaIdCardClip;
 impl IconShape for FaIdCardClip {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12820,11 +14956,14 @@ impl IconShape for FaIdCardClip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaIdCard;
 impl IconShape for FaIdCard {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12838,11 +14977,14 @@ impl IconShape for FaIdCard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaIgloo;
 impl IconShape for FaIgloo {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12856,11 +14998,14 @@ impl IconShape for FaIgloo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaImagePortrait;
 impl IconShape for FaImagePortrait {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12874,11 +15019,14 @@ impl IconShape for FaImagePortrait {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaImage;
 impl IconShape for FaImage {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12892,11 +15040,14 @@ impl IconShape for FaImage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaImages;
 impl IconShape for FaImages {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12910,11 +15061,14 @@ impl IconShape for FaImages {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaInbox;
 impl IconShape for FaInbox {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12928,11 +15082,14 @@ impl IconShape for FaInbox {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaIndent;
 impl IconShape for FaIndent {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12946,11 +15103,14 @@ impl IconShape for FaIndent {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaIndianRupeeSign;
 impl IconShape for FaIndianRupeeSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12964,11 +15124,14 @@ impl IconShape for FaIndianRupeeSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaIndustry;
 impl IconShape for FaIndustry {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12982,11 +15145,14 @@ impl IconShape for FaIndustry {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaInfinity;
 impl IconShape for FaInfinity {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13000,11 +15166,14 @@ impl IconShape for FaInfinity {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaInfo;
 impl IconShape for FaInfo {
-    fn view_box(&self) -> String {
-        String::from("0 0 192 512")
+    fn view_box(&self) -> &str {
+        "0 0 192 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13018,11 +15187,14 @@ impl IconShape for FaInfo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaItalic;
 impl IconShape for FaItalic {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13036,11 +15208,14 @@ impl IconShape for FaItalic {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaJ;
 impl IconShape for FaJ {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13054,11 +15229,14 @@ impl IconShape for FaJ {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaJarWheat;
 impl IconShape for FaJarWheat {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13072,11 +15250,14 @@ impl IconShape for FaJarWheat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaJar;
 impl IconShape for FaJar {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13090,11 +15271,14 @@ impl IconShape for FaJar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaJedi;
 impl IconShape for FaJedi {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13108,11 +15292,14 @@ impl IconShape for FaJedi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaJetFighterUp;
 impl IconShape for FaJetFighterUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13126,11 +15313,14 @@ impl IconShape for FaJetFighterUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaJetFighter;
 impl IconShape for FaJetFighter {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13144,11 +15334,14 @@ impl IconShape for FaJetFighter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaJoint;
 impl IconShape for FaJoint {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13162,11 +15355,14 @@ impl IconShape for FaJoint {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaJugDetergent;
 impl IconShape for FaJugDetergent {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13180,11 +15376,14 @@ impl IconShape for FaJugDetergent {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaK;
 impl IconShape for FaK {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13198,11 +15397,14 @@ impl IconShape for FaK {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaKaaba;
 impl IconShape for FaKaaba {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13216,11 +15418,14 @@ impl IconShape for FaKaaba {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaKey;
 impl IconShape for FaKey {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13234,11 +15439,14 @@ impl IconShape for FaKey {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaKeyboard;
 impl IconShape for FaKeyboard {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13252,11 +15460,14 @@ impl IconShape for FaKeyboard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaKhanda;
 impl IconShape for FaKhanda {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13270,11 +15481,14 @@ impl IconShape for FaKhanda {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaKipSign;
 impl IconShape for FaKipSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13288,11 +15502,14 @@ impl IconShape for FaKipSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaKitMedical;
 impl IconShape for FaKitMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13306,11 +15523,14 @@ impl IconShape for FaKitMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaKitchenSet;
 impl IconShape for FaKitchenSet {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13324,11 +15544,14 @@ impl IconShape for FaKitchenSet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaKiwiBird;
 impl IconShape for FaKiwiBird {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13342,11 +15565,14 @@ impl IconShape for FaKiwiBird {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaL;
 impl IconShape for FaL {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13360,11 +15586,14 @@ impl IconShape for FaL {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLandMineOn;
 impl IconShape for FaLandMineOn {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13378,11 +15607,14 @@ impl IconShape for FaLandMineOn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLandmarkDome;
 impl IconShape for FaLandmarkDome {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13396,11 +15628,14 @@ impl IconShape for FaLandmarkDome {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLandmarkFlag;
 impl IconShape for FaLandmarkFlag {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13414,11 +15649,14 @@ impl IconShape for FaLandmarkFlag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLandmark;
 impl IconShape for FaLandmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13432,11 +15670,14 @@ impl IconShape for FaLandmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLanguage;
 impl IconShape for FaLanguage {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13450,11 +15691,14 @@ impl IconShape for FaLanguage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLaptopCode;
 impl IconShape for FaLaptopCode {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13468,11 +15712,14 @@ impl IconShape for FaLaptopCode {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLaptopFile;
 impl IconShape for FaLaptopFile {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13486,11 +15733,14 @@ impl IconShape for FaLaptopFile {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLaptopMedical;
 impl IconShape for FaLaptopMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13504,11 +15754,14 @@ impl IconShape for FaLaptopMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLaptop;
 impl IconShape for FaLaptop {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13522,11 +15775,14 @@ impl IconShape for FaLaptop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLariSign;
 impl IconShape for FaLariSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13540,11 +15796,14 @@ impl IconShape for FaLariSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLayerGroup;
 impl IconShape for FaLayerGroup {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13558,11 +15817,14 @@ impl IconShape for FaLayerGroup {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLeaf;
 impl IconShape for FaLeaf {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13576,11 +15838,14 @@ impl IconShape for FaLeaf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLeftLong;
 impl IconShape for FaLeftLong {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13594,11 +15859,14 @@ impl IconShape for FaLeftLong {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLeftRight;
 impl IconShape for FaLeftRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13612,11 +15880,14 @@ impl IconShape for FaLeftRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLemon;
 impl IconShape for FaLemon {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13630,11 +15901,14 @@ impl IconShape for FaLemon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLessThanEqual;
 impl IconShape for FaLessThanEqual {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13648,11 +15922,14 @@ impl IconShape for FaLessThanEqual {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLessThan;
 impl IconShape for FaLessThan {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13666,11 +15943,14 @@ impl IconShape for FaLessThan {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLifeRing;
 impl IconShape for FaLifeRing {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13684,11 +15964,14 @@ impl IconShape for FaLifeRing {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLightbulb;
 impl IconShape for FaLightbulb {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13702,11 +15985,14 @@ impl IconShape for FaLightbulb {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLinesLeaning;
 impl IconShape for FaLinesLeaning {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13720,11 +16006,14 @@ impl IconShape for FaLinesLeaning {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLinkSlash;
 impl IconShape for FaLinkSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13738,11 +16027,14 @@ impl IconShape for FaLinkSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLink;
 impl IconShape for FaLink {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13756,11 +16048,14 @@ impl IconShape for FaLink {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLiraSign;
 impl IconShape for FaLiraSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13774,11 +16069,14 @@ impl IconShape for FaLiraSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaListCheck;
 impl IconShape for FaListCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13792,11 +16090,14 @@ impl IconShape for FaListCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaListOl;
 impl IconShape for FaListOl {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13810,11 +16111,14 @@ impl IconShape for FaListOl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaListUl;
 impl IconShape for FaListUl {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13828,11 +16132,14 @@ impl IconShape for FaListUl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaList;
 impl IconShape for FaList {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13846,11 +16153,14 @@ impl IconShape for FaList {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLitecoinSign;
 impl IconShape for FaLitecoinSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13864,11 +16174,14 @@ impl IconShape for FaLitecoinSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLocationArrow;
 impl IconShape for FaLocationArrow {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13882,11 +16195,14 @@ impl IconShape for FaLocationArrow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLocationCrosshairs;
 impl IconShape for FaLocationCrosshairs {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13900,11 +16216,14 @@ impl IconShape for FaLocationCrosshairs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLocationDot;
 impl IconShape for FaLocationDot {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13918,11 +16237,14 @@ impl IconShape for FaLocationDot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLocationPinLock;
 impl IconShape for FaLocationPinLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13936,11 +16258,14 @@ impl IconShape for FaLocationPinLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLocationPin;
 impl IconShape for FaLocationPin {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13954,11 +16279,14 @@ impl IconShape for FaLocationPin {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLockOpen;
 impl IconShape for FaLockOpen {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13972,11 +16300,14 @@ impl IconShape for FaLockOpen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLock;
 impl IconShape for FaLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13990,11 +16321,14 @@ impl IconShape for FaLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLocust;
 impl IconShape for FaLocust {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14008,11 +16342,14 @@ impl IconShape for FaLocust {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLungsVirus;
 impl IconShape for FaLungsVirus {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14026,11 +16363,14 @@ impl IconShape for FaLungsVirus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaLungs;
 impl IconShape for FaLungs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14044,11 +16384,14 @@ impl IconShape for FaLungs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaM;
 impl IconShape for FaM {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14062,11 +16405,14 @@ impl IconShape for FaM {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMagnet;
 impl IconShape for FaMagnet {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14080,11 +16426,14 @@ impl IconShape for FaMagnet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMagnifyingGlassArrowRight;
 impl IconShape for FaMagnifyingGlassArrowRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14098,11 +16447,14 @@ impl IconShape for FaMagnifyingGlassArrowRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMagnifyingGlassChart;
 impl IconShape for FaMagnifyingGlassChart {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14116,11 +16468,14 @@ impl IconShape for FaMagnifyingGlassChart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMagnifyingGlassDollar;
 impl IconShape for FaMagnifyingGlassDollar {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14134,11 +16489,14 @@ impl IconShape for FaMagnifyingGlassDollar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMagnifyingGlassLocation;
 impl IconShape for FaMagnifyingGlassLocation {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14152,11 +16510,14 @@ impl IconShape for FaMagnifyingGlassLocation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMagnifyingGlassMinus;
 impl IconShape for FaMagnifyingGlassMinus {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14170,11 +16531,14 @@ impl IconShape for FaMagnifyingGlassMinus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMagnifyingGlassPlus;
 impl IconShape for FaMagnifyingGlassPlus {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14188,11 +16552,14 @@ impl IconShape for FaMagnifyingGlassPlus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMagnifyingGlass;
 impl IconShape for FaMagnifyingGlass {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14206,11 +16573,14 @@ impl IconShape for FaMagnifyingGlass {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaManatSign;
 impl IconShape for FaManatSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14224,11 +16594,14 @@ impl IconShape for FaManatSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMapLocationDot;
 impl IconShape for FaMapLocationDot {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14242,11 +16615,14 @@ impl IconShape for FaMapLocationDot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMapLocation;
 impl IconShape for FaMapLocation {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14260,11 +16636,14 @@ impl IconShape for FaMapLocation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMapPin;
 impl IconShape for FaMapPin {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14278,11 +16657,14 @@ impl IconShape for FaMapPin {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMap;
 impl IconShape for FaMap {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14296,11 +16678,14 @@ impl IconShape for FaMap {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMarker;
 impl IconShape for FaMarker {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14314,11 +16699,14 @@ impl IconShape for FaMarker {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMarsAndVenusBurst;
 impl IconShape for FaMarsAndVenusBurst {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14332,11 +16720,14 @@ impl IconShape for FaMarsAndVenusBurst {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMarsAndVenus;
 impl IconShape for FaMarsAndVenus {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14350,11 +16741,14 @@ impl IconShape for FaMarsAndVenus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMarsDouble;
 impl IconShape for FaMarsDouble {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14368,11 +16762,14 @@ impl IconShape for FaMarsDouble {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMarsStrokeRight;
 impl IconShape for FaMarsStrokeRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14386,11 +16783,14 @@ impl IconShape for FaMarsStrokeRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMarsStrokeUp;
 impl IconShape for FaMarsStrokeUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14404,11 +16804,14 @@ impl IconShape for FaMarsStrokeUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMarsStroke;
 impl IconShape for FaMarsStroke {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14422,11 +16825,14 @@ impl IconShape for FaMarsStroke {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMars;
 impl IconShape for FaMars {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14440,11 +16846,14 @@ impl IconShape for FaMars {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMartiniGlassCitrus;
 impl IconShape for FaMartiniGlassCitrus {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14458,11 +16867,14 @@ impl IconShape for FaMartiniGlassCitrus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMartiniGlassEmpty;
 impl IconShape for FaMartiniGlassEmpty {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14476,11 +16888,14 @@ impl IconShape for FaMartiniGlassEmpty {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMartiniGlass;
 impl IconShape for FaMartiniGlass {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14494,11 +16909,14 @@ impl IconShape for FaMartiniGlass {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMaskFace;
 impl IconShape for FaMaskFace {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14512,11 +16930,14 @@ impl IconShape for FaMaskFace {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMaskVentilator;
 impl IconShape for FaMaskVentilator {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14530,11 +16951,14 @@ impl IconShape for FaMaskVentilator {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMask;
 impl IconShape for FaMask {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14548,11 +16972,14 @@ impl IconShape for FaMask {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMasksTheater;
 impl IconShape for FaMasksTheater {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14566,11 +16993,14 @@ impl IconShape for FaMasksTheater {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMattressPillow;
 impl IconShape for FaMattressPillow {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14584,11 +17014,14 @@ impl IconShape for FaMattressPillow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMaximize;
 impl IconShape for FaMaximize {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14602,11 +17035,14 @@ impl IconShape for FaMaximize {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMedal;
 impl IconShape for FaMedal {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14620,11 +17056,14 @@ impl IconShape for FaMedal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMemory;
 impl IconShape for FaMemory {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14638,11 +17077,14 @@ impl IconShape for FaMemory {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMenorah;
 impl IconShape for FaMenorah {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14656,11 +17098,14 @@ impl IconShape for FaMenorah {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMercury;
 impl IconShape for FaMercury {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14674,11 +17119,14 @@ impl IconShape for FaMercury {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMessage;
 impl IconShape for FaMessage {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14692,11 +17140,14 @@ impl IconShape for FaMessage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMeteor;
 impl IconShape for FaMeteor {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14710,11 +17161,14 @@ impl IconShape for FaMeteor {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMicrochip;
 impl IconShape for FaMicrochip {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14728,11 +17182,14 @@ impl IconShape for FaMicrochip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMicrophoneLinesSlash;
 impl IconShape for FaMicrophoneLinesSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14746,11 +17203,14 @@ impl IconShape for FaMicrophoneLinesSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMicrophoneLines;
 impl IconShape for FaMicrophoneLines {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14764,11 +17224,14 @@ impl IconShape for FaMicrophoneLines {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMicrophoneSlash;
 impl IconShape for FaMicrophoneSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14782,11 +17245,14 @@ impl IconShape for FaMicrophoneSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMicrophone;
 impl IconShape for FaMicrophone {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14800,11 +17266,14 @@ impl IconShape for FaMicrophone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMicroscope;
 impl IconShape for FaMicroscope {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14818,11 +17287,14 @@ impl IconShape for FaMicroscope {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMillSign;
 impl IconShape for FaMillSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14836,11 +17308,14 @@ impl IconShape for FaMillSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMinimize;
 impl IconShape for FaMinimize {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14854,11 +17329,14 @@ impl IconShape for FaMinimize {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMinus;
 impl IconShape for FaMinus {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14872,11 +17350,14 @@ impl IconShape for FaMinus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMitten;
 impl IconShape for FaMitten {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14890,11 +17371,14 @@ impl IconShape for FaMitten {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMobileButton;
 impl IconShape for FaMobileButton {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14908,11 +17392,14 @@ impl IconShape for FaMobileButton {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMobileRetro;
 impl IconShape for FaMobileRetro {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14926,11 +17413,14 @@ impl IconShape for FaMobileRetro {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMobileScreenButton;
 impl IconShape for FaMobileScreenButton {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14944,11 +17434,14 @@ impl IconShape for FaMobileScreenButton {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMobileScreen;
 impl IconShape for FaMobileScreen {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14962,11 +17455,14 @@ impl IconShape for FaMobileScreen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMobile;
 impl IconShape for FaMobile {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14980,11 +17476,14 @@ impl IconShape for FaMobile {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMoneyBill1Wave;
 impl IconShape for FaMoneyBill1Wave {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14998,11 +17497,14 @@ impl IconShape for FaMoneyBill1Wave {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMoneyBill1;
 impl IconShape for FaMoneyBill1 {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15016,11 +17518,14 @@ impl IconShape for FaMoneyBill1 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMoneyBillTransfer;
 impl IconShape for FaMoneyBillTransfer {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15034,11 +17539,14 @@ impl IconShape for FaMoneyBillTransfer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMoneyBillTrendUp;
 impl IconShape for FaMoneyBillTrendUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15052,11 +17560,14 @@ impl IconShape for FaMoneyBillTrendUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMoneyBillWave;
 impl IconShape for FaMoneyBillWave {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15070,11 +17581,14 @@ impl IconShape for FaMoneyBillWave {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMoneyBillWheat;
 impl IconShape for FaMoneyBillWheat {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15088,11 +17602,14 @@ impl IconShape for FaMoneyBillWheat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMoneyBill;
 impl IconShape for FaMoneyBill {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15106,11 +17623,14 @@ impl IconShape for FaMoneyBill {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMoneyBills;
 impl IconShape for FaMoneyBills {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15124,11 +17644,14 @@ impl IconShape for FaMoneyBills {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMoneyCheckDollar;
 impl IconShape for FaMoneyCheckDollar {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15142,11 +17665,14 @@ impl IconShape for FaMoneyCheckDollar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMoneyCheck;
 impl IconShape for FaMoneyCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15160,11 +17686,14 @@ impl IconShape for FaMoneyCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMonument;
 impl IconShape for FaMonument {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15178,11 +17707,14 @@ impl IconShape for FaMonument {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMoon;
 impl IconShape for FaMoon {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15196,11 +17728,14 @@ impl IconShape for FaMoon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMortarPestle;
 impl IconShape for FaMortarPestle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15214,11 +17749,14 @@ impl IconShape for FaMortarPestle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMosque;
 impl IconShape for FaMosque {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15232,11 +17770,14 @@ impl IconShape for FaMosque {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMosquitoNet;
 impl IconShape for FaMosquitoNet {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15250,11 +17791,14 @@ impl IconShape for FaMosquitoNet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMosquito;
 impl IconShape for FaMosquito {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15268,11 +17812,14 @@ impl IconShape for FaMosquito {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMotorcycle;
 impl IconShape for FaMotorcycle {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15286,11 +17833,14 @@ impl IconShape for FaMotorcycle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMound;
 impl IconShape for FaMound {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15304,11 +17854,14 @@ impl IconShape for FaMound {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMountainCity;
 impl IconShape for FaMountainCity {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15322,11 +17875,14 @@ impl IconShape for FaMountainCity {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMountainSun;
 impl IconShape for FaMountainSun {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15340,11 +17896,14 @@ impl IconShape for FaMountainSun {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMountain;
 impl IconShape for FaMountain {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15358,11 +17917,14 @@ impl IconShape for FaMountain {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMugHot;
 impl IconShape for FaMugHot {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15376,11 +17938,14 @@ impl IconShape for FaMugHot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMugSaucer;
 impl IconShape for FaMugSaucer {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15394,11 +17959,14 @@ impl IconShape for FaMugSaucer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaMusic;
 impl IconShape for FaMusic {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15412,11 +17980,14 @@ impl IconShape for FaMusic {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaN;
 impl IconShape for FaN {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15430,11 +18001,14 @@ impl IconShape for FaN {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaNairaSign;
 impl IconShape for FaNairaSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15448,11 +18022,14 @@ impl IconShape for FaNairaSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaNetworkWired;
 impl IconShape for FaNetworkWired {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15466,11 +18043,14 @@ impl IconShape for FaNetworkWired {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaNeuter;
 impl IconShape for FaNeuter {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15484,11 +18064,14 @@ impl IconShape for FaNeuter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaNewspaper;
 impl IconShape for FaNewspaper {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15502,11 +18085,14 @@ impl IconShape for FaNewspaper {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaNotEqual;
 impl IconShape for FaNotEqual {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15520,11 +18106,14 @@ impl IconShape for FaNotEqual {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaNoteSticky;
 impl IconShape for FaNoteSticky {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15538,11 +18127,14 @@ impl IconShape for FaNoteSticky {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaNotesMedical;
 impl IconShape for FaNotesMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15556,11 +18148,14 @@ impl IconShape for FaNotesMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaO;
 impl IconShape for FaO {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15574,11 +18169,14 @@ impl IconShape for FaO {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaObjectGroup;
 impl IconShape for FaObjectGroup {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15592,11 +18190,14 @@ impl IconShape for FaObjectGroup {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaObjectUngroup;
 impl IconShape for FaObjectUngroup {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15610,11 +18211,14 @@ impl IconShape for FaObjectUngroup {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaOilCan;
 impl IconShape for FaOilCan {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15628,11 +18232,14 @@ impl IconShape for FaOilCan {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaOilWell;
 impl IconShape for FaOilWell {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15646,11 +18253,14 @@ impl IconShape for FaOilWell {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaOm;
 impl IconShape for FaOm {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15664,11 +18274,14 @@ impl IconShape for FaOm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaOtter;
 impl IconShape for FaOtter {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15682,11 +18295,14 @@ impl IconShape for FaOtter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaOutdent;
 impl IconShape for FaOutdent {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15700,11 +18316,14 @@ impl IconShape for FaOutdent {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaP;
 impl IconShape for FaP {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15718,11 +18337,14 @@ impl IconShape for FaP {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPager;
 impl IconShape for FaPager {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15736,11 +18358,14 @@ impl IconShape for FaPager {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPaintRoller;
 impl IconShape for FaPaintRoller {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15754,11 +18379,14 @@ impl IconShape for FaPaintRoller {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPaintbrush;
 impl IconShape for FaPaintbrush {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15772,11 +18400,14 @@ impl IconShape for FaPaintbrush {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPalette;
 impl IconShape for FaPalette {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15790,11 +18421,14 @@ impl IconShape for FaPalette {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPallet;
 impl IconShape for FaPallet {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15808,11 +18442,14 @@ impl IconShape for FaPallet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPanorama;
 impl IconShape for FaPanorama {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15826,11 +18463,14 @@ impl IconShape for FaPanorama {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPaperPlane;
 impl IconShape for FaPaperPlane {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15844,11 +18484,14 @@ impl IconShape for FaPaperPlane {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPaperclip;
 impl IconShape for FaPaperclip {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15862,11 +18505,14 @@ impl IconShape for FaPaperclip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaParachuteBox;
 impl IconShape for FaParachuteBox {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15880,11 +18526,14 @@ impl IconShape for FaParachuteBox {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaParagraph;
 impl IconShape for FaParagraph {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15898,11 +18547,14 @@ impl IconShape for FaParagraph {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPassport;
 impl IconShape for FaPassport {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15916,11 +18568,14 @@ impl IconShape for FaPassport {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPaste;
 impl IconShape for FaPaste {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15934,11 +18589,14 @@ impl IconShape for FaPaste {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPause;
 impl IconShape for FaPause {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15952,11 +18610,14 @@ impl IconShape for FaPause {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPaw;
 impl IconShape for FaPaw {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15970,11 +18631,14 @@ impl IconShape for FaPaw {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPeace;
 impl IconShape for FaPeace {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15988,11 +18652,14 @@ impl IconShape for FaPeace {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPenClip;
 impl IconShape for FaPenClip {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16006,11 +18673,14 @@ impl IconShape for FaPenClip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPenFancy;
 impl IconShape for FaPenFancy {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16024,11 +18694,14 @@ impl IconShape for FaPenFancy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPenNib;
 impl IconShape for FaPenNib {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16042,11 +18715,14 @@ impl IconShape for FaPenNib {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPenRuler;
 impl IconShape for FaPenRuler {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16060,11 +18736,14 @@ impl IconShape for FaPenRuler {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPenToSquare;
 impl IconShape for FaPenToSquare {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16078,11 +18757,14 @@ impl IconShape for FaPenToSquare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPen;
 impl IconShape for FaPen {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16096,11 +18778,14 @@ impl IconShape for FaPen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPencil;
 impl IconShape for FaPencil {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16114,11 +18799,14 @@ impl IconShape for FaPencil {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPeopleArrowsLeftRight;
 impl IconShape for FaPeopleArrowsLeftRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16132,11 +18820,14 @@ impl IconShape for FaPeopleArrowsLeftRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPeopleCarryBox;
 impl IconShape for FaPeopleCarryBox {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16150,11 +18841,14 @@ impl IconShape for FaPeopleCarryBox {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPeopleGroup;
 impl IconShape for FaPeopleGroup {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16168,11 +18862,14 @@ impl IconShape for FaPeopleGroup {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPeopleLine;
 impl IconShape for FaPeopleLine {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16186,11 +18883,14 @@ impl IconShape for FaPeopleLine {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPeoplePulling;
 impl IconShape for FaPeoplePulling {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16204,11 +18904,14 @@ impl IconShape for FaPeoplePulling {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPeopleRobbery;
 impl IconShape for FaPeopleRobbery {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16222,11 +18925,14 @@ impl IconShape for FaPeopleRobbery {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPeopleRoof;
 impl IconShape for FaPeopleRoof {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16240,11 +18946,14 @@ impl IconShape for FaPeopleRoof {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPepperHot;
 impl IconShape for FaPepperHot {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16258,11 +18967,14 @@ impl IconShape for FaPepperHot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPercent;
 impl IconShape for FaPercent {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16276,11 +18988,14 @@ impl IconShape for FaPercent {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonArrowDownToLine;
 impl IconShape for FaPersonArrowDownToLine {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16294,11 +19009,14 @@ impl IconShape for FaPersonArrowDownToLine {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonArrowUpFromLine;
 impl IconShape for FaPersonArrowUpFromLine {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16312,11 +19030,14 @@ impl IconShape for FaPersonArrowUpFromLine {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonBiking;
 impl IconShape for FaPersonBiking {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16330,11 +19051,14 @@ impl IconShape for FaPersonBiking {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonBooth;
 impl IconShape for FaPersonBooth {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16348,11 +19072,14 @@ impl IconShape for FaPersonBooth {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonBreastfeeding;
 impl IconShape for FaPersonBreastfeeding {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16366,11 +19093,14 @@ impl IconShape for FaPersonBreastfeeding {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonBurst;
 impl IconShape for FaPersonBurst {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16384,11 +19114,14 @@ impl IconShape for FaPersonBurst {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonCane;
 impl IconShape for FaPersonCane {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16402,11 +19135,14 @@ impl IconShape for FaPersonCane {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonChalkboard;
 impl IconShape for FaPersonChalkboard {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16420,11 +19156,14 @@ impl IconShape for FaPersonChalkboard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonCircleCheck;
 impl IconShape for FaPersonCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16438,11 +19177,14 @@ impl IconShape for FaPersonCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonCircleExclamation;
 impl IconShape for FaPersonCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16456,11 +19198,14 @@ impl IconShape for FaPersonCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonCircleMinus;
 impl IconShape for FaPersonCircleMinus {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16474,11 +19219,14 @@ impl IconShape for FaPersonCircleMinus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonCirclePlus;
 impl IconShape for FaPersonCirclePlus {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16492,11 +19240,14 @@ impl IconShape for FaPersonCirclePlus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonCircleQuestion;
 impl IconShape for FaPersonCircleQuestion {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16510,11 +19261,14 @@ impl IconShape for FaPersonCircleQuestion {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonCircleXmark;
 impl IconShape for FaPersonCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16528,11 +19282,14 @@ impl IconShape for FaPersonCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonDigging;
 impl IconShape for FaPersonDigging {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16546,11 +19303,14 @@ impl IconShape for FaPersonDigging {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonDotsFromLine;
 impl IconShape for FaPersonDotsFromLine {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16564,11 +19324,14 @@ impl IconShape for FaPersonDotsFromLine {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonDressBurst;
 impl IconShape for FaPersonDressBurst {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16582,11 +19345,14 @@ impl IconShape for FaPersonDressBurst {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonDress;
 impl IconShape for FaPersonDress {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16600,11 +19366,14 @@ impl IconShape for FaPersonDress {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonDrowning;
 impl IconShape for FaPersonDrowning {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16618,11 +19387,14 @@ impl IconShape for FaPersonDrowning {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonFallingBurst;
 impl IconShape for FaPersonFallingBurst {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16636,11 +19408,14 @@ impl IconShape for FaPersonFallingBurst {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonFalling;
 impl IconShape for FaPersonFalling {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16654,11 +19429,14 @@ impl IconShape for FaPersonFalling {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonHalfDress;
 impl IconShape for FaPersonHalfDress {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16672,11 +19450,14 @@ impl IconShape for FaPersonHalfDress {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonHarassing;
 impl IconShape for FaPersonHarassing {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16690,11 +19471,14 @@ impl IconShape for FaPersonHarassing {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonHiking;
 impl IconShape for FaPersonHiking {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16708,11 +19492,14 @@ impl IconShape for FaPersonHiking {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonMilitaryPointing;
 impl IconShape for FaPersonMilitaryPointing {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16726,11 +19513,14 @@ impl IconShape for FaPersonMilitaryPointing {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonMilitaryRifle;
 impl IconShape for FaPersonMilitaryRifle {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16744,11 +19534,14 @@ impl IconShape for FaPersonMilitaryRifle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonMilitaryToPerson;
 impl IconShape for FaPersonMilitaryToPerson {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16762,11 +19555,14 @@ impl IconShape for FaPersonMilitaryToPerson {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonPraying;
 impl IconShape for FaPersonPraying {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16780,11 +19576,14 @@ impl IconShape for FaPersonPraying {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonPregnant;
 impl IconShape for FaPersonPregnant {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16798,11 +19597,14 @@ impl IconShape for FaPersonPregnant {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonRays;
 impl IconShape for FaPersonRays {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16816,11 +19618,14 @@ impl IconShape for FaPersonRays {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonRifle;
 impl IconShape for FaPersonRifle {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16834,11 +19639,14 @@ impl IconShape for FaPersonRifle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonRunning;
 impl IconShape for FaPersonRunning {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16852,11 +19660,14 @@ impl IconShape for FaPersonRunning {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonShelter;
 impl IconShape for FaPersonShelter {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16870,11 +19681,14 @@ impl IconShape for FaPersonShelter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonSkating;
 impl IconShape for FaPersonSkating {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16888,11 +19702,14 @@ impl IconShape for FaPersonSkating {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonSkiingNordic;
 impl IconShape for FaPersonSkiingNordic {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16906,11 +19723,14 @@ impl IconShape for FaPersonSkiingNordic {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonSkiing;
 impl IconShape for FaPersonSkiing {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16924,11 +19744,14 @@ impl IconShape for FaPersonSkiing {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonSnowboarding;
 impl IconShape for FaPersonSnowboarding {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16942,11 +19765,14 @@ impl IconShape for FaPersonSnowboarding {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonSwimming;
 impl IconShape for FaPersonSwimming {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16960,11 +19786,14 @@ impl IconShape for FaPersonSwimming {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonThroughWindow;
 impl IconShape for FaPersonThroughWindow {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16978,11 +19807,14 @@ impl IconShape for FaPersonThroughWindow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonWalkingArrowLoopLeft;
 impl IconShape for FaPersonWalkingArrowLoopLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16996,11 +19828,14 @@ impl IconShape for FaPersonWalkingArrowLoopLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonWalkingArrowRight;
 impl IconShape for FaPersonWalkingArrowRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17014,11 +19849,14 @@ impl IconShape for FaPersonWalkingArrowRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonWalkingDashedLineArrowRight;
 impl IconShape for FaPersonWalkingDashedLineArrowRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17032,11 +19870,14 @@ impl IconShape for FaPersonWalkingDashedLineArrowRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonWalkingLuggage;
 impl IconShape for FaPersonWalkingLuggage {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17050,11 +19891,14 @@ impl IconShape for FaPersonWalkingLuggage {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonWalkingWithCane;
 impl IconShape for FaPersonWalkingWithCane {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17068,11 +19912,14 @@ impl IconShape for FaPersonWalkingWithCane {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPersonWalking;
 impl IconShape for FaPersonWalking {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17086,11 +19933,14 @@ impl IconShape for FaPersonWalking {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPerson;
 impl IconShape for FaPerson {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17104,11 +19954,14 @@ impl IconShape for FaPerson {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPesetaSign;
 impl IconShape for FaPesetaSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17122,11 +19975,14 @@ impl IconShape for FaPesetaSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPesoSign;
 impl IconShape for FaPesoSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17140,11 +19996,14 @@ impl IconShape for FaPesoSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPhoneFlip;
 impl IconShape for FaPhoneFlip {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17158,11 +20017,14 @@ impl IconShape for FaPhoneFlip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPhoneSlash;
 impl IconShape for FaPhoneSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17176,11 +20038,14 @@ impl IconShape for FaPhoneSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPhoneVolume;
 impl IconShape for FaPhoneVolume {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17194,11 +20059,14 @@ impl IconShape for FaPhoneVolume {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPhone;
 impl IconShape for FaPhone {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17212,11 +20080,14 @@ impl IconShape for FaPhone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPhotoFilm;
 impl IconShape for FaPhotoFilm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17230,11 +20101,14 @@ impl IconShape for FaPhotoFilm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPiggyBank;
 impl IconShape for FaPiggyBank {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17248,11 +20122,14 @@ impl IconShape for FaPiggyBank {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPills;
 impl IconShape for FaPills {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17266,11 +20143,14 @@ impl IconShape for FaPills {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPizzaSlice;
 impl IconShape for FaPizzaSlice {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17284,11 +20164,14 @@ impl IconShape for FaPizzaSlice {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlaceOfWorship;
 impl IconShape for FaPlaceOfWorship {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17302,11 +20185,14 @@ impl IconShape for FaPlaceOfWorship {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlaneArrival;
 impl IconShape for FaPlaneArrival {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17320,11 +20206,14 @@ impl IconShape for FaPlaneArrival {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlaneCircleCheck;
 impl IconShape for FaPlaneCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17338,11 +20227,14 @@ impl IconShape for FaPlaneCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlaneCircleExclamation;
 impl IconShape for FaPlaneCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17356,11 +20248,14 @@ impl IconShape for FaPlaneCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlaneCircleXmark;
 impl IconShape for FaPlaneCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17374,11 +20269,14 @@ impl IconShape for FaPlaneCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlaneDeparture;
 impl IconShape for FaPlaneDeparture {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17392,11 +20290,14 @@ impl IconShape for FaPlaneDeparture {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlaneLock;
 impl IconShape for FaPlaneLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17410,11 +20311,14 @@ impl IconShape for FaPlaneLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlaneSlash;
 impl IconShape for FaPlaneSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17428,11 +20332,14 @@ impl IconShape for FaPlaneSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlaneUp;
 impl IconShape for FaPlaneUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17446,11 +20353,14 @@ impl IconShape for FaPlaneUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlane;
 impl IconShape for FaPlane {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17464,11 +20374,14 @@ impl IconShape for FaPlane {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlantWilt;
 impl IconShape for FaPlantWilt {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17482,11 +20395,14 @@ impl IconShape for FaPlantWilt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlateWheat;
 impl IconShape for FaPlateWheat {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17500,11 +20416,14 @@ impl IconShape for FaPlateWheat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlay;
 impl IconShape for FaPlay {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17518,11 +20437,14 @@ impl IconShape for FaPlay {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlugCircleBolt;
 impl IconShape for FaPlugCircleBolt {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17536,11 +20458,14 @@ impl IconShape for FaPlugCircleBolt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlugCircleCheck;
 impl IconShape for FaPlugCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17554,11 +20479,14 @@ impl IconShape for FaPlugCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlugCircleExclamation;
 impl IconShape for FaPlugCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17572,11 +20500,14 @@ impl IconShape for FaPlugCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlugCircleMinus;
 impl IconShape for FaPlugCircleMinus {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17590,11 +20521,14 @@ impl IconShape for FaPlugCircleMinus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlugCirclePlus;
 impl IconShape for FaPlugCirclePlus {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17608,11 +20542,14 @@ impl IconShape for FaPlugCirclePlus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlugCircleXmark;
 impl IconShape for FaPlugCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17626,11 +20563,14 @@ impl IconShape for FaPlugCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlug;
 impl IconShape for FaPlug {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17644,11 +20584,14 @@ impl IconShape for FaPlug {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlusMinus;
 impl IconShape for FaPlusMinus {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17662,11 +20605,14 @@ impl IconShape for FaPlusMinus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPlus;
 impl IconShape for FaPlus {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17680,11 +20626,14 @@ impl IconShape for FaPlus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPodcast;
 impl IconShape for FaPodcast {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17698,11 +20647,14 @@ impl IconShape for FaPodcast {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPooStorm;
 impl IconShape for FaPooStorm {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17716,11 +20668,14 @@ impl IconShape for FaPooStorm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPoo;
 impl IconShape for FaPoo {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17734,11 +20689,14 @@ impl IconShape for FaPoo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPoop;
 impl IconShape for FaPoop {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17752,11 +20710,14 @@ impl IconShape for FaPoop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPowerOff;
 impl IconShape for FaPowerOff {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17770,11 +20731,14 @@ impl IconShape for FaPowerOff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPrescriptionBottleMedical;
 impl IconShape for FaPrescriptionBottleMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17788,11 +20752,14 @@ impl IconShape for FaPrescriptionBottleMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPrescriptionBottle;
 impl IconShape for FaPrescriptionBottle {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17806,11 +20773,14 @@ impl IconShape for FaPrescriptionBottle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPrescription;
 impl IconShape for FaPrescription {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17824,11 +20794,14 @@ impl IconShape for FaPrescription {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPrint;
 impl IconShape for FaPrint {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17842,11 +20815,14 @@ impl IconShape for FaPrint {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPumpMedical;
 impl IconShape for FaPumpMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17860,11 +20836,14 @@ impl IconShape for FaPumpMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPumpSoap;
 impl IconShape for FaPumpSoap {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17878,11 +20857,14 @@ impl IconShape for FaPumpSoap {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaPuzzlePiece;
 impl IconShape for FaPuzzlePiece {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17896,11 +20878,14 @@ impl IconShape for FaPuzzlePiece {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaQ;
 impl IconShape for FaQ {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17914,11 +20899,14 @@ impl IconShape for FaQ {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaQrcode;
 impl IconShape for FaQrcode {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17932,11 +20920,14 @@ impl IconShape for FaQrcode {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaQuestion;
 impl IconShape for FaQuestion {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17950,11 +20941,14 @@ impl IconShape for FaQuestion {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaQuoteLeft;
 impl IconShape for FaQuoteLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17968,11 +20962,14 @@ impl IconShape for FaQuoteLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaQuoteRight;
 impl IconShape for FaQuoteRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17986,11 +20983,14 @@ impl IconShape for FaQuoteRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaR;
 impl IconShape for FaR {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18004,11 +21004,14 @@ impl IconShape for FaR {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRadiation;
 impl IconShape for FaRadiation {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18022,11 +21025,14 @@ impl IconShape for FaRadiation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRadio;
 impl IconShape for FaRadio {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18040,11 +21046,14 @@ impl IconShape for FaRadio {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRainbow;
 impl IconShape for FaRainbow {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18058,11 +21067,14 @@ impl IconShape for FaRainbow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRankingStar;
 impl IconShape for FaRankingStar {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18076,11 +21088,14 @@ impl IconShape for FaRankingStar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaReceipt;
 impl IconShape for FaReceipt {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18094,11 +21109,14 @@ impl IconShape for FaReceipt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRecordVinyl;
 impl IconShape for FaRecordVinyl {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18112,11 +21130,14 @@ impl IconShape for FaRecordVinyl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRectangleAd;
 impl IconShape for FaRectangleAd {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18130,11 +21151,14 @@ impl IconShape for FaRectangleAd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRectangleList;
 impl IconShape for FaRectangleList {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18148,11 +21172,14 @@ impl IconShape for FaRectangleList {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRectangleXmark;
 impl IconShape for FaRectangleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18166,11 +21193,14 @@ impl IconShape for FaRectangleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRecycle;
 impl IconShape for FaRecycle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18184,11 +21214,14 @@ impl IconShape for FaRecycle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRegistered;
 impl IconShape for FaRegistered {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18202,11 +21235,14 @@ impl IconShape for FaRegistered {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRepeat;
 impl IconShape for FaRepeat {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18220,11 +21256,14 @@ impl IconShape for FaRepeat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaReplyAll;
 impl IconShape for FaReplyAll {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18238,11 +21277,14 @@ impl IconShape for FaReplyAll {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaReply;
 impl IconShape for FaReply {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18256,11 +21298,14 @@ impl IconShape for FaReply {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRepublican;
 impl IconShape for FaRepublican {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18274,11 +21319,14 @@ impl IconShape for FaRepublican {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRestroom;
 impl IconShape for FaRestroom {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18292,11 +21340,14 @@ impl IconShape for FaRestroom {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRetweet;
 impl IconShape for FaRetweet {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18310,11 +21361,14 @@ impl IconShape for FaRetweet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRibbon;
 impl IconShape for FaRibbon {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18328,11 +21382,14 @@ impl IconShape for FaRibbon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRightFromBracket;
 impl IconShape for FaRightFromBracket {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18346,11 +21403,14 @@ impl IconShape for FaRightFromBracket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRightLeft;
 impl IconShape for FaRightLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18364,11 +21424,14 @@ impl IconShape for FaRightLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRightLong;
 impl IconShape for FaRightLong {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18382,11 +21445,14 @@ impl IconShape for FaRightLong {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRightToBracket;
 impl IconShape for FaRightToBracket {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18400,11 +21466,14 @@ impl IconShape for FaRightToBracket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRing;
 impl IconShape for FaRing {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18418,11 +21487,14 @@ impl IconShape for FaRing {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRoadBarrier;
 impl IconShape for FaRoadBarrier {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18436,11 +21508,14 @@ impl IconShape for FaRoadBarrier {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRoadBridge;
 impl IconShape for FaRoadBridge {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18454,11 +21529,14 @@ impl IconShape for FaRoadBridge {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRoadCircleCheck;
 impl IconShape for FaRoadCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18472,11 +21550,14 @@ impl IconShape for FaRoadCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRoadCircleExclamation;
 impl IconShape for FaRoadCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18490,11 +21571,14 @@ impl IconShape for FaRoadCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRoadCircleXmark;
 impl IconShape for FaRoadCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18508,11 +21592,14 @@ impl IconShape for FaRoadCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRoadLock;
 impl IconShape for FaRoadLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18526,11 +21613,14 @@ impl IconShape for FaRoadLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRoadSpikes;
 impl IconShape for FaRoadSpikes {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18544,11 +21634,14 @@ impl IconShape for FaRoadSpikes {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRoad;
 impl IconShape for FaRoad {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18562,11 +21655,14 @@ impl IconShape for FaRoad {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRobot;
 impl IconShape for FaRobot {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18580,11 +21676,14 @@ impl IconShape for FaRobot {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRocket;
 impl IconShape for FaRocket {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18598,11 +21697,14 @@ impl IconShape for FaRocket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRotateLeft;
 impl IconShape for FaRotateLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18616,11 +21718,14 @@ impl IconShape for FaRotateLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRotateRight;
 impl IconShape for FaRotateRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18634,11 +21739,14 @@ impl IconShape for FaRotateRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRotate;
 impl IconShape for FaRotate {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18652,11 +21760,14 @@ impl IconShape for FaRotate {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRoute;
 impl IconShape for FaRoute {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18670,11 +21781,14 @@ impl IconShape for FaRoute {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRss;
 impl IconShape for FaRss {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18688,11 +21802,14 @@ impl IconShape for FaRss {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRubleSign;
 impl IconShape for FaRubleSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18706,11 +21823,14 @@ impl IconShape for FaRubleSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRug;
 impl IconShape for FaRug {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18724,11 +21844,14 @@ impl IconShape for FaRug {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRulerCombined;
 impl IconShape for FaRulerCombined {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18742,11 +21865,14 @@ impl IconShape for FaRulerCombined {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRulerHorizontal;
 impl IconShape for FaRulerHorizontal {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18760,11 +21886,14 @@ impl IconShape for FaRulerHorizontal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRulerVertical;
 impl IconShape for FaRulerVertical {
-    fn view_box(&self) -> String {
-        String::from("0 0 256 512")
+    fn view_box(&self) -> &str {
+        "0 0 256 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18778,11 +21907,14 @@ impl IconShape for FaRulerVertical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRuler;
 impl IconShape for FaRuler {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18796,11 +21928,14 @@ impl IconShape for FaRuler {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRupeeSign;
 impl IconShape for FaRupeeSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18814,11 +21949,14 @@ impl IconShape for FaRupeeSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaRupiahSign;
 impl IconShape for FaRupiahSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18832,11 +21970,14 @@ impl IconShape for FaRupiahSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaS;
 impl IconShape for FaS {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18850,11 +21991,14 @@ impl IconShape for FaS {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSackDollar;
 impl IconShape for FaSackDollar {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18868,11 +22012,14 @@ impl IconShape for FaSackDollar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSackXmark;
 impl IconShape for FaSackXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18886,11 +22033,14 @@ impl IconShape for FaSackXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSailboat;
 impl IconShape for FaSailboat {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18904,11 +22054,14 @@ impl IconShape for FaSailboat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSatelliteDish;
 impl IconShape for FaSatelliteDish {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18922,11 +22075,14 @@ impl IconShape for FaSatelliteDish {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSatellite;
 impl IconShape for FaSatellite {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18940,11 +22096,14 @@ impl IconShape for FaSatellite {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaScaleBalanced;
 impl IconShape for FaScaleBalanced {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18958,11 +22117,14 @@ impl IconShape for FaScaleBalanced {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaScaleUnbalancedFlip;
 impl IconShape for FaScaleUnbalancedFlip {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18976,11 +22138,14 @@ impl IconShape for FaScaleUnbalancedFlip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaScaleUnbalanced;
 impl IconShape for FaScaleUnbalanced {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18994,11 +22159,14 @@ impl IconShape for FaScaleUnbalanced {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSchoolCircleCheck;
 impl IconShape for FaSchoolCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19012,11 +22180,14 @@ impl IconShape for FaSchoolCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSchoolCircleExclamation;
 impl IconShape for FaSchoolCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19030,11 +22201,14 @@ impl IconShape for FaSchoolCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSchoolCircleXmark;
 impl IconShape for FaSchoolCircleXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19048,11 +22222,14 @@ impl IconShape for FaSchoolCircleXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSchoolFlag;
 impl IconShape for FaSchoolFlag {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19066,11 +22243,14 @@ impl IconShape for FaSchoolFlag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSchoolLock;
 impl IconShape for FaSchoolLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19084,11 +22264,14 @@ impl IconShape for FaSchoolLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSchool;
 impl IconShape for FaSchool {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19102,11 +22285,14 @@ impl IconShape for FaSchool {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaScissors;
 impl IconShape for FaScissors {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19120,11 +22306,14 @@ impl IconShape for FaScissors {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaScrewdriverWrench;
 impl IconShape for FaScrewdriverWrench {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19138,11 +22327,14 @@ impl IconShape for FaScrewdriverWrench {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaScrewdriver;
 impl IconShape for FaScrewdriver {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19156,11 +22348,14 @@ impl IconShape for FaScrewdriver {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaScrollTorah;
 impl IconShape for FaScrollTorah {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19174,11 +22369,14 @@ impl IconShape for FaScrollTorah {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaScroll;
 impl IconShape for FaScroll {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19192,11 +22390,14 @@ impl IconShape for FaScroll {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSdCard;
 impl IconShape for FaSdCard {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19210,11 +22411,14 @@ impl IconShape for FaSdCard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSection;
 impl IconShape for FaSection {
-    fn view_box(&self) -> String {
-        String::from("0 0 256 512")
+    fn view_box(&self) -> &str {
+        "0 0 256 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19228,11 +22432,14 @@ impl IconShape for FaSection {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSeedling;
 impl IconShape for FaSeedling {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19246,11 +22453,14 @@ impl IconShape for FaSeedling {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaServer;
 impl IconShape for FaServer {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19264,11 +22474,14 @@ impl IconShape for FaServer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShapes;
 impl IconShape for FaShapes {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19282,11 +22495,14 @@ impl IconShape for FaShapes {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShareFromSquare;
 impl IconShape for FaShareFromSquare {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19300,11 +22516,14 @@ impl IconShape for FaShareFromSquare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShareNodes;
 impl IconShape for FaShareNodes {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19318,11 +22537,14 @@ impl IconShape for FaShareNodes {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShare;
 impl IconShape for FaShare {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19336,11 +22558,14 @@ impl IconShape for FaShare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSheetPlastic;
 impl IconShape for FaSheetPlastic {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19354,11 +22579,14 @@ impl IconShape for FaSheetPlastic {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShekelSign;
 impl IconShape for FaShekelSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19372,11 +22600,14 @@ impl IconShape for FaShekelSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShieldBlank;
 impl IconShape for FaShieldBlank {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19390,11 +22621,14 @@ impl IconShape for FaShieldBlank {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShieldCat;
 impl IconShape for FaShieldCat {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19408,11 +22642,14 @@ impl IconShape for FaShieldCat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShieldDog;
 impl IconShape for FaShieldDog {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19426,11 +22663,14 @@ impl IconShape for FaShieldDog {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShieldHalved;
 impl IconShape for FaShieldHalved {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19444,11 +22684,14 @@ impl IconShape for FaShieldHalved {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShieldHeart;
 impl IconShape for FaShieldHeart {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19462,11 +22705,14 @@ impl IconShape for FaShieldHeart {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShieldVirus;
 impl IconShape for FaShieldVirus {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19480,11 +22726,14 @@ impl IconShape for FaShieldVirus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShield;
 impl IconShape for FaShield {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19498,11 +22747,14 @@ impl IconShape for FaShield {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShip;
 impl IconShape for FaShip {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19516,11 +22768,14 @@ impl IconShape for FaShip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShirt;
 impl IconShape for FaShirt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19534,11 +22789,14 @@ impl IconShape for FaShirt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShoePrints;
 impl IconShape for FaShoePrints {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19552,11 +22810,14 @@ impl IconShape for FaShoePrints {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShopLock;
 impl IconShape for FaShopLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19570,11 +22831,14 @@ impl IconShape for FaShopLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShopSlash;
 impl IconShape for FaShopSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19588,11 +22852,14 @@ impl IconShape for FaShopSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShop;
 impl IconShape for FaShop {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19606,11 +22873,14 @@ impl IconShape for FaShop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShower;
 impl IconShape for FaShower {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19624,11 +22894,14 @@ impl IconShape for FaShower {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShrimp;
 impl IconShape for FaShrimp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19642,11 +22915,14 @@ impl IconShape for FaShrimp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShuffle;
 impl IconShape for FaShuffle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19660,11 +22936,14 @@ impl IconShape for FaShuffle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaShuttleSpace;
 impl IconShape for FaShuttleSpace {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19678,11 +22957,14 @@ impl IconShape for FaShuttleSpace {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSignHanging;
 impl IconShape for FaSignHanging {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19696,11 +22978,14 @@ impl IconShape for FaSignHanging {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSignal;
 impl IconShape for FaSignal {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19714,11 +22999,14 @@ impl IconShape for FaSignal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSignature;
 impl IconShape for FaSignature {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19732,11 +23020,14 @@ impl IconShape for FaSignature {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSignsPost;
 impl IconShape for FaSignsPost {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19750,11 +23041,14 @@ impl IconShape for FaSignsPost {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSimCard;
 impl IconShape for FaSimCard {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19768,11 +23062,14 @@ impl IconShape for FaSimCard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSink;
 impl IconShape for FaSink {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19786,11 +23083,14 @@ impl IconShape for FaSink {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSitemap;
 impl IconShape for FaSitemap {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19804,11 +23104,14 @@ impl IconShape for FaSitemap {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSkullCrossbones;
 impl IconShape for FaSkullCrossbones {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19822,11 +23125,14 @@ impl IconShape for FaSkullCrossbones {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSkull;
 impl IconShape for FaSkull {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19840,11 +23146,14 @@ impl IconShape for FaSkull {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSlash;
 impl IconShape for FaSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19858,11 +23167,14 @@ impl IconShape for FaSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSleigh;
 impl IconShape for FaSleigh {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19876,11 +23188,14 @@ impl IconShape for FaSleigh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSliders;
 impl IconShape for FaSliders {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19894,11 +23209,14 @@ impl IconShape for FaSliders {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSmog;
 impl IconShape for FaSmog {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19912,11 +23230,14 @@ impl IconShape for FaSmog {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSmoking;
 impl IconShape for FaSmoking {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19930,11 +23251,14 @@ impl IconShape for FaSmoking {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSnowflake;
 impl IconShape for FaSnowflake {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19948,11 +23272,14 @@ impl IconShape for FaSnowflake {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSnowman;
 impl IconShape for FaSnowman {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19966,11 +23293,14 @@ impl IconShape for FaSnowman {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSnowplow;
 impl IconShape for FaSnowplow {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19984,11 +23314,14 @@ impl IconShape for FaSnowplow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSoap;
 impl IconShape for FaSoap {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20002,11 +23335,14 @@ impl IconShape for FaSoap {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSocks;
 impl IconShape for FaSocks {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20020,11 +23356,14 @@ impl IconShape for FaSocks {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSolarPanel;
 impl IconShape for FaSolarPanel {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20038,11 +23377,14 @@ impl IconShape for FaSolarPanel {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSortDown;
 impl IconShape for FaSortDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20056,11 +23398,14 @@ impl IconShape for FaSortDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSortUp;
 impl IconShape for FaSortUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20074,11 +23419,14 @@ impl IconShape for FaSortUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSort;
 impl IconShape for FaSort {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20092,11 +23440,14 @@ impl IconShape for FaSort {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSpa;
 impl IconShape for FaSpa {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20110,11 +23461,14 @@ impl IconShape for FaSpa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSpaghettiMonsterFlying;
 impl IconShape for FaSpaghettiMonsterFlying {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20128,11 +23482,14 @@ impl IconShape for FaSpaghettiMonsterFlying {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSpellCheck;
 impl IconShape for FaSpellCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20146,11 +23503,14 @@ impl IconShape for FaSpellCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSpider;
 impl IconShape for FaSpider {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20164,11 +23524,14 @@ impl IconShape for FaSpider {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSpinner;
 impl IconShape for FaSpinner {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20182,11 +23545,14 @@ impl IconShape for FaSpinner {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSplotch;
 impl IconShape for FaSplotch {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20200,11 +23566,14 @@ impl IconShape for FaSplotch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSpoon;
 impl IconShape for FaSpoon {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20218,11 +23587,14 @@ impl IconShape for FaSpoon {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSprayCanSparkles;
 impl IconShape for FaSprayCanSparkles {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20236,11 +23608,14 @@ impl IconShape for FaSprayCanSparkles {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSprayCan;
 impl IconShape for FaSprayCan {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20254,11 +23629,14 @@ impl IconShape for FaSprayCan {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareArrowUpRight;
 impl IconShape for FaSquareArrowUpRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20272,11 +23650,14 @@ impl IconShape for FaSquareArrowUpRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareCaretDown;
 impl IconShape for FaSquareCaretDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20290,11 +23671,14 @@ impl IconShape for FaSquareCaretDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareCaretLeft;
 impl IconShape for FaSquareCaretLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20308,11 +23692,14 @@ impl IconShape for FaSquareCaretLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareCaretRight;
 impl IconShape for FaSquareCaretRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20326,11 +23713,14 @@ impl IconShape for FaSquareCaretRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareCaretUp;
 impl IconShape for FaSquareCaretUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20344,11 +23734,14 @@ impl IconShape for FaSquareCaretUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareCheck;
 impl IconShape for FaSquareCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20362,11 +23755,14 @@ impl IconShape for FaSquareCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareEnvelope;
 impl IconShape for FaSquareEnvelope {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20380,11 +23776,14 @@ impl IconShape for FaSquareEnvelope {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareFull;
 impl IconShape for FaSquareFull {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20398,11 +23797,14 @@ impl IconShape for FaSquareFull {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareH;
 impl IconShape for FaSquareH {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20416,11 +23818,14 @@ impl IconShape for FaSquareH {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareMinus;
 impl IconShape for FaSquareMinus {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20434,11 +23839,14 @@ impl IconShape for FaSquareMinus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareNfi;
 impl IconShape for FaSquareNfi {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20452,11 +23860,14 @@ impl IconShape for FaSquareNfi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareParking;
 impl IconShape for FaSquareParking {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20470,11 +23881,14 @@ impl IconShape for FaSquareParking {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquarePen;
 impl IconShape for FaSquarePen {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20488,11 +23902,14 @@ impl IconShape for FaSquarePen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquarePersonConfined;
 impl IconShape for FaSquarePersonConfined {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20506,11 +23923,14 @@ impl IconShape for FaSquarePersonConfined {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquarePhoneFlip;
 impl IconShape for FaSquarePhoneFlip {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20524,11 +23944,14 @@ impl IconShape for FaSquarePhoneFlip {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquarePhone;
 impl IconShape for FaSquarePhone {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20542,11 +23965,14 @@ impl IconShape for FaSquarePhone {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquarePlus;
 impl IconShape for FaSquarePlus {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20560,11 +23986,14 @@ impl IconShape for FaSquarePlus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquarePollHorizontal;
 impl IconShape for FaSquarePollHorizontal {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20578,11 +24007,14 @@ impl IconShape for FaSquarePollHorizontal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquarePollVertical;
 impl IconShape for FaSquarePollVertical {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20596,11 +24028,14 @@ impl IconShape for FaSquarePollVertical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareRootVariable;
 impl IconShape for FaSquareRootVariable {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20614,11 +24049,14 @@ impl IconShape for FaSquareRootVariable {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareRss;
 impl IconShape for FaSquareRss {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20632,11 +24070,14 @@ impl IconShape for FaSquareRss {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareShareNodes;
 impl IconShape for FaSquareShareNodes {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20650,11 +24091,14 @@ impl IconShape for FaSquareShareNodes {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareUpRight;
 impl IconShape for FaSquareUpRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20668,11 +24112,14 @@ impl IconShape for FaSquareUpRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareVirus;
 impl IconShape for FaSquareVirus {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20686,11 +24133,14 @@ impl IconShape for FaSquareVirus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquareXmark;
 impl IconShape for FaSquareXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20704,11 +24154,14 @@ impl IconShape for FaSquareXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSquare;
 impl IconShape for FaSquare {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20722,11 +24175,14 @@ impl IconShape for FaSquare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStaffAesculapius;
 impl IconShape for FaStaffAesculapius {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20740,11 +24196,14 @@ impl IconShape for FaStaffAesculapius {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStairs;
 impl IconShape for FaStairs {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20758,11 +24217,14 @@ impl IconShape for FaStairs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStamp;
 impl IconShape for FaStamp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20776,11 +24238,14 @@ impl IconShape for FaStamp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStarAndCrescent;
 impl IconShape for FaStarAndCrescent {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20794,11 +24259,14 @@ impl IconShape for FaStarAndCrescent {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStarHalfStroke;
 impl IconShape for FaStarHalfStroke {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20812,11 +24280,14 @@ impl IconShape for FaStarHalfStroke {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStarHalf;
 impl IconShape for FaStarHalf {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20830,11 +24301,14 @@ impl IconShape for FaStarHalf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStarOfDavid;
 impl IconShape for FaStarOfDavid {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20848,11 +24322,14 @@ impl IconShape for FaStarOfDavid {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStarOfLife;
 impl IconShape for FaStarOfLife {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20866,11 +24343,14 @@ impl IconShape for FaStarOfLife {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStar;
 impl IconShape for FaStar {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20884,11 +24364,14 @@ impl IconShape for FaStar {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSterlingSign;
 impl IconShape for FaSterlingSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20902,11 +24385,14 @@ impl IconShape for FaSterlingSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStethoscope;
 impl IconShape for FaStethoscope {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20920,11 +24406,14 @@ impl IconShape for FaStethoscope {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStop;
 impl IconShape for FaStop {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20938,11 +24427,14 @@ impl IconShape for FaStop {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStopwatch20;
 impl IconShape for FaStopwatch20 {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20956,11 +24448,14 @@ impl IconShape for FaStopwatch20 {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStopwatch;
 impl IconShape for FaStopwatch {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20974,11 +24469,14 @@ impl IconShape for FaStopwatch {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStoreSlash;
 impl IconShape for FaStoreSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20992,11 +24490,14 @@ impl IconShape for FaStoreSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStore;
 impl IconShape for FaStore {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21010,11 +24511,14 @@ impl IconShape for FaStore {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStreetView;
 impl IconShape for FaStreetView {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21028,11 +24532,14 @@ impl IconShape for FaStreetView {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStrikethrough;
 impl IconShape for FaStrikethrough {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21046,11 +24553,14 @@ impl IconShape for FaStrikethrough {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaStroopwafel;
 impl IconShape for FaStroopwafel {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21064,11 +24574,14 @@ impl IconShape for FaStroopwafel {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSubscript;
 impl IconShape for FaSubscript {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21082,11 +24595,14 @@ impl IconShape for FaSubscript {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSuitcaseMedical;
 impl IconShape for FaSuitcaseMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21100,11 +24616,14 @@ impl IconShape for FaSuitcaseMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSuitcaseRolling;
 impl IconShape for FaSuitcaseRolling {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21118,11 +24637,14 @@ impl IconShape for FaSuitcaseRolling {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSuitcase;
 impl IconShape for FaSuitcase {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21136,11 +24658,14 @@ impl IconShape for FaSuitcase {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSunPlantWilt;
 impl IconShape for FaSunPlantWilt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21154,11 +24679,14 @@ impl IconShape for FaSunPlantWilt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSun;
 impl IconShape for FaSun {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21172,11 +24700,14 @@ impl IconShape for FaSun {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSuperscript;
 impl IconShape for FaSuperscript {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21190,11 +24721,14 @@ impl IconShape for FaSuperscript {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSwatchbook;
 impl IconShape for FaSwatchbook {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21208,11 +24742,14 @@ impl IconShape for FaSwatchbook {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSynagogue;
 impl IconShape for FaSynagogue {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21226,11 +24763,14 @@ impl IconShape for FaSynagogue {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaSyringe;
 impl IconShape for FaSyringe {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21244,11 +24784,14 @@ impl IconShape for FaSyringe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaT;
 impl IconShape for FaT {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21262,11 +24805,14 @@ impl IconShape for FaT {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTableCellsLarge;
 impl IconShape for FaTableCellsLarge {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21280,11 +24826,14 @@ impl IconShape for FaTableCellsLarge {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTableCells;
 impl IconShape for FaTableCells {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21298,11 +24847,14 @@ impl IconShape for FaTableCells {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTableColumns;
 impl IconShape for FaTableColumns {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21316,11 +24868,14 @@ impl IconShape for FaTableColumns {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTableList;
 impl IconShape for FaTableList {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21334,11 +24889,14 @@ impl IconShape for FaTableList {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTableTennisPaddleBall;
 impl IconShape for FaTableTennisPaddleBall {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21352,11 +24910,14 @@ impl IconShape for FaTableTennisPaddleBall {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTable;
 impl IconShape for FaTable {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21370,11 +24931,14 @@ impl IconShape for FaTable {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTabletButton;
 impl IconShape for FaTabletButton {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21388,11 +24952,14 @@ impl IconShape for FaTabletButton {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTabletScreenButton;
 impl IconShape for FaTabletScreenButton {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21406,11 +24973,14 @@ impl IconShape for FaTabletScreenButton {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTablet;
 impl IconShape for FaTablet {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21424,11 +24994,14 @@ impl IconShape for FaTablet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTablets;
 impl IconShape for FaTablets {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21442,11 +25015,14 @@ impl IconShape for FaTablets {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTachographDigital;
 impl IconShape for FaTachographDigital {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21460,11 +25036,14 @@ impl IconShape for FaTachographDigital {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTag;
 impl IconShape for FaTag {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21478,11 +25057,14 @@ impl IconShape for FaTag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTags;
 impl IconShape for FaTags {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21496,11 +25078,14 @@ impl IconShape for FaTags {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTape;
 impl IconShape for FaTape {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21514,11 +25099,14 @@ impl IconShape for FaTape {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTarpDroplet;
 impl IconShape for FaTarpDroplet {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21532,11 +25120,14 @@ impl IconShape for FaTarpDroplet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTarp;
 impl IconShape for FaTarp {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21550,11 +25141,14 @@ impl IconShape for FaTarp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTaxi;
 impl IconShape for FaTaxi {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21568,11 +25162,14 @@ impl IconShape for FaTaxi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTeethOpen;
 impl IconShape for FaTeethOpen {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21586,11 +25183,14 @@ impl IconShape for FaTeethOpen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTeeth;
 impl IconShape for FaTeeth {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21604,11 +25204,14 @@ impl IconShape for FaTeeth {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTemperatureArrowDown;
 impl IconShape for FaTemperatureArrowDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21622,11 +25225,14 @@ impl IconShape for FaTemperatureArrowDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTemperatureArrowUp;
 impl IconShape for FaTemperatureArrowUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21640,11 +25246,14 @@ impl IconShape for FaTemperatureArrowUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTemperatureEmpty;
 impl IconShape for FaTemperatureEmpty {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21658,11 +25267,14 @@ impl IconShape for FaTemperatureEmpty {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTemperatureFull;
 impl IconShape for FaTemperatureFull {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21676,11 +25288,14 @@ impl IconShape for FaTemperatureFull {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTemperatureHalf;
 impl IconShape for FaTemperatureHalf {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21694,11 +25309,14 @@ impl IconShape for FaTemperatureHalf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTemperatureHigh;
 impl IconShape for FaTemperatureHigh {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21712,11 +25330,14 @@ impl IconShape for FaTemperatureHigh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTemperatureLow;
 impl IconShape for FaTemperatureLow {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21730,11 +25351,14 @@ impl IconShape for FaTemperatureLow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTemperatureQuarter;
 impl IconShape for FaTemperatureQuarter {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21748,11 +25372,14 @@ impl IconShape for FaTemperatureQuarter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTemperatureThreeQuarters;
 impl IconShape for FaTemperatureThreeQuarters {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21766,11 +25393,14 @@ impl IconShape for FaTemperatureThreeQuarters {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTengeSign;
 impl IconShape for FaTengeSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21784,11 +25414,14 @@ impl IconShape for FaTengeSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTentArrowDownToLine;
 impl IconShape for FaTentArrowDownToLine {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21802,11 +25435,14 @@ impl IconShape for FaTentArrowDownToLine {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTentArrowLeftRight;
 impl IconShape for FaTentArrowLeftRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21820,11 +25456,14 @@ impl IconShape for FaTentArrowLeftRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTentArrowTurnLeft;
 impl IconShape for FaTentArrowTurnLeft {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21838,11 +25477,14 @@ impl IconShape for FaTentArrowTurnLeft {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTentArrowsDown;
 impl IconShape for FaTentArrowsDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21856,11 +25498,14 @@ impl IconShape for FaTentArrowsDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTent;
 impl IconShape for FaTent {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21874,11 +25519,14 @@ impl IconShape for FaTent {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTents;
 impl IconShape for FaTents {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21892,11 +25540,14 @@ impl IconShape for FaTents {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTerminal;
 impl IconShape for FaTerminal {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21910,11 +25561,14 @@ impl IconShape for FaTerminal {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTextHeight;
 impl IconShape for FaTextHeight {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21928,11 +25582,14 @@ impl IconShape for FaTextHeight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTextSlash;
 impl IconShape for FaTextSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21946,11 +25603,14 @@ impl IconShape for FaTextSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTextWidth;
 impl IconShape for FaTextWidth {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21964,11 +25624,14 @@ impl IconShape for FaTextWidth {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaThermometer;
 impl IconShape for FaThermometer {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21982,11 +25645,14 @@ impl IconShape for FaThermometer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaThumbsDown;
 impl IconShape for FaThumbsDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22000,11 +25666,14 @@ impl IconShape for FaThumbsDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaThumbsUp;
 impl IconShape for FaThumbsUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22018,11 +25687,14 @@ impl IconShape for FaThumbsUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaThumbtack;
 impl IconShape for FaThumbtack {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22036,11 +25708,14 @@ impl IconShape for FaThumbtack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTicketSimple;
 impl IconShape for FaTicketSimple {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22054,11 +25729,14 @@ impl IconShape for FaTicketSimple {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTicket;
 impl IconShape for FaTicket {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22072,11 +25750,14 @@ impl IconShape for FaTicket {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTimeline;
 impl IconShape for FaTimeline {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22090,11 +25771,14 @@ impl IconShape for FaTimeline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaToggleOff;
 impl IconShape for FaToggleOff {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22108,11 +25792,14 @@ impl IconShape for FaToggleOff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaToggleOn;
 impl IconShape for FaToggleOn {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22126,11 +25813,14 @@ impl IconShape for FaToggleOn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaToiletPaperSlash;
 impl IconShape for FaToiletPaperSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22144,11 +25834,14 @@ impl IconShape for FaToiletPaperSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaToiletPaper;
 impl IconShape for FaToiletPaper {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22162,11 +25855,14 @@ impl IconShape for FaToiletPaper {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaToiletPortable;
 impl IconShape for FaToiletPortable {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22180,11 +25876,14 @@ impl IconShape for FaToiletPortable {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaToilet;
 impl IconShape for FaToilet {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22198,11 +25897,14 @@ impl IconShape for FaToilet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaToiletsPortable;
 impl IconShape for FaToiletsPortable {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22216,11 +25918,14 @@ impl IconShape for FaToiletsPortable {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaToolbox;
 impl IconShape for FaToolbox {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22234,11 +25939,14 @@ impl IconShape for FaToolbox {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTooth;
 impl IconShape for FaTooth {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22252,11 +25960,14 @@ impl IconShape for FaTooth {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaToriiGate;
 impl IconShape for FaToriiGate {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22270,11 +25981,14 @@ impl IconShape for FaToriiGate {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTornado;
 impl IconShape for FaTornado {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22288,11 +26002,14 @@ impl IconShape for FaTornado {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTowerBroadcast;
 impl IconShape for FaTowerBroadcast {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22306,11 +26023,14 @@ impl IconShape for FaTowerBroadcast {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTowerCell;
 impl IconShape for FaTowerCell {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22324,11 +26044,14 @@ impl IconShape for FaTowerCell {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTowerObservation;
 impl IconShape for FaTowerObservation {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22342,11 +26065,14 @@ impl IconShape for FaTowerObservation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTractor;
 impl IconShape for FaTractor {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22360,11 +26086,14 @@ impl IconShape for FaTractor {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTrademark;
 impl IconShape for FaTrademark {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22378,11 +26107,14 @@ impl IconShape for FaTrademark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTrafficLight;
 impl IconShape for FaTrafficLight {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22396,11 +26128,14 @@ impl IconShape for FaTrafficLight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTrailer;
 impl IconShape for FaTrailer {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22414,11 +26149,14 @@ impl IconShape for FaTrailer {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTrainSubway;
 impl IconShape for FaTrainSubway {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22432,11 +26170,14 @@ impl IconShape for FaTrainSubway {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTrainTram;
 impl IconShape for FaTrainTram {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22450,11 +26191,14 @@ impl IconShape for FaTrainTram {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTrain;
 impl IconShape for FaTrain {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22468,11 +26212,14 @@ impl IconShape for FaTrain {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTransgender;
 impl IconShape for FaTransgender {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22486,11 +26233,14 @@ impl IconShape for FaTransgender {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTrashArrowUp;
 impl IconShape for FaTrashArrowUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22504,11 +26254,14 @@ impl IconShape for FaTrashArrowUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTrashCanArrowUp;
 impl IconShape for FaTrashCanArrowUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22522,11 +26275,14 @@ impl IconShape for FaTrashCanArrowUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTrashCan;
 impl IconShape for FaTrashCan {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22540,11 +26296,14 @@ impl IconShape for FaTrashCan {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTrash;
 impl IconShape for FaTrash {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22558,11 +26317,14 @@ impl IconShape for FaTrash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTreeCity;
 impl IconShape for FaTreeCity {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22576,11 +26338,14 @@ impl IconShape for FaTreeCity {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTree;
 impl IconShape for FaTree {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22594,11 +26359,14 @@ impl IconShape for FaTree {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTriangleExclamation;
 impl IconShape for FaTriangleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22612,11 +26380,14 @@ impl IconShape for FaTriangleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTrophy;
 impl IconShape for FaTrophy {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22630,11 +26401,14 @@ impl IconShape for FaTrophy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTrowelBricks;
 impl IconShape for FaTrowelBricks {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22648,11 +26422,14 @@ impl IconShape for FaTrowelBricks {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTrowel;
 impl IconShape for FaTrowel {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22666,11 +26443,14 @@ impl IconShape for FaTrowel {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTruckArrowRight;
 impl IconShape for FaTruckArrowRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22684,11 +26464,14 @@ impl IconShape for FaTruckArrowRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTruckDroplet;
 impl IconShape for FaTruckDroplet {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22702,11 +26485,14 @@ impl IconShape for FaTruckDroplet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTruckFast;
 impl IconShape for FaTruckFast {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22720,11 +26506,14 @@ impl IconShape for FaTruckFast {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTruckFieldUn;
 impl IconShape for FaTruckFieldUn {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22738,11 +26527,14 @@ impl IconShape for FaTruckFieldUn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTruckField;
 impl IconShape for FaTruckField {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22756,11 +26548,14 @@ impl IconShape for FaTruckField {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTruckFront;
 impl IconShape for FaTruckFront {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22774,11 +26569,14 @@ impl IconShape for FaTruckFront {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTruckMedical;
 impl IconShape for FaTruckMedical {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22792,11 +26590,14 @@ impl IconShape for FaTruckMedical {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTruckMonster;
 impl IconShape for FaTruckMonster {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22810,11 +26611,14 @@ impl IconShape for FaTruckMonster {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTruckMoving;
 impl IconShape for FaTruckMoving {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22828,11 +26632,14 @@ impl IconShape for FaTruckMoving {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTruckPickup;
 impl IconShape for FaTruckPickup {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22846,11 +26653,14 @@ impl IconShape for FaTruckPickup {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTruckPlane;
 impl IconShape for FaTruckPlane {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22864,11 +26674,14 @@ impl IconShape for FaTruckPlane {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTruckRampBox;
 impl IconShape for FaTruckRampBox {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22882,11 +26695,14 @@ impl IconShape for FaTruckRampBox {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTruck;
 impl IconShape for FaTruck {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22900,11 +26716,14 @@ impl IconShape for FaTruck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTty;
 impl IconShape for FaTty {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22918,11 +26737,14 @@ impl IconShape for FaTty {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTurkishLiraSign;
 impl IconShape for FaTurkishLiraSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22936,11 +26758,14 @@ impl IconShape for FaTurkishLiraSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTurnDown;
 impl IconShape for FaTurnDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22954,11 +26779,14 @@ impl IconShape for FaTurnDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTurnUp;
 impl IconShape for FaTurnUp {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22972,11 +26800,14 @@ impl IconShape for FaTurnUp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaTv;
 impl IconShape for FaTv {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22990,11 +26821,14 @@ impl IconShape for FaTv {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaU;
 impl IconShape for FaU {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23008,11 +26842,14 @@ impl IconShape for FaU {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUmbrellaBeach;
 impl IconShape for FaUmbrellaBeach {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23026,11 +26863,14 @@ impl IconShape for FaUmbrellaBeach {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUmbrella;
 impl IconShape for FaUmbrella {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23044,11 +26884,14 @@ impl IconShape for FaUmbrella {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUnderline;
 impl IconShape for FaUnderline {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23062,11 +26905,14 @@ impl IconShape for FaUnderline {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUniversalAccess;
 impl IconShape for FaUniversalAccess {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23080,11 +26926,14 @@ impl IconShape for FaUniversalAccess {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUnlockKeyhole;
 impl IconShape for FaUnlockKeyhole {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23098,11 +26947,14 @@ impl IconShape for FaUnlockKeyhole {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUnlock;
 impl IconShape for FaUnlock {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23116,11 +26968,14 @@ impl IconShape for FaUnlock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUpDownLeftRight;
 impl IconShape for FaUpDownLeftRight {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23134,11 +26989,14 @@ impl IconShape for FaUpDownLeftRight {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUpDown;
 impl IconShape for FaUpDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 256 512")
+    fn view_box(&self) -> &str {
+        "0 0 256 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23152,11 +27010,14 @@ impl IconShape for FaUpDown {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUpLong;
 impl IconShape for FaUpLong {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23170,11 +27031,14 @@ impl IconShape for FaUpLong {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUpRightAndDownLeftFromCenter;
 impl IconShape for FaUpRightAndDownLeftFromCenter {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23188,11 +27052,14 @@ impl IconShape for FaUpRightAndDownLeftFromCenter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUpRightFromSquare;
 impl IconShape for FaUpRightFromSquare {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23206,11 +27073,14 @@ impl IconShape for FaUpRightFromSquare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUpload;
 impl IconShape for FaUpload {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23224,11 +27094,14 @@ impl IconShape for FaUpload {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserAstronaut;
 impl IconShape for FaUserAstronaut {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23242,11 +27115,14 @@ impl IconShape for FaUserAstronaut {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserCheck;
 impl IconShape for FaUserCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23260,11 +27136,14 @@ impl IconShape for FaUserCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserClock;
 impl IconShape for FaUserClock {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23278,11 +27157,14 @@ impl IconShape for FaUserClock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserDoctor;
 impl IconShape for FaUserDoctor {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23296,11 +27178,14 @@ impl IconShape for FaUserDoctor {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserGear;
 impl IconShape for FaUserGear {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23314,11 +27199,14 @@ impl IconShape for FaUserGear {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserGraduate;
 impl IconShape for FaUserGraduate {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23332,11 +27220,14 @@ impl IconShape for FaUserGraduate {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserGroup;
 impl IconShape for FaUserGroup {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23350,11 +27241,14 @@ impl IconShape for FaUserGroup {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserInjured;
 impl IconShape for FaUserInjured {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23368,11 +27262,14 @@ impl IconShape for FaUserInjured {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserLargeSlash;
 impl IconShape for FaUserLargeSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23386,11 +27283,14 @@ impl IconShape for FaUserLargeSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserLarge;
 impl IconShape for FaUserLarge {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23404,11 +27304,14 @@ impl IconShape for FaUserLarge {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserLock;
 impl IconShape for FaUserLock {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23422,11 +27325,14 @@ impl IconShape for FaUserLock {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserMinus;
 impl IconShape for FaUserMinus {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23440,11 +27346,14 @@ impl IconShape for FaUserMinus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserNinja;
 impl IconShape for FaUserNinja {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23458,11 +27367,14 @@ impl IconShape for FaUserNinja {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserNurse;
 impl IconShape for FaUserNurse {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23476,11 +27388,14 @@ impl IconShape for FaUserNurse {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserPen;
 impl IconShape for FaUserPen {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23494,11 +27409,14 @@ impl IconShape for FaUserPen {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserPlus;
 impl IconShape for FaUserPlus {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23512,11 +27430,14 @@ impl IconShape for FaUserPlus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserSecret;
 impl IconShape for FaUserSecret {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23530,11 +27451,14 @@ impl IconShape for FaUserSecret {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserShield;
 impl IconShape for FaUserShield {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23548,11 +27472,14 @@ impl IconShape for FaUserShield {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserSlash;
 impl IconShape for FaUserSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23566,11 +27493,14 @@ impl IconShape for FaUserSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserTag;
 impl IconShape for FaUserTag {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23584,11 +27514,14 @@ impl IconShape for FaUserTag {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserTie;
 impl IconShape for FaUserTie {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23602,11 +27535,14 @@ impl IconShape for FaUserTie {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUserXmark;
 impl IconShape for FaUserXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23620,11 +27556,14 @@ impl IconShape for FaUserXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUser;
 impl IconShape for FaUser {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23638,11 +27577,14 @@ impl IconShape for FaUser {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUsersBetweenLines;
 impl IconShape for FaUsersBetweenLines {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23656,11 +27598,14 @@ impl IconShape for FaUsersBetweenLines {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUsersGear;
 impl IconShape for FaUsersGear {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23674,11 +27619,14 @@ impl IconShape for FaUsersGear {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUsersLine;
 impl IconShape for FaUsersLine {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23692,11 +27640,14 @@ impl IconShape for FaUsersLine {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUsersRays;
 impl IconShape for FaUsersRays {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23710,11 +27661,14 @@ impl IconShape for FaUsersRays {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUsersRectangle;
 impl IconShape for FaUsersRectangle {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23728,11 +27682,14 @@ impl IconShape for FaUsersRectangle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUsersSlash;
 impl IconShape for FaUsersSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23746,11 +27703,14 @@ impl IconShape for FaUsersSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUsersViewfinder;
 impl IconShape for FaUsersViewfinder {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23764,11 +27724,14 @@ impl IconShape for FaUsersViewfinder {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUsers;
 impl IconShape for FaUsers {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23782,11 +27745,14 @@ impl IconShape for FaUsers {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaUtensils;
 impl IconShape for FaUtensils {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23800,11 +27766,14 @@ impl IconShape for FaUtensils {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaV;
 impl IconShape for FaV {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23818,11 +27787,14 @@ impl IconShape for FaV {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVanShuttle;
 impl IconShape for FaVanShuttle {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23836,11 +27808,14 @@ impl IconShape for FaVanShuttle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVault;
 impl IconShape for FaVault {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23854,11 +27829,14 @@ impl IconShape for FaVault {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVectorSquare;
 impl IconShape for FaVectorSquare {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23872,11 +27850,14 @@ impl IconShape for FaVectorSquare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVenusDouble;
 impl IconShape for FaVenusDouble {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23890,11 +27871,14 @@ impl IconShape for FaVenusDouble {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVenusMars;
 impl IconShape for FaVenusMars {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23908,11 +27892,14 @@ impl IconShape for FaVenusMars {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVenus;
 impl IconShape for FaVenus {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23926,11 +27913,14 @@ impl IconShape for FaVenus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVestPatches;
 impl IconShape for FaVestPatches {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23944,11 +27934,14 @@ impl IconShape for FaVestPatches {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVest;
 impl IconShape for FaVest {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23962,11 +27955,14 @@ impl IconShape for FaVest {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVialCircleCheck;
 impl IconShape for FaVialCircleCheck {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23980,11 +27976,14 @@ impl IconShape for FaVialCircleCheck {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVialVirus;
 impl IconShape for FaVialVirus {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23998,11 +27997,14 @@ impl IconShape for FaVialVirus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVial;
 impl IconShape for FaVial {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24016,11 +28018,14 @@ impl IconShape for FaVial {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVials;
 impl IconShape for FaVials {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24034,11 +28039,14 @@ impl IconShape for FaVials {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVideoSlash;
 impl IconShape for FaVideoSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24052,11 +28060,14 @@ impl IconShape for FaVideoSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVideo;
 impl IconShape for FaVideo {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24070,11 +28081,14 @@ impl IconShape for FaVideo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVihara;
 impl IconShape for FaVihara {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24088,11 +28102,14 @@ impl IconShape for FaVihara {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVirusCovidSlash;
 impl IconShape for FaVirusCovidSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24106,11 +28123,14 @@ impl IconShape for FaVirusCovidSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVirusCovid;
 impl IconShape for FaVirusCovid {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24124,11 +28144,14 @@ impl IconShape for FaVirusCovid {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVirusSlash;
 impl IconShape for FaVirusSlash {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24142,11 +28165,14 @@ impl IconShape for FaVirusSlash {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVirus;
 impl IconShape for FaVirus {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24160,11 +28186,14 @@ impl IconShape for FaVirus {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaViruses;
 impl IconShape for FaViruses {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24178,11 +28207,14 @@ impl IconShape for FaViruses {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVoicemail;
 impl IconShape for FaVoicemail {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24196,11 +28228,14 @@ impl IconShape for FaVoicemail {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVolcano;
 impl IconShape for FaVolcano {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24214,11 +28249,14 @@ impl IconShape for FaVolcano {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVolleyball;
 impl IconShape for FaVolleyball {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24232,11 +28270,14 @@ impl IconShape for FaVolleyball {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVolumeHigh;
 impl IconShape for FaVolumeHigh {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24250,11 +28291,14 @@ impl IconShape for FaVolumeHigh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVolumeLow;
 impl IconShape for FaVolumeLow {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24268,11 +28312,14 @@ impl IconShape for FaVolumeLow {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVolumeOff;
 impl IconShape for FaVolumeOff {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24286,11 +28333,14 @@ impl IconShape for FaVolumeOff {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVolumeXmark;
 impl IconShape for FaVolumeXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24304,11 +28354,14 @@ impl IconShape for FaVolumeXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaVrCardboard;
 impl IconShape for FaVrCardboard {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24322,11 +28375,14 @@ impl IconShape for FaVrCardboard {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaW;
 impl IconShape for FaW {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24340,11 +28396,14 @@ impl IconShape for FaW {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWalkieTalkie;
 impl IconShape for FaWalkieTalkie {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24358,11 +28417,14 @@ impl IconShape for FaWalkieTalkie {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWallet;
 impl IconShape for FaWallet {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24376,11 +28438,14 @@ impl IconShape for FaWallet {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWandMagicSparkles;
 impl IconShape for FaWandMagicSparkles {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24394,11 +28459,14 @@ impl IconShape for FaWandMagicSparkles {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWandMagic;
 impl IconShape for FaWandMagic {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24412,11 +28480,14 @@ impl IconShape for FaWandMagic {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWandSparkles;
 impl IconShape for FaWandSparkles {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24430,11 +28501,14 @@ impl IconShape for FaWandSparkles {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWarehouse;
 impl IconShape for FaWarehouse {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24448,11 +28522,14 @@ impl IconShape for FaWarehouse {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWaterLadder;
 impl IconShape for FaWaterLadder {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24466,11 +28543,14 @@ impl IconShape for FaWaterLadder {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWater;
 impl IconShape for FaWater {
-    fn view_box(&self) -> String {
-        String::from("0 0 576 512")
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24484,11 +28564,14 @@ impl IconShape for FaWater {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWaveSquare;
 impl IconShape for FaWaveSquare {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24502,11 +28585,14 @@ impl IconShape for FaWaveSquare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWeightHanging;
 impl IconShape for FaWeightHanging {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24520,11 +28606,14 @@ impl IconShape for FaWeightHanging {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWeightScale;
 impl IconShape for FaWeightScale {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24538,11 +28627,14 @@ impl IconShape for FaWeightScale {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWheatAwnCircleExclamation;
 impl IconShape for FaWheatAwnCircleExclamation {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24556,11 +28648,14 @@ impl IconShape for FaWheatAwnCircleExclamation {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWheatAwn;
 impl IconShape for FaWheatAwn {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24574,11 +28669,14 @@ impl IconShape for FaWheatAwn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWheelchairMove;
 impl IconShape for FaWheelchairMove {
-    fn view_box(&self) -> String {
-        String::from("0 0 448 512")
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24592,11 +28690,14 @@ impl IconShape for FaWheelchairMove {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWheelchair;
 impl IconShape for FaWheelchair {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24610,11 +28711,14 @@ impl IconShape for FaWheelchair {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWhiskeyGlass;
 impl IconShape for FaWhiskeyGlass {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24628,11 +28732,14 @@ impl IconShape for FaWhiskeyGlass {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWifi;
 impl IconShape for FaWifi {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24646,11 +28753,14 @@ impl IconShape for FaWifi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWind;
 impl IconShape for FaWind {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24664,11 +28774,14 @@ impl IconShape for FaWind {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWindowMaximize;
 impl IconShape for FaWindowMaximize {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24682,11 +28795,14 @@ impl IconShape for FaWindowMaximize {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWindowMinimize;
 impl IconShape for FaWindowMinimize {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24700,11 +28816,14 @@ impl IconShape for FaWindowMinimize {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWindowRestore;
 impl IconShape for FaWindowRestore {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24718,11 +28837,14 @@ impl IconShape for FaWindowRestore {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWineBottle;
 impl IconShape for FaWineBottle {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24736,11 +28858,14 @@ impl IconShape for FaWineBottle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWineGlassEmpty;
 impl IconShape for FaWineGlassEmpty {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24754,11 +28879,14 @@ impl IconShape for FaWineGlassEmpty {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWineGlass;
 impl IconShape for FaWineGlass {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24772,11 +28900,14 @@ impl IconShape for FaWineGlass {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWonSign;
 impl IconShape for FaWonSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24790,11 +28921,14 @@ impl IconShape for FaWonSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWorm;
 impl IconShape for FaWorm {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24808,11 +28942,14 @@ impl IconShape for FaWorm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaWrench;
 impl IconShape for FaWrench {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24826,11 +28963,14 @@ impl IconShape for FaWrench {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaXRay;
 impl IconShape for FaXRay {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24844,11 +28984,14 @@ impl IconShape for FaXRay {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaX;
 impl IconShape for FaX {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24862,11 +29005,14 @@ impl IconShape for FaX {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaXmark;
 impl IconShape for FaXmark {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24880,11 +29026,14 @@ impl IconShape for FaXmark {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaXmarksLines;
 impl IconShape for FaXmarksLines {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 512")
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24898,11 +29047,14 @@ impl IconShape for FaXmarksLines {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaY;
 impl IconShape for FaY {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24916,11 +29068,14 @@ impl IconShape for FaY {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaYenSign;
 impl IconShape for FaYenSign {
-    fn view_box(&self) -> String {
-        String::from("0 0 320 512")
+    fn view_box(&self) -> &str {
+        "0 0 320 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24934,11 +29089,14 @@ impl IconShape for FaYenSign {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaYinYang;
 impl IconShape for FaYinYang {
-    fn view_box(&self) -> String {
-        String::from("0 0 512 512")
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24952,11 +29110,14 @@ impl IconShape for FaYinYang {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FaZ;
 impl IconShape for FaZ {
-    fn view_box(&self) -> String {
-        String::from("0 0 384 512")
+    fn view_box(&self) -> &str {
+        "0 0 384 512"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
