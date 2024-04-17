@@ -11,7 +11,7 @@ impl IconShape for IoAccessibilityOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -43,7 +43,7 @@ impl IconShape for IoAccessibilitySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -67,7 +67,7 @@ impl IconShape for IoAccessibility {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -91,7 +91,7 @@ impl IconShape for IoAddCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -127,7 +127,7 @@ impl IconShape for IoAddCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -148,7 +148,7 @@ impl IconShape for IoAddCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -169,7 +169,7 @@ impl IconShape for IoAddOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -201,7 +201,7 @@ impl IconShape for IoAddSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -233,7 +233,7 @@ impl IconShape for IoAdd {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -265,7 +265,7 @@ impl IconShape for IoAirplaneOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -287,7 +287,7 @@ impl IconShape for IoAirplaneSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -308,7 +308,7 @@ impl IconShape for IoAirplane {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -329,7 +329,7 @@ impl IconShape for IoAlarmOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -377,7 +377,7 @@ impl IconShape for IoAlarmSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -404,7 +404,7 @@ impl IconShape for IoAlarm {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -431,7 +431,7 @@ impl IconShape for IoAlbumsOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -472,7 +472,7 @@ impl IconShape for IoAlbumsSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -505,7 +505,7 @@ impl IconShape for IoAlbums {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -532,7 +532,7 @@ impl IconShape for IoAlertCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -561,7 +561,7 @@ impl IconShape for IoAlertCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -586,7 +586,7 @@ impl IconShape for IoAlertCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -607,7 +607,7 @@ impl IconShape for IoAlertOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -635,7 +635,7 @@ impl IconShape for IoAlertSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -664,7 +664,7 @@ impl IconShape for IoAlert {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -692,7 +692,7 @@ impl IconShape for IoAmericanFootballOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -760,7 +760,7 @@ impl IconShape for IoAmericanFootballSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -787,7 +787,7 @@ impl IconShape for IoAmericanFootball {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -814,7 +814,7 @@ impl IconShape for IoAnalyticsOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -877,7 +877,7 @@ impl IconShape for IoAnalyticsSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -898,7 +898,7 @@ impl IconShape for IoAnalytics {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -919,7 +919,7 @@ impl IconShape for IoApertureOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -997,7 +997,7 @@ impl IconShape for IoApertureSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1042,7 +1042,7 @@ impl IconShape for IoAperture {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1087,7 +1087,7 @@ impl IconShape for IoAppsOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1186,7 +1186,7 @@ impl IconShape for IoAppsSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1276,7 +1276,7 @@ impl IconShape for IoApps {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1321,7 +1321,7 @@ impl IconShape for IoArchiveOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1363,7 +1363,7 @@ impl IconShape for IoArchiveSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1392,7 +1392,7 @@ impl IconShape for IoArchive {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1421,7 +1421,7 @@ impl IconShape for IoArrowBackCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1454,7 +1454,7 @@ impl IconShape for IoArrowBackCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1475,7 +1475,7 @@ impl IconShape for IoArrowBackCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1496,7 +1496,7 @@ impl IconShape for IoArrowBackOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1525,7 +1525,7 @@ impl IconShape for IoArrowBackSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1554,7 +1554,7 @@ impl IconShape for IoArrowBack {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1583,7 +1583,7 @@ impl IconShape for IoArrowDownCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1616,7 +1616,7 @@ impl IconShape for IoArrowDownCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1637,7 +1637,7 @@ impl IconShape for IoArrowDownCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1658,7 +1658,7 @@ impl IconShape for IoArrowDownOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1687,7 +1687,7 @@ impl IconShape for IoArrowDownSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1716,7 +1716,7 @@ impl IconShape for IoArrowDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1745,7 +1745,7 @@ impl IconShape for IoArrowForwardCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1778,7 +1778,7 @@ impl IconShape for IoArrowForwardCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1799,7 +1799,7 @@ impl IconShape for IoArrowForwardCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1820,7 +1820,7 @@ impl IconShape for IoArrowForwardOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1849,7 +1849,7 @@ impl IconShape for IoArrowForwardSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1878,7 +1878,7 @@ impl IconShape for IoArrowForward {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1907,7 +1907,7 @@ impl IconShape for IoArrowRedoCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1932,7 +1932,7 @@ impl IconShape for IoArrowRedoCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1953,7 +1953,7 @@ impl IconShape for IoArrowRedoCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1974,7 +1974,7 @@ impl IconShape for IoArrowRedoOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1996,7 +1996,7 @@ impl IconShape for IoArrowRedoSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2017,7 +2017,7 @@ impl IconShape for IoArrowRedo {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2038,7 +2038,7 @@ impl IconShape for IoArrowUndoCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2063,7 +2063,7 @@ impl IconShape for IoArrowUndoCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2084,7 +2084,7 @@ impl IconShape for IoArrowUndoCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2105,7 +2105,7 @@ impl IconShape for IoArrowUndoOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2127,7 +2127,7 @@ impl IconShape for IoArrowUndoSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2148,7 +2148,7 @@ impl IconShape for IoArrowUndo {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2169,7 +2169,7 @@ impl IconShape for IoArrowUpCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2202,7 +2202,7 @@ impl IconShape for IoArrowUpCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2223,7 +2223,7 @@ impl IconShape for IoArrowUpCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2244,7 +2244,7 @@ impl IconShape for IoArrowUpOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2273,7 +2273,7 @@ impl IconShape for IoArrowUpSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2302,7 +2302,7 @@ impl IconShape for IoArrowUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2331,7 +2331,7 @@ impl IconShape for IoAtCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2357,7 +2357,7 @@ impl IconShape for IoAtCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2381,7 +2381,7 @@ impl IconShape for IoAtCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2405,7 +2405,7 @@ impl IconShape for IoAtOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2431,7 +2431,7 @@ impl IconShape for IoAtSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2452,7 +2452,7 @@ impl IconShape for IoAt {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2478,7 +2478,7 @@ impl IconShape for IoAttachOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2500,7 +2500,7 @@ impl IconShape for IoAttachSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2522,7 +2522,7 @@ impl IconShape for IoAttach {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2544,7 +2544,7 @@ impl IconShape for IoBackspaceOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2594,7 +2594,7 @@ impl IconShape for IoBackspaceSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2615,7 +2615,7 @@ impl IconShape for IoBackspace {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2636,7 +2636,7 @@ impl IconShape for IoBagAddOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2690,7 +2690,7 @@ impl IconShape for IoBagAddSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2711,7 +2711,7 @@ impl IconShape for IoBagAdd {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2732,7 +2732,7 @@ impl IconShape for IoBagCheckOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2773,7 +2773,7 @@ impl IconShape for IoBagCheckSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2794,7 +2794,7 @@ impl IconShape for IoBagCheck {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2815,7 +2815,7 @@ impl IconShape for IoBagHandleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2854,7 +2854,7 @@ impl IconShape for IoBagHandleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2875,7 +2875,7 @@ impl IconShape for IoBagHandle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2896,7 +2896,7 @@ impl IconShape for IoBagOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2930,7 +2930,7 @@ impl IconShape for IoBagRemoveOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2974,7 +2974,7 @@ impl IconShape for IoBagRemoveSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2995,7 +2995,7 @@ impl IconShape for IoBagRemove {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3016,7 +3016,7 @@ impl IconShape for IoBagSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3037,7 +3037,7 @@ impl IconShape for IoBag {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3058,7 +3058,7 @@ impl IconShape for IoBalloonOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3103,7 +3103,7 @@ impl IconShape for IoBalloonSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3124,7 +3124,7 @@ impl IconShape for IoBalloon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3145,7 +3145,7 @@ impl IconShape for IoBanOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3180,7 +3180,7 @@ impl IconShape for IoBanSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3201,7 +3201,7 @@ impl IconShape for IoBan {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3236,7 +3236,7 @@ impl IconShape for IoBandageOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3294,7 +3294,7 @@ impl IconShape for IoBandageSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3321,7 +3321,7 @@ impl IconShape for IoBandage {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3360,7 +3360,7 @@ impl IconShape for IoBarChartOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3409,7 +3409,7 @@ impl IconShape for IoBarChartSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3439,7 +3439,7 @@ impl IconShape for IoBarChart {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3469,7 +3469,7 @@ impl IconShape for IoBarbellOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3530,7 +3530,7 @@ impl IconShape for IoBarbellSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3551,7 +3551,7 @@ impl IconShape for IoBarbell {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3572,7 +3572,7 @@ impl IconShape for IoBarcodeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3633,7 +3633,7 @@ impl IconShape for IoBarcodeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3694,7 +3694,7 @@ impl IconShape for IoBarcode {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3715,7 +3715,7 @@ impl IconShape for IoBaseballOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3803,7 +3803,7 @@ impl IconShape for IoBaseballSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3830,7 +3830,7 @@ impl IconShape for IoBaseball {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3857,7 +3857,7 @@ impl IconShape for IoBasketOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3883,7 +3883,7 @@ impl IconShape for IoBasketSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3907,7 +3907,7 @@ impl IconShape for IoBasket {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3928,7 +3928,7 @@ impl IconShape for IoBasketballOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3974,7 +3974,7 @@ impl IconShape for IoBasketballSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4016,7 +4016,7 @@ impl IconShape for IoBasketball {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4058,7 +4058,7 @@ impl IconShape for IoBatteryChargingOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4094,7 +4094,7 @@ impl IconShape for IoBatteryChargingSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4133,7 +4133,7 @@ impl IconShape for IoBatteryCharging {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4169,7 +4169,7 @@ impl IconShape for IoBatteryDeadOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4203,7 +4203,7 @@ impl IconShape for IoBatteryDeadSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4235,7 +4235,7 @@ impl IconShape for IoBatteryDead {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4269,7 +4269,7 @@ impl IconShape for IoBatteryFullOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4312,7 +4312,7 @@ impl IconShape for IoBatteryFullSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4345,7 +4345,7 @@ impl IconShape for IoBatteryFull {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4388,7 +4388,7 @@ impl IconShape for IoBatteryHalfOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4431,7 +4431,7 @@ impl IconShape for IoBatteryHalfSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4464,7 +4464,7 @@ impl IconShape for IoBatteryHalf {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4507,7 +4507,7 @@ impl IconShape for IoBeakerOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4536,7 +4536,7 @@ impl IconShape for IoBeakerSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4557,7 +4557,7 @@ impl IconShape for IoBeaker {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4578,7 +4578,7 @@ impl IconShape for IoBedOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4616,7 +4616,7 @@ impl IconShape for IoBedSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4637,7 +4637,7 @@ impl IconShape for IoBed {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4661,7 +4661,7 @@ impl IconShape for IoBeerOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4720,7 +4720,7 @@ impl IconShape for IoBeerSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4741,7 +4741,7 @@ impl IconShape for IoBeer {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4762,7 +4762,7 @@ impl IconShape for IoBicycleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4795,7 +4795,7 @@ impl IconShape for IoBicycleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4825,7 +4825,7 @@ impl IconShape for IoBicycle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4855,7 +4855,7 @@ impl IconShape for IoBluetoothOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4877,7 +4877,7 @@ impl IconShape for IoBluetoothSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4898,7 +4898,7 @@ impl IconShape for IoBluetooth {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4919,7 +4919,7 @@ impl IconShape for IoBoatOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4959,7 +4959,7 @@ impl IconShape for IoBoatSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4983,7 +4983,7 @@ impl IconShape for IoBoat {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5007,7 +5007,7 @@ impl IconShape for IoBodyOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5039,7 +5039,7 @@ impl IconShape for IoBodySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5065,7 +5065,7 @@ impl IconShape for IoBody {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5091,7 +5091,7 @@ impl IconShape for IoBonfireOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5136,7 +5136,7 @@ impl IconShape for IoBonfireSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5178,7 +5178,7 @@ impl IconShape for IoBonfire {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5220,7 +5220,7 @@ impl IconShape for IoBookOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5249,7 +5249,7 @@ impl IconShape for IoBookSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5273,7 +5273,7 @@ impl IconShape for IoBook {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5297,7 +5297,7 @@ impl IconShape for IoBookmarkOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5319,7 +5319,7 @@ impl IconShape for IoBookmarkSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5340,7 +5340,7 @@ impl IconShape for IoBookmark {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5361,7 +5361,7 @@ impl IconShape for IoBookmarksOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5387,7 +5387,7 @@ impl IconShape for IoBookmarksSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5411,7 +5411,7 @@ impl IconShape for IoBookmarks {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5435,7 +5435,7 @@ impl IconShape for IoBowlingBallOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5476,7 +5476,7 @@ impl IconShape for IoBowlingBallSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5497,7 +5497,7 @@ impl IconShape for IoBowlingBall {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5518,7 +5518,7 @@ impl IconShape for IoBriefcaseOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5560,7 +5560,7 @@ impl IconShape for IoBriefcaseSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5584,7 +5584,7 @@ impl IconShape for IoBriefcase {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5612,7 +5612,7 @@ impl IconShape for IoBrowsersOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5642,7 +5642,7 @@ impl IconShape for IoBrowsersSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5663,7 +5663,7 @@ impl IconShape for IoBrowsers {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5684,7 +5684,7 @@ impl IconShape for IoBrushOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5710,7 +5710,7 @@ impl IconShape for IoBrushSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5734,7 +5734,7 @@ impl IconShape for IoBrush {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5758,7 +5758,7 @@ impl IconShape for IoBugOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5821,7 +5821,7 @@ impl IconShape for IoBugSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5845,7 +5845,7 @@ impl IconShape for IoBug {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5869,7 +5869,7 @@ impl IconShape for IoBuildOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5896,7 +5896,7 @@ impl IconShape for IoBuildSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5917,7 +5917,7 @@ impl IconShape for IoBuild {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5938,7 +5938,7 @@ impl IconShape for IoBulbOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5985,7 +5985,7 @@ impl IconShape for IoBulbSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6018,7 +6018,7 @@ impl IconShape for IoBulb {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6045,7 +6045,7 @@ impl IconShape for IoBusOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6126,7 +6126,7 @@ impl IconShape for IoBusSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6151,7 +6151,7 @@ impl IconShape for IoBus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6172,7 +6172,7 @@ impl IconShape for IoBusinessOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6269,7 +6269,7 @@ impl IconShape for IoBusinessSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6308,7 +6308,7 @@ impl IconShape for IoBusiness {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6347,7 +6347,7 @@ impl IconShape for IoCafeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6380,7 +6380,7 @@ impl IconShape for IoCafeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6407,7 +6407,7 @@ impl IconShape for IoCafe {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6431,7 +6431,7 @@ impl IconShape for IoCalculatorOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6508,7 +6508,7 @@ impl IconShape for IoCalculatorSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6529,7 +6529,7 @@ impl IconShape for IoCalculator {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6550,7 +6550,7 @@ impl IconShape for IoCalendarClearOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6608,7 +6608,7 @@ impl IconShape for IoCalendarClearSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6632,7 +6632,7 @@ impl IconShape for IoCalendarClear {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6656,7 +6656,7 @@ impl IconShape for IoCalendarNumberOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6735,7 +6735,7 @@ impl IconShape for IoCalendarNumberSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6759,7 +6759,7 @@ impl IconShape for IoCalendarNumber {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6783,7 +6783,7 @@ impl IconShape for IoCalendarOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6885,7 +6885,7 @@ impl IconShape for IoCalendarSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6909,7 +6909,7 @@ impl IconShape for IoCalendar {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6933,7 +6933,7 @@ impl IconShape for IoCallOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6955,7 +6955,7 @@ impl IconShape for IoCallSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6976,7 +6976,7 @@ impl IconShape for IoCall {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6997,7 +6997,7 @@ impl IconShape for IoCameraOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7029,7 +7029,7 @@ impl IconShape for IoCameraReverseOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7067,7 +7067,7 @@ impl IconShape for IoCameraReverseSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7088,7 +7088,7 @@ impl IconShape for IoCameraReverse {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7109,7 +7109,7 @@ impl IconShape for IoCameraSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7135,7 +7135,7 @@ impl IconShape for IoCamera {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7161,7 +7161,7 @@ impl IconShape for IoCarOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7210,7 +7210,7 @@ impl IconShape for IoCarSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7231,7 +7231,7 @@ impl IconShape for IoCarSportOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7294,7 +7294,7 @@ impl IconShape for IoCarSportSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7315,7 +7315,7 @@ impl IconShape for IoCarSport {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7336,7 +7336,7 @@ impl IconShape for IoCar {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7357,7 +7357,7 @@ impl IconShape for IoCardOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7398,7 +7398,7 @@ impl IconShape for IoCardSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7422,7 +7422,7 @@ impl IconShape for IoCard {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7446,7 +7446,7 @@ impl IconShape for IoCaretBackCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7471,7 +7471,7 @@ impl IconShape for IoCaretBackCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7492,7 +7492,7 @@ impl IconShape for IoCaretBackCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7513,7 +7513,7 @@ impl IconShape for IoCaretBackOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7534,7 +7534,7 @@ impl IconShape for IoCaretBackSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7555,7 +7555,7 @@ impl IconShape for IoCaretBack {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7576,7 +7576,7 @@ impl IconShape for IoCaretDownCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7601,7 +7601,7 @@ impl IconShape for IoCaretDownCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7622,7 +7622,7 @@ impl IconShape for IoCaretDownCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7643,7 +7643,7 @@ impl IconShape for IoCaretDownOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7664,7 +7664,7 @@ impl IconShape for IoCaretDownSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7685,7 +7685,7 @@ impl IconShape for IoCaretDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7706,7 +7706,7 @@ impl IconShape for IoCaretForwardCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7731,7 +7731,7 @@ impl IconShape for IoCaretForwardCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7752,7 +7752,7 @@ impl IconShape for IoCaretForwardCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7773,7 +7773,7 @@ impl IconShape for IoCaretForwardOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7794,7 +7794,7 @@ impl IconShape for IoCaretForwardSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7815,7 +7815,7 @@ impl IconShape for IoCaretForward {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7836,7 +7836,7 @@ impl IconShape for IoCaretUpCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7861,7 +7861,7 @@ impl IconShape for IoCaretUpCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7882,7 +7882,7 @@ impl IconShape for IoCaretUpCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7903,7 +7903,7 @@ impl IconShape for IoCaretUpOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7924,7 +7924,7 @@ impl IconShape for IoCaretUpSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7945,7 +7945,7 @@ impl IconShape for IoCaretUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7966,7 +7966,7 @@ impl IconShape for IoCartOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8004,7 +8004,7 @@ impl IconShape for IoCartSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8035,7 +8035,7 @@ impl IconShape for IoCart {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8066,7 +8066,7 @@ impl IconShape for IoCashOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8130,7 +8130,7 @@ impl IconShape for IoCashSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8180,7 +8180,7 @@ impl IconShape for IoCash {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8224,7 +8224,7 @@ impl IconShape for IoCellularOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8278,7 +8278,7 @@ impl IconShape for IoCellularSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8308,7 +8308,7 @@ impl IconShape for IoCellular {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8338,7 +8338,7 @@ impl IconShape for IoChatboxEllipsesOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8375,7 +8375,7 @@ impl IconShape for IoChatboxEllipsesSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8396,7 +8396,7 @@ impl IconShape for IoChatboxEllipses {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8417,7 +8417,7 @@ impl IconShape for IoChatboxOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8439,7 +8439,7 @@ impl IconShape for IoChatboxSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8460,7 +8460,7 @@ impl IconShape for IoChatbox {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8481,7 +8481,7 @@ impl IconShape for IoChatbubbleEllipsesOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8518,7 +8518,7 @@ impl IconShape for IoChatbubbleEllipsesSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8539,7 +8539,7 @@ impl IconShape for IoChatbubbleEllipses {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8560,7 +8560,7 @@ impl IconShape for IoChatbubbleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8582,7 +8582,7 @@ impl IconShape for IoChatbubbleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8603,7 +8603,7 @@ impl IconShape for IoChatbubble {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8624,7 +8624,7 @@ impl IconShape for IoChatbubblesOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8650,7 +8650,7 @@ impl IconShape for IoChatbubblesSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8674,7 +8674,7 @@ impl IconShape for IoChatbubbles {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8701,7 +8701,7 @@ impl IconShape for IoCheckboxOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8732,7 +8732,7 @@ impl IconShape for IoCheckboxSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8753,7 +8753,7 @@ impl IconShape for IoCheckbox {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8774,7 +8774,7 @@ impl IconShape for IoCheckmarkCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8800,7 +8800,7 @@ impl IconShape for IoCheckmarkCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8821,7 +8821,7 @@ impl IconShape for IoCheckmarkCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8842,7 +8842,7 @@ impl IconShape for IoCheckmarkDoneCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8882,7 +8882,7 @@ impl IconShape for IoCheckmarkDoneCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8903,7 +8903,7 @@ impl IconShape for IoCheckmarkDoneCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8924,7 +8924,7 @@ impl IconShape for IoCheckmarkDoneOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8960,7 +8960,7 @@ impl IconShape for IoCheckmarkDoneSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8996,7 +8996,7 @@ impl IconShape for IoCheckmarkDone {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9032,7 +9032,7 @@ impl IconShape for IoCheckmarkOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9054,7 +9054,7 @@ impl IconShape for IoCheckmarkSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9076,7 +9076,7 @@ impl IconShape for IoCheckmark {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9098,7 +9098,7 @@ impl IconShape for IoChevronBackCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9124,7 +9124,7 @@ impl IconShape for IoChevronBackCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9145,7 +9145,7 @@ impl IconShape for IoChevronBackCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9166,7 +9166,7 @@ impl IconShape for IoChevronBackOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9188,7 +9188,7 @@ impl IconShape for IoChevronBackSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9210,7 +9210,7 @@ impl IconShape for IoChevronBack {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9232,7 +9232,7 @@ impl IconShape for IoChevronDownCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9258,7 +9258,7 @@ impl IconShape for IoChevronDownCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9279,7 +9279,7 @@ impl IconShape for IoChevronDownCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9300,7 +9300,7 @@ impl IconShape for IoChevronDownOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9322,7 +9322,7 @@ impl IconShape for IoChevronDownSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9344,7 +9344,7 @@ impl IconShape for IoChevronDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9366,7 +9366,7 @@ impl IconShape for IoChevronForwardCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9392,7 +9392,7 @@ impl IconShape for IoChevronForwardCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9413,7 +9413,7 @@ impl IconShape for IoChevronForwardCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9434,7 +9434,7 @@ impl IconShape for IoChevronForwardOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9456,7 +9456,7 @@ impl IconShape for IoChevronForwardSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9478,7 +9478,7 @@ impl IconShape for IoChevronForward {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9500,7 +9500,7 @@ impl IconShape for IoChevronUpCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9526,7 +9526,7 @@ impl IconShape for IoChevronUpCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9547,7 +9547,7 @@ impl IconShape for IoChevronUpCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9568,7 +9568,7 @@ impl IconShape for IoChevronUpOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9590,7 +9590,7 @@ impl IconShape for IoChevronUpSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9612,7 +9612,7 @@ impl IconShape for IoChevronUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9634,7 +9634,7 @@ impl IconShape for IoClipboardOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9665,7 +9665,7 @@ impl IconShape for IoClipboardSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9686,7 +9686,7 @@ impl IconShape for IoClipboard {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9707,7 +9707,7 @@ impl IconShape for IoCloseCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9743,7 +9743,7 @@ impl IconShape for IoCloseCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9764,7 +9764,7 @@ impl IconShape for IoCloseCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9785,7 +9785,7 @@ impl IconShape for IoCloseOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9817,7 +9817,7 @@ impl IconShape for IoCloseSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9838,7 +9838,7 @@ impl IconShape for IoClose {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9859,7 +9859,7 @@ impl IconShape for IoCloudCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9884,7 +9884,7 @@ impl IconShape for IoCloudCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9905,7 +9905,7 @@ impl IconShape for IoCloudCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9926,7 +9926,7 @@ impl IconShape for IoCloudDoneOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9952,7 +9952,7 @@ impl IconShape for IoCloudDoneSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9973,7 +9973,7 @@ impl IconShape for IoCloudDone {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9994,7 +9994,7 @@ impl IconShape for IoCloudDownloadOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10027,7 +10027,7 @@ impl IconShape for IoCloudDownloadSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10051,7 +10051,7 @@ impl IconShape for IoCloudDownload {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10075,7 +10075,7 @@ impl IconShape for IoCloudOfflineOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10108,7 +10108,7 @@ impl IconShape for IoCloudOfflineSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10139,7 +10139,7 @@ impl IconShape for IoCloudOffline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10166,7 +10166,7 @@ impl IconShape for IoCloudOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10188,7 +10188,7 @@ impl IconShape for IoCloudSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10209,7 +10209,7 @@ impl IconShape for IoCloudUploadOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10242,7 +10242,7 @@ impl IconShape for IoCloudUploadSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10269,7 +10269,7 @@ impl IconShape for IoCloudUpload {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10293,7 +10293,7 @@ impl IconShape for IoCloud {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10314,7 +10314,7 @@ impl IconShape for IoCloudyNightOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10340,7 +10340,7 @@ impl IconShape for IoCloudyNightSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10364,7 +10364,7 @@ impl IconShape for IoCloudyNight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10388,7 +10388,7 @@ impl IconShape for IoCloudyOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10410,7 +10410,7 @@ impl IconShape for IoCloudySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10431,7 +10431,7 @@ impl IconShape for IoCloudy {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10452,7 +10452,7 @@ impl IconShape for IoCodeDownloadOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10489,7 +10489,7 @@ impl IconShape for IoCodeDownloadSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10526,7 +10526,7 @@ impl IconShape for IoCodeDownload {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10563,7 +10563,7 @@ impl IconShape for IoCodeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10589,7 +10589,7 @@ impl IconShape for IoCodeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10613,7 +10613,7 @@ impl IconShape for IoCodeSlashOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10646,7 +10646,7 @@ impl IconShape for IoCodeSlashSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10673,7 +10673,7 @@ impl IconShape for IoCodeSlash {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10700,7 +10700,7 @@ impl IconShape for IoCodeWorkingOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10741,7 +10741,7 @@ impl IconShape for IoCodeWorkingSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10785,7 +10785,7 @@ impl IconShape for IoCodeWorking {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10829,7 +10829,7 @@ impl IconShape for IoCode {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10853,7 +10853,7 @@ impl IconShape for IoCogOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10874,7 +10874,7 @@ impl IconShape for IoCogSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10895,7 +10895,7 @@ impl IconShape for IoCog {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10916,7 +10916,7 @@ impl IconShape for IoColorFillOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10942,7 +10942,7 @@ impl IconShape for IoColorFillSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10966,7 +10966,7 @@ impl IconShape for IoColorFill {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10990,7 +10990,7 @@ impl IconShape for IoColorFilterOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11026,7 +11026,7 @@ impl IconShape for IoColorFilterSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11065,7 +11065,7 @@ impl IconShape for IoColorFilter {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11104,7 +11104,7 @@ impl IconShape for IoColorPaletteOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11151,7 +11151,7 @@ impl IconShape for IoColorPaletteSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11172,7 +11172,7 @@ impl IconShape for IoColorPalette {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11193,7 +11193,7 @@ impl IconShape for IoColorWandOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11275,7 +11275,7 @@ impl IconShape for IoColorWandSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11336,7 +11336,7 @@ impl IconShape for IoColorWand {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11380,7 +11380,7 @@ impl IconShape for IoCompassOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11405,7 +11405,7 @@ impl IconShape for IoCompassSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11431,7 +11431,7 @@ impl IconShape for IoCompass {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11457,7 +11457,7 @@ impl IconShape for IoConstructOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11491,7 +11491,7 @@ impl IconShape for IoConstructSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11518,7 +11518,7 @@ impl IconShape for IoConstruct {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11545,7 +11545,7 @@ impl IconShape for IoContractOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11607,7 +11607,7 @@ impl IconShape for IoContractSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11669,7 +11669,7 @@ impl IconShape for IoContract {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11731,7 +11731,7 @@ impl IconShape for IoContrastOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11758,7 +11758,7 @@ impl IconShape for IoContrastSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11779,7 +11779,7 @@ impl IconShape for IoContrast {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11800,7 +11800,7 @@ impl IconShape for IoCopyOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11831,7 +11831,7 @@ impl IconShape for IoCopySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11855,7 +11855,7 @@ impl IconShape for IoCopy {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11879,7 +11879,7 @@ impl IconShape for IoCreateOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11907,7 +11907,7 @@ impl IconShape for IoCreateSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11937,7 +11937,7 @@ impl IconShape for IoCreate {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11964,7 +11964,7 @@ impl IconShape for IoCropOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12004,7 +12004,7 @@ impl IconShape for IoCropSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12028,7 +12028,7 @@ impl IconShape for IoCrop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12052,7 +12052,7 @@ impl IconShape for IoCubeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12085,7 +12085,7 @@ impl IconShape for IoCubeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12112,7 +12112,7 @@ impl IconShape for IoCube {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12139,7 +12139,7 @@ impl IconShape for IoCutOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12187,7 +12187,7 @@ impl IconShape for IoCutSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12211,7 +12211,7 @@ impl IconShape for IoCut {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12238,7 +12238,7 @@ impl IconShape for IoDesktopOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12279,7 +12279,7 @@ impl IconShape for IoDesktopSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12300,7 +12300,7 @@ impl IconShape for IoDesktop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12324,7 +12324,7 @@ impl IconShape for IoDiamondOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12393,7 +12393,7 @@ impl IconShape for IoDiamondSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12435,7 +12435,7 @@ impl IconShape for IoDiamond {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12474,7 +12474,7 @@ impl IconShape for IoDiceOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12558,7 +12558,7 @@ impl IconShape for IoDiceSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12585,7 +12585,7 @@ impl IconShape for IoDice {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12612,7 +12612,7 @@ impl IconShape for IoDiscOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12647,7 +12647,7 @@ impl IconShape for IoDiscSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12673,7 +12673,7 @@ impl IconShape for IoDisc {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12697,7 +12697,7 @@ impl IconShape for IoDocumentAttachOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12727,7 +12727,7 @@ impl IconShape for IoDocumentAttachSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12751,7 +12751,7 @@ impl IconShape for IoDocumentAttach {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12775,7 +12775,7 @@ impl IconShape for IoDocumentLockOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12816,7 +12816,7 @@ impl IconShape for IoDocumentLockSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12843,7 +12843,7 @@ impl IconShape for IoDocumentLock {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12870,7 +12870,7 @@ impl IconShape for IoDocumentOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12896,7 +12896,7 @@ impl IconShape for IoDocumentSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12920,7 +12920,7 @@ impl IconShape for IoDocumentTextOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12960,7 +12960,7 @@ impl IconShape for IoDocumentTextSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12984,7 +12984,7 @@ impl IconShape for IoDocumentText {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13008,7 +13008,7 @@ impl IconShape for IoDocument {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13032,7 +13032,7 @@ impl IconShape for IoDocumentsOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13066,7 +13066,7 @@ impl IconShape for IoDocumentsSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13096,7 +13096,7 @@ impl IconShape for IoDocuments {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13126,7 +13126,7 @@ impl IconShape for IoDownloadOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13159,7 +13159,7 @@ impl IconShape for IoDownloadSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13186,7 +13186,7 @@ impl IconShape for IoDownload {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13210,7 +13210,7 @@ impl IconShape for IoDuplicateOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13255,7 +13255,7 @@ impl IconShape for IoDuplicateSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13279,7 +13279,7 @@ impl IconShape for IoDuplicate {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13303,7 +13303,7 @@ impl IconShape for IoEarOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13333,7 +13333,7 @@ impl IconShape for IoEarSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13354,7 +13354,7 @@ impl IconShape for IoEar {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13375,7 +13375,7 @@ impl IconShape for IoEarthOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13412,7 +13412,7 @@ impl IconShape for IoEarthSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13451,7 +13451,7 @@ impl IconShape for IoEarth {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13472,7 +13472,7 @@ impl IconShape for IoEaselOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13527,7 +13527,7 @@ impl IconShape for IoEaselSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13554,7 +13554,7 @@ impl IconShape for IoEasel {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13583,7 +13583,7 @@ impl IconShape for IoEggOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13605,7 +13605,7 @@ impl IconShape for IoEggSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13626,7 +13626,7 @@ impl IconShape for IoEgg {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13647,7 +13647,7 @@ impl IconShape for IoEllipseOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13671,7 +13671,7 @@ impl IconShape for IoEllipseSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13692,7 +13692,7 @@ impl IconShape for IoEllipse {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13713,7 +13713,7 @@ impl IconShape for IoEllipsisHorizontalCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13750,7 +13750,7 @@ impl IconShape for IoEllipsisHorizontalCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13771,7 +13771,7 @@ impl IconShape for IoEllipsisHorizontalCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13808,7 +13808,7 @@ impl IconShape for IoEllipsisHorizontalOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13844,7 +13844,7 @@ impl IconShape for IoEllipsisHorizontalSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13877,7 +13877,7 @@ impl IconShape for IoEllipsisHorizontal {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13910,7 +13910,7 @@ impl IconShape for IoEllipsisVerticalCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13947,7 +13947,7 @@ impl IconShape for IoEllipsisVerticalCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13968,7 +13968,7 @@ impl IconShape for IoEllipsisVerticalCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14005,7 +14005,7 @@ impl IconShape for IoEllipsisVerticalOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14041,7 +14041,7 @@ impl IconShape for IoEllipsisVerticalSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14074,7 +14074,7 @@ impl IconShape for IoEllipsisVertical {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14107,7 +14107,7 @@ impl IconShape for IoEnterOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14140,7 +14140,7 @@ impl IconShape for IoEnterSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14167,7 +14167,7 @@ impl IconShape for IoEnter {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14191,7 +14191,7 @@ impl IconShape for IoExitOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14224,7 +14224,7 @@ impl IconShape for IoExitSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14248,7 +14248,7 @@ impl IconShape for IoExit {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14272,7 +14272,7 @@ impl IconShape for IoExpandOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14334,7 +14334,7 @@ impl IconShape for IoExpandSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14396,7 +14396,7 @@ impl IconShape for IoExpand {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14458,7 +14458,7 @@ impl IconShape for IoExtensionPuzzleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14483,7 +14483,7 @@ impl IconShape for IoExtensionPuzzleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14504,7 +14504,7 @@ impl IconShape for IoExtensionPuzzle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14525,7 +14525,7 @@ impl IconShape for IoEyeOffOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14558,7 +14558,7 @@ impl IconShape for IoEyeOffSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14595,7 +14595,7 @@ impl IconShape for IoEyeOff {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14628,7 +14628,7 @@ impl IconShape for IoEyeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14656,7 +14656,7 @@ impl IconShape for IoEyeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14682,7 +14682,7 @@ impl IconShape for IoEye {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14708,7 +14708,7 @@ impl IconShape for IoEyedropOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14748,7 +14748,7 @@ impl IconShape for IoEyedropSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14769,7 +14769,7 @@ impl IconShape for IoEyedrop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14790,7 +14790,7 @@ impl IconShape for IoFastFoodOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14846,7 +14846,7 @@ impl IconShape for IoFastFoodSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14873,7 +14873,7 @@ impl IconShape for IoFastFood {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14903,7 +14903,7 @@ impl IconShape for IoFemaleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14950,7 +14950,7 @@ impl IconShape for IoFemaleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14971,7 +14971,7 @@ impl IconShape for IoFemale {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14992,7 +14992,7 @@ impl IconShape for IoFileTrayFullOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15046,7 +15046,7 @@ impl IconShape for IoFileTrayFullSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15079,7 +15079,7 @@ impl IconShape for IoFileTrayFull {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15106,7 +15106,7 @@ impl IconShape for IoFileTrayOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15146,7 +15146,7 @@ impl IconShape for IoFileTraySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15167,7 +15167,7 @@ impl IconShape for IoFileTrayStackedOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15229,7 +15229,7 @@ impl IconShape for IoFileTrayStackedSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15253,7 +15253,7 @@ impl IconShape for IoFileTrayStacked {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15277,7 +15277,7 @@ impl IconShape for IoFileTray {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15298,7 +15298,7 @@ impl IconShape for IoFilmOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15415,7 +15415,7 @@ impl IconShape for IoFilmSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15436,7 +15436,7 @@ impl IconShape for IoFilm {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15457,7 +15457,7 @@ impl IconShape for IoFilterCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15511,7 +15511,7 @@ impl IconShape for IoFilterCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15532,7 +15532,7 @@ impl IconShape for IoFilterCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15553,7 +15553,7 @@ impl IconShape for IoFilterOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15592,7 +15592,7 @@ impl IconShape for IoFilterSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15628,7 +15628,7 @@ impl IconShape for IoFilter {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15655,7 +15655,7 @@ impl IconShape for IoFingerPrintOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15676,7 +15676,7 @@ impl IconShape for IoFingerPrintSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15709,7 +15709,7 @@ impl IconShape for IoFingerPrint {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15742,7 +15742,7 @@ impl IconShape for IoFishOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15778,7 +15778,7 @@ impl IconShape for IoFishSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15802,7 +15802,7 @@ impl IconShape for IoFish {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15826,7 +15826,7 @@ impl IconShape for IoFitnessOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15852,7 +15852,7 @@ impl IconShape for IoFitnessSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15882,7 +15882,7 @@ impl IconShape for IoFitness {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15912,7 +15912,7 @@ impl IconShape for IoFlagOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15934,7 +15934,7 @@ impl IconShape for IoFlagSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15955,7 +15955,7 @@ impl IconShape for IoFlag {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15976,7 +15976,7 @@ impl IconShape for IoFlameOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16002,7 +16002,7 @@ impl IconShape for IoFlameSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16023,7 +16023,7 @@ impl IconShape for IoFlame {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16044,7 +16044,7 @@ impl IconShape for IoFlashOffOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16071,7 +16071,7 @@ impl IconShape for IoFlashOffSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16102,7 +16102,7 @@ impl IconShape for IoFlashOff {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16129,7 +16129,7 @@ impl IconShape for IoFlashOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16151,7 +16151,7 @@ impl IconShape for IoFlashSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16172,7 +16172,7 @@ impl IconShape for IoFlash {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16193,7 +16193,7 @@ impl IconShape for IoFlashlightOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16227,7 +16227,7 @@ impl IconShape for IoFlashlightSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16258,7 +16258,7 @@ impl IconShape for IoFlashlight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16282,7 +16282,7 @@ impl IconShape for IoFlaskOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16318,7 +16318,7 @@ impl IconShape for IoFlaskSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16339,7 +16339,7 @@ impl IconShape for IoFlask {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16360,7 +16360,7 @@ impl IconShape for IoFlowerOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16416,7 +16416,7 @@ impl IconShape for IoFlowerSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16442,7 +16442,7 @@ impl IconShape for IoFlower {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16468,7 +16468,7 @@ impl IconShape for IoFolderOpenOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16494,7 +16494,7 @@ impl IconShape for IoFolderOpenSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16518,7 +16518,7 @@ impl IconShape for IoFolderOpen {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16542,7 +16542,7 @@ impl IconShape for IoFolderOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16571,7 +16571,7 @@ impl IconShape for IoFolderSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16595,7 +16595,7 @@ impl IconShape for IoFolder {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16619,7 +16619,7 @@ impl IconShape for IoFootballOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16702,7 +16702,7 @@ impl IconShape for IoFootballSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16723,7 +16723,7 @@ impl IconShape for IoFootball {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16744,7 +16744,7 @@ impl IconShape for IoFootstepsOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16786,7 +16786,7 @@ impl IconShape for IoFootstepsSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16816,7 +16816,7 @@ impl IconShape for IoFootsteps {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16846,7 +16846,7 @@ impl IconShape for IoFunnelOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16868,7 +16868,7 @@ impl IconShape for IoFunnelSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16889,7 +16889,7 @@ impl IconShape for IoFunnel {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16910,7 +16910,7 @@ impl IconShape for IoGameControllerOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16964,7 +16964,7 @@ impl IconShape for IoGameControllerSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16985,7 +16985,7 @@ impl IconShape for IoGameController {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17006,7 +17006,7 @@ impl IconShape for IoGiftOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17052,7 +17052,7 @@ impl IconShape for IoGiftSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17087,7 +17087,7 @@ impl IconShape for IoGift {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17122,7 +17122,7 @@ impl IconShape for IoGitBranchOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17169,7 +17169,7 @@ impl IconShape for IoGitBranchSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17190,7 +17190,7 @@ impl IconShape for IoGitBranch {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17211,7 +17211,7 @@ impl IconShape for IoGitCommitOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17249,7 +17249,7 @@ impl IconShape for IoGitCommitSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17270,7 +17270,7 @@ impl IconShape for IoGitCommit {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17291,7 +17291,7 @@ impl IconShape for IoGitCompareOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17337,7 +17337,7 @@ impl IconShape for IoGitCompareSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17361,7 +17361,7 @@ impl IconShape for IoGitCompare {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17385,7 +17385,7 @@ impl IconShape for IoGitMergeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17432,7 +17432,7 @@ impl IconShape for IoGitMergeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17453,7 +17453,7 @@ impl IconShape for IoGitMerge {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17474,7 +17474,7 @@ impl IconShape for IoGitNetworkOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17525,7 +17525,7 @@ impl IconShape for IoGitNetworkSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17546,7 +17546,7 @@ impl IconShape for IoGitNetwork {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17567,7 +17567,7 @@ impl IconShape for IoGitPullRequestOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17618,7 +17618,7 @@ impl IconShape for IoGitPullRequestSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17642,7 +17642,7 @@ impl IconShape for IoGitPullRequest {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17666,7 +17666,7 @@ impl IconShape for IoGlassesOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17710,7 +17710,7 @@ impl IconShape for IoGlassesSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17731,7 +17731,7 @@ impl IconShape for IoGlasses {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17752,7 +17752,7 @@ impl IconShape for IoGlobeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17800,7 +17800,7 @@ impl IconShape for IoGlobeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17848,7 +17848,7 @@ impl IconShape for IoGlobe {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17893,7 +17893,7 @@ impl IconShape for IoGolfOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17919,7 +17919,7 @@ impl IconShape for IoGolfSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17943,7 +17943,7 @@ impl IconShape for IoGolf {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17967,7 +17967,7 @@ impl IconShape for IoGridOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18021,7 +18021,7 @@ impl IconShape for IoGridSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18051,7 +18051,7 @@ impl IconShape for IoGrid {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18081,7 +18081,7 @@ impl IconShape for IoHammerOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18107,7 +18107,7 @@ impl IconShape for IoHammerSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18131,7 +18131,7 @@ impl IconShape for IoHammer {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18155,7 +18155,7 @@ impl IconShape for IoHandLeftOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18193,7 +18193,7 @@ impl IconShape for IoHandLeftSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18214,7 +18214,7 @@ impl IconShape for IoHandLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18235,7 +18235,7 @@ impl IconShape for IoHandRightOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18273,7 +18273,7 @@ impl IconShape for IoHandRightSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18294,7 +18294,7 @@ impl IconShape for IoHandRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18315,7 +18315,7 @@ impl IconShape for IoHappyOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18352,7 +18352,7 @@ impl IconShape for IoHappySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18373,7 +18373,7 @@ impl IconShape for IoHappy {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18394,7 +18394,7 @@ impl IconShape for IoHardwareChipOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18514,7 +18514,7 @@ impl IconShape for IoHardwareChipSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18541,7 +18541,7 @@ impl IconShape for IoHardwareChip {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18574,7 +18574,7 @@ impl IconShape for IoHeadsetOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18604,7 +18604,7 @@ impl IconShape for IoHeadsetSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18625,7 +18625,7 @@ impl IconShape for IoHeadset {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18646,7 +18646,7 @@ impl IconShape for IoHeartCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18671,7 +18671,7 @@ impl IconShape for IoHeartCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18692,7 +18692,7 @@ impl IconShape for IoHeartCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18713,7 +18713,7 @@ impl IconShape for IoHeartDislikeCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18744,7 +18744,7 @@ impl IconShape for IoHeartDislikeCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18765,7 +18765,7 @@ impl IconShape for IoHeartDislikeCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18786,7 +18786,7 @@ impl IconShape for IoHeartDislikeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18813,7 +18813,7 @@ impl IconShape for IoHeartDislikeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18840,7 +18840,7 @@ impl IconShape for IoHeartDislike {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18867,7 +18867,7 @@ impl IconShape for IoHeartHalfOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18888,7 +18888,7 @@ impl IconShape for IoHeartHalfSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18909,7 +18909,7 @@ impl IconShape for IoHeartHalf {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18930,7 +18930,7 @@ impl IconShape for IoHeartOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18952,7 +18952,7 @@ impl IconShape for IoHeartSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18973,7 +18973,7 @@ impl IconShape for IoHeart {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18994,7 +18994,7 @@ impl IconShape for IoHelpBuoyOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19080,7 +19080,7 @@ impl IconShape for IoHelpBuoySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19101,7 +19101,7 @@ impl IconShape for IoHelpBuoy {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19122,7 +19122,7 @@ impl IconShape for IoHelpCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19153,7 +19153,7 @@ impl IconShape for IoHelpCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19178,7 +19178,7 @@ impl IconShape for IoHelpCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19199,7 +19199,7 @@ impl IconShape for IoHelpOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19226,7 +19226,7 @@ impl IconShape for IoHelpSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19256,7 +19256,7 @@ impl IconShape for IoHelp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19283,7 +19283,7 @@ impl IconShape for IoHomeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19313,7 +19313,7 @@ impl IconShape for IoHomeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19334,7 +19334,7 @@ impl IconShape for IoHome {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19358,7 +19358,7 @@ impl IconShape for IoHourglassOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19383,7 +19383,7 @@ impl IconShape for IoHourglassSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19404,7 +19404,7 @@ impl IconShape for IoHourglass {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19425,7 +19425,7 @@ impl IconShape for IoIceCreamOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19451,7 +19451,7 @@ impl IconShape for IoIceCreamSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19475,7 +19475,7 @@ impl IconShape for IoIceCream {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19499,7 +19499,7 @@ impl IconShape for IoIdCardOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19543,7 +19543,7 @@ impl IconShape for IoIdCardSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19564,7 +19564,7 @@ impl IconShape for IoIdCard {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19585,7 +19585,7 @@ impl IconShape for IoImageOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19626,7 +19626,7 @@ impl IconShape for IoImageSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19647,7 +19647,7 @@ impl IconShape for IoImage {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19668,7 +19668,7 @@ impl IconShape for IoImagesOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19714,7 +19714,7 @@ impl IconShape for IoImagesSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19745,7 +19745,7 @@ impl IconShape for IoImages {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19769,7 +19769,7 @@ impl IconShape for IoInfiniteOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19795,7 +19795,7 @@ impl IconShape for IoInfiniteSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19816,7 +19816,7 @@ impl IconShape for IoInfinite {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19842,7 +19842,7 @@ impl IconShape for IoInformationCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19878,7 +19878,7 @@ impl IconShape for IoInformationCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19899,7 +19899,7 @@ impl IconShape for IoInformationCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19920,7 +19920,7 @@ impl IconShape for IoInformationOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19952,7 +19952,7 @@ impl IconShape for IoInformationSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19984,7 +19984,7 @@ impl IconShape for IoInformation {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20016,7 +20016,7 @@ impl IconShape for IoInvertModeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20048,7 +20048,7 @@ impl IconShape for IoInvertModeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20072,7 +20072,7 @@ impl IconShape for IoInvertMode {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20104,7 +20104,7 @@ impl IconShape for IoJournalOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20138,7 +20138,7 @@ impl IconShape for IoJournalSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20162,7 +20162,7 @@ impl IconShape for IoJournal {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20186,7 +20186,7 @@ impl IconShape for IoKeyOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20208,7 +20208,7 @@ impl IconShape for IoKeySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20229,7 +20229,7 @@ impl IconShape for IoKey {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20250,7 +20250,7 @@ impl IconShape for IoKeypadOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20326,7 +20326,7 @@ impl IconShape for IoKeypadSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20424,7 +20424,7 @@ impl IconShape for IoKeypad {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20472,7 +20472,7 @@ impl IconShape for IoLanguageOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20523,7 +20523,7 @@ impl IconShape for IoLanguageSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20547,7 +20547,7 @@ impl IconShape for IoLanguage {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20571,7 +20571,7 @@ impl IconShape for IoLaptopOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20605,7 +20605,7 @@ impl IconShape for IoLaptopSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20626,7 +20626,7 @@ impl IconShape for IoLaptop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20647,7 +20647,7 @@ impl IconShape for IoLayersOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20677,7 +20677,7 @@ impl IconShape for IoLayersSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20704,7 +20704,7 @@ impl IconShape for IoLayers {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20731,7 +20731,7 @@ impl IconShape for IoLeafOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20757,7 +20757,7 @@ impl IconShape for IoLeafSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20781,7 +20781,7 @@ impl IconShape for IoLeaf {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20805,7 +20805,7 @@ impl IconShape for IoLibraryOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20868,7 +20868,7 @@ impl IconShape for IoLibrarySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20907,7 +20907,7 @@ impl IconShape for IoLibrary {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20948,7 +20948,7 @@ impl IconShape for IoLinkOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20981,7 +20981,7 @@ impl IconShape for IoLinkSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21014,7 +21014,7 @@ impl IconShape for IoLink {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21047,7 +21047,7 @@ impl IconShape for IoListCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21108,7 +21108,7 @@ impl IconShape for IoListCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21129,7 +21129,7 @@ impl IconShape for IoListCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21150,7 +21150,7 @@ impl IconShape for IoListOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21207,7 +21207,7 @@ impl IconShape for IoListSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21267,7 +21267,7 @@ impl IconShape for IoList {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21324,7 +21324,7 @@ impl IconShape for IoLocateOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21374,7 +21374,7 @@ impl IconShape for IoLocateSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21424,7 +21424,7 @@ impl IconShape for IoLocate {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21474,7 +21474,7 @@ impl IconShape for IoLocationOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21502,7 +21502,7 @@ impl IconShape for IoLocationSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21523,7 +21523,7 @@ impl IconShape for IoLocation {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21549,7 +21549,7 @@ impl IconShape for IoLockClosedOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21580,7 +21580,7 @@ impl IconShape for IoLockClosedSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21601,7 +21601,7 @@ impl IconShape for IoLockClosed {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21622,7 +21622,7 @@ impl IconShape for IoLockOpenOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21653,7 +21653,7 @@ impl IconShape for IoLockOpenSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21674,7 +21674,7 @@ impl IconShape for IoLockOpen {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21695,7 +21695,7 @@ impl IconShape for IoLogInOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21728,7 +21728,7 @@ impl IconShape for IoLogInSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21755,7 +21755,7 @@ impl IconShape for IoLogIn {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21779,7 +21779,7 @@ impl IconShape for IoLogOutOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21812,7 +21812,7 @@ impl IconShape for IoLogOutSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21836,7 +21836,7 @@ impl IconShape for IoLogOut {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21860,7 +21860,7 @@ impl IconShape for IoLogoAlipay {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21881,7 +21881,7 @@ impl IconShape for IoLogoAmazon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21908,7 +21908,7 @@ impl IconShape for IoLogoAmplify {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21930,7 +21930,7 @@ impl IconShape for IoLogoAndroid {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21952,7 +21952,7 @@ impl IconShape for IoLogoAngular {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21976,7 +21976,7 @@ impl IconShape for IoLogoAppleAppstore {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21997,7 +21997,7 @@ impl IconShape for IoLogoAppleAr {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22134,7 +22134,7 @@ impl IconShape for IoLogoApple {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22158,7 +22158,7 @@ impl IconShape for IoLogoBehance {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22188,7 +22188,7 @@ impl IconShape for IoLogoBitbucket {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22209,7 +22209,7 @@ impl IconShape for IoLogoBitcoin {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22230,7 +22230,7 @@ impl IconShape for IoLogoBuffer {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22257,7 +22257,7 @@ impl IconShape for IoLogoCapacitor {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22281,7 +22281,7 @@ impl IconShape for IoLogoChrome {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22311,7 +22311,7 @@ impl IconShape for IoLogoClosedCaptioning {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22338,7 +22338,7 @@ impl IconShape for IoLogoCodepen {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22380,7 +22380,7 @@ impl IconShape for IoLogoCss3 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22401,7 +22401,7 @@ impl IconShape for IoLogoDesignernews {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22428,7 +22428,7 @@ impl IconShape for IoLogoDeviantart {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22449,7 +22449,7 @@ impl IconShape for IoLogoDiscord {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22476,7 +22476,7 @@ impl IconShape for IoLogoDocker {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22524,7 +22524,7 @@ impl IconShape for IoLogoDribbble {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22545,7 +22545,7 @@ impl IconShape for IoLogoDropbox {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22566,7 +22566,7 @@ impl IconShape for IoLogoEdge {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22587,7 +22587,7 @@ impl IconShape for IoLogoElectron {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22626,7 +22626,7 @@ impl IconShape for IoLogoEuro {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22647,7 +22647,7 @@ impl IconShape for IoLogoFacebook {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22669,7 +22669,7 @@ impl IconShape for IoLogoFigma {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22695,7 +22695,7 @@ impl IconShape for IoLogoFirebase {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22717,7 +22717,7 @@ impl IconShape for IoLogoFirefox {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22738,7 +22738,7 @@ impl IconShape for IoLogoFlickr {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22759,7 +22759,7 @@ impl IconShape for IoLogoFoursquare {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22780,7 +22780,7 @@ impl IconShape for IoLogoGithub {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22801,7 +22801,7 @@ impl IconShape for IoLogoGitlab {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22822,7 +22822,7 @@ impl IconShape for IoLogoGooglePlaystore {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22852,7 +22852,7 @@ impl IconShape for IoLogoGoogle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22873,7 +22873,7 @@ impl IconShape for IoLogoHackernews {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22894,7 +22894,7 @@ impl IconShape for IoLogoHtml5 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22915,7 +22915,7 @@ impl IconShape for IoLogoInstagram {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22942,7 +22942,7 @@ impl IconShape for IoLogoIonic {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22971,7 +22971,7 @@ impl IconShape for IoLogoIonitron {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22995,7 +22995,7 @@ impl IconShape for IoLogoJavascript {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23016,7 +23016,7 @@ impl IconShape for IoLogoLaravel {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23037,7 +23037,7 @@ impl IconShape for IoLogoLinkedin {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23058,7 +23058,7 @@ impl IconShape for IoLogoMarkdown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23079,7 +23079,7 @@ impl IconShape for IoLogoMastodon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23100,7 +23100,7 @@ impl IconShape for IoLogoMedium {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23131,7 +23131,7 @@ impl IconShape for IoLogoMicrosoft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23161,7 +23161,7 @@ impl IconShape for IoLogoNoSmoking {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23206,7 +23206,7 @@ impl IconShape for IoLogoNodejs {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23230,7 +23230,7 @@ impl IconShape for IoLogoNpm {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23257,7 +23257,7 @@ impl IconShape for IoLogoOctocat {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23284,7 +23284,7 @@ impl IconShape for IoLogoPaypal {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23308,7 +23308,7 @@ impl IconShape for IoLogoPinterest {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23329,7 +23329,7 @@ impl IconShape for IoLogoPlaystation {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23356,7 +23356,7 @@ impl IconShape for IoLogoPwa {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23380,7 +23380,7 @@ impl IconShape for IoLogoPython {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23404,7 +23404,7 @@ impl IconShape for IoLogoReact {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23428,7 +23428,7 @@ impl IconShape for IoLogoReddit {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23461,7 +23461,7 @@ impl IconShape for IoLogoRss {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23488,7 +23488,7 @@ impl IconShape for IoLogoSass {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23509,7 +23509,7 @@ impl IconShape for IoLogoSkype {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23530,7 +23530,7 @@ impl IconShape for IoLogoSlack {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23572,7 +23572,7 @@ impl IconShape for IoLogoSnapchat {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23593,7 +23593,7 @@ impl IconShape for IoLogoSoundcloud {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23653,7 +23653,7 @@ impl IconShape for IoLogoStackoverflow {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23677,7 +23677,7 @@ impl IconShape for IoLogoSteam {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23698,7 +23698,7 @@ impl IconShape for IoLogoStencil {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23725,7 +23725,7 @@ impl IconShape for IoLogoTableau {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23768,7 +23768,7 @@ impl IconShape for IoLogoTiktok {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23789,7 +23789,7 @@ impl IconShape for IoLogoTumblr {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23810,7 +23810,7 @@ impl IconShape for IoLogoTux {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23831,7 +23831,7 @@ impl IconShape for IoLogoTwitch {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23864,7 +23864,7 @@ impl IconShape for IoLogoTwitter {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23885,7 +23885,7 @@ impl IconShape for IoLogoUsd {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23906,7 +23906,7 @@ impl IconShape for IoLogoVenmo {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23927,7 +23927,7 @@ impl IconShape for IoLogoVercel {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23949,7 +23949,7 @@ impl IconShape for IoLogoVimeo {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23970,7 +23970,7 @@ impl IconShape for IoLogoVk {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23992,7 +23992,7 @@ impl IconShape for IoLogoVue {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24016,7 +24016,7 @@ impl IconShape for IoLogoWebComponent {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24052,7 +24052,7 @@ impl IconShape for IoLogoWechat {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24078,7 +24078,7 @@ impl IconShape for IoLogoWhatsapp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24100,7 +24100,7 @@ impl IconShape for IoLogoWindows {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24130,7 +24130,7 @@ impl IconShape for IoLogoWordpress {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24160,7 +24160,7 @@ impl IconShape for IoLogoXbox {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24190,7 +24190,7 @@ impl IconShape for IoLogoXing {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24214,7 +24214,7 @@ impl IconShape for IoLogoYahoo {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24235,7 +24235,7 @@ impl IconShape for IoLogoYen {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24256,7 +24256,7 @@ impl IconShape for IoLogoYoutube {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24277,7 +24277,7 @@ impl IconShape for IoMagnetOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24346,7 +24346,7 @@ impl IconShape for IoMagnetSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24402,7 +24402,7 @@ impl IconShape for IoMagnet {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24450,7 +24450,7 @@ impl IconShape for IoMailOpenOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24490,7 +24490,7 @@ impl IconShape for IoMailOpenSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24511,7 +24511,7 @@ impl IconShape for IoMailOpen {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24532,7 +24532,7 @@ impl IconShape for IoMailOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24563,7 +24563,7 @@ impl IconShape for IoMailSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24584,7 +24584,7 @@ impl IconShape for IoMailUnreadOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24618,7 +24618,7 @@ impl IconShape for IoMailUnreadSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24642,7 +24642,7 @@ impl IconShape for IoMailUnread {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24666,7 +24666,7 @@ impl IconShape for IoMail {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24687,7 +24687,7 @@ impl IconShape for IoMaleFemaleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24736,7 +24736,7 @@ impl IconShape for IoMaleFemaleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24757,7 +24757,7 @@ impl IconShape for IoMaleFemale {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24778,7 +24778,7 @@ impl IconShape for IoMaleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24822,7 +24822,7 @@ impl IconShape for IoMaleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24843,7 +24843,7 @@ impl IconShape for IoMale {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24864,7 +24864,7 @@ impl IconShape for IoManOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24900,7 +24900,7 @@ impl IconShape for IoManSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24926,7 +24926,7 @@ impl IconShape for IoMan {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24952,7 +24952,7 @@ impl IconShape for IoMapOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24988,7 +24988,7 @@ impl IconShape for IoMapSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25009,7 +25009,7 @@ impl IconShape for IoMap {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25036,7 +25036,7 @@ impl IconShape for IoMedalOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25091,7 +25091,7 @@ impl IconShape for IoMedalSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25120,7 +25120,7 @@ impl IconShape for IoMedal {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25149,7 +25149,7 @@ impl IconShape for IoMedicalOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25171,7 +25171,7 @@ impl IconShape for IoMedicalSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25192,7 +25192,7 @@ impl IconShape for IoMedical {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25213,7 +25213,7 @@ impl IconShape for IoMedkitOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25258,7 +25258,7 @@ impl IconShape for IoMedkitSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25286,7 +25286,7 @@ impl IconShape for IoMedkit {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25311,7 +25311,7 @@ impl IconShape for IoMegaphoneOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25359,7 +25359,7 @@ impl IconShape for IoMegaphoneSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25386,7 +25386,7 @@ impl IconShape for IoMegaphone {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25413,7 +25413,7 @@ impl IconShape for IoMenuOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25452,7 +25452,7 @@ impl IconShape for IoMenuSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25473,7 +25473,7 @@ impl IconShape for IoMenu {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25512,7 +25512,7 @@ impl IconShape for IoMicCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25560,7 +25560,7 @@ impl IconShape for IoMicCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25581,7 +25581,7 @@ impl IconShape for IoMicCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25602,7 +25602,7 @@ impl IconShape for IoMicOffCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25638,7 +25638,7 @@ impl IconShape for IoMicOffCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25659,7 +25659,7 @@ impl IconShape for IoMicOffCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25680,7 +25680,7 @@ impl IconShape for IoMicOffOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25717,7 +25717,7 @@ impl IconShape for IoMicOffSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25754,7 +25754,7 @@ impl IconShape for IoMicOff {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25791,7 +25791,7 @@ impl IconShape for IoMicOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25831,7 +25831,7 @@ impl IconShape for IoMicSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25870,7 +25870,7 @@ impl IconShape for IoMic {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25909,7 +25909,7 @@ impl IconShape for IoMoonOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25931,7 +25931,7 @@ impl IconShape for IoMoonSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25952,7 +25952,7 @@ impl IconShape for IoMoon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25973,7 +25973,7 @@ impl IconShape for IoMoveOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26021,7 +26021,7 @@ impl IconShape for IoMoveSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26069,7 +26069,7 @@ impl IconShape for IoMove {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26117,7 +26117,7 @@ impl IconShape for IoMusicalNoteOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26139,7 +26139,7 @@ impl IconShape for IoMusicalNoteSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26160,7 +26160,7 @@ impl IconShape for IoMusicalNote {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26181,7 +26181,7 @@ impl IconShape for IoMusicalNotesOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26207,7 +26207,7 @@ impl IconShape for IoMusicalNotesSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26228,7 +26228,7 @@ impl IconShape for IoMusicalNotes {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26249,7 +26249,7 @@ impl IconShape for IoNavigateCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26274,7 +26274,7 @@ impl IconShape for IoNavigateCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26295,7 +26295,7 @@ impl IconShape for IoNavigateCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26316,7 +26316,7 @@ impl IconShape for IoNavigateOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26338,7 +26338,7 @@ impl IconShape for IoNavigateSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26359,7 +26359,7 @@ impl IconShape for IoNavigate {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26380,7 +26380,7 @@ impl IconShape for IoNewspaperOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26444,7 +26444,7 @@ impl IconShape for IoNewspaperSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26477,7 +26477,7 @@ impl IconShape for IoNewspaper {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26501,7 +26501,7 @@ impl IconShape for IoNotificationsCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26529,7 +26529,7 @@ impl IconShape for IoNotificationsCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26561,7 +26561,7 @@ impl IconShape for IoNotificationsCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26582,7 +26582,7 @@ impl IconShape for IoNotificationsOffCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26616,7 +26616,7 @@ impl IconShape for IoNotificationsOffCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26637,7 +26637,7 @@ impl IconShape for IoNotificationsOffCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26658,7 +26658,7 @@ impl IconShape for IoNotificationsOffOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26695,7 +26695,7 @@ impl IconShape for IoNotificationsOffSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26729,7 +26729,7 @@ impl IconShape for IoNotificationsOff {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26759,7 +26759,7 @@ impl IconShape for IoNotificationsOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26785,7 +26785,7 @@ impl IconShape for IoNotificationsSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26809,7 +26809,7 @@ impl IconShape for IoNotifications {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26833,7 +26833,7 @@ impl IconShape for IoNuclearOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26905,7 +26905,7 @@ impl IconShape for IoNuclearSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26935,7 +26935,7 @@ impl IconShape for IoNuclear {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26956,7 +26956,7 @@ impl IconShape for IoNutritionOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26993,7 +26993,7 @@ impl IconShape for IoNutritionSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27017,7 +27017,7 @@ impl IconShape for IoNutrition {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27041,7 +27041,7 @@ impl IconShape for IoOpenOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27074,7 +27074,7 @@ impl IconShape for IoOpenSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27098,7 +27098,7 @@ impl IconShape for IoOpen {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27122,7 +27122,7 @@ impl IconShape for IoOptionsOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27200,7 +27200,7 @@ impl IconShape for IoOptionsSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27227,7 +27227,7 @@ impl IconShape for IoOptions {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27254,7 +27254,7 @@ impl IconShape for IoPaperPlaneOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27283,7 +27283,7 @@ impl IconShape for IoPaperPlaneSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27304,7 +27304,7 @@ impl IconShape for IoPaperPlane {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27325,7 +27325,7 @@ impl IconShape for IoPartlySunnyOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27379,7 +27379,7 @@ impl IconShape for IoPartlySunnySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27425,7 +27425,7 @@ impl IconShape for IoPartlySunny {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27461,7 +27461,7 @@ impl IconShape for IoPauseCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27497,7 +27497,7 @@ impl IconShape for IoPauseCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27518,7 +27518,7 @@ impl IconShape for IoPauseCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27539,7 +27539,7 @@ impl IconShape for IoPauseOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27571,7 +27571,7 @@ impl IconShape for IoPauseSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27595,7 +27595,7 @@ impl IconShape for IoPause {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27619,7 +27619,7 @@ impl IconShape for IoPawOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27657,7 +27657,7 @@ impl IconShape for IoPawSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27702,7 +27702,7 @@ impl IconShape for IoPaw {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27735,7 +27735,7 @@ impl IconShape for IoPencilOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27761,7 +27761,7 @@ impl IconShape for IoPencilSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27785,7 +27785,7 @@ impl IconShape for IoPencil {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27811,7 +27811,7 @@ impl IconShape for IoPeopleCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27844,7 +27844,7 @@ impl IconShape for IoPeopleCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27865,7 +27865,7 @@ impl IconShape for IoPeopleCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27946,7 +27946,7 @@ impl IconShape for IoPeopleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27980,7 +27980,7 @@ impl IconShape for IoPeopleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28014,7 +28014,7 @@ impl IconShape for IoPeople {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28044,7 +28044,7 @@ impl IconShape for IoPersonAddOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28084,7 +28084,7 @@ impl IconShape for IoPersonAddSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28113,7 +28113,7 @@ impl IconShape for IoPersonAdd {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28140,7 +28140,7 @@ impl IconShape for IoPersonCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28164,7 +28164,7 @@ impl IconShape for IoPersonCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28185,7 +28185,7 @@ impl IconShape for IoPersonCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28206,7 +28206,7 @@ impl IconShape for IoPersonOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28232,7 +28232,7 @@ impl IconShape for IoPersonRemoveOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28265,7 +28265,7 @@ impl IconShape for IoPersonRemoveSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28297,7 +28297,7 @@ impl IconShape for IoPersonRemove {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28324,7 +28324,7 @@ impl IconShape for IoPersonSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28345,7 +28345,7 @@ impl IconShape for IoPerson {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28369,7 +28369,7 @@ impl IconShape for IoPhoneLandscapeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28401,7 +28401,7 @@ impl IconShape for IoPhoneLandscapeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28422,7 +28422,7 @@ impl IconShape for IoPhoneLandscape {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28449,7 +28449,7 @@ impl IconShape for IoPhonePortraitOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28480,7 +28480,7 @@ impl IconShape for IoPhonePortraitSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28501,7 +28501,7 @@ impl IconShape for IoPhonePortrait {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28528,7 +28528,7 @@ impl IconShape for IoPieChartOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28554,7 +28554,7 @@ impl IconShape for IoPieChartSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28578,7 +28578,7 @@ impl IconShape for IoPieChart {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28602,7 +28602,7 @@ impl IconShape for IoPinOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28634,7 +28634,7 @@ impl IconShape for IoPinSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28655,7 +28655,7 @@ impl IconShape for IoPin {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28676,7 +28676,7 @@ impl IconShape for IoPintOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28705,7 +28705,7 @@ impl IconShape for IoPintSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28726,7 +28726,7 @@ impl IconShape for IoPint {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28747,7 +28747,7 @@ impl IconShape for IoPizzaOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28788,7 +28788,7 @@ impl IconShape for IoPizzaSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28836,7 +28836,7 @@ impl IconShape for IoPizza {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28860,7 +28860,7 @@ impl IconShape for IoPlanetOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28888,7 +28888,7 @@ impl IconShape for IoPlanetSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28912,7 +28912,7 @@ impl IconShape for IoPlanet {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28936,7 +28936,7 @@ impl IconShape for IoPlayBackCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28961,7 +28961,7 @@ impl IconShape for IoPlayBackCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28982,7 +28982,7 @@ impl IconShape for IoPlayBackCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29003,7 +29003,7 @@ impl IconShape for IoPlayBackOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29029,7 +29029,7 @@ impl IconShape for IoPlayBackSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29053,7 +29053,7 @@ impl IconShape for IoPlayBack {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29074,7 +29074,7 @@ impl IconShape for IoPlayCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29099,7 +29099,7 @@ impl IconShape for IoPlayCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29120,7 +29120,7 @@ impl IconShape for IoPlayCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29141,7 +29141,7 @@ impl IconShape for IoPlayForwardCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29166,7 +29166,7 @@ impl IconShape for IoPlayForwardCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29187,7 +29187,7 @@ impl IconShape for IoPlayForwardCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29208,7 +29208,7 @@ impl IconShape for IoPlayForwardOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29234,7 +29234,7 @@ impl IconShape for IoPlayForwardSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29258,7 +29258,7 @@ impl IconShape for IoPlayForward {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29279,7 +29279,7 @@ impl IconShape for IoPlayOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29301,7 +29301,7 @@ impl IconShape for IoPlaySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29322,7 +29322,7 @@ impl IconShape for IoPlaySkipBackCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29347,7 +29347,7 @@ impl IconShape for IoPlaySkipBackCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29368,7 +29368,7 @@ impl IconShape for IoPlaySkipBackCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29389,7 +29389,7 @@ impl IconShape for IoPlaySkipBackOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29418,7 +29418,7 @@ impl IconShape for IoPlaySkipBackSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29439,7 +29439,7 @@ impl IconShape for IoPlaySkipBack {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29460,7 +29460,7 @@ impl IconShape for IoPlaySkipForwardCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29485,7 +29485,7 @@ impl IconShape for IoPlaySkipForwardCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29506,7 +29506,7 @@ impl IconShape for IoPlaySkipForwardCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29527,7 +29527,7 @@ impl IconShape for IoPlaySkipForwardOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29556,7 +29556,7 @@ impl IconShape for IoPlaySkipForwardSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29577,7 +29577,7 @@ impl IconShape for IoPlaySkipForward {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29598,7 +29598,7 @@ impl IconShape for IoPlay {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29619,7 +29619,7 @@ impl IconShape for IoPodiumOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29649,7 +29649,7 @@ impl IconShape for IoPodiumSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29685,7 +29685,7 @@ impl IconShape for IoPodium {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29712,7 +29712,7 @@ impl IconShape for IoPowerOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29741,7 +29741,7 @@ impl IconShape for IoPowerSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29768,7 +29768,7 @@ impl IconShape for IoPower {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29792,7 +29792,7 @@ impl IconShape for IoPricetagOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29817,7 +29817,7 @@ impl IconShape for IoPricetagSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29838,7 +29838,7 @@ impl IconShape for IoPricetag {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29859,7 +29859,7 @@ impl IconShape for IoPricetagsOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29888,7 +29888,7 @@ impl IconShape for IoPricetagsSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29912,7 +29912,7 @@ impl IconShape for IoPricetags {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29936,7 +29936,7 @@ impl IconShape for IoPrintOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29976,7 +29976,7 @@ impl IconShape for IoPrintSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30018,7 +30018,7 @@ impl IconShape for IoPrint {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30042,7 +30042,7 @@ impl IconShape for IoPrismOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30077,7 +30077,7 @@ impl IconShape for IoPrismSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30098,7 +30098,7 @@ impl IconShape for IoPrism {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30119,7 +30119,7 @@ impl IconShape for IoPulseOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30147,7 +30147,7 @@ impl IconShape for IoPulseSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30168,7 +30168,7 @@ impl IconShape for IoPulse {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30189,7 +30189,7 @@ impl IconShape for IoPushOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30222,7 +30222,7 @@ impl IconShape for IoPushSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30249,7 +30249,7 @@ impl IconShape for IoPush {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30273,7 +30273,7 @@ impl IconShape for IoQrCodeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30382,7 +30382,7 @@ impl IconShape for IoQrCodeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30457,7 +30457,7 @@ impl IconShape for IoQrCode {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30524,7 +30524,7 @@ impl IconShape for IoRadioButtonOffOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30546,7 +30546,7 @@ impl IconShape for IoRadioButtonOffSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30568,7 +30568,7 @@ impl IconShape for IoRadioButtonOff {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30590,7 +30590,7 @@ impl IconShape for IoRadioButtonOnOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30617,7 +30617,7 @@ impl IconShape for IoRadioButtonOnSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30644,7 +30644,7 @@ impl IconShape for IoRadioButtonOn {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30671,7 +30671,7 @@ impl IconShape for IoRadioOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30718,7 +30718,7 @@ impl IconShape for IoRadioSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30760,7 +30760,7 @@ impl IconShape for IoRadio {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30801,7 +30801,7 @@ impl IconShape for IoRainyOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30851,7 +30851,7 @@ impl IconShape for IoRainySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30900,7 +30900,7 @@ impl IconShape for IoRainy {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30933,7 +30933,7 @@ impl IconShape for IoReaderOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30981,7 +30981,7 @@ impl IconShape for IoReaderSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31002,7 +31002,7 @@ impl IconShape for IoReader {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31023,7 +31023,7 @@ impl IconShape for IoReceiptOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31063,7 +31063,7 @@ impl IconShape for IoReceiptSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31087,7 +31087,7 @@ impl IconShape for IoReceipt {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31111,7 +31111,7 @@ impl IconShape for IoRecordingOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31148,7 +31148,7 @@ impl IconShape for IoRecordingSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31169,7 +31169,7 @@ impl IconShape for IoRecording {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31190,7 +31190,7 @@ impl IconShape for IoRefreshCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31220,7 +31220,7 @@ impl IconShape for IoRefreshCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31241,7 +31241,7 @@ impl IconShape for IoRefreshCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31262,7 +31262,7 @@ impl IconShape for IoRefreshOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31288,7 +31288,7 @@ impl IconShape for IoRefreshSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31314,7 +31314,7 @@ impl IconShape for IoRefresh {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31340,7 +31340,7 @@ impl IconShape for IoReloadCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31369,7 +31369,7 @@ impl IconShape for IoReloadCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31390,7 +31390,7 @@ impl IconShape for IoReloadCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31411,7 +31411,7 @@ impl IconShape for IoReloadOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31436,7 +31436,7 @@ impl IconShape for IoReloadSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31461,7 +31461,7 @@ impl IconShape for IoReload {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31486,7 +31486,7 @@ impl IconShape for IoRemoveCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31515,7 +31515,7 @@ impl IconShape for IoRemoveCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31536,7 +31536,7 @@ impl IconShape for IoRemoveCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31557,7 +31557,7 @@ impl IconShape for IoRemoveOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31582,7 +31582,7 @@ impl IconShape for IoRemoveSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31607,7 +31607,7 @@ impl IconShape for IoRemove {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31632,7 +31632,7 @@ impl IconShape for IoReorderFourOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31678,7 +31678,7 @@ impl IconShape for IoReorderFourSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31724,7 +31724,7 @@ impl IconShape for IoReorderFour {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31770,7 +31770,7 @@ impl IconShape for IoReorderThreeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31809,7 +31809,7 @@ impl IconShape for IoReorderThreeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31848,7 +31848,7 @@ impl IconShape for IoReorderThree {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31887,7 +31887,7 @@ impl IconShape for IoReorderTwoOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31919,7 +31919,7 @@ impl IconShape for IoReorderTwoSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31951,7 +31951,7 @@ impl IconShape for IoReorderTwo {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31983,7 +31983,7 @@ impl IconShape for IoRepeatOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32017,7 +32017,7 @@ impl IconShape for IoRepeatSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32051,7 +32051,7 @@ impl IconShape for IoRepeat {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32085,7 +32085,7 @@ impl IconShape for IoResizeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32118,7 +32118,7 @@ impl IconShape for IoResizeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32151,7 +32151,7 @@ impl IconShape for IoResize {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32184,7 +32184,7 @@ impl IconShape for IoRestaurantOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32225,7 +32225,7 @@ impl IconShape for IoRestaurantSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32249,7 +32249,7 @@ impl IconShape for IoRestaurant {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32273,7 +32273,7 @@ impl IconShape for IoReturnDownBackOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32299,7 +32299,7 @@ impl IconShape for IoReturnDownBackSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32325,7 +32325,7 @@ impl IconShape for IoReturnDownBack {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32351,7 +32351,7 @@ impl IconShape for IoReturnDownForwardOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32377,7 +32377,7 @@ impl IconShape for IoReturnDownForwardSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32403,7 +32403,7 @@ impl IconShape for IoReturnDownForward {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32429,7 +32429,7 @@ impl IconShape for IoReturnUpBackOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32455,7 +32455,7 @@ impl IconShape for IoReturnUpBackSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32481,7 +32481,7 @@ impl IconShape for IoReturnUpBack {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32507,7 +32507,7 @@ impl IconShape for IoReturnUpForwardOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32533,7 +32533,7 @@ impl IconShape for IoReturnUpForwardSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32559,7 +32559,7 @@ impl IconShape for IoReturnUpForward {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32585,7 +32585,7 @@ impl IconShape for IoRibbonOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32623,7 +32623,7 @@ impl IconShape for IoRibbonSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32655,7 +32655,7 @@ impl IconShape for IoRibbon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32688,7 +32688,7 @@ impl IconShape for IoRocketOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32714,7 +32714,7 @@ impl IconShape for IoRocketSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32738,7 +32738,7 @@ impl IconShape for IoRocket {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32765,7 +32765,7 @@ impl IconShape for IoRoseOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32799,7 +32799,7 @@ impl IconShape for IoRoseSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32829,7 +32829,7 @@ impl IconShape for IoRose {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32859,7 +32859,7 @@ impl IconShape for IoSadOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32896,7 +32896,7 @@ impl IconShape for IoSadSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32917,7 +32917,7 @@ impl IconShape for IoSad {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32938,7 +32938,7 @@ impl IconShape for IoSaveOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32960,7 +32960,7 @@ impl IconShape for IoSaveSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32981,7 +32981,7 @@ impl IconShape for IoSave {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33007,7 +33007,7 @@ impl IconShape for IoScaleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33041,7 +33041,7 @@ impl IconShape for IoScaleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33062,7 +33062,7 @@ impl IconShape for IoScale {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33083,7 +33083,7 @@ impl IconShape for IoScanCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33121,7 +33121,7 @@ impl IconShape for IoScanCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33142,7 +33142,7 @@ impl IconShape for IoScanCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33163,7 +33163,7 @@ impl IconShape for IoScanOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33197,7 +33197,7 @@ impl IconShape for IoScanSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33227,7 +33227,7 @@ impl IconShape for IoScan {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33261,7 +33261,7 @@ impl IconShape for IoSchoolOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33301,7 +33301,7 @@ impl IconShape for IoSchoolSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33325,7 +33325,7 @@ impl IconShape for IoSchool {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33349,7 +33349,7 @@ impl IconShape for IoSearchCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33382,7 +33382,7 @@ impl IconShape for IoSearchCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33408,7 +33408,7 @@ impl IconShape for IoSearchCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33434,7 +33434,7 @@ impl IconShape for IoSearchOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33463,7 +33463,7 @@ impl IconShape for IoSearchSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33484,7 +33484,7 @@ impl IconShape for IoSearch {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33505,7 +33505,7 @@ impl IconShape for IoSendOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33527,7 +33527,7 @@ impl IconShape for IoSendSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33548,7 +33548,7 @@ impl IconShape for IoSend {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33569,7 +33569,7 @@ impl IconShape for IoServerOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33606,7 +33606,7 @@ impl IconShape for IoServerSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33636,7 +33636,7 @@ impl IconShape for IoServer {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33666,7 +33666,7 @@ impl IconShape for IoSettingsOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33688,7 +33688,7 @@ impl IconShape for IoSettingsSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33709,7 +33709,7 @@ impl IconShape for IoSettings {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33735,7 +33735,7 @@ impl IconShape for IoShapesOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33761,7 +33761,7 @@ impl IconShape for IoShapesSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33785,7 +33785,7 @@ impl IconShape for IoShapes {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33809,7 +33809,7 @@ impl IconShape for IoShareOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33842,7 +33842,7 @@ impl IconShape for IoShareSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33866,7 +33866,7 @@ impl IconShape for IoShareSocialOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33916,7 +33916,7 @@ impl IconShape for IoShareSocialSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33937,7 +33937,7 @@ impl IconShape for IoShareSocial {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33958,7 +33958,7 @@ impl IconShape for IoShare {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33982,7 +33982,7 @@ impl IconShape for IoShieldCheckmarkOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34008,7 +34008,7 @@ impl IconShape for IoShieldCheckmarkSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34029,7 +34029,7 @@ impl IconShape for IoShieldCheckmark {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34050,7 +34050,7 @@ impl IconShape for IoShieldHalfOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34078,7 +34078,7 @@ impl IconShape for IoShieldHalfSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34099,7 +34099,7 @@ impl IconShape for IoShieldHalf {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34127,7 +34127,7 @@ impl IconShape for IoShieldOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34149,7 +34149,7 @@ impl IconShape for IoShieldSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34170,7 +34170,7 @@ impl IconShape for IoShield {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34191,7 +34191,7 @@ impl IconShape for IoShirtOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34217,7 +34217,7 @@ impl IconShape for IoShirtSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34241,7 +34241,7 @@ impl IconShape for IoShirt {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34265,7 +34265,7 @@ impl IconShape for IoShuffleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34303,7 +34303,7 @@ impl IconShape for IoShuffleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34341,7 +34341,7 @@ impl IconShape for IoShuffle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34379,7 +34379,7 @@ impl IconShape for IoSkullOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34438,7 +34438,7 @@ impl IconShape for IoSkullSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34459,7 +34459,7 @@ impl IconShape for IoSkull {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34480,7 +34480,7 @@ impl IconShape for IoSnowOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34543,7 +34543,7 @@ impl IconShape for IoSnowSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34564,7 +34564,7 @@ impl IconShape for IoSnow {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34585,7 +34585,7 @@ impl IconShape for IoSparklesOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34624,7 +34624,7 @@ impl IconShape for IoSparklesSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34651,7 +34651,7 @@ impl IconShape for IoSparkles {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34678,7 +34678,7 @@ impl IconShape for IoSpeedometerOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34738,7 +34738,7 @@ impl IconShape for IoSpeedometerSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34759,7 +34759,7 @@ impl IconShape for IoSpeedometer {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34780,7 +34780,7 @@ impl IconShape for IoSquareOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34802,7 +34802,7 @@ impl IconShape for IoSquareSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34826,7 +34826,7 @@ impl IconShape for IoSquare {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34847,7 +34847,7 @@ impl IconShape for IoStarHalfOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34872,7 +34872,7 @@ impl IconShape for IoStarHalfSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34893,7 +34893,7 @@ impl IconShape for IoStarHalf {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34918,7 +34918,7 @@ impl IconShape for IoStarOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34940,7 +34940,7 @@ impl IconShape for IoStarSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34961,7 +34961,7 @@ impl IconShape for IoStar {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34982,7 +34982,7 @@ impl IconShape for IoStatsChartOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35036,7 +35036,7 @@ impl IconShape for IoStatsChartSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35066,7 +35066,7 @@ impl IconShape for IoStatsChart {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35096,7 +35096,7 @@ impl IconShape for IoStopCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35121,7 +35121,7 @@ impl IconShape for IoStopCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35142,7 +35142,7 @@ impl IconShape for IoStopCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35163,7 +35163,7 @@ impl IconShape for IoStopOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35190,7 +35190,7 @@ impl IconShape for IoStopSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35214,7 +35214,7 @@ impl IconShape for IoStop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35235,7 +35235,7 @@ impl IconShape for IoStopwatchOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35284,7 +35284,7 @@ impl IconShape for IoStopwatchSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35305,7 +35305,7 @@ impl IconShape for IoStopwatch {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35331,7 +35331,7 @@ impl IconShape for IoStorefrontOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35400,7 +35400,7 @@ impl IconShape for IoStorefrontSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35424,7 +35424,7 @@ impl IconShape for IoStorefront {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35448,7 +35448,7 @@ impl IconShape for IoSubwayOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35524,7 +35524,7 @@ impl IconShape for IoSubwaySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35548,7 +35548,7 @@ impl IconShape for IoSubway {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35572,7 +35572,7 @@ impl IconShape for IoSunnyOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35652,7 +35652,7 @@ impl IconShape for IoSunnySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35725,7 +35725,7 @@ impl IconShape for IoSunny {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35770,7 +35770,7 @@ impl IconShape for IoSwapHorizontalOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35810,7 +35810,7 @@ impl IconShape for IoSwapHorizontalSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35850,7 +35850,7 @@ impl IconShape for IoSwapHorizontal {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35890,7 +35890,7 @@ impl IconShape for IoSwapVerticalOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35930,7 +35930,7 @@ impl IconShape for IoSwapVerticalSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35970,7 +35970,7 @@ impl IconShape for IoSwapVertical {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36010,7 +36010,7 @@ impl IconShape for IoSyncCircleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36044,7 +36044,7 @@ impl IconShape for IoSyncCircleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36065,7 +36065,7 @@ impl IconShape for IoSyncCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36086,7 +36086,7 @@ impl IconShape for IoSyncOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36116,7 +36116,7 @@ impl IconShape for IoSyncSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36146,7 +36146,7 @@ impl IconShape for IoSync {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36176,7 +36176,7 @@ impl IconShape for IoTabletLandscapeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36204,7 +36204,7 @@ impl IconShape for IoTabletLandscapeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36225,7 +36225,7 @@ impl IconShape for IoTabletLandscape {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36249,7 +36249,7 @@ impl IconShape for IoTabletPortraitOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36276,7 +36276,7 @@ impl IconShape for IoTabletPortraitSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36297,7 +36297,7 @@ impl IconShape for IoTabletPortrait {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36321,7 +36321,7 @@ impl IconShape for IoTelescopeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36380,7 +36380,7 @@ impl IconShape for IoTelescopeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36407,7 +36407,7 @@ impl IconShape for IoTelescope {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36434,7 +36434,7 @@ impl IconShape for IoTennisballOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36466,7 +36466,7 @@ impl IconShape for IoTennisballSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36493,7 +36493,7 @@ impl IconShape for IoTennisball {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36520,7 +36520,7 @@ impl IconShape for IoTerminalOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36558,7 +36558,7 @@ impl IconShape for IoTerminalSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36579,7 +36579,7 @@ impl IconShape for IoTerminal {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36600,7 +36600,7 @@ impl IconShape for IoTextOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36637,7 +36637,7 @@ impl IconShape for IoTextSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36661,7 +36661,7 @@ impl IconShape for IoText {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36685,7 +36685,7 @@ impl IconShape for IoThermometerOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36719,7 +36719,7 @@ impl IconShape for IoThermometerSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36740,7 +36740,7 @@ impl IconShape for IoThermometer {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36761,7 +36761,7 @@ impl IconShape for IoThumbsDownOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36799,7 +36799,7 @@ impl IconShape for IoThumbsDownSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36831,7 +36831,7 @@ impl IconShape for IoThumbsDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36866,7 +36866,7 @@ impl IconShape for IoThumbsUpOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36904,7 +36904,7 @@ impl IconShape for IoThumbsUpSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36925,7 +36925,7 @@ impl IconShape for IoThumbsUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -36960,7 +36960,7 @@ impl IconShape for IoThunderstormOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37014,7 +37014,7 @@ impl IconShape for IoThunderstormSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37063,7 +37063,7 @@ impl IconShape for IoThunderstorm {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37096,7 +37096,7 @@ impl IconShape for IoTicketOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37160,7 +37160,7 @@ impl IconShape for IoTicketSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37181,7 +37181,7 @@ impl IconShape for IoTicket {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37202,7 +37202,7 @@ impl IconShape for IoTimeOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37228,7 +37228,7 @@ impl IconShape for IoTimeSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37249,7 +37249,7 @@ impl IconShape for IoTime {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37270,7 +37270,7 @@ impl IconShape for IoTimerOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37295,7 +37295,7 @@ impl IconShape for IoTimerSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37316,7 +37316,7 @@ impl IconShape for IoTimer {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37337,7 +37337,7 @@ impl IconShape for IoTodayOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37406,7 +37406,7 @@ impl IconShape for IoTodaySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37430,7 +37430,7 @@ impl IconShape for IoToday {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37454,7 +37454,7 @@ impl IconShape for IoToggleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37487,7 +37487,7 @@ impl IconShape for IoToggleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37508,7 +37508,7 @@ impl IconShape for IoToggle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37529,7 +37529,7 @@ impl IconShape for IoTrailSignOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37576,7 +37576,7 @@ impl IconShape for IoTrailSignSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37597,7 +37597,7 @@ impl IconShape for IoTrailSign {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37618,7 +37618,7 @@ impl IconShape for IoTrainOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37661,7 +37661,7 @@ impl IconShape for IoTrainSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37685,7 +37685,7 @@ impl IconShape for IoTrain {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37716,7 +37716,7 @@ impl IconShape for IoTransgenderOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37783,7 +37783,7 @@ impl IconShape for IoTransgenderSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37804,7 +37804,7 @@ impl IconShape for IoTransgender {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37825,7 +37825,7 @@ impl IconShape for IoTrashBinOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37870,7 +37870,7 @@ impl IconShape for IoTrashBinSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37907,7 +37907,7 @@ impl IconShape for IoTrashBin {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37936,7 +37936,7 @@ impl IconShape for IoTrashOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37990,7 +37990,7 @@ impl IconShape for IoTrashSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38019,7 +38019,7 @@ impl IconShape for IoTrash {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38044,7 +38044,7 @@ impl IconShape for IoTrendingDownOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38070,7 +38070,7 @@ impl IconShape for IoTrendingDownSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38096,7 +38096,7 @@ impl IconShape for IoTrendingDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38122,7 +38122,7 @@ impl IconShape for IoTrendingUpOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38148,7 +38148,7 @@ impl IconShape for IoTrendingUpSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38174,7 +38174,7 @@ impl IconShape for IoTrendingUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38200,7 +38200,7 @@ impl IconShape for IoTriangleOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38222,7 +38222,7 @@ impl IconShape for IoTriangleSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38243,7 +38243,7 @@ impl IconShape for IoTriangle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38264,7 +38264,7 @@ impl IconShape for IoTrophyOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38308,7 +38308,7 @@ impl IconShape for IoTrophySharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38329,7 +38329,7 @@ impl IconShape for IoTrophy {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38350,7 +38350,7 @@ impl IconShape for IoTvOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38384,7 +38384,7 @@ impl IconShape for IoTvSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38413,7 +38413,7 @@ impl IconShape for IoTv {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38441,7 +38441,7 @@ impl IconShape for IoUmbrellaOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38474,7 +38474,7 @@ impl IconShape for IoUmbrellaSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38501,7 +38501,7 @@ impl IconShape for IoUmbrella {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38522,7 +38522,7 @@ impl IconShape for IoUnlinkOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38554,7 +38554,7 @@ impl IconShape for IoUnlinkSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38586,7 +38586,7 @@ impl IconShape for IoUnlink {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38618,7 +38618,7 @@ impl IconShape for IoVideocamOffOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38667,7 +38667,7 @@ impl IconShape for IoVideocamOffSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38698,7 +38698,7 @@ impl IconShape for IoVideocamOff {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38735,7 +38735,7 @@ impl IconShape for IoVideocamOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38761,7 +38761,7 @@ impl IconShape for IoVideocamSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38782,7 +38782,7 @@ impl IconShape for IoVideocam {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38806,7 +38806,7 @@ impl IconShape for IoVolumeHighOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38840,7 +38840,7 @@ impl IconShape for IoVolumeHighSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38873,7 +38873,7 @@ impl IconShape for IoVolumeHigh {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38903,7 +38903,7 @@ impl IconShape for IoVolumeLowOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38929,7 +38929,7 @@ impl IconShape for IoVolumeLowSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38953,7 +38953,7 @@ impl IconShape for IoVolumeLow {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38977,7 +38977,7 @@ impl IconShape for IoVolumeMediumOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39007,7 +39007,7 @@ impl IconShape for IoVolumeMediumSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39036,7 +39036,7 @@ impl IconShape for IoVolumeMedium {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39063,7 +39063,7 @@ impl IconShape for IoVolumeMuteOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39103,7 +39103,7 @@ impl IconShape for IoVolumeMuteSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39143,7 +39143,7 @@ impl IconShape for IoVolumeMute {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39183,7 +39183,7 @@ impl IconShape for IoVolumeOffOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39205,7 +39205,7 @@ impl IconShape for IoVolumeOffSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39226,7 +39226,7 @@ impl IconShape for IoVolumeOff {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39247,7 +39247,7 @@ impl IconShape for IoWalkOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39293,7 +39293,7 @@ impl IconShape for IoWalkSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39331,7 +39331,7 @@ impl IconShape for IoWalk {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39369,7 +39369,7 @@ impl IconShape for IoWalletOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39403,7 +39403,7 @@ impl IconShape for IoWalletSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39430,7 +39430,7 @@ impl IconShape for IoWallet {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39457,7 +39457,7 @@ impl IconShape for IoWarningOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39486,7 +39486,7 @@ impl IconShape for IoWarningSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39507,7 +39507,7 @@ impl IconShape for IoWarning {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39528,7 +39528,7 @@ impl IconShape for IoWatchOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39563,7 +39563,7 @@ impl IconShape for IoWatchSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39592,7 +39592,7 @@ impl IconShape for IoWatch {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39621,7 +39621,7 @@ impl IconShape for IoWaterOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39647,7 +39647,7 @@ impl IconShape for IoWaterSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39668,7 +39668,7 @@ impl IconShape for IoWater {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39689,7 +39689,7 @@ impl IconShape for IoWifiOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39722,7 +39722,7 @@ impl IconShape for IoWifiSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39755,7 +39755,7 @@ impl IconShape for IoWifi {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39787,7 +39787,7 @@ impl IconShape for IoWineOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39830,7 +39830,7 @@ impl IconShape for IoWineSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39851,7 +39851,7 @@ impl IconShape for IoWine {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39872,7 +39872,7 @@ impl IconShape for IoWomanOutline {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39912,7 +39912,7 @@ impl IconShape for IoWomanSharp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39938,7 +39938,7 @@ impl IconShape for IoWoman {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        (user_color, user_color, "0")
     }
     fn child_elements(&self) -> Element {
         rsx! {

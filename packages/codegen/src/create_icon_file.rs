@@ -142,6 +142,7 @@ fn extract_svg_attrs(element: &Element) -> (String, String) {
 fn extract_svg_colors(icon_prefix: &str) -> (&str, &str, &str) {
     match icon_prefix {
         "Fi" => ("\"none\"", "user_color", "\"2\""),
+        "Io" => ("user_color", "user_color", "\"0\""),
         _ => ("user_color", "\"none\"", "\"0\""),
     }
 }
