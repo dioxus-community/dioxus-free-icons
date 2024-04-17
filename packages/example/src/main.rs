@@ -1,7 +1,7 @@
 use dioxus::prelude::*;
 
 use dioxus_free_icons::icons::fi_icons::FiDelete;
-use dioxus_free_icons::icons::fi_icons::FiFolderPlus;
+use dioxus_free_icons::icons::io_icons::IoAdd;
 use dioxus_free_icons::Icon;
 
 fn main() {
@@ -20,8 +20,8 @@ fn app() -> Element {
             h3 { "Frontend that scales." }
             p { "Dioxus is a portable, performant, and ergonomic framework for building cross-platform user interfaces in Rust." },
             button {
-                Icon { icon: FiFolderPlus }
-                "Create folder"
+                Icon { icon: IoAdd }
+                "IoAdd"
               }
              button {
                 Icon { icon: FiDelete }
