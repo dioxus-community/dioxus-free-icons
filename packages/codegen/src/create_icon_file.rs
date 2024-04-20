@@ -82,6 +82,7 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
 
 fn collect_svg_files(svg_path: &str, icon_prefix: &str) -> Vec<PathBuf> {
     let dir_entries = WalkDir::new(svg_path)
+        .sort_by_file_name()
         .into_iter()
         .filter_map(|e| e.ok())
         .collect::<Vec<_>>();
