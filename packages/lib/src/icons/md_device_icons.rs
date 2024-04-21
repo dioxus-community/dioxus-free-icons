@@ -68,6 +68,27 @@ impl IconShape for MdAccessTime {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdAdUnits;
+impl IconShape for MdAdUnits {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M17 1H7c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 18H7V5h10v14zM8 6h8v2H8z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdAddAlarm;
 impl IconShape for MdAddAlarm {
     fn view_box(&self) -> &str {
@@ -107,27 +128,6 @@ impl IconShape for MdAddToHomeScreen {
             }
             path {
                 d: "M18 1.01L8 1c-1.1 0-2 .9-2 2v3h2V5h10v14H8v-1H6v3c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM10 15h2V8H5v2h3.59L3 15.59 4.41 17 10 11.41z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdAdUnits;
-impl IconShape for MdAdUnits {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M17 1H7c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 18H7V5h10v14zM8 6h8v2H8z",
             }
         }
     }
@@ -491,27 +491,6 @@ impl IconShape for MdDeveloperMode {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdDevices;
-impl IconShape for MdDevices {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M4 6h18V4H4c-1.1 0-2 .9-2 2v11H0v3h14v-3H4V6zm19 2h-6c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1zm-1 9h-4v-7h4v7z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdDeviceThermostat;
 impl IconShape for MdDeviceThermostat {
     fn view_box(&self) -> &str {
@@ -527,6 +506,27 @@ impl IconShape for MdDeviceThermostat {
         rsx! {
             path {
                 d: "M15 13V5c0-1.66-1.34-3-3-3S9 3.34 9 5v8c-1.21.91-2 2.37-2 4 0 2.76 2.24 5 5 5s5-2.24 5-5c0-1.63-.79-3.09-2-4zm-4-8c0-.55.45-1 1-1s1 .45 1 1h-1v1h1v2h-1v1h1v2h-2V5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdDevices;
+impl IconShape for MdDevices {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M4 6h18V4H4c-1.1 0-2 .9-2 2v11H0v3h14v-3H4V6zm19 2h-6c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1zm-1 9h-4v-7h4v7z",
             }
         }
     }

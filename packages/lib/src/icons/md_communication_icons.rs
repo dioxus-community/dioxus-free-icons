@@ -443,27 +443,6 @@ impl IconShape for MdComment {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdContacts;
-impl IconShape for MdContacts {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M20 0H4v2h16V0zM4 24h16v-2H4v2zM20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-8 2.75c1.24 0 2.25 1.01 2.25 2.25s-1.01 2.25-2.25 2.25S9.75 10.24 9.75 9 10.76 6.75 12 6.75zM17 17H7v-1.5c0-1.67 3.33-2.5 5-2.5s5 .83 5 2.5V17z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdContactMail;
 impl IconShape for MdContactMail {
     fn view_box(&self) -> &str {
@@ -503,6 +482,27 @@ impl IconShape for MdContactPhone {
         rsx! {
             path {
                 d: "M22 3H2C.9 3 0 3.9 0 5v14c0 1.1.9 2 2 2h20c1.1 0 1.99-.9 1.99-2L24 5c0-1.1-.9-2-2-2zM8 6c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H2v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1zm3.85-4h1.64L21 16l-1.99 1.99c-1.31-.98-2.28-2.38-2.73-3.99-.18-.64-.28-1.31-.28-2s.1-1.36.28-2c.45-1.62 1.42-3.01 2.73-3.99L21 8l-1.51 2h-1.64c-.22.63-.35 1.3-.35 2s.13 1.37.35 2z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdContacts;
+impl IconShape for MdContacts {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M20 0H4v2h16V0zM4 24h16v-2H4v2zM20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-8 2.75c1.24 0 2.25 1.01 2.25 2.25s-1.01 2.25-2.25 2.25S9.75 10.24 9.75 9 10.76 6.75 12 6.75zM17 17H7v-1.5c0-1.67 3.33-2.5 5-2.5s5 .83 5 2.5V17z",
             }
         }
     }
@@ -1212,6 +1212,48 @@ impl IconShape for MdPhone {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdPhoneDisabled;
+impl IconShape for MdPhoneDisabled {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M17.34 14.54l-1.43-1.43c.56-.73 1.05-1.5 1.47-2.32l-2.2-2.2c-.28-.28-.36-.67-.25-1.02.37-1.12.57-2.32.57-3.57 0-.55.45-1 1-1H20c.55 0 1 .45 1 1 0 3.98-1.37 7.64-3.66 10.54zm-2.82 2.81C11.63 19.64 7.97 21 4 21c-.55 0-1-.45-1-1v-3.49c0-.55.45-1 1-1 1.24 0 2.45-.2 3.57-.57.35-.12.75-.03 1.02.24l2.2 2.2c.81-.42 1.58-.9 2.3-1.46L1.39 4.22l1.42-1.41L21.19 21.2l-1.41 1.41-5.26-5.26z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdPhoneEnabled;
+impl IconShape for MdPhoneEnabled {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M17.38 10.79l-2.2-2.2c-.28-.28-.36-.67-.25-1.02.37-1.12.57-2.32.57-3.57 0-.55.45-1 1-1H20c.55 0 1 .45 1 1 0 9.39-7.61 17-17 17-.55 0-1-.45-1-1v-3.49c0-.55.45-1 1-1 1.24 0 2.45-.2 3.57-.57.35-.12.75-.03 1.02.24l2.2 2.2c2.83-1.45 5.15-3.76 6.59-6.59z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdPhonelinkErase;
 impl IconShape for MdPhonelinkErase {
     fn view_box(&self) -> &str {
@@ -1290,48 +1332,6 @@ impl IconShape for MdPhonelinkSetup {
         rsx! {
             path {
                 d: "M10.82 12.49c.02-.16.04-.32.04-.49 0-.17-.02-.33-.04-.49l1.08-.82c.1-.07.12-.21.06-.32l-1.03-1.73c-.06-.11-.2-.15-.31-.11l-1.28.5c-.27-.2-.56-.36-.87-.49l-.2-1.33c0-.12-.11-.21-.24-.21H5.98c-.13 0-.24.09-.26.21l-.2 1.32c-.31.12-.6.3-.87.49l-1.28-.5c-.12-.05-.25 0-.31.11l-1.03 1.73c-.06.12-.03.25.07.33l1.08.82c-.02.16-.03.33-.03.49 0 .17.02.33.04.49l-1.09.83c-.1.07-.12.21-.06.32l1.03 1.73c.06.11.2.15.31.11l1.28-.5c.27.2.56.36.87.49l.2 1.32c.01.12.12.21.25.21h2.06c.13 0 .24-.09.25-.21l.2-1.32c.31-.12.6-.3.87-.49l1.28.5c.12.05.25 0 .31-.11l1.03-1.73c.06-.11.04-.24-.06-.32l-1.1-.83zM7 13.75c-.99 0-1.8-.78-1.8-1.75s.81-1.75 1.8-1.75 1.8.78 1.8 1.75S8 13.75 7 13.75zM18 1.01L8 1c-1.1 0-2 .9-2 2v3h2V5h10v14H8v-1H6v3c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdPhoneDisabled;
-impl IconShape for MdPhoneDisabled {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M17.34 14.54l-1.43-1.43c.56-.73 1.05-1.5 1.47-2.32l-2.2-2.2c-.28-.28-.36-.67-.25-1.02.37-1.12.57-2.32.57-3.57 0-.55.45-1 1-1H20c.55 0 1 .45 1 1 0 3.98-1.37 7.64-3.66 10.54zm-2.82 2.81C11.63 19.64 7.97 21 4 21c-.55 0-1-.45-1-1v-3.49c0-.55.45-1 1-1 1.24 0 2.45-.2 3.57-.57.35-.12.75-.03 1.02.24l2.2 2.2c.81-.42 1.58-.9 2.3-1.46L1.39 4.22l1.42-1.41L21.19 21.2l-1.41 1.41-5.26-5.26z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct MdPhoneEnabled;
-impl IconShape for MdPhoneEnabled {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M17.38 10.79l-2.2-2.2c-.28-.28-.36-.67-.25-1.02.37-1.12.57-2.32.57-3.57 0-.55.45-1 1-1H20c.55 0 1 .45 1 1 0 9.39-7.61 17-17 17-.55 0-1-.45-1-1v-3.49c0-.55.45-1 1-1 1.24 0 2.45-.2 3.57-.57.35-.12.75-.03 1.02.24l2.2 2.2c2.83-1.45 5.15-3.76 6.59-6.59z",
             }
         }
     }
