@@ -1,6 +1,6 @@
 use dioxus::prelude::*;
 
-use dioxus_free_icons::icons::io_icons::{IoClose, IoFolder};
+use dioxus_free_icons::icons::fa_brands_icons::FaRust;
 use dioxus_free_icons::Icon;
 
 fn main() {
@@ -18,14 +18,11 @@ fn app() -> Element {
             h1 { "🌗 Dioxus 🚀" }
             h3 { "Frontend that scales." }
             p { "Dioxus is a portable, performant, and ergonomic framework for building cross-platform user interfaces in Rust." },
-            button {
-                Icon { icon: IoFolder }
-                "IoAdd"
-              }
-             button {
-                Icon { icon: IoClose }
-               "Remove Project"
-             }
+            Icon {
+                width: 60,
+                height: 60,
+                icon: FaRust,
+            }
         }
     )
 }
