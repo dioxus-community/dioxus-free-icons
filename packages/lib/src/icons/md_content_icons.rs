@@ -290,9 +290,7 @@ impl IconShape for MdBolt {
         (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 
@@ -1376,9 +1374,7 @@ impl IconShape for MdTag {
         (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 
@@ -1458,9 +1454,7 @@ impl IconShape for MdWaves {
         (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 

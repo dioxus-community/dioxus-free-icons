@@ -816,9 +816,7 @@ impl IconShape for MdMeetingRoom {
         (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 
@@ -982,9 +980,7 @@ impl IconShape for MdNoMeetingRoom {
         (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 

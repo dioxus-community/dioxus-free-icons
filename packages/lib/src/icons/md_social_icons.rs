@@ -931,9 +931,7 @@ impl IconShape for MdNotifications {
         (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 

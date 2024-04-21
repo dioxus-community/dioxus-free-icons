@@ -56,9 +56,7 @@ impl IconShape for MdAddCall {
         (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 

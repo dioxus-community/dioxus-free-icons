@@ -721,9 +721,7 @@ impl IconShape for MdMonitor {
         (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 
@@ -1084,9 +1082,7 @@ impl IconShape for MdTabletMac {
         (user_color, "none", "0")
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 
