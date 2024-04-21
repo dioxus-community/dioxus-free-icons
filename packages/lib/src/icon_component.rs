@@ -2,9 +2,12 @@ use dioxus::prelude::*;
 
 /// Icon shape trait
 pub trait IconShape {
-    fn view_box(&self) -> String;
-    fn xmlns(&self) -> String;
+    fn view_box(&self) -> &str;
+    fn xmlns(&self) -> &str;
     fn child_elements(&self) -> Element;
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "0")
+    }
 }
 
 /// Icon component Props
@@ -31,16 +34,17 @@ pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
 /// Icon component which generates SVG elements
 #[allow(non_snake_case)]
 pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> Element {
+    let (fill, stroke, stroke_width) = props.icon.fill_and_stroke(&props.fill);
     rsx!(
         svg {
-            stroke_width: "0",
             class: "{props.class}",
             height: "{props.height}",
             width: "{props.width}",
             view_box: "{props.icon.view_box()}",
             xmlns: "{props.icon.xmlns()}",
-            fill: "{props.fill}",
-            stroke: "{props.fill}",
+            fill,
+            stroke,
+            stroke_width,
             if let Some(title_text) = props.title {
                 title {
                     "{title_text}"

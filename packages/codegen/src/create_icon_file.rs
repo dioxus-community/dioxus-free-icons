@@ -15,11 +15,14 @@ use walkdir::WalkDir;
 const ICON_TEMPLATE: &str = r#"#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct {ICON_NAME};
 impl IconShape for {ICON_NAME} {
-    fn view_box(&self) -> String {
-        String::from("{VIEW_BOX}")
+    fn view_box(&self) -> &str {
+        "{VIEW_BOX}"
     }
-    fn xmlns(&self) -> String {
-        String::from("{XMLNS}")
+    fn xmlns(&self) -> &str {
+        "{XMLNS}"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ({FILL_COLOR}, {STROKE_COLOR}, {STROKE_WIDTH})
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -57,12 +60,16 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
             let icon_name = icon_name(&file, icon_prefix);
             let (view_box, xmlns) = extract_svg_attrs(svg_element);
             let child_elements = extract_svg_child_elements(svg_child_elements, icon_prefix);
+            let (fill_color, stroke_color, stroke_width) = extract_svg_colors(icon_prefix);
 
             ICON_TEMPLATE
                 .replace("{ICON_NAME}", &format!("{}{}", icon_prefix, &icon_name))
                 .replace("{VIEW_BOX}", &view_box)
                 .replace("{XMLNS}", &xmlns)
                 .replace("{CHILD_ELEMENTS}", &child_elements)
+                .replace("{FILL_COLOR}", &fill_color)
+                .replace("{STROKE_COLOR}", &stroke_color)
+                .replace("{STROKE_WIDTH}", &stroke_width)
         })
         .collect::<Vec<_>>()
         .join("\n");
@@ -131,7 +138,15 @@ fn extract_svg_attrs(element: &Element) -> (String, String) {
         .unwrap_or("http://www.w3.org/2000/svg");
     (String::from(view_box), String::from(xmlns))
 }
-// "fill:none;stroke:#000;
+
+fn extract_svg_colors(icon_prefix: &str) -> (&str, &str, &str) {
+    match icon_prefix {
+        "Fi" => ("\"none\"", "user_color", "\"2\""),
+        "Io" => ("user_color", "user_color", "\"0\""),
+        _ => ("user_color", "\"none\"", "\"0\""),
+    }
+}
+
 fn extract_svg_child_elements(elements: &[&Element], icon_prefix: &str) -> String {
     let elements = match icon_prefix {
         "Md" => &elements[1..],
