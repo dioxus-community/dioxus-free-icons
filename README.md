@@ -29,6 +29,7 @@ The following features are available. Please see [react-icons site](https://reac
 - [hero-icons-outline](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/hi_outline_icons/index.html)
 - [hero-icons-solid](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/hi_solid_icons/index.html)
 - [ionicons](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/io_icons/index.html)
+- [lucide](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/ld_icons/index.html)
 - [material-design-icons-action](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/md_action_icons/index.html)
 - [material-design-icons-alert](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/md_alert_icons/index.html)
 - [material-design-icons-av](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/md_av_icons/index.html)
@@ -81,6 +82,7 @@ Icon Library|License|Version
 [Font Awesome](https://fontawesome.com/)|[CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)| [6.1.1](https://github.com/FortAwesome/Font-Awesome/tree/6.1.1)
 [Heroicons](https://heroicons.com/)|[MIT License](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE)| [1.0.6](https://github.com/tailwindlabs/heroicons/tree/v1.0.6)
 [Ionicons](https://ionic.io/ionicons)|[MIT License](https://github.com/ionic-team/ionicons/blob/main/LICENSE)| [6.0.2](https://github.com/ionic-team/ionicons/tree/v6.0.2)
+[Lucide](https://lucide.dev)|[ISC License](https://github.com/lucide-icons/lucide/blob/main/LICENSE)| [0.265.0](https://github.com/lucide-icons/lucide/tree/v0.265.0)
 [Material Design icons](https://developers.google.com/fonts/docs/material_icons)|[Apache License 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)| [4.0.0](https://github.com/google/material-design-icons/tree/4.0.0)
 [Octicons](https://primer.style/octicons/)|[MIT License](https://github.com/primer/octicons/blob/main/LICENSE)| [17.3.0](https://github.com/primer/octicons/tree/v17.3.0)
 
