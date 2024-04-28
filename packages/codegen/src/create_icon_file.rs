@@ -24,6 +24,12 @@ impl IconShape for {ICON_NAME} {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         ({FILL_COLOR}, {STROKE_COLOR}, {STROKE_WIDTH})
     }
+    fn stroke_linecap(&self) -> &str {
+        "{STROKE_LINECAP}"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "{STROKE_LINEJOIN}"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
 {CHILD_ELEMENTS}
@@ -61,6 +67,8 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
             let (view_box, xmlns) = extract_svg_attrs(svg_element);
             let child_elements = extract_svg_child_elements(svg_child_elements, icon_prefix);
             let (fill_color, stroke_color, stroke_width) = extract_svg_colors(icon_prefix);
+            let stroke_linecap = extract_stroke_linecap(icon_prefix);
+            let stroke_linejoin = extract_stroke_linejoin(icon_prefix);
 
             ICON_TEMPLATE
                 .replace("{ICON_NAME}", &format!("{}{}", icon_prefix, &icon_name))
@@ -70,6 +78,8 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
                 .replace("{FILL_COLOR}", &fill_color)
                 .replace("{STROKE_COLOR}", &stroke_color)
                 .replace("{STROKE_WIDTH}", &stroke_width)
+                .replace("{STROKE_LINECAP}", &stroke_linecap)
+                .replace("{STROKE_LINEJOIN}", &stroke_linejoin)
         })
         .collect::<Vec<_>>()
         .join("\n");
@@ -143,8 +153,23 @@ fn extract_svg_attrs(element: &Element) -> (String, String) {
 fn extract_svg_colors(icon_prefix: &str) -> (&str, &str, &str) {
     match icon_prefix {
         "Fi" => ("\"none\"", "user_color", "\"2\""),
+        "Ld" => ("\"none\"", "user_color", "\"2\""),
         "Io" => ("user_color", "user_color", "\"0\""),
         _ => ("user_color", "\"none\"", "\"0\""),
+    }
+}
+
+fn extract_stroke_linecap(icon_prefix: &str) -> &str {
+    match icon_prefix {
+        "Ld" => "round",
+        _ => "butt",
+    }
+}
+
+fn extract_stroke_linejoin(icon_prefix: &str) -> &str {
+    match icon_prefix {
+        "Ld" => "round",
+        _ => "miter",
     }
 }
 

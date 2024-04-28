@@ -16,6 +16,8 @@ pub mod hi_outline_icons;
 pub mod hi_solid_icons;
 #[cfg(feature = "ionicons")]
 pub mod io_icons;
+#[cfg(feature = "lucide")]
+pub mod ld_icons;
 #[cfg(feature = "material-design-icons-action")]
 pub mod md_action_icons;
 #[cfg(feature = "material-design-icons-alert")]
