@@ -1044,9 +1044,7 @@ impl IconShape for MdMeetingRoom {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 
@@ -1258,9 +1256,7 @@ impl IconShape for MdNoMeetingRoom {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 

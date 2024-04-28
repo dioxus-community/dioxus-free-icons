@@ -368,9 +368,7 @@ impl IconShape for MdBolt {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 
@@ -1742,9 +1740,7 @@ impl IconShape for MdTag {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 
@@ -1848,9 +1844,7 @@ impl IconShape for MdWaves {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 

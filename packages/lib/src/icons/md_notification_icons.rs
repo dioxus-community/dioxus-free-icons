@@ -74,9 +74,7 @@ impl IconShape for MdAddCall {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 

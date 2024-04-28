@@ -91,9 +91,9 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
             "{}\n\n{}",
             "use super::super::IconShape;\nuse dioxus::prelude::*;", icon_file
         )
-            .as_bytes(),
+        .as_bytes(),
     )
-        .unwrap();
+    .unwrap();
     file.flush().unwrap();
 }
 

@@ -925,9 +925,7 @@ impl IconShape for MdMonitor {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 
@@ -1390,9 +1388,7 @@ impl IconShape for MdTabletMac {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {
-
-        }
+        rsx! {}
     }
 }
 
