@@ -14,6 +14,12 @@ impl IconShape for Md6FtApart {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -35,6 +41,12 @@ impl IconShape for MdAddModerator {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -60,6 +72,12 @@ impl IconShape for MdArchitecture {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -89,6 +107,12 @@ impl IconShape for MdCake {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -110,6 +134,12 @@ impl IconShape for MdCleanHands {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -133,6 +163,12 @@ impl IconShape for MdConnectWithoutContact {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -154,6 +190,12 @@ impl IconShape for MdConstruction {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -184,6 +226,12 @@ impl IconShape for MdCoronavirus {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -205,6 +253,12 @@ impl IconShape for MdDeck {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -234,6 +288,12 @@ impl IconShape for MdDomain {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -255,6 +315,12 @@ impl IconShape for MdElderly {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -278,6 +344,12 @@ impl IconShape for MdEmojiEmotions {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -299,6 +371,12 @@ impl IconShape for MdEmojiEvents {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -322,6 +400,12 @@ impl IconShape for MdEmojiFlags {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -343,6 +427,12 @@ impl IconShape for MdEmojiFoodBeverage {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -372,6 +462,12 @@ impl IconShape for MdEmojiNature {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -397,6 +493,12 @@ impl IconShape for MdEmojiObjects {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -418,6 +520,12 @@ impl IconShape for MdEmojiPeople {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -445,6 +553,12 @@ impl IconShape for MdEmojiSymbols {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -497,6 +611,12 @@ impl IconShape for MdEmojiTransportation {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -546,6 +666,12 @@ impl IconShape for MdEngineering {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -580,6 +706,12 @@ impl IconShape for MdFacebook {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -601,6 +733,12 @@ impl IconShape for MdFireplace {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -624,6 +762,12 @@ impl IconShape for MdFollowTheSigns {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -645,6 +789,12 @@ impl IconShape for MdGroup {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -668,6 +818,12 @@ impl IconShape for MdGroupAdd {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -689,6 +845,12 @@ impl IconShape for MdGroups {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -712,6 +874,12 @@ impl IconShape for MdHistoryEdu {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -734,6 +902,12 @@ impl IconShape for MdIosShare {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -755,6 +929,12 @@ impl IconShape for MdKingBed {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -790,6 +970,12 @@ impl IconShape for MdLocationCity {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -811,6 +997,12 @@ impl IconShape for MdLuggage {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -834,6 +1026,12 @@ impl IconShape for MdMasks {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -855,6 +1053,12 @@ impl IconShape for MdMilitaryTech {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -878,6 +1082,12 @@ impl IconShape for MdMood {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -900,6 +1110,12 @@ impl IconShape for MdMoodBad {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -921,6 +1137,12 @@ impl IconShape for MdNightsStay {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -947,6 +1169,12 @@ impl IconShape for MdNoLuggage {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -969,6 +1197,12 @@ impl IconShape for MdNotifications {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
 
@@ -988,6 +1222,12 @@ impl IconShape for MdNotificationsActive {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1011,6 +1251,12 @@ impl IconShape for MdNotificationsNone {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1032,6 +1278,12 @@ impl IconShape for MdNotificationsOff {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1055,6 +1307,12 @@ impl IconShape for MdNotificationsPaused {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1076,6 +1334,12 @@ impl IconShape for MdOutdoorGrill {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1108,6 +1372,12 @@ impl IconShape for MdPages {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1129,6 +1399,12 @@ impl IconShape for MdPartyMode {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1152,6 +1428,12 @@ impl IconShape for MdPeople {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1173,6 +1455,12 @@ impl IconShape for MdPeopleAlt {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1211,6 +1499,12 @@ impl IconShape for MdPeopleOutline {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1232,6 +1526,12 @@ impl IconShape for MdPerson {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1255,6 +1555,12 @@ impl IconShape for MdPersonAdd {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1276,6 +1582,12 @@ impl IconShape for MdPersonAddAlt {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1299,6 +1611,12 @@ impl IconShape for MdPersonAddAlt1 {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1320,6 +1638,12 @@ impl IconShape for MdPersonOutline {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1343,6 +1667,12 @@ impl IconShape for MdPersonRemove {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1364,6 +1694,12 @@ impl IconShape for MdPersonRemoveAlt1 {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1387,6 +1723,12 @@ impl IconShape for MdPlusOne {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1409,6 +1751,12 @@ impl IconShape for MdPoll {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1430,6 +1778,12 @@ impl IconShape for MdPsychology {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1456,6 +1810,12 @@ impl IconShape for MdPublic {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1477,6 +1837,12 @@ impl IconShape for MdPublicOff {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1500,6 +1866,12 @@ impl IconShape for MdRecommend {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1521,6 +1893,12 @@ impl IconShape for MdReduceCapacity {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1544,6 +1922,12 @@ impl IconShape for MdRemoveModerator {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1565,6 +1949,12 @@ impl IconShape for MdSanitizer {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1588,6 +1978,12 @@ impl IconShape for MdSchool {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1610,6 +2006,12 @@ impl IconShape for MdScience {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1631,6 +2033,12 @@ impl IconShape for MdSelfImprovement {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1658,6 +2066,12 @@ impl IconShape for MdSentimentDissatisfied {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1690,6 +2104,12 @@ impl IconShape for MdSentimentNeutral {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1726,6 +2146,12 @@ impl IconShape for MdSentimentSatisfied {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -1757,6 +2183,12 @@ impl IconShape for MdSentimentVeryDissatisfied {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1790,6 +2222,12 @@ impl IconShape for MdSentimentVerySatisfied {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -1822,6 +2260,12 @@ impl IconShape for MdShare {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1843,6 +2287,12 @@ impl IconShape for MdSick {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1866,6 +2316,12 @@ impl IconShape for MdSingleBed {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1887,6 +2343,12 @@ impl IconShape for MdSports {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1915,6 +2377,12 @@ impl IconShape for MdSportsBaseball {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1942,6 +2410,12 @@ impl IconShape for MdSportsBasketball {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1986,6 +2460,12 @@ impl IconShape for MdSportsCricket {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2020,6 +2500,12 @@ impl IconShape for MdSportsEsports {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2041,6 +2527,12 @@ impl IconShape for MdSportsFootball {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2069,6 +2561,12 @@ impl IconShape for MdSportsGolf {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2110,6 +2608,12 @@ impl IconShape for MdSportsHandball {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2137,6 +2641,12 @@ impl IconShape for MdSportsHockey {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2168,6 +2678,12 @@ impl IconShape for MdSportsKabaddi {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2202,6 +2718,12 @@ impl IconShape for MdSportsMma {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2226,6 +2748,12 @@ impl IconShape for MdSportsMotorsports {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2252,6 +2780,12 @@ impl IconShape for MdSportsRugby {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2274,6 +2808,12 @@ impl IconShape for MdSportsSoccer {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2295,6 +2835,12 @@ impl IconShape for MdSportsTennis {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2320,6 +2866,12 @@ impl IconShape for MdSportsVolleyball {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2358,6 +2910,12 @@ impl IconShape for MdSwitchAccount {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2379,6 +2937,12 @@ impl IconShape for MdThumbDownAlt {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2402,6 +2966,12 @@ impl IconShape for MdThumbUpAlt {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2423,6 +2993,12 @@ impl IconShape for MdWhatshot {
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {

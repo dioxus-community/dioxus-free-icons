@@ -8,6 +8,12 @@ pub trait IconShape {
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
         ("none", user_color, "0")
     }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
 }
 
 /// Icon component Props
@@ -45,6 +51,8 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
             fill,
             stroke,
             stroke_width,
+            stroke_linecap: "{props.icon.stroke_linecap()}",
+            stroke_linejoin: "{props.icon.stroke_linejoin()}",
             if let Some(title_text) = props.title {
                 title {
                     "{title_text}"

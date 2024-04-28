@@ -16,6 +16,9 @@
 [submodule "icon_resources/feather"]
 	path = icon_resources/feather
 	url = https://github.com/feathericons/feather
+[submodule "icon_resources/lucide"]
+	path = icon_resources/lucide
+	url = https://github.com/lucide-icons/lucide
 [submodule "icon_resources/material-design-icons"]
 	path = icon_resources/material-design-icons
 	url = https://github.com/google/material-design-icons
