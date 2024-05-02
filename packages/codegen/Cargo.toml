@@ -4,8 +4,8 @@ version = "0.2.0"
 edition = "2021"
 
 [features]
-default = ["render"]
-render = ["dep:resvg", "dep:base64"]
+default = ["preview-icons"]
+preview-icons = ["dep:resvg", "dep:base64"]
 
 [dependencies]
 codegen = "0.1.3"
