@@ -14,10 +14,10 @@ impl IconShape for FiActivity {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -41,10 +41,10 @@ impl IconShape for FiAirplay {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -71,10 +71,10 @@ impl IconShape for FiAlertCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -112,10 +112,10 @@ impl IconShape for FiAlertOctagon {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -151,10 +151,10 @@ impl IconShape for FiAlertTriangle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -190,10 +190,10 @@ impl IconShape for FiAlignCenter {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -238,10 +238,10 @@ impl IconShape for FiAlignJustify {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -286,10 +286,10 @@ impl IconShape for FiAlignLeft {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -334,10 +334,10 @@ impl IconShape for FiAlignRight {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -382,10 +382,10 @@ impl IconShape for FiAnchor {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -420,10 +420,10 @@ impl IconShape for FiAperture {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -485,10 +485,10 @@ impl IconShape for FiArchive {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -524,10 +524,10 @@ impl IconShape for FiArrowDownCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -562,10 +562,10 @@ impl IconShape for FiArrowDownLeft {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -595,10 +595,10 @@ impl IconShape for FiArrowDownRight {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -628,10 +628,10 @@ impl IconShape for FiArrowDown {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -661,10 +661,10 @@ impl IconShape for FiArrowLeftCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -699,10 +699,10 @@ impl IconShape for FiArrowLeft {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -732,10 +732,10 @@ impl IconShape for FiArrowRightCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -770,10 +770,10 @@ impl IconShape for FiArrowRight {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -803,10 +803,10 @@ impl IconShape for FiArrowUpCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -841,10 +841,10 @@ impl IconShape for FiArrowUpLeft {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -874,10 +874,10 @@ impl IconShape for FiArrowUpRight {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -907,10 +907,10 @@ impl IconShape for FiArrowUp {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -940,10 +940,10 @@ impl IconShape for FiAtSign {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -972,10 +972,10 @@ impl IconShape for FiAward {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1004,10 +1004,10 @@ impl IconShape for FiBarChart2 {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1046,10 +1046,10 @@ impl IconShape for FiBarChart {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1088,10 +1088,10 @@ impl IconShape for FiBatteryCharging {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1124,10 +1124,10 @@ impl IconShape for FiBattery {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1162,10 +1162,10 @@ impl IconShape for FiBellOff {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1204,10 +1204,10 @@ impl IconShape for FiBell {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1234,10 +1234,10 @@ impl IconShape for FiBluetooth {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1261,10 +1261,10 @@ impl IconShape for FiBold {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1291,10 +1291,10 @@ impl IconShape for FiBookOpen {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1321,10 +1321,10 @@ impl IconShape for FiBook {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1351,10 +1351,10 @@ impl IconShape for FiBookmark {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1378,10 +1378,10 @@ impl IconShape for FiBox {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1414,10 +1414,10 @@ impl IconShape for FiBriefcase {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1449,10 +1449,10 @@ impl IconShape for FiCalendar {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1499,10 +1499,10 @@ impl IconShape for FiCameraOff {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1532,10 +1532,10 @@ impl IconShape for FiCamera {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1564,10 +1564,10 @@ impl IconShape for FiCast {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1597,10 +1597,10 @@ impl IconShape for FiCheckCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1627,10 +1627,10 @@ impl IconShape for FiCheckSquare {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1657,10 +1657,10 @@ impl IconShape for FiCheck {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1684,10 +1684,10 @@ impl IconShape for FiChevronDown {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1711,10 +1711,10 @@ impl IconShape for FiChevronLeft {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1738,10 +1738,10 @@ impl IconShape for FiChevronRight {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1765,10 +1765,10 @@ impl IconShape for FiChevronUp {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1792,10 +1792,10 @@ impl IconShape for FiChevronsDown {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1822,10 +1822,10 @@ impl IconShape for FiChevronsLeft {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1852,10 +1852,10 @@ impl IconShape for FiChevronsRight {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1882,10 +1882,10 @@ impl IconShape for FiChevronsUp {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1912,10 +1912,10 @@ impl IconShape for FiChrome {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1964,10 +1964,10 @@ impl IconShape for FiCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1993,10 +1993,10 @@ impl IconShape for FiClipboard {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2028,10 +2028,10 @@ impl IconShape for FiClock {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2060,10 +2060,10 @@ impl IconShape for FiCloudDrizzle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2123,10 +2123,10 @@ impl IconShape for FiCloudLightning {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2153,10 +2153,10 @@ impl IconShape for FiCloudOff {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2186,10 +2186,10 @@ impl IconShape for FiCloudRain {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2231,10 +2231,10 @@ impl IconShape for FiCloudSnow {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2294,10 +2294,10 @@ impl IconShape for FiCloud {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2321,10 +2321,10 @@ impl IconShape for FiCode {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2351,10 +2351,10 @@ impl IconShape for FiCodepen {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2396,10 +2396,10 @@ impl IconShape for FiCodesandbox {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2441,10 +2441,10 @@ impl IconShape for FiCoffee {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2489,10 +2489,10 @@ impl IconShape for FiColumns {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2516,10 +2516,10 @@ impl IconShape for FiCommand {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2543,10 +2543,10 @@ impl IconShape for FiCompass {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2575,10 +2575,10 @@ impl IconShape for FiCopy {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2610,10 +2610,10 @@ impl IconShape for FiCornerDownLeft {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2640,10 +2640,10 @@ impl IconShape for FiCornerDownRight {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2670,10 +2670,10 @@ impl IconShape for FiCornerLeftDown {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2700,10 +2700,10 @@ impl IconShape for FiCornerLeftUp {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2730,10 +2730,10 @@ impl IconShape for FiCornerRightDown {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2760,10 +2760,10 @@ impl IconShape for FiCornerRightUp {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2790,10 +2790,10 @@ impl IconShape for FiCornerUpLeft {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2820,10 +2820,10 @@ impl IconShape for FiCornerUpRight {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2850,10 +2850,10 @@ impl IconShape for FiCpu {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2936,10 +2936,10 @@ impl IconShape for FiCreditCard {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2974,10 +2974,10 @@ impl IconShape for FiCrop {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3004,10 +3004,10 @@ impl IconShape for FiCrosshair {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3057,10 +3057,10 @@ impl IconShape for FiDatabase {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3093,10 +3093,10 @@ impl IconShape for FiDelete {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3132,10 +3132,10 @@ impl IconShape for FiDisc {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3166,10 +3166,10 @@ impl IconShape for FiDivideCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3213,10 +3213,10 @@ impl IconShape for FiDivideSquare {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3263,10 +3263,10 @@ impl IconShape for FiDivide {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3303,10 +3303,10 @@ impl IconShape for FiDollarSign {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3336,10 +3336,10 @@ impl IconShape for FiDownloadCloud {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3372,10 +3372,10 @@ impl IconShape for FiDownload {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3408,10 +3408,10 @@ impl IconShape for FiDribbble {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3440,10 +3440,10 @@ impl IconShape for FiDroplet {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3467,10 +3467,10 @@ impl IconShape for FiEdit2 {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3494,10 +3494,10 @@ impl IconShape for FiEdit3 {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3524,10 +3524,10 @@ impl IconShape for FiEdit {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3554,10 +3554,10 @@ impl IconShape for FiExternalLink {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3590,10 +3590,10 @@ impl IconShape for FiEyeOff {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3623,10 +3623,10 @@ impl IconShape for FiEye {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3655,10 +3655,10 @@ impl IconShape for FiFacebook {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3682,10 +3682,10 @@ impl IconShape for FiFastForward {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3712,10 +3712,10 @@ impl IconShape for FiFeather {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3751,10 +3751,10 @@ impl IconShape for FiFigma {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3790,10 +3790,10 @@ impl IconShape for FiFileMinus {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3826,10 +3826,10 @@ impl IconShape for FiFilePlus {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3868,10 +3868,10 @@ impl IconShape for FiFileText {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3913,10 +3913,10 @@ impl IconShape for FiFile {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3943,10 +3943,10 @@ impl IconShape for FiFilm {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4017,10 +4017,10 @@ impl IconShape for FiFilter {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4044,10 +4044,10 @@ impl IconShape for FiFlag {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4077,10 +4077,10 @@ impl IconShape for FiFolderMinus {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4110,10 +4110,10 @@ impl IconShape for FiFolderPlus {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4149,10 +4149,10 @@ impl IconShape for FiFolder {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4176,10 +4176,10 @@ impl IconShape for FiFramer {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4203,10 +4203,10 @@ impl IconShape for FiFrown {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4247,10 +4247,10 @@ impl IconShape for FiGift {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4292,10 +4292,10 @@ impl IconShape for FiGitBranch {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4335,10 +4335,10 @@ impl IconShape for FiGitCommit {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4376,10 +4376,10 @@ impl IconShape for FiGitMerge {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4413,10 +4413,10 @@ impl IconShape for FiGitPullRequest {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4456,10 +4456,10 @@ impl IconShape for FiGithub {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4483,10 +4483,10 @@ impl IconShape for FiGitlab {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4510,10 +4510,10 @@ impl IconShape for FiGlobe {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4548,10 +4548,10 @@ impl IconShape for FiGrid {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4596,10 +4596,10 @@ impl IconShape for FiHardDrive {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4641,10 +4641,10 @@ impl IconShape for FiHash {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4689,10 +4689,10 @@ impl IconShape for FiHeadphones {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4719,10 +4719,10 @@ impl IconShape for FiHeart {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4746,10 +4746,10 @@ impl IconShape for FiHelpCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4784,10 +4784,10 @@ impl IconShape for FiHexagon {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4811,10 +4811,10 @@ impl IconShape for FiHome {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4841,10 +4841,10 @@ impl IconShape for FiImage {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4881,10 +4881,10 @@ impl IconShape for FiInbox {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4911,10 +4911,10 @@ impl IconShape for FiInfo {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4952,10 +4952,10 @@ impl IconShape for FiInstagram {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4993,10 +4993,10 @@ impl IconShape for FiItalic {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5035,10 +5035,10 @@ impl IconShape for FiKey {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5062,10 +5062,10 @@ impl IconShape for FiLayers {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5095,10 +5095,10 @@ impl IconShape for FiLayout {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5139,10 +5139,10 @@ impl IconShape for FiLifeBuoy {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5203,10 +5203,10 @@ impl IconShape for FiLink2 {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5236,10 +5236,10 @@ impl IconShape for FiLink {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5266,10 +5266,10 @@ impl IconShape for FiLinkedin {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5304,10 +5304,10 @@ impl IconShape for FiList {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5364,10 +5364,10 @@ impl IconShape for FiLoader {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5436,10 +5436,10 @@ impl IconShape for FiLock {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5471,10 +5471,10 @@ impl IconShape for FiLogIn {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5507,10 +5507,10 @@ impl IconShape for FiLogOut {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5543,10 +5543,10 @@ impl IconShape for FiMail {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5573,10 +5573,10 @@ impl IconShape for FiMapPin {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5605,10 +5605,10 @@ impl IconShape for FiMap {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5644,10 +5644,10 @@ impl IconShape for FiMaximize2 {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5686,10 +5686,10 @@ impl IconShape for FiMaximize {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5713,10 +5713,10 @@ impl IconShape for FiMeh {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5760,10 +5760,10 @@ impl IconShape for FiMenu {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5802,10 +5802,10 @@ impl IconShape for FiMessageCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5829,10 +5829,10 @@ impl IconShape for FiMessageSquare {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5856,10 +5856,10 @@ impl IconShape for FiMicOff {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5904,10 +5904,10 @@ impl IconShape for FiMic {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5946,10 +5946,10 @@ impl IconShape for FiMinimize2 {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5988,10 +5988,10 @@ impl IconShape for FiMinimize {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6015,10 +6015,10 @@ impl IconShape for FiMinusCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6050,10 +6050,10 @@ impl IconShape for FiMinusSquare {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6088,10 +6088,10 @@ impl IconShape for FiMinus {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6118,10 +6118,10 @@ impl IconShape for FiMonitor {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6162,10 +6162,10 @@ impl IconShape for FiMoon {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6189,10 +6189,10 @@ impl IconShape for FiMoreHorizontal {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6228,10 +6228,10 @@ impl IconShape for FiMoreVertical {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6267,10 +6267,10 @@ impl IconShape for FiMousePointer {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6297,10 +6297,10 @@ impl IconShape for FiMove {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6345,10 +6345,10 @@ impl IconShape for FiMusic {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6382,10 +6382,10 @@ impl IconShape for FiNavigation2 {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6409,10 +6409,10 @@ impl IconShape for FiNavigation {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6436,10 +6436,10 @@ impl IconShape for FiOctagon {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6463,10 +6463,10 @@ impl IconShape for FiPackage {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6505,10 +6505,10 @@ impl IconShape for FiPaperclip {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6532,10 +6532,10 @@ impl IconShape for FiPauseCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6573,10 +6573,10 @@ impl IconShape for FiPause {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6609,10 +6609,10 @@ impl IconShape for FiPenTool {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6647,10 +6647,10 @@ impl IconShape for FiPercent {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6687,10 +6687,10 @@ impl IconShape for FiPhoneCall {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6714,10 +6714,10 @@ impl IconShape for FiPhoneForwarded {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6750,10 +6750,10 @@ impl IconShape for FiPhoneIncoming {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6786,10 +6786,10 @@ impl IconShape for FiPhoneMissed {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6825,10 +6825,10 @@ impl IconShape for FiPhoneOff {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6858,10 +6858,10 @@ impl IconShape for FiPhoneOutgoing {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6894,10 +6894,10 @@ impl IconShape for FiPhone {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6921,10 +6921,10 @@ impl IconShape for FiPieChart {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6951,10 +6951,10 @@ impl IconShape for FiPlayCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6983,10 +6983,10 @@ impl IconShape for FiPlay {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7010,10 +7010,10 @@ impl IconShape for FiPlusCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7051,10 +7051,10 @@ impl IconShape for FiPlusSquare {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7095,10 +7095,10 @@ impl IconShape for FiPlus {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7131,10 +7131,10 @@ impl IconShape for FiPocket {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7161,10 +7161,10 @@ impl IconShape for FiPower {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7194,10 +7194,10 @@ impl IconShape for FiPrinter {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7230,10 +7230,10 @@ impl IconShape for FiRadio {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7262,10 +7262,10 @@ impl IconShape for FiRefreshCcw {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7295,10 +7295,10 @@ impl IconShape for FiRefreshCw {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7328,10 +7328,10 @@ impl IconShape for FiRepeat {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7364,10 +7364,10 @@ impl IconShape for FiRewind {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7394,10 +7394,10 @@ impl IconShape for FiRotateCcw {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7424,10 +7424,10 @@ impl IconShape for FiRotateCw {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7454,10 +7454,10 @@ impl IconShape for FiRss {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7489,10 +7489,10 @@ impl IconShape for FiSave {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7522,10 +7522,10 @@ impl IconShape for FiScissors {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7574,10 +7574,10 @@ impl IconShape for FiSearch {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7609,10 +7609,10 @@ impl IconShape for FiSend {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7642,10 +7642,10 @@ impl IconShape for FiServer {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7694,10 +7694,10 @@ impl IconShape for FiSettings {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7726,10 +7726,10 @@ impl IconShape for FiShare2 {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7777,10 +7777,10 @@ impl IconShape for FiShare {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7813,10 +7813,10 @@ impl IconShape for FiShieldOff {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7849,10 +7849,10 @@ impl IconShape for FiShield {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7876,10 +7876,10 @@ impl IconShape for FiShoppingBag {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7912,10 +7912,10 @@ impl IconShape for FiShoppingCart {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7949,10 +7949,10 @@ impl IconShape for FiShuffle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7997,10 +7997,10 @@ impl IconShape for FiSidebar {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8035,10 +8035,10 @@ impl IconShape for FiSkipBack {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8068,10 +8068,10 @@ impl IconShape for FiSkipForward {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8101,10 +8101,10 @@ impl IconShape for FiSlack {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8149,10 +8149,10 @@ impl IconShape for FiSlash {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8184,10 +8184,10 @@ impl IconShape for FiSliders {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8262,10 +8262,10 @@ impl IconShape for FiSmartphone {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8300,10 +8300,10 @@ impl IconShape for FiSmile {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8344,10 +8344,10 @@ impl IconShape for FiSpeaker {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8387,10 +8387,10 @@ impl IconShape for FiSquare {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8419,10 +8419,10 @@ impl IconShape for FiStar {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8446,10 +8446,10 @@ impl IconShape for FiStopCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8481,10 +8481,10 @@ impl IconShape for FiSun {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8558,10 +8558,10 @@ impl IconShape for FiSunrise {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8624,10 +8624,10 @@ impl IconShape for FiSunset {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8690,10 +8690,10 @@ impl IconShape for FiTable {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8717,10 +8717,10 @@ impl IconShape for FiTablet {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8755,10 +8755,10 @@ impl IconShape for FiTag {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8788,10 +8788,10 @@ impl IconShape for FiTarget {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8827,10 +8827,10 @@ impl IconShape for FiTerminal {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8860,10 +8860,10 @@ impl IconShape for FiThermometer {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8887,10 +8887,10 @@ impl IconShape for FiThumbsDown {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8914,10 +8914,10 @@ impl IconShape for FiThumbsUp {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8941,10 +8941,10 @@ impl IconShape for FiToggleLeft {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8978,10 +8978,10 @@ impl IconShape for FiToggleRight {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9015,10 +9015,10 @@ impl IconShape for FiTool {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9042,10 +9042,10 @@ impl IconShape for FiTrash2 {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9084,10 +9084,10 @@ impl IconShape for FiTrash {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9114,10 +9114,10 @@ impl IconShape for FiTrello {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9158,10 +9158,10 @@ impl IconShape for FiTrendingDown {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9188,10 +9188,10 @@ impl IconShape for FiTrendingUp {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9218,10 +9218,10 @@ impl IconShape for FiTriangle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9245,10 +9245,10 @@ impl IconShape for FiTruck {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9288,10 +9288,10 @@ impl IconShape for FiTv {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9323,10 +9323,10 @@ impl IconShape for FiTwitch {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9350,10 +9350,10 @@ impl IconShape for FiTwitter {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9377,10 +9377,10 @@ impl IconShape for FiType {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9416,10 +9416,10 @@ impl IconShape for FiUmbrella {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9443,10 +9443,10 @@ impl IconShape for FiUnderline {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9476,10 +9476,10 @@ impl IconShape for FiUnlock {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9511,10 +9511,10 @@ impl IconShape for FiUploadCloud {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9550,10 +9550,10 @@ impl IconShape for FiUpload {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9586,10 +9586,10 @@ impl IconShape for FiUserCheck {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9621,10 +9621,10 @@ impl IconShape for FiUserMinus {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9659,10 +9659,10 @@ impl IconShape for FiUserPlus {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9703,10 +9703,10 @@ impl IconShape for FiUserX {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9747,10 +9747,10 @@ impl IconShape for FiUser {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9779,10 +9779,10 @@ impl IconShape for FiUsers {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9817,10 +9817,10 @@ impl IconShape for FiVideoOff {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9850,10 +9850,10 @@ impl IconShape for FiVideo {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9885,10 +9885,10 @@ impl IconShape for FiVoicemail {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9925,10 +9925,10 @@ impl IconShape for FiVolume1 {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9955,10 +9955,10 @@ impl IconShape for FiVolume2 {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9985,10 +9985,10 @@ impl IconShape for FiVolumeX {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10024,10 +10024,10 @@ impl IconShape for FiVolume {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10051,10 +10051,10 @@ impl IconShape for FiWatch {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10086,10 +10086,10 @@ impl IconShape for FiWifiOff {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10137,10 +10137,10 @@ impl IconShape for FiWifi {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10176,10 +10176,10 @@ impl IconShape for FiWind {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10203,10 +10203,10 @@ impl IconShape for FiXCircle {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10244,10 +10244,10 @@ impl IconShape for FiXOctagon {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10283,10 +10283,10 @@ impl IconShape for FiXSquare {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10327,10 +10327,10 @@ impl IconShape for FiX {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10363,10 +10363,10 @@ impl IconShape for FiYoutube {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10393,10 +10393,10 @@ impl IconShape for FiZapOff {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10432,10 +10432,10 @@ impl IconShape for FiZap {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10459,10 +10459,10 @@ impl IconShape for FiZoomIn {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10506,10 +10506,10 @@ impl IconShape for FiZoomOut {
         ("none", user_color, "2")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {

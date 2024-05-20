@@ -162,6 +162,7 @@ fn extract_svg_colors(icon_prefix: &str) -> (&str, &str, &str) {
 fn extract_stroke_linecap(icon_prefix: &str) -> &str {
     match icon_prefix {
         "Ld" => "round",
+        "Fi" => "round",
         _ => "butt",
     }
 }
@@ -169,6 +170,7 @@ fn extract_stroke_linecap(icon_prefix: &str) -> &str {
 fn extract_stroke_linejoin(icon_prefix: &str) -> &str {
     match icon_prefix {
         "Ld" => "round",
+        "Fi" => "round",
         _ => "miter",
     }
 }
