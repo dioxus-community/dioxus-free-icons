@@ -7,3 +7,6 @@ members = [
     "packages/example",
     "packages/lib",
 ]
+
+[workspace.dependencies]
+dioxus = "0.5"
