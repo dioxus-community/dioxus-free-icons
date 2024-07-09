@@ -173,6 +173,7 @@ fn extract_stroke_linejoin(icon_prefix: &str) -> &str {
     match icon_prefix {
         "Ld" => "round",
         "Fi" => "round",
+        "Tb" => "round",
         _ => "miter",
     }
 }
