@@ -11,10 +11,10 @@ impl IconShape for TbAccessible {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -38,10 +38,10 @@ impl IconShape for TbAdCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -65,10 +65,10 @@ impl IconShape for TbAd {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -92,10 +92,10 @@ impl IconShape for TbAdjustments {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -125,10 +125,10 @@ impl IconShape for TbAffiliate {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -152,10 +152,10 @@ impl IconShape for TbAlarmMinus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -185,10 +185,10 @@ impl IconShape for TbAlarmPlus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -218,10 +218,10 @@ impl IconShape for TbAlarmSnooze {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -251,10 +251,10 @@ impl IconShape for TbAlarm {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -284,10 +284,10 @@ impl IconShape for TbAlertCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -311,10 +311,10 @@ impl IconShape for TbAlertHexagon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -338,10 +338,10 @@ impl IconShape for TbAlertOctagon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -365,10 +365,10 @@ impl IconShape for TbAlertSquareRounded {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -392,10 +392,10 @@ impl IconShape for TbAlertSquare {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -419,10 +419,10 @@ impl IconShape for TbAlertTriangle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -446,10 +446,10 @@ impl IconShape for TbAlien {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -473,10 +473,10 @@ impl IconShape for TbAlignBoxBottomCenter {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -500,10 +500,10 @@ impl IconShape for TbAlignBoxBottomLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -527,10 +527,10 @@ impl IconShape for TbAlignBoxBottomRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -554,10 +554,10 @@ impl IconShape for TbAlignBoxCenterMiddle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -581,10 +581,10 @@ impl IconShape for TbAlignBoxLeftBottom {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -608,10 +608,10 @@ impl IconShape for TbAlignBoxLeftMiddle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -635,10 +635,10 @@ impl IconShape for TbAlignBoxLeftTop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -662,10 +662,10 @@ impl IconShape for TbAlignBoxRightBottom {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -689,10 +689,10 @@ impl IconShape for TbAlignBoxRightMiddle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -716,10 +716,10 @@ impl IconShape for TbAlignBoxRightTop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -743,10 +743,10 @@ impl IconShape for TbAlignBoxTopCenter {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -770,10 +770,10 @@ impl IconShape for TbAlignBoxTopLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -797,10 +797,10 @@ impl IconShape for TbAlignBoxTopRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -824,10 +824,10 @@ impl IconShape for TbAnalyze {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -857,10 +857,10 @@ impl IconShape for TbAppWindow {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -884,10 +884,10 @@ impl IconShape for TbApps {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -920,10 +920,10 @@ impl IconShape for TbArchive {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -950,10 +950,10 @@ impl IconShape for TbArrowAutofitContent {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -983,10 +983,10 @@ impl IconShape for TbArrowBadgeDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1010,10 +1010,10 @@ impl IconShape for TbArrowBadgeLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1037,10 +1037,10 @@ impl IconShape for TbArrowBadgeRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1064,10 +1064,10 @@ impl IconShape for TbArrowBadgeUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1091,10 +1091,10 @@ impl IconShape for TbArrowBigDownLine {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1121,10 +1121,10 @@ impl IconShape for TbArrowBigDownLines {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1154,10 +1154,10 @@ impl IconShape for TbArrowBigDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1181,10 +1181,10 @@ impl IconShape for TbArrowBigLeftLine {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1214,10 +1214,10 @@ impl IconShape for TbArrowBigLeftLines {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1247,10 +1247,10 @@ impl IconShape for TbArrowBigLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1274,10 +1274,10 @@ impl IconShape for TbArrowBigRightLine {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1304,10 +1304,10 @@ impl IconShape for TbArrowBigRightLines {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1337,10 +1337,10 @@ impl IconShape for TbArrowBigRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1364,10 +1364,10 @@ impl IconShape for TbArrowBigUpLine {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1394,10 +1394,10 @@ impl IconShape for TbArrowBigUpLines {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1427,10 +1427,10 @@ impl IconShape for TbArrowBigUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1454,10 +1454,10 @@ impl IconShape for TbArtboard {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1505,10 +1505,10 @@ impl IconShape for TbArticle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1532,10 +1532,10 @@ impl IconShape for TbAspectRatio {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1559,10 +1559,10 @@ impl IconShape for TbAssembly {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1586,10 +1586,10 @@ impl IconShape for TbAsset {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1613,10 +1613,10 @@ impl IconShape for TbAtom2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1658,10 +1658,10 @@ impl IconShape for TbAward {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1691,10 +1691,10 @@ impl IconShape for TbBabyCarriage {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1718,10 +1718,10 @@ impl IconShape for TbBackspace {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1745,10 +1745,10 @@ impl IconShape for TbBadge3d {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1772,10 +1772,10 @@ impl IconShape for TbBadge4k {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1799,10 +1799,10 @@ impl IconShape for TbBadge8k {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1826,10 +1826,10 @@ impl IconShape for TbBadgeAd {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1853,10 +1853,10 @@ impl IconShape for TbBadgeAr {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1880,10 +1880,10 @@ impl IconShape for TbBadgeCc {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1907,10 +1907,10 @@ impl IconShape for TbBadgeHd {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1934,10 +1934,10 @@ impl IconShape for TbBadgeSd {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1961,10 +1961,10 @@ impl IconShape for TbBadgeTm {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -1988,10 +1988,10 @@ impl IconShape for TbBadgeVo {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2015,10 +2015,10 @@ impl IconShape for TbBadgeVr {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2042,10 +2042,10 @@ impl IconShape for TbBadgeWc {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2069,10 +2069,10 @@ impl IconShape for TbBadge {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2096,10 +2096,10 @@ impl IconShape for TbBadges {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2126,10 +2126,10 @@ impl IconShape for TbBalloon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2156,10 +2156,10 @@ impl IconShape for TbBallpen {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2183,10 +2183,10 @@ impl IconShape for TbBandage {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2210,10 +2210,10 @@ impl IconShape for TbBarbell {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2243,10 +2243,10 @@ impl IconShape for TbBarrierBlock {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2270,10 +2270,10 @@ impl IconShape for TbBasket {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2297,10 +2297,10 @@ impl IconShape for TbBath {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2324,10 +2324,10 @@ impl IconShape for TbBattery1 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2351,10 +2351,10 @@ impl IconShape for TbBattery2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2378,10 +2378,10 @@ impl IconShape for TbBattery3 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2405,10 +2405,10 @@ impl IconShape for TbBattery4 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2432,10 +2432,10 @@ impl IconShape for TbBattery {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2459,10 +2459,10 @@ impl IconShape for TbBedFlat {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2492,10 +2492,10 @@ impl IconShape for TbBed {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2522,10 +2522,10 @@ impl IconShape for TbBeer {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2549,10 +2549,10 @@ impl IconShape for TbBellMinus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2579,10 +2579,10 @@ impl IconShape for TbBellPlus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2609,10 +2609,10 @@ impl IconShape for TbBellRinging2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2639,10 +2639,10 @@ impl IconShape for TbBellRinging {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2675,10 +2675,10 @@ impl IconShape for TbBellX {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2705,10 +2705,10 @@ impl IconShape for TbBellZ {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2735,10 +2735,10 @@ impl IconShape for TbBell {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2765,10 +2765,10 @@ impl IconShape for TbBinaryTree2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2792,10 +2792,10 @@ impl IconShape for TbBinaryTree {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2819,10 +2819,10 @@ impl IconShape for TbBinoculars {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2846,10 +2846,10 @@ impl IconShape for TbBiohazard {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2873,10 +2873,10 @@ impl IconShape for TbBlade {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2900,10 +2900,10 @@ impl IconShape for TbBlob {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2927,10 +2927,10 @@ impl IconShape for TbBomb {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2957,10 +2957,10 @@ impl IconShape for TbBone {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -2984,10 +2984,10 @@ impl IconShape for TbBook {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3011,10 +3011,10 @@ impl IconShape for TbBookmark {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3038,10 +3038,10 @@ impl IconShape for TbBookmarks {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3068,10 +3068,10 @@ impl IconShape for TbBoom {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3095,10 +3095,10 @@ impl IconShape for TbBottle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3122,10 +3122,10 @@ impl IconShape for TbBounceLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3152,10 +3152,10 @@ impl IconShape for TbBounceRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3182,10 +3182,10 @@ impl IconShape for TbBow {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3209,10 +3209,10 @@ impl IconShape for TbBowlChopsticks {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3242,10 +3242,10 @@ impl IconShape for TbBowlSpoon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3272,10 +3272,10 @@ impl IconShape for TbBowl {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3299,10 +3299,10 @@ impl IconShape for TbBoxAlignBottomLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3353,10 +3353,10 @@ impl IconShape for TbBoxAlignBottomRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3407,10 +3407,10 @@ impl IconShape for TbBoxAlignBottom {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3452,10 +3452,10 @@ impl IconShape for TbBoxAlignLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3497,10 +3497,10 @@ impl IconShape for TbBoxAlignRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3542,10 +3542,10 @@ impl IconShape for TbBoxAlignTopLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3596,10 +3596,10 @@ impl IconShape for TbBoxAlignTopRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3650,10 +3650,10 @@ impl IconShape for TbBoxAlignTop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3695,10 +3695,10 @@ impl IconShape for TbBrandApple {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3725,10 +3725,10 @@ impl IconShape for TbBrandDiscord {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3752,10 +3752,10 @@ impl IconShape for TbBrandDribbble {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3779,10 +3779,10 @@ impl IconShape for TbBrandFacebook {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3806,10 +3806,10 @@ impl IconShape for TbBrandGithub {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3833,10 +3833,10 @@ impl IconShape for TbBrandGoogle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3860,10 +3860,10 @@ impl IconShape for TbBrandPatreon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3887,10 +3887,10 @@ impl IconShape for TbBrandPaypal {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3914,10 +3914,10 @@ impl IconShape for TbBrandSpotify {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3941,10 +3941,10 @@ impl IconShape for TbBrandTiktok {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3968,10 +3968,10 @@ impl IconShape for TbBrandTwitter {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -3995,10 +3995,10 @@ impl IconShape for TbBrandX {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4022,10 +4022,10 @@ impl IconShape for TbBrandYoutube {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4049,10 +4049,10 @@ impl IconShape for TbBread {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4076,10 +4076,10 @@ impl IconShape for TbBriefcase2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4103,10 +4103,10 @@ impl IconShape for TbBriefcase {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4130,10 +4130,10 @@ impl IconShape for TbBrightnessAuto {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4157,10 +4157,10 @@ impl IconShape for TbBrightnessDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4208,10 +4208,10 @@ impl IconShape for TbBrightnessUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4259,10 +4259,10 @@ impl IconShape for TbBrightness {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4286,10 +4286,10 @@ impl IconShape for TbBubble {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4313,10 +4313,10 @@ impl IconShape for TbBug {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4340,10 +4340,10 @@ impl IconShape for TbBuildingBroadcastTower {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4373,10 +4373,10 @@ impl IconShape for TbBulb {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4418,10 +4418,10 @@ impl IconShape for TbCactus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4445,10 +4445,10 @@ impl IconShape for TbCalculator {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4472,10 +4472,10 @@ impl IconShape for TbCalendar {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4502,10 +4502,10 @@ impl IconShape for TbCamera {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4529,10 +4529,10 @@ impl IconShape for TbCampfire {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4562,10 +4562,10 @@ impl IconShape for TbCandle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4592,10 +4592,10 @@ impl IconShape for TbCapsuleHorizontal {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4619,10 +4619,10 @@ impl IconShape for TbCapsule {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4646,10 +4646,10 @@ impl IconShape for TbCapture {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4685,10 +4685,10 @@ impl IconShape for TbCards {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4718,10 +4718,10 @@ impl IconShape for TbCaretDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4745,10 +4745,10 @@ impl IconShape for TbCaretLeftRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4775,10 +4775,10 @@ impl IconShape for TbCaretLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4802,10 +4802,10 @@ impl IconShape for TbCaretRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4829,10 +4829,10 @@ impl IconShape for TbCaretUpDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4859,10 +4859,10 @@ impl IconShape for TbCaretUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4886,10 +4886,10 @@ impl IconShape for TbCarouselHorizontal {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4919,10 +4919,10 @@ impl IconShape for TbCarouselVertical {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4952,10 +4952,10 @@ impl IconShape for TbCashBanknote {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -4979,10 +4979,10 @@ impl IconShape for TbCategory {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5015,10 +5015,10 @@ impl IconShape for TbChartAreaLine {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5045,10 +5045,10 @@ impl IconShape for TbChartArea {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5075,10 +5075,10 @@ impl IconShape for TbChartBubble {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5108,10 +5108,10 @@ impl IconShape for TbChartCandle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5141,10 +5141,10 @@ impl IconShape for TbChartDonut {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5171,10 +5171,10 @@ impl IconShape for TbChartDots {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5201,10 +5201,10 @@ impl IconShape for TbChartGridDots {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5228,10 +5228,10 @@ impl IconShape for TbChartPie {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5258,10 +5258,10 @@ impl IconShape for TbCherry {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5285,10 +5285,10 @@ impl IconShape for TbChessBishop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5318,10 +5318,10 @@ impl IconShape for TbChessKing {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5348,10 +5348,10 @@ impl IconShape for TbChessKnight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5378,10 +5378,10 @@ impl IconShape for TbChessQueen {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5408,10 +5408,10 @@ impl IconShape for TbChessRook {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5438,10 +5438,10 @@ impl IconShape for TbChess {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5468,10 +5468,10 @@ impl IconShape for TbCircleArrowDownLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5495,10 +5495,10 @@ impl IconShape for TbCircleArrowDownRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5522,10 +5522,10 @@ impl IconShape for TbCircleArrowDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5549,10 +5549,10 @@ impl IconShape for TbCircleArrowLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5576,10 +5576,10 @@ impl IconShape for TbCircleArrowRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5603,10 +5603,10 @@ impl IconShape for TbCircleArrowUpLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5630,10 +5630,10 @@ impl IconShape for TbCircleArrowUpRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5657,10 +5657,10 @@ impl IconShape for TbCircleArrowUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5684,10 +5684,10 @@ impl IconShape for TbCircleCheck {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5711,10 +5711,10 @@ impl IconShape for TbCircleDot {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5738,10 +5738,10 @@ impl IconShape for TbCircleKey {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5765,10 +5765,10 @@ impl IconShape for TbCircleLetterA {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5792,10 +5792,10 @@ impl IconShape for TbCircleLetterB {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5819,10 +5819,10 @@ impl IconShape for TbCircleLetterC {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5846,10 +5846,10 @@ impl IconShape for TbCircleLetterD {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5873,10 +5873,10 @@ impl IconShape for TbCircleLetterE {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5900,10 +5900,10 @@ impl IconShape for TbCircleLetterF {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5927,10 +5927,10 @@ impl IconShape for TbCircleLetterG {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5954,10 +5954,10 @@ impl IconShape for TbCircleLetterH {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -5981,10 +5981,10 @@ impl IconShape for TbCircleLetterI {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6008,10 +6008,10 @@ impl IconShape for TbCircleLetterJ {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6035,10 +6035,10 @@ impl IconShape for TbCircleLetterK {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6062,10 +6062,10 @@ impl IconShape for TbCircleLetterL {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6089,10 +6089,10 @@ impl IconShape for TbCircleLetterM {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6116,10 +6116,10 @@ impl IconShape for TbCircleLetterN {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6143,10 +6143,10 @@ impl IconShape for TbCircleLetterO {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6170,10 +6170,10 @@ impl IconShape for TbCircleLetterP {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6197,10 +6197,10 @@ impl IconShape for TbCircleLetterQ {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6224,10 +6224,10 @@ impl IconShape for TbCircleLetterR {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6251,10 +6251,10 @@ impl IconShape for TbCircleLetterS {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6278,10 +6278,10 @@ impl IconShape for TbCircleLetterT {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6305,10 +6305,10 @@ impl IconShape for TbCircleLetterU {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6332,10 +6332,10 @@ impl IconShape for TbCircleLetterV {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6359,10 +6359,10 @@ impl IconShape for TbCircleLetterW {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6386,10 +6386,10 @@ impl IconShape for TbCircleLetterX {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6413,10 +6413,10 @@ impl IconShape for TbCircleLetterY {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6440,10 +6440,10 @@ impl IconShape for TbCircleLetterZ {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6467,10 +6467,10 @@ impl IconShape for TbCircleNumber0 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6494,10 +6494,10 @@ impl IconShape for TbCircleNumber1 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6521,10 +6521,10 @@ impl IconShape for TbCircleNumber2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6548,10 +6548,10 @@ impl IconShape for TbCircleNumber3 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6575,10 +6575,10 @@ impl IconShape for TbCircleNumber4 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6602,10 +6602,10 @@ impl IconShape for TbCircleNumber5 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6629,10 +6629,10 @@ impl IconShape for TbCircleNumber6 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6656,10 +6656,10 @@ impl IconShape for TbCircleNumber7 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6683,10 +6683,10 @@ impl IconShape for TbCircleNumber8 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6710,10 +6710,10 @@ impl IconShape for TbCircleNumber9 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6737,10 +6737,10 @@ impl IconShape for TbCirclePercentage {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6764,10 +6764,10 @@ impl IconShape for TbCirclePlus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6791,10 +6791,10 @@ impl IconShape for TbCircleRectangle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6818,10 +6818,10 @@ impl IconShape for TbCircleX {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6845,10 +6845,10 @@ impl IconShape for TbCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6872,10 +6872,10 @@ impl IconShape for TbCircles {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6905,10 +6905,10 @@ impl IconShape for TbClockHour1 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6932,10 +6932,10 @@ impl IconShape for TbClockHour10 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6959,10 +6959,10 @@ impl IconShape for TbClockHour11 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -6986,10 +6986,10 @@ impl IconShape for TbClockHour12 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7013,10 +7013,10 @@ impl IconShape for TbClockHour2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7040,10 +7040,10 @@ impl IconShape for TbClockHour3 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7067,10 +7067,10 @@ impl IconShape for TbClockHour4 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7094,10 +7094,10 @@ impl IconShape for TbClockHour5 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7121,10 +7121,10 @@ impl IconShape for TbClockHour6 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7148,10 +7148,10 @@ impl IconShape for TbClockHour7 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7175,10 +7175,10 @@ impl IconShape for TbClockHour8 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7202,10 +7202,10 @@ impl IconShape for TbClockHour9 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7229,10 +7229,10 @@ impl IconShape for TbClock {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7256,10 +7256,10 @@ impl IconShape for TbCloud {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7283,10 +7283,10 @@ impl IconShape for TbClubs {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7310,10 +7310,10 @@ impl IconShape for TbCodeCircle2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7337,10 +7337,10 @@ impl IconShape for TbCodeCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7364,10 +7364,10 @@ impl IconShape for TbCoinBitcoin {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7391,10 +7391,10 @@ impl IconShape for TbCoinEuro {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7418,10 +7418,10 @@ impl IconShape for TbCoinMonero {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7445,10 +7445,10 @@ impl IconShape for TbCoinPound {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7472,10 +7472,10 @@ impl IconShape for TbCoinRupee {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7499,10 +7499,10 @@ impl IconShape for TbCoinTaka {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7526,10 +7526,10 @@ impl IconShape for TbCoinYen {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7553,10 +7553,10 @@ impl IconShape for TbCoinYuan {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7580,10 +7580,10 @@ impl IconShape for TbCoin {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7607,10 +7607,10 @@ impl IconShape for TbCompass {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7634,10 +7634,10 @@ impl IconShape for TbCone2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7661,10 +7661,10 @@ impl IconShape for TbCone {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7688,10 +7688,10 @@ impl IconShape for TbContrast2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7715,10 +7715,10 @@ impl IconShape for TbContrast {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7742,10 +7742,10 @@ impl IconShape for TbCookieMan {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7769,10 +7769,10 @@ impl IconShape for TbCookie {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7796,10 +7796,10 @@ impl IconShape for TbCopyCheck {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7823,10 +7823,10 @@ impl IconShape for TbCopyMinus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7850,10 +7850,10 @@ impl IconShape for TbCopyPlus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7877,10 +7877,10 @@ impl IconShape for TbCopyX {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7904,10 +7904,10 @@ impl IconShape for TbCopyleft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7931,10 +7931,10 @@ impl IconShape for TbCopyright {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7958,10 +7958,10 @@ impl IconShape for TbCreditCard {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -7985,10 +7985,10 @@ impl IconShape for TbCrop11 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8012,10 +8012,10 @@ impl IconShape for TbCrop169 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8039,10 +8039,10 @@ impl IconShape for TbCrop32 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8066,10 +8066,10 @@ impl IconShape for TbCrop54 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8093,10 +8093,10 @@ impl IconShape for TbCrop75 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8120,10 +8120,10 @@ impl IconShape for TbCropLandscape {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8147,10 +8147,10 @@ impl IconShape for TbCropPortrait {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8174,10 +8174,10 @@ impl IconShape for TbCross {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8201,10 +8201,10 @@ impl IconShape for TbDeviceHeartMonitor {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8228,10 +8228,10 @@ impl IconShape for TbDeviceMobile {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8255,10 +8255,10 @@ impl IconShape for TbDeviceTablet {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8282,10 +8282,10 @@ impl IconShape for TbDialpad {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8327,10 +8327,10 @@ impl IconShape for TbDiamond {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8354,10 +8354,10 @@ impl IconShape for TbDiamonds {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8381,10 +8381,10 @@ impl IconShape for TbDice1 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8408,10 +8408,10 @@ impl IconShape for TbDice2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8435,10 +8435,10 @@ impl IconShape for TbDice3 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8462,10 +8462,10 @@ impl IconShape for TbDice4 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8489,10 +8489,10 @@ impl IconShape for TbDice5 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8516,10 +8516,10 @@ impl IconShape for TbDice6 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8543,10 +8543,10 @@ impl IconShape for TbDice {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8570,10 +8570,10 @@ impl IconShape for TbDirectionSign {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8597,10 +8597,10 @@ impl IconShape for TbDropletHalf2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8624,10 +8624,10 @@ impl IconShape for TbDropletHalf {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8651,10 +8651,10 @@ impl IconShape for TbDroplet {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8678,10 +8678,10 @@ impl IconShape for TbEgg {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8705,10 +8705,10 @@ impl IconShape for TbExclamationCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8732,10 +8732,10 @@ impl IconShape for TbEye {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8759,10 +8759,10 @@ impl IconShape for TbFileX {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8789,10 +8789,10 @@ impl IconShape for TbFile {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8819,10 +8819,10 @@ impl IconShape for TbFilter {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8846,10 +8846,10 @@ impl IconShape for TbFlag2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8873,10 +8873,10 @@ impl IconShape for TbFlag3 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8900,10 +8900,10 @@ impl IconShape for TbFlag {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8927,10 +8927,10 @@ impl IconShape for TbFlask2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8954,10 +8954,10 @@ impl IconShape for TbFlask {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -8981,10 +8981,10 @@ impl IconShape for TbFolder {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9008,10 +9008,10 @@ impl IconShape for TbForbid2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9035,10 +9035,10 @@ impl IconShape for TbForbid {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9062,10 +9062,10 @@ impl IconShape for TbFountain {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9089,10 +9089,10 @@ impl IconShape for TbFunction {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9116,10 +9116,10 @@ impl IconShape for TbGauge {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9143,10 +9143,10 @@ impl IconShape for TbGhost2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9170,10 +9170,10 @@ impl IconShape for TbGhost {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9197,10 +9197,10 @@ impl IconShape for TbGiftCard {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9224,10 +9224,10 @@ impl IconShape for TbGift {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9251,10 +9251,10 @@ impl IconShape for TbGlassFull {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9278,10 +9278,10 @@ impl IconShape for TbGlobe {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9314,10 +9314,10 @@ impl IconShape for TbGps {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9341,10 +9341,10 @@ impl IconShape for TbGraph {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9368,10 +9368,10 @@ impl IconShape for TbGuitarPick {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9395,10 +9395,10 @@ impl IconShape for TbHanger2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9422,10 +9422,10 @@ impl IconShape for TbHeadphones {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9449,10 +9449,10 @@ impl IconShape for TbHeart {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9476,10 +9476,10 @@ impl IconShape for TbHelpCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9503,10 +9503,10 @@ impl IconShape for TbHelpHexagon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9530,10 +9530,10 @@ impl IconShape for TbHelpOctagon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9557,10 +9557,10 @@ impl IconShape for TbHelpSquareRounded {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9584,10 +9584,10 @@ impl IconShape for TbHelpSquare {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9611,10 +9611,10 @@ impl IconShape for TbHelpTriangle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9638,10 +9638,10 @@ impl IconShape for TbHexagonLetterA {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9665,10 +9665,10 @@ impl IconShape for TbHexagonLetterB {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9692,10 +9692,10 @@ impl IconShape for TbHexagonLetterC {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9719,10 +9719,10 @@ impl IconShape for TbHexagonLetterD {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9746,10 +9746,10 @@ impl IconShape for TbHexagonLetterE {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9773,10 +9773,10 @@ impl IconShape for TbHexagonLetterF {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9800,10 +9800,10 @@ impl IconShape for TbHexagonLetterG {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9827,10 +9827,10 @@ impl IconShape for TbHexagonLetterH {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9854,10 +9854,10 @@ impl IconShape for TbHexagonLetterI {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9881,10 +9881,10 @@ impl IconShape for TbHexagonLetterJ {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9908,10 +9908,10 @@ impl IconShape for TbHexagonLetterK {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9935,10 +9935,10 @@ impl IconShape for TbHexagonLetterL {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9962,10 +9962,10 @@ impl IconShape for TbHexagonLetterM {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -9989,10 +9989,10 @@ impl IconShape for TbHexagonLetterN {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10016,10 +10016,10 @@ impl IconShape for TbHexagonLetterO {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10043,10 +10043,10 @@ impl IconShape for TbHexagonLetterP {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10070,10 +10070,10 @@ impl IconShape for TbHexagonLetterQ {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10097,10 +10097,10 @@ impl IconShape for TbHexagonLetterR {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10124,10 +10124,10 @@ impl IconShape for TbHexagonLetterS {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10151,10 +10151,10 @@ impl IconShape for TbHexagonLetterT {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10178,10 +10178,10 @@ impl IconShape for TbHexagonLetterU {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10205,10 +10205,10 @@ impl IconShape for TbHexagonLetterV {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10232,10 +10232,10 @@ impl IconShape for TbHexagonLetterW {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10259,10 +10259,10 @@ impl IconShape for TbHexagonLetterX {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10286,10 +10286,10 @@ impl IconShape for TbHexagonLetterY {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10313,10 +10313,10 @@ impl IconShape for TbHexagonLetterZ {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10340,10 +10340,10 @@ impl IconShape for TbHexagonMinus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10367,10 +10367,10 @@ impl IconShape for TbHexagonNumber0 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10394,10 +10394,10 @@ impl IconShape for TbHexagonNumber1 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10421,10 +10421,10 @@ impl IconShape for TbHexagonNumber2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10448,10 +10448,10 @@ impl IconShape for TbHexagonNumber3 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10475,10 +10475,10 @@ impl IconShape for TbHexagonNumber4 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10502,10 +10502,10 @@ impl IconShape for TbHexagonNumber5 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10529,10 +10529,10 @@ impl IconShape for TbHexagonNumber6 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10556,10 +10556,10 @@ impl IconShape for TbHexagonNumber7 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10583,10 +10583,10 @@ impl IconShape for TbHexagonNumber8 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10610,10 +10610,10 @@ impl IconShape for TbHexagonNumber9 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10637,10 +10637,10 @@ impl IconShape for TbHexagonPlus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10664,10 +10664,10 @@ impl IconShape for TbHexagon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10691,10 +10691,10 @@ impl IconShape for TbHome {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10718,10 +10718,10 @@ impl IconShape for TbHospitalCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10745,10 +10745,10 @@ impl IconShape for TbHourglass {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10772,10 +10772,10 @@ impl IconShape for TbInfoCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10799,10 +10799,10 @@ impl IconShape for TbInfoHexagon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10826,10 +10826,10 @@ impl IconShape for TbInfoOctagon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10853,10 +10853,10 @@ impl IconShape for TbInfoSquareRounded {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10880,10 +10880,10 @@ impl IconShape for TbInfoSquare {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10907,10 +10907,10 @@ impl IconShape for TbInfoTriangle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10934,10 +10934,10 @@ impl IconShape for TbInnerShadowBottomLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10961,10 +10961,10 @@ impl IconShape for TbInnerShadowBottomRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -10988,10 +10988,10 @@ impl IconShape for TbInnerShadowBottom {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11015,10 +11015,10 @@ impl IconShape for TbInnerShadowLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11042,10 +11042,10 @@ impl IconShape for TbInnerShadowRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11069,10 +11069,10 @@ impl IconShape for TbInnerShadowTopLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11096,10 +11096,10 @@ impl IconShape for TbInnerShadowTopRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11123,10 +11123,10 @@ impl IconShape for TbInnerShadowTop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11150,10 +11150,10 @@ impl IconShape for TbIroning {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11177,10 +11177,10 @@ impl IconShape for TbJetpack {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11204,10 +11204,10 @@ impl IconShape for TbJewishStar {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11231,10 +11231,10 @@ impl IconShape for TbKey {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11258,10 +11258,10 @@ impl IconShape for TbKeyframeAlignCenter {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11297,10 +11297,10 @@ impl IconShape for TbKeyframeAlignHorizontal {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11330,10 +11330,10 @@ impl IconShape for TbKeyframeAlignVertical {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11363,10 +11363,10 @@ impl IconShape for TbKeyframe {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11390,10 +11390,10 @@ impl IconShape for TbKeyframes {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11423,10 +11423,10 @@ impl IconShape for TbLabelImportant {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11450,10 +11450,10 @@ impl IconShape for TbLabel {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11477,10 +11477,10 @@ impl IconShape for TbLassoPolygon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11504,10 +11504,10 @@ impl IconShape for TbLayout2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11540,10 +11540,10 @@ impl IconShape for TbLayoutAlignBottom {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11570,10 +11570,10 @@ impl IconShape for TbLayoutAlignCenter {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11597,10 +11597,10 @@ impl IconShape for TbLayoutAlignLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11627,10 +11627,10 @@ impl IconShape for TbLayoutAlignMiddle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11654,10 +11654,10 @@ impl IconShape for TbLayoutAlignRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11684,10 +11684,10 @@ impl IconShape for TbLayoutAlignTop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11714,10 +11714,10 @@ impl IconShape for TbLayoutBottombarCollapse {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11741,10 +11741,10 @@ impl IconShape for TbLayoutBottombarExpand {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11768,10 +11768,10 @@ impl IconShape for TbLayoutBottombar {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11795,10 +11795,10 @@ impl IconShape for TbLayoutCards {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11825,10 +11825,10 @@ impl IconShape for TbLayoutDashboard {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11852,10 +11852,10 @@ impl IconShape for TbLayoutDistributeHorizontal {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11885,10 +11885,10 @@ impl IconShape for TbLayoutDistributeVertical {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11918,10 +11918,10 @@ impl IconShape for TbLayoutGrid {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11954,10 +11954,10 @@ impl IconShape for TbLayoutKanban {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -11990,10 +11990,10 @@ impl IconShape for TbLayoutList {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12020,10 +12020,10 @@ impl IconShape for TbLayoutNavbarCollapse {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12047,10 +12047,10 @@ impl IconShape for TbLayoutNavbarExpand {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12074,10 +12074,10 @@ impl IconShape for TbLayoutNavbar {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12101,10 +12101,10 @@ impl IconShape for TbLayoutSidebarLeftCollapse {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12128,10 +12128,10 @@ impl IconShape for TbLayoutSidebarLeftExpand {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12155,10 +12155,10 @@ impl IconShape for TbLayoutSidebarRightCollapse {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12182,10 +12182,10 @@ impl IconShape for TbLayoutSidebarRightExpand {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12209,10 +12209,10 @@ impl IconShape for TbLayoutSidebarRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12236,10 +12236,10 @@ impl IconShape for TbLayoutSidebar {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12263,10 +12263,10 @@ impl IconShape for TbLayout {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12296,10 +12296,10 @@ impl IconShape for TbLego {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12323,10 +12323,10 @@ impl IconShape for TbLivePhoto {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12350,10 +12350,10 @@ impl IconShape for TbLocation {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12377,10 +12377,10 @@ impl IconShape for TbLockSquareRounded {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12405,10 +12405,10 @@ impl IconShape for TbLock {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12432,10 +12432,10 @@ impl IconShape for TbLungs {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12459,10 +12459,10 @@ impl IconShape for TbMacro {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12486,10 +12486,10 @@ impl IconShape for TbMagnet {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12513,10 +12513,10 @@ impl IconShape for TbMailOpened {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12549,10 +12549,10 @@ impl IconShape for TbMail {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12579,10 +12579,10 @@ impl IconShape for TbMan {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12609,10 +12609,10 @@ impl IconShape for TbManualGearbox {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12636,10 +12636,10 @@ impl IconShape for TbMapPin {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12663,10 +12663,10 @@ impl IconShape for TbMedicalCross {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12690,10 +12690,10 @@ impl IconShape for TbMessageChatbot {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12717,10 +12717,10 @@ impl IconShape for TbMessageCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12744,10 +12744,10 @@ impl IconShape for TbMessageReport {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12771,10 +12771,10 @@ impl IconShape for TbMessage {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12798,10 +12798,10 @@ impl IconShape for TbMickey {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12825,10 +12825,10 @@ impl IconShape for TbMicrophone {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12852,10 +12852,10 @@ impl IconShape for TbMicrowave {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12885,10 +12885,10 @@ impl IconShape for TbMilitaryRank {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12912,10 +12912,10 @@ impl IconShape for TbMoodAngry {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12939,10 +12939,10 @@ impl IconShape for TbMoodConfuzed {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12966,10 +12966,10 @@ impl IconShape for TbMoodCrazyHappy {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -12993,10 +12993,10 @@ impl IconShape for TbMoodEmpty {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13020,10 +13020,10 @@ impl IconShape for TbMoodHappy {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13047,10 +13047,10 @@ impl IconShape for TbMoodKid {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13074,10 +13074,10 @@ impl IconShape for TbMoodNeutral {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13101,10 +13101,10 @@ impl IconShape for TbMoodSad {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13128,10 +13128,10 @@ impl IconShape for TbMoodSmile {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13155,10 +13155,10 @@ impl IconShape for TbMoodWrrr {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13182,10 +13182,10 @@ impl IconShape for TbMoon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13209,10 +13209,10 @@ impl IconShape for TbMouse {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13236,10 +13236,10 @@ impl IconShape for TbMushroom {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13263,10 +13263,10 @@ impl IconShape for TbNavigation {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13290,10 +13290,10 @@ impl IconShape for TbOctagon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13317,10 +13317,10 @@ impl IconShape for TbOvalVertical {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13344,10 +13344,10 @@ impl IconShape for TbOval {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13371,10 +13371,10 @@ impl IconShape for TbPaint {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13398,10 +13398,10 @@ impl IconShape for TbPanoramaHorizontal {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13425,10 +13425,10 @@ impl IconShape for TbPanoramaVertical {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13452,10 +13452,10 @@ impl IconShape for TbParkingCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13479,10 +13479,10 @@ impl IconShape for TbPaw {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13518,10 +13518,10 @@ impl IconShape for TbPennant2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13545,10 +13545,10 @@ impl IconShape for TbPennant {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13572,10 +13572,10 @@ impl IconShape for TbPentagon {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13599,10 +13599,10 @@ impl IconShape for TbPhone {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13626,10 +13626,10 @@ impl IconShape for TbPhoto {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13653,10 +13653,10 @@ impl IconShape for TbPictureInPictureTop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13683,10 +13683,10 @@ impl IconShape for TbPictureInPicture {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13713,10 +13713,10 @@ impl IconShape for TbPill {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13740,10 +13740,10 @@ impl IconShape for TbPin {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13767,10 +13767,10 @@ impl IconShape for TbPinned {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13794,10 +13794,10 @@ impl IconShape for TbPlayerEject {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13824,10 +13824,10 @@ impl IconShape for TbPlayerPause {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13854,10 +13854,10 @@ impl IconShape for TbPlayerPlay {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13881,10 +13881,10 @@ impl IconShape for TbPlayerRecord {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13908,10 +13908,10 @@ impl IconShape for TbPlayerSkipBack {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13938,10 +13938,10 @@ impl IconShape for TbPlayerSkipForward {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13968,10 +13968,10 @@ impl IconShape for TbPlayerStop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -13995,10 +13995,10 @@ impl IconShape for TbPlayerTrackNext {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14025,10 +14025,10 @@ impl IconShape for TbPlayerTrackPrev {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14055,10 +14055,10 @@ impl IconShape for TbPoint {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14082,10 +14082,10 @@ impl IconShape for TbPointer {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14109,10 +14109,10 @@ impl IconShape for TbPolaroid {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14145,10 +14145,10 @@ impl IconShape for TbPoo {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14172,10 +14172,10 @@ impl IconShape for TbPresentationAnalytics {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14199,10 +14199,10 @@ impl IconShape for TbPresentation {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14226,10 +14226,10 @@ impl IconShape for TbPuzzle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14253,10 +14253,10 @@ impl IconShape for TbRadar {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14280,10 +14280,10 @@ impl IconShape for TbRadioactive {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14313,10 +14313,10 @@ impl IconShape for TbReceipt {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14340,10 +14340,10 @@ impl IconShape for TbRectangleVertical {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14367,10 +14367,10 @@ impl IconShape for TbRectangle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14394,10 +14394,10 @@ impl IconShape for TbRelationManyToMany {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14421,10 +14421,10 @@ impl IconShape for TbRelationOneToMany {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14448,10 +14448,10 @@ impl IconShape for TbRelationOneToOne {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14475,10 +14475,10 @@ impl IconShape for TbReplace {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14511,10 +14511,10 @@ impl IconShape for TbRosetteDiscountCheck {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14538,10 +14538,10 @@ impl IconShape for TbRosetteDiscount {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14565,10 +14565,10 @@ impl IconShape for TbRosette {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14592,10 +14592,10 @@ impl IconShape for TbScubaDivingTank {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14622,10 +14622,10 @@ impl IconShape for TbSection {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14649,10 +14649,10 @@ impl IconShape for TbSettings {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14676,10 +14676,10 @@ impl IconShape for TbShieldCheck {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14703,10 +14703,10 @@ impl IconShape for TbShieldCheckered {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14730,10 +14730,10 @@ impl IconShape for TbShieldHalf {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14757,10 +14757,10 @@ impl IconShape for TbShieldLock {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14784,10 +14784,10 @@ impl IconShape for TbShield {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14811,10 +14811,10 @@ impl IconShape for TbShirt {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14838,10 +14838,10 @@ impl IconShape for TbShoppingCart {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14865,10 +14865,10 @@ impl IconShape for TbSignLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14892,10 +14892,10 @@ impl IconShape for TbSignRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14919,10 +14919,10 @@ impl IconShape for TbSortAscending2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14952,10 +14952,10 @@ impl IconShape for TbSortAscendingShapes {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -14979,10 +14979,10 @@ impl IconShape for TbSortDescending2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15012,10 +15012,10 @@ impl IconShape for TbSortDescendingShapes {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15039,10 +15039,10 @@ impl IconShape for TbSoup {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15075,10 +15075,10 @@ impl IconShape for TbSpade {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15102,10 +15102,10 @@ impl IconShape for TbSquareArrowDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15129,10 +15129,10 @@ impl IconShape for TbSquareArrowLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15156,10 +15156,10 @@ impl IconShape for TbSquareArrowRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15183,10 +15183,10 @@ impl IconShape for TbSquareArrowUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15210,10 +15210,10 @@ impl IconShape for TbSquareAsterisk {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15237,10 +15237,10 @@ impl IconShape for TbSquareCheck {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15264,10 +15264,10 @@ impl IconShape for TbSquareChevronDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15291,10 +15291,10 @@ impl IconShape for TbSquareChevronLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15318,10 +15318,10 @@ impl IconShape for TbSquareChevronRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15345,10 +15345,10 @@ impl IconShape for TbSquareChevronUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15372,10 +15372,10 @@ impl IconShape for TbSquareChevronsDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15399,10 +15399,10 @@ impl IconShape for TbSquareChevronsLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15426,10 +15426,10 @@ impl IconShape for TbSquareChevronsRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15453,10 +15453,10 @@ impl IconShape for TbSquareChevronsUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15480,10 +15480,10 @@ impl IconShape for TbSquareDot {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15507,10 +15507,10 @@ impl IconShape for TbSquareF0 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15534,10 +15534,10 @@ impl IconShape for TbSquareF1 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15561,10 +15561,10 @@ impl IconShape for TbSquareF2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15588,10 +15588,10 @@ impl IconShape for TbSquareF3 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15615,10 +15615,10 @@ impl IconShape for TbSquareF4 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15642,10 +15642,10 @@ impl IconShape for TbSquareF5 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15669,10 +15669,10 @@ impl IconShape for TbSquareF6 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15696,10 +15696,10 @@ impl IconShape for TbSquareF7 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15723,10 +15723,10 @@ impl IconShape for TbSquareF8 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15750,10 +15750,10 @@ impl IconShape for TbSquareF9 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15777,10 +15777,10 @@ impl IconShape for TbSquareLetterA {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15804,10 +15804,10 @@ impl IconShape for TbSquareLetterB {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15831,10 +15831,10 @@ impl IconShape for TbSquareLetterC {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15858,10 +15858,10 @@ impl IconShape for TbSquareLetterD {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15885,10 +15885,10 @@ impl IconShape for TbSquareLetterE {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15912,10 +15912,10 @@ impl IconShape for TbSquareLetterF {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15939,10 +15939,10 @@ impl IconShape for TbSquareLetterG {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15966,10 +15966,10 @@ impl IconShape for TbSquareLetterH {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -15993,10 +15993,10 @@ impl IconShape for TbSquareLetterI {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16020,10 +16020,10 @@ impl IconShape for TbSquareLetterJ {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16047,10 +16047,10 @@ impl IconShape for TbSquareLetterK {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16074,10 +16074,10 @@ impl IconShape for TbSquareLetterL {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16101,10 +16101,10 @@ impl IconShape for TbSquareLetterM {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16128,10 +16128,10 @@ impl IconShape for TbSquareLetterN {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16155,10 +16155,10 @@ impl IconShape for TbSquareLetterO {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16182,10 +16182,10 @@ impl IconShape for TbSquareLetterP {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16209,10 +16209,10 @@ impl IconShape for TbSquareLetterQ {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16236,10 +16236,10 @@ impl IconShape for TbSquareLetterR {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16263,10 +16263,10 @@ impl IconShape for TbSquareLetterS {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16290,10 +16290,10 @@ impl IconShape for TbSquareLetterT {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16317,10 +16317,10 @@ impl IconShape for TbSquareLetterU {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16344,10 +16344,10 @@ impl IconShape for TbSquareLetterV {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16371,10 +16371,10 @@ impl IconShape for TbSquareLetterW {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16398,10 +16398,10 @@ impl IconShape for TbSquareLetterX {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16425,10 +16425,10 @@ impl IconShape for TbSquareLetterY {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16452,10 +16452,10 @@ impl IconShape for TbSquareLetterZ {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16479,10 +16479,10 @@ impl IconShape for TbSquareMinus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16506,10 +16506,10 @@ impl IconShape for TbSquareNumber0 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16533,10 +16533,10 @@ impl IconShape for TbSquareNumber1 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16560,10 +16560,10 @@ impl IconShape for TbSquareNumber2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16587,10 +16587,10 @@ impl IconShape for TbSquareNumber3 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16614,10 +16614,10 @@ impl IconShape for TbSquareNumber4 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16641,10 +16641,10 @@ impl IconShape for TbSquareNumber5 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16668,10 +16668,10 @@ impl IconShape for TbSquareNumber6 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16695,10 +16695,10 @@ impl IconShape for TbSquareNumber7 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16722,10 +16722,10 @@ impl IconShape for TbSquareNumber8 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16749,10 +16749,10 @@ impl IconShape for TbSquareNumber9 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16776,10 +16776,10 @@ impl IconShape for TbSquareRotated {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16803,10 +16803,10 @@ impl IconShape for TbSquareRoundedArrowDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16831,10 +16831,10 @@ impl IconShape for TbSquareRoundedArrowLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16859,10 +16859,10 @@ impl IconShape for TbSquareRoundedArrowRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16887,10 +16887,10 @@ impl IconShape for TbSquareRoundedArrowUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16915,10 +16915,10 @@ impl IconShape for TbSquareRoundedCheck {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16943,10 +16943,10 @@ impl IconShape for TbSquareRoundedChevronDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16971,10 +16971,10 @@ impl IconShape for TbSquareRoundedChevronLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -16999,10 +16999,10 @@ impl IconShape for TbSquareRoundedChevronRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17027,10 +17027,10 @@ impl IconShape for TbSquareRoundedChevronUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17055,10 +17055,10 @@ impl IconShape for TbSquareRoundedChevronsDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17083,10 +17083,10 @@ impl IconShape for TbSquareRoundedChevronsLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17111,10 +17111,10 @@ impl IconShape for TbSquareRoundedChevronsRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17139,10 +17139,10 @@ impl IconShape for TbSquareRoundedChevronsUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17167,10 +17167,10 @@ impl IconShape for TbSquareRoundedLetterA {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17194,10 +17194,10 @@ impl IconShape for TbSquareRoundedLetterB {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17221,10 +17221,10 @@ impl IconShape for TbSquareRoundedLetterC {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17248,10 +17248,10 @@ impl IconShape for TbSquareRoundedLetterD {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17275,10 +17275,10 @@ impl IconShape for TbSquareRoundedLetterE {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17302,10 +17302,10 @@ impl IconShape for TbSquareRoundedLetterF {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17329,10 +17329,10 @@ impl IconShape for TbSquareRoundedLetterG {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17356,10 +17356,10 @@ impl IconShape for TbSquareRoundedLetterH {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17383,10 +17383,10 @@ impl IconShape for TbSquareRoundedLetterI {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17410,10 +17410,10 @@ impl IconShape for TbSquareRoundedLetterJ {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17437,10 +17437,10 @@ impl IconShape for TbSquareRoundedLetterK {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17464,10 +17464,10 @@ impl IconShape for TbSquareRoundedLetterL {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17491,10 +17491,10 @@ impl IconShape for TbSquareRoundedLetterM {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17518,10 +17518,10 @@ impl IconShape for TbSquareRoundedLetterN {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17545,10 +17545,10 @@ impl IconShape for TbSquareRoundedLetterO {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17572,10 +17572,10 @@ impl IconShape for TbSquareRoundedLetterP {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17599,10 +17599,10 @@ impl IconShape for TbSquareRoundedLetterQ {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17626,10 +17626,10 @@ impl IconShape for TbSquareRoundedLetterR {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17653,10 +17653,10 @@ impl IconShape for TbSquareRoundedLetterS {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17680,10 +17680,10 @@ impl IconShape for TbSquareRoundedLetterT {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17707,10 +17707,10 @@ impl IconShape for TbSquareRoundedLetterU {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17734,10 +17734,10 @@ impl IconShape for TbSquareRoundedLetterV {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17761,10 +17761,10 @@ impl IconShape for TbSquareRoundedLetterW {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17788,10 +17788,10 @@ impl IconShape for TbSquareRoundedLetterX {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17815,10 +17815,10 @@ impl IconShape for TbSquareRoundedLetterY {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17842,10 +17842,10 @@ impl IconShape for TbSquareRoundedLetterZ {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17869,10 +17869,10 @@ impl IconShape for TbSquareRoundedMinus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17896,10 +17896,10 @@ impl IconShape for TbSquareRoundedNumber0 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17923,10 +17923,10 @@ impl IconShape for TbSquareRoundedNumber1 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17950,10 +17950,10 @@ impl IconShape for TbSquareRoundedNumber2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -17977,10 +17977,10 @@ impl IconShape for TbSquareRoundedNumber3 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18004,10 +18004,10 @@ impl IconShape for TbSquareRoundedNumber4 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18031,10 +18031,10 @@ impl IconShape for TbSquareRoundedNumber5 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18058,10 +18058,10 @@ impl IconShape for TbSquareRoundedNumber6 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18085,10 +18085,10 @@ impl IconShape for TbSquareRoundedNumber7 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18112,10 +18112,10 @@ impl IconShape for TbSquareRoundedNumber8 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18139,10 +18139,10 @@ impl IconShape for TbSquareRoundedNumber9 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18166,10 +18166,10 @@ impl IconShape for TbSquareRoundedPlus {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18194,10 +18194,10 @@ impl IconShape for TbSquareRoundedX {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18222,10 +18222,10 @@ impl IconShape for TbSquareRounded {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18249,10 +18249,10 @@ impl IconShape for TbSquareX {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18276,10 +18276,10 @@ impl IconShape for TbSquare {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18303,10 +18303,10 @@ impl IconShape for TbSquares {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18333,10 +18333,10 @@ impl IconShape for TbStack2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18360,10 +18360,10 @@ impl IconShape for TbStack3 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18387,10 +18387,10 @@ impl IconShape for TbStack {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18414,10 +18414,10 @@ impl IconShape for TbStarHalf {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18441,10 +18441,10 @@ impl IconShape for TbStar {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18468,10 +18468,10 @@ impl IconShape for TbStars {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18501,10 +18501,10 @@ impl IconShape for TbSteeringWheel {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18528,10 +18528,10 @@ impl IconShape for TbSun {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18579,10 +18579,10 @@ impl IconShape for TbSunglasses {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18606,10 +18606,10 @@ impl IconShape for TbSwipeDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18633,10 +18633,10 @@ impl IconShape for TbSwipeLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18660,10 +18660,10 @@ impl IconShape for TbSwipeRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18687,10 +18687,10 @@ impl IconShape for TbSwipeUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18714,10 +18714,10 @@ impl IconShape for TbTable {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18750,10 +18750,10 @@ impl IconShape for TbTag {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18777,10 +18777,10 @@ impl IconShape for TbTags {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18807,10 +18807,10 @@ impl IconShape for TbTestPipe2 {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18834,10 +18834,10 @@ impl IconShape for TbThumbDown {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18864,10 +18864,10 @@ impl IconShape for TbThumbUp {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18894,10 +18894,10 @@ impl IconShape for TbTiltShift {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18945,10 +18945,10 @@ impl IconShape for TbTimelineEvent {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -18975,10 +18975,10 @@ impl IconShape for TbToggleLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19005,10 +19005,10 @@ impl IconShape for TbToggleRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19035,10 +19035,10 @@ impl IconShape for TbTransform {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19071,10 +19071,10 @@ impl IconShape for TbTransitionBottom {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19098,10 +19098,10 @@ impl IconShape for TbTransitionLeft {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19125,10 +19125,10 @@ impl IconShape for TbTransitionRight {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19152,10 +19152,10 @@ impl IconShape for TbTransitionTop {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19179,10 +19179,10 @@ impl IconShape for TbTrashX {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19209,10 +19209,10 @@ impl IconShape for TbTrash {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19239,10 +19239,10 @@ impl IconShape for TbTriangleInverted {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19266,10 +19266,10 @@ impl IconShape for TbTriangleSquareCircle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19299,10 +19299,10 @@ impl IconShape for TbTriangle {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19326,10 +19326,10 @@ impl IconShape for TbTrophy {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19353,10 +19353,10 @@ impl IconShape for TbUmbrella {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19380,10 +19380,10 @@ impl IconShape for TbUser {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19410,10 +19410,10 @@ impl IconShape for TbVersions {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19443,10 +19443,10 @@ impl IconShape for TbWindmill {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19470,10 +19470,10 @@ impl IconShape for TbWoman {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19500,10 +19500,10 @@ impl IconShape for TbXboxA {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19527,10 +19527,10 @@ impl IconShape for TbXboxB {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19554,10 +19554,10 @@ impl IconShape for TbXboxX {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19581,10 +19581,10 @@ impl IconShape for TbXboxY {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19608,10 +19608,10 @@ impl IconShape for TbYinYang {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19638,10 +19638,10 @@ impl IconShape for TbZeppelin {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19665,10 +19665,10 @@ impl IconShape for TbZoomCancel {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19692,10 +19692,10 @@ impl IconShape for TbZoomCheck {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19719,10 +19719,10 @@ impl IconShape for TbZoomCode {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19746,10 +19746,10 @@ impl IconShape for TbZoomExclamation {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19773,10 +19773,10 @@ impl IconShape for TbZoomInArea {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19815,10 +19815,10 @@ impl IconShape for TbZoomIn {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19842,10 +19842,10 @@ impl IconShape for TbZoomMoney {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19869,10 +19869,10 @@ impl IconShape for TbZoomOutArea {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19896,10 +19896,10 @@ impl IconShape for TbZoomOut {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19923,10 +19923,10 @@ impl IconShape for TbZoomPan {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19962,10 +19962,10 @@ impl IconShape for TbZoomQuestion {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -19989,10 +19989,10 @@ impl IconShape for TbZoomScan {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
@@ -20028,10 +20028,10 @@ impl IconShape for TbZoom {
         "http://www.w3.org/2000/svg"
     }
     fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+        ("none", user_color, "0")
     }
     fn stroke_linecap(&self) -> &str {
-        "butt"
+        "round"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
