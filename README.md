@@ -30,6 +30,8 @@ The following features are available. Please see [react-icons site](https://reac
 - [hero-icons-solid](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/hi_solid_icons/index.html)
 - [ionicons](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/io_icons/index.html)
 - [lucide](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/ld_icons/index.html)
+- [tabler-icons-filled](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/tb_filled_icons/index.html)
+- [tabler-icons-outline](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/tb_outline_icons/index.html)
 - [material-design-icons-action](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/md_action_icons/index.html)
 - [material-design-icons-alert](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/md_alert_icons/index.html)
 - [material-design-icons-av](https://docs.rs/dioxus-free-icons/latest/dioxus_free_icons/icons/md_av_icons/index.html)
@@ -85,6 +87,7 @@ Icon Library|License|Version
 [Lucide](https://lucide.dev)|[ISC License](https://github.com/lucide-icons/lucide/blob/main/LICENSE)| [0.265.0](https://github.com/lucide-icons/lucide/tree/v0.265.0)
 [Material Design icons](https://developers.google.com/fonts/docs/material_icons)|[Apache License 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)| [4.0.0](https://github.com/google/material-design-icons/tree/4.0.0)
 [Octicons](https://primer.style/octicons/)|[MIT License](https://github.com/primer/octicons/blob/main/LICENSE)| [17.3.0](https://github.com/primer/octicons/tree/v17.3.0)
+[Tabler Icons](https://tabler-icons.io/)|[MIT License](https://github.com/tabler/tabler-icons/blob/main/LICENSE)| [3.9.0](https://github.com/tabler/tabler-icons/tree/v3.9.0)
 
 ## Contribution
 

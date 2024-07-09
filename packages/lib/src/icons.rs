@@ -18,6 +18,10 @@ pub mod hi_solid_icons;
 pub mod io_icons;
 #[cfg(feature = "lucide")]
 pub mod ld_icons;
+#[cfg(feature = "tabler-icons-filled")]
+pub mod tb_filled_icons;
+#[cfg(feature = "tabler-icons-outline")]
+pub mod tb_outline_icons;
 #[cfg(feature = "material-design-icons-action")]
 pub mod md_action_icons;
 #[cfg(feature = "material-design-icons-alert")]
