@@ -87,7 +87,7 @@ Icon Library|License|Version
 [Lucide](https://lucide.dev)|[ISC License](https://github.com/lucide-icons/lucide/blob/main/LICENSE)| [0.265.0](https://github.com/lucide-icons/lucide/tree/v0.265.0)
 [Material Design icons](https://developers.google.com/fonts/docs/material_icons)|[Apache License 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)| [4.0.0](https://github.com/google/material-design-icons/tree/4.0.0)
 [Octicons](https://primer.style/octicons/)|[MIT License](https://github.com/primer/octicons/blob/main/LICENSE)| [17.3.0](https://github.com/primer/octicons/tree/v17.3.0)
-[Tabler Icons](https://tabler-icons.io/)|[MIT License](https://github.com/tabler/tabler-icons/blob/main/LICENSE)| [3.9.0](https://github.com/tabler/tabler-icons/tree/v3.9.0)
+[Tabler Icons](https://tabler-icons.io/)|[MIT License](https://github.com/tabler/tabler-icons/blob/main/LICENSE)| [3.10.0](https://github.com/tabler/tabler-icons/tree/v3.10.0)
 
 ## Contribution
 

@@ -17,7 +17,7 @@ impl IconShape for TbAccessible {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -44,7 +44,7 @@ impl IconShape for TbAdCircle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -71,7 +71,7 @@ impl IconShape for TbAd {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -98,7 +98,7 @@ impl IconShape for TbAdjustments {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -131,7 +131,7 @@ impl IconShape for TbAffiliate {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -158,7 +158,7 @@ impl IconShape for TbAlarmMinus {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -191,7 +191,7 @@ impl IconShape for TbAlarmPlus {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -224,7 +224,7 @@ impl IconShape for TbAlarmSnooze {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -257,7 +257,7 @@ impl IconShape for TbAlarm {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -290,7 +290,7 @@ impl IconShape for TbAlertCircle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -317,7 +317,7 @@ impl IconShape for TbAlertHexagon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -344,7 +344,7 @@ impl IconShape for TbAlertOctagon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -371,7 +371,7 @@ impl IconShape for TbAlertSquareRounded {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -398,7 +398,7 @@ impl IconShape for TbAlertSquare {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -425,7 +425,7 @@ impl IconShape for TbAlertTriangle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -452,7 +452,7 @@ impl IconShape for TbAlien {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -479,7 +479,7 @@ impl IconShape for TbAlignBoxBottomCenter {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -506,7 +506,7 @@ impl IconShape for TbAlignBoxBottomLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -533,7 +533,7 @@ impl IconShape for TbAlignBoxBottomRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -560,7 +560,7 @@ impl IconShape for TbAlignBoxCenterMiddle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -587,7 +587,7 @@ impl IconShape for TbAlignBoxLeftBottom {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -614,7 +614,7 @@ impl IconShape for TbAlignBoxLeftMiddle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -641,7 +641,7 @@ impl IconShape for TbAlignBoxLeftTop {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -668,7 +668,7 @@ impl IconShape for TbAlignBoxRightBottom {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -695,7 +695,7 @@ impl IconShape for TbAlignBoxRightMiddle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -722,7 +722,7 @@ impl IconShape for TbAlignBoxRightTop {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -749,7 +749,7 @@ impl IconShape for TbAlignBoxTopCenter {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -776,7 +776,7 @@ impl IconShape for TbAlignBoxTopLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -803,7 +803,7 @@ impl IconShape for TbAlignBoxTopRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -830,7 +830,7 @@ impl IconShape for TbAnalyze {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -863,7 +863,7 @@ impl IconShape for TbAppWindow {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -890,7 +890,7 @@ impl IconShape for TbApps {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -926,7 +926,7 @@ impl IconShape for TbArchive {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -956,7 +956,7 @@ impl IconShape for TbArrowAutofitContent {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -989,7 +989,7 @@ impl IconShape for TbArrowBadgeDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1016,7 +1016,7 @@ impl IconShape for TbArrowBadgeLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1043,7 +1043,7 @@ impl IconShape for TbArrowBadgeRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1070,7 +1070,7 @@ impl IconShape for TbArrowBadgeUp {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1097,7 +1097,7 @@ impl IconShape for TbArrowBigDownLine {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1127,7 +1127,7 @@ impl IconShape for TbArrowBigDownLines {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1160,7 +1160,7 @@ impl IconShape for TbArrowBigDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1187,7 +1187,7 @@ impl IconShape for TbArrowBigLeftLine {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1220,7 +1220,7 @@ impl IconShape for TbArrowBigLeftLines {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1253,7 +1253,7 @@ impl IconShape for TbArrowBigLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1280,7 +1280,7 @@ impl IconShape for TbArrowBigRightLine {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1310,7 +1310,7 @@ impl IconShape for TbArrowBigRightLines {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1343,7 +1343,7 @@ impl IconShape for TbArrowBigRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1370,7 +1370,7 @@ impl IconShape for TbArrowBigUpLine {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1400,7 +1400,7 @@ impl IconShape for TbArrowBigUpLines {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1433,7 +1433,7 @@ impl IconShape for TbArrowBigUp {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1460,7 +1460,7 @@ impl IconShape for TbArtboard {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1511,7 +1511,7 @@ impl IconShape for TbArticle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1538,7 +1538,7 @@ impl IconShape for TbAspectRatio {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1565,7 +1565,7 @@ impl IconShape for TbAssembly {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1592,7 +1592,7 @@ impl IconShape for TbAsset {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1619,7 +1619,7 @@ impl IconShape for TbAtom2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1664,7 +1664,7 @@ impl IconShape for TbAward {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1697,7 +1697,7 @@ impl IconShape for TbBabyCarriage {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1724,7 +1724,7 @@ impl IconShape for TbBackspace {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1751,7 +1751,7 @@ impl IconShape for TbBadge3d {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1778,7 +1778,7 @@ impl IconShape for TbBadge4k {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1805,7 +1805,7 @@ impl IconShape for TbBadge8k {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1832,7 +1832,7 @@ impl IconShape for TbBadgeAd {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1859,7 +1859,7 @@ impl IconShape for TbBadgeAr {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1886,7 +1886,7 @@ impl IconShape for TbBadgeCc {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1913,7 +1913,7 @@ impl IconShape for TbBadgeHd {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1940,7 +1940,7 @@ impl IconShape for TbBadgeSd {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1967,7 +1967,7 @@ impl IconShape for TbBadgeTm {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1994,7 +1994,7 @@ impl IconShape for TbBadgeVo {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2021,7 +2021,7 @@ impl IconShape for TbBadgeVr {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2048,7 +2048,7 @@ impl IconShape for TbBadgeWc {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2075,7 +2075,7 @@ impl IconShape for TbBadge {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2102,7 +2102,7 @@ impl IconShape for TbBadges {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2132,7 +2132,7 @@ impl IconShape for TbBalloon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2162,7 +2162,7 @@ impl IconShape for TbBallpen {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2189,7 +2189,7 @@ impl IconShape for TbBandage {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2216,7 +2216,7 @@ impl IconShape for TbBarbell {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2249,7 +2249,7 @@ impl IconShape for TbBarrierBlock {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2276,7 +2276,7 @@ impl IconShape for TbBasket {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2303,7 +2303,7 @@ impl IconShape for TbBath {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2330,7 +2330,7 @@ impl IconShape for TbBattery1 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2357,7 +2357,7 @@ impl IconShape for TbBattery2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2384,7 +2384,7 @@ impl IconShape for TbBattery3 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2411,7 +2411,7 @@ impl IconShape for TbBattery4 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2438,7 +2438,7 @@ impl IconShape for TbBattery {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2465,7 +2465,7 @@ impl IconShape for TbBedFlat {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2498,7 +2498,7 @@ impl IconShape for TbBed {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2528,7 +2528,7 @@ impl IconShape for TbBeer {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2555,7 +2555,7 @@ impl IconShape for TbBellMinus {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2585,7 +2585,7 @@ impl IconShape for TbBellPlus {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2615,7 +2615,7 @@ impl IconShape for TbBellRinging2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2645,7 +2645,7 @@ impl IconShape for TbBellRinging {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2681,7 +2681,7 @@ impl IconShape for TbBellX {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2711,7 +2711,7 @@ impl IconShape for TbBellZ {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2741,7 +2741,7 @@ impl IconShape for TbBell {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2771,7 +2771,7 @@ impl IconShape for TbBinaryTree2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2798,7 +2798,7 @@ impl IconShape for TbBinaryTree {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2825,7 +2825,7 @@ impl IconShape for TbBinoculars {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2852,7 +2852,7 @@ impl IconShape for TbBiohazard {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2879,7 +2879,7 @@ impl IconShape for TbBlade {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2906,7 +2906,7 @@ impl IconShape for TbBlob {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2933,7 +2933,7 @@ impl IconShape for TbBomb {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2963,7 +2963,7 @@ impl IconShape for TbBone {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2990,7 +2990,7 @@ impl IconShape for TbBook {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3017,7 +3017,7 @@ impl IconShape for TbBookmark {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3044,7 +3044,7 @@ impl IconShape for TbBookmarks {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3074,7 +3074,7 @@ impl IconShape for TbBoom {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3101,7 +3101,7 @@ impl IconShape for TbBottle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3128,7 +3128,7 @@ impl IconShape for TbBounceLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3158,7 +3158,7 @@ impl IconShape for TbBounceRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3188,7 +3188,7 @@ impl IconShape for TbBow {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3215,7 +3215,7 @@ impl IconShape for TbBowlChopsticks {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3248,7 +3248,7 @@ impl IconShape for TbBowlSpoon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3278,7 +3278,7 @@ impl IconShape for TbBowl {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3305,7 +3305,7 @@ impl IconShape for TbBoxAlignBottomLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3359,7 +3359,7 @@ impl IconShape for TbBoxAlignBottomRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3413,7 +3413,7 @@ impl IconShape for TbBoxAlignBottom {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3458,7 +3458,7 @@ impl IconShape for TbBoxAlignLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3503,7 +3503,7 @@ impl IconShape for TbBoxAlignRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3548,7 +3548,7 @@ impl IconShape for TbBoxAlignTopLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3602,7 +3602,7 @@ impl IconShape for TbBoxAlignTopRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3656,7 +3656,7 @@ impl IconShape for TbBoxAlignTop {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3701,7 +3701,7 @@ impl IconShape for TbBrandApple {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3731,7 +3731,7 @@ impl IconShape for TbBrandDiscord {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3758,7 +3758,7 @@ impl IconShape for TbBrandDribbble {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3785,7 +3785,7 @@ impl IconShape for TbBrandFacebook {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3812,7 +3812,7 @@ impl IconShape for TbBrandGithub {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3839,7 +3839,7 @@ impl IconShape for TbBrandGoogle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3866,7 +3866,7 @@ impl IconShape for TbBrandPatreon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3893,7 +3893,7 @@ impl IconShape for TbBrandPaypal {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3920,7 +3920,7 @@ impl IconShape for TbBrandSpotify {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3947,7 +3947,7 @@ impl IconShape for TbBrandTiktok {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3974,7 +3974,7 @@ impl IconShape for TbBrandTwitter {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4001,7 +4001,7 @@ impl IconShape for TbBrandX {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4028,7 +4028,7 @@ impl IconShape for TbBrandYoutube {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4055,7 +4055,7 @@ impl IconShape for TbBread {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4082,7 +4082,7 @@ impl IconShape for TbBriefcase2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4109,7 +4109,7 @@ impl IconShape for TbBriefcase {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4136,7 +4136,7 @@ impl IconShape for TbBrightnessAuto {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4163,7 +4163,7 @@ impl IconShape for TbBrightnessDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4214,7 +4214,7 @@ impl IconShape for TbBrightnessUp {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4265,7 +4265,7 @@ impl IconShape for TbBrightness {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4292,7 +4292,7 @@ impl IconShape for TbBubble {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4319,7 +4319,7 @@ impl IconShape for TbBug {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4346,7 +4346,7 @@ impl IconShape for TbBuildingBroadcastTower {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4379,7 +4379,7 @@ impl IconShape for TbBulb {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4424,7 +4424,7 @@ impl IconShape for TbCactus {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4451,7 +4451,7 @@ impl IconShape for TbCalculator {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4478,7 +4478,7 @@ impl IconShape for TbCalendar {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4508,7 +4508,7 @@ impl IconShape for TbCamera {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4535,7 +4535,7 @@ impl IconShape for TbCampfire {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4568,7 +4568,7 @@ impl IconShape for TbCandle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4598,7 +4598,7 @@ impl IconShape for TbCapsuleHorizontal {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4625,7 +4625,7 @@ impl IconShape for TbCapsule {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4652,7 +4652,7 @@ impl IconShape for TbCapture {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4691,7 +4691,7 @@ impl IconShape for TbCards {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4724,7 +4724,7 @@ impl IconShape for TbCaretDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4751,7 +4751,7 @@ impl IconShape for TbCaretLeftRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4781,7 +4781,7 @@ impl IconShape for TbCaretLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4808,7 +4808,7 @@ impl IconShape for TbCaretRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4835,7 +4835,7 @@ impl IconShape for TbCaretUpDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4865,7 +4865,7 @@ impl IconShape for TbCaretUp {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4892,7 +4892,7 @@ impl IconShape for TbCarouselHorizontal {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4925,7 +4925,7 @@ impl IconShape for TbCarouselVertical {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4958,7 +4958,7 @@ impl IconShape for TbCashBanknote {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4985,7 +4985,7 @@ impl IconShape for TbCategory {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5021,7 +5021,7 @@ impl IconShape for TbChartAreaLine {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5051,7 +5051,7 @@ impl IconShape for TbChartArea {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5081,7 +5081,7 @@ impl IconShape for TbChartBubble {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5114,7 +5114,7 @@ impl IconShape for TbChartCandle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5147,7 +5147,7 @@ impl IconShape for TbChartDonut {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5177,7 +5177,7 @@ impl IconShape for TbChartDots {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5207,7 +5207,7 @@ impl IconShape for TbChartGridDots {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5234,7 +5234,7 @@ impl IconShape for TbChartPie {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5264,7 +5264,7 @@ impl IconShape for TbCherry {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5291,7 +5291,7 @@ impl IconShape for TbChessBishop {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5324,7 +5324,7 @@ impl IconShape for TbChessKing {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5354,7 +5354,7 @@ impl IconShape for TbChessKnight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5384,7 +5384,7 @@ impl IconShape for TbChessQueen {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5414,7 +5414,7 @@ impl IconShape for TbChessRook {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5444,7 +5444,7 @@ impl IconShape for TbChess {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5474,7 +5474,7 @@ impl IconShape for TbCircleArrowDownLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5501,7 +5501,7 @@ impl IconShape for TbCircleArrowDownRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5528,7 +5528,7 @@ impl IconShape for TbCircleArrowDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5555,7 +5555,7 @@ impl IconShape for TbCircleArrowLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5582,7 +5582,7 @@ impl IconShape for TbCircleArrowRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5609,7 +5609,7 @@ impl IconShape for TbCircleArrowUpLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5636,7 +5636,7 @@ impl IconShape for TbCircleArrowUpRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5663,7 +5663,7 @@ impl IconShape for TbCircleArrowUp {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5690,7 +5690,7 @@ impl IconShape for TbCircleCheck {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5717,7 +5717,7 @@ impl IconShape for TbCircleDot {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5744,7 +5744,7 @@ impl IconShape for TbCircleKey {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5771,7 +5771,7 @@ impl IconShape for TbCircleLetterA {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5798,7 +5798,7 @@ impl IconShape for TbCircleLetterB {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5825,7 +5825,7 @@ impl IconShape for TbCircleLetterC {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5852,7 +5852,7 @@ impl IconShape for TbCircleLetterD {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5879,7 +5879,7 @@ impl IconShape for TbCircleLetterE {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5906,7 +5906,7 @@ impl IconShape for TbCircleLetterF {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5933,7 +5933,7 @@ impl IconShape for TbCircleLetterG {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5960,7 +5960,7 @@ impl IconShape for TbCircleLetterH {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5987,7 +5987,7 @@ impl IconShape for TbCircleLetterI {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6014,7 +6014,7 @@ impl IconShape for TbCircleLetterJ {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6041,7 +6041,7 @@ impl IconShape for TbCircleLetterK {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6068,7 +6068,7 @@ impl IconShape for TbCircleLetterL {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6095,7 +6095,7 @@ impl IconShape for TbCircleLetterM {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6122,7 +6122,7 @@ impl IconShape for TbCircleLetterN {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6149,7 +6149,7 @@ impl IconShape for TbCircleLetterO {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6176,7 +6176,7 @@ impl IconShape for TbCircleLetterP {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6203,7 +6203,7 @@ impl IconShape for TbCircleLetterQ {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6230,7 +6230,7 @@ impl IconShape for TbCircleLetterR {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6257,7 +6257,7 @@ impl IconShape for TbCircleLetterS {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6284,7 +6284,7 @@ impl IconShape for TbCircleLetterT {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6311,7 +6311,7 @@ impl IconShape for TbCircleLetterU {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6338,7 +6338,7 @@ impl IconShape for TbCircleLetterV {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6365,7 +6365,7 @@ impl IconShape for TbCircleLetterW {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6392,7 +6392,7 @@ impl IconShape for TbCircleLetterX {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6419,7 +6419,7 @@ impl IconShape for TbCircleLetterY {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6446,7 +6446,7 @@ impl IconShape for TbCircleLetterZ {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6473,7 +6473,7 @@ impl IconShape for TbCircleNumber0 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6500,7 +6500,7 @@ impl IconShape for TbCircleNumber1 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6527,7 +6527,7 @@ impl IconShape for TbCircleNumber2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6554,7 +6554,7 @@ impl IconShape for TbCircleNumber3 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6581,7 +6581,7 @@ impl IconShape for TbCircleNumber4 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6608,7 +6608,7 @@ impl IconShape for TbCircleNumber5 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6635,7 +6635,7 @@ impl IconShape for TbCircleNumber6 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6662,7 +6662,7 @@ impl IconShape for TbCircleNumber7 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6689,7 +6689,7 @@ impl IconShape for TbCircleNumber8 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6716,7 +6716,7 @@ impl IconShape for TbCircleNumber9 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6743,7 +6743,7 @@ impl IconShape for TbCirclePercentage {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6770,7 +6770,7 @@ impl IconShape for TbCirclePlus {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6797,7 +6797,7 @@ impl IconShape for TbCircleRectangle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6824,7 +6824,7 @@ impl IconShape for TbCircleX {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6851,7 +6851,7 @@ impl IconShape for TbCircle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6878,7 +6878,7 @@ impl IconShape for TbCircles {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6911,7 +6911,7 @@ impl IconShape for TbClockHour1 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6938,7 +6938,7 @@ impl IconShape for TbClockHour10 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6965,7 +6965,7 @@ impl IconShape for TbClockHour11 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6992,7 +6992,7 @@ impl IconShape for TbClockHour12 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7019,7 +7019,7 @@ impl IconShape for TbClockHour2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7046,7 +7046,7 @@ impl IconShape for TbClockHour3 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7073,7 +7073,7 @@ impl IconShape for TbClockHour4 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7100,7 +7100,7 @@ impl IconShape for TbClockHour5 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7127,7 +7127,7 @@ impl IconShape for TbClockHour6 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7154,7 +7154,7 @@ impl IconShape for TbClockHour7 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7181,7 +7181,7 @@ impl IconShape for TbClockHour8 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7208,7 +7208,7 @@ impl IconShape for TbClockHour9 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7235,7 +7235,7 @@ impl IconShape for TbClock {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7262,7 +7262,7 @@ impl IconShape for TbCloud {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7289,7 +7289,7 @@ impl IconShape for TbClubs {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7316,7 +7316,7 @@ impl IconShape for TbCodeCircle2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7343,7 +7343,7 @@ impl IconShape for TbCodeCircle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7370,7 +7370,7 @@ impl IconShape for TbCoinBitcoin {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7397,7 +7397,7 @@ impl IconShape for TbCoinEuro {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7424,7 +7424,7 @@ impl IconShape for TbCoinMonero {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7451,7 +7451,7 @@ impl IconShape for TbCoinPound {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7478,7 +7478,7 @@ impl IconShape for TbCoinRupee {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7505,7 +7505,7 @@ impl IconShape for TbCoinTaka {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7532,7 +7532,7 @@ impl IconShape for TbCoinYen {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7559,7 +7559,7 @@ impl IconShape for TbCoinYuan {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7586,7 +7586,7 @@ impl IconShape for TbCoin {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7613,7 +7613,7 @@ impl IconShape for TbCompass {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7640,7 +7640,7 @@ impl IconShape for TbCone2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7667,7 +7667,7 @@ impl IconShape for TbCone {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7694,7 +7694,7 @@ impl IconShape for TbContrast2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7721,7 +7721,7 @@ impl IconShape for TbContrast {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7748,7 +7748,7 @@ impl IconShape for TbCookieMan {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7775,7 +7775,7 @@ impl IconShape for TbCookie {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7802,7 +7802,7 @@ impl IconShape for TbCopyCheck {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7829,7 +7829,7 @@ impl IconShape for TbCopyMinus {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7856,7 +7856,7 @@ impl IconShape for TbCopyPlus {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7883,7 +7883,7 @@ impl IconShape for TbCopyX {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7910,7 +7910,7 @@ impl IconShape for TbCopyleft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7937,7 +7937,7 @@ impl IconShape for TbCopyright {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7964,7 +7964,7 @@ impl IconShape for TbCreditCard {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7991,7 +7991,7 @@ impl IconShape for TbCrop11 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8018,7 +8018,7 @@ impl IconShape for TbCrop169 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8045,7 +8045,7 @@ impl IconShape for TbCrop32 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8072,7 +8072,7 @@ impl IconShape for TbCrop54 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8099,7 +8099,7 @@ impl IconShape for TbCrop75 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8126,7 +8126,7 @@ impl IconShape for TbCropLandscape {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8153,7 +8153,7 @@ impl IconShape for TbCropPortrait {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8180,7 +8180,7 @@ impl IconShape for TbCross {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8207,7 +8207,7 @@ impl IconShape for TbDeviceHeartMonitor {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8234,7 +8234,7 @@ impl IconShape for TbDeviceMobile {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8261,7 +8261,7 @@ impl IconShape for TbDeviceTablet {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8288,7 +8288,7 @@ impl IconShape for TbDialpad {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8333,7 +8333,7 @@ impl IconShape for TbDiamond {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8360,7 +8360,7 @@ impl IconShape for TbDiamonds {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8387,7 +8387,7 @@ impl IconShape for TbDice1 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8414,7 +8414,7 @@ impl IconShape for TbDice2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8441,7 +8441,7 @@ impl IconShape for TbDice3 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8468,7 +8468,7 @@ impl IconShape for TbDice4 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8495,7 +8495,7 @@ impl IconShape for TbDice5 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8522,7 +8522,7 @@ impl IconShape for TbDice6 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8549,7 +8549,7 @@ impl IconShape for TbDice {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8576,7 +8576,7 @@ impl IconShape for TbDirectionSign {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8603,7 +8603,7 @@ impl IconShape for TbDropletHalf2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8630,7 +8630,7 @@ impl IconShape for TbDropletHalf {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8657,7 +8657,7 @@ impl IconShape for TbDroplet {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8684,7 +8684,7 @@ impl IconShape for TbEgg {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8711,7 +8711,7 @@ impl IconShape for TbExclamationCircle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8738,7 +8738,7 @@ impl IconShape for TbEye {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8765,7 +8765,7 @@ impl IconShape for TbFileX {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8795,7 +8795,7 @@ impl IconShape for TbFile {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8825,7 +8825,7 @@ impl IconShape for TbFilter {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8852,7 +8852,7 @@ impl IconShape for TbFlag2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8879,7 +8879,7 @@ impl IconShape for TbFlag3 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8906,7 +8906,7 @@ impl IconShape for TbFlag {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8933,7 +8933,7 @@ impl IconShape for TbFlask2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8960,7 +8960,7 @@ impl IconShape for TbFlask {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8987,7 +8987,7 @@ impl IconShape for TbFolder {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9014,7 +9014,7 @@ impl IconShape for TbForbid2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9041,7 +9041,7 @@ impl IconShape for TbForbid {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9068,7 +9068,7 @@ impl IconShape for TbFountain {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9095,7 +9095,7 @@ impl IconShape for TbFunction {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9122,7 +9122,7 @@ impl IconShape for TbGauge {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9149,7 +9149,7 @@ impl IconShape for TbGhost2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9176,7 +9176,7 @@ impl IconShape for TbGhost {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9203,7 +9203,7 @@ impl IconShape for TbGiftCard {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9230,7 +9230,7 @@ impl IconShape for TbGift {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9257,7 +9257,7 @@ impl IconShape for TbGlassFull {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9284,7 +9284,7 @@ impl IconShape for TbGlobe {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9320,7 +9320,7 @@ impl IconShape for TbGps {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9347,7 +9347,7 @@ impl IconShape for TbGraph {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9374,7 +9374,7 @@ impl IconShape for TbGuitarPick {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9401,7 +9401,7 @@ impl IconShape for TbHanger2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9428,7 +9428,7 @@ impl IconShape for TbHeadphones {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9455,7 +9455,7 @@ impl IconShape for TbHeart {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9482,7 +9482,7 @@ impl IconShape for TbHelpCircle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9509,7 +9509,7 @@ impl IconShape for TbHelpHexagon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9536,7 +9536,7 @@ impl IconShape for TbHelpOctagon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9563,7 +9563,7 @@ impl IconShape for TbHelpSquareRounded {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9590,7 +9590,7 @@ impl IconShape for TbHelpSquare {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9617,7 +9617,7 @@ impl IconShape for TbHelpTriangle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9644,7 +9644,7 @@ impl IconShape for TbHexagonLetterA {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9671,7 +9671,7 @@ impl IconShape for TbHexagonLetterB {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9698,7 +9698,7 @@ impl IconShape for TbHexagonLetterC {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9725,7 +9725,7 @@ impl IconShape for TbHexagonLetterD {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9752,7 +9752,7 @@ impl IconShape for TbHexagonLetterE {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9779,7 +9779,7 @@ impl IconShape for TbHexagonLetterF {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9806,7 +9806,7 @@ impl IconShape for TbHexagonLetterG {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9833,7 +9833,7 @@ impl IconShape for TbHexagonLetterH {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9860,7 +9860,7 @@ impl IconShape for TbHexagonLetterI {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9887,7 +9887,7 @@ impl IconShape for TbHexagonLetterJ {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9914,7 +9914,7 @@ impl IconShape for TbHexagonLetterK {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9941,7 +9941,7 @@ impl IconShape for TbHexagonLetterL {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9968,7 +9968,7 @@ impl IconShape for TbHexagonLetterM {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9995,7 +9995,7 @@ impl IconShape for TbHexagonLetterN {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10022,7 +10022,7 @@ impl IconShape for TbHexagonLetterO {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10049,7 +10049,7 @@ impl IconShape for TbHexagonLetterP {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10076,7 +10076,7 @@ impl IconShape for TbHexagonLetterQ {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10103,7 +10103,7 @@ impl IconShape for TbHexagonLetterR {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10130,7 +10130,7 @@ impl IconShape for TbHexagonLetterS {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10157,7 +10157,7 @@ impl IconShape for TbHexagonLetterT {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10184,7 +10184,7 @@ impl IconShape for TbHexagonLetterU {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10211,7 +10211,7 @@ impl IconShape for TbHexagonLetterV {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10238,7 +10238,7 @@ impl IconShape for TbHexagonLetterW {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10265,7 +10265,7 @@ impl IconShape for TbHexagonLetterX {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10292,7 +10292,7 @@ impl IconShape for TbHexagonLetterY {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10319,7 +10319,7 @@ impl IconShape for TbHexagonLetterZ {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10346,7 +10346,7 @@ impl IconShape for TbHexagonMinus {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10373,7 +10373,7 @@ impl IconShape for TbHexagonNumber0 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10400,7 +10400,7 @@ impl IconShape for TbHexagonNumber1 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10427,7 +10427,7 @@ impl IconShape for TbHexagonNumber2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10454,7 +10454,7 @@ impl IconShape for TbHexagonNumber3 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10481,7 +10481,7 @@ impl IconShape for TbHexagonNumber4 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10508,7 +10508,7 @@ impl IconShape for TbHexagonNumber5 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10535,7 +10535,7 @@ impl IconShape for TbHexagonNumber6 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10562,7 +10562,7 @@ impl IconShape for TbHexagonNumber7 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10589,7 +10589,7 @@ impl IconShape for TbHexagonNumber8 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10616,7 +10616,7 @@ impl IconShape for TbHexagonNumber9 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10643,7 +10643,7 @@ impl IconShape for TbHexagonPlus {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10670,7 +10670,7 @@ impl IconShape for TbHexagon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10697,7 +10697,7 @@ impl IconShape for TbHome {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10724,7 +10724,7 @@ impl IconShape for TbHospitalCircle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10751,7 +10751,7 @@ impl IconShape for TbHourglass {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10778,7 +10778,7 @@ impl IconShape for TbInfoCircle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10805,7 +10805,7 @@ impl IconShape for TbInfoHexagon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10832,7 +10832,7 @@ impl IconShape for TbInfoOctagon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10859,7 +10859,7 @@ impl IconShape for TbInfoSquareRounded {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10886,7 +10886,7 @@ impl IconShape for TbInfoSquare {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10913,7 +10913,7 @@ impl IconShape for TbInfoTriangle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10940,7 +10940,7 @@ impl IconShape for TbInnerShadowBottomLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10967,7 +10967,7 @@ impl IconShape for TbInnerShadowBottomRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10994,7 +10994,7 @@ impl IconShape for TbInnerShadowBottom {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11021,7 +11021,7 @@ impl IconShape for TbInnerShadowLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11048,7 +11048,7 @@ impl IconShape for TbInnerShadowRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11075,7 +11075,7 @@ impl IconShape for TbInnerShadowTopLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11102,7 +11102,7 @@ impl IconShape for TbInnerShadowTopRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11129,7 +11129,7 @@ impl IconShape for TbInnerShadowTop {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11156,7 +11156,7 @@ impl IconShape for TbIroning {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11183,7 +11183,7 @@ impl IconShape for TbJetpack {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11210,7 +11210,7 @@ impl IconShape for TbJewishStar {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11237,7 +11237,7 @@ impl IconShape for TbKey {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11264,7 +11264,7 @@ impl IconShape for TbKeyframeAlignCenter {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11303,7 +11303,7 @@ impl IconShape for TbKeyframeAlignHorizontal {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11336,7 +11336,7 @@ impl IconShape for TbKeyframeAlignVertical {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11369,7 +11369,7 @@ impl IconShape for TbKeyframe {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11396,7 +11396,7 @@ impl IconShape for TbKeyframes {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11429,7 +11429,7 @@ impl IconShape for TbLabelImportant {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11456,7 +11456,7 @@ impl IconShape for TbLabel {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11483,7 +11483,7 @@ impl IconShape for TbLassoPolygon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11510,7 +11510,7 @@ impl IconShape for TbLayout2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11546,7 +11546,7 @@ impl IconShape for TbLayoutAlignBottom {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11576,7 +11576,7 @@ impl IconShape for TbLayoutAlignCenter {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11603,7 +11603,7 @@ impl IconShape for TbLayoutAlignLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11633,7 +11633,7 @@ impl IconShape for TbLayoutAlignMiddle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11660,7 +11660,7 @@ impl IconShape for TbLayoutAlignRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11690,7 +11690,7 @@ impl IconShape for TbLayoutAlignTop {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11720,7 +11720,7 @@ impl IconShape for TbLayoutBottombarCollapse {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11747,7 +11747,7 @@ impl IconShape for TbLayoutBottombarExpand {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11774,7 +11774,7 @@ impl IconShape for TbLayoutBottombar {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11801,7 +11801,7 @@ impl IconShape for TbLayoutCards {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11831,7 +11831,7 @@ impl IconShape for TbLayoutDashboard {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11858,7 +11858,7 @@ impl IconShape for TbLayoutDistributeHorizontal {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11891,7 +11891,7 @@ impl IconShape for TbLayoutDistributeVertical {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11924,7 +11924,7 @@ impl IconShape for TbLayoutGrid {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11960,7 +11960,7 @@ impl IconShape for TbLayoutKanban {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11996,7 +11996,7 @@ impl IconShape for TbLayoutList {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12026,7 +12026,7 @@ impl IconShape for TbLayoutNavbarCollapse {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12053,7 +12053,7 @@ impl IconShape for TbLayoutNavbarExpand {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12080,7 +12080,7 @@ impl IconShape for TbLayoutNavbar {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12107,7 +12107,7 @@ impl IconShape for TbLayoutSidebarLeftCollapse {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12134,7 +12134,7 @@ impl IconShape for TbLayoutSidebarLeftExpand {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12161,7 +12161,7 @@ impl IconShape for TbLayoutSidebarRightCollapse {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12188,7 +12188,7 @@ impl IconShape for TbLayoutSidebarRightExpand {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12215,7 +12215,7 @@ impl IconShape for TbLayoutSidebarRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12242,7 +12242,7 @@ impl IconShape for TbLayoutSidebar {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12269,7 +12269,7 @@ impl IconShape for TbLayout {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12302,7 +12302,7 @@ impl IconShape for TbLego {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12329,7 +12329,7 @@ impl IconShape for TbLivePhoto {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12356,7 +12356,7 @@ impl IconShape for TbLocation {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12383,7 +12383,7 @@ impl IconShape for TbLockSquareRounded {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12411,7 +12411,7 @@ impl IconShape for TbLock {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12438,7 +12438,7 @@ impl IconShape for TbLungs {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12465,7 +12465,7 @@ impl IconShape for TbMacro {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12492,7 +12492,7 @@ impl IconShape for TbMagnet {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12519,7 +12519,7 @@ impl IconShape for TbMailOpened {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12555,7 +12555,7 @@ impl IconShape for TbMail {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12585,7 +12585,7 @@ impl IconShape for TbMan {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12615,7 +12615,7 @@ impl IconShape for TbManualGearbox {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12642,7 +12642,7 @@ impl IconShape for TbMapPin {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12669,7 +12669,7 @@ impl IconShape for TbMedicalCross {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12696,7 +12696,7 @@ impl IconShape for TbMessageChatbot {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12723,7 +12723,7 @@ impl IconShape for TbMessageCircle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12750,7 +12750,7 @@ impl IconShape for TbMessageReport {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12777,7 +12777,7 @@ impl IconShape for TbMessage {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12804,7 +12804,7 @@ impl IconShape for TbMickey {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12831,7 +12831,7 @@ impl IconShape for TbMicrophone {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12858,7 +12858,7 @@ impl IconShape for TbMicrowave {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12891,7 +12891,7 @@ impl IconShape for TbMilitaryRank {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12918,7 +12918,7 @@ impl IconShape for TbMoodAngry {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12945,7 +12945,7 @@ impl IconShape for TbMoodConfuzed {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12972,7 +12972,7 @@ impl IconShape for TbMoodCrazyHappy {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12999,7 +12999,7 @@ impl IconShape for TbMoodEmpty {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13026,7 +13026,7 @@ impl IconShape for TbMoodHappy {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13053,7 +13053,7 @@ impl IconShape for TbMoodKid {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13080,7 +13080,7 @@ impl IconShape for TbMoodNeutral {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13107,7 +13107,7 @@ impl IconShape for TbMoodSad {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13134,7 +13134,7 @@ impl IconShape for TbMoodSmile {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13161,7 +13161,7 @@ impl IconShape for TbMoodWrrr {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13188,7 +13188,7 @@ impl IconShape for TbMoon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13215,7 +13215,7 @@ impl IconShape for TbMouse {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13242,7 +13242,7 @@ impl IconShape for TbMushroom {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13269,7 +13269,7 @@ impl IconShape for TbNavigation {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13296,7 +13296,7 @@ impl IconShape for TbOctagon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13323,7 +13323,7 @@ impl IconShape for TbOvalVertical {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13350,7 +13350,7 @@ impl IconShape for TbOval {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13377,7 +13377,7 @@ impl IconShape for TbPaint {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13404,7 +13404,7 @@ impl IconShape for TbPanoramaHorizontal {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13431,7 +13431,7 @@ impl IconShape for TbPanoramaVertical {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13458,7 +13458,7 @@ impl IconShape for TbParkingCircle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13485,7 +13485,7 @@ impl IconShape for TbPaw {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13524,7 +13524,7 @@ impl IconShape for TbPennant2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13551,7 +13551,7 @@ impl IconShape for TbPennant {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13578,7 +13578,7 @@ impl IconShape for TbPentagon {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13605,7 +13605,7 @@ impl IconShape for TbPhone {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13632,7 +13632,7 @@ impl IconShape for TbPhoto {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13659,7 +13659,7 @@ impl IconShape for TbPictureInPictureTop {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13689,7 +13689,7 @@ impl IconShape for TbPictureInPicture {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13719,7 +13719,7 @@ impl IconShape for TbPill {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13746,7 +13746,7 @@ impl IconShape for TbPin {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13773,7 +13773,7 @@ impl IconShape for TbPinned {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13800,7 +13800,7 @@ impl IconShape for TbPlayerEject {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13830,7 +13830,7 @@ impl IconShape for TbPlayerPause {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13860,7 +13860,7 @@ impl IconShape for TbPlayerPlay {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13887,7 +13887,7 @@ impl IconShape for TbPlayerRecord {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13914,7 +13914,7 @@ impl IconShape for TbPlayerSkipBack {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13944,7 +13944,7 @@ impl IconShape for TbPlayerSkipForward {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13974,7 +13974,7 @@ impl IconShape for TbPlayerStop {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14001,7 +14001,7 @@ impl IconShape for TbPlayerTrackNext {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14031,7 +14031,7 @@ impl IconShape for TbPlayerTrackPrev {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14061,7 +14061,7 @@ impl IconShape for TbPoint {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14088,7 +14088,7 @@ impl IconShape for TbPointer {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14115,7 +14115,7 @@ impl IconShape for TbPolaroid {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14151,7 +14151,7 @@ impl IconShape for TbPoo {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14178,7 +14178,7 @@ impl IconShape for TbPresentationAnalytics {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14205,7 +14205,7 @@ impl IconShape for TbPresentation {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14232,7 +14232,7 @@ impl IconShape for TbPuzzle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14259,7 +14259,7 @@ impl IconShape for TbRadar {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14286,7 +14286,7 @@ impl IconShape for TbRadioactive {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14319,7 +14319,7 @@ impl IconShape for TbReceipt {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14346,7 +14346,7 @@ impl IconShape for TbRectangleVertical {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14373,7 +14373,7 @@ impl IconShape for TbRectangle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14400,7 +14400,7 @@ impl IconShape for TbRelationManyToMany {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14427,7 +14427,7 @@ impl IconShape for TbRelationOneToMany {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14454,7 +14454,7 @@ impl IconShape for TbRelationOneToOne {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14481,7 +14481,7 @@ impl IconShape for TbReplace {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14517,7 +14517,7 @@ impl IconShape for TbRosetteDiscountCheck {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14544,7 +14544,7 @@ impl IconShape for TbRosetteDiscount {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14571,7 +14571,7 @@ impl IconShape for TbRosette {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14598,7 +14598,7 @@ impl IconShape for TbScubaDivingTank {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14628,7 +14628,7 @@ impl IconShape for TbSection {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14655,7 +14655,7 @@ impl IconShape for TbSettings {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14682,7 +14682,7 @@ impl IconShape for TbShieldCheck {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14709,7 +14709,7 @@ impl IconShape for TbShieldCheckered {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14736,7 +14736,7 @@ impl IconShape for TbShieldHalf {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14763,7 +14763,7 @@ impl IconShape for TbShieldLock {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14790,7 +14790,7 @@ impl IconShape for TbShield {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14817,7 +14817,7 @@ impl IconShape for TbShirt {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14844,7 +14844,7 @@ impl IconShape for TbShoppingCart {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14871,7 +14871,7 @@ impl IconShape for TbSignLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14898,7 +14898,7 @@ impl IconShape for TbSignRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14925,7 +14925,7 @@ impl IconShape for TbSortAscending2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14958,7 +14958,7 @@ impl IconShape for TbSortAscendingShapes {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14985,7 +14985,7 @@ impl IconShape for TbSortDescending2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15018,7 +15018,7 @@ impl IconShape for TbSortDescendingShapes {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15045,7 +15045,7 @@ impl IconShape for TbSoup {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15081,7 +15081,7 @@ impl IconShape for TbSpade {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15108,7 +15108,7 @@ impl IconShape for TbSquareArrowDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15135,7 +15135,7 @@ impl IconShape for TbSquareArrowLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15162,7 +15162,7 @@ impl IconShape for TbSquareArrowRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15189,7 +15189,7 @@ impl IconShape for TbSquareArrowUp {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15216,7 +15216,7 @@ impl IconShape for TbSquareAsterisk {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15243,7 +15243,7 @@ impl IconShape for TbSquareCheck {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15270,7 +15270,7 @@ impl IconShape for TbSquareChevronDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15297,7 +15297,7 @@ impl IconShape for TbSquareChevronLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15324,7 +15324,7 @@ impl IconShape for TbSquareChevronRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15351,7 +15351,7 @@ impl IconShape for TbSquareChevronUp {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15378,7 +15378,7 @@ impl IconShape for TbSquareChevronsDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15405,7 +15405,7 @@ impl IconShape for TbSquareChevronsLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15432,7 +15432,7 @@ impl IconShape for TbSquareChevronsRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15459,7 +15459,7 @@ impl IconShape for TbSquareChevronsUp {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15486,7 +15486,7 @@ impl IconShape for TbSquareDot {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15513,7 +15513,7 @@ impl IconShape for TbSquareF0 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15540,7 +15540,7 @@ impl IconShape for TbSquareF1 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15567,7 +15567,7 @@ impl IconShape for TbSquareF2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15594,7 +15594,7 @@ impl IconShape for TbSquareF3 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15621,7 +15621,7 @@ impl IconShape for TbSquareF4 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15648,7 +15648,7 @@ impl IconShape for TbSquareF5 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15675,7 +15675,7 @@ impl IconShape for TbSquareF6 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15702,7 +15702,7 @@ impl IconShape for TbSquareF7 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15729,7 +15729,7 @@ impl IconShape for TbSquareF8 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15756,7 +15756,7 @@ impl IconShape for TbSquareF9 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15783,7 +15783,7 @@ impl IconShape for TbSquareLetterA {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15810,7 +15810,7 @@ impl IconShape for TbSquareLetterB {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15837,7 +15837,7 @@ impl IconShape for TbSquareLetterC {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15864,7 +15864,7 @@ impl IconShape for TbSquareLetterD {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15891,7 +15891,7 @@ impl IconShape for TbSquareLetterE {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15918,7 +15918,7 @@ impl IconShape for TbSquareLetterF {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15945,7 +15945,7 @@ impl IconShape for TbSquareLetterG {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15972,7 +15972,7 @@ impl IconShape for TbSquareLetterH {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15999,7 +15999,7 @@ impl IconShape for TbSquareLetterI {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16026,7 +16026,7 @@ impl IconShape for TbSquareLetterJ {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16053,7 +16053,7 @@ impl IconShape for TbSquareLetterK {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16080,7 +16080,7 @@ impl IconShape for TbSquareLetterL {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16107,7 +16107,7 @@ impl IconShape for TbSquareLetterM {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16134,7 +16134,7 @@ impl IconShape for TbSquareLetterN {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16161,7 +16161,7 @@ impl IconShape for TbSquareLetterO {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16188,7 +16188,7 @@ impl IconShape for TbSquareLetterP {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16215,7 +16215,7 @@ impl IconShape for TbSquareLetterQ {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16242,7 +16242,7 @@ impl IconShape for TbSquareLetterR {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16269,7 +16269,7 @@ impl IconShape for TbSquareLetterS {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16296,7 +16296,7 @@ impl IconShape for TbSquareLetterT {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16323,7 +16323,7 @@ impl IconShape for TbSquareLetterU {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16350,7 +16350,7 @@ impl IconShape for TbSquareLetterV {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16377,7 +16377,7 @@ impl IconShape for TbSquareLetterW {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16404,7 +16404,7 @@ impl IconShape for TbSquareLetterX {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16431,7 +16431,7 @@ impl IconShape for TbSquareLetterY {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16458,7 +16458,7 @@ impl IconShape for TbSquareLetterZ {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16485,7 +16485,7 @@ impl IconShape for TbSquareMinus {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16512,7 +16512,7 @@ impl IconShape for TbSquareNumber0 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16539,7 +16539,7 @@ impl IconShape for TbSquareNumber1 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16566,7 +16566,7 @@ impl IconShape for TbSquareNumber2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16593,7 +16593,7 @@ impl IconShape for TbSquareNumber3 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16620,7 +16620,7 @@ impl IconShape for TbSquareNumber4 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16647,7 +16647,7 @@ impl IconShape for TbSquareNumber5 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16674,7 +16674,7 @@ impl IconShape for TbSquareNumber6 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16701,7 +16701,7 @@ impl IconShape for TbSquareNumber7 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16728,7 +16728,7 @@ impl IconShape for TbSquareNumber8 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16755,7 +16755,7 @@ impl IconShape for TbSquareNumber9 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16782,7 +16782,7 @@ impl IconShape for TbSquareRotated {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16809,7 +16809,7 @@ impl IconShape for TbSquareRoundedArrowDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16837,7 +16837,7 @@ impl IconShape for TbSquareRoundedArrowLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16865,7 +16865,7 @@ impl IconShape for TbSquareRoundedArrowRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16893,7 +16893,7 @@ impl IconShape for TbSquareRoundedArrowUp {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16921,7 +16921,7 @@ impl IconShape for TbSquareRoundedCheck {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16949,7 +16949,7 @@ impl IconShape for TbSquareRoundedChevronDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16977,7 +16977,7 @@ impl IconShape for TbSquareRoundedChevronLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17005,7 +17005,7 @@ impl IconShape for TbSquareRoundedChevronRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17033,7 +17033,7 @@ impl IconShape for TbSquareRoundedChevronUp {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17061,7 +17061,7 @@ impl IconShape for TbSquareRoundedChevronsDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17089,7 +17089,7 @@ impl IconShape for TbSquareRoundedChevronsLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17117,7 +17117,7 @@ impl IconShape for TbSquareRoundedChevronsRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17145,7 +17145,7 @@ impl IconShape for TbSquareRoundedChevronsUp {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17173,7 +17173,7 @@ impl IconShape for TbSquareRoundedLetterA {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17200,7 +17200,7 @@ impl IconShape for TbSquareRoundedLetterB {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17227,7 +17227,7 @@ impl IconShape for TbSquareRoundedLetterC {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17254,7 +17254,7 @@ impl IconShape for TbSquareRoundedLetterD {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17281,7 +17281,7 @@ impl IconShape for TbSquareRoundedLetterE {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17308,7 +17308,7 @@ impl IconShape for TbSquareRoundedLetterF {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17335,7 +17335,7 @@ impl IconShape for TbSquareRoundedLetterG {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17362,7 +17362,7 @@ impl IconShape for TbSquareRoundedLetterH {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17389,7 +17389,7 @@ impl IconShape for TbSquareRoundedLetterI {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17416,7 +17416,7 @@ impl IconShape for TbSquareRoundedLetterJ {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17443,7 +17443,7 @@ impl IconShape for TbSquareRoundedLetterK {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17470,7 +17470,7 @@ impl IconShape for TbSquareRoundedLetterL {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17497,7 +17497,7 @@ impl IconShape for TbSquareRoundedLetterM {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17524,7 +17524,7 @@ impl IconShape for TbSquareRoundedLetterN {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17551,7 +17551,7 @@ impl IconShape for TbSquareRoundedLetterO {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17578,7 +17578,7 @@ impl IconShape for TbSquareRoundedLetterP {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17605,7 +17605,7 @@ impl IconShape for TbSquareRoundedLetterQ {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17632,7 +17632,7 @@ impl IconShape for TbSquareRoundedLetterR {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17659,7 +17659,7 @@ impl IconShape for TbSquareRoundedLetterS {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17686,7 +17686,7 @@ impl IconShape for TbSquareRoundedLetterT {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17713,7 +17713,7 @@ impl IconShape for TbSquareRoundedLetterU {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17740,7 +17740,7 @@ impl IconShape for TbSquareRoundedLetterV {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17767,7 +17767,7 @@ impl IconShape for TbSquareRoundedLetterW {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17794,7 +17794,7 @@ impl IconShape for TbSquareRoundedLetterX {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17821,7 +17821,7 @@ impl IconShape for TbSquareRoundedLetterY {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17848,7 +17848,7 @@ impl IconShape for TbSquareRoundedLetterZ {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17875,7 +17875,7 @@ impl IconShape for TbSquareRoundedMinus {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17902,7 +17902,7 @@ impl IconShape for TbSquareRoundedNumber0 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17929,7 +17929,7 @@ impl IconShape for TbSquareRoundedNumber1 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17956,7 +17956,7 @@ impl IconShape for TbSquareRoundedNumber2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17983,7 +17983,7 @@ impl IconShape for TbSquareRoundedNumber3 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18010,7 +18010,7 @@ impl IconShape for TbSquareRoundedNumber4 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18037,7 +18037,7 @@ impl IconShape for TbSquareRoundedNumber5 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18064,7 +18064,7 @@ impl IconShape for TbSquareRoundedNumber6 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18091,7 +18091,7 @@ impl IconShape for TbSquareRoundedNumber7 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18118,7 +18118,7 @@ impl IconShape for TbSquareRoundedNumber8 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18145,7 +18145,7 @@ impl IconShape for TbSquareRoundedNumber9 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18172,7 +18172,7 @@ impl IconShape for TbSquareRoundedPlus {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18200,7 +18200,7 @@ impl IconShape for TbSquareRoundedX {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18228,7 +18228,7 @@ impl IconShape for TbSquareRounded {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18255,7 +18255,7 @@ impl IconShape for TbSquareX {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18282,7 +18282,7 @@ impl IconShape for TbSquare {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18309,7 +18309,7 @@ impl IconShape for TbSquares {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18339,7 +18339,7 @@ impl IconShape for TbStack2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18366,7 +18366,7 @@ impl IconShape for TbStack3 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18393,7 +18393,7 @@ impl IconShape for TbStack {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18420,7 +18420,7 @@ impl IconShape for TbStarHalf {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18447,7 +18447,7 @@ impl IconShape for TbStar {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18474,7 +18474,7 @@ impl IconShape for TbStars {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18507,7 +18507,7 @@ impl IconShape for TbSteeringWheel {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18534,7 +18534,7 @@ impl IconShape for TbSun {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18585,7 +18585,7 @@ impl IconShape for TbSunglasses {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18612,7 +18612,7 @@ impl IconShape for TbSwipeDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18639,7 +18639,7 @@ impl IconShape for TbSwipeLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18666,7 +18666,7 @@ impl IconShape for TbSwipeRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18693,7 +18693,7 @@ impl IconShape for TbSwipeUp {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18720,7 +18720,7 @@ impl IconShape for TbTable {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18756,7 +18756,7 @@ impl IconShape for TbTag {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18783,7 +18783,7 @@ impl IconShape for TbTags {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18813,7 +18813,7 @@ impl IconShape for TbTestPipe2 {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18840,7 +18840,7 @@ impl IconShape for TbThumbDown {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18870,7 +18870,7 @@ impl IconShape for TbThumbUp {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18900,7 +18900,7 @@ impl IconShape for TbTiltShift {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18951,7 +18951,7 @@ impl IconShape for TbTimelineEvent {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18981,7 +18981,7 @@ impl IconShape for TbToggleLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19011,7 +19011,7 @@ impl IconShape for TbToggleRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19041,7 +19041,7 @@ impl IconShape for TbTransform {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19077,7 +19077,7 @@ impl IconShape for TbTransitionBottom {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19104,7 +19104,7 @@ impl IconShape for TbTransitionLeft {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19131,7 +19131,7 @@ impl IconShape for TbTransitionRight {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19158,7 +19158,7 @@ impl IconShape for TbTransitionTop {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19185,7 +19185,7 @@ impl IconShape for TbTrashX {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19215,7 +19215,7 @@ impl IconShape for TbTrash {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19245,7 +19245,7 @@ impl IconShape for TbTriangleInverted {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19272,7 +19272,7 @@ impl IconShape for TbTriangleSquareCircle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19305,7 +19305,7 @@ impl IconShape for TbTriangle {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19332,7 +19332,7 @@ impl IconShape for TbTrophy {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19359,7 +19359,7 @@ impl IconShape for TbUmbrella {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19386,7 +19386,7 @@ impl IconShape for TbUser {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19416,7 +19416,7 @@ impl IconShape for TbVersions {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19449,7 +19449,7 @@ impl IconShape for TbWindmill {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19476,7 +19476,7 @@ impl IconShape for TbWoman {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19506,7 +19506,7 @@ impl IconShape for TbXboxA {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19533,7 +19533,7 @@ impl IconShape for TbXboxB {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19560,7 +19560,7 @@ impl IconShape for TbXboxX {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19587,7 +19587,7 @@ impl IconShape for TbXboxY {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19614,7 +19614,7 @@ impl IconShape for TbYinYang {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19644,7 +19644,7 @@ impl IconShape for TbZeppelin {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19671,7 +19671,7 @@ impl IconShape for TbZoomCancel {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19698,7 +19698,7 @@ impl IconShape for TbZoomCheck {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19725,7 +19725,7 @@ impl IconShape for TbZoomCode {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19752,7 +19752,7 @@ impl IconShape for TbZoomExclamation {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19779,7 +19779,7 @@ impl IconShape for TbZoomInArea {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19821,7 +19821,7 @@ impl IconShape for TbZoomIn {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19848,7 +19848,7 @@ impl IconShape for TbZoomMoney {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19875,7 +19875,7 @@ impl IconShape for TbZoomOutArea {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19902,7 +19902,7 @@ impl IconShape for TbZoomOut {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19929,7 +19929,7 @@ impl IconShape for TbZoomPan {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19968,7 +19968,7 @@ impl IconShape for TbZoomQuestion {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19995,7 +19995,7 @@ impl IconShape for TbZoomScan {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20034,7 +20034,7 @@ impl IconShape for TbZoom {
         "round"
     }
     fn stroke_linejoin(&self) -> &str {
-        "miter"
+        "round"
     }
     fn child_elements(&self) -> Element {
         rsx! {
