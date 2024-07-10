@@ -7,11 +7,23 @@ impl IconShape for Fa42Group {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34,11 +46,23 @@ impl IconShape for Fa500px {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -61,11 +85,23 @@ impl IconShape for FaAccessibleIcon {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -88,11 +124,23 @@ impl IconShape for FaAccusoft {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -115,11 +163,23 @@ impl IconShape for FaAdn {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -142,11 +202,23 @@ impl IconShape for FaAdversal {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -169,11 +241,23 @@ impl IconShape for FaAffiliatetheme {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -196,11 +280,23 @@ impl IconShape for FaAirbnb {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -223,11 +319,23 @@ impl IconShape for FaAlgolia {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -250,11 +358,23 @@ impl IconShape for FaAlipay {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -277,11 +397,23 @@ impl IconShape for FaAmazonPay {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -304,11 +436,23 @@ impl IconShape for FaAmazon {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -331,11 +475,23 @@ impl IconShape for FaAmilia {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -358,11 +514,23 @@ impl IconShape for FaAndroid {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -385,11 +553,23 @@ impl IconShape for FaAngellist {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -412,11 +592,23 @@ impl IconShape for FaAngrycreative {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -439,11 +631,23 @@ impl IconShape for FaAngular {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -466,11 +670,23 @@ impl IconShape for FaAppStoreIos {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -493,11 +709,23 @@ impl IconShape for FaAppStore {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -520,11 +748,23 @@ impl IconShape for FaApper {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -547,11 +787,23 @@ impl IconShape for FaApplePay {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -574,11 +826,23 @@ impl IconShape for FaApple {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -601,11 +865,23 @@ impl IconShape for FaArtstation {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -628,11 +904,23 @@ impl IconShape for FaAsymmetrik {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -655,11 +943,23 @@ impl IconShape for FaAtlassian {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -682,11 +982,23 @@ impl IconShape for FaAudible {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -709,11 +1021,23 @@ impl IconShape for FaAutoprefixer {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -736,11 +1060,23 @@ impl IconShape for FaAvianex {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -763,11 +1099,23 @@ impl IconShape for FaAviato {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -790,11 +1138,23 @@ impl IconShape for FaAws {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -817,11 +1177,23 @@ impl IconShape for FaBandcamp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -844,11 +1216,23 @@ impl IconShape for FaBattleNet {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -871,11 +1255,23 @@ impl IconShape for FaBehanceSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -898,11 +1294,23 @@ impl IconShape for FaBehance {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -925,11 +1333,23 @@ impl IconShape for FaBilibili {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -952,11 +1372,23 @@ impl IconShape for FaBimobject {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -979,11 +1411,23 @@ impl IconShape for FaBitbucket {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1006,11 +1450,23 @@ impl IconShape for FaBitcoin {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1033,11 +1489,23 @@ impl IconShape for FaBity {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1060,11 +1528,23 @@ impl IconShape for FaBlackTie {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1087,11 +1567,23 @@ impl IconShape for FaBlackberry {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1114,11 +1606,23 @@ impl IconShape for FaBloggerB {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1141,11 +1645,23 @@ impl IconShape for FaBlogger {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1168,11 +1684,23 @@ impl IconShape for FaBluetoothB {
     fn view_box(&self) -> &str {
         "0 0 320 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1195,11 +1723,23 @@ impl IconShape for FaBluetooth {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1222,11 +1762,23 @@ impl IconShape for FaBootstrap {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1249,11 +1801,23 @@ impl IconShape for FaBots {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1276,11 +1840,23 @@ impl IconShape for FaBtc {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1303,11 +1879,23 @@ impl IconShape for FaBuffer {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1331,11 +1919,23 @@ impl IconShape for FaBuromobelexperte {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1358,11 +1958,23 @@ impl IconShape for FaBuyNLarge {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1385,11 +1997,23 @@ impl IconShape for FaBuysellads {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1412,11 +2036,23 @@ impl IconShape for FaCanadianMapleLeaf {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1439,11 +2075,23 @@ impl IconShape for FaCcAmazonPay {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1466,11 +2114,23 @@ impl IconShape for FaCcAmex {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1493,11 +2153,23 @@ impl IconShape for FaCcApplePay {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1520,11 +2192,23 @@ impl IconShape for FaCcDinersClub {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1547,11 +2231,23 @@ impl IconShape for FaCcDiscover {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1574,11 +2270,23 @@ impl IconShape for FaCcJcb {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1601,11 +2309,23 @@ impl IconShape for FaCcMastercard {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1628,11 +2348,23 @@ impl IconShape for FaCcPaypal {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1655,11 +2387,23 @@ impl IconShape for FaCcStripe {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1682,11 +2426,23 @@ impl IconShape for FaCcVisa {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1709,11 +2465,23 @@ impl IconShape for FaCentercode {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1736,11 +2504,23 @@ impl IconShape for FaCentos {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1763,11 +2543,23 @@ impl IconShape for FaChrome {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1790,11 +2582,23 @@ impl IconShape for FaChromecast {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1817,11 +2621,23 @@ impl IconShape for FaCloudflare {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1844,11 +2660,23 @@ impl IconShape for FaCloudscale {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1871,11 +2699,23 @@ impl IconShape for FaCloudsmith {
     fn view_box(&self) -> &str {
         "0 0 332 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1898,11 +2738,23 @@ impl IconShape for FaCloudversify {
     fn view_box(&self) -> &str {
         "0 0 616 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1925,11 +2777,23 @@ impl IconShape for FaCmplid {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1952,11 +2816,23 @@ impl IconShape for FaCodepen {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1979,11 +2855,23 @@ impl IconShape for FaCodiepie {
     fn view_box(&self) -> &str {
         "0 0 472 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2006,11 +2894,23 @@ impl IconShape for FaConfluence {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2033,11 +2933,23 @@ impl IconShape for FaConnectdevelop {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2060,11 +2972,23 @@ impl IconShape for FaContao {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2087,11 +3011,23 @@ impl IconShape for FaCottonBureau {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2114,11 +3050,23 @@ impl IconShape for FaCpanel {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2141,11 +3089,23 @@ impl IconShape for FaCreativeCommonsBy {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2168,11 +3128,23 @@ impl IconShape for FaCreativeCommonsNcEu {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2195,11 +3167,23 @@ impl IconShape for FaCreativeCommonsNcJp {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2222,11 +3206,23 @@ impl IconShape for FaCreativeCommonsNc {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2249,11 +3245,23 @@ impl IconShape for FaCreativeCommonsNd {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2276,11 +3284,23 @@ impl IconShape for FaCreativeCommonsPdAlt {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2303,11 +3323,23 @@ impl IconShape for FaCreativeCommonsPd {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2330,11 +3362,23 @@ impl IconShape for FaCreativeCommonsRemix {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2357,11 +3401,23 @@ impl IconShape for FaCreativeCommonsSa {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2384,11 +3440,23 @@ impl IconShape for FaCreativeCommonsSamplingPlus {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2411,11 +3479,23 @@ impl IconShape for FaCreativeCommonsSampling {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2438,11 +3518,23 @@ impl IconShape for FaCreativeCommonsShare {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2465,11 +3557,23 @@ impl IconShape for FaCreativeCommonsZero {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2492,11 +3596,23 @@ impl IconShape for FaCreativeCommons {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2519,11 +3635,23 @@ impl IconShape for FaCriticalRole {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2546,11 +3674,23 @@ impl IconShape for FaCss3Alt {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2573,11 +3713,23 @@ impl IconShape for FaCss3 {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2600,11 +3752,23 @@ impl IconShape for FaCuttlefish {
     fn view_box(&self) -> &str {
         "0 0 440 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2627,11 +3791,23 @@ impl IconShape for FaDAndDBeyond {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2654,11 +3830,23 @@ impl IconShape for FaDAndD {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2681,11 +3869,23 @@ impl IconShape for FaDailymotion {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2708,11 +3908,23 @@ impl IconShape for FaDashcube {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2735,11 +3947,23 @@ impl IconShape for FaDeezer {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2762,11 +3986,23 @@ impl IconShape for FaDelicious {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2789,11 +4025,23 @@ impl IconShape for FaDeploydog {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2816,11 +4064,23 @@ impl IconShape for FaDeskpro {
     fn view_box(&self) -> &str {
         "0 0 480 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2843,11 +4103,23 @@ impl IconShape for FaDev {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2870,11 +4142,23 @@ impl IconShape for FaDeviantart {
     fn view_box(&self) -> &str {
         "0 0 320 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2897,11 +4181,23 @@ impl IconShape for FaDhl {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2924,11 +4220,23 @@ impl IconShape for FaDiaspora {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2951,11 +4259,23 @@ impl IconShape for FaDigg {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2978,11 +4298,23 @@ impl IconShape for FaDigitalOcean {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3005,11 +4337,23 @@ impl IconShape for FaDiscord {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3032,11 +4376,23 @@ impl IconShape for FaDiscourse {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3059,11 +4415,23 @@ impl IconShape for FaDochub {
     fn view_box(&self) -> &str {
         "0 0 416 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3086,11 +4454,23 @@ impl IconShape for FaDocker {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3113,11 +4493,23 @@ impl IconShape for FaDraft2digital {
     fn view_box(&self) -> &str {
         "0 0 480 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3140,11 +4532,23 @@ impl IconShape for FaDribbbleSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3167,11 +4571,23 @@ impl IconShape for FaDribbble {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3194,11 +4610,23 @@ impl IconShape for FaDropbox {
     fn view_box(&self) -> &str {
         "0 0 528 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3221,11 +4649,23 @@ impl IconShape for FaDrupal {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3248,11 +4688,23 @@ impl IconShape for FaDyalog {
     fn view_box(&self) -> &str {
         "0 0 416 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3275,11 +4727,23 @@ impl IconShape for FaEarlybirds {
     fn view_box(&self) -> &str {
         "0 0 480 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3302,11 +4766,23 @@ impl IconShape for FaEbay {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3329,11 +4805,23 @@ impl IconShape for FaEdgeLegacy {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3356,11 +4844,23 @@ impl IconShape for FaEdge {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3383,11 +4883,23 @@ impl IconShape for FaElementor {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3410,11 +4922,23 @@ impl IconShape for FaEllo {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3437,11 +4961,23 @@ impl IconShape for FaEmber {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3464,11 +5000,23 @@ impl IconShape for FaEmpire {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3491,11 +5039,23 @@ impl IconShape for FaEnvira {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3518,11 +5078,23 @@ impl IconShape for FaErlang {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3545,11 +5117,23 @@ impl IconShape for FaEthereum {
     fn view_box(&self) -> &str {
         "0 0 320 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3572,11 +5156,23 @@ impl IconShape for FaEtsy {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3599,11 +5195,23 @@ impl IconShape for FaEvernote {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3626,11 +5234,23 @@ impl IconShape for FaExpeditedssl {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3653,11 +5273,23 @@ impl IconShape for FaFacebookF {
     fn view_box(&self) -> &str {
         "0 0 320 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3680,11 +5312,23 @@ impl IconShape for FaFacebookMessenger {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3707,11 +5351,23 @@ impl IconShape for FaFacebookSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3734,11 +5390,23 @@ impl IconShape for FaFacebook {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3761,11 +5429,23 @@ impl IconShape for FaFantasyFlightGames {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3788,11 +5468,23 @@ impl IconShape for FaFedex {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3815,11 +5507,23 @@ impl IconShape for FaFedora {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3842,11 +5546,23 @@ impl IconShape for FaFigma {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3869,11 +5585,23 @@ impl IconShape for FaFirefoxBrowser {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3896,11 +5624,23 @@ impl IconShape for FaFirefox {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3923,11 +5663,23 @@ impl IconShape for FaFirstOrderAlt {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3950,11 +5702,23 @@ impl IconShape for FaFirstOrder {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3977,11 +5741,23 @@ impl IconShape for FaFirstdraft {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4004,11 +5780,23 @@ impl IconShape for FaFlickr {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4031,11 +5819,23 @@ impl IconShape for FaFlipboard {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4058,11 +5858,23 @@ impl IconShape for FaFly {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4085,11 +5897,23 @@ impl IconShape for FaFontAwesome {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4112,11 +5936,23 @@ impl IconShape for FaFonticonsFi {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4139,11 +5975,23 @@ impl IconShape for FaFonticons {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4166,11 +6014,23 @@ impl IconShape for FaFortAwesomeAlt {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4193,11 +6053,23 @@ impl IconShape for FaFortAwesome {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4220,11 +6092,23 @@ impl IconShape for FaForumbee {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4247,11 +6131,23 @@ impl IconShape for FaFoursquare {
     fn view_box(&self) -> &str {
         "0 0 368 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4274,11 +6170,23 @@ impl IconShape for FaFreeCodeCamp {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4301,11 +6209,23 @@ impl IconShape for FaFreebsd {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4328,11 +6248,23 @@ impl IconShape for FaFulcrum {
     fn view_box(&self) -> &str {
         "0 0 320 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4355,11 +6287,23 @@ impl IconShape for FaGalacticRepublic {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4382,11 +6326,23 @@ impl IconShape for FaGalacticSenate {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4409,11 +6365,23 @@ impl IconShape for FaGetPocket {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4436,11 +6404,23 @@ impl IconShape for FaGgCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4463,11 +6443,23 @@ impl IconShape for FaGg {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4490,11 +6482,23 @@ impl IconShape for FaGitAlt {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4517,11 +6521,23 @@ impl IconShape for FaGitSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4544,11 +6560,23 @@ impl IconShape for FaGit {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4571,11 +6599,23 @@ impl IconShape for FaGithubAlt {
     fn view_box(&self) -> &str {
         "0 0 480 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4598,11 +6638,23 @@ impl IconShape for FaGithubSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4625,11 +6677,23 @@ impl IconShape for FaGithub {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4652,11 +6716,23 @@ impl IconShape for FaGitkraken {
     fn view_box(&self) -> &str {
         "0 0 592 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4679,11 +6755,23 @@ impl IconShape for FaGitlab {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4706,11 +6794,23 @@ impl IconShape for FaGitter {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4733,11 +6833,23 @@ impl IconShape for FaGlideG {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4760,11 +6872,23 @@ impl IconShape for FaGlide {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4787,11 +6911,23 @@ impl IconShape for FaGofore {
     fn view_box(&self) -> &str {
         "0 0 400 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4814,11 +6950,23 @@ impl IconShape for FaGolang {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4841,11 +6989,23 @@ impl IconShape for FaGoodreadsG {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4868,11 +7028,23 @@ impl IconShape for FaGoodreads {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4895,11 +7067,23 @@ impl IconShape for FaGoogleDrive {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4922,11 +7106,23 @@ impl IconShape for FaGooglePay {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4949,11 +7145,23 @@ impl IconShape for FaGooglePlay {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4976,11 +7184,23 @@ impl IconShape for FaGooglePlusG {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5003,11 +7223,23 @@ impl IconShape for FaGooglePlusSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5030,11 +7262,23 @@ impl IconShape for FaGooglePlus {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5057,11 +7301,23 @@ impl IconShape for FaGoogleWallet {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5084,11 +7340,23 @@ impl IconShape for FaGoogle {
     fn view_box(&self) -> &str {
         "0 0 488 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5111,11 +7379,23 @@ impl IconShape for FaGratipay {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5138,11 +7418,23 @@ impl IconShape for FaGrav {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5165,11 +7457,23 @@ impl IconShape for FaGripfire {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5192,11 +7496,23 @@ impl IconShape for FaGrunt {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5219,11 +7535,23 @@ impl IconShape for FaGuilded {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5246,11 +7574,23 @@ impl IconShape for FaGulp {
     fn view_box(&self) -> &str {
         "0 0 256 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5273,11 +7613,23 @@ impl IconShape for FaHackerNewsSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5300,11 +7652,23 @@ impl IconShape for FaHackerNews {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5327,11 +7691,23 @@ impl IconShape for FaHackerrank {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5354,11 +7730,23 @@ impl IconShape for FaHashnode {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5381,11 +7769,23 @@ impl IconShape for FaHips {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5408,11 +7808,23 @@ impl IconShape for FaHireAHelper {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5435,11 +7847,23 @@ impl IconShape for FaHive {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5462,11 +7886,23 @@ impl IconShape for FaHooli {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5489,11 +7925,23 @@ impl IconShape for FaHornbill {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5516,11 +7964,23 @@ impl IconShape for FaHotjar {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5543,11 +8003,23 @@ impl IconShape for FaHouzz {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5570,11 +8042,23 @@ impl IconShape for FaHtml5 {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5597,11 +8081,23 @@ impl IconShape for FaHubspot {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5624,11 +8120,23 @@ impl IconShape for FaIdeal {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5651,11 +8159,23 @@ impl IconShape for FaImdb {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5678,11 +8198,23 @@ impl IconShape for FaInstagramSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5705,11 +8237,23 @@ impl IconShape for FaInstagram {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5732,11 +8276,23 @@ impl IconShape for FaInstalod {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5759,11 +8315,23 @@ impl IconShape for FaIntercom {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5786,11 +8354,23 @@ impl IconShape for FaInternetExplorer {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5813,11 +8393,23 @@ impl IconShape for FaInvision {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5840,11 +8432,23 @@ impl IconShape for FaIoxhost {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5867,11 +8471,23 @@ impl IconShape for FaItchIo {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5894,11 +8510,23 @@ impl IconShape for FaItunesNote {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5921,11 +8549,23 @@ impl IconShape for FaItunes {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5948,11 +8588,23 @@ impl IconShape for FaJava {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5975,11 +8627,23 @@ impl IconShape for FaJediOrder {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6002,11 +8666,23 @@ impl IconShape for FaJenkins {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6029,11 +8705,23 @@ impl IconShape for FaJira {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6056,11 +8744,23 @@ impl IconShape for FaJoget {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6083,11 +8783,23 @@ impl IconShape for FaJoomla {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6110,11 +8822,23 @@ impl IconShape for FaJsSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6137,11 +8861,23 @@ impl IconShape for FaJs {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6164,11 +8900,23 @@ impl IconShape for FaJsfiddle {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6191,11 +8939,23 @@ impl IconShape for FaKaggle {
     fn view_box(&self) -> &str {
         "0 0 320 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6218,11 +8978,23 @@ impl IconShape for FaKeybase {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6245,11 +9017,23 @@ impl IconShape for FaKeycdn {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6272,11 +9056,23 @@ impl IconShape for FaKickstarterK {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6299,11 +9095,23 @@ impl IconShape for FaKickstarter {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6326,11 +9134,23 @@ impl IconShape for FaKorvue {
     fn view_box(&self) -> &str {
         "0 0 446 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6353,11 +9173,23 @@ impl IconShape for FaLaravel {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6380,11 +9212,23 @@ impl IconShape for FaLastfmSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6407,11 +9251,23 @@ impl IconShape for FaLastfm {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6434,11 +9290,23 @@ impl IconShape for FaLeanpub {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6461,11 +9329,23 @@ impl IconShape for FaLess {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6488,11 +9368,23 @@ impl IconShape for FaLine {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6515,11 +9407,23 @@ impl IconShape for FaLinkedinIn {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6542,11 +9446,23 @@ impl IconShape for FaLinkedin {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6569,11 +9485,23 @@ impl IconShape for FaLinode {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6596,11 +9524,23 @@ impl IconShape for FaLinux {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6623,11 +9563,23 @@ impl IconShape for FaLyft {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6650,11 +9602,23 @@ impl IconShape for FaMagento {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6677,11 +9641,23 @@ impl IconShape for FaMailchimp {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6704,11 +9680,23 @@ impl IconShape for FaMandalorian {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6731,11 +9719,23 @@ impl IconShape for FaMarkdown {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6758,11 +9758,23 @@ impl IconShape for FaMastodon {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6785,11 +9797,23 @@ impl IconShape for FaMaxcdn {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6812,11 +9836,23 @@ impl IconShape for FaMdb {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6839,11 +9875,23 @@ impl IconShape for FaMedapps {
     fn view_box(&self) -> &str {
         "0 0 320 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6866,11 +9914,23 @@ impl IconShape for FaMedium {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6893,11 +9953,23 @@ impl IconShape for FaMedrt {
     fn view_box(&self) -> &str {
         "0 0 544 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6920,11 +9992,23 @@ impl IconShape for FaMeetup {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6947,11 +10031,23 @@ impl IconShape for FaMegaport {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6974,11 +10070,23 @@ impl IconShape for FaMendeley {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7001,11 +10109,23 @@ impl IconShape for FaMicroblog {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7028,11 +10148,23 @@ impl IconShape for FaMicrosoft {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7055,11 +10187,23 @@ impl IconShape for FaMix {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7082,11 +10226,23 @@ impl IconShape for FaMixcloud {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7109,11 +10265,23 @@ impl IconShape for FaMixer {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7136,11 +10304,23 @@ impl IconShape for FaMizuni {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7163,11 +10343,23 @@ impl IconShape for FaModx {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7190,11 +10382,23 @@ impl IconShape for FaMonero {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7217,11 +10421,23 @@ impl IconShape for FaNapster {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7244,11 +10460,23 @@ impl IconShape for FaNeos {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7271,11 +10499,23 @@ impl IconShape for FaNfcDirectional {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7298,11 +10538,23 @@ impl IconShape for FaNfcSymbol {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7325,11 +10577,23 @@ impl IconShape for FaNimblr {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7352,11 +10616,23 @@ impl IconShape for FaNodeJs {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7379,11 +10655,23 @@ impl IconShape for FaNode {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7406,11 +10694,23 @@ impl IconShape for FaNpm {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7433,11 +10733,23 @@ impl IconShape for FaNs8 {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7460,11 +10772,23 @@ impl IconShape for FaNutritionix {
     fn view_box(&self) -> &str {
         "0 0 400 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7487,11 +10811,23 @@ impl IconShape for FaOctopusDeploy {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7514,11 +10850,23 @@ impl IconShape for FaOdnoklassnikiSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7541,11 +10889,23 @@ impl IconShape for FaOdnoklassniki {
     fn view_box(&self) -> &str {
         "0 0 320 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7568,11 +10928,23 @@ impl IconShape for FaOldRepublic {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7595,11 +10967,23 @@ impl IconShape for FaOpencart {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7622,11 +11006,23 @@ impl IconShape for FaOpenid {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7649,11 +11045,23 @@ impl IconShape for FaOpera {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7676,11 +11084,23 @@ impl IconShape for FaOptinMonster {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7703,11 +11123,23 @@ impl IconShape for FaOrcid {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7730,11 +11162,23 @@ impl IconShape for FaOsi {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7757,11 +11201,23 @@ impl IconShape for FaPadlet {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7784,11 +11240,23 @@ impl IconShape for FaPage4 {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7811,11 +11279,23 @@ impl IconShape for FaPagelines {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7838,11 +11318,23 @@ impl IconShape for FaPalfed {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7865,11 +11357,23 @@ impl IconShape for FaPatreon {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7892,11 +11396,23 @@ impl IconShape for FaPaypal {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7919,11 +11435,23 @@ impl IconShape for FaPerbyte {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7946,11 +11474,23 @@ impl IconShape for FaPeriscope {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7973,11 +11513,23 @@ impl IconShape for FaPhabricator {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8000,11 +11552,23 @@ impl IconShape for FaPhoenixFramework {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8027,11 +11591,23 @@ impl IconShape for FaPhoenixSquadron {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8054,11 +11630,23 @@ impl IconShape for FaPhp {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8081,11 +11669,23 @@ impl IconShape for FaPiedPiperAlt {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8108,11 +11708,23 @@ impl IconShape for FaPiedPiperHat {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8135,11 +11747,23 @@ impl IconShape for FaPiedPiperPp {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8162,11 +11786,23 @@ impl IconShape for FaPiedPiperSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8189,11 +11825,23 @@ impl IconShape for FaPiedPiper {
     fn view_box(&self) -> &str {
         "0 0 480 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8217,11 +11865,23 @@ impl IconShape for FaPinterestP {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8244,11 +11904,23 @@ impl IconShape for FaPinterestSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8271,11 +11943,23 @@ impl IconShape for FaPinterest {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8298,11 +11982,23 @@ impl IconShape for FaPix {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8325,11 +12021,23 @@ impl IconShape for FaPlaystation {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8352,11 +12060,23 @@ impl IconShape for FaProductHunt {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8379,11 +12099,23 @@ impl IconShape for FaPushed {
     fn view_box(&self) -> &str {
         "0 0 432 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8406,11 +12138,23 @@ impl IconShape for FaPython {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8433,11 +12177,23 @@ impl IconShape for FaQq {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8460,11 +12216,23 @@ impl IconShape for FaQuinscape {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8487,11 +12255,23 @@ impl IconShape for FaQuora {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8514,11 +12294,23 @@ impl IconShape for FaRProject {
     fn view_box(&self) -> &str {
         "0 0 581 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8541,11 +12333,23 @@ impl IconShape for FaRaspberryPi {
     fn view_box(&self) -> &str {
         "0 0 407 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8568,11 +12372,23 @@ impl IconShape for FaRavelry {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8595,11 +12411,23 @@ impl IconShape for FaReact {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8622,11 +12450,23 @@ impl IconShape for FaReacteurope {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8649,11 +12489,23 @@ impl IconShape for FaReadme {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8676,11 +12528,23 @@ impl IconShape for FaRebel {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8703,11 +12567,23 @@ impl IconShape for FaRedRiver {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8730,11 +12606,23 @@ impl IconShape for FaRedditAlien {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8757,11 +12645,23 @@ impl IconShape for FaRedditSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8784,11 +12684,23 @@ impl IconShape for FaReddit {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8811,11 +12723,23 @@ impl IconShape for FaRedhat {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8838,11 +12762,23 @@ impl IconShape for FaRenren {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8865,11 +12801,23 @@ impl IconShape for FaReplyd {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8892,11 +12840,23 @@ impl IconShape for FaResearchgate {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8919,11 +12879,23 @@ impl IconShape for FaResolving {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8946,11 +12918,23 @@ impl IconShape for FaRev {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8973,11 +12957,23 @@ impl IconShape for FaRocketchat {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9000,11 +12996,23 @@ impl IconShape for FaRockrms {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9027,11 +13035,23 @@ impl IconShape for FaRust {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9054,11 +13074,23 @@ impl IconShape for FaSafari {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9081,11 +13113,23 @@ impl IconShape for FaSalesforce {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9108,11 +13152,23 @@ impl IconShape for FaSass {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9135,11 +13191,23 @@ impl IconShape for FaSchlix {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9162,11 +13230,23 @@ impl IconShape for FaScreenpal {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9189,11 +13269,23 @@ impl IconShape for FaScribd {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9216,11 +13308,23 @@ impl IconShape for FaSearchengin {
     fn view_box(&self) -> &str {
         "0 0 460 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9243,11 +13347,23 @@ impl IconShape for FaSellcast {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9270,11 +13386,23 @@ impl IconShape for FaSellsy {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9297,11 +13425,23 @@ impl IconShape for FaServicestack {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9324,11 +13464,23 @@ impl IconShape for FaShirtsinbulk {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9351,11 +13503,23 @@ impl IconShape for FaShopify {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9378,11 +13542,23 @@ impl IconShape for FaShopware {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9405,11 +13581,23 @@ impl IconShape for FaSimplybuilt {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9432,11 +13620,23 @@ impl IconShape for FaSistrix {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9459,11 +13659,23 @@ impl IconShape for FaSith {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9486,11 +13698,23 @@ impl IconShape for FaSitrox {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9513,11 +13737,23 @@ impl IconShape for FaSketch {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9540,11 +13776,23 @@ impl IconShape for FaSkyatlas {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9567,11 +13815,23 @@ impl IconShape for FaSkype {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9594,11 +13854,23 @@ impl IconShape for FaSlack {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9621,11 +13893,23 @@ impl IconShape for FaSlideshare {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9648,11 +13932,23 @@ impl IconShape for FaSnapchatSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9675,11 +13971,23 @@ impl IconShape for FaSnapchat {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9702,11 +14010,23 @@ impl IconShape for FaSoundcloud {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9729,11 +14049,23 @@ impl IconShape for FaSourcetree {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9756,11 +14088,23 @@ impl IconShape for FaSpeakap {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9783,11 +14127,23 @@ impl IconShape for FaSpeakerDeck {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9810,11 +14166,23 @@ impl IconShape for FaSpotify {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9837,11 +14205,23 @@ impl IconShape for FaSquareFontAwesomeStroke {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9864,11 +14244,23 @@ impl IconShape for FaSquareFontAwesome {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9891,11 +14283,23 @@ impl IconShape for FaSquarespace {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9918,11 +14322,23 @@ impl IconShape for FaStackExchange {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9945,11 +14361,23 @@ impl IconShape for FaStackOverflow {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9972,11 +14400,23 @@ impl IconShape for FaStackpath {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9999,11 +14439,23 @@ impl IconShape for FaStaylinked {
     fn view_box(&self) -> &str {
         "0 0 440 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10026,11 +14478,23 @@ impl IconShape for FaSteamSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10053,11 +14517,23 @@ impl IconShape for FaSteamSymbol {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10080,11 +14556,23 @@ impl IconShape for FaSteam {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10107,11 +14595,23 @@ impl IconShape for FaStickerMule {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10134,11 +14634,23 @@ impl IconShape for FaStrava {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10161,11 +14673,23 @@ impl IconShape for FaStripeS {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10188,11 +14712,23 @@ impl IconShape for FaStripe {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10215,11 +14751,23 @@ impl IconShape for FaStudiovinari {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10242,11 +14790,23 @@ impl IconShape for FaStumbleuponCircle {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10269,11 +14829,23 @@ impl IconShape for FaStumbleupon {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10296,11 +14868,23 @@ impl IconShape for FaSuperpowers {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10323,11 +14907,23 @@ impl IconShape for FaSupple {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10350,11 +14946,23 @@ impl IconShape for FaSuse {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10377,11 +14985,23 @@ impl IconShape for FaSwift {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10404,11 +15024,23 @@ impl IconShape for FaSymfony {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10431,11 +15063,23 @@ impl IconShape for FaTeamspeak {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10458,11 +15102,23 @@ impl IconShape for FaTelegram {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10485,11 +15141,23 @@ impl IconShape for FaTencentWeibo {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10512,11 +15180,23 @@ impl IconShape for FaTheRedYeti {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10539,11 +15219,23 @@ impl IconShape for FaThemeco {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10566,11 +15258,23 @@ impl IconShape for FaThemeisle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10593,11 +15297,23 @@ impl IconShape for FaThinkPeaks {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10620,11 +15336,23 @@ impl IconShape for FaTiktok {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10647,11 +15375,23 @@ impl IconShape for FaTradeFederation {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10674,11 +15414,23 @@ impl IconShape for FaTrello {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10701,11 +15453,23 @@ impl IconShape for FaTumblrSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10728,11 +15492,23 @@ impl IconShape for FaTumblr {
     fn view_box(&self) -> &str {
         "0 0 320 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10755,11 +15531,23 @@ impl IconShape for FaTwitch {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10782,11 +15570,23 @@ impl IconShape for FaTwitterSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10809,11 +15609,23 @@ impl IconShape for FaTwitter {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10836,11 +15648,23 @@ impl IconShape for FaTypo3 {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10863,11 +15687,23 @@ impl IconShape for FaUber {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10890,11 +15726,23 @@ impl IconShape for FaUbuntu {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10917,11 +15765,23 @@ impl IconShape for FaUikit {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10944,11 +15804,23 @@ impl IconShape for FaUmbraco {
     fn view_box(&self) -> &str {
         "0 0 510 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10971,11 +15843,23 @@ impl IconShape for FaUncharted {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10998,11 +15882,23 @@ impl IconShape for FaUniregistry {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11025,11 +15921,23 @@ impl IconShape for FaUnity {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11052,11 +15960,23 @@ impl IconShape for FaUnsplash {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11079,11 +15999,23 @@ impl IconShape for FaUntappd {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11106,11 +16038,23 @@ impl IconShape for FaUps {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11133,11 +16077,23 @@ impl IconShape for FaUsb {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11160,11 +16116,23 @@ impl IconShape for FaUsps {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11187,11 +16155,23 @@ impl IconShape for FaUssunnah {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11214,11 +16194,23 @@ impl IconShape for FaVaadin {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11241,11 +16233,23 @@ impl IconShape for FaViacoin {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11268,11 +16272,23 @@ impl IconShape for FaViadeoSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11295,11 +16311,23 @@ impl IconShape for FaViadeo {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11322,11 +16350,23 @@ impl IconShape for FaViber {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11349,11 +16389,23 @@ impl IconShape for FaVimeoSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11376,11 +16428,23 @@ impl IconShape for FaVimeoV {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11403,11 +16467,23 @@ impl IconShape for FaVimeo {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11430,11 +16506,23 @@ impl IconShape for FaVine {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11457,11 +16545,23 @@ impl IconShape for FaVk {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11484,11 +16584,23 @@ impl IconShape for FaVnv {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11511,11 +16623,23 @@ impl IconShape for FaVuejs {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11538,11 +16662,23 @@ impl IconShape for FaWatchmanMonitoring {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11565,11 +16701,23 @@ impl IconShape for FaWaze {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11592,11 +16740,23 @@ impl IconShape for FaWeebly {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11619,11 +16779,23 @@ impl IconShape for FaWeibo {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11646,11 +16818,23 @@ impl IconShape for FaWeixin {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11673,11 +16857,23 @@ impl IconShape for FaWhatsappSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11700,11 +16896,23 @@ impl IconShape for FaWhatsapp {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11727,11 +16935,23 @@ impl IconShape for FaWhmcs {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11754,11 +16974,23 @@ impl IconShape for FaWikipediaW {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11781,11 +17013,23 @@ impl IconShape for FaWindows {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11808,11 +17052,23 @@ impl IconShape for FaWirsindhandwerk {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11835,11 +17091,23 @@ impl IconShape for FaWix {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11862,11 +17130,23 @@ impl IconShape for FaWizardsOfTheCoast {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11889,11 +17169,23 @@ impl IconShape for FaWodu {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11916,11 +17208,23 @@ impl IconShape for FaWolfPackBattalion {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11943,11 +17247,23 @@ impl IconShape for FaWordpressSimple {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11970,11 +17286,23 @@ impl IconShape for FaWordpress {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11997,11 +17325,23 @@ impl IconShape for FaWpbeginner {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12024,11 +17364,23 @@ impl IconShape for FaWpexplorer {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12051,11 +17403,23 @@ impl IconShape for FaWpforms {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12078,11 +17442,23 @@ impl IconShape for FaWpressr {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12105,11 +17481,23 @@ impl IconShape for FaXbox {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12132,11 +17520,23 @@ impl IconShape for FaXingSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12159,11 +17559,23 @@ impl IconShape for FaXing {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12186,11 +17598,23 @@ impl IconShape for FaYCombinator {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12213,11 +17637,23 @@ impl IconShape for FaYahoo {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12240,11 +17676,23 @@ impl IconShape for FaYammer {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12267,11 +17715,23 @@ impl IconShape for FaYandexInternational {
     fn view_box(&self) -> &str {
         "0 0 320 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12294,11 +17754,23 @@ impl IconShape for FaYandex {
     fn view_box(&self) -> &str {
         "0 0 256 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12321,11 +17793,23 @@ impl IconShape for FaYarn {
     fn view_box(&self) -> &str {
         "0 0 496 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12348,11 +17832,23 @@ impl IconShape for FaYelp {
     fn view_box(&self) -> &str {
         "0 0 384 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12375,11 +17871,23 @@ impl IconShape for FaYoast {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12402,11 +17910,23 @@ impl IconShape for FaYoutubeSquare {
     fn view_box(&self) -> &str {
         "0 0 448 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12429,11 +17949,23 @@ impl IconShape for FaYoutube {
     fn view_box(&self) -> &str {
         "0 0 576 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12456,11 +17988,23 @@ impl IconShape for FaZhihu {
     fn view_box(&self) -> &str {
         "0 0 640 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"

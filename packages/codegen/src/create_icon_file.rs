@@ -18,11 +18,23 @@ impl IconShape for {ICON_NAME} {
     fn view_box(&self) -> &str {
         "{VIEW_BOX}"
     }
+    fn width(&self) -> &str {
+        "{WIDTH}"
+    }
+    fn height(&self) -> &str {
+        "{HEIGHT}"
+    }
     fn xmlns(&self) -> &str {
         "{XMLNS}"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ({FILL_COLOR}, {STROKE_COLOR}, {STROKE_WIDTH})
+    fn fill(&self) -> &str {
+        "{FILL_COLOR}"
+    }
+    fn stroke(&self) -> &str {
+        "{STROKE_COLOR}"
+    }
+    fn stroke_width(&self) -> &str {
+        "{STROKE_WIDTH}"
     }
     fn stroke_linecap(&self) -> &str {
         "{STROKE_LINECAP}"
@@ -62,17 +74,21 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
                 .collect::<Vec<_>>();
 
             let svg_element = &elements[0];
+
             let svg_child_elements = &elements[1..];
             let icon_name = icon_name(&file, icon_prefix);
             let (view_box, xmlns) = extract_svg_attrs(svg_element);
+            let (width, height) = extract_svg_dimensions(svg_element);
             let child_elements = extract_svg_child_elements(svg_child_elements, icon_prefix);
-            let (fill_color, stroke_color, stroke_width) = extract_svg_colors(icon_prefix);
-            let stroke_linecap = extract_stroke_linecap(icon_prefix);
-            let stroke_linejoin = extract_stroke_linejoin(icon_prefix);
+            let (fill_color, stroke_color, stroke_width) = extract_svg_colors(svg_element);
+            let stroke_linecap = extract_svg_stroke_linecap(svg_element);
+            let stroke_linejoin = extract_svg_stroke_linejoin(svg_element);
 
             ICON_TEMPLATE
                 .replace("{ICON_NAME}", &format!("{}{}", icon_prefix, &icon_name))
                 .replace("{VIEW_BOX}", &view_box)
+                .replace("{WIDTH}", &width)
+                .replace("{HEIGHT}", &height)
                 .replace("{XMLNS}", &xmlns)
                 .replace("{CHILD_ELEMENTS}", &child_elements)
                 .replace("{FILL_COLOR}", &fill_color)
@@ -142,37 +158,34 @@ fn icon_name(path: &Path, icon_prefix: &str) -> String {
     }
 }
 
-fn extract_svg_attrs(element: &Element) -> (String, String) {
-    let view_box = element.attr("viewBox").unwrap();
-    let xmlns = element
-        .attr("xmlns")
-        .unwrap_or("http://www.w3.org/2000/svg");
-    (String::from(view_box), String::from(xmlns))
+fn extract_svg_attrs(element: &Element) -> (&str, &str) {
+    (
+        element.attr("viewBox").unwrap(),
+        element.attr("xmlns").unwrap_or("http://www.w3.org/2000/svg")
+    )
 }
 
-fn extract_svg_colors(icon_prefix: &str) -> (&str, &str, &str) {
-    match icon_prefix {
-        "Fi" => ("\"none\"", "user_color", "\"2\""),
-        "Ld" => ("\"none\"", "user_color", "\"2\""),
-        "Io" => ("user_color", "user_color", "\"0\""),
-        _ => ("user_color", "\"none\"", "\"0\""),
-    }
+fn extract_svg_colors(element: &Element) -> (&str, &str, &str) {
+    (
+        element.attr("fill").unwrap_or("black"),
+        element.attr("stroke").unwrap_or("none"),
+        element.attr("stroke-width").unwrap_or("1"),
+    )
 }
 
-fn extract_stroke_linecap(icon_prefix: &str) -> &str {
-    match icon_prefix {
-        "Ld" => "round",
-        "Fi" => "round",
-        _ => "butt",
-    }
+fn extract_svg_dimensions(element: &Element) -> (&str, &str) {
+    (
+        element.attr("width").unwrap_or("300"),
+        element.attr("height").unwrap_or("150"),
+    )
 }
 
-fn extract_stroke_linejoin(icon_prefix: &str) -> &str {
-    match icon_prefix {
-        "Ld" => "round",
-        "Fi" => "round",
-        _ => "miter",
-    }
+fn extract_svg_stroke_linecap(element: &Element) -> &str {
+    element.attr("stroke-linecap").unwrap_or("butt")
+}
+
+fn extract_svg_stroke_linejoin(element: &Element) -> &str {
+    element.attr("stroke-linejoin").unwrap_or("miter")
 }
 
 fn extract_svg_child_elements(elements: &[&Element], icon_prefix: &str) -> String {

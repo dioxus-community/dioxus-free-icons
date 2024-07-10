@@ -7,11 +7,23 @@ impl IconShape for MdAdd {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34,11 +46,23 @@ impl IconShape for MdAddBox {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -61,11 +85,23 @@ impl IconShape for MdAddCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -88,11 +124,23 @@ impl IconShape for MdAddCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -115,11 +163,23 @@ impl IconShape for MdAddLink {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -142,11 +202,23 @@ impl IconShape for MdAmpStories {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -184,11 +256,23 @@ impl IconShape for MdArchive {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -211,11 +295,23 @@ impl IconShape for MdBackspace {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -238,11 +334,23 @@ impl IconShape for MdBallot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -266,11 +374,23 @@ impl IconShape for MdBiotech {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -301,11 +421,23 @@ impl IconShape for MdBlock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -328,11 +460,23 @@ impl IconShape for MdBlockFlipped {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -355,11 +499,23 @@ impl IconShape for MdBolt {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -368,7 +524,9 @@ impl IconShape for MdBolt {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {}
+        rsx! {
+
+        }
     }
 }
 
@@ -378,11 +536,23 @@ impl IconShape for MdCalculate {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -405,11 +575,23 @@ impl IconShape for MdClear {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -432,11 +614,23 @@ impl IconShape for MdContentCopy {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -459,11 +653,23 @@ impl IconShape for MdContentCut {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -501,11 +707,23 @@ impl IconShape for MdContentPaste {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -528,11 +746,23 @@ impl IconShape for MdCreate {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -555,11 +785,23 @@ impl IconShape for MdDeleteSweep {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -582,11 +824,23 @@ impl IconShape for MdDrafts {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -609,11 +863,23 @@ impl IconShape for MdDynamicFeed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -660,11 +926,23 @@ impl IconShape for MdFileCopy {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -687,11 +965,23 @@ impl IconShape for MdFilterList {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -714,11 +1004,23 @@ impl IconShape for MdFlag {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -741,11 +1043,23 @@ impl IconShape for MdFontDownload {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -768,11 +1082,23 @@ impl IconShape for MdForward {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -795,11 +1121,23 @@ impl IconShape for MdGesture {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -822,11 +1160,23 @@ impl IconShape for MdHowToReg {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -855,11 +1205,23 @@ impl IconShape for MdHowToVote {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -882,11 +1244,23 @@ impl IconShape for MdInbox {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -909,11 +1283,23 @@ impl IconShape for MdInsights {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -942,11 +1328,23 @@ impl IconShape for MdInventory {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -969,11 +1367,23 @@ impl IconShape for MdLink {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -996,11 +1406,23 @@ impl IconShape for MdLinkOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1026,11 +1448,23 @@ impl IconShape for MdLowPriority {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1053,11 +1487,23 @@ impl IconShape for MdMail {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1080,11 +1526,23 @@ impl IconShape for MdMarkunread {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1107,11 +1565,23 @@ impl IconShape for MdMoveToInbox {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1134,11 +1604,23 @@ impl IconShape for MdNextWeek {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1161,11 +1643,23 @@ impl IconShape for MdOutlinedFlag {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1188,11 +1682,23 @@ impl IconShape for MdPolicy {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1220,11 +1726,23 @@ impl IconShape for MdPushPin {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1248,11 +1766,23 @@ impl IconShape for MdRedo {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1275,11 +1805,23 @@ impl IconShape for MdRemove {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1302,11 +1844,23 @@ impl IconShape for MdRemoveCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1329,11 +1883,23 @@ impl IconShape for MdRemoveCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1356,11 +1922,23 @@ impl IconShape for MdReply {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1383,11 +1961,23 @@ impl IconShape for MdReplyAll {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1410,11 +2000,23 @@ impl IconShape for MdReport {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1437,11 +2039,23 @@ impl IconShape for MdReportOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1464,11 +2078,23 @@ impl IconShape for MdSave {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1491,11 +2117,23 @@ impl IconShape for MdSaveAlt {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1518,11 +2156,23 @@ impl IconShape for MdSelectAll {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1545,11 +2195,23 @@ impl IconShape for MdSend {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1572,11 +2234,23 @@ impl IconShape for MdShield {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1599,11 +2273,23 @@ impl IconShape for MdSort {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1626,11 +2312,23 @@ impl IconShape for MdSquareFoot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1653,11 +2351,23 @@ impl IconShape for MdStackedBarChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1680,11 +2390,23 @@ impl IconShape for MdStream {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1727,11 +2449,23 @@ impl IconShape for MdTag {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1740,7 +2474,9 @@ impl IconShape for MdTag {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {}
+        rsx! {
+
+        }
     }
 }
 
@@ -1750,11 +2486,23 @@ impl IconShape for MdTextFormat {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1777,11 +2525,23 @@ impl IconShape for MdUnarchive {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1804,11 +2564,23 @@ impl IconShape for MdUndo {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1831,11 +2603,23 @@ impl IconShape for MdWaves {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1844,7 +2628,9 @@ impl IconShape for MdWaves {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {}
+        rsx! {
+
+        }
     }
 }
 
@@ -1854,11 +2640,23 @@ impl IconShape for MdWeekend {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1881,11 +2679,23 @@ impl IconShape for MdWhereToVote {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"

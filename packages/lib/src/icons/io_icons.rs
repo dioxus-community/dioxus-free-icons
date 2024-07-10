@@ -7,11 +7,23 @@ impl IconShape for IoAccessibilityOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45,11 +57,23 @@ impl IconShape for IoAccessibilitySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -75,11 +99,23 @@ impl IconShape for IoAccessibility {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -105,11 +141,23 @@ impl IconShape for IoAddCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -147,11 +195,23 @@ impl IconShape for IoAddCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -174,11 +234,23 @@ impl IconShape for IoAddCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -201,11 +273,23 @@ impl IconShape for IoAddOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -239,11 +323,23 @@ impl IconShape for IoAddSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -277,11 +373,23 @@ impl IconShape for IoAdd {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -315,11 +423,23 @@ impl IconShape for IoAirplaneOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -343,11 +463,23 @@ impl IconShape for IoAirplaneSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -370,11 +502,23 @@ impl IconShape for IoAirplane {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -397,11 +541,23 @@ impl IconShape for IoAlarmOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -451,11 +607,23 @@ impl IconShape for IoAlarmSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -484,11 +652,23 @@ impl IconShape for IoAlarm {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -517,11 +697,23 @@ impl IconShape for IoAlbumsOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -564,11 +756,23 @@ impl IconShape for IoAlbumsSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -603,11 +807,23 @@ impl IconShape for IoAlbums {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -636,11 +852,23 @@ impl IconShape for IoAlertCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -671,11 +899,23 @@ impl IconShape for IoAlertCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -702,11 +942,23 @@ impl IconShape for IoAlertCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -729,11 +981,23 @@ impl IconShape for IoAlertOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -763,11 +1027,23 @@ impl IconShape for IoAlertSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -798,11 +1074,23 @@ impl IconShape for IoAlert {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -832,11 +1120,23 @@ impl IconShape for IoAmericanFootballOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -906,11 +1206,23 @@ impl IconShape for IoAmericanFootballSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -939,11 +1251,23 @@ impl IconShape for IoAmericanFootball {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -972,11 +1296,23 @@ impl IconShape for IoAnalyticsOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1041,11 +1377,23 @@ impl IconShape for IoAnalyticsSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1068,11 +1416,23 @@ impl IconShape for IoAnalytics {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1095,11 +1455,23 @@ impl IconShape for IoApertureOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1179,11 +1551,23 @@ impl IconShape for IoApertureSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1230,11 +1614,23 @@ impl IconShape for IoAperture {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1281,11 +1677,23 @@ impl IconShape for IoAppsOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1386,11 +1794,23 @@ impl IconShape for IoAppsSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1482,11 +1902,23 @@ impl IconShape for IoApps {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1533,11 +1965,23 @@ impl IconShape for IoArchiveOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1581,11 +2025,23 @@ impl IconShape for IoArchiveSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1616,11 +2072,23 @@ impl IconShape for IoArchive {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1651,11 +2119,23 @@ impl IconShape for IoArrowBackCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1690,11 +2170,23 @@ impl IconShape for IoArrowBackCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1717,11 +2209,23 @@ impl IconShape for IoArrowBackCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1744,11 +2248,23 @@ impl IconShape for IoArrowBackOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1779,11 +2295,23 @@ impl IconShape for IoArrowBackSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1814,11 +2342,23 @@ impl IconShape for IoArrowBack {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1849,11 +2389,23 @@ impl IconShape for IoArrowDownCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1888,11 +2440,23 @@ impl IconShape for IoArrowDownCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1915,11 +2479,23 @@ impl IconShape for IoArrowDownCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1942,11 +2518,23 @@ impl IconShape for IoArrowDownOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1977,11 +2565,23 @@ impl IconShape for IoArrowDownSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2012,11 +2612,23 @@ impl IconShape for IoArrowDown {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2047,11 +2659,23 @@ impl IconShape for IoArrowForwardCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2086,11 +2710,23 @@ impl IconShape for IoArrowForwardCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2113,11 +2749,23 @@ impl IconShape for IoArrowForwardCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2140,11 +2788,23 @@ impl IconShape for IoArrowForwardOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2175,11 +2835,23 @@ impl IconShape for IoArrowForwardSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2210,11 +2882,23 @@ impl IconShape for IoArrowForward {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2245,11 +2929,23 @@ impl IconShape for IoArrowRedoCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2276,11 +2972,23 @@ impl IconShape for IoArrowRedoCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2303,11 +3011,23 @@ impl IconShape for IoArrowRedoCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2330,11 +3050,23 @@ impl IconShape for IoArrowRedoOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2358,11 +3090,23 @@ impl IconShape for IoArrowRedoSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2385,11 +3129,23 @@ impl IconShape for IoArrowRedo {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2412,11 +3168,23 @@ impl IconShape for IoArrowUndoCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2443,11 +3211,23 @@ impl IconShape for IoArrowUndoCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2470,11 +3250,23 @@ impl IconShape for IoArrowUndoCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2497,11 +3289,23 @@ impl IconShape for IoArrowUndoOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2525,11 +3329,23 @@ impl IconShape for IoArrowUndoSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2552,11 +3368,23 @@ impl IconShape for IoArrowUndo {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2579,11 +3407,23 @@ impl IconShape for IoArrowUpCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2618,11 +3458,23 @@ impl IconShape for IoArrowUpCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2645,11 +3497,23 @@ impl IconShape for IoArrowUpCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2672,11 +3536,23 @@ impl IconShape for IoArrowUpOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2707,11 +3583,23 @@ impl IconShape for IoArrowUpSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2742,11 +3630,23 @@ impl IconShape for IoArrowUp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2777,11 +3677,23 @@ impl IconShape for IoAtCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2809,11 +3721,23 @@ impl IconShape for IoAtCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2839,11 +3763,23 @@ impl IconShape for IoAtCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2869,11 +3805,23 @@ impl IconShape for IoAtOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2901,11 +3849,23 @@ impl IconShape for IoAtSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2928,11 +3888,23 @@ impl IconShape for IoAt {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2960,11 +3932,23 @@ impl IconShape for IoAttachOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2988,11 +3972,23 @@ impl IconShape for IoAttachSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3016,11 +4012,23 @@ impl IconShape for IoAttach {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3044,11 +4052,23 @@ impl IconShape for IoBackspaceOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3100,11 +4120,23 @@ impl IconShape for IoBackspaceSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3127,11 +4159,23 @@ impl IconShape for IoBackspace {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3154,11 +4198,23 @@ impl IconShape for IoBagAddOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3214,11 +4270,23 @@ impl IconShape for IoBagAddSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3241,11 +4309,23 @@ impl IconShape for IoBagAdd {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3268,11 +4348,23 @@ impl IconShape for IoBagCheckOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3315,11 +4407,23 @@ impl IconShape for IoBagCheckSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3342,11 +4446,23 @@ impl IconShape for IoBagCheck {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3369,11 +4485,23 @@ impl IconShape for IoBagHandleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3414,11 +4542,23 @@ impl IconShape for IoBagHandleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3441,11 +4581,23 @@ impl IconShape for IoBagHandle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3468,11 +4620,23 @@ impl IconShape for IoBagOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3508,11 +4672,23 @@ impl IconShape for IoBagRemoveOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3558,11 +4734,23 @@ impl IconShape for IoBagRemoveSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3585,11 +4773,23 @@ impl IconShape for IoBagRemove {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3612,11 +4812,23 @@ impl IconShape for IoBagSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3639,11 +4851,23 @@ impl IconShape for IoBag {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3666,11 +4890,23 @@ impl IconShape for IoBalloonOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3717,11 +4953,23 @@ impl IconShape for IoBalloonSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3744,11 +4992,23 @@ impl IconShape for IoBalloon {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3771,11 +5031,23 @@ impl IconShape for IoBanOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3812,11 +5084,23 @@ impl IconShape for IoBanSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3839,11 +5123,23 @@ impl IconShape for IoBan {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3880,11 +5176,23 @@ impl IconShape for IoBandageOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3944,11 +5252,23 @@ impl IconShape for IoBandageSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3977,11 +5297,23 @@ impl IconShape for IoBandage {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4022,11 +5354,23 @@ impl IconShape for IoBarChartOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4077,11 +5421,23 @@ impl IconShape for IoBarChartSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4113,11 +5469,23 @@ impl IconShape for IoBarChart {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4149,11 +5517,23 @@ impl IconShape for IoBarbellOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4216,11 +5596,23 @@ impl IconShape for IoBarbellSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4243,11 +5635,23 @@ impl IconShape for IoBarbell {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4270,11 +5674,23 @@ impl IconShape for IoBarcodeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4337,11 +5753,23 @@ impl IconShape for IoBarcodeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4404,11 +5832,23 @@ impl IconShape for IoBarcode {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4431,11 +5871,23 @@ impl IconShape for IoBaseballOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4525,11 +5977,23 @@ impl IconShape for IoBaseballSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4558,11 +6022,23 @@ impl IconShape for IoBaseball {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4591,11 +6067,23 @@ impl IconShape for IoBasketOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4623,11 +6111,23 @@ impl IconShape for IoBasketSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4653,11 +6153,23 @@ impl IconShape for IoBasket {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4680,11 +6192,23 @@ impl IconShape for IoBasketballOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4732,11 +6256,23 @@ impl IconShape for IoBasketballSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4780,11 +6316,23 @@ impl IconShape for IoBasketball {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4828,11 +6376,23 @@ impl IconShape for IoBatteryChargingOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4870,11 +6430,23 @@ impl IconShape for IoBatteryChargingSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4915,11 +6487,23 @@ impl IconShape for IoBatteryCharging {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4957,11 +6541,23 @@ impl IconShape for IoBatteryDeadOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4997,11 +6593,23 @@ impl IconShape for IoBatteryDeadSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5035,11 +6643,23 @@ impl IconShape for IoBatteryDead {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5075,11 +6695,23 @@ impl IconShape for IoBatteryFullOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5124,11 +6756,23 @@ impl IconShape for IoBatteryFullSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5163,11 +6807,23 @@ impl IconShape for IoBatteryFull {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5212,11 +6868,23 @@ impl IconShape for IoBatteryHalfOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5261,11 +6929,23 @@ impl IconShape for IoBatteryHalfSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5300,11 +6980,23 @@ impl IconShape for IoBatteryHalf {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5349,11 +7041,23 @@ impl IconShape for IoBeakerOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5384,11 +7088,23 @@ impl IconShape for IoBeakerSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5411,11 +7127,23 @@ impl IconShape for IoBeaker {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5438,11 +7166,23 @@ impl IconShape for IoBedOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5482,11 +7222,23 @@ impl IconShape for IoBedSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5509,11 +7261,23 @@ impl IconShape for IoBed {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5539,11 +7303,23 @@ impl IconShape for IoBeerOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5604,11 +7380,23 @@ impl IconShape for IoBeerSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5631,11 +7419,23 @@ impl IconShape for IoBeer {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5658,11 +7458,23 @@ impl IconShape for IoBicycleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5697,11 +7509,23 @@ impl IconShape for IoBicycleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5733,11 +7557,23 @@ impl IconShape for IoBicycle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5769,11 +7605,23 @@ impl IconShape for IoBluetoothOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5797,11 +7645,23 @@ impl IconShape for IoBluetoothSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5824,11 +7684,23 @@ impl IconShape for IoBluetooth {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5851,11 +7723,23 @@ impl IconShape for IoBoatOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5897,11 +7781,23 @@ impl IconShape for IoBoatSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5927,11 +7823,23 @@ impl IconShape for IoBoat {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5957,11 +7865,23 @@ impl IconShape for IoBodyOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5995,11 +7915,23 @@ impl IconShape for IoBodySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6027,11 +7959,23 @@ impl IconShape for IoBody {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6059,11 +8003,23 @@ impl IconShape for IoBonfireOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6110,11 +8066,23 @@ impl IconShape for IoBonfireSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6158,11 +8126,23 @@ impl IconShape for IoBonfire {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6206,11 +8186,23 @@ impl IconShape for IoBookOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6241,11 +8233,23 @@ impl IconShape for IoBookSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6271,11 +8275,23 @@ impl IconShape for IoBook {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6301,11 +8317,23 @@ impl IconShape for IoBookmarkOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6329,11 +8357,23 @@ impl IconShape for IoBookmarkSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6356,11 +8396,23 @@ impl IconShape for IoBookmark {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6383,11 +8435,23 @@ impl IconShape for IoBookmarksOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6415,11 +8479,23 @@ impl IconShape for IoBookmarksSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6445,11 +8521,23 @@ impl IconShape for IoBookmarks {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6475,11 +8563,23 @@ impl IconShape for IoBowlingBallOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6522,11 +8622,23 @@ impl IconShape for IoBowlingBallSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6549,11 +8661,23 @@ impl IconShape for IoBowlingBall {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6576,11 +8700,23 @@ impl IconShape for IoBriefcaseOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6624,11 +8760,23 @@ impl IconShape for IoBriefcaseSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6654,11 +8802,23 @@ impl IconShape for IoBriefcase {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6688,11 +8848,23 @@ impl IconShape for IoBrowsersOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6724,11 +8896,23 @@ impl IconShape for IoBrowsersSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6751,11 +8935,23 @@ impl IconShape for IoBrowsers {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6778,11 +8974,23 @@ impl IconShape for IoBrushOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6810,11 +9018,23 @@ impl IconShape for IoBrushSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6840,11 +9060,23 @@ impl IconShape for IoBrush {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6870,11 +9102,23 @@ impl IconShape for IoBugOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6939,11 +9183,23 @@ impl IconShape for IoBugSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6969,11 +9225,23 @@ impl IconShape for IoBug {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6999,11 +9267,23 @@ impl IconShape for IoBuildOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7032,11 +9312,23 @@ impl IconShape for IoBuildSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7059,11 +9351,23 @@ impl IconShape for IoBuild {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7086,11 +9390,23 @@ impl IconShape for IoBulbOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7139,11 +9455,23 @@ impl IconShape for IoBulbSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7178,11 +9506,23 @@ impl IconShape for IoBulb {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7211,11 +9551,23 @@ impl IconShape for IoBusOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7298,11 +9650,23 @@ impl IconShape for IoBusSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7329,11 +9693,23 @@ impl IconShape for IoBus {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7356,11 +9732,23 @@ impl IconShape for IoBusinessOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7459,11 +9847,23 @@ impl IconShape for IoBusinessSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7504,11 +9904,23 @@ impl IconShape for IoBusiness {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7549,11 +9961,23 @@ impl IconShape for IoCafeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7588,11 +10012,23 @@ impl IconShape for IoCafeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7621,11 +10057,23 @@ impl IconShape for IoCafe {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7651,11 +10099,23 @@ impl IconShape for IoCalculatorOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7734,11 +10194,23 @@ impl IconShape for IoCalculatorSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7761,11 +10233,23 @@ impl IconShape for IoCalculator {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7788,11 +10272,23 @@ impl IconShape for IoCalendarClearOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7852,11 +10348,23 @@ impl IconShape for IoCalendarClearSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7882,11 +10390,23 @@ impl IconShape for IoCalendarClear {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7912,11 +10432,23 @@ impl IconShape for IoCalendarNumberOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7997,11 +10529,23 @@ impl IconShape for IoCalendarNumberSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8027,11 +10571,23 @@ impl IconShape for IoCalendarNumber {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8057,11 +10613,23 @@ impl IconShape for IoCalendarOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8165,11 +10733,23 @@ impl IconShape for IoCalendarSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8195,11 +10775,23 @@ impl IconShape for IoCalendar {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8225,11 +10817,23 @@ impl IconShape for IoCallOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8253,11 +10857,23 @@ impl IconShape for IoCallSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8280,11 +10896,23 @@ impl IconShape for IoCall {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8307,11 +10935,23 @@ impl IconShape for IoCameraOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8345,11 +10985,23 @@ impl IconShape for IoCameraReverseOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8389,11 +11041,23 @@ impl IconShape for IoCameraReverseSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8416,11 +11080,23 @@ impl IconShape for IoCameraReverse {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8443,11 +11119,23 @@ impl IconShape for IoCameraSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8475,11 +11163,23 @@ impl IconShape for IoCamera {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8507,11 +11207,23 @@ impl IconShape for IoCarOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8562,11 +11274,23 @@ impl IconShape for IoCarSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8589,11 +11313,23 @@ impl IconShape for IoCarSportOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8658,11 +11394,23 @@ impl IconShape for IoCarSportSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8685,11 +11433,23 @@ impl IconShape for IoCarSport {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8712,11 +11472,23 @@ impl IconShape for IoCar {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8739,11 +11511,23 @@ impl IconShape for IoCardOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8786,11 +11570,23 @@ impl IconShape for IoCardSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8816,11 +11612,23 @@ impl IconShape for IoCard {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8846,11 +11654,23 @@ impl IconShape for IoCaretBackCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8877,11 +11697,23 @@ impl IconShape for IoCaretBackCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8904,11 +11736,23 @@ impl IconShape for IoCaretBackCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8931,11 +11775,23 @@ impl IconShape for IoCaretBackOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8958,11 +11814,23 @@ impl IconShape for IoCaretBackSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -8985,11 +11853,23 @@ impl IconShape for IoCaretBack {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9012,11 +11892,23 @@ impl IconShape for IoCaretDownCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9043,11 +11935,23 @@ impl IconShape for IoCaretDownCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9070,11 +11974,23 @@ impl IconShape for IoCaretDownCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9097,11 +12013,23 @@ impl IconShape for IoCaretDownOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9124,11 +12052,23 @@ impl IconShape for IoCaretDownSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9151,11 +12091,23 @@ impl IconShape for IoCaretDown {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9178,11 +12130,23 @@ impl IconShape for IoCaretForwardCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9209,11 +12173,23 @@ impl IconShape for IoCaretForwardCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9236,11 +12212,23 @@ impl IconShape for IoCaretForwardCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9263,11 +12251,23 @@ impl IconShape for IoCaretForwardOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9290,11 +12290,23 @@ impl IconShape for IoCaretForwardSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9317,11 +12329,23 @@ impl IconShape for IoCaretForward {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9344,11 +12368,23 @@ impl IconShape for IoCaretUpCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9375,11 +12411,23 @@ impl IconShape for IoCaretUpCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9402,11 +12450,23 @@ impl IconShape for IoCaretUpCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9429,11 +12489,23 @@ impl IconShape for IoCaretUpOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9456,11 +12528,23 @@ impl IconShape for IoCaretUpSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9483,11 +12567,23 @@ impl IconShape for IoCaretUp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9510,11 +12606,23 @@ impl IconShape for IoCartOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9554,11 +12662,23 @@ impl IconShape for IoCartSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9591,11 +12711,23 @@ impl IconShape for IoCart {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9628,11 +12760,23 @@ impl IconShape for IoCashOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9698,11 +12842,23 @@ impl IconShape for IoCashSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9754,11 +12910,23 @@ impl IconShape for IoCash {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9804,11 +12972,23 @@ impl IconShape for IoCellularOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9864,11 +13044,23 @@ impl IconShape for IoCellularSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9900,11 +13092,23 @@ impl IconShape for IoCellular {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9936,11 +13140,23 @@ impl IconShape for IoChatboxEllipsesOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -9979,11 +13195,23 @@ impl IconShape for IoChatboxEllipsesSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10006,11 +13234,23 @@ impl IconShape for IoChatboxEllipses {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10033,11 +13273,23 @@ impl IconShape for IoChatboxOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10061,11 +13313,23 @@ impl IconShape for IoChatboxSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10088,11 +13352,23 @@ impl IconShape for IoChatbox {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10115,11 +13391,23 @@ impl IconShape for IoChatbubbleEllipsesOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10158,11 +13446,23 @@ impl IconShape for IoChatbubbleEllipsesSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10185,11 +13485,23 @@ impl IconShape for IoChatbubbleEllipses {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10212,11 +13524,23 @@ impl IconShape for IoChatbubbleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10240,11 +13564,23 @@ impl IconShape for IoChatbubbleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10267,11 +13603,23 @@ impl IconShape for IoChatbubble {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10294,11 +13642,23 @@ impl IconShape for IoChatbubblesOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10326,11 +13686,23 @@ impl IconShape for IoChatbubblesSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10356,11 +13728,23 @@ impl IconShape for IoChatbubbles {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10389,11 +13773,23 @@ impl IconShape for IoCheckboxOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10426,11 +13822,23 @@ impl IconShape for IoCheckboxSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10453,11 +13861,23 @@ impl IconShape for IoCheckbox {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10480,11 +13900,23 @@ impl IconShape for IoCheckmarkCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10512,11 +13944,23 @@ impl IconShape for IoCheckmarkCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10539,11 +13983,23 @@ impl IconShape for IoCheckmarkCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10566,11 +14022,23 @@ impl IconShape for IoCheckmarkDoneCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10612,11 +14080,23 @@ impl IconShape for IoCheckmarkDoneCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10639,11 +14119,23 @@ impl IconShape for IoCheckmarkDoneCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10666,11 +14158,23 @@ impl IconShape for IoCheckmarkDoneOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10708,11 +14212,23 @@ impl IconShape for IoCheckmarkDoneSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10750,11 +14266,23 @@ impl IconShape for IoCheckmarkDone {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10792,11 +14320,23 @@ impl IconShape for IoCheckmarkOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10820,11 +14360,23 @@ impl IconShape for IoCheckmarkSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10848,11 +14400,23 @@ impl IconShape for IoCheckmark {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10876,11 +14440,23 @@ impl IconShape for IoChevronBackCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10908,11 +14484,23 @@ impl IconShape for IoChevronBackCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10935,11 +14523,23 @@ impl IconShape for IoChevronBackCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10962,11 +14562,23 @@ impl IconShape for IoChevronBackOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -10990,11 +14602,23 @@ impl IconShape for IoChevronBackSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11018,11 +14642,23 @@ impl IconShape for IoChevronBack {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11046,11 +14682,23 @@ impl IconShape for IoChevronDownCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11078,11 +14726,23 @@ impl IconShape for IoChevronDownCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11105,11 +14765,23 @@ impl IconShape for IoChevronDownCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11132,11 +14804,23 @@ impl IconShape for IoChevronDownOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11160,11 +14844,23 @@ impl IconShape for IoChevronDownSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11188,11 +14884,23 @@ impl IconShape for IoChevronDown {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11216,11 +14924,23 @@ impl IconShape for IoChevronForwardCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11248,11 +14968,23 @@ impl IconShape for IoChevronForwardCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11275,11 +15007,23 @@ impl IconShape for IoChevronForwardCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11302,11 +15046,23 @@ impl IconShape for IoChevronForwardOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11330,11 +15086,23 @@ impl IconShape for IoChevronForwardSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11358,11 +15126,23 @@ impl IconShape for IoChevronForward {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11386,11 +15166,23 @@ impl IconShape for IoChevronUpCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11418,11 +15210,23 @@ impl IconShape for IoChevronUpCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11445,11 +15249,23 @@ impl IconShape for IoChevronUpCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11472,11 +15288,23 @@ impl IconShape for IoChevronUpOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11500,11 +15328,23 @@ impl IconShape for IoChevronUpSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11528,11 +15368,23 @@ impl IconShape for IoChevronUp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11556,11 +15408,23 @@ impl IconShape for IoClipboardOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11593,11 +15457,23 @@ impl IconShape for IoClipboardSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11620,11 +15496,23 @@ impl IconShape for IoClipboard {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11647,11 +15535,23 @@ impl IconShape for IoCloseCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11689,11 +15589,23 @@ impl IconShape for IoCloseCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11716,11 +15628,23 @@ impl IconShape for IoCloseCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11743,11 +15667,23 @@ impl IconShape for IoCloseOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11781,11 +15717,23 @@ impl IconShape for IoCloseSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11808,11 +15756,23 @@ impl IconShape for IoClose {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11835,11 +15795,23 @@ impl IconShape for IoCloudCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11866,11 +15838,23 @@ impl IconShape for IoCloudCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11893,11 +15877,23 @@ impl IconShape for IoCloudCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11920,11 +15916,23 @@ impl IconShape for IoCloudDoneOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11952,11 +15960,23 @@ impl IconShape for IoCloudDoneSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -11979,11 +15999,23 @@ impl IconShape for IoCloudDone {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12006,11 +16038,23 @@ impl IconShape for IoCloudDownloadOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12045,11 +16089,23 @@ impl IconShape for IoCloudDownloadSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12075,11 +16131,23 @@ impl IconShape for IoCloudDownload {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12105,11 +16173,23 @@ impl IconShape for IoCloudOfflineOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12144,11 +16224,23 @@ impl IconShape for IoCloudOfflineSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12181,11 +16273,23 @@ impl IconShape for IoCloudOffline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12214,11 +16318,23 @@ impl IconShape for IoCloudOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12242,11 +16358,23 @@ impl IconShape for IoCloudSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12269,11 +16397,23 @@ impl IconShape for IoCloudUploadOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12308,11 +16448,23 @@ impl IconShape for IoCloudUploadSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12341,11 +16493,23 @@ impl IconShape for IoCloudUpload {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12371,11 +16535,23 @@ impl IconShape for IoCloud {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12398,11 +16574,23 @@ impl IconShape for IoCloudyNightOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12430,11 +16618,23 @@ impl IconShape for IoCloudyNightSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12460,11 +16660,23 @@ impl IconShape for IoCloudyNight {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12490,11 +16702,23 @@ impl IconShape for IoCloudyOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12518,11 +16742,23 @@ impl IconShape for IoCloudySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12545,11 +16781,23 @@ impl IconShape for IoCloudy {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12572,11 +16820,23 @@ impl IconShape for IoCodeDownloadOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12615,11 +16875,23 @@ impl IconShape for IoCodeDownloadSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12658,11 +16930,23 @@ impl IconShape for IoCodeDownload {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12701,11 +16985,23 @@ impl IconShape for IoCodeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12733,11 +17029,23 @@ impl IconShape for IoCodeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12763,11 +17071,23 @@ impl IconShape for IoCodeSlashOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12802,11 +17122,23 @@ impl IconShape for IoCodeSlashSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12835,11 +17167,23 @@ impl IconShape for IoCodeSlash {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12868,11 +17212,23 @@ impl IconShape for IoCodeWorkingOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12915,11 +17271,23 @@ impl IconShape for IoCodeWorkingSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -12965,11 +17333,23 @@ impl IconShape for IoCodeWorking {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13015,11 +17395,23 @@ impl IconShape for IoCode {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13045,11 +17437,23 @@ impl IconShape for IoCogOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13072,11 +17476,23 @@ impl IconShape for IoCogSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13099,11 +17515,23 @@ impl IconShape for IoCog {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13126,11 +17554,23 @@ impl IconShape for IoColorFillOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13158,11 +17598,23 @@ impl IconShape for IoColorFillSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13188,11 +17640,23 @@ impl IconShape for IoColorFill {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13218,11 +17682,23 @@ impl IconShape for IoColorFilterOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13260,11 +17736,23 @@ impl IconShape for IoColorFilterSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13305,11 +17793,23 @@ impl IconShape for IoColorFilter {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13350,11 +17850,23 @@ impl IconShape for IoColorPaletteOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13403,11 +17915,23 @@ impl IconShape for IoColorPaletteSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13430,11 +17954,23 @@ impl IconShape for IoColorPalette {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13457,11 +17993,23 @@ impl IconShape for IoColorWandOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13545,11 +18093,23 @@ impl IconShape for IoColorWandSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13612,11 +18172,23 @@ impl IconShape for IoColorWand {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13631,26 +18203,26 @@ impl IconShape for IoColorWand {
             }
             path {
                 d: "M124.1,140.1c-4.2,0-8.3-1.7-11.3-4.7l-33.9-33.9c-6.2-6.2-6.2-16.4,0-22.6s16.4-6.2,22.6,0l33.9,33.9
-        c6.3,6.2,6.3,16.4,0,22.6C132.4,138.4,128.4,140.1,124.1,140.1z",
+	c6.3,6.2,6.3,16.4,0,22.6C132.4,138.4,128.4,140.1,124.1,140.1z",
             }
             path {
                 d: "M192,112c-8.8,0-16-7.2-16-16V48c0-8.8,7.2-16,16-16s16,7.2,16,16v48C208,104.8,200.8,112,192,112z",
             }
             path {
                 d: "M259.9,140.1c-8.8,0-16-7.2-16-16c0-4.2,1.7-8.3,4.7-11.3l33.9-33.9c6.2-6.2,16.4-6.2,22.6,0c6.2,6.2,6.2,16.4,0,22.6
-        l-33.9,33.9C268.2,138.4,264.1,140.1,259.9,140.1z",
+	l-33.9,33.9C268.2,138.4,264.1,140.1,259.9,140.1z",
             }
             path {
                 d: "M90.2,309.8c-8.8,0-16-7.2-16-16c0-4.2,1.7-8.3,4.7-11.3l33.9-33.9c6.2-6.2,16.4-6.2,22.6,0s6.2,16.4,0,22.6l-33.9,33.9
-        C98.5,308.1,94.4,309.8,90.2,309.8z",
+	C98.5,308.1,94.4,309.8,90.2,309.8z",
             }
             path {
                 d: "M234.2,167c-18.4-18.7-48.5-19-67.2-0.7s-19,48.5-0.7,67.2c0.2,0.2,0.5,0.5,0.7,0.7l39.5,39.5c3.1,3.1,8.2,3.1,11.3,0
-        l55.9-55.9c3.1-3.1,3.1-8.2,0-11.3L234.2,167z",
+	l55.9-55.9c3.1-3.1,3.1-8.2,0-11.3L234.2,167z",
             }
             path {
                 d: "M457,389.8L307.6,240.4c-3.1-3.1-8.2-3.1-11.3,0l-55.9,55.9c-3.1,3.1-3.1,8.2,0,11.3L389.8,457c18.4,18.7,48.5,19,67.2,0.7
-        c18.7-18.4,19-48.5,0.7-67.2C457.5,390.3,457.3,390,457,389.8L457,389.8z",
+	c18.7-18.4,19-48.5,0.7-67.2C457.5,390.3,457.3,390,457,389.8L457,389.8z",
             }
         }
     }
@@ -13662,11 +18234,23 @@ impl IconShape for IoCompassOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13693,11 +18277,23 @@ impl IconShape for IoCompassSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13725,11 +18321,23 @@ impl IconShape for IoCompass {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13757,11 +18365,23 @@ impl IconShape for IoConstructOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13797,11 +18417,23 @@ impl IconShape for IoConstructSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13830,11 +18462,23 @@ impl IconShape for IoConstruct {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13863,11 +18507,23 @@ impl IconShape for IoContractOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13931,11 +18587,23 @@ impl IconShape for IoContractSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -13999,11 +18667,23 @@ impl IconShape for IoContract {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14067,11 +18747,23 @@ impl IconShape for IoContrastOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14100,11 +18792,23 @@ impl IconShape for IoContrastSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14127,11 +18831,23 @@ impl IconShape for IoContrast {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14154,11 +18870,23 @@ impl IconShape for IoCopyOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14191,11 +18919,23 @@ impl IconShape for IoCopySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14221,11 +18961,23 @@ impl IconShape for IoCopy {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14251,11 +19003,23 @@ impl IconShape for IoCreateOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14285,11 +19049,23 @@ impl IconShape for IoCreateSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14321,11 +19097,23 @@ impl IconShape for IoCreate {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14354,11 +19142,23 @@ impl IconShape for IoCropOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14400,11 +19200,23 @@ impl IconShape for IoCropSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14430,11 +19242,23 @@ impl IconShape for IoCrop {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14460,11 +19284,23 @@ impl IconShape for IoCubeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14499,11 +19335,23 @@ impl IconShape for IoCubeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14532,11 +19380,23 @@ impl IconShape for IoCube {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14565,11 +19425,23 @@ impl IconShape for IoCutOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14619,11 +19491,23 @@ impl IconShape for IoCutSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14649,11 +19533,23 @@ impl IconShape for IoCut {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14682,11 +19578,23 @@ impl IconShape for IoDesktopOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14729,11 +19637,23 @@ impl IconShape for IoDesktopSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14756,11 +19676,23 @@ impl IconShape for IoDesktop {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14786,11 +19718,23 @@ impl IconShape for IoDiamondOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14861,11 +19805,23 @@ impl IconShape for IoDiamondSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14909,11 +19865,23 @@ impl IconShape for IoDiamond {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -14954,11 +19922,23 @@ impl IconShape for IoDiceOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15044,11 +20024,23 @@ impl IconShape for IoDiceSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15077,11 +20069,23 @@ impl IconShape for IoDice {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15110,11 +20114,23 @@ impl IconShape for IoDiscOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15151,11 +20167,23 @@ impl IconShape for IoDiscSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15183,11 +20211,23 @@ impl IconShape for IoDisc {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15213,11 +20253,23 @@ impl IconShape for IoDocumentAttachOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15249,11 +20301,23 @@ impl IconShape for IoDocumentAttachSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15279,11 +20343,23 @@ impl IconShape for IoDocumentAttach {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15309,11 +20385,23 @@ impl IconShape for IoDocumentLockOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15356,11 +20444,23 @@ impl IconShape for IoDocumentLockSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15389,11 +20489,23 @@ impl IconShape for IoDocumentLock {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15422,11 +20534,23 @@ impl IconShape for IoDocumentOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15454,11 +20578,23 @@ impl IconShape for IoDocumentSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15484,11 +20620,23 @@ impl IconShape for IoDocumentTextOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15530,11 +20678,23 @@ impl IconShape for IoDocumentTextSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15560,11 +20720,23 @@ impl IconShape for IoDocumentText {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15590,11 +20762,23 @@ impl IconShape for IoDocument {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15620,11 +20804,23 @@ impl IconShape for IoDocumentsOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15660,11 +20856,23 @@ impl IconShape for IoDocumentsSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15696,11 +20904,23 @@ impl IconShape for IoDocuments {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15732,11 +20952,23 @@ impl IconShape for IoDownloadOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15771,11 +21003,23 @@ impl IconShape for IoDownloadSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15804,11 +21048,23 @@ impl IconShape for IoDownload {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15834,11 +21090,23 @@ impl IconShape for IoDuplicateOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15885,11 +21153,23 @@ impl IconShape for IoDuplicateSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15915,11 +21195,23 @@ impl IconShape for IoDuplicate {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15945,11 +21237,23 @@ impl IconShape for IoEarOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -15981,11 +21285,23 @@ impl IconShape for IoEarSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16008,11 +21324,23 @@ impl IconShape for IoEar {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16035,11 +21363,23 @@ impl IconShape for IoEarthOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16078,11 +21418,23 @@ impl IconShape for IoEarthSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16123,11 +21475,23 @@ impl IconShape for IoEarth {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16150,11 +21514,23 @@ impl IconShape for IoEaselOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16211,11 +21587,23 @@ impl IconShape for IoEaselSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16244,11 +21632,23 @@ impl IconShape for IoEasel {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16279,11 +21679,23 @@ impl IconShape for IoEggOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16307,11 +21719,23 @@ impl IconShape for IoEggSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16334,11 +21758,23 @@ impl IconShape for IoEgg {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16361,11 +21797,23 @@ impl IconShape for IoEllipseOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16391,11 +21839,23 @@ impl IconShape for IoEllipseSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16418,11 +21878,23 @@ impl IconShape for IoEllipse {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16445,11 +21917,23 @@ impl IconShape for IoEllipsisHorizontalCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16488,11 +21972,23 @@ impl IconShape for IoEllipsisHorizontalCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16515,11 +22011,23 @@ impl IconShape for IoEllipsisHorizontalCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16558,11 +22066,23 @@ impl IconShape for IoEllipsisHorizontalOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16600,11 +22120,23 @@ impl IconShape for IoEllipsisHorizontalSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16639,11 +22171,23 @@ impl IconShape for IoEllipsisHorizontal {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16678,11 +22222,23 @@ impl IconShape for IoEllipsisVerticalCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16721,11 +22277,23 @@ impl IconShape for IoEllipsisVerticalCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16748,11 +22316,23 @@ impl IconShape for IoEllipsisVerticalCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16791,11 +22371,23 @@ impl IconShape for IoEllipsisVerticalOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16833,11 +22425,23 @@ impl IconShape for IoEllipsisVerticalSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16872,11 +22476,23 @@ impl IconShape for IoEllipsisVertical {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16911,11 +22527,23 @@ impl IconShape for IoEnterOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16950,11 +22578,23 @@ impl IconShape for IoEnterSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -16983,11 +22623,23 @@ impl IconShape for IoEnter {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17013,11 +22665,23 @@ impl IconShape for IoExitOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17052,11 +22716,23 @@ impl IconShape for IoExitSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17082,11 +22758,23 @@ impl IconShape for IoExit {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17112,11 +22800,23 @@ impl IconShape for IoExpandOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17180,11 +22880,23 @@ impl IconShape for IoExpandSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17248,11 +22960,23 @@ impl IconShape for IoExpand {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17316,11 +23040,23 @@ impl IconShape for IoExtensionPuzzleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17347,11 +23083,23 @@ impl IconShape for IoExtensionPuzzleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17374,11 +23122,23 @@ impl IconShape for IoExtensionPuzzle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17401,11 +23161,23 @@ impl IconShape for IoEyeOffOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17440,11 +23212,23 @@ impl IconShape for IoEyeOffSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17483,11 +23267,23 @@ impl IconShape for IoEyeOff {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17522,11 +23318,23 @@ impl IconShape for IoEyeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17556,11 +23364,23 @@ impl IconShape for IoEyeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17588,11 +23408,23 @@ impl IconShape for IoEye {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17620,11 +23452,23 @@ impl IconShape for IoEyedropOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17666,11 +23510,23 @@ impl IconShape for IoEyedropSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17693,11 +23549,23 @@ impl IconShape for IoEyedrop {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17720,11 +23588,23 @@ impl IconShape for IoFastFoodOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17782,11 +23662,23 @@ impl IconShape for IoFastFoodSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17815,11 +23707,23 @@ impl IconShape for IoFastFood {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17851,11 +23755,23 @@ impl IconShape for IoFemaleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17904,11 +23820,23 @@ impl IconShape for IoFemaleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17931,11 +23859,23 @@ impl IconShape for IoFemale {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -17958,11 +23898,23 @@ impl IconShape for IoFileTrayFullOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18018,11 +23970,23 @@ impl IconShape for IoFileTrayFullSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18057,11 +24021,23 @@ impl IconShape for IoFileTrayFull {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18090,11 +24066,23 @@ impl IconShape for IoFileTrayOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18136,11 +24124,23 @@ impl IconShape for IoFileTraySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18163,11 +24163,23 @@ impl IconShape for IoFileTrayStackedOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18231,11 +24243,23 @@ impl IconShape for IoFileTrayStackedSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18261,11 +24285,23 @@ impl IconShape for IoFileTrayStacked {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18291,11 +24327,23 @@ impl IconShape for IoFileTray {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18318,11 +24366,23 @@ impl IconShape for IoFilmOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18441,11 +24501,23 @@ impl IconShape for IoFilmSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18468,11 +24540,23 @@ impl IconShape for IoFilm {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18495,11 +24579,23 @@ impl IconShape for IoFilterCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18555,11 +24651,23 @@ impl IconShape for IoFilterCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18582,11 +24690,23 @@ impl IconShape for IoFilterCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18609,11 +24729,23 @@ impl IconShape for IoFilterOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18654,11 +24786,23 @@ impl IconShape for IoFilterSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18696,11 +24840,23 @@ impl IconShape for IoFilter {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18729,11 +24885,23 @@ impl IconShape for IoFingerPrintOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18756,11 +24924,23 @@ impl IconShape for IoFingerPrintSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18795,11 +24975,23 @@ impl IconShape for IoFingerPrint {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18834,11 +25026,23 @@ impl IconShape for IoFishOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18876,11 +25080,23 @@ impl IconShape for IoFishSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18906,11 +25122,23 @@ impl IconShape for IoFish {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18936,11 +25164,23 @@ impl IconShape for IoFitnessOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -18968,11 +25208,23 @@ impl IconShape for IoFitnessSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19004,11 +25256,23 @@ impl IconShape for IoFitness {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19040,11 +25304,23 @@ impl IconShape for IoFlagOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19068,11 +25344,23 @@ impl IconShape for IoFlagSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19095,11 +25383,23 @@ impl IconShape for IoFlag {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19122,11 +25422,23 @@ impl IconShape for IoFlameOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19154,11 +25466,23 @@ impl IconShape for IoFlameSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19181,11 +25505,23 @@ impl IconShape for IoFlame {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19208,11 +25544,23 @@ impl IconShape for IoFlashOffOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19241,11 +25589,23 @@ impl IconShape for IoFlashOffSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19278,11 +25638,23 @@ impl IconShape for IoFlashOff {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19311,11 +25683,23 @@ impl IconShape for IoFlashOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19339,11 +25723,23 @@ impl IconShape for IoFlashSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19366,11 +25762,23 @@ impl IconShape for IoFlash {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19393,11 +25801,23 @@ impl IconShape for IoFlashlightOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19433,11 +25853,23 @@ impl IconShape for IoFlashlightSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19470,11 +25902,23 @@ impl IconShape for IoFlashlight {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19500,11 +25944,23 @@ impl IconShape for IoFlaskOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19542,11 +25998,23 @@ impl IconShape for IoFlaskSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19569,11 +26037,23 @@ impl IconShape for IoFlask {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19596,11 +26076,23 @@ impl IconShape for IoFlowerOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19658,11 +26150,23 @@ impl IconShape for IoFlowerSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19690,11 +26194,23 @@ impl IconShape for IoFlower {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19722,11 +26238,23 @@ impl IconShape for IoFolderOpenOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19754,11 +26282,23 @@ impl IconShape for IoFolderOpenSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19784,11 +26324,23 @@ impl IconShape for IoFolderOpen {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19814,11 +26366,23 @@ impl IconShape for IoFolderOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19849,11 +26413,23 @@ impl IconShape for IoFolderSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19879,11 +26455,23 @@ impl IconShape for IoFolder {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19909,11 +26497,23 @@ impl IconShape for IoFootballOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19998,11 +26598,23 @@ impl IconShape for IoFootballSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20025,11 +26637,23 @@ impl IconShape for IoFootball {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20052,11 +26676,23 @@ impl IconShape for IoFootstepsOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20100,11 +26736,23 @@ impl IconShape for IoFootstepsSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20136,11 +26784,23 @@ impl IconShape for IoFootsteps {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20172,11 +26832,23 @@ impl IconShape for IoFunnelOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20200,11 +26872,23 @@ impl IconShape for IoFunnelSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20227,11 +26911,23 @@ impl IconShape for IoFunnel {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20254,11 +26950,23 @@ impl IconShape for IoGameControllerOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20314,11 +27022,23 @@ impl IconShape for IoGameControllerSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20341,11 +27061,23 @@ impl IconShape for IoGameController {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20368,11 +27100,23 @@ impl IconShape for IoGiftOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20420,11 +27164,23 @@ impl IconShape for IoGiftSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20461,11 +27217,23 @@ impl IconShape for IoGift {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20502,11 +27270,23 @@ impl IconShape for IoGitBranchOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20555,11 +27335,23 @@ impl IconShape for IoGitBranchSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20582,11 +27374,23 @@ impl IconShape for IoGitBranch {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20609,11 +27413,23 @@ impl IconShape for IoGitCommitOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20653,11 +27469,23 @@ impl IconShape for IoGitCommitSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20680,11 +27508,23 @@ impl IconShape for IoGitCommit {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20707,11 +27547,23 @@ impl IconShape for IoGitCompareOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20759,11 +27611,23 @@ impl IconShape for IoGitCompareSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20789,11 +27653,23 @@ impl IconShape for IoGitCompare {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20819,11 +27695,23 @@ impl IconShape for IoGitMergeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20872,11 +27760,23 @@ impl IconShape for IoGitMergeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20899,11 +27799,23 @@ impl IconShape for IoGitMerge {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20926,11 +27838,23 @@ impl IconShape for IoGitNetworkOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -20983,11 +27907,23 @@ impl IconShape for IoGitNetworkSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21010,11 +27946,23 @@ impl IconShape for IoGitNetwork {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21037,11 +27985,23 @@ impl IconShape for IoGitPullRequestOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21094,11 +28054,23 @@ impl IconShape for IoGitPullRequestSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21124,11 +28096,23 @@ impl IconShape for IoGitPullRequest {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21154,11 +28138,23 @@ impl IconShape for IoGlassesOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21204,11 +28200,23 @@ impl IconShape for IoGlassesSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21231,11 +28239,23 @@ impl IconShape for IoGlasses {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21258,11 +28278,23 @@ impl IconShape for IoGlobeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21312,11 +28344,23 @@ impl IconShape for IoGlobeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21366,11 +28410,23 @@ impl IconShape for IoGlobe {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21417,11 +28473,23 @@ impl IconShape for IoGolfOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21449,11 +28517,23 @@ impl IconShape for IoGolfSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21479,11 +28559,23 @@ impl IconShape for IoGolf {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21509,11 +28601,23 @@ impl IconShape for IoGridOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21569,11 +28673,23 @@ impl IconShape for IoGridSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21605,11 +28721,23 @@ impl IconShape for IoGrid {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21641,11 +28769,23 @@ impl IconShape for IoHammerOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21673,11 +28813,23 @@ impl IconShape for IoHammerSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21703,11 +28855,23 @@ impl IconShape for IoHammer {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21733,11 +28897,23 @@ impl IconShape for IoHandLeftOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21777,11 +28953,23 @@ impl IconShape for IoHandLeftSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21804,11 +28992,23 @@ impl IconShape for IoHandLeft {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21831,11 +29031,23 @@ impl IconShape for IoHandRightOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21875,11 +29087,23 @@ impl IconShape for IoHandRightSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21902,11 +29126,23 @@ impl IconShape for IoHandRight {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21929,11 +29165,23 @@ impl IconShape for IoHappyOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21972,11 +29220,23 @@ impl IconShape for IoHappySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -21999,11 +29259,23 @@ impl IconShape for IoHappy {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22026,11 +29298,23 @@ impl IconShape for IoHardwareChipOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22152,11 +29436,23 @@ impl IconShape for IoHardwareChipSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22185,11 +29481,23 @@ impl IconShape for IoHardwareChip {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22224,11 +29532,23 @@ impl IconShape for IoHeadsetOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22260,11 +29580,23 @@ impl IconShape for IoHeadsetSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22287,11 +29619,23 @@ impl IconShape for IoHeadset {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22314,11 +29658,23 @@ impl IconShape for IoHeartCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22345,11 +29701,23 @@ impl IconShape for IoHeartCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22372,11 +29740,23 @@ impl IconShape for IoHeartCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22399,11 +29779,23 @@ impl IconShape for IoHeartDislikeCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22436,11 +29828,23 @@ impl IconShape for IoHeartDislikeCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22463,11 +29867,23 @@ impl IconShape for IoHeartDislikeCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22490,11 +29906,23 @@ impl IconShape for IoHeartDislikeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22523,11 +29951,23 @@ impl IconShape for IoHeartDislikeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22556,11 +29996,23 @@ impl IconShape for IoHeartDislike {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22589,11 +30041,23 @@ impl IconShape for IoHeartHalfOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22616,11 +30080,23 @@ impl IconShape for IoHeartHalfSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22643,11 +30119,23 @@ impl IconShape for IoHeartHalf {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22670,11 +30158,23 @@ impl IconShape for IoHeartOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22698,11 +30198,23 @@ impl IconShape for IoHeartSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22725,11 +30237,23 @@ impl IconShape for IoHeart {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22752,11 +30276,23 @@ impl IconShape for IoHelpBuoyOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22844,11 +30380,23 @@ impl IconShape for IoHelpBuoySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22871,11 +30419,23 @@ impl IconShape for IoHelpBuoy {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22898,11 +30458,23 @@ impl IconShape for IoHelpCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22935,11 +30507,23 @@ impl IconShape for IoHelpCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22966,11 +30550,23 @@ impl IconShape for IoHelpCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -22993,11 +30589,23 @@ impl IconShape for IoHelpOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23026,11 +30634,23 @@ impl IconShape for IoHelpSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23062,11 +30682,23 @@ impl IconShape for IoHelp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23095,11 +30727,23 @@ impl IconShape for IoHomeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23131,11 +30775,23 @@ impl IconShape for IoHomeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23158,11 +30814,23 @@ impl IconShape for IoHome {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23188,11 +30856,23 @@ impl IconShape for IoHourglassOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23219,11 +30899,23 @@ impl IconShape for IoHourglassSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23246,11 +30938,23 @@ impl IconShape for IoHourglass {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23273,11 +30977,23 @@ impl IconShape for IoIceCreamOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23305,11 +31021,23 @@ impl IconShape for IoIceCreamSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23335,11 +31063,23 @@ impl IconShape for IoIceCream {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23365,11 +31105,23 @@ impl IconShape for IoIdCardOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23415,11 +31167,23 @@ impl IconShape for IoIdCardSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23442,11 +31206,23 @@ impl IconShape for IoIdCard {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23469,11 +31245,23 @@ impl IconShape for IoImageOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23516,11 +31304,23 @@ impl IconShape for IoImageSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23543,11 +31343,23 @@ impl IconShape for IoImage {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23570,11 +31382,23 @@ impl IconShape for IoImagesOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23622,11 +31446,23 @@ impl IconShape for IoImagesSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23659,11 +31495,23 @@ impl IconShape for IoImages {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23689,11 +31537,23 @@ impl IconShape for IoInfiniteOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23721,11 +31581,23 @@ impl IconShape for IoInfiniteSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23748,11 +31620,23 @@ impl IconShape for IoInfinite {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23780,11 +31664,23 @@ impl IconShape for IoInformationCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23822,11 +31718,23 @@ impl IconShape for IoInformationCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23849,11 +31757,23 @@ impl IconShape for IoInformationCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23876,11 +31796,23 @@ impl IconShape for IoInformationOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23914,11 +31846,23 @@ impl IconShape for IoInformationSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23952,11 +31896,23 @@ impl IconShape for IoInformation {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -23990,11 +31946,23 @@ impl IconShape for IoInvertModeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24028,11 +31996,23 @@ impl IconShape for IoInvertModeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24058,11 +32038,23 @@ impl IconShape for IoInvertMode {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24096,11 +32088,23 @@ impl IconShape for IoJournalOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24136,11 +32140,23 @@ impl IconShape for IoJournalSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24166,11 +32182,23 @@ impl IconShape for IoJournal {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24196,11 +32224,23 @@ impl IconShape for IoKeyOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24224,11 +32264,23 @@ impl IconShape for IoKeySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24251,11 +32303,23 @@ impl IconShape for IoKey {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24278,11 +32342,23 @@ impl IconShape for IoKeypadOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24360,11 +32436,23 @@ impl IconShape for IoKeypadSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24464,11 +32552,23 @@ impl IconShape for IoKeypad {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24518,11 +32618,23 @@ impl IconShape for IoLanguageOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24575,11 +32687,23 @@ impl IconShape for IoLanguageSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24605,11 +32729,23 @@ impl IconShape for IoLanguage {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24635,11 +32771,23 @@ impl IconShape for IoLaptopOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24675,11 +32823,23 @@ impl IconShape for IoLaptopSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24702,11 +32862,23 @@ impl IconShape for IoLaptop {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24729,11 +32901,23 @@ impl IconShape for IoLayersOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24765,11 +32949,23 @@ impl IconShape for IoLayersSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24798,11 +32994,23 @@ impl IconShape for IoLayers {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24831,11 +33039,23 @@ impl IconShape for IoLeafOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24863,11 +33083,23 @@ impl IconShape for IoLeafSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24893,11 +33125,23 @@ impl IconShape for IoLeaf {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24923,11 +33167,23 @@ impl IconShape for IoLibraryOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -24992,11 +33248,23 @@ impl IconShape for IoLibrarySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25037,11 +33305,23 @@ impl IconShape for IoLibrary {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25084,11 +33364,23 @@ impl IconShape for IoLinkOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25123,11 +33415,23 @@ impl IconShape for IoLinkSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25162,11 +33466,23 @@ impl IconShape for IoLink {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25201,11 +33517,23 @@ impl IconShape for IoListCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25268,11 +33596,23 @@ impl IconShape for IoListCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25295,11 +33635,23 @@ impl IconShape for IoListCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25322,11 +33674,23 @@ impl IconShape for IoListOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25385,11 +33749,23 @@ impl IconShape for IoListSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25451,11 +33827,23 @@ impl IconShape for IoList {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25514,11 +33902,23 @@ impl IconShape for IoLocateOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25570,11 +33970,23 @@ impl IconShape for IoLocateSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25626,11 +34038,23 @@ impl IconShape for IoLocate {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25682,11 +34106,23 @@ impl IconShape for IoLocationOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25716,11 +34152,23 @@ impl IconShape for IoLocationSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25743,11 +34191,23 @@ impl IconShape for IoLocation {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25775,11 +34235,23 @@ impl IconShape for IoLockClosedOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25812,11 +34284,23 @@ impl IconShape for IoLockClosedSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25839,11 +34323,23 @@ impl IconShape for IoLockClosed {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25866,11 +34362,23 @@ impl IconShape for IoLockOpenOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25903,11 +34411,23 @@ impl IconShape for IoLockOpenSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25930,11 +34450,23 @@ impl IconShape for IoLockOpen {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25957,11 +34489,23 @@ impl IconShape for IoLogInOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -25996,11 +34540,23 @@ impl IconShape for IoLogInSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26029,11 +34585,23 @@ impl IconShape for IoLogIn {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26059,11 +34627,23 @@ impl IconShape for IoLogOutOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26098,11 +34678,23 @@ impl IconShape for IoLogOutSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26128,11 +34720,23 @@ impl IconShape for IoLogOut {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26158,11 +34762,23 @@ impl IconShape for IoLogoAlipay {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26185,11 +34801,23 @@ impl IconShape for IoLogoAmazon {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26218,11 +34846,23 @@ impl IconShape for IoLogoAmplify {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26246,11 +34886,23 @@ impl IconShape for IoLogoAndroid {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26274,11 +34926,23 @@ impl IconShape for IoLogoAngular {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26304,11 +34968,23 @@ impl IconShape for IoLogoAppleAppstore {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26331,11 +35007,23 @@ impl IconShape for IoLogoAppleAr {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26474,11 +35162,23 @@ impl IconShape for IoLogoApple {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26504,11 +35204,23 @@ impl IconShape for IoLogoBehance {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26540,11 +35252,23 @@ impl IconShape for IoLogoBitbucket {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26567,11 +35291,23 @@ impl IconShape for IoLogoBitcoin {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26594,11 +35330,23 @@ impl IconShape for IoLogoBuffer {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26627,11 +35375,23 @@ impl IconShape for IoLogoCapacitor {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26657,11 +35417,23 @@ impl IconShape for IoLogoChrome {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26693,11 +35465,23 @@ impl IconShape for IoLogoClosedCaptioning {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26726,11 +35510,23 @@ impl IconShape for IoLogoCodepen {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26774,11 +35570,23 @@ impl IconShape for IoLogoCss3 {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26801,11 +35609,23 @@ impl IconShape for IoLogoDesignernews {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26834,11 +35654,23 @@ impl IconShape for IoLogoDeviantart {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26861,11 +35693,23 @@ impl IconShape for IoLogoDiscord {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26894,11 +35738,23 @@ impl IconShape for IoLogoDocker {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26948,11 +35804,23 @@ impl IconShape for IoLogoDribbble {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -26975,11 +35843,23 @@ impl IconShape for IoLogoDropbox {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27002,11 +35882,23 @@ impl IconShape for IoLogoEdge {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27029,11 +35921,23 @@ impl IconShape for IoLogoElectron {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27074,11 +35978,23 @@ impl IconShape for IoLogoEuro {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27101,11 +36017,23 @@ impl IconShape for IoLogoFacebook {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27129,11 +36057,23 @@ impl IconShape for IoLogoFigma {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27161,11 +36101,23 @@ impl IconShape for IoLogoFirebase {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27189,11 +36141,23 @@ impl IconShape for IoLogoFirefox {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27216,11 +36180,23 @@ impl IconShape for IoLogoFlickr {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27243,11 +36219,23 @@ impl IconShape for IoLogoFoursquare {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27270,11 +36258,23 @@ impl IconShape for IoLogoGithub {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27297,11 +36297,23 @@ impl IconShape for IoLogoGitlab {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27324,11 +36336,23 @@ impl IconShape for IoLogoGooglePlaystore {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27360,11 +36384,23 @@ impl IconShape for IoLogoGoogle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27387,11 +36423,23 @@ impl IconShape for IoLogoHackernews {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27414,11 +36462,23 @@ impl IconShape for IoLogoHtml5 {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27441,11 +36501,23 @@ impl IconShape for IoLogoInstagram {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27474,11 +36546,23 @@ impl IconShape for IoLogoIonic {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27509,11 +36593,23 @@ impl IconShape for IoLogoIonitron {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27539,11 +36635,23 @@ impl IconShape for IoLogoJavascript {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27566,11 +36674,23 @@ impl IconShape for IoLogoLaravel {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27593,11 +36713,23 @@ impl IconShape for IoLogoLinkedin {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27620,11 +36752,23 @@ impl IconShape for IoLogoMarkdown {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27647,11 +36791,23 @@ impl IconShape for IoLogoMastodon {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27674,11 +36830,23 @@ impl IconShape for IoLogoMedium {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27711,11 +36879,23 @@ impl IconShape for IoLogoMicrosoft {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27747,11 +36927,23 @@ impl IconShape for IoLogoNoSmoking {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27798,11 +36990,23 @@ impl IconShape for IoLogoNodejs {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27828,11 +37032,23 @@ impl IconShape for IoLogoNpm {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27861,11 +37077,23 @@ impl IconShape for IoLogoOctocat {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27894,11 +37122,23 @@ impl IconShape for IoLogoPaypal {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27924,11 +37164,23 @@ impl IconShape for IoLogoPinterest {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27951,11 +37203,23 @@ impl IconShape for IoLogoPlaystation {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -27984,11 +37248,23 @@ impl IconShape for IoLogoPwa {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28014,11 +37290,23 @@ impl IconShape for IoLogoPython {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28044,11 +37332,23 @@ impl IconShape for IoLogoReact {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28074,11 +37374,23 @@ impl IconShape for IoLogoReddit {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28113,11 +37425,23 @@ impl IconShape for IoLogoRss {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28146,11 +37470,23 @@ impl IconShape for IoLogoSass {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28173,11 +37509,23 @@ impl IconShape for IoLogoSkype {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28200,11 +37548,23 @@ impl IconShape for IoLogoSlack {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28248,11 +37608,23 @@ impl IconShape for IoLogoSnapchat {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28275,11 +37647,23 @@ impl IconShape for IoLogoSoundcloud {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28341,11 +37725,23 @@ impl IconShape for IoLogoStackoverflow {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28371,11 +37767,23 @@ impl IconShape for IoLogoSteam {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28398,11 +37806,23 @@ impl IconShape for IoLogoStencil {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28431,11 +37851,23 @@ impl IconShape for IoLogoTableau {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28480,11 +37912,23 @@ impl IconShape for IoLogoTiktok {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28507,11 +37951,23 @@ impl IconShape for IoLogoTumblr {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28534,11 +37990,23 @@ impl IconShape for IoLogoTux {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28561,11 +38029,23 @@ impl IconShape for IoLogoTwitch {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28600,11 +38080,23 @@ impl IconShape for IoLogoTwitter {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28627,11 +38119,23 @@ impl IconShape for IoLogoUsd {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28654,11 +38158,23 @@ impl IconShape for IoLogoVenmo {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28681,11 +38197,23 @@ impl IconShape for IoLogoVercel {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28709,11 +38237,23 @@ impl IconShape for IoLogoVimeo {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28736,11 +38276,23 @@ impl IconShape for IoLogoVk {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28764,11 +38316,23 @@ impl IconShape for IoLogoVue {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28794,11 +38358,23 @@ impl IconShape for IoLogoWebComponent {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28836,11 +38412,23 @@ impl IconShape for IoLogoWechat {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28868,11 +38456,23 @@ impl IconShape for IoLogoWhatsapp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28896,11 +38496,23 @@ impl IconShape for IoLogoWindows {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28932,11 +38544,23 @@ impl IconShape for IoLogoWordpress {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -28968,11 +38592,23 @@ impl IconShape for IoLogoXbox {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29004,11 +38640,23 @@ impl IconShape for IoLogoXing {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29034,11 +38682,23 @@ impl IconShape for IoLogoYahoo {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29061,11 +38721,23 @@ impl IconShape for IoLogoYen {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29088,11 +38760,23 @@ impl IconShape for IoLogoYoutube {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29115,11 +38799,23 @@ impl IconShape for IoMagnetOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29190,11 +38886,23 @@ impl IconShape for IoMagnetSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29252,11 +38960,23 @@ impl IconShape for IoMagnet {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29306,11 +39026,23 @@ impl IconShape for IoMailOpenOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29352,11 +39084,23 @@ impl IconShape for IoMailOpenSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29379,11 +39123,23 @@ impl IconShape for IoMailOpen {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29406,11 +39162,23 @@ impl IconShape for IoMailOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29443,11 +39211,23 @@ impl IconShape for IoMailSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29470,11 +39250,23 @@ impl IconShape for IoMailUnreadOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29510,11 +39302,23 @@ impl IconShape for IoMailUnreadSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29540,11 +39344,23 @@ impl IconShape for IoMailUnread {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29570,11 +39386,23 @@ impl IconShape for IoMail {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29597,11 +39425,23 @@ impl IconShape for IoMaleFemaleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29652,11 +39492,23 @@ impl IconShape for IoMaleFemaleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29679,11 +39531,23 @@ impl IconShape for IoMaleFemale {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29706,11 +39570,23 @@ impl IconShape for IoMaleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29756,11 +39632,23 @@ impl IconShape for IoMaleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29783,11 +39671,23 @@ impl IconShape for IoMale {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29810,11 +39710,23 @@ impl IconShape for IoManOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29852,11 +39764,23 @@ impl IconShape for IoManSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29884,11 +39808,23 @@ impl IconShape for IoMan {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29916,11 +39852,23 @@ impl IconShape for IoMapOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29958,11 +39906,23 @@ impl IconShape for IoMapSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -29985,11 +39945,23 @@ impl IconShape for IoMap {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30018,11 +39990,23 @@ impl IconShape for IoMedalOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30079,11 +40063,23 @@ impl IconShape for IoMedalSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30114,11 +40110,23 @@ impl IconShape for IoMedal {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30149,11 +40157,23 @@ impl IconShape for IoMedicalOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30177,11 +40197,23 @@ impl IconShape for IoMedicalSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30204,11 +40236,23 @@ impl IconShape for IoMedical {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30231,11 +40275,23 @@ impl IconShape for IoMedkitOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30282,11 +40338,23 @@ impl IconShape for IoMedkitSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30316,11 +40384,23 @@ impl IconShape for IoMedkit {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30347,11 +40427,23 @@ impl IconShape for IoMegaphoneOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30401,11 +40493,23 @@ impl IconShape for IoMegaphoneSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30434,11 +40538,23 @@ impl IconShape for IoMegaphone {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30467,11 +40583,23 @@ impl IconShape for IoMenuOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30512,11 +40640,23 @@ impl IconShape for IoMenuSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30539,11 +40679,23 @@ impl IconShape for IoMenu {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30584,11 +40736,23 @@ impl IconShape for IoMicCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30638,11 +40802,23 @@ impl IconShape for IoMicCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30665,11 +40841,23 @@ impl IconShape for IoMicCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30692,11 +40880,23 @@ impl IconShape for IoMicOffCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30734,11 +40934,23 @@ impl IconShape for IoMicOffCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30761,11 +40973,23 @@ impl IconShape for IoMicOffCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30788,11 +41012,23 @@ impl IconShape for IoMicOffOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30831,11 +41067,23 @@ impl IconShape for IoMicOffSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30874,11 +41122,23 @@ impl IconShape for IoMicOff {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30917,11 +41177,23 @@ impl IconShape for IoMicOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -30963,11 +41235,23 @@ impl IconShape for IoMicSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31008,11 +41292,23 @@ impl IconShape for IoMic {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31053,11 +41349,23 @@ impl IconShape for IoMoonOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31081,11 +41389,23 @@ impl IconShape for IoMoonSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31108,11 +41428,23 @@ impl IconShape for IoMoon {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31135,11 +41467,23 @@ impl IconShape for IoMoveOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31189,11 +41533,23 @@ impl IconShape for IoMoveSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31243,11 +41599,23 @@ impl IconShape for IoMove {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31297,11 +41665,23 @@ impl IconShape for IoMusicalNoteOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31325,11 +41705,23 @@ impl IconShape for IoMusicalNoteSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31352,11 +41744,23 @@ impl IconShape for IoMusicalNote {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31379,11 +41783,23 @@ impl IconShape for IoMusicalNotesOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31411,11 +41827,23 @@ impl IconShape for IoMusicalNotesSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31438,11 +41866,23 @@ impl IconShape for IoMusicalNotes {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31465,11 +41905,23 @@ impl IconShape for IoNavigateCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31496,11 +41948,23 @@ impl IconShape for IoNavigateCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31523,11 +41987,23 @@ impl IconShape for IoNavigateCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31550,11 +42026,23 @@ impl IconShape for IoNavigateOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31578,11 +42066,23 @@ impl IconShape for IoNavigateSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31605,11 +42105,23 @@ impl IconShape for IoNavigate {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31632,11 +42144,23 @@ impl IconShape for IoNewspaperOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31702,11 +42226,23 @@ impl IconShape for IoNewspaperSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31741,11 +42277,23 @@ impl IconShape for IoNewspaper {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31771,11 +42319,23 @@ impl IconShape for IoNotificationsCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31805,11 +42365,23 @@ impl IconShape for IoNotificationsCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31843,11 +42415,23 @@ impl IconShape for IoNotificationsCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31870,11 +42454,23 @@ impl IconShape for IoNotificationsOffCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31910,11 +42506,23 @@ impl IconShape for IoNotificationsOffCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31937,11 +42545,23 @@ impl IconShape for IoNotificationsOffCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -31964,11 +42584,23 @@ impl IconShape for IoNotificationsOffOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32007,11 +42639,23 @@ impl IconShape for IoNotificationsOffSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32047,11 +42691,23 @@ impl IconShape for IoNotificationsOff {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32083,11 +42739,23 @@ impl IconShape for IoNotificationsOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32115,11 +42783,23 @@ impl IconShape for IoNotificationsSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32145,11 +42825,23 @@ impl IconShape for IoNotifications {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32175,11 +42867,23 @@ impl IconShape for IoNuclearOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32253,11 +42957,23 @@ impl IconShape for IoNuclearSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32289,11 +43005,23 @@ impl IconShape for IoNuclear {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32316,11 +43044,23 @@ impl IconShape for IoNutritionOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32359,11 +43099,23 @@ impl IconShape for IoNutritionSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32389,11 +43141,23 @@ impl IconShape for IoNutrition {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32419,11 +43183,23 @@ impl IconShape for IoOpenOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32458,11 +43234,23 @@ impl IconShape for IoOpenSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32488,11 +43276,23 @@ impl IconShape for IoOpen {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32518,11 +43318,23 @@ impl IconShape for IoOptionsOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32602,11 +43414,23 @@ impl IconShape for IoOptionsSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32635,11 +43459,23 @@ impl IconShape for IoOptions {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32668,11 +43504,23 @@ impl IconShape for IoPaperPlaneOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32703,11 +43551,23 @@ impl IconShape for IoPaperPlaneSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32730,11 +43590,23 @@ impl IconShape for IoPaperPlane {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32757,11 +43629,23 @@ impl IconShape for IoPartlySunnyOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32817,11 +43701,23 @@ impl IconShape for IoPartlySunnySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32869,11 +43765,23 @@ impl IconShape for IoPartlySunny {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32911,11 +43819,23 @@ impl IconShape for IoPauseCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32953,11 +43873,23 @@ impl IconShape for IoPauseCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -32980,11 +43912,23 @@ impl IconShape for IoPauseCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33007,11 +43951,23 @@ impl IconShape for IoPauseOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33045,11 +44001,23 @@ impl IconShape for IoPauseSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33075,11 +44043,23 @@ impl IconShape for IoPause {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33105,11 +44085,23 @@ impl IconShape for IoPawOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33149,11 +44141,23 @@ impl IconShape for IoPawSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33200,11 +44204,23 @@ impl IconShape for IoPaw {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33239,11 +44255,23 @@ impl IconShape for IoPencilOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33271,11 +44299,23 @@ impl IconShape for IoPencilSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33301,11 +44341,23 @@ impl IconShape for IoPencil {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33333,11 +44385,23 @@ impl IconShape for IoPeopleCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33372,11 +44436,23 @@ impl IconShape for IoPeopleCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33399,11 +44475,23 @@ impl IconShape for IoPeopleCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33486,11 +44574,23 @@ impl IconShape for IoPeopleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33526,11 +44626,23 @@ impl IconShape for IoPeopleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33566,11 +44678,23 @@ impl IconShape for IoPeople {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33602,11 +44726,23 @@ impl IconShape for IoPersonAddOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33648,11 +44784,23 @@ impl IconShape for IoPersonAddSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33683,11 +44831,23 @@ impl IconShape for IoPersonAdd {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33716,11 +44876,23 @@ impl IconShape for IoPersonCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33746,11 +44918,23 @@ impl IconShape for IoPersonCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33773,11 +44957,23 @@ impl IconShape for IoPersonCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33800,11 +44996,23 @@ impl IconShape for IoPersonOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33832,11 +45040,23 @@ impl IconShape for IoPersonRemoveOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33871,11 +45091,23 @@ impl IconShape for IoPersonRemoveSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33909,11 +45141,23 @@ impl IconShape for IoPersonRemove {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33942,11 +45186,23 @@ impl IconShape for IoPersonSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33969,11 +45225,23 @@ impl IconShape for IoPerson {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -33999,11 +45267,23 @@ impl IconShape for IoPhoneLandscapeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34037,11 +45317,23 @@ impl IconShape for IoPhoneLandscapeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34064,11 +45356,23 @@ impl IconShape for IoPhoneLandscape {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34097,11 +45401,23 @@ impl IconShape for IoPhonePortraitOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34134,11 +45450,23 @@ impl IconShape for IoPhonePortraitSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34161,11 +45489,23 @@ impl IconShape for IoPhonePortrait {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34194,11 +45534,23 @@ impl IconShape for IoPieChartOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34226,11 +45578,23 @@ impl IconShape for IoPieChartSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34256,11 +45620,23 @@ impl IconShape for IoPieChart {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34286,11 +45662,23 @@ impl IconShape for IoPinOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34324,11 +45712,23 @@ impl IconShape for IoPinSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34351,11 +45751,23 @@ impl IconShape for IoPin {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34378,11 +45790,23 @@ impl IconShape for IoPintOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34413,11 +45837,23 @@ impl IconShape for IoPintSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34440,11 +45876,23 @@ impl IconShape for IoPint {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34467,11 +45915,23 @@ impl IconShape for IoPizzaOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34514,11 +45974,23 @@ impl IconShape for IoPizzaSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34568,11 +46040,23 @@ impl IconShape for IoPizza {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34598,11 +46082,23 @@ impl IconShape for IoPlanetOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34632,11 +46128,23 @@ impl IconShape for IoPlanetSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34662,11 +46170,23 @@ impl IconShape for IoPlanet {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34692,11 +46212,23 @@ impl IconShape for IoPlayBackCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34723,11 +46255,23 @@ impl IconShape for IoPlayBackCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34750,11 +46294,23 @@ impl IconShape for IoPlayBackCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34777,11 +46333,23 @@ impl IconShape for IoPlayBackOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34809,11 +46377,23 @@ impl IconShape for IoPlayBackSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34839,11 +46419,23 @@ impl IconShape for IoPlayBack {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34866,11 +46458,23 @@ impl IconShape for IoPlayCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34897,11 +46501,23 @@ impl IconShape for IoPlayCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34924,11 +46540,23 @@ impl IconShape for IoPlayCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34951,11 +46579,23 @@ impl IconShape for IoPlayForwardCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -34982,11 +46622,23 @@ impl IconShape for IoPlayForwardCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35009,11 +46661,23 @@ impl IconShape for IoPlayForwardCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35036,11 +46700,23 @@ impl IconShape for IoPlayForwardOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35068,11 +46744,23 @@ impl IconShape for IoPlayForwardSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35098,11 +46786,23 @@ impl IconShape for IoPlayForward {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35125,11 +46825,23 @@ impl IconShape for IoPlayOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35153,11 +46865,23 @@ impl IconShape for IoPlaySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35180,11 +46904,23 @@ impl IconShape for IoPlaySkipBackCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35211,11 +46947,23 @@ impl IconShape for IoPlaySkipBackCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35238,11 +46986,23 @@ impl IconShape for IoPlaySkipBackCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35265,11 +47025,23 @@ impl IconShape for IoPlaySkipBackOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35300,11 +47072,23 @@ impl IconShape for IoPlaySkipBackSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35327,11 +47111,23 @@ impl IconShape for IoPlaySkipBack {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35354,11 +47150,23 @@ impl IconShape for IoPlaySkipForwardCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35385,11 +47193,23 @@ impl IconShape for IoPlaySkipForwardCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35412,11 +47232,23 @@ impl IconShape for IoPlaySkipForwardCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35439,11 +47271,23 @@ impl IconShape for IoPlaySkipForwardOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35474,11 +47318,23 @@ impl IconShape for IoPlaySkipForwardSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35501,11 +47357,23 @@ impl IconShape for IoPlaySkipForward {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35528,11 +47396,23 @@ impl IconShape for IoPlay {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35555,11 +47435,23 @@ impl IconShape for IoPodiumOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35591,11 +47483,23 @@ impl IconShape for IoPodiumSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35633,11 +47537,23 @@ impl IconShape for IoPodium {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35666,11 +47582,23 @@ impl IconShape for IoPowerOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35701,11 +47629,23 @@ impl IconShape for IoPowerSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35734,11 +47674,23 @@ impl IconShape for IoPower {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35764,11 +47716,23 @@ impl IconShape for IoPricetagOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35795,11 +47759,23 @@ impl IconShape for IoPricetagSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35822,11 +47798,23 @@ impl IconShape for IoPricetag {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35849,11 +47837,23 @@ impl IconShape for IoPricetagsOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35884,11 +47884,23 @@ impl IconShape for IoPricetagsSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35914,11 +47926,23 @@ impl IconShape for IoPricetags {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35944,11 +47968,23 @@ impl IconShape for IoPrintOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35990,11 +48026,23 @@ impl IconShape for IoPrintSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36038,11 +48086,23 @@ impl IconShape for IoPrint {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36068,11 +48128,23 @@ impl IconShape for IoPrismOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36109,11 +48181,23 @@ impl IconShape for IoPrismSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36136,11 +48220,23 @@ impl IconShape for IoPrism {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36163,11 +48259,23 @@ impl IconShape for IoPulseOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36197,11 +48305,23 @@ impl IconShape for IoPulseSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36224,11 +48344,23 @@ impl IconShape for IoPulse {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36251,11 +48383,23 @@ impl IconShape for IoPushOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36290,11 +48434,23 @@ impl IconShape for IoPushSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36323,11 +48479,23 @@ impl IconShape for IoPush {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36353,11 +48521,23 @@ impl IconShape for IoQrCodeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36468,11 +48648,23 @@ impl IconShape for IoQrCodeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36549,11 +48741,23 @@ impl IconShape for IoQrCode {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36622,11 +48826,23 @@ impl IconShape for IoRadioButtonOffOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36650,11 +48866,23 @@ impl IconShape for IoRadioButtonOffSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36678,11 +48906,23 @@ impl IconShape for IoRadioButtonOff {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36706,11 +48946,23 @@ impl IconShape for IoRadioButtonOnOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36739,11 +48991,23 @@ impl IconShape for IoRadioButtonOnSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36772,11 +49036,23 @@ impl IconShape for IoRadioButtonOn {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36805,11 +49081,23 @@ impl IconShape for IoRadioOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36858,11 +49146,23 @@ impl IconShape for IoRadioSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36906,11 +49206,23 @@ impl IconShape for IoRadio {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -36953,11 +49265,23 @@ impl IconShape for IoRainyOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37009,11 +49333,23 @@ impl IconShape for IoRainySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37064,11 +49400,23 @@ impl IconShape for IoRainy {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37103,11 +49451,23 @@ impl IconShape for IoReaderOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37157,11 +49517,23 @@ impl IconShape for IoReaderSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37184,11 +49556,23 @@ impl IconShape for IoReader {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37211,11 +49595,23 @@ impl IconShape for IoReceiptOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37257,11 +49653,23 @@ impl IconShape for IoReceiptSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37287,11 +49695,23 @@ impl IconShape for IoReceipt {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37317,11 +49737,23 @@ impl IconShape for IoRecordingOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37360,11 +49792,23 @@ impl IconShape for IoRecordingSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37387,11 +49831,23 @@ impl IconShape for IoRecording {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37414,11 +49870,23 @@ impl IconShape for IoRefreshCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37450,11 +49918,23 @@ impl IconShape for IoRefreshCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37477,11 +49957,23 @@ impl IconShape for IoRefreshCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37504,11 +49996,23 @@ impl IconShape for IoRefreshOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37536,11 +50040,23 @@ impl IconShape for IoRefreshSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37568,11 +50084,23 @@ impl IconShape for IoRefresh {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37600,11 +50128,23 @@ impl IconShape for IoReloadCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37635,11 +50175,23 @@ impl IconShape for IoReloadCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37662,11 +50214,23 @@ impl IconShape for IoReloadCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37689,11 +50253,23 @@ impl IconShape for IoReloadOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37720,11 +50296,23 @@ impl IconShape for IoReloadSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37751,11 +50339,23 @@ impl IconShape for IoReload {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37782,11 +50382,23 @@ impl IconShape for IoRemoveCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37817,11 +50429,23 @@ impl IconShape for IoRemoveCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37844,11 +50468,23 @@ impl IconShape for IoRemoveCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37871,11 +50507,23 @@ impl IconShape for IoRemoveOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37902,11 +50550,23 @@ impl IconShape for IoRemoveSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37933,11 +50593,23 @@ impl IconShape for IoRemove {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -37964,11 +50636,23 @@ impl IconShape for IoReorderFourOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38016,11 +50700,23 @@ impl IconShape for IoReorderFourSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38068,11 +50764,23 @@ impl IconShape for IoReorderFour {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38120,11 +50828,23 @@ impl IconShape for IoReorderThreeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38165,11 +50885,23 @@ impl IconShape for IoReorderThreeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38210,11 +50942,23 @@ impl IconShape for IoReorderThree {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38255,11 +50999,23 @@ impl IconShape for IoReorderTwoOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38293,11 +51049,23 @@ impl IconShape for IoReorderTwoSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38331,11 +51099,23 @@ impl IconShape for IoReorderTwo {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38369,11 +51149,23 @@ impl IconShape for IoRepeatOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38409,11 +51201,23 @@ impl IconShape for IoRepeatSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38449,11 +51253,23 @@ impl IconShape for IoRepeat {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38489,11 +51305,23 @@ impl IconShape for IoResizeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38528,11 +51356,23 @@ impl IconShape for IoResizeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38567,11 +51407,23 @@ impl IconShape for IoResize {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38606,11 +51458,23 @@ impl IconShape for IoRestaurantOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38653,11 +51517,23 @@ impl IconShape for IoRestaurantSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38683,11 +51559,23 @@ impl IconShape for IoRestaurant {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38713,11 +51601,23 @@ impl IconShape for IoReturnDownBackOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38745,11 +51645,23 @@ impl IconShape for IoReturnDownBackSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38777,11 +51689,23 @@ impl IconShape for IoReturnDownBack {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38809,11 +51733,23 @@ impl IconShape for IoReturnDownForwardOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38841,11 +51777,23 @@ impl IconShape for IoReturnDownForwardSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38873,11 +51821,23 @@ impl IconShape for IoReturnDownForward {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38905,11 +51865,23 @@ impl IconShape for IoReturnUpBackOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38937,11 +51909,23 @@ impl IconShape for IoReturnUpBackSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -38969,11 +51953,23 @@ impl IconShape for IoReturnUpBack {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39001,11 +51997,23 @@ impl IconShape for IoReturnUpForwardOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39033,11 +52041,23 @@ impl IconShape for IoReturnUpForwardSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39065,11 +52085,23 @@ impl IconShape for IoReturnUpForward {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39097,11 +52129,23 @@ impl IconShape for IoRibbonOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39141,11 +52185,23 @@ impl IconShape for IoRibbonSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39179,11 +52235,23 @@ impl IconShape for IoRibbon {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39218,11 +52286,23 @@ impl IconShape for IoRocketOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39250,11 +52330,23 @@ impl IconShape for IoRocketSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39280,11 +52372,23 @@ impl IconShape for IoRocket {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39313,11 +52417,23 @@ impl IconShape for IoRoseOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39353,11 +52469,23 @@ impl IconShape for IoRoseSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39389,11 +52517,23 @@ impl IconShape for IoRose {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39425,11 +52565,23 @@ impl IconShape for IoSadOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39468,11 +52620,23 @@ impl IconShape for IoSadSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39495,11 +52659,23 @@ impl IconShape for IoSad {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39522,11 +52698,23 @@ impl IconShape for IoSaveOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39550,11 +52738,23 @@ impl IconShape for IoSaveSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39577,11 +52777,23 @@ impl IconShape for IoSave {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39609,11 +52821,23 @@ impl IconShape for IoScaleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39649,11 +52873,23 @@ impl IconShape for IoScaleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39676,11 +52912,23 @@ impl IconShape for IoScale {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39703,11 +52951,23 @@ impl IconShape for IoScanCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39747,11 +53007,23 @@ impl IconShape for IoScanCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39774,11 +53046,23 @@ impl IconShape for IoScanCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39801,11 +53085,23 @@ impl IconShape for IoScanOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39841,11 +53137,23 @@ impl IconShape for IoScanSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39877,11 +53185,23 @@ impl IconShape for IoScan {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39917,11 +53237,23 @@ impl IconShape for IoSchoolOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39963,11 +53295,23 @@ impl IconShape for IoSchoolSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -39993,11 +53337,23 @@ impl IconShape for IoSchool {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40023,11 +53379,23 @@ impl IconShape for IoSearchCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40062,11 +53430,23 @@ impl IconShape for IoSearchCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40094,11 +53474,23 @@ impl IconShape for IoSearchCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40126,11 +53518,23 @@ impl IconShape for IoSearchOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40161,11 +53565,23 @@ impl IconShape for IoSearchSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40188,11 +53604,23 @@ impl IconShape for IoSearch {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40215,11 +53643,23 @@ impl IconShape for IoSendOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40243,11 +53683,23 @@ impl IconShape for IoSendSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40270,11 +53722,23 @@ impl IconShape for IoSend {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40297,11 +53761,23 @@ impl IconShape for IoServerOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40340,11 +53816,23 @@ impl IconShape for IoServerSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40376,11 +53864,23 @@ impl IconShape for IoServer {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40412,11 +53912,23 @@ impl IconShape for IoSettingsOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40440,11 +53952,23 @@ impl IconShape for IoSettingsSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40467,11 +53991,23 @@ impl IconShape for IoSettings {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40499,11 +54035,23 @@ impl IconShape for IoShapesOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40531,11 +54079,23 @@ impl IconShape for IoShapesSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40561,11 +54121,23 @@ impl IconShape for IoShapes {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40591,11 +54163,23 @@ impl IconShape for IoShareOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40630,11 +54214,23 @@ impl IconShape for IoShareSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40660,11 +54256,23 @@ impl IconShape for IoShareSocialOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40716,11 +54324,23 @@ impl IconShape for IoShareSocialSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40743,11 +54363,23 @@ impl IconShape for IoShareSocial {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40770,11 +54402,23 @@ impl IconShape for IoShare {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40800,11 +54444,23 @@ impl IconShape for IoShieldCheckmarkOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40832,11 +54488,23 @@ impl IconShape for IoShieldCheckmarkSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40859,11 +54527,23 @@ impl IconShape for IoShieldCheckmark {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40886,11 +54566,23 @@ impl IconShape for IoShieldHalfOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40920,11 +54612,23 @@ impl IconShape for IoShieldHalfSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40947,11 +54651,23 @@ impl IconShape for IoShieldHalf {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -40981,11 +54697,23 @@ impl IconShape for IoShieldOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41009,11 +54737,23 @@ impl IconShape for IoShieldSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41036,11 +54776,23 @@ impl IconShape for IoShield {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41063,11 +54815,23 @@ impl IconShape for IoShirtOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41095,11 +54859,23 @@ impl IconShape for IoShirtSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41125,11 +54901,23 @@ impl IconShape for IoShirt {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41155,11 +54943,23 @@ impl IconShape for IoShuffleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41199,11 +54999,23 @@ impl IconShape for IoShuffleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41243,11 +55055,23 @@ impl IconShape for IoShuffle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41287,11 +55111,23 @@ impl IconShape for IoSkullOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41352,11 +55188,23 @@ impl IconShape for IoSkullSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41379,11 +55227,23 @@ impl IconShape for IoSkull {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41406,11 +55266,23 @@ impl IconShape for IoSnowOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41475,11 +55347,23 @@ impl IconShape for IoSnowSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41502,11 +55386,23 @@ impl IconShape for IoSnow {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41529,11 +55425,23 @@ impl IconShape for IoSparklesOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41574,11 +55482,23 @@ impl IconShape for IoSparklesSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41607,11 +55527,23 @@ impl IconShape for IoSparkles {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41640,11 +55572,23 @@ impl IconShape for IoSpeedometerOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41706,11 +55650,23 @@ impl IconShape for IoSpeedometerSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41733,11 +55689,23 @@ impl IconShape for IoSpeedometer {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41760,11 +55728,23 @@ impl IconShape for IoSquareOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41788,11 +55768,23 @@ impl IconShape for IoSquareSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41818,11 +55810,23 @@ impl IconShape for IoSquare {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41845,11 +55849,23 @@ impl IconShape for IoStarHalfOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41876,11 +55892,23 @@ impl IconShape for IoStarHalfSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41903,11 +55931,23 @@ impl IconShape for IoStarHalf {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41934,11 +55974,23 @@ impl IconShape for IoStarOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41962,11 +56014,23 @@ impl IconShape for IoStarSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -41989,11 +56053,23 @@ impl IconShape for IoStar {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42016,11 +56092,23 @@ impl IconShape for IoStatsChartOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42076,11 +56164,23 @@ impl IconShape for IoStatsChartSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42112,11 +56212,23 @@ impl IconShape for IoStatsChart {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42148,11 +56260,23 @@ impl IconShape for IoStopCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42179,11 +56303,23 @@ impl IconShape for IoStopCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42206,11 +56342,23 @@ impl IconShape for IoStopCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42233,11 +56381,23 @@ impl IconShape for IoStopOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42266,11 +56426,23 @@ impl IconShape for IoStopSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42296,11 +56468,23 @@ impl IconShape for IoStop {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42323,11 +56507,23 @@ impl IconShape for IoStopwatchOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42378,11 +56574,23 @@ impl IconShape for IoStopwatchSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42405,11 +56613,23 @@ impl IconShape for IoStopwatch {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42437,11 +56657,23 @@ impl IconShape for IoStorefrontOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42512,11 +56744,23 @@ impl IconShape for IoStorefrontSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42542,11 +56786,23 @@ impl IconShape for IoStorefront {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42572,11 +56828,23 @@ impl IconShape for IoSubwayOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42654,11 +56922,23 @@ impl IconShape for IoSubwaySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42684,11 +56964,23 @@ impl IconShape for IoSubway {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42714,11 +57006,23 @@ impl IconShape for IoSunnyOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42800,11 +57104,23 @@ impl IconShape for IoSunnySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42879,11 +57195,23 @@ impl IconShape for IoSunny {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42930,11 +57258,23 @@ impl IconShape for IoSwapHorizontalOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -42976,11 +57316,23 @@ impl IconShape for IoSwapHorizontalSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43022,11 +57374,23 @@ impl IconShape for IoSwapHorizontal {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43068,11 +57432,23 @@ impl IconShape for IoSwapVerticalOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43114,11 +57490,23 @@ impl IconShape for IoSwapVerticalSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43160,11 +57548,23 @@ impl IconShape for IoSwapVertical {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43206,11 +57606,23 @@ impl IconShape for IoSyncCircleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43246,11 +57658,23 @@ impl IconShape for IoSyncCircleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43273,11 +57697,23 @@ impl IconShape for IoSyncCircle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43300,11 +57736,23 @@ impl IconShape for IoSyncOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43336,11 +57784,23 @@ impl IconShape for IoSyncSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43372,11 +57832,23 @@ impl IconShape for IoSync {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43408,11 +57880,23 @@ impl IconShape for IoTabletLandscapeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43442,11 +57926,23 @@ impl IconShape for IoTabletLandscapeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43469,11 +57965,23 @@ impl IconShape for IoTabletLandscape {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43499,11 +58007,23 @@ impl IconShape for IoTabletPortraitOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43532,11 +58052,23 @@ impl IconShape for IoTabletPortraitSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43559,11 +58091,23 @@ impl IconShape for IoTabletPortrait {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43589,11 +58133,23 @@ impl IconShape for IoTelescopeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43654,11 +58210,23 @@ impl IconShape for IoTelescopeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43687,11 +58255,23 @@ impl IconShape for IoTelescope {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43720,11 +58300,23 @@ impl IconShape for IoTennisballOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43758,11 +58350,23 @@ impl IconShape for IoTennisballSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43791,11 +58395,23 @@ impl IconShape for IoTennisball {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43824,11 +58440,23 @@ impl IconShape for IoTerminalOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43868,11 +58496,23 @@ impl IconShape for IoTerminalSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43895,11 +58535,23 @@ impl IconShape for IoTerminal {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43922,11 +58574,23 @@ impl IconShape for IoTextOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43965,11 +58629,23 @@ impl IconShape for IoTextSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -43995,11 +58671,23 @@ impl IconShape for IoText {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44025,11 +58713,23 @@ impl IconShape for IoThermometerOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44065,11 +58765,23 @@ impl IconShape for IoThermometerSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44092,11 +58804,23 @@ impl IconShape for IoThermometer {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44119,11 +58843,23 @@ impl IconShape for IoThumbsDownOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44163,11 +58899,23 @@ impl IconShape for IoThumbsDownSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44201,11 +58949,23 @@ impl IconShape for IoThumbsDown {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44242,11 +59002,23 @@ impl IconShape for IoThumbsUpOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44286,11 +59058,23 @@ impl IconShape for IoThumbsUpSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44313,11 +59097,23 @@ impl IconShape for IoThumbsUp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44354,11 +59150,23 @@ impl IconShape for IoThunderstormOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44414,11 +59222,23 @@ impl IconShape for IoThunderstormSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44469,11 +59289,23 @@ impl IconShape for IoThunderstorm {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44508,11 +59340,23 @@ impl IconShape for IoTicketOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44578,11 +59422,23 @@ impl IconShape for IoTicketSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44605,11 +59461,23 @@ impl IconShape for IoTicket {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44632,11 +59500,23 @@ impl IconShape for IoTimeOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44664,11 +59544,23 @@ impl IconShape for IoTimeSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44691,11 +59583,23 @@ impl IconShape for IoTime {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44718,11 +59622,23 @@ impl IconShape for IoTimerOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44749,11 +59665,23 @@ impl IconShape for IoTimerSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44776,11 +59704,23 @@ impl IconShape for IoTimer {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44803,11 +59743,23 @@ impl IconShape for IoTodayOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44878,11 +59830,23 @@ impl IconShape for IoTodaySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44908,11 +59872,23 @@ impl IconShape for IoToday {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44938,11 +59914,23 @@ impl IconShape for IoToggleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -44977,11 +59965,23 @@ impl IconShape for IoToggleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45004,11 +60004,23 @@ impl IconShape for IoToggle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45031,11 +60043,23 @@ impl IconShape for IoTrailSignOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45084,11 +60108,23 @@ impl IconShape for IoTrailSignSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45111,11 +60147,23 @@ impl IconShape for IoTrailSign {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45138,11 +60186,23 @@ impl IconShape for IoTrainOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45187,11 +60247,23 @@ impl IconShape for IoTrainSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45217,11 +60289,23 @@ impl IconShape for IoTrain {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45254,11 +60338,23 @@ impl IconShape for IoTransgenderOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45327,11 +60423,23 @@ impl IconShape for IoTransgenderSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45354,11 +60462,23 @@ impl IconShape for IoTransgender {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45381,11 +60501,23 @@ impl IconShape for IoTrashBinOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45432,11 +60564,23 @@ impl IconShape for IoTrashBinSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45475,11 +60619,23 @@ impl IconShape for IoTrashBin {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45510,11 +60666,23 @@ impl IconShape for IoTrashOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45570,11 +60738,23 @@ impl IconShape for IoTrashSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45605,11 +60785,23 @@ impl IconShape for IoTrash {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45636,11 +60828,23 @@ impl IconShape for IoTrendingDownOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45668,11 +60872,23 @@ impl IconShape for IoTrendingDownSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45700,11 +60916,23 @@ impl IconShape for IoTrendingDown {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45732,11 +60960,23 @@ impl IconShape for IoTrendingUpOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45764,11 +61004,23 @@ impl IconShape for IoTrendingUpSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45796,11 +61048,23 @@ impl IconShape for IoTrendingUp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45828,11 +61092,23 @@ impl IconShape for IoTriangleOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45856,11 +61132,23 @@ impl IconShape for IoTriangleSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45883,11 +61171,23 @@ impl IconShape for IoTriangle {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45910,11 +61210,23 @@ impl IconShape for IoTrophyOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45960,11 +61272,23 @@ impl IconShape for IoTrophySharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -45987,11 +61311,23 @@ impl IconShape for IoTrophy {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46014,11 +61350,23 @@ impl IconShape for IoTvOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46054,11 +61402,23 @@ impl IconShape for IoTvSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46089,11 +61449,23 @@ impl IconShape for IoTv {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46123,11 +61495,23 @@ impl IconShape for IoUmbrellaOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46162,11 +61546,23 @@ impl IconShape for IoUmbrellaSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46195,11 +61591,23 @@ impl IconShape for IoUmbrella {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46222,11 +61630,23 @@ impl IconShape for IoUnlinkOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46260,11 +61680,23 @@ impl IconShape for IoUnlinkSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46298,11 +61730,23 @@ impl IconShape for IoUnlink {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46336,11 +61780,23 @@ impl IconShape for IoVideocamOffOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46391,11 +61847,23 @@ impl IconShape for IoVideocamOffSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46428,11 +61896,23 @@ impl IconShape for IoVideocamOff {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "300"
+    }
+    fn height(&self) -> &str {
+        "150"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46471,11 +61951,23 @@ impl IconShape for IoVideocamOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46503,11 +61995,23 @@ impl IconShape for IoVideocamSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46530,11 +62034,23 @@ impl IconShape for IoVideocam {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46560,11 +62076,23 @@ impl IconShape for IoVolumeHighOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46600,11 +62128,23 @@ impl IconShape for IoVolumeHighSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46639,11 +62179,23 @@ impl IconShape for IoVolumeHigh {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46675,11 +62227,23 @@ impl IconShape for IoVolumeLowOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46707,11 +62271,23 @@ impl IconShape for IoVolumeLowSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46737,11 +62313,23 @@ impl IconShape for IoVolumeLow {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46767,11 +62355,23 @@ impl IconShape for IoVolumeMediumOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46803,11 +62403,23 @@ impl IconShape for IoVolumeMediumSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46838,11 +62450,23 @@ impl IconShape for IoVolumeMedium {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46871,11 +62495,23 @@ impl IconShape for IoVolumeMuteOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46917,11 +62553,23 @@ impl IconShape for IoVolumeMuteSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46963,11 +62611,23 @@ impl IconShape for IoVolumeMute {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47009,11 +62669,23 @@ impl IconShape for IoVolumeOffOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47037,11 +62709,23 @@ impl IconShape for IoVolumeOffSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47064,11 +62748,23 @@ impl IconShape for IoVolumeOff {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47091,11 +62787,23 @@ impl IconShape for IoWalkOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47143,11 +62851,23 @@ impl IconShape for IoWalkSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47187,11 +62907,23 @@ impl IconShape for IoWalk {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47231,11 +62963,23 @@ impl IconShape for IoWalletOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47271,11 +63015,23 @@ impl IconShape for IoWalletSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47304,11 +63060,23 @@ impl IconShape for IoWallet {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47337,11 +63105,23 @@ impl IconShape for IoWarningOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47372,11 +63152,23 @@ impl IconShape for IoWarningSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47399,11 +63191,23 @@ impl IconShape for IoWarning {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47426,11 +63230,23 @@ impl IconShape for IoWatchOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47467,11 +63283,23 @@ impl IconShape for IoWatchSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47502,11 +63330,23 @@ impl IconShape for IoWatch {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47537,11 +63377,23 @@ impl IconShape for IoWaterOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47569,11 +63421,23 @@ impl IconShape for IoWaterSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47596,11 +63460,23 @@ impl IconShape for IoWater {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47623,11 +63499,23 @@ impl IconShape for IoWifiOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47662,11 +63550,23 @@ impl IconShape for IoWifiSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47701,11 +63601,23 @@ impl IconShape for IoWifi {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47739,11 +63651,23 @@ impl IconShape for IoWineOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47788,11 +63712,23 @@ impl IconShape for IoWineSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47815,11 +63751,23 @@ impl IconShape for IoWine {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47842,11 +63790,23 @@ impl IconShape for IoWomanOutline {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47888,11 +63848,23 @@ impl IconShape for IoWomanSharp {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -47920,11 +63892,23 @@ impl IconShape for IoWoman {
     fn view_box(&self) -> &str {
         "0 0 512 512"
     }
+    fn width(&self) -> &str {
+        "512"
+    }
+    fn height(&self) -> &str {
+        "512"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, user_color, "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"

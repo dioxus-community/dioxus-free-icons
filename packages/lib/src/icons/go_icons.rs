@@ -7,11 +7,23 @@ impl IconShape for GoAccessibility {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -35,11 +47,23 @@ impl IconShape for GoAlert {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -63,11 +87,23 @@ impl IconShape for GoApps {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -91,11 +127,23 @@ impl IconShape for GoArchive {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -119,11 +167,23 @@ impl IconShape for GoArrowBoth {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -147,11 +207,23 @@ impl IconShape for GoArrowDown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -175,11 +247,23 @@ impl IconShape for GoArrowLeft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -203,11 +287,23 @@ impl IconShape for GoArrowRight {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -231,11 +327,23 @@ impl IconShape for GoArrowSwitch {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -258,11 +366,23 @@ impl IconShape for GoArrowUp {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -286,11 +406,23 @@ impl IconShape for GoBeaker {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -314,11 +446,23 @@ impl IconShape for GoBell {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -345,11 +489,23 @@ impl IconShape for GoBellFill {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -372,11 +528,23 @@ impl IconShape for GoBellSlash {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -400,11 +568,23 @@ impl IconShape for GoBlocked {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -428,11 +608,23 @@ impl IconShape for GoBold {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -456,11 +648,23 @@ impl IconShape for GoBook {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -484,11 +688,23 @@ impl IconShape for GoBookmark {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -512,11 +728,23 @@ impl IconShape for GoBookmarkSlash {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -540,11 +768,23 @@ impl IconShape for GoBriefcase {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -568,11 +808,23 @@ impl IconShape for GoBroadcast {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -596,11 +848,23 @@ impl IconShape for GoBrowser {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -624,11 +888,23 @@ impl IconShape for GoBug {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -652,11 +928,23 @@ impl IconShape for GoCalendar {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -680,11 +968,23 @@ impl IconShape for GoCheck {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -708,11 +1008,23 @@ impl IconShape for GoCheckCircle {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -736,11 +1048,23 @@ impl IconShape for GoCheckCircleFill {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -764,11 +1088,23 @@ impl IconShape for GoChecklist {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -792,11 +1128,23 @@ impl IconShape for GoChevronDown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -820,11 +1168,23 @@ impl IconShape for GoChevronLeft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -848,11 +1208,23 @@ impl IconShape for GoChevronRight {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -876,11 +1248,23 @@ impl IconShape for GoChevronUp {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -904,11 +1288,23 @@ impl IconShape for GoCircle {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -932,11 +1328,23 @@ impl IconShape for GoCircleSlash {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -960,11 +1368,23 @@ impl IconShape for GoClock {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -988,11 +1408,23 @@ impl IconShape for GoCloud {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1016,11 +1448,23 @@ impl IconShape for GoCloudOffline {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1047,11 +1491,23 @@ impl IconShape for GoCode {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1075,11 +1531,23 @@ impl IconShape for GoCodeOfConduct {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1103,11 +1571,23 @@ impl IconShape for GoCodeReview {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1131,11 +1611,23 @@ impl IconShape for GoCodeSquare {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1159,11 +1651,23 @@ impl IconShape for GoCodescan {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1190,11 +1694,23 @@ impl IconShape for GoCodescanCheckmark {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1221,11 +1737,23 @@ impl IconShape for GoCodespaces {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1253,11 +1781,23 @@ impl IconShape for GoColumns {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1281,11 +1821,23 @@ impl IconShape for GoComment {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1309,11 +1861,23 @@ impl IconShape for GoCommentDiscussion {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1337,11 +1901,23 @@ impl IconShape for GoContainer {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1365,11 +1941,23 @@ impl IconShape for GoCopilot {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1396,11 +1984,23 @@ impl IconShape for GoCopilotError {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1424,11 +2024,23 @@ impl IconShape for GoCopilotWarning {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1456,11 +2068,23 @@ impl IconShape for GoCopy {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1488,11 +2112,23 @@ impl IconShape for GoCpu {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1516,11 +2152,23 @@ impl IconShape for GoCreditCard {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1547,11 +2195,23 @@ impl IconShape for GoCrossReference {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1575,11 +2235,23 @@ impl IconShape for GoDash {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1603,11 +2275,23 @@ impl IconShape for GoDatabase {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1631,11 +2315,23 @@ impl IconShape for GoDependabot {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1662,11 +2358,23 @@ impl IconShape for GoDesktopDownload {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1692,11 +2400,23 @@ impl IconShape for GoDeviceCamera {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1720,11 +2440,23 @@ impl IconShape for GoDeviceCameraVideo {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1748,11 +2480,23 @@ impl IconShape for GoDeviceDesktop {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1776,11 +2520,23 @@ impl IconShape for GoDeviceMobile {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1804,11 +2560,23 @@ impl IconShape for GoDiamond {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1832,11 +2600,23 @@ impl IconShape for GoDiff {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1860,11 +2640,23 @@ impl IconShape for GoDiffAdded {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1888,11 +2680,23 @@ impl IconShape for GoDiffIgnored {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1916,11 +2720,23 @@ impl IconShape for GoDiffModified {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1944,11 +2760,23 @@ impl IconShape for GoDiffRemoved {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1972,11 +2800,23 @@ impl IconShape for GoDiffRenamed {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2000,11 +2840,23 @@ impl IconShape for GoDot {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2028,11 +2880,23 @@ impl IconShape for GoDotFill {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2056,11 +2920,23 @@ impl IconShape for GoDownload {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2084,11 +2960,23 @@ impl IconShape for GoDuplicate {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2118,11 +3006,23 @@ impl IconShape for GoEllipsis {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2146,11 +3046,23 @@ impl IconShape for GoEye {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2174,11 +3086,23 @@ impl IconShape for GoEyeClosed {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2202,11 +3126,23 @@ impl IconShape for GoFeedDiscussion {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2230,11 +3166,23 @@ impl IconShape for GoFeedForked {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2258,11 +3206,23 @@ impl IconShape for GoFeedHeart {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2286,11 +3246,23 @@ impl IconShape for GoFeedMerged {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2314,11 +3286,23 @@ impl IconShape for GoFeedPerson {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2342,11 +3326,23 @@ impl IconShape for GoFeedRepo {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2370,11 +3366,23 @@ impl IconShape for GoFeedRocket {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2398,11 +3406,23 @@ impl IconShape for GoFeedStar {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2426,11 +3446,23 @@ impl IconShape for GoFeedTag {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2457,11 +3489,23 @@ impl IconShape for GoFeedTrophy {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2488,11 +3532,23 @@ impl IconShape for GoFile {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2516,11 +3572,23 @@ impl IconShape for GoFileAdded {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2544,11 +3612,23 @@ impl IconShape for GoFileBadge {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2575,11 +3655,23 @@ impl IconShape for GoFileBinary {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2603,11 +3695,23 @@ impl IconShape for GoFileCode {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2631,11 +3735,23 @@ impl IconShape for GoFileDiff {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2659,11 +3775,23 @@ impl IconShape for GoFileDirectory {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2687,11 +3815,23 @@ impl IconShape for GoFileDirectoryFill {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2714,11 +3854,23 @@ impl IconShape for GoFileDirectoryOpenFill {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2741,11 +3893,23 @@ impl IconShape for GoFileMoved {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2771,11 +3935,23 @@ impl IconShape for GoFileRemoved {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2799,11 +3975,23 @@ impl IconShape for GoFileSubmodule {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2827,11 +4015,23 @@ impl IconShape for GoFileSymlinkFile {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2855,11 +4055,23 @@ impl IconShape for GoFileZip {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2883,11 +4095,23 @@ impl IconShape for GoFilter {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2911,11 +4135,23 @@ impl IconShape for GoFlame {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2939,11 +4175,23 @@ impl IconShape for GoFold {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2966,11 +4214,23 @@ impl IconShape for GoFoldDown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2993,11 +4253,23 @@ impl IconShape for GoFoldUp {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3020,11 +4292,23 @@ impl IconShape for GoGear {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3048,11 +4332,23 @@ impl IconShape for GoGift {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3076,11 +4372,23 @@ impl IconShape for GoGitBranch {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3104,11 +4412,23 @@ impl IconShape for GoGitCommit {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3132,11 +4452,23 @@ impl IconShape for GoGitCompare {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3160,11 +4492,23 @@ impl IconShape for GoGitMerge {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3188,11 +4532,23 @@ impl IconShape for GoGitPullRequest {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3216,11 +4572,23 @@ impl IconShape for GoGitPullRequestClosed {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3244,11 +4612,23 @@ impl IconShape for GoGitPullRequestDraft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3275,11 +4655,23 @@ impl IconShape for GoGlobe {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3303,11 +4695,23 @@ impl IconShape for GoGrabber {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3331,11 +4735,23 @@ impl IconShape for GoGraph {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3359,11 +4775,23 @@ impl IconShape for GoHash {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3387,11 +4815,23 @@ impl IconShape for GoHeading {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3415,11 +4855,23 @@ impl IconShape for GoHeart {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3443,11 +4895,23 @@ impl IconShape for GoHeartFill {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3471,11 +4935,23 @@ impl IconShape for GoHistory {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3499,11 +4975,23 @@ impl IconShape for GoHome {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3527,11 +5015,23 @@ impl IconShape for GoHorizontalRule {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3555,11 +5055,23 @@ impl IconShape for GoHourglass {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3583,11 +5095,23 @@ impl IconShape for GoHubot {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3611,11 +5135,23 @@ impl IconShape for GoIdBadge {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3642,11 +5178,23 @@ impl IconShape for GoImage {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3670,11 +5218,23 @@ impl IconShape for GoInbox {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3698,11 +5258,23 @@ impl IconShape for GoInfinity {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3726,11 +5298,23 @@ impl IconShape for GoInfo {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3754,11 +5338,23 @@ impl IconShape for GoIssueClosed {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3785,11 +5381,23 @@ impl IconShape for GoIssueDraft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3813,11 +5421,23 @@ impl IconShape for GoIssueOpened {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3844,11 +5464,23 @@ impl IconShape for GoIssueReopened {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3874,11 +5506,23 @@ impl IconShape for GoItalic {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3902,11 +5546,23 @@ impl IconShape for GoIterations {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3929,11 +5585,23 @@ impl IconShape for GoKebabHorizontal {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3956,11 +5624,23 @@ impl IconShape for GoKey {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -3984,11 +5664,23 @@ impl IconShape for GoKeyAsterisk {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4015,11 +5707,23 @@ impl IconShape for GoLaw {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4043,11 +5747,23 @@ impl IconShape for GoLightBulb {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4071,11 +5787,23 @@ impl IconShape for GoLink {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4099,11 +5827,23 @@ impl IconShape for GoLinkExternal {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4127,11 +5867,23 @@ impl IconShape for GoListOrdered {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4155,11 +5907,23 @@ impl IconShape for GoListUnordered {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4183,11 +5947,23 @@ impl IconShape for GoLocation {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4211,11 +5987,23 @@ impl IconShape for GoLock {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4239,11 +6027,23 @@ impl IconShape for GoLog {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4270,11 +6070,23 @@ impl IconShape for GoLogoGist {
     fn view_box(&self) -> &str {
         "0 0 25 16"
     }
+    fn width(&self) -> &str {
+        "25"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4298,11 +6110,23 @@ impl IconShape for GoLogoGithub {
     fn view_box(&self) -> &str {
         "0 0 45 16"
     }
+    fn width(&self) -> &str {
+        "45"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4326,11 +6150,23 @@ impl IconShape for GoMail {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4354,11 +6190,23 @@ impl IconShape for GoMarkGithub {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4382,11 +6230,23 @@ impl IconShape for GoMarkdown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4410,11 +6270,23 @@ impl IconShape for GoMegaphone {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4446,11 +6318,23 @@ impl IconShape for GoMention {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4474,11 +6358,23 @@ impl IconShape for GoMeter {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4502,11 +6398,23 @@ impl IconShape for GoMilestone {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4530,11 +6438,23 @@ impl IconShape for GoMirror {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4558,11 +6478,23 @@ impl IconShape for GoMoon {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4586,11 +6518,23 @@ impl IconShape for GoMortarBoard {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4614,11 +6558,23 @@ impl IconShape for GoMultiSelect {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4645,11 +6601,23 @@ impl IconShape for GoMute {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4673,11 +6641,23 @@ impl IconShape for GoNoEntry {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4704,11 +6684,23 @@ impl IconShape for GoNorthStar {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4731,11 +6723,23 @@ impl IconShape for GoNote {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4759,11 +6763,23 @@ impl IconShape for GoNumber {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4787,11 +6803,23 @@ impl IconShape for GoOrganization {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4815,11 +6843,23 @@ impl IconShape for GoPackage {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4843,11 +6883,23 @@ impl IconShape for GoPackageDependencies {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4871,11 +6923,23 @@ impl IconShape for GoPackageDependents {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4899,11 +6963,23 @@ impl IconShape for GoPaintbrush {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4927,11 +7003,23 @@ impl IconShape for GoPaperAirplane {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4955,11 +7043,23 @@ impl IconShape for GoPaste {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -4983,11 +7083,23 @@ impl IconShape for GoPencil {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5011,11 +7123,23 @@ impl IconShape for GoPeople {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5039,11 +7163,23 @@ impl IconShape for GoPerson {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5067,11 +7203,23 @@ impl IconShape for GoPersonAdd {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5095,11 +7243,23 @@ impl IconShape for GoPersonFill {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5122,11 +7282,23 @@ impl IconShape for GoPin {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5150,11 +7322,23 @@ impl IconShape for GoPlay {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5178,11 +7362,23 @@ impl IconShape for GoPlug {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5206,11 +7402,23 @@ impl IconShape for GoPlus {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5234,11 +7442,23 @@ impl IconShape for GoPlusCircle {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5262,11 +7482,23 @@ impl IconShape for GoProject {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5290,11 +7522,23 @@ impl IconShape for GoPulse {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5318,11 +7562,23 @@ impl IconShape for GoQuestion {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5346,11 +7602,23 @@ impl IconShape for GoQuote {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5374,11 +7642,23 @@ impl IconShape for GoReply {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5402,11 +7682,23 @@ impl IconShape for GoRepo {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5430,11 +7722,23 @@ impl IconShape for GoRepoClone {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5458,11 +7762,23 @@ impl IconShape for GoRepoDeleted {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5488,11 +7804,23 @@ impl IconShape for GoRepoForked {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5516,11 +7844,23 @@ impl IconShape for GoRepoLocked {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5547,11 +7887,23 @@ impl IconShape for GoRepoPull {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5575,11 +7927,23 @@ impl IconShape for GoRepoPush {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5603,11 +7967,23 @@ impl IconShape for GoRepoTemplate {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5631,11 +8007,23 @@ impl IconShape for GoReport {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5659,11 +8047,23 @@ impl IconShape for GoRocket {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5687,11 +8087,23 @@ impl IconShape for GoRows {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5715,11 +8127,23 @@ impl IconShape for GoRss {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5743,11 +8167,23 @@ impl IconShape for GoRuby {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5771,11 +8207,23 @@ impl IconShape for GoScreenFull {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5799,11 +8247,23 @@ impl IconShape for GoScreenNormal {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5827,11 +8287,23 @@ impl IconShape for GoSearch {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5855,11 +8327,23 @@ impl IconShape for GoServer {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5883,11 +8367,23 @@ impl IconShape for GoShare {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5911,11 +8407,23 @@ impl IconShape for GoShareAndroid {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5939,11 +8447,23 @@ impl IconShape for GoShield {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5967,11 +8487,23 @@ impl IconShape for GoShieldCheck {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -5995,11 +8527,23 @@ impl IconShape for GoShieldLock {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6023,11 +8567,23 @@ impl IconShape for GoShieldX {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6051,11 +8607,23 @@ impl IconShape for GoSidebarCollapse {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6083,11 +8651,23 @@ impl IconShape for GoSidebarExpand {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6115,11 +8695,23 @@ impl IconShape for GoSignIn {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6143,11 +8735,23 @@ impl IconShape for GoSignOut {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6171,11 +8775,23 @@ impl IconShape for GoSingleSelect {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6202,11 +8818,23 @@ impl IconShape for GoSkip {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6230,11 +8858,23 @@ impl IconShape for GoSliders {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6257,11 +8897,23 @@ impl IconShape for GoSmiley {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6285,11 +8937,23 @@ impl IconShape for GoSortAsc {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6313,11 +8977,23 @@ impl IconShape for GoSortDesc {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6344,11 +9020,23 @@ impl IconShape for GoSquare {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6372,11 +9060,23 @@ impl IconShape for GoSquareFill {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6400,11 +9100,23 @@ impl IconShape for GoSquirrel {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6428,11 +9140,23 @@ impl IconShape for GoStack {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6456,11 +9180,23 @@ impl IconShape for GoStar {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6484,11 +9220,23 @@ impl IconShape for GoStarFill {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6512,11 +9260,23 @@ impl IconShape for GoStop {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6540,11 +9300,23 @@ impl IconShape for GoStopwatch {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6568,11 +9340,23 @@ impl IconShape for GoStrikethrough {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6596,11 +9380,23 @@ impl IconShape for GoSun {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6624,11 +9420,23 @@ impl IconShape for GoSync {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6652,11 +9460,23 @@ impl IconShape for GoTabExternal {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6682,11 +9502,23 @@ impl IconShape for GoTable {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6710,11 +9542,23 @@ impl IconShape for GoTag {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6738,11 +9582,23 @@ impl IconShape for GoTasklist {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6766,11 +9622,23 @@ impl IconShape for GoTelescope {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6794,11 +9662,23 @@ impl IconShape for GoTelescopeFill {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6822,11 +9702,23 @@ impl IconShape for GoTerminal {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6850,11 +9742,23 @@ impl IconShape for GoThreeBars {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6878,11 +9782,23 @@ impl IconShape for GoThumbsdown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6906,11 +9822,23 @@ impl IconShape for GoThumbsup {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6934,11 +9862,23 @@ impl IconShape for GoTools {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6962,11 +9902,23 @@ impl IconShape for GoTrash {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -6990,11 +9942,23 @@ impl IconShape for GoTriangleDown {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7017,11 +9981,23 @@ impl IconShape for GoTriangleLeft {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7044,11 +10020,23 @@ impl IconShape for GoTriangleRight {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7071,11 +10059,23 @@ impl IconShape for GoTriangleUp {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7098,11 +10098,23 @@ impl IconShape for GoTrophy {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7126,11 +10138,23 @@ impl IconShape for GoTypography {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7154,11 +10178,23 @@ impl IconShape for GoUnfold {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7181,11 +10217,23 @@ impl IconShape for GoUnlock {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7209,11 +10257,23 @@ impl IconShape for GoUnmute {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7237,11 +10297,23 @@ impl IconShape for GoUnverified {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7265,11 +10337,23 @@ impl IconShape for GoUpload {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7293,11 +10377,23 @@ impl IconShape for GoVerified {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7321,11 +10417,23 @@ impl IconShape for GoVersions {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7349,11 +10457,23 @@ impl IconShape for GoVideo {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7380,11 +10500,23 @@ impl IconShape for GoWebhook {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7413,11 +10545,23 @@ impl IconShape for GoWorkflow {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7441,11 +10585,23 @@ impl IconShape for GoX {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7469,11 +10625,23 @@ impl IconShape for GoXCircle {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7497,11 +10665,23 @@ impl IconShape for GoXCircleFill {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -7525,11 +10705,23 @@ impl IconShape for GoZap {
     fn view_box(&self) -> &str {
         "0 0 16 16"
     }
+    fn width(&self) -> &str {
+        "16"
+    }
+    fn height(&self) -> &str {
+        "16"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"

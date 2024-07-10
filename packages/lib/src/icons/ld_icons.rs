@@ -7,11 +7,23 @@ impl IconShape for LdAArrowDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43,11 +55,23 @@ impl IconShape for LdAArrowUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -79,11 +103,23 @@ impl IconShape for LdALargeSmall {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -115,11 +151,23 @@ impl IconShape for LdAccessibility {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -156,11 +204,23 @@ impl IconShape for LdActivity {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -183,11 +243,23 @@ impl IconShape for LdAirVent {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -219,11 +291,23 @@ impl IconShape for LdAirplay {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -249,11 +333,23 @@ impl IconShape for LdAlarmClockCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -293,11 +389,23 @@ impl IconShape for LdAlarmClockMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -337,11 +445,23 @@ impl IconShape for LdAlarmClockOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -379,11 +499,23 @@ impl IconShape for LdAlarmClockPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -426,11 +558,23 @@ impl IconShape for LdAlarmClock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -470,11 +614,23 @@ impl IconShape for LdAlarmSmoke {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -509,11 +665,23 @@ impl IconShape for LdAlbum {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -544,11 +712,23 @@ impl IconShape for LdAlignCenterHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -583,11 +763,23 @@ impl IconShape for LdAlignCenterVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -622,11 +814,23 @@ impl IconShape for LdAlignCenter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -664,11 +868,23 @@ impl IconShape for LdAlignEndHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -705,11 +921,23 @@ impl IconShape for LdAlignEndVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -746,11 +974,23 @@ impl IconShape for LdAlignHorizontalDistributeCenter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -796,11 +1036,23 @@ impl IconShape for LdAlignHorizontalDistributeEnd {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -840,11 +1092,23 @@ impl IconShape for LdAlignHorizontalDistributeStart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -884,11 +1148,23 @@ impl IconShape for LdAlignHorizontalJustifyCenter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -925,11 +1201,23 @@ impl IconShape for LdAlignHorizontalJustifyEnd {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -966,11 +1254,23 @@ impl IconShape for LdAlignHorizontalJustifyStart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1007,11 +1307,23 @@ impl IconShape for LdAlignHorizontalSpaceAround {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1044,11 +1356,23 @@ impl IconShape for LdAlignHorizontalSpaceBetween {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1088,11 +1412,23 @@ impl IconShape for LdAlignJustify {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1130,11 +1466,23 @@ impl IconShape for LdAlignLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1172,11 +1520,23 @@ impl IconShape for LdAlignRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1214,11 +1574,23 @@ impl IconShape for LdAlignStartHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1255,11 +1627,23 @@ impl IconShape for LdAlignStartVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1296,11 +1680,23 @@ impl IconShape for LdAlignVerticalDistributeCenter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1346,11 +1742,23 @@ impl IconShape for LdAlignVerticalDistributeEnd {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1390,11 +1798,23 @@ impl IconShape for LdAlignVerticalDistributeStart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1434,11 +1854,23 @@ impl IconShape for LdAlignVerticalJustifyCenter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1475,11 +1907,23 @@ impl IconShape for LdAlignVerticalJustifyEnd {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1516,11 +1960,23 @@ impl IconShape for LdAlignVerticalJustifyStart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1557,11 +2013,23 @@ impl IconShape for LdAlignVerticalSpaceAround {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1594,11 +2062,23 @@ impl IconShape for LdAlignVerticalSpaceBetween {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1638,11 +2118,23 @@ impl IconShape for LdAmbulance {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1687,11 +2179,23 @@ impl IconShape for LdAmpersand {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1717,11 +2221,23 @@ impl IconShape for LdAmpersands {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1747,11 +2263,23 @@ impl IconShape for LdAnchor {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1782,11 +2310,23 @@ impl IconShape for LdAngry {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1826,11 +2366,23 @@ impl IconShape for LdAnnoyed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1864,11 +2416,23 @@ impl IconShape for LdAntenna {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1906,11 +2470,23 @@ impl IconShape for LdAnvil {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1945,11 +2521,23 @@ impl IconShape for LdAperture {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1992,11 +2580,23 @@ impl IconShape for LdAppWindowMac {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2032,11 +2632,23 @@ impl IconShape for LdAppWindow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2072,11 +2684,23 @@ impl IconShape for LdApple {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2102,11 +2726,23 @@ impl IconShape for LdArchiveRestore {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2145,11 +2781,23 @@ impl IconShape for LdArchiveX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2185,11 +2833,23 @@ impl IconShape for LdArchive {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2222,11 +2882,23 @@ impl IconShape for LdAreaChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2252,11 +2924,23 @@ impl IconShape for LdArmchair {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2288,11 +2972,23 @@ impl IconShape for LdArrowBigDownDash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2318,11 +3014,23 @@ impl IconShape for LdArrowBigDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2345,11 +3053,23 @@ impl IconShape for LdArrowBigLeftDash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2375,11 +3095,23 @@ impl IconShape for LdArrowBigLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2402,11 +3134,23 @@ impl IconShape for LdArrowBigRightDash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2432,11 +3176,23 @@ impl IconShape for LdArrowBigRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2459,11 +3215,23 @@ impl IconShape for LdArrowBigUpDash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2489,11 +3257,23 @@ impl IconShape for LdArrowBigUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2516,11 +3296,23 @@ impl IconShape for LdArrowDown01 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2559,11 +3351,23 @@ impl IconShape for LdArrowDown10 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2602,11 +3406,23 @@ impl IconShape for LdArrowDownAZ {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2641,11 +3457,23 @@ impl IconShape for LdArrowDownFromLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2674,11 +3502,23 @@ impl IconShape for LdArrowDownLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2704,11 +3544,23 @@ impl IconShape for LdArrowDownNarrowWide {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2743,11 +3595,23 @@ impl IconShape for LdArrowDownRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2773,11 +3637,23 @@ impl IconShape for LdArrowDownToDot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2808,11 +3684,23 @@ impl IconShape for LdArrowDownToLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2841,11 +3729,23 @@ impl IconShape for LdArrowDownUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2877,11 +3777,23 @@ impl IconShape for LdArrowDownWideNarrow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2916,11 +3828,23 @@ impl IconShape for LdArrowDownZA {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2955,11 +3879,23 @@ impl IconShape for LdArrowDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2985,11 +3921,23 @@ impl IconShape for LdArrowLeftFromLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3018,11 +3966,23 @@ impl IconShape for LdArrowLeftRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3054,11 +4014,23 @@ impl IconShape for LdArrowLeftToLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3087,11 +4059,23 @@ impl IconShape for LdArrowLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3117,11 +4101,23 @@ impl IconShape for LdArrowRightFromLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3150,11 +4146,23 @@ impl IconShape for LdArrowRightLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3186,11 +4194,23 @@ impl IconShape for LdArrowRightToLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3219,11 +4239,23 @@ impl IconShape for LdArrowRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3249,11 +4281,23 @@ impl IconShape for LdArrowUp01 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3292,11 +4336,23 @@ impl IconShape for LdArrowUp10 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3335,11 +4391,23 @@ impl IconShape for LdArrowUpAZ {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3374,11 +4442,23 @@ impl IconShape for LdArrowUpDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3410,11 +4490,23 @@ impl IconShape for LdArrowUpFromDot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3445,11 +4537,23 @@ impl IconShape for LdArrowUpFromLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3478,11 +4582,23 @@ impl IconShape for LdArrowUpLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3508,11 +4624,23 @@ impl IconShape for LdArrowUpNarrowWide {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3547,11 +4675,23 @@ impl IconShape for LdArrowUpRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3577,11 +4717,23 @@ impl IconShape for LdArrowUpToLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3610,11 +4762,23 @@ impl IconShape for LdArrowUpWideNarrow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3649,11 +4813,23 @@ impl IconShape for LdArrowUpZA {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3688,11 +4864,23 @@ impl IconShape for LdArrowUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3718,11 +4906,23 @@ impl IconShape for LdArrowsUpFromLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3757,11 +4957,23 @@ impl IconShape for LdAsterisk {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3790,11 +5002,23 @@ impl IconShape for LdAtSign {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3822,11 +5046,23 @@ impl IconShape for LdAtom {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3857,11 +5093,23 @@ impl IconShape for LdAudioLines {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3899,11 +5147,23 @@ impl IconShape for LdAudioWaveform {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3926,11 +5186,23 @@ impl IconShape for LdAward {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3958,11 +5230,23 @@ impl IconShape for LdAxe {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3988,11 +5272,23 @@ impl IconShape for LdAxis3d {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4018,11 +5314,23 @@ impl IconShape for LdBaby {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4054,11 +5362,23 @@ impl IconShape for LdBackpack {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4093,11 +5413,23 @@ impl IconShape for LdBadgeAlert {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4132,11 +5464,23 @@ impl IconShape for LdBadgeCent {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4165,11 +5509,23 @@ impl IconShape for LdBadgeCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4195,11 +5551,23 @@ impl IconShape for LdBadgeDollarSign {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4228,11 +5596,23 @@ impl IconShape for LdBadgeEuro {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4261,11 +5641,23 @@ impl IconShape for LdBadgeHelp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4297,11 +5689,23 @@ impl IconShape for LdBadgeIndianRupee {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4333,11 +5737,23 @@ impl IconShape for LdBadgeInfo {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4372,11 +5788,23 @@ impl IconShape for LdBadgeJapaneseYen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4411,11 +5839,23 @@ impl IconShape for LdBadgeMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4444,11 +5884,23 @@ impl IconShape for LdBadgePercent {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4480,11 +5932,23 @@ impl IconShape for LdBadgePlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4519,11 +5983,23 @@ impl IconShape for LdBadgePoundSterling {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4555,11 +6031,23 @@ impl IconShape for LdBadgeRussianRuble {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4588,11 +6076,23 @@ impl IconShape for LdBadgeSwissFranc {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4624,11 +6124,23 @@ impl IconShape for LdBadgeX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4663,11 +6175,23 @@ impl IconShape for LdBadge {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4690,11 +6214,23 @@ impl IconShape for LdBaggageClaim {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4737,11 +6273,23 @@ impl IconShape for LdBan {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4769,11 +6317,23 @@ impl IconShape for LdBanana {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4799,11 +6359,23 @@ impl IconShape for LdBanknote {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4838,11 +6410,23 @@ impl IconShape for LdBarChart2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4880,11 +6464,23 @@ impl IconShape for LdBarChart3 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4916,11 +6512,23 @@ impl IconShape for LdBarChart4 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4952,11 +6560,23 @@ impl IconShape for LdBarChartBig {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4993,11 +6613,23 @@ impl IconShape for LdBarChartHorizontalBig {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5034,11 +6666,23 @@ impl IconShape for LdBarChartHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5070,11 +6714,23 @@ impl IconShape for LdBarChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5112,11 +6768,23 @@ impl IconShape for LdBarcode {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5151,11 +6819,23 @@ impl IconShape for LdBaseline {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5184,11 +6864,23 @@ impl IconShape for LdBath {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5235,11 +6927,23 @@ impl IconShape for LdBatteryCharging {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5274,11 +6978,23 @@ impl IconShape for LdBatteryFull {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5330,11 +7046,23 @@ impl IconShape for LdBatteryLow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5374,11 +7102,23 @@ impl IconShape for LdBatteryMedium {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5424,11 +7164,23 @@ impl IconShape for LdBatteryWarning {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5472,11 +7224,23 @@ impl IconShape for LdBattery {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5510,11 +7274,23 @@ impl IconShape for LdBeaker {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5543,11 +7319,23 @@ impl IconShape for LdBeanOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5582,11 +7370,23 @@ impl IconShape for LdBean {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5612,11 +7412,23 @@ impl IconShape for LdBedDouble {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5648,11 +7460,23 @@ impl IconShape for LdBedSingle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5681,11 +7505,23 @@ impl IconShape for LdBed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5717,11 +7553,23 @@ impl IconShape for LdBeef {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5752,11 +7600,23 @@ impl IconShape for LdBeerOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5800,11 +7660,23 @@ impl IconShape for LdBeer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5839,11 +7711,23 @@ impl IconShape for LdBellDot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5874,11 +7758,23 @@ impl IconShape for LdBellElectric {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5924,11 +7820,23 @@ impl IconShape for LdBellMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5957,11 +7865,23 @@ impl IconShape for LdBellOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5993,11 +7913,23 @@ impl IconShape for LdBellPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6029,11 +7961,23 @@ impl IconShape for LdBellRing {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6065,11 +8009,23 @@ impl IconShape for LdBell {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6095,11 +8051,23 @@ impl IconShape for LdBetweenHorizontalEnd {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6136,11 +8104,23 @@ impl IconShape for LdBetweenHorizontalStart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6177,11 +8157,23 @@ impl IconShape for LdBetweenVerticalEnd {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6218,11 +8210,23 @@ impl IconShape for LdBetweenVerticalStart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6259,11 +8263,23 @@ impl IconShape for LdBike {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6301,11 +8317,23 @@ impl IconShape for LdBinary {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6351,11 +8379,23 @@ impl IconShape for LdBiohazard {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6407,11 +8447,23 @@ impl IconShape for LdBird {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6449,11 +8501,23 @@ impl IconShape for LdBitcoin {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6476,11 +8540,23 @@ impl IconShape for LdBlend {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6510,11 +8586,23 @@ impl IconShape for LdBlinds {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6557,11 +8645,23 @@ impl IconShape for LdBlocks {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6591,11 +8691,23 @@ impl IconShape for LdBluetoothConnected {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6630,11 +8742,23 @@ impl IconShape for LdBluetoothOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6663,11 +8787,23 @@ impl IconShape for LdBluetoothSearching {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6696,11 +8832,23 @@ impl IconShape for LdBluetooth {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6723,11 +8871,23 @@ impl IconShape for LdBold {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6753,11 +8913,23 @@ impl IconShape for LdBolt {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6785,11 +8957,23 @@ impl IconShape for LdBomb {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6820,11 +9004,23 @@ impl IconShape for LdBone {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6847,11 +9043,23 @@ impl IconShape for LdBookA {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6880,11 +9088,23 @@ impl IconShape for LdBookAudio {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6916,11 +9136,23 @@ impl IconShape for LdBookCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6946,11 +9178,23 @@ impl IconShape for LdBookCopy {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6979,11 +9223,23 @@ impl IconShape for LdBookDashed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7036,11 +9292,23 @@ impl IconShape for LdBookDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7069,11 +9337,23 @@ impl IconShape for LdBookHeadphones {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7109,11 +9389,23 @@ impl IconShape for LdBookHeart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7139,11 +9431,23 @@ impl IconShape for LdBookImage {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7174,11 +9478,23 @@ impl IconShape for LdBookKey {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7215,11 +9531,23 @@ impl IconShape for LdBookLock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7255,11 +9583,23 @@ impl IconShape for LdBookMarked {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7285,11 +9625,23 @@ impl IconShape for LdBookMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7315,11 +9667,23 @@ impl IconShape for LdBookOpenCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7348,11 +9712,23 @@ impl IconShape for LdBookOpenText {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7390,11 +9766,23 @@ impl IconShape for LdBookOpen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7420,11 +9808,23 @@ impl IconShape for LdBookPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7453,11 +9853,23 @@ impl IconShape for LdBookText {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7486,11 +9898,23 @@ impl IconShape for LdBookType {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7522,11 +9946,23 @@ impl IconShape for LdBookUp2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7561,11 +9997,23 @@ impl IconShape for LdBookUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7594,11 +10042,23 @@ impl IconShape for LdBookUser {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7629,11 +10089,23 @@ impl IconShape for LdBookX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7662,11 +10134,23 @@ impl IconShape for LdBook {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7689,11 +10173,23 @@ impl IconShape for LdBookmarkCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7719,11 +10215,23 @@ impl IconShape for LdBookmarkMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7752,11 +10260,23 @@ impl IconShape for LdBookmarkPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7791,11 +10311,23 @@ impl IconShape for LdBookmarkX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7824,11 +10356,23 @@ impl IconShape for LdBookmark {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7851,11 +10395,23 @@ impl IconShape for LdBoomBox {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7904,11 +10460,23 @@ impl IconShape for LdBotMessageSquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7946,11 +10514,23 @@ impl IconShape for LdBotOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7991,11 +10571,23 @@ impl IconShape for LdBot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8037,11 +10629,23 @@ impl IconShape for LdBoxSelect {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8097,11 +10701,23 @@ impl IconShape for LdBox {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8130,11 +10746,23 @@ impl IconShape for LdBoxes {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8190,11 +10818,23 @@ impl IconShape for LdBraces {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8220,11 +10860,23 @@ impl IconShape for LdBrackets {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8250,11 +10902,23 @@ impl IconShape for LdBrainCircuit {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8321,11 +10985,23 @@ impl IconShape for LdBrainCog {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8395,11 +11071,23 @@ impl IconShape for LdBrain {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8446,11 +11134,23 @@ impl IconShape for LdBrickWall {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8498,11 +11198,23 @@ impl IconShape for LdBriefcaseBusiness {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8538,11 +11250,23 @@ impl IconShape for LdBriefcaseMedical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8584,11 +11308,23 @@ impl IconShape for LdBriefcase {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8618,11 +11354,23 @@ impl IconShape for LdBringToFront {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8655,11 +11403,23 @@ impl IconShape for LdBrush {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8685,11 +11445,23 @@ impl IconShape for LdBugOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8736,11 +11508,23 @@ impl IconShape for LdBugPlay {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8787,11 +11571,23 @@ impl IconShape for LdBug {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8844,11 +11640,23 @@ impl IconShape for LdBuilding2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8889,11 +11697,23 @@ impl IconShape for LdBuilding {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8951,11 +11771,23 @@ impl IconShape for LdBusFront {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9006,11 +11838,23 @@ impl IconShape for LdBus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9055,11 +11899,23 @@ impl IconShape for LdCableCar {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9107,11 +11963,23 @@ impl IconShape for LdCable {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9146,11 +12014,23 @@ impl IconShape for LdCakeSlice {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9184,11 +12064,23 @@ impl IconShape for LdCake {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9235,11 +12127,23 @@ impl IconShape for LdCalculator {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9299,11 +12203,23 @@ impl IconShape for LdCalendarCheck2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9338,11 +12254,23 @@ impl IconShape for LdCalendarCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9381,11 +12309,23 @@ impl IconShape for LdCalendarClock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9425,11 +12365,23 @@ impl IconShape for LdCalendarDays {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9483,11 +12435,23 @@ impl IconShape for LdCalendarFold {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9522,11 +12486,23 @@ impl IconShape for LdCalendarHeart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9558,11 +12534,23 @@ impl IconShape for LdCalendarMinus2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9601,11 +12589,23 @@ impl IconShape for LdCalendarMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9640,11 +12640,23 @@ impl IconShape for LdCalendarOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9682,11 +12694,23 @@ impl IconShape for LdCalendarPlus2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9728,11 +12752,23 @@ impl IconShape for LdCalendarPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9770,11 +12806,23 @@ impl IconShape for LdCalendarRange {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9822,11 +12870,23 @@ impl IconShape for LdCalendarSearch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9866,11 +12926,23 @@ impl IconShape for LdCalendarX2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9908,11 +12980,23 @@ impl IconShape for LdCalendarX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9954,11 +13038,23 @@ impl IconShape for LdCalendar {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9994,11 +13090,23 @@ impl IconShape for LdCameraOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10033,11 +13141,23 @@ impl IconShape for LdCamera {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10065,11 +13185,23 @@ impl IconShape for LdCandlestickChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10118,11 +13250,23 @@ impl IconShape for LdCandyCane {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10157,11 +13301,23 @@ impl IconShape for LdCandyOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10208,11 +13364,23 @@ impl IconShape for LdCandy {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10247,11 +13415,23 @@ impl IconShape for LdCannabis {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10277,11 +13457,23 @@ impl IconShape for LdCaptionsOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10319,11 +13511,23 @@ impl IconShape for LdCaptions {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10354,11 +13558,23 @@ impl IconShape for LdCarFront {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10400,11 +13616,23 @@ impl IconShape for LdCarTaxiFront {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10449,11 +13677,23 @@ impl IconShape for LdCar {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10489,11 +13729,23 @@ impl IconShape for LdCaravan {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10536,11 +13788,23 @@ impl IconShape for LdCarrot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10569,11 +13833,23 @@ impl IconShape for LdCaseLower {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10609,11 +13885,23 @@ impl IconShape for LdCaseSensitive {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10647,11 +13935,23 @@ impl IconShape for LdCaseUpper {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10680,11 +13980,23 @@ impl IconShape for LdCassetteTape {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10727,11 +14039,23 @@ impl IconShape for LdCast {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10766,11 +14090,23 @@ impl IconShape for LdCastle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10817,11 +14153,23 @@ impl IconShape for LdCat {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10853,11 +14201,23 @@ impl IconShape for LdCctv {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10892,11 +14252,23 @@ impl IconShape for LdCheckCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10922,11 +14294,23 @@ impl IconShape for LdCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10949,11 +14333,23 @@ impl IconShape for LdChefHat {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10979,11 +14375,23 @@ impl IconShape for LdCherry {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11015,11 +14423,23 @@ impl IconShape for LdChevronDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11042,11 +14462,23 @@ impl IconShape for LdChevronFirst {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11072,11 +14504,23 @@ impl IconShape for LdChevronLast {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11102,11 +14546,23 @@ impl IconShape for LdChevronLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11129,11 +14585,23 @@ impl IconShape for LdChevronRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11156,11 +14624,23 @@ impl IconShape for LdChevronUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11183,11 +14663,23 @@ impl IconShape for LdChevronsDownUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11213,11 +14705,23 @@ impl IconShape for LdChevronsDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11243,11 +14747,23 @@ impl IconShape for LdChevronsLeftRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11273,11 +14789,23 @@ impl IconShape for LdChevronsLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11303,11 +14831,23 @@ impl IconShape for LdChevronsRightLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11333,11 +14873,23 @@ impl IconShape for LdChevronsRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11363,11 +14915,23 @@ impl IconShape for LdChevronsUpDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11393,11 +14957,23 @@ impl IconShape for LdChevronsUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11423,11 +14999,23 @@ impl IconShape for LdChrome {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11475,11 +15063,23 @@ impl IconShape for LdChurch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11514,11 +15114,23 @@ impl IconShape for LdCigaretteOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11562,11 +15174,23 @@ impl IconShape for LdCigarette {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11601,11 +15225,23 @@ impl IconShape for LdCircleAlert {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11642,11 +15278,23 @@ impl IconShape for LdCircleArrowDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11677,11 +15325,23 @@ impl IconShape for LdCircleArrowLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11712,11 +15372,23 @@ impl IconShape for LdCircleArrowOutDownLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11745,11 +15417,23 @@ impl IconShape for LdCircleArrowOutDownRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11778,11 +15462,23 @@ impl IconShape for LdCircleArrowOutUpLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11811,11 +15507,23 @@ impl IconShape for LdCircleArrowOutUpRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11844,11 +15552,23 @@ impl IconShape for LdCircleArrowRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11879,11 +15599,23 @@ impl IconShape for LdCircleArrowUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11914,11 +15646,23 @@ impl IconShape for LdCircleCheckBig {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11944,11 +15688,23 @@ impl IconShape for LdCircleCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -11976,11 +15732,23 @@ impl IconShape for LdCircleChevronDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12008,11 +15776,23 @@ impl IconShape for LdCircleChevronLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12040,11 +15820,23 @@ impl IconShape for LdCircleChevronRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12072,11 +15864,23 @@ impl IconShape for LdCircleChevronUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12104,11 +15908,23 @@ impl IconShape for LdCircleDashed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12152,11 +15968,23 @@ impl IconShape for LdCircleDivide {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12199,11 +16027,23 @@ impl IconShape for LdCircleDollarSign {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12234,11 +16074,23 @@ impl IconShape for LdCircleDotDashed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12287,11 +16139,23 @@ impl IconShape for LdCircleDot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12321,11 +16185,23 @@ impl IconShape for LdCircleEllipsis {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12359,11 +16235,23 @@ impl IconShape for LdCircleEqual {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12394,11 +16282,23 @@ impl IconShape for LdCircleFadingPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12439,11 +16339,23 @@ impl IconShape for LdCircleGauge {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12474,11 +16386,23 @@ impl IconShape for LdCircleHelp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12509,11 +16433,23 @@ impl IconShape for LdCircleMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12541,11 +16477,23 @@ impl IconShape for LdCircleOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12574,11 +16522,23 @@ impl IconShape for LdCircleParkingOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12612,11 +16572,23 @@ impl IconShape for LdCircleParking {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12644,11 +16616,23 @@ impl IconShape for LdCirclePause {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12685,11 +16669,23 @@ impl IconShape for LdCirclePercent {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12723,11 +16719,23 @@ impl IconShape for LdCirclePlay {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12755,11 +16763,23 @@ impl IconShape for LdCirclePlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12790,11 +16810,23 @@ impl IconShape for LdCirclePower {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12825,11 +16857,23 @@ impl IconShape for LdCircleSlash2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12857,11 +16901,23 @@ impl IconShape for LdCircleSlash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12892,11 +16948,23 @@ impl IconShape for LdCircleStop {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12927,11 +16995,23 @@ impl IconShape for LdCircleUserRound {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -12964,11 +17044,23 @@ impl IconShape for LdCircleUser {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13001,11 +17093,23 @@ impl IconShape for LdCircleX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13036,11 +17140,23 @@ impl IconShape for LdCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13065,11 +17181,23 @@ impl IconShape for LdCircuitBoard {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13112,11 +17240,23 @@ impl IconShape for LdCitrus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13148,11 +17288,23 @@ impl IconShape for LdClapperboard {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13184,11 +17336,23 @@ impl IconShape for LdClipboardCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13222,11 +17386,23 @@ impl IconShape for LdClipboardCopy {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13266,11 +17442,23 @@ impl IconShape for LdClipboardList {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13313,11 +17501,23 @@ impl IconShape for LdClipboardMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13351,11 +17551,23 @@ impl IconShape for LdClipboardPaste {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13384,11 +17596,23 @@ impl IconShape for LdClipboardPenLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13427,11 +17651,23 @@ impl IconShape for LdClipboardPen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13467,11 +17703,23 @@ impl IconShape for LdClipboardPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13508,11 +17756,23 @@ impl IconShape for LdClipboardType {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13552,11 +17812,23 @@ impl IconShape for LdClipboardX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13593,11 +17865,23 @@ impl IconShape for LdClipboard {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13628,11 +17912,23 @@ impl IconShape for LdClock1 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13660,11 +17956,23 @@ impl IconShape for LdClock10 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13692,11 +18000,23 @@ impl IconShape for LdClock11 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13724,11 +18044,23 @@ impl IconShape for LdClock12 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13756,11 +18088,23 @@ impl IconShape for LdClock2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13788,11 +18132,23 @@ impl IconShape for LdClock3 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13820,11 +18176,23 @@ impl IconShape for LdClock4 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13852,11 +18220,23 @@ impl IconShape for LdClock5 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13884,11 +18264,23 @@ impl IconShape for LdClock6 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13916,11 +18308,23 @@ impl IconShape for LdClock7 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13948,11 +18352,23 @@ impl IconShape for LdClock8 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -13980,11 +18396,23 @@ impl IconShape for LdClock9 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14012,11 +18440,23 @@ impl IconShape for LdClock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14044,11 +18484,23 @@ impl IconShape for LdCloudCog {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14100,11 +18552,23 @@ impl IconShape for LdCloudDownload {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14133,11 +18597,23 @@ impl IconShape for LdCloudDrizzle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14178,11 +18654,23 @@ impl IconShape for LdCloudFog {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14211,11 +18699,23 @@ impl IconShape for LdCloudHail {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14256,11 +18756,23 @@ impl IconShape for LdCloudLightning {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14286,11 +18798,23 @@ impl IconShape for LdCloudMoonRain {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14322,11 +18846,23 @@ impl IconShape for LdCloudMoon {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14352,11 +18888,23 @@ impl IconShape for LdCloudOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14385,11 +18933,23 @@ impl IconShape for LdCloudRainWind {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14421,11 +18981,23 @@ impl IconShape for LdCloudRain {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14457,11 +19029,23 @@ impl IconShape for LdCloudSnow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14502,11 +19086,23 @@ impl IconShape for LdCloudSunRain {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14550,11 +19146,23 @@ impl IconShape for LdCloudSun {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14592,11 +19200,23 @@ impl IconShape for LdCloudUpload {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14625,11 +19245,23 @@ impl IconShape for LdCloud {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14652,11 +19284,23 @@ impl IconShape for LdCloudy {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14682,11 +19326,23 @@ impl IconShape for LdClover {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14715,11 +19371,23 @@ impl IconShape for LdClub {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14745,11 +19413,23 @@ impl IconShape for LdCodeXml {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14778,11 +19458,23 @@ impl IconShape for LdCode {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14808,11 +19500,23 @@ impl IconShape for LdCodepen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14853,11 +19557,23 @@ impl IconShape for LdCodesandbox {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14898,11 +19614,23 @@ impl IconShape for LdCoffee {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -14934,11 +19662,23 @@ impl IconShape for LdCog {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15000,11 +19740,23 @@ impl IconShape for LdCoins {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15038,11 +19790,23 @@ impl IconShape for LdColumns2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15072,11 +19836,23 @@ impl IconShape for LdColumns3 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15109,11 +19885,23 @@ impl IconShape for LdColumns4 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15149,11 +19937,23 @@ impl IconShape for LdCombine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15199,11 +19999,23 @@ impl IconShape for LdCommand {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15226,11 +20038,23 @@ impl IconShape for LdCompass {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15258,11 +20082,23 @@ impl IconShape for LdComponent {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15294,11 +20130,23 @@ impl IconShape for LdComputer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15338,11 +20186,23 @@ impl IconShape for LdConciergeBell {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15374,11 +20234,23 @@ impl IconShape for LdCone {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15407,11 +20279,23 @@ impl IconShape for LdConstruction {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15459,11 +20343,23 @@ impl IconShape for LdContactRound {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15510,11 +20406,23 @@ impl IconShape for LdContact {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15561,11 +20469,23 @@ impl IconShape for LdContainer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15600,11 +20520,23 @@ impl IconShape for LdContrast {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15632,11 +20564,23 @@ impl IconShape for LdCookie {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15674,11 +20618,23 @@ impl IconShape for LdCookingPot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15710,11 +20666,23 @@ impl IconShape for LdCopyCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15748,11 +20716,23 @@ impl IconShape for LdCopyMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15789,11 +20769,23 @@ impl IconShape for LdCopyPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15836,11 +20828,23 @@ impl IconShape for LdCopySlash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15877,11 +20881,23 @@ impl IconShape for LdCopyX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15924,11 +20940,23 @@ impl IconShape for LdCopy {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15959,11 +20987,23 @@ impl IconShape for LdCopyleft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -15991,11 +21031,23 @@ impl IconShape for LdCopyright {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16023,11 +21075,23 @@ impl IconShape for LdCornerDownLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16053,11 +21117,23 @@ impl IconShape for LdCornerDownRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16083,11 +21159,23 @@ impl IconShape for LdCornerLeftDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16113,11 +21201,23 @@ impl IconShape for LdCornerLeftUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16143,11 +21243,23 @@ impl IconShape for LdCornerRightDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16173,11 +21285,23 @@ impl IconShape for LdCornerRightUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16203,11 +21327,23 @@ impl IconShape for LdCornerUpLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16233,11 +21369,23 @@ impl IconShape for LdCornerUpRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16263,11 +21411,23 @@ impl IconShape for LdCpu {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16325,11 +21485,23 @@ impl IconShape for LdCreativeCommons {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16360,11 +21532,23 @@ impl IconShape for LdCreditCard {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16397,11 +21581,23 @@ impl IconShape for LdCroissant {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16436,11 +21632,23 @@ impl IconShape for LdCrop {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16466,11 +21674,23 @@ impl IconShape for LdCross {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16493,11 +21713,23 @@ impl IconShape for LdCrosshair {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16546,11 +21778,23 @@ impl IconShape for LdCrown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16576,11 +21820,23 @@ impl IconShape for LdCuboid {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16609,11 +21865,23 @@ impl IconShape for LdCupSoda {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16645,11 +21913,23 @@ impl IconShape for LdCurrency {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16698,11 +21978,23 @@ impl IconShape for LdCylinder {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16731,11 +22023,23 @@ impl IconShape for LdDatabaseBackup {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16776,11 +22080,23 @@ impl IconShape for LdDatabaseZap {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16818,11 +22134,23 @@ impl IconShape for LdDatabase {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16854,11 +22182,23 @@ impl IconShape for LdDelete {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16893,11 +22233,23 @@ impl IconShape for LdDessert {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16928,11 +22280,23 @@ impl IconShape for LdDiameter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -16971,11 +22335,23 @@ impl IconShape for LdDiamondMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17001,11 +22377,23 @@ impl IconShape for LdDiamondPercent {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17037,11 +22425,23 @@ impl IconShape for LdDiamondPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17070,11 +22470,23 @@ impl IconShape for LdDiamond {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17097,11 +22509,23 @@ impl IconShape for LdDice1 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17132,11 +22556,23 @@ impl IconShape for LdDice2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17170,11 +22606,23 @@ impl IconShape for LdDice3 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17211,11 +22659,23 @@ impl IconShape for LdDice4 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17255,11 +22715,23 @@ impl IconShape for LdDice5 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17302,11 +22774,23 @@ impl IconShape for LdDice6 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17352,11 +22836,23 @@ impl IconShape for LdDices {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17399,11 +22895,23 @@ impl IconShape for LdDiff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17432,11 +22940,23 @@ impl IconShape for LdDisc2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17469,11 +22989,23 @@ impl IconShape for LdDisc3 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17509,11 +23041,23 @@ impl IconShape for LdDiscAlbum {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17548,11 +23092,23 @@ impl IconShape for LdDisc {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17582,11 +23138,23 @@ impl IconShape for LdDivide {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17622,11 +23190,23 @@ impl IconShape for LdDnaOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17682,11 +23262,23 @@ impl IconShape for LdDna {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17739,11 +23331,23 @@ impl IconShape for LdDock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17776,11 +23380,23 @@ impl IconShape for LdDog {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17818,11 +23434,23 @@ impl IconShape for LdDollarSign {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17851,11 +23479,23 @@ impl IconShape for LdDonut {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17883,11 +23523,23 @@ impl IconShape for LdDoorClosed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17916,11 +23568,23 @@ impl IconShape for LdDoorOpen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17955,11 +23619,23 @@ impl IconShape for LdDot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -17984,11 +23660,23 @@ impl IconShape for LdDownload {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18020,11 +23708,23 @@ impl IconShape for LdDraftingCompass {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18061,11 +23761,23 @@ impl IconShape for LdDrama {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18109,11 +23821,23 @@ impl IconShape for LdDribbble {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18147,11 +23871,23 @@ impl IconShape for LdDrill {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18192,11 +23928,23 @@ impl IconShape for LdDroplet {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18219,11 +23967,23 @@ impl IconShape for LdDroplets {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18249,11 +24009,23 @@ impl IconShape for LdDrum {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18297,11 +24069,23 @@ impl IconShape for LdDrumstick {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18327,11 +24111,23 @@ impl IconShape for LdDumbbell {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18366,11 +24162,23 @@ impl IconShape for LdEarOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18408,11 +24216,23 @@ impl IconShape for LdEar {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18438,11 +24258,23 @@ impl IconShape for LdEarthLock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18484,11 +24316,23 @@ impl IconShape for LdEarth {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18522,11 +24366,23 @@ impl IconShape for LdEclipse {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18554,11 +24410,23 @@ impl IconShape for LdEggFried {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18586,11 +24454,23 @@ impl IconShape for LdEggOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18622,11 +24502,23 @@ impl IconShape for LdEgg {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18649,11 +24541,23 @@ impl IconShape for LdEllipsisVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18688,11 +24592,23 @@ impl IconShape for LdEllipsis {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18727,11 +24643,23 @@ impl IconShape for LdEqualNot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18769,11 +24697,23 @@ impl IconShape for LdEqual {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18805,11 +24745,23 @@ impl IconShape for LdEraser {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18838,11 +24790,23 @@ impl IconShape for LdEuro {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18871,11 +24835,23 @@ impl IconShape for LdExpand {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18907,11 +24883,23 @@ impl IconShape for LdExternalLink {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18940,11 +24928,23 @@ impl IconShape for LdEyeOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -18979,11 +24979,23 @@ impl IconShape for LdEye {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19011,11 +25023,23 @@ impl IconShape for LdFacebook {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19038,11 +25062,23 @@ impl IconShape for LdFactory {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19074,11 +25110,23 @@ impl IconShape for LdFan {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19104,11 +25152,23 @@ impl IconShape for LdFastForward {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19134,11 +25194,23 @@ impl IconShape for LdFeather {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19167,11 +25239,23 @@ impl IconShape for LdFence {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19212,11 +25296,23 @@ impl IconShape for LdFerrisWheel {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19265,11 +25361,23 @@ impl IconShape for LdFigma {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19304,11 +25412,23 @@ impl IconShape for LdFileArchive {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19348,11 +25468,23 @@ impl IconShape for LdFileAudio2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19391,11 +25523,23 @@ impl IconShape for LdFileAudio {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19424,11 +25568,23 @@ impl IconShape for LdFileAxis3d {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19460,11 +25616,23 @@ impl IconShape for LdFileBadge2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19498,11 +25666,23 @@ impl IconShape for LdFileBadge {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19534,11 +25714,23 @@ impl IconShape for LdFileBarChart2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19573,11 +25765,23 @@ impl IconShape for LdFileBarChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19612,11 +25816,23 @@ impl IconShape for LdFileBox {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19651,11 +25867,23 @@ impl IconShape for LdFileCheck2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19684,11 +25912,23 @@ impl IconShape for LdFileCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19717,11 +25957,23 @@ impl IconShape for LdFileClock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19755,11 +26007,23 @@ impl IconShape for LdFileCode2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19791,11 +26055,23 @@ impl IconShape for LdFileCode {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19827,11 +26103,23 @@ impl IconShape for LdFileCog {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19886,11 +26174,23 @@ impl IconShape for LdFileDiff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19922,11 +26222,23 @@ impl IconShape for LdFileDigit {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -19965,11 +26277,23 @@ impl IconShape for LdFileDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20001,11 +26325,23 @@ impl IconShape for LdFileHeart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20034,11 +26370,23 @@ impl IconShape for LdFileImage {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20072,11 +26420,23 @@ impl IconShape for LdFileInput {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20108,11 +26468,23 @@ impl IconShape for LdFileJson2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20144,11 +26516,23 @@ impl IconShape for LdFileJson {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20180,11 +26564,23 @@ impl IconShape for LdFileKey2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20221,11 +26617,23 @@ impl IconShape for LdFileKey {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20259,11 +26667,23 @@ impl IconShape for LdFileLineChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20292,11 +26712,23 @@ impl IconShape for LdFileLock2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20332,11 +26764,23 @@ impl IconShape for LdFileLock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20369,11 +26813,23 @@ impl IconShape for LdFileMinus2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20402,11 +26858,23 @@ impl IconShape for LdFileMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20435,11 +26903,23 @@ impl IconShape for LdFileMusic {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20475,11 +26955,23 @@ impl IconShape for LdFileOutput {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20514,11 +27006,23 @@ impl IconShape for LdFilePenLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20547,11 +27051,23 @@ impl IconShape for LdFilePen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20580,11 +27096,23 @@ impl IconShape for LdFilePieChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20616,11 +27144,23 @@ impl IconShape for LdFilePlus2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20652,11 +27192,23 @@ impl IconShape for LdFilePlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20688,11 +27240,23 @@ impl IconShape for LdFileQuestion {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20721,11 +27285,23 @@ impl IconShape for LdFileScan {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20763,11 +27339,23 @@ impl IconShape for LdFileSearch2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20801,11 +27389,23 @@ impl IconShape for LdFileSearch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20839,11 +27439,23 @@ impl IconShape for LdFileSliders {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20881,11 +27493,23 @@ impl IconShape for LdFileSpreadsheet {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20923,11 +27547,23 @@ impl IconShape for LdFileStack {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20959,11 +27595,23 @@ impl IconShape for LdFileSymlink {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -20992,11 +27640,23 @@ impl IconShape for LdFileTerminal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21028,11 +27688,23 @@ impl IconShape for LdFileText {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21067,11 +27739,23 @@ impl IconShape for LdFileType2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21106,11 +27790,23 @@ impl IconShape for LdFileType {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21145,11 +27841,23 @@ impl IconShape for LdFileUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21181,11 +27889,23 @@ impl IconShape for LdFileVideo2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21221,11 +27941,23 @@ impl IconShape for LdFileVideo {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21254,11 +27986,23 @@ impl IconShape for LdFileVolume2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21293,11 +28037,23 @@ impl IconShape for LdFileVolume {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21329,11 +28085,23 @@ impl IconShape for LdFileWarning {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21362,11 +28130,23 @@ impl IconShape for LdFileX2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21398,11 +28178,23 @@ impl IconShape for LdFileX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21434,11 +28226,23 @@ impl IconShape for LdFile {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21464,11 +28268,23 @@ impl IconShape for LdFiles {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21497,11 +28313,23 @@ impl IconShape for LdFilm {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21549,11 +28377,23 @@ impl IconShape for LdFilterX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21582,11 +28422,23 @@ impl IconShape for LdFilter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21609,11 +28461,23 @@ impl IconShape for LdFingerprint {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21660,11 +28524,23 @@ impl IconShape for LdFireExtinguisher {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21702,11 +28578,23 @@ impl IconShape for LdFishOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21735,11 +28623,23 @@ impl IconShape for LdFishSymbol {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21762,11 +28662,23 @@ impl IconShape for LdFish {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21804,11 +28716,23 @@ impl IconShape for LdFlagOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21843,11 +28767,23 @@ impl IconShape for LdFlagTriangleLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21870,11 +28806,23 @@ impl IconShape for LdFlagTriangleRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21897,11 +28845,23 @@ impl IconShape for LdFlag {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21930,11 +28890,23 @@ impl IconShape for LdFlameKindling {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21963,11 +28935,23 @@ impl IconShape for LdFlame {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -21990,11 +28974,23 @@ impl IconShape for LdFlashlightOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22032,11 +29028,23 @@ impl IconShape for LdFlashlight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22071,11 +29079,23 @@ impl IconShape for LdFlaskConicalOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22116,11 +29136,23 @@ impl IconShape for LdFlaskConical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22149,11 +29181,23 @@ impl IconShape for LdFlaskRound {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22188,11 +29232,23 @@ impl IconShape for LdFlipHorizontal2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22230,11 +29286,23 @@ impl IconShape for LdFlipHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22272,11 +29340,23 @@ impl IconShape for LdFlipVertical2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22314,11 +29394,23 @@ impl IconShape for LdFlipVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22356,11 +29448,23 @@ impl IconShape for LdFlower2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22397,11 +29501,23 @@ impl IconShape for LdFlower {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22453,11 +29569,23 @@ impl IconShape for LdFocus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22494,11 +29622,23 @@ impl IconShape for LdFoldHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22542,11 +29682,23 @@ impl IconShape for LdFoldVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22590,11 +29742,23 @@ impl IconShape for LdFolderArchive {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22628,11 +29792,23 @@ impl IconShape for LdFolderCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22658,11 +29834,23 @@ impl IconShape for LdFolderClock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22693,11 +29881,23 @@ impl IconShape for LdFolderClosed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22723,11 +29923,23 @@ impl IconShape for LdFolderCog {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22779,11 +29991,23 @@ impl IconShape for LdFolderDot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22811,11 +30035,23 @@ impl IconShape for LdFolderDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22844,11 +30080,23 @@ impl IconShape for LdFolderGit2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22884,11 +30132,23 @@ impl IconShape for LdFolderGit {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22922,11 +30182,23 @@ impl IconShape for LdFolderHeart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22952,11 +30224,23 @@ impl IconShape for LdFolderInput {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -22985,11 +30269,23 @@ impl IconShape for LdFolderKanban {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23021,11 +30317,23 @@ impl IconShape for LdFolderKey {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23059,11 +30367,23 @@ impl IconShape for LdFolderLock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23096,11 +30416,23 @@ impl IconShape for LdFolderMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23126,11 +30458,23 @@ impl IconShape for LdFolderOpenDot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23158,11 +30502,23 @@ impl IconShape for LdFolderOpen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23185,11 +30541,23 @@ impl IconShape for LdFolderOutput {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23218,11 +30586,23 @@ impl IconShape for LdFolderPen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23248,11 +30628,23 @@ impl IconShape for LdFolderPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23281,11 +30673,23 @@ impl IconShape for LdFolderRoot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23316,11 +30720,23 @@ impl IconShape for LdFolderSearch2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23351,11 +30767,23 @@ impl IconShape for LdFolderSearch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23386,11 +30814,23 @@ impl IconShape for LdFolderSymlink {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23416,11 +30856,23 @@ impl IconShape for LdFolderSync {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23455,11 +30907,23 @@ impl IconShape for LdFolderTree {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23491,11 +30955,23 @@ impl IconShape for LdFolderUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23524,11 +31000,23 @@ impl IconShape for LdFolderX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23557,11 +31045,23 @@ impl IconShape for LdFolder {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23584,11 +31084,23 @@ impl IconShape for LdFolders {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23614,11 +31126,23 @@ impl IconShape for LdFootprints {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23650,11 +31174,23 @@ impl IconShape for LdForklift {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23690,11 +31226,23 @@ impl IconShape for LdForward {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23720,11 +31268,23 @@ impl IconShape for LdFrame {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23768,11 +31328,23 @@ impl IconShape for LdFramer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23795,11 +31367,23 @@ impl IconShape for LdFrown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23839,11 +31423,23 @@ impl IconShape for LdFuel {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23881,11 +31477,23 @@ impl IconShape for LdFullscreen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23924,11 +31532,23 @@ impl IconShape for LdGalleryHorizontalEnd {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23961,11 +31581,23 @@ impl IconShape for LdGalleryHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -23998,11 +31630,23 @@ impl IconShape for LdGalleryThumbnails {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24041,11 +31685,23 @@ impl IconShape for LdGalleryVerticalEnd {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24078,11 +31734,23 @@ impl IconShape for LdGalleryVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24115,11 +31783,23 @@ impl IconShape for LdGamepad2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24166,11 +31846,23 @@ impl IconShape for LdGamepad {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24221,11 +31913,23 @@ impl IconShape for LdGanttChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24254,11 +31958,23 @@ impl IconShape for LdGauge {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24284,11 +32000,23 @@ impl IconShape for LdGavel {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24323,11 +32051,23 @@ impl IconShape for LdGem {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24356,11 +32096,23 @@ impl IconShape for LdGhost {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24389,11 +32141,23 @@ impl IconShape for LdGift {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24429,11 +32193,23 @@ impl IconShape for LdGitBranchPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24471,11 +32247,23 @@ impl IconShape for LdGitBranch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24514,11 +32302,23 @@ impl IconShape for LdGitCommitHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24555,11 +32355,23 @@ impl IconShape for LdGitCommitVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24590,11 +32402,23 @@ impl IconShape for LdGitCompareArrows {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24636,11 +32460,23 @@ impl IconShape for LdGitCompare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24676,11 +32512,23 @@ impl IconShape for LdGitFork {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24721,11 +32569,23 @@ impl IconShape for LdGitGraph {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24769,11 +32629,23 @@ impl IconShape for LdGitMerge {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24806,11 +32678,23 @@ impl IconShape for LdGitPullRequestArrow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24849,11 +32733,23 @@ impl IconShape for LdGitPullRequestClosed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24895,11 +32791,23 @@ impl IconShape for LdGitPullRequestCreateArrow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24939,11 +32847,23 @@ impl IconShape for LdGitPullRequestCreate {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -24980,11 +32900,23 @@ impl IconShape for LdGitPullRequestDraft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25026,11 +32958,23 @@ impl IconShape for LdGitPullRequest {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25069,11 +33013,23 @@ impl IconShape for LdGithub {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25099,11 +33055,23 @@ impl IconShape for LdGitlab {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25126,11 +33094,23 @@ impl IconShape for LdGlassWater {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25156,11 +33136,23 @@ impl IconShape for LdGlasses {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25199,11 +33191,23 @@ impl IconShape for LdGlobeLock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25239,11 +33243,23 @@ impl IconShape for LdGlobe {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25274,11 +33290,23 @@ impl IconShape for LdGoal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25307,11 +33335,23 @@ impl IconShape for LdGrab {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25346,11 +33386,23 @@ impl IconShape for LdGraduationCap {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25379,11 +33431,23 @@ impl IconShape for LdGrape {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25446,11 +33510,23 @@ impl IconShape for LdGrid2x2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25483,11 +33559,23 @@ impl IconShape for LdGrid3x3 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25526,11 +33614,23 @@ impl IconShape for LdGripHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25580,11 +33680,23 @@ impl IconShape for LdGripVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25634,11 +33746,23 @@ impl IconShape for LdGrip {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25703,11 +33827,23 @@ impl IconShape for LdGroup {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25753,11 +33889,23 @@ impl IconShape for LdGuitar {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25794,11 +33942,23 @@ impl IconShape for LdHam {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25830,11 +33990,23 @@ impl IconShape for LdHammer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25863,11 +34035,23 @@ impl IconShape for LdHandCoins {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25906,11 +34090,23 @@ impl IconShape for LdHandHeart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25942,11 +34138,23 @@ impl IconShape for LdHandHelping {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -25975,11 +34183,23 @@ impl IconShape for LdHandMetal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26011,11 +34231,23 @@ impl IconShape for LdHandPlatter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26053,11 +34285,23 @@ impl IconShape for LdHand {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26089,11 +34333,23 @@ impl IconShape for LdHandshake {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26128,11 +34384,23 @@ impl IconShape for LdHardDriveDownload {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26171,11 +34439,23 @@ impl IconShape for LdHardDriveUpload {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26214,11 +34494,23 @@ impl IconShape for LdHardDrive {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26259,11 +34551,23 @@ impl IconShape for LdHardHat {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26295,11 +34599,23 @@ impl IconShape for LdHash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26343,11 +34659,23 @@ impl IconShape for LdHaze {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26391,11 +34719,23 @@ impl IconShape for LdHdmiPort {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26421,11 +34761,23 @@ impl IconShape for LdHeading1 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26457,11 +34809,23 @@ impl IconShape for LdHeading2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26493,11 +34857,23 @@ impl IconShape for LdHeading3 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26532,11 +34908,23 @@ impl IconShape for LdHeading4 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26571,11 +34959,23 @@ impl IconShape for LdHeading5 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26610,11 +35010,23 @@ impl IconShape for LdHeading6 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26651,11 +35063,23 @@ impl IconShape for LdHeading {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26684,11 +35108,23 @@ impl IconShape for LdHeadphones {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26711,11 +35147,23 @@ impl IconShape for LdHeadset {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26741,11 +35189,23 @@ impl IconShape for LdHeartCrack {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26771,11 +35231,23 @@ impl IconShape for LdHeartHandshake {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26807,11 +35279,23 @@ impl IconShape for LdHeartOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26843,11 +35327,23 @@ impl IconShape for LdHeartPulse {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26873,11 +35369,23 @@ impl IconShape for LdHeart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26900,11 +35408,23 @@ impl IconShape for LdHeater {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26954,11 +35474,23 @@ impl IconShape for LdHexagon {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -26981,11 +35513,23 @@ impl IconShape for LdHighlighter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27011,11 +35555,23 @@ impl IconShape for LdHistory {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27044,11 +35600,23 @@ impl IconShape for LdHome {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27074,11 +35642,23 @@ impl IconShape for LdHopOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27125,11 +35705,23 @@ impl IconShape for LdHop {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27173,11 +35765,23 @@ impl IconShape for LdHospital {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27215,11 +35819,23 @@ impl IconShape for LdHotel {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27273,11 +35889,23 @@ impl IconShape for LdHourglass {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27309,11 +35937,23 @@ impl IconShape for LdIceCreamBowl {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27342,11 +35982,23 @@ impl IconShape for LdIceCreamCone {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27375,11 +36027,23 @@ impl IconShape for LdImageDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27413,11 +36077,23 @@ impl IconShape for LdImageMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27454,11 +36130,23 @@ impl IconShape for LdImageOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27505,11 +36193,23 @@ impl IconShape for LdImagePlay {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27543,11 +36243,23 @@ impl IconShape for LdImagePlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27590,11 +36302,23 @@ impl IconShape for LdImageUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27628,11 +36352,23 @@ impl IconShape for LdImage {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27668,11 +36404,23 @@ impl IconShape for LdImages {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27710,11 +36458,23 @@ impl IconShape for LdImport {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27743,11 +36503,23 @@ impl IconShape for LdInbox {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27773,11 +36545,23 @@ impl IconShape for LdIndentDecrease {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27818,11 +36602,23 @@ impl IconShape for LdIndentIncrease {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27863,11 +36659,23 @@ impl IconShape for LdIndianRupee {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27902,11 +36710,23 @@ impl IconShape for LdInfinity {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27929,11 +36749,23 @@ impl IconShape for LdInfo {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -27964,11 +36796,23 @@ impl IconShape for LdInspectionPanel {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28007,11 +36851,23 @@ impl IconShape for LdInstagram {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28048,11 +36904,23 @@ impl IconShape for LdItalic {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28090,11 +36958,23 @@ impl IconShape for LdIterationCcw {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28120,11 +37000,23 @@ impl IconShape for LdIterationCw {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28150,11 +37042,23 @@ impl IconShape for LdJapaneseYen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28183,11 +37087,23 @@ impl IconShape for LdJoystick {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28221,11 +37137,23 @@ impl IconShape for LdKanban {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28254,11 +37182,23 @@ impl IconShape for LdKeyRound {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28286,11 +37226,23 @@ impl IconShape for LdKeySquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28319,11 +37271,23 @@ impl IconShape for LdKey {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28354,11 +37318,23 @@ impl IconShape for LdKeyboardMusic {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28409,11 +37385,23 @@ impl IconShape for LdKeyboardOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28463,11 +37451,23 @@ impl IconShape for LdKeyboard {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28518,11 +37518,23 @@ impl IconShape for LdLampCeiling {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28551,11 +37563,23 @@ impl IconShape for LdLampDesk {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28587,11 +37611,23 @@ impl IconShape for LdLampFloor {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28620,11 +37656,23 @@ impl IconShape for LdLampWallDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28653,11 +37701,23 @@ impl IconShape for LdLampWallUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28686,11 +37746,23 @@ impl IconShape for LdLamp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28719,11 +37791,23 @@ impl IconShape for LdLandPlot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28755,11 +37839,23 @@ impl IconShape for LdLandmark {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28812,11 +37908,23 @@ impl IconShape for LdLanguages {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28854,11 +37962,23 @@ impl IconShape for LdLaptopMinimal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28892,11 +38012,23 @@ impl IconShape for LdLaptop {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28919,11 +38051,23 @@ impl IconShape for LdLassoSelect {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28958,11 +38102,23 @@ impl IconShape for LdLasso {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -28991,11 +38147,23 @@ impl IconShape for LdLaugh {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29035,11 +38203,23 @@ impl IconShape for LdLayers2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29065,11 +38245,23 @@ impl IconShape for LdLayers3 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29098,11 +38290,23 @@ impl IconShape for LdLayers {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29131,11 +38335,23 @@ impl IconShape for LdLayoutDashboard {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29183,11 +38399,23 @@ impl IconShape for LdLayoutGrid {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29235,11 +38463,23 @@ impl IconShape for LdLayoutList {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29285,11 +38525,23 @@ impl IconShape for LdLayoutPanelLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29330,11 +38582,23 @@ impl IconShape for LdLayoutPanelTop {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29375,11 +38639,23 @@ impl IconShape for LdLayoutTemplate {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29420,11 +38696,23 @@ impl IconShape for LdLeaf {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29450,11 +38738,23 @@ impl IconShape for LdLeafyGreen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29480,11 +38780,23 @@ impl IconShape for LdLibraryBig {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29517,11 +38829,23 @@ impl IconShape for LdLibrary {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29553,11 +38877,23 @@ impl IconShape for LdLifeBuoy {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29599,11 +38935,23 @@ impl IconShape for LdLigature {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29638,11 +38986,23 @@ impl IconShape for LdLightbulbOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29677,11 +39037,23 @@ impl IconShape for LdLightbulb {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29710,11 +39082,23 @@ impl IconShape for LdLineChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29740,11 +39124,23 @@ impl IconShape for LdLink2Off {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29782,11 +39178,23 @@ impl IconShape for LdLink2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29818,11 +39226,23 @@ impl IconShape for LdLink {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29848,11 +39268,23 @@ impl IconShape for LdLinkedin {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29886,11 +39318,23 @@ impl IconShape for LdListChecks {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29925,11 +39369,23 @@ impl IconShape for LdListCollapse {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -29964,11 +39420,23 @@ impl IconShape for LdListEnd {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30003,11 +39471,23 @@ impl IconShape for LdListFilter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30036,11 +39516,23 @@ impl IconShape for LdListMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30072,11 +39564,23 @@ impl IconShape for LdListMusic {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30111,11 +39615,23 @@ impl IconShape for LdListOrdered {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30162,11 +39678,23 @@ impl IconShape for LdListPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30201,11 +39729,23 @@ impl IconShape for LdListRestart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30240,11 +39780,23 @@ impl IconShape for LdListStart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30279,11 +39831,23 @@ impl IconShape for LdListTodo {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30322,11 +39886,23 @@ impl IconShape for LdListTree {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30361,11 +39937,23 @@ impl IconShape for LdListVideo {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30397,11 +39985,23 @@ impl IconShape for LdListX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30436,11 +40036,23 @@ impl IconShape for LdList {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30496,11 +40108,23 @@ impl IconShape for LdLoaderCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30523,11 +40147,23 @@ impl IconShape for LdLoader {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30595,11 +40231,23 @@ impl IconShape for LdLocateFixed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30653,11 +40301,23 @@ impl IconShape for LdLocateOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30713,11 +40373,23 @@ impl IconShape for LdLocate {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30766,11 +40438,23 @@ impl IconShape for LdLockKeyholeOpen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30805,11 +40489,23 @@ impl IconShape for LdLockKeyhole {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30844,11 +40540,23 @@ impl IconShape for LdLockOpen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30879,11 +40587,23 @@ impl IconShape for LdLock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30914,11 +40634,23 @@ impl IconShape for LdLogIn {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30950,11 +40682,23 @@ impl IconShape for LdLogOut {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -30986,11 +40730,23 @@ impl IconShape for LdLollipop {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31021,11 +40777,23 @@ impl IconShape for LdLuggage {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31064,11 +40832,23 @@ impl IconShape for LdMagnet {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31097,11 +40877,23 @@ impl IconShape for LdMailCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31130,11 +40922,23 @@ impl IconShape for LdMailMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31163,11 +40967,23 @@ impl IconShape for LdMailOpen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31193,11 +41009,23 @@ impl IconShape for LdMailPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31229,11 +41057,23 @@ impl IconShape for LdMailQuestion {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31265,11 +41105,23 @@ impl IconShape for LdMailSearch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31306,11 +41158,23 @@ impl IconShape for LdMailWarning {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31342,11 +41206,23 @@ impl IconShape for LdMailX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31378,11 +41254,23 @@ impl IconShape for LdMail {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31412,11 +41300,23 @@ impl IconShape for LdMailbox {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31451,11 +41351,23 @@ impl IconShape for LdMails {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31488,11 +41400,23 @@ impl IconShape for LdMapPinOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31530,11 +41454,23 @@ impl IconShape for LdMapPin {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31562,11 +41498,23 @@ impl IconShape for LdMapPinned {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31597,11 +41545,23 @@ impl IconShape for LdMap {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31630,11 +41590,23 @@ impl IconShape for LdMartini {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31663,11 +41635,23 @@ impl IconShape for LdMaximize2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31705,11 +41689,23 @@ impl IconShape for LdMaximize {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31741,11 +41737,23 @@ impl IconShape for LdMedal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31785,11 +41793,23 @@ impl IconShape for LdMegaphoneOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31824,11 +41844,23 @@ impl IconShape for LdMegaphone {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31854,11 +41886,23 @@ impl IconShape for LdMeh {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31901,11 +41945,23 @@ impl IconShape for LdMemoryStick {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31952,11 +42008,23 @@ impl IconShape for LdMenu {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -31994,11 +42062,23 @@ impl IconShape for LdMerge {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32027,11 +42107,23 @@ impl IconShape for LdMessageCircleCode {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32060,11 +42152,23 @@ impl IconShape for LdMessageCircleDashed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32108,11 +42212,23 @@ impl IconShape for LdMessageCircleHeart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32138,11 +42254,23 @@ impl IconShape for LdMessageCircleMore {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32174,11 +42302,23 @@ impl IconShape for LdMessageCircleOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32207,11 +42347,23 @@ impl IconShape for LdMessageCirclePlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32240,11 +42392,23 @@ impl IconShape for LdMessageCircleQuestion {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32273,11 +42437,23 @@ impl IconShape for LdMessageCircleReply {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32306,11 +42482,23 @@ impl IconShape for LdMessageCircleWarning {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32339,11 +42527,23 @@ impl IconShape for LdMessageCircleX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32372,11 +42572,23 @@ impl IconShape for LdMessageCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32399,11 +42611,23 @@ impl IconShape for LdMessageSquareCode {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32432,11 +42656,23 @@ impl IconShape for LdMessageSquareDashed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32480,11 +42716,23 @@ impl IconShape for LdMessageSquareDiff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32516,11 +42764,23 @@ impl IconShape for LdMessageSquareDot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32548,11 +42808,23 @@ impl IconShape for LdMessageSquareHeart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32578,11 +42850,23 @@ impl IconShape for LdMessageSquareMore {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32614,11 +42898,23 @@ impl IconShape for LdMessageSquareOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32647,11 +42943,23 @@ impl IconShape for LdMessageSquarePlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32680,11 +42988,23 @@ impl IconShape for LdMessageSquareQuote {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32713,11 +43033,23 @@ impl IconShape for LdMessageSquareReply {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32746,11 +43078,23 @@ impl IconShape for LdMessageSquareShare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32779,11 +43123,23 @@ impl IconShape for LdMessageSquareText {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32812,11 +43168,23 @@ impl IconShape for LdMessageSquareWarning {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32845,11 +43213,23 @@ impl IconShape for LdMessageSquareX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32878,11 +43258,23 @@ impl IconShape for LdMessageSquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32905,11 +43297,23 @@ impl IconShape for LdMessagesSquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32935,11 +43339,23 @@ impl IconShape for LdMicOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -32983,11 +43399,23 @@ impl IconShape for LdMicVocal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33015,11 +43443,23 @@ impl IconShape for LdMic {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33051,11 +43491,23 @@ impl IconShape for LdMicroscope {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33093,11 +43545,23 @@ impl IconShape for LdMicrowave {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33140,11 +43604,23 @@ impl IconShape for LdMilestone {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33173,11 +43649,23 @@ impl IconShape for LdMilkOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33212,11 +43700,23 @@ impl IconShape for LdMilk {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33245,11 +43745,23 @@ impl IconShape for LdMinimize2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33287,11 +43799,23 @@ impl IconShape for LdMinimize {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33323,11 +43847,23 @@ impl IconShape for LdMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33350,11 +43886,23 @@ impl IconShape for LdMonitorCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33390,11 +43938,23 @@ impl IconShape for LdMonitorDot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33428,11 +43988,23 @@ impl IconShape for LdMonitorDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33471,11 +44043,23 @@ impl IconShape for LdMonitorOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33510,11 +44094,23 @@ impl IconShape for LdMonitorPause {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33553,11 +44149,23 @@ impl IconShape for LdMonitorPlay {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33593,11 +44201,23 @@ impl IconShape for LdMonitorSmartphone {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33633,11 +44253,23 @@ impl IconShape for LdMonitorSpeaker {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33678,11 +44310,23 @@ impl IconShape for LdMonitorStop {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33722,11 +44366,23 @@ impl IconShape for LdMonitorUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33765,11 +44421,23 @@ impl IconShape for LdMonitorX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33808,11 +44476,23 @@ impl IconShape for LdMonitor {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33851,11 +44531,23 @@ impl IconShape for LdMoonStar {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33884,11 +44576,23 @@ impl IconShape for LdMoon {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33911,11 +44615,23 @@ impl IconShape for LdMountainSnow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33941,11 +44657,23 @@ impl IconShape for LdMountain {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -33968,11 +44696,23 @@ impl IconShape for LdMouseOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34004,11 +44744,23 @@ impl IconShape for LdMousePointer2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34031,11 +44783,23 @@ impl IconShape for LdMousePointerClick {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34070,11 +44834,23 @@ impl IconShape for LdMousePointer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34100,11 +44876,23 @@ impl IconShape for LdMouse {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34134,11 +44922,23 @@ impl IconShape for LdMove3d {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34170,11 +44970,23 @@ impl IconShape for LdMoveDiagonal2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34206,11 +45018,23 @@ impl IconShape for LdMoveDiagonal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34242,11 +45066,23 @@ impl IconShape for LdMoveDownLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34272,11 +45108,23 @@ impl IconShape for LdMoveDownRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34302,11 +45150,23 @@ impl IconShape for LdMoveDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34332,11 +45192,23 @@ impl IconShape for LdMoveHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34368,11 +45240,23 @@ impl IconShape for LdMoveLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34398,11 +45282,23 @@ impl IconShape for LdMoveRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34428,11 +45324,23 @@ impl IconShape for LdMoveUpLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34458,11 +45366,23 @@ impl IconShape for LdMoveUpRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34488,11 +45408,23 @@ impl IconShape for LdMoveUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34518,11 +45450,23 @@ impl IconShape for LdMoveVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34554,11 +45498,23 @@ impl IconShape for LdMove {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34602,11 +45558,23 @@ impl IconShape for LdMusic2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34634,11 +45602,23 @@ impl IconShape for LdMusic3 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34666,11 +45646,23 @@ impl IconShape for LdMusic4 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34706,11 +45698,23 @@ impl IconShape for LdMusic {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34743,11 +45747,23 @@ impl IconShape for LdNavigation2Off {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34779,11 +45795,23 @@ impl IconShape for LdNavigation2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34806,11 +45834,23 @@ impl IconShape for LdNavigationOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34842,11 +45882,23 @@ impl IconShape for LdNavigation {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34869,11 +45921,23 @@ impl IconShape for LdNetwork {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34920,11 +45984,23 @@ impl IconShape for LdNewspaper {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34956,11 +46032,23 @@ impl IconShape for LdNfc {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34992,11 +46080,23 @@ impl IconShape for LdNotebookPen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35034,11 +46134,23 @@ impl IconShape for LdNotebookTabs {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35089,11 +46201,23 @@ impl IconShape for LdNotebookText {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35141,11 +46265,23 @@ impl IconShape for LdNotebook {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35187,11 +46323,23 @@ impl IconShape for LdNotepadTextDashed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35250,11 +46398,23 @@ impl IconShape for LdNotepadText {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35299,11 +46459,23 @@ impl IconShape for LdNutOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35341,11 +46513,23 @@ impl IconShape for LdNut {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35374,11 +46558,23 @@ impl IconShape for LdOctagonAlert {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35413,11 +46609,23 @@ impl IconShape for LdOctagonPause {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35446,11 +46654,23 @@ impl IconShape for LdOctagonX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35479,11 +46699,23 @@ impl IconShape for LdOctagon {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35506,11 +46738,23 @@ impl IconShape for LdOption {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35536,11 +46780,23 @@ impl IconShape for LdOrbit {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35581,11 +46837,23 @@ impl IconShape for LdOrigami {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35614,11 +46882,23 @@ impl IconShape for LdPackage2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35647,11 +46927,23 @@ impl IconShape for LdPackageCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35689,11 +46981,23 @@ impl IconShape for LdPackageMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35731,11 +47035,23 @@ impl IconShape for LdPackageOpen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35767,11 +47083,23 @@ impl IconShape for LdPackagePlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35812,11 +47140,23 @@ impl IconShape for LdPackageSearch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35859,11 +47199,23 @@ impl IconShape for LdPackageX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35901,11 +47253,23 @@ impl IconShape for LdPackage {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35937,11 +47301,23 @@ impl IconShape for LdPaintBucket {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -35973,11 +47349,23 @@ impl IconShape for LdPaintRoller {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36014,11 +47402,23 @@ impl IconShape for LdPaintbrush2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36050,11 +47450,23 @@ impl IconShape for LdPaintbrush {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36083,11 +47495,23 @@ impl IconShape for LdPalette {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36130,11 +47554,23 @@ impl IconShape for LdPanelBottomClose {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36167,11 +47603,23 @@ impl IconShape for LdPanelBottomDashed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36210,11 +47658,23 @@ impl IconShape for LdPanelBottomOpen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36247,11 +47707,23 @@ impl IconShape for LdPanelBottom {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36281,11 +47753,23 @@ impl IconShape for LdPanelLeftClose {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36318,11 +47802,23 @@ impl IconShape for LdPanelLeftDashed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36361,11 +47857,23 @@ impl IconShape for LdPanelLeftOpen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36398,11 +47906,23 @@ impl IconShape for LdPanelLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36432,11 +47952,23 @@ impl IconShape for LdPanelRightClose {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36469,11 +48001,23 @@ impl IconShape for LdPanelRightDashed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36512,11 +48056,23 @@ impl IconShape for LdPanelRightOpen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36549,11 +48105,23 @@ impl IconShape for LdPanelRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36583,11 +48151,23 @@ impl IconShape for LdPanelTopClose {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36620,11 +48200,23 @@ impl IconShape for LdPanelTopDashed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36663,11 +48255,23 @@ impl IconShape for LdPanelTopOpen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36700,11 +48304,23 @@ impl IconShape for LdPanelTop {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36734,11 +48350,23 @@ impl IconShape for LdPanelsLeftBottom {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36771,11 +48399,23 @@ impl IconShape for LdPanelsRightBottom {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36808,11 +48448,23 @@ impl IconShape for LdPanelsTopLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36845,11 +48497,23 @@ impl IconShape for LdPaperclip {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36872,11 +48536,23 @@ impl IconShape for LdParentheses {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36902,11 +48578,23 @@ impl IconShape for LdParkingMeter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36941,11 +48629,23 @@ impl IconShape for LdPartyPopper {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -36992,11 +48692,23 @@ impl IconShape for LdPause {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37030,11 +48742,23 @@ impl IconShape for LdPawPrint {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37072,11 +48796,23 @@ impl IconShape for LdPcCase {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37112,11 +48848,23 @@ impl IconShape for LdPenLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37142,11 +48890,23 @@ impl IconShape for LdPenTool {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37180,11 +48940,23 @@ impl IconShape for LdPen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37207,11 +48979,23 @@ impl IconShape for LdPencilLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37240,11 +49024,23 @@ impl IconShape for LdPencilRuler {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37282,11 +49078,23 @@ impl IconShape for LdPencil {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37312,11 +49120,23 @@ impl IconShape for LdPentagon {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37339,11 +49159,23 @@ impl IconShape for LdPercent {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37379,11 +49211,23 @@ impl IconShape for LdPersonStanding {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37417,11 +49261,23 @@ impl IconShape for LdPhoneCall {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37450,11 +49306,23 @@ impl IconShape for LdPhoneForwarded {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37486,11 +49354,23 @@ impl IconShape for LdPhoneIncoming {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37522,11 +49402,23 @@ impl IconShape for LdPhoneMissed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37561,11 +49453,23 @@ impl IconShape for LdPhoneOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37594,11 +49498,23 @@ impl IconShape for LdPhoneOutgoing {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37630,11 +49546,23 @@ impl IconShape for LdPhone {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37657,11 +49585,23 @@ impl IconShape for LdPi {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37693,11 +49633,23 @@ impl IconShape for LdPiano {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37735,11 +49687,23 @@ impl IconShape for LdPickaxe {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37771,11 +49735,23 @@ impl IconShape for LdPictureInPicture2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37805,11 +49781,23 @@ impl IconShape for LdPictureInPicture {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37839,11 +49827,23 @@ impl IconShape for LdPieChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37869,11 +49869,23 @@ impl IconShape for LdPiggyBank {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37902,11 +49914,23 @@ impl IconShape for LdPilcrowLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37941,11 +49965,23 @@ impl IconShape for LdPilcrowRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -37980,11 +50016,23 @@ impl IconShape for LdPilcrow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38013,11 +50061,23 @@ impl IconShape for LdPill {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38043,11 +50103,23 @@ impl IconShape for LdPinOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38085,11 +50157,23 @@ impl IconShape for LdPin {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38118,11 +50202,23 @@ impl IconShape for LdPipette {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38151,11 +50247,23 @@ impl IconShape for LdPizza {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38190,11 +50298,23 @@ impl IconShape for LdPlaneLanding {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38220,11 +50340,23 @@ impl IconShape for LdPlaneTakeoff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38250,11 +50382,23 @@ impl IconShape for LdPlane {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38277,11 +50421,23 @@ impl IconShape for LdPlay {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38304,11 +50460,23 @@ impl IconShape for LdPlug2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38343,11 +50511,23 @@ impl IconShape for LdPlugZap2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38382,11 +50562,23 @@ impl IconShape for LdPlugZap {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38421,11 +50613,23 @@ impl IconShape for LdPlug {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38457,11 +50661,23 @@ impl IconShape for LdPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38487,11 +50703,23 @@ impl IconShape for LdPocketKnife {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38526,11 +50754,23 @@ impl IconShape for LdPocket {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38556,11 +50796,23 @@ impl IconShape for LdPodcast {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38594,11 +50846,23 @@ impl IconShape for LdPointerOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38636,11 +50900,23 @@ impl IconShape for LdPointer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38675,11 +50951,23 @@ impl IconShape for LdPopcorn {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38711,11 +50999,23 @@ impl IconShape for LdPopsicle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38741,11 +51041,23 @@ impl IconShape for LdPoundSterling {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38777,11 +51089,23 @@ impl IconShape for LdPowerOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38813,11 +51137,23 @@ impl IconShape for LdPower {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38843,11 +51179,23 @@ impl IconShape for LdPresentation {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38876,11 +51224,23 @@ impl IconShape for LdPrinter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38912,11 +51272,23 @@ impl IconShape for LdProjector {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38956,11 +51328,23 @@ impl IconShape for LdProportions {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -38993,11 +51377,23 @@ impl IconShape for LdPuzzle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39020,11 +51416,23 @@ impl IconShape for LdPyramid {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39050,11 +51458,23 @@ impl IconShape for LdQrCode {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39122,11 +51542,23 @@ impl IconShape for LdQuote {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39152,11 +51584,23 @@ impl IconShape for LdRabbit {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39191,11 +51635,23 @@ impl IconShape for LdRadar {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39241,11 +51697,23 @@ impl IconShape for LdRadiation {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39277,11 +51745,23 @@ impl IconShape for LdRadical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39304,11 +51784,23 @@ impl IconShape for LdRadioReceiver {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39344,11 +51836,23 @@ impl IconShape for LdRadioTower {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39391,11 +51895,23 @@ impl IconShape for LdRadio {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39432,11 +51948,23 @@ impl IconShape for LdRadius {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39472,11 +52000,23 @@ impl IconShape for LdRailSymbol {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39505,11 +52045,23 @@ impl IconShape for LdRainbow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39538,11 +52090,23 @@ impl IconShape for LdRat {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39577,11 +52141,23 @@ impl IconShape for LdRatio {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39615,11 +52191,23 @@ impl IconShape for LdReceiptCent {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39648,11 +52236,23 @@ impl IconShape for LdReceiptEuro {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39681,11 +52281,23 @@ impl IconShape for LdReceiptIndianRupee {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39717,11 +52329,23 @@ impl IconShape for LdReceiptJapaneseYen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39756,11 +52380,23 @@ impl IconShape for LdReceiptPoundSterling {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39792,11 +52428,23 @@ impl IconShape for LdReceiptRussianRuble {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39825,11 +52473,23 @@ impl IconShape for LdReceiptSwissFranc {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39861,11 +52521,23 @@ impl IconShape for LdReceiptText {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39897,11 +52569,23 @@ impl IconShape for LdReceipt {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39930,11 +52614,23 @@ impl IconShape for LdRectangleEllipsis {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -39970,11 +52666,23 @@ impl IconShape for LdRectangleHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40001,11 +52709,23 @@ impl IconShape for LdRectangleVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40032,11 +52752,23 @@ impl IconShape for LdRecycle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40074,11 +52806,23 @@ impl IconShape for LdRedo2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40104,11 +52848,23 @@ impl IconShape for LdRedoDot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40139,11 +52895,23 @@ impl IconShape for LdRedo {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40169,11 +52937,23 @@ impl IconShape for LdRefreshCcwDot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40210,11 +52990,23 @@ impl IconShape for LdRefreshCcw {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40246,11 +53038,23 @@ impl IconShape for LdRefreshCwOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40291,11 +53095,23 @@ impl IconShape for LdRefreshCw {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40327,11 +53143,23 @@ impl IconShape for LdRefrigerator {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40360,11 +53188,23 @@ impl IconShape for LdRegex {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40396,11 +53236,23 @@ impl IconShape for LdRemoveFormatting {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40435,11 +53287,23 @@ impl IconShape for LdRepeat1 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40474,11 +53338,23 @@ impl IconShape for LdRepeat2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40510,11 +53386,23 @@ impl IconShape for LdRepeat {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40546,11 +53434,23 @@ impl IconShape for LdReplaceAll {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40601,11 +53501,23 @@ impl IconShape for LdReplace {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40650,11 +53562,23 @@ impl IconShape for LdReplyAll {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40683,11 +53607,23 @@ impl IconShape for LdReply {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40713,11 +53649,23 @@ impl IconShape for LdRewind {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40743,11 +53691,23 @@ impl IconShape for LdRibbon {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40782,11 +53742,23 @@ impl IconShape for LdRocket {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40818,11 +53790,23 @@ impl IconShape for LdRockingChair {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40860,11 +53844,23 @@ impl IconShape for LdRollerCoaster {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40905,11 +53901,23 @@ impl IconShape for LdRotate3d {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40938,11 +53946,23 @@ impl IconShape for LdRotateCcwSquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -40971,11 +53991,23 @@ impl IconShape for LdRotateCcw {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41001,11 +54033,23 @@ impl IconShape for LdRotateCwSquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41034,11 +54078,23 @@ impl IconShape for LdRotateCw {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41064,11 +54120,23 @@ impl IconShape for LdRouteOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41113,11 +54181,23 @@ impl IconShape for LdRoute {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41150,11 +54230,23 @@ impl IconShape for LdRouter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41196,11 +54288,23 @@ impl IconShape for LdRows2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41230,11 +54334,23 @@ impl IconShape for LdRows3 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41267,11 +54383,23 @@ impl IconShape for LdRows4 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41307,11 +54435,23 @@ impl IconShape for LdRss {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41342,11 +54482,23 @@ impl IconShape for LdRuler {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41381,11 +54533,23 @@ impl IconShape for LdRussianRuble {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41411,11 +54575,23 @@ impl IconShape for LdSailboat {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41444,11 +54620,23 @@ impl IconShape for LdSalad {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41483,11 +54671,23 @@ impl IconShape for LdSandwich {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41519,11 +54719,23 @@ impl IconShape for LdSatelliteDish {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41555,11 +54767,23 @@ impl IconShape for LdSatellite {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41594,11 +54818,23 @@ impl IconShape for LdSaveAll {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41630,11 +54866,23 @@ impl IconShape for LdSave {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41663,11 +54911,23 @@ impl IconShape for LdScale3d {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41703,11 +54963,23 @@ impl IconShape for LdScale {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41742,11 +55014,23 @@ impl IconShape for LdScaling {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41778,11 +55062,23 @@ impl IconShape for LdScanBarcode {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41823,11 +55119,23 @@ impl IconShape for LdScanEye {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41867,11 +55175,23 @@ impl IconShape for LdScanFace {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41912,11 +55232,23 @@ impl IconShape for LdScanLine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41951,11 +55283,23 @@ impl IconShape for LdScanSearch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -41995,11 +55339,23 @@ impl IconShape for LdScanText {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42040,11 +55396,23 @@ impl IconShape for LdScan {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42076,11 +55444,23 @@ impl IconShape for LdScatterChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42128,11 +55508,23 @@ impl IconShape for LdSchool {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42172,11 +55564,23 @@ impl IconShape for LdScissorsLineDashed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42221,11 +55625,23 @@ impl IconShape for LdScissors {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42264,11 +55680,23 @@ impl IconShape for LdScreenShareOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42303,11 +55731,23 @@ impl IconShape for LdScreenShare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42342,11 +55782,23 @@ impl IconShape for LdScrollText {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42378,11 +55830,23 @@ impl IconShape for LdScroll {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42408,11 +55872,23 @@ impl IconShape for LdSearchCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42443,11 +55919,23 @@ impl IconShape for LdSearchCode {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42481,11 +55969,23 @@ impl IconShape for LdSearchSlash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42516,11 +56016,23 @@ impl IconShape for LdSearchX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42554,11 +56066,23 @@ impl IconShape for LdSearch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42586,11 +56110,23 @@ impl IconShape for LdSendHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42616,11 +56152,23 @@ impl IconShape for LdSendToBack {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42660,11 +56208,23 @@ impl IconShape for LdSend {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42690,11 +56250,23 @@ impl IconShape for LdSeparatorHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42726,11 +56298,23 @@ impl IconShape for LdSeparatorVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42762,11 +56346,23 @@ impl IconShape for LdServerCog {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42827,11 +56423,23 @@ impl IconShape for LdServerCrash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42866,11 +56474,23 @@ impl IconShape for LdServerOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42908,11 +56528,23 @@ impl IconShape for LdServer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -42960,11 +56592,23 @@ impl IconShape for LdSettings2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43000,11 +56644,23 @@ impl IconShape for LdSettings {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43032,11 +56688,23 @@ impl IconShape for LdShapes {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43071,11 +56739,23 @@ impl IconShape for LdShare2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43122,11 +56802,23 @@ impl IconShape for LdShare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43158,11 +56850,23 @@ impl IconShape for LdSheet {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43214,11 +56918,23 @@ impl IconShape for LdShell {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43241,11 +56957,23 @@ impl IconShape for LdShieldAlert {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43274,11 +57002,23 @@ impl IconShape for LdShieldBan {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43304,11 +57044,23 @@ impl IconShape for LdShieldCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43334,11 +57086,23 @@ impl IconShape for LdShieldEllipsis {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43370,11 +57134,23 @@ impl IconShape for LdShieldHalf {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43400,11 +57176,23 @@ impl IconShape for LdShieldMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43430,11 +57218,23 @@ impl IconShape for LdShieldOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43463,11 +57263,23 @@ impl IconShape for LdShieldPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43496,11 +57308,23 @@ impl IconShape for LdShieldQuestion {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43529,11 +57353,23 @@ impl IconShape for LdShieldX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43562,11 +57398,23 @@ impl IconShape for LdShield {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43589,11 +57437,23 @@ impl IconShape for LdShipWheel {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43647,11 +57507,23 @@ impl IconShape for LdShip {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43686,11 +57558,23 @@ impl IconShape for LdShirt {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43713,11 +57597,23 @@ impl IconShape for LdShoppingBag {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43746,11 +57642,23 @@ impl IconShape for LdShoppingBasket {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43791,11 +57699,23 @@ impl IconShape for LdShoppingCart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43828,11 +57748,23 @@ impl IconShape for LdShovel {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43861,11 +57793,23 @@ impl IconShape for LdShowerHead {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43915,11 +57859,23 @@ impl IconShape for LdShrink {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43951,11 +57907,23 @@ impl IconShape for LdShrub {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -43984,11 +57952,23 @@ impl IconShape for LdShuffle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44023,11 +58003,23 @@ impl IconShape for LdSigma {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44050,11 +58042,23 @@ impl IconShape for LdSignalHigh {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44086,11 +58090,23 @@ impl IconShape for LdSignalLow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44116,11 +58132,23 @@ impl IconShape for LdSignalMedium {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44149,11 +58177,23 @@ impl IconShape for LdSignalZero {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44176,11 +58216,23 @@ impl IconShape for LdSignal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44215,11 +58267,23 @@ impl IconShape for LdSignpostBig {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44251,11 +58315,23 @@ impl IconShape for LdSignpost {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44284,11 +58360,23 @@ impl IconShape for LdSiren {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44332,11 +58420,23 @@ impl IconShape for LdSkipBack {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44365,11 +58465,23 @@ impl IconShape for LdSkipForward {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44398,11 +58510,23 @@ impl IconShape for LdSkull {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44441,11 +58565,23 @@ impl IconShape for LdSlack {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44505,11 +58641,23 @@ impl IconShape for LdSlash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44532,11 +58680,23 @@ impl IconShape for LdSlice {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44562,11 +58722,23 @@ impl IconShape for LdSlidersHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44640,11 +58812,23 @@ impl IconShape for LdSlidersVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44718,11 +58902,23 @@ impl IconShape for LdSmartphoneCharging {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44753,11 +58949,23 @@ impl IconShape for LdSmartphoneNfc {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44793,11 +59001,23 @@ impl IconShape for LdSmartphone {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44828,11 +59048,23 @@ impl IconShape for LdSmilePlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44876,11 +59108,23 @@ impl IconShape for LdSmile {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44920,11 +59164,23 @@ impl IconShape for LdSnail {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -44961,11 +59217,23 @@ impl IconShape for LdSnowflake {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45009,11 +59277,23 @@ impl IconShape for LdSofa {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45048,11 +59328,23 @@ impl IconShape for LdSoup {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45090,11 +59382,23 @@ impl IconShape for LdSpace {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45117,11 +59421,23 @@ impl IconShape for LdSpade {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45147,11 +59463,23 @@ impl IconShape for LdSparkle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45174,11 +59502,23 @@ impl IconShape for LdSparkles {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45213,11 +59553,23 @@ impl IconShape for LdSpeaker {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45255,11 +59607,23 @@ impl IconShape for LdSpeech {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45288,11 +59652,23 @@ impl IconShape for LdSpellCheck2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45321,11 +59697,23 @@ impl IconShape for LdSpellCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45354,11 +59742,23 @@ impl IconShape for LdSpline {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45391,11 +59791,23 @@ impl IconShape for LdSplit {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45427,11 +59839,23 @@ impl IconShape for LdSprayCan {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45484,11 +59908,23 @@ impl IconShape for LdSprout {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45520,11 +59956,23 @@ impl IconShape for LdSquareActivity {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45554,11 +60002,23 @@ impl IconShape for LdSquareArrowDownLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45591,11 +60051,23 @@ impl IconShape for LdSquareArrowDownRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45628,11 +60100,23 @@ impl IconShape for LdSquareArrowDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45665,11 +60149,23 @@ impl IconShape for LdSquareArrowLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45702,11 +60198,23 @@ impl IconShape for LdSquareArrowOutDownLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45735,11 +60243,23 @@ impl IconShape for LdSquareArrowOutDownRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45768,11 +60288,23 @@ impl IconShape for LdSquareArrowOutUpLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45801,11 +60333,23 @@ impl IconShape for LdSquareArrowOutUpRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45834,11 +60378,23 @@ impl IconShape for LdSquareArrowRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45871,11 +60427,23 @@ impl IconShape for LdSquareArrowUpLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45908,11 +60476,23 @@ impl IconShape for LdSquareArrowUpRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45945,11 +60525,23 @@ impl IconShape for LdSquareArrowUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -45982,11 +60574,23 @@ impl IconShape for LdSquareAsterisk {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46022,11 +60626,23 @@ impl IconShape for LdSquareBottomDashedScissors {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46074,11 +60690,23 @@ impl IconShape for LdSquareCheckBig {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46104,11 +60732,23 @@ impl IconShape for LdSquareCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46138,11 +60778,23 @@ impl IconShape for LdSquareChevronDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46172,11 +60824,23 @@ impl IconShape for LdSquareChevronLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46206,11 +60870,23 @@ impl IconShape for LdSquareChevronRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46240,11 +60916,23 @@ impl IconShape for LdSquareChevronUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46274,11 +60962,23 @@ impl IconShape for LdSquareCode {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46311,11 +61011,23 @@ impl IconShape for LdSquareDashedBottomCode {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46350,11 +61062,23 @@ impl IconShape for LdSquareDashedBottom {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46383,11 +61107,23 @@ impl IconShape for LdSquareDashedKanban {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46452,11 +61188,23 @@ impl IconShape for LdSquareDashedMousePointer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46506,11 +61254,23 @@ impl IconShape for LdSquareDivide {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46556,11 +61316,23 @@ impl IconShape for LdSquareDot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46592,11 +61364,23 @@ impl IconShape for LdSquareEqual {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46629,11 +61413,23 @@ impl IconShape for LdSquareFunction {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46667,11 +61463,23 @@ impl IconShape for LdSquareGanttChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46707,11 +61515,23 @@ impl IconShape for LdSquareKanban {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46747,11 +61567,23 @@ impl IconShape for LdSquareLibrary {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46787,11 +61619,23 @@ impl IconShape for LdSquareM {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46821,11 +61665,23 @@ impl IconShape for LdSquareMenu {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46861,11 +61717,23 @@ impl IconShape for LdSquareMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46895,11 +61763,23 @@ impl IconShape for LdSquareMousePointer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46925,11 +61805,23 @@ impl IconShape for LdSquareParkingOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46964,11 +61856,23 @@ impl IconShape for LdSquareParking {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -46998,11 +61902,23 @@ impl IconShape for LdSquarePen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47028,11 +61944,23 @@ impl IconShape for LdSquarePercent {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47068,11 +61996,23 @@ impl IconShape for LdSquarePi {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47108,11 +62048,23 @@ impl IconShape for LdSquarePilcrow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47148,11 +62100,23 @@ impl IconShape for LdSquarePlay {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47182,11 +62146,23 @@ impl IconShape for LdSquarePlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47219,11 +62195,23 @@ impl IconShape for LdSquarePower {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47256,11 +62244,23 @@ impl IconShape for LdSquareRadical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47290,11 +62290,23 @@ impl IconShape for LdSquareScissors {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47340,11 +62352,23 @@ impl IconShape for LdSquareSigma {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47374,11 +62398,23 @@ impl IconShape for LdSquareSlash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47411,11 +62447,23 @@ impl IconShape for LdSquareSplitHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47447,11 +62495,23 @@ impl IconShape for LdSquareSplitVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47483,11 +62543,23 @@ impl IconShape for LdSquareStack {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47520,11 +62592,23 @@ impl IconShape for LdSquareTerminal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47558,11 +62642,23 @@ impl IconShape for LdSquareUserRound {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47597,11 +62693,23 @@ impl IconShape for LdSquareUser {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47636,11 +62744,23 @@ impl IconShape for LdSquareX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47674,11 +62794,23 @@ impl IconShape for LdSquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47705,11 +62837,23 @@ impl IconShape for LdSquircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47732,11 +62876,23 @@ impl IconShape for LdSquirrel {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47768,11 +62924,23 @@ impl IconShape for LdStamp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47801,11 +62969,23 @@ impl IconShape for LdStarHalf {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47828,11 +63008,23 @@ impl IconShape for LdStarOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47864,11 +63056,23 @@ impl IconShape for LdStar {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47891,11 +63095,23 @@ impl IconShape for LdStepBack {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47924,11 +63140,23 @@ impl IconShape for LdStepForward {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47957,11 +63185,23 @@ impl IconShape for LdStethoscope {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -47992,11 +63232,23 @@ impl IconShape for LdSticker {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48031,11 +63283,23 @@ impl IconShape for LdStickyNote {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48061,11 +63325,23 @@ impl IconShape for LdStore {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48100,11 +63376,23 @@ impl IconShape for LdStretchHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48138,11 +63426,23 @@ impl IconShape for LdStretchVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48176,11 +63476,23 @@ impl IconShape for LdStrikethrough {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48212,11 +63524,23 @@ impl IconShape for LdSubscript {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48245,11 +63569,23 @@ impl IconShape for LdSunDim {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48298,11 +63634,23 @@ impl IconShape for LdSunMedium {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48351,11 +63699,23 @@ impl IconShape for LdSunMoon {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48402,11 +63762,23 @@ impl IconShape for LdSunSnow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48459,11 +63831,23 @@ impl IconShape for LdSun {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48512,11 +63896,23 @@ impl IconShape for LdSunrise {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48560,11 +63956,23 @@ impl IconShape for LdSunset {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48608,11 +64016,23 @@ impl IconShape for LdSuperscript {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48641,11 +64061,23 @@ impl IconShape for LdSwatchBook {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48677,11 +64109,23 @@ impl IconShape for LdSwissFranc {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48710,11 +64154,23 @@ impl IconShape for LdSwitchCamera {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48751,11 +64207,23 @@ impl IconShape for LdSword {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48796,11 +64264,23 @@ impl IconShape for LdSwords {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48862,11 +64342,23 @@ impl IconShape for LdSyringe {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48904,11 +64396,23 @@ impl IconShape for LdTable2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48931,11 +64435,23 @@ impl IconShape for LdTableCellsMerge {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -48974,11 +64490,23 @@ impl IconShape for LdTableCellsSplit {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49014,11 +64542,23 @@ impl IconShape for LdTableColumnsSplit {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49071,11 +64611,23 @@ impl IconShape for LdTableProperties {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49111,11 +64663,23 @@ impl IconShape for LdTableRowsSplit {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49168,11 +64732,23 @@ impl IconShape for LdTable {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49208,11 +64784,23 @@ impl IconShape for LdTabletSmartphone {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49245,11 +64833,23 @@ impl IconShape for LdTablet {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49283,11 +64883,23 @@ impl IconShape for LdTablets {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49323,11 +64935,23 @@ impl IconShape for LdTag {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49355,11 +64979,23 @@ impl IconShape for LdTags {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49390,11 +65026,23 @@ impl IconShape for LdTally1 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49417,11 +65065,23 @@ impl IconShape for LdTally2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49447,11 +65107,23 @@ impl IconShape for LdTally3 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49480,11 +65152,23 @@ impl IconShape for LdTally4 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49516,11 +65200,23 @@ impl IconShape for LdTally5 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49555,11 +65251,23 @@ impl IconShape for LdTangent {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49595,11 +65303,23 @@ impl IconShape for LdTarget {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49634,11 +65354,23 @@ impl IconShape for LdTelescope {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49681,11 +65413,23 @@ impl IconShape for LdTentTree {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49728,11 +65472,23 @@ impl IconShape for LdTent {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49764,11 +65520,23 @@ impl IconShape for LdTerminal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49797,11 +65565,23 @@ impl IconShape for LdTestTubeDiagonal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49830,11 +65610,23 @@ impl IconShape for LdTestTube {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49863,11 +65655,23 @@ impl IconShape for LdTestTubes {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49905,11 +65709,23 @@ impl IconShape for LdTextCursorInput {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49944,11 +65760,23 @@ impl IconShape for LdTextCursor {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -49977,11 +65805,23 @@ impl IconShape for LdTextQuote {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50013,11 +65853,23 @@ impl IconShape for LdTextSearch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50054,11 +65906,23 @@ impl IconShape for LdTextSelect {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50132,11 +65996,23 @@ impl IconShape for LdText {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50165,11 +66041,23 @@ impl IconShape for LdTheater {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50216,11 +66104,23 @@ impl IconShape for LdThermometerSnowflake {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50258,11 +66158,23 @@ impl IconShape for LdThermometerSun {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50300,11 +66212,23 @@ impl IconShape for LdThermometer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50327,11 +66251,23 @@ impl IconShape for LdThumbsDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50357,11 +66293,23 @@ impl IconShape for LdThumbsUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50387,11 +66335,23 @@ impl IconShape for LdTicketCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50417,11 +66377,23 @@ impl IconShape for LdTicketMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50447,11 +66419,23 @@ impl IconShape for LdTicketPercent {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50483,11 +66467,23 @@ impl IconShape for LdTicketPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50516,11 +66512,23 @@ impl IconShape for LdTicketSlash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50546,11 +66554,23 @@ impl IconShape for LdTicketX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50579,11 +66599,23 @@ impl IconShape for LdTicket {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50615,11 +66647,23 @@ impl IconShape for LdTimerOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50654,11 +66698,23 @@ impl IconShape for LdTimerReset {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50690,11 +66746,23 @@ impl IconShape for LdTimer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50731,11 +66799,23 @@ impl IconShape for LdToggleLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50768,11 +66848,23 @@ impl IconShape for LdToggleRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50805,11 +66897,23 @@ impl IconShape for LdTornado {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50844,11 +66948,23 @@ impl IconShape for LdTorus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50880,11 +66996,23 @@ impl IconShape for LdTouchpadOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50922,11 +67050,23 @@ impl IconShape for LdTouchpad {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -50959,11 +67099,23 @@ impl IconShape for LdTowerControl {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51004,11 +67156,23 @@ impl IconShape for LdToyBrick {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51041,11 +67205,23 @@ impl IconShape for LdTractor {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51096,11 +67272,23 @@ impl IconShape for LdTrafficCone {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51132,11 +67320,23 @@ impl IconShape for LdTrainFrontTunnel {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51177,11 +67377,23 @@ impl IconShape for LdTrainFront {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51219,11 +67431,23 @@ impl IconShape for LdTrainTrack {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51264,11 +67488,23 @@ impl IconShape for LdTramFront {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51313,11 +67549,23 @@ impl IconShape for LdTrash2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51358,11 +67606,23 @@ impl IconShape for LdTrash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51391,11 +67651,23 @@ impl IconShape for LdTreeDeciduous {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51421,11 +67693,23 @@ impl IconShape for LdTreePalm {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51457,11 +67741,23 @@ impl IconShape for LdTreePine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51487,11 +67783,23 @@ impl IconShape for LdTrees {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51523,11 +67831,23 @@ impl IconShape for LdTrello {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51567,11 +67887,23 @@ impl IconShape for LdTrendingDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51597,11 +67929,23 @@ impl IconShape for LdTrendingUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51627,11 +67971,23 @@ impl IconShape for LdTriangleAlert {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51660,11 +68016,23 @@ impl IconShape for LdTriangleRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51687,11 +68055,23 @@ impl IconShape for LdTriangle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51714,11 +68094,23 @@ impl IconShape for LdTrophy {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51756,11 +68148,23 @@ impl IconShape for LdTruck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51799,11 +68203,23 @@ impl IconShape for LdTurtle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51835,11 +68251,23 @@ impl IconShape for LdTv2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51869,11 +68297,23 @@ impl IconShape for LdTv {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51904,11 +68344,23 @@ impl IconShape for LdTwitch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51931,11 +68383,23 @@ impl IconShape for LdTwitter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51958,11 +68422,23 @@ impl IconShape for LdType {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -51997,11 +68473,23 @@ impl IconShape for LdUmbrellaOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52033,11 +68521,23 @@ impl IconShape for LdUmbrella {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52066,11 +68566,23 @@ impl IconShape for LdUnderline {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52099,11 +68611,23 @@ impl IconShape for LdUndo2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52129,11 +68653,23 @@ impl IconShape for LdUndoDot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52164,11 +68700,23 @@ impl IconShape for LdUndo {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52194,11 +68742,23 @@ impl IconShape for LdUnfoldHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52242,11 +68802,23 @@ impl IconShape for LdUnfoldVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52290,11 +68862,23 @@ impl IconShape for LdUngroup {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52328,11 +68912,23 @@ impl IconShape for LdUniversity {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52375,11 +68971,23 @@ impl IconShape for LdUnlink2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52402,11 +69010,23 @@ impl IconShape for LdUnlink {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52456,11 +69076,23 @@ impl IconShape for LdUnplug {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52498,11 +69130,23 @@ impl IconShape for LdUpload {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52534,11 +69178,23 @@ impl IconShape for LdUsb {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52583,11 +69239,23 @@ impl IconShape for LdUserCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52618,11 +69286,23 @@ impl IconShape for LdUserCog {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52679,11 +69359,23 @@ impl IconShape for LdUserMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52717,11 +69409,23 @@ impl IconShape for LdUserPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52761,11 +69465,23 @@ impl IconShape for LdUserRoundCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52796,11 +69512,23 @@ impl IconShape for LdUserRoundCog {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52857,11 +69585,23 @@ impl IconShape for LdUserRoundMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52892,11 +69632,23 @@ impl IconShape for LdUserRoundPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52930,11 +69682,23 @@ impl IconShape for LdUserRoundSearch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -52970,11 +69734,23 @@ impl IconShape for LdUserRoundX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53008,11 +69784,23 @@ impl IconShape for LdUserRound {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53040,11 +69828,23 @@ impl IconShape for LdUserSearch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53080,11 +69880,23 @@ impl IconShape for LdUserX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53124,11 +69936,23 @@ impl IconShape for LdUser {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53156,11 +69980,23 @@ impl IconShape for LdUsersRound {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53191,11 +70027,23 @@ impl IconShape for LdUsers {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53229,11 +70077,23 @@ impl IconShape for LdUtensilsCrossed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53265,11 +70125,23 @@ impl IconShape for LdUtensils {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53298,11 +70170,23 @@ impl IconShape for LdUtilityPole {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53343,11 +70227,23 @@ impl IconShape for LdVariable {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53385,11 +70281,23 @@ impl IconShape for LdVault {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53453,11 +70361,23 @@ impl IconShape for LdVegan {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53486,11 +70406,23 @@ impl IconShape for LdVenetianMask {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53519,11 +70451,23 @@ impl IconShape for LdVibrateOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53561,11 +70505,23 @@ impl IconShape for LdVibrate {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53598,11 +70554,23 @@ impl IconShape for LdVideoOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53631,11 +70599,23 @@ impl IconShape for LdVideo {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53665,11 +70645,23 @@ impl IconShape for LdVideotape {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53712,11 +70704,23 @@ impl IconShape for LdView {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53748,11 +70752,23 @@ impl IconShape for LdVoicemail {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53788,11 +70804,23 @@ impl IconShape for LdVolume1 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53818,11 +70846,23 @@ impl IconShape for LdVolume2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53851,11 +70891,23 @@ impl IconShape for LdVolumeX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53890,11 +70942,23 @@ impl IconShape for LdVolume {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53917,11 +70981,23 @@ impl IconShape for LdVote {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53950,11 +71026,23 @@ impl IconShape for LdWalletCards {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -53987,11 +71075,23 @@ impl IconShape for LdWalletMinimal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54017,11 +71117,23 @@ impl IconShape for LdWallet {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54047,11 +71159,23 @@ impl IconShape for LdWallpaper {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54085,11 +71209,23 @@ impl IconShape for LdWandSparkles {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54133,11 +71269,23 @@ impl IconShape for LdWand {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54184,11 +71332,23 @@ impl IconShape for LdWarehouse {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54223,11 +71383,23 @@ impl IconShape for LdWashingMachine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54268,11 +71440,23 @@ impl IconShape for LdWatch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54306,11 +71490,23 @@ impl IconShape for LdWaves {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54339,11 +71535,23 @@ impl IconShape for LdWaypoints {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54392,11 +71600,23 @@ impl IconShape for LdWebcam {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54432,11 +71652,23 @@ impl IconShape for LdWebhookOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54477,11 +71709,23 @@ impl IconShape for LdWebhook {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54510,11 +71754,23 @@ impl IconShape for LdWeight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54542,11 +71798,23 @@ impl IconShape for LdWheatOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54599,11 +71867,23 @@ impl IconShape for LdWheat {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54647,11 +71927,23 @@ impl IconShape for LdWholeWord {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54690,11 +71982,23 @@ impl IconShape for LdWifiOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54735,11 +72039,23 @@ impl IconShape for LdWifi {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54771,11 +72087,23 @@ impl IconShape for LdWind {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54804,11 +72132,23 @@ impl IconShape for LdWineOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54846,11 +72186,23 @@ impl IconShape for LdWine {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54882,11 +72234,23 @@ impl IconShape for LdWorkflow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54923,11 +72287,23 @@ impl IconShape for LdWorm {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54956,11 +72332,23 @@ impl IconShape for LdWrapText {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -54998,11 +72386,23 @@ impl IconShape for LdWrench {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -55025,11 +72425,23 @@ impl IconShape for LdX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -55055,11 +72467,23 @@ impl IconShape for LdYoutube {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -55085,11 +72509,23 @@ impl IconShape for LdZapOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -55121,11 +72557,23 @@ impl IconShape for LdZap {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -55148,11 +72596,23 @@ impl IconShape for LdZoomIn {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -55195,11 +72655,23 @@ impl IconShape for LdZoomOut {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"

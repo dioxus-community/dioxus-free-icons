@@ -7,11 +7,23 @@ impl IconShape for FiActivity {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -34,11 +46,23 @@ impl IconShape for FiAirplay {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -64,11 +88,23 @@ impl IconShape for FiAlertCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -105,11 +141,23 @@ impl IconShape for FiAlertOctagon {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -144,11 +192,23 @@ impl IconShape for FiAlertTriangle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -183,11 +243,23 @@ impl IconShape for FiAlignCenter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -231,11 +303,23 @@ impl IconShape for FiAlignJustify {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -279,11 +363,23 @@ impl IconShape for FiAlignLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -327,11 +423,23 @@ impl IconShape for FiAlignRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -375,11 +483,23 @@ impl IconShape for FiAnchor {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -413,11 +533,23 @@ impl IconShape for FiAperture {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -478,11 +610,23 @@ impl IconShape for FiArchive {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -517,11 +661,23 @@ impl IconShape for FiArrowDownCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -555,11 +711,23 @@ impl IconShape for FiArrowDownLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -588,11 +756,23 @@ impl IconShape for FiArrowDownRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -621,11 +801,23 @@ impl IconShape for FiArrowDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -654,11 +846,23 @@ impl IconShape for FiArrowLeftCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -692,11 +896,23 @@ impl IconShape for FiArrowLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -725,11 +941,23 @@ impl IconShape for FiArrowRightCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -763,11 +991,23 @@ impl IconShape for FiArrowRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -796,11 +1036,23 @@ impl IconShape for FiArrowUpCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -834,11 +1086,23 @@ impl IconShape for FiArrowUpLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -867,11 +1131,23 @@ impl IconShape for FiArrowUpRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -900,11 +1176,23 @@ impl IconShape for FiArrowUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -933,11 +1221,23 @@ impl IconShape for FiAtSign {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -965,11 +1265,23 @@ impl IconShape for FiAward {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -997,11 +1309,23 @@ impl IconShape for FiBarChart2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1039,11 +1363,23 @@ impl IconShape for FiBarChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1081,11 +1417,23 @@ impl IconShape for FiBatteryCharging {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1117,11 +1465,23 @@ impl IconShape for FiBattery {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1155,11 +1515,23 @@ impl IconShape for FiBellOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1197,11 +1569,23 @@ impl IconShape for FiBell {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1227,11 +1611,23 @@ impl IconShape for FiBluetooth {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1254,11 +1650,23 @@ impl IconShape for FiBold {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1284,11 +1692,23 @@ impl IconShape for FiBookOpen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1314,11 +1734,23 @@ impl IconShape for FiBook {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1344,11 +1776,23 @@ impl IconShape for FiBookmark {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1371,11 +1815,23 @@ impl IconShape for FiBox {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1407,11 +1863,23 @@ impl IconShape for FiBriefcase {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1442,11 +1910,23 @@ impl IconShape for FiCalendar {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1492,11 +1972,23 @@ impl IconShape for FiCameraOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1525,11 +2017,23 @@ impl IconShape for FiCamera {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1557,11 +2061,23 @@ impl IconShape for FiCast {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1590,11 +2106,23 @@ impl IconShape for FiCheckCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1620,11 +2148,23 @@ impl IconShape for FiCheckSquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1650,11 +2190,23 @@ impl IconShape for FiCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1677,11 +2229,23 @@ impl IconShape for FiChevronDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1704,11 +2268,23 @@ impl IconShape for FiChevronLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1731,11 +2307,23 @@ impl IconShape for FiChevronRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1758,11 +2346,23 @@ impl IconShape for FiChevronUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1785,11 +2385,23 @@ impl IconShape for FiChevronsDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1815,11 +2427,23 @@ impl IconShape for FiChevronsLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1845,11 +2469,23 @@ impl IconShape for FiChevronsRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1875,11 +2511,23 @@ impl IconShape for FiChevronsUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1905,11 +2553,23 @@ impl IconShape for FiChrome {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1957,11 +2617,23 @@ impl IconShape for FiCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -1986,11 +2658,23 @@ impl IconShape for FiClipboard {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2021,11 +2705,23 @@ impl IconShape for FiClock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2053,11 +2749,23 @@ impl IconShape for FiCloudDrizzle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2116,11 +2824,23 @@ impl IconShape for FiCloudLightning {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2146,11 +2866,23 @@ impl IconShape for FiCloudOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2179,11 +2911,23 @@ impl IconShape for FiCloudRain {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2224,11 +2968,23 @@ impl IconShape for FiCloudSnow {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2287,11 +3043,23 @@ impl IconShape for FiCloud {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2314,11 +3082,23 @@ impl IconShape for FiCode {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2344,11 +3124,23 @@ impl IconShape for FiCodepen {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2389,11 +3181,23 @@ impl IconShape for FiCodesandbox {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2434,11 +3238,23 @@ impl IconShape for FiCoffee {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2482,11 +3298,23 @@ impl IconShape for FiColumns {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2509,11 +3337,23 @@ impl IconShape for FiCommand {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2536,11 +3376,23 @@ impl IconShape for FiCompass {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2568,11 +3420,23 @@ impl IconShape for FiCopy {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2603,11 +3467,23 @@ impl IconShape for FiCornerDownLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2633,11 +3509,23 @@ impl IconShape for FiCornerDownRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2663,11 +3551,23 @@ impl IconShape for FiCornerLeftDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2693,11 +3593,23 @@ impl IconShape for FiCornerLeftUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2723,11 +3635,23 @@ impl IconShape for FiCornerRightDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2753,11 +3677,23 @@ impl IconShape for FiCornerRightUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2783,11 +3719,23 @@ impl IconShape for FiCornerUpLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2813,11 +3761,23 @@ impl IconShape for FiCornerUpRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2843,11 +3803,23 @@ impl IconShape for FiCpu {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2929,11 +3901,23 @@ impl IconShape for FiCreditCard {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2967,11 +3951,23 @@ impl IconShape for FiCrop {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -2997,11 +3993,23 @@ impl IconShape for FiCrosshair {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3050,11 +4058,23 @@ impl IconShape for FiDatabase {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3086,11 +4106,23 @@ impl IconShape for FiDelete {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3125,11 +4157,23 @@ impl IconShape for FiDisc {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3159,11 +4203,23 @@ impl IconShape for FiDivideCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3206,11 +4262,23 @@ impl IconShape for FiDivideSquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3256,11 +4324,23 @@ impl IconShape for FiDivide {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3296,11 +4376,23 @@ impl IconShape for FiDollarSign {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3329,11 +4421,23 @@ impl IconShape for FiDownloadCloud {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3365,11 +4469,23 @@ impl IconShape for FiDownload {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3401,11 +4517,23 @@ impl IconShape for FiDribbble {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3433,11 +4561,23 @@ impl IconShape for FiDroplet {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3460,11 +4600,23 @@ impl IconShape for FiEdit2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3487,11 +4639,23 @@ impl IconShape for FiEdit3 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3517,11 +4681,23 @@ impl IconShape for FiEdit {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3547,11 +4723,23 @@ impl IconShape for FiExternalLink {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3583,11 +4771,23 @@ impl IconShape for FiEyeOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3616,11 +4816,23 @@ impl IconShape for FiEye {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3648,11 +4860,23 @@ impl IconShape for FiFacebook {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3675,11 +4899,23 @@ impl IconShape for FiFastForward {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3705,11 +4941,23 @@ impl IconShape for FiFeather {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3744,11 +4992,23 @@ impl IconShape for FiFigma {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3783,11 +5043,23 @@ impl IconShape for FiFileMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3819,11 +5091,23 @@ impl IconShape for FiFilePlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3861,11 +5145,23 @@ impl IconShape for FiFileText {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3906,11 +5202,23 @@ impl IconShape for FiFile {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -3936,11 +5244,23 @@ impl IconShape for FiFilm {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4010,11 +5330,23 @@ impl IconShape for FiFilter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4037,11 +5369,23 @@ impl IconShape for FiFlag {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4070,11 +5414,23 @@ impl IconShape for FiFolderMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4103,11 +5459,23 @@ impl IconShape for FiFolderPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4142,11 +5510,23 @@ impl IconShape for FiFolder {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4169,11 +5549,23 @@ impl IconShape for FiFramer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4196,11 +5588,23 @@ impl IconShape for FiFrown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4240,11 +5644,23 @@ impl IconShape for FiGift {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4285,11 +5701,23 @@ impl IconShape for FiGitBranch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4328,11 +5756,23 @@ impl IconShape for FiGitCommit {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4369,11 +5809,23 @@ impl IconShape for FiGitMerge {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4406,11 +5858,23 @@ impl IconShape for FiGitPullRequest {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4449,11 +5913,23 @@ impl IconShape for FiGithub {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4476,11 +5952,23 @@ impl IconShape for FiGitlab {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4503,11 +5991,23 @@ impl IconShape for FiGlobe {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4541,11 +6041,23 @@ impl IconShape for FiGrid {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4589,11 +6101,23 @@ impl IconShape for FiHardDrive {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4634,11 +6158,23 @@ impl IconShape for FiHash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4682,11 +6218,23 @@ impl IconShape for FiHeadphones {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4712,11 +6260,23 @@ impl IconShape for FiHeart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4739,11 +6299,23 @@ impl IconShape for FiHelpCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4777,11 +6349,23 @@ impl IconShape for FiHexagon {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4804,11 +6388,23 @@ impl IconShape for FiHome {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4834,11 +6430,23 @@ impl IconShape for FiImage {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4874,11 +6482,23 @@ impl IconShape for FiInbox {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4904,11 +6524,23 @@ impl IconShape for FiInfo {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4945,11 +6577,23 @@ impl IconShape for FiInstagram {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -4986,11 +6630,23 @@ impl IconShape for FiItalic {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5028,11 +6684,23 @@ impl IconShape for FiKey {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5055,11 +6723,23 @@ impl IconShape for FiLayers {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5088,11 +6768,23 @@ impl IconShape for FiLayout {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5132,11 +6824,23 @@ impl IconShape for FiLifeBuoy {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5196,11 +6900,23 @@ impl IconShape for FiLink2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5229,11 +6945,23 @@ impl IconShape for FiLink {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5259,11 +6987,23 @@ impl IconShape for FiLinkedin {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5297,11 +7037,23 @@ impl IconShape for FiList {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5357,11 +7109,23 @@ impl IconShape for FiLoader {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5429,11 +7193,23 @@ impl IconShape for FiLock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5464,11 +7240,23 @@ impl IconShape for FiLogIn {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5500,11 +7288,23 @@ impl IconShape for FiLogOut {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5536,11 +7336,23 @@ impl IconShape for FiMail {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5566,11 +7378,23 @@ impl IconShape for FiMapPin {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5598,11 +7422,23 @@ impl IconShape for FiMap {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5637,11 +7473,23 @@ impl IconShape for FiMaximize2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5679,11 +7527,23 @@ impl IconShape for FiMaximize {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5706,11 +7566,23 @@ impl IconShape for FiMeh {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5753,11 +7625,23 @@ impl IconShape for FiMenu {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5795,11 +7679,23 @@ impl IconShape for FiMessageCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5822,11 +7718,23 @@ impl IconShape for FiMessageSquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5849,11 +7757,23 @@ impl IconShape for FiMicOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5897,11 +7817,23 @@ impl IconShape for FiMic {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5939,11 +7871,23 @@ impl IconShape for FiMinimize2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -5981,11 +7925,23 @@ impl IconShape for FiMinimize {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6008,11 +7964,23 @@ impl IconShape for FiMinusCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6043,11 +8011,23 @@ impl IconShape for FiMinusSquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6081,11 +8061,23 @@ impl IconShape for FiMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6111,11 +8103,23 @@ impl IconShape for FiMonitor {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6155,11 +8159,23 @@ impl IconShape for FiMoon {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6182,11 +8198,23 @@ impl IconShape for FiMoreHorizontal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6221,11 +8249,23 @@ impl IconShape for FiMoreVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6260,11 +8300,23 @@ impl IconShape for FiMousePointer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6290,11 +8342,23 @@ impl IconShape for FiMove {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6338,11 +8402,23 @@ impl IconShape for FiMusic {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6375,11 +8451,23 @@ impl IconShape for FiNavigation2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6402,11 +8490,23 @@ impl IconShape for FiNavigation {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6429,11 +8529,23 @@ impl IconShape for FiOctagon {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6456,11 +8568,23 @@ impl IconShape for FiPackage {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6498,11 +8622,23 @@ impl IconShape for FiPaperclip {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6525,11 +8661,23 @@ impl IconShape for FiPauseCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6566,11 +8714,23 @@ impl IconShape for FiPause {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6602,11 +8762,23 @@ impl IconShape for FiPenTool {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6640,11 +8812,23 @@ impl IconShape for FiPercent {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6680,11 +8864,23 @@ impl IconShape for FiPhoneCall {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6707,11 +8903,23 @@ impl IconShape for FiPhoneForwarded {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6743,11 +8951,23 @@ impl IconShape for FiPhoneIncoming {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6779,11 +8999,23 @@ impl IconShape for FiPhoneMissed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6818,11 +9050,23 @@ impl IconShape for FiPhoneOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6851,11 +9095,23 @@ impl IconShape for FiPhoneOutgoing {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6887,11 +9143,23 @@ impl IconShape for FiPhone {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6914,11 +9182,23 @@ impl IconShape for FiPieChart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6944,11 +9224,23 @@ impl IconShape for FiPlayCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -6976,11 +9268,23 @@ impl IconShape for FiPlay {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7003,11 +9307,23 @@ impl IconShape for FiPlusCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7044,11 +9360,23 @@ impl IconShape for FiPlusSquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7088,11 +9416,23 @@ impl IconShape for FiPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7124,11 +9464,23 @@ impl IconShape for FiPocket {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7154,11 +9506,23 @@ impl IconShape for FiPower {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7187,11 +9551,23 @@ impl IconShape for FiPrinter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7223,11 +9599,23 @@ impl IconShape for FiRadio {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7255,11 +9643,23 @@ impl IconShape for FiRefreshCcw {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7288,11 +9688,23 @@ impl IconShape for FiRefreshCw {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7321,11 +9733,23 @@ impl IconShape for FiRepeat {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7357,11 +9781,23 @@ impl IconShape for FiRewind {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7387,11 +9823,23 @@ impl IconShape for FiRotateCcw {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7417,11 +9865,23 @@ impl IconShape for FiRotateCw {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7447,11 +9907,23 @@ impl IconShape for FiRss {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7482,11 +9954,23 @@ impl IconShape for FiSave {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7515,11 +9999,23 @@ impl IconShape for FiScissors {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7567,11 +10063,23 @@ impl IconShape for FiSearch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7602,11 +10110,23 @@ impl IconShape for FiSend {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7635,11 +10155,23 @@ impl IconShape for FiServer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7687,11 +10219,23 @@ impl IconShape for FiSettings {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7719,11 +10263,23 @@ impl IconShape for FiShare2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7770,11 +10326,23 @@ impl IconShape for FiShare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7806,11 +10374,23 @@ impl IconShape for FiShieldOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7842,11 +10422,23 @@ impl IconShape for FiShield {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7869,11 +10461,23 @@ impl IconShape for FiShoppingBag {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7905,11 +10509,23 @@ impl IconShape for FiShoppingCart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7942,11 +10558,23 @@ impl IconShape for FiShuffle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -7990,11 +10618,23 @@ impl IconShape for FiSidebar {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8028,11 +10668,23 @@ impl IconShape for FiSkipBack {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8061,11 +10713,23 @@ impl IconShape for FiSkipForward {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8094,11 +10758,23 @@ impl IconShape for FiSlack {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8142,11 +10818,23 @@ impl IconShape for FiSlash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8177,11 +10865,23 @@ impl IconShape for FiSliders {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8255,11 +10955,23 @@ impl IconShape for FiSmartphone {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8293,11 +11005,23 @@ impl IconShape for FiSmile {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8337,11 +11061,23 @@ impl IconShape for FiSpeaker {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8380,11 +11116,23 @@ impl IconShape for FiSquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8412,11 +11160,23 @@ impl IconShape for FiStar {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8439,11 +11199,23 @@ impl IconShape for FiStopCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8474,11 +11246,23 @@ impl IconShape for FiSun {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8551,11 +11335,23 @@ impl IconShape for FiSunrise {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8617,11 +11413,23 @@ impl IconShape for FiSunset {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8683,11 +11491,23 @@ impl IconShape for FiTable {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8710,11 +11530,23 @@ impl IconShape for FiTablet {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8748,11 +11580,23 @@ impl IconShape for FiTag {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8781,11 +11625,23 @@ impl IconShape for FiTarget {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8820,11 +11676,23 @@ impl IconShape for FiTerminal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8853,11 +11721,23 @@ impl IconShape for FiThermometer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8880,11 +11760,23 @@ impl IconShape for FiThumbsDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8907,11 +11799,23 @@ impl IconShape for FiThumbsUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8934,11 +11838,23 @@ impl IconShape for FiToggleLeft {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -8971,11 +11887,23 @@ impl IconShape for FiToggleRight {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9008,11 +11936,23 @@ impl IconShape for FiTool {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9035,11 +11975,23 @@ impl IconShape for FiTrash2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9077,11 +12029,23 @@ impl IconShape for FiTrash {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9107,11 +12071,23 @@ impl IconShape for FiTrello {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9151,11 +12127,23 @@ impl IconShape for FiTrendingDown {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9181,11 +12169,23 @@ impl IconShape for FiTrendingUp {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9211,11 +12211,23 @@ impl IconShape for FiTriangle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9238,11 +12250,23 @@ impl IconShape for FiTruck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9281,11 +12305,23 @@ impl IconShape for FiTv {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9316,11 +12352,23 @@ impl IconShape for FiTwitch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9343,11 +12391,23 @@ impl IconShape for FiTwitter {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9370,11 +12430,23 @@ impl IconShape for FiType {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9409,11 +12481,23 @@ impl IconShape for FiUmbrella {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9436,11 +12520,23 @@ impl IconShape for FiUnderline {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9469,11 +12565,23 @@ impl IconShape for FiUnlock {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9504,11 +12612,23 @@ impl IconShape for FiUploadCloud {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9543,11 +12663,23 @@ impl IconShape for FiUpload {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9579,11 +12711,23 @@ impl IconShape for FiUserCheck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9614,11 +12758,23 @@ impl IconShape for FiUserMinus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9652,11 +12808,23 @@ impl IconShape for FiUserPlus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9696,11 +12864,23 @@ impl IconShape for FiUserX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9740,11 +12920,23 @@ impl IconShape for FiUser {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9772,11 +12964,23 @@ impl IconShape for FiUsers {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9810,11 +13014,23 @@ impl IconShape for FiVideoOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9843,11 +13059,23 @@ impl IconShape for FiVideo {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9878,11 +13106,23 @@ impl IconShape for FiVoicemail {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9918,11 +13158,23 @@ impl IconShape for FiVolume1 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9948,11 +13200,23 @@ impl IconShape for FiVolume2 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -9978,11 +13242,23 @@ impl IconShape for FiVolumeX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10017,11 +13293,23 @@ impl IconShape for FiVolume {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10044,11 +13332,23 @@ impl IconShape for FiWatch {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10079,11 +13379,23 @@ impl IconShape for FiWifiOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10130,11 +13442,23 @@ impl IconShape for FiWifi {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10169,11 +13493,23 @@ impl IconShape for FiWind {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10196,11 +13532,23 @@ impl IconShape for FiXCircle {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10237,11 +13585,23 @@ impl IconShape for FiXOctagon {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10276,11 +13636,23 @@ impl IconShape for FiXSquare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10320,11 +13692,23 @@ impl IconShape for FiX {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10356,11 +13740,23 @@ impl IconShape for FiYoutube {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10386,11 +13782,23 @@ impl IconShape for FiZapOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10425,11 +13833,23 @@ impl IconShape for FiZap {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10452,11 +13872,23 @@ impl IconShape for FiZoomIn {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
@@ -10499,11 +13931,23 @@ impl IconShape for FiZoomOut {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "currentColor"
+    }
+    fn stroke_width(&self) -> &str {
+        "2"
     }
     fn stroke_linecap(&self) -> &str {
         "round"
