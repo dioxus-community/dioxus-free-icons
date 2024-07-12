@@ -8,6 +8,7 @@ pub trait IconShape {
     fn width(&self) -> &str;
     fn height(&self) -> &str;
     fn xmlns(&self) -> &str;
+    fn title(&self) -> &str;
     fn child_elements(&self) -> Element;
     fn fill(&self) -> &str;
     fn stroke(&self) -> &str;
@@ -45,7 +46,9 @@ pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
     /// An class for the `<svg>` element.
     #[props(default = "".to_string())]
     pub class: String,
-    /// An accessible, short-text description for the icon.
+    /// An accessible, short-text description for the icon. Defaults to the icon's default title.
+    /// If the icon's title is empty, no title element will be generated.
+    #[props(default = None)]
     pub title: Option<String>,
 }
 
@@ -60,6 +63,7 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
     let stroke_width = props.stroke_width.map(|v| v.to_string()).unwrap_or(props.icon.stroke_width().to_string());
     let stroke_linecap = props.stroke_linecap.unwrap_or(props.icon.stroke_linecap().to_string());
     let stroke_linejoin = props.stroke_linejoin.unwrap_or(props.icon.stroke_linejoin().to_string());
+    let title = props.title.unwrap_or(props.icon.title().to_string());
 
     rsx!(
         svg {
@@ -73,9 +77,9 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
             stroke_width,
             stroke_linecap,
             stroke_linejoin,
-            if let Some(title_text) = props.title {
+            if title != "" {
                 title {
-                    "{title_text}"
+                    "{title}"
                 }
             },
             {props.icon.child_elements()},

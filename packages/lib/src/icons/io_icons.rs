@@ -31,6 +31,9 @@ impl IconShape for IoAccessibilityOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -47,6 +50,7 @@ impl IconShape for IoAccessibilityOutline {
                 stroke_linejoin: "round",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -81,6 +85,9 @@ impl IconShape for IoAccessibilitySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -89,6 +96,7 @@ impl IconShape for IoAccessibilitySharp {
             path {
                 d: "M256,112a56,56,0,1,1,56-56A56.06,56.06,0,0,1,256,112Z",
             }
+            
         }
     }
 }
@@ -123,6 +131,9 @@ impl IconShape for IoAccessibility {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -131,6 +142,7 @@ impl IconShape for IoAccessibility {
             path {
                 d: "M432,112.8l-.45.12h0l-.42.13c-1,.28-2,.58-3,.89-18.61,5.46-108.93,30.92-172.56,30.92-59.13,0-141.28-22-167.56-29.47a73.79,73.79,0,0,0-8-2.58c-19-5-32,14.3-32,31.94,0,17.47,15.7,25.79,31.55,31.76v.28l95.22,29.74c9.73,3.73,12.33,7.54,13.6,10.84,4.13,10.59.83,31.56-.34,38.88l-5.8,45L150.05,477.44q-.15.72-.27,1.47l-.23,1.27h0c-2.32,16.15,9.54,31.82,32,31.82,19.6,0,28.25-13.53,32-31.94h0s28-157.57,42-157.57,42.84,157.57,42.84,157.57h0c3.75,18.41,12.4,31.94,32,31.94,22.52,0,34.38-15.74,32-31.94-.21-1.38-.46-2.74-.76-4.06L329,301.27l-5.79-45c-4.19-26.21-.82-34.87.32-36.9a1.09,1.09,0,0,0,.08-.15c1.08-2,6-6.48,17.48-10.79l89.28-31.21a16.9,16.9,0,0,0,1.62-.52c16-6,32-14.3,32-31.93S451,107.81,432,112.8Z",
             }
+            
         }
     }
 }
@@ -165,6 +177,9 @@ impl IconShape for IoAddCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -185,6 +200,7 @@ impl IconShape for IoAddCircleOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -219,11 +235,15 @@ impl IconShape for IoAddCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm96,224H272v80H240V272H160V240h80V160h32v80h80Z",
             }
+            
         }
     }
 }
@@ -258,11 +278,15 @@ impl IconShape for IoAddCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm80,224H272v64a16,16,0,0,1-32,0V272H176a16,16,0,0,1,0-32h64V176a16,16,0,0,1,32,0v64h64a16,16,0,0,1,0,32Z",
             }
+            
         }
     }
 }
@@ -297,6 +321,9 @@ impl IconShape for IoAddOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -313,6 +340,7 @@ impl IconShape for IoAddOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -347,6 +375,9 @@ impl IconShape for IoAddSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -363,6 +394,7 @@ impl IconShape for IoAddSharp {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -397,6 +429,9 @@ impl IconShape for IoAdd {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -413,6 +448,7 @@ impl IconShape for IoAdd {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -447,12 +483,16 @@ impl IconShape for IoAirplaneOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M407.72,224c-3.4,0-14.79.1-18,.3l-64.9,1.7a1.83,1.83,0,0,1-1.69-.9L193.55,67.56A9,9,0,0,0,186.89,64H160l73,161a2.35,2.35,0,0,1-2.26,3.35l-121.69,1.8a8.06,8.06,0,0,1-6.6-3.1l-37-45c-3-3.9-8.62-6-13.51-6H33.08c-1.29,0-1.1,1.21-.75,2.43L52.17,249.9a16.3,16.3,0,0,1,0,11.9L32.31,333c-.59,1.95-.52,3,1.77,3H52c8.14,0,9.25-1.06,13.41-6.3l37.7-45.7a8.19,8.19,0,0,1,6.6-3.1l120.68,2.7a2.7,2.7,0,0,1,2.43,3.74L160,448h26.64a9,9,0,0,0,6.65-3.55L323.14,287c.39-.6,2-.9,2.69-.9l63.9,1.7c3.3.2,14.59.3,18,.3C452,288.1,480,275.93,480,256S452.12,224,407.72,224Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -487,11 +527,15 @@ impl IconShape for IoAirplaneSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M407.72,208c-2.72,0-14.44.08-18.67.31l-57.77,1.52L198.06,48H135.25l74.59,164.61-97.31,1.44L68.25,160H16.14l20.61,94.18c.15.54.33,1.07.53,1.59a.26.26,0,0,1,0,.15,15.42,15.42,0,0,0-.53,1.58L15.86,352H67.64l45.45-55,96.77,2.17L135.24,464h63l133-161.75,57.77,1.54c4.29.23,16,.31,18.66.31,24.35,0,44.27-3.34,59.21-9.94C492.22,283,496,265.46,496,256,496,225.94,463,208,407.72,208Zm-71.29,87.9v0Z",
             }
+            
         }
     }
 }
@@ -526,11 +570,15 @@ impl IconShape for IoAirplane {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M186.62,464H160a16,16,0,0,1-14.57-22.6l64.46-142.25L113.1,297,77.8,339.77C71.07,348.23,65.7,352,52,352H34.08a17.66,17.66,0,0,1-14.7-7.06c-2.38-3.21-4.72-8.65-2.44-16.41l19.82-71c.15-.53.33-1.06.53-1.58a.38.38,0,0,0,0-.15,14.82,14.82,0,0,1-.53-1.59L16.92,182.76c-2.15-7.61.2-12.93,2.56-16.06a16.83,16.83,0,0,1,13.6-6.7H52c10.23,0,20.16,4.59,26,12l34.57,42.05,97.32-1.44-64.44-142A16,16,0,0,1,160,48h26.91a25,25,0,0,1,19.35,9.8l125.05,152,57.77-1.52c4.23-.23,15.95-.31,18.66-.31C463,208,496,225.94,496,256c0,9.46-3.78,27-29.07,38.16-14.93,6.6-34.85,9.94-59.21,9.94-2.68,0-14.37-.08-18.66-.31l-57.76-1.54-125.36,152A25,25,0,0,1,186.62,464Z",
             }
+            
         }
     }
 }
@@ -565,6 +613,9 @@ impl IconShape for IoAlarmOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -597,6 +648,7 @@ impl IconShape for IoAlarmOutline {
                 y1: "432",
                 y2: "392",
             }
+            
         }
     }
 }
@@ -631,6 +683,9 @@ impl IconShape for IoAlarmSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -642,6 +697,7 @@ impl IconShape for IoAlarmSharp {
             path {
                 d: "M391.3,384.6a.06.06,0,0,1,0-.08C425,344,441,288.24,427,229.23c-13.64-57.52-72.67-115.69-130.34-128.66C182,74.79,80.07,161.71,80.07,272a175.15,175.15,0,0,0,40.78,112.52.06.06,0,0,1,0,.08L73,432a.06.06,0,0,0,0,.08L96,454.59a.06.06,0,0,0,.08,0l47.43-47.37a.06.06,0,0,1,.08,0,175.64,175.64,0,0,0,225.05,0,0,0,0,0,1,.07,0L416,454.59a.06.06,0,0,0,.08,0L440,432ZM272.07,288h-112A0,0,0,0,1,160,288v-31.9a0,0,0,0,1,.05-.05h80a0,0,0,0,0,0-.05V144h32Z",
             }
+            
         }
     }
 }
@@ -676,6 +732,9 @@ impl IconShape for IoAlarm {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -687,6 +746,7 @@ impl IconShape for IoAlarm {
             path {
                 d: "M256.07,96c-97,0-176,78.95-176,176a175.23,175.23,0,0,0,40.81,112.56L84.76,420.69a16,16,0,1,0,22.63,22.62l36.12-36.12a175.63,175.63,0,0,0,225.12,0l36.13,36.12a16,16,0,1,0,22.63-22.62l-36.13-36.13A175.17,175.17,0,0,0,432.07,272C432.07,175,353.12,96,256.07,96Zm16,176a16,16,0,0,1-16,16h-80a16,16,0,0,1,0-32h64V160a16,16,0,0,1,32,0Z",
             }
+            
         }
     }
 }
@@ -721,6 +781,9 @@ impl IconShape for IoAlbumsOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -746,6 +809,7 @@ impl IconShape for IoAlbumsOutline {
                 y1: "128",
                 y2: "128",
             }
+            
         }
     }
 }
@@ -780,6 +844,9 @@ impl IconShape for IoAlbumsSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -797,6 +864,7 @@ impl IconShape for IoAlbumsSharp {
             path {
                 d: "M464,448H48V160H464Z",
             }
+            
         }
     }
 }
@@ -831,6 +899,9 @@ impl IconShape for IoAlbums {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -842,6 +913,7 @@ impl IconShape for IoAlbums {
             path {
                 d: "M419.13,448H92.87A44.92,44.92,0,0,1,48,403.13V204.87A44.92,44.92,0,0,1,92.87,160H419.13A44.92,44.92,0,0,1,464,204.87V403.13A44.92,44.92,0,0,1,419.13,448Z",
             }
+            
         }
     }
 }
@@ -876,6 +948,9 @@ impl IconShape for IoAlertCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -889,6 +964,7 @@ impl IconShape for IoAlertCircleOutline {
             path {
                 d: "M256,367.91a20,20,0,1,1,20-20A20,20,0,0,1,256,367.91Z",
             }
+            
         }
     }
 }
@@ -923,6 +999,9 @@ impl IconShape for IoAlertCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -932,6 +1011,7 @@ impl IconShape for IoAlertCircleSharp {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm20,319.91H236v-40h40ZM272,304H240l-6-160h44Z",
             }
+            
         }
     }
 }
@@ -966,11 +1046,15 @@ impl IconShape for IoAlertCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm0,319.91a20,20,0,1,1,20-20A20,20,0,0,1,256,367.91Zm21.72-201.15-5.74,122a16,16,0,0,1-32,0l-5.74-121.94v-.05a21.74,21.74,0,1,1,43.44,0Z",
             }
+            
         }
     }
 }
@@ -1005,6 +1089,9 @@ impl IconShape for IoAlertOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1017,6 +1104,7 @@ impl IconShape for IoAlertOutline {
                 r: "16",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -1051,6 +1139,9 @@ impl IconShape for IoAlertSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -1064,6 +1155,7 @@ impl IconShape for IoAlertSharp {
                 x: "240",
                 y: "400",
             }
+            
         }
     }
 }
@@ -1098,6 +1190,9 @@ impl IconShape for IoAlert {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1110,6 +1205,7 @@ impl IconShape for IoAlert {
                 r: "16",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -1143,6 +1239,9 @@ impl IconShape for IoAmericanFootballOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1196,6 +1295,7 @@ impl IconShape for IoAmericanFootballOutline {
                 y1: "322.89",
                 y2: "278.3",
             }
+            
         }
     }
 }
@@ -1230,6 +1330,9 @@ impl IconShape for IoAmericanFootballSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1241,6 +1344,7 @@ impl IconShape for IoAmericanFootballSharp {
             path {
                 d: "M33.52,311.65C26.15,366.41,48.05,464,48.05,464s60,16,99.86,16a391.92,391.92,0,0,0,51.23-3.45c2.54-.33,5.21-.72,8-1.15L34.67,303.7C34.24,306.46,33.86,309.12,33.52,311.65Z",
             }
+            
         }
     }
 }
@@ -1275,6 +1379,9 @@ impl IconShape for IoAmericanFootball {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1286,6 +1393,7 @@ impl IconShape for IoAmericanFootball {
             path {
                 d: "M35.43,312.37c-7.31,54.53-4,120.26,20,144.21C72.17,473.33,109.34,480,148.84,480a387,387,0,0,0,50.79-3.43c2.51-.34,5.16-.72,7.91-1.15l-171-171C36.15,307.21,35.77,309.86,35.43,312.37Z",
             }
+            
         }
     }
 }
@@ -1319,6 +1427,9 @@ impl IconShape for IoAnalyticsOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1367,6 +1478,7 @@ impl IconShape for IoAnalyticsOutline {
                 r: "24",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -1401,11 +1513,15 @@ impl IconShape for IoAnalyticsSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M450,128a46,46,0,0,0-44.11,59l-71.37,71.36a45.88,45.88,0,0,0-29,0l-52.91-52.91a46,46,0,1,0-89.12,0L75,293.88A46.08,46.08,0,1,0,106.11,325l87.37-87.36a45.85,45.85,0,0,0,29,0l52.92,52.92a46,46,0,1,0,89.12,0L437,218.12A46,46,0,1,0,450,128Z",
             }
+            
         }
     }
 }
@@ -1440,11 +1556,15 @@ impl IconShape for IoAnalytics {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M456,128a40,40,0,0,0-37.23,54.6L334.6,266.77a39.86,39.86,0,0,0-29.2,0L245.23,206.6a40,40,0,1,0-74.46,0L70.6,306.77A40,40,0,1,0,93.23,329.4L193.4,229.23a39.86,39.86,0,0,0,29.2,0l60.17,60.17a40,40,0,1,0,74.46,0l84.17-84.17A40,40,0,1,0,456,128Z",
             }
+            
         }
     }
 }
@@ -1478,6 +1598,9 @@ impl IconShape for IoApertureOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1541,6 +1664,7 @@ impl IconShape for IoApertureOutline {
                 y1: "68.87",
                 y2: "216",
             }
+            
         }
     }
 }
@@ -1575,6 +1699,9 @@ impl IconShape for IoApertureSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -1604,6 +1731,7 @@ impl IconShape for IoApertureSharp {
             polygon {
                 points: "165.98 336.09 166 464 294 464 165.98 336.09",
             }
+            
         }
     }
 }
@@ -1638,6 +1766,9 @@ impl IconShape for IoAperture {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1667,6 +1798,7 @@ impl IconShape for IoAperture {
             path {
                 d: "M129.17,261.46,61.34,329.29A209.1,209.1,0,0,0,136,425.8V264.28A4,4,0,0,0,129.17,261.46Z",
             }
+            
         }
     }
 }
@@ -1701,6 +1833,9 @@ impl IconShape for IoAppsOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -1784,6 +1919,7 @@ impl IconShape for IoAppsOutline {
                 x: "368",
                 y: "368",
             }
+            
         }
     }
 }
@@ -1818,6 +1954,9 @@ impl IconShape for IoAppsSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -1892,6 +2031,7 @@ impl IconShape for IoAppsSharp {
                 x: "352",
                 y: "352",
             }
+            
         }
     }
 }
@@ -1926,6 +2066,9 @@ impl IconShape for IoApps {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1955,6 +2098,7 @@ impl IconShape for IoApps {
             path {
                 d: "M408,464a56,56,0,1,1,56-56A56.06,56.06,0,0,1,408,464Z",
             }
+            
         }
     }
 }
@@ -1989,6 +2133,9 @@ impl IconShape for IoArchiveOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2015,6 +2162,7 @@ impl IconShape for IoArchiveOutline {
                 y1: "345.89",
                 y2: "224",
             }
+            
         }
     }
 }
@@ -2049,6 +2197,9 @@ impl IconShape for IoArchiveSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -2062,6 +2213,7 @@ impl IconShape for IoArchiveSharp {
             path {
                 d: "M64,160V440a24,24,0,0,0,24,24H424a24,24,0,0,0,24-24V160ZM256,390.63,169.32,304,192,281.32,240,329.37V208h32V329.37l48.07-48.07,22.61,22.64Z",
             }
+            
         }
     }
 }
@@ -2096,6 +2248,9 @@ impl IconShape for IoArchive {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2109,6 +2264,7 @@ impl IconShape for IoArchive {
                 x: "32",
                 y: "48",
             }
+            
         }
     }
 }
@@ -2143,6 +2299,9 @@ impl IconShape for IoArrowBackCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2160,6 +2319,7 @@ impl IconShape for IoArrowBackCircleOutline {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -2194,11 +2354,15 @@ impl IconShape for IoArrowBackCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M48,256c0,114.87,93.13,208,208,208s208-93.13,208-208S370.87,48,256,48,48,141.13,48,256Zm224-80.09L208.42,240H358v32H208.42L272,336.09,249.3,358.63,147.46,256,249.3,153.37Z",
             }
+            
         }
     }
 }
@@ -2233,11 +2397,15 @@ impl IconShape for IoArrowBackCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M48,256c0,114.87,93.13,208,208,208s208-93.13,208-208S370.87,48,256,48,48,141.13,48,256Zm212.65-91.36a16,16,0,0,1,.09,22.63L208.42,240H342a16,16,0,0,1,0,32H208.42l52.32,52.73A16,16,0,1,1,238,347.27l-79.39-80a16,16,0,0,1,0-22.54l79.39-80A16,16,0,0,1,260.65,164.64Z",
             }
+            
         }
     }
 }
@@ -2272,6 +2440,9 @@ impl IconShape for IoArrowBackOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2285,6 +2456,7 @@ impl IconShape for IoArrowBackOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -2319,6 +2491,9 @@ impl IconShape for IoArrowBackSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2332,6 +2507,7 @@ impl IconShape for IoArrowBackSharp {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -2366,6 +2542,9 @@ impl IconShape for IoArrowBack {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2379,6 +2558,7 @@ impl IconShape for IoArrowBack {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -2413,6 +2593,9 @@ impl IconShape for IoArrowDownCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2430,6 +2613,7 @@ impl IconShape for IoArrowDownCircleOutline {
                 d: "M256,64C150,64,64,150,64,256s86,192,192,192,192-86,192-192S362,64,256,64Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -2464,11 +2648,15 @@ impl IconShape for IoArrowDownCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,464c114.87,0,208-93.13,208-208S370.87,48,256,48,48,141.13,48,256,141.13,464,256,464ZM175.91,240,240,303.58V154h32V303.58L336.09,240l22.54,22.71L256,364.54,153.37,262.7Z",
             }
+            
         }
     }
 }
@@ -2503,11 +2691,15 @@ impl IconShape for IoArrowDownCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,464c114.87,0,208-93.13,208-208S370.87,48,256,48,48,141.13,48,256,141.13,464,256,464ZM164.64,251.35a16,16,0,0,1,22.63-.09L240,303.58V170a16,16,0,0,1,32,0V303.58l52.73-52.32A16,16,0,1,1,347.27,274l-80,79.39a16,16,0,0,1-22.54,0l-80-79.39A16,16,0,0,1,164.64,251.35Z",
             }
+            
         }
     }
 }
@@ -2542,6 +2734,9 @@ impl IconShape for IoArrowDownOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2555,6 +2750,7 @@ impl IconShape for IoArrowDownOutline {
                 y1: "392",
                 y2: "100",
             }
+            
         }
     }
 }
@@ -2589,6 +2785,9 @@ impl IconShape for IoArrowDownSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2602,6 +2801,7 @@ impl IconShape for IoArrowDownSharp {
                 y1: "392",
                 y2: "100",
             }
+            
         }
     }
 }
@@ -2636,6 +2836,9 @@ impl IconShape for IoArrowDown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2649,6 +2852,7 @@ impl IconShape for IoArrowDown {
                 y1: "392",
                 y2: "100",
             }
+            
         }
     }
 }
@@ -2683,6 +2887,9 @@ impl IconShape for IoArrowForwardCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2700,6 +2907,7 @@ impl IconShape for IoArrowForwardCircleOutline {
                 d: "M256,448c106,0,192-86,192-192S362,64,256,64,64,150,64,256,150,448,256,448Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -2734,11 +2942,15 @@ impl IconShape for IoArrowForwardCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,256c0-114.87-93.13-208-208-208S48,141.13,48,256s93.13,208,208,208S464,370.87,464,256ZM240,336.09,303.58,272H154V240H303.58L240,175.91l22.71-22.54L364.54,256,262.7,358.63Z",
             }
+            
         }
     }
 }
@@ -2773,11 +2985,15 @@ impl IconShape for IoArrowForwardCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,256c0-114.87-93.13-208-208-208S48,141.13,48,256s93.13,208,208,208S464,370.87,464,256ZM251.35,347.36a16,16,0,0,1-.09-22.63L303.58,272H170a16,16,0,0,1,0-32H303.58l-52.32-52.73A16,16,0,1,1,274,164.73l79.39,80a16,16,0,0,1,0,22.54l-79.39,80A16,16,0,0,1,251.35,347.36Z",
             }
+            
         }
     }
 }
@@ -2812,6 +3028,9 @@ impl IconShape for IoArrowForwardOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2825,6 +3044,7 @@ impl IconShape for IoArrowForwardOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -2859,6 +3079,9 @@ impl IconShape for IoArrowForwardSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2872,6 +3095,7 @@ impl IconShape for IoArrowForwardSharp {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -2906,6 +3130,9 @@ impl IconShape for IoArrowForward {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2919,6 +3146,7 @@ impl IconShape for IoArrowForward {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -2953,6 +3181,9 @@ impl IconShape for IoArrowRedoCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2962,6 +3193,7 @@ impl IconShape for IoArrowRedoCircleOutline {
                 d: "M64,256c0,106,86,192,192,192s192-86,192-192S362,64,256,64,64,150,64,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -2996,11 +3228,15 @@ impl IconShape for IoArrowRedoCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M48,256c0,114.87,93.13,208,208,208s208-93.13,208-208S370.87,48,256,48,48,141.13,48,256Zm98,88c0-68.13,22.67-137.14,119.17-137.14V152L366,248,265.17,344V289.14C198.48,289.14,173.85,308.43,146,344Z",
             }
+            
         }
     }
 }
@@ -3035,11 +3271,15 @@ impl IconShape for IoArrowRedoCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M48,256c0,114.87,93.13,208,208,208s208-93.13,208-208S370.87,48,256,48,48,141.13,48,256Zm96,66.67c5.45-61.45,34.14-117.09,122.87-117.09V168.26a8.32,8.32,0,0,1,14-6L365.42,242a8.2,8.2,0,0,1,0,11.94L281,333.71a8.32,8.32,0,0,1-14-6V290.42c-57.07,0-84.51,13.47-108.58,38.68C152.93,334.75,143.35,330.42,144,322.67Z",
             }
+            
         }
     }
 }
@@ -3074,12 +3314,16 @@ impl IconShape for IoArrowRedoOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M448,256,272,88v96C103.57,184,64,304.77,64,424c48.61-62.24,91.6-96,208-96v96Z",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -3114,11 +3358,15 @@ impl IconShape for IoArrowRedoSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M48,399.26C48,335.19,62.44,284,90.91,247c34.38-44.67,88.68-68.77,161.56-71.75V72L464,252,252.47,432V329.35c-44.25,1.19-77.66,7.58-104.27,19.84-28.75,13.25-49.6,33.05-72.08,58.7L48,440Z",
             }
+            
         }
     }
 }
@@ -3153,11 +3401,15 @@ impl IconShape for IoArrowRedo {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M58.79,439.13A16,16,0,0,1,48,424c0-73.1,14.68-131.56,43.65-173.77,35-51,90.21-78.46,164.35-81.87V88a16,16,0,0,1,27.05-11.57l176,168a16,16,0,0,1,0,23.14l-176,168A16,16,0,0,1,256,424V344.23c-45,1.36-79,8.65-106.07,22.64-29.25,15.12-50.46,37.71-73.32,67a16,16,0,0,1-17.82,5.28Z",
             }
+            
         }
     }
 }
@@ -3192,6 +3444,9 @@ impl IconShape for IoArrowUndoCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3201,6 +3456,7 @@ impl IconShape for IoArrowUndoCircleOutline {
                 d: "M256,64C150,64,64,150,64,256s86,192,192,192,192-86,192-192S362,64,256,64Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -3235,11 +3491,15 @@ impl IconShape for IoArrowUndoCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48Zm-9.17,241.14V344L146,248l100.83-96v54.86c96.5,0,119.17,69,119.17,137.14C338.15,308.43,313.52,289.14,246.83,289.14Z",
             }
+            
         }
     }
 }
@@ -3274,11 +3534,15 @@ impl IconShape for IoArrowUndoCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48Zm97.67,281.1c-24.07-25.21-51.51-38.68-108.58-38.68v37.32a8.32,8.32,0,0,1-14.05,6L146.58,254a8.2,8.2,0,0,1,0-11.94L231,162.29a8.32,8.32,0,0,1,14.05,6v37.32c88.73,0,117.42,55.64,122.87,117.09C368.65,330.42,359.07,334.75,353.67,329.1Z",
             }
+            
         }
     }
 }
@@ -3313,12 +3577,16 @@ impl IconShape for IoArrowUndoOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M240,424V328c116.4,0,159.39,33.76,208,96,0-119.23-39.57-240-208-240V88L64,256Z",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -3353,11 +3621,15 @@ impl IconShape for IoArrowUndoSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,440l-28.12-32.11c-22.48-25.65-43.33-45.45-72.08-58.7-26.61-12.26-60-18.65-104.27-19.84V432L48,252,259.53,72V175.21c72.88,3,127.18,27.08,161.56,71.75C449.56,284,464,335.19,464,399.26Z",
             }
+            
         }
     }
 }
@@ -3392,11 +3664,15 @@ impl IconShape for IoArrowUndo {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M448,440a16,16,0,0,1-12.61-6.15c-22.86-29.27-44.07-51.86-73.32-67C335,352.88,301,345.59,256,344.23V424A16,16,0,0,1,229,435.57l-176-168a16,16,0,0,1,0-23.14l176-168A16,16,0,0,1,256,88v80.36c74.14,3.41,129.38,30.91,164.35,81.87C449.32,292.44,464,350.9,464,424a16,16,0,0,1-16,16Z",
             }
+            
         }
     }
 }
@@ -3431,6 +3707,9 @@ impl IconShape for IoArrowUpCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -3448,6 +3727,7 @@ impl IconShape for IoArrowUpCircleOutline {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -3482,11 +3762,15 @@ impl IconShape for IoArrowUpCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48Zm80.09,224L272,208.42V358H240V208.42L175.91,272,153.37,249.3,256,147.46,358.63,249.3Z",
             }
+            
         }
     }
 }
@@ -3521,11 +3805,15 @@ impl IconShape for IoArrowUpCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48Zm91.36,212.65a16,16,0,0,1-22.63.09L272,208.42V342a16,16,0,0,1-32,0V208.42l-52.73,52.32A16,16,0,1,1,164.73,238l80-79.39a16,16,0,0,1,22.54,0l80,79.39A16,16,0,0,1,347.36,260.65Z",
             }
+            
         }
     }
 }
@@ -3560,6 +3848,9 @@ impl IconShape for IoArrowUpOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -3573,6 +3864,7 @@ impl IconShape for IoArrowUpOutline {
                 y1: "120",
                 y2: "412",
             }
+            
         }
     }
 }
@@ -3607,6 +3899,9 @@ impl IconShape for IoArrowUpSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -3620,6 +3915,7 @@ impl IconShape for IoArrowUpSharp {
                 y1: "120",
                 y2: "412",
             }
+            
         }
     }
 }
@@ -3654,6 +3950,9 @@ impl IconShape for IoArrowUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -3667,6 +3966,7 @@ impl IconShape for IoArrowUp {
                 y1: "120",
                 y2: "412",
             }
+            
         }
     }
 }
@@ -3701,6 +4001,9 @@ impl IconShape for IoAtCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3711,6 +4014,7 @@ impl IconShape for IoAtCircleOutline {
                 d: "M300.81,358.29c-20.83,7.42-34.05,9.59-54.19,9.59-61.17,0-106.39-50.07-101-111.84S205,144.21,266.14,144.21c68.92,0,106.79,45.55,101.47,106.55-4,45.54-32.8,58.66-47.89,56-14.2-2.55-25.92-15.52-23.75-40.35l5.62-44.66c-7.58-9.17-28.11-18-49.93-14.54C231.77,210.3,209,228,206.56,256s14.49,50.84,39.93,50.84,47.86-18.39,50.69-50.84",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:28px",
             }
+            
         }
     }
 }
@@ -3745,6 +4049,9 @@ impl IconShape for IoAtCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3753,6 +4060,7 @@ impl IconShape for IoAtCircleSharp {
             path {
                 d: "M253.51,221c-14.83,2.33-31.55,15.84-33.34,36.26-1,11.06,2,21.22,8.08,27.87a23.63,23.63,0,0,0,17.91,7.75c19.7,0,33.8-14.79,36.8-38.59l1.75-13.89h.09l1.65-13.11a49.63,49.63,0,0,0-32.94-6.3Z",
             }
+            
         }
     }
 }
@@ -3787,6 +4095,9 @@ impl IconShape for IoAtCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3795,6 +4106,7 @@ impl IconShape for IoAtCircle {
             path {
                 d: "M252.57,221c-14.83,2.33-31.56,15.84-33.34,36.26-1,11.06,2,21.22,8.07,27.87a23.65,23.65,0,0,0,17.91,7.75c20.31,0,34.73-14.94,36.75-38.06a14,14,0,0,1,.34-2.07l3.2-25.45a49.61,49.61,0,0,0-32.93-6.3Z",
             }
+            
         }
     }
 }
@@ -3829,6 +4141,9 @@ impl IconShape for IoAtOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3839,6 +4154,7 @@ impl IconShape for IoAtOutline {
                 d: "M319.77,415.77c-28.56,12-47.28,14.5-79.28,14.5-97.2,0-169-78.8-160.49-176s94.31-176,191.51-176C381,78.27,441.19,150,432.73,246c-6.31,71.67-52.11,92.32-76.09,88.07-22.56-4-41.18-24.42-37.74-63.5l8.48-96.25",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -3873,11 +4189,15 @@ impl IconShape for IoAtSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M407.6,115.78c-32.07-35-79.47-53.51-137.09-53.51-51,0-100.69,19.8-139.82,55.76S67.56,201.87,63.06,252.86C58.51,304.53,74.47,353.15,108,389.76c33.37,36.44,80.07,56.51,131.49,56.51,32.52,0,53.61-2.36,85.48-15.75l14.75-6.2-12.4-29.5L312.57,401c-27.15,11.4-43.78,13.25-73.08,13.25-42.34,0-80.65-16.38-107.89-46.12-27.4-29.92-40.42-69.86-36.66-112.48,7.84-89,86.6-161.4,175.57-161.4,48.4,0,87.65,14.91,113.49,43.13,24.61,26.87,35.6,63.92,31.79,107.15-3.29,37.35-17.76,55.74-29.32,64.6-11,8.44-22,10.18-28,9.11-17.68-3.13-26.87-20.46-24.59-46.29l9.93-109.12L311.9,160l-2,22.29a79.69,79.69,0,0,0-57.32-24c-23.8,0-46.54,10.07-64,28.37-16.77,17.53-27.23,41.05-29.45,66.22-2.45,27.87,5.75,54.34,22.51,72.64a76.14,76.14,0,0,0,56.88,24.77A93,93,0,0,0,310,318a60,60,0,0,0,42.88,31.81c16.89,3,36.73-2.69,53.08-15.21,30.19-23.13,39.36-60.19,41.74-87.2C452.22,195.7,438,149,407.6,115.78Zm-126.34,186a62.19,62.19,0,0,1-42.81,16.53,43.94,43.94,0,0,1-33.28-14.38c-10.71-11.7-15.9-29.27-14.23-48.22,3.23-36.68,30.29-65.4,61.61-65.4a48.16,48.16,0,0,1,35.88,15.82C299.3,218,304.63,235,303.06,252.86,301.28,273.14,293.73,290,281.26,301.74Z",
             }
+            
         }
     }
 }
@@ -3912,6 +4232,9 @@ impl IconShape for IoAt {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3922,6 +4245,7 @@ impl IconShape for IoAt {
                 d: "M319.77,415.77c-28.56,12-47.28,14.5-79.28,14.5-97.2,0-169-78.8-160.49-176s94.31-176,191.51-176C381,78.27,441.19,150,432.73,246c-6.31,71.67-52.11,92.32-76.09,88.07-22.56-4-41.18-24.42-37.74-63.5l8.48-96.25",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -3956,12 +4280,16 @@ impl IconShape for IoAttachOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M216.08,192V335.85a40.08,40.08,0,0,0,80.15,0l.13-188.55a67.94,67.94,0,1,0-135.87,0V337.12a95.51,95.51,0,1,0,191,0V159.74",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -3996,12 +4324,16 @@ impl IconShape for IoAttachSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M216.08,192V335.55a40.08,40.08,0,0,0,80.15,0L296.36,147a67.94,67.94,0,1,0-135.87,0V336.82a95.51,95.51,0,0,0,191,0V159.44",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -4036,12 +4368,16 @@ impl IconShape for IoAttach {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M216.08,192V335.85a40.08,40.08,0,0,0,80.15,0l.13-188.55a67.94,67.94,0,1,0-135.87,0V337.12a95.51,95.51,0,1,0,191,0V159.74",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -4075,6 +4411,9 @@ impl IconShape for IoBackspaceOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4110,6 +4449,7 @@ impl IconShape for IoBackspaceOutline {
                 y1: "322.34",
                 y2: "192.33",
             }
+            
         }
     }
 }
@@ -4144,11 +4484,15 @@ impl IconShape for IoBackspaceSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M144,96,32,256,144,416H448V96ZM359.3,322.34,336.67,345l-65-65-65,65L184,322.34l65-65-65-65,22.63-22.63,65,65,65-65,22.63,22.63-65,65Z",
             }
+            
         }
     }
 }
@@ -4183,11 +4527,15 @@ impl IconShape for IoBackspace {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M403.13,96H156.87a44.9,44.9,0,0,0-33.68,15.27,15.88,15.88,0,0,0-1.91,2.7L32,247.75a16,16,0,0,0,0,16.5l89.15,133.57a16.24,16.24,0,0,0,2,2.88,44.89,44.89,0,0,0,33.7,15.3H403.13A44.92,44.92,0,0,0,448,371.13V140.87A44.92,44.92,0,0,0,403.13,96ZM348,311a16,16,0,1,1-22.63,22.62L271.67,280,218,333.65A16,16,0,0,1,195.35,311L249,257.33l-53.69-53.69A16,16,0,0,1,218,181l53.69,53.7L325.36,181A16,16,0,0,1,348,203.64l-53.7,53.69Z",
             }
+            
         }
     }
 }
@@ -4221,6 +4569,9 @@ impl IconShape for IoBagAddOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4260,6 +4611,7 @@ impl IconShape for IoBagAddOutline {
                 stroke_linejoin: "round",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -4294,11 +4646,15 @@ impl IconShape for IoBagAddSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M460,160H372V148A116.13,116.13,0,0,0,258.89,32c-1,0-1.92,0-2.89,0s-1.93,0-2.89,0A116.13,116.13,0,0,0,140,148v12H52a4,4,0,0,0-4,4V464a16,16,0,0,0,16,16H448a16,16,0,0,0,16-16V164A4,4,0,0,0,460,160ZM180,149c0-41.84,33.41-76.56,75.25-77A76.08,76.08,0,0,1,332,148v12H180ZM336,336H272v64H240V336H176V304h64V240h32v64h64Z",
             }
+            
         }
     }
 }
@@ -4333,11 +4689,15 @@ impl IconShape for IoBagAdd {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M454.66,169.4A31.86,31.86,0,0,0,432,160H368V144a112,112,0,0,0-224,0v16H80a32,32,0,0,0-32,32V408c0,39,33,72,72,72H392a72.22,72.22,0,0,0,50.48-20.55A69.48,69.48,0,0,0,464,409.25V192A31.78,31.78,0,0,0,454.66,169.4ZM320,336H272v48a16,16,0,0,1-32,0V336H192a16,16,0,0,1,0-32h48V256a16,16,0,0,1,32,0v48h48a16,16,0,0,1,0,32Zm16-176H176V144a80,80,0,0,1,160,0Z",
             }
+            
         }
     }
 }
@@ -4372,6 +4732,9 @@ impl IconShape for IoBagCheckOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -4397,6 +4760,7 @@ impl IconShape for IoBagCheckOutline {
                 stroke_linejoin: "round",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -4431,11 +4795,15 @@ impl IconShape for IoBagCheckSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M460,160H372V148A116.13,116.13,0,0,0,258.89,32c-1,0-1.92,0-2.89,0s-1.93,0-2.89,0A116.13,116.13,0,0,0,140,148v12H52a4,4,0,0,0-4,4V464a16,16,0,0,0,16,16H448a16,16,0,0,0,16-16V164A4,4,0,0,0,460,160ZM180,149c0-41.84,33.41-76.56,75.25-77A76.08,76.08,0,0,1,332,148v12H180Zm50.81,252.12-61.37-71.72,24.31-20.81L230,350.91l87.51-109.4,25,20Z",
             }
+            
         }
     }
 }
@@ -4470,11 +4838,15 @@ impl IconShape for IoBagCheck {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M454.65,169.4A31.82,31.82,0,0,0,432,160H368V144a112,112,0,0,0-224,0v16H80a32,32,0,0,0-32,32V408c0,39,33,72,72,72H392a72.22,72.22,0,0,0,50.48-20.55A69.48,69.48,0,0,0,464,409.25V192A31.75,31.75,0,0,0,454.65,169.4ZM332.49,274l-89.6,112a16,16,0,0,1-12.23,6h-.26a16,16,0,0,1-12.16-5.6l-38.4-44.88a16,16,0,1,1,24.32-20.8L230,350.91,307.51,254a16,16,0,0,1,25,20ZM336,160H176V144a80,80,0,0,1,160,0Z",
             }
+            
         }
     }
 }
@@ -4509,6 +4881,9 @@ impl IconShape for IoBagHandleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4532,6 +4907,7 @@ impl IconShape for IoBagHandleOutline {
                 stroke_linejoin: "round",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -4566,11 +4942,15 @@ impl IconShape for IoBagHandleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M460,160H372V148A116.13,116.13,0,0,0,258.89,32c-1,0-1.92,0-2.89,0s-1.93,0-2.89,0A116.13,116.13,0,0,0,140,148v12H52a4,4,0,0,0-4,4V464a16,16,0,0,0,16,16H448a16,16,0,0,0,16-16V164A4,4,0,0,0,460,160ZM180,149c0-41.84,33.41-76.56,75.25-77A76.08,76.08,0,0,1,332,148v12H180Zm188,91a112,112,0,0,1-224,0V208h32v32a80,80,0,0,0,160,0V208h32Z",
             }
+            
         }
     }
 }
@@ -4605,11 +4985,15 @@ impl IconShape for IoBagHandle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M454.65,169.4A31.82,31.82,0,0,0,432,160H368V144a112,112,0,0,0-224,0v16H80a32,32,0,0,0-32,32V408c0,39,33,72,72,72H392a72.22,72.22,0,0,0,50.48-20.55A69.48,69.48,0,0,0,464,409.25V192A31.75,31.75,0,0,0,454.65,169.4ZM176,144a80,80,0,0,1,160,0v16H176Zm192,96a112,112,0,0,1-224,0V224a16,16,0,0,1,32,0v16a80,80,0,0,0,160,0V224a16,16,0,0,1,32,0Z",
             }
+            
         }
     }
 }
@@ -4644,6 +5028,9 @@ impl IconShape for IoBagOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4662,6 +5049,7 @@ impl IconShape for IoBagOutline {
                 stroke_linejoin: "round",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -4696,6 +5084,9 @@ impl IconShape for IoBagRemoveOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -4724,6 +5115,7 @@ impl IconShape for IoBagRemoveOutline {
                 stroke_linejoin: "round",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -4758,11 +5150,15 @@ impl IconShape for IoBagRemoveSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M460,160H372V148A116.13,116.13,0,0,0,258.89,32c-1,0-1.92,0-2.89,0s-1.93,0-2.89,0A116.13,116.13,0,0,0,140,148v12H52a4,4,0,0,0-4,4V464a16,16,0,0,0,16,16H448a16,16,0,0,0,16-16V164A4,4,0,0,0,460,160ZM180,149c0-41.84,33.41-76.56,75.25-77A76.08,76.08,0,0,1,332,148v12H180ZM336,336H176V304H336Z",
             }
+            
         }
     }
 }
@@ -4797,11 +5193,15 @@ impl IconShape for IoBagRemove {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M454.66,169.4A31.86,31.86,0,0,0,432,160H368V144a112,112,0,0,0-224,0v16H80a32,32,0,0,0-32,32V408c0,39,33,72,72,72H392a72.22,72.22,0,0,0,50.48-20.55A69.48,69.48,0,0,0,464,409.25V192A31.78,31.78,0,0,0,454.66,169.4ZM320,336H192a16,16,0,0,1,0-32H320a16,16,0,0,1,0,32Zm16-176H176V144a80,80,0,0,1,160,0Z",
             }
+            
         }
     }
 }
@@ -4836,11 +5236,15 @@ impl IconShape for IoBagSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M372,160V148A116.13,116.13,0,0,0,258.89,32c-1,0-1.92,0-2.89,0s-1.93,0-2.89,0A116.13,116.13,0,0,0,140,148v12H52a4,4,0,0,0-4,4V464a16,16,0,0,0,16,16H448a16,16,0,0,0,16-16V164a4,4,0,0,0-4-4Zm-40,0H180V149c0-41.84,33.41-76.56,75.25-77A76.08,76.08,0,0,1,332,148Z",
             }
+            
         }
     }
 }
@@ -4875,11 +5279,15 @@ impl IconShape for IoBag {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M454.65,169.4A31.82,31.82,0,0,0,432,160H368V144a112,112,0,0,0-224,0v16H80a32,32,0,0,0-32,32V408c0,39,33,72,72,72H392a72.22,72.22,0,0,0,50.48-20.55A69.48,69.48,0,0,0,464,409.25V192A31.75,31.75,0,0,0,454.65,169.4ZM176,144a80,80,0,0,1,160,0v16H176Z",
             }
+            
         }
     }
 }
@@ -4914,6 +5322,9 @@ impl IconShape for IoBalloonOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4943,6 +5354,7 @@ impl IconShape for IoBalloonOutline {
                 stroke_linejoin: "round",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -4977,11 +5389,15 @@ impl IconShape for IoBalloonSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M391,307.27c32.75-46.35,46.59-101.63,39-155.68h0C416.47,55.59,327.38-11.54,231.38,2S68.24,104.53,81.73,200.53c7.57,53.89,36.12,103.16,80.37,138.74,26.91,21.64,57.59,36.1,86.05,41.33l-8.36,45.23a8,8,0,0,0,9,9.38L279,431c15.9,35.87,41.65,60.48,78.41,75l14.88,5.88,11.77-29.75-14.88-5.89c-26.35-10.42-44.48-26.16-57-49.92l21.84-3.07a8,8,0,0,0,6.05-11.49l-20.49-41.16C345.56,357.73,371.07,335.42,391,307.27ZM230.18,322.93c-41.26-16.32-76.3-52.7-91.45-94.94l-5.4-15.06,30.12-10.8,5.4,15.06c14.5,40.44,47.27,65.77,73.1,76l14.88,5.88-11.77,29.76Z",
             }
+            
         }
     }
 }
@@ -5016,11 +5432,15 @@ impl IconShape for IoBalloon {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M391,307.27c32.75-46.35,46.59-101.63,39-155.68A175.82,175.82,0,0,0,231.38,2c-96,13.49-163.14,102.58-149.65,198.58,7.57,53.89,36.12,103.16,80.37,138.74C186.68,359,214.41,372.82,240.72,379a8,8,0,0,1,6,9.22l-4.87,26.38a16.29,16.29,0,0,0,1.48,10.57,16,16,0,0,0,14.2,8.61,15.21,15.21,0,0,0,2.23-.16l17.81-2.5a2,2,0,0,1,2.09,1.14c16.72,36.31,45.46,63.85,82.15,78.36a16,16,0,0,0,21-9.65c2.83-8.18-1.64-17.07-9.68-20.28a118.57,118.57,0,0,1-59.3-51.88,2,2,0,0,1,1.45-3l7.4-1a16.54,16.54,0,0,0,10.08-5.23,16,16,0,0,0,2.39-17.8l-12.06-24.23A8,8,0,0,1,326.35,367C349.94,353.83,372.8,333,391,307.27Zm-154.9,16.78a16,16,0,0,1-5.88-1.12c-41.26-16.32-76.3-52.7-91.45-94.94a16,16,0,1,1,30.12-10.8c14.5,40.44,47.27,65.77,73.1,76a16,16,0,0,1-5.89,30.88Z",
             }
+            
         }
     }
 }
@@ -5055,6 +5475,9 @@ impl IconShape for IoBanOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -5074,6 +5497,7 @@ impl IconShape for IoBanOutline {
                 y1: "108.92",
                 y2: "403.08",
             }
+            
         }
     }
 }
@@ -5108,11 +5532,15 @@ impl IconShape for IoBanSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414.39,97.61A224,224,0,1,0,97.61,414.39,224,224,0,1,0,414.39,97.61ZM432,256a175.09,175.09,0,0,1-35.8,106.26L149.74,115.8A175.09,175.09,0,0,1,256,80C353.05,80,432,159,432,256ZM80,256a175.09,175.09,0,0,1,35.8-106.26L362.26,396.2A175.09,175.09,0,0,1,256,432C159,432,80,353.05,80,256Z",
             }
+            
         }
     }
 }
@@ -5147,6 +5575,9 @@ impl IconShape for IoBan {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -5166,6 +5597,7 @@ impl IconShape for IoBan {
                 y1: "114.58",
                 y2: "397.42",
             }
+            
         }
     }
 }
@@ -5199,6 +5631,9 @@ impl IconShape for IoBandageOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5242,6 +5677,7 @@ impl IconShape for IoBandageOutline {
                 cy: "304",
                 r: "16",
             }
+            
         }
     }
 }
@@ -5276,6 +5712,9 @@ impl IconShape for IoBandageSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5287,6 +5726,7 @@ impl IconShape for IoBandageSharp {
             path {
                 d: "M273.06,386.19l116-116L241.77,123l-116,116Zm19.63-141.5a16,16,0,1,1,0,22.62A16,16,0,0,1,292.69,244.69Zm-48-48a16,16,0,1,1,0,22.62A16,16,0,0,1,244.69,196.69Zm0,96a16,16,0,1,1,0,22.62A16,16,0,0,1,244.69,292.69Zm-25.38-48a16,16,0,1,1-22.62,0A16,16,0,0,1,219.31,244.69Z",
             }
+            
         }
     }
 }
@@ -5321,6 +5761,9 @@ impl IconShape for IoBandage {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5344,6 +5787,7 @@ impl IconShape for IoBandage {
             path {
                 d: "M254.34,386.83a47.91,47.91,0,0,1-33.94-14L141.21,293.6a47.81,47.81,0,0,1-9.43-13.38c-4.59-9.7-1.39-25,2.48-36.9a4,4,0,0,0-6.64-4L50.39,316.36A104.12,104.12,0,0,0,197.64,463.61l72.75-72.88a4,4,0,0,0-4.21-6.58C262,385.73,257.78,386.83,254.34,386.83Z",
             }
+            
         }
     }
 }
@@ -5378,6 +5822,9 @@ impl IconShape for IoBarChartOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5411,6 +5858,7 @@ impl IconShape for IoBarChartOutline {
                 x: "383.64",
                 y: "112",
             }
+            
         }
     }
 }
@@ -5445,6 +5893,9 @@ impl IconShape for IoBarChartSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -5459,6 +5910,7 @@ impl IconShape for IoBarChartSharp {
             path {
                 d: "M479.64,432h-112V96h112Z",
             }
+            
         }
     }
 }
@@ -5493,6 +5945,9 @@ impl IconShape for IoBarChart {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5507,6 +5962,7 @@ impl IconShape for IoBarChart {
             path {
                 d: "M443.64,432h-40a36,36,0,0,1-36-36V132a36,36,0,0,1,36-36h40a36,36,0,0,1,36,36V396A36,36,0,0,1,443.64,432Z",
             }
+            
         }
     }
 }
@@ -5540,6 +5996,9 @@ impl IconShape for IoBarbellOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5586,6 +6045,7 @@ impl IconShape for IoBarbellOutline {
                 x: "464",
                 y: "192",
             }
+            
         }
     }
 }
@@ -5620,11 +6080,15 @@ impl IconShape for IoBarbellSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "496 176 438 176 438 112 362 112 362 234 150 234 150 112 74 112 74 176 16 176 16 336 74 336 74 400 150 400 150 278 362 278 362 400 438 400 438 336 496 336 496 176",
             }
+            
         }
     }
 }
@@ -5659,11 +6123,15 @@ impl IconShape for IoBarbell {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M467,176a29.94,29.94,0,0,0-25.32,12.5,2,2,0,0,1-3.64-1.14V150.71c0-20.75-16.34-38.21-37.08-38.7A38,38,0,0,0,362,150v82a2,2,0,0,1-2,2H152a2,2,0,0,1-2-2V150.71c0-20.75-16.34-38.21-37.08-38.7A38,38,0,0,0,74,150v37.38a2,2,0,0,1-3.64,1.14A29.94,29.94,0,0,0,45,176c-16.3.51-29,14.31-29,30.62v98.72c0,16.31,12.74,30.11,29,30.62a29.94,29.94,0,0,0,25.32-12.5A2,2,0,0,1,74,324.62v36.67C74,382,90.34,399.5,111.08,400A38,38,0,0,0,150,362V280a2,2,0,0,1,2-2H360a2,2,0,0,1,2,2v81.29c0,20.75,16.34,38.21,37.08,38.7A38,38,0,0,0,438,362V324.62a2,2,0,0,1,3.64-1.14A29.94,29.94,0,0,0,467,336c16.3-.51,29-14.31,29-30.62V206.64C496,190.33,483.26,176.53,467,176Z",
             }
+            
         }
     }
 }
@@ -5697,6 +6165,9 @@ impl IconShape for IoBarcodeOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5743,6 +6214,7 @@ impl IconShape for IoBarcodeOutline {
                 y1: "192",
                 y2: "320",
             }
+            
         }
     }
 }
@@ -5776,6 +6248,9 @@ impl IconShape for IoBarcodeSharp {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5822,6 +6297,7 @@ impl IconShape for IoBarcodeSharp {
                 y1: "192",
                 y2: "320",
             }
+            
         }
     }
 }
@@ -5856,11 +6332,15 @@ impl IconShape for IoBarcode {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M419.13,96H419l-35.05.33L128,96h-.16l-36.74.33C66.93,96.38,48,116.07,48,141.2V371.47c0,25.15,19,44.86,43.2,44.86h.15l36.71-.33,255.92.33h.17l35.07-.33A44.91,44.91,0,0,0,464,371.13V140.87A44.92,44.92,0,0,0,419.13,96ZM144,320a16,16,0,0,1-32,0V192a16,16,0,0,1,32,0Zm64,32a16,16,0,0,1-32,0V160a16,16,0,0,1,32,0Zm64-16a16,16,0,0,1-32,0V176a16,16,0,0,1,32,0Zm64,16a16,16,0,0,1-32,0V160a16,16,0,0,1,32,0Zm64-32a16,16,0,0,1-32,0V192a16,16,0,0,1,32,0Z",
             }
+            
         }
     }
 }
@@ -5894,6 +6374,9 @@ impl IconShape for IoBaseballOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5967,6 +6450,7 @@ impl IconShape for IoBaseballOutline {
                 d: "M255,433.61A192,192,0,0,0,74.29,256.69",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -6001,6 +6485,9 @@ impl IconShape for IoBaseballSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6012,6 +6499,7 @@ impl IconShape for IoBaseballSharp {
             path {
                 d: "M444.65,302.67l-.55-33.06a206,206,0,0,1-39.33-4.74L397,291.8,370.06,284l7.83-27a206.91,206.91,0,0,1-36.06-17.35l-16.36,23.15-22.86-16.16,16.33-23.11a204.21,204.21,0,0,1-30-30L266.75,209.2l-16.16-22.87,22.17-15.67a206,206,0,0,1-17.38-36.06l-25.75,7.48-7.81-26.89,25.73-7.47q-2-9.21-3.18-18.64l-.47,0-.78-14h0l-.33-6-17.94-.32a13.38,13.38,0,0,1-1.79-.16l-6.35-.13.06-2.47a14,14,0,0,1-5.66-11.49,13.27,13.27,0,0,1,.13-1.67A208,208,0,0,0,52.16,217.43l16.1-.28.45,25.18,6.83.38,14,.77,0,.48q9.42,1.17,18.64,3.18l6.68-23L141.7,232,135,255a205.3,205.3,0,0,1,36.06,17.38l14.53-20.56L208.47,268,194,288.5a203.5,203.5,0,0,1,30,30l21.3-15,16.16,22.86L240.1,341.41a206.86,206.86,0,0,1,17.34,36.06l25.27-7.33L290.52,397l-25.24,7.33A205.9,205.9,0,0,1,270,442.63l29.42.53-.29,16.48a207.94,207.94,0,0,0,160-157.21Z",
             }
+            
         }
     }
 }
@@ -6046,6 +6534,9 @@ impl IconShape for IoBaseball {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6057,6 +6548,7 @@ impl IconShape for IoBaseball {
             path {
                 d: "M208.44,457.55a16,16,0,0,1,16.28-15.71l16.76.29a178.49,178.49,0,0,0-3.62-29.95L221.6,416.9A14,14,0,1,1,213.79,390L230,385.3a177.92,177.92,0,0,0-13.33-27.68l-13.8,9.76a14,14,0,1,1-16.16-22.87l13.84-9.78c-3.5-4.22-7.19-8.3-11.1-12.2s-8-7.62-12.19-11.12l-9.79,13.86a14,14,0,1,1-22.87-16.16l9.78-13.84a177.16,177.16,0,0,0-27.69-13.33L122,298.21A14,14,0,1,1,95.1,290.4l4.73-16.29a177.32,177.32,0,0,0-26.31-3.44c-.89-.05-1.79-.08-2.68-.12L71,281.14a16,16,0,0,1-15.71,16.28H55a16,16,0,0,1-3.94-.51A208,208,0,0,0,208.71,460.78,15.72,15.72,0,0,1,208.44,457.55Z",
             }
+            
         }
     }
 }
@@ -6091,6 +6583,9 @@ impl IconShape for IoBasketOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6101,6 +6596,7 @@ impl IconShape for IoBasketOutline {
                 points: "160 192 256 64 352 192",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -6135,6 +6631,9 @@ impl IconShape for IoBasketSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6143,6 +6642,7 @@ impl IconShape for IoBasketSharp {
             path {
                 d: "M441.59,192H70.41a12,12,0,0,0-11.68,14.77L112.59,434H399.41l53.86-227.23A12,12,0,0,0,441.59,192ZM256,351.66A37.71,37.71,0,1,1,293.89,314,37.88,37.88,0,0,1,256,351.66Z",
             }
+            
         }
     }
 }
@@ -6177,11 +6677,15 @@ impl IconShape for IoBasket {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M424.11,192H360L268.8,70.4a16,16,0,0,0-25.6,0L152,192H87.89a32.57,32.57,0,0,0-32.62,32.44,30.3,30.3,0,0,0,1.31,9l46.27,163.14a50.72,50.72,0,0,0,48.84,36.91H360.31a51.21,51.21,0,0,0,49-36.86l46.33-163.36a15.62,15.62,0,0,0,.46-2.36l.53-4.93a13.3,13.3,0,0,0,.09-1.55A32.57,32.57,0,0,0,424.11,192ZM256,106.67,320,192H192Zm0,245a37.7,37.7,0,1,1,37.88-37.7A37.87,37.87,0,0,1,256,351.63Z",
             }
+            
         }
     }
 }
@@ -6216,6 +6720,9 @@ impl IconShape for IoBasketballOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -6246,6 +6753,7 @@ impl IconShape for IoBasketballOutline {
                 y1: "391.76",
                 y2: "120.24",
             }
+            
         }
     }
 }
@@ -6280,6 +6788,9 @@ impl IconShape for IoBasketballSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6306,6 +6817,7 @@ impl IconShape for IoBasketballSharp {
             path {
                 d: "M120.67,414A207.07,207.07,0,0,0,239,463.2q.63-7.35.64-14.87a175.23,175.23,0,0,0-40.81-112.56Z",
             }
+            
         }
     }
 }
@@ -6340,6 +6852,9 @@ impl IconShape for IoBasketball {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6366,6 +6881,7 @@ impl IconShape for IoBasketball {
             path {
                 d: "M120.67,414A207.07,207.07,0,0,0,239,463.2q.63-7.35.64-14.87a175.23,175.23,0,0,0-40.81-112.56Z",
             }
+            
         }
     }
 }
@@ -6400,6 +6916,9 @@ impl IconShape for IoBatteryChargingOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6420,6 +6939,7 @@ impl IconShape for IoBatteryChargingOutline {
             path {
                 d: "M480,202.67a16,16,0,0,0-16,16v74.66a16,16,0,0,0,32,0V218.67A16,16,0,0,0,480,202.67Z",
             }
+            
         }
     }
 }
@@ -6454,6 +6974,9 @@ impl IconShape for IoBatteryChargingSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6477,6 +7000,7 @@ impl IconShape for IoBatteryChargingSharp {
                 x: "465",
                 y: "202.67",
             }
+            
         }
     }
 }
@@ -6511,6 +7035,9 @@ impl IconShape for IoBatteryCharging {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6531,6 +7058,7 @@ impl IconShape for IoBatteryCharging {
             path {
                 d: "M480,202.67a16,16,0,0,0-16,16v74.66a16,16,0,0,0,32,0V218.67A16,16,0,0,0,480,202.67Z",
             }
+            
         }
     }
 }
@@ -6565,6 +7093,9 @@ impl IconShape for IoBatteryDeadOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -6583,6 +7114,7 @@ impl IconShape for IoBatteryDeadOutline {
                 y1: "218.67",
                 y2: "293.33",
             }
+            
         }
     }
 }
@@ -6617,6 +7149,9 @@ impl IconShape for IoBatteryDeadSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -6633,6 +7168,7 @@ impl IconShape for IoBatteryDeadSharp {
                 y1: "218.67",
                 y2: "293.33",
             }
+            
         }
     }
 }
@@ -6667,6 +7203,9 @@ impl IconShape for IoBatteryDead {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -6685,6 +7224,7 @@ impl IconShape for IoBatteryDead {
                 y1: "218.67",
                 y2: "293.33",
             }
+            
         }
     }
 }
@@ -6719,6 +7259,9 @@ impl IconShape for IoBatteryFullOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -6746,6 +7289,7 @@ impl IconShape for IoBatteryFullOutline {
                 y1: "218.67",
                 y2: "293.33",
             }
+            
         }
     }
 }
@@ -6780,6 +7324,9 @@ impl IconShape for IoBatteryFullSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6797,6 +7344,7 @@ impl IconShape for IoBatteryFullSharp {
                 x: "465",
                 y: "202.67",
             }
+            
         }
     }
 }
@@ -6831,6 +7379,9 @@ impl IconShape for IoBatteryFull {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -6858,6 +7409,7 @@ impl IconShape for IoBatteryFull {
                 y1: "218.67",
                 y2: "293.33",
             }
+            
         }
     }
 }
@@ -6892,6 +7444,9 @@ impl IconShape for IoBatteryHalfOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -6919,6 +7474,7 @@ impl IconShape for IoBatteryHalfOutline {
                 y1: "218.67",
                 y2: "293.33",
             }
+            
         }
     }
 }
@@ -6953,6 +7509,9 @@ impl IconShape for IoBatteryHalfSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6970,6 +7529,7 @@ impl IconShape for IoBatteryHalfSharp {
                 x: "465",
                 y: "202.67",
             }
+            
         }
     }
 }
@@ -7004,6 +7564,9 @@ impl IconShape for IoBatteryHalf {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -7031,6 +7594,7 @@ impl IconShape for IoBatteryHalf {
                 y1: "218.67",
                 y2: "293.33",
             }
+            
         }
     }
 }
@@ -7065,6 +7629,9 @@ impl IconShape for IoBeakerOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7078,6 +7645,7 @@ impl IconShape for IoBeakerOutline {
                 y1: "176",
                 y2: "176",
             }
+            
         }
     }
 }
@@ -7112,11 +7680,15 @@ impl IconShape for IoBeakerSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M453.55,54.7,464,32l-335.6,0c-27.74,0-49,6.57-63.31,19.51C54.39,61.27,48,74.89,48,88v24H64c31,0,32,16.79,32,35V460a20,20,0,0,0,20,20H428a20,20,0,0,0,20-20V96C448,78.84,450.28,61.86,453.55,54.7ZM416,96v64H128V138c0-36.15-21-51-41.77-53.46C89,70,105.7,64.05,128.4,64.05H418.32A221.83,221.83,0,0,0,416,96Z",
             }
+            
         }
     }
 }
@@ -7151,11 +7723,15 @@ impl IconShape for IoBeaker {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M444,32H128c-19.38,0-45.9,4.34-64.11,24.77C52.17,69.92,48,85.66,48,96a16,16,0,0,0,13.8,15.85C91.7,116,96,117.79,96,136V400A80.07,80.07,0,0,0,176,480H368a80.11,80.11,0,0,0,80-80V96c0-12.55,7.46-27.25,10-31.36l.1-.14c.22-.35.5-.72.78-1.1,2-2.79,5.09-7,5.09-12.95C464,39.79,454.89,32,444,32ZM84.11,83.08c5.24-8.87,17.17-19,44.29-19H422.83C419.3,72.87,416,84.27,416,96v64H128V136C128,98.68,106.65,87.86,84.11,83.08Z",
             }
+            
         }
     }
 }
@@ -7190,6 +7766,9 @@ impl IconShape for IoBedOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7212,6 +7791,7 @@ impl IconShape for IoBedOutline {
                 d: "M256,240V224a32.09,32.09,0,0,1,32-32h80a32.09,32.09,0,0,1,32,32v16",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -7246,11 +7826,15 @@ impl IconShape for IoBedSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M432,224V96a16,16,0,0,0-16-16H96A16,16,0,0,0,80,96V224a48,48,0,0,0-48,48V432H68V400H444v32h36V272A48,48,0,0,0,432,224Zm-192,0H120V192a16,16,0,0,1,16-16h88a16,16,0,0,1,16,16Zm32-32a16,16,0,0,1,16-16h88a16,16,0,0,1,16,16v32H272Z",
             }
+            
         }
     }
 }
@@ -7285,6 +7869,9 @@ impl IconShape for IoBed {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7293,6 +7880,7 @@ impl IconShape for IoBed {
             path {
                 d: "M376,80H136a56,56,0,0,0-56,56v72a4,4,0,0,0,5.11,3.84A95.5,95.5,0,0,1,112,208h4.23a4,4,0,0,0,4-3.55A32,32,0,0,1,152,176h56a32,32,0,0,1,31.8,28.45,4,4,0,0,0,4,3.55h24.46a4,4,0,0,0,4-3.55A32,32,0,0,1,304,176h56a32,32,0,0,1,31.8,28.45,4,4,0,0,0,4,3.55H400a95.51,95.51,0,0,1,26.89,3.85A4,4,0,0,0,432,208V136A56,56,0,0,0,376,80Z",
             }
+            
         }
     }
 }
@@ -7326,6 +7914,9 @@ impl IconShape for IoBeerOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7370,6 +7961,7 @@ impl IconShape for IoBeerOutline {
                 d: "M145.83,64.71C163.22,44.89,187.57,32,216,32c52.38,0,94,42.84,94,95.21A95,95,0,0,1,308.33,145",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -7404,11 +7996,15 @@ impl IconShape for IoBeerSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M448,208H368v-5.74A63.93,63.93,0,0,0,321.65,96a111,111,0,0,0-27.59-47.29A108.62,108.62,0,0,0,216,16c-29.91,0-57.78,12.28-79,34.67a56,56,0,0,0-67.51,77.51c-1,.86-1.91,1.74-2.83,2.66A63.56,63.56,0,0,0,48,176.26,62.65,62.65,0,0,0,68.77,222.8,65,65,0,0,0,80,231V480a16,16,0,0,0,16,16H352a16,16,0,0,0,16-16V432h80a16,16,0,0,0,16-16V224A16,16,0,0,0,448,208ZM176,432H144V240h32Zm64,0H208V240h32Zm64,0H272V240h32Zm16-240c-8.33,0-20.55-5.18-26.69-11.31L288.63,176H148.79L145,186.53c-5.81,16-18.83,20.41-28.73,21.29a34.08,34.08,0,0,1-25.91-8.67,31,31,0,0,1-10.32-23,31.8,31.8,0,0,1,9.33-22.71c.16-.17.33-.32.5-.49A31.78,31.78,0,0,1,112,144c.09,0,9.12.34,16.4,5.8l12.8,9.6,19.2-25.6-12.8-9.6A63.69,63.69,0,0,0,112,112a64.79,64.79,0,0,0-14,1.55A24,24,0,0,1,139.4,89.87l.23.35.4.46a35.78,35.78,0,0,1,5,8.94l5.62,15,30-11.24-5.62-15a68.2,68.2,0,0,0-10-17.74c-.38-.52-.79-1-1.19-1.51C178.38,55.45,196.64,48,216,48a76.86,76.86,0,0,1,55.23,23.18A80.2,80.2,0,0,1,292.61,142l-3,15.72,31.43,6,3-15.72A111.78,111.78,0,0,0,326,128.57,32,32,0,0,1,320,192ZM432,400H368V240h64Z",
             }
+            
         }
     }
 }
@@ -7443,11 +8039,15 @@ impl IconShape for IoBeer {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M392,208H368v-5.74A63.93,63.93,0,0,0,321.65,96a111,111,0,0,0-27.59-47.29A108.62,108.62,0,0,0,216,16c-29.91,0-57.78,12.28-79,34.68a56,56,0,0,0-67.51,77.54A63.91,63.91,0,0,0,80,231.39V440a56.06,56.06,0,0,0,56,56H312a56.06,56.06,0,0,0,56-56v-8h24a72.08,72.08,0,0,0,72-72V280A72.08,72.08,0,0,0,392,208ZM176,416a16,16,0,0,1-32,0V256a16,16,0,0,1,32,0Zm64,0a16,16,0,0,1-32,0V256a16,16,0,0,1,32,0Zm64,0a16,16,0,0,1-32,0V256a16,16,0,0,1,32,0Zm16-224c-8.33,0-20.55-5.18-26.69-11.31A16,16,0,0,0,282,176H160a16,16,0,0,0-15,10.53C138.17,205.21,121.4,208,112,208a32,32,0,0,1,0-64c.09,0,9.12.34,16.4,5.8a16,16,0,1,0,19.2-25.6A63.69,63.69,0,0,0,112,112a63.55,63.55,0,0,0-14,1.57A24,24,0,0,1,120,80a23.78,23.78,0,0,1,19.38,9.84,51.35,51.35,0,0,1,4.71,7.9A16,16,0,0,0,176,96c0-6.77-3.61-15.17-10.76-25-.46-.63-1-1.25-1.45-1.86C178.39,55.44,196.64,48,216,48a76.86,76.86,0,0,1,55.23,23.18A80.2,80.2,0,0,1,292.61,142a16,16,0,0,0,12.73,18.71,16.29,16.29,0,0,0,3,.28,16,16,0,0,0,15.7-13A111.78,111.78,0,0,0,326,128.57,32,32,0,0,1,320,192ZM432,360a40,40,0,0,1-40,40H368V240h24a40,40,0,0,1,40,40Z",
             }
+            
         }
     }
 }
@@ -7482,6 +8082,9 @@ impl IconShape for IoBicycleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7499,6 +8102,7 @@ impl IconShape for IoBicycleOutline {
             path {
                 d: "M320,136a31.89,31.89,0,0,0,32-32.1A31.55,31.55,0,0,0,320.2,72a32,32,0,1,0-.2,64Z",
             }
+            
         }
     }
 }
@@ -7533,6 +8137,9 @@ impl IconShape for IoBicycleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7547,6 +8154,7 @@ impl IconShape for IoBicycleSharp {
             path {
                 d: "M320,128a31.89,31.89,0,0,0,32-32.1A31.55,31.55,0,0,0,320.2,64a32,32,0,1,0-.2,64Z",
             }
+            
         }
     }
 }
@@ -7581,6 +8189,9 @@ impl IconShape for IoBicycle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7595,6 +8206,7 @@ impl IconShape for IoBicycle {
             path {
                 d: "M367.55,192H323.79a4,4,0,0,1-3.51-2.08l-31.74-58.17h0A31,31,0,0,0,239.16,124h0L169.3,194.4a32.56,32.56,0,0,0-9.3,22.4c0,17.4,12.6,23.6,18.5,27.1C207,260.32,227.07,272.33,238.08,279a4,4,0,0,1,1.92,3.41v69.12c0,8.61,6.62,16,15.23,16.43A16,16,0,0,0,272,352V266a16,16,0,0,0-6.66-13l-37-26.61a4,4,0,0,1-.58-6l42-44.79a4,4,0,0,1,6.42.79L298,215.77A16,16,0,0,0,312,224h56a16,16,0,0,0,16-16.77C383.58,198.62,376.16,192,367.55,192Z",
             }
+            
         }
     }
 }
@@ -7629,12 +8241,16 @@ impl IconShape for IoBluetoothOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "144 352 368 160 256 48 256 464 368 352 144 160",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -7669,11 +8285,15 @@ impl IconShape for IoBluetoothSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M397.41,161.13,236-.28v212.8L141.83,131.8l-26,30.37L225.27,256,115.8,349.83l26,30.37L236,299.48v212.8L397.41,350.87,286.73,256ZM276,96.28l62.59,62.59L276,212.52Zm62.58,256.85L276,415.72V299.48Z",
             }
+            
         }
     }
 }
@@ -7708,11 +8328,15 @@ impl IconShape for IoBluetooth {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M388,160.77a20,20,0,0,0-5.85-14.91l-112-112A20,20,0,0,0,236,48V212.52l-79-67.71a20,20,0,0,0-26,30.38L225.27,256,131,336.81a20,20,0,1,0,26,30.38l79-67.71V464a20,20,0,0,0,34.14,14.14l112-112A20,20,0,0,0,381,336.81L286.73,256,381,175.19A20,20,0,0,0,388,160.77ZM338.58,353.13,276,415.72V299.49ZM276,212.52V96.28l62.59,62.59Z",
             }
+            
         }
     }
 }
@@ -7747,6 +8371,9 @@ impl IconShape for IoBoatOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7771,6 +8398,7 @@ impl IconShape for IoBoatOutline {
                 y1: "183.6",
                 y2: "396.45",
             }
+            
         }
     }
 }
@@ -7805,6 +8433,9 @@ impl IconShape for IoBoatSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7813,6 +8444,7 @@ impl IconShape for IoBoatSharp {
             path {
                 d: "M345.22,407c-52.25,36.26-126.35,36.25-178.6,0,0,0-45.64,63-94.64,63l13.33,1c29.86,0,58.65-11.73,85.31-25.59a185.33,185.33,0,0,0,170.6,0c26.66,13.87,55.45,25.6,85.31,25.6l13.33-1C392.21,470,345.22,407,345.22,407Z",
             }
+            
         }
     }
 }
@@ -7847,6 +8479,9 @@ impl IconShape for IoBoat {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7855,6 +8490,7 @@ impl IconShape for IoBoat {
             path {
                 d: "M476.71,246.91h0c-3.49-8.39-10.9-14.89-20.9-18.35L432,219.08V136a64,64,0,0,0-64-64H336V64a40,40,0,0,0-40-40H216a40,40,0,0,0-40,40v8H144a64,64,0,0,0-64,64v83.15l-23.58,9.39c-9.94,3.3-17.63,10-21.15,18.44-2.45,5.89-5.25,15-1.3,26.46l.1.3L80.73,393.18A23.33,23.33,0,0,0,102.58,408c.5,0,1,0,1.53-.05,31.32-2,56-17.27,72.6-31.61C200.42,396.81,228.31,408,256,408s55.43-11.2,79.14-31.7c16.59,14.36,41.3,29.67,72.61,31.65a23.36,23.36,0,0,0,23.37-14.74l46.65-119C481.05,266.12,480.67,256.45,476.71,246.91ZM269,154.21l-1.14-.4a39.53,39.53,0,0,0-23.73,0l-.58.18L117.48,204.22A4,4,0,0,1,112,200.5V136a32,32,0,0,1,32-32H368a32,32,0,0,1,32,32v64.44a4,4,0,0,1-5.48,3.72Z",
             }
+            
         }
     }
 }
@@ -7889,6 +8525,9 @@ impl IconShape for IoBodyOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -7905,6 +8544,7 @@ impl IconShape for IoBodyOutline {
                 stroke_miterlimit: "10",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -7939,6 +8579,9 @@ impl IconShape for IoBodySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -7949,6 +8592,7 @@ impl IconShape for IoBodySharp {
             polygon {
                 points: "464 128 48 128 48 180 192 180 160 505.13 211 512 232.65 320 279.67 320 301 512 352 505.02 320 180 464 180 464 128",
             }
+            
         }
     }
 }
@@ -7983,6 +8627,9 @@ impl IconShape for IoBody {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -7993,6 +8640,7 @@ impl IconShape for IoBody {
             path {
                 d: "M437,128H75a27,27,0,0,0,0,54H176.88c6.91,0,15,3.09,19.58,15,5.35,13.83,2.73,40.54-.57,61.23l-4.32,24.45a.42.42,0,0,1-.12.35l-34.6,196.81A27.43,27.43,0,0,0,179,511.58a27.06,27.06,0,0,0,31.42-22.29l23.91-136.8S242,320,256,320c14.23,0,21.74,32.49,21.74,32.49l23.91,136.92a27.24,27.24,0,1,0,53.62-9.6L320.66,283a.45.45,0,0,0-.11-.35l-4.33-24.45c-3.3-20.69-5.92-47.4-.57-61.23,4.56-11.88,12.91-15,19.28-15H437a27,27,0,0,0,0-54Z",
             }
+            
         }
     }
 }
@@ -8027,6 +8675,9 @@ impl IconShape for IoBonfireOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8056,6 +8707,7 @@ impl IconShape for IoBonfireOutline {
                 d: "M352.45,178.76c8.6,14.31,15.55,30.08,15.55,48,0,52.52-42.47,93.1-94.86,93.1a94.42,94.42,0,0,1-65.14-26",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -8090,6 +8742,9 @@ impl IconShape for IoBonfireSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8116,6 +8771,7 @@ impl IconShape for IoBonfireSharp {
             path {
                 d: "M124,336H36a4,4,0,0,0-4,4v23.28a4,4,0,0,0,4.66,3.94l88-14.66a4,4,0,0,0,3.34-3.95V340A4,4,0,0,0,124,336Z",
             }
+            
         }
     }
 }
@@ -8150,6 +8806,9 @@ impl IconShape for IoBonfire {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8176,6 +8835,7 @@ impl IconShape for IoBonfire {
             path {
                 d: "M330.34,239.74c-9.33,5.92-19,11.16-29.25,16.71-28.91,15.68-56.21,30.48-68.88,56.28-.64,1.32-1.25,2.5-1.88,3.61a8,8,0,0,0,3.89,11.3c12.31,5.1,25.13,8.27,38.91,8.27a111.42,111.42,0,0,0,78.24-31.37A107.45,107.45,0,0,0,384,226.85a86.56,86.56,0,0,0-1.33-15,8,8,0,0,0-13.8-4C358.69,219.32,345.94,229.85,330.34,239.74Z",
             }
+            
         }
     }
 }
@@ -8210,6 +8870,9 @@ impl IconShape for IoBookOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8223,6 +8886,7 @@ impl IconShape for IoBookOutline {
                 y1: "160",
                 y2: "448",
             }
+            
         }
     }
 }
@@ -8257,6 +8921,9 @@ impl IconShape for IoBookSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8265,6 +8932,7 @@ impl IconShape for IoBookSharp {
             path {
                 d: "M48,48c67.61.29,117.87,9.6,154.24,25.69,27.14,12,37.76,21.08,37.76,51.84V448c-41.57-37.5-78.46-48-224-48V48Z",
             }
+            
         }
     }
 }
@@ -8299,6 +8967,9 @@ impl IconShape for IoBook {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8307,6 +8978,7 @@ impl IconShape for IoBook {
             path {
                 d: "M481.92,53.3A31.33,31.33,0,0,0,464,48h0c-67.61.3-118.11,8.71-154.24,26a143.31,143.31,0,0,0-32.31,20.78,15.93,15.93,0,0,0-5.45,12V443.91a3.93,3.93,0,0,0,6.68,2.81c25.67-25.5,70.72-46.82,185.36-46.81a32,32,0,0,0,32-32v-288A32,32,0,0,0,481.92,53.3Z",
             }
+            
         }
     }
 }
@@ -8341,12 +9013,16 @@ impl IconShape for IoBookmarkOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M352,48H160a48,48,0,0,0-48,48V464L256,336,400,464V96A48,48,0,0,0,352,48Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -8381,11 +9057,15 @@ impl IconShape for IoBookmarkSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M416,480,256,357.41,96,480V32H416Z",
             }
+            
         }
     }
 }
@@ -8420,11 +9100,15 @@ impl IconShape for IoBookmark {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M400,480a16,16,0,0,1-10.63-4L256,357.41,122.63,476A16,16,0,0,1,96,464V96a64.07,64.07,0,0,1,64-64H352a64.07,64.07,0,0,1,64,64V464a16,16,0,0,1-16,16Z",
             }
+            
         }
     }
 }
@@ -8459,6 +9143,9 @@ impl IconShape for IoBookmarksOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8469,6 +9156,7 @@ impl IconShape for IoBookmarksOutline {
                 d: "M320,96H112a48.14,48.14,0,0,0-48,48V496L216,368,368,496V144A48.14,48.14,0,0,0,320,96Z",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -8503,6 +9191,9 @@ impl IconShape for IoBookmarksSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -8511,6 +9202,7 @@ impl IconShape for IoBookmarksSharp {
             polygon {
                 points: "48 80 48 512 216 388 384 512 384 80 48 80",
             }
+            
         }
     }
 }
@@ -8545,6 +9237,9 @@ impl IconShape for IoBookmarks {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8553,6 +9248,7 @@ impl IconShape for IoBookmarks {
             path {
                 d: "M320,80H112a64,64,0,0,0-64,64V495.62A16.36,16.36,0,0,0,54.6,509a16,16,0,0,0,19.71-.71L216,388.92,357.69,508.24a16,16,0,0,0,19.6.79A16.4,16.4,0,0,0,384,495.59V144A64,64,0,0,0,320,80Z",
             }
+            
         }
     }
 }
@@ -8587,6 +9283,9 @@ impl IconShape for IoBowlingBallOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -8612,6 +9311,7 @@ impl IconShape for IoBowlingBallOutline {
                 cy: "168",
                 r: "24",
             }
+            
         }
     }
 }
@@ -8646,11 +9346,15 @@ impl IconShape for IoBowlingBallSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414.39,97.61A224,224,0,1,0,97.61,414.39,224,224,0,1,0,414.39,97.61ZM286,230a28,28,0,1,1,28-28A28,28,0,0,1,286,230Zm8-76a28,28,0,1,1,28-28A28,28,0,0,1,294,154Zm68,44a28,28,0,1,1,28-28A28,28,0,0,1,362,198Z",
             }
+            
         }
     }
 }
@@ -8685,11 +9389,15 @@ impl IconShape for IoBowlingBall {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414.39,97.61A224,224,0,1,0,97.61,414.39,224,224,0,1,0,414.39,97.61ZM288,224a24,24,0,1,1,24-24A24,24,0,0,1,288,224Zm8-72a24,24,0,1,1,24-24A24,24,0,0,1,296,152Zm64,40a24,24,0,1,1,24-24A24,24,0,0,1,360,192Z",
             }
+            
         }
     }
 }
@@ -8724,6 +9432,9 @@ impl IconShape for IoBriefcaseOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -8750,6 +9461,7 @@ impl IconShape for IoBriefcaseOutline {
                 d: "M320,240v24a8,8,0,0,1-8,8H200a8,8,0,0,1-8-8V240",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -8784,6 +9496,9 @@ impl IconShape for IoBriefcaseSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8792,6 +9507,7 @@ impl IconShape for IoBriefcaseSharp {
             path {
                 d: "M496,124a12,12,0,0,0-12-12H384V56a8,8,0,0,0-8-8H136a8,8,0,0,0-8,8v56H28a12,12,0,0,0-12,12V224H496ZM344,112H168V88H344Z",
             }
+            
         }
     }
 }
@@ -8826,6 +9542,9 @@ impl IconShape for IoBriefcase {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8838,6 +9557,7 @@ impl IconShape for IoBriefcase {
             path {
                 d: "M336,264a24,24,0,0,1-24,24H200a24,24,0,0,1-24-24v-4a4,4,0,0,0-4-4H16V400a64,64,0,0,0,64,64H432a64,64,0,0,0,64-64V256H340a4,4,0,0,0-4,4Z",
             }
+            
         }
     }
 }
@@ -8872,6 +9592,9 @@ impl IconShape for IoBrowsersOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -8886,6 +9609,7 @@ impl IconShape for IoBrowsersOutline {
             path {
                 d: "M397.82,64H114.18C77.69,64,48,94.15,48,131.2V176H64c0-16,16-32,32-32H416c16,0,32,16,32,32h16V131.2C464,94.15,434.31,64,397.82,64Z",
             }
+            
         }
     }
 }
@@ -8920,11 +9644,15 @@ impl IconShape for IoBrowsersSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M32,64V448a16,16,0,0,0,16,16H464a16,16,0,0,0,16-16V64a16,16,0,0,0-16-16H48A16,16,0,0,0,32,64ZM440,428H72a4,4,0,0,1-4-4V152a4,4,0,0,1,4-4H440a4,4,0,0,1,4,4V424A4,4,0,0,1,440,428Z",
             }
+            
         }
     }
 }
@@ -8959,11 +9687,15 @@ impl IconShape for IoBrowsers {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M416,48H96a64,64,0,0,0-64,64V400a64,64,0,0,0,64,64H416a64,64,0,0,0,64-64V112A64,64,0,0,0,416,48Zm24,96H72a8,8,0,0,1-8-8V112A32.09,32.09,0,0,1,96,80H416a32.09,32.09,0,0,1,32,32v24A8,8,0,0,1,440,144Z",
             }
+            
         }
     }
 }
@@ -8998,6 +9730,9 @@ impl IconShape for IoBrushOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9008,6 +9743,7 @@ impl IconShape for IoBrushOutline {
                 d: "M138,336c-29.88,0-54,24.5-54,54.86,0,23.95-20.88,36.57-36,36.57C64.56,449.74,92.82,464,120,464c39.78,0,72-32.73,72-73.14C192,360.5,167.88,336,138,336Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -9042,6 +9778,9 @@ impl IconShape for IoBrushSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9050,6 +9789,7 @@ impl IconShape for IoBrushSharp {
             path {
                 d: "M142,320c-36.52,0-66,30.63-66,68.57,0,25.43-31,45.72-44,45.72C52.24,462.17,86.78,480,120,480c48.62,0,88-40.91,88-91.43C208,350.63,178.52,320,142,320Z",
             }
+            
         }
     }
 }
@@ -9084,6 +9824,9 @@ impl IconShape for IoBrush {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9092,6 +9835,7 @@ impl IconShape for IoBrush {
             path {
                 d: "M119.89,480.11c-32.14,0-65.45-16.89-84.85-43a16,16,0,0,1,12.85-25.54c5.34,0,20-4.87,20-20.57,0-39.07,31.4-70.86,70-70.86s70,31.79,70,70.86C207.89,440.12,168.41,480.11,119.89,480.11Z",
             }
+            
         }
     }
 }
@@ -9125,6 +9869,9 @@ impl IconShape for IoBugOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9173,6 +9920,7 @@ impl IconShape for IoBugOutline {
                 d: "M179.43,143.52A49.08,49.08,0,0,1,176,127.79,80,80,0,0,1,255.79,48h.42A80,80,0,0,1,336,127.79a41.91,41.91,0,0,1-3.12,14.3",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -9207,6 +9955,9 @@ impl IconShape for IoBugSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9215,6 +9966,7 @@ impl IconShape for IoBugSharp {
             path {
                 d: "M256,32c-48.06,0-96,0-96,84,26.12-14,59.35-20,96-20,24.09,0,46.09,2.65,65.39,8,10.75,3,24.66,8.71,30.61,12C352,32,304.06,32,256,32Z",
             }
+            
         }
     }
 }
@@ -9249,6 +10001,9 @@ impl IconShape for IoBug {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9257,6 +10012,7 @@ impl IconShape for IoBug {
             path {
                 d: "M321.39,104l.32.09c13.57,3.8,25.07-10.55,18.2-22.85A95.86,95.86,0,0,0,256.21,32h-.42A95.87,95.87,0,0,0,171.6,82.13c-6.84,12.58,5.14,27,18.84,22.86,19.71-6,41.79-9.06,65.56-9.06C280.09,95.93,302.09,98.65,321.39,104Z",
             }
+            
         }
     }
 }
@@ -9291,6 +10047,9 @@ impl IconShape for IoBuildOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9302,6 +10061,7 @@ impl IconShape for IoBuildOutline {
                 cy: "416",
                 r: "16",
             }
+            
         }
     }
 }
@@ -9336,11 +10096,15 @@ impl IconShape for IoBuildSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M230,209.2,32,405.58,106.65,480,304.24,281.83c46.47,17.46,105.52,12.54,143-24.78,40.44-40.32,40.35-108,16.81-156.79l-87.33,87.06-52.32-52.13,87.33-87.06C363,24.46,294.67,24.34,254.23,64.66,216.2,102.57,211.45,162.26,230,209.2Z",
             }
+            
         }
     }
 }
@@ -9375,11 +10139,15 @@ impl IconShape for IoBuild {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M469.54,120.52h0a16,16,0,0,0-25.54-4L382.56,178a16.12,16.12,0,0,1-22.63,0L333.37,151.4a16,16,0,0,1,0-22.63l61.18-61.19a16,16,0,0,0-4.78-25.92h0C343.56,21,285.88,31.78,249.51,67.88c-30.9,30.68-40.11,78.62-25.25,131.53a15.89,15.89,0,0,1-4.49,16L53.29,367.46a64.17,64.17,0,1,0,90.6,90.64L297.57,291.25a15.9,15.9,0,0,1,15.77-4.57,179.3,179.3,0,0,0,46.22,6.37c33.4,0,62.71-10.81,83.85-31.64C482.56,222.84,488.53,157.42,469.54,120.52ZM99.48,447.15a32,32,0,1,1,28.34-28.35A32,32,0,0,1,99.48,447.15Z",
             }
+            
         }
     }
 }
@@ -9414,6 +10182,9 @@ impl IconShape for IoBulbOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9445,6 +10216,7 @@ impl IconShape for IoBulbOutline {
                 d: "M294,240s-21.51,16-38,16-38-16-38-16",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -9479,6 +10251,9 @@ impl IconShape for IoBulbSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -9496,6 +10271,7 @@ impl IconShape for IoBulbSharp {
             path {
                 d: "M369.42,62.69C339.35,32.58,299.07,16,256,16A159.62,159.62,0,0,0,96,176c0,46.62,17.87,90.23,49,119.64l4.36,4.09C167.37,316.57,192,339.64,192,360v40h48V269.11L195.72,244,214,217.72,256,240l41.29-22.39,19.1,25.68-44.39,26V400h48V360c0-19.88,24.36-42.93,42.15-59.77l4.91-4.66C399.08,265,416,223.61,416,176A159.16,159.16,0,0,0,369.42,62.69Z",
             }
+            
         }
     }
 }
@@ -9530,6 +10306,9 @@ impl IconShape for IoBulb {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9541,6 +10320,7 @@ impl IconShape for IoBulb {
             path {
                 d: "M369.42,62.69C339.35,32.58,299.07,16,256,16A159.62,159.62,0,0,0,96,176c0,46.62,17.87,90.23,49,119.64l4.36,4.09C167.37,316.57,192,339.64,192,360v24a16,16,0,0,0,16,16h24a8,8,0,0,0,8-8V274.82a8,8,0,0,0-5.13-7.47A130.73,130.73,0,0,1,208.71,253,16,16,0,1,1,227.29,227c7.4,5.24,21.65,13,28.71,13s21.31-7.78,28.73-13A16,16,0,0,1,303.29,253a130.73,130.73,0,0,1-26.16,14.32,8,8,0,0,0-5.13,7.47V392a8,8,0,0,0,8,8h24a16,16,0,0,0,16-16V360c0-19.88,24.36-42.93,42.15-59.77l4.91-4.66C399.08,265,416,223.61,416,176A159.16,159.16,0,0,0,369.42,62.69Z",
             }
+            
         }
     }
 }
@@ -9574,6 +10354,9 @@ impl IconShape for IoBusOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9640,6 +10423,7 @@ impl IconShape for IoBusOutline {
                 y1: "80",
                 y2: "368",
             }
+            
         }
     }
 }
@@ -9674,6 +10458,9 @@ impl IconShape for IoBusSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9683,6 +10470,7 @@ impl IconShape for IoBusSharp {
             path {
                 d: "M424,32H88A24,24,0,0,0,64,56V416a32,32,0,0,0,16,27.71V480h72V448H360v32h72V443.71A32,32,0,0,0,448,416V56A24,24,0,0,0,424,32ZM175.82,371.47a32,32,0,1,1-35.3-35.29A32.09,32.09,0,0,1,175.82,371.47ZM240,288H96V128H240ZM256,96H96.46L96,64H416l-.46,32H256Zm16,32H416V288H272Zm64.18,236.53a32,32,0,1,1,35.3,35.29A32.09,32.09,0,0,1,336.18,364.53Z",
             }
+            
         }
     }
 }
@@ -9717,11 +10505,15 @@ impl IconShape for IoBus {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M400,32H112A48,48,0,0,0,64,80V400a47.91,47.91,0,0,0,16,35.74V454a26,26,0,0,0,26,26h28a26,26,0,0,0,26-26v-6H352v6a26,26,0,0,0,26,26h28a26,26,0,0,0,26-26V435.74A47.91,47.91,0,0,0,448,400V80A48,48,0,0,0,400,32ZM147.47,399.82a32,32,0,1,1,28.35-28.35A32,32,0,0,1,147.47,399.82ZM236,288H112a16,16,0,0,1-16-16V144a16,16,0,0,1,16-16H236a4,4,0,0,1,4,4V284A4,4,0,0,1,236,288ZM256,96H112.46c-8.6,0-16-6.6-16.44-15.19A16,16,0,0,1,112,64H399.54c8.6,0,16,6.6,16.44,15.19A16,16,0,0,1,400,96H256Zm20,32H400a16,16,0,0,1,16,16V272a16,16,0,0,1-16,16H276a4,4,0,0,1-4-4V132A4,4,0,0,1,276,128Zm60.18,243.47a32,32,0,1,1,28.35,28.35A32,32,0,0,1,336.18,371.47Z",
             }
+            
         }
     }
 }
@@ -9755,6 +10547,9 @@ impl IconShape for IoBusinessOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9837,6 +10632,7 @@ impl IconShape for IoBusinessOutline {
             path {
                 d: "M336,240a16,16,0,1,0,16,16,16,16,0,0,0-16-16Z",
             }
+            
         }
     }
 }
@@ -9871,6 +10667,9 @@ impl IconShape for IoBusinessSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9894,6 +10693,7 @@ impl IconShape for IoBusinessSharp {
                 x: "384",
                 y: "240",
             }
+            
         }
     }
 }
@@ -9928,6 +10728,9 @@ impl IconShape for IoBusiness {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9951,6 +10754,7 @@ impl IconShape for IoBusiness {
             path {
                 d: "M336,240a16,16,0,1,0,16,16,16,16,0,0,0-16-16Z",
             }
+            
         }
     }
 }
@@ -9985,6 +10789,9 @@ impl IconShape for IoCafeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10002,6 +10809,7 @@ impl IconShape for IoCafeOutline {
                 y1: "416",
                 y2: "416",
             }
+            
         }
     }
 }
@@ -10036,6 +10844,9 @@ impl IconShape for IoCafeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10047,6 +10858,7 @@ impl IconShape for IoCafeSharp {
                 x: "48",
                 y: "400",
             }
+            
         }
     }
 }
@@ -10081,6 +10893,9 @@ impl IconShape for IoCafe {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10089,6 +10904,7 @@ impl IconShape for IoCafe {
             path {
                 d: "M400,400H64a16,16,0,0,0,0,32H400a16,16,0,0,0,0-32Z",
             }
+            
         }
     }
 }
@@ -10122,6 +10938,9 @@ impl IconShape for IoCalculatorOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10184,6 +11003,7 @@ impl IconShape for IoCalculatorOutline {
                 x: "320",
                 y: "304",
             }
+            
         }
     }
 }
@@ -10218,11 +11038,15 @@ impl IconShape for IoCalculatorSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M416,48a16,16,0,0,0-16-16H112A16,16,0,0,0,96,48V464a16,16,0,0,0,16,16H400a16,16,0,0,0,16-16ZM192,432H144V384h48Zm0-80H144V304h48Zm0-80H144V224h48Zm88,160H232V384h48Zm0-80H232V304h48Zm0-80H232V224h48Zm88,160H320V304h48Zm0-160H320V224h48Zm0-96H144V80H368Z",
             }
+            
         }
     }
 }
@@ -10257,11 +11081,15 @@ impl IconShape for IoCalculator {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M416,80a48.05,48.05,0,0,0-48-48H144A48.05,48.05,0,0,0,96,80V432a48.05,48.05,0,0,0,48,48H368a48.05,48.05,0,0,0,48-48ZM168,432a24,24,0,1,1,24-24A24,24,0,0,1,168,432Zm0-80a24,24,0,1,1,24-24A24,24,0,0,1,168,352Zm0-80a24,24,0,1,1,24-24A24,24,0,0,1,168,272Zm88,160a24,24,0,1,1,24-24A24,24,0,0,1,256,432Zm0-80a24,24,0,1,1,24-24A24,24,0,0,1,256,352Zm0-80a24,24,0,1,1,24-24A24,24,0,0,1,256,272ZM368,408a24,24,0,0,1-48,0V328a24,24,0,0,1,48,0ZM344,272a24,24,0,1,1,24-24A24,24,0,0,1,344,272Zm19.31-100.69A16,16,0,0,1,352,176H160a16,16,0,0,1-16-16V96a16,16,0,0,1,16-16H352a16,16,0,0,1,16,16v64A16,16,0,0,1,363.31,171.31Z",
             }
+            
         }
     }
 }
@@ -10295,6 +11123,9 @@ impl IconShape for IoCalendarClearOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10338,6 +11169,7 @@ impl IconShape for IoCalendarClearOutline {
                 y1: "160",
                 y2: "160",
             }
+            
         }
     }
 }
@@ -10372,6 +11204,9 @@ impl IconShape for IoCalendarClearSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10380,6 +11215,7 @@ impl IconShape for IoCalendarClearSharp {
             path {
                 d: "M480,87.77A23.8,23.8,0,0,0,456,64H400.08V32h-48V64H159.92V32h-48V64H56A23.8,23.8,0,0,0,32,87.77V144H480Z",
             }
+            
         }
     }
 }
@@ -10414,6 +11250,9 @@ impl IconShape for IoCalendarClear {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10422,6 +11261,7 @@ impl IconShape for IoCalendarClear {
             path {
                 d: "M32,416a64,64,0,0,0,64,64H416a64,64,0,0,0,64-64V180a4,4,0,0,0-4-4H36a4,4,0,0,0-4,4Z",
             }
+            
         }
     }
 }
@@ -10455,6 +11295,9 @@ impl IconShape for IoCalendarNumberOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10519,6 +11362,7 @@ impl IconShape for IoCalendarNumberOutline {
                 stroke_linejoin: "round",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -10553,6 +11397,9 @@ impl IconShape for IoCalendarNumberSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10561,6 +11408,7 @@ impl IconShape for IoCalendarNumberSharp {
             path {
                 d: "M456,64H400.08V32h-48V64H159.92V32h-48V64H56A23.8,23.8,0,0,0,32,87.77V144H480V87.77A23.8,23.8,0,0,0,456,64Z",
             }
+            
         }
     }
 }
@@ -10595,6 +11443,9 @@ impl IconShape for IoCalendarNumber {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10603,6 +11454,7 @@ impl IconShape for IoCalendarNumber {
             path {
                 d: "M476,176H36a4,4,0,0,0-4,4V416a64,64,0,0,0,64,64H416a64,64,0,0,0,64-64V180A4,4,0,0,0,476,176ZM239.58,401.1c-12.17,9.61-28.75,14.9-46.7,14.9-27.87,0-48.48-18.16-57.66-33.7A16,16,0,0,1,162.78,366c1.08,1.84,11.15,18,30.1,18,16.66,0,36.12-7.29,36.12-27.82,0-6.25-1.22-14.95-7-20.88-8.54-8.74-22.75-12.67-30.11-12.67a16,16,0,0,1,0-32c4.85,0,17.41-2.6,25.28-10.65a22,22,0,0,0,6.57-16.08c0-23.23-28.63-23.9-31.89-23.9-17.34,0-23.8,10.61-24.07,11.06a16,16,0,1,1-27.55-16.26c7.64-13,25.22-26.8,51.62-26.8,16.44,0,31.76,4.77,43.13,13.42,13.39,10.2,20.76,25.28,20.76,42.48A54,54,0,0,1,240,302.35c-1.15,1.18-2.36,2.28-3.59,3.35a66.18,66.18,0,0,1,8.42,7.23c10.56,10.8,16.14,25.75,16.14,43.25C261,374.24,253.39,390.19,239.58,401.1ZM368,396a16,16,0,0,1-32,0V256.29l-22.51,16.59a16,16,0,1,1-19-25.76l43.42-32a16,16,0,0,1,9.49-3.12H352a16,16,0,0,1,16,16Z",
             }
+            
         }
     }
 }
@@ -10636,6 +11488,9 @@ impl IconShape for IoCalendarOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10723,6 +11578,7 @@ impl IconShape for IoCalendarOutline {
                 y1: "160",
                 y2: "160",
             }
+            
         }
     }
 }
@@ -10757,6 +11613,9 @@ impl IconShape for IoCalendarSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10765,6 +11624,7 @@ impl IconShape for IoCalendarSharp {
             path {
                 d: "M456,64H400.08V32h-48V64H159.92V32h-48V64H56A23.8,23.8,0,0,0,32,87.77V144H480V87.77A23.8,23.8,0,0,0,456,64Z",
             }
+            
         }
     }
 }
@@ -10799,6 +11659,9 @@ impl IconShape for IoCalendar {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10807,6 +11670,7 @@ impl IconShape for IoCalendar {
             path {
                 d: "M32,416a64,64,0,0,0,64,64H416a64,64,0,0,0,64-64V179a3,3,0,0,0-3-3H35a3,3,0,0,0-3,3ZM376,208a24,24,0,1,1-24,24A24,24,0,0,1,376,208Zm0,80a24,24,0,1,1-24,24A24,24,0,0,1,376,288Zm-80-80a24,24,0,1,1-24,24A24,24,0,0,1,296,208Zm0,80a24,24,0,1,1-24,24A24,24,0,0,1,296,288Zm0,80a24,24,0,1,1-24,24A24,24,0,0,1,296,368Zm-80-80a24,24,0,1,1-24,24A24,24,0,0,1,216,288Zm0,80a24,24,0,1,1-24,24A24,24,0,0,1,216,368Zm-80-80a24,24,0,1,1-24,24A24,24,0,0,1,136,288Zm0,80a24,24,0,1,1-24,24A24,24,0,0,1,136,368Z",
             }
+            
         }
     }
 }
@@ -10841,12 +11705,16 @@ impl IconShape for IoCallOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M451,374c-15.88-16-54.34-39.35-73-48.76C353.7,313,351.7,312,332.6,326.19c-12.74,9.47-21.21,17.93-36.12,14.75s-47.31-21.11-75.68-49.39-47.34-61.62-50.53-76.48,5.41-23.23,14.79-36c13.22-18,12.22-21,.92-45.3-8.81-18.9-32.84-57-48.9-72.8C119.9,44,119.9,47,108.83,51.6A160.15,160.15,0,0,0,83,65.37C67,76,58.12,84.83,51.91,98.1s-9,44.38,23.07,102.64,54.57,88.05,101.14,134.49S258.5,406.64,310.85,436c64.76,36.27,89.6,29.2,102.91,23s22.18-15,32.83-31a159.09,159.09,0,0,0,13.8-25.8C465,391.17,468,391.17,451,374Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -10881,11 +11749,15 @@ impl IconShape for IoCallSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M478.94,370.14c-5.22-5.56-23.65-22-57.53-43.75-34.13-21.94-59.3-35.62-66.52-38.81a3.83,3.83,0,0,0-3.92.49c-11.63,9.07-31.21,25.73-32.26,26.63-6.78,5.81-6.78,5.81-12.33,4-9.76-3.2-40.08-19.3-66.5-45.78s-43.35-57.55-46.55-67.3c-1.83-5.56-1.83-5.56,4-12.34.9-1.05,17.57-20.63,26.64-32.25a3.83,3.83,0,0,0,.49-3.92c-3.19-7.23-16.87-32.39-38.81-66.52-21.78-33.87-38.2-52.3-43.76-57.52A3.9,3.9,0,0,0,138,32.2,322.35,322.35,0,0,0,82,57.65,338,338,0,0,0,33.35,92a3.83,3.83,0,0,0-1.26,3.74c2.09,9.74,12.08,50.4,43.08,106.72,31.63,57.48,53.55,86.93,100,133.22S252,405.21,309.54,436.84c56.32,31,97,41,106.72,43.07a3.86,3.86,0,0,0,3.75-1.26A337.73,337.73,0,0,0,454.35,430a322.7,322.7,0,0,0,25.45-56A3.9,3.9,0,0,0,478.94,370.14Z",
             }
+            
         }
     }
 }
@@ -10920,11 +11792,15 @@ impl IconShape for IoCall {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M391,480c-19.52,0-46.94-7.06-88-30-49.93-28-88.55-53.85-138.21-103.38C116.91,298.77,93.61,267.79,61,208.45c-36.84-67-30.56-102.12-23.54-117.13C45.82,73.38,58.16,62.65,74.11,52A176.3,176.3,0,0,1,102.75,36.8c1-.43,1.93-.84,2.76-1.21,4.95-2.23,12.45-5.6,21.95-2,6.34,2.38,12,7.25,20.86,16,18.17,17.92,43,57.83,52.16,77.43,6.15,13.21,10.22,21.93,10.23,31.71,0,11.45-5.76,20.28-12.75,29.81-1.31,1.79-2.61,3.5-3.87,5.16-7.61,10-9.28,12.89-8.18,18.05,2.23,10.37,18.86,41.24,46.19,68.51s57.31,42.85,67.72,45.07c5.38,1.15,8.33-.59,18.65-8.47,1.48-1.13,3-2.3,4.59-3.47,10.66-7.93,19.08-13.54,30.26-13.54h.06c9.73,0,18.06,4.22,31.86,11.18,18,9.08,59.11,33.59,77.14,51.78,8.77,8.84,13.66,14.48,16.05,20.81,3.6,9.53.21,17-2,22-.37.83-.78,1.74-1.21,2.75a176.49,176.49,0,0,1-15.29,28.58c-10.63,15.9-21.4,28.21-39.38,36.58A67.42,67.42,0,0,1,391,480Z",
             }
+            
         }
     }
 }
@@ -10959,6 +11835,9 @@ impl IconShape for IoCameraOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10975,6 +11854,7 @@ impl IconShape for IoCameraOutline {
                 points: "124 158 124 136 100 136 100 158",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -11009,6 +11889,9 @@ impl IconShape for IoCameraReverseOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -11031,6 +11914,7 @@ impl IconShape for IoCameraReverseOutline {
                 points: "356 272 336 292 316 272",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -11065,11 +11949,15 @@ impl IconShape for IoCameraReverseSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M456,144H373c-3,0-6.72-1.94-9.62-5L336.07,96.21C326,80,320,80,302,80H210c-18,0-23,0-34.07,16.21L148.62,139c-2.22,2.42-5.34,5-8.62,5V128a8,8,0,0,0-8-8H92a8,8,0,0,0-8,8v16H56a24,24,0,0,0-24,24V408a24,24,0,0,0,24,24H456a24,24,0,0,0,24-24V168A24,24,0,0,0,456,144ZM256,368c-47.82,0-87.76-34.23-95-80H117.37L176,229.37,234.63,288H194a64.07,64.07,0,0,0,102.63,33.49L320,343l-3.68,3.72A96.64,96.64,0,0,1,256,368Zm80-53.84L277.11,256H318a64.26,64.26,0,0,0-103-33.36L192,200l3.14-2.45A96.19,96.19,0,0,1,255.76,176c47.85,0,87,34.19,94.24,80h44.92Z",
             }
+            
         }
     }
 }
@@ -11104,11 +11992,15 @@ impl IconShape for IoCameraReverse {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M432,144H373c-3,0-6.72-1.94-9.62-5L337.44,98.06a15.52,15.52,0,0,0-1.37-1.85C327.11,85.76,315,80,302,80H210c-13,0-25.11,5.76-34.07,16.21a15.52,15.52,0,0,0-1.37,1.85l-25.94,41c-2.22,2.42-5.34,5-8.62,5v-8a16,16,0,0,0-16-16H100a16,16,0,0,0-16,16v8H80a48.05,48.05,0,0,0-48,48V384a48.05,48.05,0,0,0,48,48H432a48.05,48.05,0,0,0,48-48V192A48.05,48.05,0,0,0,432,144ZM316.84,346.3a96.06,96.06,0,0,1-155.66-59.18,16,16,0,0,1-16.49-26.43l20-20a16,16,0,0,1,22.62,0l20,20A16,16,0,0,1,196,288a17.31,17.31,0,0,1-2-.14,64.07,64.07,0,0,0,102.66,33.63,16,16,0,1,1,20.21,24.81Zm50.47-63-20,20a16,16,0,0,1-22.62,0l-20-20a16,16,0,0,1,13.09-27.2A64,64,0,0,0,215,222.64,16,16,0,1,1,194.61,198a96,96,0,0,1,156,59,16,16,0,0,1,16.72,26.35Z",
             }
+            
         }
     }
 }
@@ -11143,6 +12035,9 @@ impl IconShape for IoCameraSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -11153,6 +12048,7 @@ impl IconShape for IoCameraSharp {
             path {
                 d: "M456,144H373c-3,0-6.72-1.94-9.62-5l-27.28-42.8C325,80,320,80,302,80H210c-18,0-24,0-34.07,16.21L148.62,139c-2.22,2.42-5.34,5-8.62,5V128a8,8,0,0,0-8-8H92a8,8,0,0,0-8,8v16H56a24,24,0,0,0-24,24V408a24,24,0,0,0,24,24H456a24,24,0,0,0,24-24V168A24,24,0,0,0,456,144ZM260.51,367.9a96,96,0,1,1,91.39-91.39A96.11,96.11,0,0,1,260.51,367.9Z",
             }
+            
         }
     }
 }
@@ -11187,6 +12083,9 @@ impl IconShape for IoCamera {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -11197,6 +12096,7 @@ impl IconShape for IoCamera {
             path {
                 d: "M432,144H373c-3,0-6.72-1.94-9.62-5L337.44,98.06a15.52,15.52,0,0,0-1.37-1.85C327.11,85.76,315,80,302,80H210c-13,0-25.11,5.76-34.07,16.21a15.52,15.52,0,0,0-1.37,1.85l-25.94,41c-2.22,2.42-5.34,5-8.62,5v-8a16,16,0,0,0-16-16H100a16,16,0,0,0-16,16v8H80a48.05,48.05,0,0,0-48,48V384a48.05,48.05,0,0,0,48,48H432a48.05,48.05,0,0,0,48-48V192A48.05,48.05,0,0,0,432,144ZM256,368a96,96,0,1,1,96-96A96.11,96.11,0,0,1,256,368Z",
             }
+            
         }
     }
 }
@@ -11231,6 +12131,9 @@ impl IconShape for IoCarOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -11264,6 +12167,7 @@ impl IconShape for IoCarOutline {
                 r: "16",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -11298,11 +12202,15 @@ impl IconShape for IoCarSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M447.68,220.78a16.44,16.44,0,0,0-1-3.1l-48-112A16,16,0,0,0,384,96H128a16,16,0,0,0-14.71,9.7l-48,112a16.44,16.44,0,0,0-1,3.1A16.15,16.15,0,0,0,64,224V408a8,8,0,0,0,8,8h32a8,8,0,0,0,8-8V384H400v24a8,8,0,0,0,8,8h32a8,8,0,0,0,8-8V224A16.15,16.15,0,0,0,447.68,220.78ZM144,320a32,32,0,1,1,32-32A32,32,0,0,1,144,320Zm224,0a32,32,0,1,1,32-32A32,32,0,0,1,368,320ZM104.26,208l34.29-80h234.9l34.29,80Z",
             }
+            
         }
     }
 }
@@ -11336,6 +12244,9 @@ impl IconShape for IoCarSportOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11384,6 +12295,7 @@ impl IconShape for IoCarSportOutline {
                 d: "M78,211s46.35-12,178-12,178,12,178,12",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -11418,11 +12330,15 @@ impl IconShape for IoCarSportSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M488,224c-3-5-32.61-17.79-32.61-17.79,5.15-2.66,8.67-3.21,8.67-14.21,0-12-.06-16-8.06-16H428.86c-.11-.24-.23-.49-.34-.74-17.52-38.26-19.87-47.93-46-60.95C347.47,96.88,281.76,96,256,96s-91.47.88-126.49,18.31c-26.16,13-25.51,19.69-46,60.95,0,.11-.21.4-.4.74H55.94c-7.94,0-8,4-8,16,0,11,3.52,11.55,8.67,14.21C56.61,206.21,28,220,24,224s-8,32-8,80,4,96,4,96H31.94c0,14,2.06,16,8.06,16h80c6,0,8-2,8-16H384c0,14,2,16,8,16h82c4,0,6-3,6-16h12s4-49,4-96S491,229,488,224ZM125.26,268.94A516.94,516.94,0,0,1,70.42,272C50,272,49.3,273.31,47.86,260.56a72.16,72.16,0,0,1,.51-17.51L49,240h3c12,0,23.27.51,44.55,6.78a98,98,0,0,1,30.09,15.06C131,265,132,268,132,268Zm247.16,72L368,352H144s.39-.61-5-11.18c-4-7.82,1-12.82,8.91-15.66C163.23,319.64,208,304,256,304s93.66,13.48,108.5,21.16C370,328,376.83,330,372.42,341Zm-257-136.53a96.23,96.23,0,0,1-9.7.07c2.61-4.64,4.06-9.81,6.61-15.21,8-17,17.15-36.24,33.44-44.35,23.54-11.72,72.33-17,110.23-17s86.69,5.24,110.23,17c16.29,8.11,25.4,27.36,33.44,44.35,2.57,5.45,4,10.66,6.68,15.33-2,.11-4.3,0-9.79-.19Zm347.72,56.11C461,273,463,272,441.58,272a516.94,516.94,0,0,1-54.84-3.06c-2.85-.51-3.66-5.32-1.38-7.1a93.84,93.84,0,0,1,30.09-15.06c21.28-6.27,33.26-7.11,45.09-6.69a3.22,3.22,0,0,1,3.09,3A70.18,70.18,0,0,1,463.14,260.56Z",
             }
+            
         }
     }
 }
@@ -11457,11 +12373,15 @@ impl IconShape for IoCarSport {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M494.26,276.22c-3.6-40.41-9.53-48.28-11.77-51.24-5.15-6.84-13.39-11.31-22.11-16l0,0a3.6,3.6,0,0,1-.91-5.68A15.93,15.93,0,0,0,464,190.77,16.27,16.27,0,0,0,447.65,176h-15.6a17,17,0,0,0-2,.13,8.5,8.5,0,0,0-1.41-.47l0,0c-9.24-19.53-21.89-46.27-48.11-59.32C341.64,97,270,96,256,96s-85.64,1-124.48,20.31c-26.22,13.05-38.87,39.79-48.11,59.32l-.08.16a6.52,6.52,0,0,0-1.35.34,17,17,0,0,0-2-.13H64.35A16.27,16.27,0,0,0,48,190.77a15.93,15.93,0,0,0,4.59,12.47,3.6,3.6,0,0,1-.91,5.68l0,0c-8.72,4.72-17,9.19-22.11,16-2.24,3-8.16,10.83-11.77,51.24-2,22.74-2.3,46.28-.73,61.44,3.29,31.5,9.46,50.54,9.72,51.33a16,16,0,0,0,13.2,10.87h0V400a16,16,0,0,0,16,16h56a16,16,0,0,0,16-16h0c8.61,0,14.6-1.54,20.95-3.18a158.83,158.83,0,0,1,28-4.91C207.45,389,237.79,388,256,388c17.84,0,49.52,1,80.08,3.91a159.16,159.16,0,0,1,28.11,4.93c6.08,1.56,11.85,3,19.84,3.15h0a16,16,0,0,0,16,16h56a16,16,0,0,0,16-16v-.12h0A16,16,0,0,0,485.27,389c.26-.79,6.43-19.83,9.72-51.33C496.56,322.5,496.28,299,494.26,276.22ZM112.33,189.31c8-17,17.15-36.24,33.44-44.35,23.54-11.72,72.33-17,110.23-17s86.69,5.24,110.23,17c16.29,8.11,25.4,27.36,33.44,44.35l1,2.17a8,8,0,0,1-7.44,11.42C360,202,290,199.12,256,199.12s-104,2.95-137.28,3.85a8,8,0,0,1-7.44-11.42C111.63,190.81,112,190.06,112.33,189.31Zm11.93,79.63A427.17,427.17,0,0,1,72.42,272c-10.6,0-21.53-3-23.56-12.44-1.39-6.35-1.24-9.92-.49-13.51C49,243,50,240.78,55,240c13-2,20.27.51,41.55,6.78,14.11,4.15,24.29,9.68,30.09,14.06C129.55,263,128,268.64,124.26,268.94Zm221.38,82c-13.16,1.5-39.48.95-89.34.95s-76.17.55-89.33-.95c-13.58-1.51-30.89-14.35-19.07-25.79,7.87-7.54,26.23-13.18,50.68-16.35S233.38,304,256.2,304s32.12,1,57.62,4.81,44.77,9.52,50.68,16.35C375.28,337.4,359.21,349.35,345.64,351Zm117.5-91.39c-2,9.48-13,12.44-23.56,12.44a455.91,455.91,0,0,1-52.84-3.06c-3.06-.29-4.48-5.66-1.38-8.1,5.71-4.49,16-9.91,30.09-14.06,21.28-6.27,33.55-8.78,44.09-6.69,2.57.51,3.93,3.27,4.09,5A40.64,40.64,0,0,1,463.14,259.56Z",
             }
+            
         }
     }
 }
@@ -11496,11 +12416,15 @@ impl IconShape for IoCar {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M447.68,220.78a16,16,0,0,0-1-3.08l-37.78-88.16C400.19,109.17,379,96,354.89,96H157.11c-24.09,0-45.3,13.17-54,33.54L65.29,217.7A15.72,15.72,0,0,0,64,224V400a16,16,0,0,0,16,16h32a16,16,0,0,0,16-16V384H384v16a16,16,0,0,0,16,16h32a16,16,0,0,0,16-16V224A16.15,16.15,0,0,0,447.68,220.78ZM144,320a32,32,0,1,1,32-32A32,32,0,0,1,144,320Zm224,0a32,32,0,1,1,32-32A32,32,0,0,1,368,320ZM104.26,208l28.23-65.85C136.11,133.69,146,128,157.11,128H354.89c11.1,0,21,5.69,24.62,14.15L407.74,208Z",
             }
+            
         }
     }
 }
@@ -11535,6 +12459,9 @@ impl IconShape for IoCardOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -11560,6 +12487,7 @@ impl IconShape for IoCardOutline {
                 x: "128",
                 y: "300",
             }
+            
         }
     }
 }
@@ -11594,6 +12522,9 @@ impl IconShape for IoCardSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -11602,6 +12533,7 @@ impl IconShape for IoCardSharp {
             path {
                 d: "M464,80H48A16,16,0,0,0,32,96v66H480V96A16,16,0,0,0,464,80Z",
             }
+            
         }
     }
 }
@@ -11636,6 +12568,9 @@ impl IconShape for IoCard {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -11644,6 +12579,7 @@ impl IconShape for IoCard {
             path {
                 d: "M424,80H88a56,56,0,0,0-56,56v26H480V136A56,56,0,0,0,424,80Z",
             }
+            
         }
     }
 }
@@ -11678,6 +12614,9 @@ impl IconShape for IoCaretBackCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -11687,6 +12626,7 @@ impl IconShape for IoCaretBackCircleOutline {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -11721,11 +12661,15 @@ impl IconShape for IoCaretBackCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M48,256c0,114.87,93.13,208,208,208s208-93.13,208-208S370.87,48,256,48,48,141.13,48,256ZM300,364.27,169.91,256,300,147.73Z",
             }
+            
         }
     }
 }
@@ -11760,11 +12704,15 @@ impl IconShape for IoCaretBackCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M48,256c0,114.87,93.13,208,208,208s208-93.13,208-208S370.87,48,256,48,48,141.13,48,256Zm252-74.14V330.14a16,16,0,0,1-26.23,12.29L184.68,268.3a16,16,0,0,1,0-24.6l89.09-74.13A16,16,0,0,1,300,181.86Z",
             }
+            
         }
     }
 }
@@ -11799,11 +12747,15 @@ impl IconShape for IoCaretBackOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M321.94,98,158.82,237.78a24,24,0,0,0,0,36.44L321.94,414c15.57,13.34,39.62,2.28,39.62-18.22V116.18C361.56,95.68,337.51,84.62,321.94,98Z",
             }
+            
         }
     }
 }
@@ -11838,11 +12790,15 @@ impl IconShape for IoCaretBackSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "368 64 144 256 368 448 368 64",
             }
+            
         }
     }
 }
@@ -11877,11 +12833,15 @@ impl IconShape for IoCaretBack {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M321.94,98,158.82,237.78a24,24,0,0,0,0,36.44L321.94,414c15.57,13.34,39.62,2.28,39.62-18.22V116.18C361.56,95.68,337.51,84.62,321.94,98Z",
             }
+            
         }
     }
 }
@@ -11916,6 +12876,9 @@ impl IconShape for IoCaretDownCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -11925,6 +12888,7 @@ impl IconShape for IoCaretDownCircleOutline {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -11959,11 +12923,15 @@ impl IconShape for IoCaretDownCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,256c0-114.87-93.13-208-208-208S48,141.13,48,256s93.13,208,208,208S464,370.87,464,256Zm-99.73-44L256,342.09,147.73,212Z",
             }
+            
         }
     }
 }
@@ -11998,11 +12966,15 @@ impl IconShape for IoCaretDownCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,256c0-114.87-93.13-208-208-208S48,141.13,48,256s93.13,208,208,208S464,370.87,464,256ZM342.43,238.23,268.3,327.32a16,16,0,0,1-24.6,0l-74.13-89.09A16,16,0,0,1,181.86,212H330.14A16,16,0,0,1,342.43,238.23Z",
             }
+            
         }
     }
 }
@@ -12037,11 +13009,15 @@ impl IconShape for IoCaretDownOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M98,190.06,237.78,353.18a24,24,0,0,0,36.44,0L414,190.06c13.34-15.57,2.28-39.62-18.22-39.62H116.18C95.68,150.44,84.62,174.49,98,190.06Z",
             }
+            
         }
     }
 }
@@ -12076,11 +13052,15 @@ impl IconShape for IoCaretDownSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "64 144 256 368 448 144 64 144",
             }
+            
         }
     }
 }
@@ -12115,11 +13095,15 @@ impl IconShape for IoCaretDown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M98,190.06,237.78,353.18a24,24,0,0,0,36.44,0L414,190.06c13.34-15.57,2.28-39.62-18.22-39.62H116.18C95.68,150.44,84.62,174.49,98,190.06Z",
             }
+            
         }
     }
 }
@@ -12154,6 +13138,9 @@ impl IconShape for IoCaretForwardCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -12163,6 +13150,7 @@ impl IconShape for IoCaretForwardCircleOutline {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -12197,11 +13185,15 @@ impl IconShape for IoCaretForwardCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,256c0-114.87-93.13-208-208-208S48,141.13,48,256s93.13,208,208,208S464,370.87,464,256ZM212,147.73,342.09,256,212,364.27Z",
             }
+            
         }
     }
 }
@@ -12236,11 +13228,15 @@ impl IconShape for IoCaretForwardCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,256c0-114.87-93.13-208-208-208S48,141.13,48,256s93.13,208,208,208S464,370.87,464,256ZM212,330.14V181.86a16,16,0,0,1,26.23-12.29l89.09,74.13a16,16,0,0,1,0,24.6l-89.09,74.13A16,16,0,0,1,212,330.14Z",
             }
+            
         }
     }
 }
@@ -12275,11 +13271,15 @@ impl IconShape for IoCaretForwardOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M190.06,414,353.18,274.22a24,24,0,0,0,0-36.44L190.06,98c-15.57-13.34-39.62-2.28-39.62,18.22V395.82C150.44,416.32,174.49,427.38,190.06,414Z",
             }
+            
         }
     }
 }
@@ -12314,11 +13314,15 @@ impl IconShape for IoCaretForwardSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "144 448 368 256 144 64 144 448",
             }
+            
         }
     }
 }
@@ -12353,11 +13357,15 @@ impl IconShape for IoCaretForward {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M190.06,414,353.18,274.22a24,24,0,0,0,0-36.44L190.06,98c-15.57-13.34-39.62-2.28-39.62,18.22V395.82C150.44,416.32,174.49,427.38,190.06,414Z",
             }
+            
         }
     }
 }
@@ -12392,6 +13400,9 @@ impl IconShape for IoCaretUpCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -12401,6 +13412,7 @@ impl IconShape for IoCaretUpCircleOutline {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -12435,11 +13447,15 @@ impl IconShape for IoCaretUpCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48ZM147.73,300,256,169.91,364.27,300Z",
             }
+            
         }
     }
 }
@@ -12474,11 +13490,15 @@ impl IconShape for IoCaretUpCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48Zm74.14,252H181.86a16,16,0,0,1-12.29-26.23l74.13-89.09a16,16,0,0,1,24.6,0l74.13,89.09A16,16,0,0,1,330.14,300Z",
             }
+            
         }
     }
 }
@@ -12513,11 +13533,15 @@ impl IconShape for IoCaretUpOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414,321.94,274.22,158.82a24,24,0,0,0-36.44,0L98,321.94c-13.34,15.57-2.28,39.62,18.22,39.62H395.82C416.32,361.56,427.38,337.51,414,321.94Z",
             }
+            
         }
     }
 }
@@ -12552,11 +13576,15 @@ impl IconShape for IoCaretUpSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "448 368 256 144 64 368 448 368",
             }
+            
         }
     }
 }
@@ -12591,11 +13619,15 @@ impl IconShape for IoCaretUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414,321.94,274.22,158.82a24,24,0,0,0-36.44,0L98,321.94c-13.34,15.57-2.28,39.62,18.22,39.62H395.82C416.32,361.56,427.38,337.51,414,321.94Z",
             }
+            
         }
     }
 }
@@ -12630,6 +13662,9 @@ impl IconShape for IoCartOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -12652,6 +13687,7 @@ impl IconShape for IoCartOutline {
                 d: "M160,288H409.44a8,8,0,0,0,7.85-6.43l28.8-144a8,8,0,0,0-7.85-9.57H128",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -12686,6 +13722,9 @@ impl IconShape for IoCartSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -12701,6 +13740,7 @@ impl IconShape for IoCartSharp {
             polygon {
                 points: "167.78 304 429.12 304 467.52 112 133.89 112 125.42 64 32 64 32 96 98.58 96 146.58 368 432 368 432 336 173.42 336 167.78 304",
             }
+            
         }
     }
 }
@@ -12735,6 +13775,9 @@ impl IconShape for IoCart {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -12750,6 +13793,7 @@ impl IconShape for IoCart {
             path {
                 d: "M456.8,120.78A23.92,23.92,0,0,0,438.24,112H133.89l-6.13-34.78A16,16,0,0,0,112,64H48a16,16,0,0,0,0,32H98.58l45.66,258.78A16,16,0,0,0,160,368H416a16,16,0,0,0,0-32H173.42l-5.64-32H409.44A24.07,24.07,0,0,0,433,284.71l28.8-144A24,24,0,0,0,456.8,120.78Z",
             }
+            
         }
     }
 }
@@ -12783,6 +13827,9 @@ impl IconShape for IoCashOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12832,6 +13879,7 @@ impl IconShape for IoCashOutline {
                 d: "M32,256a80,80,0,0,1,80,80",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -12865,6 +13913,9 @@ impl IconShape for IoCashSharp {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12900,6 +13951,7 @@ impl IconShape for IoCashSharp {
                 cy: "208",
                 r: "64",
             }
+            
         }
     }
 }
@@ -12934,6 +13986,9 @@ impl IconShape for IoCash {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -12962,6 +14017,7 @@ impl IconShape for IoCash {
             path {
                 d: "M96,80V64H48A32,32,0,0,0,16,96v48H32A64.07,64.07,0,0,0,96,80Z",
             }
+            
         }
     }
 }
@@ -12995,6 +14051,9 @@ impl IconShape for IoCellularOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -13034,6 +14093,7 @@ impl IconShape for IoCellularOutline {
                 x: "32",
                 y: "304",
             }
+            
         }
     }
 }
@@ -13068,6 +14128,9 @@ impl IconShape for IoCellularSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -13082,6 +14145,7 @@ impl IconShape for IoCellularSharp {
             path {
                 d: "M112,432H16V288h96Z",
             }
+            
         }
     }
 }
@@ -13116,6 +14180,9 @@ impl IconShape for IoCellular {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -13130,6 +14197,7 @@ impl IconShape for IoCellular {
             path {
                 d: "M88,432H40a24,24,0,0,1-24-24V312a24,24,0,0,1,24-24H88a24,24,0,0,1,24,24v96A24,24,0,0,1,88,432Z",
             }
+            
         }
     }
 }
@@ -13164,6 +14232,9 @@ impl IconShape for IoChatboxEllipsesOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -13185,6 +14256,7 @@ impl IconShape for IoChatboxEllipsesOutline {
                 cy: "216",
                 r: "32",
             }
+            
         }
     }
 }
@@ -13219,11 +14291,15 @@ impl IconShape for IoChatboxEllipsesSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M456,48H56A24,24,0,0,0,32,72V360a24,24,0,0,0,24,24h72v80l117.74-80H456a24,24,0,0,0,24-24V72A24,24,0,0,0,456,48ZM160,248a32,32,0,1,1,32-32A32,32,0,0,1,160,248Zm96,0a32,32,0,1,1,32-32A32,32,0,0,1,256,248Zm96,0a32,32,0,1,1,32-32A32,32,0,0,1,352,248ZM456,80h0Z",
             }
+            
         }
     }
 }
@@ -13258,11 +14334,15 @@ impl IconShape for IoChatboxEllipses {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M408,48H104a72.08,72.08,0,0,0-72,72V312a72.08,72.08,0,0,0,72,72h24v64a16,16,0,0,0,26.25,12.29L245.74,384H408a72.08,72.08,0,0,0,72-72V120A72.08,72.08,0,0,0,408,48ZM160,248a32,32,0,1,1,32-32A32,32,0,0,1,160,248Zm96,0a32,32,0,1,1,32-32A32,32,0,0,1,256,248Zm96,0a32,32,0,1,1,32-32A32,32,0,0,1,352,248Z",
             }
+            
         }
     }
 }
@@ -13297,12 +14377,16 @@ impl IconShape for IoChatboxOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M408,64H104a56.16,56.16,0,0,0-56,56V312a56.16,56.16,0,0,0,56,56h40v80l93.72-78.14a8,8,0,0,1,5.13-1.86H408a56.16,56.16,0,0,0,56-56V120A56.16,56.16,0,0,0,408,64Z",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -13337,11 +14421,15 @@ impl IconShape for IoChatboxSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M128,464V384H56a24,24,0,0,1-24-24V72A24,24,0,0,1,56,48H456a24,24,0,0,1,24,24V360a24,24,0,0,1-24,24H245.74ZM456,80h0Z",
             }
+            
         }
     }
 }
@@ -13376,11 +14464,15 @@ impl IconShape for IoChatbox {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M144,464a16,16,0,0,1-16-16V384H104a72.08,72.08,0,0,1-72-72V120a72.08,72.08,0,0,1,72-72H408a72.08,72.08,0,0,1,72,72V312a72.08,72.08,0,0,1-72,72H245.74l-91.49,76.29A16.05,16.05,0,0,1,144,464Z",
             }
+            
         }
     }
 }
@@ -13415,6 +14507,9 @@ impl IconShape for IoChatbubbleEllipsesOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -13436,6 +14531,7 @@ impl IconShape for IoChatbubbleEllipsesOutline {
                 cy: "256",
                 r: "32",
             }
+            
         }
     }
 }
@@ -13470,11 +14566,15 @@ impl IconShape for IoChatbubbleEllipsesSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M475.22,206.52C464.88,157.87,437.46,113.59,398,81.84A227.4,227.4,0,0,0,255.82,32C194.9,32,138,55.47,95.46,98.09,54.35,139.33,31.82,193.78,32,251.37A215.66,215.66,0,0,0,67.65,370.13L72,376.18,48,480l114.8-28.56s2.3.77,4,1.42,16.33,6.26,31.85,10.6c12.9,3.6,39.74,9,60.77,9,59.65,0,115.35-23.1,156.83-65.06C457.36,365.77,480,310.42,480,251.49A213.5,213.5,0,0,0,475.22,206.52ZM160,288a32,32,0,1,1,32-32A32,32,0,0,1,160,288Zm96,0a32,32,0,1,1,32-32A32,32,0,0,1,256,288Zm96,0a32,32,0,1,1,32-32A32,32,0,0,1,352,288Z",
             }
+            
         }
     }
 }
@@ -13509,11 +14609,15 @@ impl IconShape for IoChatbubbleEllipses {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M398,81.84A227.4,227.4,0,0,0,255.82,32C194.9,32,138,55.47,95.46,98.09,54.35,139.33,31.82,193.78,32,251.37A215.66,215.66,0,0,0,67.65,370.13l.19.27c.28.41.57.82.86,1.22s.65.92.73,1.05l.22.4c1.13,2,2,4.44,1.23,6.9L52.46,446.63a29.13,29.13,0,0,0-1.2,7.63A25.69,25.69,0,0,0,76.83,480a29.44,29.44,0,0,0,10.45-2.29l67.49-24.36.85-.33a14.75,14.75,0,0,1,5.8-1.15,15.12,15.12,0,0,1,5.37,1c1.62.63,16.33,6.26,31.85,10.6,12.9,3.6,39.74,9,60.77,9,59.65,0,115.35-23.1,156.83-65.06C457.36,365.77,480,310.42,480,251.49a213.5,213.5,0,0,0-4.78-45C464.88,157.87,437.46,113.59,398,81.84ZM87.48,380h0ZM160,288a32,32,0,1,1,32-32A32,32,0,0,1,160,288Zm96,0a32,32,0,1,1,32-32A32,32,0,0,1,256,288Zm96,0a32,32,0,1,1,32-32A32,32,0,0,1,352,288Z",
             }
+            
         }
     }
 }
@@ -13548,12 +14652,16 @@ impl IconShape for IoChatbubbleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M87.49,380c1.19-4.38-1.44-10.47-3.95-14.86A44.86,44.86,0,0,0,81,361.34a199.81,199.81,0,0,1-33-110C47.65,139.09,140.73,48,255.83,48,356.21,48,440,117.54,459.58,209.85A199,199,0,0,1,464,251.49c0,112.41-89.49,204.93-204.59,204.93-18.3,0-43-4.6-56.47-8.37s-26.92-8.77-30.39-10.11a31.09,31.09,0,0,0-11.12-2.07,30.71,30.71,0,0,0-12.09,2.43L81.51,462.78A16,16,0,0,1,76.84,464a9.6,9.6,0,0,1-9.57-9.74,15.85,15.85,0,0,1,.6-3.29Z",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -13588,11 +14696,15 @@ impl IconShape for IoChatbubbleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M475.22,206.52C464.88,157.87,437.46,113.59,398,81.84A227.4,227.4,0,0,0,255.82,32C194.9,32,138,55.47,95.46,98.09,54.35,139.33,31.82,193.78,32,251.37A215.66,215.66,0,0,0,67.65,370.13L72,376.18,48,480l114.8-28.56s2.3.77,4,1.42,16.33,6.26,31.85,10.6c12.9,3.6,39.74,9,60.77,9,59.65,0,115.35-23.1,156.83-65.06C457.36,365.77,480,310.42,480,251.49A213.5,213.5,0,0,0,475.22,206.52Z",
             }
+            
         }
     }
 }
@@ -13627,11 +14739,15 @@ impl IconShape for IoChatbubble {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M76.83,480a25.69,25.69,0,0,1-25.57-25.74,29.13,29.13,0,0,1,1.2-7.63L70.88,380c.77-2.46-.1-4.94-1.23-6.9l-.22-.4c-.08-.13-.46-.66-.73-1.05s-.58-.81-.86-1.22l-.19-.27A215.66,215.66,0,0,1,32,251.37c-.18-57.59,22.35-112,63.46-153.28C138,55.47,194.9,32,255.82,32A227.4,227.4,0,0,1,398,81.84c39.45,31.75,66.87,76,77.21,124.68a213.5,213.5,0,0,1,4.78,45c0,58.93-22.64,114.28-63.76,155.87-41.48,42-97.18,65.06-156.83,65.06-21,0-47.87-5.36-60.77-9-15.52-4.34-30.23-10-31.85-10.6a15.12,15.12,0,0,0-5.37-1,14.75,14.75,0,0,0-5.8,1.15l-.85.33L87.28,477.71A29.44,29.44,0,0,1,76.83,480Zm-2-31.8ZM87.48,380h0Z",
             }
+            
         }
     }
 }
@@ -13666,6 +14782,9 @@ impl IconShape for IoChatbubblesOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -13676,6 +14795,7 @@ impl IconShape for IoChatbubblesOutline {
                 d: "M66.46,232a146.23,146.23,0,0,0,6.39,152.67c2.31,3.49,3.61,6.19,3.21,8s-11.93,61.87-11.93,61.87a8,8,0,0,0,2.71,7.68A8.17,8.17,0,0,0,72,464a7.26,7.26,0,0,0,2.91-.6l56.21-22a15.7,15.7,0,0,1,12,.2c18.94,7.38,39.88,12,60.83,12A159.21,159.21,0,0,0,284,432.11",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -13710,6 +14830,9 @@ impl IconShape for IoChatbubblesSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -13718,6 +14841,7 @@ impl IconShape for IoChatbubblesSharp {
             path {
                 d: "M312.54,415.38a165.32,165.32,0,0,1-23.26,2.05c-42.43,0-82.5-11.2-115-32.2a184.09,184.09,0,0,1-53.09-49.32C95.11,301.34,80.89,257.4,80.89,211.42c0-3.13.11-6.14.22-9.16a4.34,4.34,0,0,0-7.54-3.12A158.76,158.76,0,0,0,58.71,394.38c2.47,3.77,3.87,6.68,3.44,8.62L48.06,475.26a4,4,0,0,0,5.22,4.53l68-24.24a16.85,16.85,0,0,1,12.92.22c20.35,8,42.86,12.92,65.37,12.92a169.45,169.45,0,0,0,116.63-46A4.29,4.29,0,0,0,312.54,415.38Z",
             }
+            
         }
     }
 }
@@ -13752,6 +14876,9 @@ impl IconShape for IoChatbubbles {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -13763,6 +14890,7 @@ impl IconShape for IoChatbubbles {
             path {
                 d: "M299.87,425.39a15.74,15.74,0,0,0-10.29-8.1c-5.78-1.53-12.52-1.27-17.67-1.65a201.78,201.78,0,0,1-128.82-58.75A199.21,199.21,0,0,1,86.4,244.16C85,234.42,85,232,85,232a16,16,0,0,0-28-10.58h0S49.12,230,45.4,238.61a162.09,162.09,0,0,0,11,150.06C59,393,59,395,58.42,399.5c-2.73,14.11-7.51,39-10,51.91a24,24,0,0,0,8,22.92l.46.39A24.34,24.34,0,0,0,72,480a23.42,23.42,0,0,0,9-1.79l53.51-20.65a8.05,8.05,0,0,1,5.72,0c21.07,7.84,43,12,63.78,12a176,176,0,0,0,74.91-16.66c5.46-2.56,14-5.34,19-11.12A15,15,0,0,0,299.87,425.39Z",
             }
+            
         }
     }
 }
@@ -13797,6 +14925,9 @@ impl IconShape for IoCheckboxOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -13812,6 +14943,7 @@ impl IconShape for IoCheckboxOutline {
                 x: "64",
                 y: "64",
             }
+            
         }
     }
 }
@@ -13846,11 +14978,15 @@ impl IconShape for IoCheckboxSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M48,48V464H464V48ZM218,360.38,137.4,270.81l23.79-21.41,56,62.22L350,153.46,374.54,174Z",
             }
+            
         }
     }
 }
@@ -13885,11 +15021,15 @@ impl IconShape for IoCheckbox {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M400,48H112a64.07,64.07,0,0,0-64,64V400a64.07,64.07,0,0,0,64,64H400a64.07,64.07,0,0,0,64-64V112A64.07,64.07,0,0,0,400,48ZM364.25,186.29l-134.4,160a16,16,0,0,1-12,5.71h-.27a16,16,0,0,1-11.89-5.3l-57.6-64a16,16,0,1,1,23.78-21.4l45.29,50.32L339.75,165.71a16,16,0,0,1,24.5,20.58Z",
             }
+            
         }
     }
 }
@@ -13924,6 +15064,9 @@ impl IconShape for IoCheckmarkCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -13934,6 +15077,7 @@ impl IconShape for IoCheckmarkCircleOutline {
                 points: "352 176 217.6 336 160 272",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -13968,11 +15112,15 @@ impl IconShape for IoCheckmarkCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM218,360.38,137.4,270.81l23.79-21.41,56,62.22L350,153.46,374.54,174Z",
             }
+            
         }
     }
 }
@@ -14007,11 +15155,15 @@ impl IconShape for IoCheckmarkCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM364.25,186.29l-134.4,160a16,16,0,0,1-12,5.71h-.27a16,16,0,0,1-11.89-5.3l-57.6-64a16,16,0,1,1,23.78-21.4l45.29,50.32L339.75,165.71a16,16,0,0,1,24.5,20.58Z",
             }
+            
         }
     }
 }
@@ -14046,6 +15198,9 @@ impl IconShape for IoCheckmarkDoneCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -14070,6 +15225,7 @@ impl IconShape for IoCheckmarkDoneCircleOutline {
                 y1: "192",
                 y2: "251",
             }
+            
         }
     }
 }
@@ -14104,11 +15260,15 @@ impl IconShape for IoCheckmarkDoneCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm48.19,121.42,24.1,21.06-73.61,84.1-24.1-23.06ZM191.93,342.63,121.37,272,144,249.37,214.57,320Zm65,.79L185.55,272l22.64-22.62,47.16,47.21L366.48,169.42l24.1,21.06Z",
             }
+            
         }
     }
 }
@@ -14143,11 +15303,15 @@ impl IconShape for IoCheckmarkDoneCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M258.9,48C141.92,46.42,46.42,141.92,48,258.9,49.56,371.09,140.91,462.44,253.1,464c117,1.6,212.48-93.9,210.88-210.88C462.44,140.91,371.09,49.56,258.9,48ZM242.11,240.47l51.55-59a16,16,0,0,1,24.1,21.06l-51.55,59a16,16,0,1,1-24.1-21.06Zm-38.86,90.85a16,16,0,0,1-22.62,0l-47.95-48a16,16,0,1,1,22.64-22.62l48,48A16,16,0,0,1,203.25,331.32Zm176.8-128.79-111.88,128A16,16,0,0,1,256.66,336h-.54a16,16,0,0,1-11.32-4.69l-47.94-48a16,16,0,1,1,22.64-22.62l29.8,29.83a8,8,0,0,0,11.68-.39l95-108.66a16,16,0,0,1,24.1,21.06Z",
             }
+            
         }
     }
 }
@@ -14182,6 +15346,9 @@ impl IconShape for IoCheckmarkDoneOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -14202,6 +15369,7 @@ impl IconShape for IoCheckmarkDoneOutline {
                 y1: "128",
                 y2: "284",
             }
+            
         }
     }
 }
@@ -14236,6 +15404,9 @@ impl IconShape for IoCheckmarkDoneSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -14256,6 +15427,7 @@ impl IconShape for IoCheckmarkDoneSharp {
                 y1: "127",
                 y2: "273",
             }
+            
         }
     }
 }
@@ -14290,6 +15462,9 @@ impl IconShape for IoCheckmarkDone {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -14310,6 +15485,7 @@ impl IconShape for IoCheckmarkDone {
                 y1: "128",
                 y2: "284",
             }
+            
         }
     }
 }
@@ -14344,12 +15520,16 @@ impl IconShape for IoCheckmarkOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "416 128 192 384 96 288",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -14384,12 +15564,16 @@ impl IconShape for IoCheckmarkSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "416 128 192 384 96 288",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:44px",
             }
+            
         }
     }
 }
@@ -14424,12 +15608,16 @@ impl IconShape for IoCheckmark {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "416 128 192 384 96 288",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -14464,6 +15652,9 @@ impl IconShape for IoChevronBackCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -14474,6 +15665,7 @@ impl IconShape for IoChevronBackCircleOutline {
                 points: "296 352 200 256 296 160",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -14508,11 +15700,15 @@ impl IconShape for IoChevronBackCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48Zm62.63,304L296,374.63,177.37,256,296,137.37,318.63,160l-96,96Z",
             }
+            
         }
     }
 }
@@ -14547,11 +15743,15 @@ impl IconShape for IoChevronBackCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48Zm35.31,292.69a16,16,0,1,1-22.62,22.62l-96-96a16,16,0,0,1,0-22.62l96-96a16,16,0,0,1,22.62,22.62L206.63,256Z",
             }
+            
         }
     }
 }
@@ -14586,12 +15786,16 @@ impl IconShape for IoChevronBackOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "328 112 184 256 328 400",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
+            
         }
     }
 }
@@ -14626,12 +15830,16 @@ impl IconShape for IoChevronBackSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "328 112 184 256 328 400",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
             }
+            
         }
     }
 }
@@ -14666,12 +15874,16 @@ impl IconShape for IoChevronBack {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "328 112 184 256 328 400",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
+            
         }
     }
 }
@@ -14706,6 +15918,9 @@ impl IconShape for IoChevronDownCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -14716,6 +15931,7 @@ impl IconShape for IoChevronDownCircleOutline {
                 points: "352 216 256 312 160 216",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -14750,11 +15966,15 @@ impl IconShape for IoChevronDownCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,464c114.87,0,208-93.13,208-208S370.87,48,256,48,48,141.13,48,256,141.13,464,256,464ZM160,193.37l96,96,96-96L374.63,216,256,334.63,137.37,216Z",
             }
+            
         }
     }
 }
@@ -14789,11 +16009,15 @@ impl IconShape for IoChevronDownCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,256c0-114.87-93.13-208-208-208S48,141.13,48,256s93.13,208,208,208S464,370.87,464,256ZM363.31,227.31l-96,96a16,16,0,0,1-22.62,0l-96-96a16,16,0,0,1,22.62-22.62L256,289.37l84.69-84.68a16,16,0,0,1,22.62,22.62Z",
             }
+            
         }
     }
 }
@@ -14828,12 +16052,16 @@ impl IconShape for IoChevronDownOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "112 184 256 328 400 184",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
+            
         }
     }
 }
@@ -14868,12 +16096,16 @@ impl IconShape for IoChevronDownSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "112 184 256 328 400 184",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
             }
+            
         }
     }
 }
@@ -14908,12 +16140,16 @@ impl IconShape for IoChevronDown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "112 184 256 328 400 184",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
+            
         }
     }
 }
@@ -14948,6 +16184,9 @@ impl IconShape for IoChevronForwardCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -14958,6 +16197,7 @@ impl IconShape for IoChevronForwardCircleOutline {
                 points: "216 352 312 256 216 160",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -14992,11 +16232,15 @@ impl IconShape for IoChevronForwardCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48ZM216,374.63,193.37,352l96-96-96-96L216,137.37,334.63,256Z",
             }
+            
         }
     }
 }
@@ -15031,11 +16275,15 @@ impl IconShape for IoChevronForwardCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M48,256c0,114.87,93.13,208,208,208s208-93.13,208-208S370.87,48,256,48,48,141.13,48,256Zm257.37,0-84.68-84.69a16,16,0,0,1,22.62-22.62l96,96a16,16,0,0,1,0,22.62l-96,96a16,16,0,0,1-22.62-22.62Z",
             }
+            
         }
     }
 }
@@ -15070,12 +16318,16 @@ impl IconShape for IoChevronForwardOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "184 112 328 256 184 400",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
+            
         }
     }
 }
@@ -15110,12 +16362,16 @@ impl IconShape for IoChevronForwardSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "184 112 328 256 184 400",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
             }
+            
         }
     }
 }
@@ -15150,12 +16406,16 @@ impl IconShape for IoChevronForward {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "184 112 328 256 184 400",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
+            
         }
     }
 }
@@ -15190,6 +16450,9 @@ impl IconShape for IoChevronUpCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -15200,6 +16463,7 @@ impl IconShape for IoChevronUpCircleOutline {
                 d: "M256,64C150,64,64,150,64,256s86,192,192,192,192-86,192-192S362,64,256,64Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -15234,11 +16498,15 @@ impl IconShape for IoChevronUpCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48Zm96,270.63-96-96-96,96L137.37,296,256,177.37,374.63,296Z",
             }
+            
         }
     }
 }
@@ -15273,11 +16541,15 @@ impl IconShape for IoChevronUpCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48ZM363.31,307.31a16,16,0,0,1-22.62,0L256,222.63l-84.69,84.68a16,16,0,0,1-22.62-22.62l96-96a16,16,0,0,1,22.62,0l96,96A16,16,0,0,1,363.31,307.31Z",
             }
+            
         }
     }
 }
@@ -15312,12 +16584,16 @@ impl IconShape for IoChevronUpOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "112 328 256 184 400 328",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
+            
         }
     }
 }
@@ -15352,12 +16628,16 @@ impl IconShape for IoChevronUpSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "112 328 256 184 400 328",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:48px",
             }
+            
         }
     }
 }
@@ -15392,12 +16672,16 @@ impl IconShape for IoChevronUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "112 328 256 184 400 328",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
             }
+            
         }
     }
 }
@@ -15432,6 +16716,9 @@ impl IconShape for IoClipboardOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -15447,6 +16734,7 @@ impl IconShape for IoClipboardOutline {
                 x: "176",
                 y: "32",
             }
+            
         }
     }
 }
@@ -15481,11 +16769,15 @@ impl IconShape for IoClipboardSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M420,48H352V28a12,12,0,0,0-12-12H172a12,12,0,0,0-12,12V48H92A12,12,0,0,0,80,60V484a12,12,0,0,0,12,12H420a12,12,0,0,0,12-12V60A12,12,0,0,0,420,48Zm-84.13,64H176.13V80H335.87Z",
             }
+            
         }
     }
 }
@@ -15520,11 +16812,15 @@ impl IconShape for IoClipboard {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M368,48H356.59a8,8,0,0,1-7.44-5.08A42.18,42.18,0,0,0,309.87,16H202.13a42.18,42.18,0,0,0-39.28,26.92A8,8,0,0,1,155.41,48H144a64,64,0,0,0-64,64V432a64,64,0,0,0,64,64H368a64,64,0,0,0,64-64V112A64,64,0,0,0,368,48Zm-48.13,64H192.13a16,16,0,0,1,0-32H319.87a16,16,0,0,1,0,32Z",
             }
+            
         }
     }
 }
@@ -15559,6 +16855,9 @@ impl IconShape for IoCloseCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -15579,6 +16878,7 @@ impl IconShape for IoCloseCircleOutline {
                 y1: "320",
                 y2: "192",
             }
+            
         }
     }
 }
@@ -15613,11 +16913,15 @@ impl IconShape for IoCloseCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm86.63,272L320,342.63l-64-64-64,64L169.37,320l64-64-64-64L192,169.37l64,64,64-64L342.63,192l-64,64Z",
             }
+            
         }
     }
 }
@@ -15652,11 +16956,15 @@ impl IconShape for IoCloseCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm75.31,260.69a16,16,0,1,1-22.62,22.62L256,278.63l-52.69,52.68a16,16,0,0,1-22.62-22.62L233.37,256l-52.68-52.69a16,16,0,0,1,22.62-22.62L256,233.37l52.69-52.68a16,16,0,0,1,22.62,22.62L278.63,256Z",
             }
+            
         }
     }
 }
@@ -15691,6 +16999,9 @@ impl IconShape for IoCloseOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -15707,6 +17018,7 @@ impl IconShape for IoCloseOutline {
                 y1: "144",
                 y2: "368",
             }
+            
         }
     }
 }
@@ -15741,11 +17053,15 @@ impl IconShape for IoCloseSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49",
             }
+            
         }
     }
 }
@@ -15780,11 +17096,15 @@ impl IconShape for IoClose {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M289.94,256l95-95A24,24,0,0,0,351,127l-95,95-95-95A24,24,0,0,0,127,161l95,95-95,95A24,24,0,1,0,161,385l95-95,95,95A24,24,0,0,0,385,351Z",
             }
+            
         }
     }
 }
@@ -15819,6 +17139,9 @@ impl IconShape for IoCloudCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -15828,6 +17151,7 @@ impl IconShape for IoCloudCircleOutline {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -15862,11 +17186,15 @@ impl IconShape for IoCloudCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48Zm70,280H196c-33,0-60-23-60-56,0-34.21,26-53,56-56,7.28-23.9,29.5-48,64-48,36.5,0,67.55,27.23,72,72,21.49,1.12,48,14.09,48,44C376,314.28,353.5,328,326,328Z",
             }
+            
         }
     }
 }
@@ -15901,11 +17229,15 @@ impl IconShape for IoCloudCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48Zm70,280H193.05c-31.53,0-57.56-25.58-57-57.11.53-31.74,23.68-49.95,51.35-54.3a7.92,7.92,0,0,0,6.16-5C202.07,189.22,223.63,168,256,168c33.17,0,61.85,22.49,70.14,60.21a17.75,17.75,0,0,0,13.18,13.43C357.79,246.05,376,259.21,376,284,376,314.28,353.5,328,326,328Z",
             }
+            
         }
     }
 }
@@ -15940,6 +17272,9 @@ impl IconShape for IoCloudDoneOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -15950,6 +17285,7 @@ impl IconShape for IoCloudDoneOutline {
                 points: "317 208 209.2 336 163 284.8",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -15984,11 +17320,15 @@ impl IconShape for IoCloudDoneSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414.25,225.36c-6.52-41.18-24.05-76.4-51.11-102.46A153.57,153.57,0,0,0,256,80c-35.5,0-68.24,11.69-94.68,33.8a156.42,156.42,0,0,0-45.22,63.61c-30.26,4.81-57.45,17.18-77.38,35.37C13.39,235.88,0,267.42,0,304c0,36,14.38,68.88,40.49,92.59C65.64,419.43,99.56,432,136,432H396c32.37,0,60.23-8.57,80.59-24.77C499.76,388.78,512,361.39,512,328,512,266.15,463.56,232.66,414.25,225.36Zm-204.63,135-69.22-76.7,23.76-21.44,44.62,49.46,106.29-126.2,24.47,20.61Z",
             }
+            
         }
     }
 }
@@ -16023,11 +17363,15 @@ impl IconShape for IoCloudDone {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M424.44,227.25a16,16,0,0,1-12.12-12.39c-7.68-36.68-24.45-68.15-49.18-92A153.57,153.57,0,0,0,256,80c-35.5,0-68.24,11.69-94.68,33.8a156.24,156.24,0,0,0-42,56,16,16,0,0,1-11.37,9.15c-27,5.62-51.07,17.34-69.18,33.87C13.39,235.88,0,267.42,0,304c0,36,14.38,68.88,40.49,92.59C65.64,419.43,99.56,432,136,432H396c32.37,0,60.23-8.57,80.59-24.77C499.76,388.78,512,361.39,512,328,512,270.43,470,237.42,424.44,227.25Zm-95.2-8.94-107.8,128a16,16,0,0,1-12,5.69h-.27a16,16,0,0,1-11.88-5.28l-45.9-50.87c-5.77-6.39-5.82-16.33.3-22.4a16,16,0,0,1,23.16.63l33.9,37.58,96-114a16,16,0,1,1,24.48,20.62Z",
             }
+            
         }
     }
 }
@@ -16062,6 +17406,9 @@ impl IconShape for IoCloudDownloadOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -16079,6 +17426,7 @@ impl IconShape for IoCloudDownloadOutline {
                 y1: "224",
                 y2: "448.03",
             }
+            
         }
     }
 }
@@ -16113,6 +17461,9 @@ impl IconShape for IoCloudDownloadSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -16121,6 +17472,7 @@ impl IconShape for IoCloudDownloadSharp {
             polygon {
                 points: "240 419.42 191.98 371 169.37 394 256 480 342.63 394 320.02 371 272 419.42 272 352 240 352 240 419.42",
             }
+            
         }
     }
 }
@@ -16155,6 +17507,9 @@ impl IconShape for IoCloudDownload {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -16163,6 +17518,7 @@ impl IconShape for IoCloudDownload {
             path {
                 d: "M240,425.42l-36.7-36.64a16,16,0,0,0-22.6,22.65l64,63.89a16,16,0,0,0,22.6,0l64-63.89a16,16,0,0,0-22.6-22.65L272,425.42V352H240Z",
             }
+            
         }
     }
 }
@@ -16197,6 +17553,9 @@ impl IconShape for IoCloudOfflineOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -16214,6 +17573,7 @@ impl IconShape for IoCloudOfflineOutline {
                 y1: "448",
                 y2: "64",
             }
+            
         }
     }
 }
@@ -16248,6 +17608,9 @@ impl IconShape for IoCloudOfflineSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -16263,6 +17626,7 @@ impl IconShape for IoCloudOfflineSharp {
             path {
                 d: "M476.59,407.23C499.76,388.78,512,361.39,512,328c0-61.85-48.44-95.34-97.75-102.64-6.52-41.18-24.05-76.4-51.11-102.46A153.57,153.57,0,0,0,256,80c-30.47,0-58.9,8.62-83.07,25L475.75,407.86C476,407.65,476.32,407.45,476.59,407.23Z",
             }
+            
         }
     }
 }
@@ -16297,6 +17661,9 @@ impl IconShape for IoCloudOffline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -16308,6 +17675,7 @@ impl IconShape for IoCloudOffline {
             path {
                 d: "M476.59,391.23C499.76,372.78,512,345.39,512,312c0-57.57-42-90.58-87.56-100.75a16,16,0,0,1-12.12-12.39c-7.68-36.68-24.45-68.15-49.18-92A153.57,153.57,0,0,0,256,64c-31.12,0-60.12,9-84.62,26.1a8,8,0,0,0-1.14,12.26L461.68,393.8a8,8,0,0,0,10.2.93Q474.31,393.05,476.59,391.23Z",
             }
+            
         }
     }
 }
@@ -16342,12 +17710,16 @@ impl IconShape for IoCloudOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M400,240c-8.89-89.54-71-144-144-144-69,0-113.44,48.2-128,96C68,198,16,235.59,16,304c0,66,54,112,120,112H396c55,0,100-27.44,100-88C496,268.18,443,242.24,400,240Z",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -16382,11 +17754,15 @@ impl IconShape for IoCloudSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M396,432H136c-36.44,0-70.36-12.57-95.51-35.41C14.38,372.88,0,340,0,304c0-36.58,13.39-68.12,38.72-91.22,19.93-18.19,47.12-30.56,77.38-35.37a156.42,156.42,0,0,1,45.22-63.61C187.76,91.69,220.5,80,256,80a153.57,153.57,0,0,1,107.14,42.9c27.06,26.06,44.59,61.28,51.11,102.46C463.56,232.66,512,266.15,512,328c0,33.39-12.24,60.78-35.41,79.23C456.23,423.43,428.37,432,396,432Z",
             }
+            
         }
     }
 }
@@ -16421,6 +17797,9 @@ impl IconShape for IoCloudUploadOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -16438,6 +17817,7 @@ impl IconShape for IoCloudUploadOutline {
                 y1: "448.21",
                 y2: "207.79",
             }
+            
         }
     }
 }
@@ -16472,6 +17852,9 @@ impl IconShape for IoCloudUploadSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -16483,6 +17866,7 @@ impl IconShape for IoCloudUploadSharp {
                 x: "240",
                 y: "383.79",
             }
+            
         }
     }
 }
@@ -16517,6 +17901,9 @@ impl IconShape for IoCloudUpload {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -16525,6 +17912,7 @@ impl IconShape for IoCloudUpload {
             path {
                 d: "M240,448.21a16,16,0,1,0,32,0V383.79H240Z",
             }
+            
         }
     }
 }
@@ -16559,11 +17947,15 @@ impl IconShape for IoCloud {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M396,432H136c-36.44,0-70.36-12.57-95.51-35.41C14.38,372.88,0,340,0,304c0-36.58,13.39-68.12,38.72-91.22,18.11-16.53,42.22-28.25,69.18-33.87a16,16,0,0,0,11.37-9.15,156.24,156.24,0,0,1,42.05-56C187.76,91.69,220.5,80,256,80a153.57,153.57,0,0,1,107.14,42.9c24.73,23.81,41.5,55.28,49.18,92a16,16,0,0,0,12.12,12.39C470,237.42,512,270.43,512,328c0,33.39-12.24,60.78-35.41,79.23C456.23,423.43,428.37,432,396,432Z",
             }
+            
         }
     }
 }
@@ -16598,6 +17990,9 @@ impl IconShape for IoCloudyNightOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -16608,6 +18003,7 @@ impl IconShape for IoCloudyNightOutline {
                 d: "M90.61,306.85A16.07,16.07,0,0,0,104,293.6C116.09,220.17,169.63,176,232,176c57.93,0,96.62,37.75,112.2,77.74a15.84,15.84,0,0,0,12.2,9.87c50,8.15,91.6,41.54,91.6,99.59C448,422.6,399.4,464,340,464H106c-49.5,0-90-24.7-90-79.2C16,336.33,54.67,312.58,90.61,306.85Z",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -16642,6 +18038,9 @@ impl IconShape for IoCloudyNightSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -16650,6 +18049,7 @@ impl IconShape for IoCloudyNightSharp {
             path {
                 d: "M381.55,219.93c26.5,6.93,50,19.32,68.65,36.34q3.89,3.56,7.47,7.34c25.41-18.4,45.47-44.92,54.33-71.38-16.24,7.07-35.31,9.85-54.15,9.85-73.42,0-115.93-42.51-115.93-115.93,0-18.84,2.78-37.91,9.85-54.15-40.41,13.53-81,53.19-92.52,98.13a162.61,162.61,0,0,1,79.52,36.12A173,173,0,0,1,381.55,219.93Z",
             }
+            
         }
     }
 }
@@ -16684,6 +18084,9 @@ impl IconShape for IoCloudyNight {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -16692,6 +18095,7 @@ impl IconShape for IoCloudyNight {
             path {
                 d: "M510.53,209.79a16.34,16.34,0,0,0-1.35-15.8,16,16,0,0,0-19.57-5.58c-10.7,4.65-24.48,7.17-39.92,7.28-55.3.4-101.38-45-101.38-100.31,0-15.75,2.48-29.84,7.18-40.76a16.3,16.3,0,0,0-1.85-16.33,16,16,0,0,0-19.1-5c-38.63,16.82-66.18,51.51-75.27,92.54a4,4,0,0,0,3.19,4.79,162.54,162.54,0,0,1,76.31,35.59,172.58,172.58,0,0,1,39.64,47.84,16.35,16.35,0,0,0,9.54,7.64c23.89,7.17,45.1,18.9,62.25,34.54q4.44,4.07,8.48,8.42a4,4,0,0,0,5.16.57A129.12,129.12,0,0,0,510.53,209.79Z",
             }
+            
         }
     }
 }
@@ -16726,12 +18130,16 @@ impl IconShape for IoCloudyOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M100.18,241.19a15.93,15.93,0,0,0,13.37-13.25C126.6,145.59,186.34,96,256,96c64.69,0,107.79,42.36,124.92,87a16.11,16.11,0,0,0,12.53,10.18C449.36,202.06,496,239.21,496,304c0,66-54,112-120,112H116c-55,0-100-27.44-100-88C16,273.57,59.89,247.19,100.18,241.19Z",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -16766,11 +18174,15 @@ impl IconShape for IoCloudySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M376,432H116c-32.37,0-60.23-8.57-80.59-24.77C12.24,388.78,0,361.39,0,328c0-61.85,48.44-95.34,97.75-102.64,6.52-41.18,24-76.4,51.11-102.46A153.57,153.57,0,0,1,256,80c35.5,0,68.24,11.69,94.68,33.8a156.42,156.42,0,0,1,45.22,63.61c30.26,4.81,57.45,17.18,77.38,35.36C498.61,235.88,512,267.42,512,304c0,36-14.38,68.88-40.49,92.59C446.36,419.43,412.44,432,376,432Z",
             }
+            
         }
     }
 }
@@ -16805,11 +18217,15 @@ impl IconShape for IoCloudy {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M376,432H116c-32.37,0-60.23-8.57-80.59-24.77C12.24,388.78,0,361.39,0,328c0-57.57,42-90.58,87.56-100.75a16,16,0,0,0,12.12-12.39c7.68-36.68,24.45-68.15,49.18-92A153.57,153.57,0,0,1,256,80c35.5,0,68.24,11.69,94.68,33.8a156.24,156.24,0,0,1,42.05,56,16,16,0,0,0,11.37,9.16c27,5.61,51.07,17.33,69.18,33.85C498.61,235.88,512,267.42,512,304c0,36-14.38,68.88-40.49,92.59C446.36,419.43,412.44,432,376,432Z",
             }
+            
         }
     }
 }
@@ -16844,6 +18260,9 @@ impl IconShape for IoCodeDownloadOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -16865,6 +18284,7 @@ impl IconShape for IoCodeDownloadOutline {
                 y1: "160",
                 y2: "336.03",
             }
+            
         }
     }
 }
@@ -16899,6 +18319,9 @@ impl IconShape for IoCodeDownloadSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -16920,6 +18343,7 @@ impl IconShape for IoCodeDownloadSharp {
                 y1: "160",
                 y2: "336.03",
             }
+            
         }
     }
 }
@@ -16954,6 +18378,9 @@ impl IconShape for IoCodeDownload {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -16975,6 +18402,7 @@ impl IconShape for IoCodeDownload {
                 y1: "160",
                 y2: "336.03",
             }
+            
         }
     }
 }
@@ -17009,6 +18437,9 @@ impl IconShape for IoCodeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -17019,6 +18450,7 @@ impl IconShape for IoCodeOutline {
                 points: "352 368 480 256 352 144",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -17053,6 +18485,9 @@ impl IconShape for IoCodeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -17061,6 +18496,7 @@ impl IconShape for IoCodeSharp {
             polygon {
                 points: "350.02 397.63 322.37 366.02 448 256 322.37 145.98 350.02 114.37 512 256 350.02 397.63",
             }
+            
         }
     }
 }
@@ -17095,6 +18531,9 @@ impl IconShape for IoCodeSlashOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -17112,6 +18551,7 @@ impl IconShape for IoCodeSlashOutline {
                 y1: "96",
                 y2: "416",
             }
+            
         }
     }
 }
@@ -17146,6 +18586,9 @@ impl IconShape for IoCodeSlashSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -17157,6 +18600,7 @@ impl IconShape for IoCodeSlashSharp {
             polygon {
                 points: "222.15 442 182 430.08 289.85 70 330 81.92 222.15 442",
             }
+            
         }
     }
 }
@@ -17191,6 +18635,9 @@ impl IconShape for IoCodeSlash {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -17202,6 +18649,7 @@ impl IconShape for IoCodeSlash {
             path {
                 d: "M208,437a21,21,0,0,1-20.12-27l96-320A21,21,0,1,1,324.11,102l-96,320A21,21,0,0,1,208,437Z",
             }
+            
         }
     }
 }
@@ -17236,6 +18684,9 @@ impl IconShape for IoCodeWorkingOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -17261,6 +18712,7 @@ impl IconShape for IoCodeWorkingOutline {
                 points: "352 368 480 256 352 144",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -17295,6 +18747,9 @@ impl IconShape for IoCodeWorkingSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -17323,6 +18778,7 @@ impl IconShape for IoCodeWorkingSharp {
                 points: "352 368 480 256 352 144",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:42px",
             }
+            
         }
     }
 }
@@ -17357,6 +18813,9 @@ impl IconShape for IoCodeWorking {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -17385,6 +18844,7 @@ impl IconShape for IoCodeWorking {
                 points: "352 368 480 256 352 144",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:42px",
             }
+            
         }
     }
 }
@@ -17419,6 +18879,9 @@ impl IconShape for IoCode {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -17427,6 +18890,7 @@ impl IconShape for IoCode {
             path {
                 d: "M352,389a21,21,0,0,1-13.84-36.81L448.11,256,338.17,159.81a21,21,0,0,1,27.66-31.61l128,112a21,21,0,0,1,0,31.6l-128,112A20.89,20.89,0,0,1,352,389Z",
             }
+            
         }
     }
 }
@@ -17461,11 +18925,15 @@ impl IconShape for IoCogOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M456.7,242.27l-26.08-4.2a8,8,0,0,1-6.6-6.82c-.5-3.2-1-6.41-1.7-9.51a8.08,8.08,0,0,1,3.9-8.62l23.09-12.82a8.05,8.05,0,0,0,3.9-9.92l-4-11a7.94,7.94,0,0,0-9.4-5l-25.89,5a8,8,0,0,1-8.59-4.11q-2.25-4.2-4.8-8.41a8.16,8.16,0,0,1,.7-9.52l17.29-19.94a8,8,0,0,0,.3-10.62l-7.49-9a7.88,7.88,0,0,0-10.5-1.51l-22.69,13.63a8,8,0,0,1-9.39-.9c-2.4-2.11-4.9-4.21-7.4-6.22a8,8,0,0,1-2.5-9.11l9.4-24.75A8,8,0,0,0,365,78.77l-10.2-5.91a8,8,0,0,0-10.39,2.21L327.77,95.91a7.15,7.15,0,0,1-8.5,2.5s-5.6-2.3-9.8-3.71A8,8,0,0,1,304,87l.4-26.45a8.07,8.07,0,0,0-6.6-8.42l-11.59-2a8.07,8.07,0,0,0-9.1,5.61l-8.6,25.05a8,8,0,0,1-7.79,5.41h-9.8a8.07,8.07,0,0,1-7.79-5.41l-8.6-25.05a8.07,8.07,0,0,0-9.1-5.61l-11.59,2a8.07,8.07,0,0,0-6.6,8.42l.4,26.45a8,8,0,0,1-5.49,7.71c-2.3.9-7.3,2.81-9.7,3.71-2.8,1-6.1.2-8.8-2.91L167.14,75.17A8,8,0,0,0,156.75,73l-10.2,5.91A7.94,7.94,0,0,0,143.25,89l9.4,24.75a8.06,8.06,0,0,1-2.5,9.11c-2.5,2-5,4.11-7.4,6.22a8,8,0,0,1-9.39.9L111,116.14a8,8,0,0,0-10.5,1.51l-7.49,9a8,8,0,0,0,.3,10.62l17.29,19.94a8,8,0,0,1,.7,9.52q-2.55,4-4.8,8.41a8.11,8.11,0,0,1-8.59,4.11l-25.89-5a8,8,0,0,0-9.4,5l-4,11a8.05,8.05,0,0,0,3.9,9.92L85.58,213a7.94,7.94,0,0,1,3.9,8.62c-.6,3.2-1.2,6.31-1.7,9.51a8.08,8.08,0,0,1-6.6,6.82l-26.08,4.2a8.09,8.09,0,0,0-7.1,7.92v11.72a7.86,7.86,0,0,0,7.1,7.92l26.08,4.2a8,8,0,0,1,6.6,6.82c.5,3.2,1,6.41,1.7,9.51a8.08,8.08,0,0,1-3.9,8.62L62.49,311.7a8.05,8.05,0,0,0-3.9,9.92l4,11a7.94,7.94,0,0,0,9.4,5l25.89-5a8,8,0,0,1,8.59,4.11q2.25,4.2,4.8,8.41a8.16,8.16,0,0,1-.7,9.52L93.28,374.62a8,8,0,0,0-.3,10.62l7.49,9a7.88,7.88,0,0,0,10.5,1.51l22.69-13.63a8,8,0,0,1,9.39.9c2.4,2.11,4.9,4.21,7.4,6.22a8,8,0,0,1,2.5,9.11l-9.4,24.75a8,8,0,0,0,3.3,10.12l10.2,5.91a8,8,0,0,0,10.39-2.21l16.79-20.64c2.1-2.6,5.5-3.7,8.2-2.6,3.4,1.4,5.7,2.2,9.9,3.61a8,8,0,0,1,5.49,7.71l-.4,26.45a8.07,8.07,0,0,0,6.6,8.42l11.59,2a8.07,8.07,0,0,0,9.1-5.61l8.6-25a8,8,0,0,1,7.79-5.41h9.8a8.07,8.07,0,0,1,7.79,5.41l8.6,25a8.07,8.07,0,0,0,9.1,5.61l11.59-2a8.07,8.07,0,0,0,6.6-8.42l-.4-26.45a8,8,0,0,1,5.49-7.71c4.2-1.41,7-2.51,9.6-3.51s5.8-1,8.3,2.1l17,20.94A8,8,0,0,0,355,439l10.2-5.91a7.93,7.93,0,0,0,3.3-10.12l-9.4-24.75a8.08,8.08,0,0,1,2.5-9.12c2.5-2,5-4.1,7.4-6.21a8,8,0,0,1,9.39-.9L401,395.66a8,8,0,0,0,10.5-1.51l7.49-9a8,8,0,0,0-.3-10.62l-17.29-19.94a8,8,0,0,1-.7-9.52q2.55-4.05,4.8-8.41a8.11,8.11,0,0,1,8.59-4.11l25.89,5a8,8,0,0,0,9.4-5l4-11a8.05,8.05,0,0,0-3.9-9.92l-23.09-12.82a7.94,7.94,0,0,1-3.9-8.62c.6-3.2,1.2-6.31,1.7-9.51a8.08,8.08,0,0,1,6.6-6.82l26.08-4.2a8.09,8.09,0,0,0,7.1-7.92V250A8.25,8.25,0,0,0,456.7,242.27ZM256,112A143.82,143.82,0,0,1,395.38,220.12,16,16,0,0,1,379.85,240l-105.24,0a16,16,0,0,1-13.91-8.09l-52.1-91.71a16,16,0,0,1,9.85-23.39A146.94,146.94,0,0,1,256,112ZM112,256a144,144,0,0,1,43.65-103.41,16,16,0,0,1,25.17,3.47L233.06,248a16,16,0,0,1,0,15.87l-52.67,91.7a16,16,0,0,1-25.18,3.36A143.94,143.94,0,0,1,112,256ZM256,400a146.9,146.9,0,0,1-38.19-4.95,16,16,0,0,1-9.76-23.44l52.58-91.55a16,16,0,0,1,13.88-8H379.9a16,16,0,0,1,15.52,19.88A143.84,143.84,0,0,1,256,400Z",
             }
+            
         }
     }
 }
@@ -17500,11 +18968,15 @@ impl IconShape for IoCogSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,249.93a10.58,10.58,0,0,0-9.36-9.94L429,235.84a5.42,5.42,0,0,1-4.5-4.67c-.49-3.15-1-6.42-1.7-9.52a5.52,5.52,0,0,1,2.63-5.85l22.78-12.65a10.35,10.35,0,0,0,5-12.83l-3.95-10.9a10.32,10.32,0,0,0-12.13-6.51l-25.55,5a5.5,5.5,0,0,1-5.82-2.81c-1.49-2.79-3.11-5.63-4.8-8.42a5.6,5.6,0,0,1,.44-6.5l17-19.63a10.44,10.44,0,0,0,.39-13.77l-7.42-8.91a10.24,10.24,0,0,0-13.58-2l-22.37,13.43a5.39,5.39,0,0,1-6.39-.63c-2.47-2.17-4.95-4.26-7.37-6.19a5.45,5.45,0,0,1-1.72-6.21l9.26-24.4a10.35,10.35,0,0,0-4.31-13.07l-10.08-5.85a10.31,10.31,0,0,0-13.46,2.83L325,96.28A4.58,4.58,0,0,1,319.4,98c-.62-.25-5.77-2.36-9.78-3.7a5.42,5.42,0,0,1-3.74-5.23L306.27,63a10.48,10.48,0,0,0-8.57-10.88l-11.45-2a10.45,10.45,0,0,0-11.75,7.17L266,82.1a5.42,5.42,0,0,1-5.36,3.65h-9.75a5.53,5.53,0,0,1-5.3-3.67l-8.46-24.67a10.46,10.46,0,0,0-11.77-7.25l-11.46,2a10.46,10.46,0,0,0-8.57,10.79l.4,26.16a5.45,5.45,0,0,1-3.86,5.25c-2.28.89-7.26,2.78-9.51,3.63-2,.72-4.19-.07-6-2.1l-16.26-20A10.3,10.3,0,0,0,156.69,73l-10.06,5.83A10.36,10.36,0,0,0,142.31,92l9.25,24.34a5.54,5.54,0,0,1-1.7,6.23c-2.43,2-4.92,4-7.4,6.22a5.38,5.38,0,0,1-6.35.64L114,115.74a10.39,10.39,0,0,0-13.61,2l-7.4,8.9a10.32,10.32,0,0,0,.37,13.76L110.45,160a5.42,5.42,0,0,1,.45,6.45c-1.71,2.72-3.34,5.58-4.82,8.44a5.53,5.53,0,0,1-5.86,2.82l-25.51-4.93a10.34,10.34,0,0,0-12.14,6.51l-4,10.88a10.37,10.37,0,0,0,5,12.85l22.78,12.65A5.39,5.39,0,0,1,89,221.59l-.23,1.24c-.53,2.8-1,5.45-1.47,8.27a5.48,5.48,0,0,1-4.46,4.64l-25.7,4.15A10.42,10.42,0,0,0,48,250.16v11.58A10.26,10.26,0,0,0,57.16,272l25.68,4.14a5.41,5.41,0,0,1,4.5,4.67c.49,3.16,1,6.42,1.7,9.52a5.52,5.52,0,0,1-2.63,5.85L63.64,308.85a10.35,10.35,0,0,0-5,12.83l4,10.9a10.33,10.33,0,0,0,12.13,6.51l25.55-4.95a5.5,5.5,0,0,1,5.82,2.81c1.5,2.8,3.12,5.64,4.8,8.42a5.58,5.58,0,0,1-.44,6.5l-17,19.64A10.41,10.41,0,0,0,93,385.27l7.41,8.91a10.24,10.24,0,0,0,13.58,2l22.37-13.43a5.39,5.39,0,0,1,6.39.63c2.48,2.17,5,4.26,7.37,6.19a5.45,5.45,0,0,1,1.72,6.21l-9.26,24.4a10.35,10.35,0,0,0,4.31,13.07L157,439.09a10.3,10.3,0,0,0,13.45-2.82L187,415.92c1.39-1.73,3.6-2.5,5.24-1.84,3.47,1.44,5.8,2.25,9.93,3.63a5.44,5.44,0,0,1,3.75,5.23l-.4,26.05a10.5,10.5,0,0,0,8.57,10.88l11.45,2a10.44,10.44,0,0,0,11.75-7.17l8.5-24.77a5.48,5.48,0,0,1,5.36-3.65h9.75a5.52,5.52,0,0,1,5.3,3.67l8.47,24.67a10.48,10.48,0,0,0,10,7.41,9.74,9.74,0,0,0,1.78-.16l11.47-2a10.46,10.46,0,0,0,8.56-10.79l-.4-26.16a5.43,5.43,0,0,1,3.75-5.2c3.84-1.29,6.53-2.33,8.91-3.24l.6-.24c3.06-1.06,4.53.14,5.47,1.31l16.75,20.63A10.3,10.3,0,0,0,355,439l10.07-5.83a10.35,10.35,0,0,0,4.31-13.1l-9.24-24.34a5.52,5.52,0,0,1,1.69-6.23c2.43-2,4.92-4,7.4-6.22a5.39,5.39,0,0,1,6.38-.62L398,396.06a10.39,10.39,0,0,0,13.61-2l7.4-8.9a10.31,10.31,0,0,0-.37-13.75l-17.06-19.67a5.42,5.42,0,0,1-.45-6.45c1.71-2.71,3.34-5.57,4.82-8.44a5.56,5.56,0,0,1,5.86-2.82L437.29,339a10.34,10.34,0,0,0,12.14-6.51l3.95-10.88a10.36,10.36,0,0,0-5-12.84L425.58,296.1a5.4,5.4,0,0,1-2.61-5.89l.23-1.25c.53-2.8,1-5.44,1.47-8.26a5.48,5.48,0,0,1,4.46-4.64l25.7-4.14A10.43,10.43,0,0,0,464,261.64V249.93ZM171.59,361.27a135.12,135.12,0,0,1,.5-210.94l60,105.61ZM256,391.11a133.75,133.75,0,0,1-48.49-9.05L268,276.79H389.22C379.21,341.45,323.29,391.11,256,391.11Zm12.06-155.9-59.95-105.5A133.87,133.87,0,0,1,256,120.89c67.29,0,123.21,49.66,133.22,114.32Z",
             }
+            
         }
     }
 }
@@ -17539,11 +19011,15 @@ impl IconShape for IoCog {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,249.93a10.58,10.58,0,0,0-9.36-9.94L429,235.84a5.42,5.42,0,0,1-4.5-4.67c-.49-3.15-1-6.42-1.7-9.52a5.52,5.52,0,0,1,2.63-5.85l22.78-12.65a10.35,10.35,0,0,0,5-12.83l-3.95-10.9a10.32,10.32,0,0,0-12.13-6.51l-25.55,5a5.51,5.51,0,0,1-5.82-2.81c-1.49-2.79-3.11-5.63-4.8-8.42a5.6,5.6,0,0,1,.44-6.5l17-19.64a10.42,10.42,0,0,0,.39-13.76l-7.42-8.91a10.24,10.24,0,0,0-13.58-2l-22.37,13.43a5.39,5.39,0,0,1-6.39-.63c-2.47-2.17-5-4.26-7.37-6.19a5.45,5.45,0,0,1-1.72-6.21l9.26-24.4a10.35,10.35,0,0,0-4.31-13.07L354.8,72.91a10.3,10.3,0,0,0-13.45,2.83L325,96.28A4.6,4.6,0,0,1,319.4,98c-.61-.25-5.77-2.36-9.78-3.7a5.42,5.42,0,0,1-3.74-5.23L306.27,63a10.48,10.48,0,0,0-8.57-10.88l-11.45-2a10.45,10.45,0,0,0-11.75,7.17L266,82.1a5.46,5.46,0,0,1-5.36,3.65h-9.75a5.5,5.5,0,0,1-5.3-3.67l-8.46-24.67a10.46,10.46,0,0,0-11.77-7.25l-11.47,2a10.46,10.46,0,0,0-8.56,10.79l.4,26.16a5.45,5.45,0,0,1-3.86,5.25c-2.29.89-7.26,2.79-9.52,3.63-2,.72-4.18-.07-5.94-2.1l-16.26-20A10.3,10.3,0,0,0,156.69,73l-10.06,5.83A10.36,10.36,0,0,0,142.31,92l9.25,24.34a5.54,5.54,0,0,1-1.7,6.23c-2.43,2-4.92,4-7.4,6.22a5.38,5.38,0,0,1-6.35.64L114,115.74a10.4,10.4,0,0,0-13.61,2L93,126.63a10.31,10.31,0,0,0,.37,13.75L110.45,160a5.42,5.42,0,0,1,.45,6.45c-1.71,2.72-3.34,5.58-4.82,8.44a5.53,5.53,0,0,1-5.86,2.82l-25.51-4.93a10.34,10.34,0,0,0-12.14,6.51l-4,10.88a10.38,10.38,0,0,0,5,12.85l22.78,12.65A5.39,5.39,0,0,1,89,221.59l-.24,1.27c-.52,2.79-1,5.43-1.46,8.24a5.48,5.48,0,0,1-4.46,4.64l-25.69,4.15A10.42,10.42,0,0,0,48,250.16v11.58A10.26,10.26,0,0,0,57.16,272l25.68,4.14a5.41,5.41,0,0,1,4.5,4.67c.49,3.16,1,6.42,1.7,9.52a5.52,5.52,0,0,1-2.63,5.85L63.64,308.85a10.35,10.35,0,0,0-5,12.83l4,10.9a10.33,10.33,0,0,0,12.13,6.51l25.55-4.95a5.49,5.49,0,0,1,5.82,2.81c1.5,2.8,3.11,5.63,4.8,8.42a5.58,5.58,0,0,1-.44,6.5l-17,19.63A10.41,10.41,0,0,0,93,385.27l7.41,8.91a10.23,10.23,0,0,0,13.58,2l22.37-13.43a5.39,5.39,0,0,1,6.39.63c2.48,2.17,5,4.26,7.37,6.19a5.47,5.47,0,0,1,1.73,6.21l-9.27,24.4a10.35,10.35,0,0,0,4.31,13.07L157,439.09a10.3,10.3,0,0,0,13.45-2.82L187,415.92c1.4-1.73,3.6-2.5,5.23-1.84,3.48,1.44,5.81,2.25,9.94,3.63a5.44,5.44,0,0,1,3.75,5.23l-.4,26.05a10.5,10.5,0,0,0,8.57,10.88l11.45,2a10.43,10.43,0,0,0,11.75-7.17l8.5-24.77a5.45,5.45,0,0,1,5.36-3.65h9.75a5.49,5.49,0,0,1,5.3,3.67l8.47,24.67a10.48,10.48,0,0,0,10,7.41,9.74,9.74,0,0,0,1.78-.16l11.47-2a10.46,10.46,0,0,0,8.56-10.79l-.4-26.16a5.43,5.43,0,0,1,3.75-5.2c3.84-1.29,6.54-2.33,8.91-3.25l.6-.23c3.1-1.07,4.6.23,5.47,1.31l16.75,20.63A10.3,10.3,0,0,0,355,439l10.07-5.83a10.35,10.35,0,0,0,4.31-13.1l-9.24-24.34a5.52,5.52,0,0,1,1.69-6.23c2.43-2,4.92-4,7.4-6.22a5.39,5.39,0,0,1,6.38-.62L398,396.06a10.39,10.39,0,0,0,13.61-2l7.4-8.9a10.31,10.31,0,0,0-.37-13.75l-17.06-19.67a5.42,5.42,0,0,1-.45-6.45c1.71-2.71,3.34-5.57,4.82-8.44a5.55,5.55,0,0,1,5.86-2.82L437.29,339a10.34,10.34,0,0,0,12.14-6.51l3.95-10.88a10.37,10.37,0,0,0-5-12.84L425.58,296.1a5.4,5.4,0,0,1-2.61-5.89l.24-1.27c.52-2.79,1-5.43,1.46-8.24a5.48,5.48,0,0,1,4.46-4.64l25.69-4.14A10.43,10.43,0,0,0,464,261.64V249.93Zm-282.45,94a15.8,15.8,0,0,1-25.47,2.66,135.06,135.06,0,0,1,.42-181.65A15.81,15.81,0,0,1,182,167.71l45.65,80.35a15.85,15.85,0,0,1,0,15.74ZM256,391.11a134.75,134.75,0,0,1-28.31-3,15.81,15.81,0,0,1-10.23-23.36l46-80a15.79,15.79,0,0,1,13.7-7.93h92.14a15.8,15.8,0,0,1,15.1,20.53C366.91,351.67,316,391.11,256,391.11Zm7.51-163.9L218,147.07a15.81,15.81,0,0,1,10.31-23.3A134,134,0,0,1,256,120.89c60,0,110.91,39.44,128.37,93.79a15.8,15.8,0,0,1-15.1,20.53h-92A15.78,15.78,0,0,1,263.51,227.21Z",
             }
+            
         }
     }
 }
@@ -17578,6 +19054,9 @@ impl IconShape for IoColorFillOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -17588,6 +19067,7 @@ impl IconShape for IoColorFillOutline {
                 d: "M387,287.9,155.61,58.36a36,36,0,0,0-51,0l-5.15,5.15a36,36,0,0,0,0,51l52.89,52.89,57-57L56.33,263.2a28,28,0,0,0,.3,40l131.2,126a28.05,28.05,0,0,0,38.9-.1c37.8-36.6,118.3-114.5,126.7-122.9,5.8-5.8,18.2-7.1,28.7-7.1h.3A6.53,6.53,0,0,0,387,287.9Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -17622,6 +19102,9 @@ impl IconShape for IoColorFillSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -17630,6 +19113,7 @@ impl IconShape for IoColorFillSharp {
             path {
                 d: "M144,32,68,108l70,70L32,280,208,464,360.8,315.7,416,304Zm24,116-39.6-41,15.88-15.89L184,132Z",
             }
+            
         }
     }
 }
@@ -17664,6 +19148,9 @@ impl IconShape for IoColorFill {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -17672,6 +19159,7 @@ impl IconShape for IoColorFill {
             path {
                 d: "M398.23,276.64,166.89,47.22a52.1,52.1,0,0,0-73.6,0l-4.51,4.51A53.2,53.2,0,0,0,72.89,89.06,51.66,51.66,0,0,0,88.14,126l41.51,41.5L45,252a44.52,44.52,0,0,0-13,32,42.81,42.81,0,0,0,13.5,30.84l131.24,126a44,44,0,0,0,61.08-.18L361.93,320.38a15.6,15.6,0,0,1,8.23-4.29,69.21,69.21,0,0,1,11.93-.86h.3a22.53,22.53,0,0,0,15.84-38.59ZM152.29,144.85l-41.53-41.52a20,20,0,0,1,0-28.34l5.16-5.15a20.07,20.07,0,0,1,28.39,0L186,111.21Z",
             }
+            
         }
     }
 }
@@ -17706,6 +19194,9 @@ impl IconShape for IoColorFilterOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -17726,6 +19217,7 @@ impl IconShape for IoColorFilterOutline {
                 r: "120",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -17760,6 +19252,9 @@ impl IconShape for IoColorFilterSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -17783,6 +19278,7 @@ impl IconShape for IoColorFilterSharp {
             path {
                 d: "M209,311.62a136,136,0,0,0,94,0,135.93,135.93,0,0,0-47-87.22A135.93,135.93,0,0,0,209,311.62Z",
             }
+            
         }
     }
 }
@@ -17817,6 +19313,9 @@ impl IconShape for IoColorFilter {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -17840,6 +19339,7 @@ impl IconShape for IoColorFilter {
             path {
                 d: "M302.57,308.33a135.94,135.94,0,0,0-43.87-81.58,4.06,4.06,0,0,0-5.4,0,135.94,135.94,0,0,0-43.87,81.58,4,4,0,0,0,2.69,4.4,136.06,136.06,0,0,0,87.76,0A4,4,0,0,0,302.57,308.33Z",
             }
+            
         }
     }
 }
@@ -17874,6 +19374,9 @@ impl IconShape for IoColorPaletteOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -17905,6 +19408,7 @@ impl IconShape for IoColorPaletteOutline {
                 cy: "144",
                 r: "32",
             }
+            
         }
     }
 }
@@ -17939,11 +19443,15 @@ impl IconShape for IoColorPaletteSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M416,352c-12.6-.84-21-4-28-12-14-16-14-36,5.49-52.48l32.82-29.14c50.27-44.41,50.27-117.21,0-161.63C389.26,64.14,339.54,48,287.86,48c-60.34,0-123.39,22-172,65.11-90.46,80-90.46,210.92,0,290.87,45,39.76,105.63,59.59,165.64,60h1.84c60,0,119.07-19.5,161.2-56.77C464,390,464,385,444.62,355.56,440,348,431,353,416,352ZM112,208a32,32,0,1,1,32,32A32,32,0,0,1,112,208Zm40,135a32,32,0,1,1,32-32A32,32,0,0,1,152,343Zm40-199a32,32,0,1,1,32,32A32,32,0,0,1,192,144Zm64,271a48,48,0,1,1,48-48A48,48,0,0,1,256,415Zm72-239a32,32,0,1,1,32-32A32,32,0,0,1,328,176Z",
             }
+            
         }
     }
 }
@@ -17978,11 +19486,15 @@ impl IconShape for IoColorPalette {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M441,336.2l-.06-.05c-9.93-9.18-22.78-11.34-32.16-12.92l-.69-.12c-9.05-1.49-10.48-2.5-14.58-6.17-2.44-2.17-5.35-5.65-5.35-9.94s2.91-7.77,5.34-9.94l30.28-26.87c25.92-22.91,40.2-53.66,40.2-86.59S449.73,119.92,423.78,97c-35.89-31.59-85-49-138.37-49C223.72,48,162,71.37,116,112.11c-43.87,38.77-68,90.71-68,146.24s24.16,107.47,68,146.23c21.75,19.24,47.49,34.18,76.52,44.42a266.17,266.17,0,0,0,86.87,15h1.81c61,0,119.09-20.57,159.39-56.4,9.7-8.56,15.15-20.83,15.34-34.56C456.14,358.87,450.56,345.09,441,336.2ZM112,208a32,32,0,1,1,32,32A32,32,0,0,1,112,208Zm40,135a32,32,0,1,1,32-32A32,32,0,0,1,152,343Zm40-199a32,32,0,1,1,32,32A32,32,0,0,1,192,144Zm64,271a48,48,0,1,1,48-48A48,48,0,0,1,256,415Zm72-239a32,32,0,1,1,32-32A32,32,0,0,1,328,176Z",
             }
+            
         }
     }
 }
@@ -18016,6 +19528,9 @@ impl IconShape for IoColorWandOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18083,6 +19598,7 @@ impl IconShape for IoColorWandOutline {
                 y1: "259.88",
                 y2: "293.82",
             }
+            
         }
     }
 }
@@ -18116,6 +19632,9 @@ impl IconShape for IoColorWandSharp {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18162,6 +19681,7 @@ impl IconShape for IoColorWandSharp {
                 x: "67.22",
                 y: "260.92",
             }
+            
         }
     }
 }
@@ -18196,6 +19716,9 @@ impl IconShape for IoColorWand {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -18203,27 +19726,28 @@ impl IconShape for IoColorWand {
             }
             path {
                 d: "M124.1,140.1c-4.2,0-8.3-1.7-11.3-4.7l-33.9-33.9c-6.2-6.2-6.2-16.4,0-22.6s16.4-6.2,22.6,0l33.9,33.9
-	c6.3,6.2,6.3,16.4,0,22.6C132.4,138.4,128.4,140.1,124.1,140.1z",
+                	c6.3,6.2,6.3,16.4,0,22.6C132.4,138.4,128.4,140.1,124.1,140.1z",
             }
             path {
                 d: "M192,112c-8.8,0-16-7.2-16-16V48c0-8.8,7.2-16,16-16s16,7.2,16,16v48C208,104.8,200.8,112,192,112z",
             }
             path {
                 d: "M259.9,140.1c-8.8,0-16-7.2-16-16c0-4.2,1.7-8.3,4.7-11.3l33.9-33.9c6.2-6.2,16.4-6.2,22.6,0c6.2,6.2,6.2,16.4,0,22.6
-	l-33.9,33.9C268.2,138.4,264.1,140.1,259.9,140.1z",
+                	l-33.9,33.9C268.2,138.4,264.1,140.1,259.9,140.1z",
             }
             path {
                 d: "M90.2,309.8c-8.8,0-16-7.2-16-16c0-4.2,1.7-8.3,4.7-11.3l33.9-33.9c6.2-6.2,16.4-6.2,22.6,0s6.2,16.4,0,22.6l-33.9,33.9
-	C98.5,308.1,94.4,309.8,90.2,309.8z",
+                	C98.5,308.1,94.4,309.8,90.2,309.8z",
             }
             path {
                 d: "M234.2,167c-18.4-18.7-48.5-19-67.2-0.7s-19,48.5-0.7,67.2c0.2,0.2,0.5,0.5,0.7,0.7l39.5,39.5c3.1,3.1,8.2,3.1,11.3,0
-	l55.9-55.9c3.1-3.1,3.1-8.2,0-11.3L234.2,167z",
+                	l55.9-55.9c3.1-3.1,3.1-8.2,0-11.3L234.2,167z",
             }
             path {
                 d: "M457,389.8L307.6,240.4c-3.1-3.1-8.2-3.1-11.3,0l-55.9,55.9c-3.1,3.1-3.1,8.2,0,11.3L389.8,457c18.4,18.7,48.5,19,67.2,0.7
-	c18.7-18.4,19-48.5,0.7-67.2C457.5,390.3,457.3,390,457,389.8L457,389.8z",
+                	c18.7-18.4,19-48.5,0.7-67.2C457.5,390.3,457.3,390,457,389.8L457,389.8z",
             }
+            
         }
     }
 }
@@ -18258,6 +19782,9 @@ impl IconShape for IoCompassOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -18267,6 +19794,7 @@ impl IconShape for IoCompassOutline {
             path {
                 d: "M350.67,150.93l-117.2,46.88a64,64,0,0,0-35.66,35.66l-46.88,117.2a8,8,0,0,0,10.4,10.4l117.2-46.88a64,64,0,0,0,35.66-35.66l46.88-117.2A8,8,0,0,0,350.67,150.93ZM256,280a24,24,0,1,1,24-24A24,24,0,0,1,256,280Z",
             }
+            
         }
     }
 }
@@ -18301,6 +19829,9 @@ impl IconShape for IoCompassSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -18311,6 +19842,7 @@ impl IconShape for IoCompassSharp {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm48,256L144,368l64-160,160-64Z",
             }
+            
         }
     }
 }
@@ -18345,6 +19877,9 @@ impl IconShape for IoCompass {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -18355,6 +19890,7 @@ impl IconShape for IoCompass {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM361.07,161.33l-46.88,117.2a64,64,0,0,1-35.66,35.66l-117.2,46.88a8,8,0,0,1-10.4-10.4l46.88-117.2a64,64,0,0,1,35.66-35.66l117.2-46.88A8,8,0,0,1,361.07,161.33Z",
             }
+            
         }
     }
 }
@@ -18389,6 +19925,9 @@ impl IconShape for IoConstructOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -18407,6 +19946,7 @@ impl IconShape for IoConstructOutline {
                 d: "M17.34,193.5l29.41-28.74a4.71,4.71,0,0,1,3.41-1.35,4.85,4.85,0,0,1,3.41,1.35h0a9.86,9.86,0,0,0,8.19,2.77c3.83-.42,7.92-1.6,10.57-4.12,6-5.8-.94-17.23,4.34-24.54a207,207,0,0,1,19.78-22.6c6-5.88,29.84-28.32,69.9-44.45A107.31,107.31,0,0,1,206.67,64c22.59,0,40,10,46.26,15.67a89.54,89.54,0,0,1,10.28,11.64A78.92,78.92,0,0,0,254,88.54,68.82,68.82,0,0,0,234,87.28c-13.33,1.09-29.41,7.26-38,14-13.9,11-19.87,25.72-20.81,44.71-.68,14.12,2.72,22.1,36.1,55.49a6.6,6.6,0,0,1-.34,9.16l-18.22,18a6.88,6.88,0,0,1-9.54.09c-21.94-21.94-36.65-33.09-45-38.16s-15.07-6.5-18.3-6.85a30.85,30.85,0,0,0-18.27,3.87,11.39,11.39,0,0,0-2.64,2,14.14,14.14,0,0,0,.42,20.08l1.71,1.6a4.63,4.63,0,0,1,0,6.64L71.73,246.6A4.71,4.71,0,0,1,68.32,248a4.86,4.86,0,0,1-3.41-1.35L17.34,200.22A4.88,4.88,0,0,1,17.34,193.5Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -18441,6 +19981,9 @@ impl IconShape for IoConstructSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -18452,6 +19995,7 @@ impl IconShape for IoConstructSharp {
             path {
                 d: "M119,212c0-4.87-4-9.33-7.45-12.78l-.25-.24-1.54-1.47a1.06,1.06,0,0,1-.26-.8,16.16,16.16,0,0,1,9.52-2c1.27.13,5.91.9,12.4,4.91,3.38,2.09,32.63,30.23,43.93,40.7a11,11,0,0,0,.14,15.35l7.43,7.86,65.66-65.17-8.25-7.84a10.87,10.87,0,0,0-15.31-.06c-23-24.68-29-35.45-31-42.45-4.42-15.47,4.14-28,14-36,5.84-4.62,17.88-8.08,29-9a52.72,52.72,0,0,1,11.61.6c3.47.5,6.3,1.14,7.39,1.4a68.51,68.51,0,0,1,11,4l12-19a88.38,88.38,0,0,0-13.4-17.7c-1.59-1.66-3.31-3.37-5.19-5.1-7.78-7.15-28-19.2-54.59-19.2a117.38,117.38,0,0,0-44.77,8.82c-37.44,15.34-61.88,36.25-73.11,47.35l-.07.07A219.55,219.55,0,0,0,67,128.56c-5.35,7.53-4.77,15.84-4.38,21.34,0,.32,0,.67.07,1a18.41,18.41,0,0,0-10.78-3.5A18,18,0,0,0,39,152.73L2,189.62a6.79,6.79,0,0,0,0,9.6L65,262a6.72,6.72,0,0,0,9.5,0l37.06-37C115,221.56,119,216.86,119,212Z",
             }
+            
         }
     }
 }
@@ -18486,6 +20030,9 @@ impl IconShape for IoConstruct {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -18497,6 +20044,7 @@ impl IconShape for IoConstruct {
             path {
                 d: "M118.54,214.55a20.48,20.48,0,0,0-3-10.76,2.76,2.76,0,0,1,2.62-4.22h.06c.84.09,5.33.74,11.7,4.61,4.73,2.87,18.23,12.08,41.73,35.54a34.23,34.23,0,0,0,7.22,22.12l66.23-61.55a33.73,33.73,0,0,0-21.6-9.2,2.65,2.65,0,0,1-.21-.26l-.65-.69L198.1,156.3a28.45,28.45,0,0,1-4-26.11,35.23,35.23,0,0,1,11.78-16.35c5.69-4.41,18.53-9.72,29.44-10.62a52.92,52.92,0,0,1,15.19.94,65.57,65.57,0,0,1,7.06,2.13,15.46,15.46,0,0,0,2.15.63,16,16,0,0,0,16.38-25.06c-.26-.35-1.32-1.79-2.89-3.73a91.85,91.85,0,0,0-9.6-10.36c-8.15-7.36-29.27-19.77-57-19.77a123.13,123.13,0,0,0-46.3,9C121.94,72.45,96.84,93.58,85.3,104.79l-.09.09A222.14,222.14,0,0,0,63.7,129.5,27,27,0,0,0,59,141.27a7.33,7.33,0,0,1-7.71,6.17c-.36,0-.73,0-1.09,0a20.65,20.65,0,0,0-14.59,5.9L6.16,182.05l-.32.32a20.89,20.89,0,0,0-.24,28.72c.19.2.37.39.57.58L53.67,258A21,21,0,0,0,68.32,264a20.65,20.65,0,0,0,14.59-5.9l29.46-28.79A20.51,20.51,0,0,0,118.54,214.55Z",
             }
+            
         }
     }
 }
@@ -18531,6 +20079,9 @@ impl IconShape for IoContractOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -18577,6 +20128,7 @@ impl IconShape for IoContractOutline {
                 y1: "314.2",
                 y2: "432",
             }
+            
         }
     }
 }
@@ -18611,6 +20163,9 @@ impl IconShape for IoContractSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -18657,6 +20212,7 @@ impl IconShape for IoContractSharp {
                 y1: "314.2",
                 y2: "432",
             }
+            
         }
     }
 }
@@ -18691,6 +20247,9 @@ impl IconShape for IoContract {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -18737,6 +20296,7 @@ impl IconShape for IoContract {
                 y1: "314.2",
                 y2: "432",
             }
+            
         }
     }
 }
@@ -18771,6 +20331,9 @@ impl IconShape for IoContrastOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -18782,6 +20345,7 @@ impl IconShape for IoContrastOutline {
             path {
                 d: "M256,464C141.12,464,48,370.88,48,256S141.12,48,256,48Z",
             }
+            
         }
     }
 }
@@ -18816,11 +20380,15 @@ impl IconShape for IoContrastSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,32C132.29,32,32,132.29,32,256S132.29,480,256,480,480,379.71,480,256,379.71,32,256,32ZM128.72,383.28A180,180,0,0,1,256,76V436A178.82,178.82,0,0,1,128.72,383.28Z",
             }
+            
         }
     }
 }
@@ -18855,11 +20423,15 @@ impl IconShape for IoContrast {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,32A224,224,0,0,0,97.61,414.39,224,224,0,1,0,414.39,97.61,222.53,222.53,0,0,0,256,32ZM64,256C64,150.13,150.13,64,256,64V448C150.13,448,64,361.87,64,256Z",
             }
+            
         }
     }
 }
@@ -18894,6 +20466,9 @@ impl IconShape for IoCopyOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -18909,6 +20484,7 @@ impl IconShape for IoCopyOutline {
                 d: "M383.5,128l.5-24a56.16,56.16,0,0,0-56-56H112a64.19,64.19,0,0,0-64,64V328a56.16,56.16,0,0,0,56,56h24",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -18943,6 +20519,9 @@ impl IconShape for IoCopySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -18951,6 +20530,7 @@ impl IconShape for IoCopySharp {
             path {
                 d: "M112,80H400V56a24,24,0,0,0-24-24H60A28,28,0,0,0,32,60V376a24,24,0,0,0,24,24H80V112A32,32,0,0,1,112,80Z",
             }
+            
         }
     }
 }
@@ -18985,6 +20565,9 @@ impl IconShape for IoCopy {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -18993,6 +20576,7 @@ impl IconShape for IoCopy {
             path {
                 d: "M160,80H395.88A72.12,72.12,0,0,0,328,32H104a72,72,0,0,0-72,72V328a72.12,72.12,0,0,0,48,67.88V160A80,80,0,0,1,160,80Z",
             }
+            
         }
     }
 }
@@ -19027,6 +20611,9 @@ impl IconShape for IoCreateOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -19039,6 +20626,7 @@ impl IconShape for IoCreateOutline {
             path {
                 d: "M399.34,90,218.82,270.2a9,9,0,0,0-2.31,3.93L208.16,299a3.91,3.91,0,0,0,4.86,4.86l24.85-8.35a9,9,0,0,0,3.93-2.31L422,112.66A9,9,0,0,0,422,100L412.05,90A9,9,0,0,0,399.34,90Z",
             }
+            
         }
     }
 }
@@ -19073,6 +20661,9 @@ impl IconShape for IoCreateSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -19087,6 +20678,7 @@ impl IconShape for IoCreateSharp {
             polygon {
                 points: "208 304 239.49 304 400 143.16 400 112 368.85 112 208 272.51 208 304",
             }
+            
         }
     }
 }
@@ -19121,6 +20713,9 @@ impl IconShape for IoCreate {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -19132,6 +20727,7 @@ impl IconShape for IoCreate {
             path {
                 d: "M386.34,193.66,264.45,315.79A41.08,41.08,0,0,1,247.58,326l-25.9,8.67a35.92,35.92,0,0,1-44.33-44.33l8.67-25.9a41.08,41.08,0,0,1,10.19-16.87L318.34,125.66A8,8,0,0,0,312.69,112H104a56,56,0,0,0-56,56V408a56,56,0,0,0,56,56H344a56,56,0,0,0,56-56V199.31A8,8,0,0,0,386.34,193.66Z",
             }
+            
         }
     }
 }
@@ -19166,6 +20762,9 @@ impl IconShape for IoCropOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -19190,6 +20789,7 @@ impl IconShape for IoCropOutline {
                 y1: "144",
                 y2: "144",
             }
+            
         }
     }
 }
@@ -19224,6 +20824,9 @@ impl IconShape for IoCropSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -19232,6 +20835,7 @@ impl IconShape for IoCropSharp {
             polygon {
                 points: "346 320 390 320 390 122 192 122 192 166 346 166 346 320",
             }
+            
         }
     }
 }
@@ -19266,6 +20870,9 @@ impl IconShape for IoCrop {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -19274,6 +20881,7 @@ impl IconShape for IoCrop {
             path {
                 d: "M214,166H320a26,26,0,0,1,26,26V298a22,22,0,0,0,44,0V192a70.08,70.08,0,0,0-70-70H214a22,22,0,0,0,0,44Z",
             }
+            
         }
     }
 }
@@ -19308,6 +20916,9 @@ impl IconShape for IoCubeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -19325,6 +20936,7 @@ impl IconShape for IoCubeOutline {
                 y1: "463.99",
                 y2: "263.99",
             }
+            
         }
     }
 }
@@ -19359,6 +20971,9 @@ impl IconShape for IoCubeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -19370,6 +20985,7 @@ impl IconShape for IoCubeSharp {
             polygon {
                 points: "448 144 256 32 64 144 256 256 448 144",
             }
+            
         }
     }
 }
@@ -19404,6 +21020,9 @@ impl IconShape for IoCube {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -19415,6 +21034,7 @@ impl IconShape for IoCube {
             path {
                 d: "M272,275v201a4,4,0,0,0,6,3.46l162.15-97.23A48,48,0,0,0,464,340.89V167a4,4,0,0,0-6-3.45l-184,108A4,4,0,0,0,272,275Z",
             }
+            
         }
     }
 }
@@ -19449,6 +21069,9 @@ impl IconShape for IoCutOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -19481,6 +21104,7 @@ impl IconShape for IoCutOutline {
                 r: "32",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -19515,6 +21139,9 @@ impl IconShape for IoCutSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -19523,6 +21150,7 @@ impl IconShape for IoCutSharp {
             polygon {
                 points: "343.79 259.87 260.05 308.05 432 368 479.99 368 480 336 343.79 259.87",
             }
+            
         }
     }
 }
@@ -19557,6 +21185,9 @@ impl IconShape for IoCut {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -19568,6 +21199,7 @@ impl IconShape for IoCut {
             path {
                 d: "M343.79,259.87l-83.74,48.18,27.63,13.08,3.62,1.74C310,331.92,359.74,356,410.53,359c3.89.23,7.47.34,10.78.34C442,359.31,453,354,459.75,350L480,336Z",
             }
+            
         }
     }
 }
@@ -19602,6 +21234,9 @@ impl IconShape for IoDesktopOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -19627,6 +21262,7 @@ impl IconShape for IoDesktopOutline {
             path {
                 d: "M32,304v48a32.09,32.09,0,0,0,32,32H448a32.09,32.09,0,0,0,32-32V304Zm224,64a16,16,0,1,1,16-16A16,16,0,0,1,256,368Z",
             }
+            
         }
     }
 }
@@ -19661,11 +21297,15 @@ impl IconShape for IoDesktopSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M480,48H32A16,16,0,0,0,16,64V384a16,16,0,0,0,16,16H200v32H128v32H384V432H312V400H480a16,16,0,0,0,16-16V64A16,16,0,0,0,480,48ZM460,84V300H52V84ZM240.13,354.08a16,16,0,1,1,13.79,13.79A16,16,0,0,1,240.13,354.08Z",
             }
+            
         }
     }
 }
@@ -19700,6 +21340,9 @@ impl IconShape for IoDesktop {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-h"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -19708,6 +21351,7 @@ impl IconShape for IoDesktop {
             path {
                 d: "M496,96a48.05,48.05,0,0,0-48-48H64A48.05,48.05,0,0,0,16,96V288H496Z",
             }
+            
         }
     }
 }
@@ -19741,6 +21385,9 @@ impl IconShape for IoDiamondOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19795,6 +21442,7 @@ impl IconShape for IoDiamondOutline {
                 y1: "448",
                 y2: "176",
             }
+            
         }
     }
 }
@@ -19829,6 +21477,9 @@ impl IconShape for IoDiamondSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -19855,6 +21506,7 @@ impl IconShape for IoDiamondSharp {
             polygon {
                 points: "329.39 192 182.61 192 256 400 329.39 192",
             }
+            
         }
     }
 }
@@ -19889,6 +21541,9 @@ impl IconShape for IoDiamond {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -19912,6 +21567,7 @@ impl IconShape for IoDiamond {
             path {
                 d: "M259.2,78.93l56,74.67A4,4,0,0,1,312,160H200a4,4,0,0,1-3.2-6.4l56-74.67A4,4,0,0,1,259.2,78.93Zm-7,310.31L184.5,197.33a4,4,0,0,1,3.77-5.33H323.73a4,4,0,0,1,3.77,5.33L259.77,389.24A4,4,0,0,1,252.23,389.24Z",
             }
+            
         }
     }
 }
@@ -19945,6 +21601,9 @@ impl IconShape for IoDiceOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20014,6 +21673,7 @@ impl IconShape for IoDiceOutline {
                 rx: "16",
                 ry: "24",
             }
+            
         }
     }
 }
@@ -20048,6 +21708,9 @@ impl IconShape for IoDiceSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20059,6 +21722,7 @@ impl IconShape for IoDiceSharp {
             path {
                 d: "M256,32,64,144,256,256,448,144Zm0,120c-13.25,0-24-7.16-24-16s10.75-16,24-16,24,7.16,24,16S269.25,152,256,152Z",
             }
+            
         }
     }
 }
@@ -20093,6 +21757,9 @@ impl IconShape for IoDice {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20104,6 +21771,7 @@ impl IconShape for IoDice {
             path {
                 d: "M458,163.51,274,271.56a4,4,0,0,0-2,3.45V476a4,4,0,0,0,6,3.46l162.15-97.23A48,48,0,0,0,464,340.86V167A4,4,0,0,0,458,163.51ZM320,424c-8.84,0-16-10.75-16-24s7.16-24,16-24,16,10.75,16,24S328.84,424,320,424Zm0-88c-8.84,0-16-10.75-16-24s7.16-24,16-24,16,10.75,16,24S328.84,336,320,336Zm96,32c-8.84,0-16-10.75-16-24s7.16-24,16-24,16,10.75,16,24S424.84,368,416,368Zm0-88c-8.84,0-16-10.75-16-24s7.16-24,16-24,16,10.75,16,24S424.84,280,416,280Z",
             }
+            
         }
     }
 }
@@ -20138,6 +21806,9 @@ impl IconShape for IoDiscOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -20157,6 +21828,7 @@ impl IconShape for IoDiscOutline {
                 cy: "256",
                 r: "32",
             }
+            
         }
     }
 }
@@ -20191,6 +21863,9 @@ impl IconShape for IoDiscSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -20201,6 +21876,7 @@ impl IconShape for IoDiscSharp {
             path {
                 d: "M414.39,97.61A224,224,0,1,0,97.61,414.39,224,224,0,1,0,414.39,97.61ZM256,336a80,80,0,1,1,80-80A80.09,80.09,0,0,1,256,336Z",
             }
+            
         }
     }
 }
@@ -20235,6 +21911,9 @@ impl IconShape for IoDisc {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20243,6 +21922,7 @@ impl IconShape for IoDisc {
             path {
                 d: "M414.39,97.61A224,224,0,1,0,97.61,414.39,224,224,0,1,0,414.39,97.61ZM256,368A112,112,0,1,1,368,256,112.12,112.12,0,0,1,256,368Z",
             }
+            
         }
     }
 }
@@ -20277,6 +21957,9 @@ impl IconShape for IoDocumentAttachOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20291,6 +21974,7 @@ impl IconShape for IoDocumentAttachOutline {
                 d: "M160,80V232a23.69,23.69,0,0,1-24,24c-12,0-24-9.1-24-24V88c0-30.59,16.57-56,48-56s48,24.8,48,55.38V226.13c0,43-27.82,77.87-72,77.87s-72-34.86-72-77.87V144",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -20325,6 +22009,9 @@ impl IconShape for IoDocumentAttachSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20333,6 +22020,7 @@ impl IconShape for IoDocumentAttachSharp {
             path {
                 d: "M308,208H454.31a2,2,0,0,0,1.42-3.41L307.41,56.27A2,2,0,0,0,304,57.69V204A4,4,0,0,0,308,208Z",
             }
+            
         }
     }
 }
@@ -20367,6 +22055,9 @@ impl IconShape for IoDocumentAttach {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20375,6 +22066,7 @@ impl IconShape for IoDocumentAttach {
             path {
                 d: "M320,208H449.81a2,2,0,0,0,1.41-3.41L307.41,60.78A2,2,0,0,0,304,62.19V192A16,16,0,0,0,320,208Z",
             }
+            
         }
     }
 }
@@ -20409,6 +22101,9 @@ impl IconShape for IoDocumentLockOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20434,6 +22129,7 @@ impl IconShape for IoDocumentLockOutline {
                 stroke_linejoin: "round",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -20468,6 +22164,9 @@ impl IconShape for IoDocumentLockSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20479,6 +22178,7 @@ impl IconShape for IoDocumentLockSharp {
             path {
                 d: "M248,224a8,8,0,0,1-8-8V32H92A12,12,0,0,0,80,44V468a12,12,0,0,0,12,12H420a12,12,0,0,0,12-12V224Zm88,175.91A16.1,16.1,0,0,1,319.91,416H192.09A16.1,16.1,0,0,1,176,399.91V320c0-10,7-16,16-16h16V286c0-25.36,21.53-46,48-46s48,20.64,48,46v18h16a15.8,15.8,0,0,1,16,16Z",
             }
+            
         }
     }
 }
@@ -20513,6 +22213,9 @@ impl IconShape for IoDocumentLock {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20524,6 +22227,7 @@ impl IconShape for IoDocumentLock {
             path {
                 d: "M428,224H288a48,48,0,0,1-48-48V36a4,4,0,0,0-4-4H144A64,64,0,0,0,80,96V416a64,64,0,0,0,64,64H368a64,64,0,0,0,64-64V228A4,4,0,0,0,428,224ZM336,384a32,32,0,0,1-32,32H208a32,32,0,0,1-32-32V336a32,32,0,0,1,32-32V286c0-25.36,21.53-46,48-46s48,20.64,48,46v18a32,32,0,0,1,32,32Z",
             }
+            
         }
     }
 }
@@ -20558,6 +22262,9 @@ impl IconShape for IoDocumentOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20568,6 +22275,7 @@ impl IconShape for IoDocumentOutline {
                 d: "M256,56V176a32,32,0,0,0,32,32H408",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -20602,6 +22310,9 @@ impl IconShape for IoDocumentSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20610,6 +22321,7 @@ impl IconShape for IoDocumentSharp {
             path {
                 d: "M272,41.69V188a4,4,0,0,0,4,4H422.31a2,2,0,0,0,1.42-3.41L275.41,40.27A2,2,0,0,0,272,41.69Z",
             }
+            
         }
     }
 }
@@ -20644,6 +22356,9 @@ impl IconShape for IoDocumentTextOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20668,6 +22383,7 @@ impl IconShape for IoDocumentTextOutline {
                 y1: "368",
                 y2: "368",
             }
+            
         }
     }
 }
@@ -20702,6 +22418,9 @@ impl IconShape for IoDocumentTextSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20710,6 +22429,7 @@ impl IconShape for IoDocumentTextSharp {
             path {
                 d: "M248,224a8,8,0,0,1-8-8V32H92A12,12,0,0,0,80,44V468a12,12,0,0,0,12,12H420a12,12,0,0,0,12-12V224ZM352,384H160V352H352Zm0-80H160V272H352Z",
             }
+            
         }
     }
 }
@@ -20744,6 +22464,9 @@ impl IconShape for IoDocumentText {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20752,6 +22475,7 @@ impl IconShape for IoDocumentText {
             path {
                 d: "M419.22,188.59,275.41,44.78A2,2,0,0,0,272,46.19V176a16,16,0,0,0,16,16H417.81A2,2,0,0,0,419.22,188.59Z",
             }
+            
         }
     }
 }
@@ -20786,6 +22510,9 @@ impl IconShape for IoDocument {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20794,6 +22521,7 @@ impl IconShape for IoDocument {
             path {
                 d: "M419.22,188.59,275.41,44.78A2,2,0,0,0,272,46.19V176a16,16,0,0,0,16,16H417.81A2,2,0,0,0,419.22,188.59Z",
             }
+            
         }
     }
 }
@@ -20828,6 +22556,9 @@ impl IconShape for IoDocumentsOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20846,6 +22577,7 @@ impl IconShape for IoDocumentsOutline {
                 d: "M312,32V140a28.34,28.34,0,0,0,28,28H448",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -20880,6 +22612,9 @@ impl IconShape for IoDocumentsSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20894,6 +22629,7 @@ impl IconShape for IoDocumentsSharp {
             path {
                 d: "M340,152a12,12,0,0,1-12-12V16H172a12,12,0,0,0-12,12v84h42.12A40.81,40.81,0,0,1,231,124.14l109.16,111a41.11,41.11,0,0,1,11.83,29V400H452a12,12,0,0,0,12-12V152Z",
             }
+            
         }
     }
 }
@@ -20928,6 +22664,9 @@ impl IconShape for IoDocuments {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20942,6 +22681,7 @@ impl IconShape for IoDocuments {
             path {
                 d: "M372,152a44.34,44.34,0,0,1-44-44V16H220a60.07,60.07,0,0,0-60,60v36h42.12A40.81,40.81,0,0,1,231,124.14l109.16,111a41.11,41.11,0,0,1,11.83,29V400h53.05c32.51,0,58.95-26.92,58.95-60V152Z",
             }
+            
         }
     }
 }
@@ -20976,6 +22716,9 @@ impl IconShape for IoDownloadOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -20993,6 +22736,7 @@ impl IconShape for IoDownloadOutline {
                 y1: "48",
                 y2: "336",
             }
+            
         }
     }
 }
@@ -21027,6 +22771,9 @@ impl IconShape for IoDownloadSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -21038,6 +22785,7 @@ impl IconShape for IoDownloadSharp {
                 x: "240",
                 y: "32",
             }
+            
         }
     }
 }
@@ -21072,6 +22820,9 @@ impl IconShape for IoDownload {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -21080,6 +22831,7 @@ impl IconShape for IoDownload {
             path {
                 d: "M272,48a16,16,0,0,0-32,0V160h32Z",
             }
+            
         }
     }
 }
@@ -21114,6 +22866,9 @@ impl IconShape for IoDuplicateOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -21143,6 +22898,7 @@ impl IconShape for IoDuplicateOutline {
                 y1: "296",
                 y2: "296",
             }
+            
         }
     }
 }
@@ -21177,6 +22933,9 @@ impl IconShape for IoDuplicateSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -21185,6 +22944,7 @@ impl IconShape for IoDuplicateSharp {
             path {
                 d: "M456,112H136a24,24,0,0,0-24,24V456a24,24,0,0,0,24,24H456a24,24,0,0,0,24-24V136A24,24,0,0,0,456,112ZM392,312H312v80H280V312H200V280h80V200h32v80h80Z",
             }
+            
         }
     }
 }
@@ -21219,6 +22979,9 @@ impl IconShape for IoDuplicate {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -21227,6 +22990,7 @@ impl IconShape for IoDuplicate {
             path {
                 d: "M395.88,80A72.12,72.12,0,0,0,328,32H104a72,72,0,0,0-72,72V328a72.12,72.12,0,0,0,48,67.88V160a80,80,0,0,1,80-80Z",
             }
+            
         }
     }
 }
@@ -21261,6 +23025,9 @@ impl IconShape for IoEarOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -21275,6 +23042,7 @@ impl IconShape for IoEarOutline {
                 d: "M160,239c25-18,79.82-15,79.82-15,26,0,41.17,29.42,26,50.6,0,0-36.86,42.4-41.86,61.4",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -21309,11 +23077,15 @@ impl IconShape for IoEarSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M380.48,68.09C347.09,34.5,302.88,16,256,16,159,16,80,95,80,192V398.57a97.59,97.59,0,0,0,28,68.49A94.49,94.49,0,0,0,176,496c19.93,0,41.06-7.69,62.8-22.87a181.46,181.46,0,0,0,25.88-21.86C327.37,390.16,432,288.06,432,192,432,145.51,413.71,101.51,380.48,68.09ZM368,200H336V184c0-39.7-35.89-72-80-72s-80,32.3-80,72v30.41c27.5-7.84,59.89-6.62,64.26-6.41a48,48,0,0,1,38.62,75.9c-.3.41-.61.81-.95,1.2-16.55,19-36,45.49-38.46,55l-4.07,15.47-30.94-8.14,4.07-15.47c5.51-20.94,36.93-58.2,44.66-67.15A16,16,0,0,0,239.82,240l-.88,0c-10.67-.58-42.66-.25-62.12,8l-.82.35V320H144V184c0-57.35,50.24-104,112-104s112,46.65,112,104Z",
             }
+            
         }
     }
 }
@@ -21348,11 +23120,15 @@ impl IconShape for IoEar {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,16C159,16,80,95,80,192V398.57a97.59,97.59,0,0,0,28,68.49A94.51,94.51,0,0,0,176,496c36.86,0,67.18-15.62,90.12-46.42,4.48-6,9.55-14.74,15.42-24.85,15.32-26.37,36.29-62.47,63.17-80.74,25.77-17.51,47.23-39.54,62-63.72C423.51,252.94,432,223.24,432,192,432,95,353.05,16,256,16Zm96,184a16,16,0,0,1-16-16c0-39.7-35.89-72-80-72s-80,32.3-80,72v30.42c27.19-7.84,58.4-6.72,64.28-6.42a48,48,0,0,1,38.6,75.9c-.3.41-.61.81-.95,1.2-16.55,19-36,45.48-38.46,55a16,16,0,0,1-30.94-8.14c5.51-20.94,36.93-58.2,44.66-67.15A16,16,0,0,0,239.82,240l-.88,0c-16.6-.89-45.89.8-62.94,8.31V304a16,16,0,0,1-32,0V184c0-57.35,50.24-104,112-104s112,46.65,112,104A16,16,0,0,1,352,200Z",
             }
+            
         }
     }
 }
@@ -21387,6 +23163,9 @@ impl IconShape for IoEarthOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -21408,6 +23187,7 @@ impl IconShape for IoEarthOutline {
             path {
                 d: "M349.62,166.24c8.67,5.19,21.53,2.75,28.07-4.66,5.11-5.8,8.12-15.87,17.31-15.86a15.4,15.4,0,0,1,10.82,4.41c3.8,3.93,3.05,7.62,3.86,12.54,1.81,11.05,13.66.63,16.75-3.65,2-2.79,4.71-6.93,3.8-10.56-.84-3.39-4.8-7-6.56-10.11-5.14-9-9.37-19.47-17.07-26.74-7.41-7-16.52-6.19-23.55,1.08-5.76,6-12.45,10.75-16.39,18.05-2.78,5.13-5.91,7.58-11.54,8.91-3.1.73-6.64,1-9.24,3.08C338.64,148.43,342.76,162.12,349.62,166.24Z",
             }
+            
         }
     }
 }
@@ -21442,6 +23222,9 @@ impl IconShape for IoEarthSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -21465,6 +23248,7 @@ impl IconShape for IoEarthSharp {
             path {
                 d: "M256,72a184,184,0,1,1-130.1,53.9A182.77,182.77,0,0,1,256,72m0-40C132.3,32,32,132.3,32,256S132.3,480,256,480,480,379.7,480,256,379.7,32,256,32Z",
             }
+            
         }
     }
 }
@@ -21499,11 +23283,15 @@ impl IconShape for IoEarth {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414.39,97.74A224,224,0,1,0,97.61,414.52,224,224,0,1,0,414.39,97.74ZM64,256.13a191.63,191.63,0,0,1,6.7-50.31c7.34,15.8,18,29.45,25.25,45.66,9.37,20.84,34.53,15.06,45.64,33.32,9.86,16.21-.67,36.71,6.71,53.67,5.36,12.31,18,15,26.72,24,8.91,9.08,8.72,21.52,10.08,33.36a305.36,305.36,0,0,0,7.45,41.27c0,.1,0,.21.08.31C117.8,411.13,64,339.8,64,256.13Zm192,192a193.12,193.12,0,0,1-32-2.68c.11-2.71.16-5.24.43-7,2.43-15.9,10.39-31.45,21.13-43.35,10.61-11.74,25.15-19.68,34.11-33,8.78-13,11.41-30.5,7.79-45.69-5.33-22.44-35.82-29.93-52.26-42.1-9.45-7-17.86-17.82-30.27-18.7-5.72-.4-10.51.83-16.18-.63-5.2-1.35-9.28-4.15-14.82-3.42-10.35,1.36-16.88,12.42-28,10.92-10.55-1.41-21.42-13.76-23.82-23.81-3.08-12.92,7.14-17.11,18.09-18.26,4.57-.48,9.7-1,14.09.68,5.78,2.14,8.51,7.8,13.7,10.66,9.73,5.34,11.7-3.19,10.21-11.83-2.23-12.94-4.83-18.21,6.71-27.12,8-6.14,14.84-10.58,13.56-21.61-.76-6.48-4.31-9.41-1-15.86,2.51-4.91,9.4-9.34,13.89-12.27,11.59-7.56,49.65-7,34.1-28.16-4.57-6.21-13-17.31-21-18.83-10-1.89-14.44,9.27-21.41,14.19-7.2,5.09-21.22,10.87-28.43,3-9.7-10.59,6.43-14.06,10-21.46,1.65-3.45,0-8.24-2.78-12.75q5.41-2.28,11-4.23a15.6,15.6,0,0,0,8,3c6.69.44,13-3.18,18.84,1.38,6.48,5,11.15,11.32,19.75,12.88,8.32,1.51,17.13-3.34,19.19-11.86,1.25-5.18,0-10.65-1.2-16a190.83,190.83,0,0,1,105,32.21c-2-.76-4.39-.67-7.34.7-6.07,2.82-14.67,10-15.38,17.12-.81,8.08,11.11,9.22,16.77,9.22,8.5,0,17.11-3.8,14.37-13.62-1.19-4.26-2.81-8.69-5.42-11.37a193.27,193.27,0,0,1,18,14.14c-.09.09-.18.17-.27.27-5.76,6-12.45,10.75-16.39,18.05-2.78,5.14-5.91,7.58-11.54,8.91-3.1.73-6.64,1-9.24,3.08-7.24,5.7-3.12,19.4,3.74,23.51,8.67,5.19,21.53,2.75,28.07-4.66,5.11-5.8,8.12-15.87,17.31-15.86a15.4,15.4,0,0,1,10.82,4.41c3.8,3.94,3.05,7.62,3.86,12.54,1.43,8.74,9.14,4,13.83-.41a192.12,192.12,0,0,1,9.24,18.77c-5.16,7.43-9.26,15.53-21.67,6.87-7.43-5.19-12-12.72-21.33-15.06-8.15-2-16.5.08-24.55,1.47-9.15,1.59-20,2.29-26.94,9.22-6.71,6.68-10.26,15.62-17.4,22.33-13.81,13-19.64,27.19-10.7,45.57,8.6,17.67,26.59,27.26,46,26,19.07-1.27,38.88-12.33,38.33,15.38-.2,9.81,1.85,16.6,4.86,25.71,2.79,8.4,2.6,16.54,3.24,25.21A158,158,0,0,0,407.43,374,191.75,191.75,0,0,1,256,448.13Z",
             }
+            
         }
     }
 }
@@ -21537,6 +23325,9 @@ impl IconShape for IoEaselOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21577,6 +23368,7 @@ impl IconShape for IoEaselOutline {
                 y1: "464",
                 y2: "352",
             }
+            
         }
     }
 }
@@ -21611,6 +23403,9 @@ impl IconShape for IoEaselSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -21622,6 +23417,7 @@ impl IconShape for IoEaselSharp {
                 x: "88",
                 y: "120",
             }
+            
         }
     }
 }
@@ -21656,6 +23452,9 @@ impl IconShape for IoEasel {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -21669,6 +23468,7 @@ impl IconShape for IoEasel {
             path {
                 d: "M432,64H272V48a16,16,0,0,0-32,0V64H80a48.05,48.05,0,0,0-48,48V320a48.05,48.05,0,0,0,48,48h42.79L96.62,459.6a16,16,0,1,0,30.76,8.8L156.07,368H240v48a16,16,0,0,0,32,0V368h83.93l28.69,100.4a16,16,0,1,0,30.76-8.8L389.21,368H432a48.05,48.05,0,0,0,48-48V112A48.05,48.05,0,0,0,432,64Zm16,256a16,16,0,0,1-16,16H80a16,16,0,0,1-16-16V112A16,16,0,0,1,80,96H432a16,16,0,0,1,16,16Z",
             }
+            
         }
     }
 }
@@ -21703,12 +23503,16 @@ impl IconShape for IoEggOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C192,48,96,171.69,96,286.55S160,464,256,464s160-62.59,160-177.45S320,48,256,48Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -21743,11 +23547,15 @@ impl IconShape for IoEggSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M418.39,381.05c-8.08,21.68-19.76,40.1-34.72,54.75-14.38,14.07-32.1,24.95-52.67,32.34C309.08,476,283.85,480,256,480s-53.08-4-75-11.86c-20.57-7.39-38.29-18.27-52.67-32.34-15-14.65-26.64-33.07-34.72-54.75C84.58,356.82,80,328.53,80,296.94c0-30.28,6.68-62.57,19.86-96A371,371,0,0,1,151,111.42C195.78,53.56,241,32,256,32s62.67,22.4,105,79.42c18.33,24.71,38.87,58.34,51.17,89.54,13.18,33.41,19.86,65.7,19.86,96C432,328.53,427.42,356.82,418.39,381.05Z",
             }
+            
         }
     }
 }
@@ -21782,11 +23590,15 @@ impl IconShape for IoEgg {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,480c-52.57,0-96.72-17.54-127.7-50.73C96.7,395.4,80,346.05,80,286.55,80,230.5,101.48,168,138.93,115,175.65,63,219.41,32,256,32s80.35,31,117.07,83C410.52,168,432,230.5,432,286.55c0,59.5-16.7,108.85-48.3,142.72C352.72,462.46,308.57,480,256,480Z",
             }
+            
         }
     }
 }
@@ -21821,6 +23633,9 @@ impl IconShape for IoEllipseOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -21829,6 +23644,7 @@ impl IconShape for IoEllipseOutline {
                 r: "192",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -21863,11 +23679,15 @@ impl IconShape for IoEllipseSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,464C141.31,464,48,370.69,48,256S141.31,48,256,48s208,93.31,208,208S370.69,464,256,464Z",
             }
+            
         }
     }
 }
@@ -21902,11 +23722,15 @@ impl IconShape for IoEllipse {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,464C141.31,464,48,370.69,48,256S141.31,48,256,48s208,93.31,208,208S370.69,464,256,464Z",
             }
+            
         }
     }
 }
@@ -21941,6 +23765,9 @@ impl IconShape for IoEllipsisHorizontalCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -21962,6 +23789,7 @@ impl IconShape for IoEllipsisHorizontalCircleOutline {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -21996,11 +23824,15 @@ impl IconShape for IoEllipsisHorizontalCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48ZM166,282a26,26,0,1,1,26-26A26,26,0,0,1,166,282Zm90,0a26,26,0,1,1,26-26A26,26,0,0,1,256,282Zm90,0a26,26,0,1,1,26-26A26,26,0,0,1,346,282Z",
             }
+            
         }
     }
 }
@@ -22035,6 +23867,9 @@ impl IconShape for IoEllipsisHorizontalCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -22056,6 +23891,7 @@ impl IconShape for IoEllipsisHorizontalCircle {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -22090,6 +23926,9 @@ impl IconShape for IoEllipsisHorizontalOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -22110,6 +23949,7 @@ impl IconShape for IoEllipsisHorizontalOutline {
                 r: "32",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -22144,6 +23984,9 @@ impl IconShape for IoEllipsisHorizontalSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -22161,6 +24004,7 @@ impl IconShape for IoEllipsisHorizontalSharp {
                 cy: "256",
                 r: "48",
             }
+            
         }
     }
 }
@@ -22195,6 +24039,9 @@ impl IconShape for IoEllipsisHorizontal {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -22212,6 +24059,7 @@ impl IconShape for IoEllipsisHorizontal {
                 cy: "256",
                 r: "48",
             }
+            
         }
     }
 }
@@ -22246,6 +24094,9 @@ impl IconShape for IoEllipsisVerticalCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -22267,6 +24118,7 @@ impl IconShape for IoEllipsisVerticalCircleOutline {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -22301,11 +24153,15 @@ impl IconShape for IoEllipsisVerticalCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,256c0-114.87-93.13-208-208-208S48,141.13,48,256s93.13,208,208,208S464,370.87,464,256ZM230,166a26,26,0,1,1,26,26A26,26,0,0,1,230,166Zm0,90a26,26,0,1,1,26,26A26,26,0,0,1,230,256Zm0,90a26,26,0,1,1,26,26A26,26,0,0,1,230,346Z",
             }
+            
         }
     }
 }
@@ -22340,6 +24196,9 @@ impl IconShape for IoEllipsisVerticalCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -22361,6 +24220,7 @@ impl IconShape for IoEllipsisVerticalCircle {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -22395,6 +24255,9 @@ impl IconShape for IoEllipsisVerticalOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -22415,6 +24278,7 @@ impl IconShape for IoEllipsisVerticalOutline {
                 r: "32",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -22449,6 +24313,9 @@ impl IconShape for IoEllipsisVerticalSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -22466,6 +24333,7 @@ impl IconShape for IoEllipsisVerticalSharp {
                 cy: "96",
                 r: "48",
             }
+            
         }
     }
 }
@@ -22500,6 +24368,9 @@ impl IconShape for IoEllipsisVertical {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -22517,6 +24388,7 @@ impl IconShape for IoEllipsisVertical {
                 cy: "96",
                 r: "48",
             }
+            
         }
     }
 }
@@ -22551,6 +24423,9 @@ impl IconShape for IoEnterOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -22568,6 +24443,7 @@ impl IconShape for IoEnterOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -22602,6 +24478,9 @@ impl IconShape for IoEnterSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -22613,6 +24492,7 @@ impl IconShape for IoEnterSharp {
                 x: "32",
                 y: "240",
             }
+            
         }
     }
 }
@@ -22647,6 +24527,9 @@ impl IconShape for IoEnter {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -22655,6 +24538,7 @@ impl IconShape for IoEnter {
             path {
                 d: "M48,240a16,16,0,0,0,0,32H160V240Z",
             }
+            
         }
     }
 }
@@ -22689,6 +24573,9 @@ impl IconShape for IoExitOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -22706,6 +24593,7 @@ impl IconShape for IoExitOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -22740,6 +24628,9 @@ impl IconShape for IoExitSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -22748,6 +24639,7 @@ impl IconShape for IoExitSharp {
             polygon {
                 points: "419.06 272 355.06 336 377.69 358.63 480.31 256 377.69 153.37 355.06 176 419.06 240 335.69 240 335.69 272 419.06 272",
             }
+            
         }
     }
 }
@@ -22782,6 +24674,9 @@ impl IconShape for IoExit {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -22790,6 +24685,7 @@ impl IconShape for IoExit {
             path {
                 d: "M425.37,272l-52.68,52.69a16,16,0,0,0,22.62,22.62l80-80a16,16,0,0,0,0-22.62l-80-80a16,16,0,0,0-22.62,22.62L425.37,240H336v32Z",
             }
+            
         }
     }
 }
@@ -22824,6 +24720,9 @@ impl IconShape for IoExpandOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -22870,6 +24769,7 @@ impl IconShape for IoExpandOutline {
                 y1: "421.8",
                 y2: "304",
             }
+            
         }
     }
 }
@@ -22904,6 +24804,9 @@ impl IconShape for IoExpandSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -22950,6 +24853,7 @@ impl IconShape for IoExpandSharp {
                 y1: "421.8",
                 y2: "304",
             }
+            
         }
     }
 }
@@ -22984,6 +24888,9 @@ impl IconShape for IoExpand {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -23030,6 +24937,7 @@ impl IconShape for IoExpand {
                 y1: "421.8",
                 y2: "304",
             }
+            
         }
     }
 }
@@ -23064,6 +24972,9 @@ impl IconShape for IoExtensionPuzzleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -23073,6 +24984,7 @@ impl IconShape for IoExtensionPuzzleOutline {
                 stroke_linejoin: "round",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -23107,11 +25019,15 @@ impl IconShape for IoExtensionPuzzleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M345.14,480H256V434.29a31.3,31.3,0,0,0-9.59-22.65c-7.67-7.56-18.83-11.81-30.57-11.64a44.38,44.38,0,0,0-28.45,10.67c-5.2,4.6-11.39,12.56-11.39,24.42V480H87.62A55.68,55.68,0,0,1,32,424.38V336H77.71c9.16,0,18.07-3.92,25.09-11A42.06,42.06,0,0,0,115,295.08C114.7,273.89,97.26,256,76.91,256H32V166.66a53.77,53.77,0,0,1,16.53-39A55.88,55.88,0,0,1,87.62,112h63.24V97.52A65.53,65.53,0,0,1,217.54,32c35.49.62,64.36,30.38,64.36,66.33V112h63.24A54.28,54.28,0,0,1,400,166.86V230.1h13.66c36.58,0,66.34,29,66.34,64.64,0,36.61-29.39,66.4-65.52,66.4H400v63.24C400,455.05,375.39,480,345.14,480Z",
             }
+            
         }
     }
 }
@@ -23146,11 +25062,15 @@ impl IconShape for IoExtensionPuzzle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M345.14,480H274a18,18,0,0,1-18-18V434.29a31.32,31.32,0,0,0-9.71-22.77c-7.78-7.59-19.08-11.8-30.89-11.51-21.36.5-39.4,19.3-39.4,41.06V462a18,18,0,0,1-18,18H87.62A55.62,55.62,0,0,1,32,424.38V354a18,18,0,0,1,18-18H77.71c9.16,0,18.07-3.92,25.09-11A42.06,42.06,0,0,0,115,295.08C114.7,273.89,97.26,256,76.91,256H50a18,18,0,0,1-18-18V167.62A55.62,55.62,0,0,1,87.62,112h55.24a8,8,0,0,0,8-8V97.52A65.53,65.53,0,0,1,217.54,32c35.49.62,64.36,30.38,64.36,66.33V104a8,8,0,0,0,8,8h55.24A54.86,54.86,0,0,1,400,166.86V222.1a8,8,0,0,0,8,8h5.66c36.58,0,66.34,29,66.34,64.64,0,36.61-29.39,66.4-65.52,66.4H408a8,8,0,0,0-8,8v56A54.86,54.86,0,0,1,345.14,480Z",
             }
+            
         }
     }
 }
@@ -23185,6 +25105,9 @@ impl IconShape for IoEyeOffOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -23202,6 +25125,7 @@ impl IconShape for IoEyeOffOutline {
             path {
                 d: "M165.78,233.66a2,2,0,0,0-3.38,1,96,96,0,0,0,115,115,2,2,0,0,0,1-3.38Z",
             }
+            
         }
     }
 }
@@ -23236,6 +25160,9 @@ impl IconShape for IoEyeOffSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -23257,6 +25184,7 @@ impl IconShape for IoEyeOffSharp {
             path {
                 d: "M256,160a96,96,0,0,1,92.6,121.34L419.26,352c29.15-26.25,56.07-61.56,76.74-96-26.38-43.43-62.9-88.56-101.18-114.82C351.1,111.2,304.31,96,255.76,96a222.92,222.92,0,0,0-78.21,14.29l53.11,53.11A95.84,95.84,0,0,1,256,160Z",
             }
+            
         }
     }
 }
@@ -23291,6 +25219,9 @@ impl IconShape for IoEyeOff {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -23308,6 +25239,7 @@ impl IconShape for IoEyeOff {
             path {
                 d: "M256,352a96,96,0,0,1-93.3-118.63,4,4,0,0,0-1.05-3.81L94.81,162.69a4,4,0,0,0-5.41-.23c-24.39,20.81-47,46.13-67.67,75.72a31.92,31.92,0,0,0-.64,35.54c26.41,41.33,60.39,76.14,98.28,100.65C162.06,402,207.92,416,255.68,416a238.22,238.22,0,0,0,72.64-11.55,4,4,0,0,0,1.61-6.64l-47.47-47.46a4,4,0,0,0-3.81-1.05A96,96,0,0,1,256,352Z",
             }
+            
         }
     }
 }
@@ -23342,6 +25274,9 @@ impl IconShape for IoEyeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -23354,6 +25289,7 @@ impl IconShape for IoEyeOutline {
                 r: "80",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -23388,6 +25324,9 @@ impl IconShape for IoEyeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -23398,6 +25337,7 @@ impl IconShape for IoEyeSharp {
             path {
                 d: "M394.82,141.18C351.1,111.2,304.31,96,255.76,96c-43.69,0-86.28,13-126.59,38.48C88.52,160.23,48.67,207,16,256c26.42,44,62.56,89.24,100.2,115.18C159.38,400.92,206.33,416,255.76,416c49,0,95.85-15.07,139.3-44.79C433.31,345,469.71,299.82,496,256,469.62,212.57,433.1,167.44,394.82,141.18ZM256,352a96,96,0,1,1,96-96A96.11,96.11,0,0,1,256,352Z",
             }
+            
         }
     }
 }
@@ -23432,6 +25372,9 @@ impl IconShape for IoEye {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -23442,6 +25385,7 @@ impl IconShape for IoEye {
             path {
                 d: "M490.84,238.6c-26.46-40.92-60.79-75.68-99.27-100.53C349,110.55,302,96,255.66,96c-42.52,0-84.33,12.15-124.27,36.11C90.66,156.54,53.76,192.23,21.71,238.18a31.92,31.92,0,0,0-.64,35.54c26.41,41.33,60.4,76.14,98.28,100.65C162,402,207.9,416,255.66,416c46.71,0,93.81-14.43,136.2-41.72,38.46-24.77,72.72-59.66,99.08-100.92A32.2,32.2,0,0,0,490.84,238.6ZM256,352a96,96,0,1,1,96-96A96.11,96.11,0,0,1,256,352Z",
             }
+            
         }
     }
 }
@@ -23476,6 +25420,9 @@ impl IconShape for IoEyedropOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -23500,6 +25447,7 @@ impl IconShape for IoEyedropOutline {
                 d: "M115.31,442s-26.48,17.34-44.56-.73S70,396.69,70,396.69",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -23534,11 +25482,15 @@ impl IconShape for IoEyedropSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M480,96.22a63.84,63.84,0,0,0-18.95-45.61,65,65,0,0,0-45.71-19h-.76a61.78,61.78,0,0,0-44.22,19.09l-74.88,74.88L261.6,91.72l-34.07,33.91-33.85,34,44,44L32,409.37V480h70.63l205.7-205.71L352,317.94l11.31-11.19c.11-.1,10.42-10.31,22.79-22.68l33.85-34-33.89-33.89L461,141.23A63.18,63.18,0,0,0,480,96.22ZM245,292.35,219.65,267l40.68-40.69,25.38,25.38Z",
             }
+            
         }
     }
 }
@@ -23573,11 +25525,15 @@ impl IconShape for IoEyedrop {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M461.05,51a65,65,0,0,0-45.71-19h-.76a61.81,61.81,0,0,0-44.36,19.25,12.81,12.81,0,0,0-1.07,1.25l-54,69.76c-5.62,7.1-12.74,8.68-16.78,4.64L296.47,125a48,48,0,0,0-67.92,67.92l9.91,9.91a2,2,0,0,1,0,2.83L58.7,385.38C54,390.05,46.9,399.85,38.85,431c-4.06,15.71-6.51,29.66-6.61,30.24A16,16,0,0,0,48,480a15.68,15.68,0,0,0,2.64-.22c.58-.1,14.44-2.43,30.13-6.44,31.07-7.94,41.05-15.24,45.85-20L306.39,273.55a2,2,0,0,1,2.82,0l9.92,9.92a48,48,0,0,0,67.92-67.93L385.46,214c-5-5-2.52-12.11,4.32-17.14l69.75-53.94A17.82,17.82,0,0,0,461,141.6a63.2,63.2,0,0,0,19-45A63.88,63.88,0,0,0,461.05,51ZM250.78,283.9c-2.92,2.92-16.18,7.92-23.39.71s-2.24-20.42.69-23.35l33-33a2,2,0,0,1,2.83,0l19.84,19.83a2,2,0,0,1,0,2.83Z",
             }
+            
         }
     }
 }
@@ -23611,6 +25567,9 @@ impl IconShape for IoFastFoodOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23652,6 +25611,7 @@ impl IconShape for IoFastFoodOutline {
                 y1: "112",
                 y2: "112",
             }
+            
         }
     }
 }
@@ -23686,6 +25646,9 @@ impl IconShape for IoFastFoodSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -23697,6 +25660,7 @@ impl IconShape for IoFastFoodSharp {
             path {
                 d: "M463.08,96H388.49l8.92-35.66L442,45,432,16,370,36,355.51,96H208v32h18.75l1.86,16H236c39,0,73.66,10.9,100.12,31.52A121.9,121.9,0,0,1,371,218.07a124.16,124.16,0,0,1,10.73,32.65,72,72,0,0,1,27.89,90.9A96,96,0,0,1,416,376c0,22.34-7.6,43.63-21.4,59.95a80,80,0,0,1-31.83,22.95,109.21,109.21,0,0,1-18.53,33c-1.18,1.42-2.39,2.81-3.63,4.15H416c16,0,23-8,25-23l36.4-345H496V96Z",
             }
+            
         }
     }
 }
@@ -23731,6 +25695,9 @@ impl IconShape for IoFastFood {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -23745,6 +25712,7 @@ impl IconShape for IoFastFood {
             path {
                 d: "M185.94,352a8,8,0,0,0-5.66,2.34l-22.14,22.15a20,20,0,0,1-28.28,0l-22.14-22.15a8,8,0,0,0-5.66-2.34H32.66A15.93,15.93,0,0,0,16.9,365.17,65.22,65.22,0,0,0,16,376c0,30.59,21.13,55.51,47.26,56,2.43,15.12,8.31,28.78,17.16,39.47C93.51,487.28,112.54,496,134,496H266c21.46,0,40.49-8.72,53.58-24.55,8.85-10.69,14.73-24.35,17.16-39.47,26.13-.47,47.26-25.39,47.26-56a65.22,65.22,0,0,0-.9-10.83A15.93,15.93,0,0,0,367.34,352Z",
             }
+            
         }
     }
 }
@@ -23779,6 +25747,9 @@ impl IconShape for IoFemaleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "female-outline"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -23810,6 +25781,7 @@ impl IconShape for IoFemaleOutline {
                 y1: "416",
                 y2: "416",
             }
+            
         }
     }
 }
@@ -23844,11 +25816,15 @@ impl IconShape for IoFemaleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M430,190c0-95.94-78.06-174-174-174S82,94.06,82,190c0,88.49,66.4,161.77,152,172.61V394H176v44h58v58h44V438h58V394H278V362.61C363.6,351.77,430,278.49,430,190Zm-304,0c0-71.68,58.32-130,130-130s130,58.32,130,130S327.68,320,256,320,126,261.68,126,190Z",
             }
+            
         }
     }
 }
@@ -23883,11 +25859,15 @@ impl IconShape for IoFemale {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M430,190c0-95.94-78.06-174-174-174S82,94.06,82,190c0,88.49,66.4,161.77,152,172.61V394H198a22,22,0,0,0,0,44h36v36a22,22,0,0,0,44,0V438h36a22,22,0,0,0,0-44H278V362.61C363.6,351.77,430,278.49,430,190Zm-304,0c0-71.68,58.32-130,130-130s130,58.32,130,130S327.68,320,256,320,126,261.68,126,190Z",
             }
+            
         }
     }
 }
@@ -23921,6 +25901,9 @@ impl IconShape for IoFileTrayFullOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23960,6 +25943,7 @@ impl IconShape for IoFileTrayFullOutline {
                 y1: "208",
                 y2: "208",
             }
+            
         }
     }
 }
@@ -23994,6 +25978,9 @@ impl IconShape for IoFileTrayFullSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -24011,6 +25998,7 @@ impl IconShape for IoFileTrayFullSharp {
             path {
                 d: "M448,64H64L32,256V448H480V256ZM436,256H320a64,64,0,0,1-128,0H76L98,106H414Z",
             }
+            
         }
     }
 }
@@ -24045,6 +26033,9 @@ impl IconShape for IoFileTrayFull {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -24056,6 +26047,7 @@ impl IconShape for IoFileTrayFull {
             path {
                 d: "M384,224H128a16,16,0,0,1,0-32H384a16,16,0,0,1,0,32Z",
             }
+            
         }
     }
 }
@@ -24090,6 +26082,9 @@ impl IconShape for IoFileTrayOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -24114,6 +26109,7 @@ impl IconShape for IoFileTrayOutline {
                 d: "M192,272a64,64,0,0,0,128,0",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -24148,11 +26144,15 @@ impl IconShape for IoFileTraySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M448,64H64L32,256V448H480V256ZM436,256H320a64,64,0,0,1-128,0H76L98,106H414Z",
             }
+            
         }
     }
 }
@@ -24186,6 +26186,9 @@ impl IconShape for IoFileTrayStackedOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24233,6 +26236,7 @@ impl IconShape for IoFileTrayStackedOutline {
                 d: "M192,192a64,64,0,0,0,128,0",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -24267,6 +26271,9 @@ impl IconShape for IoFileTrayStackedSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -24275,6 +26282,7 @@ impl IconShape for IoFileTrayStackedSharp {
             path {
                 d: "M320,352a64,64,0,0,1-128,0H32V496H480V352Z",
             }
+            
         }
     }
 }
@@ -24309,6 +26317,9 @@ impl IconShape for IoFileTrayStacked {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -24317,6 +26328,7 @@ impl IconShape for IoFileTrayStacked {
             path {
                 d: "M479.46,187.88,447.61,68.45C441.27,35.59,417.54,16,384,16H128c-16.8,0-31,4.69-42.1,13.94S67.66,52,64.4,68.4L32.54,187.88A15.9,15.9,0,0,0,32,192v48c0,35.29,28.71,80,64,80H416c35.29,0,64-44.71,64-80V192A15.9,15.9,0,0,0,479.46,187.88ZM440.57,176H320a15.92,15.92,0,0,0-16,15.82,48,48,0,1,1-96,0A15.92,15.92,0,0,0,192,176H71.43a2,2,0,0,1-1.93-2.52L95.71,75C99.26,56.59,109.52,48,128,48H384c18.59,0,28.84,8.53,32.25,26.85l26.25,98.63A2,2,0,0,1,440.57,176Z",
             }
+            
         }
     }
 }
@@ -24351,11 +26363,15 @@ impl IconShape for IoFileTray {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M479.66,268.7l-32-151.81C441.48,83.77,417.68,64,384,64H128c-16.8,0-31,4.69-42.1,13.94s-18.37,22.31-21.58,38.89l-32,151.87A16.65,16.65,0,0,0,32,272V384a64,64,0,0,0,64,64H416a64,64,0,0,0,64-64V272A16.65,16.65,0,0,0,479.66,268.7Zm-384-145.4c0-.1,0-.19,0-.28,3.55-18.43,13.81-27,32.29-27H384c18.61,0,28.87,8.55,32.27,26.91,0,.13.05.26.07.39l26.93,127.88a4,4,0,0,1-3.92,4.82H320a15.92,15.92,0,0,0-16,15.82,48,48,0,1,1-96,0A15.92,15.92,0,0,0,192,256H72.65a4,4,0,0,1-3.92-4.82Z",
             }
+            
         }
     }
 }
@@ -24389,6 +26405,9 @@ impl IconShape for IoFilmOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24491,6 +26510,7 @@ impl IconShape for IoFilmOutline {
                 x: "128",
                 y: "256",
             }
+            
         }
     }
 }
@@ -24525,11 +26545,15 @@ impl IconShape for IoFilmSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M480,80H32V432H480ZM112,352v48H64V352Zm0-80v48H64V272Zm0-80v48H64V192Zm0-80v48H64V112ZM368,272H144V240H368Zm80,80v48H400V352Zm0-80v48H400V272Zm0-80v48H400V192Zm0-80v48H400V112Z",
             }
+            
         }
     }
 }
@@ -24564,11 +26588,15 @@ impl IconShape for IoFilm {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M436,80H76a44.05,44.05,0,0,0-44,44V388a44.05,44.05,0,0,0,44,44H436a44.05,44.05,0,0,0,44-44V124A44.05,44.05,0,0,0,436,80ZM112,388a12,12,0,0,1-12,12H76a12,12,0,0,1-12-12V364a12,12,0,0,1,12-12h24a12,12,0,0,1,12,12Zm0-80a12,12,0,0,1-12,12H76a12,12,0,0,1-12-12V284a12,12,0,0,1,12-12h24a12,12,0,0,1,12,12Zm0-80a12,12,0,0,1-12,12H76a12,12,0,0,1-12-12V204a12,12,0,0,1,12-12h24a12,12,0,0,1,12,12Zm0-80a12,12,0,0,1-12,12H76a12,12,0,0,1-12-12V124a12,12,0,0,1,12-12h24a12,12,0,0,1,12,12ZM353.68,272H158.32a16,16,0,0,1,0-32H353.68a16,16,0,1,1,0,32ZM448,388a12,12,0,0,1-12,12H412a12,12,0,0,1-12-12V364a12,12,0,0,1,12-12h24a12,12,0,0,1,12,12Zm0-80a12,12,0,0,1-12,12H412a12,12,0,0,1-12-12V284a12,12,0,0,1,12-12h24a12,12,0,0,1,12,12Zm0-80a12,12,0,0,1-12,12H412a12,12,0,0,1-12-12V204a12,12,0,0,1,12-12h24a12,12,0,0,1,12,12Zm0-80a12,12,0,0,1-12,12H412a12,12,0,0,1-12-12V124a12,12,0,0,1,12-12h24a12,12,0,0,1,12,12Z",
             }
+            
         }
     }
 }
@@ -24602,6 +26630,9 @@ impl IconShape for IoFilterCircleOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24641,6 +26672,7 @@ impl IconShape for IoFilterCircleOutline {
                 y1: "336",
                 y2: "336",
             }
+            
         }
     }
 }
@@ -24675,11 +26707,15 @@ impl IconShape for IoFilterCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm48,304H208V320h96Zm48-64H160V256H352Zm32-64H128V192H384Z",
             }
+            
         }
     }
 }
@@ -24714,11 +26750,15 @@ impl IconShape for IoFilterCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm32,304H224a16,16,0,0,1,0-32h64a16,16,0,0,1,0,32Zm48-64H176a16,16,0,0,1,0-32H336a16,16,0,0,1,0,32Zm32-64H144a16,16,0,0,1,0-32H368a16,16,0,0,1,0,32Z",
             }
+            
         }
     }
 }
@@ -24753,6 +26793,9 @@ impl IconShape for IoFilterOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -24776,6 +26819,7 @@ impl IconShape for IoFilterOutline {
                 y1: "368",
                 y2: "368",
             }
+            
         }
     }
 }
@@ -24810,6 +26854,9 @@ impl IconShape for IoFilterSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -24830,6 +26877,7 @@ impl IconShape for IoFilterSharp {
                 x: "192",
                 y: "344",
             }
+            
         }
     }
 }
@@ -24864,6 +26912,9 @@ impl IconShape for IoFilter {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -24875,6 +26926,7 @@ impl IconShape for IoFilter {
             path {
                 d: "M296,392H216a24,24,0,0,1,0-48h80a24,24,0,0,1,0,48Z",
             }
+            
         }
     }
 }
@@ -24909,11 +26961,15 @@ impl IconShape for IoFingerPrintOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M390.42,75.28a10.45,10.45,0,0,1-5.32-1.44C340.72,50.08,302.35,40,256.35,40c-45.77,0-89.23,11.28-128.76,33.84C122,77,115.11,74.8,111.87,69a12.4,12.4,0,0,1,4.63-16.32A281.81,281.81,0,0,1,256.35,16c49.23,0,92.23,11.28,139.39,36.48a12,12,0,0,1,4.85,16.08A11.3,11.3,0,0,1,390.42,75.28Zm-330.79,126a11.73,11.73,0,0,1-6.7-2.16,12.26,12.26,0,0,1-2.78-16.8c22.89-33.6,52-60,86.69-78.48C209.42,65,302.35,64.72,375.16,103.6c34.68,18.48,63.8,44.64,86.69,78a12.29,12.29,0,0,1-2.78,16.8,11.26,11.26,0,0,1-16.18-2.88c-20.8-30.24-47.15-54-78.36-70.56-66.34-35.28-151.18-35.28-217.29.24-31.44,16.8-57.79,40.8-78.59,71A10,10,0,0,1,59.63,201.28ZM204.1,491a10.66,10.66,0,0,1-8.09-3.6C175.9,466.48,165,453,149.55,424c-16-29.52-24.27-65.52-24.27-104.16,0-71.28,58.71-129.36,130.84-129.36S387,248.56,387,319.84a11.56,11.56,0,1,1-23.11,0c0-58.08-48.32-105.36-107.72-105.36S148.4,261.76,148.4,319.84c0,34.56,7.39,66.48,21.49,92.4,14.8,27.6,25,39.36,42.77,58.08a12.67,12.67,0,0,1,0,17A12.44,12.44,0,0,1,204.1,491Zm165.75-44.4c-27.51,0-51.78-7.2-71.66-21.36a129.1,129.1,0,0,1-55-105.36,11.57,11.57,0,1,1,23.12,0,104.28,104.28,0,0,0,44.84,85.44c16.41,11.52,35.6,17,58.72,17a147.41,147.41,0,0,0,24-2.4c6.24-1.2,12.25,3.12,13.4,9.84a11.92,11.92,0,0,1-9.47,13.92A152.28,152.28,0,0,1,369.85,446.56ZM323.38,496a13,13,0,0,1-3-.48c-36.76-10.56-60.8-24.72-86-50.4-32.37-33.36-50.16-77.76-50.16-125.28,0-38.88,31.9-70.56,71.19-70.56s71.2,31.68,71.2,70.56c0,25.68,21.5,46.56,48.08,46.56s48.08-20.88,48.08-46.56c0-90.48-75.13-163.92-167.59-163.92-65.65,0-125.75,37.92-152.79,96.72-9,19.44-13.64,42.24-13.64,67.2,0,18.72,1.61,48.24,15.48,86.64,2.32,6.24-.69,13.2-6.7,15.36a11.34,11.34,0,0,1-14.79-7,276.39,276.39,0,0,1-16.88-95c0-28.8,5.32-55,15.72-77.76,30.75-67,98.94-110.4,173.6-110.4,105.18,0,190.71,84.24,190.71,187.92,0,38.88-31.9,70.56-71.2,70.56s-71.2-31.68-71.2-70.56C303.5,293.92,282,273,255.42,273s-48.08,20.88-48.08,46.56c0,41,15.26,79.44,43.23,108.24,22,22.56,43,35,75.59,44.4,6.24,1.68,9.71,8.4,8.09,14.64A11.39,11.39,0,0,1,323.38,496Z",
             }
+            
         }
     }
 }
@@ -24948,6 +27004,9 @@ impl IconShape for IoFingerPrintSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -24965,6 +27024,7 @@ impl IconShape for IoFingerPrintSharp {
             path {
                 d: "M390.59,415.21c-33.37,3.75-60.45-2.67-80.71-18.85-34.24-27.43-38.68-75.11-38.79-76l-1.23-14.88-30.53,2.23,1.31,15c.22,2.46,5.2,60.75,49.62,96.54,22.11,17.89,49.74,26.89,82.24,26.89a187,187,0,0,0,21.56-1.29l16.59-2.09-6.1-29.71Z",
             }
+            
         }
     }
 }
@@ -24999,6 +27059,9 @@ impl IconShape for IoFingerPrint {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -25016,6 +27079,7 @@ impl IconShape for IoFingerPrint {
             path {
                 d: "M398.18,48.79C385.5,40.54,340.54,16,256,16c-88.74,0-133.81,27.11-143.78,34a11.59,11.59,0,0,0-1.84,1.4.36.36,0,0,1-.22.1,14.87,14.87,0,0,0-5.09,11.15A15.06,15.06,0,0,0,120.38,77.5a15.56,15.56,0,0,0,8.88-2.79c.43-.32,39.22-28.82,126.77-28.82S382.58,74.29,383,74.5a15.25,15.25,0,0,0,9.21,3A15.06,15.06,0,0,0,407.5,62.61,14.9,14.9,0,0,0,398.18,48.79Z",
             }
+            
         }
     }
 }
@@ -25050,6 +27114,9 @@ impl IconShape for IoFishOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -25070,6 +27137,7 @@ impl IconShape for IoFishOutline {
                 stroke_miterlimit: "20",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -25104,6 +27172,9 @@ impl IconShape for IoFishSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -25112,6 +27183,7 @@ impl IconShape for IoFishSharp {
             path {
                 d: "M499.59,221.75c-5.85-9.88-16.54-24.9-34.19-40.28a209.82,209.82,0,0,0-62-37L392.23,164a183.22,183.22,0,0,0-.09,183.87l11.75,19.57a209.26,209.26,0,0,0,61.42-36.49C497.05,303.47,512,269,512,256,512,243.69,504,229.26,499.59,221.75ZM416,256a16,16,0,1,1,16-16A16,16,0,0,1,416,256Z",
             }
+            
         }
     }
 }
@@ -25146,6 +27218,9 @@ impl IconShape for IoFish {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -25154,6 +27229,7 @@ impl IconShape for IoFish {
             path {
                 d: "M335.45,256a214.8,214.8,0,0,1,29.08-108l.12-.21,4.62-7.67a4,4,0,0,0-2.59-6,284.29,284.29,0,0,0-39.26-5.39,7.94,7.94,0,0,1-4.29-1.6c-19.28-14.66-57.5-40.3-96.46-46.89a16,16,0,0,0-18,20.18l10.62,37.17a4,4,0,0,1-2.42,4.84c-36.85,13.69-68.59,38.75-91.74,57.85a8,8,0,0,1-10.06.06q-4.72-3.75-9.69-7.39C65.74,164,19.17,160.19,17.21,160.05A16,16,0,0,0,.38,179.45c.42,1.93,9.19,40.69,31.7,71.61a8.09,8.09,0,0,1,0,9.55C9.57,291.52.8,330.29.38,332.22a16,16,0,0,0,16.83,19.4c2-.14,48.53-4,88.12-32.88q4.85-3.56,9.47-7.22a8,8,0,0,1,10.06.07c23.25,19.19,55.05,44.28,92,58a4,4,0,0,1,2.42,4.83L208.62,411.6a16,16,0,0,0,18,20.18c17.16-2.9,51.88-12.86,96.05-46.83a8.15,8.15,0,0,1,4.36-1.65A287.36,287.36,0,0,0,366.25,378a4,4,0,0,0,2.69-5.83l-4.51-8.29A214.81,214.81,0,0,1,335.45,256Z",
             }
+            
         }
     }
 }
@@ -25188,6 +27264,9 @@ impl IconShape for IoFitnessOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -25198,6 +27277,7 @@ impl IconShape for IoFitnessOutline {
                 points: "48 256 160 256 208 160 256 320 304 224 336 288 464 288",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -25232,6 +27312,9 @@ impl IconShape for IoFitnessSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -25246,6 +27329,7 @@ impl IconShape for IoFitnessSharp {
             path {
                 d: "M211.73,116.76l48,160L304,188.22,345.89,272h96.77A213.13,213.13,0,0,0,464,176.65C463.37,114.54,413.54,64,352.92,64c-48.11,0-80.1,28-96.92,48.21C239.18,92,207.19,64,159.08,64,98.46,64,48.63,114.54,48,176.65A211.23,211.23,0,0,0,56.94,240h93.17Z",
             }
+            
         }
     }
 }
@@ -25280,6 +27364,9 @@ impl IconShape for IoFitness {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -25294,6 +27381,7 @@ impl IconShape for IoFitness {
             path {
                 d: "M48,240a16,16,0,0,0,0,32H69.35a225.22,225.22,0,0,1-12.42-32Z",
             }
+            
         }
     }
 }
@@ -25328,12 +27416,16 @@ impl IconShape for IoFlagOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M80,464V68.14a8,8,0,0,1,4-6.9C91.81,56.66,112.92,48,160,48c64,0,145,48,192,48a199.53,199.53,0,0,0,77.23-15.77A2,2,0,0,1,432,82.08V301.44a4,4,0,0,1-2.39,3.65C421.37,308.7,392.33,320,352,320c-48,0-128-32-192-32s-80,16-80,16",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -25368,11 +27460,15 @@ impl IconShape for IoFlagSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M102,480H64V57.37l4.69-4.68C72.14,49.23,92.78,32,160,32c37.21,0,78.83,14.71,115.55,27.68C305.12,70.13,333.05,80,352,80c42.83,0,72.72-14.25,73-14.4l23-11.14V313.89l-8.84,4.42C437.71,319,403.19,336,352,336c-24.14,0-54.38-7.14-86.39-14.71C229.63,312.79,192.43,304,160,304c-36.87,0-49.74,5.58-58,9.11Z",
             }
+            
         }
     }
 }
@@ -25407,11 +27503,15 @@ impl IconShape for IoFlag {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M80,480a16,16,0,0,1-16-16V68.13A24,24,0,0,1,75.9,47.41C88,40.38,112.38,32,160,32c37.21,0,78.83,14.71,115.55,27.68C305.12,70.13,333.05,80,352,80a183.84,183.84,0,0,0,71-14.5,18,18,0,0,1,25,16.58V301.44a20,20,0,0,1-12,18.31c-8.71,3.81-40.51,16.25-84,16.25-24.14,0-54.38-7.14-86.39-14.71C229.63,312.79,192.43,304,160,304c-36.87,0-55.74,5.58-64,9.11V464A16,16,0,0,1,80,480Z",
             }
+            
         }
     }
 }
@@ -25446,6 +27546,9 @@ impl IconShape for IoFlameOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -25456,6 +27559,7 @@ impl IconShape for IoFlameOutline {
                 d: "M320,368c0,57.71-32,80-64,80s-64-22.29-64-80,40-86,32-128C266,240,320,310.29,320,368Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -25490,11 +27594,15 @@ impl IconShape for IoFlameSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M394.24,197.56a300.67,300.67,0,0,0-53.38-90C301.2,61.65,240,32,192,32c19,70-14.36,117.12-44.79,163.77C122,234.36,96,274.27,96,320c0,88.22,71.78,160,160,160s160-71.78,160-160C416,276.7,408.68,235.51,394.24,197.56ZM288.33,418.69C278,429.69,265.05,432,256,432s-22-2.31-32.33-13.31S208,390.24,208,368c0-25.14,8.82-44.28,17.34-62.78,6.48-14.07,14.66-27.22,15.11-44.49,11.3,5.88,23.67,16.91,34.54,31.28,18.17,24,29,52.42,29,76C304,390.24,298.58,407.77,288.33,418.69Z",
             }
+            
         }
     }
 }
@@ -25529,11 +27637,15 @@ impl IconShape for IoFlame {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M394.23,197.56a300.43,300.43,0,0,0-53.37-90C301.2,61.65,249.05,32,208,32a16,16,0,0,0-15.48,20c13.87,53-14.88,97.07-45.31,143.72C122,234.36,96,274.27,96,320c0,88.22,71.78,160,160,160s160-71.78,160-160C416,276.7,408.68,235.51,394.23,197.56ZM288.33,418.69C278,429.69,265.05,432,256,432s-22-2.31-32.33-13.31S208,390.24,208,368c0-25.14,8.82-44.28,17.34-62.78,4.95-10.74,10-21.67,13-33.37a8,8,0,0,1,12.49-4.51A126.48,126.48,0,0,1,275,292c18.17,24,29,52.42,29,76C304,390.24,298.58,407.77,288.33,418.69Z",
             }
+            
         }
     }
 }
@@ -25568,6 +27680,9 @@ impl IconShape for IoFlashOffOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -25579,6 +27694,7 @@ impl IconShape for IoFlashOffOutline {
             path {
                 d: "M217.78,427.57l22-120.71a16,16,0,0,0-6.19-15.7,16.54,16.54,0,0,0-9.92-3.16h-94.1l38.36-47.42a4,4,0,0,0-.28-5.34l-17.07-17.07a4,4,0,0,0-5.93.31L83.8,293.64A16.37,16.37,0,0,0,80.5,308,16,16,0,0,0,96,320H204.83L176.74,474.36l0,.11A18.37,18.37,0,0,0,209.24,489l92.61-114.46a4,4,0,0,0-.28-5.35L284.5,352.13a4,4,0,0,0-5.94.31Z",
             }
+            
         }
     }
 }
@@ -25613,6 +27729,9 @@ impl IconShape for IoFlashOffSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -25628,6 +27747,7 @@ impl IconShape for IoFlashOffSharp {
             polygon {
                 points: "432 208 288 208 320 16 211.82 145.82 360.18 294.18 432 208",
             }
+            
         }
     }
 }
@@ -25662,6 +27782,9 @@ impl IconShape for IoFlashOff {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -25673,6 +27796,7 @@ impl IconShape for IoFlashOff {
             path {
                 d: "M301.57,369.19l-151-151a4,4,0,0,0-5.93.31L83.8,293.64A16.37,16.37,0,0,0,80.5,308,16,16,0,0,0,96,320H204.83L176.74,474.36l0,.11A18.37,18.37,0,0,0,209.24,489l92.61-114.46A4,4,0,0,0,301.57,369.19Z",
             }
+            
         }
     }
 }
@@ -25707,12 +27831,16 @@ impl IconShape for IoFlashOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M315.27,33,96,304H224L192.49,477.23a2.36,2.36,0,0,0,2.33,2.77h0a2.36,2.36,0,0,0,1.89-.95L416,208H288L319.66,34.75A2.45,2.45,0,0,0,317.22,32h0A2.42,2.42,0,0,0,315.27,33Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -25747,11 +27875,15 @@ impl IconShape for IoFlashSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M432,208H288L320,16,80,304H224L192,496Z",
             }
+            
         }
     }
 }
@@ -25786,11 +27918,15 @@ impl IconShape for IoFlash {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M194.82,496a18.36,18.36,0,0,1-18.1-21.53l0-.11L204.83,320H96a16,16,0,0,1-12.44-26.06L302.73,23a18.45,18.45,0,0,1,32.8,13.71c0,.3-.08.59-.13.89L307.19,192H416a16,16,0,0,1,12.44,26.06L209.24,489A18.45,18.45,0,0,1,194.82,496Z",
             }
+            
         }
     }
 }
@@ -25825,6 +27961,9 @@ impl IconShape for IoFlashlightOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -25843,6 +27982,7 @@ impl IconShape for IoFlashlightOutline {
                 y1: "81",
                 y2: "223",
             }
+            
         }
     }
 }
@@ -25877,6 +28017,9 @@ impl IconShape for IoFlashlightSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -25892,6 +28035,7 @@ impl IconShape for IoFlashlightSharp {
             path {
                 d: "M429.21,243.85,268,82.59,249.65,168,16,402l94,94L344.23,262.2Zm-189,56.07a20,20,0,1,1,0-25.25A20,20,0,0,1,240.19,299.92Z",
             }
+            
         }
     }
 }
@@ -25926,6 +28070,9 @@ impl IconShape for IoFlashlight {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -25934,6 +28081,7 @@ impl IconShape for IoFlashlight {
             path {
                 d: "M250.14,153.08l-.16,2.34c-.53,7.18-6.88,19.15-13.88,26.14L47.27,370.36c-11.12,11.11-16.46,25.57-15.05,40.7C33.49,424.58,40.16,438,51,448.83L63.17,461c12.61,12.6,27.78,19,42.49,19a50.4,50.4,0,0,0,36-15.24l188.84-188.8c7.07-7.07,18.84-13.3,26.17-13.87,17.48-1.32,43.57-3.28,67.79-15.65a4,4,0,0,0,1-6.37L271.69,86.31a4,4,0,0,0-6.39,1C253.18,110.3,251.48,134.22,250.14,153.08Zm-9.95,146.83a20,20,0,1,1,0-25.25A20,20,0,0,1,240.19,299.91Z",
             }
+            
         }
     }
 }
@@ -25968,6 +28116,9 @@ impl IconShape for IoFlaskOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -25988,6 +28139,7 @@ impl IconShape for IoFlaskOutline {
                 d: "M208,48v93.48a64.09,64.09,0,0,1-9.88,34.18L73.21,373.49C48.4,412.78,76.63,464,123.08,464H388.92c46.45,0,74.68-51.22,49.87-90.51L313.87,175.66A64.09,64.09,0,0,1,304,141.48V48",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -26022,11 +28174,15 @@ impl IconShape for IoFlaskSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M469.11,382.76,325,153.92V74h32V32H155V74h32v79.92L42.89,382.76c-13,20.64-14.78,43.73-3,65.1S71.59,480,96,480H416c24.41,0,44.32-10.76,56.1-32.14S482.14,403.4,469.11,382.76ZM224.39,173.39a29.76,29.76,0,0,0,4.62-16V74h54v84.59a25.85,25.85,0,0,0,4,13.82L356.82,283H155.18Z",
             }
+            
         }
     }
 }
@@ -26061,11 +28217,15 @@ impl IconShape for IoFlask {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M452.32,365,327.4,167.12A48.07,48.07,0,0,1,320,141.48V64h15.56c8.61,0,16-6.62,16.43-15.23A16,16,0,0,0,336,32H176.45c-8.61,0-16,6.62-16.43,15.23A16,16,0,0,0,176,64h16v77.48a47.92,47.92,0,0,1-7.41,25.63L59.68,365a74,74,0,0,0-2.5,75.84C70.44,465.19,96.36,480,124.13,480H387.87c27.77,0,53.69-14.81,66.95-39.21A74,74,0,0,0,452.32,365ZM211.66,184.2A79.94,79.94,0,0,0,224,141.48V68a4,4,0,0,1,4-4h56a4,4,0,0,1,4,4v73.48a79.94,79.94,0,0,0,12.35,42.72l57.8,91.53A8,8,0,0,1,351.37,288H160.63a8,8,0,0,1-6.77-12.27Z",
             }
+            
         }
     }
 }
@@ -26099,6 +28259,9 @@ impl IconShape for IoFlowerOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26140,6 +28303,7 @@ impl IconShape for IoFlowerOutline {
                 r: "64",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -26174,6 +28338,9 @@ impl IconShape for IoFlowerSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -26184,6 +28351,7 @@ impl IconShape for IoFlowerSharp {
             path {
                 d: "M475.93,303.91a67.49,67.49,0,0,0-47.62-115.6c-2.88,0-6.2.14-9.93.43,2.75-2.36,5.23-4.62,7.33-6.71A67.83,67.83,0,0,0,378,66.33h-.25a67.27,67.27,0,0,0-47.82,20c-2.11,2.11-4.37,4.59-6.72,7.33.29-3.75.44-7.07.44-9.93a67.69,67.69,0,1,0-135.38,0c0,2.87.15,6.19.44,9.93-2.36-2.74-4.62-5.22-6.72-7.33a67.27,67.27,0,0,0-47.82-20H134A67.9,67.9,0,0,0,86.29,182c2.1,2.09,4.58,4.35,7.34,6.72-3.74-.29-7.06-.44-9.94-.44a67.69,67.69,0,0,0,0,135.38c2.86,0,6.18-.15,9.93-.44-2.74,2.35-5.22,4.61-7.33,6.72a67.55,67.55,0,0,0,47.82,115.42h.25A67.32,67.32,0,0,0,182,425.71c2.09-2.1,4.35-4.58,6.71-7.33-.28,3.73-.43,7.05-.43,9.93a67.69,67.69,0,0,0,135.38,0c0-2.87-.15-6.19-.44-9.94,2.36,2.75,4.62,5.24,6.72,7.34a67.32,67.32,0,0,0,47.67,19.68h.25A67.5,67.5,0,0,0,425.71,330c-2.11-2.11-4.59-4.37-7.33-6.72,3.75.29,7.07.44,9.93.44A67.27,67.27,0,0,0,475.93,303.91ZM256,341a85,85,0,1,1,85-85A85.1,85.1,0,0,1,256,341Z",
             }
+            
         }
     }
 }
@@ -26218,6 +28386,9 @@ impl IconShape for IoFlower {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -26228,6 +28399,7 @@ impl IconShape for IoFlower {
             path {
                 d: "M475.93,303.91a67.49,67.49,0,0,0-44.34-115.53,5.2,5.2,0,0,1-4.58-3.21h0a5.21,5.21,0,0,1,1-5.51A67.83,67.83,0,0,0,378,66.33h-.25A67.13,67.13,0,0,0,332.35,84a5.21,5.21,0,0,1-5.52,1h0a5.23,5.23,0,0,1-3.22-4.58,67.68,67.68,0,0,0-135.23,0A5.2,5.2,0,0,1,185.17,85h0a5.21,5.21,0,0,1-5.52-1,67.11,67.11,0,0,0-45.44-17.69H134A67.91,67.91,0,0,0,84,179.65a5.21,5.21,0,0,1,1,5.51h0a5.2,5.2,0,0,1-4.58,3.21,67.71,67.71,0,0,0,0,135.23A5.23,5.23,0,0,1,85,326.83h0a5.22,5.22,0,0,1-1,5.52,67.54,67.54,0,0,0,50.08,113h.25A67.38,67.38,0,0,0,179.65,428a5.21,5.21,0,0,1,5.51-1h0a5.2,5.2,0,0,1,3.21,4.58,67.71,67.71,0,0,0,135.23,0,5.23,5.23,0,0,1,3.22-4.58h0a5.21,5.21,0,0,1,5.51,1,67.38,67.38,0,0,0,45.29,17.42h.25a67.48,67.48,0,0,0,50.08-113,5.22,5.22,0,0,1-1-5.52h0a5.23,5.23,0,0,1,4.58-3.22A67.31,67.31,0,0,0,475.93,303.91ZM256,336a80,80,0,1,1,80-80A80.09,80.09,0,0,1,256,336Z",
             }
+            
         }
     }
 }
@@ -26262,6 +28434,9 @@ impl IconShape for IoFolderOpenOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -26272,6 +28447,7 @@ impl IconShape for IoFolderOpenOutline {
                 d: "M479.9,226.55,463.68,392a40,40,0,0,1-39.93,40H88.25a40,40,0,0,1-39.93-40L32.1,226.55A32,32,0,0,1,64,192h384.1A32,32,0,0,1,479.9,226.55Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -26306,6 +28482,9 @@ impl IconShape for IoFolderOpenSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -26314,6 +28493,7 @@ impl IconShape for IoFolderOpenSharp {
             path {
                 d: "M464,124a28,28,0,0,0-28-28H244.84l-48-32H76A28,28,0,0,0,48,92v52H464Z",
             }
+            
         }
     }
 }
@@ -26348,6 +28528,9 @@ impl IconShape for IoFolderOpen {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -26356,6 +28539,7 @@ impl IconShape for IoFolderOpen {
             path {
                 d: "M423.75,448H88.25a56,56,0,0,1-55.93-55.15L16.18,228.11l0-.28A48,48,0,0,1,64,176h384.1a48,48,0,0,1,47.8,51.83l0,.28L479.68,392.85A56,56,0,0,1,423.75,448ZM479.9,226.55h0Z",
             }
+            
         }
     }
 }
@@ -26390,6 +28574,9 @@ impl IconShape for IoFolderOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -26403,6 +28590,7 @@ impl IconShape for IoFolderOutline {
                 y1: "192",
                 y2: "192",
             }
+            
         }
     }
 }
@@ -26437,6 +28625,9 @@ impl IconShape for IoFolderSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -26445,6 +28636,7 @@ impl IconShape for IoFolderSharp {
             path {
                 d: "M496,124a28,28,0,0,0-28-28H212.84l-48-32H44A28,28,0,0,0,16,92v84H496Z",
             }
+            
         }
     }
 }
@@ -26479,6 +28671,9 @@ impl IconShape for IoFolder {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -26487,6 +28682,7 @@ impl IconShape for IoFolder {
             path {
                 d: "M16,392a56,56,0,0,0,56,56H440a56,56,0,0,0,56-56V216a8,8,0,0,0-8-8H24a8,8,0,0,0-8,8Z",
             }
+            
         }
     }
 }
@@ -26520,6 +28716,9 @@ impl IconShape for IoFootballOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26588,6 +28787,7 @@ impl IconShape for IoFootballOutline {
                 y1: "368",
                 y2: "368",
             }
+            
         }
     }
 }
@@ -26622,11 +28822,15 @@ impl IconShape for IoFootballSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM396.64,344.08H349.87l-16.89-29,15-60.44L377.79,242l42.65,36.71A164.87,164.87,0,0,1,396.64,344.08ZM134.21,242,164,254.67l15,60.44-16.89,29H115.36a164.87,164.87,0,0,1-23.8-65.34Zm249.07-92.47-18.41,52.33-31.12,13.18L277,167.46v-35l43.86-29.22A166.87,166.87,0,0,1,383.28,149.56ZM191.14,103.2,235,132.42v35l-56.75,47.61-31.12-13.18-18.41-52.33A166.87,166.87,0,0,1,191.14,103.2Zm26.44,314.3-20.1-50.66,16-27.51h85l16.06,27.53-20,50.6a166.23,166.23,0,0,1-77,0Z",
             }
+            
         }
     }
 }
@@ -26661,11 +28865,15 @@ impl IconShape for IoFootball {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM399,352H353.78a8,8,0,0,1-6.91-4l-16.14-27.68a8,8,0,0,1-.86-6l14.86-59.92a8,8,0,0,1,4.65-5.45l28.1-11.9a8,8,0,0,1,8.34,1.3l41.63,35.82a8,8,0,0,1,2.69,7.26,174.75,174.75,0,0,1-24.28,66.68A8,8,0,0,1,399,352ZM134.52,237.13l28.1,11.9a8,8,0,0,1,4.65,5.45l14.86,59.92a8,8,0,0,1-.86,6L165.13,348a8,8,0,0,1-6.91,4H113a8,8,0,0,1-6.82-3.81,174.75,174.75,0,0,1-24.28-66.68,8,8,0,0,1,2.69-7.26l41.63-35.82A8,8,0,0,1,134.52,237.13Zm256.94-87.24-18.07,51.38A8,8,0,0,1,369,206l-29.58,12.53a8,8,0,0,1-8.26-1.24l-56.26-47.19A8,8,0,0,1,272,164V130.42a8,8,0,0,1,3.56-6.65l42.83-28.54a8,8,0,0,1,7.66-.67A176.92,176.92,0,0,1,390,142,8,8,0,0,1,391.46,149.89ZM193.6,95.23l42.84,28.54a8,8,0,0,1,3.56,6.65V164a8,8,0,0,1-2.86,6.13l-56.26,47.19a8,8,0,0,1-8.26,1.24L143,206a8,8,0,0,1-4.43-4.72l-18.07-51.38A8,8,0,0,1,122,142a176.92,176.92,0,0,1,64-47.48A8,8,0,0,1,193.6,95.23Zm17.31,327.46L191.18,373a8,8,0,0,1,.52-7l15.17-26a8,8,0,0,1,6.91-4h84.44a8,8,0,0,1,6.91,4l15.18,26a8,8,0,0,1,.53,7l-19.59,49.67a8,8,0,0,1-5.69,4.87,176.58,176.58,0,0,1-79,0A8,8,0,0,1,210.91,422.69Z",
             }
+            
         }
     }
 }
@@ -26700,6 +28908,9 @@ impl IconShape for IoFootstepsOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -26726,6 +28937,7 @@ impl IconShape for IoFootstepsOutline {
                 stroke_miterlimit: "10",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -26760,6 +28972,9 @@ impl IconShape for IoFootstepsSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -26774,6 +28989,7 @@ impl IconShape for IoFootstepsSharp {
             path {
                 d: "M404.28,294.84,295.39,272.38c-9.2-1.9-16.58,3.16-20,18.32C264.18,340.46,280.26,400,330.62,400c47.69,0,79.47-54.36,84.66-83.58C417.64,303.17,414.26,296.89,404.28,294.84Z",
             }
+            
         }
     }
 }
@@ -26808,6 +29024,9 @@ impl IconShape for IoFootsteps {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -26822,6 +29041,7 @@ impl IconShape for IoFootsteps {
             path {
                 d: "M339,400a61,61,0,0,1-11.68-1.13c-17.56-3.44-32.84-14.75-43-31.86-9.47-15.9-13.67-35.43-11.83-55h0c1.6-17,7-28.52,16.62-35.33,14.33-10.17,31.69-5.89,48.47-1.74,4.48,1.1,9.1,2.24,13.62,3.11l6.29,1.17c19.63,3.61,38.17,7,48.5,22.17,6.36,9.33,8.07,21,5.22,35.64a79.78,79.78,0,0,1-33.52,50.61C365.56,395.78,352.17,400,339,400Z",
             }
+            
         }
     }
 }
@@ -26856,12 +29076,16 @@ impl IconShape for IoFunnelOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M35.4,87.12,204.05,283.56A16.07,16.07,0,0,1,208,294V413.32a7.93,7.93,0,0,0,5.39,7.59l80.15,26.67A7.94,7.94,0,0,0,304,440V294A16.07,16.07,0,0,1,308,283.56L476.6,87.12A14,14,0,0,0,466,64H46.05A14,14,0,0,0,35.4,87.12Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -26896,11 +29120,15 @@ impl IconShape for IoFunnelSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "0 48 192 288 192 416 320 464 320 288 512 48 0 48",
             }
+            
         }
     }
 }
@@ -26935,11 +29163,15 @@ impl IconShape for IoFunnel {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M296,464a23.88,23.88,0,0,1-7.55-1.23l-80.15-26.67A23.92,23.92,0,0,1,192,413.32V294.11a.44.44,0,0,0-.09-.13L23.26,97.54A30,30,0,0,1,46.05,48H466a30,30,0,0,1,22.79,49.54L320.09,294a.77.77,0,0,0-.09.13V440a23.93,23.93,0,0,1-24,24Z",
             }
+            
         }
     }
 }
@@ -26973,6 +29205,9 @@ impl IconShape for IoGameControllerOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27012,6 +29247,7 @@ impl IconShape for IoGameControllerOutline {
                 y1: "224",
                 y2: "224",
             }
+            
         }
     }
 }
@@ -27046,11 +29282,15 @@ impl IconShape for IoGameControllerSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M478.07,356.88,439,151c-8.86-40.35-23-71-88-71H145c-66,0-79.14,30.65-88,71L18,356.88C11,391,22.43,418.13,51.37,428.69S103,423,119.18,391.3l15.42-30.52A16,16,0,0,1,148.88,352H347.16a16,16,0,0,1,14.28,8.78l15.42,30.52c16.14,31.7,38.88,48,67.81,37.39S485,391,478.07,356.88ZM224,240H176v48H144V240H96V208h48V160h32v48h48Zm68,4a20,20,0,1,1,20-20A20,20,0,0,1,292,244Zm44,44a20,20,0,1,1,20-20A20,20,0,0,1,336,288Zm0-88a20,20,0,1,1,20-20A20,20,0,0,1,336,200Zm44,44a20,20,0,1,1,20-20A20,20,0,0,1,380,244Z",
             }
+            
         }
     }
 }
@@ -27085,11 +29325,15 @@ impl IconShape for IoGameController {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M483.13,245.38C461.92,149.49,430,98.31,382.65,84.33A107.13,107.13,0,0,0,352,80c-13.71,0-25.65,3.34-38.28,6.88C298.5,91.15,281.21,96,256,96s-42.51-4.84-57.76-9.11C185.6,83.34,173.67,80,160,80a115.74,115.74,0,0,0-31.73,4.32c-47.1,13.92-79,65.08-100.52,161C4.61,348.54,16,413.71,59.69,428.83a56.62,56.62,0,0,0,18.64,3.22c29.93,0,53.93-24.93,70.33-45.34,18.53-23.1,40.22-34.82,107.34-34.82,59.95,0,84.76,8.13,106.19,34.82,13.47,16.78,26.2,28.52,38.9,35.91,16.89,9.82,33.77,12,50.16,6.37,25.82-8.81,40.62-32.1,44-69.24C497.82,331.27,493.86,293.86,483.13,245.38ZM208,240H176v32a16,16,0,0,1-32,0V240H112a16,16,0,0,1,0-32h32V176a16,16,0,0,1,32,0v32h32a16,16,0,0,1,0,32Zm84,4a20,20,0,1,1,20-20A20,20,0,0,1,292,244Zm44,44a20,20,0,1,1,20-19.95A20,20,0,0,1,336,288Zm0-88a20,20,0,1,1,20-20A20,20,0,0,1,336,200Zm44,44a20,20,0,1,1,20-20A20,20,0,0,1,380,244Z",
             }
+            
         }
     }
 }
@@ -27124,6 +29368,9 @@ impl IconShape for IoGiftOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -27154,6 +29401,7 @@ impl IconShape for IoGiftOutline {
                 y1: "160",
                 y2: "464",
             }
+            
         }
     }
 }
@@ -27188,6 +29436,9 @@ impl IconShape for IoGiftSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -27207,6 +29458,7 @@ impl IconShape for IoGiftSharp {
             path {
                 d: "M80,458a22,22,0,0,0,22,22H234V288H80Z",
             }
+            
         }
     }
 }
@@ -27241,6 +29493,9 @@ impl IconShape for IoGift {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -27260,6 +29515,7 @@ impl IconShape for IoGift {
             path {
                 d: "M276,480h92a64,64,0,0,0,64-64V296a8,8,0,0,0-8-8H276a4,4,0,0,0-4,4V476A4,4,0,0,0,276,480Z",
             }
+            
         }
     }
 }
@@ -27294,6 +29550,9 @@ impl IconShape for IoGitBranchOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -27325,6 +29584,7 @@ impl IconShape for IoGitBranchOutline {
                 d: "M352,208c0,128-192,48-192,160",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -27359,11 +29619,15 @@ impl IconShape for IoGitBranchSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M352,96a64,64,0,0,0-58.86,89.11L192,273.11V151.39a64,64,0,1,0-64,0V360.61a64,64,0,1,0,64,0V358L346.25,223.73c1.9.17,3.81.27,5.75.27a64,64,0,0,0,0-128ZM160,64a32,32,0,1,1-32,32A32,32,0,0,1,160,64Zm0,384a32,32,0,1,1,32-32A32,32,0,0,1,160,448ZM352,192a32,32,0,1,1,32-32A32,32,0,0,1,352,192Z",
             }
+            
         }
     }
 }
@@ -27398,11 +29662,15 @@ impl IconShape for IoGitBranch {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M416,160a64,64,0,1,0-96.27,55.24c-2.29,29.08-20.08,37-75,48.42-17.76,3.68-35.93,7.45-52.71,13.93V151.39a64,64,0,1,0-64,0V360.61a64,64,0,1,0,64.42.24c2.39-18,16-24.33,65.26-34.52,27.43-5.67,55.78-11.54,79.78-26.95,29-18.58,44.53-46.78,46.36-83.89A64,64,0,0,0,416,160ZM160,64a32,32,0,1,1-32,32A32,32,0,0,1,160,64Zm0,384a32,32,0,1,1,32-32A32,32,0,0,1,160,448ZM352,192a32,32,0,1,1,32-32A32,32,0,0,1,352,192Z",
             }
+            
         }
     }
 }
@@ -27437,6 +29705,9 @@ impl IconShape for IoGitCommitOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -27459,6 +29730,7 @@ impl IconShape for IoGitCommitOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -27493,11 +29765,15 @@ impl IconShape for IoGitCommitSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M480,224H380a128,128,0,0,0-247.9,0H32v64H132.05A128,128,0,0,0,380,288H480ZM256,320a64,64,0,1,1,64-64A64.07,64.07,0,0,1,256,320Z",
             }
+            
         }
     }
 }
@@ -27532,11 +29808,15 @@ impl IconShape for IoGitCommit {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M448,224H380a128,128,0,0,0-247.9,0H64a32,32,0,0,0,0,64h68.05A128,128,0,0,0,380,288H448a32,32,0,0,0,0-64ZM256,320a64,64,0,1,1,64-64A64.07,64.07,0,0,1,256,320Z",
             }
+            
         }
     }
 }
@@ -27571,6 +29851,9 @@ impl IconShape for IoGitCompareOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -27601,6 +29884,7 @@ impl IconShape for IoGitCompareOutline {
                 d: "M255,416H171a60,60,0,0,1-60-60V144",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -27635,6 +29919,9 @@ impl IconShape for IoGitCompareSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -27643,6 +29930,7 @@ impl IconShape for IoGitCompareSharp {
             path {
                 d: "M432,360.61V156a92.1,92.1,0,0,0-92-92H305V9.93L217.14,96,305,182.07V128h35a28,28,0,0,1,28,28V360.61a64,64,0,1,0,64,0ZM400,448a32,32,0,1,1,32-32A32,32,0,0,1,400,448Z",
             }
+            
         }
     }
 }
@@ -27677,6 +29965,9 @@ impl IconShape for IoGitCompare {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -27685,6 +29976,7 @@ impl IconShape for IoGitCompare {
             path {
                 d: "M432,360.61V156a92.1,92.1,0,0,0-92-92H320V32a16,16,0,0,0-27.31-11.31l-64,64a16,16,0,0,0,0,22.62l64,64A16,16,0,0,0,320,160V128h20a28,28,0,0,1,28,28V360.61a64,64,0,1,0,64,0ZM400,448a32,32,0,1,1,32-32A32,32,0,0,1,400,448Z",
             }
+            
         }
     }
 }
@@ -27719,6 +30011,9 @@ impl IconShape for IoGitMergeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -27750,6 +30045,7 @@ impl IconShape for IoGitMergeOutline {
                 d: "M129,144c0,96,112,144,208,144",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -27784,11 +30080,15 @@ impl IconShape for IoGitMergeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M384,224a63.66,63.66,0,0,0-37.95,12.5L160,153.36v-2a64,64,0,1,0-64,0V360.61a64,64,0,1,0,64,0V223.46l160.41,71.69A64,64,0,1,0,384,224ZM128,64A32,32,0,1,1,96,96,32,32,0,0,1,128,64Zm0,384a32,32,0,1,1,32-32A32,32,0,0,1,128,448ZM384,320a32,32,0,1,1,32-32A32,32,0,0,1,384,320Z",
             }
+            
         }
     }
 }
@@ -27823,11 +30123,15 @@ impl IconShape for IoGitMerge {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M385,224a64,64,0,0,0-55.33,31.89c-42.23-1.21-85.19-12.72-116.21-31.33-32.2-19.32-49.71-44-52.15-73.35a64,64,0,1,0-64.31.18V360.61a64,64,0,1,0,64,0V266.15c44.76,34,107.28,52.38,168.56,53.76A64,64,0,1,0,385,224ZM129,64A32,32,0,1,1,97,96,32,32,0,0,1,129,64Zm0,384a32,32,0,1,1,32-32A32,32,0,0,1,129,448ZM385,320a32,32,0,1,1,32-32A32,32,0,0,1,385,320Z",
             }
+            
         }
     }
 }
@@ -27861,6 +30165,9 @@ impl IconShape for IoGitNetworkOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27897,6 +30204,7 @@ impl IconShape for IoGitNetworkOutline {
                 d: "M384,144c0,74.67-68.92,112-128,112",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -27931,11 +30239,15 @@ impl IconShape for IoGitNetworkSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M384,32a64,64,0,0,0-57.67,91.73L255.5,204.55l-70.19-80.1A64,64,0,1,0,128,160c1.1,0,2.2,0,3.29-.08L224,265.7v94.91a64,64,0,1,0,64,0V264.56l91.78-104.71c1.39.09,2.8.15,4.22.15a64,64,0,0,0,0-128ZM96,96a32,32,0,1,1,32,32A32,32,0,0,1,96,96ZM256,448a32,32,0,1,1,32-32A32,32,0,0,1,256,448ZM384,128a32,32,0,1,1,32-32A32,32,0,0,1,384,128Z",
             }
+            
         }
     }
 }
@@ -27970,11 +30282,15 @@ impl IconShape for IoGitNetwork {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M448,96a64,64,0,1,0-96.31,55.21c-1.79,20.87-11.47,38.1-28.87,51.29C305.07,216,280.09,224,256,224s-49.07-8-66.82-21.5c-17.4-13.19-27.08-30.42-28.87-51.29a64,64,0,1,0-64.11.29c2.08,40.87,21.17,76.87,54.31,102C171.3,269.26,197,280.19,224,285.09v75.52a64,64,0,1,0,64,0V285.09c27-4.9,52.7-15.83,73.49-31.59,33.14-25.13,52.23-61.13,54.31-102A64,64,0,0,0,448,96ZM128,64A32,32,0,1,1,96,96,32,32,0,0,1,128,64ZM256,448a32,32,0,1,1,32-32A32,32,0,0,1,256,448ZM384,128a32,32,0,1,1,32-32A32,32,0,0,1,384,128Z",
             }
+            
         }
     }
 }
@@ -28008,6 +30324,9 @@ impl IconShape for IoGitPullRequestOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28044,6 +30363,7 @@ impl IconShape for IoGitPullRequestOutline {
                 d: "M240,96h84a60,60,0,0,1,60,60V368",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -28078,6 +30398,9 @@ impl IconShape for IoGitPullRequestSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28086,6 +30409,7 @@ impl IconShape for IoGitPullRequestSharp {
             path {
                 d: "M416,360.61V156a92.1,92.1,0,0,0-92-92H289V9.93L201.14,96,289,182.07V128h35a28,28,0,0,1,28,28V360.61a64,64,0,1,0,64,0ZM384,448a32,32,0,1,1,32-32A32,32,0,0,1,384,448Z",
             }
+            
         }
     }
 }
@@ -28120,6 +30444,9 @@ impl IconShape for IoGitPullRequest {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28128,6 +30455,7 @@ impl IconShape for IoGitPullRequest {
             path {
                 d: "M416,360.61V156a92.1,92.1,0,0,0-92-92H304V32a16,16,0,0,0-27.31-11.31l-64,64a16,16,0,0,0,0,22.62l64,64A16,16,0,0,0,304,160V128h20a28,28,0,0,1,28,28V360.61a64,64,0,1,0,64,0ZM384,448a32,32,0,1,1,32-32A32,32,0,0,1,384,448Z",
             }
+            
         }
     }
 }
@@ -28162,6 +30490,9 @@ impl IconShape for IoGlassesOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28190,6 +30521,7 @@ impl IconShape for IoGlassesOutline {
                 d: "M448,200c0,96-16,128-80,128s-80-32-80-128c0,0,16-16,80-16S448,200,448,200Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -28224,11 +30556,15 @@ impl IconShape for IoGlassesSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M496,176H16v64H37.24L49.68,352H221.55L240,241.32V240a16,16,0,0,1,32,0v1.32L290.45,352H462.32l12.44-112H496Z",
             }
+            
         }
     }
 }
@@ -28263,11 +30599,15 @@ impl IconShape for IoGlasses {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-d"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,184H453.1a78.72,78.72,0,0,0-16-7.18C419.5,171,396.26,168,368,168s-51.5,3-69.06,8.82c-14.06,4.69-20.25,9.86-22.25,11.87h0a47.94,47.94,0,0,0-41.36,0h0c-2-2-8.19-7.18-22.25-11.87C195.5,171,172.26,168,144,168s-51.5,3-69.06,8.82a78.72,78.72,0,0,0-16,7.18H48a16,16,0,0,0,0,32h.17c1,45.46,6.44,72.78,18.11,92.23a66.78,66.78,0,0,0,31.92,28c12.23,5.24,27.22,7.79,45.8,7.79,24.15,0,58.48-3.71,77.72-35.77,9.68-16.14,15.09-37.69,17.21-70.52A16,16,0,0,0,240,232a16,16,0,0,1,32,0,16,16,0,0,0,1.07,5.71c2.12,32.83,7.53,54.38,17.21,70.52a66.78,66.78,0,0,0,31.92,28c12.23,5.24,27.22,7.79,45.8,7.79,24.15,0,58.48-3.71,77.72-35.77,11.67-19.45,17.13-46.77,18.11-92.23H464a16,16,0,0,0,0-32Z",
             }
+            
         }
     }
 }
@@ -28302,6 +30642,9 @@ impl IconShape for IoGlobeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28334,6 +30677,7 @@ impl IconShape for IoGlobeOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -28368,6 +30712,9 @@ impl IconShape for IoGlobeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28400,6 +30747,7 @@ impl IconShape for IoGlobeSharp {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -28434,6 +30782,9 @@ impl IconShape for IoGlobe {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28463,6 +30814,7 @@ impl IconShape for IoGlobe {
             path {
                 d: "M414.39,97.61A224,224,0,1,0,97.61,414.39,224,224,0,1,0,414.39,97.61ZM176.6,430.85a219.08,219.08,0,0,1-12.48-19.66c-2-3.69-4.84-9.26-6.73-13.13a7.29,7.29,0,0,0-10.31-3.16c-4.3,2.41-10,5.72-14.13,8.43a147.29,147.29,0,0,1-23.57-22.43,248.83,248.83,0,0,1,30.41-18.36c1.86-1,2.77-2.14,2.18-4.18a374.8,374.8,0,0,1-14.09-82.17,4.36,4.36,0,0,0-4.3-4.17H66.84a2,2,0,0,1-2-1.7A98.28,98.28,0,0,1,64,256a96.27,96.27,0,0,1,.86-14.29,2,2,0,0,1,2-1.7H123.6c2.29,0,4.17-1.32,4.29-3.63a372.71,372.71,0,0,1,14-81.83,4.36,4.36,0,0,0-2.19-5.11,260.63,260.63,0,0,1-29.84-17.9A169.82,169.82,0,0,1,133,108.74c4.08,2.68,9.4,5.71,13.66,8.11a7.89,7.89,0,0,0,11-3.42c1.88-3.87,4-8.18,6.06-11.88a221.93,221.93,0,0,1,12.54-19.91A185,185,0,0,1,256,64c28.94,0,55.9,7,80.53,18.46a202.23,202.23,0,0,1,12,19c2.59,4.66,5.34,10.37,7.66,15.32a4.29,4.29,0,0,0,5.92,1.94c5.38-2.91,11.21-6.26,16.34-9.63a171.36,171.36,0,0,1,23.2,23,244.89,244.89,0,0,1-29.06,17.31,4.35,4.35,0,0,0-2.18,5.12,348.68,348.68,0,0,1,13.85,81.4,4.33,4.33,0,0,0,4.3,4.12l56.62-.07a2,2,0,0,1,2,1.7,117.46,117.46,0,0,1,0,28.62,2,2,0,0,1-2,1.72l-56.67,0a4.35,4.35,0,0,0-4.3,4.17,367.4,367.4,0,0,1-13.87,81.3,4.45,4.45,0,0,0,2.19,5.19c5,2.59,10.57,5.48,15.37,8.42s9.55,6.08,14.13,9.34a172.73,172.73,0,0,1-23,22.93c-2.44-1.61-5.34-3.44-7.84-4.94-1.72-1-4.89-2.77-6.65-3.76-3.82-2.14-7.88-.54-9.79,3.4s-4.83,9.59-6.87,13.25a212.42,212.42,0,0,1-12.35,19.53C310.91,442.37,284.94,448,256,448S201.23,442.37,176.6,430.85Z",
             }
+            
         }
     }
 }
@@ -28497,6 +30849,9 @@ impl IconShape for IoGolfOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -28507,6 +30862,7 @@ impl IconShape for IoGolfOutline {
                 d: "M256,336c-87,0-175.3,43.2-191.64,124.74C62.39,470.57,68.57,480,80,480H432c11.44,0,17.62-9.43,15.65-19.26C431.3,379.2,343,336,256,336Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -28541,6 +30897,9 @@ impl IconShape for IoGolfSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28549,6 +30908,7 @@ impl IconShape for IoGolfSharp {
             path {
                 d: "M462.91,457.5c-8.54-42.85-35-78.74-76.62-103.8C353.86,334.15,313.76,322.4,272,320v95.79H240V320c-41.79,2.4-81.89,14.15-114.32,33.7-41.59,25.06-68.08,60.95-76.62,103.8-2,9.81-.68,38.5-.68,38.5H463.59S464.87,467.31,462.91,457.5Z",
             }
+            
         }
     }
 }
@@ -28583,6 +30943,9 @@ impl IconShape for IoGolf {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28591,6 +30954,7 @@ impl IconShape for IoGolf {
             path {
                 d: "M463.33,457.5c-8.56-42.85-35.11-78.74-76.78-103.8C354.05,334.15,313.88,322.4,272,320v79.75a16,16,0,1,1-32,0V320c-41.88,2.4-82.05,14.15-114.55,33.7-41.67,25.06-68.22,60.95-76.78,103.8a32.49,32.49,0,0,0,6.44,27.08C61.13,492,70,496,80,496H432c10,0,18.88-4.05,24.9-11.42A32.49,32.49,0,0,0,463.33,457.5Z",
             }
+            
         }
     }
 }
@@ -28625,6 +30989,9 @@ impl IconShape for IoGridOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -28663,6 +31030,7 @@ impl IconShape for IoGridOutline {
                 x: "288",
                 y: "288",
             }
+            
         }
     }
 }
@@ -28697,6 +31065,9 @@ impl IconShape for IoGridSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28711,6 +31082,7 @@ impl IconShape for IoGridSharp {
             path {
                 d: "M480,480H272V272H480Z",
             }
+            
         }
     }
 }
@@ -28745,6 +31117,9 @@ impl IconShape for IoGrid {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28759,6 +31134,7 @@ impl IconShape for IoGrid {
             path {
                 d: "M444,480H308a36,36,0,0,1-36-36V308a36,36,0,0,1,36-36H444a36,36,0,0,1,36,36V444A36,36,0,0,1,444,480Z",
             }
+            
         }
     }
 }
@@ -28793,6 +31169,9 @@ impl IconShape for IoHammerOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28803,6 +31182,7 @@ impl IconShape for IoHammerOutline {
                 d: "M478.43,201l-34.31-34a5.44,5.44,0,0,0-4-1.59,5.59,5.59,0,0,0-4,1.59h0a11.41,11.41,0,0,1-9.55,3.27c-4.48-.49-9.25-1.88-12.33-4.86-7-6.86,1.09-20.36-5.07-29a242.88,242.88,0,0,0-23.08-26.72c-7.06-7-34.81-33.47-81.55-52.53a123.79,123.79,0,0,0-47-9.24c-26.35,0-46.61,11.76-54,18.51-5.88,5.32-12,13.77-12,13.77A91.29,91.29,0,0,1,202.35,77a79.53,79.53,0,0,1,23.28-1.49C241.19,76.8,259.94,84.1,270,92c16.21,13,23.18,30.39,24.27,52.83.8,16.69-15.23,37.76-30.44,54.94a7.85,7.85,0,0,0,.4,10.83l21.24,21.23a8,8,0,0,0,11.14.1c13.93-13.51,31.09-28.47,40.82-34.46s17.58-7.68,21.35-8.09A35.71,35.71,0,0,1,380.08,194a13.65,13.65,0,0,1,3.08,2.38c6.46,6.56,6.07,17.28-.5,23.74l-2,1.89a5.5,5.5,0,0,0,0,7.84l34.31,34a5.5,5.5,0,0,0,4,1.58,5.65,5.65,0,0,0,4-1.58L478.43,209A5.82,5.82,0,0,0,478.43,201Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -28837,6 +31217,9 @@ impl IconShape for IoHammerSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28845,6 +31228,7 @@ impl IconShape for IoHammerSharp {
             path {
                 d: "M499.33,199.33l-43.89-43.58a21.46,21.46,0,0,0-15.28-6.26,21.89,21.89,0,0,0-12.79,4.14c0-.43.06-.85.09-1.22.45-6.5,1.15-16.32-5.2-25.22a258,258,0,0,0-24.8-28.74.6.6,0,0,0-.08-.08c-13.32-13.12-42.31-37.83-86.72-55.94A139.55,139.55,0,0,0,257.56,32C226,32,202,46.24,192.81,54.68A53.4,53.4,0,0,0,176,86.17L192,96s8.06-2,13.86-3.39a62.73,62.73,0,0,1,18.45-1.15C237.5,92.55,253.1,99.1,260,104.55c11.7,9.41,17.33,22.09,18.26,41.09.2,4.23-9.52,21.35-24.16,39.84a8,8,0,0,0,.61,10.62l45.37,45.37a8,8,0,0,0,11,.25c12.07-11,30.49-28,34.67-30.59,7.69-4.73,13.19-5.64,14.7-5.8a19.18,19.18,0,0,1,11.29,2.38,1.24,1.24,0,0,1-.31.95l-1.82,1.73-.3.28a21.52,21.52,0,0,0,.05,30.54l43.95,43.68a8,8,0,0,0,11.28,0l74.68-74.2A8,8,0,0,0,499.33,199.33Z",
             }
+            
         }
     }
 }
@@ -28879,6 +31263,9 @@ impl IconShape for IoHammer {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28887,6 +31274,7 @@ impl IconShape for IoHammer {
             path {
                 d: "M490,190l-.31-.31-34.27-33.92a21.46,21.46,0,0,0-15.28-6.26,21.89,21.89,0,0,0-12.79,4.14c0-.43.06-.85.09-1.22.45-6.5,1.15-16.32-5.2-25.22a258,258,0,0,0-24.8-28.74.6.6,0,0,0-.08-.08c-13.32-13.12-42.31-37.83-86.72-55.94A139.55,139.55,0,0,0,257.56,32C226,32,202,46.24,192.81,54.68A119.92,119.92,0,0,0,178.63,70.9a16,16,0,0,0,18.65,24.34,74.45,74.45,0,0,1,8.58-2.63,63.46,63.46,0,0,1,18.45-1.15C237.5,92.55,253.1,99.1,260,104.55c11.7,9.41,17.33,22.09,18.26,41.09.18,3.82-7.72,18.14-20,34.48a16,16,0,0,0,1.45,21l34.41,34.41a16,16,0,0,0,22,.62c9.73-8.69,24.55-21.79,29.73-25,7.69-4.73,13.19-5.64,14.7-5.8a19.18,19.18,0,0,1,11.29,2.38,1.24,1.24,0,0,1-.31.95l-1.82,1.73-.3.28a21.52,21.52,0,0,0,.05,30.54l34.26,33.91A21.45,21.45,0,0,0,419,281.39a21.7,21.7,0,0,0,15.22-6.2l55.5-54.82c.19-.19.38-.39.56-.59A21.87,21.87,0,0,0,490,190Z",
             }
+            
         }
     }
 }
@@ -28921,6 +31309,9 @@ impl IconShape for IoHandLeftOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -28943,6 +31334,7 @@ impl IconShape for IoHandLeftOutline {
                 d: "M80,320c0,117.4,64,176,152,176s123.71-39.6,144-88l52.71-144c6.66-18.05,3.64-34.79-11.87-43.6h0c-15.52-8.82-35.91-4.28-44.31,11.68L336,320",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -28977,11 +31369,15 @@ impl IconShape for IoHandLeftSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M429.58,209.08h0c-15.06-6.62-32.38,1.31-38.5,17.62L356,312H344.73V80c0-17.6-13.3-32-29.55-32h0c-16.26,0-29.55,14.4-29.55,32V231.75l-14.78.25V32c0-17.6-13.3-32-29.55-32h0c-16.25,0-29.55,14.4-29.55,32V231.75L197,232V64c0-17.6-13.3-32-29.55-32h0c-16.26,0-29.55,14.4-29.55,32V247.75L123.1,248V128c0-17.6-13.3-32-29.55-32h0C77.3,96,64,110.4,64,128V344c0,75.8,37.13,168,169,168,40.8,0,79.42-7,100.66-21a121.41,121.41,0,0,0,33.72-33.31,138,138,0,0,0,16-31.78l62.45-175.14C452,234.46,444.64,215.71,429.58,209.08Z",
             }
+            
         }
     }
 }
@@ -29016,11 +31412,15 @@ impl IconShape for IoHandLeft {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M432.8,211.44h0c-15.52-8.82-34.91-2.28-43.31,13.68l-41.38,84.41a7,7,0,0,1-8.93,3.43h0a7,7,0,0,1-4.41-6.52V72c0-13.91-12.85-24-26.77-24s-26,10.09-26,24V228.64A11.24,11.24,0,0,1,271.21,240,11,11,0,0,1,260,229V24c0-13.91-10.94-24-24.86-24S210,10.09,210,24V228.64A11.24,11.24,0,0,1,199.21,240,11,11,0,0,1,188,229V56c0-13.91-12.08-24-26-24s-26,11.09-26,25V244.64A11.24,11.24,0,0,1,125.21,256,11,11,0,0,1,114,245V120c0-13.91-11.08-24-25-24s-25.12,10.22-25,24V336c0,117.41,72,176,160,176h16c88,0,115.71-39.6,136-88l68.71-169C451.33,237,448.31,220.25,432.8,211.44Z",
             }
+            
         }
     }
 }
@@ -29055,6 +31455,9 @@ impl IconShape for IoHandRightOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -29077,6 +31480,7 @@ impl IconShape for IoHandRightOutline {
                 d: "M432,320c0,117.4-64,176-152,176s-123.71-39.6-144-88L83.33,264c-6.66-18.05-3.64-34.79,11.87-43.6h0c15.52-8.82,35.91-4.28,44.31,11.68L176,320",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -29111,11 +31515,15 @@ impl IconShape for IoHandRightSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M82.42,209.08h0c15.06-6.62,32.38,1.31,38.5,17.62L156,312h11.27V80c0-17.6,13.3-32,29.55-32h0c16.26,0,29.55,14.4,29.55,32V231.75l14.78.25V32c0-17.6,13.3-32,29.55-32h0C287,0,300.25,14.4,300.25,32V231.75L315,232V64c0-17.6,13.3-32,29.55-32h0c16.26,0,29.55,14.4,29.55,32V247.75l14.78.25V128c0-17.6,13.3-32,29.55-32h0C434.7,96,448,110.4,448,128V344c0,75.8-37.13,168-169,168-40.8,0-79.42-7-100.66-21a121.41,121.41,0,0,1-33.72-33.31,138,138,0,0,1-16-31.78L66.16,250.77C60.05,234.46,67.36,215.71,82.42,209.08Z",
             }
+            
         }
     }
 }
@@ -29150,11 +31558,15 @@ impl IconShape for IoHandRight {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M79.2,211.44h0c15.52-8.82,34.91-2.28,43.31,13.68l41.38,84.41a7,7,0,0,0,8.93,3.43h0a7,7,0,0,0,4.41-6.52V72c0-13.91,12.85-24,26.77-24s26,10.09,26,24V228.64A11.24,11.24,0,0,0,240.79,240,11,11,0,0,0,252,229V24c0-13.91,10.94-24,24.86-24S302,10.09,302,24V228.64A11.24,11.24,0,0,0,312.79,240,11,11,0,0,0,324,229V56c0-13.91,12.08-24,26-24s26,11.09,26,25V244.64A11.24,11.24,0,0,0,386.79,256,11,11,0,0,0,398,245V120c0-13.91,11.08-24,25-24s25.12,10.22,25,24V336c0,117.41-72,176-160,176H272c-88,0-115.71-39.6-136-88L67.33,255C60.67,237,63.69,220.25,79.2,211.44Z",
             }
+            
         }
     }
 }
@@ -29189,6 +31601,9 @@ impl IconShape for IoHappyOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -29210,6 +31625,7 @@ impl IconShape for IoHappyOutline {
                 r: "208",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -29244,11 +31660,15 @@ impl IconShape for IoHappySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414.39,97.61A224,224,0,1,0,97.61,414.39,224,224,0,1,0,414.39,97.61ZM328,208a24,24,0,1,1-24,24A23.94,23.94,0,0,1,328,208Zm-144,0a24,24,0,1,1-24,24A23.94,23.94,0,0,1,184,208Zm72.05,176c-45.42,0-83.75-29.49-95.72-69.83C159.29,310.65,158,304,158,304H354s-1.31,6.69-2.33,10.17C339.89,354.53,301.47,384,256.05,384Z",
             }
+            
         }
     }
 }
@@ -29283,11 +31703,15 @@ impl IconShape for IoHappy {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414.39,97.61A224,224,0,1,0,97.61,414.39,224,224,0,1,0,414.39,97.61ZM184,208a24,24,0,1,1-24,24A23.94,23.94,0,0,1,184,208ZM351.67,314.17c-12,40.3-50.2,69.83-95.62,69.83s-83.62-29.53-95.72-69.83A8,8,0,0,1,168.16,304H343.85A8,8,0,0,1,351.67,314.17ZM328,256a24,24,0,1,1,24-24A23.94,23.94,0,0,1,328,256Z",
             }
+            
         }
     }
 }
@@ -29321,6 +31745,9 @@ impl IconShape for IoHardwareChipOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29426,6 +31853,7 @@ impl IconShape for IoHardwareChipOutline {
                 y1: "176",
                 y2: "176",
             }
+            
         }
     }
 }
@@ -29460,6 +31888,9 @@ impl IconShape for IoHardwareChipSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -29471,6 +31902,7 @@ impl IconShape for IoHardwareChipSharp {
             path {
                 d: "M480,198V154H448V88a24,24,0,0,0-24-24H358V32H314V64H278V32H234V64H198V32H154V64H88A24,24,0,0,0,64,88v66H32v44H64v36H32v44H64v36H32v44H64v66a24,24,0,0,0,24,24h66v32h44V448h36v32h44V448h36v32h44V448h66a24,24,0,0,0,24-24V358h32V314H448V278h32V234H448V198ZM128,128H384V384H128Z",
             }
+            
         }
     }
 }
@@ -29505,6 +31937,9 @@ impl IconShape for IoHardwareChip {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -29522,6 +31957,7 @@ impl IconShape for IoHardwareChip {
             path {
                 d: "M464,192a16,16,0,0,0,0-32H448V128a64.07,64.07,0,0,0-64-64H352V48a16,16,0,0,0-32,0V64H272V48a16,16,0,0,0-32,0V64H192V48a16,16,0,0,0-32,0V64H128a64.07,64.07,0,0,0-64,64v32H48a16,16,0,0,0,0,32H64v48H48a16,16,0,0,0,0,32H64v48H48a16,16,0,0,0,0,32H64v32a64.07,64.07,0,0,0,64,64h32v16a16,16,0,0,0,32,0V448h48v16a16,16,0,0,0,32,0V448h48v16a16,16,0,0,0,32,0V448h32a64.07,64.07,0,0,0,64-64V352h16a16,16,0,0,0,0-32H448V272h16a16,16,0,0,0,0-32H448V192ZM384,352a32,32,0,0,1-32,32H160a32,32,0,0,1-32-32V160a32,32,0,0,1,32-32H352a32,32,0,0,1,32,32Z",
             }
+            
         }
     }
 }
@@ -29556,6 +31992,9 @@ impl IconShape for IoHeadsetOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -29570,6 +32009,7 @@ impl IconShape for IoHeadsetOutline {
                 d: "M403.61,270.13l13.69,8h0c30.23,17.69,31.74,72.4,3.38,122.19s-75.87,75.81-106.1,58.12h0l-13.69-8a16.16,16.16,0,0,1-5.78-21.87L382,276A15.74,15.74,0,0,1,403.61,270.13Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -29604,11 +32044,15 @@ impl IconShape for IoHeadsetSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M411.16,97.45C368.43,55.85,311.88,32,256,32S143.57,55.85,100.84,97.45C56.45,140.67,32,196,32,256S58.84,374.49,77.42,408.25,121,480,144,480c32,0,96-32,96-32L128,240,73.58,271.73a176.07,176.07,0,0,1-1-18.84c0-48.57,19.32-94.1,56.15-130C164.24,88.34,210,70,256,70s91.73,18.34,127.27,52.93c36.83,35.86,56.14,81.39,56.14,130a175.56,175.56,0,0,1-1,18.82L384,240,272,448s64,32,96,32c23,0,48-38,66.58-71.75S480,316,480,256,455.55,140.67,411.16,97.45Z",
             }
+            
         }
     }
 }
@@ -29643,11 +32087,15 @@ impl IconShape for IoHeadset {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M411.16,97.46C368.43,55.86,311.88,32,256,32S143.57,55.86,100.84,97.46C56.45,140.67,32,197,32,256c0,26.67,8.75,61.09,32.88,125.55S137,473,157.27,477.41c5.81,1.27,12.62,2.59,18.73,2.59a60.06,60.06,0,0,0,30-8l14-8c15.07-8.82,19.47-28.13,10.8-43.35L143.88,268.08a31.73,31.73,0,0,0-43.57-11.76l-13.69,8a56.49,56.49,0,0,0-14,11.59,4,4,0,0,1-7-2A114.68,114.68,0,0,1,64,256c0-50.31,21-98.48,59.16-135.61C160,84.55,208.39,64,256,64s96,20.55,132.84,56.39C427,157.52,448,205.69,448,256a114.68,114.68,0,0,1-1.68,17.91,4,4,0,0,1-7,2,56.49,56.49,0,0,0-14-11.59l-13.69-8a31.73,31.73,0,0,0-43.57,11.76L281.2,420.65c-8.67,15.22-4.27,34.53,10.8,43.35l14,8a60.06,60.06,0,0,0,30,8c6.11,0,12.92-1.32,18.73-2.59C375,473,423,446,447.12,381.55S480,282.67,480,256C480,197,455.55,140.67,411.16,97.46Z",
             }
+            
         }
     }
 }
@@ -29682,6 +32130,9 @@ impl IconShape for IoHeartCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -29691,6 +32142,7 @@ impl IconShape for IoHeartCircleOutline {
             path {
                 d: "M256,360a16,16,0,0,1-9-2.78c-39.3-26.68-56.32-45-65.7-56.41-20-24.37-29.58-49.4-29.3-76.5.31-31.06,25.22-56.33,55.53-56.33,20.4,0,35,10.63,44.1,20.41a6,6,0,0,0,8.72,0c9.11-9.78,23.7-20.41,44.1-20.41,30.31,0,55.22,25.27,55.53,56.33.28,27.1-9.31,52.13-29.3,76.5-9.38,11.44-26.4,29.73-65.7,56.41A16,16,0,0,1,256,360Z",
             }
+            
         }
     }
 }
@@ -29725,11 +32177,15 @@ impl IconShape for IoHeartCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm74.69,252.82C322.19,311.18,291,339.3,256,364.33c-35-25-66.19-53.15-74.69-63.51-20-24.37-29.58-49.4-29.3-76.5.31-31.06,25.22-56.33,55.53-56.33,22,0,37.3,12.41,46.19,22.76L256,193.5l2.27-2.75C267,180.29,282.42,168,304.46,168c30.31,0,55.22,25.27,55.53,56.33C360.27,251.42,350.68,276.45,330.69,300.82Z",
             }
+            
         }
     }
 }
@@ -29764,11 +32220,15 @@ impl IconShape for IoHeartCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm74.69,252.82c-9.38,11.44-26.4,29.73-65.7,56.41a15.93,15.93,0,0,1-18,0c-39.3-26.68-56.32-45-65.7-56.41-20-24.37-29.58-49.4-29.3-76.5.31-31.06,25.22-56.33,55.53-56.33,20.4,0,35,10.63,44.1,20.41a6,6,0,0,0,8.72,0c9.11-9.78,23.7-20.41,44.1-20.41,30.31,0,55.22,25.27,55.53,56.33C360.27,251.42,350.68,276.45,330.69,300.82Z",
             }
+            
         }
     }
 }
@@ -29803,6 +32263,9 @@ impl IconShape for IoHeartDislikeCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -29818,6 +32281,7 @@ impl IconShape for IoHeartDislikeCircleOutline {
             path {
                 d: "M336,368a15.92,15.92,0,0,1-11.31-4.69l-176-176a16,16,0,0,1,22.62-22.62l176,176A16,16,0,0,1,336,368Z",
             }
+            
         }
     }
 }
@@ -29852,11 +32316,15 @@ impl IconShape for IoHeartDislikeCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm63.73,310.36L136.59,176.06l22.74-22.51L342.52,335.91Zm-63.51,4.86c-35.36-25-66.31-51.92-74.91-62.4-20-24.37-29.58-49.4-29.3-76.5a58.27,58.27,0,0,1,.85-9.31l130.21,129.4C279.64,347,266.86,355.86,256.22,363.22Zm74.47-62.4-.31.38L197.33,169a53.8,53.8,0,0,1,10.21-1,59.34,59.34,0,0,1,44.1,19.41L256,192l4.36-4.6A59.34,59.34,0,0,1,304.46,168c30.31,0,55.22,25.27,55.53,56.33C360.27,251.42,350.68,276.45,330.69,300.82Z",
             }
+            
         }
     }
 }
@@ -29891,11 +32359,15 @@ impl IconShape for IoHeartDislikeCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm23.3,299.19c-4.41,3.2-9.16,6.55-14.31,10a15.93,15.93,0,0,1-18,0c-39.3-26.68-56.32-45-65.7-56.41-20-24.37-29.58-49.4-29.3-76.5,0-.21,0-.43,0-.64a4,4,0,0,1,6.82-2.72L279.76,341.12A4,4,0,0,1,279.3,347.19Zm68,16.12a16,16,0,0,1-22.62,0l-176-176a16,16,0,0,1,22.62-22.62l176,176A16,16,0,0,1,347.31,363.31ZM333.2,297.69a3.92,3.92,0,0,1-6,.37l-124-123.21A4,4,0,0,1,206,168l1.55,0c20.4,0,35,10.64,44.11,20.42a5.93,5.93,0,0,0,8.7,0c9.11-9.78,23.71-20.42,44.11-20.42,30.31,0,55.22,25.27,55.53,56.33C360.26,250.26,351.48,274.3,333.2,297.69Z",
             }
+            
         }
     }
 }
@@ -29930,6 +32402,9 @@ impl IconShape for IoHeartDislikeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -29941,6 +32416,7 @@ impl IconShape for IoHeartDislikeOutline {
             path {
                 d: "M268,432C180.38,372.51,91,297.6,92,193a83.69,83.69,0,0,1,2.24-18.39L69,149.14a115.1,115.1,0,0,0-9,43.49c-.54,54.22,18.63,104.27,58.61,153,18.77,22.87,52.8,59.45,131.39,112.8a31.84,31.84,0,0,0,36,0c20.35-13.81,37.7-26.5,52.58-38.11l-22.66-22.81C300.25,409.6,284.09,421.05,268,432Z",
             }
+            
         }
     }
 }
@@ -29975,6 +32451,9 @@ impl IconShape for IoHeartDislikeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -29986,6 +32465,7 @@ impl IconShape for IoHeartDislikeSharp {
             path {
                 d: "M417.83,349.79c42.39-49.94,62.72-101.25,62.16-156.88-.63-62-50.61-112.54-111.43-112.54-48.26,0-80.35,28-97.23,48.17-16.88-20.2-49-48.17-97.23-48.17A108.24,108.24,0,0,0,142.84,85l270,270.48C414.55,353.59,416.21,351.7,417.83,349.79Z",
             }
+            
         }
     }
 }
@@ -30020,6 +32500,9 @@ impl IconShape for IoHeartDislike {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -30031,6 +32514,7 @@ impl IconShape for IoHeartDislike {
             path {
                 d: "M69,149.15a115.06,115.06,0,0,0-9,43.49c-.54,54.21,18.63,104.25,58.61,153,18.77,22.87,52.8,59.45,131.39,112.8a31.88,31.88,0,0,0,36,0c20.35-13.82,37.7-26.5,52.58-38.12Z",
             }
+            
         }
     }
 }
@@ -30065,11 +32549,15 @@ impl IconShape for IoHeartHalfOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M352.92,64c-48.09,0-80,29.54-96.92,51-16.88-21.49-48.83-51-96.92-51C98.46,64,48.63,114.54,48,176.65c-.54,54.21,18.63,104.27,58.61,153,18.77,22.88,52.8,59.46,131.39,112.81a31.84,31.84,0,0,0,36,0c78.59-53.35,112.62-89.93,131.39-112.81,40-48.74,59.15-98.8,58.61-153C463.37,114.54,413.54,64,352.92,64ZM256,416V207.58c0-19.63,5.23-38.76,14.21-56.22a1.19,1.19,0,0,1,.08-.16,123,123,0,0,1,21.77-28.51C310.19,105,330.66,96,352.92,96c43.15,0,78.62,36.32,79.07,81C433,281.61,343.63,356.51,256,416Z",
             }
+            
         }
     }
 }
@@ -30104,11 +32592,15 @@ impl IconShape for IoHeartHalfSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M352.92,64c-48.11,0-80.1,28-96.92,48.21C239.18,92,207.19,64,159.08,64,98.46,64,48.63,114.54,48,176.65c-.56,55.68,19.71,107,62,157,40.12,47.46,94.25,79.75,137,108.32l9,6,9-6c42.78-28.57,96.91-60.86,137-108.32,42.25-50,62.52-101.35,62-157C463.37,114.54,413.54,64,352.92,64Zm24.67,249c-31.78,37.6-74.68,65.75-112.52,90.59l-9.07,6V162.23l24.59-29.54C294.53,116,318.38,96,352.92,96c43.15,0,78.62,36.32,79.07,81a178.63,178.63,0,0,1-12.69,68.59C410.27,268.43,396.63,290.5,377.59,313Z",
             }
+            
         }
     }
 }
@@ -30143,11 +32635,15 @@ impl IconShape for IoHeartHalf {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M352.92,64c-48.09,0-80,29.54-96.92,51-16.88-21.49-48.83-51-96.92-51C98.46,64,48.63,114.54,48,176.65c-.54,54.21,18.63,104.27,58.61,153,18.77,22.88,52.8,59.46,131.39,112.81a31.84,31.84,0,0,0,36,0c78.59-53.35,112.62-89.93,131.39-112.81,40-48.74,59.15-98.8,58.61-153C463.37,114.54,413.54,64,352.92,64ZM256,416V207.58c0-19.63,5.23-38.76,14.21-56.22a1.19,1.19,0,0,1,.08-.16,123,123,0,0,1,21.77-28.51C310.19,105,330.66,96,352.92,96c43.15,0,78.62,36.32,79.07,81C433,281.61,343.63,356.51,256,416Z",
             }
+            
         }
     }
 }
@@ -30182,12 +32678,16 @@ impl IconShape for IoHeartOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M352.92,80C288,80,256,144,256,144s-32-64-96.92-64C106.32,80,64.54,124.14,64,176.81c-1.1,109.33,86.73,187.08,183,252.42a16,16,0,0,0,18,0c96.26-65.34,184.09-143.09,183-252.42C447.46,124.14,405.68,80,352.92,80Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -30222,11 +32722,15 @@ impl IconShape for IoHeartSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,448l-9-6c-42.78-28.57-96.91-60.86-137-108.32-42.25-50-62.52-101.35-62-157C48.63,114.54,98.46,64,159.08,64c48.11,0,80.1,28,96.92,48.21C272.82,92,304.81,64,352.92,64,413.54,64,463.37,114.54,464,176.65c.56,55.68-19.71,107-62,157C361.91,381.14,307.78,413.43,265,442Z",
             }
+            
         }
     }
 }
@@ -30261,11 +32765,15 @@ impl IconShape for IoHeart {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,448a32,32,0,0,1-18-5.57c-78.59-53.35-112.62-89.93-131.39-112.8-40-48.75-59.15-98.8-58.61-153C48.63,114.52,98.46,64,159.08,64c44.08,0,74.61,24.83,92.39,45.51a6,6,0,0,0,9.06,0C278.31,88.81,308.84,64,352.92,64,413.54,64,463.37,114.52,464,176.64c.54,54.21-18.63,104.26-58.61,153-18.77,22.87-52.8,59.45-131.39,112.8A32,32,0,0,1,256,448Z",
             }
+            
         }
     }
 }
@@ -30299,6 +32807,9 @@ impl IconShape for IoHelpBuoyOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30370,6 +32881,7 @@ impl IconShape for IoHelpBuoyOutline {
                 y1: "296",
                 y2: "304",
             }
+            
         }
     }
 }
@@ -30404,11 +32916,15 @@ impl IconShape for IoHelpBuoySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,32C132.29,32,32,132.29,32,256S132.29,480,256,480,480,379.71,480,256,379.71,32,256,32ZM192,256a64,64,0,1,1,64,64A64,64,0,0,1,192,256Zm237.24-62.29L342.91,199a104.86,104.86,0,0,0-29.86-29.86l5.24-86.33a185,185,0,0,1,111,111ZM125.89,125.89a183.44,183.44,0,0,1,67.82-43.13L199,169.09A104.86,104.86,0,0,0,169.09,199l-86.33-5.24A183.44,183.44,0,0,1,125.89,125.89ZM82.76,318.29l86.33-5.24A104.86,104.86,0,0,0,199,342.91l-5.24,86.33A185,185,0,0,1,82.76,318.29Zm303.35,67.82a183.44,183.44,0,0,1-67.82,43.13l-5.24-86.33a104.86,104.86,0,0,0,29.86-29.86l86.33,5.24A183.44,183.44,0,0,1,386.11,386.11Z",
             }
+            
         }
     }
 }
@@ -30443,11 +32959,15 @@ impl IconShape for IoHelpBuoy {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414.39,97.61A224,224,0,1,0,97.61,414.39,224,224,0,1,0,414.39,97.61ZM192.13,260.18a64,64,0,1,1,59.69,59.69A64.07,64.07,0,0,1,192.13,260.18Zm240-66.64-96.37,5.84a4.06,4.06,0,0,1-3.44-1.59,96,96,0,0,0-18.07-18.07,4.06,4.06,0,0,1-1.59-3.44l5.84-96.37a4,4,0,0,1,5.42-3.51A193,193,0,0,1,435.6,188.12,4,4,0,0,1,432.09,193.54ZM193.54,79.91l5.84,96.37a4.06,4.06,0,0,1-1.59,3.44,96,96,0,0,0-18.07,18.07,4.06,4.06,0,0,1-3.44,1.59l-96.37-5.84a4,4,0,0,1-3.51-5.42A193,193,0,0,1,188.12,76.4,4,4,0,0,1,193.54,79.91ZM79.91,318.46l96.37-5.84a4.06,4.06,0,0,1,3.44,1.59,96,96,0,0,0,18.07,18.07,4.06,4.06,0,0,1,1.59,3.44l-5.84,96.37a4,4,0,0,1-5.42,3.51A193,193,0,0,1,76.4,323.88,4,4,0,0,1,79.91,318.46ZM318.46,432.09l-5.84-96.37a4.06,4.06,0,0,1,1.59-3.44,96,96,0,0,0,18.07-18.07,4.06,4.06,0,0,1,3.44-1.59l96.37,5.84a4,4,0,0,1,3.51,5.42A193,193,0,0,1,323.88,435.6,4,4,0,0,1,318.46,432.09Z",
             }
+            
         }
     }
 }
@@ -30482,6 +33002,9 @@ impl IconShape for IoHelpCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -30497,6 +33020,7 @@ impl IconShape for IoHelpCircleOutline {
                 cy: "348",
                 r: "20",
             }
+            
         }
     }
 }
@@ -30531,6 +33055,9 @@ impl IconShape for IoHelpCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -30540,6 +33067,7 @@ impl IconShape for IoHelpCircleSharp {
             path {
                 d: "M256,64C150,64,64,150,64,256s86,192,192,192,192-86,192-192S362,64,256,64Zm10.44,302H236.23a2.57,2.57,0,0,1-2.56-2.57v-30.2a2.57,2.57,0,0,1,2.56-2.57h30.21a2.57,2.57,0,0,1,2.56,2.57v30.2A2.57,2.57,0,0,1,266.44,366Zm17-99C267.23,277.88,265,287.85,265,297v11a3,3,0,0,1-3,3H240a3,3,0,0,1-3-3V297c0-21.91,10.08-39.33,30.82-53.26C287.1,230.8,298,222.6,298,204.57c0-12.26-7-21.57-21.49-28.46-3.41-1.62-11-3.2-20.34-3.09-11.72.15-20.82,2.95-27.83,8.59C215.12,192.25,214,203.84,214,204a65.7,65.7,0,0,0-.84,10.28,3,3,0,0,1-3,3H188.91a3,3,0,0,1-3-2.69,61.69,61.69,0,0,1,.09-12c.22-2.43,1.8-24.32,24.77-42.8,11.91-9.58,27.06-14.56,45-14.78,12.7-.15,24.63,2,32.72,5.82C312.7,162.34,326,181.43,326,204.57,326,238.4,303.39,253.59,283.44,267Z",
             }
+            
         }
     }
 }
@@ -30574,11 +33102,15 @@ impl IconShape for IoHelpCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,64C150,64,64,150,64,256s86,192,192,192,192-86,192-192S362,64,256,64Zm-6,304a20,20,0,1,1,20-20A20,20,0,0,1,250,368Zm33.44-102C267.23,276.88,265,286.85,265,296a14,14,0,0,1-28,0c0-21.91,10.08-39.33,30.82-53.26C287.1,229.8,298,221.6,298,203.57c0-12.26-7-21.57-21.49-28.46-3.41-1.62-11-3.2-20.34-3.09-11.72.15-20.82,2.95-27.83,8.59C215.12,191.25,214,202.83,214,203a14,14,0,1,1-28-1.35c.11-2.43,1.8-24.32,24.77-42.8,11.91-9.58,27.06-14.56,45-14.78,12.7-.15,24.63,2,32.72,5.82C312.7,161.34,326,180.43,326,203.57,326,237.4,303.39,252.59,283.44,266Z",
             }
+            
         }
     }
 }
@@ -30613,6 +33145,9 @@ impl IconShape for IoHelpOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -30624,6 +33159,7 @@ impl IconShape for IoHelpOutline {
                 cy: "399.99",
                 r: "32",
             }
+            
         }
     }
 }
@@ -30658,6 +33194,9 @@ impl IconShape for IoHelpSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -30672,6 +33211,7 @@ impl IconShape for IoHelpSharp {
                 x: "220",
                 y: "368",
             }
+            
         }
     }
 }
@@ -30706,6 +33246,9 @@ impl IconShape for IoHelp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -30717,6 +33260,7 @@ impl IconShape for IoHelp {
                 cy: "399.99",
                 r: "32",
             }
+            
         }
     }
 }
@@ -30751,6 +33295,9 @@ impl IconShape for IoHomeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -30765,6 +33312,7 @@ impl IconShape for IoHomeOutline {
                 points: "400 179 400 64 352 64 352 133",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -30799,11 +33347,15 @@ impl IconShape for IoHomeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "416 174.74 416 48 336 48 336 106.45 256 32 0 272 64 272 64 480 208 480 208 320 304 320 304 480 448 480 448 272 512 272 416 174.74",
             }
+            
         }
     }
 }
@@ -30838,6 +33390,9 @@ impl IconShape for IoHome {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -30846,6 +33401,7 @@ impl IconShape for IoHome {
             path {
                 d: "M490.91,244.15l-74.8-71.56,0-108.59a16,16,0,0,0-16-16h-48a16,16,0,0,0-16,16l0,32L278.19,40.62C272.77,35.14,264.71,32,256,32h0c-8.68,0-16.72,3.14-22.14,8.63L21.16,244.13c-6.22,6-7,15.87-1.34,22.37A16,16,0,0,0,43,267.56L250.5,69.28a8,8,0,0,1,11.06,0L469.08,267.56a16,16,0,0,0,22.59-.44C497.81,260.76,497.3,250.26,490.91,244.15Z",
             }
+            
         }
     }
 }
@@ -30880,6 +33436,9 @@ impl IconShape for IoHourglassOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -30889,6 +33448,7 @@ impl IconShape for IoHourglassOutline {
             path {
                 d: "M343.3,432H169.13c-15.6,0-20-18-9.06-29.16C186.55,376,240,356.78,240,326V224c0-19.85-38-35-61.51-67.2-3.88-5.31-3.49-12.8,6.37-12.8H327.59c8.41,0,10.23,7.43,6.4,12.75C310.82,189,272,204.05,272,224V326c0,30.53,55.71,47,80.4,76.87C362.35,414.91,358.87,432,343.3,432Z",
             }
+            
         }
     }
 }
@@ -30923,11 +33483,15 @@ impl IconShape for IoHourglassSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M416,32H96V144L204,256,96,368V480H416V368L308,256,416,144ZM272,224V336l91,96H148l92-96V224l-80-80H352Z",
             }
+            
         }
     }
 }
@@ -30962,11 +33526,15 @@ impl IconShape for IoHourglass {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M415.7,427.13c-8.74-76.89-43.83-108.76-69.46-132C328.52,279,320,270.61,320,256c0-14.41,8.49-22.64,26.16-38.44,25.93-23.17,61.44-54.91,69.56-132.84a47,47,0,0,0-12-36.26A50.3,50.3,0,0,0,366.39,32H145.61a50.34,50.34,0,0,0-37.39,16.46A47.05,47.05,0,0,0,96.28,84.72c8.09,77.68,43.47,109.19,69.3,132.19C183.42,232.8,192,241.09,192,256c0,15.1-8.6,23.56-26.5,39.75C140,318.85,105,350.48,96.3,427.13A46.59,46.59,0,0,0,108,463.33,50.44,50.44,0,0,0,145.61,480H366.39A50.44,50.44,0,0,0,404,463.33,46.59,46.59,0,0,0,415.7,427.13ZM343.3,432H169.13c-15.6,0-20-18-9.06-29.16C186.55,376,240,356.78,240,326V224c0-19.85-38-35-61.51-67.2-3.88-5.31-3.49-12.8,6.37-12.8H327.59c8.41,0,10.22,7.43,6.4,12.75C310.82,189,272,204.05,272,224V326c0,30.53,55.71,47,80.4,76.87C362.35,414.91,358.87,432,343.3,432Z",
             }
+            
         }
     }
 }
@@ -31001,6 +33569,9 @@ impl IconShape for IoIceCreamOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -31011,6 +33582,7 @@ impl IconShape for IoIceCreamOutline {
                 d: "M299.42,223.48C291.74,239.75,275.18,252,256,252c-13.1,0-27-5-33.63-9.76C216.27,237.87,208,240,208,250v62a24.07,24.07,0,0,1-24,24h0a24.07,24.07,0,0,1-24-24V256h-2c-35.35,0-62-28.65-62-64a64,64,0,0,1,64-64h8v-8a88,88,0,0,1,176,0v8h8a64,64,0,0,1,0,128c-21.78,0-42-13-52.59-32.51Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -31045,6 +33617,9 @@ impl IconShape for IoIceCreamSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -31053,6 +33628,7 @@ impl IconShape for IoIceCreamSharp {
             path {
                 d: "M256,300v12a72.1,72.1,0,0,1-58.21,70.64L256,496l92.06-192.08a105.29,105.29,0,0,1-49.18-14.36A93.75,93.75,0,0,1,256,300Z",
             }
+            
         }
     }
 }
@@ -31087,6 +33663,9 @@ impl IconShape for IoIceCream {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -31095,6 +33674,7 @@ impl IconShape for IoIceCream {
             path {
                 d: "M263.39,299.7a8,8,0,0,0-7.39,7.91V312a72.11,72.11,0,0,1-50.69,68.76,8,8,0,0,0-4.91,10.78l40.91,94.8A16,16,0,0,0,256,496h0a16,16,0,0,0,14.69-9.7l73.78-172.15a8,8,0,0,0-6.2-11.07,106.31,106.31,0,0,1-35.9-11.59,8,8,0,0,0-7.13-.2A95,95,0,0,1,263.39,299.7Z",
             }
+            
         }
     }
 }
@@ -31129,6 +33709,9 @@ impl IconShape for IoIdCardOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -31157,6 +33740,7 @@ impl IconShape for IoIdCardOutline {
             path {
                 d: "M371.69,448H236.31a12.05,12.05,0,0,1-9.31-4.17,13,13,0,0,1-2.76-10.92c3.25-17.56,13.38-32.31,29.3-42.66C267.68,381.06,285.6,376,304,376s36.32,5.06,50.46,14.25c15.92,10.35,26.05,25.1,29.3,42.66A13,13,0,0,1,381,443.83,12.05,12.05,0,0,1,371.69,448Z",
             }
+            
         }
     }
 }
@@ -31191,11 +33775,15 @@ impl IconShape for IoIdCardSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M408,16H104A24,24,0,0,0,80,40V472a24,24,0,0,0,24,24H408a24,24,0,0,0,24-24V40A24,24,0,0,0,408,16ZM346.9,312.77a43,43,0,1,1-40.71-40.71A43,43,0,0,1,346.9,312.77ZM192,64H320V96H192ZM384,448H224V423.4c0-32.72,53.27-49.21,80-49.21s80,16.49,80,49.21Z",
             }
+            
         }
     }
 }
@@ -31230,11 +33818,15 @@ impl IconShape for IoIdCard {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M368,16H144A64.07,64.07,0,0,0,80,80V432a64.07,64.07,0,0,0,64,64H368a64.07,64.07,0,0,0,64-64V80A64.07,64.07,0,0,0,368,16ZM333.48,284.51c7.57,8.17,11.27,19.16,10.39,30.94C342.14,338.91,324.25,358,304,358s-38.17-19.09-39.88-42.55c-.86-11.9,2.81-22.91,10.34-31S292.4,272,304,272A39.65,39.65,0,0,1,333.48,284.51ZM192,80a16,16,0,0,1,16-16h96a16,16,0,0,1,0,32H208A16,16,0,0,1,192,80ZM381,443.83a12.05,12.05,0,0,1-9.31,4.17H236.31a12.05,12.05,0,0,1-9.31-4.17,13,13,0,0,1-2.76-10.92c3.25-17.56,13.38-32.31,29.3-42.66C267.68,381.06,285.6,376,304,376s36.32,5.06,50.46,14.25c15.92,10.35,26.05,25.1,29.3,42.66A13,13,0,0,1,381,443.83Z",
             }
+            
         }
     }
 }
@@ -31269,6 +33861,9 @@ impl IconShape for IoImageOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -31294,6 +33889,7 @@ impl IconShape for IoImageOutline {
                 d: "M224,432,347.34,308.66a32,32,0,0,1,43.11-2L464,368",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -31328,11 +33924,15 @@ impl IconShape for IoImageSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M456,64H56A24,24,0,0,0,32,88V424a24,24,0,0,0,24,24H456a24,24,0,0,0,24-24V88A24,24,0,0,0,456,64ZM331.62,128.2a48,48,0,1,1-43.42,43.42A48,48,0,0,1,331.62,128.2ZM76,416a12,12,0,0,1-12-12V316.37L192.64,202l96.95,96.75L172.37,416Zm372-12a12,12,0,0,1-12,12H217.63L367.16,266.47,448,333.84Z",
             }
+            
         }
     }
 }
@@ -31367,11 +33967,15 @@ impl IconShape for IoImage {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M416,64H96a64.07,64.07,0,0,0-64,64V384a64.07,64.07,0,0,0,64,64H416a64.07,64.07,0,0,0,64-64V128A64.07,64.07,0,0,0,416,64Zm-80,64a48,48,0,1,1-48,48A48.05,48.05,0,0,1,336,128ZM96,416a32,32,0,0,1-32-32V316.37l94.84-84.3a48.06,48.06,0,0,1,65.8,1.9l64.95,64.81L172.37,416Zm352-32a32,32,0,0,1-32,32H217.63L339.05,294.58a47.72,47.72,0,0,1,61.64-.16L448,333.84Z",
             }
+            
         }
     }
 }
@@ -31406,6 +34010,9 @@ impl IconShape for IoImagesOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -31436,6 +34043,7 @@ impl IconShape for IoImagesOutline {
                 d: "M265.23,464,383.82,346.27a31,31,0,0,1,41.46-1.87L496,402.91",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -31470,6 +34078,9 @@ impl IconShape for IoImagesSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             ellipse {
@@ -31485,6 +34096,7 @@ impl IconShape for IoImagesSharp {
             path {
                 d: "M20,32A20,20,0,0,0,0,52V396a20,20,0,0,0,20,20H48V100A20,20,0,0,1,68,80H448V52a20,20,0,0,0-20-20Z",
             }
+            
         }
     }
 }
@@ -31519,6 +34131,9 @@ impl IconShape for IoImages {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -31527,6 +34142,7 @@ impl IconShape for IoImages {
             path {
                 d: "M384,32H64A64,64,0,0,0,0,96V352a64.11,64.11,0,0,0,48,62V152a72,72,0,0,1,72-72H446A64.11,64.11,0,0,0,384,32Z",
             }
+            
         }
     }
 }
@@ -31561,6 +34177,9 @@ impl IconShape for IoInfiniteOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -31571,6 +34190,7 @@ impl IconShape for IoInfiniteOutline {
                 d: "M256,256s48,96,126,96c54.12,0,98-43,98-96s-43.88-96-98-96c-37.51,0-71,22.41-94,48",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -31605,11 +34225,15 @@ impl IconShape for IoInfiniteSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M382,136c-40.87,0-73.46,20.53-93.6,37.76l-.71.61-11.47,12.47,25.32,41.61,18.74-18.79C339.89,193.1,361.78,184,382,184c40.8,0,74,32.3,74,72s-33.2,72-74,72c-62,0-104.14-81.95-104.56-82.78h0C275,240.29,221.56,136,130,136,62.73,136,8,189.83,8,256S62.73,376,130,376c32.95,0,65.38-13.11,93.79-37.92l.61-.54,11.38-12.38-25.33-41.61-18.83,18.88C172,319.4,151.26,328,130,328c-40.8,0-74-32.3-74-72s33.2-72,74-72c62,0,104.14,81.95,104.56,82.78h0C237,271.71,290.44,376,382,376c67.27,0,122-53.83,122-120S449.27,136,382,136Z",
             }
+            
         }
     }
 }
@@ -31644,6 +34268,9 @@ impl IconShape for IoInfinite {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -31654,6 +34281,7 @@ impl IconShape for IoInfinite {
                 d: "M256,256s48,96,126,96c54.12,0,98-43,98-96s-43.88-96-98-96c-29.37,0-56.66,13.75-78,32",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px",
             }
+            
         }
     }
 }
@@ -31688,6 +34316,9 @@ impl IconShape for IoInformationCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -31708,6 +34339,7 @@ impl IconShape for IoInformationCircleOutline {
             path {
                 d: "M248,130a26,26,0,1,0,26,26A26,26,0,0,0,248,130Z",
             }
+            
         }
     }
 }
@@ -31742,11 +34374,15 @@ impl IconShape for IoInformationCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,56C145.72,56,56,145.72,56,256s89.72,200,200,200,200-89.72,200-200S366.28,56,256,56Zm0,82a26,26,0,1,1-26,26A26,26,0,0,1,256,138Zm64,226H200V332h44V244H212V212h64V332h44Z",
             }
+            
         }
     }
 }
@@ -31781,11 +34417,15 @@ impl IconShape for IoInformationCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,56C145.72,56,56,145.72,56,256s89.72,200,200,200,200-89.72,200-200S366.28,56,256,56Zm0,82a26,26,0,1,1-26,26A26,26,0,0,1,256,138Zm48,226H216a16,16,0,0,1,0-32h28V244H228a16,16,0,0,1,0-32h32a16,16,0,0,1,16,16V332h28a16,16,0,0,1,0,32Z",
             }
+            
         }
     }
 }
@@ -31820,6 +34460,9 @@ impl IconShape for IoInformationOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -31836,6 +34479,7 @@ impl IconShape for IoInformationOutline {
             path {
                 d: "M256,160a32,32,0,1,1,32-32A32,32,0,0,1,256,160Z",
             }
+            
         }
     }
 }
@@ -31870,6 +34514,9 @@ impl IconShape for IoInformationSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -31886,6 +34533,7 @@ impl IconShape for IoInformationSharp {
             path {
                 d: "M256,160a32,32,0,1,1,32-32A32,32,0,0,1,256,160Z",
             }
+            
         }
     }
 }
@@ -31920,6 +34568,9 @@ impl IconShape for IoInformation {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -31936,6 +34587,7 @@ impl IconShape for IoInformation {
             path {
                 d: "M256,160a32,32,0,1,1,32-32A32,32,0,0,1,256,160Z",
             }
+            
         }
     }
 }
@@ -31970,6 +34622,9 @@ impl IconShape for IoInvertModeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -31986,6 +34641,7 @@ impl IconShape for IoInvertModeOutline {
             path {
                 d: "M256,48V176a80,80,0,0,1,0,160V464c114.88,0,208-93.12,208-208S370.88,48,256,48Z",
             }
+            
         }
     }
 }
@@ -32020,6 +34676,9 @@ impl IconShape for IoInvertModeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -32028,6 +34687,7 @@ impl IconShape for IoInvertModeSharp {
             path {
                 d: "M336,256a80,80,0,0,0-80-80V336A80,80,0,0,0,336,256Z",
             }
+            
         }
     }
 }
@@ -32062,6 +34722,9 @@ impl IconShape for IoInvertMode {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -32078,6 +34741,7 @@ impl IconShape for IoInvertMode {
             path {
                 d: "M256,48V176a80,80,0,0,0,0,160V464C141.12,464,48,370.88,48,256S141.12,48,256,48Z",
             }
+            
         }
     }
 }
@@ -32112,6 +34776,9 @@ impl IconShape for IoJournalOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -32130,6 +34797,7 @@ impl IconShape for IoJournalOutline {
                 y1: "48",
                 y2: "464",
             }
+            
         }
     }
 }
@@ -32164,6 +34832,9 @@ impl IconShape for IoJournalSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -32172,6 +34843,7 @@ impl IconShape for IoJournalSharp {
             path {
                 d: "M408,32H350V480h58a24,24,0,0,0,24-24V56A24,24,0,0,0,408,32Z",
             }
+            
         }
     }
 }
@@ -32206,6 +34878,9 @@ impl IconShape for IoJournal {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -32214,6 +34889,7 @@ impl IconShape for IoJournal {
             path {
                 d: "M368,32H350V480h18a64.07,64.07,0,0,0,64-64V96A64.07,64.07,0,0,0,368,32Z",
             }
+            
         }
     }
 }
@@ -32248,12 +34924,16 @@ impl IconShape for IoKeyOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M218.1,167.17c0,13,0,25.6,4.1,37.4-43.1,50.6-156.9,184.3-167.5,194.5a20.17,20.17,0,0,0-6.7,15c0,8.5,5.2,16.7,9.6,21.3,6.6,6.9,34.8,33,40,28,15.4-15,18.5-19,24.8-25.2,9.5-9.3-1-28.3,2.3-36s6.8-9.2,12.5-10.4,15.8,2.9,23.7,3c8.3.1,12.8-3.4,19-9.2,5-4.6,8.6-8.9,8.7-15.6.2-9-12.8-20.9-3.1-30.4s23.7,6.2,34,5,22.8-15.5,24.1-21.6-11.7-21.8-9.7-30.7c.7-3,6.8-10,11.4-11s25,6.9,29.6,5.9c5.6-1.2,12.1-7.1,17.4-10.4,15.5,6.7,29.6,9.4,47.7,9.4,68.5,0,124-53.4,124-119.2S408.5,48,340,48,218.1,101.37,218.1,167.17ZM400,144a32,32,0,1,1-32-32A32,32,0,0,1,400,144Z",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -32288,11 +34968,15 @@ impl IconShape for IoKeySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M218.1,167.2c0,13,0,25.6,4.1,37.4C179.1,255.2,54.7,399.1,54.7,399.1l2.9,36.3s34.8,33,40,28c15.4-15,24.8-25.2,24.8-25.2l7.24-43.35,47.11-3.47,3.78-46.8,49.63-.95.49-50.09,52.69,2.1,9-18.84c15.5,6.7,29.6,9.4,47.7,9.4,68.5,0,124-53.4,124-119.2S408.5,48,340,48,218.1,101.4,218.1,167.2ZM406.85,144A38.85,38.85,0,1,1,368,105.15,38.81,38.81,0,0,1,406.85,144Z",
             }
+            
         }
     }
 }
@@ -32327,11 +35011,15 @@ impl IconShape for IoKey {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M218.1,167.17c0,13,0,25.6,4.1,37.4-43.1,50.6-156.9,184.3-167.5,194.5a20.17,20.17,0,0,0-6.7,15c0,8.5,5.2,16.7,9.6,21.3,6.6,6.9,34.8,33,40,28,15.4-15,18.5-19,24.8-25.2,9.5-9.3-1-28.3,2.3-36s6.8-9.2,12.5-10.4,15.8,2.9,23.7,3c8.3.1,12.8-3.4,19-9.2,5-4.6,8.6-8.9,8.7-15.6.2-9-12.8-20.9-3.1-30.4s23.7,6.2,34,5,22.8-15.5,24.1-21.6-11.7-21.8-9.7-30.7c.7-3,6.8-10,11.4-11s25,6.9,29.6,5.9c5.6-1.2,12.1-7.1,17.4-10.4,15.5,6.7,29.6,9.4,47.7,9.4,68.5,0,124-53.4,124-119.2S408.5,48,340,48,218.1,101.37,218.1,167.17ZM400,144a32,32,0,1,1-32-32A32,32,0,0,1,400,144Z",
             }
+            
         }
     }
 }
@@ -32365,6 +35053,9 @@ impl IconShape for IoKeypadOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32426,6 +35117,7 @@ impl IconShape for IoKeypadOutline {
                 r: "32",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -32459,6 +35151,9 @@ impl IconShape for IoKeypadSharp {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32542,6 +35237,7 @@ impl IconShape for IoKeypadSharp {
                 x: "336",
                 y: "272",
             }
+            
         }
     }
 }
@@ -32576,6 +35272,9 @@ impl IconShape for IoKeypad {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -32608,6 +35307,7 @@ impl IconShape for IoKeypad {
             path {
                 d: "M128,16a48,48,0,1,0,48,48,48,48,0,0,0-48-48Z",
             }
+            
         }
     }
 }
@@ -32641,6 +35341,9 @@ impl IconShape for IoLanguageOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -32677,6 +35380,7 @@ impl IconShape for IoLanguageOutline {
                 d: "M256,336s-35-27-72-75-56-85-56-85",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -32711,6 +35415,9 @@ impl IconShape for IoLanguageSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -32719,6 +35426,7 @@ impl IconShape for IoLanguageSharp {
             path {
                 d: "M272,320c-.25-.19-20.59-15.77-45.42-42.67,39.58-53.64,62-114.61,71.15-143.33H352V90H214V48H170V90H32v44H251.25c-9.52,26.95-27.05,69.5-53.79,108.36-32.68-43.44-47.14-75.88-47.33-76.22L143,152l-38,22,6.87,13.86c.89,1.56,17.19,37.9,54.71,86.57.92,1.21,1.85,2.39,2.78,3.57-49.72,56.86-89.15,79.09-89.66,79.47L64,368l23,36,19.3-11.47c2.2-1.67,41.33-24,92-80.78,24.52,26.28,43.22,40.83,44.3,41.67L255,362Z",
             }
+            
         }
     }
 }
@@ -32753,6 +35461,9 @@ impl IconShape for IoLanguage {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -32761,6 +35472,7 @@ impl IconShape for IoLanguage {
             path {
                 d: "M267.84,342.92a22,22,0,0,0-4.89-30.7c-.2-.15-15-11.13-36.49-34.73,39.65-53.68,62.11-114.75,71.27-143.49H330a22,22,0,0,0,0-44H214V70a22,22,0,0,0-44,0V90H54a22,22,0,0,0,0,44H251.25c-9.52,26.95-27.05,69.5-53.79,108.36-31.41-41.68-43.08-68.65-43.17-68.87a22,22,0,0,0-40.58,17c.58,1.38,14.55,34.23,52.86,83.93.92,1.19,1.83,2.35,2.74,3.51-39.24,44.35-77.74,71.86-93.85,80.74a22,22,0,1,0,21.07,38.63c2.16-1.18,48.6-26.89,101.63-85.59,22.52,24.08,38,35.44,38.93,36.1a22,22,0,0,0,30.75-4.9Z",
             }
+            
         }
     }
 }
@@ -32795,6 +35507,9 @@ impl IconShape for IoLaptopOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -32813,6 +35528,7 @@ impl IconShape for IoLaptopOutline {
                 y1: "416",
                 y2: "416",
             }
+            
         }
     }
 }
@@ -32847,11 +35563,15 @@ impl IconShape for IoLaptopSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M477.29,400A27.75,27.75,0,0,0,480,388V108a28,28,0,0,0-28-28H60a28,28,0,0,0-28,28V388a27.75,27.75,0,0,0,2.71,12H0v32H512V400Z",
             }
+            
         }
     }
 }
@@ -32886,11 +35606,15 @@ impl IconShape for IoLaptop {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M496,400H467.66A47.92,47.92,0,0,0,480,367.86V128.14A48.2,48.2,0,0,0,431.86,80H80.14A48.2,48.2,0,0,0,32,128.14V367.86A47.92,47.92,0,0,0,44.34,400H16a16,16,0,0,0,0,32H496a16,16,0,0,0,0-32Z",
             }
+            
         }
     }
 }
@@ -32925,6 +35649,9 @@ impl IconShape for IoLayersOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -32939,6 +35666,7 @@ impl IconShape for IoLayersOutline {
                 d: "M160,204.48,77.2,241.64c-17.6,8-17.6,21.1,0,29.1l148,67.49c16.89,7.7,44.69,7.7,61.58,0l148-67.49c17.7-8,17.7-21.1.1-29.1L352,204.48",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -32973,6 +35701,9 @@ impl IconShape for IoLayersSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -32984,6 +35715,7 @@ impl IconShape for IoLayersSharp {
             path {
                 d: "M480,256l-75.53-33.53L256.1,290.6,107.33,222.43,32,256,256,358,480,256S480,256,480,256Z",
             }
+            
         }
     }
 }
@@ -33018,6 +35750,9 @@ impl IconShape for IoLayers {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-a"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -33029,6 +35764,7 @@ impl IconShape for IoLayers {
             path {
                 d: "M441.36,330.8,426.27,324,387.5,341.73l-94,42.95c-10.5,4.78-24,7.18-37.44,7.18s-26.93-2.39-37.42-7.18l-94.07-43L85.79,324l-15.22,6.84C63.79,333.93,48,343,48,360s15.79,26.07,22.56,29.15l148,67.59C229,461.52,242.54,464,256,464s26.88-2.48,37.38-7.27l147.92-67.57C448.12,386.08,464,377.06,464,360S448.23,333.93,441.36,330.8Z",
             }
+            
         }
     }
 }
@@ -33063,6 +35799,9 @@ impl IconShape for IoLeafOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -33073,6 +35812,7 @@ impl IconShape for IoLeafOutline {
                 d: "M173,253c86,81,175,129,292,147",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -33107,6 +35847,9 @@ impl IconShape for IoLeafSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -33115,6 +35858,7 @@ impl IconShape for IoLeafSharp {
             path {
                 d: "M467.43,384.19c-16.83-2.59-33.13-5.84-49-9.77A158.49,158.49,0,0,1,406.3,400.1c-.74,1.25-1.51,2.49-2.29,3.71a583.43,583.43,0,0,0,58.55,12l15.82,2.44,4.86-31.63Z",
             }
+            
         }
     }
 }
@@ -33149,6 +35893,9 @@ impl IconShape for IoLeaf {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -33157,6 +35904,7 @@ impl IconShape for IoLeaf {
             path {
                 d: "M467.43,384.19c-16.83-2.59-33.13-5.84-49-9.77a157.71,157.71,0,0,1-12.13,25.68c-.73,1.25-1.5,2.49-2.29,3.71a584.21,584.21,0,0,0,58.56,12,16,16,0,1,0,4.87-31.62Z",
             }
+            
         }
     }
 }
@@ -33190,6 +35938,9 @@ impl IconShape for IoLibraryOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33238,6 +35989,7 @@ impl IconShape for IoLibraryOutline {
                 d: "M422.46,96.11l-40.4,4.25c-11.12,1.17-19.18,11.57-17.93,23.1l34.92,321.59c1.26,11.53,11.37,20,22.49,18.84l40.4-4.25c11.12-1.17,19.18-11.57,17.93-23.1L445,115C443.69,103.42,433.58,94.94,422.46,96.11Z",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -33272,6 +36024,9 @@ impl IconShape for IoLibrarySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -33295,6 +36050,7 @@ impl IconShape for IoLibrarySharp {
             path {
                 d: "M369,100.7l30,367.83a12,12,0,0,0,13.45,10.92l72.16-9a12,12,0,0,0,10.47-12.9L465,91.21a12,12,0,0,0-13.2-10.94l-72.13,7.51A12,12,0,0,0,369,100.7Z",
             }
+            
         }
     }
 }
@@ -33329,6 +36085,9 @@ impl IconShape for IoLibrary {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -33354,6 +36113,7 @@ impl IconShape for IoLibrary {
             path {
                 d: "M495.89,445.45l-32.23-340c-1.48-15.65-16.94-27-34.53-25.31l-31.85,3c-17.59,1.67-30.65,15.71-29.17,31.36l32.23,340c1.48,15.65,16.94,27,34.53,25.31l31.85-3C484.31,475.14,497.37,461.1,495.89,445.45Z",
             }
+            
         }
     }
 }
@@ -33388,6 +36148,9 @@ impl IconShape for IoLinkOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -33405,6 +36168,7 @@ impl IconShape for IoLinkOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -33439,6 +36203,9 @@ impl IconShape for IoLinkSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -33456,6 +36223,7 @@ impl IconShape for IoLinkSharp {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -33490,6 +36258,9 @@ impl IconShape for IoLink {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -33507,6 +36278,7 @@ impl IconShape for IoLink {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -33540,6 +36312,9 @@ impl IconShape for IoListCircleOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33586,6 +36361,7 @@ impl IconShape for IoListCircleOutline {
                 r: "8",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -33620,11 +36396,15 @@ impl IconShape for IoListCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM192,335.5a16,16,0,0,1-16,16H160a16,16,0,0,1-16-16v-16a16,16,0,0,1,16-16h16a16,16,0,0,1,16,16Zm0-71a16,16,0,0,1-16,16H160a16,16,0,0,1-16-16v-16a16,16,0,0,1,16-16h16a16,16,0,0,1,16,16Zm0-72a16,16,0,0,1-16,16H160a16,16,0,0,1-16-16v-16a16,16,0,0,1,16-16h16a16,16,0,0,1,16,16Zm176,151H212.67v-32H368Zm0-71H212.67v-32H368Zm0-72H212.67v-32H368Z",
             }
+            
         }
     }
 }
@@ -33659,11 +36439,15 @@ impl IconShape for IoListCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM168,350a24,24,0,1,1,24-24A24,24,0,0,1,168,350Zm0-71a24,24,0,1,1,24-24A24,24,0,0,1,168,279Zm0-73a24,24,0,1,1,24-24A24,24,0,0,1,168,206ZM352,341H224a16,16,0,0,1,0-32H352a16,16,0,0,1,0,32Zm0-71H224a16,16,0,0,1,0-32H352a16,16,0,0,1,0,32Zm0-72H224a16,16,0,0,1,0-32H352a16,16,0,0,1,0,32Z",
             }
+            
         }
     }
 }
@@ -33697,6 +36481,9 @@ impl IconShape for IoListOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33739,6 +36526,7 @@ impl IconShape for IoListOutline {
                 r: "16",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -33772,6 +36560,9 @@ impl IconShape for IoListSharp {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33817,6 +36608,7 @@ impl IconShape for IoListSharp {
                 x: "64",
                 y: "352",
             }
+            
         }
     }
 }
@@ -33850,6 +36642,9 @@ impl IconShape for IoList {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33892,6 +36687,7 @@ impl IconShape for IoList {
                 r: "16",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -33925,6 +36721,9 @@ impl IconShape for IoLocateOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33960,6 +36759,7 @@ impl IconShape for IoLocateOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -33994,6 +36794,9 @@ impl IconShape for IoLocateSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -34028,6 +36831,7 @@ impl IconShape for IoLocateSharp {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -34062,6 +36866,9 @@ impl IconShape for IoLocate {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -34096,6 +36903,7 @@ impl IconShape for IoLocate {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -34130,6 +36938,9 @@ impl IconShape for IoLocationOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -34142,6 +36953,7 @@ impl IconShape for IoLocationOutline {
                 r: "48",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -34176,11 +36988,15 @@ impl IconShape for IoLocationSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,32C167.67,32,96,96.51,96,176c0,128,160,304,160,304S416,304,416,176C416,96.51,344.33,32,256,32Zm0,224a64,64,0,1,1,64-64A64.07,64.07,0,0,1,256,256Z",
             }
+            
         }
     }
 }
@@ -34215,6 +37031,9 @@ impl IconShape for IoLocation {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -34225,6 +37044,7 @@ impl IconShape for IoLocation {
             path {
                 d: "M256,32C167.78,32,96,100.65,96,185c0,40.17,18.31,93.59,54.42,158.78,29,52.34,62.55,99.67,80,123.22a31.75,31.75,0,0,0,51.22,0c17.42-23.55,51-70.88,80-123.22C397.69,278.61,416,225.19,416,185,416,100.65,344.22,32,256,32Zm0,224a64,64,0,1,1,64-64A64.07,64.07,0,0,1,256,256Z",
             }
+            
         }
     }
 }
@@ -34259,6 +37079,9 @@ impl IconShape for IoLockClosedOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -34274,6 +37097,7 @@ impl IconShape for IoLockClosedOutline {
                 x: "96",
                 y: "208",
             }
+            
         }
     }
 }
@@ -34308,11 +37132,15 @@ impl IconShape for IoLockClosedSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M420,192H352V112a96,96,0,1,0-192,0v80H92a12,12,0,0,0-12,12V484a12,12,0,0,0,12,12H420a12,12,0,0,0,12-12V204A12,12,0,0,0,420,192Zm-106,0H198V111.25a58,58,0,1,1,116,0Z",
             }
+            
         }
     }
 }
@@ -34347,11 +37175,15 @@ impl IconShape for IoLockClosed {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M368,192H352V112a96,96,0,1,0-192,0v80H144a64.07,64.07,0,0,0-64,64V432a64.07,64.07,0,0,0,64,64H368a64.07,64.07,0,0,0,64-64V256A64.07,64.07,0,0,0,368,192Zm-48,0H192V112a64,64,0,1,1,128,0Z",
             }
+            
         }
     }
 }
@@ -34386,6 +37218,9 @@ impl IconShape for IoLockOpenOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -34401,6 +37236,7 @@ impl IconShape for IoLockOpenOutline {
                 x: "96",
                 y: "208",
             }
+            
         }
     }
 }
@@ -34435,11 +37271,15 @@ impl IconShape for IoLockOpenSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M420,192H198V111.25a58.08,58.08,0,0,1,99.07-41.07A59.4,59.4,0,0,1,314,112h38a96,96,0,1,0-192,0v80H92a12,12,0,0,0-12,12V484a12,12,0,0,0,12,12H420a12,12,0,0,0,12-12V204A12,12,0,0,0,420,192Z",
             }
+            
         }
     }
 }
@@ -34474,11 +37314,15 @@ impl IconShape for IoLockOpen {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M368,192H192V112a64,64,0,1,1,128,0,16,16,0,0,0,32,0,96,96,0,1,0-192,0v80H144a64.07,64.07,0,0,0-64,64V432a64.07,64.07,0,0,0,64,64H368a64.07,64.07,0,0,0,64-64V256A64.07,64.07,0,0,0,368,192Z",
             }
+            
         }
     }
 }
@@ -34513,6 +37357,9 @@ impl IconShape for IoLogInOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -34530,6 +37377,7 @@ impl IconShape for IoLogInOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -34564,6 +37412,9 @@ impl IconShape for IoLogInSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -34575,6 +37426,7 @@ impl IconShape for IoLogInSharp {
                 x: "64",
                 y: "240",
             }
+            
         }
     }
 }
@@ -34609,6 +37461,9 @@ impl IconShape for IoLogIn {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -34617,6 +37472,7 @@ impl IconShape for IoLogIn {
             path {
                 d: "M80,240a16,16,0,0,0,0,32h96V240Z",
             }
+            
         }
     }
 }
@@ -34651,6 +37507,9 @@ impl IconShape for IoLogOutOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -34668,6 +37527,7 @@ impl IconShape for IoLogOutOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -34702,6 +37562,9 @@ impl IconShape for IoLogOutSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -34710,6 +37573,7 @@ impl IconShape for IoLogOutSharp {
             path {
                 d: "M459.31,244.69,368,153.37,345.37,176l64,64H320v32h89.37l-64,64L368,358.63l91.31-91.32a16,16,0,0,0,0-22.62Z",
             }
+            
         }
     }
 }
@@ -34744,6 +37608,9 @@ impl IconShape for IoLogOut {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -34752,6 +37619,7 @@ impl IconShape for IoLogOut {
             path {
                 d: "M459.31,244.69l-80-80a16,16,0,0,0-22.62,22.62L409.37,240H320v32h89.37l-52.68,52.69a16,16,0,1,0,22.62,22.62l80-80a16,16,0,0,0,0-22.62Z",
             }
+            
         }
     }
 }
@@ -34786,11 +37654,15 @@ impl IconShape for IoLogoAlipay {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M102.41,32C62.38,32,32,64.12,32,103.78V408.23C32,447.86,64.38,480,104.41,480h303.2c40,0,72.39-32.14,72.39-71.77v-3.11c-1.35-.56-115.47-48.57-174.5-76.7-39.82,48.57-91.18,78-144.5,78-90.18,0-120.8-78.22-78.1-129.72,9.31-11.22,25.15-21.94,49.73-28,38.45-9.36,99.64,5.85,157,24.61a309.41,309.41,0,0,0,25.46-61.67H138.34V194h91.13V162.17H119.09V144.42H229.47V99s0-7.65,7.82-7.65h44.55v53H391v17.75H281.84V194h89.08a359.41,359.41,0,0,1-37.72,94.43c27,9.69,49.31,18.88,67.39,24.89,60.32,20,77.23,22.45,79.41,22.7V103.78C480,64.12,447.6,32,407.61,32H102.41ZM152,274.73q-5.81.06-11.67.63c-11.3,1.13-32.5,6.07-44.09,16.23-34.74,30-13.94,84.93,56.37,84.93,40.87,0,81.71-25.9,113.79-67.37-41.36-20-77-34.85-114.4-34.42Z",
             }
+            
         }
     }
 }
@@ -34825,6 +37697,9 @@ impl IconShape for IoLogoAmazon {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -34836,6 +37711,7 @@ impl IconShape for IoLogoAmazon {
             path {
                 d: "M304.24,324.92a164,164,0,0,1-28.92,25.3A135.16,135.16,0,0,1,208.63,369a99.49,99.49,0,0,1-57.49-19.85,97.25,97.25,0,0,1-27.36-100.28,112.35,112.35,0,0,1,65.3-69.06,367.67,367.67,0,0,1,104.7-15.55V127A37.82,37.82,0,0,0,261,94.72a59.9,59.9,0,0,0-31.17,4.08,48.89,48.89,0,0,0-27.13,34.67,12,12,0,0,1-12.58,6.72l-50.9-4.5a11.38,11.38,0,0,1-8.38-10.16,103.66,103.66,0,0,1,36.61-63.45A143.86,143.86,0,0,1,257.85,32a146.24,146.24,0,0,1,84.27,27.67,86.82,86.82,0,0,1,30.7,70.22V258.8a84.46,84.46,0,0,0,8,31.28l15.87,23.23a13,13,0,0,1,0,11.23L349.7,364.25a12.5,12.5,0,0,1-12.68-.44A244.84,244.84,0,0,1,304.24,324.92Zm-10.6-116.83a257.68,257.68,0,0,0-44,2.89A63,63,0,0,0,208,242.54a63,63,0,0,0,3.07,54,40.6,40.6,0,0,0,47.11,12.19,78.61,78.61,0,0,0,35.46-55.58V208.09",
             }
+            
         }
     }
 }
@@ -34870,12 +37746,16 @@ impl IconShape for IoLogoAmplify {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M112.31,268l40.36-68.69,34.65,59-67.54,115h135L289.31,432H16Zm58.57-99.76,33.27-56.67L392.44,432H325.76ZM222.67,80h66.59L496,432H429.32Z",
                 style: "fill-rule:evenodd",
             }
+            
         }
     }
 }
@@ -34910,12 +37790,16 @@ impl IconShape for IoLogoAndroid {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M380.91,199l42.47-73.57a8.63,8.63,0,0,0-3.12-11.76,8.52,8.52,0,0,0-11.71,3.12l-43,74.52c-32.83-15-69.78-23.35-109.52-23.35s-76.69,8.36-109.52,23.35l-43-74.52a8.6,8.6,0,1,0-14.88,8.64L131,199C57.8,238.64,8.19,312.77,0,399.55H512C503.81,312.77,454.2,238.64,380.91,199ZM138.45,327.65a21.46,21.46,0,1,1,21.46-21.46A21.47,21.47,0,0,1,138.45,327.65Zm235,0A21.46,21.46,0,1,1,395,306.19,21.47,21.47,0,0,1,373.49,327.65Z",
                 id: "path80319",
             }
+            
         }
     }
 }
@@ -34950,6 +37834,9 @@ impl IconShape for IoLogoAngular {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -34958,6 +37845,7 @@ impl IconShape for IoLogoAngular {
             path {
                 d: "M256,32,32,112,78.12,384,256,480l177.75-96L480,112Zm88,320-26.59-56H194.58L168,352H128L256,72,384,352Z",
             }
+            
         }
     }
 }
@@ -34992,11 +37880,15 @@ impl IconShape for IoLogoAppleAppstore {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,32C132.26,32,32,132.26,32,256S132.26,480,256,480,480,379.74,480,256,379.74,32,256,32ZM171,353.89a15.48,15.48,0,0,1-13.46,7.65,14.91,14.91,0,0,1-7.86-2.16,15.48,15.48,0,0,1-5.6-21.21l15.29-25.42a8.73,8.73,0,0,1,7.54-4.3h2.26c11.09,0,18.85,6.67,21.11,13.13Zm129.45-50L200.32,304H133.77a15.46,15.46,0,0,1-15.51-16.15c.32-8.4,7.65-14.76,16-14.76h48.24l57.19-97.35h0l-18.52-31.55C217,137,218.85,127.52,226,123a15.57,15.57,0,0,1,21.87,5.17l9.9,16.91h.11l9.91-16.91A15.58,15.58,0,0,1,289.6,123c7.11,4.52,8.94,14,4.74,21.22l-18.52,31.55-18,30.69-39.09,66.66v.11h57.61c7.22,0,16.27,3.88,19.93,10.12l.32.65c3.23,5.49,5.06,9.26,5.06,14.75A13.82,13.82,0,0,1,300.48,303.92Zm77.75.11H351.09v.11l19.82,33.71a15.8,15.8,0,0,1-5.17,21.53,15.53,15.53,0,0,1-8.08,2.27A15.71,15.71,0,0,1,344.2,354l-29.29-49.86-18.2-31L273.23,233a38.35,38.35,0,0,1-.65-38c4.64-8.19,8.19-10.34,8.19-10.34L333,273h44.91c8.4,0,15.61,6.46,16,14.75A15.65,15.65,0,0,1,378.23,304Z",
             }
+            
         }
     }
 }
@@ -35030,6 +37922,9 @@ impl IconShape for IoLogoAppleAr {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -35152,6 +38047,7 @@ impl IconShape for IoLogoAppleAr {
                 y1: "256",
                 y2: "224",
             }
+            
         }
     }
 }
@@ -35186,6 +38082,9 @@ impl IconShape for IoLogoApple {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -35194,6 +38093,7 @@ impl IconShape for IoLogoApple {
             path {
                 d: "M340.25,32c-24,1.63-52,16.91-68.4,36.86-14.88,18.08-27.12,44.9-22.32,70.91h1.92c25.56,0,51.72-15.39,67-35.11C333.17,85.89,344.33,59.29,340.25,32Z",
             }
+            
         }
     }
 }
@@ -35228,6 +38128,9 @@ impl IconShape for IoLogoBehance {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -35242,6 +38145,7 @@ impl IconShape for IoLogoBehance {
             path {
                 d: "M218,211.3c0-19.4-13.2-19.4-13.2-19.4H150.4v41.7h51C210.2,233.6,218,230.7,218,211.3Z",
             }
+            
         }
     }
 }
@@ -35276,11 +38180,15 @@ impl IconShape for IoLogoBitbucket {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M483.13,32.23a19.65,19.65,0,0,0-2.54-.23h-449C23,31.88,16.12,38.88,16,47.75a11.44,11.44,0,0,0,.23,2.8L81.53,461.8a22.52,22.52,0,0,0,7,12.95h0A20,20,0,0,0,102,480H415.18a15.45,15.45,0,0,0,15.34-13.42L469.4,218.67H325.19l-18.46,112H205.21l-25.73-148H475.06l20.76-132C497.09,41.92,491.44,33.63,483.13,32.23Z",
             }
+            
         }
     }
 }
@@ -35315,11 +38223,15 @@ impl IconShape for IoLogoBitcoin {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M410.47,279.2c-5-11.5-12.7-21.6-28.1-30.1a98.15,98.15,0,0,0-25.4-10,62.22,62.22,0,0,0,16.3-11,56.37,56.37,0,0,0,15.6-23.3,77.11,77.11,0,0,0,3.5-28.2c-1.1-16.8-4.4-33.1-13.2-44.8s-21.2-20.7-37.6-27c-12.6-4.8-25.5-7.8-45.5-8.9V32h-40V96h-32V32h-41V96H96v48h27.87c8.7,0,14.6.8,17.6,2.3a13.22,13.22,0,0,1,6.5,6c1.3,2.5,1.9,8.4,1.9,17.5V343c0,9-.6,14.8-1.9,17.4s-2,4.9-5.1,6.3-3.2,1.3-11.8,1.3h-26.4L96,416h87v64h41V416h32v64h40V415.6c26-1.3,44.5-4.7,59.4-10.3,19.3-7.2,34.1-17.7,44.7-31.5s14-34.9,14.93-51.2C415.7,308.1,415,289.4,410.47,279.2ZM224,150h32v74H224Zm0,212V272h32v90Zm72-208.1c6,2.5,9.9,7.5,13.8,12.7,4.3,5.7,6.5,13.3,6.5,21.4,0,7.8-2.9,14.5-7.5,20.5-3.8,4.9-6.8,8.3-12.8,11.1Zm28.8,186.7c-7.8,6.9-12.3,10.1-22.1,13.8a56.06,56.06,0,0,1-6.7,1.9V273.5a40.74,40.74,0,0,1,11.3,3.4c7.8,3.3,15.2,6.9,19.8,13.2a43.82,43.82,0,0,1,8,24.7C335.07,325.7,332.27,334,324.77,340.6Z",
             }
+            
         }
     }
 }
@@ -35354,6 +38266,9 @@ impl IconShape for IoLogoBuffer {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -35365,6 +38280,7 @@ impl IconShape for IoLogoBuffer {
             path {
                 d: "M472.3,362.75S436.25,345.37,431.47,343s-6.07-2.21-11.09.12S274.9,413.5,274.9,413.5a45.74,45.74,0,0,1-18.78,3.73c-6.77,0-13.65-1.28-18.79-3.73,0,0-136.85-66-143.26-69.18-7-3.39-9-3.39-15.29-.35l-39,18.78c-10.39,5-10.39,13.18,0,18.2l197.4,95.32c5.13,2.56,12,3.73,18.78,3.73s13.65-1.28,18.78-3.73L472.18,381C482.68,375.93,482.68,367.77,472.3,362.75Z",
             }
+            
         }
     }
 }
@@ -35399,6 +38315,9 @@ impl IconShape for IoLogoCapacitor {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -35407,6 +38326,7 @@ impl IconShape for IoLogoCapacitor {
             path {
                 d: "M32.55,196l69.3-69.31L385.07,409.93l-69.3,69.3-107-106.87L101.08,480,32,410.67,139.42,303.06Z",
             }
+            
         }
     }
 }
@@ -35441,6 +38361,9 @@ impl IconShape for IoLogoChrome {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -35455,6 +38378,7 @@ impl IconShape for IoLogoChrome {
             path {
                 d: "M91.29,104.57l77.35,133.25A89.19,89.19,0,0,1,256,166H461.17a246.51,246.51,0,0,0-25.78-43.94l.12.08A245.26,245.26,0,0,1,461.17,166h.17a245.91,245.91,0,0,0-25.66-44,2.63,2.63,0,0,1-.35-.26A223.93,223.93,0,0,0,91.14,104.34l.14.24Z",
             }
+            
         }
     }
 }
@@ -35489,6 +38413,9 @@ impl IconShape for IoLogoClosedCaptioning {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -35500,6 +38427,7 @@ impl IconShape for IoLogoClosedCaptioning {
             path {
                 d: "M197.3,282.84v.77c0,17.93-11.1,28.49-25.94,28.49s-24.84-11.88-26.27-28.49c0,0-1.31-8.69-1.31-26.29a229.5,229.5,0,0,1,1.53-28.6c2.64-18.7,11.77-28.49,26.6-28.49S198.4,213,198.4,232.35v.55H248c0-24.09-6-45.76-18.25-59.4S199.5,153,175.54,153a108.06,108.06,0,0,0-33,4.73,58.82,58.82,0,0,0-25.94,16.61c-7.26,7.92-12.86,18.48-16.93,31.79s-6,30-6,50.27c0,19.8,1.65,36.3,4.84,49.61s8,23.87,14.4,31.79a49.76,49.76,0,0,0,24,16.5q14.51,4.62,34,4.62c27.48,0,47.27-7,59.14-20.57s17.81-33.33,17.81-59.29H197.08C197.3,279.1,197.3,281.85,197.3,282.84Z",
             }
+            
         }
     }
 }
@@ -35534,6 +38462,9 @@ impl IconShape for IoLogoCodepen {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -35560,6 +38491,7 @@ impl IconShape for IoLogoCodepen {
             polygon {
                 points: "370 276.68 370 237.06 340.41 256.93 370 276.68",
             }
+            
         }
     }
 }
@@ -35594,11 +38526,15 @@ impl IconShape for IoLogoCss3 {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M64,32,99,435.22,255.77,480,413,435.15,448,32ZM354.68,366.9,256.07,395l-98.46-28.24L150.86,289h48.26l3.43,39.56,53.59,15.16.13.28h0l53.47-14.85L315.38,265H203l-4-50H319.65L324,164H140l-4-49H376.58Z",
             }
+            
         }
     }
 }
@@ -35633,6 +38569,9 @@ impl IconShape for IoLogoDesignernews {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -35644,6 +38583,7 @@ impl IconShape for IoLogoDesignernews {
             path {
                 d: "M111.89,162.52c0-34.8-16.23-54.12-45.38-54.12H44.57V215.2H66.29C96,215.2,111.89,196.72,111.89,162.52Z",
             }
+            
         }
     }
 }
@@ -35678,11 +38618,15 @@ impl IconShape for IoLogoDeviantart {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "408 103.28 408 16 407.97 16 318.69 16 309.79 24.78 267.64 103.26 254.39 112 104 112 104 231.85 186.68 231.85 194.04 240.56 104 408.72 104 496 104.02 496 193.3 496 202.21 487.21 244.35 408.73 257.61 400 408 400 408 280.13 325.32 280.13 317.96 271.38 408 103.28",
             }
+            
         }
     }
 }
@@ -35717,6 +38661,9 @@ impl IconShape for IoLogoDiscord {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -35728,6 +38675,7 @@ impl IconShape for IoLogoDiscord {
             path {
                 d: "M300.43,218c-13.8,0-24.7,11.84-24.7,26.57s11.14,26.57,24.7,26.57c13.81,0,24.7-11.83,24.7-26.57S314,218,300.43,218Z",
             }
+            
         }
     }
 }
@@ -35762,6 +38710,9 @@ impl IconShape for IoLogoDocker {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -35794,6 +38745,7 @@ impl IconShape for IoLogoDocker {
             path {
                 d: "M298.28,236.37H343.4a4,4,0,0,0,4-4V191.89a4,4,0,0,0-4-4H298.28a4,4,0,0,0-4,4h0v40.44a4.16,4.16,0,0,0,4,4",
             }
+            
         }
     }
 }
@@ -35828,11 +38780,15 @@ impl IconShape for IoLogoDribbble {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,32C132.33,32,32,132.33,32,256S132.33,480,256,480,480,379.78,480,256,379.67,32,256,32ZM398.22,135.25a186.36,186.36,0,0,1,44,108.38c-40.37-2.1-88.67-2.1-127.4,1.52-4.9-12.37-9.92-24.5-15.4-36.17C344.08,189.62,378.5,164.18,398.22,135.25ZM256,69.33a185.81,185.81,0,0,1,119.12,42.94c-20.3,25.66-52.15,48-91.82,64.86C261.6,137,236.63,102.47,210,75.28A187.51,187.51,0,0,1,256,69.33ZM171.53,89.75c26.95,26.83,52.27,61,74.44,101C203.85,203.62,155.55,211,104,211c-9.8,0-19.36-.35-28.81-.94A186.78,186.78,0,0,1,171.53,89.75ZM69.68,247.13c10.62.47,21.35.7,32.2.59,58.8-.7,113.52-9.92,160.54-25q6.65,13.83,12.6,28.35a115.43,115.43,0,0,0-16.69,5C194.05,283.07,143.42,326.58,116,379.2A186,186,0,0,1,69.33,256C69.33,253,69.45,250.05,69.68,247.13ZM256,442.67a185.57,185.57,0,0,1-114.45-39.32c24.85-49.23,69.18-90,125.07-115.27,5.25-2.45,12.25-4.43,20.3-6.18q10,27.64,17.85,57.4A678,678,0,0,1,322,430.42,185.06,185.06,0,0,1,256,442.67Zm100.92-29.75a672.61,672.61,0,0,0-17.39-92.05c-4-15.17-8.51-29.87-13.41-44.22,36.63-3,80.5-2.57,115.38,0A186.5,186.5,0,0,1,356.92,412.92Z",
             }
+            
         }
     }
 }
@@ -35867,11 +38823,15 @@ impl IconShape for IoLogoDropbox {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256.32,126.24,136.16,204.49l120.16,78.24L136.16,361,16,282.08l120.16-78.24L16,126.24,136.16,48ZM135.52,385.76l120.16-78.25,120.16,78.25L255.68,464Zm120.8-103.68,120.16-78.24-120.16-77.6L375.84,48,496,126.24,375.84,204.49,496,282.73,375.84,361Z",
             }
+            
         }
     }
 }
@@ -35906,11 +38866,15 @@ impl IconShape for IoLogoEdge {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M255.5,15h0c-132,0-240,108-240,240s108,240,240,240h0c85.4,0,160.8-45.2,203.3-112.9a6.87,6.87,0,0,0-9.1-9.7,108.64,108.64,0,0,1-18.4,8.6c-36.8,12.6-57.1,13.1-82.1,12-27.9-1.2-61.9-10.8-85.8-25s-43.5-34.6-54.1-52.3-17-39.9-14.1-68.3c2.9-29,29.4-52.6,60.4-52.6h0c33.5,0,60.8,26.6,60.8,60.1,0,17-8.1,31.7-18.5,43.5h0c-2.3,2.1-7.6,9.7,5.8,20,15.9,12.2,51.6,18,79.9,16.6s59.1-12.6,80.2-34.8c16.8-17.7,31.8-46.1,31.8-77.4C495.5,97.7,379.5,15,255.5,15Z",
             }
+            
         }
     }
 }
@@ -35945,6 +38909,9 @@ impl IconShape for IoLogoElectron {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -35968,6 +38935,7 @@ impl IconShape for IoLogoElectron {
             path {
                 d: "M251,243.36h0a24.35,24.35,0,0,0,5.16,48.16,24.68,24.68,0,0,0,5.16-.55A24.36,24.36,0,1,0,251,243.36Z",
             }
+            
         }
     }
 }
@@ -36002,11 +38970,15 @@ impl IconShape for IoLogoEuro {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M231.8,272V224H376l8-48H231.8v-8.12c0-38.69,16.47-62.56,87.18-62.56,28.89,0,61.45,2.69,102.5,9.42l10.52-70A508.54,508.54,0,0,0,315.46,32C189.26,32,135,76.4,135,158.46V176l-55,0v48h55v48H80v48h55v33.54C135,435.6,189.23,480,315.43,480a507.76,507.76,0,0,0,116.44-12.78l-10.58-70c-41.05,6.73-73.46,9.42-102.35,9.42-70.7,0-87.14-20.18-87.14-67.94V320H360.27l7.87-48Z",
             }
+            
         }
     }
 }
@@ -36041,12 +39013,16 @@ impl IconShape for IoLogoFacebook {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M480,257.35c0-123.7-100.3-224-224-224s-224,100.3-224,224c0,111.8,81.9,204.47,189,221.29V322.12H164.11V257.35H221V208c0-56.13,33.45-87.16,84.61-87.16,24.51,0,50.15,4.38,50.15,4.38v55.13H327.5c-27.81,0-36.51,17.26-36.51,35v42h62.12l-9.92,64.77H291V478.66C398.1,461.85,480,369.18,480,257.35Z",
                 fill_rule: "evenodd",
             }
+            
         }
     }
 }
@@ -36081,6 +39057,9 @@ impl IconShape for IoLogoFigma {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -36091,6 +39070,7 @@ impl IconShape for IoLogoFigma {
                 cy: "256",
                 r: "80",
             }
+            
         }
     }
 }
@@ -36125,12 +39105,16 @@ impl IconShape for IoLogoFirebase {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M93.19,329.38,140.64,25.31c1.64-10.37,15.55-12.82,20.46-3.55l51,95.45ZM432,400,385.26,123.21a11,11,0,0,0-18.54-6L80,400l159.36,91.91a33.18,33.18,0,0,0,31.91,0ZM302.36,158.93,265.82,89.39a10.86,10.86,0,0,0-19.36,0L85.83,375.74Z",
                 id: "icon",
             }
+            
         }
     }
 }
@@ -36165,11 +39149,15 @@ impl IconShape for IoLogoFirefox {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M471.46,194.62v-.07c-.22-.76-.45-1.52-.68-2.28-.05-.19-.11-.38-.17-.56-.43-1.44-.87-2.88-1.33-4.31l-.06-.2a223.24,223.24,0,0,0-10-25.56,191.77,191.77,0,0,0-12.9-23.8A225.15,225.15,0,0,0,371.58,64.1h0A222.9,222.9,0,0,0,256,32c-7,0-14,.34-20.82,1-24.12,2.54-64.78,11.21-97.77,40.18C257.5,11.86,417.94,85.7,404.29,223c-4.86,49-46.46,82.67-85.19,88.35a73.73,73.73,0,0,1-20.8.21c-94.59-13.15-88.8-90.68-60.06-123.83-38-.24-67.47,46.79-53.15,93l0,0c-32.95-61.18.35-157,70.93-186-82.95-12-160.71,28.2-185.7,98.07A330.23,330.23,0,0,1,88.07,118s-45.22,35.74-54.44,110.9c-.14,1.16-.27,2.32-.39,3.49-.05.4-.09.8-.13,1.21q-.53,5.25-.8,10.57c0,.27,0,.54,0,.81-.07,1.48-.13,3-.17,4.46l0,1.25c0,1.76-.07,3.52-.07,5.29,0,123.71,100.29,224,224,224S480,379.71,480,256A224,224,0,0,0,471.46,194.62Z",
             }
+            
         }
     }
 }
@@ -36204,11 +39192,15 @@ impl IconShape for IoLogoFlickr {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,32h0C132.8,32,32,132.8,32,256h0c0,123.2,100.8,224,224,224h0c123.2,0,224-100.8,224-224h0C480,132.8,379.2,32,256,32ZM173.84,312A56,56,0,1,1,228,257.84,56,56,0,0,1,173.84,312Zm168,0A56,56,0,1,1,396,257.84,56,56,0,0,1,341.84,312Z",
             }
+            
         }
     }
 }
@@ -36243,11 +39235,15 @@ impl IconShape for IoLogoFoursquare {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M376.76,32H138.54C105.67,32,96,56.8,96,72.41V452.05c0,17.59,9.42,24.12,14.72,26.27s19.91,4,28.67-6.17c0,0,112.47-130.89,114.4-132.83,2.92-2.93,2.92-2.93,5.84-2.93H332.4c30.58,0,35.49-21.87,38.69-34.75,2.65-10.79,32.48-164,42.45-212.56C421.14,52,411.74,32,376.76,32Zm-5.67,269.64c2.65-10.79,32.48-164,42.45-212.56m-50.85,7.59-10,51.73c-1.19,5.65-8.28,11.6-14.86,11.6H241.91c-10.44,0-17.91,6.14-17.91,16.6v13.45c0,10.47,7.52,17.89,18,17.89h81.85c7.38,0,14.61,8.11,13,16s-9.09,46.57-10,50.89-5.84,11.72-14.61,11.72H248c-11.7,0-15.24,1.54-23.07,11.3s-78.26,94.59-78.26,94.59c-.71.82-1.41.58-1.41-.31V95.9c0-6.69,5.8-14.53,14.48-14.53H350.88A12.42,12.42,0,0,1,362.69,96.67Z",
             }
+            
         }
     }
 }
@@ -36282,11 +39278,15 @@ impl IconShape for IoLogoGithub {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,32C132.3,32,32,134.9,32,261.7c0,101.5,64.2,187.5,153.2,217.9a17.56,17.56,0,0,0,3.8.4c8.3,0,11.5-6.1,11.5-11.4,0-5.5-.2-19.9-.3-39.1a102.4,102.4,0,0,1-22.6,2.7c-43.1,0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1,1.4-14.1h.1c22.5,2,34.3,23.8,34.3,23.8,11.2,19.6,26.2,25.1,39.6,25.1a63,63,0,0,0,25.6-6c2-14.8,7.8-24.9,14.2-30.7-49.7-5.8-102-25.5-102-113.5,0-25.1,8.7-45.6,23-61.6-2.3-5.8-10-29.2,2.2-60.8a18.64,18.64,0,0,1,5-.5c8.1,0,26.4,3.1,56.6,24.1a208.21,208.21,0,0,1,112.2,0c30.2-21,48.5-24.1,56.6-24.1a18.64,18.64,0,0,1,5,.5c12.2,31.6,4.5,55,2.2,60.8,14.3,16.1,23,36.6,23,61.6,0,88.2-52.4,107.6-102.3,113.3,8,7.1,15.2,21.1,15.2,42.5,0,30.7-.3,55.5-.3,63,0,5.4,3.1,11.5,11.4,11.5a19.35,19.35,0,0,0,4-.4C415.9,449.2,480,363.1,480,261.7,480,134.9,379.7,32,256,32Z",
             }
+            
         }
     }
 }
@@ -36321,11 +39321,15 @@ impl IconShape for IoLogoGitlab {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M494.07,281.6l-25.18-78.08a11,11,0,0,0-.61-2.1L417.78,44.48a20.08,20.08,0,0,0-19.17-13.82A19.77,19.77,0,0,0,379.66,44.6L331.52,194.15h-152L131.34,44.59a19.76,19.76,0,0,0-18.86-13.94h-.11a20.15,20.15,0,0,0-19.12,14L42.7,201.73c0,.14-.11.26-.16.4L16.91,281.61a29.15,29.15,0,0,0,10.44,32.46L248.79,476.48a11.25,11.25,0,0,0,13.38-.07L483.65,314.07a29.13,29.13,0,0,0,10.42-32.47m-331-64.51L224.8,408.85,76.63,217.09m209.64,191.8,59.19-183.84,2.55-8h86.52L300.47,390.44M398.8,59.31l43.37,134.83H355.35M324.16,217l-43,133.58L255.5,430.14,186.94,217M112.27,59.31l43.46,134.83H69M40.68,295.58a6.19,6.19,0,0,1-2.21-6.9l19-59L197.08,410.27M470.34,295.58,313.92,410.22l.52-.69L453.5,229.64l19,59a6.2,6.2,0,0,1-2.19,6.92",
             }
+            
         }
     }
 }
@@ -36360,6 +39364,9 @@ impl IconShape for IoLogoGooglePlaystore {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -36374,6 +39381,7 @@ impl IconShape for IoLogoGooglePlaystore {
             path {
                 d: "M449.38,231l-71.65-39.46L310.36,256l67.37,64.43L449.38,281C468.87,270.23,468.87,241.77,449.38,231Z",
             }
+            
         }
     }
 }
@@ -36408,11 +39416,15 @@ impl IconShape for IoLogoGoogle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M473.16,221.48l-2.26-9.59H262.46v88.22H387c-12.93,61.4-72.93,93.72-121.94,93.72-35.66,0-73.25-15-98.13-39.11a140.08,140.08,0,0,1-41.8-98.88c0-37.16,16.7-74.33,41-98.78s61-38.13,97.49-38.13c41.79,0,71.74,22.19,82.94,32.31l62.69-62.36C390.86,72.72,340.34,32,261.6,32h0c-60.75,0-119,23.27-161.58,65.71C58,139.5,36.25,199.93,36.25,256S56.83,369.48,97.55,411.6C141.06,456.52,202.68,480,266.13,480c57.73,0,112.45-22.62,151.45-63.66,38.34-40.4,58.17-96.3,58.17-154.9C475.75,236.77,473.27,222.12,473.16,221.48Z",
             }
+            
         }
     }
 }
@@ -36447,11 +39459,15 @@ impl IconShape for IoLogoHackernews {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M32,32V480H480V32ZM281.67,282.83v84H235v-84l-77-140H213l46.32,97.54,44.33-97.54h52.73Z",
             }
+            
         }
     }
 }
@@ -36486,11 +39502,15 @@ impl IconShape for IoLogoHtml5 {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M64,32,98.94,435.21,255.77,480,413,435.15,448,32ZM372,164H188l4,51H368L354.49,366.39,256,394.48l-98.68-28L150.54,289H198.8l3.42,39.29L256,343.07l53.42-14.92L315,264H148L135.41,114.41l240.79,0Z",
             }
+            
         }
     }
 }
@@ -36525,6 +39545,9 @@ impl IconShape for IoLogoInstagram {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -36536,6 +39559,7 @@ impl IconShape for IoLogoInstagram {
             path {
                 d: "M256,181.33A74.67,74.67,0,1,1,181.33,256,74.75,74.75,0,0,1,256,181.33M256,144A112,112,0,1,0,368,256,112,112,0,0,0,256,144Z",
             }
+            
         }
     }
 }
@@ -36570,6 +39594,9 @@ impl IconShape for IoLogoIonic {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -36583,6 +39610,7 @@ impl IconShape for IoLogoIonic {
             path {
                 d: "M459.86,163.2l-1.95-4.28-3.11,3.52a70,70,0,0,1-28.06,19.32l-3,1.1,1.22,2.93A181.43,181.43,0,0,1,439,256c0,100.92-82.1,183-183,183S73,356.92,73,256,155.08,73,256,73a180.94,180.94,0,0,1,78.43,17.7L337.3,92l1.25-2.92A70.19,70.19,0,0,1,359.21,62l3.67-2.93L358.71,57A221.61,221.61,0,0,0,256,32C132.49,32,32,132.49,32,256S132.49,480,256,480,480,379.51,480,256A222.19,222.19,0,0,0,459.86,163.2Z",
             }
+            
         }
     }
 }
@@ -36617,6 +39645,9 @@ impl IconShape for IoLogoIonitron {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -36625,6 +39656,7 @@ impl IconShape for IoLogoIonitron {
             path {
                 d: "M165.51,70h0a.31.31,0,0,1,.1.2h0c.1.2.2.3.3.5v.1a5.78,5.78,0,0,0,2.3,2.7c2,1.5,5,2.4,8.6,3a63.69,63.69,0,0,0,11.9.5,28.25,28.25,0,0,0,2.9-.2c-.4-.4-.8-.9-1.2-1.3h-1.3a52,52,0,0,1-11.6-.9,19.71,19.71,0,0,1-8.4-3.4,9.24,9.24,0,0,1-1.4-1.4,4.48,4.48,0,0,1,0-2.3c.5-2.3,2.4-4.8,5.5-7.4a57.25,57.25,0,0,1,10.9-7c.9-.4,1.7-.9,2.6-1.3.1-.1.3-.1.5-.2a24.69,24.69,0,0,0-.2,10.5c2.3,11.9,11.6,20.3,23.2,20.6l4,24.3,12.7-3-4-23.3c10.8-4.6,16.3-16.1,14-28a25.8,25.8,0,0,0-3.9-9.5c-5.3-.8-15.6-.8-29.2,2.1,1.1-.3,2.1-.7,3.2-1a135.27,135.27,0,0,1,21.5-4.2c.6-.1,1.2-.1,1.8-.2l3.5-.3h.6a61.83,61.83,0,0,1,10.8.3,29,29,0,0,1,6.1,1.4,5.71,5.71,0,0,0-.9,3.2,6.12,6.12,0,0,0,4.3,5.8h0a25.53,25.53,0,0,1-2.1,2.8,26,26,0,0,1-2.9,2.8c-1.1.9-2.3,1.8-3.5,2.7l-6.5,3.8-.3,1.5a.35.35,0,0,0,.2-.1l8.4-4.7c1.2-.8,2.4-1.6,3.4-2.4a29.15,29.15,0,0,0,3.2-2.8,29.86,29.86,0,0,0,2.4-2.8l.3-.6a6.14,6.14,0,0,0,5.4-6,6.06,6.06,0,0,0-6.1-6.1,6.81,6.81,0,0,0-2.8.7,24.6,24.6,0,0,0-8.2-2.7,63.48,63.48,0,0,0-15.5-.6,14.92,14.92,0,0,0-2.1.2,13.55,13.55,0,0,1-2,.2,25.15,25.15,0,0,0-18.7-3.7,25.86,25.86,0,0,0-17.8,13c-1.3.5-2.6,1.1-3.8,1.7-.7.3-1.3.6-2,.9a60.75,60.75,0,0,0-13.9,9.1c-3.1,2.9-4.9,5.7-5.3,8.3a6.14,6.14,0,0,0,.7,4A2.19,2.19,0,0,1,165.51,70Z",
             }
+            
         }
     }
 }
@@ -36659,11 +39691,15 @@ impl IconShape for IoLogoJavascript {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M32,32V480H480V32ZM272,380c0,43.61-25.76,64.87-63.05,64.87-33.68,0-53.23-17.44-63.15-38.49h0l34.28-20.75c6.61,11.73,11.63,21.65,26.06,21.65,12,0,21.86-5.41,21.86-26.46V240h44Zm99.35,63.87c-39.09,0-64.35-17.64-76.68-42h0L329,382c9,14.74,20.75,24.56,41.5,24.56,17.44,0,27.57-7.72,27.57-19.75,0-14.43-10.43-19.54-29.68-28l-10.52-4.52c-30.38-12.92-50.52-29.16-50.52-63.45,0-31.57,24.05-54.63,61.64-54.63,26.77,0,46,8.32,59.85,32.68L396,290c-7.22-12.93-15-18-27.06-18-12.33,0-20.15,7.82-20.15,18,0,12.63,7.82,17.74,25.86,25.56l10.52,4.51c35.79,15.34,55.94,31,55.94,66.16C441.12,424.13,411.35,443.87,371.35,443.87Z",
             }
+            
         }
     }
 }
@@ -36698,11 +39734,15 @@ impl IconShape for IoLogoLaravel {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M505.57,234.62c-3.28-3.53-26.82-32.29-39.51-47.79-6.75-8.24-12.08-14.75-14.32-17.45l-.18-.22-.2-.21c-5.22-5.83-12.64-12.51-23.78-12.51a39.78,39.78,0,0,0-5.41.44c-.37.05-.75.11-1.15.15-2.45.27-10.06,1.5-28.14,4.48-14,2.29-35.11,5.77-38.31,6.07l-.71.06-.69.13c-10,1.78-16.62,6.22-19.56,13.19-1.55,3.68-3.22,11.15,2.94,19.86,1.53,2.22,6.83,9.56,15.94,22.17,6.06,8.4,12.87,17.82,18.75,26L259.9,275,150.66,96.05l-.2-.34-.23-.33-.44-.65C145.32,88.17,139.76,80,123.7,80h0c-1.13,0-2.31,0-3.63.11-4.6.25-21.42,1.57-40.89,3.11-21.49,1.69-50.9,4-54.72,4.1h-.73l-.79.08c-9.14.89-15.77,4.6-19.7,11-6.55,10.69-1.42,22.69.26,26.63C6.87,133,37.56,197.7,64.63,254.81c18,37.94,36.58,77.17,38.1,80.65a34.85,34.85,0,0,0,32.94,21.59,46.62,46.62,0,0,0,9.86-1.1l.21,0,.2-.05c13.86-3.38,57.83-14.54,89.2-22.59,1.9,3.32,3.9,6.83,6,10.44,21.93,38.5,37.9,66.35,43.16,73.46C287,421,295,432,310.06,432c5.46,0,10.46-1.4,15.74-2.89l1.53-.43.06,0h.06c10.53-3,150.69-52.16,157.87-55.35l.22-.1c5.44-2.41,13.66-6.05,16.18-15.4,1.65-6.12.18-12.33-4.38-18.46l-.07-.09-.07-.09c-.85-1.1-4-5.21-8.27-10.9-9.13-12.07-23.88-31.57-36.84-48.54,17.37-4.5,38.8-10.11,43.38-11.55,11.47-3.43,14.94-10.69,16-14.73C512.26,250.32,513.29,242.27,505.57,234.62Zm-320,58.19c-17.81,4.17-30.22,7.08-37.89,8.9-6.67-13.34-19.74-39.65-32.5-65.33C85.44,176.46,70.08,145.61,62,129.48l8.15-.7c13.34-1.15,31.61-2.72,41.78-3.57,16.76,28.26,74.32,125.3,96.3,162.3ZM427.58,172h0ZM310.06,416.4h0Zm53.67-56.95c-24.21,8-37.33,12.37-44.42,14.74-6.3-10.34-20.16-33.52-32.47-54.19l115.7-29.48c5,6.81,14.57,19.72,33.46,44.93C417.93,341.49,387.8,351.47,363.73,359.45ZM419.6,237.82l-23.76-31.53c13.67-2.39,21.54-3.77,26.15-4.6l12,14.88,11.94,14.82C437.73,233.38,428.19,235.71,419.6,237.82Z",
             }
+            
         }
     }
 }
@@ -36737,11 +39777,15 @@ impl IconShape for IoLogoLinkedin {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M444.17,32H70.28C49.85,32,32,46.7,32,66.89V441.61C32,461.91,49.85,480,70.28,480H444.06C464.6,480,480,461.79,480,441.61V66.89C480.12,46.7,464.6,32,444.17,32ZM170.87,405.43H106.69V205.88h64.18ZM141,175.54h-.46c-20.54,0-33.84-15.29-33.84-34.43,0-19.49,13.65-34.42,34.65-34.42s33.85,14.82,34.31,34.42C175.65,160.25,162.35,175.54,141,175.54ZM405.43,405.43H341.25V296.32c0-26.14-9.34-44-32.56-44-17.74,0-28.24,12-32.91,23.69-1.75,4.2-2.22,9.92-2.22,15.76V405.43H209.38V205.88h64.18v27.77c9.34-13.3,23.93-32.44,57.88-32.44,42.13,0,74,27.77,74,87.64Z",
             }
+            
         }
     }
 }
@@ -36776,11 +39820,15 @@ impl IconShape for IoLogoMarkdown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M475,64H37C16.58,64,0,81.38,0,102.77V409.19C0,430.59,16.58,448,37,448H475c20.38,0,37-17.41,37-38.81V102.77C512,81.38,495.42,64,475,64ZM288,368H224V256l-48,64-48-64V368H64V144h64l48,80,48-80h64Zm96,0L304,256h48.05L352,144h64V256h48Z",
             }
+            
         }
     }
 }
@@ -36815,11 +39863,15 @@ impl IconShape for IoLogoMastodon {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M480,173.59c0-104.13-68.26-134.65-68.26-134.65C377.3,23.15,318.2,16.5,256.8,16h-1.51c-61.4.5-120.46,7.15-154.88,22.94,0,0-68.27,30.52-68.27,134.65,0,23.85-.46,52.35.29,82.59C34.91,358,51.11,458.37,145.32,483.29c43.43,11.49,80.73,13.89,110.76,12.24,54.47-3,85-19.42,85-19.42l-1.79-39.5s-38.93,12.27-82.64,10.77c-43.31-1.48-89-4.67-96-57.81a108.44,108.44,0,0,1-1-14.9,558.91,558.91,0,0,0,96.39,12.85c32.95,1.51,63.84-1.93,95.22-5.67,60.18-7.18,112.58-44.24,119.16-78.09C480.84,250.42,480,173.59,480,173.59ZM399.46,307.75h-50V185.38c0-25.8-10.86-38.89-32.58-38.89-24,0-36.06,15.53-36.06,46.24v67H231.16v-67c0-30.71-12-46.24-36.06-46.24-21.72,0-32.58,13.09-32.58,38.89V307.75h-50V181.67q0-38.65,19.75-61.39c13.6-15.15,31.4-22.92,53.51-22.92,25.58,0,44.95,9.82,57.75,29.48L256,147.69l12.45-20.85c12.81-19.66,32.17-29.48,57.75-29.48,22.11,0,39.91,7.77,53.51,22.92Q399.5,143,399.46,181.67Z",
             }
+            
         }
     }
 }
@@ -36854,6 +39906,9 @@ impl IconShape for IoLogoMedium {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             g {
@@ -36862,13 +39917,14 @@ impl IconShape for IoLogoMedium {
             }
             g {
                 id: "icons",
+                path {
+                    d: "M28,28v456h456V28H28z M406.83,136.04l-24.46,23.45c-2.11,1.61-3.15,4.25-2.72,6.86v172.28c-0.44,2.61,0.61,5.26,2.72,6.86
+                    		l23.88,23.45v5.15H286.13v-5.15l24.74-24.02c2.43-2.43,2.43-3.15,2.43-6.86V198.81l-68.79,174.71h-9.3l-80.09-174.71v117.1
+                    		c-0.67,4.92,0.97,9.88,4.43,13.44l32.18,39.03v5.15h-91.24v-5.15l32.18-39.03c3.44-3.57,4.98-8.56,4.15-13.44V180.5
+                    		c0.38-3.76-1.05-7.48-3.86-10.01l-28.6-34.46v-5.15h88.81l68.65,150.55l60.35-150.55h84.66V136.04z",
+                }
             }
-            path {
-                d: "M28,28v456h456V28H28z M406.83,136.04l-24.46,23.45c-2.11,1.61-3.15,4.25-2.72,6.86v172.28c-0.44,2.61,0.61,5.26,2.72,6.86
-		l23.88,23.45v5.15H286.13v-5.15l24.74-24.02c2.43-2.43,2.43-3.15,2.43-6.86V198.81l-68.79,174.71h-9.3l-80.09-174.71v117.1
-		c-0.67,4.92,0.97,9.88,4.43,13.44l32.18,39.03v5.15h-91.24v-5.15l32.18-39.03c3.44-3.57,4.98-8.56,4.15-13.44V180.5
-		c0.38-3.76-1.05-7.48-3.86-10.01l-28.6-34.46v-5.15h88.81l68.65,150.55l60.35-150.55h84.66V136.04z",
-            }
+            
         }
     }
 }
@@ -36903,6 +39959,9 @@ impl IconShape for IoLogoMicrosoft {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -36917,6 +39976,7 @@ impl IconShape for IoLogoMicrosoft {
             path {
                 d: "M266.89,265.61H479.7v212.8H266.89Z",
             }
+            
         }
     }
 }
@@ -36951,6 +40011,9 @@ impl IconShape for IoLogoNoSmoking {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -36980,6 +40043,7 @@ impl IconShape for IoLogoNoSmoking {
             path {
                 d: "M400,244c0-25.7-3-39.2-9.1-49.6C382.3,180,368.5,172,352,172H334.6c2.9-8.3,5.4-19.8,3.5-30.9-3.2-18.8-19.1-30-43.1-30v16c21,0,26.1,9.1,27.4,16.7,2.5,14.5-6.8,32.1-6.9,32.3a8,8,0,0,0,.1,7.9,8.06,8.06,0,0,0,6.9,3.9H352c10.9,0,19.4,4.9,25.1,14.6,3.1,5.3,6.9,13.5,6.9,41.4h16Z",
             }
+            
         }
     }
 }
@@ -37014,6 +40078,9 @@ impl IconShape for IoLogoNodejs {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -37022,6 +40089,7 @@ impl IconShape for IoLogoNodejs {
             path {
                 d: "M307.88,318.05c-37.29,0-45.24-10.42-47.6-27.24a8.43,8.43,0,0,0-8.22-7.32h-19.8a8.44,8.44,0,0,0-8.26,8.58c0,14.58,5.12,62.17,83.92,62.17h0c24.38,0,44.66-5.7,58.63-16.49S388,311.26,388,292.55c0-37.55-24.5-47.83-72.75-54.55-49.05-6.82-49.05-10.29-49.05-17.89,0-5.47,0-18.28,35.46-18.28,25.23,0,38.74,3.19,43.06,20a8.35,8.35,0,0,0,8.06,6.67h19.87a8.24,8.24,0,0,0,6.16-2.86,8.91,8.91,0,0,0,2.12-6.44c-2.57-35.55-28.56-53.58-79.24-53.58-46.06,0-73.55,20.75-73.55,55.5,0,38.1,28.49,48.87,71.29,53.33,50,5.17,50,12.71,50,19.37C349.46,304.2,345.15,318.05,307.88,318.05Z",
             }
+            
         }
     }
 }
@@ -37056,6 +40124,9 @@ impl IconShape for IoLogoNpm {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -37067,6 +40138,7 @@ impl IconShape for IoLogoNpm {
             path {
                 d: "M0,156V327.4H142.2V356H256V327.4H512V156ZM142.2,298.9H113.8V213.2H85.3v85.7H28.4V184.6H142.2Zm142.2,0H227.5v28.6H170.6V184.6H284.4Zm199.2,0H455.2V213.2H426.8v85.7H398.4V213.2H370v85.7H313.1V184.6H483.8V298.9Z",
             }
+            
         }
     }
 }
@@ -37101,6 +40173,9 @@ impl IconShape for IoLogoOctocat {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -37112,6 +40187,7 @@ impl IconShape for IoLogoOctocat {
             path {
                 d: "M459.36,165h0c-.11,0,2.89-15.49.32-42.47-2.36-27-8-51.78-17.25-74.53,0,0-4.72.87-13.72,3.14S405,58,384.89,67.18c-19.82,9.2-40.71,21.44-62.46,36.29-14.79-4.23-36.86-6.39-66.43-6.39-28.18,0-50.25,2.16-66.43,6.39Q117.9,53.25,69.46,48,55.65,82.13,52.32,122.75c-2.57,27,.43,42.58.43,42.58C26.71,193.82,16,234.88,16,268.78c0,26.22.75,49.94,6.54,71,6,20.91,13.6,38,22.6,51.14A147.49,147.49,0,0,0,79,425.43c13.39,10.08,25.71,17.34,36.86,21.89,11.25,4.76,24,8.23,38.57,10.72a279.19,279.19,0,0,0,32.68,4.34s30,1.62,69,1.62S325,462.38,325,462.38A285.25,285.25,0,0,0,357.68,458a178.91,178.91,0,0,0,38.46-10.72c11.15-4.66,23.47-11.81,37-21.89a145,145,0,0,0,33.75-34.55c9-13.11,16.6-30.23,22.6-51.14S496,294.89,496,268.67C496,235.85,485.29,194.25,459.36,165ZM389.29,418.07C359.39,432.26,315.46,438,257.18,438h-2.25c-58.29,0-102.22-5.63-131.57-19.93s-44.25-43.45-44.25-87.43c0-26.32,9.21-47.66,27.32-64,7.93-7,17.57-11.92,29.57-14.84s22.93-3,33.21-2.71c10.08.43,24.22,2.38,42.11,3.79s31.39,3.25,44.79,3.25c12.53,0,29.14-2.17,55.82-4.33s46.61-3.25,59.46-1.09c13.18,2.17,24.65,6.72,34.4,15.93q28.44,25.67,28.5,64C434.18,374.62,419.07,403.88,389.29,418.07Z",
             }
+            
         }
     }
 }
@@ -37146,6 +40222,9 @@ impl IconShape for IoLogoPaypal {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -37154,6 +40233,7 @@ impl IconShape for IoLogoPaypal {
             path {
                 d: "M385.52,51.09C363.84,26.52,324.71,16,274.63,16H129.25a20.75,20.75,0,0,0-20.54,17.48l-60.55,382a12.43,12.43,0,0,0,10.39,14.22,12.58,12.58,0,0,0,1.94.15h89.76l22.54-142.29-.7,4.46a20.67,20.67,0,0,1,20.47-17.46h42.65c83.77,0,149.36-33.86,168.54-131.8.57-2.9,1.05-5.72,1.49-8.48h0C410.94,98.06,405.19,73.41,385.52,51.09Z",
             }
+            
         }
     }
 }
@@ -37188,11 +40268,15 @@ impl IconShape for IoLogoPinterest {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256.05,32c-123.7,0-224,100.3-224,224,0,91.7,55.2,170.5,134.1,205.2-.6-15.6-.1-34.4,3.9-51.4,4.3-18.2,28.8-122.1,28.8-122.1s-7.2-14.3-7.2-35.4c0-33.2,19.2-58,43.2-58,20.4,0,30.2,15.3,30.2,33.6,0,20.5-13.1,51.1-19.8,79.5-5.6,23.8,11.9,43.1,35.4,43.1,42.4,0,71-54.5,71-119.1,0-49.1-33.1-85.8-93.2-85.8-67.9,0-110.3,50.7-110.3,107.3,0,19.5,5.8,33.3,14.8,43.9,4.1,4.9,4.7,6.9,3.2,12.5-1.1,4.1-3.5,14-4.6,18-1.5,5.7-6.1,7.7-11.2,5.6-31.3-12.8-45.9-47-45.9-85.6,0-63.6,53.7-139.9,160.1-139.9,85.5,0,141.8,61.9,141.8,128.3,0,87.9-48.9,153.5-120.9,153.5-24.2,0-46.9-13.1-54.7-27.9,0,0-13,51.6-15.8,61.6-4.7,17.3-14,34.5-22.5,48a225.13,225.13,0,0,0,63.5,9.2c123.7,0,224-100.3,224-224S379.75,32,256.05,32Z",
             }
+            
         }
     }
 }
@@ -37227,6 +40311,9 @@ impl IconShape for IoLogoPlaystation {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -37238,6 +40325,7 @@ impl IconShape for IoLogoPlaystation {
             path {
                 d: "M512,345.9c-.1-6-3.7-11.2-7.9-15-7.1-6.3-15.9-10.3-24.7-13.5-5.5-1.9-9.3-3.3-14.7-5-25.2-8.2-51.9-11.2-78.3-11.3-8,.3-23.1.5-31,1.4-21.9,2.5-67.3,15.4-67.3,15.4v48.8s67.5-21.6,96.5-31.8a94.43,94.43,0,0,1,30.3-4.6c6.5.2,13.2.7,19.4,3.1,2.2.9,4.5,2.2,5.5,4.5.9,2.6-.9,5-2.9,6.5-4.7,3.8-10.7,5.3-16.2,7.4-41,14.5-132.7,44.7-132.7,44.7v47s117.2-39.6,170.8-58.8c8.9-3.3,17.9-6.1,26.4-10.4,7.9-4,15.8-8.6,21.8-15.3A19.74,19.74,0,0,0,512,345.9Z",
             }
+            
         }
     }
 }
@@ -37272,6 +40360,9 @@ impl IconShape for IoLogoPwa {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -37280,6 +40371,7 @@ impl IconShape for IoLogoPwa {
             path {
                 d: "M48.79,286.09H80.44a93.39,93.39,0,0,0,25.62-3.21l8.18-25.19,22.88-70.39a55.75,55.75,0,0,0-6-7.82Q113.54,160,79.59,160H0V352H48.79Zm41.9-81.92q6.89,6.92,6.88,18.52t-6,18.53q-6.64,7.62-24.44,7.61H48.79V197.25H67.21q16.59,0,23.48,6.92ZM376.85,317.61l14.79-37.25h42.69l-20.26-56.51L439.41,160,512,352H458.47l-12.4-34.39Z",
             }
+            
         }
     }
 }
@@ -37314,6 +40406,9 @@ impl IconShape for IoLogoPython {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -37322,6 +40417,7 @@ impl IconShape for IoLogoPython {
             path {
                 d: "M475.28,217c-10.7-42.61-38.41-73-70.9-73H386.67v47.45c0,39.57-26,68.22-57.74,73.13a63.54,63.54,0,0,1-9.69.75H198.08a60,60,0,0,0-15.23,1.95C160.54,273.14,144,291.7,144,315.77V417.54c0,29,29.14,46,57.73,54.31,34.21,9.95,71.48,11.75,112.42,0,27.19-7.77,53.85-23.48,53.85-54.31V384H256V368H404.38c29.44,0,54.95-24.93,67.45-61.31A156.83,156.83,0,0,0,480,256,160.64,160.64,0,0,0,475.28,217ZM316.51,404a20.37,20.37,0,1,1-20.3,20.3A20.29,20.29,0,0,1,316.51,404Z",
             }
+            
         }
     }
 }
@@ -37356,6 +40452,9 @@ impl IconShape for IoLogoReact {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -37364,6 +40463,7 @@ impl IconShape for IoLogoReact {
             path {
                 d: "M256,298.55a43,43,0,1,0-42.86-43A42.91,42.91,0,0,0,256,298.55Z",
             }
+            
         }
     }
 }
@@ -37398,6 +40498,9 @@ impl IconShape for IoLogoReddit {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -37415,6 +40518,7 @@ impl IconShape for IoLogoReddit {
             path {
                 d: "M323.23,362.22c-.25.25-25.56,26.07-67.15,26.27-42-.2-66.28-25.23-67.31-26.27h0a4.14,4.14,0,0,0-5.83,0l-13.7,13.47a4.15,4.15,0,0,0,0,5.89h0c3.4,3.4,34.7,34.23,86.78,34.45,51.94-.22,83.38-31.05,86.78-34.45h0a4.16,4.16,0,0,0,0-5.9l-13.71-13.47a4.13,4.13,0,0,0-5.81,0Z",
             }
+            
         }
     }
 }
@@ -37449,6 +40553,9 @@ impl IconShape for IoLogoRss {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -37460,6 +40567,7 @@ impl IconShape for IoLogoRss {
             path {
                 d: "M48,48v86.56c185.25,0,329.22,144.08,329.22,329.44H464C464,234.66,277.67,48,48,48Z",
             }
+            
         }
     }
 }
@@ -37494,11 +40602,15 @@ impl IconShape for IoLogoSass {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M511.78,328.07v0c-1.47-11.92-7.51-22.26-18-30.77a3.58,3.58,0,0,0-.43-.44l0,0-.53-.38-.17-.12-5.57-4-.19-.14-.71-.5,0,0a3.5,3.5,0,0,0-.83-.35c-17.62-10.49-46.79-17.84-91.42-2.09C383.28,271.36,382.07,257,389.2,235c1.27-3.83.09-6.36-3.71-8-7.64-3.25-18.1-1.59-25.52.37-3.46.9-5.54,2.86-6.2,5.83-4.7,22-18.36,42.1-31.57,61.5l-.78,1.14c-8.14-17.26-6.45-30.63-.78-47.38,1.13-3.34.24-5.56-2.89-7.22-8.74-4.51-21.85-1.41-27.07.13-6.62,1.93-13.72,19.82-21.65,41.24-2,5.39-3.72,10-4.75,12.15-2.45,5-4.79,10.7-7.27,16.75-5.6,13.69-11.91,29.1-20.93,38.78-3.28-7.25,1.88-18.68,6.89-29.77,5.93-13.11,11.53-25.5,5.08-33.41a11.82,11.82,0,0,0-8.33-4.32,13.26,13.26,0,0,0-6.15,1c.67-5.65.7-10.11-.95-15.5-2.36-7.69-8.49-12-16.93-11.77-19.22.56-35.48,14.88-45.75,26.8-6.84,8-22,14.1-35.31,19.45C129.37,305,124.37,307,120.2,309c-6.65-5.62-15.1-11.29-24-17.28-25-16.78-53.33-35.81-54.31-61.61-1.4-38.11,42-65.14,79.88-84.43,28.71-14.6,53.67-24.28,76.31-29.57,31.8-7.43,58.66-5.93,79.82,4.44,11.58,5.67,17,18,13.56,30.68-9,32.95-46.29,55.53-78.18,65.69-19.21,6.12-35.56,8.68-50,7.84-18.1-1.05-32.88-10.13-39.2-14a21.18,21.18,0,0,0-3.2-1.8l-.29-.07a3.21,3.21,0,0,0-3.19,1c-1.3,1.55-.84,4-.37,5.24,6.15,16.07,18.85,26.22,37.74,30.17a92.09,92.09,0,0,0,18.78,1.79c44.21,0,100.62-25.49,121.34-46.48,14.13-14.3,24.42-29,28.68-54.35,4.45-26.55-13.55-45-31.89-53.5-44.57-20.57-95.19-12.44-129.81-2-40.5,12.21-82.4,34.41-114.94,60.93-40.12,32.67-54.62,63-43.12,90.25,11.81,27.93,40.61,45.4,68.46,62.3,9,5.45,17.56,10.64,25.27,16-2.32,1.13-4.69,2.28-7.1,3.43C67.06,335,40.54,347.75,25.83,368.82c-10.68,15.35-12.68,30.63-5.94,45.42,3.6,7.87,10,13.21,18.89,15.87A50,50,0,0,0,53,432c17.31,0,36.36-7,46.73-13.47,18.32-11.5,30.19-26.94,35.29-45.89,4.54-16.86,3.45-33.61-3.15-48.56l22.45-11.32c-10.83,36-2.53,57.5,6.59,69.36,3.36,4.37,9.42,7,16.19,7.12s13-2.43,16.52-6.77c6.66-8.25,11.58-17.9,16.11-27.55-.24,6.3.06,12.68,2.21,18.09,1.93,4.87,5.11,8.1,9.21,9.34,4.36,1.33,9.47.21,14.39-3.15,22.17-15.17,37.33-51.58,49.51-80.85,1.73-4.16,3.39-8.16,5-11.9a152.5,152.5,0,0,0,12.5,31.07c1.18,2.14,1.08,3.08-.52,4.84-2.41,2.64-5.77,5.83-9.33,9.21-10.78,10.23-24.2,23-26,34.23-.7,4.5,2.4,8.6,7.21,9.53,14.47,2.88,31.9-1.33,46.64-11.25,13.4-9,18.44-21.55,15-37.19-3.33-15.06,4.27-33.76,22.59-55.62,3,12.53,7,22.66,12.52,31.53l-.15.12c-13.34,11.65-31.62,27.6-28.78,46.95a13.35,13.35,0,0,0,5.58,9.22,14.22,14.22,0,0,0,11.2,2.06c17.47-3.67,30.62-11.06,40.18-22.57s6.07-24.27,2.85-34.17c25-6.78,47.26-6.61,68.1.5,11.7,4,20.09,10.57,24.93,19.64,6.09,11.41,2.8,21.94-9.29,29.65-3.71,2.37-5.5,3.82-5.61,5.65a2.65,2.65,0,0,0,1,2.23c1.4,1.15,5.72,3.15,15.49-3,9-5.65,14.28-13.34,15.63-23A39,39,0,0,0,511.78,328.07ZM112.05,353.13l-.1,1.28c-1.56,14.64-9,27.4-22.15,38-8.26,6.66-17.23,10.75-25.25,11.53-5.6.54-9.67-.22-12.09-2.27-1.81-1.53-2.78-3.82-3-7-1.64-25.48,38.32-50.8,60.81-59.13A51.39,51.39,0,0,1,112.05,353.13ZM214.4,281.27h0c-3.7,21.09-14.49,60.9-31.45,76.35-.81.74-1.49,1-1.8.93s-.55-.44-.8-1c-5.66-13.12-3.57-35.28,5-52.69,6.59-13.42,16-22.31,26.52-25a5.29,5.29,0,0,1,1.34-.19,1.58,1.58,0,0,1,1,.27A1.64,1.64,0,0,1,214.4,281.27Zm83.49,76.88c-3.19,3.33-7.56,2.88-6.53,1.66l16.24-17.24C306.29,348.5,302.42,353.41,297.89,358.15Zm67.37-14.91a14.07,14.07,0,0,1-4.93,1.39c-.46-9.07,8.33-19.28,17-26.09C379.66,328,374.89,338,365.26,343.24Z",
             }
+            
         }
     }
 }
@@ -37533,11 +40645,15 @@ impl IconShape for IoLogoSkype {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M467.16,303.6a205.69,205.69,0,0,0,4.9-45.15c0-116.32-95.69-210.7-213.79-210.7a221.83,221.83,0,0,0-36.52,3A123.58,123.58,0,0,0,155.93,32C87.55,32,32,86.72,32,154.15A119.56,119.56,0,0,0,49,216a211.16,211.16,0,0,0-4.32,42.35c0,116.44,95.69,210.7,213.67,210.7a214,214,0,0,0,39.09-3.5A125.45,125.45,0,0,0,356.07,480C424.57,480,480,425.28,480,357.85A118,118,0,0,0,467.16,303.6ZM368,359c-9.92,13.76-24.51,24.73-43.41,32.43S283.36,403,257.69,403c-30.69,0-56.36-5.37-76.55-15.87a101,101,0,0,1-35.24-30.8c-9.11-12.83-13.66-25.66-13.66-38,0-7.7,3-14.35,8.87-19.95,5.84-5.37,13.42-8.17,22.29-8.17,7.35,0,13.65,2.1,18.79,6.42,4.9,4.08,9.1,10.15,12.48,18.08A108.09,108.09,0,0,0,207,336.15q6.32,8.22,17.86,13.65c7.82,3.62,18.2,5.48,31,5.48,17.62,0,32.09-3.73,42.94-11.08,10.74-7.12,15.88-15.75,15.88-26.25,0-8.28-2.69-14.82-8.29-19.95-5.83-5.37-13.42-9.57-22.87-12.37-9.69-3-22.87-6.18-39.21-9.56-22.17-4.67-41-10.27-56-16.57-15.28-6.42-27.65-15.4-36.76-26.48-9.22-11.32-13.77-25.55-13.77-42.24a67.86,67.86,0,0,1,14.47-42.58c9.57-12.25,23.46-21.82,41.55-28.35,17.74-6.53,38.86-9.8,62.66-9.8,19.14,0,35.83,2.22,49.83,6.42s25.91,10.15,35.36,17.38,16.34,14.93,20.77,23,6.66,16.22,6.66,24c0,7.46-2.92,14.35-8.76,20.3a29.65,29.65,0,0,1-21.94,9.1c-7.93,0-14.12-1.87-18.43-5.6-4-3.5-8.17-8.87-12.72-16.69-5.37-9.91-11.79-17.85-19.14-23.45-7.24-5.36-19.14-8.16-35.71-8.16-15.29,0-27.77,3-37,9-8.87,5.72-13.19,12.37-13.19,20.18a18.26,18.26,0,0,0,4.32,12.25,38.13,38.13,0,0,0,12.72,9.57,90.14,90.14,0,0,0,17.15,6.53c6,1.64,15.87,4.09,29.53,7.12,17.38,3.62,33.25,7.82,47.26,12.13,14.24,4.55,26.49,10,36.52,16.45a72.93,72.93,0,0,1,24.16,25.09c5.72,10,8.64,22.63,8.64,37.1A75.09,75.09,0,0,1,368,359Z",
             }
+            
         }
     }
 }
@@ -37572,6 +40688,9 @@ impl IconShape for IoLogoSlack {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -37598,6 +40717,7 @@ impl IconShape for IoLogoSlack {
             path {
                 d: "M315.1,362.16a47.06,47.06,0,0,1,0-94.12H432.94a47.06,47.06,0,1,1,0,94.12Z",
             }
+            
         }
     }
 }
@@ -37632,11 +40752,15 @@ impl IconShape for IoLogoSnapchat {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M496,347.21a190.31,190.31,0,0,1-32.79-5.31c-27.28-6.63-54.84-24.26-68.12-52.43-6.9-14.63-2.64-18.59,11.86-24,14.18-5.27,29.8-7.72,36.86-23,5.89-12.76,1.13-27.76-10.41-35.49-15.71-10.53-30.35-.21-46.62,2.07,3.73-46.66,8.66-88.57-22.67-127.73C338.14,48.86,297.34,32,256.29,32S174.43,48.86,148.48,81.33c-31.38,39.26-26.4,81.18-22.67,127.92C109.49,207,95,196.46,79.18,207.07c-14.72,9.85-17,29.76-5.44,43s31.64,9.5,43.45,20.6c6.49,6.09,3.49,12.61-.35,20.14-14.48,28.4-39.26,45.74-69.84,51.56-4,.76-22.31,2.87-31,3.65,0,9.28.52,16.78,1.63,21.73,2.94,13.06,12.32,23.58,23.69,30.1C52.5,404.25,76.8,404.28,83,413.36c3,4.48,1.76,12.28,5.33,17.38a23.8,23.8,0,0,0,15.37,9.75c18.61,3.61,37.32-7.2,56.42-2.1,14.85,3.95,26.52,15.87,39.26,24,15.51,9.85,32.34,16.42,50.83,17.49,38.1,2.21,59.93-18.91,90.58-36.42,19.5-11.14,38.15-3.86,58.88-2.68,20.1,1.15,23.53-9.25,29.62-24.88a27.37,27.37,0,0,0,1.54-4.85,10.52,10.52,0,0,0,2.28-1.47c2-1.57,10.55-2.34,12.76-2.86,10.28-2.44,20.34-5.15,29.17-11.2,11.31-7.76,17.65-18.5,19.58-32.64A93.73,93.73,0,0,0,496,347.21ZM208,128c8.84,0,16,10.74,16,24s-7.16,24-16,24-16-10.74-16-24S199.16,128,208,128Zm103.62,77.7c-15.25,15-35,23.3-55.62,23.3a78.37,78.37,0,0,1-55.66-23.34,8,8,0,0,1,11.32-11.32A62.46,62.46,0,0,0,256,213c16.39,0,32.15-6.64,44.39-18.7a8,8,0,0,1,11.23,11.4ZM304,176c-8.84,0-16-10.75-16-24s7.16-24,16-24,16,10.75,16,24S312.84,176,304,176Z",
             }
+            
         }
     }
 }
@@ -37670,6 +40794,9 @@ impl IconShape for IoLogoSoundcloud {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37715,6 +40842,7 @@ impl IconShape for IoLogoSoundcloud {
             path {
                 d: "M254.79,158.87a7,7,0,0,0-6.94,7L245,308.75l2.85,51.87a6.94,6.94,0,1,0,13.87-.06v.06l3.09-51.87-3.09-142.93a7,7,0,0,0-6.93-6.95Z",
             }
+            
         }
     }
 }
@@ -37749,6 +40877,9 @@ impl IconShape for IoLogoStackoverflow {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -37757,6 +40888,7 @@ impl IconShape for IoLogoStackoverflow {
             path {
                 d: "M149.1,308.77l198.57,40.87,8.4-39.32L157.5,269.45Zm26.27-93.12L359.22,300,376,263.76,192.18,178.92Zm50.95-89,156,127.78,25.74-30.52-156-127.78ZM328,32,294.61,55.8,415.43,216.17,448,192ZM144,400H348V360H144Z",
             }
+            
         }
     }
 }
@@ -37791,11 +40923,15 @@ impl IconShape for IoLogoSteam {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M478.8,208.2a36,36,0,1,1-36-36A36,36,0,0,1,478.8,208.2ZM442.6,139a69.42,69.42,0,0,0-69.4,68.7l-43.2,62a48.86,48.86,0,0,0-5.4-.3,51.27,51.27,0,0,0-26.4,7.3L102.4,198a51.8,51.8,0,1,0-50.6,62.9,51.27,51.27,0,0,0,26.4-7.3L274,332.2a51.76,51.76,0,0,0,102.1-5.9l66.5-48.6a69.35,69.35,0,1,0,0-138.7Zm0,22.9a46.45,46.45,0,1,1-46.5,46.5A46.54,46.54,0,0,1,442.6,161.9Zm-390.8,9a38.18,38.18,0,0,1,33.7,20.2l-18.9-7.6v.1a30.21,30.21,0,0,0-22.6,56v.1l16.1,6.4a36.8,36.8,0,0,1-8.2.9,38.05,38.05,0,0,1-.1-76.1ZM324.6,283.1A38.1,38.1,0,1,1,290.9,339c6.3,2.5,12.5,5,18.8,7.6a30.27,30.27,0,1,0,22.5-56.2L316.3,284A46.83,46.83,0,0,1,324.6,283.1Z",
             }
+            
         }
     }
 }
@@ -37830,6 +40966,9 @@ impl IconShape for IoLogoStencil {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -37841,6 +40980,7 @@ impl IconShape for IoLogoStencil {
             path {
                 d: "M232.2,64H428.8L322.62,177.93H125.87Z",
             }
+            
         }
     }
 }
@@ -37875,6 +41015,9 @@ impl IconShape for IoLogoTableau {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -37902,6 +41045,7 @@ impl IconShape for IoLogoTableau {
             path {
                 d: "M307,74.08V60.37H266.66V16H252.14V60.37H211.81V74.08h40.33v44.37h14.52V74.08ZM56.11,305.61H70.63V261.24H111V247.53H70.63V204H56.11v43.56H16v14.52L56.11,262Z",
             }
+            
         }
     }
 }
@@ -37936,11 +41080,15 @@ impl IconShape for IoLogoTiktok {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M412.19,118.66a109.27,109.27,0,0,1-9.45-5.5,132.87,132.87,0,0,1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14,23.9,350,16,350.13,16H267.69V334.78c0,4.28,0,8.51-.18,12.69,0,.52-.05,1-.08,1.56,0,.23,0,.47-.05.71,0,.06,0,.12,0,.18a70,70,0,0,1-35.22,55.56,68.8,68.8,0,0,1-34.11,9c-38.41,0-69.54-31.32-69.54-70s31.13-70,69.54-70a68.9,68.9,0,0,1,21.41,3.39l.1-83.94a153.14,153.14,0,0,0-118,34.52,161.79,161.79,0,0,0-35.3,43.53c-3.48,6-16.61,30.11-18.2,69.24-1,22.21,5.67,45.22,8.85,54.73v.2c2,5.6,9.75,24.71,22.38,40.82A167.53,167.53,0,0,0,115,470.66v-.2l.2.2C155.11,497.78,199.36,496,199.36,496c7.66-.31,33.32,0,62.46-13.81,32.32-15.31,50.72-38.12,50.72-38.12a158.46,158.46,0,0,0,27.64-45.93c7.46-19.61,9.95-43.13,9.95-52.53V176.49c1,.6,14.32,9.41,14.32,9.41s19.19,12.3,49.13,20.31c21.48,5.7,50.42,6.9,50.42,6.9V131.27C453.86,132.37,433.27,129.17,412.19,118.66Z",
             }
+            
         }
     }
 }
@@ -37975,11 +41123,15 @@ impl IconShape for IoLogoTumblr {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M390,32H120c-49.19,0-88,38.81-88,88V390c0,49.19,38.81,90,88,90H390c49.19,0,90-40.81,90-90V120C480,70.81,439.19,32,390,32ZM336,396H284c-42.51,0-72-23.68-72-76V240H176V192c42.51-11,57.95-48.32,60-80h44v72h52v56H280l-.39,70.51c0,21.87,11,29.43,28.62,29.43L336,340Z",
             }
+            
         }
     }
 }
@@ -38014,11 +41166,15 @@ impl IconShape for IoLogoTux {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M443.66,405.05c-1.46-.79-2.85-1.54-4-2.2-6.47-3.83-13-10.52-11.85-17.83,2.42-15.94,2.89-23.47-.49-28.79a15.61,15.61,0,0,0-7.67-6.2l0-.06c1.41-2.56,2.26-5.66,2.83-10.12,1.44-11-5-44-13.7-70.7-8.08-24.68-29.24-50-44.7-68.56l-3.61-4.34c-23.88-28.93-24.34-38.19-26.55-82.67-.32-6.47-.69-13.8-1.17-22C329.87,41.43,304,16,256,16c-25.2,0-44.62,7.15-57.72,21.26C187.79,48.55,182,64,182,80.78c0,29.52,2,53,2.15,54.29,1.4,35.7,1,41.22-8.31,57.55-2.23,3.93-8.38,10.87-14.89,18.21-8.48,9.57-18.09,20.41-23.36,29.22-3.77,6.31-5.88,12.63-8.11,19.33-3.4,10.21-7.26,21.78-18.15,36.57-12.57,17.07-15.52,29.61-11,47.45v0c-4.94,6.45-4.83,14.37-4.75,20.23a25.84,25.84,0,0,1-.3,6.09c-2.29,7.59-12.42,9.4-22,10.18-1.58.12-3.1.21-4.55.29-7.26.39-13.53.74-17.13,6.3-3.47,5.36-1.12,13.8,2.14,25.48.72,2.58,1.46,5.25,2.19,8.06,1.83,7-.16,10.48-2.68,14.84-2.44,4.21-5.21,9-5.21,17.55,0,14.67,20,18,43.05,21.94,7.36,1.24,15,2.53,22.63,4.24a225.58,225.58,0,0,1,34.08,10.68c9.72,3.73,17.4,6.68,26.43,6.68,16.18,0,28.25-9.77,39.92-19.21L216.3,475c5.53-4.49,21.5-4,34.34-3.64,3.46.1,6.73.2,9.65.2l6.22,0c13.48-.08,31.94-.18,42.23,2.5,3.75,1,6.2,3.72,9.29,7.19C323.9,487.81,331.2,496,351.42,496c19.39,0,29.55-8.71,41.32-18.8,7.16-6.13,14.56-12.48,25.07-17.86,3.92-2,7.62-3.87,11.08-5.61C451.53,442.35,464,436.08,464,425.91,464,416,451.76,409.41,443.66,405.05ZM211.11,88.38a13.91,13.91,0,0,1,12.47,9c1.95,5.55,1.81,10.42.21,12.94,0,0-.22-1-.36-1.44a14.85,14.85,0,0,0-6.44-8.59,11.35,11.35,0,0,0-8.94-1.47c-4.26,1.13-8.41,5-8.91,18.79-5.16-10.47-2.31-18,.92-23C202.37,90.88,207.53,88.28,211.11,88.38Zm-17.5,375C192,479.24,175.2,479,170.09,478.59c-9.81-.82-21.66-4.69-33.13-8.43-4.52-1.47-9.19-3-13.73-4.34-13.2-3.89-30.12-6.74-43.72-9-3.22-.55-6.27-1.06-9.05-1.55s-4.61-1.27-5.2-2.3c-1-1.65.38-5.25,1.93-9.41C69.27,438,72.11,430.34,72,421c0-3.91-1.47-8.3-2.84-12.56-1.62-5-3.28-10.17-1.93-12.62,1.23-2.23,6.75-2.49,11.6-2.49h2.26c3.55,0,6.62.06,8.75-.53,6.51-1.81,14.86-6.92,17.81-13.88.9-2.17,1.37-6.94,2-14,.37-4.12.74-8.37,1.22-10.58a3.55,3.55,0,0,1,2.11-2.55c1.65-.77,6.78-1.91,18.63,4.08,11.18,5.65,22.88,25.84,34.2,45.37,3.56,6.14,6.92,11.94,10.3,17.36C190.15,441.14,194.94,450.2,193.61,463.4Zm128.84-31.56a68.74,68.74,0,0,1-4.55,10.9.58.58,0,0,1-1.08-.42,56.61,56.61,0,0,0,2.11-18.43c-.25-4.73-.4-7.59-2.66-8.51s-4.26.83-9.45,5.54c-1.1,1-2.36,2.14-3.78,3.4-10.8,9.47-26.88,20.68-55.61,23.37-16.84,1.59-27.59-4.63-30.92-8.14a2.16,2.16,0,0,0-3.07-.08,2.23,2.23,0,0,0-.51,2.29c2.12,6.84,1.2,12.26-.49,16.19-.95,2.2-1.85,2.05-2-.34-.25-4.64-1-9.88-3-14.19-3.11-6.94-7-14.34-8.89-17.88v-.05c3.24-1.49,8.86-4.83,11.37-10.88s4.48-18-9.82-31.74c-6.28-6.05-22.1-17.16-36.06-27-10.9-7.65-22.17-15.56-23.65-17.51-4.49-5.89-6.37-9.3-6.94-19.65.07-2.3.13-4.59.19-6.89l.27-2.49a.58.58,0,0,1,1.15,0,63.07,63.07,0,0,0,2,9.72c1.08,3.73,2.4,7.58,3.62,9.18,3.19,4.22,7.56,7.39,11.67,8.49a5.48,5.48,0,0,0,5-.72c2.93-2.33,2.65-7.6,2.19-16.34-.47-9-1.11-21.34,1.85-34.55,5.62-25,10.91-32.51,17.61-42,.86-1.22,1.75-2.47,2.65-3.79,1.44-2.08,3-4.1,4.67-6.23,7.47-9.61,15.93-20.49,13.92-40.95-.51-5.19-.76-8.83-.86-11.39a1,1,0,0,1,1.88-.59l.49.77,1.21,2c4.86,8,13.64,22.57,25.1,22.57a13.62,13.62,0,0,0,2.36-.21c23.39-3.93,51.9-30.25,52.17-30.51,3.12-3,2.84-6.14,1.64-7.91a5.18,5.18,0,0,0-6.45-1.72c-3.29,1.4-7.14,3.15-11.22,5-13.82,6.27-37,16.75-42.25,14.34a23.11,23.11,0,0,1-6.32-5.13,1,1,0,0,1,1.14-1.65c5.59,2.29,9.55,1.45,14.2-.08l1-.34c9.37-3.09,14.2-4.77,30.76-12.08a97.55,97.55,0,0,1,16.26-5.93c4-1,6.42-1.63,7.71-4.34a6.65,6.65,0,0,0-.5-7.13c-1.53-1.87-4.07-2.57-7-1.9-3.22.75-4.7,3-6.41,4.49-2.4,2.05-5,4.16-17.19,8.65-27,10-34.58,10.61-45.21,3.43-9.84-6.69-15.15-13.23-15.15-16,0-2.13,5.45-5.7,8.71-7.84,1.33-.87,2.59-1.69,3.62-2.46,4.34-3.22,13-11.39,13.38-11.73,5.4-5.41,17.91-2.18,25,2.58a2.23,2.23,0,0,0,1.72.41,2.14,2.14,0,0,0,1.68-2.58c-4.2-17.46-.13-27.34,4-32.55a22.58,22.58,0,0,1,17.48-8.48c12.81,0,21.76,10,21.76,24.42,0,11-2.82,16.79-5.48,20.3a1.73,1.73,0,0,1-2.58.18,1.78,1.78,0,0,1-.24-2.2A24.61,24.61,0,0,0,290,114a16.58,16.58,0,0,0-16.84-16.67c-3.94,0-13.48,1.5-16.77,15.44a29.81,29.81,0,0,0-.34,11.07l.08.71c.9,7.38,15.3,12.51,27.23,15.51,11.36,2.85,13,6.22,8.84,19.63s3.11,26.23,5.7,29.57a78.3,78.3,0,0,1,8.31,12.47,93.8,93.8,0,0,1,6.62,16.48c2.17,6.79,4.05,12.65,10.63,21.22,11.07,14.4,17.66,48.64,15,78-.21,2.41-.53,4.29-.77,5.67-.43,2.53-.72,4.2.66,5.38s3.16.7,7.26-.63l3.43-1.09a109.33,109.33,0,0,1,12.58-2.8,2.15,2.15,0,0,0,1.59-1.16c3.43-6.91,3.85-15.22,4-22.47q0-1.31.06-2.79c.19-7.77.45-18.93-2.95-32a1,1,0,0,1,1.93-.64,93,93,0,0,1,6.66,25.55c2.55,22.58-1.9,32.09-1.94,32.17a1.61,1.61,0,0,0,.95,2.25,17.12,17.12,0,0,1,6.95,4.67c1.46,1.66.93,2.4-1.14,1.62a36.26,36.26,0,0,0-12.77-2.29c-10.4,0-18.09,4.95-21.51,9.19-3.19,3.94-3.7,7.67-3.83,11.27l-.06.05c-7.48-.75-12.94,1.21-17.47,6.21l-.08.09c-6.26,7.75-4,24.63-1.29,38.48h0C322,400.61,326.31,419.68,322.45,431.84Zm96.1,10.07c-15.71,6.71-25.43,14.51-34,21.39-5.65,4.53-11,8.81-17.28,12.14-10.12,5.34-24.91,6.53-33.27-7.7-2.37-4-.71-9.86,1.58-17.95,3.05-10.75,7.23-25.46,3.71-44.65-.94-5.12-1.77-9.51-2.49-13.31C334,377,332.9,371.43,334,367c.63-2.45,3.43-3,5.87-3a20.83,20.83,0,0,1,2.63.19l0,0a29.51,29.51,0,0,0,7,12.1c5.7,5.86,13.63,8.83,23.56,8.85,2.1.17,25.94,1.55,36.54-22.4l0,0c1.46.18,3.65.7,4.3,2.3,1.28,3.19-.27,8.91-1.52,13.5-.9,3.31-1.68,6.16-1.63,8.37.31,16,11,22.78,25.83,32.16,1.79,1.13,3.66,2.31,5.55,3.54S445,425,445,426C444.48,430.79,425,439.16,418.55,441.91Z",
             }
+            
         }
     }
 }
@@ -38053,6 +41209,9 @@ impl IconShape for IoLogoTwitch {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -38070,6 +41229,7 @@ impl IconShape for IoLogoTwitch {
                 x: "208",
                 y: "143",
             }
+            
         }
     }
 }
@@ -38104,11 +41264,15 @@ impl IconShape for IoLogoTwitter {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M496,109.5a201.8,201.8,0,0,1-56.55,15.3,97.51,97.51,0,0,0,43.33-53.6,197.74,197.74,0,0,1-62.56,23.5A99.14,99.14,0,0,0,348.31,64c-54.42,0-98.46,43.4-98.46,96.9a93.21,93.21,0,0,0,2.54,22.1,280.7,280.7,0,0,1-203-101.3A95.69,95.69,0,0,0,36,130.4C36,164,53.53,193.7,80,211.1A97.5,97.5,0,0,1,35.22,199v1.2c0,47,34,86.1,79,95a100.76,100.76,0,0,1-25.94,3.4,94.38,94.38,0,0,1-18.51-1.8c12.51,38.5,48.92,66.5,92.05,67.3A199.59,199.59,0,0,1,39.5,405.6,203,203,0,0,1,16,404.2,278.68,278.68,0,0,0,166.74,448c181.36,0,280.44-147.7,280.44-275.8,0-4.2-.11-8.4-.31-12.5A198.48,198.48,0,0,0,496,109.5Z",
             }
+            
         }
     }
 }
@@ -38143,11 +41307,15 @@ impl IconShape for IoLogoUsd {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M240,480V443.58C160.53,439,112.25,398.06,112,336h72c1.77,26.34,23.86,46.45,56,50V288L213.23,281c-61-14.18-93.64-49.39-93.64-102.08C119.59,116.81,164.08,76.08,240,70V32h32V70c77.39,6.3,119,47.74,120,106H320c-.76-24.06-15.83-43.39-48-46v92l30.82,7.28C367.61,243.46,400,277,400,332c0,64.34-43.74,105.88-128,111.32V480Zm0-264V130c-27.59,1.52-47.27,18.47-47.27,42.53C192.73,194.83,209.12,209.41,240,216Zm32,78v92c38.15-1.54,56.38-18.92,56.38-45.77C328.38,315.65,310.15,299.1,272,294Z",
             }
+            
         }
     }
 }
@@ -38182,11 +41350,15 @@ impl IconShape for IoLogoVenmo {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M444.17,32H70.28C49.85,32,32,46.7,32,66.89V441.6C32,461.91,49.85,480,70.28,480H444.06C464.6,480,480,461.8,480,441.61V66.89C480.12,46.7,464.6,32,444.17,32ZM278,387H174.32L132.75,138.44l90.75-8.62,22,176.87c20.53-33.45,45.88-86,45.88-121.87,0-19.62-3.36-33-8.61-44L365.4,124.1c9.56,15.78,13.86,32,13.86,52.57C379.25,242.17,323.34,327.26,278,387Z",
             }
+            
         }
     }
 }
@@ -38221,12 +41393,16 @@ impl IconShape for IoLogoVercel {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48,496,464H16Z",
                 fill_rule: "evenodd",
             }
+            
         }
     }
 }
@@ -38261,11 +41437,15 @@ impl IconShape for IoLogoVimeo {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M476.9,114c-5-23.39-17.51-38.78-40.61-46.27s-64.92-4.5-94.12,16.79c-26.79,19.51-46.26,54.42-54,78.28a4,4,0,0,0,5.13,5c10.77-3.8,21.72-7.1,34-6.45,15,.8,24.51,12,24.91,25.29.3,9.79-.2,18.69-3.6,27.68C337.87,243,321,270.78,301.06,295.07a72.49,72.49,0,0,1-10,9.89c-10.21,8.29-18.81,6.1-25.41-5.2-5.4-9.29-9-18.88-12.2-29.08-12.4-39.67-16.81-80.84-23.81-121.52-3.3-19.48-7-39.77-18-56.86-11.6-17.79-28.61-24.58-50-22-14.7,1.8-36.91,17.49-47.81,26.39,0,0-56,46.87-81.82,71.35l21.2,27s17.91-12.49,27.51-18.29c5.7-3.39,12.4-4.09,17.2.2,4.51,3.9,9.61,9,12.31,14.1,5.7,10.69,11.2,21.88,14.7,33.37,13.2,44.27,25.51,88.64,37.81,133.22,6.3,22.78,13.9,44.17,28,63.55,19.31,26.59,39.61,32.68,70.92,21.49,25.41-9.09,46.61-26.18,66-43.87,33.11-30.18,59.12-65.36,85.52-101.14C433.59,270,450.49,242,464.59,210.72,478.5,179.74,484,147.26,476.9,114Z",
             }
+            
         }
     }
 }
@@ -38300,12 +41480,16 @@ impl IconShape for IoLogoVk {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M484.7,132c3.56-11.28,0-19.48-15.75-19.48H416.58c-13.21,0-19.31,7.18-22.87,14.86,0,0-26.94,65.6-64.56,108.13-12.2,12.3-17.79,16.4-24.4,16.4-3.56,0-8.14-4.1-8.14-15.37V131.47c0-13.32-4.06-19.47-15.25-19.47H199c-8.14,0-13.22,6.15-13.22,12.3,0,12.81,18.81,15.89,20.84,51.76V254c0,16.91-3,20-9.66,20-17.79,0-61-66.11-86.92-141.44C105,117.64,99.88,112,86.66,112H33.79C18.54,112,16,119.17,16,126.86c0,13.84,17.79,83.53,82.86,175.77,43.21,63,104.72,96.86,160.13,96.86,33.56,0,37.62-7.69,37.62-20.5V331.33c0-15.37,3.05-17.93,13.73-17.93,7.62,0,21.35,4.09,52.36,34.33C398.28,383.6,404.38,400,424.21,400h52.36c15.25,0,22.37-7.69,18.3-22.55-4.57-14.86-21.86-36.38-44.23-62-12.2-14.34-30.5-30.23-36.09-37.92-7.62-10.25-5.59-14.35,0-23.57-.51,0,63.55-91.22,70.15-122",
                 style: "fill-rule:evenodd",
             }
+            
         }
     }
 }
@@ -38340,6 +41524,9 @@ impl IconShape for IoLogoVue {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -38348,6 +41535,7 @@ impl IconShape for IoLogoVue {
             polygon {
                 points: "409.4 47.92 256 313.61 102.6 47.92 15.74 47.92 256 464.08 496.26 47.92 409.4 47.92",
             }
+            
         }
     }
 }
@@ -38382,6 +41570,9 @@ impl IconShape for IoLogoWebComponent {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -38402,6 +41593,7 @@ impl IconShape for IoLogoWebComponent {
             polygon {
                 points: "179.9 388 103.74 256 179.9 124 179.9 124 223.74 48 136 48 16 256 136 464 223.74 464 179.9 388 179.9 388",
             }
+            
         }
     }
 }
@@ -38436,6 +41628,9 @@ impl IconShape for IoLogoWechat {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -38446,6 +41641,7 @@ impl IconShape for IoLogoWechat {
                 d: "M246.13,178.51a24.47,24.47,0,0,1,0-48.94c12.77,0,24.38,11.65,24.38,24.47,1.16,12.82-10.45,24.47-24.38,24.47m-123.06,0A24.47,24.47,0,1,1,147.45,154a24.57,24.57,0,0,1-24.38,24.47M184.6,48C82.43,48,0,116.75,0,203c0,46.61,24.38,88.56,63.85,116.53C67.34,321.84,68,327,68,329a11.38,11.38,0,0,1-.66,4.49C63.85,345.14,59.4,364,59.21,365s-1.16,3.5-1.16,4.66a5.49,5.49,0,0,0,5.8,5.83,7.15,7.15,0,0,0,3.49-1.17L108,351c3.49-2.33,5.81-2.33,9.29-2.33a16.33,16.33,0,0,1,5.81,1.16c18.57,5.83,39.47,8.16,60.37,8.16h10.45a133.24,133.24,0,0,1-5.81-38.45c0-78.08,75.47-141,168.35-141h10.45C354.1,105.1,277.48,48,184.6,48",
                 id: "XMLID_505_-7",
             }
+            
         }
     }
 }
@@ -38480,12 +41676,16 @@ impl IconShape for IoLogoWhatsapp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414.73,97.1A222.14,222.14,0,0,0,256.94,32C134,32,33.92,131.58,33.87,254A220.61,220.61,0,0,0,63.65,365L32,480l118.25-30.87a223.63,223.63,0,0,0,106.6,27h.09c122.93,0,223-99.59,223.06-222A220.18,220.18,0,0,0,414.73,97.1ZM256.94,438.66h-.08a185.75,185.75,0,0,1-94.36-25.72l-6.77-4L85.56,427.26l18.73-68.09-4.41-7A183.46,183.46,0,0,1,71.53,254c0-101.73,83.21-184.5,185.48-184.5A185,185,0,0,1,442.34,254.14C442.3,355.88,359.13,438.66,256.94,438.66ZM358.63,300.47c-5.57-2.78-33-16.2-38.08-18.05s-8.83-2.78-12.54,2.78-14.4,18-17.65,21.75-6.5,4.16-12.07,1.38-23.54-8.63-44.83-27.53c-16.57-14.71-27.75-32.87-31-38.42s-.35-8.56,2.44-11.32c2.51-2.49,5.57-6.48,8.36-9.72s3.72-5.56,5.57-9.26.93-6.94-.46-9.71-12.54-30.08-17.18-41.19c-4.53-10.82-9.12-9.35-12.54-9.52-3.25-.16-7-.2-10.69-.2a20.53,20.53,0,0,0-14.86,6.94c-5.11,5.56-19.51,19-19.51,46.28s20,53.68,22.76,57.38,39.3,59.73,95.21,83.76a323.11,323.11,0,0,0,31.78,11.68c13.35,4.22,25.5,3.63,35.1,2.2,10.71-1.59,33-13.42,37.63-26.38s4.64-24.06,3.25-26.37S364.21,303.24,358.63,300.47Z",
                 style: "fill-rule:evenodd",
             }
+            
         }
     }
 }
@@ -38520,6 +41720,9 @@ impl IconShape for IoLogoWindows {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -38534,6 +41737,7 @@ impl IconShape for IoLogoWindows {
             path {
                 d: "M216,69.7,32,96V249H216V69.7Z",
             }
+            
         }
     }
 }
@@ -38568,6 +41772,9 @@ impl IconShape for IoLogoWordpress {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -38582,6 +41789,7 @@ impl IconShape for IoLogoWordpress {
             path {
                 d: "M256,48a208.06,208.06,0,0,1,81,399.66A208.06,208.06,0,0,1,175,64.34,206.7,206.7,0,0,1,256,48m0-16C132.29,32,32,132.29,32,256S132.29,480,256,480,480,379.71,480,256,379.71,32,256,32Z",
             }
+            
         }
     }
 }
@@ -38616,6 +41824,9 @@ impl IconShape for IoLogoXbox {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -38630,6 +41841,7 @@ impl IconShape for IoLogoXbox {
             path {
                 d: "M358.7,292.9C312.4,236,255.8,199,255.8,199s-56.3,37-102.7,93.9c-39.8,48.9-54.6,84.8-62.6,107.8l-1.3,4.8a224,224,0,0,0,333.6,0l-1.4-4.8C413.4,377.7,398.5,341.8,358.7,292.9Z",
             }
+            
         }
     }
 }
@@ -38664,6 +41876,9 @@ impl IconShape for IoLogoXing {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -38672,6 +41887,7 @@ impl IconShape for IoLogoXing {
             path {
                 d: "M221.9,216.2,163,113a2,2,0,0,0-2-1H65l58.9,104.4a1.13,1.13,0,0,1,.1.8L43,352h96.8a1.54,1.54,0,0,0,1.6-.9l80.5-133.7A2.44,2.44,0,0,0,221.9,216.2Z",
             }
+            
         }
     }
 }
@@ -38706,11 +41922,15 @@ impl IconShape for IoLogoYahoo {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M410.32,37.13c-13.56,0-27-.93-39.12-5.13L256,218.67,140.8,32c-12.12,4.2-24.84,5.13-38.4,5.13C89.08,37.13,75.88,36.08,64,32L217.6,280.15V480c12-4.08,25-5.13,38.4-5.13s26.4,1.05,38.4,5.13V280.5L448,32C436.12,36,423.64,37.13,410.32,37.13Z",
             }
+            
         }
     }
 }
@@ -38745,11 +41965,15 @@ impl IconShape for IoLogoYen {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M448,32H368L256,253.13,144,32H64L176.37,240H128v48h73.56L216,319v17H128v48h88v96h80V384h88V336H296V319l14.89-31H384V240H335.71Z",
             }
+            
         }
     }
 }
@@ -38784,11 +42008,15 @@ impl IconShape for IoLogoYoutube {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5_logos"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M508.64,148.79c0-45-33.1-81.2-74-81.2C379.24,65,322.74,64,265,64H247c-57.6,0-114.2,1-169.6,3.6-40.8,0-73.9,36.4-73.9,81.4C1,184.59-.06,220.19,0,255.79q-.15,53.4,3.4,106.9c0,45,33.1,81.5,73.9,81.5,58.2,2.7,117.9,3.9,178.6,3.8q91.2.3,178.6-3.8c40.9,0,74-36.5,74-81.5,2.4-35.7,3.5-71.3,3.4-107Q512.24,202.29,508.64,148.79ZM207,353.89V157.39l145,98.2Z",
             }
+            
         }
     }
 }
@@ -38822,6 +42050,9 @@ impl IconShape for IoMagnetOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38876,6 +42107,7 @@ impl IconShape for IoMagnetOutline {
                 y1: "305.75",
                 y2: "373.63",
             }
+            
         }
     }
 }
@@ -38909,6 +42141,9 @@ impl IconShape for IoMagnetSharp {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38950,6 +42185,7 @@ impl IconShape for IoMagnetSharp {
                 x: "243.06",
                 y: "324.59",
             }
+            
         }
     }
 }
@@ -38984,6 +42220,9 @@ impl IconShape for IoMagnet {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -39016,6 +42255,7 @@ impl IconShape for IoMagnet {
             path {
                 d: "M428.85,83.28a144,144,0,0,0-203.71-.06l-65.06,65.05a4,4,0,0,0,0,5.66l62.23,62.22a4,4,0,0,0,5.66,0l65-65.05a48,48,0,0,1,68.46.59c18.3,18.92,17.47,49.24-1.14,67.85L295.85,284a4,4,0,0,0,0,5.66l62.22,62.23a4,4,0,0,0,5.66,0l64.08-64.08C484.18,231.47,485.18,139.68,428.85,83.28Z",
             }
+            
         }
     }
 }
@@ -39050,6 +42290,9 @@ impl IconShape for IoMailOpenOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -39074,6 +42317,7 @@ impl IconShape for IoMailOpenOutline {
                 y1: "192",
                 y2: "297",
             }
+            
         }
     }
 }
@@ -39108,11 +42352,15 @@ impl IconShape for IoMailOpenSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M471.05,168.36,263.24,65.69a16.37,16.37,0,0,0-14.48,0L41,168.36a16,16,0,0,0-9,14.31V432a16.09,16.09,0,0,0,16.19,16H463.81A16.09,16.09,0,0,0,480,432V182.67A16,16,0,0,0,471.05,168.36ZM256,97.89l173,85.44L253.3,270.11l-173-85.44Z",
             }
+            
         }
     }
 }
@@ -39147,11 +42395,15 @@ impl IconShape for IoMailOpen {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M448.67,154.45,274.1,68.2a41.1,41.1,0,0,0-36.2,0L63.33,154.45A55.6,55.6,0,0,0,32,204.53V389.14c0,30.88,25.42,56,56.67,56H423.33c31.25,0,56.67-25.12,56.67-56V204.53A55.6,55.6,0,0,0,448.67,154.45ZM252.38,96.82a8.22,8.22,0,0,1,7.24,0L429,180.48l-172,85a8.22,8.22,0,0,1-7.24,0L80.35,181.81Z",
             }
+            
         }
     }
 }
@@ -39186,6 +42438,9 @@ impl IconShape for IoMailOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -39201,6 +42456,7 @@ impl IconShape for IoMailOutline {
                 points: "112 160 256 272 400 160",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -39235,11 +42491,15 @@ impl IconShape for IoMailSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,80H48A16,16,0,0,0,32,96V416a16,16,0,0,0,16,16H464a16,16,0,0,0,16-16V96A16,16,0,0,0,464,80ZM265.82,284.63a16,16,0,0,1-19.64,0L89.55,162.81l19.64-25.26L256,251.73,402.81,137.55l19.64,25.26Z",
             }
+            
         }
     }
 }
@@ -39274,6 +42534,9 @@ impl IconShape for IoMailUnreadOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -39292,6 +42555,7 @@ impl IconShape for IoMailUnreadOutline {
             path {
                 d: "M432,192a63.95,63.95,0,1,1,63.95-63.95A64,64,0,0,1,432,192Zm0-95.9a32,32,0,1,0,31.95,32A32,32,0,0,0,432,96.1Z",
             }
+            
         }
     }
 }
@@ -39326,6 +42590,9 @@ impl IconShape for IoMailUnreadSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -39334,6 +42601,7 @@ impl IconShape for IoMailUnreadSharp {
             path {
                 d: "M371.51,202.43l-105.69,82.2a16,16,0,0,1-19.64,0L89.55,162.81l19.64-25.26L256,251.73l94.36-73.39A95.81,95.81,0,0,1,349,80H48A16,16,0,0,0,32,96V416a16,16,0,0,0,16,16H464a16,16,0,0,0,16-16V211.13a95.75,95.75,0,0,1-108.49-8.7Z",
             }
+            
         }
     }
 }
@@ -39368,6 +42636,9 @@ impl IconShape for IoMailUnread {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -39376,6 +42647,7 @@ impl IconShape for IoMailUnread {
             path {
                 d: "M371.38,202.53l-105.56,82.1a16,16,0,0,1-19.64,0l-144-112a16,16,0,1,1,19.64-25.26L256,251.73l94.22-73.28A95.86,95.86,0,0,1,348.81,80H88a56.06,56.06,0,0,0-56,56V376a56.06,56.06,0,0,0,56,56H424a56.06,56.06,0,0,0,56-56V211.19a95.85,95.85,0,0,1-108.62-8.66Z",
             }
+            
         }
     }
 }
@@ -39410,11 +42682,15 @@ impl IconShape for IoMail {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-o"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M424,80H88a56.06,56.06,0,0,0-56,56V376a56.06,56.06,0,0,0,56,56H424a56.06,56.06,0,0,0,56-56V136A56.06,56.06,0,0,0,424,80Zm-14.18,92.63-144,112a16,16,0,0,1-19.64,0l-144-112a16,16,0,1,1,19.64-25.26L256,251.73,390.18,147.37a16,16,0,0,1,19.64,25.26Z",
             }
+            
         }
     }
 }
@@ -39449,6 +42725,9 @@ impl IconShape for IoMaleFemaleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -39482,6 +42761,7 @@ impl IconShape for IoMaleFemaleOutline {
                 y1: "128.72",
                 y2: "32",
             }
+            
         }
     }
 }
@@ -39516,11 +42796,15 @@ impl IconShape for IoMaleFemaleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M330,16V60h42.89l-37.1,37.09A157.67,157.67,0,0,0,216,42C128.88,42,58,112.88,58,200c0,79.66,59.26,145.72,136,156.46V394H144v44h50v58h44V438h50V394H238V356.46c76.74-10.74,136-76.8,136-156.46a157.23,157.23,0,0,0-14-64.93l44-44V134h44V16ZM216,314A114,114,0,1,1,330,200,114.13,114.13,0,0,1,216,314Z",
             }
+            
         }
     }
 }
@@ -39555,11 +42839,15 @@ impl IconShape for IoMaleFemale {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M426,16H352a22,22,0,0,0,0,44h20.89l-37.1,37.09A157.68,157.68,0,0,0,216,42C128.88,42,58,112.88,58,200c0,79.66,59.26,145.72,136,156.46V394H166a22,22,0,0,0,0,44h28v36a22,22,0,0,0,44,0V438h28a22,22,0,0,0,0-44H238V356.46c76.74-10.74,136-76.8,136-156.46a157.15,157.15,0,0,0-14-64.92l44-44V112a22,22,0,0,0,44,0V38A22,22,0,0,0,426,16ZM216,314A114,114,0,1,1,330,200,114.13,114.13,0,0,1,216,314Z",
             }
+            
         }
     }
 }
@@ -39594,6 +42882,9 @@ impl IconShape for IoMaleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "male-outline"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -39622,6 +42913,7 @@ impl IconShape for IoMaleOutline {
                 y1: "188",
                 y2: "64",
             }
+            
         }
     }
 }
@@ -39656,11 +42948,15 @@ impl IconShape for IoMaleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M330,48V92h58.89L328.5,152.39c-68.2-52.86-167-48-229.54,14.57h0C31.12,234.81,31.12,345.19,99,413A174.21,174.21,0,0,0,345,413c62.57-62.58,67.43-161.34,14.57-229.54L420,123.11V182h44V48ZM313.92,381.92a130.13,130.13,0,0,1-183.84,0c-50.69-50.68-50.69-133.16,0-183.84s133.16-50.69,183.84,0S364.61,331.24,313.92,381.92Z",
             }
+            
         }
     }
 }
@@ -39695,11 +42991,15 @@ impl IconShape for IoMale {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M442,48H352a22,22,0,0,0,0,44h36.89L328.5,152.39c-68.19-52.86-167-48-229.54,14.57h0C31.12,234.81,31.12,345.19,99,413A174.21,174.21,0,0,0,345,413c62.57-62.58,67.43-161.35,14.57-229.54L420,123.11V160a22,22,0,0,0,44,0V70A22,22,0,0,0,442,48ZM313.92,381.92a130.13,130.13,0,0,1-183.84,0c-50.69-50.68-50.69-133.16,0-183.84s133.16-50.69,183.84,0S364.61,331.24,313.92,381.92Z",
             }
+            
         }
     }
 }
@@ -39734,6 +43034,9 @@ impl IconShape for IoManOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -39754,6 +43057,7 @@ impl IconShape for IoManOutline {
                 r: "40",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -39788,6 +43092,9 @@ impl IconShape for IoManSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -39798,6 +43105,7 @@ impl IconShape for IoManSharp {
             path {
                 d: "M336,128H176a32,32,0,0,0-32,32V320h48V192h8V512h52V328h8V512h52V192h8V320h48V160A32,32,0,0,0,336,128Z",
             }
+            
         }
     }
 }
@@ -39832,6 +43140,9 @@ impl IconShape for IoMan {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -39842,6 +43153,7 @@ impl IconShape for IoMan {
             path {
                 d: "M304,128H208a64.19,64.19,0,0,0-64,64V299.52c0,10.85,8.43,20.08,19.27,20.47A20,20,0,0,0,184,300V200.27a8.18,8.18,0,0,1,7.47-8.25,8,8,0,0,1,8.53,8V489a23,23,0,0,0,23,23h0a23,23,0,0,0,23-23V346.34A10.24,10.24,0,0,1,255.33,336,10,10,0,0,1,266,346V489a23,23,0,0,0,23,23h0a23,23,0,0,0,23-23V200.27a8.18,8.18,0,0,1,7.47-8.25,8,8,0,0,1,8.53,8v99.52c0,10.85,8.43,20.08,19.27,20.47A20,20,0,0,0,368,300V192A64.19,64.19,0,0,0,304,128Z",
             }
+            
         }
     }
 }
@@ -39876,6 +43188,9 @@ impl IconShape for IoMapOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -39896,6 +43211,7 @@ impl IconShape for IoMapOutline {
                 y1: "48",
                 y2: "384",
             }
+            
         }
     }
 }
@@ -39930,11 +43246,15 @@ impl IconShape for IoMapSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M327.71,130.93,184,39,32,144V480l152.29-98.93L328,473,480,368V32ZM312,421,200,349V91l112,72Z",
             }
+            
         }
     }
 }
@@ -39969,6 +43289,9 @@ impl IconShape for IoMap {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -39980,6 +43303,7 @@ impl IconShape for IoMap {
             path {
                 d: "M464.53,46.47a31.64,31.64,0,0,0-31.5-.88,12.07,12.07,0,0,0-1.25.74l-84.15,55a8,8,0,0,0-3.63,6.72V465.51a8,8,0,0,0,12.52,6.63l107.07-73.46a32,32,0,0,0,16.41-28v-296A32.76,32.76,0,0,0,464.53,46.47Z",
             }
+            
         }
     }
 }
@@ -40013,6 +43337,9 @@ impl IconShape for IoMedalOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -40053,6 +43380,7 @@ impl IconShape for IoMedalOutline {
                 y1: "144",
                 y2: "250",
             }
+            
         }
     }
 }
@@ -40087,6 +43415,9 @@ impl IconShape for IoMedalSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -40100,6 +43431,7 @@ impl IconShape for IoMedalSharp {
                 cy: "352",
                 r: "32",
             }
+            
         }
     }
 }
@@ -40134,6 +43466,9 @@ impl IconShape for IoMedal {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -40147,6 +43482,7 @@ impl IconShape for IoMedal {
             path {
                 d: "M486.17,120.56l-31-62a47.7,47.7,0,0,0-32.79-25.46L342.5,160h0L298,231.08a128,128,0,0,0-84,0l-23.32-37.2a4,4,0,0,0-3.39-1.88H51.14a4,4,0,0,0-3.36,6.16l82.7,128.73a128,128,0,1,0,251,0L483.62,168A48.22,48.22,0,0,0,486.17,120.56Zm-226,295.31a64,64,0,1,1,59.69-59.69A64.08,64.08,0,0,1,260.18,415.87Z",
             }
+            
         }
     }
 }
@@ -40181,12 +43517,16 @@ impl IconShape for IoMedicalOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M429.93,174.27l-16.47-28.59a15.49,15.49,0,0,0-21.15-5.7l-98.39,57a4,4,0,0,1-6-3.5L288,80a16,16,0,0,0-16-16H240a16,16,0,0,0-16,16l.07,113.57a4,4,0,0,1-6,3.5l-98.39-57a15.49,15.49,0,0,0-21.15,5.7L82.07,174.37a15.42,15.42,0,0,0,5.69,21.1l98.49,57.08a4,4,0,0,1,0,6.9L87.76,316.53a15.54,15.54,0,0,0-5.69,21.1l16.47,28.59a15.49,15.49,0,0,0,21.15,5.7l98.39-57a4,4,0,0,1,6,3.5L224,432a16,16,0,0,0,16,16h32a16,16,0,0,0,16-16l-.07-113.67a4,4,0,0,1,6-3.5l98.39,57a15.49,15.49,0,0,0,21.15-5.7l16.47-28.59a15.42,15.42,0,0,0-5.69-21.1l-98.49-57.08a4,4,0,0,1,0-6.9l98.49-57.08A15.51,15.51,0,0,0,429.93,174.27Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -40221,11 +43561,15 @@ impl IconShape for IoMedicalSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "351.9 256 460 193.6 412 110.4 304 172.8 304 48 208 48 208 172.8 100 110.4 52 193.6 160.1 256 52 318.4 100 401.6 208 339.2 208 464 304 464 304 339.2 412 401.6 460 318.4 351.9 256",
             }
+            
         }
     }
 }
@@ -40260,11 +43604,15 @@ impl IconShape for IoMedical {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M272,464H240a32,32,0,0,1-32-32l.05-85.82a4,4,0,0,0-6-3.47l-74.34,43.06a31.48,31.48,0,0,1-43-11.52L68.21,345.61l-.06-.1a31.65,31.65,0,0,1,11.56-42.8l74.61-43.25a4,4,0,0,0,0-6.92L79.78,209.33a31.41,31.41,0,0,1-11.55-43l16.44-28.55a31.48,31.48,0,0,1,19.27-14.74,31.14,31.14,0,0,1,23.8,3.2l74.31,43a4,4,0,0,0,6-3.47L208,80a32,32,0,0,1,32-32h32a32,32,0,0,1,32,32L304,165.72a4,4,0,0,0,6,3.47l74.34-43.06a31.51,31.51,0,0,1,43,11.52l16.49,28.64.06.09a31.52,31.52,0,0,1-11.64,42.86l-74.53,43.2a4,4,0,0,0,0,6.92l74.53,43.2a31.42,31.42,0,0,1,11.56,43l-16.44,28.55a31.48,31.48,0,0,1-19.27,14.74,31.14,31.14,0,0,1-23.8-3.2l-74.31-43a4,4,0,0,0-6,3.46L304,432A32,32,0,0,1,272,464ZM178.44,266.52h0Zm0-21h0Zm155.1-.08Zm0,0h0Z",
             }
+            
         }
     }
 }
@@ -40299,6 +43647,9 @@ impl IconShape for IoMedkitOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -40328,6 +43679,7 @@ impl IconShape for IoMedkitOutline {
                 y1: "288",
                 y2: "288",
             }
+            
         }
     }
 }
@@ -40362,6 +43714,9 @@ impl IconShape for IoMedkitSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -40374,6 +43729,7 @@ impl IconShape for IoMedkitSharp {
             path {
                 d: "M484,96H384V40a8,8,0,0,0-8-8H136a8,8,0,0,0-8,8V96H28a12,12,0,0,0-12,12V468a12,12,0,0,0,12,12H484a12,12,0,0,0,12-12V108A12,12,0,0,0,484,96ZM168,72H344V96H168ZM352,310H278v74H234V310H160V266h74V192h44v74h74Z",
             }
+            
         }
     }
 }
@@ -40408,6 +43764,9 @@ impl IconShape for IoMedkit {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -40417,6 +43776,7 @@ impl IconShape for IoMedkit {
             path {
                 d: "M432,96H384V80a48.05,48.05,0,0,0-48-48H176a48.05,48.05,0,0,0-48,48V96H80a64.07,64.07,0,0,0-64,64V416a64,64,0,0,0,64,64H432a64,64,0,0,0,64-64V160A64.07,64.07,0,0,0,432,96ZM336,304H272v64a16,16,0,0,1-32,0V304H176a16,16,0,0,1,0-32h64V208a16,16,0,0,1,32,0v64h64a16,16,0,0,1,0,32ZM352,96H160V80a16,16,0,0,1,16-16H336a16,16,0,0,1,16,16Z",
             }
+            
         }
     }
 }
@@ -40451,6 +43811,9 @@ impl IconShape for IoMegaphoneOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -40483,6 +43846,7 @@ impl IconShape for IoMegaphoneOutline {
                 d: "M144,288V456a8,8,0,0,0,8,8h53a16,16,0,0,0,15.29-20.73C211.91,416.39,192,386.08,192,336h16a16,16,0,0,0,16-16V304a16,16,0,0,0-16-16H192",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -40517,6 +43881,9 @@ impl IconShape for IoMegaphoneSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -40528,6 +43895,7 @@ impl IconShape for IoMegaphoneSharp {
             path {
                 d: "M96,144H52a4,4,0,0,0-4,4v35.59a43,43,0,0,0-4.24,4.35C38.4,194.32,32,205.74,32,224c0,20.19,7.89,33.13,16,40.42V300a4,4,0,0,0,4,4H96Z",
             }
+            
         }
     }
 }
@@ -40562,6 +43930,9 @@ impl IconShape for IoMegaphone {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -40573,6 +43944,7 @@ impl IconShape for IoMegaphone {
             path {
                 d: "M240,320V152a8,8,0,0,0-8-8H136a8,8,0,0,0-8,8V456a24,24,0,0,0,24,24h52.45a32.66,32.66,0,0,0,25.93-12.45,31.65,31.65,0,0,0,5.21-29.05c-1.62-5.18-3.63-11-5.77-17.19-7.91-22.9-18.34-37.07-21.12-69.32A32,32,0,0,0,240,320Z",
             }
+            
         }
     }
 }
@@ -40607,6 +43979,9 @@ impl IconShape for IoMenuOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -40630,6 +44005,7 @@ impl IconShape for IoMenuOutline {
                 y1: "352",
                 y2: "352",
             }
+            
         }
     }
 }
@@ -40664,11 +44040,15 @@ impl IconShape for IoMenuSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z",
             }
+            
         }
     }
 }
@@ -40703,6 +44083,9 @@ impl IconShape for IoMenu {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -40726,6 +44109,7 @@ impl IconShape for IoMenu {
                 y1: "360",
                 y2: "360",
             }
+            
         }
     }
 }
@@ -40760,6 +44144,9 @@ impl IconShape for IoMicCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -40792,6 +44179,7 @@ impl IconShape for IoMicCircleOutline {
                 x: "208",
                 y: "128",
             }
+            
         }
     }
 }
@@ -40826,11 +44214,15 @@ impl IconShape for IoMicCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM208,176a48.14,48.14,0,0,1,48-48h0a48.14,48.14,0,0,1,48,48v64a48.14,48.14,0,0,1-48,48h0a48.14,48.14,0,0,1-48-48Zm144,72.22c0,23.36-10.94,45.61-30.79,62.66A103.71,103.71,0,0,1,272,334.26V352h32v32H208V352h32V334.26a103.71,103.71,0,0,1-49.21-23.38C170.94,293.83,160,271.58,160,248.22V208.3h32v39.92c0,25.66,28,55.48,64,55.48,29.6,0,64-24.23,64-55.48V208.3h32Z",
             }
+            
         }
     }
 }
@@ -40865,11 +44257,15 @@ impl IconShape for IoMicCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM208,176a48.14,48.14,0,0,1,48-48h0a48.14,48.14,0,0,1,48,48v64a48.14,48.14,0,0,1-48,48h0a48.14,48.14,0,0,1-48-48Zm144,72.22c0,23.36-10.94,45.61-30.79,62.66A103.71,103.71,0,0,1,272,334.26V352h16a16,16,0,0,1,0,32H224a16,16,0,0,1,0-32h16V334.26a103.71,103.71,0,0,1-49.21-23.38C170.94,293.83,160,271.58,160,248.22V224.3a16,16,0,0,1,32,0v23.92c0,25.66,28,55.48,64,55.48,29.6,0,64-24.23,64-55.48V224.3a16,16,0,1,1,32,0Z",
             }
+            
         }
     }
 }
@@ -40904,6 +44300,9 @@ impl IconShape for IoMicOffCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -40924,6 +44323,7 @@ impl IconShape for IoMicOffCircleOutline {
             path {
                 d: "M287.55,352H272V334.26a100.33,100.33,0,0,0,12.53-3.06,2,2,0,0,0,.89-3.26l-21.07-23.19a3.94,3.94,0,0,0-3.29-1.29c-1.69.15-3.39.24-5.06.24-36,0-64-29.82-64-55.48V224.4A16.26,16.26,0,0,0,176.39,208,15.91,15.91,0,0,0,160,224v24.22c0,23.36,10.94,45.61,30.79,62.66A103.71,103.71,0,0,0,240,334.26V352H224.45c-8.61,0-16,6.62-16.43,15.23A16,16,0,0,0,224,384h64a16,16,0,0,0,16-16.77C303.58,358.62,296.16,352,287.55,352Z",
             }
+            
         }
     }
 }
@@ -40958,11 +44358,15 @@ impl IconShape for IoMicOffCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm64,200.22V208h32v40.22a77.53,77.53,0,0,1-13.37,43.11L316,266.4A44.11,44.11,0,0,0,320,248.22ZM256,128h0a48.14,48.14,0,0,1,48,48v64a48.07,48.07,0,0,1-1.44,11.64l-89-97.92A48.13,48.13,0,0,1,256,128Zm48,256H208V352h32V334.26a103.71,103.71,0,0,1-49.21-23.38C170.94,293.83,160,271.58,160,248.22V208h32v40.22c0,25.66,28,55.48,64,55.48a56.91,56.91,0,0,0,7-.45l24.52,27a99.57,99.57,0,0,1-15.5,4V352h32ZM208.09,242.87l40.5,44.55A48.2,48.2,0,0,1,208.09,242.87ZM344.16,367.76l-200.5-218.5,23.68-21.52,200.5,218.5Z",
             }
+            
         }
     }
 }
@@ -40997,11 +44401,15 @@ impl IconShape for IoMicOffCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm0,80h0a48.14,48.14,0,0,1,48,48v64a47.84,47.84,0,0,1-.63,7.71,2,2,0,0,1-3.46,1l-84.42-92.86a4,4,0,0,1-.47-4.77A48.08,48.08,0,0,1,256,128Zm32,256H224.45c-8.61,0-16-6.62-16.43-15.23A16,16,0,0,1,224,352h16V334.26a103.71,103.71,0,0,1-49.21-23.38C170.94,293.83,160,271.58,160,248.22V224a15.91,15.91,0,0,1,16.39-16A16.26,16.26,0,0,1,192,224.4v23.82c0,25.66,28,55.48,64,55.48,1.67,0,3.37-.09,5.06-.24a3.94,3.94,0,0,1,3.29,1.29l21.07,23.19a2,2,0,0,1-.89,3.26A100.33,100.33,0,0,1,272,334.26V352h15.55c8.61,0,16,6.62,16.43,15.23A16,16,0,0,1,288,384ZM210.11,245.09l36.46,40.11a1,1,0,0,1-.95,1.66,48.26,48.26,0,0,1-37.25-41A1,1,0,0,1,210.11,245.09ZM362.76,364.84a16,16,0,0,1-22.6-1.08l-192-210a16,16,0,0,1,23.68-21.52l192,210A16,16,0,0,1,362.76,364.84ZM352,248.22a77.12,77.12,0,0,1-11.93,40.87,2,2,0,0,1-3.19.3l-19.19-21.1a4,4,0,0,1-.76-4.16A43.35,43.35,0,0,0,320,248.22v-23.8a16.3,16.3,0,0,1,13.64-16.24c9.88-1.48,18.36,6.51,18.36,16.12Z",
             }
+            
         }
     }
 }
@@ -41036,6 +44444,9 @@ impl IconShape for IoMicOffOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -41057,6 +44468,7 @@ impl IconShape for IoMicOffOutline {
             path {
                 d: "M207.27,242.9,179.41,215a2,2,0,0,0-3.41,1.42V239a80.89,80.89,0,0,0,23.45,56.9,78.55,78.55,0,0,0,77.8,21.19,2,2,0,0,0,.86-3.35L253.2,288.83a4.08,4.08,0,0,0-2.42-1.15c-21.65-2.52-39.48-20.44-42.37-42.43A4,4,0,0,0,207.27,242.9Z",
             }
+            
         }
     }
 }
@@ -41091,6 +44503,9 @@ impl IconShape for IoMicOffSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -41112,6 +44527,7 @@ impl IconShape for IoMicOffSharp {
             path {
                 d: "M176,211.63V239a80.89,80.89,0,0,0,23.45,56.9,78.55,78.55,0,0,0,81,20.21Z",
             }
+            
         }
     }
 }
@@ -41146,6 +44562,9 @@ impl IconShape for IoMicOff {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -41167,6 +44586,7 @@ impl IconShape for IoMicOff {
             path {
                 d: "M179.41,215a2,2,0,0,0-3.41,1.42V239a80.89,80.89,0,0,0,23.45,56.9,78.55,78.55,0,0,0,77.8,21.19,2,2,0,0,0,.86-3.35Z",
             }
+            
         }
     }
 }
@@ -41201,6 +44621,9 @@ impl IconShape for IoMicOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -41225,6 +44648,7 @@ impl IconShape for IoMicOutline {
                 d: "M256,64a63.68,63.68,0,0,0-64,64V239c0,35.2,29,65,64,65s64-29,64-65V128C320,92,292,64,256,64Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -41259,6 +44683,9 @@ impl IconShape for IoMicSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -41282,6 +44709,7 @@ impl IconShape for IoMicSharp {
             path {
                 d: "M256,320a78.83,78.83,0,0,1-56.55-24.1A80.89,80.89,0,0,1,176,239V128a79.69,79.69,0,0,1,80-80c44.86,0,80,35.14,80,80V239C336,283.66,300.11,320,256,320Z",
             }
+            
         }
     }
 }
@@ -41316,6 +44744,9 @@ impl IconShape for IoMic {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -41339,6 +44770,7 @@ impl IconShape for IoMic {
             path {
                 d: "M256,320a78.83,78.83,0,0,1-56.55-24.1A80.89,80.89,0,0,1,176,239V128a79.69,79.69,0,0,1,80-80c44.86,0,80,35.14,80,80V239C336,283.66,300.11,320,256,320Z",
             }
+            
         }
     }
 }
@@ -41373,12 +44805,16 @@ impl IconShape for IoMoonOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M160,136c0-30.62,4.51-61.61,16-88C99.57,81.27,48,159.32,48,248c0,119.29,96.71,216,216,216,88.68,0,166.73-51.57,200-128-26.39,11.49-57.38,16-88,16C256.71,352,160,255.29,160,136Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -41413,11 +44849,15 @@ impl IconShape for IoMoonSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M152.62,126.77c0-33,4.85-66.35,17.23-94.77C87.54,67.83,32,151.89,32,247.38,32,375.85,136.15,480,264.62,480c95.49,0,179.55-55.54,215.38-137.85-28.42,12.38-61.8,17.23-94.77,17.23C256.76,359.38,152.62,255.24,152.62,126.77Z",
             }
+            
         }
     }
 }
@@ -41452,11 +44892,15 @@ impl IconShape for IoMoon {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M264,480A232,232,0,0,1,32,248C32,154,86,69.72,169.61,33.33a16,16,0,0,1,21.06,21.06C181.07,76.43,176,104.66,176,136c0,110.28,89.72,200,200,200,31.34,0,59.57-5.07,81.61-14.67a16,16,0,0,1,21.06,21.06C442.28,426,358,480,264,480Z",
             }
+            
         }
     }
 }
@@ -41491,6 +44935,9 @@ impl IconShape for IoMoveOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -41523,6 +44970,7 @@ impl IconShape for IoMoveOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -41557,6 +45005,9 @@ impl IconShape for IoMoveSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -41589,6 +45040,7 @@ impl IconShape for IoMoveSharp {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -41623,6 +45075,9 @@ impl IconShape for IoMove {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -41655,6 +45110,7 @@ impl IconShape for IoMove {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -41689,12 +45145,16 @@ impl IconShape for IoMusicalNoteOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M240,343.31V424a32.28,32.28,0,0,1-21.88,30.65l-21.47,7.23c-25.9,8.71-52.65-10.75-52.65-38.32h0A34.29,34.29,0,0,1,167.25,391l50.87-17.12A32.29,32.29,0,0,0,240,343.24V92a16.13,16.13,0,0,1,12.06-15.66L360.49,48.2A6,6,0,0,1,368,54v57.76a16.13,16.13,0,0,1-12.12,15.67l-91.64,23.13A32.25,32.25,0,0,0,240,181.91V221.3",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -41729,11 +45189,15 @@ impl IconShape for IoMusicalNoteSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M381.55,32.05c-18.13,4.28-126.57,31.07-156,38.19A2,2,0,0,0,224,72.18V353.3a2,2,0,0,1-1.32,1.88L182,369.88c-29.82,10.66-54,18.94-54,59.06,0,32.47,23.53,47.18,37.95,50a81.77,81.77,0,0,0,15,1.08c8.89,0,31-3.59,47.52-14.24C256,448,256,448,256,415.93V169.16a2,2,0,0,1,1.49-1.94l125-33a2,2,0,0,0,1.49-1.94V34A2,2,0,0,0,381.55,32.05Z",
             }
+            
         }
     }
 }
@@ -41768,11 +45232,15 @@ impl IconShape for IoMusicalNote {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M183.83,480a55.2,55.2,0,0,1-32.36-10.55A56.64,56.64,0,0,1,128,423.58a50.26,50.26,0,0,1,34.14-47.73L213,358.73a16.25,16.25,0,0,0,11-15.49V92a32.1,32.1,0,0,1,24.09-31.15L356.48,32.71A22,22,0,0,1,384,54v57.75a32.09,32.09,0,0,1-24.2,31.19l-91.65,23.13A16.24,16.24,0,0,0,256,181.91V424a48.22,48.22,0,0,1-32.78,45.81l-21.47,7.23A56,56,0,0,1,183.83,480Z",
             }
+            
         }
     }
 }
@@ -41807,6 +45275,9 @@ impl IconShape for IoMusicalNotesOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -41817,6 +45288,7 @@ impl IconShape for IoMusicalNotesOutline {
                 d: "M416,295.94v80c0,13.91-8.93,25.59-22,30l-22,8c-25.9,8.72-52-10.42-52-38h0a33.37,33.37,0,0,1,23-32l51-18.15c13.07-4.4,22-15.94,22-29.85V58a10,10,0,0,0-12.6-9.61L204,102a16.48,16.48,0,0,0-12,16v226c0,13.91-8.93,25.6-22,30l-52,18c-13.88,4.68-22,17.22-22,32h0c0,27.58,26.52,46.55,52,38l22-8c13.07-4.4,22-16.08,22-30v-80",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -41851,11 +45323,15 @@ impl IconShape for IoMusicalNotesSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M429.46,32.07c-23.6,6.53-205.55,58.81-250.54,71.43a4,4,0,0,0-2.92,3.83v247a2,2,0,0,1-1.33,1.89l-27.85,9.55c-19,7.44-66.82,16.68-66.82,59.19,0,35.54,24.63,51.54,45.86,54.28a52.06,52.06,0,0,0,7.81.8c7.37,0,36.38-7.08,53.3-18.08C208,448.25,208,448,208,412V202c0-.9.62-.84,1.48-1.07l188-51.92a2,2,0,0,1,2.53,2V306.55a2,2,0,0,1-1.36,1.89c-8.9,3-19.23,6.5-26.48,9.12C341.39,328.68,304,335.65,304,376c0,38.51,28.26,54.58,46.3,55.83a87.37,87.37,0,0,0,21.33-1c9-1.38,24.09-5.9,38.14-14.86C432,401.79,432,401.51,432,360V34A2,2,0,0,0,429.46,32.07Z",
             }
+            
         }
     }
 }
@@ -41890,11 +45366,15 @@ impl IconShape for IoMusicalNotes {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M421.84,37.37a25.86,25.86,0,0,0-22.6-4.46L199.92,86.49A32.3,32.3,0,0,0,176,118v226c0,6.74-4.36,12.56-11.11,14.83l-.12.05-52,18C92.88,383.53,80,402,80,423.91a55.54,55.54,0,0,0,23.23,45.63A54.78,54.78,0,0,0,135.34,480a55.82,55.82,0,0,0,17.75-2.93l.38-.13L175.31,469A47.84,47.84,0,0,0,208,423.91v-212c0-7.29,4.77-13.21,12.16-15.07l.21-.06L395,150.14a4,4,0,0,1,5,3.86V295.93c0,6.75-4.25,12.38-11.11,14.68l-.25.09-50.89,18.11A49.09,49.09,0,0,0,304,375.92a55.67,55.67,0,0,0,23.23,45.8,54.63,54.63,0,0,0,49.88,7.35l.36-.12L399.31,421A47.83,47.83,0,0,0,432,375.92V58A25.74,25.74,0,0,0,421.84,37.37Z",
             }
+            
         }
     }
 }
@@ -41929,6 +45409,9 @@ impl IconShape for IoNavigateCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -41938,6 +45421,7 @@ impl IconShape for IoNavigateCircleOutline {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -41972,11 +45456,15 @@ impl IconShape for IoNavigateCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48h0A208.23,208.23,0,0,0,48,256c0,114.68,93.31,208,208,208h0A208.23,208.23,0,0,0,464,256C464,141.31,370.69,48,256,48Zm-8,361V264H104l-1,0,259-114.11Z",
             }
+            
         }
     }
 }
@@ -42011,11 +45499,15 @@ impl IconShape for IoNavigateCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M258.9,48C141.92,46.42,46.42,141.92,48,258.9,49.56,371.09,140.91,462.44,253.1,464c117,1.6,212.48-93.9,210.88-210.88C462.44,140.91,371.09,49.56,258.9,48ZM351,175.24,268.76,361.76c-4.79,10.47-20.78,7-20.78-4.56V268a4,4,0,0,0-4-4H154.8c-11.52,0-15-15.87-4.57-20.67L336.76,161A10.73,10.73,0,0,1,351,175.24Z",
             }
+            
         }
     }
 }
@@ -42050,12 +45542,16 @@ impl IconShape for IoNavigateOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M448,64,64,240.14H264a8,8,0,0,1,8,8V448Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -42090,11 +45586,15 @@ impl IconShape for IoNavigateSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "480 32 32 240 272 240 272 480 480 32",
             }
+            
         }
     }
 }
@@ -42129,11 +45629,15 @@ impl IconShape for IoNavigate {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M272,464a16,16,0,0,1-16-16.42V264.13a8,8,0,0,0-8-8H64.41a16.31,16.31,0,0,1-15.49-10.65,16,16,0,0,1,8.41-19.87l384-176.15a16,16,0,0,1,21.22,21.19l-176,384A16,16,0,0,1,272,464Z",
             }
+            
         }
     }
 }
@@ -42167,6 +45671,9 @@ impl IconShape for IoNewspaperOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -42216,6 +45723,7 @@ impl IconShape for IoNewspaperOutline {
             path {
                 d: "M176,208H112a16,16,0,0,1-16-16V128a16,16,0,0,1,16-16h64a16,16,0,0,1,16,16v64A16,16,0,0,1,176,208Z",
             }
+            
         }
     }
 }
@@ -42250,6 +45758,9 @@ impl IconShape for IoNewspaperSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -42267,6 +45778,7 @@ impl IconShape for IoNewspaperSharp {
             path {
                 d: "M431.15,477.75A64.11,64.11,0,0,1,384,416V44a12,12,0,0,0-12-12H44A12,12,0,0,0,32,44V424a56,56,0,0,0,56,56H430.85a1.14,1.14,0,0,0,.3-2.25ZM96,208V112h96v96ZM320,400H96V368H320Zm0-64H96V304H320Zm0-64H96V240H320Zm0-64H224V176h96Zm0-64H224V112h96Z",
             }
+            
         }
     }
 }
@@ -42301,6 +45813,9 @@ impl IconShape for IoNewspaper {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -42309,6 +45824,7 @@ impl IconShape for IoNewspaper {
             path {
                 d: "M384,416V72a40,40,0,0,0-40-40H72A40,40,0,0,0,32,72V424a56,56,0,0,0,56,56H430.85a1.14,1.14,0,0,0,1.15-1.15h0a1.14,1.14,0,0,0-.85-1.1A64.11,64.11,0,0,1,384,416ZM96,128a16,16,0,0,1,16-16h64a16,16,0,0,1,16,16v64a16,16,0,0,1-16,16H112a16,16,0,0,1-16-16ZM304,400H112.45c-8.61,0-16-6.62-16.43-15.23A16,16,0,0,1,112,368H303.55c8.61,0,16,6.62,16.43,15.23A16,16,0,0,1,304,400Zm0-64H112.45c-8.61,0-16-6.62-16.43-15.23A16,16,0,0,1,112,304H303.55c8.61,0,16,6.62,16.43,15.23A16,16,0,0,1,304,336Zm0-64H112.45c-8.61,0-16-6.62-16.43-15.23A16,16,0,0,1,112,240H303.55c8.61,0,16,6.62,16.43,15.23A16,16,0,0,1,304,272Zm0-64H240.45c-8.61,0-16-6.62-16.43-15.23A16,16,0,0,1,240,176h63.55c8.61,0,16,6.62,16.43,15.23A16,16,0,0,1,304,208Zm0-64H240.45c-8.61,0-16-6.62-16.43-15.23A16,16,0,0,1,240,112h63.55c8.61,0,16,6.62,16.43,15.23A16,16,0,0,1,304,144Z",
             }
+            
         }
     }
 }
@@ -42343,6 +45859,9 @@ impl IconShape for IoNotificationsCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -42355,6 +45874,7 @@ impl IconShape for IoNotificationsCircleOutline {
             path {
                 d: "M220.24,352a4,4,0,0,0-4,4.42C218.49,375.14,235.11,384,256,384c20.67,0,37.14-9.15,39.66-27.52a4,4,0,0,0-4-4.48Z",
             }
+            
         }
     }
 }
@@ -42389,6 +45909,9 @@ impl IconShape for IoNotificationsCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -42405,6 +45928,7 @@ impl IconShape for IoNotificationsCircleSharp {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm0,336c-22.48,0-40-10.25-40-32h80C295.7,373.37,278.29,384,256,384Zm112-48H144V308l28-36V239.7c0-40.41,15.82-75.35,56-84.27L232,128h48l4,27.43c40,8.92,56,44,56,84.27V272l28,36Z",
             }
+            
         }
     }
 }
@@ -42439,11 +45963,15 @@ impl IconShape for IoNotificationsCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm0,336c-20.9,0-37.52-8.86-39.75-27.58a4,4,0,0,1,4-4.42h71.45a4,4,0,0,1,4,4.48C293.15,374.85,276.68,384,256,384Zm98-48H158c-11.84,0-18-15-11.19-23,16.33-19.34,27.87-27.47,27.87-80.8,0-48.87,25.74-66.21,47-74.67a11.35,11.35,0,0,0,6.33-6.68C231.7,138.6,242.14,128,256,128s24.28,10.6,28,22.86a11.39,11.39,0,0,0,6.34,6.68c21.21,8.44,47,25.81,47,74.67,0,53.33,11.53,61.46,27.86,80.8C371.94,321,365.77,336,354,336Z",
             }
+            
         }
     }
 }
@@ -42478,6 +46006,9 @@ impl IconShape for IoNotificationsOffCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -42496,6 +46027,7 @@ impl IconShape for IoNotificationsOffCircleOutline {
             path {
                 d: "M365.2,313c-16.33-19.34-27.86-27.47-27.86-80.8,0-48.86-25.78-66.23-47-74.67a11.39,11.39,0,0,1-6.34-6.68C280.29,138.6,269.88,128,256,128s-24.31,10.6-28,22.86a11.35,11.35,0,0,1-6.33,6.68c-1.28.51-2.57,1.05-3.88,1.63a4,4,0,0,0-1.3,6.36L361,323.21a4,4,0,0,0,6.94-2.95A12,12,0,0,0,365.2,313Z",
             }
+            
         }
     }
 }
@@ -42530,11 +46062,15 @@ impl IconShape for IoNotificationsOffCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM144,308l28-36V239.7a131.83,131.83,0,0,1,2.34-25.42L285.92,336H144Zm112.18,76C233.6,384,216,373.75,216,352h80C295.7,373.37,278.55,384,256.18,384Zm93.48-3.74-211-227,23.68-21.52,211,227ZM368,330.85l-.32-.38,0,0,0,0L212.18,160.84A73.4,73.4,0,0,1,228,155.43L232,128h48l4,27.43c40,8.92,56,44,56,84.27V272l28,36Z",
             }
+            
         }
     }
 }
@@ -42569,11 +46105,15 @@ impl IconShape for IoNotificationsOffCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM146.83,313c16.33-19.34,27.86-27.47,27.86-80.8q0-3.75.2-7.26a4,4,0,0,1,7-2.52l98,106.87a4,4,0,0,1-2.94,6.7H158C146.18,336,140.06,321,146.83,313Zm148.93,43.41C293.53,375.14,276.92,384,256,384s-37.51-8.86-39.75-27.58a4,4,0,0,1,4-4.42h71.53A4,4,0,0,1,295.76,356.42Zm67,17.42a16,16,0,0,1-22.6-1.08l-192-212a16,16,0,0,1,23.68-21.52l192,212A16,16,0,0,1,362.76,373.84ZM361,323.21,216.49,165.53a4,4,0,0,1,1.3-6.36c1.31-.58,2.61-1.12,3.89-1.63a11.33,11.33,0,0,0,6.32-6.68C231.72,138.6,242.15,128,256,128s24.29,10.6,28,22.86a11.34,11.34,0,0,0,6.34,6.68c21.21,8.44,47,25.81,47,74.67,0,53.33,11.54,61.46,27.87,80.8a12.09,12.09,0,0,1,2.76,7.25A4,4,0,0,1,361,323.21Z",
             }
+            
         }
     }
 }
@@ -42608,6 +46148,9 @@ impl IconShape for IoNotificationsOffOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -42629,6 +46172,7 @@ impl IconShape for IoNotificationsOffOutline {
                 y1: "448",
                 y2: "64",
             }
+            
         }
     }
 }
@@ -42663,6 +46207,9 @@ impl IconShape for IoNotificationsOffSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -42681,6 +46228,7 @@ impl IconShape for IoNotificationsOffSharp {
             path {
                 d: "M448,352l-48-64V227.47C400,157,372.64,95.61,304,80l-8-48H216l-8,48a117.45,117.45,0,0,0-41.95,18.17l282,282Z",
             }
+            
         }
     }
 }
@@ -42715,6 +46263,9 @@ impl IconShape for IoNotificationsOff {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -42729,6 +46280,7 @@ impl IconShape for IoNotificationsOff {
             path {
                 d: "M256,480a80.06,80.06,0,0,0,70.44-42.13A4,4,0,0,0,322.9,432H189.12a4,4,0,0,0-3.55,5.87A80.06,80.06,0,0,0,256,480Z",
             }
+            
         }
     }
 }
@@ -42763,6 +46315,9 @@ impl IconShape for IoNotificationsOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -42773,6 +46328,7 @@ impl IconShape for IoNotificationsOutline {
                 d: "M320,384v16a64,64,0,0,1-128,0V384",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -42807,6 +46363,9 @@ impl IconShape for IoNotificationsSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -42815,6 +46374,7 @@ impl IconShape for IoNotificationsSharp {
             path {
                 d: "M400,288V227.47C400,157,372.64,95.61,304,80l-8-48H216l-8,48c-68.88,15.61-96,76.76-96,147.47V288L64,352v48H448V352Z",
             }
+            
         }
     }
 }
@@ -42849,6 +46409,9 @@ impl IconShape for IoNotifications {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -42857,6 +46420,7 @@ impl IconShape for IoNotifications {
             path {
                 d: "M256,480a80.06,80.06,0,0,0,70.44-42.13,4,4,0,0,0-3.54-5.87H189.12a4,4,0,0,0-3.55,5.87A80.06,80.06,0,0,0,256,480Z",
             }
+            
         }
     }
 }
@@ -42890,6 +46454,9 @@ impl IconShape for IoNuclearOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -42947,6 +46514,7 @@ impl IconShape for IoNuclearOutline {
                 y1: "313.13",
                 y2: "408.19",
             }
+            
         }
     }
 }
@@ -42981,6 +46549,9 @@ impl IconShape for IoNuclearSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -42995,6 +46566,7 @@ impl IconShape for IoNuclearSharp {
             path {
                 d: "M403.08,108.92A208,208,0,0,0,108.92,403.08,208,208,0,0,0,403.08,108.92ZM342,256a86.13,86.13,0,0,1-53.47,79.59l51.71,68a169.73,169.73,0,0,1-168.48,0l51.71-68a86,86,0,0,1-50.56-101.77l-85.48.09a170.21,170.21,0,0,1,73.83-119L199.2,191.5a85.78,85.78,0,0,1,113.6,0l37.94-76.59a170.21,170.21,0,0,1,73.83,119l-85.48-.09A85.87,85.87,0,0,1,342,256Z",
             }
+            
         }
     }
 }
@@ -43029,11 +46601,15 @@ impl IconShape for IoNuclear {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M258.9,48C141.92,46.42,46.42,141.92,48,258.9,49.56,371.09,140.91,462.44,253.1,464c117,1.6,212.48-93.9,210.88-210.88C462.44,140.91,371.09,49.56,258.9,48ZM429,239.92l-93.08-.1a2,2,0,0,1-1.95-1.57,80.08,80.08,0,0,0-27.44-44.17,2,2,0,0,1-.54-2.43l41.32-83.43a2,2,0,0,1,2.87-.81A176.2,176.2,0,0,1,431,237.71,2,2,0,0,1,429,239.92ZM208.2,260.38a48,48,0,1,1,43.42,43.42A48,48,0,0,1,208.2,260.38ZM164.65,108.22,206,191.65a2,2,0,0,1-.54,2.43A80.08,80.08,0,0,0,178,238.25a2,2,0,0,1-2,1.57l-93.08.1a2,2,0,0,1-2-2.21,176.2,176.2,0,0,1,80.82-130.3A2,2,0,0,1,164.65,108.22Zm-.37,295.34,56.31-74.09a2,2,0,0,1,2.43-.6,79.84,79.84,0,0,0,66,0,2,2,0,0,1,2.43.6l56.31,74.09a2,2,0,0,1-.54,2.92,175.65,175.65,0,0,1-182.36,0A2,2,0,0,1,164.28,403.56Z",
             }
+            
         }
     }
 }
@@ -43068,6 +46644,9 @@ impl IconShape for IoNutritionOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -43089,6 +46668,7 @@ impl IconShape for IoNutritionOutline {
                 rx: "24",
                 ry: "48",
             }
+            
         }
     }
 }
@@ -43123,6 +46703,9 @@ impl IconShape for IoNutritionSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -43131,6 +46714,7 @@ impl IconShape for IoNutritionSharp {
             path {
                 d: "M323.72,82.76C353.68,52.82,352,16.18,352,16.14h0s-35.77-3.76-67.23,27.67S256.06,112,256.06,112,293.74,112.71,323.72,82.76Z",
             }
+            
         }
     }
 }
@@ -43165,6 +46749,9 @@ impl IconShape for IoNutrition {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-m"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -43173,6 +46760,7 @@ impl IconShape for IoNutrition {
             path {
                 d: "M265.1,111.93c13.16-1.75,37.86-7.83,58.83-28.79a98,98,0,0,0,28-58.2A8,8,0,0,0,343.38,16c-12.71.95-36.76,5.87-58.73,27.85A97.6,97.6,0,0,0,256,103.2,8,8,0,0,0,265.1,111.93Z",
             }
+            
         }
     }
 }
@@ -43207,6 +46795,9 @@ impl IconShape for IoOpenOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -43224,6 +46815,7 @@ impl IconShape for IoOpenOutline {
                 y1: "288",
                 y2: "72",
             }
+            
         }
     }
 }
@@ -43258,6 +46850,9 @@ impl IconShape for IoOpenSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -43266,6 +46861,7 @@ impl IconShape for IoOpenSharp {
             polygon {
                 points: "320 48 320 80 409.37 80 377.37 112 400 134.63 432 102.63 432 192 464 192 464 48 320 48",
             }
+            
         }
     }
 }
@@ -43300,6 +46896,9 @@ impl IconShape for IoOpen {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -43308,6 +46907,7 @@ impl IconShape for IoOpen {
             path {
                 d: "M448,48H336a16,16,0,0,0,0,32h73.37l-38.74,38.75a56.35,56.35,0,0,1,22.62,22.62L432,102.63V176a16,16,0,0,0,32,0V64A16,16,0,0,0,448,48Z",
             }
+            
         }
     }
 }
@@ -43341,6 +46941,9 @@ impl IconShape for IoOptionsOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -43404,6 +47007,7 @@ impl IconShape for IoOptionsOutline {
                 r: "32",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -43438,6 +47042,9 @@ impl IconShape for IoOptionsSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -43449,6 +47056,7 @@ impl IconShape for IoOptionsSharp {
             path {
                 d: "M336,336a48.09,48.09,0,0,0-45.25,32H48v32H290.75a48,48,0,0,0,90.5,0H464V368H381.25A48.09,48.09,0,0,0,336,336Z",
             }
+            
         }
     }
 }
@@ -43483,6 +47091,9 @@ impl IconShape for IoOptions {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-i"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -43494,6 +47105,7 @@ impl IconShape for IoOptions {
             path {
                 d: "M448,240H221.25a48,48,0,0,0-90.5,0H64a16,16,0,0,0,0,32h66.75a48,48,0,0,0,90.5,0H448a16,16,0,0,0,0-32Z",
             }
+            
         }
     }
 }
@@ -43528,6 +47140,9 @@ impl IconShape for IoPaperPlaneOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -43541,6 +47156,7 @@ impl IconShape for IoPaperPlaneOutline {
                 y1: "52",
                 y2: "285",
             }
+            
         }
     }
 }
@@ -43575,11 +47191,15 @@ impl IconShape for IoPaperPlaneSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "496 16 15.88 208 195 289 448 64 223 317 304 496 496 16",
             }
+            
         }
     }
 }
@@ -43614,11 +47234,15 @@ impl IconShape for IoPaperPlane {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M473,39.05a24,24,0,0,0-25.5-5.46L47.47,185l-.08,0a24,24,0,0,0,1,45.16l.41.13,137.3,58.63a16,16,0,0,0,15.54-3.59L422,80a7.07,7.07,0,0,1,10,10L226.66,310.26a16,16,0,0,0-3.59,15.54l58.65,137.38c.06.2.12.38.19.57,3.2,9.27,11.3,15.81,21.09,16.25.43,0,.58,0,1,0a24.63,24.63,0,0,0,23-15.46L478.39,64.62A24,24,0,0,0,473,39.05Z",
             }
+            
         }
     }
 }
@@ -43652,6 +47276,9 @@ impl IconShape for IoPartlySunnyOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -43691,6 +47318,7 @@ impl IconShape for IoPartlySunnyOutline {
                 y1: "94.86",
                 y2: "117.49",
             }
+            
         }
     }
 }
@@ -43725,6 +47353,9 @@ impl IconShape for IoPartlySunnySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -43755,6 +47386,7 @@ impl IconShape for IoPartlySunnySharp {
                 x: "406.27",
                 y: "90.18",
             }
+            
         }
     }
 }
@@ -43789,6 +47421,9 @@ impl IconShape for IoPartlySunny {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -43809,6 +47444,7 @@ impl IconShape for IoPartlySunny {
             path {
                 d: "M426.51,133.49a16,16,0,0,1-11.31-27.31l22.62-22.63a16,16,0,0,1,22.63,22.63L437.82,128.8A15.92,15.92,0,0,1,426.51,133.49Z",
             }
+            
         }
     }
 }
@@ -43843,6 +47479,9 @@ impl IconShape for IoPauseCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -43863,6 +47502,7 @@ impl IconShape for IoPauseCircleOutline {
                 y1: "192",
                 y2: "320",
             }
+            
         }
     }
 }
@@ -43897,11 +47537,15 @@ impl IconShape for IoPauseCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM224,336H192V176h32Zm96,0H288V176h32Z",
             }
+            
         }
     }
 }
@@ -43936,11 +47580,15 @@ impl IconShape for IoPauseCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM224,320a16,16,0,0,1-32,0V192a16,16,0,0,1,32,0Zm96,0a16,16,0,0,1-32,0V192a16,16,0,0,1,32,0Z",
             }
+            
         }
     }
 }
@@ -43975,6 +47623,9 @@ impl IconShape for IoPauseOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -43991,6 +47642,7 @@ impl IconShape for IoPauseOutline {
                 x: "320",
                 y: "96",
             }
+            
         }
     }
 }
@@ -44025,6 +47677,9 @@ impl IconShape for IoPauseSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -44033,6 +47688,7 @@ impl IconShape for IoPauseSharp {
             path {
                 d: "M368,432H288V80h80Z",
             }
+            
         }
     }
 }
@@ -44067,6 +47723,9 @@ impl IconShape for IoPause {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -44075,6 +47734,7 @@ impl IconShape for IoPause {
             path {
                 d: "M352,432H304a16,16,0,0,1-16-16V96a16,16,0,0,1,16-16h48a16,16,0,0,1,16,16V416A16,16,0,0,1,352,432Z",
             }
+            
         }
     }
 }
@@ -44109,6 +47769,9 @@ impl IconShape for IoPawOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -44131,6 +47794,7 @@ impl IconShape for IoPawOutline {
                 d: "M105.77,293.9c22.39-9,28.93-44,14.72-78.14C108.53,187,85.62,168,65.38,168a30.21,30.21,0,0,0-11.15,2.1c-22.39,9-28.93,44-14.72,78.14C51.47,277,74.38,296,94.62,296A30.21,30.21,0,0,0,105.77,293.9Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -44165,6 +47829,9 @@ impl IconShape for IoPawSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -44194,6 +47861,7 @@ impl IconShape for IoPawSharp {
                 rx: "56",
                 ry: "72",
             }
+            
         }
     }
 }
@@ -44228,6 +47896,9 @@ impl IconShape for IoPaw {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -44245,6 +47916,7 @@ impl IconShape for IoPaw {
             path {
                 d: "M111.59,308.8l.14-.05c11.93-4.79,21.16-14.29,26.69-27.48,8.38-20,7.2-46.75-3.15-71.65C120.94,175.16,92.85,152,65.38,152a46.4,46.4,0,0,0-17,3.2l-.14.05C36.34,160,27.11,169.54,21.58,182.73c-8.38,20-7.2,46.75,3.15,71.65C39.06,288.84,67.15,312,94.62,312A46.4,46.4,0,0,0,111.59,308.8Z",
             }
+            
         }
     }
 }
@@ -44279,6 +47951,9 @@ impl IconShape for IoPencilOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -44289,6 +47964,7 @@ impl IconShape for IoPencilOutline {
                 d: "M420.69,68.69,398.07,91.31l22.62,22.63,22.62-22.63a16,16,0,0,0,0-22.62h0A16,16,0,0,0,420.69,68.69Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -44323,6 +47999,9 @@ impl IconShape for IoPencilSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -44331,6 +48010,7 @@ impl IconShape for IoPencilSharp {
             path {
                 d: "M425.72,142,370,86.28l31.66-30.66C406.55,50.7,414.05,48,421,48a25.91,25.91,0,0,1,18.42,7.62l17,17A25.87,25.87,0,0,1,464,91c0,7-2.71,14.45-7.62,19.36ZM418.2,71.17h0Z",
             }
+            
         }
     }
 }
@@ -44365,6 +48045,9 @@ impl IconShape for IoPencil {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -44375,6 +48058,7 @@ impl IconShape for IoPencil {
                 d: "M413.07,74.84,401.28,86.62l24.1,24.1,11.79-11.79a16.51,16.51,0,0,0,0-23.34l-.75-.75A16.51,16.51,0,0,0,413.07,74.84Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
             }
+            
         }
     }
 }
@@ -44409,6 +48093,9 @@ impl IconShape for IoPeopleCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -44426,6 +48113,7 @@ impl IconShape for IoPeopleCircleOutline {
             path {
                 d: "M163.63,401.37c7.07-28.21,22.12-51.73,45.47-70.75a8,8,0,0,0-2.59-13.77c-12-3.83-25.7-5.88-42.69-5.88-23.82,0-49.11,6.45-68.14,18.17-5.4,3.33-10.7,4.61-14.78,5.75a192.84,192.84,0,0,0,77.78,86.64l1.79-.14A102.82,102.82,0,0,1,163.63,401.37Z",
             }
+            
         }
     }
 }
@@ -44460,11 +48148,15 @@ impl IconShape for IoPeopleCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm69.3,96.17a72.5,72.5,0,1,1-72.6,72.5A72.55,72.55,0,0,1,325.3,144.17ZM170.2,170.53a59.32,59.32,0,1,1-59.4,59.32A59.35,59.35,0,0,1,170.2,170.53Zm-75.85,155c24.5-13.29,55.87-19.94,75.85-19.94,15,0,34.32,3,53.33,10.2a133.05,133.05,0,0,0-34,27.11c-13.19,15-20.76,32.92-20.76,50.83v15A177.06,177.06,0,0,1,94.35,325.58ZM256,432a175.12,175.12,0,0,1-59.4-10.33V394.62c0-52.59,85.75-79.09,128.7-79.09,23,0,58.38,7.63,86.21,22.81A176.14,176.14,0,0,1,256,432Z",
             }
+            
         }
     }
 }
@@ -44498,6 +48190,9 @@ impl IconShape for IoPeopleCircle {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -44564,6 +48259,7 @@ impl IconShape for IoPeopleCircle {
             path {
                 d: "M194.68,284.88a65.39,65.39,0,0,0,15.76-16.57A65.39,65.39,0,0,1,194.68,284.88Z",
             }
+            
         }
     }
 }
@@ -44598,6 +48294,9 @@ impl IconShape for IoPeopleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -44616,6 +48315,7 @@ impl IconShape for IoPeopleOutline {
                 d: "M206,306c-18.05-8.27-37.93-11.45-59-11.45-52,0-102.1,25.85-114.65,76.2C30.7,377.41,34.88,384,41.72,384H154",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -44650,6 +48350,9 @@ impl IconShape for IoPeopleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -44668,6 +48371,7 @@ impl IconShape for IoPeopleSharp {
                 cy: "168",
                 r: "88",
             }
+            
         }
     }
 }
@@ -44702,6 +48406,9 @@ impl IconShape for IoPeople {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -44716,6 +48423,7 @@ impl IconShape for IoPeople {
             path {
                 d: "M212.66,291.45c-17.59-8.6-40.42-12.9-65.65-12.9-29.46,0-58.07,7.68-80.57,21.62C40.93,316,23.77,339.05,16.84,366.88a27.39,27.39,0,0,0,4.79,23.36A25.32,25.32,0,0,0,41.72,400h111a8,8,0,0,0,7.87-6.57c.11-.63.25-1.26.41-1.88,8.48-34.06,28.35-62.84,57.71-83.82a8,8,0,0,0-.63-13.39C216.51,293.42,214.71,292.45,212.66,291.45Z",
             }
+            
         }
     }
 }
@@ -44750,6 +48458,9 @@ impl IconShape for IoPersonAddOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -44774,6 +48485,7 @@ impl IconShape for IoPersonAddOutline {
                 y1: "232",
                 y2: "232",
             }
+            
         }
     }
 }
@@ -44808,6 +48520,9 @@ impl IconShape for IoPersonAddSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -44821,6 +48536,7 @@ impl IconShape for IoPersonAddSharp {
             path {
                 d: "M288,288c-69.42,0-208,42.88-208,128v64H496V416C496,330.88,357.42,288,288,288Z",
             }
+            
         }
     }
 }
@@ -44855,6 +48571,9 @@ impl IconShape for IoPersonAdd {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -44866,6 +48585,7 @@ impl IconShape for IoPersonAdd {
             path {
                 d: "M104,288V248h40a16,16,0,0,0,0-32H104V176a16,16,0,0,0-32,0v40H32a16,16,0,0,0,0,32H72v40a16,16,0,0,0,32,0Z",
             }
+            
         }
     }
 }
@@ -44900,6 +48620,9 @@ impl IconShape for IoPersonCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -44908,6 +48631,7 @@ impl IconShape for IoPersonCircleOutline {
             path {
                 d: "M256,144c-19.72,0-37.55,7.39-50.22,20.82s-19,32-17.57,51.93C191.11,256,221.52,288,256,288s64.83-32,67.79-71.24c1.48-19.74-4.8-38.14-17.68-51.82C293.39,151.44,275.59,144,256,144Z",
             }
+            
         }
     }
 }
@@ -44942,11 +48666,15 @@ impl IconShape for IoPersonCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm2,96a72,72,0,1,1-72,72A72,72,0,0,1,258,144Zm-2,288a175.55,175.55,0,0,1-129.18-56.6C135.66,329.62,215.06,320,256,320s120.34,9.62,129.18,55.39A175.52,175.52,0,0,1,256,432Z",
             }
+            
         }
     }
 }
@@ -44981,11 +48709,15 @@ impl IconShape for IoPersonCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM205.78,164.82C218.45,151.39,236.28,144,256,144s37.39,7.44,50.11,20.94C319,178.62,325.27,197,323.79,216.76,320.83,256,290.43,288,256,288s-64.89-32-67.79-71.25C186.74,196.83,193,178.39,205.78,164.82ZM256,432a175.49,175.49,0,0,1-126-53.22,122.91,122.91,0,0,1,35.14-33.44C190.63,329,222.89,320,256,320s65.37,9,90.83,25.34A122.87,122.87,0,0,1,382,378.78,175.45,175.45,0,0,1,256,432Z",
             }
+            
         }
     }
 }
@@ -45020,6 +48752,9 @@ impl IconShape for IoPersonOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -45030,6 +48765,7 @@ impl IconShape for IoPersonOutline {
                 d: "M256,304c-87,0-175.3,48-191.64,138.6C62.39,453.52,68.57,464,80,464H432c11.44,0,17.62-10.48,15.65-21.4C431.3,352,343,304,256,304Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -45064,6 +48800,9 @@ impl IconShape for IoPersonRemoveOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -45081,6 +48820,7 @@ impl IconShape for IoPersonRemoveOutline {
                 y1: "232",
                 y2: "232",
             }
+            
         }
     }
 }
@@ -45115,6 +48855,9 @@ impl IconShape for IoPersonRemoveSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -45131,6 +48874,7 @@ impl IconShape for IoPersonRemoveSharp {
             path {
                 d: "M288,288c-69.42,0-208,42.88-208,128v64H496V416C496,330.88,357.42,288,288,288Z",
             }
+            
         }
     }
 }
@@ -45165,6 +48909,9 @@ impl IconShape for IoPersonRemove {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -45176,6 +48923,7 @@ impl IconShape for IoPersonRemove {
             path {
                 d: "M144,216H32a16,16,0,0,0,0,32H144a16,16,0,0,0,0-32Z",
             }
+            
         }
     }
 }
@@ -45210,11 +48958,15 @@ impl IconShape for IoPersonSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,256A112,112,0,1,0,144,144,112,112,0,0,0,256,256Zm0,32c-69.42,0-208,42.88-208,128v64H464V416C464,330.88,325.42,288,256,288Z",
             }
+            
         }
     }
 }
@@ -45249,6 +49001,9 @@ impl IconShape for IoPerson {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-j"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -45257,6 +49012,7 @@ impl IconShape for IoPerson {
             path {
                 d: "M432,480H80A31,31,0,0,1,55.8,468.87c-6.5-7.77-9.12-18.38-7.18-29.11C57.06,392.94,83.4,353.61,124.8,326c36.78-24.51,83.37-38,131.2-38s94.42,13.5,131.2,38c41.4,27.6,67.74,66.93,76.18,113.75,1.94,10.73-.68,21.34-7.18,29.11A31,31,0,0,1,432,480Z",
             }
+            
         }
     }
 }
@@ -45291,6 +49047,9 @@ impl IconShape for IoPhoneLandscapeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -45307,6 +49066,7 @@ impl IconShape for IoPhoneLandscapeOutline {
                 d: "M16,336V312a8,8,0,0,1,8-8h0a16,16,0,0,0,16-16V224a16,16,0,0,0-16-16h0a8,8,0,0,1-8-8V176",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -45341,11 +49101,15 @@ impl IconShape for IoPhoneLandscapeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M0,130V382a18,18,0,0,0,18,18H494a18,18,0,0,0,18-18V130a18,18,0,0,0-18-18H18A18,18,0,0,0,0,130ZM448,364H64V148H448Z",
             }
+            
         }
     }
 }
@@ -45380,6 +49144,9 @@ impl IconShape for IoPhoneLandscape {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -45391,6 +49158,7 @@ impl IconShape for IoPhoneLandscape {
             path {
                 d: "M0,176V336a64,64,0,0,0,64,64H448a64,64,0,0,0,64-64V176a64,64,0,0,0-64-64H64A64,64,0,0,0,0,176Zm448-32a32,32,0,0,1,32,32V336a32,32,0,0,1-32,32H64a32,32,0,0,1-32-32V324.65a7.94,7.94,0,0,1,4.75-7.3A32,32,0,0,0,56,288V224a32,32,0,0,0-19.25-29.35,7.94,7.94,0,0,1-4.75-7.3V176a32,32,0,0,1,32-32Z",
             }
+            
         }
     }
 }
@@ -45425,6 +49193,9 @@ impl IconShape for IoPhonePortraitOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -45440,6 +49211,7 @@ impl IconShape for IoPhonePortraitOutline {
                 d: "M176,16h24a8,8,0,0,1,8,8h0a16,16,0,0,0,16,16h64a16,16,0,0,0,16-16h0a8,8,0,0,1,8-8h24",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -45474,11 +49246,15 @@ impl IconShape for IoPhonePortraitSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M382,0H130a18,18,0,0,0-18,18V494a18,18,0,0,0,18,18H382a18,18,0,0,0,18-18V18A18,18,0,0,0,382,0ZM148,448V64H364V448Z",
             }
+            
         }
     }
 }
@@ -45513,6 +49289,9 @@ impl IconShape for IoPhonePortrait {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -45524,6 +49303,7 @@ impl IconShape for IoPhonePortrait {
             path {
                 d: "M336,0H176a64,64,0,0,0-64,64V448a64,64,0,0,0,64,64H336a64,64,0,0,0,64-64V64A64,64,0,0,0,336,0Zm32,448a32,32,0,0,1-32,32H176a32,32,0,0,1-32-32V64a32,32,0,0,1,32-32h11.35a7.94,7.94,0,0,1,7.3,4.75A32,32,0,0,0,224,56h64a32,32,0,0,0,29.35-19.25,7.94,7.94,0,0,1,7.3-4.75H336a32,32,0,0,1,32,32Z",
             }
+            
         }
     }
 }
@@ -45558,6 +49338,9 @@ impl IconShape for IoPieChartOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -45568,6 +49351,7 @@ impl IconShape for IoPieChartOutline {
                 d: "M256,48C141.12,48,48,141.12,48,256a207.29,207.29,0,0,0,18.09,85L256,256Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -45602,6 +49386,9 @@ impl IconShape for IoPieChartSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -45610,6 +49397,7 @@ impl IconShape for IoPieChartSharp {
             path {
                 d: "M304,66.46V287.11L94.62,380.78A208.31,208.31,0,0,0,272,480c114.69,0,208-93.31,208-208C480,168.19,403.55,81.9,304,66.46Z",
             }
+            
         }
     }
 }
@@ -45644,6 +49432,9 @@ impl IconShape for IoPieChart {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -45652,6 +49443,7 @@ impl IconShape for IoPieChart {
             path {
                 d: "M313.59,68.18A8,8,0,0,0,304,76V256a48.07,48.07,0,0,1-28.4,43.82L103.13,377a8,8,0,0,0-3.35,11.81,208.42,208.42,0,0,0,48.46,50.41A206.32,206.32,0,0,0,272,480c114.69,0,208-93.31,208-208C480,171.55,408.42,87.5,313.59,68.18Z",
             }
+            
         }
     }
 }
@@ -45686,6 +49478,9 @@ impl IconShape for IoPinOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -45702,6 +49497,7 @@ impl IconShape for IoPinOutline {
                 cy: "72",
                 r: "24",
             }
+            
         }
     }
 }
@@ -45736,11 +49532,15 @@ impl IconShape for IoPinSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M339,99a83,83,0,1,0-102,80.8V464l19,32,19-32V179.8A83.28,83.28,0,0,0,339,99Zm-59-6a21,21,0,1,1,21-21A21,21,0,0,1,280,93Z",
             }
+            
         }
     }
 }
@@ -45775,11 +49575,15 @@ impl IconShape for IoPin {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-n"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M336,96a80,80,0,1,0-96,78.39V457.56a32.09,32.09,0,0,0,2.49,12.38l10.07,24a3.92,3.92,0,0,0,6.88,0l10.07-24A32.09,32.09,0,0,0,272,457.56V174.39A80.13,80.13,0,0,0,336,96Zm-56,0a24,24,0,1,1,24-24A24,24,0,0,1,280,96Z",
             }
+            
         }
     }
 }
@@ -45814,6 +49618,9 @@ impl IconShape for IoPintOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -45827,6 +49634,7 @@ impl IconShape for IoPintOutline {
                 y1: "96",
                 y2: "96",
             }
+            
         }
     }
 }
@@ -45861,11 +49669,15 @@ impl IconShape for IoPintSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M399,99.29,394,16H118.45L113,99.26c-1.29,19.24-2.23,33.14,3.73,65.66,1.67,9.11,5.22,22.66,9.73,39.82,12.61,48,33.71,128.36,33.71,195.63V496H351.85V400.38c0-77.09,21.31-153.29,34-198.81,4.38-15.63,7.83-28,9.41-36.62C401.27,132.44,400.33,118.53,399,99.29ZM146.23,80l2-32H363.75l2,32Z",
             }
+            
         }
     }
 }
@@ -45900,11 +49712,15 @@ impl IconShape for IoPint {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M399,99.29c-.15-2.13-.3-4.35-.44-6.68L395.69,46a32,32,0,0,0-31.91-30H148.21A32,32,0,0,0,116.3,46l-2.91,46.63c-.14,2.31-.29,4.51-.43,6.62-1.29,19.24-2.23,33.14,3.73,65.66,1.67,9.11,5.22,22.66,9.73,39.82,12.61,48,33.71,128.36,33.71,195.63V472a24,24,0,0,0,24,24H327.87a24,24,0,0,0,24-24V400.38c0-77.09,21.31-153.29,34-198.81,4.38-15.63,7.83-28,9.41-36.62C401.27,132.44,400.33,118.53,399,99.29ZM364,51.75l1.5,24a4,4,0,0,1-4,4.25h-211a4,4,0,0,1-4-4.25l1.48-24A4,4,0,0,1,152,48H360A4,4,0,0,1,364,51.75Z",
             }
+            
         }
     }
 }
@@ -45939,6 +49755,9 @@ impl IconShape for IoPizzaOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -45964,6 +49783,7 @@ impl IconShape for IoPizzaOutline {
                 cy: "320",
                 r: "32",
             }
+            
         }
     }
 }
@@ -45998,6 +49818,9 @@ impl IconShape for IoPizzaSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -46030,6 +49853,7 @@ impl IconShape for IoPizzaSharp {
             path {
                 d: "M409.66,140.85C364.15,122.52,308.16,112,256,112A425,425,0,0,0,102.3,140.9c-.25.1-9.24,4.23-19,8.71,7.46,16.22,18,39.16,22.2,48.33L256,480,429.74,149.16l-19.92-8.24ZM224.41,194.07a32,32,0,1,1-34-34A32.12,32.12,0,0,1,224.41,194.07Zm64,128a32,32,0,1,1-34-34A32.12,32.12,0,0,1,288.41,322.07Zm64-112a32,32,0,1,1-34-34A32.12,32.12,0,0,1,352.41,210.07Z",
             }
+            
         }
     }
 }
@@ -46064,6 +49888,9 @@ impl IconShape for IoPizza {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -46072,6 +49899,7 @@ impl IconShape for IoPizza {
             path {
                 d: "M409.18,140.86C363.67,122.53,307.68,112,255.56,112a425,425,0,0,0-153.74,28.89c-.53.21-2.06.88-4.29,1.88a16,16,0,0,0-8,21.27c4,8.71,9.42,20.58,15.5,33.89C137.94,270,199.21,404,227.26,462A31.74,31.74,0,0,0,256,480h0a31.73,31.73,0,0,0,28.76-18.06l.06-.13,137.3-297.57a15.94,15.94,0,0,0-8.31-21.45c-2.26-.95-3.85-1.61-4.5-1.87Zm-215.1,83.07a32,32,0,1,1,29.85-29.85A32,32,0,0,1,194.08,223.93Zm64,128a32,32,0,1,1,29.85-29.85A32,32,0,0,1,258.08,351.93Zm64-112a32,32,0,1,1,29.85-29.85A32,32,0,0,1,322.08,239.93Z",
             }
+            
         }
     }
 }
@@ -46106,6 +49934,9 @@ impl IconShape for IoPlanetOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -46118,6 +49949,7 @@ impl IconShape for IoPlanetOutline {
                 r: "160",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -46152,6 +49984,9 @@ impl IconShape for IoPlanetSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -46160,6 +49995,7 @@ impl IconShape for IoPlanetSharp {
             path {
                 d: "M492.72,339.51c-8.5-11.31-20-23.8-34-37a205.25,205.25,0,0,1-11,34c28.72,29.5,33.2,45.34,32.17,48.45-2,2.23-17.05,6.89-58.15-3.53q-8.83-2.24-19.32-5.46-6.76-2.08-13.79-4.49h0a176.76,176.76,0,0,0,19.54-27.25c.17-.29.35-.58.52-.88A175.39,175.39,0,0,0,432,256,178.87,178.87,0,0,0,431,237C421.43,148.83,346.6,80,256,80A175.37,175.37,0,0,0,149.6,115.89a177.4,177.4,0,0,0-45.83,51.84c-.16.29-.34.58-.51.87a175.48,175.48,0,0,0-13.83,30.52q-5.59-4.87-10.79-9.67c-5.39-5-10.17-9.63-14.42-14C34.65,145.19,31.13,129.84,32.06,127c2.16-2.43,18.1-6.54,58.13,3.55a209.88,209.88,0,0,1,24-26.56c-18.86-5.61-35.79-9.35-50.05-11C33.41,89.47,13.3,95.52,4.35,111,1.11,116.58-2,126.09,1.63,139.6,7,159.66,26.14,184,53.23,209.5c8.63,8.13,18.06,16.37,28.12,24.64,7.32,6,15,12.06,22.9,18.08q7.91,6,16.15,12T137.1,276c25.41,17.61,52.26,34.52,78.59,49.69q14.34,8.26,28.64,16t28.37,14.81c21.9,11,43.35,20.92,63.86,29.43q13.19,5.48,25.81,10.16c11.89,4.42,23.37,8.31,34.31,11.59l1.1.33c25.73,7.66,47.42,11.69,64.48,12H464c21.64,0,36.3-6.38,43.58-19C516.67,385.39,511.66,364.69,492.72,339.51Z",
             }
+            
         }
     }
 }
@@ -46194,6 +50030,9 @@ impl IconShape for IoPlanet {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -46202,6 +50041,7 @@ impl IconShape for IoPlanet {
             path {
                 d: "M492.72,339.51c-4.19-5.58-9.11-11.44-14.7-17.53a15.83,15.83,0,0,0-26.56,5.13c0,.16-.11.31-.17.47a15.75,15.75,0,0,0,3.15,16.06c22.74,25,26.42,38.51,25.48,41.36-2,2.23-17.05,6.89-58.15-3.53q-8.83-2.24-19.32-5.46-6.76-2.08-13.79-4.49h0a176.76,176.76,0,0,0,19.54-27.25c.17-.29.35-.58.52-.88A175.39,175.39,0,0,0,432,256,178.87,178.87,0,0,0,431,237C421.43,148.83,346.6,80,256,80A175.37,175.37,0,0,0,149.6,115.89a177.4,177.4,0,0,0-45.83,51.84c-.16.29-.34.58-.51.87a175.48,175.48,0,0,0-13.83,30.52q-5.59-4.87-10.79-9.67c-5.39-5-10.17-9.63-14.42-14C34.65,145.19,31.13,129.84,32.06,127c2-2.23,15.54-5.87,48.62,1.31A15.82,15.82,0,0,0,96.22,123l.36-.44a15.74,15.74,0,0,0-8.67-25.43A237.38,237.38,0,0,0,64.13,93C33.41,89.47,13.3,95.52,4.35,111,1.11,116.58-2,126.09,1.63,139.6,7,159.66,26.14,184,53.23,209.5c8.63,8.13,18.06,16.37,28.12,24.64,7.32,6,15,12.06,22.9,18.08q7.91,6,16.15,12T137.1,276c25.41,17.61,52.26,34.52,78.59,49.69q14.34,8.26,28.64,16t28.37,14.81c21.9,11,43.35,20.92,63.86,29.43q13.19,5.48,25.81,10.16c11.89,4.42,23.37,8.31,34.31,11.59l1.1.33c25.73,7.66,47.42,11.69,64.48,12H464c21.64,0,36.3-6.38,43.58-19C516.67,385.39,511.66,364.69,492.72,339.51Z",
             }
+            
         }
     }
 }
@@ -46236,6 +50076,9 @@ impl IconShape for IoPlayBackCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -46245,6 +50088,7 @@ impl IconShape for IoPlayBackCircleOutline {
             path {
                 d: "M117.23,246.7l114.45-69.14A10.78,10.78,0,0,1,248,186.87v53.32l103.68-62.63A10.78,10.78,0,0,1,368,186.87V325.13a10.78,10.78,0,0,1-16.32,9.31L248,271.81v53.32a10.78,10.78,0,0,1-16.32,9.31L117.23,265.3A10.89,10.89,0,0,1,117.23,246.7Z",
             }
+            
         }
     }
 }
@@ -46279,11 +50123,15 @@ impl IconShape for IoPlayBackCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M48,256c0,114.69,93.31,208,208,208s208-93.31,208-208S370.69,48,256,48,48,141.31,48,256Zm63.47,0L248,168v72.16l120-72.48V344.13L248,271.81v71.44Z",
             }
+            
         }
     }
 }
@@ -46318,11 +50166,15 @@ impl IconShape for IoPlayBackCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M48,256c0,114.69,93.31,208,208,208s208-93.31,208-208S370.69,48,256,48,48,141.31,48,256Zm69.23-9.3,114.45-69.14A10.78,10.78,0,0,1,248,186.87v53.32l103.68-62.63A10.78,10.78,0,0,1,368,186.87V325.13a10.78,10.78,0,0,1-16.32,9.31L248,271.81v53.32a10.78,10.78,0,0,1-16.32,9.31L117.23,265.3A10.89,10.89,0,0,1,117.23,246.7Z",
             }
+            
         }
     }
 }
@@ -46357,6 +50209,9 @@ impl IconShape for IoPlayBackOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -46367,6 +50222,7 @@ impl IconShape for IoPlayBackOutline {
                 d: "M251.43,145.52v221c0,13.28-13,21.72-23.63,15.35L38.93,268.8c-9.24-5.53-9.24-20.07,0-25.6l188.87-113C238.44,123.8,251.43,132.24,251.43,145.52Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -46401,6 +50257,9 @@ impl IconShape for IoPlayBackSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -46409,6 +50268,7 @@ impl IconShape for IoPlayBackSharp {
             polygon {
                 points: "256 400 16 256 256 112 256 400",
             }
+            
         }
     }
 }
@@ -46443,11 +50303,15 @@ impl IconShape for IoPlayBack {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M30.71,229.47l188.87-113a30.54,30.54,0,0,1,31.09-.39,33.74,33.74,0,0,1,16.76,29.47V224.6L448.15,116.44a30.54,30.54,0,0,1,31.09-.39A33.74,33.74,0,0,1,496,145.52v221A33.73,33.73,0,0,1,479.24,396a30.54,30.54,0,0,1-31.09-.39L267.43,287.4v79.08A33.73,33.73,0,0,1,250.67,396a30.54,30.54,0,0,1-31.09-.39l-188.87-113a31.27,31.27,0,0,1,0-53Z",
             }
+            
         }
     }
 }
@@ -46482,6 +50346,9 @@ impl IconShape for IoPlayCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -46491,6 +50358,7 @@ impl IconShape for IoPlayCircleOutline {
             path {
                 d: "M216.32,334.44,330.77,265.3a10.89,10.89,0,0,0,0-18.6L216.32,177.56A10.78,10.78,0,0,0,200,186.87V325.13A10.78,10.78,0,0,0,216.32,334.44Z",
             }
+            
         }
     }
 }
@@ -46525,11 +50393,15 @@ impl IconShape for IoPlayCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM200,344V168l144,88Z",
             }
+            
         }
     }
 }
@@ -46564,11 +50436,15 @@ impl IconShape for IoPlayCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm74.77,217.3L216.32,334.44A10.78,10.78,0,0,1,200,325.13V186.87a10.78,10.78,0,0,1,16.32-9.31L330.77,246.7A10.89,10.89,0,0,1,330.77,265.3Z",
             }
+            
         }
     }
 }
@@ -46603,6 +50479,9 @@ impl IconShape for IoPlayForwardCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -46612,6 +50491,7 @@ impl IconShape for IoPlayForwardCircleOutline {
             path {
                 d: "M394.77,246.7,280.32,177.56A10.78,10.78,0,0,0,264,186.87v53.32L160.32,177.56A10.78,10.78,0,0,0,144,186.87V325.13a10.78,10.78,0,0,0,16.32,9.31L264,271.81v53.32a10.78,10.78,0,0,0,16.32,9.31L394.77,265.3A10.89,10.89,0,0,0,394.77,246.7Z",
             }
+            
         }
     }
 }
@@ -46646,11 +50526,15 @@ impl IconShape for IoPlayForwardCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm8,295.25V271.81L144,344.13V167.71l120,72.48V168l136.53,88Z",
             }
+            
         }
     }
 }
@@ -46685,11 +50569,15 @@ impl IconShape for IoPlayForwardCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM394.77,265.3,280.32,334.44A10.78,10.78,0,0,1,264,325.13V271.81L160.32,334.44A10.78,10.78,0,0,1,144,325.13V186.87a10.78,10.78,0,0,1,16.32-9.31L264,240.19V186.87a10.78,10.78,0,0,1,16.32-9.31L394.77,246.7A10.89,10.89,0,0,1,394.77,265.3Z",
             }
+            
         }
     }
 }
@@ -46724,6 +50612,9 @@ impl IconShape for IoPlayForwardOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -46734,6 +50625,7 @@ impl IconShape for IoPlayForwardOutline {
                 d: "M260.57,145.52v221c0,13.28,13,21.72,23.63,15.35l188.87-113c9.24-5.53,9.24-20.07,0-25.6l-188.87-113C273.56,123.8,260.57,132.24,260.57,145.52Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -46768,6 +50660,9 @@ impl IconShape for IoPlayForwardSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -46776,6 +50671,7 @@ impl IconShape for IoPlayForwardSharp {
             polygon {
                 points: "256 400 496 256 256 112 256 400",
             }
+            
         }
     }
 }
@@ -46810,11 +50706,15 @@ impl IconShape for IoPlayForward {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M481.29,229.47l-188.87-113a30.54,30.54,0,0,0-31.09-.39,33.74,33.74,0,0,0-16.76,29.47V224.6L63.85,116.44a30.54,30.54,0,0,0-31.09-.39A33.74,33.74,0,0,0,16,145.52v221A33.74,33.74,0,0,0,32.76,396a30.54,30.54,0,0,0,31.09-.39L244.57,287.4v79.08A33.74,33.74,0,0,0,261.33,396a30.54,30.54,0,0,0,31.09-.39l188.87-113a31.27,31.27,0,0,0,0-53Z",
             }
+            
         }
     }
 }
@@ -46849,12 +50749,16 @@ impl IconShape for IoPlayOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M112,111V401c0,17.44,17,28.52,31,20.16l247.9-148.37c12.12-7.25,12.12-26.33,0-33.58L143,90.84C129,82.48,112,93.56,112,111Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -46889,11 +50793,15 @@ impl IconShape for IoPlaySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "96 448 416 256 96 64 96 448",
             }
+            
         }
     }
 }
@@ -46928,6 +50836,9 @@ impl IconShape for IoPlaySkipBackCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -46937,6 +50848,7 @@ impl IconShape for IoPlaySkipBackCircleOutline {
             path {
                 d: "M192,176a16,16,0,0,1,16,16v53l111.68-67.46A10.78,10.78,0,0,1,336,186.87V325.13a10.78,10.78,0,0,1-16.32,9.31L208,267v53a16,16,0,0,1-32,0V192A16,16,0,0,1,192,176Z",
             }
+            
         }
     }
 }
@@ -46971,11 +50883,15 @@ impl IconShape for IoPlaySkipBackCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M48,256c0,114.69,93.31,208,208,208s208-93.31,208-208S370.69,48,256,48,48,141.31,48,256Zm128-80h32v69l128-77.53V344.37L208,267v69H176Z",
             }
+            
         }
     }
 }
@@ -47010,11 +50926,15 @@ impl IconShape for IoPlaySkipBackCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M48,256c0,114.69,93.31,208,208,208s208-93.31,208-208S370.69,48,256,48,48,141.31,48,256Zm128-64a16,16,0,0,1,32,0v53l111.68-67.46A10.78,10.78,0,0,1,336,186.87V325.13a10.78,10.78,0,0,1-16.32,9.31L208,267v53a16,16,0,0,1-32,0Z",
             }
+            
         }
     }
 }
@@ -47049,6 +50969,9 @@ impl IconShape for IoPlaySkipBackOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -47062,6 +50985,7 @@ impl IconShape for IoPlaySkipBackOutline {
                 y1: "80",
                 y2: "432",
             }
+            
         }
     }
 }
@@ -47096,11 +51020,15 @@ impl IconShape for IoPlaySkipBackSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "143.47 64 143.47 227.52 416 64 416 448 143.47 284.48 143.47 448 96 448 96 64 143.47 64",
             }
+            
         }
     }
 }
@@ -47135,11 +51063,15 @@ impl IconShape for IoPlaySkipBack {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M112,64a16,16,0,0,1,16,16V216.43L360.77,77.11a35.13,35.13,0,0,1,35.77-.44c12,6.8,19.46,20,19.46,34.33V401c0,14.37-7.46,27.53-19.46,34.33a35.14,35.14,0,0,1-35.77-.45L128,295.57V432a16,16,0,0,1-32,0V80A16,16,0,0,1,112,64Z",
             }
+            
         }
     }
 }
@@ -47174,6 +51106,9 @@ impl IconShape for IoPlaySkipForwardCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -47183,6 +51118,7 @@ impl IconShape for IoPlaySkipForwardCircleOutline {
             path {
                 d: "M320,176a16,16,0,0,0-16,16v53L192.32,177.56A10.78,10.78,0,0,0,176,186.87V325.13a10.78,10.78,0,0,0,16.32,9.31L304,267v53a16,16,0,0,0,32,0V192A16,16,0,0,0,320,176Z",
             }
+            
         }
     }
 }
@@ -47217,11 +51153,15 @@ impl IconShape for IoPlaySkipForwardCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm80,288H304V267L176,344.37V167.49L304,245V176h32Z",
             }
+            
         }
     }
 }
@@ -47256,11 +51196,15 @@ impl IconShape for IoPlaySkipForwardCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm80,272a16,16,0,0,1-32,0V267L192.32,334.44A10.78,10.78,0,0,1,176,325.13V186.87a10.78,10.78,0,0,1,16.32-9.31L304,245V192a16,16,0,0,1,32,0Z",
             }
+            
         }
     }
 }
@@ -47295,6 +51239,9 @@ impl IconShape for IoPlaySkipForwardOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -47308,6 +51255,7 @@ impl IconShape for IoPlaySkipForwardOutline {
                 y1: "80",
                 y2: "432",
             }
+            
         }
     }
 }
@@ -47342,11 +51290,15 @@ impl IconShape for IoPlaySkipForwardSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "368.53 64 368.53 227.52 96 64 96 448 368.53 284.48 368.53 448 416 448 416 64 368.53 64",
             }
+            
         }
     }
 }
@@ -47381,11 +51333,15 @@ impl IconShape for IoPlaySkipForward {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M400,64a16,16,0,0,0-16,16V216.43L151.23,77.11a35.13,35.13,0,0,0-35.77-.44C103.46,83.47,96,96.63,96,111V401c0,14.37,7.46,27.53,19.46,34.33a35.14,35.14,0,0,0,35.77-.45L384,295.57V432a16,16,0,0,0,32,0V80A16,16,0,0,0,400,64Z",
             }
+            
         }
     }
 }
@@ -47420,11 +51376,15 @@ impl IconShape for IoPlay {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M133,440a35.37,35.37,0,0,1-17.5-4.67c-12-6.8-19.46-20-19.46-34.33V111c0-14.37,7.46-27.53,19.46-34.33a35.13,35.13,0,0,1,35.77.45L399.12,225.48a36,36,0,0,1,0,61L151.23,434.88A35.5,35.5,0,0,1,133,440Z",
             }
+            
         }
     }
 }
@@ -47459,6 +51419,9 @@ impl IconShape for IoPodiumOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -47473,6 +51436,7 @@ impl IconShape for IoPodiumOutline {
                 d: "M464,208H352a16,16,0,0,0-16,16V464H472a8,8,0,0,0,8-8V224A16,16,0,0,0,464,208Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -47507,6 +51471,9 @@ impl IconShape for IoPodiumSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -47527,6 +51494,7 @@ impl IconShape for IoPodiumSharp {
                 x: "16",
                 y: "128",
             }
+            
         }
     }
 }
@@ -47561,6 +51529,9 @@ impl IconShape for IoPodium {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -47572,6 +51543,7 @@ impl IconShape for IoPodium {
             path {
                 d: "M48,128a32,32,0,0,0-32,32V456a24,24,0,0,0,24,24h80a8,8,0,0,0,8-8V136a8,8,0,0,0-8-8Z",
             }
+            
         }
     }
 }
@@ -47606,6 +51578,9 @@ impl IconShape for IoPowerOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -47619,6 +51594,7 @@ impl IconShape for IoPowerOutline {
                 y1: "64",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -47653,6 +51629,9 @@ impl IconShape for IoPowerSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -47664,6 +51643,7 @@ impl IconShape for IoPowerSharp {
                 x: "234",
                 y: "48",
             }
+            
         }
     }
 }
@@ -47698,6 +51678,9 @@ impl IconShape for IoPower {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -47706,6 +51689,7 @@ impl IconShape for IoPower {
             path {
                 d: "M256,272a22,22,0,0,1-22-22V70a22,22,0,0,1,44,0V250A22,22,0,0,1,256,272Z",
             }
+            
         }
     }
 }
@@ -47740,6 +51724,9 @@ impl IconShape for IoPricetagOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -47749,6 +51736,7 @@ impl IconShape for IoPricetagOutline {
             path {
                 d: "M384,160a32,32,0,1,1,32-32A32,32,0,0,1,384,160Z",
             }
+            
         }
     }
 }
@@ -47783,11 +51771,15 @@ impl IconShape for IoPricetagSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M304,32,16,320,192,496,480,208V32Zm80,128a32,32,0,1,1,32-32A32,32,0,0,1,384,160Z",
             }
+            
         }
     }
 }
@@ -47822,11 +51814,15 @@ impl IconShape for IoPricetag {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M467,45.2A44.45,44.45,0,0,0,435.29,32H312.36a30.63,30.63,0,0,0-21.52,8.89L45.09,286.59a44.82,44.82,0,0,0,0,63.32l117,117a44.83,44.83,0,0,0,63.34,0l245.65-245.6A30.6,30.6,0,0,0,480,199.8v-123A44.24,44.24,0,0,0,467,45.2ZM384,160a32,32,0,1,1,32-32A32,32,0,0,1,384,160Z",
             }
+            
         }
     }
 }
@@ -47861,6 +51857,9 @@ impl IconShape for IoPricetagsOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -47874,6 +51873,7 @@ impl IconShape for IoPricetagsOutline {
                 d: "M230,480,492,218a13.81,13.81,0,0,0,4-10V80",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -47908,6 +51908,9 @@ impl IconShape for IoPricetagsSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -47916,6 +51919,7 @@ impl IconShape for IoPricetagsSharp {
             polygon {
                 points: "480 64 480 208 216.9 471.1 242 496 512 224 512 64 480 64",
             }
+            
         }
     }
 }
@@ -47950,6 +51954,9 @@ impl IconShape for IoPricetags {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -47958,6 +51965,7 @@ impl IconShape for IoPricetags {
             path {
                 d: "M496,64a16,16,0,0,0-16,16V207.37L218.69,468.69a16,16,0,1,0,22.62,22.62l262-262A29.84,29.84,0,0,0,512,208V80A16,16,0,0,0,496,64Z",
             }
+            
         }
     }
 }
@@ -47992,6 +52000,9 @@ impl IconShape for IoPrintOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -48016,6 +52027,7 @@ impl IconShape for IoPrintOutline {
                 cy: "184",
                 r: "24",
             }
+            
         }
     }
 }
@@ -48050,6 +52062,9 @@ impl IconShape for IoPrintSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -48076,6 +52091,7 @@ impl IconShape for IoPrintSharp {
             path {
                 d: "M408,112H104a56,56,0,0,0-56,56V376a8,8,0,0,0,8,8h56v72a8,8,0,0,0,8,8H392a8,8,0,0,0,8-8V384h56a8,8,0,0,0,8-8V168A56,56,0,0,0,408,112ZM360,420a4,4,0,0,1-4,4H156a4,4,0,0,1-4-4V268a4,4,0,0,1,4-4H356a4,4,0,0,1,4,4ZM394,207.92a24,24,0,1,1,22-22A24,24,0,0,1,394,207.92Z",
             }
+            
         }
     }
 }
@@ -48110,6 +52126,9 @@ impl IconShape for IoPrint {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -48118,6 +52137,7 @@ impl IconShape for IoPrint {
             path {
                 d: "M344,48H168a56.09,56.09,0,0,0-55.42,48H399.42A56.09,56.09,0,0,0,344,48Z",
             }
+            
         }
     }
 }
@@ -48152,6 +52172,9 @@ impl IconShape for IoPrismOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -48171,6 +52194,7 @@ impl IconShape for IoPrismOutline {
                 y1: "32",
                 y2: "480",
             }
+            
         }
     }
 }
@@ -48205,11 +52229,15 @@ impl IconShape for IoPrismSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,16,16,352,256,496,496,352Zm-20,96.82V437.35L73.73,340Z",
             }
+            
         }
     }
 }
@@ -48244,11 +52272,15 @@ impl IconShape for IoPrism {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M487.83,319.44,295.63,36.88a48,48,0,0,0-79.26,0L24.17,319.44A47.1,47.1,0,0,0,41.1,387.57L233.3,490.32a48.05,48.05,0,0,0,45.4,0L470.9,387.57a47.1,47.1,0,0,0,16.93-68.13Zm-431.26,41a16.12,16.12,0,0,1-8-10.38,16.8,16.8,0,0,1,2.37-13.62L232.66,69.26c2.18-3.21,7.34-1.72,7.34,2.13v374c0,5.9-6.54,9.63-11.87,6.78Z",
             }
+            
         }
     }
 }
@@ -48283,6 +52315,9 @@ impl IconShape for IoPulseOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -48295,6 +52330,7 @@ impl IconShape for IoPulseOutline {
                 r: "32",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -48329,11 +52365,15 @@ impl IconShape for IoPulseSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M426,266a54.07,54.07,0,0,0-49.3,32H351.86l-27-81a22,22,0,0,0-42,.92L245.66,348.12l-48-281.74a22,22,0,0,0-43-1.72L94.82,298H32v44h80a22,22,0,0,0,21.34-16.66L171.69,172,218.3,445.62A22,22,0,0,0,238.76,464c.42,0,.82,0,1.24,0a22,22,0,0,0,21.15-16l44.47-149.62L315.13,327A22,22,0,0,0,336,342h40.7A54,54,0,1,0,426,266Z",
             }
+            
         }
     }
 }
@@ -48368,11 +52408,15 @@ impl IconShape for IoPulse {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M432,272a48.09,48.09,0,0,0-45.25,32H347.53l-28.35-85.06a16,16,0,0,0-30.56.66L244.11,375.36l-52.33-314a16,16,0,0,0-31.3-1.25L99.51,304H48a16,16,0,0,0,0,32h64a16,16,0,0,0,15.52-12.12l45.34-181.37,51.36,308.12A16,16,0,0,0,239.1,464c.3,0,.6,0,.91,0a16,16,0,0,0,15.37-11.6l49.8-174.28,15.64,46.94A16,16,0,0,0,336,336h50.75A48,48,0,1,0,432,272Z",
             }
+            
         }
     }
 }
@@ -48407,6 +52451,9 @@ impl IconShape for IoPushOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -48424,6 +52471,7 @@ impl IconShape for IoPushOutline {
                 y1: "464",
                 y2: "176",
             }
+            
         }
     }
 }
@@ -48458,6 +52506,9 @@ impl IconShape for IoPushSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -48469,6 +52520,7 @@ impl IconShape for IoPushSharp {
                 x: "240",
                 y: "352",
             }
+            
         }
     }
 }
@@ -48503,6 +52555,9 @@ impl IconShape for IoPush {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -48511,6 +52566,7 @@ impl IconShape for IoPush {
             path {
                 d: "M272,464a16,16,0,0,1-32,0V352h32Z",
             }
+            
         }
     }
 }
@@ -48544,6 +52600,9 @@ impl IconShape for IoQrCodeOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -48638,6 +52697,7 @@ impl IconShape for IoQrCodeOutline {
                 x: "48",
                 y: "288",
             }
+            
         }
     }
 }
@@ -48671,6 +52731,9 @@ impl IconShape for IoQrCodeSharp {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -48731,6 +52794,7 @@ impl IconShape for IoQrCodeSharp {
             path {
                 d: "M240,480H32V272H240ZM76,436H196V316H76Z",
             }
+            
         }
     }
 }
@@ -48764,6 +52828,9 @@ impl IconShape for IoQrCode {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -48816,6 +52883,7 @@ impl IconShape for IoQrCode {
             path {
                 d: "M208,272H64a32,32,0,0,0-32,32V448a32,32,0,0,0,32,32H208a32,32,0,0,0,32-32V304A32,32,0,0,0,208,272ZM176,408a8,8,0,0,1-8,8H104a8,8,0,0,1-8-8V344a8,8,0,0,1,8-8h64a8,8,0,0,1,8,8Z",
             }
+            
         }
     }
 }
@@ -48850,12 +52918,16 @@ impl IconShape for IoRadioButtonOffOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -48890,12 +52962,16 @@ impl IconShape for IoRadioButtonOffSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -48930,12 +53006,16 @@ impl IconShape for IoRadioButtonOff {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M448,256c0-106-86-192-192-192S64,150,64,256s86,192,192,192S448,362,448,256Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -48970,6 +53050,9 @@ impl IconShape for IoRadioButtonOnOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -48981,6 +53064,7 @@ impl IconShape for IoRadioButtonOnOutline {
                 cy: "256",
                 r: "144",
             }
+            
         }
     }
 }
@@ -49015,6 +53099,9 @@ impl IconShape for IoRadioButtonOnSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -49026,6 +53113,7 @@ impl IconShape for IoRadioButtonOnSharp {
                 cy: "256",
                 r: "144",
             }
+            
         }
     }
 }
@@ -49060,6 +53148,9 @@ impl IconShape for IoRadioButtonOn {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -49071,6 +53162,7 @@ impl IconShape for IoRadioButtonOn {
                 cy: "256",
                 r: "144",
             }
+            
         }
     }
 }
@@ -49105,6 +53197,9 @@ impl IconShape for IoRadioOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -49136,6 +53231,7 @@ impl IconShape for IoRadioOutline {
                 d: "M77,96a240.34,240.34,0,0,0,0,320",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -49170,6 +53266,9 @@ impl IconShape for IoRadioSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             ellipse {
@@ -49196,6 +53295,7 @@ impl IconShape for IoRadioSharp {
             path {
                 d: "M81.27,447,66.6,430.61a262.18,262.18,0,0,1,0-349.22L81.28,65l32.79,29.34L99.39,110.72a218.2,218.2,0,0,0,0,290.56l14.66,16.39Z",
             }
+            
         }
     }
 }
@@ -49230,6 +53330,9 @@ impl IconShape for IoRadio {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -49255,6 +53358,7 @@ impl IconShape for IoRadio {
             path {
                 d: "M83,438a21.94,21.94,0,0,1-16.41-7.33,262.34,262.34,0,0,1,0-349.34,22,22,0,0,1,32.78,29.34,218.34,218.34,0,0,0,0,290.66A22,22,0,0,1,83,438Z",
             }
+            
         }
     }
 }
@@ -49288,6 +53392,9 @@ impl IconShape for IoRainyOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -49323,6 +53430,7 @@ impl IconShape for IoRainyOutline {
                 y1: "384",
                 y2: "480",
             }
+            
         }
     }
 }
@@ -49357,6 +53465,9 @@ impl IconShape for IoRainySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -49390,6 +53501,7 @@ impl IconShape for IoRainySharp {
                 x: "282.31",
                 y: "410",
             }
+            
         }
     }
 }
@@ -49424,6 +53536,9 @@ impl IconShape for IoRainy {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -49441,6 +53556,7 @@ impl IconShape for IoRainy {
             path {
                 d: "M320,496a16,16,0,0,1-13.3-24.88l64-96a16,16,0,0,1,26.62,17.76l-64,96A16,16,0,0,1,320,496Z",
             }
+            
         }
     }
 }
@@ -49475,6 +53591,9 @@ impl IconShape for IoReaderOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -49507,6 +53626,7 @@ impl IconShape for IoReaderOutline {
                 y1: "288",
                 y2: "288",
             }
+            
         }
     }
 }
@@ -49541,11 +53661,15 @@ impl IconShape for IoReaderSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M80,44V468a12,12,0,0,0,12,12H420a12,12,0,0,0,12-12V44a12,12,0,0,0-12-12H92A12,12,0,0,0,80,44ZM272,304H160V272H272Zm80-80H160V192H352Zm0-80H160V112H352Z",
             }
+            
         }
     }
 }
@@ -49580,11 +53704,15 @@ impl IconShape for IoReader {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M368,32H144A64.07,64.07,0,0,0,80,96V416a64.07,64.07,0,0,0,64,64H368a64.07,64.07,0,0,0,64-64V96A64.07,64.07,0,0,0,368,32ZM256,304H176a16,16,0,0,1,0-32h80a16,16,0,0,1,0,32Zm80-80H176a16,16,0,0,1,0-32H336a16,16,0,0,1,0,32Zm0-80H176a16,16,0,0,1,0-32H336a16,16,0,0,1,0,32Z",
             }
+            
         }
     }
 }
@@ -49619,6 +53747,9 @@ impl IconShape for IoReceiptOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -49643,6 +53774,7 @@ impl IconShape for IoReceiptOutline {
                 y1: "224",
                 y2: "224",
             }
+            
         }
     }
 }
@@ -49677,6 +53809,9 @@ impl IconShape for IoReceiptSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -49685,6 +53820,7 @@ impl IconShape for IoReceiptSharp {
             path {
                 d: "M336,424V320H16v32c0,50.55,5.78,71.62,14.46,87.63C45.19,466.8,71.86,480,112,480H368S336,460,336,424Z",
             }
+            
         }
     }
 }
@@ -49719,6 +53855,9 @@ impl IconShape for IoReceipt {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -49727,6 +53866,7 @@ impl IconShape for IoReceipt {
             path {
                 d: "M336,424V336a16,16,0,0,0-16-16H48a32.1,32.1,0,0,0-32,32.05c0,50.55,5.78,71.57,14.46,87.57C45.19,466.79,71.86,480,112,480H357.68a4,4,0,0,0,2.85-6.81C351.07,463.7,336,451,336,424Z",
             }
+            
         }
     }
 }
@@ -49761,6 +53901,9 @@ impl IconShape for IoRecordingOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -49782,6 +53925,7 @@ impl IconShape for IoRecordingOutline {
                 y1: "352",
                 y2: "352",
             }
+            
         }
     }
 }
@@ -49816,11 +53960,15 @@ impl IconShape for IoRecordingSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M384,138a117.93,117.93,0,0,0-91.84,192H219.84A118,118,0,1,0,128,374H384a118,118,0,0,0,0-236ZM54,256a74,74,0,1,1,74,74A74.09,74.09,0,0,1,54,256Zm330,74a74,74,0,1,1,74-74A74.09,74.09,0,0,1,384,330Z",
             }
+            
         }
     }
 }
@@ -49855,11 +54003,15 @@ impl IconShape for IoRecording {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M380.79,144.05C321.69,145.7,273.67,193.76,272,252.86a111.64,111.64,0,0,0,30.36,79.77A2,2,0,0,1,301,336H211a2,2,0,0,1-1.44-3.37A111.64,111.64,0,0,0,240,252.86c-1.63-59.1-49.65-107.16-108.75-108.81A112.12,112.12,0,0,0,16,255.53C15.75,317.77,67,368,129.24,368H382.76C445,368,496.25,317.77,496,255.53A112.12,112.12,0,0,0,380.79,144.05Z",
             }
+            
         }
     }
 }
@@ -49894,6 +54046,9 @@ impl IconShape for IoRefreshCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -49908,6 +54063,7 @@ impl IconShape for IoRefreshCircleOutline {
                 d: "M256,64C150,64,64,150,64,256s86,192,192,192,192-86,192-192S362,64,256,64Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -49942,11 +54098,15 @@ impl IconShape for IoRefreshCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.32,48,256c0,114.86,93.14,208,208,208,114.69,0,208-93.31,208-208C464,141.13,370.87,48,256,48Zm94,219a94,94,0,1,1-94-94h4.21l-24-24L256,129.2,315.8,189,256,248.8,236.2,229l27.92-27.92C261.72,201,259,201,256,201a66,66,0,1,0,66,66V253h28Z",
             }
+            
         }
     }
 }
@@ -49981,11 +54141,15 @@ impl IconShape for IoRefreshCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.32,48,256c0,114.86,93.14,208,208,208,114.69,0,208-93.31,208-208C464,141.13,370.87,48,256,48Zm0,313a94,94,0,0,1,0-188h4.21L246.1,158.9a14,14,0,0,1,19.8-19.8l40,40a14,14,0,0,1,0,19.8l-40,40a14,14,0,0,1-19.8-19.8l18-18C261.72,201,259,201,256,201a66,66,0,1,0,66,66,14,14,0,0,1,28,0A94.11,94.11,0,0,1,256,361Z",
             }
+            
         }
     }
 }
@@ -50020,6 +54184,9 @@ impl IconShape for IoRefreshOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -50030,6 +54197,7 @@ impl IconShape for IoRefreshOutline {
                 points: "256 58 336 138 256 218",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -50064,6 +54232,9 @@ impl IconShape for IoRefreshSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -50074,6 +54245,7 @@ impl IconShape for IoRefreshSharp {
                 points: "256 58 336 138 256 218",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -50108,6 +54280,9 @@ impl IconShape for IoRefresh {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -50118,6 +54293,7 @@ impl IconShape for IoRefresh {
                 points: "256 58 336 138 256 218",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -50152,6 +54328,9 @@ impl IconShape for IoReloadCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -50165,6 +54344,7 @@ impl IconShape for IoReloadCircleOutline {
             path {
                 d: "M367.32,162a8.44,8.44,0,0,0-6,2.54l-59.54,59.54a8.61,8.61,0,0,0,6.09,14.71h59.54a8.62,8.62,0,0,0,8.62-8.62V170.61a8.61,8.61,0,0,0-8.68-8.63Z",
             }
+            
         }
     }
 }
@@ -50199,11 +54379,15 @@ impl IconShape for IoReloadCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM376,238.77H287l36.88-36.88-5.6-6.51a87.38,87.38,0,1,0-62.94,148,87.55,87.55,0,0,0,82.42-58.25L343.13,270l30.17,10.67L368,295.8A119.4,119.4,0,1,1,255.38,136.62a118.34,118.34,0,0,1,86.36,36.95l.56.62,4.31,5L376,149.81Z",
             }
+            
         }
     }
 }
@@ -50238,11 +54422,15 @@ impl IconShape for IoReloadCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM376,230.15a8.62,8.62,0,0,1-8.62,8.62H307.84a8.61,8.61,0,0,1-6.09-14.71l22.17-22.17-5.6-6.51a87.38,87.38,0,1,0-62.94,148,87.55,87.55,0,0,0,82.42-58.25A16,16,0,1,1,368,295.8,119.4,119.4,0,1,1,255.38,136.62a118.34,118.34,0,0,1,86.36,36.95l.56.62,4.31,5,14.68-14.68a8.44,8.44,0,0,1,6-2.54,8.61,8.61,0,0,1,8.68,8.63Z",
             }
+            
         }
     }
 }
@@ -50277,6 +54465,9 @@ impl IconShape for IoReloadOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -50286,6 +54477,7 @@ impl IconShape for IoReloadOutline {
             path {
                 d: "M464,97.42V208a16,16,0,0,1-16,16H337.42c-14.26,0-21.4-17.23-11.32-27.31L436.69,86.1C446.77,76,464,83.16,464,97.42Z",
             }
+            
         }
     }
 }
@@ -50320,6 +54512,9 @@ impl IconShape for IoReloadSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -50329,6 +54524,7 @@ impl IconShape for IoReloadSharp {
             path {
                 d: "M464,68.45V220a4,4,0,0,1-4,4H308.45a4,4,0,0,1-2.83-6.83L457.17,65.62A4,4,0,0,1,464,68.45Z",
             }
+            
         }
     }
 }
@@ -50363,6 +54559,9 @@ impl IconShape for IoReload {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -50372,6 +54571,7 @@ impl IconShape for IoReload {
             path {
                 d: "M464,97.42V208a16,16,0,0,1-16,16H337.42c-14.26,0-21.4-17.23-11.32-27.31L436.69,86.1C446.77,76,464,83.16,464,97.42Z",
             }
+            
         }
     }
 }
@@ -50406,6 +54606,9 @@ impl IconShape for IoRemoveCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -50419,6 +54622,7 @@ impl IconShape for IoRemoveCircleOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -50453,11 +54657,15 @@ impl IconShape for IoRemoveCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm96,224H160V240H352Z",
             }
+            
         }
     }
 }
@@ -50492,11 +54700,15 @@ impl IconShape for IoRemoveCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm80,224H176a16,16,0,0,1,0-32H336a16,16,0,0,1,0,32Z",
             }
+            
         }
     }
 }
@@ -50531,6 +54743,9 @@ impl IconShape for IoRemoveOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -50540,6 +54755,7 @@ impl IconShape for IoRemoveOutline {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -50574,6 +54790,9 @@ impl IconShape for IoRemoveSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -50583,6 +54802,7 @@ impl IconShape for IoRemoveSharp {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -50617,6 +54837,9 @@ impl IconShape for IoRemove {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -50626,6 +54849,7 @@ impl IconShape for IoRemove {
                 y1: "256",
                 y2: "256",
             }
+            
         }
     }
 }
@@ -50660,6 +54884,9 @@ impl IconShape for IoReorderFourOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -50690,6 +54917,7 @@ impl IconShape for IoReorderFourOutline {
                 y1: "400",
                 y2: "400",
             }
+            
         }
     }
 }
@@ -50724,6 +54952,9 @@ impl IconShape for IoReorderFourSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -50754,6 +54985,7 @@ impl IconShape for IoReorderFourSharp {
                 y1: "400",
                 y2: "400",
             }
+            
         }
     }
 }
@@ -50788,6 +55020,9 @@ impl IconShape for IoReorderFour {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -50818,6 +55053,7 @@ impl IconShape for IoReorderFour {
                 y1: "400",
                 y2: "400",
             }
+            
         }
     }
 }
@@ -50852,6 +55088,9 @@ impl IconShape for IoReorderThreeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -50875,6 +55114,7 @@ impl IconShape for IoReorderThreeOutline {
                 y1: "336",
                 y2: "336",
             }
+            
         }
     }
 }
@@ -50909,6 +55149,9 @@ impl IconShape for IoReorderThreeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -50932,6 +55175,7 @@ impl IconShape for IoReorderThreeSharp {
                 y1: "336",
                 y2: "336",
             }
+            
         }
     }
 }
@@ -50966,6 +55210,9 @@ impl IconShape for IoReorderThree {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -50989,6 +55236,7 @@ impl IconShape for IoReorderThree {
                 y1: "336",
                 y2: "336",
             }
+            
         }
     }
 }
@@ -51023,6 +55271,9 @@ impl IconShape for IoReorderTwoOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -51039,6 +55290,7 @@ impl IconShape for IoReorderTwoOutline {
                 y1: "208",
                 y2: "208",
             }
+            
         }
     }
 }
@@ -51073,6 +55325,9 @@ impl IconShape for IoReorderTwoSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -51089,6 +55344,7 @@ impl IconShape for IoReorderTwoSharp {
                 y1: "208",
                 y2: "208",
             }
+            
         }
     }
 }
@@ -51123,6 +55379,9 @@ impl IconShape for IoReorderTwo {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -51139,6 +55398,7 @@ impl IconShape for IoReorderTwo {
                 y1: "208",
                 y2: "208",
             }
+            
         }
     }
 }
@@ -51173,6 +55433,9 @@ impl IconShape for IoRepeatOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51191,6 +55454,7 @@ impl IconShape for IoRepeatOutline {
                 d: "M160,344H368a80.24,80.24,0,0,0,80-80V248",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51225,6 +55489,9 @@ impl IconShape for IoRepeatSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51243,6 +55510,7 @@ impl IconShape for IoRepeatSharp {
                 points: "160 344 448 344 448 248",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51277,6 +55545,9 @@ impl IconShape for IoRepeat {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51295,6 +55566,7 @@ impl IconShape for IoRepeat {
                 d: "M160,344H368a80.24,80.24,0,0,0,80-80V248",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51329,6 +55601,9 @@ impl IconShape for IoResizeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51346,6 +55621,7 @@ impl IconShape for IoResizeOutline {
                 points: "208 416 96 416 96 304",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51380,6 +55656,9 @@ impl IconShape for IoResizeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51397,6 +55676,7 @@ impl IconShape for IoResizeSharp {
                 points: "208 416 96 416 96 304",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51431,6 +55711,9 @@ impl IconShape for IoResize {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51448,6 +55731,7 @@ impl IconShape for IoResize {
                 points: "208 416 96 416 96 304",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51482,6 +55766,9 @@ impl IconShape for IoRestaurantOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -51507,6 +55794,7 @@ impl IconShape for IoRestaurantOutline {
                 d: "M200,368,100.28,468.28a40,40,0,0,1-56.56,0h0a40,40,0,0,1,0-56.56L128,328",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51541,6 +55829,9 @@ impl IconShape for IoRestaurantSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -51549,6 +55840,7 @@ impl IconShape for IoRestaurantSharp {
             path {
                 d: "M227.37,354.59c-29.82,6.11-48.11,11.74-83.08-23.23-.56-.56-1.14-1.1-1.7-1.66l-19.5-19.5L16,416l80,80L240,352Z",
             }
+            
         }
     }
 }
@@ -51583,6 +55875,9 @@ impl IconShape for IoRestaurant {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -51591,6 +55886,7 @@ impl IconShape for IoRestaurant {
             path {
                 d: "M211,358a97.32,97.32,0,0,1-68.36-28.25l-13.86-13.86a8,8,0,0,0-11.3,0l-85,84.56c-15.15,15.15-20.56,37.45-13.06,59.29a30.63,30.63,0,0,0,1.49,3.6C31,484,50.58,496,72,496a55.68,55.68,0,0,0,39.64-16.44L225,365.66a4.69,4.69,0,0,0,1.32-3.72l0-.26a4.63,4.63,0,0,0-5.15-4.27A97.09,97.09,0,0,1,211,358Z",
             }
+            
         }
     }
 }
@@ -51625,6 +55921,9 @@ impl IconShape for IoReturnDownBackOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51635,6 +55934,7 @@ impl IconShape for IoReturnDownBackOutline {
                 d: "M64,288H358c58.76,0,106-49.33,106-108V160",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51669,6 +55969,9 @@ impl IconShape for IoReturnDownBackSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51679,6 +55982,7 @@ impl IconShape for IoReturnDownBackSharp {
                 points: "64 288 464 288 464 160",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51713,6 +56017,9 @@ impl IconShape for IoReturnDownBack {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51723,6 +56030,7 @@ impl IconShape for IoReturnDownBack {
                 d: "M64,288H358c58.76,0,106-49.33,106-108V160",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51757,6 +56065,9 @@ impl IconShape for IoReturnDownForwardOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51767,6 +56078,7 @@ impl IconShape for IoReturnDownForwardOutline {
                 d: "M448,288H154C95.24,288,48,238.67,48,180V160",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51801,6 +56113,9 @@ impl IconShape for IoReturnDownForwardSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51811,6 +56126,7 @@ impl IconShape for IoReturnDownForwardSharp {
                 points: "448 288 48 288 48 160",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51845,6 +56161,9 @@ impl IconShape for IoReturnDownForward {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51855,6 +56174,7 @@ impl IconShape for IoReturnDownForward {
                 d: "M448,288H154C95.24,288,48,238.67,48,180V160",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51889,6 +56209,9 @@ impl IconShape for IoReturnUpBackOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51899,6 +56222,7 @@ impl IconShape for IoReturnUpBackOutline {
                 d: "M64,224H358c58.76,0,106,49.33,106,108v20",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51933,6 +56257,9 @@ impl IconShape for IoReturnUpBackSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51943,6 +56270,7 @@ impl IconShape for IoReturnUpBackSharp {
                 points: "64 224 464 224 464 352",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -51977,6 +56305,9 @@ impl IconShape for IoReturnUpBack {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -51987,6 +56318,7 @@ impl IconShape for IoReturnUpBack {
                 d: "M64,224H358c58.76,0,106,49.33,106,108v20",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -52021,6 +56353,9 @@ impl IconShape for IoReturnUpForwardOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -52031,6 +56366,7 @@ impl IconShape for IoReturnUpForwardOutline {
                 d: "M448,224H154C95.24,224,48,273.33,48,332v20",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -52065,6 +56401,9 @@ impl IconShape for IoReturnUpForwardSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -52075,6 +56414,7 @@ impl IconShape for IoReturnUpForwardSharp {
                 points: "448 224 48 224 48 352",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -52109,6 +56449,9 @@ impl IconShape for IoReturnUpForward {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -52119,6 +56462,7 @@ impl IconShape for IoReturnUpForward {
                 d: "M448,224H154C95.24,224,48,273.33,48,332v20",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -52153,6 +56497,9 @@ impl IconShape for IoRibbonOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -52175,6 +56522,7 @@ impl IconShape for IoRibbonOutline {
                 r: "64",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -52209,6 +56557,9 @@ impl IconShape for IoRibbonSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -52225,6 +56576,7 @@ impl IconShape for IoRibbonSharp {
             path {
                 d: "M256,16c-79.4,0-144,64.6-144,144s64.6,144,144,144,144-64.6,144-144S335.4,16,256,16Zm0,224a80,80,0,1,1,80-80A80.09,80.09,0,0,1,256,240Z",
             }
+            
         }
     }
 }
@@ -52259,6 +56611,9 @@ impl IconShape for IoRibbon {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -52276,6 +56631,7 @@ impl IconShape for IoRibbon {
             path {
                 d: "M256.26,16c-79.42,0-144,64.59-144,144s64.61,144,144,144,144-64.6,144-144S335.67,16,256.26,16Zm0,224a80,80,0,1,1,80-80A80.1,80.1,0,0,1,256.26,240Z",
             }
+            
         }
     }
 }
@@ -52310,6 +56666,9 @@ impl IconShape for IoRocketOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -52320,6 +56679,7 @@ impl IconShape for IoRocketOutline {
                 d: "M109.64,352a45.06,45.06,0,0,0-26.35,12.84C65.67,382.52,64,448,64,448s65.52-1.67,83.15-19.31A44.73,44.73,0,0,0,160,402.32",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -52354,6 +56714,9 @@ impl IconShape for IoRocketSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -52362,6 +56725,7 @@ impl IconShape for IoRocketSharp {
             path {
                 d: "M168.4,399.43c-5.48,5.49-14.27,7.63-24.85,9.46-23.77,4.05-44.76-16.49-40.49-40.52,1.63-9.11,6.45-21.88,9.45-24.88a4.37,4.37,0,0,0-3.65-7.45,60,60,0,0,0-35.13,17.12C50.22,376.69,48,464,48,464s87.36-2.22,110.87-25.75A59.69,59.69,0,0,0,176,403.09C176.37,398.91,171.28,396.42,168.4,399.43Z",
             }
+            
         }
     }
 }
@@ -52396,6 +56760,9 @@ impl IconShape for IoRocket {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -52407,6 +56774,7 @@ impl IconShape for IoRocket {
             path {
                 d: "M161.93,386.44a16,16,0,0,0-11,2.67c-6.39,4.37-12.81,8.69-19.29,12.9-13.11,8.52-28.79-6.44-21-20l12.15-21a16,16,0,0,0-15.16-24.91A61.25,61.25,0,0,0,72,353.56c-3.66,3.67-14.79,14.81-20.78,57.26A357.94,357.94,0,0,0,48,447.59,16,16,0,0,0,64,464h.4a359.87,359.87,0,0,0,36.8-3.2c42.47-6,53.61-17.14,57.27-20.8a60.49,60.49,0,0,0,17.39-35.74A16,16,0,0,0,161.93,386.44Z",
             }
+            
         }
     }
 }
@@ -52441,6 +56809,9 @@ impl IconShape for IoRoseOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -52459,6 +56830,7 @@ impl IconShape for IoRoseOutline {
                 d: "M253.48,87.57C221.25,45.81,176,32,176,32c-15.3,20.8-28.79,51.58-34.87,74.17",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -52493,6 +56865,9 @@ impl IconShape for IoRoseSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -52507,6 +56882,7 @@ impl IconShape for IoRoseSharp {
             path {
                 d: "M176,16c-16,10.83-33.24,41.1-33.24,41.1a494.22,494.22,0,0,1,48.92,15.25l17.65-11.56c8.18-5.35,16.55-10.29,25-14.77C234.31,46,202.59,24.17,176,16Z",
             }
+            
         }
     }
 }
@@ -52541,6 +56917,9 @@ impl IconShape for IoRose {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -52555,6 +56934,7 @@ impl IconShape for IoRose {
             path {
                 d: "M209.33,60.79c7.3-4.77,14.74-9.22,22.25-13.31a2,2,0,0,0,.24-3.36c-26-19.57-49.73-27-51.15-27.42a16,16,0,0,0-17.56,5.82A217.63,217.63,0,0,0,143.83,54.9a2,2,0,0,0,1.29,2.81C158.73,61.28,174.52,66,190.73,72a2,2,0,0,0,1.79-.2Z",
             }
+            
         }
     }
 }
@@ -52589,6 +56969,9 @@ impl IconShape for IoSadOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -52610,6 +56993,7 @@ impl IconShape for IoSadOutline {
                 r: "208",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -52644,11 +57028,15 @@ impl IconShape for IoSadSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414.39,97.61A224,224,0,1,0,97.61,414.39,224,224,0,1,0,414.39,97.61ZM328,208a24,24,0,1,1-24,24A23.94,23.94,0,0,1,328,208Zm-144,0a24,24,0,1,1-24,24A23.94,23.94,0,0,1,184,208ZM256,288c45.42,0,83.75,29.49,95.72,69.83,1,3.52,2.33,10.17,2.33,10.17H158s1.31-6.69,2.33-10.17C172.11,317.47,210.53,288,256,288Z",
             }
+            
         }
     }
 }
@@ -52683,11 +57071,15 @@ impl IconShape for IoSad {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414.39,97.61A224,224,0,1,0,97.61,414.39,224,224,0,1,0,414.39,97.61ZM184,208a24,24,0,1,1-24,24A23.94,23.94,0,0,1,184,208ZM160.33,357.83c12-40.3,50.2-69.83,95.62-69.83s83.62,29.53,95.71,69.83A8,8,0,0,1,343.84,368H168.15A8,8,0,0,1,160.33,357.83ZM328,256a24,24,0,1,1,24-24A23.94,23.94,0,0,1,328,256Z",
             }
+            
         }
     }
 }
@@ -52722,12 +57114,16 @@ impl IconShape for IoSaveOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-p"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M380.93,57.37A32,32,0,0,0,358.3,48H94.22A46.21,46.21,0,0,0,48,94.22V417.78A46.21,46.21,0,0,0,94.22,464H417.78A46.36,46.36,0,0,0,464,417.78V153.7a32,32,0,0,0-9.37-22.63ZM256,416a64,64,0,1,1,64-64A63.92,63.92,0,0,1,256,416Zm48-224H112a16,16,0,0,1-16-16V112a16,16,0,0,1,16-16H304a16,16,0,0,1,16,16v64A16,16,0,0,1,304,192Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -52762,11 +57158,15 @@ impl IconShape for IoSaveSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M380.44,32H64A32,32,0,0,0,32,64V448a32,32,0,0,0,32,32H448a32.09,32.09,0,0,0,32-32V131.56ZM112,176V112H304v64ZM335.91,355.76a80,80,0,1,1-83.66-83.67A80.21,80.21,0,0,1,335.91,355.76Z",
             }
+            
         }
     }
 }
@@ -52801,6 +57201,9 @@ impl IconShape for IoSave {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -52811,6 +57214,7 @@ impl IconShape for IoSave {
                 cy: "352",
                 r: "48",
             }
+            
         }
     }
 }
@@ -52845,6 +57249,9 @@ impl IconShape for IoScaleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -52863,6 +57270,7 @@ impl IconShape for IoScaleOutline {
                 stroke_linejoin: "round",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -52897,11 +57305,15 @@ impl IconShape for IoScaleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M432,32H80A48.05,48.05,0,0,0,32,80V432a48.05,48.05,0,0,0,48,48H432a48.05,48.05,0,0,0,48-48V80A48.05,48.05,0,0,0,432,32ZM415.29,197l-52.46,61.73a27.83,27.83,0,0,1-37.65,4.62c-13-9.29-39.27-24.89-69.18-24.89s-56.18,15.6-69.18,24.89a27.84,27.84,0,0,1-37.65-4.62L96.71,197A32.12,32.12,0,0,1,97.13,155c18.93-21.31,72.3-70.87,158.87-70.87S395.94,133.72,414.87,155h0A32.12,32.12,0,0,1,415.29,197Z",
             }
+            
         }
     }
 }
@@ -52936,11 +57348,15 @@ impl IconShape for IoScale {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M368,32H144A112.12,112.12,0,0,0,32,144V368A112.12,112.12,0,0,0,144,480H368A112.12,112.12,0,0,0,480,368V144A112.12,112.12,0,0,0,368,32Zm36.21,178-33.32,39.21A41.76,41.76,0,0,1,339,264.05a42.32,42.32,0,0,1-22.29-6.38c-14.22-8.78-36.3-19.25-60.69-19.25s-46.47,10.47-60.69,19.25a41.86,41.86,0,0,1-54.2-8.46L107.79,210a50.48,50.48,0,0,1,4.49-70.27C140.12,114.38,187.65,84.16,256,84.16s115.88,30.22,143.72,55.57A50.48,50.48,0,0,1,404.21,210Z",
             }
+            
         }
     }
 }
@@ -52975,6 +57391,9 @@ impl IconShape for IoScanCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -52997,6 +57416,7 @@ impl IconShape for IoScanCircleOutline {
                 d: "M160,216V188a28,28,0,0,1,28-28h28",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -53031,11 +57451,15 @@ impl IconShape for IoScanCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM232,368H188a44.05,44.05,0,0,1-44-44V280h32v44a12,12,0,0,0,12,12h44Zm0-192H188a12,12,0,0,0-12,12v44H144V188a44.05,44.05,0,0,1,44-44h44ZM368,324a44.05,44.05,0,0,1-44,44H280V336h44a12,12,0,0,0,12-12V280h32Zm0-92H336V188a12,12,0,0,0-12-12H280V144h44a44.05,44.05,0,0,1,44,44Z",
             }
+            
         }
     }
 }
@@ -53070,11 +57494,15 @@ impl IconShape for IoScanCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48ZM216,368H188a44.05,44.05,0,0,1-44-44V296a16,16,0,0,1,32,0v28a12,12,0,0,0,12,12h28a16,16,0,0,1,0,32Zm0-192H188a12,12,0,0,0-12,12v28a16,16,0,0,1-32,0V188a44.05,44.05,0,0,1,44-44h28a16,16,0,0,1,0,32ZM368,324a44.05,44.05,0,0,1-44,44H296a16,16,0,0,1,0-32h28a12,12,0,0,0,12-12V296a16,16,0,0,1,32,0Zm0-108a16,16,0,0,1-32,0V188a12,12,0,0,0-12-12H296a16,16,0,0,1,0-32h28a44.05,44.05,0,0,1,44,44Z",
             }
+            
         }
     }
 }
@@ -53109,6 +57537,9 @@ impl IconShape for IoScanOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -53127,6 +57558,7 @@ impl IconShape for IoScanOutline {
                 d: "M64,176V120a56,56,0,0,1,56-56h56",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -53161,6 +57593,9 @@ impl IconShape for IoScanSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -53175,6 +57610,7 @@ impl IconShape for IoScanSharp {
             path {
                 d: "M90,192H46V124a78.09,78.09,0,0,1,78-78h68V90H124a34,34,0,0,0-34,34Z",
             }
+            
         }
     }
 }
@@ -53209,6 +57645,9 @@ impl IconShape for IoScan {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -53227,6 +57666,7 @@ impl IconShape for IoScan {
                 d: "M68,170V124a56,56,0,0,1,56-56h46",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:44px",
             }
+            
         }
     }
 }
@@ -53261,6 +57701,9 @@ impl IconShape for IoSchoolOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -53285,6 +57728,7 @@ impl IconShape for IoSchoolOutline {
                 y1: "320",
                 y2: "448",
             }
+            
         }
     }
 }
@@ -53319,6 +57763,9 @@ impl IconShape for IoSchoolSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -53327,6 +57774,7 @@ impl IconShape for IoSchoolSharp {
             polygon {
                 points: "512.25 192 256 45.57 -0.25 192 256 338.43 464 219.57 464 384 512 384 512 192.14 512.25 192",
             }
+            
         }
     }
 }
@@ -53361,6 +57809,9 @@ impl IconShape for IoSchool {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -53369,6 +57820,7 @@ impl IconShape for IoSchool {
             path {
                 d: "M495.92,190.5s0-.08,0-.11a16,16,0,0,0-8-12.28l-224-128a16,16,0,0,0-15.88,0l-224,128a16,16,0,0,0,0,27.78l224,128a16,16,0,0,0,15.88,0L461,221.28a2,2,0,0,1,3,1.74V367.55c0,8.61,6.62,16,15.23,16.43A16,16,0,0,0,496,368V192A14.76,14.76,0,0,0,495.92,190.5Z",
             }
+            
         }
     }
 }
@@ -53403,6 +57855,9 @@ impl IconShape for IoSearchCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -53420,6 +57875,7 @@ impl IconShape for IoSearchCircleOutline {
                 y1: "283.64",
                 y2: "336",
             }
+            
         }
     }
 }
@@ -53454,6 +57910,9 @@ impl IconShape for IoSearchCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -53464,6 +57923,7 @@ impl IconShape for IoSearchCircleSharp {
                 cy: "232",
                 r: "56",
             }
+            
         }
     }
 }
@@ -53498,6 +57958,9 @@ impl IconShape for IoSearchCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -53508,6 +57971,7 @@ impl IconShape for IoSearchCircle {
                 cy: "232",
                 r: "56",
             }
+            
         }
     }
 }
@@ -53542,6 +58006,9 @@ impl IconShape for IoSearchOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -53555,6 +58022,7 @@ impl IconShape for IoSearchOutline {
                 y1: "338.29",
                 y2: "448",
             }
+            
         }
     }
 }
@@ -53589,11 +58057,15 @@ impl IconShape for IoSearchSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,428,339.92,303.9a160.48,160.48,0,0,0,30.72-94.58C370.64,120.37,298.27,48,209.32,48S48,120.37,48,209.32s72.37,161.32,161.32,161.32a160.48,160.48,0,0,0,94.58-30.72L428,464ZM209.32,319.69A110.38,110.38,0,1,1,319.69,209.32,110.5,110.5,0,0,1,209.32,319.69Z",
             }
+            
         }
     }
 }
@@ -53628,11 +58100,15 @@ impl IconShape for IoSearch {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M456.69,421.39,362.6,327.3a173.81,173.81,0,0,0,34.84-104.58C397.44,126.38,319.06,48,222.72,48S48,126.38,48,222.72s78.38,174.72,174.72,174.72A173.81,173.81,0,0,0,327.3,362.6l94.09,94.09a25,25,0,0,0,35.3-35.3ZM97.92,222.72a124.8,124.8,0,1,1,124.8,124.8A124.95,124.95,0,0,1,97.92,222.72Z",
             }
+            
         }
     }
 }
@@ -53667,12 +58143,16 @@ impl IconShape for IoSendOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M470.3,271.15,43.16,447.31a7.83,7.83,0,0,1-11.16-7V327a8,8,0,0,1,6.51-7.86l247.62-47c17.36-3.29,17.36-28.15,0-31.44l-247.63-47a8,8,0,0,1-6.5-7.85V72.59c0-5.74,5.88-10.26,11.16-8L470.3,241.76A16,16,0,0,1,470.3,271.15Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -53707,11 +58187,15 @@ impl IconShape for IoSendSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M16,464,496,256,16,48V208l320,48L16,304Z",
             }
+            
         }
     }
 }
@@ -53746,11 +58230,15 @@ impl IconShape for IoSend {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M476.59,227.05l-.16-.07L49.35,49.84A23.56,23.56,0,0,0,27.14,52,24.65,24.65,0,0,0,16,72.59V185.88a24,24,0,0,0,19.52,23.57l232.93,43.07a4,4,0,0,1,0,7.86L35.53,303.45A24,24,0,0,0,16,327V440.31A23.57,23.57,0,0,0,26.59,460a23.94,23.94,0,0,0,13.22,4,24.55,24.55,0,0,0,9.52-1.93L476.4,285.94l.19-.09a32,32,0,0,0,0-58.8Z",
             }
+            
         }
     }
 }
@@ -53785,6 +58273,9 @@ impl IconShape for IoServerOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             ellipse {
@@ -53806,6 +58297,7 @@ impl IconShape for IoServerOutline {
                 d: "M64,127.24V384.76C64,428.52,150,464,256,464s192-35.48,192-79.24V127.24",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -53840,6 +58332,9 @@ impl IconShape for IoServerSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -53854,6 +58349,7 @@ impl IconShape for IoServerSharp {
             path {
                 d: "M409.43,306.38C362,326,305.4,337.56,256,337.56s-109.87-12.8-153.43-31.18S48,269.67,48,269.67v46.25c0,7.55,5.44,16.28,15.69,25.26,11.23,9.84,27.81,19.5,48,27.92,42.48,17.77,96.44,28.37,144.36,28.37s101.88-10.6,144.36-28.37c20.13-8.43,36.72-18.08,47.95-27.92,10.19-8.93,15.61-17.61,15.69-25.13V269.67S456.87,286.76,409.43,306.38Z",
             }
+            
         }
     }
 }
@@ -53888,6 +58384,9 @@ impl IconShape for IoServer {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -53902,6 +58401,7 @@ impl IconShape for IoServer {
             path {
                 d: "M413.92,312C367.38,331.41,308.35,343,256,343S144.61,331.41,98.07,312C81,304.83,66.38,293.19,54.43,284A4,4,0,0,0,48,287.2V317c0,6.41,5.2,14.47,14.62,22.71,11.13,9.74,27.66,19.33,47.79,27.74C153.24,385.32,207.66,396,256,396s102.76-10.68,145.59-28.57c20.13-8.41,36.65-18,47.78-27.74C458.8,331.44,464,323.37,464,317V287.2a4,4,0,0,0-6.43-3.18C445.62,293.19,431,304.83,413.92,312Z",
             }
+            
         }
     }
 }
@@ -53936,12 +58436,16 @@ impl IconShape for IoSettingsOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M262.29,192.31a64,64,0,1,0,57.4,57.4A64.13,64.13,0,0,0,262.29,192.31ZM416.39,256a154.34,154.34,0,0,1-1.53,20.79l45.21,35.46A10.81,10.81,0,0,1,462.52,326l-42.77,74a10.81,10.81,0,0,1-13.14,4.59l-44.9-18.08a16.11,16.11,0,0,0-15.17,1.75A164.48,164.48,0,0,1,325,400.8a15.94,15.94,0,0,0-8.82,12.14l-6.73,47.89A11.08,11.08,0,0,1,298.77,470H213.23a11.11,11.11,0,0,1-10.69-8.87l-6.72-47.82a16.07,16.07,0,0,0-9-12.22,155.3,155.3,0,0,1-21.46-12.57,16,16,0,0,0-15.11-1.71l-44.89,18.07a10.81,10.81,0,0,1-13.14-4.58l-42.77-74a10.8,10.8,0,0,1,2.45-13.75l38.21-30a16.05,16.05,0,0,0,6-14.08c-.36-4.17-.58-8.33-.58-12.5s.21-8.27.58-12.35a16,16,0,0,0-6.07-13.94l-38.19-30A10.81,10.81,0,0,1,49.48,186l42.77-74a10.81,10.81,0,0,1,13.14-4.59l44.9,18.08a16.11,16.11,0,0,0,15.17-1.75A164.48,164.48,0,0,1,187,111.2a15.94,15.94,0,0,0,8.82-12.14l6.73-47.89A11.08,11.08,0,0,1,213.23,42h85.54a11.11,11.11,0,0,1,10.69,8.87l6.72,47.82a16.07,16.07,0,0,0,9,12.22,155.3,155.3,0,0,1,21.46,12.57,16,16,0,0,0,15.11,1.71l44.89-18.07a10.81,10.81,0,0,1,13.14,4.58l42.77,74a10.8,10.8,0,0,1-2.45,13.75l-38.21,30a16.05,16.05,0,0,0-6.05,14.08C416.17,247.67,416.39,251.83,416.39,256Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -53976,11 +58480,15 @@ impl IconShape for IoSettingsSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,176a80,80,0,1,0,80,80A80.24,80.24,0,0,0,256,176Zm172.72,80a165.53,165.53,0,0,1-1.64,22.34l48.69,38.12a11.59,11.59,0,0,1,2.63,14.78l-46.06,79.52a11.64,11.64,0,0,1-14.14,4.93l-57.25-23a176.56,176.56,0,0,1-38.82,22.67l-8.56,60.78A11.93,11.93,0,0,1,302.06,486H209.94a12,12,0,0,1-11.51-9.53l-8.56-60.78A169.3,169.3,0,0,1,151.05,393L93.8,416a11.64,11.64,0,0,1-14.14-4.92L33.6,331.57a11.59,11.59,0,0,1,2.63-14.78l48.69-38.12A174.58,174.58,0,0,1,83.28,256a165.53,165.53,0,0,1,1.64-22.34L36.23,195.54a11.59,11.59,0,0,1-2.63-14.78l46.06-79.52A11.64,11.64,0,0,1,93.8,96.31l57.25,23a176.56,176.56,0,0,1,38.82-22.67l8.56-60.78A11.93,11.93,0,0,1,209.94,26h92.12a12,12,0,0,1,11.51,9.53l8.56,60.78A169.3,169.3,0,0,1,361,119L418.2,96a11.64,11.64,0,0,1,14.14,4.92l46.06,79.52a11.59,11.59,0,0,1-2.63,14.78l-48.69,38.12A174.58,174.58,0,0,1,428.72,256Z",
             }
+            
         }
     }
 }
@@ -54015,6 +58523,9 @@ impl IconShape for IoSettings {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -54025,6 +58536,7 @@ impl IconShape for IoSettings {
             path {
                 d: "M470.39,300l-.47-.38-31.56-24.75a16.11,16.11,0,0,1-6.1-13.33l0-11.56a16,16,0,0,1,6.11-13.22L469.92,212l.47-.38a26.68,26.68,0,0,0,5.9-34.06l-42.71-73.9a1.59,1.59,0,0,1-.13-.22A26.86,26.86,0,0,0,401,92.14l-.35.13L363.55,107.2a15.94,15.94,0,0,1-14.47-1.29q-4.92-3.1-10-5.86a15.94,15.94,0,0,1-8.19-11.82L325.3,48.64l-.12-.72A27.22,27.22,0,0,0,298.76,26H213.24a26.92,26.92,0,0,0-26.45,22.39l-.09.56-5.57,39.67A16,16,0,0,1,173,100.44c-3.42,1.84-6.76,3.79-10,5.82a15.92,15.92,0,0,1-14.43,1.27l-37.13-15-.35-.14a26.87,26.87,0,0,0-32.48,11.34l-.13.22L35.71,177.9A26.71,26.71,0,0,0,41.61,212l.47.38,31.56,24.75a16.11,16.11,0,0,1,6.1,13.33l0,11.56a16,16,0,0,1-6.11,13.22L42.08,300l-.47.38a26.68,26.68,0,0,0-5.9,34.06l42.71,73.9a1.59,1.59,0,0,1,.13.22A26.86,26.86,0,0,0,111,419.86l.35-.13,37.07-14.93a15.94,15.94,0,0,1,14.47,1.29q4.92,3.11,10,5.86a15.94,15.94,0,0,1,8.19,11.82l5.56,39.59.12.72A27.22,27.22,0,0,0,213.24,486h85.52a26.92,26.92,0,0,0,26.45-22.39l.09-.56,5.57-39.67a16,16,0,0,1,8.18-11.82c3.42-1.84,6.76-3.79,10-5.82a15.92,15.92,0,0,1,14.43-1.27l37.13,14.95.35.14a26.85,26.85,0,0,0,32.48-11.34,2.53,2.53,0,0,1,.13-.22l42.71-73.89A26.7,26.7,0,0,0,470.39,300ZM335.91,259.76a80,80,0,1,1-83.66-83.67A80.21,80.21,0,0,1,335.91,259.76Z",
             }
+            
         }
     }
 }
@@ -54059,6 +58571,9 @@ impl IconShape for IoShapesOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -54069,6 +58584,7 @@ impl IconShape for IoShapesOutline {
                 d: "M265.32,194.51A144,144,0,1,1,192,320",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -54103,6 +58619,9 @@ impl IconShape for IoShapesSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -54111,6 +58630,7 @@ impl IconShape for IoShapesSharp {
             path {
                 d: "M336,160a160.54,160.54,0,0,0-32.55,3.36l87.75,157L417.81,368H183.36C203.8,432.85,264.49,480,336,480c88.22,0,160-71.78,160-160S424.22,160,336,160Z",
             }
+            
         }
     }
 }
@@ -54145,6 +58665,9 @@ impl IconShape for IoShapes {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -54153,6 +58676,7 @@ impl IconShape for IoShapes {
             path {
                 d: "M336,160a161.07,161.07,0,0,0-32.57,3.32L377.9,296.59A48,48,0,0,1,336,368H183.33A160,160,0,1,0,336,160Z",
             }
+            
         }
     }
 }
@@ -54187,6 +58711,9 @@ impl IconShape for IoShareOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -54204,6 +58731,7 @@ impl IconShape for IoShareOutline {
                 y1: "321",
                 y2: "48",
             }
+            
         }
     }
 }
@@ -54238,6 +58766,9 @@ impl IconShape for IoShareSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -54246,6 +58777,7 @@ impl IconShape for IoShareSharp {
             polygon {
                 points: "272 92.63 336 156.63 358.63 134 256 31.37 153.37 134 176 156.63 240 92.63 240 176 272 176 272 92.63",
             }
+            
         }
     }
 }
@@ -54279,6 +58811,9 @@ impl IconShape for IoShareSocialOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -54314,6 +58849,7 @@ impl IconShape for IoShareSocialOutline {
                 y1: "135.53",
                 y2: "232.47",
             }
+            
         }
     }
 }
@@ -54348,11 +58884,15 @@ impl IconShape for IoShareSocialSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M378,324a69.78,69.78,0,0,0-48.83,19.91L202,272.41a69.68,69.68,0,0,0,0-32.82l127.13-71.5A69.76,69.76,0,1,0,308.87,129l-130.13,73.2a70,70,0,1,0,0,107.56L308.87,383A70,70,0,1,0,378,324Z",
             }
+            
         }
     }
 }
@@ -54387,11 +58927,15 @@ impl IconShape for IoShareSocial {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M384,336a63.78,63.78,0,0,0-46.12,19.7l-148-83.27a63.85,63.85,0,0,0,0-32.86l148-83.27a63.8,63.8,0,1,0-15.73-27.87l-148,83.27a64,64,0,1,0,0,88.6l148,83.27A64,64,0,1,0,384,336Z",
             }
+            
         }
     }
 }
@@ -54426,6 +58970,9 @@ impl IconShape for IoShare {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -54434,6 +58981,7 @@ impl IconShape for IoShare {
             path {
                 d: "M272,86.63l52.69,52.68a16,16,0,0,0,22.62-22.62l-80-80a16,16,0,0,0-22.62,0l-80,80a16,16,0,0,0,22.62,22.62L240,86.63V176h32Z",
             }
+            
         }
     }
 }
@@ -54468,6 +59016,9 @@ impl IconShape for IoShieldCheckmarkOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -54478,6 +59029,7 @@ impl IconShape for IoShieldCheckmarkOutline {
                 d: "M463.1,112.37C373.68,96.33,336.71,84.45,256,48,175.29,84.45,138.32,96.33,48.9,112.37,32.7,369.13,240.58,457.79,256,464,271.42,457.79,479.3,369.13,463.1,112.37Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -54512,11 +59064,15 @@ impl IconShape for IoShieldCheckmarkSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M479.07,111.36l-.79-12.53-12.36-2.21c-86.5-15.52-122.61-26.74-203.33-63.2l-6.59-3-6.59,3C168.69,69.88,132.58,81.1,46.08,96.62L33.72,98.83l-.79,12.53c-3.85,61.11,4.36,118.05,24.43,169.24A349.47,349.47,0,0,0,129,393.11c53.47,56.73,110.24,81.37,121.07,85.73l6,2.41,6-2.41c10.83-4.36,67.6-29,121.07-85.73A349.47,349.47,0,0,0,454.64,280.6C474.71,229.41,482.92,172.47,479.07,111.36Zm-252.91,216L153.37,256l22.4-22.86,48.47,47.49L334.37,153.43l24.2,20.94Z",
             }
+            
         }
     }
 }
@@ -54551,11 +59107,15 @@ impl IconShape for IoShieldCheckmark {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M479.07,111.36a16,16,0,0,0-13.15-14.74c-86.5-15.52-122.61-26.74-203.33-63.2a16,16,0,0,0-13.18,0C168.69,69.88,132.58,81.1,46.08,96.62a16,16,0,0,0-13.15,14.74c-3.85,61.11,4.36,118.05,24.43,169.24A349.47,349.47,0,0,0,129,393.11c53.47,56.73,110.24,81.37,121.07,85.73a16,16,0,0,0,12,0c10.83-4.36,67.6-29,121.07-85.73A349.47,349.47,0,0,0,454.64,280.6C474.71,229.41,482.92,172.47,479.07,111.36Zm-131,75.11-110.8,128A16,16,0,0,1,225.86,320h-.66a16,16,0,0,1-11.2-4.57l-49.2-48.2a16,16,0,1,1,22.4-22.86l37,36.29L323.9,165.53a16,16,0,0,1,24.2,20.94Z",
             }
+            
         }
     }
 }
@@ -54590,6 +59150,9 @@ impl IconShape for IoShieldHalfOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -54602,6 +59165,7 @@ impl IconShape for IoShieldHalfOutline {
             path {
                 d: "M256,48C175.29,84.45,138.32,96.33,48.9,112.37,32.7,369.13,240.58,457.79,256,464Z",
             }
+            
         }
     }
 }
@@ -54636,11 +59200,15 @@ impl IconShape for IoShieldHalfSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,32C174,69.06,121.38,86.46,32,96c0,77.59,5.27,133.36,25.29,184.51a348.86,348.86,0,0,0,71.43,112.41C178.32,445.58,232.89,473.32,256,480c23.11-6.68,77.68-34.42,127.28-87.08a348.86,348.86,0,0,0,71.43-112.41C474.73,229.36,480,173.59,480,96,390.62,86.46,338,69.06,256,32ZM417.47,265.93a309.18,309.18,0,0,1-63.31,99.56C316,406,276.65,428.31,256,437.36V75.8c38.75,17,68.73,28.3,97.93,36.89a613.12,613.12,0,0,0,85.6,18.52C437.81,191.43,431.17,230.9,417.47,265.93Z",
             }
+            
         }
     }
 }
@@ -54675,6 +59243,9 @@ impl IconShape for IoShieldHalf {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -54687,6 +59258,7 @@ impl IconShape for IoShieldHalf {
             path {
                 d: "M256,48c80.71,36.45,117.68,48.33,207.1,64.37C479.3,369.13,271.42,457.79,256,464Z",
             }
+            
         }
     }
 }
@@ -54721,12 +59293,16 @@ impl IconShape for IoShieldOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M463.1,112.37C373.68,96.33,336.71,84.45,256,48,175.29,84.45,138.32,96.33,48.9,112.37,32.7,369.13,240.58,457.79,256,464,271.42,457.79,479.3,369.13,463.1,112.37Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -54761,11 +59337,15 @@ impl IconShape for IoShieldSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,32C174,69.06,121.38,86.46,32,96c0,77.59,5.27,133.36,25.29,184.51a348.86,348.86,0,0,0,71.43,112.41C178.32,445.58,232.89,473.32,256,480c23.11-6.68,77.68-34.42,127.28-87.08a348.86,348.86,0,0,0,71.43-112.41C474.73,229.36,480,173.59,480,96,390.62,86.46,338,69.06,256,32Z",
             }
+            
         }
     }
 }
@@ -54800,11 +59380,15 @@ impl IconShape for IoShield {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M479.07,111.35A16,16,0,0,0,465.92,96.6C379.89,81.18,343.69,69.12,266,34.16c-7.76-2.89-12.57-2.84-20,0-77.69,35-113.89,47-199.92,62.44a16,16,0,0,0-13.15,14.75c-3.85,61.1,4.34,118,24.36,169.15a348.86,348.86,0,0,0,71.43,112.41c44.67,47.43,94.2,75.12,119.74,85.6a20,20,0,0,0,15.11,0c27-10.92,74.69-37.82,119.71-85.62A348.86,348.86,0,0,0,454.71,280.5C474.73,229.36,482.92,172.45,479.07,111.35Z",
             }
+            
         }
     }
 }
@@ -54839,6 +59423,9 @@ impl IconShape for IoShirtOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -54849,6 +59436,7 @@ impl IconShape for IoShirtOutline {
                 d: "M333.31,52.66a80,80,0,0,1-154.62,0",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -54883,6 +59471,9 @@ impl IconShape for IoShirtSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -54891,6 +59482,7 @@ impl IconShape for IoShirtSharp {
             path {
                 d: "M352,44c-5.49,47.76-46.79,85-96,85s-90.51-37.24-96-85L16,94,34,208l61.71,7.42c7.08.9,7.1.9,7.1,8.19L96,480H416l-6.81-256.39c-.21-7-.21-7,7.1-8.19L478,208,496,94Z",
             }
+            
         }
     }
 }
@@ -54925,6 +59517,9 @@ impl IconShape for IoShirt {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -54933,6 +59528,7 @@ impl IconShape for IoShirt {
             path {
                 d: "M485.29,89.9,356,44.64a4,4,0,0,0-5.27,3.16,96,96,0,0,1-189.38,0A4,4,0,0,0,156,44.64L26.71,89.9A16,16,0,0,0,16.28,108l16.63,88A16,16,0,0,0,46.83,208.9l48.88,5.52a8,8,0,0,1,7.1,8.19l-7.33,240.9a16,16,0,0,0,9.1,14.94A17.49,17.49,0,0,0,112,480H400a17.49,17.49,0,0,0,7.42-1.55,16,16,0,0,0,9.1-14.94l-7.33-240.9a8,8,0,0,1,7.1-8.19l48.88-5.52A16,16,0,0,0,479.09,196l16.63-88A16,16,0,0,0,485.29,89.9Z",
             }
+            
         }
     }
 }
@@ -54967,6 +59563,9 @@ impl IconShape for IoShuffleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -54989,6 +59588,7 @@ impl IconShape for IoShuffleOutline {
                 d: "M416,160H362.81a80,80,0,0,0-66.56,35.62L288,208",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -55023,6 +59623,9 @@ impl IconShape for IoShuffleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -55045,6 +59648,7 @@ impl IconShape for IoShuffleSharp {
                 points: "416 160 320 160 288 208",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -55079,6 +59683,9 @@ impl IconShape for IoShuffle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -55101,6 +59708,7 @@ impl IconShape for IoShuffle {
                 d: "M416,160H362.81a80,80,0,0,0-66.56,35.62L288,208",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -55134,6 +59742,9 @@ impl IconShape for IoSkullOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -55178,6 +59789,7 @@ impl IconShape for IoSkullOutline {
                 y1: "448",
                 y2: "480",
             }
+            
         }
     }
 }
@@ -55212,11 +59824,15 @@ impl IconShape for IoSkullSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,16C141.31,16,48,109.31,48,224V378.83l82,32.81L146.88,496H192V432h32v64h16V432h32v64h16V432h32v64h45.12L382,411.64l82-32.81V224C464,109.31,370.69,16,256,16ZM168,336a56,56,0,1,1,56-56A56.06,56.06,0,0,1,168,336Zm51.51,64L244,320h24l24.49,80ZM344,336a56,56,0,1,1,56-56A56.06,56.06,0,0,1,344,336Zm104,32h0Z",
             }
+            
         }
     }
 }
@@ -55251,11 +59867,15 @@ impl IconShape for IoSkull {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M402,76.94C362.61,37.63,310.78,16,256,16h-.37A208,208,0,0,0,48,224V324.67A79.62,79.62,0,0,0,98.29,399L122,408.42a15.92,15.92,0,0,1,9.75,11.72l10,50.13A32.09,32.09,0,0,0,173.12,496H184a8,8,0,0,0,8-8V448.45c0-8.61,6.62-16,15.23-16.43A16,16,0,0,1,224,448v40a8,8,0,0,0,8,8h0a8,8,0,0,0,8-8V448.45c0-8.61,6.62-16,15.23-16.43A16,16,0,0,1,272,448v40a8,8,0,0,0,8,8h0a8,8,0,0,0,8-8V448.45c0-8.61,6.62-16,15.23-16.43A16,16,0,0,1,320,448v40a8,8,0,0,0,8,8h10.88a32.09,32.09,0,0,0,31.38-25.72l10-50.14A16,16,0,0,1,390,408.42L413.71,399A79.62,79.62,0,0,0,464,324.67v-99C464,169.67,442,116.86,402,76.94ZM171.66,335.88a56,56,0,1,1,52.22-52.22A56,56,0,0,1,171.66,335.88ZM281,397.25A16.37,16.37,0,0,1,271.7,400H240.3a16.37,16.37,0,0,1-9.28-2.75,16,16,0,0,1-6.6-16.9l15.91-47.6C243,326,247.25,321,254,320.13c8.26-1,14,2.87,17.61,12.22l16,48A16,16,0,0,1,281,397.25Zm66.68-61.37a56,56,0,1,1,52.22-52.22A56,56,0,0,1,347.66,335.88Z",
             }
+            
         }
     }
 }
@@ -55289,6 +59909,9 @@ impl IconShape for IoSnowOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -55337,6 +59960,7 @@ impl IconShape for IoSnowOutline {
                 d: "M437.27,294a112.09,112.09,0,0,0-57.71,100",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -55371,11 +59995,15 @@ impl IconShape for IoSnowSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M447.88,313.27l19.25-10.64-21.28-38.51L426.6,274.76a133.42,133.42,0,0,0-38.54,32.1L300,256l88.07-50.86a133.42,133.42,0,0,0,38.54,32.1l19.25,10.64,21.28-38.51-19.25-10.64a89.27,89.27,0,0,1-20.93-16L480,152.05,458,114,405,144.58a89.07,89.07,0,0,1-3.42-26.15l.41-22-44-.82-.41,22A133.62,133.62,0,0,0,366.07,167L278,217.89V116.18a133.52,133.52,0,0,0,47.06-17.33L343.9,87.5,321.19,49.81,302.35,61.16A89.5,89.5,0,0,1,278,71.27V16H234V71.27a89.5,89.5,0,0,1-24.35-10.11L190.81,49.81,168.1,87.5l18.84,11.35A133.52,133.52,0,0,0,234,116.18V217.89L145.93,167a133.62,133.62,0,0,0,8.53-49.43l-.41-22-44,.82.41,22a89.07,89.07,0,0,1-3.42,26.15L54,114l-22,38.1,53.05,30.64a89.27,89.27,0,0,1-20.93,16L44.87,209.37l21.28,38.51L85.4,237.24a133.42,133.42,0,0,0,38.54-32.1L212,256l-88.07,50.86a133.42,133.42,0,0,0-38.54-32.1L66.15,264.12,44.87,302.63l19.25,10.64a89.27,89.27,0,0,1,20.93,16L32,360l22,38.1,53.05-30.63a89.07,89.07,0,0,1,3.42,26.15l-.41,22,44,.82.41-22A133.62,133.62,0,0,0,145.93,345L234,294.11V395.82a133.52,133.52,0,0,0-47.06,17.33L168.1,424.5l22.71,37.69,18.84-11.35A89.5,89.5,0,0,1,234,440.73V496h44V440.73a89.5,89.5,0,0,1,24.35,10.11l18.84,11.35L343.9,424.5l-18.84-11.35A133.52,133.52,0,0,0,278,395.82V294.11L366.07,345a133.62,133.62,0,0,0-8.53,49.43l.41,22,44-.82-.41-22A89.07,89.07,0,0,1,405,367.42L458,398.05,480,360,427,329.31A89.27,89.27,0,0,1,447.88,313.27Z",
             }
+            
         }
     }
 }
@@ -55410,11 +60038,15 @@ impl IconShape for IoSnow {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M461,349l-34-19.64a89.53,89.53,0,0,1,20.94-16,22,22,0,0,0-21.28-38.51,133.62,133.62,0,0,0-38.55,32.1L300,256l88.09-50.86a133.46,133.46,0,0,0,38.55,32.1,22,22,0,1,0,21.28-38.51,89.74,89.74,0,0,1-20.94-16l34-19.64A22,22,0,1,0,439,125l-34,19.63a89.74,89.74,0,0,1-3.42-26.15A22,22,0,0,0,380,96h-.41a22,22,0,0,0-22,21.59A133.61,133.61,0,0,0,366.09,167L278,217.89V116.18a133.5,133.5,0,0,0,47.07-17.33,22,22,0,0,0-22.71-37.69A89.56,89.56,0,0,1,278,71.27V38a22,22,0,0,0-44,0V71.27a89.56,89.56,0,0,1-24.36-10.11,22,22,0,1,0-22.71,37.69A133.5,133.5,0,0,0,234,116.18V217.89L145.91,167a133.61,133.61,0,0,0,8.52-49.43,22,22,0,0,0-22-21.59H132a22,22,0,0,0-21.59,22.41A89.74,89.74,0,0,1,107,144.58L73,125a22,22,0,1,0-22,38.1l34,19.64a89.74,89.74,0,0,1-20.94,16,22,22,0,1,0,21.28,38.51,133.62,133.62,0,0,0,38.55-32.1L212,256l-88.09,50.86a133.62,133.62,0,0,0-38.55-32.1,22,22,0,1,0-21.28,38.51,89.74,89.74,0,0,1,20.94,16L51,349a22,22,0,1,0,22,38.1l34-19.63a89.74,89.74,0,0,1,3.42,26.15A22,22,0,0,0,132,416h.41a22,22,0,0,0,22-21.59A133.61,133.61,0,0,0,145.91,345L234,294.11V395.82a133.5,133.5,0,0,0-47.07,17.33,22,22,0,1,0,22.71,37.69A89.56,89.56,0,0,1,234,440.73V474a22,22,0,0,0,44,0V440.73a89.56,89.56,0,0,1,24.36,10.11,22,22,0,0,0,22.71-37.69A133.5,133.5,0,0,0,278,395.82V294.11L366.09,345a133.61,133.61,0,0,0-8.52,49.43,22,22,0,0,0,22,21.59H380a22,22,0,0,0,21.59-22.41A89.74,89.74,0,0,1,405,367.42l34,19.63A22,22,0,1,0,461,349Z",
             }
+            
         }
     }
 }
@@ -55449,6 +60081,9 @@ impl IconShape for IoSparklesOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -55472,6 +60107,7 @@ impl IconShape for IoSparklesOutline {
                 stroke_linejoin: "round",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -55506,6 +60142,9 @@ impl IconShape for IoSparklesSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -55517,6 +60156,7 @@ impl IconShape for IoSparklesSharp {
             path {
                 d: "M400,256l-31.11-80.89L288,144l80.89-31.11L400,32l31.11,80.89L512,144l-80.89,31.11Z",
             }
+            
         }
     }
 }
@@ -55551,6 +60191,9 @@ impl IconShape for IoSparkles {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -55562,6 +60205,7 @@ impl IconShape for IoSparkles {
             path {
                 d: "M400,256a16,16,0,0,1-14.93-10.26l-22.84-59.37a8,8,0,0,0-4.6-4.6l-59.37-22.84a16,16,0,0,1,0-29.86l59.37-22.84a8,8,0,0,0,4.6-4.6L384.9,42.68a16.45,16.45,0,0,1,13.17-10.57,16,16,0,0,1,16.86,10.15l22.84,59.37a8,8,0,0,0,4.6,4.6l59.37,22.84a16,16,0,0,1,0,29.86l-59.37,22.84a8,8,0,0,0-4.6,4.6l-22.84,59.37A16,16,0,0,1,400,256Z",
             }
+            
         }
     }
 }
@@ -55595,6 +60239,9 @@ impl IconShape for IoSpeedometerOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -55640,6 +60287,7 @@ impl IconShape for IoSpeedometerOutline {
                 y1: "197.49",
                 y2: "174.86",
             }
+            
         }
     }
 }
@@ -55674,11 +60322,15 @@ impl IconShape for IoSpeedometerSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C123.46,48,16,156.55,16,290.56A243.3,243.3,0,0,0,76.32,451.43c1.18,1.3,2.25,2.6,3.43,3.79C89.2,464,92.07,464,99.57,464s12.43,0,19.93-8.88C152,416.64,202,400,256,400s104.07,16.71,136.5,55.12C400,464,404.82,464,412.43,464s11.3,0,19.82-8.78c1.22-1.25,2.25-2.49,3.43-3.79A243.3,243.3,0,0,0,496,290.56C496,156.55,388.54,48,256,48Zm-16,64h32v64H240ZM144,304H80V272h64Zm21.49-83.88-45.25-45.26,22.62-22.62,45.26,45.25ZM278.6,307.4a31,31,0,0,1-7,7,30.11,30.11,0,0,1-35-49L320,224Zm45.28-109.91,45.26-45.25,22.62,22.62-45.25,45.26ZM432,304H368V272h64Z",
             }
+            
         }
     }
 }
@@ -55713,11 +60365,15 @@ impl IconShape for IoSpeedometer {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M425.7,118.25A240,240,0,0,0,76.32,447l.18.2c.33.35.64.71,1,1.05.74.84,1.58,1.79,2.57,2.78a41.17,41.17,0,0,0,60.36-.42,157.13,157.13,0,0,1,231.26,0,41.18,41.18,0,0,0,60.65.06l3.21-3.5.18-.2a239.93,239.93,0,0,0-10-328.76ZM240,128a16,16,0,0,1,32,0v32a16,16,0,0,1-32,0ZM128,304H96a16,16,0,0,1,0-32h32a16,16,0,0,1,0,32Zm48.8-95.2a16,16,0,0,1-22.62,0l-22.63-22.62a16,16,0,0,1,22.63-22.63l22.62,22.63A16,16,0,0,1,176.8,208.8Zm149.3,23.1-47.5,75.5a31,31,0,0,1-7,7,30.11,30.11,0,0,1-35-49l75.5-47.5a10.23,10.23,0,0,1,11.7,0A10.06,10.06,0,0,1,326.1,231.9Zm31.72-23.1a16,16,0,0,1-22.62-22.62l22.62-22.63a16,16,0,0,1,22.63,22.63ZM423.7,436.4h0ZM416,304H384a16,16,0,0,1,0-32h32a16,16,0,0,1,0,32Z",
             }
+            
         }
     }
 }
@@ -55752,12 +60408,16 @@ impl IconShape for IoSquareOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M416,448H96a32.09,32.09,0,0,1-32-32V96A32.09,32.09,0,0,1,96,64H416a32.09,32.09,0,0,1,32,32V416A32.09,32.09,0,0,1,416,448Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -55792,6 +60452,9 @@ impl IconShape for IoSquareSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -55800,6 +60463,7 @@ impl IconShape for IoSquareSharp {
                 x: "48",
                 y: "48",
             }
+            
         }
     }
 }
@@ -55834,11 +60498,15 @@ impl IconShape for IoSquare {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M416,464H96a48.05,48.05,0,0,1-48-48V96A48.05,48.05,0,0,1,96,48H416a48.05,48.05,0,0,1,48,48V416A48.05,48.05,0,0,1,416,464Z",
             }
+            
         }
     }
 }
@@ -55873,6 +60541,9 @@ impl IconShape for IoStarHalfOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -55882,6 +60553,7 @@ impl IconShape for IoStarHalfOutline {
             polygon {
                 points: "256 48 256 364 118 464 172 304 32 208 204 208 256 48",
             }
+            
         }
     }
 }
@@ -55916,11 +60588,15 @@ impl IconShape for IoStarHalfSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M496,203.3H312.36L256,32,199.64,203.3H16L166.21,308.7,107.71,480,256,373.84,404.29,480,345.68,308.7ZM274.63,347.82,256,334.49V134.39l26,78.91,7.24,22H394.63l-67.32,47.2-19.69,13.81,7.78,22.75,26.26,76.75Z",
             }
+            
         }
     }
 }
@@ -55955,6 +60631,9 @@ impl IconShape for IoStarHalf {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -55964,6 +60643,7 @@ impl IconShape for IoStarHalf {
             polygon {
                 points: "256 48 256 364 118 464 172 304 32 208 204 208 256 48",
             }
+            
         }
     }
 }
@@ -55998,12 +60678,16 @@ impl IconShape for IoStarOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M480,208H308L256,48,204,208H32l140,96L118,464,256,364,394,464,340,304Z",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -56038,11 +60722,15 @@ impl IconShape for IoStarSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M496,203.3H312.36L256,32,199.64,203.3H16L166.21,308.7,107.71,480,256,373.84,404.29,480,345.68,308.7Z",
             }
+            
         }
     }
 }
@@ -56077,11 +60765,15 @@ impl IconShape for IoStar {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M394,480a16,16,0,0,1-9.39-3L256,383.76,127.39,477a16,16,0,0,1-24.55-18.08L153,310.35,23,221.2A16,16,0,0,1,32,192H192.38l48.4-148.95a16,16,0,0,1,30.44,0l48.4,149H480a16,16,0,0,1,9.05,29.2L359,310.35l50.13,148.53A16,16,0,0,1,394,480Z",
             }
+            
         }
     }
 }
@@ -56115,6 +60807,9 @@ impl IconShape for IoStatsChartOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -56154,6 +60849,7 @@ impl IconShape for IoStatsChartOutline {
                 x: "176",
                 y: "32",
             }
+            
         }
     }
 }
@@ -56188,6 +60884,9 @@ impl IconShape for IoStatsChartSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -56202,6 +60901,7 @@ impl IconShape for IoStatsChartSharp {
             path {
                 d: "M240,496H160V16h80Z",
             }
+            
         }
     }
 }
@@ -56236,6 +60936,9 @@ impl IconShape for IoStatsChart {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -56250,6 +60953,7 @@ impl IconShape for IoStatsChart {
             path {
                 d: "M216,496H184a24,24,0,0,1-24-24V40a24,24,0,0,1,24-24h32a24,24,0,0,1,24,24V472A24,24,0,0,1,216,496Z",
             }
+            
         }
     }
 }
@@ -56284,6 +60988,9 @@ impl IconShape for IoStopCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -56293,6 +61000,7 @@ impl IconShape for IoStopCircleOutline {
             path {
                 d: "M310.4,336H201.6A25.62,25.62,0,0,1,176,310.4V201.6A25.62,25.62,0,0,1,201.6,176H310.4A25.62,25.62,0,0,1,336,201.6V310.4A25.62,25.62,0,0,1,310.4,336Z",
             }
+            
         }
     }
 }
@@ -56327,11 +61035,15 @@ impl IconShape for IoStopCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm80,288H176V176H336Z",
             }
+            
         }
     }
 }
@@ -56366,11 +61078,15 @@ impl IconShape for IoStopCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.31,48,48,141.31,48,256s93.31,208,208,208,208-93.31,208-208S370.69,48,256,48Zm80,262.4A25.62,25.62,0,0,1,310.4,336H201.6A25.62,25.62,0,0,1,176,310.4V201.6A25.62,25.62,0,0,1,201.6,176H310.4A25.62,25.62,0,0,1,336,201.6Z",
             }
+            
         }
     }
 }
@@ -56405,6 +61121,9 @@ impl IconShape for IoStopOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -56416,6 +61135,7 @@ impl IconShape for IoStopOutline {
                 x: "96",
                 y: "96",
             }
+            
         }
     }
 }
@@ -56450,6 +61170,9 @@ impl IconShape for IoStopSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -56458,6 +61181,7 @@ impl IconShape for IoStopSharp {
                 x: "80",
                 y: "80",
             }
+            
         }
     }
 }
@@ -56492,11 +61216,15 @@ impl IconShape for IoStop {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M392,432H120a40,40,0,0,1-40-40V120a40,40,0,0,1,40-40H392a40,40,0,0,1,40,40V392A40,40,0,0,1,392,432Z",
             }
+            
         }
     }
 }
@@ -56531,6 +61259,9 @@ impl IconShape for IoStopwatchOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -56564,6 +61295,7 @@ impl IconShape for IoStopwatchOutline {
                 d: "M256,96A176,176,0,1,0,432,272,176,176,0,0,0,256,96Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -56598,11 +61330,15 @@ impl IconShape for IoStopwatchSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M280,81.5V48H232V81.5a191,191,0,0,0-84.43,32.13L120,86,86,120l25.59,25.59A191.17,191.17,0,0,0,64,272c0,105.87,86.13,192,192,192s192-86.13,192-192C448,174.26,374.58,93.34,280,81.5ZM256,320a48,48,0,0,1-16-93.25V136h32v90.75A48,48,0,0,1,256,320Z",
             }
+            
         }
     }
 }
@@ -56637,6 +61373,9 @@ impl IconShape for IoStopwatch {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -56647,6 +61386,7 @@ impl IconShape for IoStopwatch {
             path {
                 d: "M280,81.5V72a24,24,0,0,0-48,0v9.5a191,191,0,0,0-84.43,32.13L137,103A24,24,0,0,0,103,137l8.6,8.6A191.17,191.17,0,0,0,64,272c0,105.87,86.13,192,192,192s192-86.13,192-192C448,174.26,374.58,93.34,280,81.5ZM256,320a48,48,0,0,1-16-93.25V152a16,16,0,0,1,32,0v74.75A48,48,0,0,1,256,320Z",
             }
+            
         }
     }
 }
@@ -56680,6 +61420,9 @@ impl IconShape for IoStorefrontOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -56734,6 +61477,7 @@ impl IconShape for IoStorefrontOutline {
                 stroke_linejoin: "round",
                 stroke_width: "32",
             }
+            
         }
     }
 }
@@ -56768,6 +61512,9 @@ impl IconShape for IoStorefrontSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -56776,6 +61523,7 @@ impl IconShape for IoStorefrontSharp {
             path {
                 d: "M492.57,170.28,445.89,64C432,32,432,32,400,32H112c-32,0-32,0-45.94,32L19.38,170.28c-9,19.41,2.89,39.34,2.9,39.35l.41.66c.42.66,1.13,1.75,1.62,2.37.1.13.19.27.28.4l5.24,6.39,5.31,5.14.42.36A69.65,69.65,0,0,0,45,231.73v.05a74,74,0,0,0,36,10.67c.82,0,1.64,0,2.47,0a76.08,76.08,0,0,0,51.89-20.31,72.38,72.38,0,0,0,5.77-6,74.18,74.18,0,0,0,5.78,6,76.08,76.08,0,0,0,51.89,20.31c23.28,0,44.07-10,57.63-25.56a.11.11,0,0,1,.15,0l5.66,5.26a76.09,76.09,0,0,0,51.9,20.31c23.29,0,44.11-10,57.66-25.61,13.56,15.61,34.37,25.61,57.67,25.61l2.49,0a71.35,71.35,0,0,0,35-10.7v0c.95-.57,1.86-1.17,2.78-1.77A71.33,71.33,0,0,0,488,212.17l2-3C490.9,207.13,501.21,188.87,492.57,170.28Z",
             }
+            
         }
     }
 }
@@ -56810,6 +61558,9 @@ impl IconShape for IoStorefront {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -56818,6 +61569,7 @@ impl IconShape for IoStorefront {
             path {
                 d: "M492.57,170.28,449.65,71.79C438.41,47.62,412.74,32,384.25,32H127.7C99.21,32,73.54,47.62,62.3,71.79L19.38,170.28c-9,19.41,2.89,39.34,2.9,39.35l.28.45c.49.78,1.36,2,1.89,2.78.05.06.09.13.14.2l5,6.05a7.45,7.45,0,0,0,.6.65l5,4.83.42.36A69.65,69.65,0,0,0,45,231.73v.05a74,74,0,0,0,36,10.67c.82,0,1.64,0,2.47,0a76.08,76.08,0,0,0,51.89-20.31l.33-.31a7.94,7.94,0,0,1,10.89,0l.33.31a77.3,77.3,0,0,0,104.46,0,8,8,0,0,1,10.87,0h0a77.31,77.31,0,0,0,104.21.23,7.88,7.88,0,0,1,10.71,0,76.81,76.81,0,0,0,52.31,20.08l2.49,0a71.35,71.35,0,0,0,35-10.7v0c.95-.57,1.86-1.17,2.78-1.77A71.33,71.33,0,0,0,488,212.17l1.74-2.63q.26-.4.48-.84C491.88,205.32,500.78,187.94,492.57,170.28Z",
             }
+            
         }
     }
 }
@@ -56851,6 +61603,9 @@ impl IconShape for IoSubwayOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -56912,6 +61667,7 @@ impl IconShape for IoSubwayOutline {
                 y1: "432",
                 y2: "480",
             }
+            
         }
     }
 }
@@ -56946,6 +61702,9 @@ impl IconShape for IoSubwaySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -56954,6 +61713,7 @@ impl IconShape for IoSubwaySharp {
             polygon {
                 points: "298 416 329.37 448 182.63 448 214 416 170 416 89.43 496 134.63 496 150.63 480 361.37 480 377.37 496 422.67 496 343 416 298 416",
             }
+            
         }
     }
 }
@@ -56988,6 +61748,9 @@ impl IconShape for IoSubway {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -56996,6 +61759,7 @@ impl IconShape for IoSubway {
             path {
                 d: "M347.31,420.69a16,16,0,0,0-22.62,22.62l4.68,4.69H182.63l4.68-4.69a16,16,0,0,0-22.62-22.62l-48,48a16,16,0,1,0,22.62,22.62L150.63,480H361.37l11.32,11.31a16,16,0,0,0,22.62-22.62Z",
             }
+            
         }
     }
 }
@@ -57029,6 +61793,9 @@ impl IconShape for IoSunnyOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -57094,6 +61861,7 @@ impl IconShape for IoSunnyOutline {
                 r: "80",
                 style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -57127,6 +61895,9 @@ impl IconShape for IoSunnySharp {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -57185,6 +61956,7 @@ impl IconShape for IoSunnySharp {
             path {
                 d: "M256,358A102,102,0,1,1,358,256,102.12,102.12,0,0,1,256,358Z",
             }
+            
         }
     }
 }
@@ -57219,6 +61991,9 @@ impl IconShape for IoSunny {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -57248,6 +62023,7 @@ impl IconShape for IoSunny {
             path {
                 d: "M256,358A102,102,0,1,1,358,256,102.12,102.12,0,0,1,256,358Z",
             }
+            
         }
     }
 }
@@ -57282,6 +62058,9 @@ impl IconShape for IoSwapHorizontalOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -57306,6 +62085,7 @@ impl IconShape for IoSwapHorizontalOutline {
                 y1: "352",
                 y2: "352",
             }
+            
         }
     }
 }
@@ -57340,6 +62120,9 @@ impl IconShape for IoSwapHorizontalSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -57364,6 +62147,7 @@ impl IconShape for IoSwapHorizontalSharp {
                 y1: "352",
                 y2: "352",
             }
+            
         }
     }
 }
@@ -57398,6 +62182,9 @@ impl IconShape for IoSwapHorizontal {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -57422,6 +62209,7 @@ impl IconShape for IoSwapHorizontal {
                 y1: "352",
                 y2: "352",
             }
+            
         }
     }
 }
@@ -57456,6 +62244,9 @@ impl IconShape for IoSwapVerticalOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -57480,6 +62271,7 @@ impl IconShape for IoSwapVerticalOutline {
                 y1: "398",
                 y2: "96",
             }
+            
         }
     }
 }
@@ -57514,6 +62306,9 @@ impl IconShape for IoSwapVerticalSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -57538,6 +62333,7 @@ impl IconShape for IoSwapVerticalSharp {
                 y1: "398",
                 y2: "96",
             }
+            
         }
     }
 }
@@ -57572,6 +62368,9 @@ impl IconShape for IoSwapVertical {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -57596,6 +62395,7 @@ impl IconShape for IoSwapVertical {
                 y1: "398",
                 y2: "96",
             }
+            
         }
     }
 }
@@ -57630,6 +62430,9 @@ impl IconShape for IoSyncCircleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -57648,6 +62451,7 @@ impl IconShape for IoSyncCircleOutline {
                 points: "376.13 256 352.54 279.6 327.87 256",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -57682,11 +62486,15 @@ impl IconShape for IoSyncCircleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48Zm0,320a112.19,112.19,0,0,1-111.27-98.23l-8.86,8.86L113.24,256l46-46,47.55,45.48-22.12,23.12-7.2-6.88a80.26,80.26,0,0,0,138.48,37.5l23.77,21.41A112.82,112.82,0,0,1,256,368Zm96.79-66L305.24,256.5l22.12-23.12,6.86,6.55A80.2,80.2,0,0,0,196,202.64l-23.82-21.37A112.18,112.18,0,0,1,367,242.49l9.11-9.12L398.76,256Z",
             }
+            
         }
     }
 }
@@ -57721,11 +62529,15 @@ impl IconShape for IoSyncCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48Zm83.69,282.65a112.24,112.24,0,0,1-195-61.29,16,16,0,0,1-20.13-24.67l23.6-23.6a16,16,0,0,1,22.37-.25l24.67,23.6a16,16,0,0,1-18,26,80.25,80.25,0,0,0,138.72,38.83,16,16,0,0,1,23.77,21.41Zm47.76-63.34-23.6,23.6a16,16,0,0,1-22.37.25l-24.67-23.6a16,16,0,0,1,17.68-26.11A80.17,80.17,0,0,0,196,202.64a16,16,0,1,1-23.82-21.37,112.17,112.17,0,0,1,194.88,61.57,16,16,0,0,1,20.39,24.47Z",
             }
+            
         }
     }
 }
@@ -57760,6 +62572,9 @@ impl IconShape for IoSyncOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -57774,6 +62589,7 @@ impl IconShape for IoSyncOutline {
                 points: "480 256 436 300 390 256",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -57808,6 +62624,9 @@ impl IconShape for IoSyncSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -57822,6 +62641,7 @@ impl IconShape for IoSyncSharp {
                 points: "480 256 436 300 390 256",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -57856,6 +62676,9 @@ impl IconShape for IoSync {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-b"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -57870,6 +62693,7 @@ impl IconShape for IoSync {
                 points: "480 256 436 300 390 256",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -57904,6 +62728,9 @@ impl IconShape for IoTabletLandscapeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -57916,6 +62743,7 @@ impl IconShape for IoTabletLandscapeOutline {
                 x: "80",
                 y: "16",
             }
+            
         }
     }
 }
@@ -57950,11 +62778,15 @@ impl IconShape for IoTabletLandscapeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M0,82V430a18,18,0,0,0,18,18H494a18,18,0,0,0,18-18V82a18,18,0,0,0-18-18H18A18,18,0,0,0,0,82ZM448,412H64V100H448Z",
             }
+            
         }
     }
 }
@@ -57989,6 +62821,9 @@ impl IconShape for IoTabletLandscape {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -57997,6 +62832,7 @@ impl IconShape for IoTabletLandscape {
             path {
                 d: "M0,128A64.07,64.07,0,0,1,64,64H448a64.07,64.07,0,0,1,64,64V384a64.07,64.07,0,0,1-64,64H64A64.07,64.07,0,0,1,0,384V128M480,384V128a32,32,0,0,0-32-32H64a32,32,0,0,0-32,32V384a32,32,0,0,0,32,32H448a32,32,0,0,0,32-32m-16,0a16,16,0,0,1-16,16H64a16,16,0,0,1-16-16V128a16,16,0,0,1,16-16H448a16,16,0,0,1,16,16V384Z",
             }
+            
         }
     }
 }
@@ -58031,6 +62867,9 @@ impl IconShape for IoTabletPortraitOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -58042,6 +62881,7 @@ impl IconShape for IoTabletPortraitOutline {
                 x: "80",
                 y: "16",
             }
+            
         }
     }
 }
@@ -58076,11 +62916,15 @@ impl IconShape for IoTabletPortraitSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M430,0H82A18,18,0,0,0,64,18V494a18,18,0,0,0,18,18H430a18,18,0,0,0,18-18V18A18,18,0,0,0,430,0ZM100,448V64H412V448Z",
             }
+            
         }
     }
 }
@@ -58115,6 +62959,9 @@ impl IconShape for IoTabletPortrait {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -58123,6 +62970,7 @@ impl IconShape for IoTabletPortrait {
             path {
                 d: "M384,0a64.07,64.07,0,0,1,64,64V448a64.07,64.07,0,0,1-64,64H128a64.07,64.07,0,0,1-64-64V64A64.07,64.07,0,0,1,128,0H384M128,480H384a32,32,0,0,0,32-32V64a32,32,0,0,0-32-32H128A32,32,0,0,0,96,64V448a32,32,0,0,0,32,32m0-16a16,16,0,0,1-16-16V64a16,16,0,0,1,16-16H384a16,16,0,0,1,16,16V448a16,16,0,0,1-16,16Z",
             }
+            
         }
     }
 }
@@ -58156,6 +63004,9 @@ impl IconShape for IoTelescopeOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -58200,6 +63051,7 @@ impl IconShape for IoTelescopeOutline {
                 y1: "256.02",
                 y2: "448",
             }
+            
         }
     }
 }
@@ -58234,6 +63086,9 @@ impl IconShape for IoTelescopeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -58245,6 +63100,7 @@ impl IconShape for IoTelescopeSharp {
             path {
                 d: "M262.08,96c24.81,42.23,60.25,104.25,86.4,148.76L510.79,151,424.07,1.41Z",
             }
+            
         }
     }
 }
@@ -58279,6 +63135,9 @@ impl IconShape for IoTelescope {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -58290,6 +63149,7 @@ impl IconShape for IoTelescope {
             path {
                 d: "M490.21,115.74,444.09,36a40.08,40.08,0,0,0-54.63-14.62L296.12,75.16a39.69,39.69,0,0,0-18.65,24.28,32.76,32.76,0,0,0-1.27,13.25c1.74,12.62,13,30.4,26.41,53.89,13.58,23.73,28.91,50.48,36.93,56.27a40.18,40.18,0,0,0,23.18,7.37,39.77,39.77,0,0,0,19.92-5.34L476,171.07a39.72,39.72,0,0,0,18.79-24.84A41,41,0,0,0,490.21,115.74Z",
             }
+            
         }
     }
 }
@@ -58324,6 +63184,9 @@ impl IconShape for IoTennisballOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -58340,6 +63203,7 @@ impl IconShape for IoTennisballOutline {
                 d: "M49.65,240.56S58.84,240,64,240c114.88,0,208,93.12,208,208,0,5.38-.61,14-.61,14",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -58374,6 +63238,9 @@ impl IconShape for IoTennisballSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -58385,6 +63252,7 @@ impl IconShape for IoTennisballSharp {
             path {
                 d: "M443.17,250.15A181.72,181.72,0,0,0,480,246.39,224.2,224.2,0,0,0,265.61,32a181.72,181.72,0,0,0-3.76,36.83C261.85,168.81,343.19,250.15,443.17,250.15Z",
             }
+            
         }
     }
 }
@@ -58419,6 +63287,9 @@ impl IconShape for IoTennisball {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -58430,6 +63301,7 @@ impl IconShape for IoTennisball {
             path {
                 d: "M289.61,222.39A222.53,222.53,0,0,1,224,64a226.07,226.07,0,0,1,2-30A224.1,224.1,0,0,0,34,226a226.07,226.07,0,0,1,30-2,222.53,222.53,0,0,1,158.39,65.61A222.53,222.53,0,0,1,288,448c0,5.74-.22,11.53-.65,17.22q-.5,6.42-1.36,12.79A224.12,224.12,0,0,0,478,286a226.07,226.07,0,0,1-30,2A222.53,222.53,0,0,1,289.61,222.39Z",
             }
+            
         }
     }
 }
@@ -58464,6 +63336,9 @@ impl IconShape for IoTerminalOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -58486,6 +63361,7 @@ impl IconShape for IoTerminalOutline {
                 y1: "240",
                 y2: "240",
             }
+            
         }
     }
 }
@@ -58520,11 +63396,15 @@ impl IconShape for IoTerminalSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M16,44V468a12,12,0,0,0,12,12H484a12,12,0,0,0,12-12V44a12,12,0,0,0-12-12H28A12,12,0,0,0,16,44ZM73.51,237.5,150.39,176,73.51,114.5l20-25L201.61,176,93.5,262.49ZM272,256H176V224h96Z",
             }
+            
         }
     }
 }
@@ -58559,11 +63439,15 @@ impl IconShape for IoTerminal {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M432,32H80A64.07,64.07,0,0,0,16,96V416a64.07,64.07,0,0,0,64,64H432a64.07,64.07,0,0,0,64-64V96A64.07,64.07,0,0,0,432,32ZM96,256a16,16,0,0,1-10-28.49L150.39,176,86,124.49a16,16,0,1,1,20-25l80,64a16,16,0,0,1,0,25l-80,64A16,16,0,0,1,96,256Zm160,0H192a16,16,0,0,1,0-32h64a16,16,0,0,1,0,32Z",
             }
+            
         }
     }
 }
@@ -58598,6 +63482,9 @@ impl IconShape for IoTextOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -58619,6 +63506,7 @@ impl IconShape for IoTextOutline {
                 d: "M320,358.5c0,36,26.86,58,60,58,54,0,100-27,100-106v-15c-20,0-58,1-92,5C355.23,304.36,320,319.5,320,358.5Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -58653,6 +63541,9 @@ impl IconShape for IoTextSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -58661,6 +63552,7 @@ impl IconShape for IoTextSharp {
             path {
                 d: "M93.25,325.87h125.5L260.94,438H308L155,48,4,438H51.06ZM156,160.71,202.25,282h-92.5Z",
             }
+            
         }
     }
 }
@@ -58695,6 +63587,9 @@ impl IconShape for IoText {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -58703,6 +63598,7 @@ impl IconShape for IoText {
             path {
                 d: "M400.77,169.5c-41.72-.3-79.08,23.87-95,61.4a22,22,0,0,0,40.5,17.2c8.88-20.89,29.77-34.44,53.32-34.6C431.91,213.28,458,240,458,272.35h0a1.5,1.5,0,0,1-1.45,1.5c-21.92.61-47.92,2.07-71.12,4.8C330.68,285.09,298,314.94,298,358.5c0,23.19,8.76,44,24.67,58.68C337.6,430.93,358,438.5,380,438.5c31,0,57.69-8,77.94-23.22,0,0,.06,0,.06,0h0a22,22,0,1,0,44,.19v-143C502,216.29,457,169.91,400.77,169.5ZM380,394.5c-17.53,0-38-9.43-38-36,0-10.67,3.83-18.14,12.43-24.23,8.37-5.93,21.2-10.16,36.14-11.92,21.12-2.49,44.82-3.86,65.14-4.47a2,2,0,0,1,2,2.1C455,370.1,429.46,394.5,380,394.5Z",
             }
+            
         }
     }
 }
@@ -58737,6 +63633,9 @@ impl IconShape for IoThermometerOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -58755,6 +63654,7 @@ impl IconShape for IoThermometerOutline {
                 cy: "384",
                 r: "48",
             }
+            
         }
     }
 }
@@ -58789,11 +63689,15 @@ impl IconShape for IoThermometerSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M320,291.24V80a64,64,0,1,0-128,0V291.24A113.39,113.39,0,0,0,144,384a112,112,0,0,0,224,0A113.39,113.39,0,0,0,320,291.24ZM256,432a48,48,0,0,1-16-93.26V96h32V338.74A48,48,0,0,1,256,432Z",
             }
+            
         }
     }
 }
@@ -58828,11 +63732,15 @@ impl IconShape for IoThermometer {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M320,287.18V81c0-35.12-27.89-64.42-63-64.95a64.08,64.08,0,0,0-65,64V287.18a8,8,0,0,1-3.18,6.37A113.48,113.48,0,0,0,144,384a112,112,0,0,0,224,0,113.48,113.48,0,0,0-44.82-90.45A8,8,0,0,1,320,287.18ZM254.07,432a48,48,0,0,1-22-89.54,16,16,0,0,0,8-13.84V112.45c0-8.61,6.62-16,15.23-16.43A16,16,0,0,1,272,112V328.58a16.18,16.18,0,0,0,8.15,13.94A48,48,0,0,1,254.07,432Z",
             }
+            
         }
     }
 }
@@ -58867,6 +63775,9 @@ impl IconShape for IoThumbsDownOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -58889,6 +63800,7 @@ impl IconShape for IoThumbsDownOutline {
                 d: "M80,112l96,2c19,.84,32,12.4,32,30h0c0,17.6-13,28.84-32,30l-96,2a32.09,32.09,0,0,1-32-32h0A32.09,32.09,0,0,1,80,112Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -58923,6 +63835,9 @@ impl IconShape for IoThumbsDownSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -58939,6 +63854,7 @@ impl IconShape for IoThumbsDownSharp {
             path {
                 d: "M372.66,279.16l-1,2a16.29,16.29,0,0,1,6.77-7.26A16.48,16.48,0,0,0,372.66,279.16Z",
             }
+            
         }
     }
 }
@@ -58973,6 +63889,9 @@ impl IconShape for IoThumbsDown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -58992,6 +63911,7 @@ impl IconShape for IoThumbsDown {
             path {
                 d: "M195.94,459.38C205.37,472.67,221,480,240,480a16,16,0,0,0,14.31-8.85c3-6.06,15.25-24,28.19-42.9,18-26.33,40.35-59.08,55.23-84.81l.13-.22c20.48-35.49,30.35-54.94,33.82-62h0l1-2a16.48,16.48,0,0,1,5.79-5.23l0,0A15.93,15.93,0,0,1,386,272h25.32A84.7,84.7,0,0,0,496,187.3V148.7A84.7,84.7,0,0,0,411.31,64H362.52a17.46,17.46,0,0,1-9.58-2.89C330,46.13,286.66,32,240,32c-7.45,0-14.19.14-20.27.38a8,8,0,0,0-6.2,12.68l.1.14C222.2,57.59,224,71,224,80a61.16,61.16,0,0,1-5.19,24.77,17.38,17.38,0,0,0,0,14.06,63.81,63.81,0,0,1,0,50.39,17.32,17.32,0,0,0,0,14,62.13,62.13,0,0,1,0,49.58,18.13,18.13,0,0,0,0,14.68A60.41,60.41,0,0,1,224,273c0,8.2-2,21.3-8,31.18a15.66,15.66,0,0,0-1.14,13.65c.38,1,.76,2.06,1.13,3.17a24.8,24.8,0,0,1,.86,11.57c-3,19.35-9.67,36.3-16.74,54.16-3.08,7.78-6.27,15.82-9.22,24.27C184.75,428.56,186.59,446.2,195.94,459.38Z",
             }
+            
         }
     }
 }
@@ -59026,6 +63946,9 @@ impl IconShape for IoThumbsUpOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -59048,6 +63971,7 @@ impl IconShape for IoThumbsUpOutline {
                 d: "M432,400l-96-2c-19-.84-32-12.4-32-30h0c0-17.6,13-28.84,32-30l96-2a32.09,32.09,0,0,1,32,32h0A32.09,32.09,0,0,1,432,400Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -59082,11 +64006,15 @@ impl IconShape for IoThumbsUpSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M456,192,300,180l23-89.4C329,64,322.22,48.73,300.53,42l-34.69-9.85a4,4,0,0,0-4.4,1.72l-129,202.34a8,8,0,0,1-6.81,3.81H16V448H133.61a48,48,0,0,1,15.18,2.46l76.3,25.43a80,80,0,0,0,25.3,4.11H428.32c19,0,31.5-13.52,35.23-32.16L496,305.58V232C496,209.94,478,194,456,192Z",
             }
+            
         }
     }
 }
@@ -59121,6 +64049,9 @@ impl IconShape for IoThumbsUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -59140,6 +64071,7 @@ impl IconShape for IoThumbsUp {
             path {
                 d: "M316.06,52.62C306.63,39.32,291,32,272,32a16,16,0,0,0-14.31,8.84c-3,6.07-15.25,24-28.19,42.91-18,26.33-40.35,59.07-55.23,84.8l-.13.23c-20.48,35.49-30.35,54.93-33.82,62h0l-1,2a16.35,16.35,0,0,1-5.79,5.22l0,0A15.82,15.82,0,0,1,126,240H100.69A84.69,84.69,0,0,0,16,324.69V363.3A84.69,84.69,0,0,0,100.69,448h48.79a17.55,17.55,0,0,1,9.58,2.89C182,465.87,225.34,480,272,480c7.45,0,14.19-.14,20.27-.38a8,8,0,0,0,6.2-12.68l-.1-.14C289.8,454.41,288,441,288,432a61.2,61.2,0,0,1,5.19-24.77,17.36,17.36,0,0,0,0-14.05,63.81,63.81,0,0,1,0-50.39,17.32,17.32,0,0,0,0-14,62.15,62.15,0,0,1,0-49.59,18.13,18.13,0,0,0,0-14.68A60.33,60.33,0,0,1,288,239c0-8.2,2-21.3,8-31.19a15.63,15.63,0,0,0,1.14-13.64c-.38-1-.76-2.07-1.13-3.17a24.84,24.84,0,0,1-.86-11.58c3-19.34,9.67-36.29,16.74-54.16,3.08-7.78,6.27-15.82,9.22-24.26C327.25,83.43,325.41,65.8,316.06,52.62Z",
             }
+            
         }
     }
 }
@@ -59173,6 +64105,9 @@ impl IconShape for IoThunderstormOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -59212,6 +64147,7 @@ impl IconShape for IoThunderstormOutline {
                 d: "M404.33,152.89H392.2C384.71,84.85,326.14,32,256,32a136.39,136.39,0,0,0-128.63,90.67H122.8c-49.94,0-90.8,40.8-90.8,90.66h0C32,263.2,72.86,304,122.8,304H404.33C446,304,480,270,480,228.44h0C480,186.89,446,152.89,404.33,152.89Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -59246,6 +64182,9 @@ impl IconShape for IoThunderstormSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -59279,6 +64218,7 @@ impl IconShape for IoThunderstormSharp {
                 x: "374.11",
                 y: "432",
             }
+            
         }
     }
 }
@@ -59313,6 +64253,9 @@ impl IconShape for IoThunderstorm {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -59330,6 +64273,7 @@ impl IconShape for IoThunderstorm {
             path {
                 d: "M405.84,136.9A151.25,151.25,0,0,0,358.24,55a153,153,0,0,0-241.81,51.86C60.5,110.16,16,156.65,16,213.33,16,272.15,63.91,320,122.8,320h66.31l-12.89,77.37A16,16,0,0,0,192,416h32v64a16,16,0,0,0,29,9.3l80-112A16,16,0,0,0,320,352H292.49l8-32H404.33a91.56,91.56,0,0,0,1.51-183.1Z",
             }
+            
         }
     }
 }
@@ -59363,6 +64307,9 @@ impl IconShape for IoTicketOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -59412,6 +64359,7 @@ impl IconShape for IoTicketOutline {
                 y1: "278.01",
                 y2: "261.5",
             }
+            
         }
     }
 }
@@ -59446,11 +64394,15 @@ impl IconShape for IoTicketSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M426.24,127.72,415.3,138.66a29.67,29.67,0,0,1-42-42l10.94-10.94L314.52,16l-88,88-4,12.09-12.09,4L16,314.52l69.76,69.76L96.7,373.34a29.67,29.67,0,0,1,42,42l-10.94,10.94L197.48,496l194.4-194.4,4-12.09,12.09-4,88-88Zm-208.56,5.43,21.87-21.87,33,33-21.88,21.87Zm43,43,21.88-21.88,32.52,32.52-21.88,21.88Zm42.56,42.56,21.88-21.88,32.52,32.52L335.8,251.28Zm75.57,75.56-33-33,21.87-21.88,33,33Z",
             }
+            
         }
     }
 }
@@ -59485,11 +64437,15 @@ impl IconShape for IoTicket {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M490.18,181.4l-44.13-44.13a20,20,0,0,0-27-1,30.81,30.81,0,0,1-41.68-1.6h0A30.81,30.81,0,0,1,375.77,93a20,20,0,0,0-1-27L330.6,21.82a19.91,19.91,0,0,0-28.13,0L232.12,92.16a39.87,39.87,0,0,0-9.57,15.5,7.71,7.71,0,0,1-4.83,4.83,39.78,39.78,0,0,0-15.5,9.58L21.82,302.47a19.91,19.91,0,0,0,0,28.13L66,374.73a20,20,0,0,0,27,1,30.69,30.69,0,0,1,43.28,43.28,20,20,0,0,0,1,27l44.13,44.13a19.91,19.91,0,0,0,28.13,0l180.4-180.4a39.82,39.82,0,0,0,9.58-15.49,7.69,7.69,0,0,1,4.84-4.84,39.84,39.84,0,0,0,15.49-9.57l70.34-70.35A19.91,19.91,0,0,0,490.18,181.4ZM261.81,151.75a16,16,0,0,1-22.63,0l-11.51-11.51a16,16,0,0,1,22.63-22.62l11.51,11.5A16,16,0,0,1,261.81,151.75Zm44,44a16,16,0,0,1-22.62,0l-11-11a16,16,0,1,1,22.63-22.63l11,11A16,16,0,0,1,305.83,195.78Zm44,44a16,16,0,0,1-22.63,0l-11-11a16,16,0,0,1,22.63-22.62l11,11A16,16,0,0,1,349.86,239.8Zm44.43,44.54a16,16,0,0,1-22.63,0l-11.44-11.5a16,16,0,1,1,22.68-22.57l11.45,11.49A16,16,0,0,1,394.29,284.34Z",
             }
+            
         }
     }
 }
@@ -59524,6 +64480,9 @@ impl IconShape for IoTimeOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -59534,6 +64493,7 @@ impl IconShape for IoTimeOutline {
                 points: "256 128 256 272 352 272",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -59568,11 +64528,15 @@ impl IconShape for IoTimeSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256c0,114.69,93.32,208,208,208,114.86,0,208-93.14,208-208C464,141.31,370.69,48,256,48ZM364,288H244a4,4,0,0,1-4-4V116a4,4,0,0,1,4-4h24a4,4,0,0,1,4,4V256h92a4,4,0,0,1,4,4v24A4,4,0,0,1,364,288Z",
             }
+            
         }
     }
 }
@@ -59607,11 +64571,15 @@ impl IconShape for IoTime {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.13,48,48,141.13,48,256s93.13,208,208,208,208-93.13,208-208S370.87,48,256,48Zm96,240H256a16,16,0,0,1-16-16V128a16,16,0,0,1,32,0V256h80a16,16,0,0,1,0,32Z",
             }
+            
         }
     }
 }
@@ -59646,6 +64614,9 @@ impl IconShape for IoTimerOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -59655,6 +64626,7 @@ impl IconShape for IoTimerOutline {
             path {
                 d: "M233.38,278.63l-79-113a8.13,8.13,0,0,1,11.32-11.32l113,79a32.5,32.5,0,0,1-37.25,53.26A33.21,33.21,0,0,1,233.38,278.63Z",
             }
+            
         }
     }
 }
@@ -59689,11 +64661,15 @@ impl IconShape for IoTimerSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.12,48,48,141.12,48,256s93.12,208,208,208,208-93.12,208-208S370.88,48,256,48Zm0,384C159,432,80,353.05,80,256a174.55,174.55,0,0,1,53.87-126.72L279,233l-19,30L135,172c-13,23-26.7,46-26.7,84,0,81.44,66.26,147.7,147.7,147.7S403.7,337.44,403.7,256c0-76.67-58.72-139.88-133.55-147V164h-28.3V79.89c4.24.07,8.94.11,14.15.11C353.05,80,432,159,432,256S353.05,432,256,432Z",
             }
+            
         }
     }
 }
@@ -59728,11 +64704,15 @@ impl IconShape for IoTimer {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,48C141.12,48,48,141.12,48,256s93.12,208,208,208,208-93.12,208-208S370.88,48,256,48ZM173.67,162.34l105,71a32.5,32.5,0,0,1-37.25,53.26,33.21,33.21,0,0,1-8-8l-71-105a8.13,8.13,0,0,1,11.32-11.32ZM256,432C159,432,80,353.05,80,256a174.55,174.55,0,0,1,53.87-126.72,14.15,14.15,0,1,1,19.64,20.37A146.53,146.53,0,0,0,108.3,256c0,81.44,66.26,147.7,147.7,147.7S403.7,337.44,403.7,256c0-76.67-58.72-139.88-133.55-147V164a14.15,14.15,0,1,1-28.3,0V94.15A14.15,14.15,0,0,1,256,80C353.05,80,432,159,432,256S353.05,432,256,432Z",
             }
+            
         }
     }
 }
@@ -59766,6 +64746,9 @@ impl IconShape for IoTodayOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -59820,6 +64803,7 @@ impl IconShape for IoTodayOutline {
                 y1: "160",
                 y2: "160",
             }
+            
         }
     }
 }
@@ -59854,6 +64838,9 @@ impl IconShape for IoTodaySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -59862,6 +64849,7 @@ impl IconShape for IoTodaySharp {
             path {
                 d: "M456,64H400.08V32h-48V64H159.92V32h-48V64H56A23.8,23.8,0,0,0,32,87.77V144H480V87.77A23.8,23.8,0,0,0,456,64Z",
             }
+            
         }
     }
 }
@@ -59896,6 +64884,9 @@ impl IconShape for IoToday {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -59904,6 +64895,7 @@ impl IconShape for IoToday {
             path {
                 d: "M477,176H35a3,3,0,0,0-3,3V416a64,64,0,0,0,64,64H416a64,64,0,0,0,64-64V179A3,3,0,0,0,477,176ZM224,307.43A28.57,28.57,0,0,1,195.43,336H124.57A28.57,28.57,0,0,1,96,307.43V236.57A28.57,28.57,0,0,1,124.57,208h70.86A28.57,28.57,0,0,1,224,236.57Z",
             }
+            
         }
     }
 }
@@ -59938,6 +64930,9 @@ impl IconShape for IoToggleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -59955,6 +64950,7 @@ impl IconShape for IoToggleOutline {
                 x: "16",
                 y: "128",
             }
+            
         }
     }
 }
@@ -59989,11 +64985,15 @@ impl IconShape for IoToggleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M368,112H144a144,144,0,0,0,0,288H368a144,144,0,0,0,0-288Zm0,230a86,86,0,1,1,86-86A85.88,85.88,0,0,1,368,342Z",
             }
+            
         }
     }
 }
@@ -60028,11 +65028,15 @@ impl IconShape for IoToggle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M368,112H144C64.6,112,0,176.6,0,256S64.6,400,144,400H368c79.4,0,144-64.6,144-144S447.4,112,368,112Zm0,256A112,112,0,1,1,480,256,112.12,112.12,0,0,1,368,368Z",
             }
+            
         }
     }
 }
@@ -60067,6 +65071,9 @@ impl IconShape for IoTrailSignOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -60098,6 +65105,7 @@ impl IconShape for IoTrailSignOutline {
                 d: "M96,400H409.37a16,16,0,0,0,11.32-4.69L480,336l-59.31-59.31A16,16,0,0,0,409.37,272H96a16,16,0,0,0-16,16v96A16,16,0,0,0,96,400Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -60132,11 +65140,15 @@ impl IconShape for IoTrailSignSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M502.63,336l-80-80H278V224H448V64H278V32H234V64H89.37l-80,80,80,80H234v32H64V416H234v64h44V416H422.63Z",
             }
+            
         }
     }
 }
@@ -60171,11 +65183,15 @@ impl IconShape for IoTrailSign {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-l"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M491.31,324.69,432,265.37A31.8,31.8,0,0,0,409.37,256H272V224H416a32,32,0,0,0,32-32V96a32,32,0,0,0-32-32H272V48a16,16,0,0,0-32,0V64H102.63A31.8,31.8,0,0,0,80,73.37L20.69,132.69a16,16,0,0,0,0,22.62L80,214.63A31.8,31.8,0,0,0,102.63,224H240v32H96a32,32,0,0,0-32,32v96a32,32,0,0,0,32,32H240v48a16,16,0,0,0,32,0V416H409.37A31.8,31.8,0,0,0,432,406.63l59.31-59.32A16,16,0,0,0,491.31,324.69Z",
             }
+            
         }
     }
 }
@@ -60210,6 +65226,9 @@ impl IconShape for IoTrainOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -60237,6 +65256,7 @@ impl IconShape for IoTrainOutline {
                 y1: "432",
                 y2: "480",
             }
+            
         }
     }
 }
@@ -60271,6 +65291,9 @@ impl IconShape for IoTrainSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -60279,6 +65302,7 @@ impl IconShape for IoTrainSharp {
             polygon {
                 points: "314 432 329.32 448 182.58 448 198 432 166 419 89.38 496 134.58 496 150.58 480 361.32 480 377.32 496 422.62 496 346.26 418.25 314 432",
             }
+            
         }
     }
 }
@@ -60313,6 +65337,9 @@ impl IconShape for IoTrain {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             ellipse {
@@ -60328,6 +65355,7 @@ impl IconShape for IoTrain {
             path {
                 d: "M395.31,468.69,347.63,421c-6.09-6.1-16-6.66-22.38-.86a16,16,0,0,0-.56,23.16l4.68,4.69H182.63l4.36-4.37c6.1-6.09,6.66-16,.86-22.38a16,16,0,0,0-23.16-.56l-48,48a16,16,0,1,0,22.62,22.62L150.63,480H361.37l11.32,11.31a16,16,0,0,0,22.62-22.62Z",
             }
+            
         }
     }
 }
@@ -60361,6 +65389,9 @@ impl IconShape for IoTransgenderOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -60413,6 +65444,7 @@ impl IconShape for IoTransgenderOutline {
                 y1: "464",
                 y2: "346.37",
             }
+            
         }
     }
 }
@@ -60447,11 +65479,15 @@ impl IconShape for IoTransgenderSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M480,448.94l-48.94-49.08L464,366.92l-31.1-31.11L400,368.71,376.45,345.1a149.64,149.64,0,0,0-.1-178.45l59.55-59.56V144h44V32h-112V76h36.87l-59.55,59.55a149.65,149.65,0,0,0-178.59,0L159.08,128l33-33L161,63.88l-33,33L107.09,76H144V32H32V144H76V107.09L96.87,128l-33,33L95,192.05l33-33,7.56,7.57A149.18,149.18,0,0,0,106,255.94c0,82.69,67.27,150,150,150a149.12,149.12,0,0,0,89.44-29.67l23.51,23.58L335.81,432.9,366.92,464l33-33,48.9,49Zm-330-193a106,106,0,1,1,106,106A106.09,106.09,0,0,1,150,255.94Z",
             }
+            
         }
     }
 }
@@ -60486,11 +65522,15 @@ impl IconShape for IoTransgender {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M458,32H390a22,22,0,0,0,0,44h14.89l-59.57,59.57a149.69,149.69,0,0,0-178.64,0L159.11,128l26.45-26.44a22,22,0,0,0-31.12-31.12L128,96.89,107.11,76H122a22,22,0,0,0,0-44H54A22,22,0,0,0,32,54v68a22,22,0,0,0,44,0V107.11L96.89,128,70.47,154.42a22,22,0,1,0,31.11,31.11L128,159.11l7.57,7.57A149.19,149.19,0,0,0,106,256c0,82.71,67.29,150,150,150a149.2,149.2,0,0,0,89.46-29.67L369,399.9l-26.54,26.54a22,22,0,0,0,31.12,31.12l26.49-26.5,42.37,42.48a22,22,0,0,0,31.16-31.08L431.17,400l26.39-26.39a22,22,0,0,0-31.12-31.12l-26.35,26.35-23.55-23.62a149.68,149.68,0,0,0-.11-178.49L436,107.11V122a22,22,0,0,0,44,0V54A22,22,0,0,0,458,32ZM150,256A106,106,0,1,1,256,362,106.12,106.12,0,0,1,150,256Z",
             }
+            
         }
     }
 }
@@ -60525,6 +65565,9 @@ impl IconShape for IoTrashBinOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -60554,6 +65597,7 @@ impl IconShape for IoTrashBinOutline {
                 y1: "352",
                 y2: "240",
             }
+            
         }
     }
 }
@@ -60588,6 +65632,9 @@ impl IconShape for IoTrashBinSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -60609,6 +65656,7 @@ impl IconShape for IoTrashBinSharp {
                 x: "32",
                 y: "48",
             }
+            
         }
     }
 }
@@ -60643,6 +65691,9 @@ impl IconShape for IoTrashBin {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-k"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -60656,6 +65707,7 @@ impl IconShape for IoTrashBin {
             path {
                 d: "M74.45,160a8,8,0,0,0-8,8.83L92.76,421.39a1.5,1.5,0,0,0,0,.22A48,48,0,0,0,140.45,464H371.54a48,48,0,0,0,47.67-42.39l0-.21,26.27-252.57a8,8,0,0,0-8-8.83ZM323.31,340.69a16,16,0,1,1-22.63,22.62L256,318.63l-44.69,44.68a16,16,0,0,1-22.63-22.62L233.37,296l-44.69-44.69a16,16,0,0,1,22.63-22.62L256,273.37l44.68-44.68a16,16,0,0,1,22.63,22.62L278.62,296Z",
             }
+            
         }
     }
 }
@@ -60689,6 +65741,9 @@ impl IconShape for IoTrashOutline {
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -60728,6 +65783,7 @@ impl IconShape for IoTrashOutline {
                 y1: "176",
                 y2: "400",
             }
+            
         }
     }
 }
@@ -60762,6 +65818,9 @@ impl IconShape for IoTrashSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -60775,6 +65834,7 @@ impl IconShape for IoTrashSharp {
             path {
                 d: "M447.55,96H336V48a16,16,0,0,0-16-16H192a16,16,0,0,0-16,16V96H64.45L64,136H97l20.09,314A32,32,0,0,0,149,480H363a32,32,0,0,0,31.93-29.95L415,136h33ZM176,416l-9-256h33l9,256Zm96,0H240V160h32ZM296,96H216V68a4,4,0,0,1,4-4h72a4,4,0,0,1,4,4Zm40,320H303l9-256h33Z",
             }
+            
         }
     }
 }
@@ -60809,6 +65869,9 @@ impl IconShape for IoTrash {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-e"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -60818,6 +65881,7 @@ impl IconShape for IoTrash {
             path {
                 d: "M432,96H336V72a40,40,0,0,0-40-40H216a40,40,0,0,0-40,40V96H80a16,16,0,0,0,0,32H97L116,432.92c1.42,26.85,22,47.08,48,47.08H348c26.13,0,46.3-19.78,48-47L415,128h17a16,16,0,0,0,0-32ZM192.57,416H192a16,16,0,0,1-16-15.43l-8-224a16,16,0,1,1,32-1.14l8,224A16,16,0,0,1,192.57,416ZM272,400a16,16,0,0,1-32,0V176a16,16,0,0,1,32,0ZM304,96H208V72a7.91,7.91,0,0,1,8-8h80a7.91,7.91,0,0,1,8,8Zm32,304.57A16,16,0,0,1,320,416h-.58A16,16,0,0,1,304,399.43l8-224a16,16,0,1,1,32,1.14Z",
             }
+            
         }
     }
 }
@@ -60852,6 +65916,9 @@ impl IconShape for IoTrendingDownOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -60862,6 +65929,7 @@ impl IconShape for IoTrendingDownOutline {
                 d: "M48,144,169.37,265.37a32,32,0,0,0,45.26,0l50.74-50.74a32,32,0,0,1,45.26,0L448,352",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -60896,6 +65964,9 @@ impl IconShape for IoTrendingDownSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -60906,6 +65977,7 @@ impl IconShape for IoTrendingDownSharp {
                 points: "48 144 192 288 288 192 448 352",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -60940,6 +66012,9 @@ impl IconShape for IoTrendingDown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -60950,6 +66025,7 @@ impl IconShape for IoTrendingDown {
                 d: "M48,144,169.37,265.37a32,32,0,0,0,45.26,0l50.74-50.74a32,32,0,0,1,45.26,0L448,352",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -60984,6 +66060,9 @@ impl IconShape for IoTrendingUpOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -60994,6 +66073,7 @@ impl IconShape for IoTrendingUpOutline {
                 d: "M48,368,169.37,246.63a32,32,0,0,1,45.26,0l50.74,50.74a32,32,0,0,0,45.26,0L448,160",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -61028,6 +66108,9 @@ impl IconShape for IoTrendingUpSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -61038,6 +66121,7 @@ impl IconShape for IoTrendingUpSharp {
                 points: "48 368 192 224 288 320 448 160",
                 style: "stroke-linecap:square;stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -61072,6 +66156,9 @@ impl IconShape for IoTrendingUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-c"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -61082,6 +66169,7 @@ impl IconShape for IoTrendingUp {
                 d: "M48,368,169.37,246.63a32,32,0,0,1,45.26,0l50.74,50.74a32,32,0,0,0,45.26,0L448,160",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -61116,12 +66204,16 @@ impl IconShape for IoTriangleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "48 448 256 64 464 448 48 448",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -61156,11 +66248,15 @@ impl IconShape for IoTriangleSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-s"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "256 32 20 464 492 464 256 32",
             }
+            
         }
     }
 }
@@ -61195,11 +66291,15 @@ impl IconShape for IoTriangle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,464H48a16,16,0,0,1-14.07-23.62l208-384a16,16,0,0,1,28.14,0l208,384A16,16,0,0,1,464,464Z",
             }
+            
         }
     }
 }
@@ -61234,6 +66334,9 @@ impl IconShape for IoTrophyOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -61262,6 +66365,7 @@ impl IconShape for IoTrophyOutline {
                 d: "M384,96h80v16c0,55.22-33.55,112-80,112",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -61296,11 +66400,15 @@ impl IconShape for IoTrophySharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M399.9,80s0-27.88,0-48H112V80H32v38c0,32,9.5,62.79,26.76,86.61,13.33,18.4,34.17,31.1,52.91,37.21,5.44,29.29,20.2,57.13,50.19,79.83,22,16.66,48.45,28.87,72.14,33.86V436H160v44H352V436H278V355.51c23.69-5,50.13-17.2,72.14-33.86,30-22.7,44.75-50.54,50.19-79.83,18.74-6.11,39.58-18.81,52.91-37.21C470.5,180.79,480,150,480,118V80ZM94.4,178.8C83.72,164.12,77.23,144.4,76.16,124H112v67.37C108.06,190.23,99.08,185.25,94.4,178.8Zm323.2,0C413,185.41,406,191.38,400,191.38c0-22.4,0-46.29-.05-67.38h35.9C434.77,144.4,428,163.9,417.6,178.8Z",
             }
+            
         }
     }
 }
@@ -61335,11 +66443,15 @@ impl IconShape for IoTrophy {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M464,80H403.9a4,4,0,0,1-4-4c0-4.89,0-9,0-12.08A32,32,0,0,0,367.9,32h0l-223.79.26a32,32,0,0,0-31.94,31.93c0,3.23,0,7.22,0,11.81a4,4,0,0,1-4,4H48A16,16,0,0,0,32,96v16c0,54.53,30,112.45,76.52,125.35a7.82,7.82,0,0,1,5.55,5.9c5.77,26.89,23.52,52.5,51.41,73.61,20.91,15.83,45.85,27.5,68.27,32.48a8,8,0,0,1,6.25,7.8V444a4,4,0,0,1-4,4H176.45c-8.61,0-16,6.62-16.43,15.23A16,16,0,0,0,176,480H335.55c8.61,0,16-6.62,16.43-15.23A16,16,0,0,0,336,448H276a4,4,0,0,1-4-4V357.14a8,8,0,0,1,6.25-7.8c22.42-5,47.36-16.65,68.27-32.48,27.89-21.11,45.64-46.72,51.41-73.61a7.82,7.82,0,0,1,5.55-5.9C450,224.45,480,166.53,480,112V96A16,16,0,0,0,464,80ZM112,198.22a4,4,0,0,1-6,3.45c-10.26-6.11-17.75-15.37-22.14-21.89-11.91-17.69-19-40.67-19.79-63.63a4,4,0,0,1,4-4.15h40a4,4,0,0,1,4,4C112.05,143.45,112,174.87,112,198.22Zm316.13-18.44c-4.39,6.52-11.87,15.78-22.13,21.89a4,4,0,0,1-6-3.46c0-26.51,0-56.63-.05-82.21a4,4,0,0,1,4-4h40a4,4,0,0,1,4,4.15C447.16,139.11,440.05,162.09,428.14,179.78Z",
             }
+            
         }
     }
 }
@@ -61374,6 +66486,9 @@ impl IconShape for IoTvOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -61392,6 +66507,7 @@ impl IconShape for IoTvOutline {
                 y1: "416",
                 y2: "416",
             }
+            
         }
     }
 }
@@ -61426,6 +66542,9 @@ impl IconShape for IoTvSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -61439,6 +66558,7 @@ impl IconShape for IoTvSharp {
                 x: "112",
                 y: "400",
             }
+            
         }
     }
 }
@@ -61473,6 +66593,9 @@ impl IconShape for IoTv {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-f"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -61485,6 +66608,7 @@ impl IconShape for IoTv {
                 y1: "416",
                 y2: "416",
             }
+            
         }
     }
 }
@@ -61519,6 +66643,9 @@ impl IconShape for IoUmbrellaOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -61536,6 +66663,7 @@ impl IconShape for IoUmbrellaOutline {
                 y1: "64",
                 y2: "48",
             }
+            
         }
     }
 }
@@ -61570,6 +66698,9 @@ impl IconShape for IoUmbrellaSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -61581,6 +66712,7 @@ impl IconShape for IoUmbrellaSharp {
             path {
                 d: "M463.14,186.44A224.55,224.55,0,0,0,272,48.57V32H240V48.57A223.58,223.58,0,0,0,32,272v22.52l12.25-11.21a62.63,62.63,0,0,1,81.43-5.88l.22.17c.94.67,1.87,1.36,2.77,2.1q2.09,1.69,4,3.61L144,294.63l11.31-11.32a62.59,62.59,0,0,1,81.4-5.78L240,280V432a16,16,0,0,1-32,0V416H176v16a48,48,0,0,0,96,0V280l3.29-2.47a62.59,62.59,0,0,1,81.4,5.78L368,294.63l11.31-11.32q1.95-1.94,4.05-3.64c.77-.62,1.55-1.21,2.34-1.79l.26-.21c24.63-18.47,60-16.13,81.81,5.64L480,294.51V272A223.62,223.62,0,0,0,463.14,186.44Z",
             }
+            
         }
     }
 }
@@ -61615,11 +66747,15 @@ impl IconShape for IoUmbrella {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-q"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414.39,113.61A222.26,222.26,0,0,0,278.06,49.07a8.09,8.09,0,0,1-6.88-5.62,15.79,15.79,0,0,0-30.36,0,8.09,8.09,0,0,1-6.88,5.62A224,224,0,0,0,32,271.52a16.41,16.41,0,0,0,7.24,13.87,16,16,0,0,0,20.07-2.08,51.89,51.89,0,0,1,73.31-.06,15.94,15.94,0,0,0,22.6.15,62.59,62.59,0,0,1,81.49-5.87h0a8.24,8.24,0,0,1,3.29,6.59V431.54c0,8.6-6.6,16-15.19,16.44A16,16,0,0,1,208,432a16,16,0,0,0-16.29-16c-9,.16-15.9,8.11-15.7,17.1A48.06,48.06,0,0,0,223.38,480c26.88.34,48.62-21.93,48.62-48.81V284.12a8.24,8.24,0,0,1,3.29-6.59h0a62.59,62.59,0,0,1,81.4,5.78,16,16,0,0,0,22.62,0,51.91,51.91,0,0,1,73.38,0,16,16,0,0,0,19.54,2.41A16.4,16.4,0,0,0,480,271.51,222.54,222.54,0,0,0,414.39,113.61Z",
             }
+            
         }
     }
 }
@@ -61654,6 +66790,9 @@ impl IconShape for IoUnlinkOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -61670,6 +66809,7 @@ impl IconShape for IoUnlinkOutline {
                 stroke_linejoin: "round",
                 stroke_width: "36",
             }
+            
         }
     }
 }
@@ -61704,6 +66844,9 @@ impl IconShape for IoUnlinkSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -61720,6 +66863,7 @@ impl IconShape for IoUnlinkSharp {
                 stroke_linejoin: "round",
                 stroke_width: "48",
             }
+            
         }
     }
 }
@@ -61754,6 +66898,9 @@ impl IconShape for IoUnlink {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -61770,6 +66917,7 @@ impl IconShape for IoUnlink {
                 stroke_linejoin: "round",
                 stroke_width: "48",
             }
+            
         }
     }
 }
@@ -61804,6 +66952,9 @@ impl IconShape for IoVideocamOffOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -61837,6 +66988,7 @@ impl IconShape for IoVideocamOffOutline {
                 y1: "416",
                 y2: "80",
             }
+            
         }
     }
 }
@@ -61871,6 +67023,9 @@ impl IconShape for IoVideocamOffSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -61886,6 +67041,7 @@ impl IconShape for IoVideocamOffSharp {
             path {
                 d: "M336,208V128a16,16,0,0,0-16-16H179.63L425.07,357.44,496,400V112Z",
             }
+            
         }
     }
 }
@@ -61920,6 +67076,9 @@ impl IconShape for IoVideocamOff {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -61941,6 +67100,7 @@ impl IconShape for IoVideocamOff {
                 y1: "416",
                 y2: "80",
             }
+            
         }
     }
 }
@@ -61975,6 +67135,9 @@ impl IconShape for IoVideocamOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -61985,6 +67148,7 @@ impl IconShape for IoVideocamOutline {
                 d: "M268,384H84a52.15,52.15,0,0,1-52-52V180a52.15,52.15,0,0,1,52-52H268.48A51.68,51.68,0,0,1,320,179.52V332A52.15,52.15,0,0,1,268,384Z",
                 style: "stroke-miterlimit:10;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -62019,11 +67183,15 @@ impl IconShape for IoVideocamSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M336,208V128a16,16,0,0,0-16-16H32a16,16,0,0,0-16,16V384a16,16,0,0,0,16,16H320a16,16,0,0,0,16-16V304l160,96V112Z",
             }
+            
         }
     }
 }
@@ -62058,6 +67226,9 @@ impl IconShape for IoVideocam {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -62066,6 +67237,7 @@ impl IconShape for IoVideocam {
             path {
                 d: "M268,400H84a68.07,68.07,0,0,1-68-68V180a68.07,68.07,0,0,1,68-68H268.48A67.6,67.6,0,0,1,336,179.52V332A68.07,68.07,0,0,1,268,400Z",
             }
+            
         }
     }
 }
@@ -62100,6 +67272,9 @@ impl IconShape for IoVolumeHighOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -62118,6 +67293,7 @@ impl IconShape for IoVolumeHighOutline {
                 d: "M416,416c30-46,48-91.43,48-160S446,143,416,96",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -62152,6 +67328,9 @@ impl IconShape for IoVolumeHighSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -62169,6 +67348,7 @@ impl IconShape for IoVolumeHighSharp {
             polygon {
                 points: "125.65 176.1 32 176.1 32 335.9 125.65 335.9 256 440 256 72 125.65 176.1",
             }
+            
         }
     }
 }
@@ -62203,6 +67383,9 @@ impl IconShape for IoVolumeHigh {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -62217,6 +67400,7 @@ impl IconShape for IoVolumeHigh {
             path {
                 d: "M416,432a16,16,0,0,1-13.39-24.74C429.85,365.47,448,323.76,448,256c0-66.5-18.18-108.62-45.49-151.39a16,16,0,1,1,27-17.22C459.81,134.89,480,181.74,480,256c0,64.75-14.66,113.63-50.6,168.74A16,16,0,0,1,416,432Z",
             }
+            
         }
     }
 }
@@ -62251,6 +67435,9 @@ impl IconShape for IoVolumeLowOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -62261,6 +67448,7 @@ impl IconShape for IoVolumeLowOutline {
                 d: "M384,320c9.74-19.41,16-40.81,16-64,0-23.51-6-44.4-16-64",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -62295,6 +67483,9 @@ impl IconShape for IoVolumeLowSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -62303,6 +67494,7 @@ impl IconShape for IoVolumeLowSharp {
             polygon {
                 points: "189.65 176.1 96 176.1 96 335.9 189.65 335.9 320 440 320 72 189.65 176.1",
             }
+            
         }
     }
 }
@@ -62337,6 +67529,9 @@ impl IconShape for IoVolumeLow {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -62345,6 +67540,7 @@ impl IconShape for IoVolumeLow {
             path {
                 d: "M384,336a16,16,0,0,1-14.29-23.18c9.49-18.9,14.3-38,14.3-56.82,0-19.36-4.66-37.92-14.25-56.73a16,16,0,0,1,28.5-14.54C410.2,208.16,416,231.47,416,256c0,23.83-6,47.78-17.7,71.18A16,16,0,0,1,384,336Z",
             }
+            
         }
     }
 }
@@ -62379,6 +67575,9 @@ impl IconShape for IoVolumeMediumOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -62393,6 +67592,7 @@ impl IconShape for IoVolumeMediumOutline {
                 d: "M400,368c19.48-34,32-64,32-112s-12-77.7-32-112",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -62427,6 +67627,9 @@ impl IconShape for IoVolumeMediumSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -62440,6 +67643,7 @@ impl IconShape for IoVolumeMediumSharp {
                 d: "M400,368c19.48-34,32-64,32-112s-12-77.7-32-112",
                 style: "stroke-linecap:square;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -62474,6 +67678,9 @@ impl IconShape for IoVolumeMedium {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -62485,6 +67692,7 @@ impl IconShape for IoVolumeMedium {
             path {
                 d: "M400,384a16,16,0,0,1-13.87-24C405,327.05,416,299.45,416,256c0-44.12-10.94-71.52-29.83-103.95A16,16,0,0,1,413.83,136C434.92,172.16,448,204.88,448,256c0,50.36-13.06,83.24-34.12,120A16,16,0,0,1,400,384Z",
             }
+            
         }
     }
 }
@@ -62519,6 +67727,9 @@ impl IconShape for IoVolumeMuteOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -62543,6 +67754,7 @@ impl IconShape for IoVolumeMuteOutline {
             path {
                 d: "M480,256c0-74.26-20.19-121.11-50.51-168.61a16,16,0,1,0-27,17.22C429.82,147.38,448,189.5,448,256c0,47.45-8.9,82.12-23.59,113a4,4,0,0,0,.77,4.55L443,391.39a4,4,0,0,0,6.4-1C470.88,348.22,480,307,480,256Z",
             }
+            
         }
     }
 }
@@ -62577,6 +67789,9 @@ impl IconShape for IoVolumeMuteSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -62601,6 +67816,7 @@ impl IconShape for IoVolumeMuteSharp {
             polygon {
                 points: "32 176.1 32 335.9 125.65 335.9 256 440 256 339.63 92.47 176.1 32 176.1",
             }
+            
         }
     }
 }
@@ -62635,6 +67851,9 @@ impl IconShape for IoVolumeMute {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -62659,6 +67878,7 @@ impl IconShape for IoVolumeMute {
             path {
                 d: "M480,256c0-74.25-20.19-121.11-50.51-168.61a16,16,0,1,0-27,17.22C429.82,147.38,448,189.5,448,256c0,46.19-8.43,80.27-22.43,110.53a8,8,0,0,0,1.59,9l11.92,11.92A8,8,0,0,0,452,385.29C471.6,344.9,480,305,480,256Z",
             }
+            
         }
     }
 }
@@ -62693,12 +67913,16 @@ impl IconShape for IoVolumeOffOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M237.65,192H168a8,8,0,0,0-8,8V312a8,8,0,0,0,8,8h69.65a16,16,0,0,1,10.14,3.63l91.47,75A8,8,0,0,0,352,392.17V119.83a8,8,0,0,0-12.74-6.44l-91.47,75A16,16,0,0,1,237.65,192Z",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -62733,11 +67957,15 @@ impl IconShape for IoVolumeOffSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "237.65 176.1 144 176.1 144 335.9 237.65 335.9 368 440 368 72 237.65 176.1",
             }
+            
         }
     }
 }
@@ -62772,11 +68000,15 @@ impl IconShape for IoVolumeOff {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-g"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M344,416a23.92,23.92,0,0,1-14.21-4.69c-.23-.16-.44-.33-.66-.51l-91.46-74.9H168a24,24,0,0,1-24-24V200.07a24,24,0,0,1,24-24h69.65l91.46-74.9c.22-.18.43-.35.66-.51A24,24,0,0,1,368,120V392a24,24,0,0,1-24,24Z",
             }
+            
         }
     }
 }
@@ -62811,6 +68043,9 @@ impl IconShape for IoWalkOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -62841,6 +68076,7 @@ impl IconShape for IoWalkOutline {
                 r: "37.26",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -62875,6 +68111,9 @@ impl IconShape for IoWalkSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -62897,6 +68136,7 @@ impl IconShape for IoWalkSharp {
                 r: "37.38",
                 style: "stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:16px",
             }
+            
         }
     }
 }
@@ -62931,6 +68171,9 @@ impl IconShape for IoWalk {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -62953,6 +68196,7 @@ impl IconShape for IoWalk {
                 r: "37.04",
                 style: "stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:16px",
             }
+            
         }
     }
 }
@@ -62987,6 +68231,9 @@ impl IconShape for IoWalletOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -63005,6 +68252,7 @@ impl IconShape for IoWalletOutline {
             path {
                 d: "M368,320a32,32,0,1,1,32-32A32,32,0,0,1,368,320Z",
             }
+            
         }
     }
 }
@@ -63039,6 +68287,9 @@ impl IconShape for IoWalletSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -63050,6 +68301,7 @@ impl IconShape for IoWalletSharp {
             path {
                 d: "M31.33,259.5V116c0-12.33,5.72-18.48,15.42-20,35.2-5.53,108.58-8.5,108.58-8.5s-8.33,16-27.33,16V128c18.5,0,31.33,23.5,31.33,23.5L84.83,236Z",
             }
+            
         }
     }
 }
@@ -63084,6 +68336,9 @@ impl IconShape for IoWallet {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -63095,6 +68350,7 @@ impl IconShape for IoWallet {
             path {
                 d: "M32,259.5V160c0-21.67,12-58,53.65-65.87C121,87.5,156,87.5,156,87.5s23,16,4,16S141.5,128,160,128s0,23.5,0,23.5L85.5,236Z",
             }
+            
         }
     }
 }
@@ -63129,6 +68385,9 @@ impl IconShape for IoWarningOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -63142,6 +68401,7 @@ impl IconShape for IoWarningOutline {
             path {
                 d: "M256,397.25a20,20,0,1,1,20-20A20,20,0,0,1,256,397.25Z",
             }
+            
         }
     }
 }
@@ -63176,11 +68436,15 @@ impl IconShape for IoWarningSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M479,447.77,268.43,56.64a8,8,0,0,0-14.09,0L43.73,447.77a8,8,0,0,0,7.05,11.79H472A8,8,0,0,0,479,447.77ZM281.38,411.48h-40v-40h40Zm-4-63.92h-32l-6-160h44Z",
             }
+            
         }
     }
 }
@@ -63215,11 +68479,15 @@ impl IconShape for IoWarning {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M449.07,399.08,278.64,82.58c-12.08-22.44-44.26-22.44-56.35,0L51.87,399.08A32,32,0,0,0,80,446.25H420.89A32,32,0,0,0,449.07,399.08Zm-198.6-1.83a20,20,0,1,1,20-20A20,20,0,0,1,250.47,397.25ZM272.19,196.1l-5.74,122a16,16,0,0,1-32,0l-5.74-121.95v0a21.73,21.73,0,0,1,21.5-22.69h.21a21.74,21.74,0,0,1,21.73,22.7Z",
             }
+            
         }
     }
 }
@@ -63254,6 +68522,9 @@ impl IconShape for IoWatchOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -63273,6 +68544,7 @@ impl IconShape for IoWatchOutline {
                 d: "M336,400v72a8,8,0,0,1-8,8H184a8,8,0,0,1-8-8V400",
                 style: "stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -63307,6 +68579,9 @@ impl IconShape for IoWatchSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -63320,6 +68595,7 @@ impl IconShape for IoWatchSharp {
             path {
                 d: "M384,96H336V16H176V96H128a32,32,0,0,0-32,32V384a32,32,0,0,0,32,32h48v80H336V416h48a32,32,0,0,0,32-32V128A32,32,0,0,0,384,96Zm8,272a24,24,0,0,1-24,24H144a24,24,0,0,1-24-24V144a24,24,0,0,1,24-24H368a24,24,0,0,1,24,24Z",
             }
+            
         }
     }
 }
@@ -63354,6 +68630,9 @@ impl IconShape for IoWatch {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -63367,6 +68646,7 @@ impl IconShape for IoWatch {
             path {
                 d: "M336,96V32a16,16,0,0,0-16-16H192a16,16,0,0,0-16,16V96a80.09,80.09,0,0,0-80,80V336a80.09,80.09,0,0,0,80,80v64a16,16,0,0,0,16,16H320a16,16,0,0,0,16-16V416a80.09,80.09,0,0,0,80-80V176A80.09,80.09,0,0,0,336,96Zm56,224a72.08,72.08,0,0,1-72,72H192a72.08,72.08,0,0,1-72-72V192a72.08,72.08,0,0,1,72-72H320a72.08,72.08,0,0,1,72,72Z",
             }
+            
         }
     }
 }
@@ -63401,6 +68681,9 @@ impl IconShape for IoWaterOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -63411,6 +68694,7 @@ impl IconShape for IoWaterOutline {
                 d: "M344,328a72,72,0,0,1-72,72",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -63445,11 +68729,15 @@ impl IconShape for IoWaterSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M256,43.91s-144,158.3-144,270.3c0,88.36,55.64,144,144,144s144-55.64,144-144C400,202.21,256,43.91,256,43.91Zm16,362.3v-24a60.07,60.07,0,0,0,60-60h24A84.09,84.09,0,0,1,272,406.21Z",
             }
+            
         }
     }
 }
@@ -63484,11 +68772,15 @@ impl IconShape for IoWater {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M265.12,60.12a12,12,0,0,0-18.23,0C215.23,97.15,112,225.17,112,320c0,88.37,55.64,144,144,144s144-55.63,144-144C400,225.17,296.77,97.15,265.12,60.12ZM272,412a12,12,0,0,1-11.34-16,11.89,11.89,0,0,1,11.41-8A60.06,60.06,0,0,0,332,328.07a11.89,11.89,0,0,1,8-11.41A12,12,0,0,1,356,328,84.09,84.09,0,0,1,272,412Z",
             }
+            
         }
     }
 }
@@ -63523,6 +68815,9 @@ impl IconShape for IoWifiOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -63540,6 +68835,7 @@ impl IconShape for IoWifiOutline {
             path {
                 d: "M256,416a32,32,0,1,1,32-32A32,32,0,0,1,256,416Z",
             }
+            
         }
     }
 }
@@ -63574,6 +68870,9 @@ impl IconShape for IoWifiSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -63591,6 +68890,7 @@ impl IconShape for IoWifiSharp {
             path {
                 d: "M300.67,384,256,433l-44.34-49a56.73,56.73,0,0,1,88.92,0Z",
             }
+            
         }
     }
 }
@@ -63625,6 +68925,9 @@ impl IconShape for IoWifi {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -63641,6 +68944,7 @@ impl IconShape for IoWifi {
                 cy: "393.41",
                 r: "32",
             }
+            
         }
     }
 }
@@ -63675,6 +68979,9 @@ impl IconShape for IoWineOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -63702,6 +69009,7 @@ impl IconShape for IoWineOutline {
                 y1: "160",
                 y2: "160",
             }
+            
         }
     }
 }
@@ -63736,11 +69044,15 @@ impl IconShape for IoWineSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M453,112V66.33H60.75V112L235.88,288V406H124.75v42H389V406H277.88V288Zm-336.65-3.67h281l-37.81,38H154.16Z",
             }
+            
         }
     }
 }
@@ -63775,11 +69087,15 @@ impl IconShape for IoWine {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M414.56,94.92V80a16,16,0,0,0-16-16H113.44a16,16,0,0,0-16,16V94.92c-1.46,11.37-9.65,90.74,36.93,144.69,24.87,28.8,60.36,44.85,105.63,47.86V416H160a16,16,0,0,0,0,32H352a16,16,0,0,0,0-32H272V287.47c45.27-3,80.76-19.06,105.63-47.86C424.21,185.66,416,106.29,414.56,94.92Zm-285.3,3.41a15.14,15.14,0,0,0,.18-2.33H382.56a15.14,15.14,0,0,0,.18,2.33,201.91,201.91,0,0,1,0,45.67H129.32A204.29,204.29,0,0,1,129.26,98.33Z",
             }
+            
         }
     }
 }
@@ -63814,6 +69130,9 @@ impl IconShape for IoWomanOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -63838,6 +69157,7 @@ impl IconShape for IoWomanOutline {
                 points: "208 192 160 352 352 352 304 192",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
             }
+            
         }
     }
 }
@@ -63872,6 +69192,9 @@ impl IconShape for IoWomanSharp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -63882,6 +69205,7 @@ impl IconShape for IoWomanSharp {
             path {
                 d: "M310.28,191.4h.05l7.66-2.3,36.79,122.6,46-13.8-16.21-54.16c0-.12,0-.24-.07-.36l-16.84-56.12-4.71-15.74h0l-.9-3H362l-2.51-8.45a44.84,44.84,0,0,0-43-32.08H195.24a44.84,44.84,0,0,0-43,32.08l-2.51,8.45h-.06l-.9,3h0l-4.71,15.74-16.84,56.12c0,.12,0,.24-.07.36L110.94,297.9l46,13.8L193.7,189.1l7.54,2.26L148.25,368h51.5V512h52V368h8V512h52V368h51.51Z",
             }
+            
         }
     }
 }
@@ -63916,6 +69240,9 @@ impl IconShape for IoWoman {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ionicons-v5-r"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -63926,6 +69253,7 @@ impl IconShape for IoWoman {
             path {
                 d: "M394.63,277.9,384.3,243.49s0-.07,0-.11l-22.46-74.86h-.05l-2.51-8.45a44.87,44.87,0,0,0-43-32.08h-120a44.84,44.84,0,0,0-43,32.08l-2.51,8.45h-.06l-22.46,74.86s0,.07,0,.11L117.88,277.9c-3.12,10.39,2.3,21.66,12.57,25.14a20,20,0,0,0,25.6-13.18l25.58-85.25h0l2.17-7.23A8,8,0,0,1,199.33,200a7.78,7.78,0,0,1-.17,1.61v0L155.43,347.4A16,16,0,0,0,170.75,368h29V482.69c0,16.46,10.53,29.31,24,29.31s24-12.85,24-29.31V368h16V482.69c0,16.46,10.53,29.31,24,29.31s24-12.85,24-29.31V368h30a16,16,0,0,0,15.33-20.6L313.34,201.59a7.52,7.52,0,0,1-.16-1.59,8,8,0,0,1,15.54-2.63l2.17,7.23h0l25.57,85.25A20,20,0,0,0,382.05,303C392.32,299.56,397.74,288.29,394.63,277.9Z",
             }
+            
         }
     }
 }

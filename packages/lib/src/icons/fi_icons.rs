@@ -31,11 +31,15 @@ impl IconShape for FiActivity {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "22 12 18 12 15 21 9 3 6 12 2 12",
             }
+            
         }
     }
 }
@@ -70,6 +74,9 @@ impl IconShape for FiAirplay {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -78,6 +85,7 @@ impl IconShape for FiAirplay {
             polygon {
                 points: "12 15 17 21 7 21 12 15",
             }
+            
         }
     }
 }
@@ -112,6 +120,9 @@ impl IconShape for FiAlertCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -131,6 +142,7 @@ impl IconShape for FiAlertCircle {
                 y1: "16",
                 y2: "16",
             }
+            
         }
     }
 }
@@ -165,6 +177,9 @@ impl IconShape for FiAlertOctagon {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -182,6 +197,7 @@ impl IconShape for FiAlertOctagon {
                 y1: "16",
                 y2: "16",
             }
+            
         }
     }
 }
@@ -216,6 +232,9 @@ impl IconShape for FiAlertTriangle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -233,6 +252,7 @@ impl IconShape for FiAlertTriangle {
                 y1: "17",
                 y2: "17",
             }
+            
         }
     }
 }
@@ -267,6 +287,9 @@ impl IconShape for FiAlignCenter {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -293,6 +316,7 @@ impl IconShape for FiAlignCenter {
                 y1: "18",
                 y2: "18",
             }
+            
         }
     }
 }
@@ -327,6 +351,9 @@ impl IconShape for FiAlignJustify {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -353,6 +380,7 @@ impl IconShape for FiAlignJustify {
                 y1: "18",
                 y2: "18",
             }
+            
         }
     }
 }
@@ -387,6 +415,9 @@ impl IconShape for FiAlignLeft {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -413,6 +444,7 @@ impl IconShape for FiAlignLeft {
                 y1: "18",
                 y2: "18",
             }
+            
         }
     }
 }
@@ -447,6 +479,9 @@ impl IconShape for FiAlignRight {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -473,6 +508,7 @@ impl IconShape for FiAlignRight {
                 y1: "18",
                 y2: "18",
             }
+            
         }
     }
 }
@@ -507,6 +543,9 @@ impl IconShape for FiAnchor {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -523,6 +562,7 @@ impl IconShape for FiAnchor {
             path {
                 d: "M5 12H2a10 10 0 0 0 20 0h-3",
             }
+            
         }
     }
 }
@@ -556,6 +596,9 @@ impl IconShape for FiAperture {
     }
     fn stroke_linejoin(&self) -> &str {
         "round"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -600,6 +643,7 @@ impl IconShape for FiAperture {
                 y1: "12",
                 y2: "21.94",
             }
+            
         }
     }
 }
@@ -634,6 +678,9 @@ impl IconShape for FiArchive {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -651,6 +698,7 @@ impl IconShape for FiArchive {
                 y1: "12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -685,6 +733,9 @@ impl IconShape for FiArrowDownCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -701,6 +752,7 @@ impl IconShape for FiArrowDownCircle {
                 y1: "8",
                 y2: "16",
             }
+            
         }
     }
 }
@@ -735,6 +787,9 @@ impl IconShape for FiArrowDownLeft {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -746,6 +801,7 @@ impl IconShape for FiArrowDownLeft {
             polyline {
                 points: "17 17 7 17 7 7",
             }
+            
         }
     }
 }
@@ -780,6 +836,9 @@ impl IconShape for FiArrowDownRight {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -791,6 +850,7 @@ impl IconShape for FiArrowDownRight {
             polyline {
                 points: "17 7 17 17 7 17",
             }
+            
         }
     }
 }
@@ -825,6 +885,9 @@ impl IconShape for FiArrowDown {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -836,6 +899,7 @@ impl IconShape for FiArrowDown {
             polyline {
                 points: "19 12 12 19 5 12",
             }
+            
         }
     }
 }
@@ -870,6 +934,9 @@ impl IconShape for FiArrowLeftCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -886,6 +953,7 @@ impl IconShape for FiArrowLeftCircle {
                 y1: "12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -920,6 +988,9 @@ impl IconShape for FiArrowLeft {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -931,6 +1002,7 @@ impl IconShape for FiArrowLeft {
             polyline {
                 points: "12 19 5 12 12 5",
             }
+            
         }
     }
 }
@@ -965,6 +1037,9 @@ impl IconShape for FiArrowRightCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -981,6 +1056,7 @@ impl IconShape for FiArrowRightCircle {
                 y1: "12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -1015,6 +1091,9 @@ impl IconShape for FiArrowRight {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -1026,6 +1105,7 @@ impl IconShape for FiArrowRight {
             polyline {
                 points: "12 5 19 12 12 19",
             }
+            
         }
     }
 }
@@ -1060,6 +1140,9 @@ impl IconShape for FiArrowUpCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -1076,6 +1159,7 @@ impl IconShape for FiArrowUpCircle {
                 y1: "16",
                 y2: "8",
             }
+            
         }
     }
 }
@@ -1110,6 +1194,9 @@ impl IconShape for FiArrowUpLeft {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -1121,6 +1208,7 @@ impl IconShape for FiArrowUpLeft {
             polyline {
                 points: "7 17 7 7 17 7",
             }
+            
         }
     }
 }
@@ -1155,6 +1243,9 @@ impl IconShape for FiArrowUpRight {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -1166,6 +1257,7 @@ impl IconShape for FiArrowUpRight {
             polyline {
                 points: "7 7 17 7 17 17",
             }
+            
         }
     }
 }
@@ -1200,6 +1292,9 @@ impl IconShape for FiArrowUp {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -1211,6 +1306,7 @@ impl IconShape for FiArrowUp {
             polyline {
                 points: "5 12 12 5 19 12",
             }
+            
         }
     }
 }
@@ -1245,6 +1341,9 @@ impl IconShape for FiAtSign {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -1255,6 +1354,7 @@ impl IconShape for FiAtSign {
             path {
                 d: "M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94",
             }
+            
         }
     }
 }
@@ -1289,6 +1389,9 @@ impl IconShape for FiAward {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -1299,6 +1402,7 @@ impl IconShape for FiAward {
             polyline {
                 points: "8.21 13.89 7 23 12 20 17 23 15.79 13.88",
             }
+            
         }
     }
 }
@@ -1333,6 +1437,9 @@ impl IconShape for FiBarChart2 {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -1353,6 +1460,7 @@ impl IconShape for FiBarChart2 {
                 y1: "20",
                 y2: "14",
             }
+            
         }
     }
 }
@@ -1387,6 +1495,9 @@ impl IconShape for FiBarChart {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -1407,6 +1518,7 @@ impl IconShape for FiBarChart {
                 y1: "20",
                 y2: "16",
             }
+            
         }
     }
 }
@@ -1441,6 +1553,9 @@ impl IconShape for FiBatteryCharging {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1455,6 +1570,7 @@ impl IconShape for FiBatteryCharging {
             polyline {
                 points: "11 6 7 12 13 12 9 18",
             }
+            
         }
     }
 }
@@ -1489,6 +1605,9 @@ impl IconShape for FiBattery {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -1505,6 +1624,7 @@ impl IconShape for FiBattery {
                 y1: "13",
                 y2: "11",
             }
+            
         }
     }
 }
@@ -1539,6 +1659,9 @@ impl IconShape for FiBellOff {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1559,6 +1682,7 @@ impl IconShape for FiBellOff {
                 y1: "1",
                 y2: "23",
             }
+            
         }
     }
 }
@@ -1593,6 +1717,9 @@ impl IconShape for FiBell {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1601,6 +1728,7 @@ impl IconShape for FiBell {
             path {
                 d: "M13.73 21a2 2 0 0 1-3.46 0",
             }
+            
         }
     }
 }
@@ -1635,11 +1763,15 @@ impl IconShape for FiBluetooth {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "6.5 6.5 17.5 17.5 12 23 12 1 17.5 6.5 6.5 17.5",
             }
+            
         }
     }
 }
@@ -1674,6 +1806,9 @@ impl IconShape for FiBold {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1682,6 +1817,7 @@ impl IconShape for FiBold {
             path {
                 d: "M6 12h9a4 4 0 0 1 4 4 4 4 0 0 1-4 4H6z",
             }
+            
         }
     }
 }
@@ -1716,6 +1852,9 @@ impl IconShape for FiBookOpen {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1724,6 +1863,7 @@ impl IconShape for FiBookOpen {
             path {
                 d: "M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z",
             }
+            
         }
     }
 }
@@ -1758,6 +1898,9 @@ impl IconShape for FiBook {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1766,6 +1909,7 @@ impl IconShape for FiBook {
             path {
                 d: "M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z",
             }
+            
         }
     }
 }
@@ -1800,11 +1944,15 @@ impl IconShape for FiBookmark {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z",
             }
+            
         }
     }
 }
@@ -1839,6 +1987,9 @@ impl IconShape for FiBox {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1853,6 +2004,7 @@ impl IconShape for FiBox {
                 y1: "22.08",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -1887,6 +2039,9 @@ impl IconShape for FiBriefcase {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -1900,6 +2055,7 @@ impl IconShape for FiBriefcase {
             path {
                 d: "M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16",
             }
+            
         }
     }
 }
@@ -1934,6 +2090,9 @@ impl IconShape for FiCalendar {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -1962,6 +2121,7 @@ impl IconShape for FiCalendar {
                 y1: "10",
                 y2: "10",
             }
+            
         }
     }
 }
@@ -1996,6 +2156,9 @@ impl IconShape for FiCameraOff {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -2007,6 +2170,7 @@ impl IconShape for FiCameraOff {
             path {
                 d: "M21 21H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3m3-3h6l2 3h4a2 2 0 0 1 2 2v9.34m-7.72-2.06a4 4 0 1 1-5.56-5.56",
             }
+            
         }
     }
 }
@@ -2041,6 +2205,9 @@ impl IconShape for FiCamera {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2051,6 +2218,7 @@ impl IconShape for FiCamera {
                 cy: "13",
                 r: "4",
             }
+            
         }
     }
 }
@@ -2085,6 +2253,9 @@ impl IconShape for FiCast {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2096,6 +2267,7 @@ impl IconShape for FiCast {
                 y1: "20",
                 y2: "20",
             }
+            
         }
     }
 }
@@ -2130,6 +2302,9 @@ impl IconShape for FiCheckCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2138,6 +2313,7 @@ impl IconShape for FiCheckCircle {
             polyline {
                 points: "22 4 12 14.01 9 11.01",
             }
+            
         }
     }
 }
@@ -2172,6 +2348,9 @@ impl IconShape for FiCheckSquare {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2180,6 +2359,7 @@ impl IconShape for FiCheckSquare {
             path {
                 d: "M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11",
             }
+            
         }
     }
 }
@@ -2214,11 +2394,15 @@ impl IconShape for FiCheck {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "20 6 9 17 4 12",
             }
+            
         }
     }
 }
@@ -2253,11 +2437,15 @@ impl IconShape for FiChevronDown {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "6 9 12 15 18 9",
             }
+            
         }
     }
 }
@@ -2292,11 +2480,15 @@ impl IconShape for FiChevronLeft {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "15 18 9 12 15 6",
             }
+            
         }
     }
 }
@@ -2331,11 +2523,15 @@ impl IconShape for FiChevronRight {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "9 18 15 12 9 6",
             }
+            
         }
     }
 }
@@ -2370,11 +2566,15 @@ impl IconShape for FiChevronUp {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
                 points: "18 15 12 9 6 15",
             }
+            
         }
     }
 }
@@ -2409,6 +2609,9 @@ impl IconShape for FiChevronsDown {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2417,6 +2620,7 @@ impl IconShape for FiChevronsDown {
             polyline {
                 points: "7 6 12 11 17 6",
             }
+            
         }
     }
 }
@@ -2451,6 +2655,9 @@ impl IconShape for FiChevronsLeft {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2459,6 +2666,7 @@ impl IconShape for FiChevronsLeft {
             polyline {
                 points: "18 17 13 12 18 7",
             }
+            
         }
     }
 }
@@ -2493,6 +2701,9 @@ impl IconShape for FiChevronsRight {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2501,6 +2712,7 @@ impl IconShape for FiChevronsRight {
             polyline {
                 points: "6 17 11 12 6 7",
             }
+            
         }
     }
 }
@@ -2535,6 +2747,9 @@ impl IconShape for FiChevronsUp {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -2543,6 +2758,7 @@ impl IconShape for FiChevronsUp {
             polyline {
                 points: "17 18 12 13 7 18",
             }
+            
         }
     }
 }
@@ -2577,6 +2793,9 @@ impl IconShape for FiChrome {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -2607,6 +2826,7 @@ impl IconShape for FiChrome {
                 y1: "21.94",
                 y2: "14",
             }
+            
         }
     }
 }
@@ -2641,6 +2861,9 @@ impl IconShape for FiCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -2648,6 +2871,7 @@ impl IconShape for FiCircle {
                 cy: "12",
                 r: "10",
             }
+            
         }
     }
 }
@@ -2682,6 +2906,9 @@ impl IconShape for FiClipboard {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2695,6 +2922,7 @@ impl IconShape for FiClipboard {
                 x: "8",
                 y: "2",
             }
+            
         }
     }
 }
@@ -2729,6 +2957,9 @@ impl IconShape for FiClock {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -2739,6 +2970,7 @@ impl IconShape for FiClock {
             polyline {
                 points: "12 6 12 12 16 14",
             }
+            
         }
     }
 }
@@ -2772,6 +3004,9 @@ impl IconShape for FiCloudDrizzle {
     }
     fn stroke_linejoin(&self) -> &str {
         "round"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2814,6 +3049,7 @@ impl IconShape for FiCloudDrizzle {
             path {
                 d: "M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25",
             }
+            
         }
     }
 }
@@ -2848,6 +3084,9 @@ impl IconShape for FiCloudLightning {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2856,6 +3095,7 @@ impl IconShape for FiCloudLightning {
             polyline {
                 points: "13 11 9 17 15 17 11 23",
             }
+            
         }
     }
 }
@@ -2890,6 +3130,9 @@ impl IconShape for FiCloudOff {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2901,6 +3144,7 @@ impl IconShape for FiCloudOff {
                 y1: "1",
                 y2: "23",
             }
+            
         }
     }
 }
@@ -2935,6 +3179,9 @@ impl IconShape for FiCloudRain {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -2958,6 +3205,7 @@ impl IconShape for FiCloudRain {
             path {
                 d: "M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25",
             }
+            
         }
     }
 }
@@ -2991,6 +3239,9 @@ impl IconShape for FiCloudSnow {
     }
     fn stroke_linejoin(&self) -> &str {
         "round"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3033,6 +3284,7 @@ impl IconShape for FiCloudSnow {
                 y1: "20",
                 y2: "20",
             }
+            
         }
     }
 }
@@ -3067,11 +3319,15 @@ impl IconShape for FiCloud {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z",
             }
+            
         }
     }
 }
@@ -3106,6 +3362,9 @@ impl IconShape for FiCode {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -3114,6 +3373,7 @@ impl IconShape for FiCode {
             polyline {
                 points: "8 6 2 12 8 18",
             }
+            
         }
     }
 }
@@ -3148,6 +3408,9 @@ impl IconShape for FiCodepen {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -3171,6 +3434,7 @@ impl IconShape for FiCodepen {
                 y1: "2",
                 y2: "8.5",
             }
+            
         }
     }
 }
@@ -3205,6 +3469,9 @@ impl IconShape for FiCodesandbox {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3228,6 +3495,7 @@ impl IconShape for FiCodesandbox {
                 y1: "22.08",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -3262,6 +3530,9 @@ impl IconShape for FiCoffee {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3288,6 +3559,7 @@ impl IconShape for FiCoffee {
                 y1: "1",
                 y2: "4",
             }
+            
         }
     }
 }
@@ -3322,11 +3594,15 @@ impl IconShape for FiColumns {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7m0-18H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7m0-18v18",
             }
+            
         }
     }
 }
@@ -3361,11 +3637,15 @@ impl IconShape for FiCommand {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z",
             }
+            
         }
     }
 }
@@ -3400,6 +3680,9 @@ impl IconShape for FiCompass {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -3410,6 +3693,7 @@ impl IconShape for FiCompass {
             polygon {
                 points: "16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76",
             }
+            
         }
     }
 }
@@ -3444,6 +3728,9 @@ impl IconShape for FiCopy {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -3457,6 +3744,7 @@ impl IconShape for FiCopy {
             path {
                 d: "M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1",
             }
+            
         }
     }
 }
@@ -3491,6 +3779,9 @@ impl IconShape for FiCornerDownLeft {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -3499,6 +3790,7 @@ impl IconShape for FiCornerDownLeft {
             path {
                 d: "M20 4v7a4 4 0 0 1-4 4H4",
             }
+            
         }
     }
 }
@@ -3533,6 +3825,9 @@ impl IconShape for FiCornerDownRight {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -3541,6 +3836,7 @@ impl IconShape for FiCornerDownRight {
             path {
                 d: "M4 4v7a4 4 0 0 0 4 4h12",
             }
+            
         }
     }
 }
@@ -3575,6 +3871,9 @@ impl IconShape for FiCornerLeftDown {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -3583,6 +3882,7 @@ impl IconShape for FiCornerLeftDown {
             path {
                 d: "M20 4h-7a4 4 0 0 0-4 4v12",
             }
+            
         }
     }
 }
@@ -3617,6 +3917,9 @@ impl IconShape for FiCornerLeftUp {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -3625,6 +3928,7 @@ impl IconShape for FiCornerLeftUp {
             path {
                 d: "M20 20h-7a4 4 0 0 1-4-4V4",
             }
+            
         }
     }
 }
@@ -3659,6 +3963,9 @@ impl IconShape for FiCornerRightDown {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -3667,6 +3974,7 @@ impl IconShape for FiCornerRightDown {
             path {
                 d: "M4 4h7a4 4 0 0 1 4 4v12",
             }
+            
         }
     }
 }
@@ -3701,6 +4009,9 @@ impl IconShape for FiCornerRightUp {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -3709,6 +4020,7 @@ impl IconShape for FiCornerRightUp {
             path {
                 d: "M4 20h7a4 4 0 0 0 4-4V4",
             }
+            
         }
     }
 }
@@ -3743,6 +4055,9 @@ impl IconShape for FiCornerUpLeft {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -3751,6 +4066,7 @@ impl IconShape for FiCornerUpLeft {
             path {
                 d: "M20 20v-7a4 4 0 0 0-4-4H4",
             }
+            
         }
     }
 }
@@ -3785,6 +4101,9 @@ impl IconShape for FiCornerUpRight {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -3793,6 +4112,7 @@ impl IconShape for FiCornerUpRight {
             path {
                 d: "M4 20v-7a4 4 0 0 1 4-4h12",
             }
+            
         }
     }
 }
@@ -3826,6 +4146,9 @@ impl IconShape for FiCpu {
     }
     fn stroke_linejoin(&self) -> &str {
         "round"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3891,6 +4214,7 @@ impl IconShape for FiCpu {
                 y1: "14",
                 y2: "14",
             }
+            
         }
     }
 }
@@ -3925,6 +4249,9 @@ impl IconShape for FiCreditCard {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -3941,6 +4268,7 @@ impl IconShape for FiCreditCard {
                 y1: "10",
                 y2: "10",
             }
+            
         }
     }
 }
@@ -3975,6 +4303,9 @@ impl IconShape for FiCrop {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3983,6 +4314,7 @@ impl IconShape for FiCrop {
             path {
                 d: "M1 6.13L16 6a2 2 0 0 1 2 2v15",
             }
+            
         }
     }
 }
@@ -4017,6 +4349,9 @@ impl IconShape for FiCrosshair {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -4048,6 +4383,7 @@ impl IconShape for FiCrosshair {
                 y1: "22",
                 y2: "18",
             }
+            
         }
     }
 }
@@ -4082,6 +4418,9 @@ impl IconShape for FiDatabase {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             ellipse {
@@ -4096,6 +4435,7 @@ impl IconShape for FiDatabase {
             path {
                 d: "M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5",
             }
+            
         }
     }
 }
@@ -4130,6 +4470,9 @@ impl IconShape for FiDelete {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4147,6 +4490,7 @@ impl IconShape for FiDelete {
                 y1: "9",
                 y2: "15",
             }
+            
         }
     }
 }
@@ -4181,6 +4525,9 @@ impl IconShape for FiDisc {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -4193,6 +4540,7 @@ impl IconShape for FiDisc {
                 cy: "12",
                 r: "3",
             }
+            
         }
     }
 }
@@ -4227,6 +4575,9 @@ impl IconShape for FiDivideCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -4252,6 +4603,7 @@ impl IconShape for FiDivideCircle {
                 cy: "12",
                 r: "10",
             }
+            
         }
     }
 }
@@ -4286,6 +4638,9 @@ impl IconShape for FiDivideSquare {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -4314,6 +4669,7 @@ impl IconShape for FiDivideSquare {
                 y1: "8",
                 y2: "8",
             }
+            
         }
     }
 }
@@ -4348,6 +4704,9 @@ impl IconShape for FiDivide {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -4366,6 +4725,7 @@ impl IconShape for FiDivide {
                 cy: "18",
                 r: "2",
             }
+            
         }
     }
 }
@@ -4400,6 +4760,9 @@ impl IconShape for FiDollarSign {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -4411,6 +4774,7 @@ impl IconShape for FiDollarSign {
             path {
                 d: "M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6",
             }
+            
         }
     }
 }
@@ -4445,6 +4809,9 @@ impl IconShape for FiDownloadCloud {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -4459,6 +4826,7 @@ impl IconShape for FiDownloadCloud {
             path {
                 d: "M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29",
             }
+            
         }
     }
 }
@@ -4493,6 +4861,9 @@ impl IconShape for FiDownload {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4507,6 +4878,7 @@ impl IconShape for FiDownload {
                 y1: "15",
                 y2: "3",
             }
+            
         }
     }
 }
@@ -4541,6 +4913,9 @@ impl IconShape for FiDribbble {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -4551,6 +4926,7 @@ impl IconShape for FiDribbble {
             path {
                 d: "M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32",
             }
+            
         }
     }
 }
@@ -4585,11 +4961,15 @@ impl IconShape for FiDroplet {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z",
             }
+            
         }
     }
 }
@@ -4624,11 +5004,15 @@ impl IconShape for FiEdit2 {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z",
             }
+            
         }
     }
 }
@@ -4663,6 +5047,9 @@ impl IconShape for FiEdit3 {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4671,6 +5058,7 @@ impl IconShape for FiEdit3 {
             path {
                 d: "M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z",
             }
+            
         }
     }
 }
@@ -4705,6 +5093,9 @@ impl IconShape for FiEdit {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4713,6 +5104,7 @@ impl IconShape for FiEdit {
             path {
                 d: "M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z",
             }
+            
         }
     }
 }
@@ -4747,6 +5139,9 @@ impl IconShape for FiExternalLink {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4761,6 +5156,7 @@ impl IconShape for FiExternalLink {
                 y1: "14",
                 y2: "3",
             }
+            
         }
     }
 }
@@ -4795,6 +5191,9 @@ impl IconShape for FiEyeOff {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4806,6 +5205,7 @@ impl IconShape for FiEyeOff {
                 y1: "1",
                 y2: "23",
             }
+            
         }
     }
 }
@@ -4840,6 +5240,9 @@ impl IconShape for FiEye {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4850,6 +5253,7 @@ impl IconShape for FiEye {
                 cy: "12",
                 r: "3",
             }
+            
         }
     }
 }
@@ -4884,11 +5288,15 @@ impl IconShape for FiFacebook {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z",
             }
+            
         }
     }
 }
@@ -4923,6 +5331,9 @@ impl IconShape for FiFastForward {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -4931,6 +5342,7 @@ impl IconShape for FiFastForward {
             polygon {
                 points: "2 19 11 12 2 5 2 19",
             }
+            
         }
     }
 }
@@ -4965,6 +5377,9 @@ impl IconShape for FiFeather {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4982,6 +5397,7 @@ impl IconShape for FiFeather {
                 y1: "15",
                 y2: "15",
             }
+            
         }
     }
 }
@@ -5016,6 +5432,9 @@ impl IconShape for FiFigma {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5033,6 +5452,7 @@ impl IconShape for FiFigma {
             path {
                 d: "M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z",
             }
+            
         }
     }
 }
@@ -5067,6 +5487,9 @@ impl IconShape for FiFileMinus {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5081,6 +5504,7 @@ impl IconShape for FiFileMinus {
                 y1: "15",
                 y2: "15",
             }
+            
         }
     }
 }
@@ -5115,6 +5539,9 @@ impl IconShape for FiFilePlus {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5135,6 +5562,7 @@ impl IconShape for FiFilePlus {
                 y1: "15",
                 y2: "15",
             }
+            
         }
     }
 }
@@ -5169,6 +5597,9 @@ impl IconShape for FiFileText {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5192,6 +5623,7 @@ impl IconShape for FiFileText {
             polyline {
                 points: "10 9 9 9 8 9",
             }
+            
         }
     }
 }
@@ -5226,6 +5658,9 @@ impl IconShape for FiFile {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5234,6 +5669,7 @@ impl IconShape for FiFile {
             polyline {
                 points: "13 2 13 9 20 9",
             }
+            
         }
     }
 }
@@ -5267,6 +5703,9 @@ impl IconShape for FiFilm {
     }
     fn stroke_linejoin(&self) -> &str {
         "round"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5320,6 +5759,7 @@ impl IconShape for FiFilm {
                 y1: "7",
                 y2: "7",
             }
+            
         }
     }
 }
@@ -5354,11 +5794,15 @@ impl IconShape for FiFilter {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3",
             }
+            
         }
     }
 }
@@ -5393,6 +5837,9 @@ impl IconShape for FiFlag {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5404,6 +5851,7 @@ impl IconShape for FiFlag {
                 y1: "22",
                 y2: "15",
             }
+            
         }
     }
 }
@@ -5438,6 +5886,9 @@ impl IconShape for FiFolderMinus {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5449,6 +5900,7 @@ impl IconShape for FiFolderMinus {
                 y1: "14",
                 y2: "14",
             }
+            
         }
     }
 }
@@ -5483,6 +5935,9 @@ impl IconShape for FiFolderPlus {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5500,6 +5955,7 @@ impl IconShape for FiFolderPlus {
                 y1: "14",
                 y2: "14",
             }
+            
         }
     }
 }
@@ -5534,11 +5990,15 @@ impl IconShape for FiFolder {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z",
             }
+            
         }
     }
 }
@@ -5573,11 +6033,15 @@ impl IconShape for FiFramer {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M5 16V9h14V2H5l14 14h-7m-7 0l7 7v-7m-7 0h7",
             }
+            
         }
     }
 }
@@ -5612,6 +6076,9 @@ impl IconShape for FiFrown {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -5634,6 +6101,7 @@ impl IconShape for FiFrown {
                 y1: "9",
                 y2: "9",
             }
+            
         }
     }
 }
@@ -5668,6 +6136,9 @@ impl IconShape for FiGift {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -5691,6 +6162,7 @@ impl IconShape for FiGift {
             path {
                 d: "M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z",
             }
+            
         }
     }
 }
@@ -5725,6 +6197,9 @@ impl IconShape for FiGitBranch {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -5746,6 +6221,7 @@ impl IconShape for FiGitBranch {
             path {
                 d: "M18 9a9 9 0 0 1-9 9",
             }
+            
         }
     }
 }
@@ -5780,6 +6256,9 @@ impl IconShape for FiGitCommit {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -5799,6 +6278,7 @@ impl IconShape for FiGitCommit {
                 y1: "12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -5833,6 +6313,9 @@ impl IconShape for FiGitMerge {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -5848,6 +6331,7 @@ impl IconShape for FiGitMerge {
             path {
                 d: "M6 21V9a9 9 0 0 0 9 9",
             }
+            
         }
     }
 }
@@ -5882,6 +6366,9 @@ impl IconShape for FiGitPullRequest {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -5903,6 +6390,7 @@ impl IconShape for FiGitPullRequest {
                 y1: "9",
                 y2: "21",
             }
+            
         }
     }
 }
@@ -5937,11 +6425,15 @@ impl IconShape for FiGithub {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22",
             }
+            
         }
     }
 }
@@ -5976,11 +6468,15 @@ impl IconShape for FiGitlab {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z",
             }
+            
         }
     }
 }
@@ -6015,6 +6511,9 @@ impl IconShape for FiGlobe {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -6031,6 +6530,7 @@ impl IconShape for FiGlobe {
             path {
                 d: "M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z",
             }
+            
         }
     }
 }
@@ -6065,6 +6565,9 @@ impl IconShape for FiGrid {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -6091,6 +6594,7 @@ impl IconShape for FiGrid {
                 x: "3",
                 y: "14",
             }
+            
         }
     }
 }
@@ -6125,6 +6629,9 @@ impl IconShape for FiHardDrive {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -6148,6 +6655,7 @@ impl IconShape for FiHardDrive {
                 y1: "16",
                 y2: "16",
             }
+            
         }
     }
 }
@@ -6182,6 +6690,9 @@ impl IconShape for FiHash {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -6208,6 +6719,7 @@ impl IconShape for FiHash {
                 y1: "3",
                 y2: "21",
             }
+            
         }
     }
 }
@@ -6242,6 +6754,9 @@ impl IconShape for FiHeadphones {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6250,6 +6765,7 @@ impl IconShape for FiHeadphones {
             path {
                 d: "M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z",
             }
+            
         }
     }
 }
@@ -6284,11 +6800,15 @@ impl IconShape for FiHeart {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z",
             }
+            
         }
     }
 }
@@ -6323,6 +6843,9 @@ impl IconShape for FiHelpCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -6339,6 +6862,7 @@ impl IconShape for FiHelpCircle {
                 y1: "17",
                 y2: "17",
             }
+            
         }
     }
 }
@@ -6373,11 +6897,15 @@ impl IconShape for FiHexagon {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z",
             }
+            
         }
     }
 }
@@ -6412,6 +6940,9 @@ impl IconShape for FiHome {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6420,6 +6951,7 @@ impl IconShape for FiHome {
             polyline {
                 points: "9 22 9 12 15 12 15 22",
             }
+            
         }
     }
 }
@@ -6454,6 +6986,9 @@ impl IconShape for FiImage {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -6472,6 +7007,7 @@ impl IconShape for FiImage {
             polyline {
                 points: "21 15 16 10 5 21",
             }
+            
         }
     }
 }
@@ -6506,6 +7042,9 @@ impl IconShape for FiInbox {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -6514,6 +7053,7 @@ impl IconShape for FiInbox {
             path {
                 d: "M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z",
             }
+            
         }
     }
 }
@@ -6548,6 +7088,9 @@ impl IconShape for FiInfo {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -6567,6 +7110,7 @@ impl IconShape for FiInfo {
                 y1: "8",
                 y2: "8",
             }
+            
         }
     }
 }
@@ -6601,6 +7145,9 @@ impl IconShape for FiInstagram {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -6620,6 +7167,7 @@ impl IconShape for FiInstagram {
                 y1: "6.5",
                 y2: "6.5",
             }
+            
         }
     }
 }
@@ -6654,6 +7202,9 @@ impl IconShape for FiItalic {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -6674,6 +7225,7 @@ impl IconShape for FiItalic {
                 y1: "4",
                 y2: "20",
             }
+            
         }
     }
 }
@@ -6708,11 +7260,15 @@ impl IconShape for FiKey {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4",
             }
+            
         }
     }
 }
@@ -6747,6 +7303,9 @@ impl IconShape for FiLayers {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -6758,6 +7317,7 @@ impl IconShape for FiLayers {
             polyline {
                 points: "2 12 12 17 22 12",
             }
+            
         }
     }
 }
@@ -6792,6 +7352,9 @@ impl IconShape for FiLayout {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -6814,6 +7377,7 @@ impl IconShape for FiLayout {
                 y1: "21",
                 y2: "9",
             }
+            
         }
     }
 }
@@ -6847,6 +7411,9 @@ impl IconShape for FiLifeBuoy {
     }
     fn stroke_linejoin(&self) -> &str {
         "round"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6890,6 +7457,7 @@ impl IconShape for FiLifeBuoy {
                 y1: "19.07",
                 y2: "14.83",
             }
+            
         }
     }
 }
@@ -6924,6 +7492,9 @@ impl IconShape for FiLink2 {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6935,6 +7506,7 @@ impl IconShape for FiLink2 {
                 y1: "12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -6969,6 +7541,9 @@ impl IconShape for FiLink {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6977,6 +7552,7 @@ impl IconShape for FiLink {
             path {
                 d: "M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71",
             }
+            
         }
     }
 }
@@ -7011,6 +7587,9 @@ impl IconShape for FiLinkedin {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7027,6 +7606,7 @@ impl IconShape for FiLinkedin {
                 cy: "4",
                 r: "2",
             }
+            
         }
     }
 }
@@ -7061,6 +7641,9 @@ impl IconShape for FiList {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -7099,6 +7682,7 @@ impl IconShape for FiList {
                 y1: "18",
                 y2: "18",
             }
+            
         }
     }
 }
@@ -7132,6 +7716,9 @@ impl IconShape for FiLoader {
     }
     fn stroke_linejoin(&self) -> &str {
         "round"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7183,6 +7770,7 @@ impl IconShape for FiLoader {
                 y1: "7.76",
                 y2: "4.93",
             }
+            
         }
     }
 }
@@ -7217,6 +7805,9 @@ impl IconShape for FiLock {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -7230,6 +7821,7 @@ impl IconShape for FiLock {
             path {
                 d: "M7 11V7a5 5 0 0 1 10 0v4",
             }
+            
         }
     }
 }
@@ -7264,6 +7856,9 @@ impl IconShape for FiLogIn {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7278,6 +7873,7 @@ impl IconShape for FiLogIn {
                 y1: "12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -7312,6 +7908,9 @@ impl IconShape for FiLogOut {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7326,6 +7925,7 @@ impl IconShape for FiLogOut {
                 y1: "12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -7360,6 +7960,9 @@ impl IconShape for FiMail {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7368,6 +7971,7 @@ impl IconShape for FiMail {
             polyline {
                 points: "22,6 12,13 2,6",
             }
+            
         }
     }
 }
@@ -7402,6 +8006,9 @@ impl IconShape for FiMapPin {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7412,6 +8019,7 @@ impl IconShape for FiMapPin {
                 cy: "10",
                 r: "3",
             }
+            
         }
     }
 }
@@ -7446,6 +8054,9 @@ impl IconShape for FiMap {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -7463,6 +8074,7 @@ impl IconShape for FiMap {
                 y1: "6",
                 y2: "22",
             }
+            
         }
     }
 }
@@ -7497,6 +8109,9 @@ impl IconShape for FiMaximize2 {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -7517,6 +8132,7 @@ impl IconShape for FiMaximize2 {
                 y1: "21",
                 y2: "14",
             }
+            
         }
     }
 }
@@ -7551,11 +8167,15 @@ impl IconShape for FiMaximize {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3",
             }
+            
         }
     }
 }
@@ -7590,6 +8210,9 @@ impl IconShape for FiMeh {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -7615,6 +8238,7 @@ impl IconShape for FiMeh {
                 y1: "9",
                 y2: "9",
             }
+            
         }
     }
 }
@@ -7649,6 +8273,9 @@ impl IconShape for FiMenu {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -7669,6 +8296,7 @@ impl IconShape for FiMenu {
                 y1: "18",
                 y2: "18",
             }
+            
         }
     }
 }
@@ -7703,11 +8331,15 @@ impl IconShape for FiMessageCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z",
             }
+            
         }
     }
 }
@@ -7742,11 +8374,15 @@ impl IconShape for FiMessageSquare {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z",
             }
+            
         }
     }
 }
@@ -7781,6 +8417,9 @@ impl IconShape for FiMicOff {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -7807,6 +8446,7 @@ impl IconShape for FiMicOff {
                 y1: "23",
                 y2: "23",
             }
+            
         }
     }
 }
@@ -7841,6 +8481,9 @@ impl IconShape for FiMic {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7861,6 +8504,7 @@ impl IconShape for FiMic {
                 y1: "23",
                 y2: "23",
             }
+            
         }
     }
 }
@@ -7895,6 +8539,9 @@ impl IconShape for FiMinimize2 {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -7915,6 +8562,7 @@ impl IconShape for FiMinimize2 {
                 y1: "21",
                 y2: "14",
             }
+            
         }
     }
 }
@@ -7949,11 +8597,15 @@ impl IconShape for FiMinimize {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3",
             }
+            
         }
     }
 }
@@ -7988,6 +8640,9 @@ impl IconShape for FiMinusCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -8001,6 +8656,7 @@ impl IconShape for FiMinusCircle {
                 y1: "12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -8035,6 +8691,9 @@ impl IconShape for FiMinusSquare {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -8051,6 +8710,7 @@ impl IconShape for FiMinusSquare {
                 y1: "12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -8085,6 +8745,9 @@ impl IconShape for FiMinus {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -8093,6 +8756,7 @@ impl IconShape for FiMinus {
                 y1: "12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -8127,6 +8791,9 @@ impl IconShape for FiMonitor {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -8149,6 +8816,7 @@ impl IconShape for FiMonitor {
                 y1: "17",
                 y2: "21",
             }
+            
         }
     }
 }
@@ -8183,11 +8851,15 @@ impl IconShape for FiMoon {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z",
             }
+            
         }
     }
 }
@@ -8222,6 +8894,9 @@ impl IconShape for FiMoreHorizontal {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -8239,6 +8914,7 @@ impl IconShape for FiMoreHorizontal {
                 cy: "12",
                 r: "1",
             }
+            
         }
     }
 }
@@ -8273,6 +8949,9 @@ impl IconShape for FiMoreVertical {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -8290,6 +8969,7 @@ impl IconShape for FiMoreVertical {
                 cy: "19",
                 r: "1",
             }
+            
         }
     }
 }
@@ -8324,6 +9004,9 @@ impl IconShape for FiMousePointer {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8332,6 +9015,7 @@ impl IconShape for FiMousePointer {
             path {
                 d: "M13 13l6 6",
             }
+            
         }
     }
 }
@@ -8366,6 +9050,9 @@ impl IconShape for FiMove {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -8392,6 +9079,7 @@ impl IconShape for FiMove {
                 y1: "2",
                 y2: "22",
             }
+            
         }
     }
 }
@@ -8426,6 +9114,9 @@ impl IconShape for FiMusic {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8441,6 +9132,7 @@ impl IconShape for FiMusic {
                 cy: "16",
                 r: "3",
             }
+            
         }
     }
 }
@@ -8475,11 +9167,15 @@ impl IconShape for FiNavigation2 {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "12 2 19 21 12 17 5 21 12 2",
             }
+            
         }
     }
 }
@@ -8514,11 +9210,15 @@ impl IconShape for FiNavigation {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "3 11 22 2 13 21 11 13 3 11",
             }
+            
         }
     }
 }
@@ -8553,11 +9253,15 @@ impl IconShape for FiOctagon {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2",
             }
+            
         }
     }
 }
@@ -8592,6 +9296,9 @@ impl IconShape for FiPackage {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -8612,6 +9319,7 @@ impl IconShape for FiPackage {
                 y1: "22.08",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -8646,11 +9354,15 @@ impl IconShape for FiPaperclip {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48",
             }
+            
         }
     }
 }
@@ -8685,6 +9397,9 @@ impl IconShape for FiPauseCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -8704,6 +9419,7 @@ impl IconShape for FiPauseCircle {
                 y1: "15",
                 y2: "9",
             }
+            
         }
     }
 }
@@ -8738,6 +9454,9 @@ impl IconShape for FiPause {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -8752,6 +9471,7 @@ impl IconShape for FiPause {
                 x: "14",
                 y: "4",
             }
+            
         }
     }
 }
@@ -8786,6 +9506,9 @@ impl IconShape for FiPenTool {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8802,6 +9525,7 @@ impl IconShape for FiPenTool {
                 cy: "11",
                 r: "2",
             }
+            
         }
     }
 }
@@ -8836,6 +9560,9 @@ impl IconShape for FiPercent {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -8854,6 +9581,7 @@ impl IconShape for FiPercent {
                 cy: "17.5",
                 r: "2.5",
             }
+            
         }
     }
 }
@@ -8888,11 +9616,15 @@ impl IconShape for FiPhoneCall {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z",
             }
+            
         }
     }
 }
@@ -8927,6 +9659,9 @@ impl IconShape for FiPhoneForwarded {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -8941,6 +9676,7 @@ impl IconShape for FiPhoneForwarded {
             path {
                 d: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z",
             }
+            
         }
     }
 }
@@ -8975,6 +9711,9 @@ impl IconShape for FiPhoneIncoming {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -8989,6 +9728,7 @@ impl IconShape for FiPhoneIncoming {
             path {
                 d: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z",
             }
+            
         }
     }
 }
@@ -9023,6 +9763,9 @@ impl IconShape for FiPhoneMissed {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -9040,6 +9783,7 @@ impl IconShape for FiPhoneMissed {
             path {
                 d: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z",
             }
+            
         }
     }
 }
@@ -9074,6 +9818,9 @@ impl IconShape for FiPhoneOff {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9085,6 +9832,7 @@ impl IconShape for FiPhoneOff {
                 y1: "1",
                 y2: "23",
             }
+            
         }
     }
 }
@@ -9119,6 +9867,9 @@ impl IconShape for FiPhoneOutgoing {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -9133,6 +9884,7 @@ impl IconShape for FiPhoneOutgoing {
             path {
                 d: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z",
             }
+            
         }
     }
 }
@@ -9167,11 +9919,15 @@ impl IconShape for FiPhone {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z",
             }
+            
         }
     }
 }
@@ -9206,6 +9962,9 @@ impl IconShape for FiPieChart {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9214,6 +9973,7 @@ impl IconShape for FiPieChart {
             path {
                 d: "M22 12A10 10 0 0 0 12 2v10z",
             }
+            
         }
     }
 }
@@ -9248,6 +10008,9 @@ impl IconShape for FiPlayCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -9258,6 +10021,7 @@ impl IconShape for FiPlayCircle {
             polygon {
                 points: "10 8 16 12 10 16 10 8",
             }
+            
         }
     }
 }
@@ -9292,11 +10056,15 @@ impl IconShape for FiPlay {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "5 3 19 12 5 21 5 3",
             }
+            
         }
     }
 }
@@ -9331,6 +10099,9 @@ impl IconShape for FiPlusCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -9350,6 +10121,7 @@ impl IconShape for FiPlusCircle {
                 y1: "12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -9384,6 +10156,9 @@ impl IconShape for FiPlusSquare {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -9406,6 +10181,7 @@ impl IconShape for FiPlusSquare {
                 y1: "12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -9440,6 +10216,9 @@ impl IconShape for FiPlus {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -9454,6 +10233,7 @@ impl IconShape for FiPlus {
                 y1: "12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -9488,6 +10268,9 @@ impl IconShape for FiPocket {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9496,6 +10279,7 @@ impl IconShape for FiPocket {
             polyline {
                 points: "8 10 12 14 16 10",
             }
+            
         }
     }
 }
@@ -9530,6 +10314,9 @@ impl IconShape for FiPower {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9541,6 +10328,7 @@ impl IconShape for FiPower {
                 y1: "2",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -9575,6 +10363,9 @@ impl IconShape for FiPrinter {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -9589,6 +10380,7 @@ impl IconShape for FiPrinter {
                 x: "6",
                 y: "14",
             }
+            
         }
     }
 }
@@ -9623,6 +10415,9 @@ impl IconShape for FiRadio {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -9633,6 +10428,7 @@ impl IconShape for FiRadio {
             path {
                 d: "M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14",
             }
+            
         }
     }
 }
@@ -9667,6 +10463,9 @@ impl IconShape for FiRefreshCcw {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -9678,6 +10477,7 @@ impl IconShape for FiRefreshCcw {
             path {
                 d: "M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15",
             }
+            
         }
     }
 }
@@ -9712,6 +10512,9 @@ impl IconShape for FiRefreshCw {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -9723,6 +10526,7 @@ impl IconShape for FiRefreshCw {
             path {
                 d: "M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15",
             }
+            
         }
     }
 }
@@ -9757,6 +10561,9 @@ impl IconShape for FiRepeat {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -9771,6 +10578,7 @@ impl IconShape for FiRepeat {
             path {
                 d: "M21 13v2a4 4 0 0 1-4 4H3",
             }
+            
         }
     }
 }
@@ -9805,6 +10613,9 @@ impl IconShape for FiRewind {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -9813,6 +10624,7 @@ impl IconShape for FiRewind {
             polygon {
                 points: "22 19 13 12 22 5 22 19",
             }
+            
         }
     }
 }
@@ -9847,6 +10659,9 @@ impl IconShape for FiRotateCcw {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -9855,6 +10670,7 @@ impl IconShape for FiRotateCcw {
             path {
                 d: "M3.51 15a9 9 0 1 0 2.13-9.36L1 10",
             }
+            
         }
     }
 }
@@ -9889,6 +10705,9 @@ impl IconShape for FiRotateCw {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -9897,6 +10716,7 @@ impl IconShape for FiRotateCw {
             path {
                 d: "M20.49 15a9 9 0 1 1-2.12-9.36L23 10",
             }
+            
         }
     }
 }
@@ -9931,6 +10751,9 @@ impl IconShape for FiRss {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9944,6 +10767,7 @@ impl IconShape for FiRss {
                 cy: "19",
                 r: "1",
             }
+            
         }
     }
 }
@@ -9978,6 +10802,9 @@ impl IconShape for FiSave {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9989,6 +10816,7 @@ impl IconShape for FiSave {
             polyline {
                 points: "7 3 7 8 15 8",
             }
+            
         }
     }
 }
@@ -10023,6 +10851,9 @@ impl IconShape for FiScissors {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -10053,6 +10884,7 @@ impl IconShape for FiScissors {
                 y1: "8.12",
                 y2: "12",
             }
+            
         }
     }
 }
@@ -10087,6 +10919,9 @@ impl IconShape for FiSearch {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -10100,6 +10935,7 @@ impl IconShape for FiSearch {
                 y1: "21",
                 y2: "16.65",
             }
+            
         }
     }
 }
@@ -10134,6 +10970,9 @@ impl IconShape for FiSend {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -10145,6 +10984,7 @@ impl IconShape for FiSend {
             polygon {
                 points: "22 2 15 22 11 13 2 9 22 2",
             }
+            
         }
     }
 }
@@ -10179,6 +11019,9 @@ impl IconShape for FiServer {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -10209,6 +11052,7 @@ impl IconShape for FiServer {
                 y1: "18",
                 y2: "18",
             }
+            
         }
     }
 }
@@ -10243,6 +11087,9 @@ impl IconShape for FiSettings {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -10253,6 +11100,7 @@ impl IconShape for FiSettings {
             path {
                 d: "M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z",
             }
+            
         }
     }
 }
@@ -10287,6 +11135,9 @@ impl IconShape for FiShare2 {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -10316,6 +11167,7 @@ impl IconShape for FiShare2 {
                 y1: "6.51",
                 y2: "10.49",
             }
+            
         }
     }
 }
@@ -10350,6 +11202,9 @@ impl IconShape for FiShare {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10364,6 +11219,7 @@ impl IconShape for FiShare {
                 y1: "2",
                 y2: "15",
             }
+            
         }
     }
 }
@@ -10398,6 +11254,9 @@ impl IconShape for FiShieldOff {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10412,6 +11271,7 @@ impl IconShape for FiShieldOff {
                 y1: "1",
                 y2: "23",
             }
+            
         }
     }
 }
@@ -10446,11 +11306,15 @@ impl IconShape for FiShield {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z",
             }
+            
         }
     }
 }
@@ -10485,6 +11349,9 @@ impl IconShape for FiShoppingBag {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10499,6 +11366,7 @@ impl IconShape for FiShoppingBag {
             path {
                 d: "M16 10a4 4 0 0 1-8 0",
             }
+            
         }
     }
 }
@@ -10533,6 +11401,9 @@ impl IconShape for FiShoppingCart {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -10548,6 +11419,7 @@ impl IconShape for FiShoppingCart {
             path {
                 d: "M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6",
             }
+            
         }
     }
 }
@@ -10582,6 +11454,9 @@ impl IconShape for FiShuffle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -10608,6 +11483,7 @@ impl IconShape for FiShuffle {
                 y1: "4",
                 y2: "9",
             }
+            
         }
     }
 }
@@ -10642,6 +11518,9 @@ impl IconShape for FiSidebar {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -10658,6 +11537,7 @@ impl IconShape for FiSidebar {
                 y1: "3",
                 y2: "21",
             }
+            
         }
     }
 }
@@ -10692,6 +11572,9 @@ impl IconShape for FiSkipBack {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -10703,6 +11586,7 @@ impl IconShape for FiSkipBack {
                 y1: "19",
                 y2: "5",
             }
+            
         }
     }
 }
@@ -10737,6 +11621,9 @@ impl IconShape for FiSkipForward {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -10748,6 +11635,7 @@ impl IconShape for FiSkipForward {
                 y1: "5",
                 y2: "19",
             }
+            
         }
     }
 }
@@ -10782,6 +11670,9 @@ impl IconShape for FiSlack {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10808,6 +11699,7 @@ impl IconShape for FiSlack {
             path {
                 d: "M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z",
             }
+            
         }
     }
 }
@@ -10842,6 +11734,9 @@ impl IconShape for FiSlash {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -10855,6 +11750,7 @@ impl IconShape for FiSlash {
                 y1: "4.93",
                 y2: "19.07",
             }
+            
         }
     }
 }
@@ -10888,6 +11784,9 @@ impl IconShape for FiSliders {
     }
     fn stroke_linejoin(&self) -> &str {
         "round"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10945,6 +11844,7 @@ impl IconShape for FiSliders {
                 y1: "16",
                 y2: "16",
             }
+            
         }
     }
 }
@@ -10979,6 +11879,9 @@ impl IconShape for FiSmartphone {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -10995,6 +11898,7 @@ impl IconShape for FiSmartphone {
                 y1: "18",
                 y2: "18",
             }
+            
         }
     }
 }
@@ -11029,6 +11933,9 @@ impl IconShape for FiSmile {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -11051,6 +11958,7 @@ impl IconShape for FiSmile {
                 y1: "9",
                 y2: "9",
             }
+            
         }
     }
 }
@@ -11085,6 +11993,9 @@ impl IconShape for FiSpeaker {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -11106,6 +12017,7 @@ impl IconShape for FiSpeaker {
                 y1: "6",
                 y2: "6",
             }
+            
         }
     }
 }
@@ -11140,6 +12052,9 @@ impl IconShape for FiSquare {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -11150,6 +12065,7 @@ impl IconShape for FiSquare {
                 x: "3",
                 y: "3",
             }
+            
         }
     }
 }
@@ -11184,11 +12100,15 @@ impl IconShape for FiStar {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2",
             }
+            
         }
     }
 }
@@ -11223,6 +12143,9 @@ impl IconShape for FiStopCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -11236,6 +12159,7 @@ impl IconShape for FiStopCircle {
                 x: "9",
                 y: "9",
             }
+            
         }
     }
 }
@@ -11269,6 +12193,9 @@ impl IconShape for FiSun {
     }
     fn stroke_linejoin(&self) -> &str {
         "round"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11325,6 +12252,7 @@ impl IconShape for FiSun {
                 y1: "5.64",
                 y2: "4.22",
             }
+            
         }
     }
 }
@@ -11358,6 +12286,9 @@ impl IconShape for FiSunrise {
     }
     fn stroke_linejoin(&self) -> &str {
         "round"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11403,6 +12334,7 @@ impl IconShape for FiSunrise {
             polyline {
                 points: "8 6 12 2 16 6",
             }
+            
         }
     }
 }
@@ -11436,6 +12368,9 @@ impl IconShape for FiSunset {
     }
     fn stroke_linejoin(&self) -> &str {
         "round"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11481,6 +12416,7 @@ impl IconShape for FiSunset {
             polyline {
                 points: "16 5 12 9 8 5",
             }
+            
         }
     }
 }
@@ -11515,11 +12451,15 @@ impl IconShape for FiTable {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18",
             }
+            
         }
     }
 }
@@ -11554,6 +12494,9 @@ impl IconShape for FiTablet {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -11570,6 +12513,7 @@ impl IconShape for FiTablet {
                 y1: "18",
                 y2: "18",
             }
+            
         }
     }
 }
@@ -11604,6 +12548,9 @@ impl IconShape for FiTag {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -11615,6 +12562,7 @@ impl IconShape for FiTag {
                 y1: "7",
                 y2: "7",
             }
+            
         }
     }
 }
@@ -11649,6 +12597,9 @@ impl IconShape for FiTarget {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -11666,6 +12617,7 @@ impl IconShape for FiTarget {
                 cy: "12",
                 r: "2",
             }
+            
         }
     }
 }
@@ -11700,6 +12652,9 @@ impl IconShape for FiTerminal {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -11711,6 +12666,7 @@ impl IconShape for FiTerminal {
                 y1: "19",
                 y2: "19",
             }
+            
         }
     }
 }
@@ -11745,11 +12701,15 @@ impl IconShape for FiThermometer {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z",
             }
+            
         }
     }
 }
@@ -11784,11 +12744,15 @@ impl IconShape for FiThumbsDown {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17",
             }
+            
         }
     }
 }
@@ -11823,11 +12787,15 @@ impl IconShape for FiThumbsUp {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3",
             }
+            
         }
     }
 }
@@ -11862,6 +12830,9 @@ impl IconShape for FiToggleLeft {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -11877,6 +12848,7 @@ impl IconShape for FiToggleLeft {
                 cy: "12",
                 r: "3",
             }
+            
         }
     }
 }
@@ -11911,6 +12883,9 @@ impl IconShape for FiToggleRight {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -11926,6 +12901,7 @@ impl IconShape for FiToggleRight {
                 cy: "12",
                 r: "3",
             }
+            
         }
     }
 }
@@ -11960,11 +12936,15 @@ impl IconShape for FiTool {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z",
             }
+            
         }
     }
 }
@@ -11999,6 +12979,9 @@ impl IconShape for FiTrash2 {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -12019,6 +13002,7 @@ impl IconShape for FiTrash2 {
                 y1: "11",
                 y2: "17",
             }
+            
         }
     }
 }
@@ -12053,6 +13037,9 @@ impl IconShape for FiTrash {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -12061,6 +13048,7 @@ impl IconShape for FiTrash {
             path {
                 d: "M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2",
             }
+            
         }
     }
 }
@@ -12095,6 +13083,9 @@ impl IconShape for FiTrello {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -12117,6 +13108,7 @@ impl IconShape for FiTrello {
                 x: "14",
                 y: "7",
             }
+            
         }
     }
 }
@@ -12151,6 +13143,9 @@ impl IconShape for FiTrendingDown {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -12159,6 +13154,7 @@ impl IconShape for FiTrendingDown {
             polyline {
                 points: "17 18 23 18 23 12",
             }
+            
         }
     }
 }
@@ -12193,6 +13189,9 @@ impl IconShape for FiTrendingUp {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -12201,6 +13200,7 @@ impl IconShape for FiTrendingUp {
             polyline {
                 points: "17 6 23 6 23 12",
             }
+            
         }
     }
 }
@@ -12235,11 +13235,15 @@ impl IconShape for FiTriangle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z",
             }
+            
         }
     }
 }
@@ -12274,6 +13278,9 @@ impl IconShape for FiTruck {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -12295,6 +13302,7 @@ impl IconShape for FiTruck {
                 cy: "18.5",
                 r: "2.5",
             }
+            
         }
     }
 }
@@ -12329,6 +13337,9 @@ impl IconShape for FiTv {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -12342,6 +13353,7 @@ impl IconShape for FiTv {
             polyline {
                 points: "17 2 12 7 7 2",
             }
+            
         }
     }
 }
@@ -12376,11 +13388,15 @@ impl IconShape for FiTwitch {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M21 2H3v16h5v4l4-4h5l4-4V2zM11 11V7M16 11V7",
             }
+            
         }
     }
 }
@@ -12415,11 +13431,15 @@ impl IconShape for FiTwitter {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z",
             }
+            
         }
     }
 }
@@ -12454,6 +13474,9 @@ impl IconShape for FiType {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -12471,6 +13494,7 @@ impl IconShape for FiType {
                 y1: "4",
                 y2: "20",
             }
+            
         }
     }
 }
@@ -12505,11 +13529,15 @@ impl IconShape for FiUmbrella {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M23 12a11.05 11.05 0 0 0-22 0zm-5 7a3 3 0 0 1-6 0v-7",
             }
+            
         }
     }
 }
@@ -12544,6 +13572,9 @@ impl IconShape for FiUnderline {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -12555,6 +13586,7 @@ impl IconShape for FiUnderline {
                 y1: "21",
                 y2: "21",
             }
+            
         }
     }
 }
@@ -12589,6 +13621,9 @@ impl IconShape for FiUnlock {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -12602,6 +13637,7 @@ impl IconShape for FiUnlock {
             path {
                 d: "M7 11V7a5 5 0 0 1 9.9-1",
             }
+            
         }
     }
 }
@@ -12636,6 +13672,9 @@ impl IconShape for FiUploadCloud {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -12653,6 +13692,7 @@ impl IconShape for FiUploadCloud {
             polyline {
                 points: "16 16 12 12 8 16",
             }
+            
         }
     }
 }
@@ -12687,6 +13727,9 @@ impl IconShape for FiUpload {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -12701,6 +13744,7 @@ impl IconShape for FiUpload {
                 y1: "3",
                 y2: "15",
             }
+            
         }
     }
 }
@@ -12735,6 +13779,9 @@ impl IconShape for FiUserCheck {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -12748,6 +13795,7 @@ impl IconShape for FiUserCheck {
             polyline {
                 points: "17 11 19 13 23 9",
             }
+            
         }
     }
 }
@@ -12782,6 +13830,9 @@ impl IconShape for FiUserMinus {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -12798,6 +13849,7 @@ impl IconShape for FiUserMinus {
                 y1: "11",
                 y2: "11",
             }
+            
         }
     }
 }
@@ -12832,6 +13884,9 @@ impl IconShape for FiUserPlus {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -12854,6 +13909,7 @@ impl IconShape for FiUserPlus {
                 y1: "11",
                 y2: "11",
             }
+            
         }
     }
 }
@@ -12888,6 +13944,9 @@ impl IconShape for FiUserX {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -12910,6 +13969,7 @@ impl IconShape for FiUserX {
                 y1: "8",
                 y2: "13",
             }
+            
         }
     }
 }
@@ -12944,6 +14004,9 @@ impl IconShape for FiUser {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -12954,6 +14017,7 @@ impl IconShape for FiUser {
                 cy: "7",
                 r: "4",
             }
+            
         }
     }
 }
@@ -12988,6 +14052,9 @@ impl IconShape for FiUsers {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -13004,6 +14071,7 @@ impl IconShape for FiUsers {
             path {
                 d: "M16 3.13a4 4 0 0 1 0 7.75",
             }
+            
         }
     }
 }
@@ -13038,6 +14106,9 @@ impl IconShape for FiVideoOff {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -13049,6 +14120,7 @@ impl IconShape for FiVideoOff {
                 y1: "1",
                 y2: "23",
             }
+            
         }
     }
 }
@@ -13083,6 +14155,9 @@ impl IconShape for FiVideo {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -13096,6 +14171,7 @@ impl IconShape for FiVideo {
                 x: "1",
                 y: "5",
             }
+            
         }
     }
 }
@@ -13130,6 +14206,9 @@ impl IconShape for FiVoicemail {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -13148,6 +14227,7 @@ impl IconShape for FiVoicemail {
                 y1: "16",
                 y2: "16",
             }
+            
         }
     }
 }
@@ -13182,6 +14262,9 @@ impl IconShape for FiVolume1 {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -13190,6 +14273,7 @@ impl IconShape for FiVolume1 {
             path {
                 d: "M15.54 8.46a5 5 0 0 1 0 7.07",
             }
+            
         }
     }
 }
@@ -13224,6 +14308,9 @@ impl IconShape for FiVolume2 {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -13232,6 +14319,7 @@ impl IconShape for FiVolume2 {
             path {
                 d: "M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07",
             }
+            
         }
     }
 }
@@ -13266,6 +14354,9 @@ impl IconShape for FiVolumeX {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -13283,6 +14374,7 @@ impl IconShape for FiVolumeX {
                 y1: "9",
                 y2: "15",
             }
+            
         }
     }
 }
@@ -13317,11 +14409,15 @@ impl IconShape for FiVolume {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "11 5 6 9 2 9 2 15 6 15 11 19 11 5",
             }
+            
         }
     }
 }
@@ -13356,6 +14452,9 @@ impl IconShape for FiWatch {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -13369,6 +14468,7 @@ impl IconShape for FiWatch {
             path {
                 d: "M16.51 17.35l-.35 3.83a2 2 0 0 1-2 1.82H9.83a2 2 0 0 1-2-1.82l-.35-3.83m.01-10.7l.35-3.83A2 2 0 0 1 9.83 1h4.35a2 2 0 0 1 2 1.82l.35 3.83",
             }
+            
         }
     }
 }
@@ -13403,6 +14503,9 @@ impl IconShape for FiWifiOff {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -13432,6 +14535,7 @@ impl IconShape for FiWifiOff {
                 y1: "20",
                 y2: "20",
             }
+            
         }
     }
 }
@@ -13466,6 +14570,9 @@ impl IconShape for FiWifi {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -13483,6 +14590,7 @@ impl IconShape for FiWifi {
                 y1: "20",
                 y2: "20",
             }
+            
         }
     }
 }
@@ -13517,11 +14625,15 @@ impl IconShape for FiWind {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2",
             }
+            
         }
     }
 }
@@ -13556,6 +14668,9 @@ impl IconShape for FiXCircle {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -13575,6 +14690,7 @@ impl IconShape for FiXCircle {
                 y1: "9",
                 y2: "15",
             }
+            
         }
     }
 }
@@ -13609,6 +14725,9 @@ impl IconShape for FiXOctagon {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
@@ -13626,6 +14745,7 @@ impl IconShape for FiXOctagon {
                 y1: "9",
                 y2: "15",
             }
+            
         }
     }
 }
@@ -13660,6 +14780,9 @@ impl IconShape for FiXSquare {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
@@ -13682,6 +14805,7 @@ impl IconShape for FiXSquare {
                 y1: "9",
                 y2: "15",
             }
+            
         }
     }
 }
@@ -13716,6 +14840,9 @@ impl IconShape for FiX {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             line {
@@ -13730,6 +14857,7 @@ impl IconShape for FiX {
                 y1: "6",
                 y2: "18",
             }
+            
         }
     }
 }
@@ -13764,6 +14892,9 @@ impl IconShape for FiYoutube {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -13772,6 +14903,7 @@ impl IconShape for FiYoutube {
             polygon {
                 points: "9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02",
             }
+            
         }
     }
 }
@@ -13806,6 +14938,9 @@ impl IconShape for FiZapOff {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polyline {
@@ -13823,6 +14958,7 @@ impl IconShape for FiZapOff {
                 y1: "1",
                 y2: "23",
             }
+            
         }
     }
 }
@@ -13857,11 +14993,15 @@ impl IconShape for FiZap {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             polygon {
                 points: "13 2 3 14 12 14 11 22 21 10 12 10 13 2",
             }
+            
         }
     }
 }
@@ -13896,6 +15036,9 @@ impl IconShape for FiZoomIn {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -13921,6 +15064,7 @@ impl IconShape for FiZoomIn {
                 y1: "11",
                 y2: "11",
             }
+            
         }
     }
 }
@@ -13955,6 +15099,9 @@ impl IconShape for FiZoomOut {
     fn stroke_linejoin(&self) -> &str {
         "round"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             circle {
@@ -13974,6 +15121,7 @@ impl IconShape for FiZoomOut {
                 y1: "11",
                 y2: "11",
             }
+            
         }
     }
 }

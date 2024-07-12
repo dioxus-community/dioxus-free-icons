@@ -31,6 +31,9 @@ impl IconShape for HiAcademicCap {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -46,6 +49,7 @@ impl IconShape for HiAcademicCap {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -80,6 +84,9 @@ impl IconShape for HiAdjustments {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -89,6 +96,7 @@ impl IconShape for HiAdjustments {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -123,6 +131,9 @@ impl IconShape for HiAnnotation {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -132,6 +143,7 @@ impl IconShape for HiAnnotation {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -166,6 +178,9 @@ impl IconShape for HiArchive {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -175,6 +190,7 @@ impl IconShape for HiArchive {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -209,6 +225,9 @@ impl IconShape for HiArrowCircleDown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -218,6 +237,7 @@ impl IconShape for HiArrowCircleDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -252,6 +272,9 @@ impl IconShape for HiArrowCircleLeft {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -261,6 +284,7 @@ impl IconShape for HiArrowCircleLeft {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -295,6 +319,9 @@ impl IconShape for HiArrowCircleRight {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -304,6 +331,7 @@ impl IconShape for HiArrowCircleRight {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -338,6 +366,9 @@ impl IconShape for HiArrowCircleUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -347,6 +378,7 @@ impl IconShape for HiArrowCircleUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -381,6 +413,9 @@ impl IconShape for HiArrowDown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -390,6 +425,7 @@ impl IconShape for HiArrowDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -424,6 +460,9 @@ impl IconShape for HiArrowLeft {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -433,6 +472,7 @@ impl IconShape for HiArrowLeft {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -467,6 +507,9 @@ impl IconShape for HiArrowNarrowDown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -476,6 +519,7 @@ impl IconShape for HiArrowNarrowDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -510,6 +554,9 @@ impl IconShape for HiArrowNarrowLeft {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -519,6 +566,7 @@ impl IconShape for HiArrowNarrowLeft {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -553,6 +601,9 @@ impl IconShape for HiArrowNarrowRight {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -562,6 +613,7 @@ impl IconShape for HiArrowNarrowRight {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -596,6 +648,9 @@ impl IconShape for HiArrowNarrowUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -605,6 +660,7 @@ impl IconShape for HiArrowNarrowUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -639,6 +695,9 @@ impl IconShape for HiArrowRight {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -648,6 +707,7 @@ impl IconShape for HiArrowRight {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -682,6 +742,9 @@ impl IconShape for HiArrowSmDown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -691,6 +754,7 @@ impl IconShape for HiArrowSmDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -725,6 +789,9 @@ impl IconShape for HiArrowSmLeft {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -734,6 +801,7 @@ impl IconShape for HiArrowSmLeft {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -768,6 +836,9 @@ impl IconShape for HiArrowSmRight {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -777,6 +848,7 @@ impl IconShape for HiArrowSmRight {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -811,6 +883,9 @@ impl IconShape for HiArrowSmUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -820,6 +895,7 @@ impl IconShape for HiArrowSmUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -854,6 +930,9 @@ impl IconShape for HiArrowUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -863,6 +942,7 @@ impl IconShape for HiArrowUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -897,6 +977,9 @@ impl IconShape for HiArrowsExpand {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -906,6 +989,7 @@ impl IconShape for HiArrowsExpand {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -940,6 +1024,9 @@ impl IconShape for HiAtSymbol {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -949,6 +1036,7 @@ impl IconShape for HiAtSymbol {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -983,6 +1071,9 @@ impl IconShape for HiBackspace {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -992,6 +1083,7 @@ impl IconShape for HiBackspace {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1026,6 +1118,9 @@ impl IconShape for HiBadgeCheck {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1035,6 +1130,7 @@ impl IconShape for HiBadgeCheck {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1069,6 +1165,9 @@ impl IconShape for HiBan {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1078,6 +1177,7 @@ impl IconShape for HiBan {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1112,6 +1212,9 @@ impl IconShape for HiBeaker {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1121,6 +1224,7 @@ impl IconShape for HiBeaker {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1155,6 +1259,9 @@ impl IconShape for HiBell {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1164,6 +1271,7 @@ impl IconShape for HiBell {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1198,6 +1306,9 @@ impl IconShape for HiBookOpen {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1207,6 +1318,7 @@ impl IconShape for HiBookOpen {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1241,6 +1353,9 @@ impl IconShape for HiBookmarkAlt {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1250,6 +1365,7 @@ impl IconShape for HiBookmarkAlt {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1284,6 +1400,9 @@ impl IconShape for HiBookmark {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1293,6 +1412,7 @@ impl IconShape for HiBookmark {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1327,6 +1447,9 @@ impl IconShape for HiBriefcase {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1336,6 +1459,7 @@ impl IconShape for HiBriefcase {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1370,6 +1494,9 @@ impl IconShape for HiCake {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1379,6 +1506,7 @@ impl IconShape for HiCake {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1413,6 +1541,9 @@ impl IconShape for HiCalculator {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1422,6 +1553,7 @@ impl IconShape for HiCalculator {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1456,6 +1588,9 @@ impl IconShape for HiCalendar {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1465,6 +1600,7 @@ impl IconShape for HiCalendar {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1499,6 +1635,9 @@ impl IconShape for HiCamera {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1515,6 +1654,7 @@ impl IconShape for HiCamera {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1549,6 +1689,9 @@ impl IconShape for HiCash {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1558,6 +1701,7 @@ impl IconShape for HiCash {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1592,6 +1736,9 @@ impl IconShape for HiChartBar {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1601,6 +1748,7 @@ impl IconShape for HiChartBar {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1635,6 +1783,9 @@ impl IconShape for HiChartPie {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1651,6 +1802,7 @@ impl IconShape for HiChartPie {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1685,6 +1837,9 @@ impl IconShape for HiChartSquareBar {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1694,6 +1849,7 @@ impl IconShape for HiChartSquareBar {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1728,6 +1884,9 @@ impl IconShape for HiChatAlt2 {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1737,6 +1896,7 @@ impl IconShape for HiChatAlt2 {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1771,6 +1931,9 @@ impl IconShape for HiChatAlt {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1780,6 +1943,7 @@ impl IconShape for HiChatAlt {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1814,6 +1978,9 @@ impl IconShape for HiChat {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1823,6 +1990,7 @@ impl IconShape for HiChat {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1857,6 +2025,9 @@ impl IconShape for HiCheckCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1866,6 +2037,7 @@ impl IconShape for HiCheckCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1900,6 +2072,9 @@ impl IconShape for HiCheck {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1909,6 +2084,7 @@ impl IconShape for HiCheck {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1943,6 +2119,9 @@ impl IconShape for HiChevronDoubleDown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1952,6 +2131,7 @@ impl IconShape for HiChevronDoubleDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -1986,6 +2166,9 @@ impl IconShape for HiChevronDoubleLeft {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -1995,6 +2178,7 @@ impl IconShape for HiChevronDoubleLeft {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2029,6 +2213,9 @@ impl IconShape for HiChevronDoubleRight {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2038,6 +2225,7 @@ impl IconShape for HiChevronDoubleRight {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2072,6 +2260,9 @@ impl IconShape for HiChevronDoubleUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2081,6 +2272,7 @@ impl IconShape for HiChevronDoubleUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2115,6 +2307,9 @@ impl IconShape for HiChevronDown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2124,6 +2319,7 @@ impl IconShape for HiChevronDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2158,6 +2354,9 @@ impl IconShape for HiChevronLeft {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2167,6 +2366,7 @@ impl IconShape for HiChevronLeft {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2201,6 +2401,9 @@ impl IconShape for HiChevronRight {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2210,6 +2413,7 @@ impl IconShape for HiChevronRight {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2244,6 +2448,9 @@ impl IconShape for HiChevronUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2253,6 +2460,7 @@ impl IconShape for HiChevronUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2287,6 +2495,9 @@ impl IconShape for HiChip {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2296,6 +2507,7 @@ impl IconShape for HiChip {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2330,6 +2542,9 @@ impl IconShape for HiClipboardCheck {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2339,6 +2554,7 @@ impl IconShape for HiClipboardCheck {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2373,6 +2589,9 @@ impl IconShape for HiClipboardCopy {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2382,6 +2601,7 @@ impl IconShape for HiClipboardCopy {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2416,6 +2636,9 @@ impl IconShape for HiClipboardList {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2425,6 +2648,7 @@ impl IconShape for HiClipboardList {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2459,6 +2683,9 @@ impl IconShape for HiClipboard {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2468,6 +2695,7 @@ impl IconShape for HiClipboard {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2502,6 +2730,9 @@ impl IconShape for HiClock {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2511,6 +2742,7 @@ impl IconShape for HiClock {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2545,6 +2777,9 @@ impl IconShape for HiCloudDownload {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2554,6 +2789,7 @@ impl IconShape for HiCloudDownload {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2588,6 +2824,9 @@ impl IconShape for HiCloudUpload {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2597,6 +2836,7 @@ impl IconShape for HiCloudUpload {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2631,6 +2871,9 @@ impl IconShape for HiCloud {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2640,6 +2883,7 @@ impl IconShape for HiCloud {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2674,6 +2918,9 @@ impl IconShape for HiCode {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2683,6 +2930,7 @@ impl IconShape for HiCode {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2717,6 +2965,9 @@ impl IconShape for HiCog {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2733,6 +2984,7 @@ impl IconShape for HiCog {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2767,6 +3019,9 @@ impl IconShape for HiCollection {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2776,6 +3031,7 @@ impl IconShape for HiCollection {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2810,6 +3066,9 @@ impl IconShape for HiColorSwatch {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2819,6 +3078,7 @@ impl IconShape for HiColorSwatch {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2853,6 +3113,9 @@ impl IconShape for HiCreditCard {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2862,6 +3125,7 @@ impl IconShape for HiCreditCard {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2896,6 +3160,9 @@ impl IconShape for HiCubeTransparent {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2905,6 +3172,7 @@ impl IconShape for HiCubeTransparent {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2939,6 +3207,9 @@ impl IconShape for HiCube {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2948,6 +3219,7 @@ impl IconShape for HiCube {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -2982,6 +3254,9 @@ impl IconShape for HiCurrencyBangladeshi {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -2991,6 +3266,7 @@ impl IconShape for HiCurrencyBangladeshi {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3025,6 +3301,9 @@ impl IconShape for HiCurrencyDollar {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3034,6 +3313,7 @@ impl IconShape for HiCurrencyDollar {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3068,6 +3348,9 @@ impl IconShape for HiCurrencyEuro {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3077,6 +3360,7 @@ impl IconShape for HiCurrencyEuro {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3111,6 +3395,9 @@ impl IconShape for HiCurrencyPound {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3120,6 +3407,7 @@ impl IconShape for HiCurrencyPound {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3154,6 +3442,9 @@ impl IconShape for HiCurrencyRupee {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3163,6 +3454,7 @@ impl IconShape for HiCurrencyRupee {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3197,6 +3489,9 @@ impl IconShape for HiCurrencyYen {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3206,6 +3501,7 @@ impl IconShape for HiCurrencyYen {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3240,6 +3536,9 @@ impl IconShape for HiCursorClick {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3249,6 +3548,7 @@ impl IconShape for HiCursorClick {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3283,6 +3583,9 @@ impl IconShape for HiDatabase {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3292,6 +3595,7 @@ impl IconShape for HiDatabase {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3326,6 +3630,9 @@ impl IconShape for HiDesktopComputer {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3335,6 +3642,7 @@ impl IconShape for HiDesktopComputer {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3369,6 +3677,9 @@ impl IconShape for HiDeviceMobile {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3378,6 +3689,7 @@ impl IconShape for HiDeviceMobile {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3412,6 +3724,9 @@ impl IconShape for HiDeviceTablet {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3421,6 +3736,7 @@ impl IconShape for HiDeviceTablet {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3455,6 +3771,9 @@ impl IconShape for HiDocumentAdd {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3464,6 +3783,7 @@ impl IconShape for HiDocumentAdd {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3498,6 +3818,9 @@ impl IconShape for HiDocumentDownload {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3507,6 +3830,7 @@ impl IconShape for HiDocumentDownload {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3541,6 +3865,9 @@ impl IconShape for HiDocumentDuplicate {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3550,6 +3877,7 @@ impl IconShape for HiDocumentDuplicate {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3584,6 +3912,9 @@ impl IconShape for HiDocumentRemove {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3593,6 +3924,7 @@ impl IconShape for HiDocumentRemove {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3627,6 +3959,9 @@ impl IconShape for HiDocumentReport {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3636,6 +3971,7 @@ impl IconShape for HiDocumentReport {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3670,6 +4006,9 @@ impl IconShape for HiDocumentSearch {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3679,6 +4018,7 @@ impl IconShape for HiDocumentSearch {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3713,6 +4053,9 @@ impl IconShape for HiDocumentText {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3722,6 +4065,7 @@ impl IconShape for HiDocumentText {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3756,6 +4100,9 @@ impl IconShape for HiDocument {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3765,6 +4112,7 @@ impl IconShape for HiDocument {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3799,6 +4147,9 @@ impl IconShape for HiDotsCircleHorizontal {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3808,6 +4159,7 @@ impl IconShape for HiDotsCircleHorizontal {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3842,6 +4194,9 @@ impl IconShape for HiDotsHorizontal {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3851,6 +4206,7 @@ impl IconShape for HiDotsHorizontal {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3885,6 +4241,9 @@ impl IconShape for HiDotsVertical {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3894,6 +4253,7 @@ impl IconShape for HiDotsVertical {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3928,6 +4288,9 @@ impl IconShape for HiDownload {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3937,6 +4300,7 @@ impl IconShape for HiDownload {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -3971,6 +4335,9 @@ impl IconShape for HiDuplicate {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -3980,6 +4347,7 @@ impl IconShape for HiDuplicate {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4014,6 +4382,9 @@ impl IconShape for HiEmojiHappy {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4023,6 +4394,7 @@ impl IconShape for HiEmojiHappy {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4057,6 +4429,9 @@ impl IconShape for HiEmojiSad {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4066,6 +4441,7 @@ impl IconShape for HiEmojiSad {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4100,6 +4476,9 @@ impl IconShape for HiExclamationCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4109,6 +4488,7 @@ impl IconShape for HiExclamationCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4143,6 +4523,9 @@ impl IconShape for HiExclamation {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4152,6 +4535,7 @@ impl IconShape for HiExclamation {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4186,6 +4570,9 @@ impl IconShape for HiExternalLink {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4195,6 +4582,7 @@ impl IconShape for HiExternalLink {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4229,6 +4617,9 @@ impl IconShape for HiEyeOff {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4238,6 +4629,7 @@ impl IconShape for HiEyeOff {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4272,6 +4664,9 @@ impl IconShape for HiEye {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4288,6 +4683,7 @@ impl IconShape for HiEye {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4322,6 +4718,9 @@ impl IconShape for HiFastForward {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4338,6 +4737,7 @@ impl IconShape for HiFastForward {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4372,6 +4772,9 @@ impl IconShape for HiFilm {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4381,6 +4784,7 @@ impl IconShape for HiFilm {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4415,6 +4819,9 @@ impl IconShape for HiFilter {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4424,6 +4831,7 @@ impl IconShape for HiFilter {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4458,6 +4866,9 @@ impl IconShape for HiFingerPrint {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4467,6 +4878,7 @@ impl IconShape for HiFingerPrint {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4501,6 +4913,9 @@ impl IconShape for HiFire {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4517,6 +4932,7 @@ impl IconShape for HiFire {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4551,6 +4967,9 @@ impl IconShape for HiFlag {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4560,6 +4979,7 @@ impl IconShape for HiFlag {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4594,6 +5014,9 @@ impl IconShape for HiFolderAdd {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4603,6 +5026,7 @@ impl IconShape for HiFolderAdd {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4637,6 +5061,9 @@ impl IconShape for HiFolderDownload {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4646,6 +5073,7 @@ impl IconShape for HiFolderDownload {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4680,6 +5108,9 @@ impl IconShape for HiFolderOpen {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4689,6 +5120,7 @@ impl IconShape for HiFolderOpen {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4723,6 +5155,9 @@ impl IconShape for HiFolderRemove {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4732,6 +5167,7 @@ impl IconShape for HiFolderRemove {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4766,6 +5202,9 @@ impl IconShape for HiFolder {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4775,6 +5214,7 @@ impl IconShape for HiFolder {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4809,6 +5249,9 @@ impl IconShape for HiGift {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4818,6 +5261,7 @@ impl IconShape for HiGift {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4852,6 +5296,9 @@ impl IconShape for HiGlobeAlt {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4861,6 +5308,7 @@ impl IconShape for HiGlobeAlt {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4895,6 +5343,9 @@ impl IconShape for HiGlobe {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4904,6 +5355,7 @@ impl IconShape for HiGlobe {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4938,6 +5390,9 @@ impl IconShape for HiHand {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4947,6 +5402,7 @@ impl IconShape for HiHand {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -4981,6 +5437,9 @@ impl IconShape for HiHashtag {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -4990,6 +5449,7 @@ impl IconShape for HiHashtag {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5024,6 +5484,9 @@ impl IconShape for HiHeart {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5033,6 +5496,7 @@ impl IconShape for HiHeart {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5067,6 +5531,9 @@ impl IconShape for HiHome {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5076,6 +5543,7 @@ impl IconShape for HiHome {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5110,6 +5578,9 @@ impl IconShape for HiIdentification {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5119,6 +5590,7 @@ impl IconShape for HiIdentification {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5153,6 +5625,9 @@ impl IconShape for HiInboxIn {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5162,6 +5637,7 @@ impl IconShape for HiInboxIn {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5196,6 +5672,9 @@ impl IconShape for HiInbox {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5205,6 +5684,7 @@ impl IconShape for HiInbox {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5239,6 +5719,9 @@ impl IconShape for HiInformationCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5248,6 +5731,7 @@ impl IconShape for HiInformationCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5282,6 +5766,9 @@ impl IconShape for HiKey {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5291,6 +5778,7 @@ impl IconShape for HiKey {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5325,6 +5813,9 @@ impl IconShape for HiLibrary {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5334,6 +5825,7 @@ impl IconShape for HiLibrary {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5368,6 +5860,9 @@ impl IconShape for HiLightBulb {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5377,6 +5872,7 @@ impl IconShape for HiLightBulb {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5411,6 +5907,9 @@ impl IconShape for HiLightningBolt {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5420,6 +5919,7 @@ impl IconShape for HiLightningBolt {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5454,6 +5954,9 @@ impl IconShape for HiLink {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5463,6 +5966,7 @@ impl IconShape for HiLink {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5497,6 +6001,9 @@ impl IconShape for HiLocationMarker {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5513,6 +6020,7 @@ impl IconShape for HiLocationMarker {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5547,6 +6055,9 @@ impl IconShape for HiLockClosed {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5556,6 +6067,7 @@ impl IconShape for HiLockClosed {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5590,6 +6102,9 @@ impl IconShape for HiLockOpen {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5599,6 +6114,7 @@ impl IconShape for HiLockOpen {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5633,6 +6149,9 @@ impl IconShape for HiLogin {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5642,6 +6161,7 @@ impl IconShape for HiLogin {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5676,6 +6196,9 @@ impl IconShape for HiLogout {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5685,6 +6208,7 @@ impl IconShape for HiLogout {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5719,6 +6243,9 @@ impl IconShape for HiMailOpen {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5728,6 +6255,7 @@ impl IconShape for HiMailOpen {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5762,6 +6290,9 @@ impl IconShape for HiMail {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5771,6 +6302,7 @@ impl IconShape for HiMail {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5805,6 +6337,9 @@ impl IconShape for HiMap {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5814,6 +6349,7 @@ impl IconShape for HiMap {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5848,6 +6384,9 @@ impl IconShape for HiMenuAlt1 {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5857,6 +6396,7 @@ impl IconShape for HiMenuAlt1 {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5891,6 +6431,9 @@ impl IconShape for HiMenuAlt2 {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5900,6 +6443,7 @@ impl IconShape for HiMenuAlt2 {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5934,6 +6478,9 @@ impl IconShape for HiMenuAlt3 {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5943,6 +6490,7 @@ impl IconShape for HiMenuAlt3 {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -5977,6 +6525,9 @@ impl IconShape for HiMenuAlt4 {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -5986,6 +6537,7 @@ impl IconShape for HiMenuAlt4 {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6020,6 +6572,9 @@ impl IconShape for HiMenu {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6029,6 +6584,7 @@ impl IconShape for HiMenu {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6063,6 +6619,9 @@ impl IconShape for HiMicrophone {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6072,6 +6631,7 @@ impl IconShape for HiMicrophone {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6106,6 +6666,9 @@ impl IconShape for HiMinusCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6115,6 +6678,7 @@ impl IconShape for HiMinusCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6149,6 +6713,9 @@ impl IconShape for HiMinusSm {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6158,6 +6725,7 @@ impl IconShape for HiMinusSm {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6192,6 +6760,9 @@ impl IconShape for HiMinus {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6201,6 +6772,7 @@ impl IconShape for HiMinus {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6235,6 +6807,9 @@ impl IconShape for HiMoon {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6244,6 +6819,7 @@ impl IconShape for HiMoon {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6278,6 +6854,9 @@ impl IconShape for HiMusicNote {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6287,6 +6866,7 @@ impl IconShape for HiMusicNote {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6321,6 +6901,9 @@ impl IconShape for HiNewspaper {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6330,6 +6913,7 @@ impl IconShape for HiNewspaper {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6364,6 +6948,9 @@ impl IconShape for HiOfficeBuilding {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6373,6 +6960,7 @@ impl IconShape for HiOfficeBuilding {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6407,6 +6995,9 @@ impl IconShape for HiPaperAirplane {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6416,6 +7007,7 @@ impl IconShape for HiPaperAirplane {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6450,6 +7042,9 @@ impl IconShape for HiPaperClip {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6459,6 +7054,7 @@ impl IconShape for HiPaperClip {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6493,6 +7089,9 @@ impl IconShape for HiPause {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6502,6 +7101,7 @@ impl IconShape for HiPause {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6536,6 +7136,9 @@ impl IconShape for HiPencilAlt {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6545,6 +7148,7 @@ impl IconShape for HiPencilAlt {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6579,6 +7183,9 @@ impl IconShape for HiPencil {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6588,6 +7195,7 @@ impl IconShape for HiPencil {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6622,6 +7230,9 @@ impl IconShape for HiPhoneIncoming {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6631,6 +7242,7 @@ impl IconShape for HiPhoneIncoming {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6665,6 +7277,9 @@ impl IconShape for HiPhoneMissedCall {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6674,6 +7289,7 @@ impl IconShape for HiPhoneMissedCall {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6708,6 +7324,9 @@ impl IconShape for HiPhoneOutgoing {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6717,6 +7336,7 @@ impl IconShape for HiPhoneOutgoing {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6751,6 +7371,9 @@ impl IconShape for HiPhone {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6760,6 +7383,7 @@ impl IconShape for HiPhone {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6794,6 +7418,9 @@ impl IconShape for HiPhotograph {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6803,6 +7430,7 @@ impl IconShape for HiPhotograph {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6837,6 +7465,9 @@ impl IconShape for HiPlay {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6853,6 +7484,7 @@ impl IconShape for HiPlay {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6887,6 +7519,9 @@ impl IconShape for HiPlusCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6896,6 +7531,7 @@ impl IconShape for HiPlusCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6930,6 +7566,9 @@ impl IconShape for HiPlusSm {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6939,6 +7578,7 @@ impl IconShape for HiPlusSm {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -6973,6 +7613,9 @@ impl IconShape for HiPlus {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -6982,6 +7625,7 @@ impl IconShape for HiPlus {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7016,6 +7660,9 @@ impl IconShape for HiPresentationChartBar {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7025,6 +7672,7 @@ impl IconShape for HiPresentationChartBar {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7059,6 +7707,9 @@ impl IconShape for HiPresentationChartLine {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7068,6 +7719,7 @@ impl IconShape for HiPresentationChartLine {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7102,6 +7754,9 @@ impl IconShape for HiPrinter {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7111,6 +7766,7 @@ impl IconShape for HiPrinter {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7145,6 +7801,9 @@ impl IconShape for HiPuzzle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7154,6 +7813,7 @@ impl IconShape for HiPuzzle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7188,6 +7848,9 @@ impl IconShape for HiQrcode {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7197,6 +7860,7 @@ impl IconShape for HiQrcode {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7231,6 +7895,9 @@ impl IconShape for HiQuestionMarkCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7240,6 +7907,7 @@ impl IconShape for HiQuestionMarkCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7274,6 +7942,9 @@ impl IconShape for HiReceiptRefund {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7283,6 +7954,7 @@ impl IconShape for HiReceiptRefund {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7317,6 +7989,9 @@ impl IconShape for HiReceiptTax {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7326,6 +8001,7 @@ impl IconShape for HiReceiptTax {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7360,6 +8036,9 @@ impl IconShape for HiRefresh {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7369,6 +8048,7 @@ impl IconShape for HiRefresh {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7403,6 +8083,9 @@ impl IconShape for HiReply {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7412,6 +8095,7 @@ impl IconShape for HiReply {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7446,6 +8130,9 @@ impl IconShape for HiRewind {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7462,6 +8149,7 @@ impl IconShape for HiRewind {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7496,6 +8184,9 @@ impl IconShape for HiRss {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7505,6 +8196,7 @@ impl IconShape for HiRss {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7539,6 +8231,9 @@ impl IconShape for HiSaveAs {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7548,6 +8243,7 @@ impl IconShape for HiSaveAs {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7582,6 +8278,9 @@ impl IconShape for HiSave {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7591,6 +8290,7 @@ impl IconShape for HiSave {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7625,6 +8325,9 @@ impl IconShape for HiScale {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7634,6 +8337,7 @@ impl IconShape for HiScale {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7668,6 +8372,9 @@ impl IconShape for HiScissors {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7677,6 +8384,7 @@ impl IconShape for HiScissors {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7711,6 +8419,9 @@ impl IconShape for HiSearchCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7720,6 +8431,7 @@ impl IconShape for HiSearchCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7754,6 +8466,9 @@ impl IconShape for HiSearch {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7763,6 +8478,7 @@ impl IconShape for HiSearch {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7797,6 +8513,9 @@ impl IconShape for HiSelector {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7806,6 +8525,7 @@ impl IconShape for HiSelector {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7840,6 +8560,9 @@ impl IconShape for HiServer {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7849,6 +8572,7 @@ impl IconShape for HiServer {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7883,6 +8607,9 @@ impl IconShape for HiShare {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7892,6 +8619,7 @@ impl IconShape for HiShare {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7926,6 +8654,9 @@ impl IconShape for HiShieldCheck {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7935,6 +8666,7 @@ impl IconShape for HiShieldCheck {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -7969,6 +8701,9 @@ impl IconShape for HiShieldExclamation {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -7985,6 +8720,7 @@ impl IconShape for HiShieldExclamation {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8019,6 +8755,9 @@ impl IconShape for HiShoppingBag {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8028,6 +8767,7 @@ impl IconShape for HiShoppingBag {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8062,6 +8802,9 @@ impl IconShape for HiShoppingCart {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8071,6 +8814,7 @@ impl IconShape for HiShoppingCart {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8105,6 +8849,9 @@ impl IconShape for HiSortAscending {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8114,6 +8861,7 @@ impl IconShape for HiSortAscending {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8148,6 +8896,9 @@ impl IconShape for HiSortDescending {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8157,6 +8908,7 @@ impl IconShape for HiSortDescending {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8191,6 +8943,9 @@ impl IconShape for HiSparkles {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8200,6 +8955,7 @@ impl IconShape for HiSparkles {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8234,6 +8990,9 @@ impl IconShape for HiSpeakerphone {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8243,6 +9002,7 @@ impl IconShape for HiSpeakerphone {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8277,6 +9037,9 @@ impl IconShape for HiStar {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8286,6 +9049,7 @@ impl IconShape for HiStar {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8320,6 +9084,9 @@ impl IconShape for HiStatusOffline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8329,6 +9096,7 @@ impl IconShape for HiStatusOffline {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8363,6 +9131,9 @@ impl IconShape for HiStatusOnline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8372,6 +9143,7 @@ impl IconShape for HiStatusOnline {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8406,6 +9178,9 @@ impl IconShape for HiStop {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8422,6 +9197,7 @@ impl IconShape for HiStop {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8456,6 +9232,9 @@ impl IconShape for HiSun {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8465,6 +9244,7 @@ impl IconShape for HiSun {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8499,6 +9279,9 @@ impl IconShape for HiSupport {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8508,6 +9291,7 @@ impl IconShape for HiSupport {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8542,6 +9326,9 @@ impl IconShape for HiSwitchHorizontal {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8551,6 +9338,7 @@ impl IconShape for HiSwitchHorizontal {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8585,6 +9373,9 @@ impl IconShape for HiSwitchVertical {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8594,6 +9385,7 @@ impl IconShape for HiSwitchVertical {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8628,6 +9420,9 @@ impl IconShape for HiTable {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8637,6 +9432,7 @@ impl IconShape for HiTable {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8671,6 +9467,9 @@ impl IconShape for HiTag {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8680,6 +9479,7 @@ impl IconShape for HiTag {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8714,6 +9514,9 @@ impl IconShape for HiTemplate {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8737,6 +9540,7 @@ impl IconShape for HiTemplate {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8771,6 +9575,9 @@ impl IconShape for HiTerminal {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8780,6 +9587,7 @@ impl IconShape for HiTerminal {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8814,6 +9622,9 @@ impl IconShape for HiThumbDown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8823,6 +9634,7 @@ impl IconShape for HiThumbDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8857,6 +9669,9 @@ impl IconShape for HiThumbUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8866,6 +9681,7 @@ impl IconShape for HiThumbUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8900,6 +9716,9 @@ impl IconShape for HiTicket {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8909,6 +9728,7 @@ impl IconShape for HiTicket {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8943,6 +9763,9 @@ impl IconShape for HiTranslate {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8952,6 +9775,7 @@ impl IconShape for HiTranslate {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -8986,6 +9810,9 @@ impl IconShape for HiTrash {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -8995,6 +9822,7 @@ impl IconShape for HiTrash {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9029,6 +9857,9 @@ impl IconShape for HiTrendingDown {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9038,6 +9869,7 @@ impl IconShape for HiTrendingDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9072,6 +9904,9 @@ impl IconShape for HiTrendingUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9081,6 +9916,7 @@ impl IconShape for HiTrendingUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9115,6 +9951,9 @@ impl IconShape for HiTruck {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9130,6 +9969,7 @@ impl IconShape for HiTruck {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9164,6 +10004,9 @@ impl IconShape for HiUpload {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9173,6 +10016,7 @@ impl IconShape for HiUpload {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9207,6 +10051,9 @@ impl IconShape for HiUserAdd {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9216,6 +10063,7 @@ impl IconShape for HiUserAdd {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9250,6 +10098,9 @@ impl IconShape for HiUserCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9259,6 +10110,7 @@ impl IconShape for HiUserCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9293,6 +10145,9 @@ impl IconShape for HiUserGroup {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9302,6 +10157,7 @@ impl IconShape for HiUserGroup {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9336,6 +10192,9 @@ impl IconShape for HiUserRemove {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9359,6 +10218,7 @@ impl IconShape for HiUserRemove {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9393,6 +10253,9 @@ impl IconShape for HiUser {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9409,6 +10272,7 @@ impl IconShape for HiUser {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9443,6 +10307,9 @@ impl IconShape for HiUsers {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9452,6 +10319,7 @@ impl IconShape for HiUsers {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9486,6 +10354,9 @@ impl IconShape for HiVariable {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9495,6 +10366,7 @@ impl IconShape for HiVariable {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9529,6 +10401,9 @@ impl IconShape for HiVideoCamera {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9538,6 +10413,7 @@ impl IconShape for HiVideoCamera {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9572,6 +10448,9 @@ impl IconShape for HiViewBoards {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9581,6 +10460,7 @@ impl IconShape for HiViewBoards {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9615,6 +10495,9 @@ impl IconShape for HiViewGridAdd {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9624,6 +10507,7 @@ impl IconShape for HiViewGridAdd {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9658,6 +10542,9 @@ impl IconShape for HiViewGrid {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9688,6 +10575,7 @@ impl IconShape for HiViewGrid {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9722,6 +10610,9 @@ impl IconShape for HiViewList {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9731,6 +10622,7 @@ impl IconShape for HiViewList {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9765,6 +10657,9 @@ impl IconShape for HiVolumeOff {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9783,6 +10678,7 @@ impl IconShape for HiVolumeOff {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9817,6 +10713,9 @@ impl IconShape for HiVolumeUp {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9826,6 +10725,7 @@ impl IconShape for HiVolumeUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9860,6 +10760,9 @@ impl IconShape for HiWifi {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9869,6 +10772,7 @@ impl IconShape for HiWifi {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9903,6 +10807,9 @@ impl IconShape for HiXCircle {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9912,6 +10819,7 @@ impl IconShape for HiXCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9946,6 +10854,9 @@ impl IconShape for HiX {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -9955,6 +10866,7 @@ impl IconShape for HiX {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -9989,6 +10901,9 @@ impl IconShape for HiZoomIn {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10005,6 +10920,7 @@ impl IconShape for HiZoomIn {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }
@@ -10039,6 +10955,9 @@ impl IconShape for HiZoomOut {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
@@ -10055,6 +10974,7 @@ impl IconShape for HiZoomOut {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
+            
         }
     }
 }

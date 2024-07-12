@@ -1,15 +1,17 @@
+use core::panic;
 use std::fs;
 use std::fs::File;
 use std::io::Write;
 use std::path::PathBuf;
 use std::{ffi::OsStr, path::Path};
 
+use ego_tree::iter::Children;
+use ego_tree::NodeRef;
 use heck::ToSnakeCase;
 use heck::ToUpperCamelCase;
 use regex::Regex;
 use scraper::node::Element;
-use scraper::ElementRef;
-use scraper::Html;
+use scraper::{Html, Node};
 use walkdir::WalkDir;
 
 const ICON_TEMPLATE: &str = r#"#[derive(Copy, Clone, Debug, PartialEq)]
@@ -42,6 +44,9 @@ impl IconShape for {ICON_NAME} {
     fn stroke_linejoin(&self) -> &str {
         "{STROKE_LINEJOIN}"
     }
+    fn title(&self) -> &str {
+        "{TITLE}"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
 {CHILD_ELEMENTS}
@@ -56,46 +61,49 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
     let icon_file = files
         .into_iter()
         .map(|file| {
-            let svg_str = fs::read_to_string(&file).unwrap();
-            let fragment = Html::parse_fragment(&svg_str);
+            let content = fs::read_to_string(&file).unwrap();
+            let fragment = Html::parse_fragment(&content);
+            
+            // find the svg node in the fragment tree
+            let svg_node: Option<NodeRef<Node>> = fragment.tree.nodes().find(|node| {
+                if let Some(element) = node.value().as_element() {
+                    return element.name() == "svg" && node.has_children()
+                }
+                false
+            });
 
-            let elements = fragment
-                .tree
-                .nodes()
-                .filter_map(|node| {
-                    if node.value().is_element() {
-                        let element = ElementRef::wrap(node).unwrap().value();
-                        if !element.attrs.is_empty() {
-                            return Some(element);
-                        }
-                    }
-                    None
-                })
-                .collect::<Vec<_>>();
+            if let Some(svg_node) = svg_node {
 
-            let svg_element = &elements[0];
+                // this is the svg element
+                let svg_element = svg_node.value().as_element().unwrap();
 
-            let svg_child_elements = &elements[1..];
-            let icon_name = icon_name(&file, icon_prefix);
-            let (view_box, xmlns) = extract_svg_attrs(svg_element);
-            let (width, height) = extract_svg_dimensions(svg_element);
-            let child_elements = extract_svg_child_elements(svg_child_elements, icon_prefix);
-            let (fill_color, stroke_color, stroke_width) = extract_svg_colors(svg_element);
-            let stroke_linecap = extract_svg_stroke_linecap(svg_element);
-            let stroke_linejoin = extract_svg_stroke_linejoin(svg_element);
+                let icon_name = icon_name(&file, icon_prefix);
+                let (view_box, xmlns) = extract_svg_attrs(svg_element);
+                let (width, height) = extract_svg_dimensions(svg_element);
+                let (fill_color, stroke_color, stroke_width) = extract_svg_colors(svg_element);
+                let stroke_linecap = extract_svg_stroke_linecap(svg_element);
+                let stroke_linejoin = extract_svg_stroke_linejoin(svg_element);
 
-            ICON_TEMPLATE
-                .replace("{ICON_NAME}", &format!("{}{}", icon_prefix, &icon_name))
-                .replace("{VIEW_BOX}", &view_box)
-                .replace("{WIDTH}", &width)
-                .replace("{HEIGHT}", &height)
-                .replace("{XMLNS}", &xmlns)
-                .replace("{CHILD_ELEMENTS}", &child_elements)
-                .replace("{FILL_COLOR}", &fill_color)
-                .replace("{STROKE_COLOR}", &stroke_color)
-                .replace("{STROKE_WIDTH}", &stroke_width)
-                .replace("{STROKE_LINECAP}", &stroke_linecap)
-                .replace("{STROKE_LINEJOIN}", &stroke_linejoin)
+                let (child_elements, title) = extract_svg_child_nodes(svg_node.children(), icon_prefix);
+
+                ICON_TEMPLATE
+                    .replace("{ICON_NAME}", &format!("{}{}", icon_prefix, &icon_name))
+                    .replace("{VIEW_BOX}", &view_box)
+                    .replace("{WIDTH}", &width)
+                    .replace("{HEIGHT}", &height)
+                    .replace("{XMLNS}", &xmlns)
+                    .replace("{TITLE}", &title)
+                    .replace("{CHILD_ELEMENTS}", &child_elements)
+                    .replace("{FILL_COLOR}", &fill_color)
+                    .replace("{STROKE_COLOR}", &stroke_color)
+                    .replace("{STROKE_WIDTH}", &stroke_width)
+                    .replace("{STROKE_LINECAP}", &stroke_linecap)
+                    .replace("{STROKE_LINEJOIN}", &stroke_linejoin)
+
+            } else {
+                panic!("no svg node found in file: {:?}", file);
+            }
+
         })
         .collect::<Vec<_>>()
         .join("\n");
@@ -188,41 +196,92 @@ fn extract_svg_stroke_linejoin(element: &Element) -> &str {
     element.attr("stroke-linejoin").unwrap_or("miter")
 }
 
-fn extract_svg_child_elements(elements: &[&Element], icon_prefix: &str) -> String {
-    let elements = match icon_prefix {
-        "Md" => &elements[1..],
-        _ => elements,
-    };
-    elements
-        .iter()
-        .map(|element| {
-            let tag_name = element.name();
-            let mut element_attrs = element
-                .attrs()
-                .filter_map(|(name, value)| {
-                    let value = if icon_prefix == "Io" {
-                        value.replace("fill:none;stroke:#000;", "")
-                    } else {
-                        value.to_string()
-                    };
-                    let re = Regex::new(r"^data-.*$").unwrap();
-                    if !re.is_match(name) && name != "fill" {
-                        Some(format!(
-                            "                {}: \"{}\",",
-                            name.to_snake_case(),
-                            value
-                        ))
-                    } else {
-                        None
-                    }
-                })
-                .collect::<Vec<_>>();
-            element_attrs.sort();
-            let attrs_str = element_attrs.join("\n");
-            "            {TAG_NAME} {\n{ATTRS}\n            }"
-                .replace("{TAG_NAME}", tag_name)
-                .replace("{ATTRS}", &attrs_str)
+fn convert_element_attributes(element: &Element, icon_prefix: &str) -> String {
+    let mut element_attrs: Vec<String> = element
+        .attrs()
+        .filter_map(|(name, value)| {
+            let value = if icon_prefix == "Io" {
+                value.replace("fill:none;stroke:#000;", "")
+            } else {
+                value.to_string()
+            };
+            let re = Regex::new(r"^data-.*$").unwrap();
+            if !re.is_match(name) && name != "fill" {
+                Some(format!("{}: \"{}\",", name.to_snake_case(), value))
+            } else {
+                None
+            }
         })
-        .collect::<Vec<_>>()
-        .join("\n")
+        .collect::<Vec<_>>();
+
+    element_attrs.sort();
+    element_attrs.join("\n")
+}
+
+fn extract_inner_child_nodes(layer: usize, children: Children<Node>, result: &mut String, icon_prefix: &str) {
+    let indent = "    ".repeat(layer);
+
+    children.filter(|node| node.value().is_element()).for_each(|child_node| {
+        let element = child_node.value().as_element().unwrap();
+        result.push_str(&format!("{indent}{} {{\n", element.name()));
+
+        let attrs = convert_element_attributes(element, icon_prefix);
+        if attrs != "" {
+            for attr in attrs.split("\n") {
+                result.push_str(&format!("{indent}    {}\n", attr));
+            }
+        }
+
+        if child_node.has_children() {
+            extract_inner_child_nodes(layer + 1, child_node.children(), result, icon_prefix);
+        }
+
+        result.push_str(&format!("{indent}}}\n"));
+    });
+
+}
+
+fn extract_svg_child_nodes(children: Children<Node>, icon_prefix: &str) -> (String, String) {
+
+    let mut result = String::new();
+    let mut title = String::new();
+    let layer: usize = 0;
+
+    children.filter(|node| node.value().is_element()).for_each(|child_node| {
+
+        let element = child_node.value().as_element().unwrap();
+
+        if element.name() == "title" {
+            if let Some(title_node) = child_node.first_child() {
+                if let Some(title_text) = title_node.value().as_text() {
+                    title = title_text.to_string();
+                }
+            }
+
+            // we don't want the icon to own the title, so return here
+            // we will add the title to the icon component ourselves later
+            // this will allow us to override the title via the icon component
+            return
+        }
+
+        result.push_str(&format!("{} {{\n", element.name()));
+
+        let attrs = convert_element_attributes(element, icon_prefix);
+        if attrs != "" {
+            for attr in attrs.split("\n") {
+                result.push_str(&format!("    {}\n", attr));
+            }
+        }
+
+        extract_inner_child_nodes(layer + 1, child_node.children(), &mut result, icon_prefix);
+
+        result.push_str("}\n");
+    });
+
+    (
+        // add indentation to result
+        result.split("\n").map(|line| format!("            {line}")).collect::<Vec<_>>().join("\n"),
+        title
+    )
+
 }
