@@ -199,6 +199,7 @@ fn extract_svg_stroke_linejoin(element: &Element) -> &str {
 fn convert_element_attributes(element: &Element, icon_prefix: &str) -> String {
     let mut element_attrs: Vec<String> = element
         .attrs()
+        .filter(|(name, _)| *name != "class") // remove the icon's default classes
         .filter_map(|(name, value)| {
             let value = if icon_prefix == "Io" {
                 value.replace("fill:none;stroke:#000;", "")

@@ -1942,7 +1942,6 @@ impl IconShape for MdEditAttributes {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                class: "st0",
                 d: "M0 0h24v24H0z",
             }
             path {
