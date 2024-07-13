@@ -22,6 +22,9 @@ pub trait IconShape {
 pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
     /// The icon shape to use.
     pub icon: T,
+    /// The id of the `<svg>` element.
+    #[props(default = None)]
+    pub id: Option<String>,
     /// The height of the `<svg>` element. Defaults to the icon's default height.
     #[props(default = 0)]
     pub height: u32,
@@ -56,6 +59,7 @@ pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
 #[allow(non_snake_case)]
 pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> Element {
 
+    let id = props.id.unwrap_or_default();
     let width = if props.width == 0 { props.icon.width() } else { &props.width.to_string() };
     let height = if props.height == 0 { props.icon.height() } else { &props.height.to_string() };
     let fill = props.fill.unwrap_or(props.icon.fill().to_string());
@@ -67,11 +71,13 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
 
     rsx!(
         svg {
+            id,
             class: "{props.class}",
             height,
             width,
             view_box: "{props.icon.view_box()}",
             xmlns: "{props.icon.xmlns()}",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink",
             fill,
             stroke,
             stroke_width,
