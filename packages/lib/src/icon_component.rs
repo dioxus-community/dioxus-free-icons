@@ -39,7 +39,7 @@ pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
     pub stroke: Option<String>,
     /// The width of the stroke. Defaults to the icon's default stroke width.
     #[props(default = None)]
-    pub stroke_width: Option<u32>,
+    pub stroke_width: Option<f32>,
     /// The linecap style of the stroke. Defaults to the icon's default stroke linecap.
     #[props(default = None)]
     pub stroke_linecap: Option<String>,
