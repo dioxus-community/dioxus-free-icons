@@ -12,3 +12,71 @@ regex = "1.6.0"
 scraper = "0.19.0"
 ego-tree = "0.6.2"
 walkdir = "2.3.2"
+
+[features]
+default = ["strip-fill"]
+
+# strip id from svg child elements
+strip-id = []
+# strip class from svg child elements
+strip-class = []
+# strip fill from svg child elements
+strip-fill = []
+# strip stroke from svg child elements
+strip-stroke = []
+# strip all
+strip-all = ["strip-id", "strip-class", "strip-fill", "strip-stroke"]
+
+# force fill on group elements to 'currentColor' -- overrides 'strip-fill'
+g-force-fill-currentcolor = []
+# allow fill on child elements if value is currentColor -- overrides 'strip-fill'
+allow-fill-currentcolor = []
+
+# generate all icons
+all-icons = ["bs", "fi", "go", "io", "ld", "hi", "fa", "md"]
+
+# bootstrap icons
+bs = []
+
+# feather icons
+fi = []
+
+# octicons
+go = []
+
+# ionicons
+io = []
+
+# lucide icons
+ld = []
+
+# heroicons
+hi = ["hi-outline", "hi-solid"]
+hi-outline = []
+hi-solid = []
+
+# font awesome
+fa = ["fa-brands", "fa-regular", "fa-solid"]
+fa-brands = []
+fa-regular = []
+fa-solid = []
+
+# material design icons
+md = ["md-action", "md-alert", "md-av", "md-communication", "md-content", "md-device", "md-editor", "md-file", "md-hardware", "md-home", "md-image", "md-maps", "md-navigation", "md-notification", "md-places", "md-social", "md-toggle"]
+md-action = []
+md-alert = []
+md-av = []
+md-communication = []
+md-content = []
+md-device = []
+md-editor = []
+md-file = []
+md-hardware = []
+md-home = []
+md-image = []
+md-maps = []
+md-navigation = []
+md-notification = []
+md-places = []
+md-social = []
+md-toggle = []
