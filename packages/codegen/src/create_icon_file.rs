@@ -1,17 +1,12 @@
-use core::panic;
-use std::fs;
-use std::fs::File;
+use std::fs::{self, File};
 use std::io::Write;
-use std::path::PathBuf;
-use std::{ffi::OsStr, path::Path};
+use std::path::{Path, PathBuf};
+use std::ffi::OsStr;
 
-use ego_tree::iter::Children;
-use ego_tree::NodeRef;
-use heck::ToSnakeCase;
-use heck::ToUpperCamelCase;
+use ego_tree::{NodeRef,iter::Children};
+use heck::{ToSnakeCase, ToUpperCamelCase};
 use regex::Regex;
-use scraper::node::Element;
-use scraper::{Html, Node};
+use scraper::{Html, Node, node::Element};
 use walkdir::WalkDir;
 
 const ICON_TEMPLATE: &str = r#"#[derive(Copy, Clone, Debug, PartialEq)]
@@ -57,6 +52,7 @@ impl IconShape for {ICON_NAME} {
 
 pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
     let files = collect_svg_files(svg_path, icon_prefix);
+    let mut processed_icons = 0;
 
     let icon_file = files
         .into_iter()
@@ -84,7 +80,11 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
                 let stroke_linecap = extract_svg_stroke_linecap(svg_element);
                 let stroke_linejoin = extract_svg_stroke_linejoin(svg_element);
 
-                let (child_elements, title) = extract_svg_child_nodes(svg_node.children(), icon_prefix);
+                let mut child_elements = String::new();
+                let mut title = String::new();
+                extract_svg_child_nodes(0, svg_node.children(), &mut title, &mut child_elements, icon_prefix);
+
+                processed_icons += 1;
 
                 ICON_TEMPLATE
                     .replace("{ICON_NAME}", &format!("{}{}", icon_prefix, &icon_name))
@@ -92,8 +92,8 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
                     .replace("{WIDTH}", &width)
                     .replace("{HEIGHT}", &height)
                     .replace("{XMLNS}", &xmlns)
-                    .replace("{TITLE}", &title)
-                    .replace("{CHILD_ELEMENTS}", &child_elements)
+                    .replace("{TITLE}", &title.trim())
+                    .replace("{CHILD_ELEMENTS}", &child_elements.trim_end())
                     .replace("{FILL_COLOR}", &fill_color)
                     .replace("{STROKE_COLOR}", &stroke_color)
                     .replace("{STROKE_WIDTH}", &stroke_width)
@@ -119,6 +119,10 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
     )
     .unwrap();
     file.flush().unwrap();
+
+
+    println!("[{icon_prefix}] Generated {processed_icons} icon(s) at: {output_path}");
+
 }
 
 fn collect_svg_files(svg_path: &str, icon_prefix: &str) -> Vec<PathBuf> {
@@ -197,21 +201,47 @@ fn extract_svg_stroke_linejoin(element: &Element) -> &str {
 }
 
 fn convert_element_attributes(element: &Element, icon_prefix: &str) -> String {
+    let ignore_attrs: Vec<&str> = vec![
+        #[cfg(feature = "strip-id")] "id",
+        #[cfg(feature = "strip-class")] "class",
+        #[cfg(feature = "strip-fill")] "fill",
+        #[cfg(feature = "strip-stroke")] "stroke",
+    ];
+
     let mut element_attrs: Vec<String> = element
         .attrs()
-        .filter(|(name, _)| *name != "class" && *name != "id") // remove the icon's default id and class
         .filter_map(|(name, value)| {
             let value = if icon_prefix == "Io" {
                 value.replace("fill:none;stroke:#000;", "")
             } else {
                 value.to_string()
             };
+            if value.is_empty() { return None };
             let re = Regex::new(r"^data-.*$").unwrap();
-            if !re.is_match(name) && name != "fill" {
-                Some(format!("{}: \"{}\",", name.to_snake_case(), value))
-            } else {
-                None
+
+            if !re.is_match(name) {
+                // force fill on group elements to 'currentColor'
+                #[cfg(feature = "g-force-fill-currentcolor")]
+                if element.name() == "g" && name == "fill" {
+                    return Some(format!("{}: \"{}\",", name.to_snake_case(), "currentColor"))
+                }
+                
+                // allow fill if value is currentColor
+                #[cfg(feature = "allow-fill-currentcolor")]
+                if name == "fill" && value.to_lowercase() == "currentcolor" {
+                    return Some(format!("{}: \"{}\",", name.to_snake_case(), value))
+                }
+
+                if icon_prefix == "Md" && (element.name() == "rect" || element.name() == "path") && name == "fill" {
+                    return Some(format!("{}: \"{}\",", name.to_snake_case(), value))
+                }
+                
+                // allow if attribute is not in ignore_attrs
+                if !ignore_attrs.contains(&name) {
+                    return Some(format!("{}: \"{}\",", name.to_snake_case(), value))
+                }
             }
+            None
         })
         .collect::<Vec<_>>();
 
@@ -219,70 +249,51 @@ fn convert_element_attributes(element: &Element, icon_prefix: &str) -> String {
     element_attrs.join("\n")
 }
 
-fn extract_inner_child_nodes(layer: usize, children: Children<Node>, result: &mut String, icon_prefix: &str) {
-    let indent = "    ".repeat(layer);
-
-    children.filter(|node| node.value().is_element()).for_each(|child_node| {
-        let element = child_node.value().as_element().unwrap();
-        result.push_str(&format!("{indent}{} {{\n", element.name()));
-
-        let attrs = convert_element_attributes(element, icon_prefix);
-        if attrs != "" {
-            for attr in attrs.split("\n") {
-                result.push_str(&format!("{indent}    {}\n", attr));
-            }
-        }
-
-        if child_node.has_children() {
-            extract_inner_child_nodes(layer + 1, child_node.children(), result, icon_prefix);
-        }
-
-        result.push_str(&format!("{indent}}}\n"));
-    });
-
+fn children_are_elements(children: Children<Node>) -> bool {
+    children.filter(|node| node.value().is_element()).count() > 0
 }
 
-fn extract_svg_child_nodes(children: Children<Node>, icon_prefix: &str) -> (String, String) {
 
-    let mut result = String::new();
-    let mut title = String::new();
-    let layer: usize = 0;
+fn extract_svg_child_nodes(layer: usize, children: Children<Node>, title: &mut String, result: &mut String, icon_prefix: &str) {
+    let indent = "    ".repeat(layer) + "            ";
 
     children.filter(|node| node.value().is_element()).for_each(|child_node| {
-
         let element = child_node.value().as_element().unwrap();
+        let attrs = convert_element_attributes(element, icon_prefix);
 
         if element.name() == "title" {
             if let Some(title_node) = child_node.first_child() {
                 if let Some(title_text) = title_node.value().as_text() {
-                    title = title_text.to_string();
+                    if title.is_empty() {
+                        title.push_str(&title_text.to_string())
+                    }
                 }
             }
-
-            // we don't want the icon to own the title, so return here
-            // we will add the title to the icon component ourselves later
-            // this will allow us to override the title via the icon component
-            return
-        }
-
-        result.push_str(&format!("{} {{\n", element.name()));
-
-        let attrs = convert_element_attributes(element, icon_prefix);
-        if attrs != "" {
-            for attr in attrs.split("\n") {
-                result.push_str(&format!("    {}\n", attr));
+            return;
+        } else if element.name() == "g" {
+            if !attrs.is_empty() && children_are_elements(child_node.children()) {
+                result.push_str(&format!("{indent}{} {{\n", element.name()));
+                for attr in attrs.split('\n') {
+                    result.push_str(&format!("{indent}    {}\n", attr));
+                }
+                extract_svg_child_nodes(layer + 1, child_node.children(), title, result, icon_prefix);
+                result.push_str(&format!("{indent}}}\n"));
+            } else {
+                extract_svg_child_nodes(layer, child_node.children(), title, result, icon_prefix);
             }
+        } else {
+            result.push_str(&format!("{indent}{} {{\n", element.name()));
+            for attr in attrs.split('\n') {
+                result.push_str(&format!("{indent}    {}\n", attr));
+            }
+            if !element.attrs.is_empty() && child_node.has_children() {
+                result.push_str("\n");
+            }
+            if child_node.has_children() {
+                extract_svg_child_nodes(layer + 1, child_node.children(), title,result, icon_prefix);
+            }
+            result.push_str(&format!("{indent}}}\n"));
         }
-
-        extract_inner_child_nodes(layer + 1, child_node.children(), &mut result, icon_prefix);
-
-        result.push_str("}\n");
-    });
-
-    (
-        // add indentation to result
-        result.split("\n").map(|line| format!("            {line}")).collect::<Vec<_>>().join("\n"),
-        title
-    )
+    })
 
 }
