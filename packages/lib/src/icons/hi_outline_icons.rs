@@ -49,7 +49,6 @@ impl IconShape for HiAcademicCap {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -96,7 +95,6 @@ impl IconShape for HiAdjustments {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -143,7 +141,6 @@ impl IconShape for HiAnnotation {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -190,7 +187,6 @@ impl IconShape for HiArchive {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -237,7 +233,6 @@ impl IconShape for HiArrowCircleDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -284,7 +279,6 @@ impl IconShape for HiArrowCircleLeft {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -331,7 +325,6 @@ impl IconShape for HiArrowCircleRight {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -378,7 +371,6 @@ impl IconShape for HiArrowCircleUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -425,7 +417,6 @@ impl IconShape for HiArrowDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -472,7 +463,6 @@ impl IconShape for HiArrowLeft {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -519,7 +509,6 @@ impl IconShape for HiArrowNarrowDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -566,7 +555,6 @@ impl IconShape for HiArrowNarrowLeft {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -613,7 +601,6 @@ impl IconShape for HiArrowNarrowRight {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -660,7 +647,6 @@ impl IconShape for HiArrowNarrowUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -707,7 +693,6 @@ impl IconShape for HiArrowRight {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -754,7 +739,6 @@ impl IconShape for HiArrowSmDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -801,7 +785,6 @@ impl IconShape for HiArrowSmLeft {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -848,7 +831,6 @@ impl IconShape for HiArrowSmRight {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -895,7 +877,6 @@ impl IconShape for HiArrowSmUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -942,7 +923,6 @@ impl IconShape for HiArrowUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -989,7 +969,6 @@ impl IconShape for HiArrowsExpand {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1036,7 +1015,6 @@ impl IconShape for HiAtSymbol {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1083,7 +1061,6 @@ impl IconShape for HiBackspace {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1130,7 +1107,6 @@ impl IconShape for HiBadgeCheck {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1177,7 +1153,6 @@ impl IconShape for HiBan {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1224,7 +1199,6 @@ impl IconShape for HiBeaker {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1271,7 +1245,6 @@ impl IconShape for HiBell {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1318,7 +1291,6 @@ impl IconShape for HiBookOpen {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1365,7 +1337,6 @@ impl IconShape for HiBookmarkAlt {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1412,7 +1383,6 @@ impl IconShape for HiBookmark {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1459,7 +1429,6 @@ impl IconShape for HiBriefcase {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1506,7 +1475,6 @@ impl IconShape for HiCake {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1553,7 +1521,6 @@ impl IconShape for HiCalculator {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1600,7 +1567,6 @@ impl IconShape for HiCalendar {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1654,7 +1620,6 @@ impl IconShape for HiCamera {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1701,7 +1666,6 @@ impl IconShape for HiCash {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1748,7 +1712,6 @@ impl IconShape for HiChartBar {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1802,7 +1765,6 @@ impl IconShape for HiChartPie {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1849,7 +1811,6 @@ impl IconShape for HiChartSquareBar {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1896,7 +1857,6 @@ impl IconShape for HiChatAlt2 {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1943,7 +1903,6 @@ impl IconShape for HiChatAlt {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -1990,7 +1949,6 @@ impl IconShape for HiChat {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2037,7 +1995,6 @@ impl IconShape for HiCheckCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2084,7 +2041,6 @@ impl IconShape for HiCheck {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2131,7 +2087,6 @@ impl IconShape for HiChevronDoubleDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2178,7 +2133,6 @@ impl IconShape for HiChevronDoubleLeft {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2225,7 +2179,6 @@ impl IconShape for HiChevronDoubleRight {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2272,7 +2225,6 @@ impl IconShape for HiChevronDoubleUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2319,7 +2271,6 @@ impl IconShape for HiChevronDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2366,7 +2317,6 @@ impl IconShape for HiChevronLeft {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2413,7 +2363,6 @@ impl IconShape for HiChevronRight {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2460,7 +2409,6 @@ impl IconShape for HiChevronUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2507,7 +2455,6 @@ impl IconShape for HiChip {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2554,7 +2501,6 @@ impl IconShape for HiClipboardCheck {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2601,7 +2547,6 @@ impl IconShape for HiClipboardCopy {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2648,7 +2593,6 @@ impl IconShape for HiClipboardList {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2695,7 +2639,6 @@ impl IconShape for HiClipboard {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2742,7 +2685,6 @@ impl IconShape for HiClock {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2789,7 +2731,6 @@ impl IconShape for HiCloudDownload {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2836,7 +2777,6 @@ impl IconShape for HiCloudUpload {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2883,7 +2823,6 @@ impl IconShape for HiCloud {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2930,7 +2869,6 @@ impl IconShape for HiCode {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -2984,7 +2922,6 @@ impl IconShape for HiCog {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3031,7 +2968,6 @@ impl IconShape for HiCollection {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3078,7 +3014,6 @@ impl IconShape for HiColorSwatch {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3125,7 +3060,6 @@ impl IconShape for HiCreditCard {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3172,7 +3106,6 @@ impl IconShape for HiCubeTransparent {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3219,7 +3152,6 @@ impl IconShape for HiCube {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3266,7 +3198,6 @@ impl IconShape for HiCurrencyBangladeshi {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3313,7 +3244,6 @@ impl IconShape for HiCurrencyDollar {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3360,7 +3290,6 @@ impl IconShape for HiCurrencyEuro {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3407,7 +3336,6 @@ impl IconShape for HiCurrencyPound {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3454,7 +3382,6 @@ impl IconShape for HiCurrencyRupee {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3501,7 +3428,6 @@ impl IconShape for HiCurrencyYen {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3548,7 +3474,6 @@ impl IconShape for HiCursorClick {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3595,7 +3520,6 @@ impl IconShape for HiDatabase {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3642,7 +3566,6 @@ impl IconShape for HiDesktopComputer {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3689,7 +3612,6 @@ impl IconShape for HiDeviceMobile {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3736,7 +3658,6 @@ impl IconShape for HiDeviceTablet {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3783,7 +3704,6 @@ impl IconShape for HiDocumentAdd {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3830,7 +3750,6 @@ impl IconShape for HiDocumentDownload {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3877,7 +3796,6 @@ impl IconShape for HiDocumentDuplicate {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3924,7 +3842,6 @@ impl IconShape for HiDocumentRemove {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -3971,7 +3888,6 @@ impl IconShape for HiDocumentReport {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4018,7 +3934,6 @@ impl IconShape for HiDocumentSearch {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4065,7 +3980,6 @@ impl IconShape for HiDocumentText {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4112,7 +4026,6 @@ impl IconShape for HiDocument {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4159,7 +4072,6 @@ impl IconShape for HiDotsCircleHorizontal {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4206,7 +4118,6 @@ impl IconShape for HiDotsHorizontal {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4253,7 +4164,6 @@ impl IconShape for HiDotsVertical {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4300,7 +4210,6 @@ impl IconShape for HiDownload {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4347,7 +4256,6 @@ impl IconShape for HiDuplicate {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4394,7 +4302,6 @@ impl IconShape for HiEmojiHappy {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4441,7 +4348,6 @@ impl IconShape for HiEmojiSad {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4488,7 +4394,6 @@ impl IconShape for HiExclamationCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4535,7 +4440,6 @@ impl IconShape for HiExclamation {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4582,7 +4486,6 @@ impl IconShape for HiExternalLink {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4629,7 +4532,6 @@ impl IconShape for HiEyeOff {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4683,7 +4585,6 @@ impl IconShape for HiEye {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4737,7 +4638,6 @@ impl IconShape for HiFastForward {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4784,7 +4684,6 @@ impl IconShape for HiFilm {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4831,7 +4730,6 @@ impl IconShape for HiFilter {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4878,7 +4776,6 @@ impl IconShape for HiFingerPrint {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4932,7 +4829,6 @@ impl IconShape for HiFire {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -4979,7 +4875,6 @@ impl IconShape for HiFlag {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5026,7 +4921,6 @@ impl IconShape for HiFolderAdd {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5073,7 +4967,6 @@ impl IconShape for HiFolderDownload {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5120,7 +5013,6 @@ impl IconShape for HiFolderOpen {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5167,7 +5059,6 @@ impl IconShape for HiFolderRemove {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5214,7 +5105,6 @@ impl IconShape for HiFolder {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5261,7 +5151,6 @@ impl IconShape for HiGift {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5308,7 +5197,6 @@ impl IconShape for HiGlobeAlt {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5355,7 +5243,6 @@ impl IconShape for HiGlobe {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5402,7 +5289,6 @@ impl IconShape for HiHand {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5449,7 +5335,6 @@ impl IconShape for HiHashtag {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5496,7 +5381,6 @@ impl IconShape for HiHeart {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5543,7 +5427,6 @@ impl IconShape for HiHome {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5590,7 +5473,6 @@ impl IconShape for HiIdentification {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5637,7 +5519,6 @@ impl IconShape for HiInboxIn {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5684,7 +5565,6 @@ impl IconShape for HiInbox {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5731,7 +5611,6 @@ impl IconShape for HiInformationCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5778,7 +5657,6 @@ impl IconShape for HiKey {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5825,7 +5703,6 @@ impl IconShape for HiLibrary {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5872,7 +5749,6 @@ impl IconShape for HiLightBulb {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5919,7 +5795,6 @@ impl IconShape for HiLightningBolt {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -5966,7 +5841,6 @@ impl IconShape for HiLink {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6020,7 +5894,6 @@ impl IconShape for HiLocationMarker {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6067,7 +5940,6 @@ impl IconShape for HiLockClosed {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6114,7 +5986,6 @@ impl IconShape for HiLockOpen {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6161,7 +6032,6 @@ impl IconShape for HiLogin {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6208,7 +6078,6 @@ impl IconShape for HiLogout {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6255,7 +6124,6 @@ impl IconShape for HiMailOpen {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6302,7 +6170,6 @@ impl IconShape for HiMail {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6349,7 +6216,6 @@ impl IconShape for HiMap {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6396,7 +6262,6 @@ impl IconShape for HiMenuAlt1 {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6443,7 +6308,6 @@ impl IconShape for HiMenuAlt2 {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6490,7 +6354,6 @@ impl IconShape for HiMenuAlt3 {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6537,7 +6400,6 @@ impl IconShape for HiMenuAlt4 {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6584,7 +6446,6 @@ impl IconShape for HiMenu {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6631,7 +6492,6 @@ impl IconShape for HiMicrophone {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6678,7 +6538,6 @@ impl IconShape for HiMinusCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6725,7 +6584,6 @@ impl IconShape for HiMinusSm {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6772,7 +6630,6 @@ impl IconShape for HiMinus {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6819,7 +6676,6 @@ impl IconShape for HiMoon {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6866,7 +6722,6 @@ impl IconShape for HiMusicNote {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6913,7 +6768,6 @@ impl IconShape for HiNewspaper {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -6960,7 +6814,6 @@ impl IconShape for HiOfficeBuilding {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7007,7 +6860,6 @@ impl IconShape for HiPaperAirplane {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7054,7 +6906,6 @@ impl IconShape for HiPaperClip {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7101,7 +6952,6 @@ impl IconShape for HiPause {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7148,7 +6998,6 @@ impl IconShape for HiPencilAlt {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7195,7 +7044,6 @@ impl IconShape for HiPencil {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7242,7 +7090,6 @@ impl IconShape for HiPhoneIncoming {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7289,7 +7136,6 @@ impl IconShape for HiPhoneMissedCall {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7336,7 +7182,6 @@ impl IconShape for HiPhoneOutgoing {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7383,7 +7228,6 @@ impl IconShape for HiPhone {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7430,7 +7274,6 @@ impl IconShape for HiPhotograph {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7484,7 +7327,6 @@ impl IconShape for HiPlay {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7531,7 +7373,6 @@ impl IconShape for HiPlusCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7578,7 +7419,6 @@ impl IconShape for HiPlusSm {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7625,7 +7465,6 @@ impl IconShape for HiPlus {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7672,7 +7511,6 @@ impl IconShape for HiPresentationChartBar {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7719,7 +7557,6 @@ impl IconShape for HiPresentationChartLine {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7766,7 +7603,6 @@ impl IconShape for HiPrinter {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7813,7 +7649,6 @@ impl IconShape for HiPuzzle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7860,7 +7695,6 @@ impl IconShape for HiQrcode {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7907,7 +7741,6 @@ impl IconShape for HiQuestionMarkCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -7954,7 +7787,6 @@ impl IconShape for HiReceiptRefund {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8001,7 +7833,6 @@ impl IconShape for HiReceiptTax {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8048,7 +7879,6 @@ impl IconShape for HiRefresh {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8095,7 +7925,6 @@ impl IconShape for HiReply {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8149,7 +7978,6 @@ impl IconShape for HiRewind {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8196,7 +8024,6 @@ impl IconShape for HiRss {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8243,7 +8070,6 @@ impl IconShape for HiSaveAs {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8290,7 +8116,6 @@ impl IconShape for HiSave {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8337,7 +8162,6 @@ impl IconShape for HiScale {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8384,7 +8208,6 @@ impl IconShape for HiScissors {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8431,7 +8254,6 @@ impl IconShape for HiSearchCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8478,7 +8300,6 @@ impl IconShape for HiSearch {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8525,7 +8346,6 @@ impl IconShape for HiSelector {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8572,7 +8392,6 @@ impl IconShape for HiServer {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8619,7 +8438,6 @@ impl IconShape for HiShare {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8666,7 +8484,6 @@ impl IconShape for HiShieldCheck {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8720,7 +8537,6 @@ impl IconShape for HiShieldExclamation {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8767,7 +8583,6 @@ impl IconShape for HiShoppingBag {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8814,7 +8629,6 @@ impl IconShape for HiShoppingCart {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8861,7 +8675,6 @@ impl IconShape for HiSortAscending {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8908,7 +8721,6 @@ impl IconShape for HiSortDescending {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -8955,7 +8767,6 @@ impl IconShape for HiSparkles {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9002,7 +8813,6 @@ impl IconShape for HiSpeakerphone {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9049,7 +8859,6 @@ impl IconShape for HiStar {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9096,7 +8905,6 @@ impl IconShape for HiStatusOffline {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9143,7 +8951,6 @@ impl IconShape for HiStatusOnline {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9197,7 +9004,6 @@ impl IconShape for HiStop {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9244,7 +9050,6 @@ impl IconShape for HiSun {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9291,7 +9096,6 @@ impl IconShape for HiSupport {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9338,7 +9142,6 @@ impl IconShape for HiSwitchHorizontal {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9385,7 +9188,6 @@ impl IconShape for HiSwitchVertical {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9432,7 +9234,6 @@ impl IconShape for HiTable {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9479,7 +9280,6 @@ impl IconShape for HiTag {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9540,7 +9340,6 @@ impl IconShape for HiTemplate {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9587,7 +9386,6 @@ impl IconShape for HiTerminal {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9634,7 +9432,6 @@ impl IconShape for HiThumbDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9681,7 +9478,6 @@ impl IconShape for HiThumbUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9728,7 +9524,6 @@ impl IconShape for HiTicket {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9775,7 +9570,6 @@ impl IconShape for HiTranslate {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9822,7 +9616,6 @@ impl IconShape for HiTrash {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9869,7 +9662,6 @@ impl IconShape for HiTrendingDown {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9916,7 +9708,6 @@ impl IconShape for HiTrendingUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -9969,7 +9760,6 @@ impl IconShape for HiTruck {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10016,7 +9806,6 @@ impl IconShape for HiUpload {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10063,7 +9852,6 @@ impl IconShape for HiUserAdd {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10110,7 +9898,6 @@ impl IconShape for HiUserCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10157,7 +9944,6 @@ impl IconShape for HiUserGroup {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10218,7 +10004,6 @@ impl IconShape for HiUserRemove {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10272,7 +10057,6 @@ impl IconShape for HiUser {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10319,7 +10103,6 @@ impl IconShape for HiUsers {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10366,7 +10149,6 @@ impl IconShape for HiVariable {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10413,7 +10195,6 @@ impl IconShape for HiVideoCamera {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10460,7 +10241,6 @@ impl IconShape for HiViewBoards {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10507,7 +10287,6 @@ impl IconShape for HiViewGridAdd {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10575,7 +10354,6 @@ impl IconShape for HiViewGrid {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10622,7 +10400,6 @@ impl IconShape for HiViewList {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10678,7 +10455,6 @@ impl IconShape for HiVolumeOff {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10725,7 +10501,6 @@ impl IconShape for HiVolumeUp {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10772,7 +10547,6 @@ impl IconShape for HiWifi {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10819,7 +10593,6 @@ impl IconShape for HiXCircle {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10866,7 +10639,6 @@ impl IconShape for HiX {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10920,7 +10692,6 @@ impl IconShape for HiZoomIn {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }
@@ -10974,7 +10745,6 @@ impl IconShape for HiZoomOut {
                 stroke_linejoin: "round",
                 stroke_width: "2",
             }
-            
         }
     }
 }

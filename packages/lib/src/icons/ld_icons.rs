@@ -48,7 +48,6 @@ impl IconShape for LdAArrowDown {
             path {
                 d: "m14 12 4 4 4-4",
             }
-            
         }
     }
 }
@@ -100,7 +99,6 @@ impl IconShape for LdAArrowUp {
             path {
                 d: "m14 11 4-4 4 4",
             }
-            
         }
     }
 }
@@ -152,7 +150,6 @@ impl IconShape for LdALargeSmall {
             path {
                 d: "m3 16 4.5-9 4.5 9",
             }
-            
         }
     }
 }
@@ -209,7 +206,6 @@ impl IconShape for LdAccessibility {
             path {
                 d: "M13.76 17.5a5 5 0 0 0-6.88-6",
             }
-            
         }
     }
 }
@@ -252,7 +248,6 @@ impl IconShape for LdActivity {
             path {
                 d: "M22 12h-4l-3 9L9 3l-3 9H2",
             }
-            
         }
     }
 }
@@ -304,7 +299,6 @@ impl IconShape for LdAirVent {
             path {
                 d: "M6.6 15.6A2 2 0 1 0 10 17v-5",
             }
-            
         }
     }
 }
@@ -350,7 +344,6 @@ impl IconShape for LdAirplay {
             path {
                 d: "m12 15 5 6H7Z",
             }
-            
         }
     }
 }
@@ -410,7 +403,6 @@ impl IconShape for LdAlarmClockCheck {
             path {
                 d: "m9 13 2 2 4-4",
             }
-            
         }
     }
 }
@@ -470,7 +462,6 @@ impl IconShape for LdAlarmClockMinus {
             path {
                 d: "M9 13h6",
             }
-            
         }
     }
 }
@@ -528,7 +519,6 @@ impl IconShape for LdAlarmClockOff {
             path {
                 d: "M4 4 2 6",
             }
-            
         }
     }
 }
@@ -591,7 +581,6 @@ impl IconShape for LdAlarmClockPlus {
             path {
                 d: "M9 13h6",
             }
-            
         }
     }
 }
@@ -651,7 +640,6 @@ impl IconShape for LdAlarmClock {
             path {
                 d: "M17.64 18.67 20 21",
             }
-            
         }
     }
 }
@@ -706,7 +694,6 @@ impl IconShape for LdAlarmSmoke {
             path {
                 d: "M6 21c0-2.5 2-2.5 2-5",
             }
-            
         }
     }
 }
@@ -757,7 +744,6 @@ impl IconShape for LdAlbum {
             polyline {
                 points: "11 3 11 11 14 8 17 11 17 3",
             }
-            
         }
     }
 }
@@ -812,7 +798,6 @@ impl IconShape for LdAlignCenterHorizontal {
             path {
                 d: "M14 8V7c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2v1",
             }
-            
         }
     }
 }
@@ -867,7 +852,6 @@ impl IconShape for LdAlignCenterVertical {
             path {
                 d: "M16 14h1a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1",
             }
-            
         }
     }
 }
@@ -925,7 +909,6 @@ impl IconShape for LdAlignCenter {
                 y1: "18",
                 y2: "18",
             }
-            
         }
     }
 }
@@ -982,7 +965,6 @@ impl IconShape for LdAlignEndHorizontal {
             path {
                 d: "M22 22H2",
             }
-            
         }
     }
 }
@@ -1039,7 +1021,6 @@ impl IconShape for LdAlignEndVertical {
             path {
                 d: "M22 22V2",
             }
-            
         }
     }
 }
@@ -1105,7 +1086,6 @@ impl IconShape for LdAlignHorizontalDistributeCenter {
             path {
                 d: "M7 5V2",
             }
-            
         }
     }
 }
@@ -1165,7 +1145,6 @@ impl IconShape for LdAlignHorizontalDistributeEnd {
             path {
                 d: "M20 2v20",
             }
-            
         }
     }
 }
@@ -1225,7 +1204,6 @@ impl IconShape for LdAlignHorizontalDistributeStart {
             path {
                 d: "M14 2v20",
             }
-            
         }
     }
 }
@@ -1282,7 +1260,6 @@ impl IconShape for LdAlignHorizontalJustifyCenter {
             path {
                 d: "M12 2v20",
             }
-            
         }
     }
 }
@@ -1339,7 +1316,6 @@ impl IconShape for LdAlignHorizontalJustifyEnd {
             path {
                 d: "M22 2v20",
             }
-            
         }
     }
 }
@@ -1396,7 +1372,6 @@ impl IconShape for LdAlignHorizontalJustifyStart {
             path {
                 d: "M2 2v20",
             }
-            
         }
     }
 }
@@ -1449,7 +1424,6 @@ impl IconShape for LdAlignHorizontalSpaceAround {
             path {
                 d: "M20 22V2",
             }
-            
         }
     }
 }
@@ -1509,7 +1483,6 @@ impl IconShape for LdAlignHorizontalSpaceBetween {
             path {
                 d: "M21 2v20",
             }
-            
         }
     }
 }
@@ -1567,7 +1540,6 @@ impl IconShape for LdAlignJustify {
                 y1: "18",
                 y2: "18",
             }
-            
         }
     }
 }
@@ -1625,7 +1597,6 @@ impl IconShape for LdAlignLeft {
                 y1: "18",
                 y2: "18",
             }
-            
         }
     }
 }
@@ -1683,7 +1654,6 @@ impl IconShape for LdAlignRight {
                 y1: "18",
                 y2: "18",
             }
-            
         }
     }
 }
@@ -1740,7 +1710,6 @@ impl IconShape for LdAlignStartHorizontal {
             path {
                 d: "M22 2H2",
             }
-            
         }
     }
 }
@@ -1797,7 +1766,6 @@ impl IconShape for LdAlignStartVertical {
             path {
                 d: "M2 2v20",
             }
-            
         }
     }
 }
@@ -1863,7 +1831,6 @@ impl IconShape for LdAlignVerticalDistributeCenter {
                 x: "7",
                 y: "4",
             }
-            
         }
     }
 }
@@ -1923,7 +1890,6 @@ impl IconShape for LdAlignVerticalDistributeEnd {
             path {
                 d: "M2 10h20",
             }
-            
         }
     }
 }
@@ -1983,7 +1949,6 @@ impl IconShape for LdAlignVerticalDistributeStart {
             path {
                 d: "M2 4h20",
             }
-            
         }
     }
 }
@@ -2040,7 +2005,6 @@ impl IconShape for LdAlignVerticalJustifyCenter {
             path {
                 d: "M2 12h20",
             }
-            
         }
     }
 }
@@ -2097,7 +2061,6 @@ impl IconShape for LdAlignVerticalJustifyEnd {
             path {
                 d: "M2 22h20",
             }
-            
         }
     }
 }
@@ -2154,7 +2117,6 @@ impl IconShape for LdAlignVerticalJustifyStart {
             path {
                 d: "M2 2h20",
             }
-            
         }
     }
 }
@@ -2207,7 +2169,6 @@ impl IconShape for LdAlignVerticalSpaceAround {
             path {
                 d: "M22 4H2",
             }
-            
         }
     }
 }
@@ -2267,7 +2228,6 @@ impl IconShape for LdAlignVerticalSpaceBetween {
             path {
                 d: "M2 3h20",
             }
-            
         }
     }
 }
@@ -2332,7 +2292,6 @@ impl IconShape for LdAmbulance {
                 cy: "18",
                 r: "2",
             }
-            
         }
     }
 }
@@ -2378,7 +2337,6 @@ impl IconShape for LdAmpersand {
             path {
                 d: "M16 12h3",
             }
-            
         }
     }
 }
@@ -2424,7 +2382,6 @@ impl IconShape for LdAmpersands {
             path {
                 d: "M22 17c-5-3-7-7-7-9a2 2 0 0 1 4 0c0 2.5-5 2.5-5 6 0 1.7 1.3 3 3 3 2.8 0 5-2.2 5-5",
             }
-            
         }
     }
 }
@@ -2475,7 +2432,6 @@ impl IconShape for LdAnchor {
                 cy: "5",
                 r: "3",
             }
-            
         }
     }
 }
@@ -2535,7 +2491,6 @@ impl IconShape for LdAngry {
             path {
                 d: "M15 10h0",
             }
-            
         }
     }
 }
@@ -2589,7 +2544,6 @@ impl IconShape for LdAnnoyed {
             path {
                 d: "M14 9h2",
             }
-            
         }
     }
 }
@@ -2647,7 +2601,6 @@ impl IconShape for LdAntenna {
             path {
                 d: "M12 16v6",
             }
-            
         }
     }
 }
@@ -2702,7 +2655,6 @@ impl IconShape for LdAnvil {
             path {
                 d: "M5 20a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3 1 1 0 0 1-1 1H6a1 1 0 0 1-1-1",
             }
-            
         }
     }
 }
@@ -2765,7 +2717,6 @@ impl IconShape for LdAperture {
             path {
                 d: "m16.62 12-5.74 9.94",
             }
-            
         }
     }
 }
@@ -2821,7 +2772,6 @@ impl IconShape for LdAppWindowMac {
             path {
                 d: "M14 8h.01",
             }
-            
         }
     }
 }
@@ -2877,7 +2827,6 @@ impl IconShape for LdAppWindow {
             path {
                 d: "M6 4v4",
             }
-            
         }
     }
 }
@@ -2923,7 +2872,6 @@ impl IconShape for LdApple {
             path {
                 d: "M10 2c1 .5 2 2 2 5",
             }
-            
         }
     }
 }
@@ -2982,7 +2930,6 @@ impl IconShape for LdArchiveRestore {
             path {
                 d: "M12 12v9",
             }
-            
         }
     }
 }
@@ -3038,7 +2985,6 @@ impl IconShape for LdArchiveX {
             path {
                 d: "m9.5 12 5 5",
             }
-            
         }
     }
 }
@@ -3091,7 +3037,6 @@ impl IconShape for LdArchive {
             path {
                 d: "M10 12h4",
             }
-            
         }
     }
 }
@@ -3137,7 +3082,6 @@ impl IconShape for LdAreaChart {
             path {
                 d: "M7 12v5h12V8l-5 5-4-4Z",
             }
-            
         }
     }
 }
@@ -3189,7 +3133,6 @@ impl IconShape for LdArmchair {
             path {
                 d: "M19 18v2",
             }
-            
         }
     }
 }
@@ -3235,7 +3178,6 @@ impl IconShape for LdArrowBigDownDash {
             path {
                 d: "M15 9v3h4l-7 7-7-7h4V9z",
             }
-            
         }
     }
 }
@@ -3278,7 +3220,6 @@ impl IconShape for LdArrowBigDown {
             path {
                 d: "M15 6v6h4l-7 7-7-7h4V6h6z",
             }
-            
         }
     }
 }
@@ -3324,7 +3265,6 @@ impl IconShape for LdArrowBigLeftDash {
             path {
                 d: "M15 15h-3v4l-7-7 7-7v4h3v6z",
             }
-            
         }
     }
 }
@@ -3367,7 +3307,6 @@ impl IconShape for LdArrowBigLeft {
             path {
                 d: "M18 15h-6v4l-7-7 7-7v4h6v6z",
             }
-            
         }
     }
 }
@@ -3413,7 +3352,6 @@ impl IconShape for LdArrowBigRightDash {
             path {
                 d: "M9 9h3V5l7 7-7 7v-4H9V9z",
             }
-            
         }
     }
 }
@@ -3456,7 +3394,6 @@ impl IconShape for LdArrowBigRight {
             path {
                 d: "M6 9h6V5l7 7-7 7v-4H6V9z",
             }
-            
         }
     }
 }
@@ -3502,7 +3439,6 @@ impl IconShape for LdArrowBigUpDash {
             path {
                 d: "M9 15v-3H5l7-7 7 7h-4v3H9z",
             }
-            
         }
     }
 }
@@ -3545,7 +3481,6 @@ impl IconShape for LdArrowBigUp {
             path {
                 d: "M9 18v-6H5l7-7 7 7h-4v6H9z",
             }
-            
         }
     }
 }
@@ -3604,7 +3539,6 @@ impl IconShape for LdArrowDown01 {
             path {
                 d: "M15 20h4",
             }
-            
         }
     }
 }
@@ -3663,7 +3597,6 @@ impl IconShape for LdArrowDown10 {
                 x: "15",
                 y: "14",
             }
-            
         }
     }
 }
@@ -3718,7 +3651,6 @@ impl IconShape for LdArrowDownAZ {
             path {
                 d: "M15 14h5l-5 6h5",
             }
-            
         }
     }
 }
@@ -3767,7 +3699,6 @@ impl IconShape for LdArrowDownFromLine {
             path {
                 d: "m6 15 6 6 6-6",
             }
-            
         }
     }
 }
@@ -3813,7 +3744,6 @@ impl IconShape for LdArrowDownLeft {
             path {
                 d: "M17 17H7V7",
             }
-            
         }
     }
 }
@@ -3868,7 +3798,6 @@ impl IconShape for LdArrowDownNarrowWide {
             path {
                 d: "M11 12h10",
             }
-            
         }
     }
 }
@@ -3914,7 +3843,6 @@ impl IconShape for LdArrowDownRight {
             path {
                 d: "M17 7v10H7",
             }
-            
         }
     }
 }
@@ -3965,7 +3893,6 @@ impl IconShape for LdArrowDownToDot {
                 cy: "21",
                 r: "1",
             }
-            
         }
     }
 }
@@ -4014,7 +3941,6 @@ impl IconShape for LdArrowDownToLine {
             path {
                 d: "M19 21H5",
             }
-            
         }
     }
 }
@@ -4066,7 +3992,6 @@ impl IconShape for LdArrowDownUp {
             path {
                 d: "M17 4v16",
             }
-            
         }
     }
 }
@@ -4121,7 +4046,6 @@ impl IconShape for LdArrowDownWideNarrow {
             path {
                 d: "M11 12h4",
             }
-            
         }
     }
 }
@@ -4176,7 +4100,6 @@ impl IconShape for LdArrowDownZA {
             path {
                 d: "M20 18h-5",
             }
-            
         }
     }
 }
@@ -4222,7 +4145,6 @@ impl IconShape for LdArrowDown {
             path {
                 d: "m19 12-7 7-7-7",
             }
-            
         }
     }
 }
@@ -4271,7 +4193,6 @@ impl IconShape for LdArrowLeftFromLine {
             path {
                 d: "M21 19V5",
             }
-            
         }
     }
 }
@@ -4323,7 +4244,6 @@ impl IconShape for LdArrowLeftRight {
             path {
                 d: "M20 17H4",
             }
-            
         }
     }
 }
@@ -4372,7 +4292,6 @@ impl IconShape for LdArrowLeftToLine {
             path {
                 d: "M7 12h14",
             }
-            
         }
     }
 }
@@ -4418,7 +4337,6 @@ impl IconShape for LdArrowLeft {
             path {
                 d: "M19 12H5",
             }
-            
         }
     }
 }
@@ -4467,7 +4385,6 @@ impl IconShape for LdArrowRightFromLine {
             path {
                 d: "m15 18 6-6-6-6",
             }
-            
         }
     }
 }
@@ -4519,7 +4436,6 @@ impl IconShape for LdArrowRightLeft {
             path {
                 d: "M4 17h16",
             }
-            
         }
     }
 }
@@ -4568,7 +4484,6 @@ impl IconShape for LdArrowRightToLine {
             path {
                 d: "M21 5v14",
             }
-            
         }
     }
 }
@@ -4614,7 +4529,6 @@ impl IconShape for LdArrowRight {
             path {
                 d: "m12 5 7 7-7 7",
             }
-            
         }
     }
 }
@@ -4673,7 +4587,6 @@ impl IconShape for LdArrowUp01 {
             path {
                 d: "M15 20h4",
             }
-            
         }
     }
 }
@@ -4732,7 +4645,6 @@ impl IconShape for LdArrowUp10 {
                 x: "15",
                 y: "14",
             }
-            
         }
     }
 }
@@ -4787,7 +4699,6 @@ impl IconShape for LdArrowUpAZ {
             path {
                 d: "M15 14h5l-5 6h5",
             }
-            
         }
     }
 }
@@ -4839,7 +4750,6 @@ impl IconShape for LdArrowUpDown {
             path {
                 d: "M7 4v16",
             }
-            
         }
     }
 }
@@ -4890,7 +4800,6 @@ impl IconShape for LdArrowUpFromDot {
                 cy: "21",
                 r: "1",
             }
-            
         }
     }
 }
@@ -4939,7 +4848,6 @@ impl IconShape for LdArrowUpFromLine {
             path {
                 d: "M5 21h14",
             }
-            
         }
     }
 }
@@ -4985,7 +4893,6 @@ impl IconShape for LdArrowUpLeft {
             path {
                 d: "M17 17 7 7",
             }
-            
         }
     }
 }
@@ -5040,7 +4947,6 @@ impl IconShape for LdArrowUpNarrowWide {
             path {
                 d: "M11 20h10",
             }
-            
         }
     }
 }
@@ -5086,7 +4992,6 @@ impl IconShape for LdArrowUpRight {
             path {
                 d: "M7 17 17 7",
             }
-            
         }
     }
 }
@@ -5135,7 +5040,6 @@ impl IconShape for LdArrowUpToLine {
             path {
                 d: "M12 7v14",
             }
-            
         }
     }
 }
@@ -5190,7 +5094,6 @@ impl IconShape for LdArrowUpWideNarrow {
             path {
                 d: "M11 20h4",
             }
-            
         }
     }
 }
@@ -5245,7 +5148,6 @@ impl IconShape for LdArrowUpZA {
             path {
                 d: "M20 18h-5",
             }
-            
         }
     }
 }
@@ -5291,7 +5193,6 @@ impl IconShape for LdArrowUp {
             path {
                 d: "M12 19V5",
             }
-            
         }
     }
 }
@@ -5346,7 +5247,6 @@ impl IconShape for LdArrowsUpFromLine {
             path {
                 d: "M4 21h16",
             }
-            
         }
     }
 }
@@ -5395,7 +5295,6 @@ impl IconShape for LdAsterisk {
             path {
                 d: "m6.804 9 10.392 6",
             }
-            
         }
     }
 }
@@ -5443,7 +5342,6 @@ impl IconShape for LdAtSign {
             path {
                 d: "M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8",
             }
-            
         }
     }
 }
@@ -5494,7 +5392,6 @@ impl IconShape for LdAtom {
             path {
                 d: "M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5Z",
             }
-            
         }
     }
 }
@@ -5552,7 +5449,6 @@ impl IconShape for LdAudioLines {
             path {
                 d: "M22 10v3",
             }
-            
         }
     }
 }
@@ -5595,7 +5491,6 @@ impl IconShape for LdAudioWaveform {
             path {
                 d: "M2 13a2 2 0 0 0 2-2V7a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0V4a2 2 0 0 1 4 0v13a2 2 0 0 0 4 0v-4a2 2 0 0 1 2-2",
             }
-            
         }
     }
 }
@@ -5643,7 +5538,6 @@ impl IconShape for LdAward {
             path {
                 d: "M15.477 12.89 17 22l-5-3-5 3 1.523-9.11",
             }
-            
         }
     }
 }
@@ -5689,7 +5583,6 @@ impl IconShape for LdAxe {
             path {
                 d: "M15 13 9 7l4-4 6 6h3a8 8 0 0 1-7 7z",
             }
-            
         }
     }
 }
@@ -5735,7 +5628,6 @@ impl IconShape for LdAxis3d {
             path {
                 d: "m4 20 7-7",
             }
-            
         }
     }
 }
@@ -5787,7 +5679,6 @@ impl IconShape for LdBaby {
             path {
                 d: "M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1",
             }
-            
         }
     }
 }
@@ -5842,7 +5733,6 @@ impl IconShape for LdBackpack {
             path {
                 d: "M8 18h8",
             }
-            
         }
     }
 }
@@ -5897,7 +5787,6 @@ impl IconShape for LdBadgeAlert {
                 y1: "16",
                 y2: "16",
             }
-            
         }
     }
 }
@@ -5946,7 +5835,6 @@ impl IconShape for LdBadgeCent {
             path {
                 d: "M15.4 10a4 4 0 1 0 0 4",
             }
-            
         }
     }
 }
@@ -5992,7 +5880,6 @@ impl IconShape for LdBadgeCheck {
             path {
                 d: "m9 12 2 2 4-4",
             }
-            
         }
     }
 }
@@ -6041,7 +5928,6 @@ impl IconShape for LdBadgeDollarSign {
             path {
                 d: "M12 18V6",
             }
-            
         }
     }
 }
@@ -6090,7 +5976,6 @@ impl IconShape for LdBadgeEuro {
             path {
                 d: "M15 9.4a4 4 0 1 0 0 5.2",
             }
-            
         }
     }
 }
@@ -6142,7 +6027,6 @@ impl IconShape for LdBadgeHelp {
                 y1: "17",
                 y2: "17",
             }
-            
         }
     }
 }
@@ -6194,7 +6078,6 @@ impl IconShape for LdBadgeIndianRupee {
             path {
                 d: "m13 17-5-1h1a4 4 0 0 0 0-8",
             }
-            
         }
     }
 }
@@ -6249,7 +6132,6 @@ impl IconShape for LdBadgeInfo {
                 y1: "8",
                 y2: "8",
             }
-            
         }
     }
 }
@@ -6304,7 +6186,6 @@ impl IconShape for LdBadgeJapaneseYen {
             path {
                 d: "M9 16h6",
             }
-            
         }
     }
 }
@@ -6353,7 +6234,6 @@ impl IconShape for LdBadgeMinus {
                 y1: "12",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -6405,7 +6285,6 @@ impl IconShape for LdBadgePercent {
             path {
                 d: "M15 15h.01",
             }
-            
         }
     }
 }
@@ -6460,7 +6339,6 @@ impl IconShape for LdBadgePlus {
                 y1: "12",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -6512,7 +6390,6 @@ impl IconShape for LdBadgePoundSterling {
             path {
                 d: "M8 16h7",
             }
-            
         }
     }
 }
@@ -6561,7 +6438,6 @@ impl IconShape for LdBadgeRussianRuble {
             path {
                 d: "M9 12h5a2 2 0 1 0 0-4h-3v9",
             }
-            
         }
     }
 }
@@ -6613,7 +6489,6 @@ impl IconShape for LdBadgeSwissFranc {
             path {
                 d: "M9 16h4",
             }
-            
         }
     }
 }
@@ -6668,7 +6543,6 @@ impl IconShape for LdBadgeX {
                 y1: "9",
                 y2: "15",
             }
-            
         }
     }
 }
@@ -6711,7 +6585,6 @@ impl IconShape for LdBadge {
             path {
                 d: "M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z",
             }
-            
         }
     }
 }
@@ -6774,7 +6647,6 @@ impl IconShape for LdBaggageClaim {
                 cy: "20",
                 r: "2",
             }
-            
         }
     }
 }
@@ -6822,7 +6694,6 @@ impl IconShape for LdBan {
             path {
                 d: "m4.9 4.9 14.2 14.2",
             }
-            
         }
     }
 }
@@ -6868,7 +6739,6 @@ impl IconShape for LdBanana {
             path {
                 d: "M5.15 17.89c5.52-1.52 8.65-6.89 7-12C11.55 4 11.5 2 13 2c3.22 0 5 5.5 5 8 0 6.5-4.2 12-10.49 12C5.11 22 2 22 2 20c0-1.5 1.14-1.55 3.15-2.11Z",
             }
-            
         }
     }
 }
@@ -6923,7 +6793,6 @@ impl IconShape for LdBanknote {
             path {
                 d: "M6 12h.01M18 12h.01",
             }
-            
         }
     }
 }
@@ -6981,7 +6850,6 @@ impl IconShape for LdBarChart2 {
                 y1: "20",
                 y2: "14",
             }
-            
         }
     }
 }
@@ -7033,7 +6901,6 @@ impl IconShape for LdBarChart3 {
             path {
                 d: "M8 17v-3",
             }
-            
         }
     }
 }
@@ -7085,7 +6952,6 @@ impl IconShape for LdBarChart4 {
             path {
                 d: "M8 17v-3",
             }
-            
         }
     }
 }
@@ -7142,7 +7008,6 @@ impl IconShape for LdBarChartBig {
                 x: "15",
                 y: "5",
             }
-            
         }
     }
 }
@@ -7199,7 +7064,6 @@ impl IconShape for LdBarChartHorizontalBig {
                 x: "7",
                 y: "13",
             }
-            
         }
     }
 }
@@ -7251,7 +7115,6 @@ impl IconShape for LdBarChartHorizontal {
             path {
                 d: "M7 6h3",
             }
-            
         }
     }
 }
@@ -7309,7 +7172,6 @@ impl IconShape for LdBarChart {
                 y1: "20",
                 y2: "16",
             }
-            
         }
     }
 }
@@ -7364,7 +7226,6 @@ impl IconShape for LdBarcode {
             path {
                 d: "M21 5v14",
             }
-            
         }
     }
 }
@@ -7413,7 +7274,6 @@ impl IconShape for LdBaseline {
             path {
                 d: "M8 12h8",
             }
-            
         }
     }
 }
@@ -7480,7 +7340,6 @@ impl IconShape for LdBath {
                 y1: "19",
                 y2: "21",
             }
-            
         }
     }
 }
@@ -7535,7 +7394,6 @@ impl IconShape for LdBatteryCharging {
                 y1: "11",
                 y2: "13",
             }
-            
         }
     }
 }
@@ -7607,7 +7465,6 @@ impl IconShape for LdBatteryFull {
                 y1: "11",
                 y2: "13",
             }
-            
         }
     }
 }
@@ -7667,7 +7524,6 @@ impl IconShape for LdBatteryLow {
                 y1: "11",
                 y2: "13",
             }
-            
         }
     }
 }
@@ -7733,7 +7589,6 @@ impl IconShape for LdBatteryMedium {
                 y1: "11",
                 y2: "13",
             }
-            
         }
     }
 }
@@ -7797,7 +7652,6 @@ impl IconShape for LdBatteryWarning {
                 y1: "17",
                 y2: "17.01",
             }
-            
         }
     }
 }
@@ -7851,7 +7705,6 @@ impl IconShape for LdBattery {
                 y1: "11",
                 y2: "13",
             }
-            
         }
     }
 }
@@ -7900,7 +7753,6 @@ impl IconShape for LdBeaker {
             path {
                 d: "M6 14h12",
             }
-            
         }
     }
 }
@@ -7955,7 +7807,6 @@ impl IconShape for LdBeanOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -8001,7 +7852,6 @@ impl IconShape for LdBean {
             path {
                 d: "M5.341 10.62a4 4 0 1 0 5.279-5.28",
             }
-            
         }
     }
 }
@@ -8053,7 +7903,6 @@ impl IconShape for LdBedDouble {
             path {
                 d: "M2 18h20",
             }
-            
         }
     }
 }
@@ -8102,7 +7951,6 @@ impl IconShape for LdBedSingle {
             path {
                 d: "M3 18h18",
             }
-            
         }
     }
 }
@@ -8154,7 +8002,6 @@ impl IconShape for LdBed {
             path {
                 d: "M6 8v9",
             }
-            
         }
     }
 }
@@ -8205,7 +8052,6 @@ impl IconShape for LdBeef {
             path {
                 d: "m18.5 6 2.19 4.5a6.48 6.48 0 0 1 .31 2 6.49 6.49 0 0 1-2.6 5.2C15.4 20.2 11 22 7 22a3 3 0 0 1-2.68-1.66L2.4 16.5",
             }
-            
         }
     }
 }
@@ -8269,7 +8115,6 @@ impl IconShape for LdBeerOff {
             path {
                 d: "M9 14.6V18",
             }
-            
         }
     }
 }
@@ -8324,7 +8169,6 @@ impl IconShape for LdBeer {
             path {
                 d: "M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8",
             }
-            
         }
     }
 }
@@ -8375,7 +8219,6 @@ impl IconShape for LdBellDot {
                 cy: "8",
                 r: "3",
             }
-            
         }
     }
 }
@@ -8441,7 +8284,6 @@ impl IconShape for LdBellElectric {
                 cy: "16",
                 r: "2",
             }
-            
         }
     }
 }
@@ -8490,7 +8332,6 @@ impl IconShape for LdBellMinus {
             path {
                 d: "M15 8h6",
             }
-            
         }
     }
 }
@@ -8542,7 +8383,6 @@ impl IconShape for LdBellOff {
             path {
                 d: "m2 2 20 20",
             }
-            
         }
     }
 }
@@ -8594,7 +8434,6 @@ impl IconShape for LdBellPlus {
             path {
                 d: "M18 5v6",
             }
-            
         }
     }
 }
@@ -8646,7 +8485,6 @@ impl IconShape for LdBellRing {
             path {
                 d: "M22 8c0-2.3-.8-4.3-2-6",
             }
-            
         }
     }
 }
@@ -8692,7 +8530,6 @@ impl IconShape for LdBell {
             path {
                 d: "M10.3 21a1.94 1.94 0 0 0 3.4 0",
             }
-            
         }
     }
 }
@@ -8749,7 +8586,6 @@ impl IconShape for LdBetweenHorizontalEnd {
                 x: "3",
                 y: "14",
             }
-            
         }
     }
 }
@@ -8806,7 +8642,6 @@ impl IconShape for LdBetweenHorizontalStart {
                 x: "8",
                 y: "14",
             }
-            
         }
     }
 }
@@ -8863,7 +8698,6 @@ impl IconShape for LdBetweenVerticalEnd {
                 x: "14",
                 y: "3",
             }
-            
         }
     }
 }
@@ -8920,7 +8754,6 @@ impl IconShape for LdBetweenVerticalStart {
                 x: "14",
                 y: "8",
             }
-            
         }
     }
 }
@@ -8978,7 +8811,6 @@ impl IconShape for LdBike {
             path {
                 d: "M12 17.5V14l-3-3 4-3 2 3h2",
             }
-            
         }
     }
 }
@@ -9044,7 +8876,6 @@ impl IconShape for LdBinary {
             path {
                 d: "M14 4h2v6",
             }
-            
         }
     }
 }
@@ -9116,7 +8947,6 @@ impl IconShape for LdBiohazard {
             path {
                 d: "M5.5 13.9c.3.9.8 1.8 1.5 2.5",
             }
-            
         }
     }
 }
@@ -9174,7 +9004,6 @@ impl IconShape for LdBird {
             path {
                 d: "M7 18a6 6 0 0 0 3.84-10.61",
             }
-            
         }
     }
 }
@@ -9217,7 +9046,6 @@ impl IconShape for LdBitcoin {
             path {
                 d: "M11.767 19.089c4.924.868 6.14-6.025 1.216-6.894m-1.216 6.894L5.86 18.047m5.908 1.042-.347 1.97m1.563-8.864c4.924.869 6.14-6.025 1.215-6.893m-1.215 6.893-3.94-.694m5.155-6.2L8.29 4.26m5.908 1.042.348-1.97M7.48 20.364l3.126-17.727",
             }
-            
         }
     }
 }
@@ -9267,7 +9095,6 @@ impl IconShape for LdBlend {
                 cy: "15",
                 r: "7",
             }
-            
         }
     }
 }
@@ -9330,7 +9157,6 @@ impl IconShape for LdBlinds {
                 cy: "19",
                 r: "2",
             }
-            
         }
     }
 }
@@ -9380,7 +9206,6 @@ impl IconShape for LdBlocks {
             path {
                 d: "M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3",
             }
-            
         }
     }
 }
@@ -9435,7 +9260,6 @@ impl IconShape for LdBluetoothConnected {
                 y1: "12",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -9484,7 +9308,6 @@ impl IconShape for LdBluetoothOff {
             path {
                 d: "M14.5 9.5 17 7l-5-5v4.5",
             }
-            
         }
     }
 }
@@ -9533,7 +9356,6 @@ impl IconShape for LdBluetoothSearching {
             path {
                 d: "M18 12h.01",
             }
-            
         }
     }
 }
@@ -9576,7 +9398,6 @@ impl IconShape for LdBluetooth {
             path {
                 d: "m7 7 10 10-5 5V2l5 5L7 17",
             }
-            
         }
     }
 }
@@ -9622,7 +9443,6 @@ impl IconShape for LdBold {
             path {
                 d: "M15 20a4 4 0 0 0 0-8H6v8Z",
             }
-            
         }
     }
 }
@@ -9670,7 +9490,6 @@ impl IconShape for LdBolt {
                 cy: "12",
                 r: "4",
             }
-            
         }
     }
 }
@@ -9721,7 +9540,6 @@ impl IconShape for LdBomb {
             path {
                 d: "m22 2-1.5 1.5",
             }
-            
         }
     }
 }
@@ -9764,7 +9582,6 @@ impl IconShape for LdBone {
             path {
                 d: "M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-7 7c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z",
             }
-            
         }
     }
 }
@@ -9813,7 +9630,6 @@ impl IconShape for LdBookA {
             path {
                 d: "M9.1 11h5.7",
             }
-            
         }
     }
 }
@@ -9865,7 +9681,6 @@ impl IconShape for LdBookAudio {
             path {
                 d: "M16 8v3",
             }
-            
         }
     }
 }
@@ -9911,7 +9726,6 @@ impl IconShape for LdBookCheck {
             path {
                 d: "m9 9.5 2 2 4-4",
             }
-            
         }
     }
 }
@@ -9960,7 +9774,6 @@ impl IconShape for LdBookCopy {
             path {
                 d: "M22 18H11a2 2 0 1 0 0 4h11V6H11a2 2 0 0 0-2 2v12",
             }
-            
         }
     }
 }
@@ -10033,7 +9846,6 @@ impl IconShape for LdBookDashed {
             path {
                 d: "M4 5v-.5A2.5 2.5 0 0 1 6.5 2H8",
             }
-            
         }
     }
 }
@@ -10082,7 +9894,6 @@ impl IconShape for LdBookDown {
             path {
                 d: "m9 10 3 3 3-3",
             }
-            
         }
     }
 }
@@ -10138,7 +9949,6 @@ impl IconShape for LdBookHeadphones {
                 cy: "12",
                 r: "1",
             }
-            
         }
     }
 }
@@ -10184,7 +9994,6 @@ impl IconShape for LdBookHeart {
             path {
                 d: "M16 8.2C16 7 15 6 13.8 6c-.8 0-1.4.3-1.8.9-.4-.6-1-.9-1.8-.9C9 6 8 7 8 8.2c0 .6.3 1.2.7 1.6h0C10 11.1 12 13 12 13s2-1.9 3.3-3.1h0c.4-.4.7-1 .7-1.7z",
             }
-            
         }
     }
 }
@@ -10235,7 +10044,6 @@ impl IconShape for LdBookImage {
             path {
                 d: "m20 13.7-2.1-2.1c-.8-.8-2-.8-2.8 0L9.7 17",
             }
-            
         }
     }
 }
@@ -10292,7 +10100,6 @@ impl IconShape for LdBookKey {
             path {
                 d: "m19 3 1 1",
             }
-            
         }
     }
 }
@@ -10348,7 +10155,6 @@ impl IconShape for LdBookLock {
             path {
                 d: "M18 6V4a2 2 0 1 0-4 0v2",
             }
-            
         }
     }
 }
@@ -10394,7 +10200,6 @@ impl IconShape for LdBookMarked {
             polyline {
                 points: "10 2 10 10 13 7 16 10 16 2",
             }
-            
         }
     }
 }
@@ -10440,7 +10245,6 @@ impl IconShape for LdBookMinus {
             path {
                 d: "M9 10h6",
             }
-            
         }
     }
 }
@@ -10489,7 +10293,6 @@ impl IconShape for LdBookOpenCheck {
             path {
                 d: "M22 6V3h-6c-2.2 0-4 1.8-4 4v14c0-1.7 1.3-3 3-3h7v-2.3",
             }
-            
         }
     }
 }
@@ -10547,7 +10350,6 @@ impl IconShape for LdBookOpenText {
             path {
                 d: "M16 12h2",
             }
-            
         }
     }
 }
@@ -10593,7 +10395,6 @@ impl IconShape for LdBookOpen {
             path {
                 d: "M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z",
             }
-            
         }
     }
 }
@@ -10642,7 +10443,6 @@ impl IconShape for LdBookPlus {
             path {
                 d: "M12 7v6",
             }
-            
         }
     }
 }
@@ -10691,7 +10491,6 @@ impl IconShape for LdBookText {
             path {
                 d: "M8 11h8",
             }
-            
         }
     }
 }
@@ -10743,7 +10542,6 @@ impl IconShape for LdBookType {
             path {
                 d: "M10 13h4",
             }
-            
         }
     }
 }
@@ -10798,7 +10596,6 @@ impl IconShape for LdBookUp2 {
             path {
                 d: "m9 5 3-3 3 3",
             }
-            
         }
     }
 }
@@ -10847,7 +10644,6 @@ impl IconShape for LdBookUp {
             path {
                 d: "m9 10 3-3 3 3",
             }
-            
         }
     }
 }
@@ -10898,7 +10694,6 @@ impl IconShape for LdBookUser {
             path {
                 d: "M15 13a3 3 0 1 0-6 0",
             }
-            
         }
     }
 }
@@ -10947,7 +10742,6 @@ impl IconShape for LdBookX {
             path {
                 d: "m9.5 7 5 5",
             }
-            
         }
     }
 }
@@ -10990,7 +10784,6 @@ impl IconShape for LdBook {
             path {
                 d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
             }
-            
         }
     }
 }
@@ -11036,7 +10829,6 @@ impl IconShape for LdBookmarkCheck {
             path {
                 d: "m9 10 2 2 4-4",
             }
-            
         }
     }
 }
@@ -11085,7 +10877,6 @@ impl IconShape for LdBookmarkMinus {
                 y1: "10",
                 y2: "10",
             }
-            
         }
     }
 }
@@ -11140,7 +10931,6 @@ impl IconShape for LdBookmarkPlus {
                 y1: "10",
                 y2: "10",
             }
-            
         }
     }
 }
@@ -11189,7 +10979,6 @@ impl IconShape for LdBookmarkX {
             path {
                 d: "m9.5 7.5 5 5",
             }
-            
         }
     }
 }
@@ -11232,7 +11021,6 @@ impl IconShape for LdBookmark {
             path {
                 d: "m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z",
             }
-            
         }
     }
 }
@@ -11301,7 +11089,6 @@ impl IconShape for LdBoomBox {
                 cy: "15",
                 r: "2",
             }
-            
         }
     }
 }
@@ -11359,7 +11146,6 @@ impl IconShape for LdBotMessageSquare {
             path {
                 d: "M20 12h2",
             }
-            
         }
     }
 }
@@ -11420,7 +11206,6 @@ impl IconShape for LdBotOff {
             path {
                 d: "M9.67 4H12v2.33",
             }
-            
         }
     }
 }
@@ -11482,7 +11267,6 @@ impl IconShape for LdBot {
             path {
                 d: "M9 13v2",
             }
-            
         }
     }
 }
@@ -11558,7 +11342,6 @@ impl IconShape for LdBoxSelect {
             path {
                 d: "M21 14v1",
             }
-            
         }
     }
 }
@@ -11607,7 +11390,6 @@ impl IconShape for LdBox {
             path {
                 d: "M12 22V12",
             }
-            
         }
     }
 }
@@ -11683,7 +11465,6 @@ impl IconShape for LdBoxes {
             path {
                 d: "M12 13.5V8",
             }
-            
         }
     }
 }
@@ -11729,7 +11510,6 @@ impl IconShape for LdBraces {
             path {
                 d: "M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1",
             }
-            
         }
     }
 }
@@ -11775,7 +11555,6 @@ impl IconShape for LdBrackets {
             path {
                 d: "M8 21H5V3h3",
             }
-            
         }
     }
 }
@@ -11862,7 +11641,6 @@ impl IconShape for LdBrainCircuit {
                 cy: "8",
                 r: ".5",
             }
-            
         }
     }
 }
@@ -11952,7 +11730,6 @@ impl IconShape for LdBrainCog {
             path {
                 d: "m13.1 9.2.4-.9",
             }
-            
         }
     }
 }
@@ -12019,7 +11796,6 @@ impl IconShape for LdBrain {
             path {
                 d: "M19.967 17.484A4 4 0 0 1 18 18",
             }
-            
         }
     }
 }
@@ -12087,7 +11863,6 @@ impl IconShape for LdBrickWall {
             path {
                 d: "M8 3v6",
             }
-            
         }
     }
 }
@@ -12143,7 +11918,6 @@ impl IconShape for LdBriefcaseBusiness {
                 x: "2",
                 y: "6",
             }
-            
         }
     }
 }
@@ -12205,7 +11979,6 @@ impl IconShape for LdBriefcaseMedical {
                 x: "2",
                 y: "6",
             }
-            
         }
     }
 }
@@ -12255,7 +12028,6 @@ impl IconShape for LdBriefcase {
                 x: "2",
                 y: "6",
             }
-            
         }
     }
 }
@@ -12308,7 +12080,6 @@ impl IconShape for LdBringToFront {
             path {
                 d: "M14 20a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2",
             }
-            
         }
     }
 }
@@ -12354,7 +12125,6 @@ impl IconShape for LdBrush {
             path {
                 d: "M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z",
             }
-            
         }
     }
 }
@@ -12421,7 +12191,6 @@ impl IconShape for LdBugOff {
             path {
                 d: "M3 21c0-2.1 1.7-3.9 3.8-4",
             }
-            
         }
     }
 }
@@ -12488,7 +12257,6 @@ impl IconShape for LdBugPlay {
             path {
                 d: "M9 7.13v-1a3.003 3.003 0 1 1 6 0v1",
             }
-            
         }
     }
 }
@@ -12561,7 +12329,6 @@ impl IconShape for LdBug {
             path {
                 d: "M17.2 17c2.1.1 3.8 1.9 3.8 4",
             }
-            
         }
     }
 }
@@ -12622,7 +12389,6 @@ impl IconShape for LdBuilding2 {
             path {
                 d: "M10 18h4",
             }
-            
         }
     }
 }
@@ -12700,7 +12466,6 @@ impl IconShape for LdBuilding {
             path {
                 d: "M8 14h.01",
             }
-            
         }
     }
 }
@@ -12771,7 +12536,6 @@ impl IconShape for LdBusFront {
             path {
                 d: "M18 21v-2",
             }
-            
         }
     }
 }
@@ -12836,7 +12600,6 @@ impl IconShape for LdBus {
                 cy: "18",
                 r: "2",
             }
-            
         }
     }
 }
@@ -12904,7 +12667,6 @@ impl IconShape for LdCableCar {
             path {
                 d: "M4 17h16",
             }
-            
         }
     }
 }
@@ -12959,7 +12721,6 @@ impl IconShape for LdCable {
             path {
                 d: "M7 5a1 1 0 0 1 1 1v1a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a1 1 0 0 1 1-1V3",
             }
-            
         }
     }
 }
@@ -13013,7 +12774,6 @@ impl IconShape for LdCakeSlice {
             path {
                 d: "M16 17H3",
             }
-            
         }
     }
 }
@@ -13080,7 +12840,6 @@ impl IconShape for LdCake {
             path {
                 d: "M17 4h0.01",
             }
-            
         }
     }
 }
@@ -13160,7 +12919,6 @@ impl IconShape for LdCalculator {
             path {
                 d: "M8 18h.01",
             }
-            
         }
     }
 }
@@ -13215,7 +12973,6 @@ impl IconShape for LdCalendarCheck2 {
             path {
                 d: "m16 20 2 2 4-4",
             }
-            
         }
     }
 }
@@ -13274,7 +13031,6 @@ impl IconShape for LdCalendarCheck {
             path {
                 d: "m9 16 2 2 4-4",
             }
-            
         }
     }
 }
@@ -13334,7 +13090,6 @@ impl IconShape for LdCalendarClock {
                 cy: "16",
                 r: "6",
             }
-            
         }
     }
 }
@@ -13408,7 +13163,6 @@ impl IconShape for LdCalendarDays {
             path {
                 d: "M16 18h.01",
             }
-            
         }
     }
 }
@@ -13463,7 +13217,6 @@ impl IconShape for LdCalendarFold {
             path {
                 d: "M15 22v-4a2 2 0 0 1 2-2h4",
             }
-            
         }
     }
 }
@@ -13515,7 +13268,6 @@ impl IconShape for LdCalendarHeart {
             path {
                 d: "M21.29 14.7a2.43 2.43 0 0 0-2.65-.52c-.3.12-.57.3-.8.53l-.34.34-.35-.34a2.43 2.43 0 0 0-2.65-.53c-.3.12-.56.3-.79.53-.95.94-1 2.53.2 3.74L17.5 22l3.6-3.55c1.2-1.21 1.14-2.8.19-3.74Z",
             }
-            
         }
     }
 }
@@ -13574,7 +13326,6 @@ impl IconShape for LdCalendarMinus2 {
             path {
                 d: "M10 16h4",
             }
-            
         }
     }
 }
@@ -13629,7 +13380,6 @@ impl IconShape for LdCalendarMinus {
             path {
                 d: "M16 19h6",
             }
-            
         }
     }
 }
@@ -13687,7 +13437,6 @@ impl IconShape for LdCalendarOff {
             path {
                 d: "m2 2 20 20",
             }
-            
         }
     }
 }
@@ -13749,7 +13498,6 @@ impl IconShape for LdCalendarPlus2 {
             path {
                 d: "M12 14v4",
             }
-            
         }
     }
 }
@@ -13807,7 +13555,6 @@ impl IconShape for LdCalendarPlus {
             path {
                 d: "M19 16v6",
             }
-            
         }
     }
 }
@@ -13875,7 +13622,6 @@ impl IconShape for LdCalendarRange {
             path {
                 d: "M17 18h.01",
             }
-            
         }
     }
 }
@@ -13935,7 +13681,6 @@ impl IconShape for LdCalendarSearch {
             path {
                 d: "m22 22-1.5-1.5",
             }
-            
         }
     }
 }
@@ -13993,7 +13738,6 @@ impl IconShape for LdCalendarX2 {
             path {
                 d: "m17 17 5 5",
             }
-            
         }
     }
 }
@@ -14055,7 +13799,6 @@ impl IconShape for LdCalendarX {
             path {
                 d: "m10 14 4 4",
             }
-            
         }
     }
 }
@@ -14111,7 +13854,6 @@ impl IconShape for LdCalendar {
             path {
                 d: "M3 10h18",
             }
-            
         }
     }
 }
@@ -14166,7 +13908,6 @@ impl IconShape for LdCameraOff {
             path {
                 d: "M14.121 15.121A3 3 0 1 1 9.88 10.88",
             }
-            
         }
     }
 }
@@ -14214,7 +13955,6 @@ impl IconShape for LdCamera {
                 cy: "13",
                 r: "3",
             }
-            
         }
     }
 }
@@ -14283,7 +14023,6 @@ impl IconShape for LdCandlestickChart {
             path {
                 d: "M3 3v18h18",
             }
-            
         }
     }
 }
@@ -14338,7 +14077,6 @@ impl IconShape for LdCandyCane {
             path {
                 d: "M4.9 14.7 7 18.9",
             }
-            
         }
     }
 }
@@ -14405,7 +14143,6 @@ impl IconShape for LdCandyOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -14460,7 +14197,6 @@ impl IconShape for LdCandy {
             path {
                 d: "m8 17-1 5-1.37-.68A3 3 0 0 0 4.3 21H3v-1.3a3 3 0 0 0-.32-1.33L2 17l5-1",
             }
-            
         }
     }
 }
@@ -14506,7 +14242,6 @@ impl IconShape for LdCannabis {
             path {
                 d: "M7 12c-1.5 0-4.5 1.5-5 3 3.5 1.5 6 1 6 1-1.5 1.5-2 3.5-2 5 2.5 0 4.5-1.5 6-3 1.5 1.5 3.5 3 6 3 0-1.5-.5-3.5-2-5 0 0 2.5.5 6-1-.5-1.5-3.5-3-5-3 1.5-1 4-4 4-6-2.5 0-5.5 1.5-7 3 0-2.5-.5-5-2-7-1.5 2-2 4.5-2 7-1.5-1.5-4.5-3-7-3 0 2 2.5 5 4 6",
             }
-            
         }
     }
 }
@@ -14564,7 +14299,6 @@ impl IconShape for LdCaptionsOff {
             path {
                 d: "M7 15h2.5",
             }
-            
         }
     }
 }
@@ -14615,7 +14349,6 @@ impl IconShape for LdCaptions {
             path {
                 d: "M7 15h4M15 15h2M7 11h2M13 11h4",
             }
-            
         }
     }
 }
@@ -14677,7 +14410,6 @@ impl IconShape for LdCarFront {
             path {
                 d: "M19 18v2",
             }
-            
         }
     }
 }
@@ -14742,7 +14474,6 @@ impl IconShape for LdCarTaxiFront {
             path {
                 d: "M19 18v2",
             }
-            
         }
     }
 }
@@ -14798,7 +14529,6 @@ impl IconShape for LdCar {
                 cy: "17",
                 r: "2",
             }
-            
         }
     }
 }
@@ -14861,7 +14591,6 @@ impl IconShape for LdCaravan {
             path {
                 d: "M10 19h12v-2",
             }
-            
         }
     }
 }
@@ -14910,7 +14639,6 @@ impl IconShape for LdCarrot {
             path {
                 d: "M15 2s-2 1.33-2 3.5S15 9 15 9s2-1.84 2-3.5C17 3.33 15 2 15 2z",
             }
-            
         }
     }
 }
@@ -14966,7 +14694,6 @@ impl IconShape for LdCaseLower {
             path {
                 d: "M14 7v8",
             }
-            
         }
     }
 }
@@ -15020,7 +14747,6 @@ impl IconShape for LdCaseSensitive {
             path {
                 d: "M21 9v6",
             }
-            
         }
     }
 }
@@ -15069,7 +14795,6 @@ impl IconShape for LdCaseUpper {
             path {
                 d: "M15 11h4.5a2 2 0 0 1 0 4H15V7h4a2 2 0 0 1 0 4",
             }
-            
         }
     }
 }
@@ -15132,7 +14857,6 @@ impl IconShape for LdCassetteTape {
             path {
                 d: "m6 20 .7-2.9A1.4 1.4 0 0 1 8.1 16h7.8a1.4 1.4 0 0 1 1.4 1l.7 3",
             }
-            
         }
     }
 }
@@ -15187,7 +14911,6 @@ impl IconShape for LdCast {
                 y1: "20",
                 y2: "20",
             }
-            
         }
     }
 }
@@ -15254,7 +14977,6 @@ impl IconShape for LdCastle {
             path {
                 d: "M14 4V2",
             }
-            
         }
     }
 }
@@ -15306,7 +15028,6 @@ impl IconShape for LdCat {
             path {
                 d: "M11.25 16.25h1.5L12 17l-.75-.75Z",
             }
-            
         }
     }
 }
@@ -15361,7 +15082,6 @@ impl IconShape for LdCctv {
             path {
                 d: "M7 9h.01",
             }
-            
         }
     }
 }
@@ -15407,7 +15127,6 @@ impl IconShape for LdCheckCheck {
             path {
                 d: "m22 10-7.5 7.5L13 16",
             }
-            
         }
     }
 }
@@ -15450,7 +15169,6 @@ impl IconShape for LdCheck {
             path {
                 d: "M20 6 9 17l-5-5",
             }
-            
         }
     }
 }
@@ -15496,7 +15214,6 @@ impl IconShape for LdChefHat {
             path {
                 d: "M6 17h12",
             }
-            
         }
     }
 }
@@ -15548,7 +15265,6 @@ impl IconShape for LdCherry {
             path {
                 d: "M22 9c-4.29 0-7.14-2.33-10-7 5.71 0 10 4.67 10 7Z",
             }
-            
         }
     }
 }
@@ -15591,7 +15307,6 @@ impl IconShape for LdChevronDown {
             path {
                 d: "m6 9 6 6 6-6",
             }
-            
         }
     }
 }
@@ -15637,7 +15352,6 @@ impl IconShape for LdChevronFirst {
             path {
                 d: "M7 6v12",
             }
-            
         }
     }
 }
@@ -15683,7 +15397,6 @@ impl IconShape for LdChevronLast {
             path {
                 d: "M17 6v12",
             }
-            
         }
     }
 }
@@ -15726,7 +15439,6 @@ impl IconShape for LdChevronLeft {
             path {
                 d: "m15 18-6-6 6-6",
             }
-            
         }
     }
 }
@@ -15769,7 +15481,6 @@ impl IconShape for LdChevronRight {
             path {
                 d: "m9 18 6-6-6-6",
             }
-            
         }
     }
 }
@@ -15812,7 +15523,6 @@ impl IconShape for LdChevronUp {
             path {
                 d: "m18 15-6-6-6 6",
             }
-            
         }
     }
 }
@@ -15858,7 +15568,6 @@ impl IconShape for LdChevronsDownUp {
             path {
                 d: "m7 4 5 5 5-5",
             }
-            
         }
     }
 }
@@ -15904,7 +15613,6 @@ impl IconShape for LdChevronsDown {
             path {
                 d: "m7 13 5 5 5-5",
             }
-            
         }
     }
 }
@@ -15950,7 +15658,6 @@ impl IconShape for LdChevronsLeftRight {
             path {
                 d: "m15 7 5 5-5 5",
             }
-            
         }
     }
 }
@@ -15996,7 +15703,6 @@ impl IconShape for LdChevronsLeft {
             path {
                 d: "m18 17-5-5 5-5",
             }
-            
         }
     }
 }
@@ -16042,7 +15748,6 @@ impl IconShape for LdChevronsRightLeft {
             path {
                 d: "m4 17 5-5-5-5",
             }
-            
         }
     }
 }
@@ -16088,7 +15793,6 @@ impl IconShape for LdChevronsRight {
             path {
                 d: "m13 17 5-5-5-5",
             }
-            
         }
     }
 }
@@ -16134,7 +15838,6 @@ impl IconShape for LdChevronsUpDown {
             path {
                 d: "m7 9 5-5 5 5",
             }
-            
         }
     }
 }
@@ -16180,7 +15883,6 @@ impl IconShape for LdChevronsUp {
             path {
                 d: "m17 18-5-5-5 5",
             }
-            
         }
     }
 }
@@ -16248,7 +15950,6 @@ impl IconShape for LdChrome {
                 y1: "21.94",
                 y2: "14",
             }
-            
         }
     }
 }
@@ -16303,7 +16004,6 @@ impl IconShape for LdChurch {
             path {
                 d: "M10 9h4",
             }
-            
         }
     }
 }
@@ -16367,7 +16067,6 @@ impl IconShape for LdCigaretteOff {
             path {
                 d: "M22 8c0-2.5-2-2.5-2-5",
             }
-            
         }
     }
 }
@@ -16422,7 +16121,6 @@ impl IconShape for LdCigarette {
             path {
                 d: "M22 8c0-2.5-2-2.5-2-5",
             }
-            
         }
     }
 }
@@ -16479,7 +16177,6 @@ impl IconShape for LdCircleAlert {
                 y1: "16",
                 y2: "16",
             }
-            
         }
     }
 }
@@ -16530,7 +16227,6 @@ impl IconShape for LdCircleArrowDown {
             path {
                 d: "m8 12 4 4 4-4",
             }
-            
         }
     }
 }
@@ -16581,7 +16277,6 @@ impl IconShape for LdCircleArrowLeft {
             path {
                 d: "m12 8-4 4 4 4",
             }
-            
         }
     }
 }
@@ -16630,7 +16325,6 @@ impl IconShape for LdCircleArrowOutDownLeft {
             path {
                 d: "M8 22H2v-6",
             }
-            
         }
     }
 }
@@ -16679,7 +16373,6 @@ impl IconShape for LdCircleArrowOutDownRight {
             path {
                 d: "M22 16v6h-6",
             }
-            
         }
     }
 }
@@ -16728,7 +16421,6 @@ impl IconShape for LdCircleArrowOutUpLeft {
             path {
                 d: "M12 2A10 10 0 1 1 2 12",
             }
-            
         }
     }
 }
@@ -16777,7 +16469,6 @@ impl IconShape for LdCircleArrowOutUpRight {
             path {
                 d: "M16 2h6v6",
             }
-            
         }
     }
 }
@@ -16828,7 +16519,6 @@ impl IconShape for LdCircleArrowRight {
             path {
                 d: "m12 16 4-4-4-4",
             }
-            
         }
     }
 }
@@ -16879,7 +16569,6 @@ impl IconShape for LdCircleArrowUp {
             path {
                 d: "M12 16V8",
             }
-            
         }
     }
 }
@@ -16925,7 +16614,6 @@ impl IconShape for LdCircleCheckBig {
             path {
                 d: "m9 11 3 3L22 4",
             }
-            
         }
     }
 }
@@ -16973,7 +16661,6 @@ impl IconShape for LdCircleCheck {
             path {
                 d: "m9 12 2 2 4-4",
             }
-            
         }
     }
 }
@@ -17021,7 +16708,6 @@ impl IconShape for LdCircleChevronDown {
             path {
                 d: "m16 10-4 4-4-4",
             }
-            
         }
     }
 }
@@ -17069,7 +16755,6 @@ impl IconShape for LdCircleChevronLeft {
             path {
                 d: "m14 16-4-4 4-4",
             }
-            
         }
     }
 }
@@ -17117,7 +16802,6 @@ impl IconShape for LdCircleChevronRight {
             path {
                 d: "m10 8 4 4-4 4",
             }
-            
         }
     }
 }
@@ -17165,7 +16849,6 @@ impl IconShape for LdCircleChevronUp {
             path {
                 d: "m8 14 4-4 4 4",
             }
-            
         }
     }
 }
@@ -17229,7 +16912,6 @@ impl IconShape for LdCircleDashed {
             path {
                 d: "M6.391 20.279a10 10 0 0 1-2.69-2.7",
             }
-            
         }
     }
 }
@@ -17292,7 +16974,6 @@ impl IconShape for LdCircleDivide {
                 cy: "12",
                 r: "10",
             }
-            
         }
     }
 }
@@ -17343,7 +17024,6 @@ impl IconShape for LdCircleDollarSign {
             path {
                 d: "M12 18V6",
             }
-            
         }
     }
 }
@@ -17412,7 +17092,6 @@ impl IconShape for LdCircleDotDashed {
                 cy: "12",
                 r: "1",
             }
-            
         }
     }
 }
@@ -17462,7 +17141,6 @@ impl IconShape for LdCircleDot {
                 cy: "12",
                 r: "1",
             }
-            
         }
     }
 }
@@ -17516,7 +17194,6 @@ impl IconShape for LdCircleEllipsis {
             path {
                 d: "M7 12h.01",
             }
-            
         }
     }
 }
@@ -17567,7 +17244,6 @@ impl IconShape for LdCircleEqual {
                 cy: "12",
                 r: "10",
             }
-            
         }
     }
 }
@@ -17628,7 +17304,6 @@ impl IconShape for LdCircleFadingPlus {
             path {
                 d: "M8.644 21.42a10 10 0 0 0 7.631-.38",
             }
-            
         }
     }
 }
@@ -17679,7 +17354,6 @@ impl IconShape for LdCircleGauge {
             path {
                 d: "M13.4 10.6 19 5",
             }
-            
         }
     }
 }
@@ -17730,7 +17404,6 @@ impl IconShape for LdCircleHelp {
             path {
                 d: "M12 17h.01",
             }
-            
         }
     }
 }
@@ -17778,7 +17451,6 @@ impl IconShape for LdCircleMinus {
             path {
                 d: "M8 12h8",
             }
-            
         }
     }
 }
@@ -17827,7 +17499,6 @@ impl IconShape for LdCircleOff {
             path {
                 d: "M19.08 19.08A10 10 0 1 1 4.92 4.92",
             }
-            
         }
     }
 }
@@ -17881,7 +17552,6 @@ impl IconShape for LdCircleParkingOff {
             path {
                 d: "M9 17v-2.34",
             }
-            
         }
     }
 }
@@ -17929,7 +17599,6 @@ impl IconShape for LdCircleParking {
             path {
                 d: "M9 17V7h4a3 3 0 0 1 0 6H9",
             }
-            
         }
     }
 }
@@ -17986,7 +17655,6 @@ impl IconShape for LdCirclePause {
                 y1: "15",
                 y2: "9",
             }
-            
         }
     }
 }
@@ -18040,7 +17708,6 @@ impl IconShape for LdCirclePercent {
             path {
                 d: "M15 15h.01",
             }
-            
         }
     }
 }
@@ -18088,7 +17755,6 @@ impl IconShape for LdCirclePlay {
             polygon {
                 points: "10 8 16 12 10 16 10 8",
             }
-            
         }
     }
 }
@@ -18139,7 +17805,6 @@ impl IconShape for LdCirclePlus {
             path {
                 d: "M12 8v8",
             }
-            
         }
     }
 }
@@ -18190,7 +17855,6 @@ impl IconShape for LdCirclePower {
             path {
                 d: "M16 9a5 5 0 1 1-8 0",
             }
-            
         }
     }
 }
@@ -18238,7 +17902,6 @@ impl IconShape for LdCircleSlash2 {
             path {
                 d: "M22 2 2 22",
             }
-            
         }
     }
 }
@@ -18289,7 +17952,6 @@ impl IconShape for LdCircleSlash {
                 cy: "12",
                 r: "10",
             }
-            
         }
     }
 }
@@ -18340,7 +18002,6 @@ impl IconShape for LdCircleStop {
                 x: "9",
                 y: "9",
             }
-            
         }
     }
 }
@@ -18393,7 +18054,6 @@ impl IconShape for LdCircleUserRound {
                 cy: "12",
                 r: "10",
             }
-            
         }
     }
 }
@@ -18446,7 +18106,6 @@ impl IconShape for LdCircleUser {
             path {
                 d: "M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662",
             }
-            
         }
     }
 }
@@ -18497,7 +18156,6 @@ impl IconShape for LdCircleX {
             path {
                 d: "m9 9 6 6",
             }
-            
         }
     }
 }
@@ -18542,7 +18200,6 @@ impl IconShape for LdCircle {
                 cy: "12",
                 r: "10",
             }
-            
         }
     }
 }
@@ -18605,7 +18262,6 @@ impl IconShape for LdCircuitBoard {
                 cy: "15",
                 r: "2",
             }
-            
         }
     }
 }
@@ -18657,7 +18313,6 @@ impl IconShape for LdCitrus {
             path {
                 d: "M14 17.85V10H6.15",
             }
-            
         }
     }
 }
@@ -18709,7 +18364,6 @@ impl IconShape for LdClapperboard {
             path {
                 d: "M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z",
             }
-            
         }
     }
 }
@@ -18763,7 +18417,6 @@ impl IconShape for LdClipboardCheck {
             path {
                 d: "m9 14 2 2 4-4",
             }
-            
         }
     }
 }
@@ -18823,7 +18476,6 @@ impl IconShape for LdClipboardCopy {
             path {
                 d: "m15 10-4 4 4 4",
             }
-            
         }
     }
 }
@@ -18886,7 +18538,6 @@ impl IconShape for LdClipboardList {
             path {
                 d: "M8 16h.01",
             }
-            
         }
     }
 }
@@ -18940,7 +18591,6 @@ impl IconShape for LdClipboardMinus {
             path {
                 d: "M9 14h6",
             }
-            
         }
     }
 }
@@ -18989,7 +18639,6 @@ impl IconShape for LdClipboardPaste {
             path {
                 d: "m17 10 4 4-4 4",
             }
-            
         }
     }
 }
@@ -19048,7 +18697,6 @@ impl IconShape for LdClipboardPenLine {
             path {
                 d: "M18.4 9.6a2 2 0 0 1 3 3L17 17l-4 1 1-4Z",
             }
-            
         }
     }
 }
@@ -19104,7 +18752,6 @@ impl IconShape for LdClipboardPen {
             path {
                 d: "M4 13.5V6a2 2 0 0 1 2-2h2",
             }
-            
         }
     }
 }
@@ -19161,7 +18808,6 @@ impl IconShape for LdClipboardPlus {
             path {
                 d: "M12 17v-6",
             }
-            
         }
     }
 }
@@ -19221,7 +18867,6 @@ impl IconShape for LdClipboardType {
             path {
                 d: "M12 11v6",
             }
-            
         }
     }
 }
@@ -19278,7 +18923,6 @@ impl IconShape for LdClipboardX {
             path {
                 d: "m9 11 6 6",
             }
-            
         }
     }
 }
@@ -19329,7 +18973,6 @@ impl IconShape for LdClipboard {
             path {
                 d: "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2",
             }
-            
         }
     }
 }
@@ -19377,7 +19020,6 @@ impl IconShape for LdClock1 {
             polyline {
                 points: "12 6 12 12 14.5 8",
             }
-            
         }
     }
 }
@@ -19425,7 +19067,6 @@ impl IconShape for LdClock10 {
             polyline {
                 points: "12 6 12 12 8 10",
             }
-            
         }
     }
 }
@@ -19473,7 +19114,6 @@ impl IconShape for LdClock11 {
             polyline {
                 points: "12 6 12 12 9.5 8",
             }
-            
         }
     }
 }
@@ -19521,7 +19161,6 @@ impl IconShape for LdClock12 {
             polyline {
                 points: "12 6 12 12",
             }
-            
         }
     }
 }
@@ -19569,7 +19208,6 @@ impl IconShape for LdClock2 {
             polyline {
                 points: "12 6 12 12 16 10",
             }
-            
         }
     }
 }
@@ -19617,7 +19255,6 @@ impl IconShape for LdClock3 {
             polyline {
                 points: "12 6 12 12 16.5 12",
             }
-            
         }
     }
 }
@@ -19665,7 +19302,6 @@ impl IconShape for LdClock4 {
             polyline {
                 points: "12 6 12 12 16 14",
             }
-            
         }
     }
 }
@@ -19713,7 +19349,6 @@ impl IconShape for LdClock5 {
             polyline {
                 points: "12 6 12 12 14.5 16",
             }
-            
         }
     }
 }
@@ -19761,7 +19396,6 @@ impl IconShape for LdClock6 {
             polyline {
                 points: "12 6 12 12 12 16.5",
             }
-            
         }
     }
 }
@@ -19809,7 +19443,6 @@ impl IconShape for LdClock7 {
             polyline {
                 points: "12 6 12 12 9.5 16",
             }
-            
         }
     }
 }
@@ -19857,7 +19490,6 @@ impl IconShape for LdClock8 {
             polyline {
                 points: "12 6 12 12 8 14",
             }
-            
         }
     }
 }
@@ -19905,7 +19537,6 @@ impl IconShape for LdClock9 {
             polyline {
                 points: "12 6 12 12 7.5 12",
             }
-            
         }
     }
 }
@@ -19953,7 +19584,6 @@ impl IconShape for LdClock {
             polyline {
                 points: "12 6 12 12 16 14",
             }
-            
         }
     }
 }
@@ -20025,7 +19655,6 @@ impl IconShape for LdCloudCog {
             path {
                 d: "m14.7 15.8 1-.4",
             }
-            
         }
     }
 }
@@ -20074,7 +19703,6 @@ impl IconShape for LdCloudDownload {
             path {
                 d: "m8 17 4 4 4-4",
             }
-            
         }
     }
 }
@@ -20135,7 +19763,6 @@ impl IconShape for LdCloudDrizzle {
             path {
                 d: "M12 16v1",
             }
-            
         }
     }
 }
@@ -20184,7 +19811,6 @@ impl IconShape for LdCloudFog {
             path {
                 d: "M17 21H9",
             }
-            
         }
     }
 }
@@ -20245,7 +19871,6 @@ impl IconShape for LdCloudHail {
             path {
                 d: "M12 22h.01",
             }
-            
         }
     }
 }
@@ -20291,7 +19916,6 @@ impl IconShape for LdCloudLightning {
             path {
                 d: "m13 12-3 5h4l-3 5",
             }
-            
         }
     }
 }
@@ -20343,7 +19967,6 @@ impl IconShape for LdCloudMoonRain {
             path {
                 d: "M7 19v2",
             }
-            
         }
     }
 }
@@ -20389,7 +20012,6 @@ impl IconShape for LdCloudMoon {
             path {
                 d: "M10.1 9A6 6 0 0 1 16 4a4.24 4.24 0 0 0 6 6 6 6 0 0 1-3 5.197",
             }
-            
         }
     }
 }
@@ -20438,7 +20060,6 @@ impl IconShape for LdCloudOff {
             path {
                 d: "M21.532 16.5A4.5 4.5 0 0 0 17.5 10h-1.79A7.008 7.008 0 0 0 10 5.07",
             }
-            
         }
     }
 }
@@ -20490,7 +20111,6 @@ impl IconShape for LdCloudRainWind {
             path {
                 d: "m17 13-3 7",
             }
-            
         }
     }
 }
@@ -20542,7 +20162,6 @@ impl IconShape for LdCloudRain {
             path {
                 d: "M12 16v6",
             }
-            
         }
     }
 }
@@ -20603,7 +20222,6 @@ impl IconShape for LdCloudSnow {
             path {
                 d: "M16 19h.01",
             }
-            
         }
     }
 }
@@ -20667,7 +20285,6 @@ impl IconShape for LdCloudSunRain {
             path {
                 d: "M7 19v2",
             }
-            
         }
     }
 }
@@ -20725,7 +20342,6 @@ impl IconShape for LdCloudSun {
             path {
                 d: "M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z",
             }
-            
         }
     }
 }
@@ -20774,7 +20390,6 @@ impl IconShape for LdCloudUpload {
             path {
                 d: "m16 16-4-4-4 4",
             }
-            
         }
     }
 }
@@ -20817,7 +20432,6 @@ impl IconShape for LdCloud {
             path {
                 d: "M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z",
             }
-            
         }
     }
 }
@@ -20863,7 +20477,6 @@ impl IconShape for LdCloudy {
             path {
                 d: "M22 10a3 3 0 0 0-3-3h-2.207a5.502 5.502 0 0 0-10.702.5",
             }
-            
         }
     }
 }
@@ -20912,7 +20525,6 @@ impl IconShape for LdClover {
             path {
                 d: "m7.83 7.83 8.34 8.34",
             }
-            
         }
     }
 }
@@ -20958,7 +20570,6 @@ impl IconShape for LdClub {
             path {
                 d: "M12 17.66L12 22",
             }
-            
         }
     }
 }
@@ -21007,7 +20618,6 @@ impl IconShape for LdCodeXml {
             path {
                 d: "m14.5 4-5 16",
             }
-            
         }
     }
 }
@@ -21053,7 +20663,6 @@ impl IconShape for LdCode {
             polyline {
                 points: "8 6 2 12 8 18",
             }
-            
         }
     }
 }
@@ -21114,7 +20723,6 @@ impl IconShape for LdCodepen {
                 y1: "2",
                 y2: "8.5",
             }
-            
         }
     }
 }
@@ -21175,7 +20783,6 @@ impl IconShape for LdCodesandbox {
                 y1: "22.08",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -21227,7 +20834,6 @@ impl IconShape for LdCoffee {
             path {
                 d: "M6 2v2",
             }
-            
         }
     }
 }
@@ -21309,7 +20915,6 @@ impl IconShape for LdCog {
             path {
                 d: "m11 13.73-4 6.93",
             }
-            
         }
     }
 }
@@ -21363,7 +20968,6 @@ impl IconShape for LdCoins {
             path {
                 d: "m16.71 13.88.7.71-2.82 2.82",
             }
-            
         }
     }
 }
@@ -21413,7 +21017,6 @@ impl IconShape for LdColumns2 {
             path {
                 d: "M12 3v18",
             }
-            
         }
     }
 }
@@ -21466,7 +21069,6 @@ impl IconShape for LdColumns3 {
             path {
                 d: "M15 3v18",
             }
-            
         }
     }
 }
@@ -21522,7 +21124,6 @@ impl IconShape for LdColumns4 {
             path {
                 d: "M16.5 3v18",
             }
-            
         }
     }
 }
@@ -21588,7 +21189,6 @@ impl IconShape for LdCombine {
                 x: "14",
                 y: "14",
             }
-            
         }
     }
 }
@@ -21631,7 +21231,6 @@ impl IconShape for LdCommand {
             path {
                 d: "M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3",
             }
-            
         }
     }
 }
@@ -21679,7 +21278,6 @@ impl IconShape for LdCompass {
             polygon {
                 points: "16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76",
             }
-            
         }
     }
 }
@@ -21731,7 +21329,6 @@ impl IconShape for LdComponent {
             path {
                 d: "m12 15 3.5 3.5L12 22l-3.5-3.5L12 15Z",
             }
-            
         }
     }
 }
@@ -21791,7 +21388,6 @@ impl IconShape for LdComputer {
             path {
                 d: "M12 18h6",
             }
-            
         }
     }
 }
@@ -21843,7 +21439,6 @@ impl IconShape for LdConciergeBell {
             path {
                 d: "M10 4h4",
             }
-            
         }
     }
 }
@@ -21892,7 +21487,6 @@ impl IconShape for LdCone {
                 rx: "9",
                 ry: "3",
             }
-            
         }
     }
 }
@@ -21960,7 +21554,6 @@ impl IconShape for LdConstruction {
             path {
                 d: "m8 6 8 8",
             }
-            
         }
     }
 }
@@ -22027,7 +21620,6 @@ impl IconShape for LdContactRound {
                 y1: "2",
                 y2: "4",
             }
-            
         }
     }
 }
@@ -22094,7 +21686,6 @@ impl IconShape for LdContact {
                 y1: "2",
                 y2: "4",
             }
-            
         }
     }
 }
@@ -22149,7 +21740,6 @@ impl IconShape for LdContainer {
             path {
                 d: "M18 17.5V9.4",
             }
-            
         }
     }
 }
@@ -22197,7 +21787,6 @@ impl IconShape for LdContrast {
             path {
                 d: "M12 18a6 6 0 0 0 0-12v12z",
             }
-            
         }
     }
 }
@@ -22255,7 +21844,6 @@ impl IconShape for LdCookie {
             path {
                 d: "M7 14v.01",
             }
-            
         }
     }
 }
@@ -22307,7 +21895,6 @@ impl IconShape for LdCookingPot {
             path {
                 d: "m8.86 6.78-.45-1.81a2 2 0 0 1 1.45-2.43l1.94-.48a2 2 0 0 1 2.43 1.46l.45 1.8",
             }
-            
         }
     }
 }
@@ -22361,7 +21948,6 @@ impl IconShape for LdCopyCheck {
             path {
                 d: "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2",
             }
-            
         }
     }
 }
@@ -22418,7 +22004,6 @@ impl IconShape for LdCopyMinus {
             path {
                 d: "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2",
             }
-            
         }
     }
 }
@@ -22481,7 +22066,6 @@ impl IconShape for LdCopyPlus {
             path {
                 d: "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2",
             }
-            
         }
     }
 }
@@ -22538,7 +22122,6 @@ impl IconShape for LdCopySlash {
             path {
                 d: "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2",
             }
-            
         }
     }
 }
@@ -22601,7 +22184,6 @@ impl IconShape for LdCopyX {
             path {
                 d: "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2",
             }
-            
         }
     }
 }
@@ -22652,7 +22234,6 @@ impl IconShape for LdCopy {
             path {
                 d: "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2",
             }
-            
         }
     }
 }
@@ -22700,7 +22281,6 @@ impl IconShape for LdCopyleft {
             path {
                 d: "M9.17 14.83a4 4 0 1 0 0-5.66",
             }
-            
         }
     }
 }
@@ -22748,7 +22328,6 @@ impl IconShape for LdCopyright {
             path {
                 d: "M14.83 14.83a4 4 0 1 1 0-5.66",
             }
-            
         }
     }
 }
@@ -22794,7 +22373,6 @@ impl IconShape for LdCornerDownLeft {
             path {
                 d: "M20 4v7a4 4 0 0 1-4 4H4",
             }
-            
         }
     }
 }
@@ -22840,7 +22418,6 @@ impl IconShape for LdCornerDownRight {
             path {
                 d: "M4 4v7a4 4 0 0 0 4 4h12",
             }
-            
         }
     }
 }
@@ -22886,7 +22463,6 @@ impl IconShape for LdCornerLeftDown {
             path {
                 d: "M20 4h-7a4 4 0 0 0-4 4v12",
             }
-            
         }
     }
 }
@@ -22932,7 +22508,6 @@ impl IconShape for LdCornerLeftUp {
             path {
                 d: "M20 20h-7a4 4 0 0 1-4-4V4",
             }
-            
         }
     }
 }
@@ -22978,7 +22553,6 @@ impl IconShape for LdCornerRightDown {
             path {
                 d: "M4 4h7a4 4 0 0 1 4 4v12",
             }
-            
         }
     }
 }
@@ -23024,7 +22598,6 @@ impl IconShape for LdCornerRightUp {
             path {
                 d: "M4 20h7a4 4 0 0 0 4-4V4",
             }
-            
         }
     }
 }
@@ -23070,7 +22643,6 @@ impl IconShape for LdCornerUpLeft {
             path {
                 d: "M20 20v-7a4 4 0 0 0-4-4H4",
             }
-            
         }
     }
 }
@@ -23116,7 +22688,6 @@ impl IconShape for LdCornerUpRight {
             path {
                 d: "M4 20v-7a4 4 0 0 1 4-4h12",
             }
-            
         }
     }
 }
@@ -23194,7 +22765,6 @@ impl IconShape for LdCpu {
             path {
                 d: "M9 20v2",
             }
-            
         }
     }
 }
@@ -23245,7 +22815,6 @@ impl IconShape for LdCreativeCommons {
             path {
                 d: "M17 9.3a2.8 2.8 0 0 0-3.5 1 3.1 3.1 0 0 0 0 3.4 2.7 2.7 0 0 0 3.5 1",
             }
-            
         }
     }
 }
@@ -23298,7 +22867,6 @@ impl IconShape for LdCreditCard {
                 y1: "10",
                 y2: "10",
             }
-            
         }
     }
 }
@@ -23353,7 +22921,6 @@ impl IconShape for LdCroissant {
             path {
                 d: "M18 16c1.55 0 4-.24 4 2 0 2-2.17 2.5-4 2.5",
             }
-            
         }
     }
 }
@@ -23399,7 +22966,6 @@ impl IconShape for LdCrop {
             path {
                 d: "M18 22V8a2 2 0 0 0-2-2H2",
             }
-            
         }
     }
 }
@@ -23442,7 +23008,6 @@ impl IconShape for LdCross {
             path {
                 d: "M11 2a2 2 0 0 0-2 2v5H4a2 2 0 0 0-2 2v2c0 1.1.9 2 2 2h5v5c0 1.1.9 2 2 2h2a2 2 0 0 0 2-2v-5h5a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-5V4a2 2 0 0 0-2-2h-2z",
             }
-            
         }
     }
 }
@@ -23511,7 +23076,6 @@ impl IconShape for LdCrosshair {
                 y1: "22",
                 y2: "18",
             }
-            
         }
     }
 }
@@ -23557,7 +23121,6 @@ impl IconShape for LdCrown {
             path {
                 d: "M5 21h14",
             }
-            
         }
     }
 }
@@ -23606,7 +23169,6 @@ impl IconShape for LdCuboid {
             path {
                 d: "m10 14 11.77-6.87",
             }
-            
         }
     }
 }
@@ -23658,7 +23220,6 @@ impl IconShape for LdCupSoda {
             path {
                 d: "m12 8 1-6h2",
             }
-            
         }
     }
 }
@@ -23727,7 +23288,6 @@ impl IconShape for LdCurrency {
                 y1: "21",
                 y2: "18",
             }
-            
         }
     }
 }
@@ -23776,7 +23336,6 @@ impl IconShape for LdCylinder {
             path {
                 d: "M3 5v14a9 3 0 0 0 18 0V5",
             }
-            
         }
     }
 }
@@ -23837,7 +23396,6 @@ impl IconShape for LdDatabaseBackup {
             path {
                 d: "M13 20a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5c-1.33 0-2.54.54-3.41 1.41L12 16",
             }
-            
         }
     }
 }
@@ -23895,7 +23453,6 @@ impl IconShape for LdDatabaseZap {
             path {
                 d: "M3 12A9 3 0 0 0 14.59 14.87",
             }
-            
         }
     }
 }
@@ -23947,7 +23504,6 @@ impl IconShape for LdDatabase {
             path {
                 d: "M3 12A9 3 0 0 0 21 12",
             }
-            
         }
     }
 }
@@ -24002,7 +23558,6 @@ impl IconShape for LdDelete {
                 y1: "9",
                 y2: "15",
             }
-            
         }
     }
 }
@@ -24053,7 +23608,6 @@ impl IconShape for LdDessert {
             path {
                 d: "M3.2 14.8a9 9 0 0 0 17.6 0",
             }
-            
         }
     }
 }
@@ -24112,7 +23666,6 @@ impl IconShape for LdDiameter {
             path {
                 d: "M3.66 6.48a10 10 0 0 0 13.86 13.86",
             }
-            
         }
     }
 }
@@ -24158,7 +23711,6 @@ impl IconShape for LdDiamondMinus {
             path {
                 d: "M8 12h8",
             }
-            
         }
     }
 }
@@ -24210,7 +23762,6 @@ impl IconShape for LdDiamondPercent {
             path {
                 d: "M14.7 14.8h.01",
             }
-            
         }
     }
 }
@@ -24259,7 +23810,6 @@ impl IconShape for LdDiamondPlus {
             path {
                 d: "M8 12h8",
             }
-            
         }
     }
 }
@@ -24302,7 +23852,6 @@ impl IconShape for LdDiamond {
             path {
                 d: "M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z",
             }
-            
         }
     }
 }
@@ -24353,7 +23902,6 @@ impl IconShape for LdDice1 {
             path {
                 d: "M12 12h.01",
             }
-            
         }
     }
 }
@@ -24407,7 +23955,6 @@ impl IconShape for LdDice2 {
             path {
                 d: "M9 15h.01",
             }
-            
         }
     }
 }
@@ -24464,7 +24011,6 @@ impl IconShape for LdDice3 {
             path {
                 d: "M8 16h.01",
             }
-            
         }
     }
 }
@@ -24524,7 +24070,6 @@ impl IconShape for LdDice4 {
             path {
                 d: "M16 16h.01",
             }
-            
         }
     }
 }
@@ -24587,7 +24132,6 @@ impl IconShape for LdDice5 {
             path {
                 d: "M12 12h.01",
             }
-            
         }
     }
 }
@@ -24653,7 +24197,6 @@ impl IconShape for LdDice6 {
             path {
                 d: "M8 16h.01",
             }
-            
         }
     }
 }
@@ -24716,7 +24259,6 @@ impl IconShape for LdDices {
             path {
                 d: "M18 9h.01",
             }
-            
         }
     }
 }
@@ -24765,7 +24307,6 @@ impl IconShape for LdDiff {
             path {
                 d: "M5 21h14",
             }
-            
         }
     }
 }
@@ -24818,7 +24359,6 @@ impl IconShape for LdDisc2 {
             path {
                 d: "M12 12h.01",
             }
-            
         }
     }
 }
@@ -24874,7 +24414,6 @@ impl IconShape for LdDisc3 {
             path {
                 d: "M18 12c0 1.7-.7 3.2-1.8 4.2",
             }
-            
         }
     }
 }
@@ -24929,7 +24468,6 @@ impl IconShape for LdDiscAlbum {
             path {
                 d: "M12 12h.01",
             }
-            
         }
     }
 }
@@ -24979,7 +24517,6 @@ impl IconShape for LdDisc {
                 cy: "12",
                 r: "2",
             }
-            
         }
     }
 }
@@ -25035,7 +24572,6 @@ impl IconShape for LdDivide {
                 cy: "18",
                 r: "1",
             }
-            
         }
     }
 }
@@ -25111,7 +24647,6 @@ impl IconShape for LdDnaOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -25184,7 +24719,6 @@ impl IconShape for LdDna {
             path {
                 d: "m10 16 1.5 1.5",
             }
-            
         }
     }
 }
@@ -25237,7 +24771,6 @@ impl IconShape for LdDock {
             path {
                 d: "M6 16h12",
             }
-            
         }
     }
 }
@@ -25295,7 +24828,6 @@ impl IconShape for LdDog {
             path {
                 d: "M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444c0-1.061-.162-2.2-.493-3.309m-9.243-6.082A8.801 8.801 0 0 1 12 5c.78 0 1.5.108 2.161.306",
             }
-            
         }
     }
 }
@@ -25344,7 +24876,6 @@ impl IconShape for LdDollarSign {
             path {
                 d: "M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6",
             }
-            
         }
     }
 }
@@ -25392,7 +24923,6 @@ impl IconShape for LdDonut {
                 cy: "12",
                 r: "3",
             }
-            
         }
     }
 }
@@ -25441,7 +24971,6 @@ impl IconShape for LdDoorClosed {
             path {
                 d: "M14 12v.01",
             }
-            
         }
     }
 }
@@ -25496,7 +25025,6 @@ impl IconShape for LdDoorOpen {
             path {
                 d: "M13 4.562v16.157a1 1 0 0 1-1.242.97L5 20V5.562a2 2 0 0 1 1.515-1.94l4-1A2 2 0 0 1 13 4.561Z",
             }
-            
         }
     }
 }
@@ -25541,7 +25069,6 @@ impl IconShape for LdDot {
                 cy: "12.1",
                 r: "1",
             }
-            
         }
     }
 }
@@ -25593,7 +25120,6 @@ impl IconShape for LdDownload {
                 y1: "15",
                 y2: "3",
             }
-            
         }
     }
 }
@@ -25650,7 +25176,6 @@ impl IconShape for LdDraftingCompass {
             path {
                 d: "m21 21-2.16-3.84",
             }
-            
         }
     }
 }
@@ -25714,7 +25239,6 @@ impl IconShape for LdDrama {
             path {
                 d: "M9.1 16.5c.3-1.1 1.4-1.7 2.4-1.4",
             }
-            
         }
     }
 }
@@ -25768,7 +25292,6 @@ impl IconShape for LdDribbble {
             path {
                 d: "M8.56 2.75c4.37 6 6 9.42 8 17.72",
             }
-            
         }
     }
 }
@@ -25829,7 +25352,6 @@ impl IconShape for LdDrill {
             path {
                 d: "M5 22c-1.7 0-3-1.3-3-3 0-.6.4-1 1-1h7c.6 0 1 .4 1 1v2c0 .6-.4 1-1 1Z",
             }
-            
         }
     }
 }
@@ -25872,7 +25394,6 @@ impl IconShape for LdDroplet {
             path {
                 d: "M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z",
             }
-            
         }
     }
 }
@@ -25918,7 +25439,6 @@ impl IconShape for LdDroplets {
             path {
                 d: "M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97",
             }
-            
         }
     }
 }
@@ -25982,7 +25502,6 @@ impl IconShape for LdDrum {
             path {
                 d: "M2 9v8a10 5 0 0 0 20 0V9",
             }
-            
         }
     }
 }
@@ -26028,7 +25547,6 @@ impl IconShape for LdDrumstick {
             path {
                 d: "m8.29 12.71-2.6 2.6a2.5 2.5 0 1 0-1.65 4.65A2.5 2.5 0 1 0 8.7 18.3l2.59-2.59",
             }
-            
         }
     }
 }
@@ -26083,7 +25601,6 @@ impl IconShape for LdDumbbell {
             path {
                 d: "M6.404 12.768a2 2 0 1 1-2.829-2.829l1.768-1.767a2 2 0 1 1-2.828-2.829l2.828-2.828a2 2 0 1 1 2.829 2.828l1.767-1.768a2 2 0 1 1 2.829 2.829z",
             }
-            
         }
     }
 }
@@ -26141,7 +25658,6 @@ impl IconShape for LdEarOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -26187,7 +25703,6 @@ impl IconShape for LdEar {
             path {
                 d: "M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4",
             }
-            
         }
     }
 }
@@ -26249,7 +25764,6 @@ impl IconShape for LdEarthLock {
                 x: "14",
                 y: "6",
             }
-            
         }
     }
 }
@@ -26303,7 +25817,6 @@ impl IconShape for LdEarth {
                 cy: "12",
                 r: "10",
             }
-            
         }
     }
 }
@@ -26351,7 +25864,6 @@ impl IconShape for LdEclipse {
             path {
                 d: "M12 2a7 7 0 1 0 10 10",
             }
-            
         }
     }
 }
@@ -26399,7 +25911,6 @@ impl IconShape for LdEggFried {
             path {
                 d: "M3 8c0-3.5 2.5-6 6.5-6 5 0 4.83 3 7.5 5s5 2 5 6c0 4.5-2.5 6.5-7 6.5-2.5 0-2.5 2.5-6 2.5s-7-2-7-5.5c0-3 1.5-3 1.5-5C3.5 10 3 9 3 8Z",
             }
-            
         }
     }
 }
@@ -26451,7 +25962,6 @@ impl IconShape for LdEggOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -26494,7 +26004,6 @@ impl IconShape for LdEgg {
             path {
                 d: "M12 22c6.23-.05 7.87-5.57 7.5-10-.36-4.34-3.95-9.96-7.5-10-3.55.04-7.14 5.66-7.5 10-.37 4.43 1.27 9.95 7.5 10z",
             }
-            
         }
     }
 }
@@ -26549,7 +26058,6 @@ impl IconShape for LdEllipsisVertical {
                 cy: "19",
                 r: "1",
             }
-            
         }
     }
 }
@@ -26604,7 +26112,6 @@ impl IconShape for LdEllipsis {
                 cy: "12",
                 r: "1",
             }
-            
         }
     }
 }
@@ -26662,7 +26169,6 @@ impl IconShape for LdEqualNot {
                 y1: "5",
                 y2: "19",
             }
-            
         }
     }
 }
@@ -26714,7 +26220,6 @@ impl IconShape for LdEqual {
                 y1: "15",
                 y2: "15",
             }
-            
         }
     }
 }
@@ -26763,7 +26268,6 @@ impl IconShape for LdEraser {
             path {
                 d: "m5 11 9 9",
             }
-            
         }
     }
 }
@@ -26812,7 +26316,6 @@ impl IconShape for LdEuro {
             path {
                 d: "M19 6a7.7 7.7 0 0 0-5.2-2A7.9 7.9 0 0 0 6 12c0 4.4 3.5 8 7.8 8 2 0 3.8-.8 5.2-2",
             }
-            
         }
     }
 }
@@ -26864,7 +26367,6 @@ impl IconShape for LdExpand {
             path {
                 d: "M3 7.8V3m0 0h4.8M3 3l6 6",
             }
-            
         }
     }
 }
@@ -26913,7 +26415,6 @@ impl IconShape for LdExternalLink {
             path {
                 d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6",
             }
-            
         }
     }
 }
@@ -26968,7 +26469,6 @@ impl IconShape for LdEyeOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -27016,7 +26516,6 @@ impl IconShape for LdEye {
                 cy: "12",
                 r: "3",
             }
-            
         }
     }
 }
@@ -27059,7 +26558,6 @@ impl IconShape for LdFacebook {
             path {
                 d: "M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z",
             }
-            
         }
     }
 }
@@ -27111,7 +26609,6 @@ impl IconShape for LdFactory {
             path {
                 d: "M7 18h1",
             }
-            
         }
     }
 }
@@ -27157,7 +26654,6 @@ impl IconShape for LdFan {
             path {
                 d: "M12 12v.01",
             }
-            
         }
     }
 }
@@ -27203,7 +26699,6 @@ impl IconShape for LdFastForward {
             polygon {
                 points: "2 19 11 12 2 5 2 19",
             }
-            
         }
     }
 }
@@ -27252,7 +26747,6 @@ impl IconShape for LdFeather {
             path {
                 d: "M17.5 15H9",
             }
-            
         }
     }
 }
@@ -27313,7 +26807,6 @@ impl IconShape for LdFence {
             path {
                 d: "m20 3-2 2v15c0 .6.4 1 1 1h2c.6 0 1-.4 1-1V5Z",
             }
-            
         }
     }
 }
@@ -27382,7 +26875,6 @@ impl IconShape for LdFerrisWheel {
             path {
                 d: "M18 18.7a9 9 0 1 0-12 0",
             }
-            
         }
     }
 }
@@ -27437,7 +26929,6 @@ impl IconShape for LdFigma {
             path {
                 d: "M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z",
             }
-            
         }
     }
 }
@@ -27497,7 +26988,6 @@ impl IconShape for LdFileArchive {
             path {
                 d: "M10 18v-2",
             }
-            
         }
     }
 }
@@ -27556,7 +27046,6 @@ impl IconShape for LdFileAudio2 {
                 cy: "17",
                 r: "1",
             }
-            
         }
     }
 }
@@ -27605,7 +27094,6 @@ impl IconShape for LdFileAudio {
             path {
                 d: "M2 19a2 2 0 1 1 4 0v1a2 2 0 1 1-4 0v-4a6 6 0 0 1 12 0v4a2 2 0 1 1-4 0v-1a2 2 0 1 1 4 0",
             }
-            
         }
     }
 }
@@ -27657,7 +27145,6 @@ impl IconShape for LdFileAxis3d {
             path {
                 d: "M8 10v8h8",
             }
-            
         }
     }
 }
@@ -27711,7 +27198,6 @@ impl IconShape for LdFileBadge2 {
             path {
                 d: "m14 12.5 1 5.5-3-1-3 1 1-5.5",
             }
-            
         }
     }
 }
@@ -27763,7 +27249,6 @@ impl IconShape for LdFileBadge {
             path {
                 d: "M7 16.5 8 22l-3-1-3 1 1-5.5",
             }
-            
         }
     }
 }
@@ -27818,7 +27303,6 @@ impl IconShape for LdFileBarChart2 {
             path {
                 d: "M16 18v-3",
             }
-            
         }
     }
 }
@@ -27873,7 +27357,6 @@ impl IconShape for LdFileBarChart {
             path {
                 d: "M16 18v-6",
             }
-            
         }
     }
 }
@@ -27928,7 +27411,6 @@ impl IconShape for LdFileBox {
             path {
                 d: "M11.7 14.2 7 17l-4.7-2.8",
             }
-            
         }
     }
 }
@@ -27977,7 +27459,6 @@ impl IconShape for LdFileCheck2 {
             path {
                 d: "m3 15 2 2 4-4",
             }
-            
         }
     }
 }
@@ -28026,7 +27507,6 @@ impl IconShape for LdFileCheck {
             path {
                 d: "m9 15 2 2 4-4",
             }
-            
         }
     }
 }
@@ -28080,7 +27560,6 @@ impl IconShape for LdFileClock {
             path {
                 d: "M9.5 17.5 8 16.25V14",
             }
-            
         }
     }
 }
@@ -28132,7 +27611,6 @@ impl IconShape for LdFileCode2 {
             path {
                 d: "m9 18 3-3-3-3",
             }
-            
         }
     }
 }
@@ -28184,7 +27662,6 @@ impl IconShape for LdFileCode {
             path {
                 d: "m14 17 2-2-2-2",
             }
-            
         }
     }
 }
@@ -28259,7 +27736,6 @@ impl IconShape for LdFileCog {
             path {
                 d: "M3.88 11.88 3 11",
             }
-            
         }
     }
 }
@@ -28311,7 +27787,6 @@ impl IconShape for LdFileDiff {
             path {
                 d: "M9 17h6",
             }
-            
         }
     }
 }
@@ -28370,7 +27845,6 @@ impl IconShape for LdFileDigit {
             path {
                 d: "M10 18h4",
             }
-            
         }
     }
 }
@@ -28422,7 +27896,6 @@ impl IconShape for LdFileDown {
             path {
                 d: "m9 15 3 3 3-3",
             }
-            
         }
     }
 }
@@ -28471,7 +27944,6 @@ impl IconShape for LdFileHeart {
             path {
                 d: "M10.29 10.7a2.43 2.43 0 0 0-2.66-.52c-.29.12-.56.3-.78.53l-.35.34-.35-.34a2.43 2.43 0 0 0-2.65-.53c-.3.12-.56.3-.79.53-.95.94-1 2.53.2 3.74L6.5 18l3.6-3.55c1.2-1.21 1.14-2.8.19-3.74Z",
             }
-            
         }
     }
 }
@@ -28525,7 +27997,6 @@ impl IconShape for LdFileImage {
             path {
                 d: "m20 17-1.296-1.296a2.41 2.41 0 0 0-3.408 0L9 22",
             }
-            
         }
     }
 }
@@ -28577,7 +28048,6 @@ impl IconShape for LdFileInput {
             path {
                 d: "m9 18 3-3-3-3",
             }
-            
         }
     }
 }
@@ -28629,7 +28099,6 @@ impl IconShape for LdFileJson2 {
             path {
                 d: "M8 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1",
             }
-            
         }
     }
 }
@@ -28681,7 +28150,6 @@ impl IconShape for LdFileJson {
             path {
                 d: "M14 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1",
             }
-            
         }
     }
 }
@@ -28738,7 +28206,6 @@ impl IconShape for LdFileKey2 {
             path {
                 d: "m9 11 1 1",
             }
-            
         }
     }
 }
@@ -28792,7 +28259,6 @@ impl IconShape for LdFileKey {
             path {
                 d: "m15 11 1 1",
             }
-            
         }
     }
 }
@@ -28841,7 +28307,6 @@ impl IconShape for LdFileLineChart {
             path {
                 d: "m16 13-3.5 3.5-2-2L8 17",
             }
-            
         }
     }
 }
@@ -28897,7 +28362,6 @@ impl IconShape for LdFileLock2 {
             path {
                 d: "M8 13v-2a2 2 0 1 0-4 0v2",
             }
-            
         }
     }
 }
@@ -28950,7 +28414,6 @@ impl IconShape for LdFileLock {
             path {
                 d: "M10 12v-2a2 2 0 1 1 4 0v2",
             }
-            
         }
     }
 }
@@ -28999,7 +28462,6 @@ impl IconShape for LdFileMinus2 {
             path {
                 d: "M3 15h6",
             }
-            
         }
     }
 }
@@ -29048,7 +28510,6 @@ impl IconShape for LdFileMinus {
             path {
                 d: "M9 15h6",
             }
-            
         }
     }
 }
@@ -29104,7 +28565,6 @@ impl IconShape for LdFileMusic {
             path {
                 d: "M8 18v-7.7L16 9v7",
             }
-            
         }
     }
 }
@@ -29159,7 +28619,6 @@ impl IconShape for LdFileOutput {
             path {
                 d: "m5 17-3-3h10",
             }
-            
         }
     }
 }
@@ -29208,7 +28667,6 @@ impl IconShape for LdFilePenLine {
             path {
                 d: "M18.4 9.6a2 2 0 1 1 3 3L17 17l-4 1 1-4Z",
             }
-            
         }
     }
 }
@@ -29257,7 +28715,6 @@ impl IconShape for LdFilePen {
             path {
                 d: "M10.4 12.6a2 2 0 1 1 3 3L8 21l-4 1 1-4Z",
             }
-            
         }
     }
 }
@@ -29309,7 +28766,6 @@ impl IconShape for LdFilePieChart {
             path {
                 d: "M8 16v-6a6 6 0 0 1 6 6z",
             }
-            
         }
     }
 }
@@ -29361,7 +28817,6 @@ impl IconShape for LdFilePlus2 {
             path {
                 d: "M6 12v6",
             }
-            
         }
     }
 }
@@ -29413,7 +28868,6 @@ impl IconShape for LdFilePlus {
             path {
                 d: "M12 18v-6",
             }
-            
         }
     }
 }
@@ -29462,7 +28916,6 @@ impl IconShape for LdFileQuestion {
             path {
                 d: "M9.1 9a3 3 0 0 1 5.82 1c0 2-3 3-3 3",
             }
-            
         }
     }
 }
@@ -29520,7 +28973,6 @@ impl IconShape for LdFileScan {
             path {
                 d: "M16 22a2 2 0 0 1-2-2",
             }
-            
         }
     }
 }
@@ -29574,7 +29026,6 @@ impl IconShape for LdFileSearch2 {
             path {
                 d: "M13.3 16.3 15 18",
             }
-            
         }
     }
 }
@@ -29628,7 +29079,6 @@ impl IconShape for LdFileSearch {
                 cy: "14",
                 r: "3",
             }
-            
         }
     }
 }
@@ -29686,7 +29136,6 @@ impl IconShape for LdFileSliders {
             path {
                 d: "M14 16v2",
             }
-            
         }
     }
 }
@@ -29744,7 +29193,6 @@ impl IconShape for LdFileSpreadsheet {
             path {
                 d: "M14 17h2",
             }
-            
         }
     }
 }
@@ -29796,7 +29244,6 @@ impl IconShape for LdFileStack {
             path {
                 d: "M3 12v8.8c0 .3.2.6.4.8.2.2.5.4.8.4H11",
             }
-            
         }
     }
 }
@@ -29845,7 +29292,6 @@ impl IconShape for LdFileSymlink {
             path {
                 d: "M4 11V4a2 2 0 0 1 2-2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h7",
             }
-            
         }
     }
 }
@@ -29897,7 +29343,6 @@ impl IconShape for LdFileTerminal {
             path {
                 d: "M12 18h4",
             }
-            
         }
     }
 }
@@ -29952,7 +29397,6 @@ impl IconShape for LdFileText {
             path {
                 d: "M16 17H8",
             }
-            
         }
     }
 }
@@ -30007,7 +29451,6 @@ impl IconShape for LdFileType2 {
             path {
                 d: "M4 18h2",
             }
-            
         }
     }
 }
@@ -30062,7 +29505,6 @@ impl IconShape for LdFileType {
             path {
                 d: "M11 18h2",
             }
-            
         }
     }
 }
@@ -30114,7 +29556,6 @@ impl IconShape for LdFileUp {
             path {
                 d: "m15 15-3-3-3 3",
             }
-            
         }
     }
 }
@@ -30170,7 +29611,6 @@ impl IconShape for LdFileVideo2 {
             path {
                 d: "m10 15.5 4 2.5v-6l-4 2.5",
             }
-            
         }
     }
 }
@@ -30219,7 +29659,6 @@ impl IconShape for LdFileVideo {
             path {
                 d: "m10 11 5 3-5 3v-6Z",
             }
-            
         }
     }
 }
@@ -30274,7 +29713,6 @@ impl IconShape for LdFileVolume2 {
             path {
                 d: "M15 12a5 5 0 0 1 0 6",
             }
-            
         }
     }
 }
@@ -30326,7 +29764,6 @@ impl IconShape for LdFileVolume {
             path {
                 d: "m7 10-3 2H2v4h2l3 2z",
             }
-            
         }
     }
 }
@@ -30375,7 +29812,6 @@ impl IconShape for LdFileWarning {
             path {
                 d: "M12 17h.01",
             }
-            
         }
     }
 }
@@ -30427,7 +29863,6 @@ impl IconShape for LdFileX2 {
             path {
                 d: "m3 12.5 5 5",
             }
-            
         }
     }
 }
@@ -30479,7 +29914,6 @@ impl IconShape for LdFileX {
             path {
                 d: "m9.5 12.5 5 5",
             }
-            
         }
     }
 }
@@ -30525,7 +29959,6 @@ impl IconShape for LdFile {
             path {
                 d: "M14 2v4a2 2 0 0 0 2 2h4",
             }
-            
         }
     }
 }
@@ -30574,7 +30007,6 @@ impl IconShape for LdFiles {
             path {
                 d: "M3 7.6v12.8A1.6 1.6 0 0 0 4.6 22h9.8",
             }
-            
         }
     }
 }
@@ -30642,7 +30074,6 @@ impl IconShape for LdFilm {
             path {
                 d: "M17 16.5h4",
             }
-            
         }
     }
 }
@@ -30691,7 +30122,6 @@ impl IconShape for LdFilterX {
             path {
                 d: "m17 3 5 5",
             }
-            
         }
     }
 }
@@ -30734,7 +30164,6 @@ impl IconShape for LdFilter {
             polygon {
                 points: "22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3",
             }
-            
         }
     }
 }
@@ -30801,7 +30230,6 @@ impl IconShape for LdFingerprint {
             path {
                 d: "M9 6.8a6 6 0 0 1 9 5.2v2",
             }
-            
         }
     }
 }
@@ -30859,7 +30287,6 @@ impl IconShape for LdFireExtinguisher {
             path {
                 d: "M17 10a4 4 0 0 0-8 0v10a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2Z",
             }
-            
         }
     }
 }
@@ -30908,7 +30335,6 @@ impl IconShape for LdFishOff {
             path {
                 d: "m16.01 17.93-.23 1.4A2 2 0 0 1 13.8 21H9.5a5.96 5.96 0 0 0 1.49-3.98M8.53 3h5.27a2 2 0 0 1 1.98 1.67l.23 1.4M2 2l20 20",
             }
-            
         }
     }
 }
@@ -30951,7 +30377,6 @@ impl IconShape for LdFishSymbol {
             path {
                 d: "M2 16s9-15 20-4C11 23 2 8 2 8",
             }
-            
         }
     }
 }
@@ -31009,7 +30434,6 @@ impl IconShape for LdFish {
             path {
                 d: "m16.01 17.93-.23 1.4A2 2 0 0 1 13.8 21H9.5a5.96 5.96 0 0 0 1.49-3.98",
             }
-            
         }
     }
 }
@@ -31064,7 +30488,6 @@ impl IconShape for LdFlagOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -31107,7 +30530,6 @@ impl IconShape for LdFlagTriangleLeft {
             path {
                 d: "M17 22V2L7 7l10 5",
             }
-            
         }
     }
 }
@@ -31150,7 +30572,6 @@ impl IconShape for LdFlagTriangleRight {
             path {
                 d: "M7 22V2l10 5-10 5",
             }
-            
         }
     }
 }
@@ -31199,7 +30620,6 @@ impl IconShape for LdFlag {
                 y1: "22",
                 y2: "15",
             }
-            
         }
     }
 }
@@ -31248,7 +30668,6 @@ impl IconShape for LdFlameKindling {
             path {
                 d: "m5 18 14 4",
             }
-            
         }
     }
 }
@@ -31291,7 +30710,6 @@ impl IconShape for LdFlame {
             path {
                 d: "M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z",
             }
-            
         }
     }
 }
@@ -31349,7 +30767,6 @@ impl IconShape for LdFlashlightOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -31404,7 +30821,6 @@ impl IconShape for LdFlashlight {
                 y1: "12",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -31465,7 +30881,6 @@ impl IconShape for LdFlaskConicalOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -31514,7 +30929,6 @@ impl IconShape for LdFlaskConical {
             path {
                 d: "M7 16h10",
             }
-            
         }
     }
 }
@@ -31569,7 +30983,6 @@ impl IconShape for LdFlaskRound {
             path {
                 d: "M5.52 16h12.96",
             }
-            
         }
     }
 }
@@ -31627,7 +31040,6 @@ impl IconShape for LdFlipHorizontal2 {
             path {
                 d: "M12 2v2",
             }
-            
         }
     }
 }
@@ -31685,7 +31097,6 @@ impl IconShape for LdFlipHorizontal {
             path {
                 d: "M12 2v2",
             }
-            
         }
     }
 }
@@ -31743,7 +31154,6 @@ impl IconShape for LdFlipVertical2 {
             path {
                 d: "M22 12h-2",
             }
-            
         }
     }
 }
@@ -31801,7 +31211,6 @@ impl IconShape for LdFlipVertical {
             path {
                 d: "M22 12h-2",
             }
-            
         }
     }
 }
@@ -31858,7 +31267,6 @@ impl IconShape for LdFlower2 {
             path {
                 d: "M12 22c-4.2 0-7-1.667-7-5 4.2 0 7 1.667 7 5Z",
             }
-            
         }
     }
 }
@@ -31930,7 +31338,6 @@ impl IconShape for LdFlower {
             path {
                 d: "M14.12 14.12 16 16",
             }
-            
         }
     }
 }
@@ -31987,7 +31394,6 @@ impl IconShape for LdFocus {
             path {
                 d: "M7 21H5a2 2 0 0 1-2-2v-2",
             }
-            
         }
     }
 }
@@ -32051,7 +31457,6 @@ impl IconShape for LdFoldHorizontal {
             path {
                 d: "m5 15 3-3-3-3",
             }
-            
         }
     }
 }
@@ -32115,7 +31520,6 @@ impl IconShape for LdFoldVertical {
             path {
                 d: "m15 5-3 3-3-3",
             }
-            
         }
     }
 }
@@ -32169,7 +31573,6 @@ impl IconShape for LdFolderArchive {
             path {
                 d: "M15 17v-2",
             }
-            
         }
     }
 }
@@ -32215,7 +31618,6 @@ impl IconShape for LdFolderCheck {
             path {
                 d: "m9 13 2 2 4-4",
             }
-            
         }
     }
 }
@@ -32266,7 +31668,6 @@ impl IconShape for LdFolderClock {
             path {
                 d: "M16 14v2l1 1",
             }
-            
         }
     }
 }
@@ -32312,7 +31713,6 @@ impl IconShape for LdFolderClosed {
             path {
                 d: "M2 10h20",
             }
-            
         }
     }
 }
@@ -32384,7 +31784,6 @@ impl IconShape for LdFolderCog {
             path {
                 d: "m20.7 16.8 1-.4",
             }
-            
         }
     }
 }
@@ -32432,7 +31831,6 @@ impl IconShape for LdFolderDot {
                 cy: "13",
                 r: "1",
             }
-            
         }
     }
 }
@@ -32481,7 +31879,6 @@ impl IconShape for LdFolderDown {
             path {
                 d: "m15 13-3 3-3-3",
             }
-            
         }
     }
 }
@@ -32537,7 +31934,6 @@ impl IconShape for LdFolderGit2 {
                 cy: "19",
                 r: "2",
             }
-            
         }
     }
 }
@@ -32591,7 +31987,6 @@ impl IconShape for LdFolderGit {
             path {
                 d: "M7 13h3",
             }
-            
         }
     }
 }
@@ -32637,7 +32032,6 @@ impl IconShape for LdFolderHeart {
             path {
                 d: "M13.9 17.45c-1.2-1.2-1.14-2.8-.2-3.73a2.43 2.43 0 0 1 3.44 0l.36.34.34-.34a2.43 2.43 0 0 1 3.45-.01v0c.95.95 1 2.53-.2 3.74L17.5 21Z",
             }
-            
         }
     }
 }
@@ -32686,7 +32080,6 @@ impl IconShape for LdFolderInput {
             path {
                 d: "m9 16 3-3-3-3",
             }
-            
         }
     }
 }
@@ -32738,7 +32131,6 @@ impl IconShape for LdFolderKanban {
             path {
                 d: "M16 10v6",
             }
-            
         }
     }
 }
@@ -32792,7 +32184,6 @@ impl IconShape for LdFolderKey {
             path {
                 d: "m21 15 1 1",
             }
-            
         }
     }
 }
@@ -32845,7 +32236,6 @@ impl IconShape for LdFolderLock {
             path {
                 d: "M20 17v-2a2 2 0 1 0-4 0v2",
             }
-            
         }
     }
 }
@@ -32891,7 +32281,6 @@ impl IconShape for LdFolderMinus {
             path {
                 d: "M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z",
             }
-            
         }
     }
 }
@@ -32939,7 +32328,6 @@ impl IconShape for LdFolderOpenDot {
                 cy: "15",
                 r: "1",
             }
-            
         }
     }
 }
@@ -32982,7 +32370,6 @@ impl IconShape for LdFolderOpen {
             path {
                 d: "m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2",
             }
-            
         }
     }
 }
@@ -33031,7 +32418,6 @@ impl IconShape for LdFolderOutput {
             path {
                 d: "m5 10-3 3 3 3",
             }
-            
         }
     }
 }
@@ -33077,7 +32463,6 @@ impl IconShape for LdFolderPen {
             path {
                 d: "M2 11.5V5a2 2 0 0 1 2-2h3.9c.7 0 1.3.3 1.7.9l.8 1.2c.4.6 1 .9 1.7.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-9.5",
             }
-            
         }
     }
 }
@@ -33126,7 +32511,6 @@ impl IconShape for LdFolderPlus {
             path {
                 d: "M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z",
             }
-            
         }
     }
 }
@@ -33177,7 +32561,6 @@ impl IconShape for LdFolderRoot {
             path {
                 d: "M12 15v5",
             }
-            
         }
     }
 }
@@ -33228,7 +32611,6 @@ impl IconShape for LdFolderSearch2 {
             path {
                 d: "M13.3 14.3 15 16",
             }
-            
         }
     }
 }
@@ -33279,7 +32661,6 @@ impl IconShape for LdFolderSearch {
             path {
                 d: "m21 21-1.5-1.5",
             }
-            
         }
     }
 }
@@ -33325,7 +32706,6 @@ impl IconShape for LdFolderSymlink {
             path {
                 d: "m8 16 3-3-3-3",
             }
-            
         }
     }
 }
@@ -33380,7 +32760,6 @@ impl IconShape for LdFolderSync {
             path {
                 d: "m22 18-1.535 1.605a5 5 0 0 1-8-1.5",
             }
-            
         }
     }
 }
@@ -33432,7 +32811,6 @@ impl IconShape for LdFolderTree {
             path {
                 d: "M3 3v13a2 2 0 0 0 2 2h3",
             }
-            
         }
     }
 }
@@ -33481,7 +32859,6 @@ impl IconShape for LdFolderUp {
             path {
                 d: "m9 13 3-3 3 3",
             }
-            
         }
     }
 }
@@ -33530,7 +32907,6 @@ impl IconShape for LdFolderX {
             path {
                 d: "m14.5 10.5-5 5",
             }
-            
         }
     }
 }
@@ -33573,7 +32949,6 @@ impl IconShape for LdFolder {
             path {
                 d: "M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z",
             }
-            
         }
     }
 }
@@ -33619,7 +32994,6 @@ impl IconShape for LdFolders {
             path {
                 d: "M2 8v11a2 2 0 0 0 2 2h14",
             }
-            
         }
     }
 }
@@ -33671,7 +33045,6 @@ impl IconShape for LdFootprints {
             path {
                 d: "M4 13h4",
             }
-            
         }
     }
 }
@@ -33727,7 +33100,6 @@ impl IconShape for LdForklift {
             path {
                 d: "M8 19h3m5-17v17h6M6 12V7c0-1.1.9-2 2-2h3l5 5",
             }
-            
         }
     }
 }
@@ -33773,7 +33145,6 @@ impl IconShape for LdForward {
             path {
                 d: "M4 18v-2a4 4 0 0 1 4-4h12",
             }
-            
         }
     }
 }
@@ -33837,7 +33208,6 @@ impl IconShape for LdFrame {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -33880,7 +33250,6 @@ impl IconShape for LdFramer {
             path {
                 d: "M5 16V9h14V2H5l14 14h-7m-7 0 7 7v-7m-7 0h7",
             }
-            
         }
     }
 }
@@ -33940,7 +33309,6 @@ impl IconShape for LdFrown {
                 y1: "9",
                 y2: "9",
             }
-            
         }
     }
 }
@@ -33998,7 +33366,6 @@ impl IconShape for LdFuel {
             path {
                 d: "M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L18 5",
             }
-            
         }
     }
 }
@@ -34057,7 +33424,6 @@ impl IconShape for LdFullscreen {
                 x: "7",
                 y: "8",
             }
-            
         }
     }
 }
@@ -34110,7 +33476,6 @@ impl IconShape for LdGalleryHorizontalEnd {
                 x: "10",
                 y: "3",
             }
-            
         }
     }
 }
@@ -34163,7 +33528,6 @@ impl IconShape for LdGalleryHorizontal {
             path {
                 d: "M22 3v18",
             }
-            
         }
     }
 }
@@ -34222,7 +33586,6 @@ impl IconShape for LdGalleryThumbnails {
             path {
                 d: "M19 21h1",
             }
-            
         }
     }
 }
@@ -34275,7 +33638,6 @@ impl IconShape for LdGalleryVerticalEnd {
                 x: "3",
                 y: "10",
             }
-            
         }
     }
 }
@@ -34328,7 +33690,6 @@ impl IconShape for LdGalleryVertical {
             path {
                 d: "M3 22h18",
             }
-            
         }
     }
 }
@@ -34395,7 +33756,6 @@ impl IconShape for LdGamepad2 {
             path {
                 d: "M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z",
             }
-            
         }
     }
 }
@@ -34466,7 +33826,6 @@ impl IconShape for LdGamepad {
                 x: "2",
                 y: "6",
             }
-            
         }
     }
 }
@@ -34515,7 +33874,6 @@ impl IconShape for LdGanttChart {
             path {
                 d: "M11 18h7",
             }
-            
         }
     }
 }
@@ -34561,7 +33919,6 @@ impl IconShape for LdGauge {
             path {
                 d: "M3.34 19a10 10 0 1 1 17.32 0",
             }
-            
         }
     }
 }
@@ -34616,7 +33973,6 @@ impl IconShape for LdGavel {
             path {
                 d: "m21 11-8-8",
             }
-            
         }
     }
 }
@@ -34665,7 +34021,6 @@ impl IconShape for LdGem {
             path {
                 d: "M2 9h20",
             }
-            
         }
     }
 }
@@ -34714,7 +34069,6 @@ impl IconShape for LdGhost {
             path {
                 d: "M12 2a8 8 0 0 0-8 8v12l3-3 2.5 2.5L12 19l2.5 2.5L17 19l3 3V10a8 8 0 0 0-8-8z",
             }
-            
         }
     }
 }
@@ -34770,7 +34124,6 @@ impl IconShape for LdGift {
             path {
                 d: "M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5",
             }
-            
         }
     }
 }
@@ -34828,7 +34181,6 @@ impl IconShape for LdGitBranchPlus {
             path {
                 d: "M21 18h-6",
             }
-            
         }
     }
 }
@@ -34887,7 +34239,6 @@ impl IconShape for LdGitBranch {
             path {
                 d: "M18 9a9 9 0 0 1-9 9",
             }
-            
         }
     }
 }
@@ -34944,7 +34295,6 @@ impl IconShape for LdGitCommitHorizontal {
                 y1: "12",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -34995,7 +34345,6 @@ impl IconShape for LdGitCommitVertical {
             path {
                 d: "M12 15v6",
             }
-            
         }
     }
 }
@@ -35057,7 +34406,6 @@ impl IconShape for LdGitCompareArrows {
             path {
                 d: "m9 15 3 3-3 3",
             }
-            
         }
     }
 }
@@ -35113,7 +34461,6 @@ impl IconShape for LdGitCompare {
             path {
                 d: "M11 18H8a2 2 0 0 1-2-2V9",
             }
-            
         }
     }
 }
@@ -35174,7 +34521,6 @@ impl IconShape for LdGitFork {
             path {
                 d: "M12 12v3",
             }
-            
         }
     }
 }
@@ -35238,7 +34584,6 @@ impl IconShape for LdGitGraph {
             path {
                 d: "M16 15.7A9 9 0 0 0 19 9",
             }
-            
         }
     }
 }
@@ -35291,7 +34636,6 @@ impl IconShape for LdGitMerge {
             path {
                 d: "M6 21V9a9 9 0 0 0 9 9",
             }
-            
         }
     }
 }
@@ -35350,7 +34694,6 @@ impl IconShape for LdGitPullRequestArrow {
             path {
                 d: "M12 6h5a2 2 0 0 1 2 2v7",
             }
-            
         }
     }
 }
@@ -35412,7 +34755,6 @@ impl IconShape for LdGitPullRequestClosed {
                 cy: "18",
                 r: "3",
             }
-            
         }
     }
 }
@@ -35472,7 +34814,6 @@ impl IconShape for LdGitPullRequestCreateArrow {
             path {
                 d: "M22 18h-6",
             }
-            
         }
     }
 }
@@ -35529,7 +34870,6 @@ impl IconShape for LdGitPullRequestCreate {
             path {
                 d: "M21 18h-6",
             }
-            
         }
     }
 }
@@ -35591,7 +34931,6 @@ impl IconShape for LdGitPullRequestDraft {
                 y1: "9",
                 y2: "21",
             }
-            
         }
     }
 }
@@ -35650,7 +34989,6 @@ impl IconShape for LdGitPullRequest {
                 y1: "9",
                 y2: "21",
             }
-            
         }
     }
 }
@@ -35696,7 +35034,6 @@ impl IconShape for LdGithub {
             path {
                 d: "M9 18c-4.51 2-5-2-7-2",
             }
-            
         }
     }
 }
@@ -35739,7 +35076,6 @@ impl IconShape for LdGitlab {
             path {
                 d: "m22 13.29-3.33-10a.42.42 0 0 0-.14-.18.38.38 0 0 0-.22-.11.39.39 0 0 0-.23.07.42.42 0 0 0-.14.18l-2.26 6.67H8.32L6.1 3.26a.42.42 0 0 0-.1-.18.38.38 0 0 0-.26-.08.39.39 0 0 0-.23.07.42.42 0 0 0-.14.18L2 13.29a.74.74 0 0 0 .27.83L12 21l9.69-6.88a.71.71 0 0 0 .31-.83Z",
             }
-            
         }
     }
 }
@@ -35785,7 +35121,6 @@ impl IconShape for LdGlassWater {
             path {
                 d: "M6 12a5 5 0 0 1 6 0 5 5 0 0 0 6 0",
             }
-            
         }
     }
 }
@@ -35844,7 +35179,6 @@ impl IconShape for LdGlasses {
             path {
                 d: "M21.5 13 19 7c-.7-1.3-1.5-2-3-2",
             }
-            
         }
     }
 }
@@ -35900,7 +35234,6 @@ impl IconShape for LdGlobeLock {
                 x: "14",
                 y: "6",
             }
-            
         }
     }
 }
@@ -35951,7 +35284,6 @@ impl IconShape for LdGlobe {
             path {
                 d: "M2 12h20",
             }
-            
         }
     }
 }
@@ -36000,7 +35332,6 @@ impl IconShape for LdGoal {
             path {
                 d: "M8.002 9.997a5 5 0 1 0 8.9 2.02",
             }
-            
         }
     }
 }
@@ -36055,7 +35386,6 @@ impl IconShape for LdGrab {
             path {
                 d: "M18 11v0a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8 2 2 0 1 1 4 0",
             }
-            
         }
     }
 }
@@ -36104,7 +35434,6 @@ impl IconShape for LdGraduationCap {
             path {
                 d: "M6 12.5V16a6 3 0 0 0 12 0v-3.5",
             }
-            
         }
     }
 }
@@ -36187,7 +35516,6 @@ impl IconShape for LdGrape {
                 cy: "19",
                 r: "3",
             }
-            
         }
     }
 }
@@ -36240,7 +35568,6 @@ impl IconShape for LdGrid2x2 {
             path {
                 d: "M12 3v18",
             }
-            
         }
     }
 }
@@ -36299,7 +35626,6 @@ impl IconShape for LdGrid3x3 {
             path {
                 d: "M15 3v18",
             }
-            
         }
     }
 }
@@ -36369,7 +35695,6 @@ impl IconShape for LdGripHorizontal {
                 cy: "15",
                 r: "1",
             }
-            
         }
     }
 }
@@ -36439,7 +35764,6 @@ impl IconShape for LdGripVertical {
                 cy: "19",
                 r: "1",
             }
-            
         }
     }
 }
@@ -36524,7 +35848,6 @@ impl IconShape for LdGrip {
                 cy: "19",
                 r: "1",
             }
-            
         }
     }
 }
@@ -36590,7 +35913,6 @@ impl IconShape for LdGroup {
                 x: "10",
                 y: "12",
             }
-            
         }
     }
 }
@@ -36647,7 +35969,6 @@ impl IconShape for LdGuitar {
             path {
                 d: "m6 16 2 2",
             }
-            
         }
     }
 }
@@ -36699,7 +36020,6 @@ impl IconShape for LdHam {
             path {
                 d: "m8.5 16.5-1-1",
             }
-            
         }
     }
 }
@@ -36748,7 +36068,6 @@ impl IconShape for LdHammer {
             path {
                 d: "m21.5 11.5-1.914-1.914A2 2 0 0 1 19 8.172V7l-2.26-2.26a6 6 0 0 0-4.202-1.756L9 2.96l.92.82A6.18 6.18 0 0 1 12 8.4V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5",
             }
-            
         }
     }
 }
@@ -36807,7 +36126,6 @@ impl IconShape for LdHandCoins {
                 cy: "5",
                 r: "3",
             }
-            
         }
     }
 }
@@ -36859,7 +36177,6 @@ impl IconShape for LdHandHeart {
             path {
                 d: "M19.5 8.5c.7-.7 1.5-1.6 1.5-2.7A2.73 2.73 0 0 0 16 4a2.78 2.78 0 0 0-5 1.8c0 1.2.8 2 1.5 2.8L16 12Z",
             }
-            
         }
     }
 }
@@ -36908,7 +36225,6 @@ impl IconShape for LdHandHelping {
             path {
                 d: "m2 13 6 6",
             }
-            
         }
     }
 }
@@ -36960,7 +36276,6 @@ impl IconShape for LdHandMetal {
             path {
                 d: "m7 15-1.76-1.76a2 2 0 0 0-2.83 2.82l3.6 3.6C7.5 21.14 9.2 22 12 22h2a8 8 0 0 0 8-8V7a2 2 0 1 0-4 0v5",
             }
-            
         }
     }
 }
@@ -37018,7 +36333,6 @@ impl IconShape for LdHandPlatter {
             path {
                 d: "M5 14v7H2",
             }
-            
         }
     }
 }
@@ -37070,7 +36384,6 @@ impl IconShape for LdHand {
             path {
                 d: "M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15",
             }
-            
         }
     }
 }
@@ -37125,7 +36438,6 @@ impl IconShape for LdHandshake {
             path {
                 d: "M3 4h8",
             }
-            
         }
     }
 }
@@ -37184,7 +36496,6 @@ impl IconShape for LdHardDriveDownload {
             path {
                 d: "M10 18h.01",
             }
-            
         }
     }
 }
@@ -37243,7 +36554,6 @@ impl IconShape for LdHardDriveUpload {
             path {
                 d: "M10 18h.01",
             }
-            
         }
     }
 }
@@ -37304,7 +36614,6 @@ impl IconShape for LdHardDrive {
                 y1: "16",
                 y2: "16",
             }
-            
         }
     }
 }
@@ -37356,7 +36665,6 @@ impl IconShape for LdHardHat {
             path {
                 d: "M14 6h0a6 6 0 0 1 6 6v3",
             }
-            
         }
     }
 }
@@ -37420,7 +36728,6 @@ impl IconShape for LdHash {
                 y1: "3",
                 y2: "21",
             }
-            
         }
     }
 }
@@ -37484,7 +36791,6 @@ impl IconShape for LdHaze {
             path {
                 d: "M12 5V2.5",
             }
-            
         }
     }
 }
@@ -37530,7 +36836,6 @@ impl IconShape for LdHdmiPort {
             path {
                 d: "M7.5 12h9",
             }
-            
         }
     }
 }
@@ -37582,7 +36887,6 @@ impl IconShape for LdHeading1 {
             path {
                 d: "m17 12 3-2v8",
             }
-            
         }
     }
 }
@@ -37634,7 +36938,6 @@ impl IconShape for LdHeading2 {
             path {
                 d: "M21 18h-4c0-4 4-3 4-6 0-1.5-2-2.5-4-1",
             }
-            
         }
     }
 }
@@ -37689,7 +36992,6 @@ impl IconShape for LdHeading3 {
             path {
                 d: "M17 17.5c2 1.5 4 .3 4-1.5a2 2 0 0 0-2-2",
             }
-            
         }
     }
 }
@@ -37744,7 +37046,6 @@ impl IconShape for LdHeading4 {
             path {
                 d: "M21 10v8",
             }
-            
         }
     }
 }
@@ -37799,7 +37100,6 @@ impl IconShape for LdHeading5 {
             path {
                 d: "M17 17.7c.4.2.8.3 1.3.3 1.5 0 2.7-1.1 2.7-2.5S19.8 13 18.3 13H17",
             }
-            
         }
     }
 }
@@ -37856,7 +37156,6 @@ impl IconShape for LdHeading6 {
             path {
                 d: "M20 10c-2 2-3 3.5-3 6",
             }
-            
         }
     }
 }
@@ -37905,7 +37204,6 @@ impl IconShape for LdHeading {
             path {
                 d: "M18 20V4",
             }
-            
         }
     }
 }
@@ -37948,7 +37246,6 @@ impl IconShape for LdHeadphones {
             path {
                 d: "M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3",
             }
-            
         }
     }
 }
@@ -37994,7 +37291,6 @@ impl IconShape for LdHeadset {
             path {
                 d: "M21 16v2a4 4 0 0 1-4 4h-5",
             }
-            
         }
     }
 }
@@ -38040,7 +37336,6 @@ impl IconShape for LdHeartCrack {
             path {
                 d: "m12 13-1-1 2-2-3-3 2-2",
             }
-            
         }
     }
 }
@@ -38092,7 +37387,6 @@ impl IconShape for LdHeartHandshake {
             path {
                 d: "m15 18-2-2",
             }
-            
         }
     }
 }
@@ -38144,7 +37438,6 @@ impl IconShape for LdHeartOff {
             path {
                 d: "M8.76 3.1c1.15.22 2.13.78 3.24 1.9 1.5-1.5 2.74-2 4.5-2A5.5 5.5 0 0 1 22 8.5c0 2.12-1.3 3.78-2.67 5.17",
             }
-            
         }
     }
 }
@@ -38190,7 +37483,6 @@ impl IconShape for LdHeartPulse {
             path {
                 d: "M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27",
             }
-            
         }
     }
 }
@@ -38233,7 +37525,6 @@ impl IconShape for LdHeart {
             path {
                 d: "M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z",
             }
-            
         }
     }
 }
@@ -38303,7 +37594,6 @@ impl IconShape for LdHeater {
             path {
                 d: "M19 20v2",
             }
-            
         }
     }
 }
@@ -38346,7 +37636,6 @@ impl IconShape for LdHexagon {
             path {
                 d: "M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z",
             }
-            
         }
     }
 }
@@ -38392,7 +37681,6 @@ impl IconShape for LdHighlighter {
             path {
                 d: "m22 12-4.6 4.6a2 2 0 0 1-2.8 0l-5.2-5.2a2 2 0 0 1 0-2.8L14 4",
             }
-            
         }
     }
 }
@@ -38441,7 +37729,6 @@ impl IconShape for LdHistory {
             path {
                 d: "M12 7v5l4 2",
             }
-            
         }
     }
 }
@@ -38487,7 +37774,6 @@ impl IconShape for LdHome {
             polyline {
                 points: "9 22 9 12 15 12 15 22",
             }
-            
         }
     }
 }
@@ -38554,7 +37840,6 @@ impl IconShape for LdHopOff {
             path {
                 d: "m2 2 20 20",
             }
-            
         }
     }
 }
@@ -38618,7 +37903,6 @@ impl IconShape for LdHop {
             path {
                 d: "M9.58 12.18c1.24 2.98 1.77 5.95 1.57 8.28a.8.8 0 0 1-1.13.68 20.82 20.82 0 0 1-4.5-3.15",
             }
-            
         }
     }
 }
@@ -38676,7 +37960,6 @@ impl IconShape for LdHospital {
             path {
                 d: "M18 22V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v18",
             }
-            
         }
     }
 }
@@ -38750,7 +38033,6 @@ impl IconShape for LdHotel {
                 x: "4",
                 y: "2",
             }
-            
         }
     }
 }
@@ -38802,7 +38084,6 @@ impl IconShape for LdHourglass {
             path {
                 d: "M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2",
             }
-            
         }
     }
 }
@@ -38851,7 +38132,6 @@ impl IconShape for LdIceCreamBowl {
             path {
                 d: "M15.5 6.5a3.5 3.5 0 1 0-7 0",
             }
-            
         }
     }
 }
@@ -38900,7 +38180,6 @@ impl IconShape for LdIceCreamCone {
             path {
                 d: "M17 7a2 2 0 0 1 0 4H7a2 2 0 0 1 0-4",
             }
-            
         }
     }
 }
@@ -38954,7 +38233,6 @@ impl IconShape for LdImageDown {
                 cy: "9",
                 r: "2",
             }
-            
         }
     }
 }
@@ -39011,7 +38289,6 @@ impl IconShape for LdImageMinus {
             path {
                 d: "m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21",
             }
-            
         }
     }
 }
@@ -39078,7 +38355,6 @@ impl IconShape for LdImageOff {
             path {
                 d: "M21 15V5a2 2 0 0 0-2-2H9",
             }
-            
         }
     }
 }
@@ -39132,7 +38408,6 @@ impl IconShape for LdImagePlay {
                 cy: "9",
                 r: "2",
             }
-            
         }
     }
 }
@@ -39195,7 +38470,6 @@ impl IconShape for LdImagePlus {
             path {
                 d: "m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21",
             }
-            
         }
     }
 }
@@ -39249,7 +38523,6 @@ impl IconShape for LdImageUp {
                 cy: "9",
                 r: "2",
             }
-            
         }
     }
 }
@@ -39305,7 +38578,6 @@ impl IconShape for LdImage {
             path {
                 d: "m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21",
             }
-            
         }
     }
 }
@@ -39363,7 +38635,6 @@ impl IconShape for LdImages {
                 x: "6",
                 y: "2",
             }
-            
         }
     }
 }
@@ -39412,7 +38683,6 @@ impl IconShape for LdImport {
             path {
                 d: "M8 5H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-4",
             }
-            
         }
     }
 }
@@ -39458,7 +38728,6 @@ impl IconShape for LdInbox {
             path {
                 d: "M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z",
             }
-            
         }
     }
 }
@@ -39519,7 +38788,6 @@ impl IconShape for LdIndentDecrease {
                 y1: "18",
                 y2: "18",
             }
-            
         }
     }
 }
@@ -39580,7 +38848,6 @@ impl IconShape for LdIndentIncrease {
                 y1: "18",
                 y2: "18",
             }
-            
         }
     }
 }
@@ -39635,7 +38902,6 @@ impl IconShape for LdIndianRupee {
             path {
                 d: "M9 13c6.667 0 6.667-10 0-10",
             }
-            
         }
     }
 }
@@ -39678,7 +38944,6 @@ impl IconShape for LdInfinity {
             path {
                 d: "M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 0 0 0-8c-2 0-4 1.33-6 4Z",
             }
-            
         }
     }
 }
@@ -39729,7 +38994,6 @@ impl IconShape for LdInfo {
             path {
                 d: "M12 8h.01",
             }
-            
         }
     }
 }
@@ -39788,7 +39052,6 @@ impl IconShape for LdInspectionPanel {
             path {
                 d: "M17 17h.01",
             }
-            
         }
     }
 }
@@ -39845,7 +39108,6 @@ impl IconShape for LdInstagram {
                 y1: "6.5",
                 y2: "6.5",
             }
-            
         }
     }
 }
@@ -39903,7 +39165,6 @@ impl IconShape for LdItalic {
                 y1: "4",
                 y2: "20",
             }
-            
         }
     }
 }
@@ -39949,7 +39210,6 @@ impl IconShape for LdIterationCcw {
             polyline {
                 points: "16 14 20 18 16 22",
             }
-            
         }
     }
 }
@@ -39995,7 +39255,6 @@ impl IconShape for LdIterationCw {
             polyline {
                 points: "8 22 4 18 8 14",
             }
-            
         }
     }
 }
@@ -40044,7 +39303,6 @@ impl IconShape for LdJapaneseYen {
             path {
                 d: "M6 11h12",
             }
-            
         }
     }
 }
@@ -40098,7 +39356,6 @@ impl IconShape for LdJoystick {
                 cy: "6",
                 r: "3",
             }
-            
         }
     }
 }
@@ -40147,7 +39404,6 @@ impl IconShape for LdKanban {
             path {
                 d: "M18 5v14",
             }
-            
         }
     }
 }
@@ -40195,7 +39451,6 @@ impl IconShape for LdKeyRound {
                 cy: "7.5",
                 r: ".5",
             }
-            
         }
     }
 }
@@ -40244,7 +39499,6 @@ impl IconShape for LdKeySquare {
             path {
                 d: "M9.4 10.6 2 18v3c0 .6.4 1 1 1h4v-3h3v-3h2l1.4-1.4",
             }
-            
         }
     }
 }
@@ -40295,7 +39549,6 @@ impl IconShape for LdKey {
             path {
                 d: "m15.5 7.5 3 3L22 7l-3-3",
             }
-            
         }
     }
 }
@@ -40366,7 +39619,6 @@ impl IconShape for LdKeyboardMusic {
             path {
                 d: "M18 12v4",
             }
-            
         }
     }
 }
@@ -40436,7 +39688,6 @@ impl IconShape for LdKeyboardOff {
             path {
                 d: "M8 12h.01",
             }
-            
         }
     }
 }
@@ -40507,7 +39758,6 @@ impl IconShape for LdKeyboard {
                 x: "2",
                 y: "4",
             }
-            
         }
     }
 }
@@ -40556,7 +39806,6 @@ impl IconShape for LdLampCeiling {
             path {
                 d: "M9.17 16a3 3 0 1 0 5.66 0",
             }
-            
         }
     }
 }
@@ -40608,7 +39857,6 @@ impl IconShape for LdLampDesk {
             path {
                 d: "M3 22v-2c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v2H3Z",
             }
-            
         }
     }
 }
@@ -40657,7 +39905,6 @@ impl IconShape for LdLampFloor {
             path {
                 d: "M9 22h6",
             }
-            
         }
     }
 }
@@ -40706,7 +39953,6 @@ impl IconShape for LdLampWallDown {
             path {
                 d: "M4 9h2a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H4v6Z",
             }
-            
         }
     }
 }
@@ -40755,7 +40001,6 @@ impl IconShape for LdLampWallUp {
             path {
                 d: "M4 15h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H4v-6Z",
             }
-            
         }
     }
 }
@@ -40804,7 +40049,6 @@ impl IconShape for LdLamp {
             path {
                 d: "M8 22v-2c0-1.1.9-2 2-2h4a2 2 0 0 1 2 2v2H8Z",
             }
-            
         }
     }
 }
@@ -40856,7 +40100,6 @@ impl IconShape for LdLandPlot {
             path {
                 d: "M17.51 12.85 6.5 19.15",
             }
-            
         }
     }
 }
@@ -40929,7 +40172,6 @@ impl IconShape for LdLandmark {
             polygon {
                 points: "12 2 20 7 4 7",
             }
-            
         }
     }
 }
@@ -40987,7 +40229,6 @@ impl IconShape for LdLanguages {
             path {
                 d: "M14 18h6",
             }
-            
         }
     }
 }
@@ -41041,7 +40282,6 @@ impl IconShape for LdLaptopMinimal {
                 y1: "20",
                 y2: "20",
             }
-            
         }
     }
 }
@@ -41084,7 +40324,6 @@ impl IconShape for LdLaptop {
             path {
                 d: "M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16",
             }
-            
         }
     }
 }
@@ -41139,7 +40378,6 @@ impl IconShape for LdLassoSelect {
             path {
                 d: "M14.33 22h-.09a.35.35 0 0 1-.24-.32v-10a.34.34 0 0 1 .33-.34c.08 0 .15.03.21.08l7.34 6a.33.33 0 0 1-.21.59h-4.49l-2.57 3.85a.35.35 0 0 1-.28.14v0z",
             }
-            
         }
     }
 }
@@ -41188,7 +40426,6 @@ impl IconShape for LdLasso {
             path {
                 d: "M5 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4z",
             }
-            
         }
     }
 }
@@ -41248,7 +40485,6 @@ impl IconShape for LdLaugh {
                 y1: "9",
                 y2: "9",
             }
-            
         }
     }
 }
@@ -41294,7 +40530,6 @@ impl IconShape for LdLayers2 {
             path {
                 d: "M13 13.74a2 2 0 0 1-2 0L2.5 8.87a1 1 0 0 1 0-1.74L11 2.26a2 2 0 0 1 2 0l8.5 4.87a1 1 0 0 1 0 1.74Z",
             }
-            
         }
     }
 }
@@ -41343,7 +40578,6 @@ impl IconShape for LdLayers3 {
             path {
                 d: "m6.08 14.5-3.5 1.6a1 1 0 0 0 0 1.81l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9a1 1 0 0 0 0-1.83l-3.5-1.59",
             }
-            
         }
     }
 }
@@ -41392,7 +40626,6 @@ impl IconShape for LdLayers {
             path {
                 d: "m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65",
             }
-            
         }
     }
 }
@@ -41460,7 +40693,6 @@ impl IconShape for LdLayoutDashboard {
                 x: "3",
                 y: "16",
             }
-            
         }
     }
 }
@@ -41528,7 +40760,6 @@ impl IconShape for LdLayoutGrid {
                 x: "3",
                 y: "14",
             }
-            
         }
     }
 }
@@ -41594,7 +40825,6 @@ impl IconShape for LdLayoutList {
             path {
                 d: "M14 20h7",
             }
-            
         }
     }
 }
@@ -41655,7 +40885,6 @@ impl IconShape for LdLayoutPanelLeft {
                 x: "14",
                 y: "14",
             }
-            
         }
     }
 }
@@ -41716,7 +40945,6 @@ impl IconShape for LdLayoutPanelTop {
                 x: "14",
                 y: "14",
             }
-            
         }
     }
 }
@@ -41777,7 +41005,6 @@ impl IconShape for LdLayoutTemplate {
                 x: "16",
                 y: "14",
             }
-            
         }
     }
 }
@@ -41823,7 +41050,6 @@ impl IconShape for LdLeaf {
             path {
                 d: "M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12",
             }
-            
         }
     }
 }
@@ -41869,7 +41095,6 @@ impl IconShape for LdLeafyGreen {
             path {
                 d: "M2 22 17 7",
             }
-            
         }
     }
 }
@@ -41922,7 +41147,6 @@ impl IconShape for LdLibraryBig {
             path {
                 d: "M20.4 18.9c.2.5-.1 1.1-.6 1.3l-1.9.7c-.5.2-1.1-.1-1.3-.6L11.1 5.1c-.2-.5.1-1.1.6-1.3l1.9-.7c.5-.2 1.1.1 1.3.6Z",
             }
-            
         }
     }
 }
@@ -41974,7 +41198,6 @@ impl IconShape for LdLibrary {
             path {
                 d: "M4 4v16",
             }
-            
         }
     }
 }
@@ -42036,7 +41259,6 @@ impl IconShape for LdLifeBuoy {
                 cy: "12",
                 r: "4",
             }
-            
         }
     }
 }
@@ -42091,7 +41313,6 @@ impl IconShape for LdLigature {
             path {
                 d: "M14 20h4",
             }
-            
         }
     }
 }
@@ -42146,7 +41367,6 @@ impl IconShape for LdLightbulbOff {
             path {
                 d: "M10 22h4",
             }
-            
         }
     }
 }
@@ -42195,7 +41415,6 @@ impl IconShape for LdLightbulb {
             path {
                 d: "M10 22h4",
             }
-            
         }
     }
 }
@@ -42241,7 +41460,6 @@ impl IconShape for LdLineChart {
             path {
                 d: "m19 9-5 5-4-4-3 3",
             }
-            
         }
     }
 }
@@ -42299,7 +41517,6 @@ impl IconShape for LdLink2Off {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -42351,7 +41568,6 @@ impl IconShape for LdLink2 {
                 y1: "12",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -42397,7 +41613,6 @@ impl IconShape for LdLink {
             path {
                 d: "M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71",
             }
-            
         }
     }
 }
@@ -42451,7 +41666,6 @@ impl IconShape for LdLinkedin {
                 cy: "4",
                 r: "2",
             }
-            
         }
     }
 }
@@ -42506,7 +41720,6 @@ impl IconShape for LdListChecks {
             path {
                 d: "M13 18h8",
             }
-            
         }
     }
 }
@@ -42561,7 +41774,6 @@ impl IconShape for LdListCollapse {
             path {
                 d: "M10 18h11",
             }
-            
         }
     }
 }
@@ -42616,7 +41828,6 @@ impl IconShape for LdListEnd {
             path {
                 d: "m16 16-2 2 2 2",
             }
-            
         }
     }
 }
@@ -42665,7 +41876,6 @@ impl IconShape for LdListFilter {
             path {
                 d: "M10 18h4",
             }
-            
         }
     }
 }
@@ -42717,7 +41927,6 @@ impl IconShape for LdListMinus {
             path {
                 d: "M21 12h-6",
             }
-            
         }
     }
 }
@@ -42772,7 +41981,6 @@ impl IconShape for LdListMusic {
             path {
                 d: "M12 18H3",
             }
-            
         }
     }
 }
@@ -42839,7 +42047,6 @@ impl IconShape for LdListOrdered {
             path {
                 d: "M6 18H4c0-1 2-2 2-3s-1-1.5-2-1",
             }
-            
         }
     }
 }
@@ -42894,7 +42101,6 @@ impl IconShape for LdListPlus {
             path {
                 d: "M21 12h-6",
             }
-            
         }
     }
 }
@@ -42949,7 +42155,6 @@ impl IconShape for LdListRestart {
             path {
                 d: "M11 10v4h4",
             }
-            
         }
     }
 }
@@ -43004,7 +42209,6 @@ impl IconShape for LdListStart {
             path {
                 d: "m16 8-2-2 2-2",
             }
-            
         }
     }
 }
@@ -43063,7 +42267,6 @@ impl IconShape for LdListTodo {
             path {
                 d: "M13 18h8",
             }
-            
         }
     }
 }
@@ -43118,7 +42321,6 @@ impl IconShape for LdListTree {
             path {
                 d: "M3 10v6c0 1.1.9 2 2 2h3",
             }
-            
         }
     }
 }
@@ -43170,7 +42372,6 @@ impl IconShape for LdListVideo {
             path {
                 d: "m16 12 5 3-5 3v-6Z",
             }
-            
         }
     }
 }
@@ -43225,7 +42426,6 @@ impl IconShape for LdListX {
             path {
                 d: "m15 10 4 4",
             }
-            
         }
     }
 }
@@ -43301,7 +42501,6 @@ impl IconShape for LdList {
                 y1: "18",
                 y2: "18",
             }
-            
         }
     }
 }
@@ -43344,7 +42543,6 @@ impl IconShape for LdLoaderCircle {
             path {
                 d: "M21 12a9 9 0 1 1-6.219-8.56",
             }
-            
         }
     }
 }
@@ -43432,7 +42630,6 @@ impl IconShape for LdLoader {
                 y1: "7.76",
                 y2: "4.93",
             }
-            
         }
     }
 }
@@ -43506,7 +42703,6 @@ impl IconShape for LdLocateFixed {
                 cy: "12",
                 r: "3",
             }
-            
         }
     }
 }
@@ -43582,7 +42778,6 @@ impl IconShape for LdLocateOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -43651,7 +42846,6 @@ impl IconShape for LdLocate {
                 cy: "12",
                 r: "7",
             }
-            
         }
     }
 }
@@ -43706,7 +42900,6 @@ impl IconShape for LdLockKeyholeOpen {
             path {
                 d: "M7 10V7a5 5 0 0 1 9.33-2.5",
             }
-            
         }
     }
 }
@@ -43761,7 +42954,6 @@ impl IconShape for LdLockKeyhole {
             path {
                 d: "M7 10V7a5 5 0 0 1 10 0v3",
             }
-            
         }
     }
 }
@@ -43812,7 +43004,6 @@ impl IconShape for LdLockOpen {
             path {
                 d: "M7 11V7a5 5 0 0 1 9.9-1",
             }
-            
         }
     }
 }
@@ -43863,7 +43054,6 @@ impl IconShape for LdLock {
             path {
                 d: "M7 11V7a5 5 0 0 1 10 0v4",
             }
-            
         }
     }
 }
@@ -43915,7 +43105,6 @@ impl IconShape for LdLogIn {
                 y1: "12",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -43967,7 +43156,6 @@ impl IconShape for LdLogOut {
                 y1: "12",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -44018,7 +43206,6 @@ impl IconShape for LdLollipop {
             path {
                 d: "M11 11a2 2 0 0 0 4 0 4 4 0 0 0-8 0 6 6 0 0 0 12 0",
             }
-            
         }
     }
 }
@@ -44077,7 +43264,6 @@ impl IconShape for LdLuggage {
                 cy: "20",
                 r: "2",
             }
-            
         }
     }
 }
@@ -44126,7 +43312,6 @@ impl IconShape for LdMagnet {
             path {
                 d: "m12 15 4 4",
             }
-            
         }
     }
 }
@@ -44175,7 +43360,6 @@ impl IconShape for LdMailCheck {
             path {
                 d: "m16 19 2 2 4-4",
             }
-            
         }
     }
 }
@@ -44224,7 +43408,6 @@ impl IconShape for LdMailMinus {
             path {
                 d: "M16 19h6",
             }
-            
         }
     }
 }
@@ -44270,7 +43453,6 @@ impl IconShape for LdMailOpen {
             path {
                 d: "m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10",
             }
-            
         }
     }
 }
@@ -44322,7 +43504,6 @@ impl IconShape for LdMailPlus {
             path {
                 d: "M16 19h6",
             }
-            
         }
     }
 }
@@ -44374,7 +43555,6 @@ impl IconShape for LdMailQuestion {
             path {
                 d: "M20 22v.01",
             }
-            
         }
     }
 }
@@ -44431,7 +43611,6 @@ impl IconShape for LdMailSearch {
             path {
                 d: "m22 22-1.5-1.5",
             }
-            
         }
     }
 }
@@ -44483,7 +43662,6 @@ impl IconShape for LdMailWarning {
             path {
                 d: "M20 22v.01",
             }
-            
         }
     }
 }
@@ -44535,7 +43713,6 @@ impl IconShape for LdMailX {
             path {
                 d: "m21 17-4 4",
             }
-            
         }
     }
 }
@@ -44585,7 +43762,6 @@ impl IconShape for LdMail {
             path {
                 d: "m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7",
             }
-            
         }
     }
 }
@@ -44640,7 +43816,6 @@ impl IconShape for LdMailbox {
                 y1: "10",
                 y2: "10",
             }
-            
         }
     }
 }
@@ -44693,7 +43868,6 @@ impl IconShape for LdMails {
             path {
                 d: "M2 8v11c0 1.1.9 2 2 2h14",
             }
-            
         }
     }
 }
@@ -44751,7 +43925,6 @@ impl IconShape for LdMapPinOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -44799,7 +43972,6 @@ impl IconShape for LdMapPin {
                 cy: "10",
                 r: "3",
             }
-            
         }
     }
 }
@@ -44850,7 +44022,6 @@ impl IconShape for LdMapPinned {
             path {
                 d: "M8.835 14H5a1 1 0 0 0-.9.7l-2 6c-.1.1-.1.2-.1.3 0 .6.4 1 1 1h18c.6 0 1-.4 1-1 0-.1 0-.2-.1-.3l-2-6a1 1 0 0 0-.9-.7h-3.835",
             }
-            
         }
     }
 }
@@ -44899,7 +44070,6 @@ impl IconShape for LdMap {
             path {
                 d: "M9 3.236v15",
             }
-            
         }
     }
 }
@@ -44948,7 +44118,6 @@ impl IconShape for LdMartini {
             path {
                 d: "m19 3-7 8-7-8Z",
             }
-            
         }
     }
 }
@@ -45006,7 +44175,6 @@ impl IconShape for LdMaximize2 {
                 y1: "21",
                 y2: "14",
             }
-            
         }
     }
 }
@@ -45058,7 +44226,6 @@ impl IconShape for LdMaximize {
             path {
                 d: "M16 21h3a2 2 0 0 0 2-2v-3",
             }
-            
         }
     }
 }
@@ -45118,7 +44285,6 @@ impl IconShape for LdMedal {
             path {
                 d: "M12 18v-2h-.5",
             }
-            
         }
     }
 }
@@ -45173,7 +44339,6 @@ impl IconShape for LdMegaphoneOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -45219,7 +44384,6 @@ impl IconShape for LdMegaphone {
             path {
                 d: "M11.6 16.8a3 3 0 1 1-5.8-1.6",
             }
-            
         }
     }
 }
@@ -45282,7 +44446,6 @@ impl IconShape for LdMeh {
                 y1: "9",
                 y2: "9",
             }
-            
         }
     }
 }
@@ -45349,7 +44512,6 @@ impl IconShape for LdMemoryStick {
             path {
                 d: "M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v1.1a2 2 0 0 0 0 3.837V17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5.1a2 2 0 0 0 0-3.837Z",
             }
-            
         }
     }
 }
@@ -45407,7 +44569,6 @@ impl IconShape for LdMenu {
                 y1: "18",
                 y2: "18",
             }
-            
         }
     }
 }
@@ -45456,7 +44617,6 @@ impl IconShape for LdMerge {
             path {
                 d: "m20 22-5-5",
             }
-            
         }
     }
 }
@@ -45505,7 +44665,6 @@ impl IconShape for LdMessageCircleCode {
             path {
                 d: "m14 10 2 2-2 2",
             }
-            
         }
     }
 }
@@ -45569,7 +44728,6 @@ impl IconShape for LdMessageCircleDashed {
             path {
                 d: "M6.8 4.7a10.45 10.45 0 0 0-2.1 2.1",
             }
-            
         }
     }
 }
@@ -45615,7 +44773,6 @@ impl IconShape for LdMessageCircleHeart {
             path {
                 d: "M15.8 9.2a2.5 2.5 0 0 0-3.5 0l-.3.4-.35-.3a2.42 2.42 0 1 0-3.2 3.6l3.6 3.5 3.6-3.5c1.2-1.2 1.1-2.7.2-3.7",
             }
-            
         }
     }
 }
@@ -45667,7 +44824,6 @@ impl IconShape for LdMessageCircleMore {
             path {
                 d: "M16 12h.01",
             }
-            
         }
     }
 }
@@ -45716,7 +44872,6 @@ impl IconShape for LdMessageCircleOff {
             path {
                 d: "M5.6 5.6C3 8.3 2.2 12.5 4 16l-2 6 6-2c3.4 1.8 7.6 1.1 10.3-1.7",
             }
-            
         }
     }
 }
@@ -45765,7 +44920,6 @@ impl IconShape for LdMessageCirclePlus {
             path {
                 d: "M12 8v8",
             }
-            
         }
     }
 }
@@ -45814,7 +44968,6 @@ impl IconShape for LdMessageCircleQuestion {
             path {
                 d: "M12 17h.01",
             }
-            
         }
     }
 }
@@ -45863,7 +45016,6 @@ impl IconShape for LdMessageCircleReply {
             path {
                 d: "M7 12h7a2 2 0 0 1 2 2v1",
             }
-            
         }
     }
 }
@@ -45912,7 +45064,6 @@ impl IconShape for LdMessageCircleWarning {
             path {
                 d: "M12 16h.01",
             }
-            
         }
     }
 }
@@ -45961,7 +45112,6 @@ impl IconShape for LdMessageCircleX {
             path {
                 d: "m9 9 6 6",
             }
-            
         }
     }
 }
@@ -46004,7 +45154,6 @@ impl IconShape for LdMessageCircle {
             path {
                 d: "M7.9 20A9 9 0 1 0 4 16.1L2 22Z",
             }
-            
         }
     }
 }
@@ -46053,7 +45202,6 @@ impl IconShape for LdMessageSquareCode {
             path {
                 d: "m14 8 2 2-2 2",
             }
-            
         }
     }
 }
@@ -46117,7 +45265,6 @@ impl IconShape for LdMessageSquareDashed {
             path {
                 d: "M3 12v-2",
             }
-            
         }
     }
 }
@@ -46169,7 +45316,6 @@ impl IconShape for LdMessageSquareDiff {
             path {
                 d: "M9 17h6",
             }
-            
         }
     }
 }
@@ -46217,7 +45363,6 @@ impl IconShape for LdMessageSquareDot {
                 cy: "6",
                 r: "3",
             }
-            
         }
     }
 }
@@ -46263,7 +45408,6 @@ impl IconShape for LdMessageSquareHeart {
             path {
                 d: "M14.8 7.5a1.84 1.84 0 0 0-2.6 0l-.2.3-.3-.3a1.84 1.84 0 1 0-2.4 2.8L12 13l2.7-2.7c.9-.9.8-2.1.1-2.8",
             }
-            
         }
     }
 }
@@ -46315,7 +45459,6 @@ impl IconShape for LdMessageSquareMore {
             path {
                 d: "M16 10h.01",
             }
-            
         }
     }
 }
@@ -46364,7 +45507,6 @@ impl IconShape for LdMessageSquareOff {
             path {
                 d: "M3.6 3.6c-.4.3-.6.8-.6 1.4v16l4-4h10",
             }
-            
         }
     }
 }
@@ -46413,7 +45555,6 @@ impl IconShape for LdMessageSquarePlus {
             path {
                 d: "M9 10h6",
             }
-            
         }
     }
 }
@@ -46462,7 +45603,6 @@ impl IconShape for LdMessageSquareQuote {
             path {
                 d: "M14 12a2 2 0 0 0 2-2V8h-2",
             }
-            
         }
     }
 }
@@ -46511,7 +45651,6 @@ impl IconShape for LdMessageSquareReply {
             path {
                 d: "M17 13v-1a2 2 0 0 0-2-2H7",
             }
-            
         }
     }
 }
@@ -46560,7 +45699,6 @@ impl IconShape for LdMessageSquareShare {
             path {
                 d: "m16 8 5-5",
             }
-            
         }
     }
 }
@@ -46609,7 +45747,6 @@ impl IconShape for LdMessageSquareText {
             path {
                 d: "M17 12H7",
             }
-            
         }
     }
 }
@@ -46658,7 +45795,6 @@ impl IconShape for LdMessageSquareWarning {
             path {
                 d: "M12 13h.01",
             }
-            
         }
     }
 }
@@ -46707,7 +45843,6 @@ impl IconShape for LdMessageSquareX {
             path {
                 d: "m9.5 7.5 5 5",
             }
-            
         }
     }
 }
@@ -46750,7 +45885,6 @@ impl IconShape for LdMessageSquare {
             path {
                 d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z",
             }
-            
         }
     }
 }
@@ -46796,7 +45930,6 @@ impl IconShape for LdMessagesSquare {
             path {
                 d: "M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1",
             }
-            
         }
     }
 }
@@ -46860,7 +45993,6 @@ impl IconShape for LdMicOff {
                 y1: "19",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -46908,7 +46040,6 @@ impl IconShape for LdMicVocal {
                 cy: "7",
                 r: "5",
             }
-            
         }
     }
 }
@@ -46960,7 +46091,6 @@ impl IconShape for LdMic {
                 y1: "19",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -47018,7 +46148,6 @@ impl IconShape for LdMicroscope {
             path {
                 d: "M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3",
             }
-            
         }
     }
 }
@@ -47081,7 +46210,6 @@ impl IconShape for LdMicrowave {
             path {
                 d: "M18 19v2",
             }
-            
         }
     }
 }
@@ -47130,7 +46258,6 @@ impl IconShape for LdMilestone {
             path {
                 d: "M12 3v3",
             }
-            
         }
     }
 }
@@ -47185,7 +46312,6 @@ impl IconShape for LdMilkOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -47234,7 +46360,6 @@ impl IconShape for LdMilk {
             path {
                 d: "M7 15a6.472 6.472 0 0 1 5 0 6.47 6.47 0 0 0 5 0",
             }
-            
         }
     }
 }
@@ -47292,7 +46417,6 @@ impl IconShape for LdMinimize2 {
                 y1: "21",
                 y2: "14",
             }
-            
         }
     }
 }
@@ -47344,7 +46468,6 @@ impl IconShape for LdMinimize {
             path {
                 d: "M16 21v-3a2 2 0 0 1 2-2h3",
             }
-            
         }
     }
 }
@@ -47387,7 +46510,6 @@ impl IconShape for LdMinus {
             path {
                 d: "M5 12h14",
             }
-            
         }
     }
 }
@@ -47443,7 +46565,6 @@ impl IconShape for LdMonitorCheck {
             path {
                 d: "M8 21h8",
             }
-            
         }
     }
 }
@@ -47497,7 +46618,6 @@ impl IconShape for LdMonitorDot {
             path {
                 d: "M8 21h8",
             }
-            
         }
     }
 }
@@ -47556,7 +46676,6 @@ impl IconShape for LdMonitorDown {
             path {
                 d: "M8 21h8",
             }
-            
         }
     }
 }
@@ -47611,7 +46730,6 @@ impl IconShape for LdMonitorOff {
             path {
                 d: "m2 2 20 20",
             }
-            
         }
     }
 }
@@ -47670,7 +46788,6 @@ impl IconShape for LdMonitorPause {
             path {
                 d: "M8 21h8",
             }
-            
         }
     }
 }
@@ -47726,7 +46843,6 @@ impl IconShape for LdMonitorPlay {
                 x: "2",
                 y: "3",
             }
-            
         }
     }
 }
@@ -47782,7 +46898,6 @@ impl IconShape for LdMonitorSmartphone {
                 x: "16",
                 y: "12",
             }
-            
         }
     }
 }
@@ -47843,7 +46958,6 @@ impl IconShape for LdMonitorSpeaker {
                 cy: "15",
                 r: "1",
             }
-            
         }
     }
 }
@@ -47903,7 +47017,6 @@ impl IconShape for LdMonitorStop {
                 x: "9",
                 y: "7",
             }
-            
         }
     }
 }
@@ -47962,7 +47075,6 @@ impl IconShape for LdMonitorUp {
             path {
                 d: "M8 21h8",
             }
-            
         }
     }
 }
@@ -48021,7 +47133,6 @@ impl IconShape for LdMonitorX {
             path {
                 d: "M8 21h8",
             }
-            
         }
     }
 }
@@ -48080,7 +47191,6 @@ impl IconShape for LdMonitor {
                 y1: "17",
                 y2: "21",
             }
-            
         }
     }
 }
@@ -48129,7 +47239,6 @@ impl IconShape for LdMoonStar {
             path {
                 d: "M21 5h-4",
             }
-            
         }
     }
 }
@@ -48172,7 +47281,6 @@ impl IconShape for LdMoon {
             path {
                 d: "M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z",
             }
-            
         }
     }
 }
@@ -48218,7 +47326,6 @@ impl IconShape for LdMountainSnow {
             path {
                 d: "M4.14 15.08c2.62-1.57 5.24-1.43 7.86.42 2.74 1.94 5.49 2 8.23.19",
             }
-            
         }
     }
 }
@@ -48261,7 +47368,6 @@ impl IconShape for LdMountain {
             path {
                 d: "m8 3 4 8 5-5 5 15H2L8 3z",
             }
-            
         }
     }
 }
@@ -48313,7 +47419,6 @@ impl IconShape for LdMouseOff {
             path {
                 d: "M22 22 2 2",
             }
-            
         }
     }
 }
@@ -48356,7 +47461,6 @@ impl IconShape for LdMousePointer2 {
             path {
                 d: "m4 4 7.07 17 2.51-7.39L21 11.07z",
             }
-            
         }
     }
 }
@@ -48411,7 +47515,6 @@ impl IconShape for LdMousePointerClick {
             path {
                 d: "m6 12-1.9 2",
             }
-            
         }
     }
 }
@@ -48457,7 +47560,6 @@ impl IconShape for LdMousePointer {
             path {
                 d: "m13 13 6 6",
             }
-            
         }
     }
 }
@@ -48507,7 +47609,6 @@ impl IconShape for LdMouse {
             path {
                 d: "M12 6v4",
             }
-            
         }
     }
 }
@@ -48559,7 +47660,6 @@ impl IconShape for LdMove3d {
             path {
                 d: "m18 16 3 3-3 3",
             }
-            
         }
     }
 }
@@ -48611,7 +47711,6 @@ impl IconShape for LdMoveDiagonal2 {
                 y1: "5",
                 y2: "19",
             }
-            
         }
     }
 }
@@ -48663,7 +47762,6 @@ impl IconShape for LdMoveDiagonal {
                 y1: "5",
                 y2: "19",
             }
-            
         }
     }
 }
@@ -48709,7 +47807,6 @@ impl IconShape for LdMoveDownLeft {
             path {
                 d: "M19 5L5 19",
             }
-            
         }
     }
 }
@@ -48755,7 +47852,6 @@ impl IconShape for LdMoveDownRight {
             path {
                 d: "M5 5L19 19",
             }
-            
         }
     }
 }
@@ -48801,7 +47897,6 @@ impl IconShape for LdMoveDown {
             path {
                 d: "M12 2V22",
             }
-            
         }
     }
 }
@@ -48853,7 +47948,6 @@ impl IconShape for LdMoveHorizontal {
                 y1: "12",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -48899,7 +47993,6 @@ impl IconShape for LdMoveLeft {
             path {
                 d: "M2 12H22",
             }
-            
         }
     }
 }
@@ -48945,7 +48038,6 @@ impl IconShape for LdMoveRight {
             path {
                 d: "M2 12H22",
             }
-            
         }
     }
 }
@@ -48991,7 +48083,6 @@ impl IconShape for LdMoveUpLeft {
             path {
                 d: "M5 5L19 19",
             }
-            
         }
     }
 }
@@ -49037,7 +48128,6 @@ impl IconShape for LdMoveUpRight {
             path {
                 d: "M19 5L5 19",
             }
-            
         }
     }
 }
@@ -49083,7 +48173,6 @@ impl IconShape for LdMoveUp {
             path {
                 d: "M12 2V22",
             }
-            
         }
     }
 }
@@ -49135,7 +48224,6 @@ impl IconShape for LdMoveVertical {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -49199,7 +48287,6 @@ impl IconShape for LdMove {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -49247,7 +48334,6 @@ impl IconShape for LdMusic2 {
             path {
                 d: "M12 18V2l7 4",
             }
-            
         }
     }
 }
@@ -49295,7 +48381,6 @@ impl IconShape for LdMusic3 {
             path {
                 d: "M16 18V2",
             }
-            
         }
     }
 }
@@ -49351,7 +48436,6 @@ impl IconShape for LdMusic4 {
                 cy: "16",
                 r: "3",
             }
-            
         }
     }
 }
@@ -49404,7 +48488,6 @@ impl IconShape for LdMusic {
                 cy: "16",
                 r: "3",
             }
-            
         }
     }
 }
@@ -49456,7 +48539,6 @@ impl IconShape for LdNavigation2Off {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -49499,7 +48581,6 @@ impl IconShape for LdNavigation2 {
             polygon {
                 points: "12 2 19 21 12 17 5 21 12 2",
             }
-            
         }
     }
 }
@@ -49551,7 +48632,6 @@ impl IconShape for LdNavigationOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -49594,7 +48674,6 @@ impl IconShape for LdNavigation {
             polygon {
                 points: "3 11 22 2 13 21 11 13 3 11",
             }
-            
         }
     }
 }
@@ -49661,7 +48740,6 @@ impl IconShape for LdNetwork {
             path {
                 d: "M12 12V8",
             }
-            
         }
     }
 }
@@ -49713,7 +48791,6 @@ impl IconShape for LdNewspaper {
             path {
                 d: "M10 6h8v4h-8V6Z",
             }
-            
         }
     }
 }
@@ -49765,7 +48842,6 @@ impl IconShape for LdNfc {
             path {
                 d: "M16.37 2a20.16 20.16 0 0 1 0 20",
             }
-            
         }
     }
 }
@@ -49823,7 +48899,6 @@ impl IconShape for LdNotebookPen {
             path {
                 d: "M18.4 2.6a2.17 2.17 0 0 1 3 3L16 11l-4 1 1-4Z",
             }
-            
         }
     }
 }
@@ -49894,7 +48969,6 @@ impl IconShape for LdNotebookTabs {
             path {
                 d: "M15 17h5",
             }
-            
         }
     }
 }
@@ -49962,7 +49036,6 @@ impl IconShape for LdNotebookText {
             path {
                 d: "M9.5 16H14",
             }
-            
         }
     }
 }
@@ -50024,7 +49097,6 @@ impl IconShape for LdNotebook {
             path {
                 d: "M16 2v20",
             }
-            
         }
     }
 }
@@ -50103,7 +49175,6 @@ impl IconShape for LdNotepadTextDashed {
             path {
                 d: "M8 18h5",
             }
-            
         }
     }
 }
@@ -50168,7 +49239,6 @@ impl IconShape for LdNotepadText {
             path {
                 d: "M8 18h5",
             }
-            
         }
     }
 }
@@ -50226,7 +49296,6 @@ impl IconShape for LdNutOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -50275,7 +49344,6 @@ impl IconShape for LdNut {
             path {
                 d: "M12 4C8 4 4.5 6 4 8c-.243.97-.919 1.952-2 3 1.31-.082 1.972-.29 3-1 .54.92.982 1.356 2 2 1.452-.647 1.954-1.098 2.5-2 .595.995 1.151 1.427 2.5 2 1.31-.621 1.862-1.058 2.5-2 .629.977 1.162 1.423 2.5 2 1.209-.548 1.68-.967 2-2 1.032.916 1.683 1.157 3 1-1.297-1.036-1.758-2.03-2-3-.5-2-4-4-8-4Z",
             }
-            
         }
     }
 }
@@ -50330,7 +49398,6 @@ impl IconShape for LdOctagonAlert {
                 y1: "16",
                 y2: "16",
             }
-            
         }
     }
 }
@@ -50379,7 +49446,6 @@ impl IconShape for LdOctagonPause {
             path {
                 d: "M7.714 2h8.572L22 7.714v8.572L16.286 22H7.714L2 16.286V7.714z",
             }
-            
         }
     }
 }
@@ -50428,7 +49494,6 @@ impl IconShape for LdOctagonX {
             path {
                 d: "m9 9 6 6",
             }
-            
         }
     }
 }
@@ -50471,7 +49536,6 @@ impl IconShape for LdOctagon {
             polygon {
                 points: "7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2",
             }
-            
         }
     }
 }
@@ -50517,7 +49581,6 @@ impl IconShape for LdOption {
             path {
                 d: "M14 3h7",
             }
-            
         }
     }
 }
@@ -50578,7 +49641,6 @@ impl IconShape for LdOrbit {
             path {
                 d: "M13.5 2.1a10 10 0 0 0-9.841 15.416",
             }
-            
         }
     }
 }
@@ -50627,7 +49689,6 @@ impl IconShape for LdOrigami {
             path {
                 d: "m12.214 3.381 8.414 14.966a1 1 0 0 1-.167 1.199l-1.168 1.163a1 1 0 0 1-.706.291H6.351a1 1 0 0 1-.625-.219L3.25 18.8a1 1 0 0 1 .631-1.781l4.165.027",
             }
-            
         }
     }
 }
@@ -50676,7 +49737,6 @@ impl IconShape for LdPackage2 {
             path {
                 d: "M12 3v6",
             }
-            
         }
     }
 }
@@ -50734,7 +49794,6 @@ impl IconShape for LdPackageCheck {
                 y1: "22",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -50792,7 +49851,6 @@ impl IconShape for LdPackageMinus {
                 y1: "22",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -50844,7 +49902,6 @@ impl IconShape for LdPackageOpen {
             path {
                 d: "M21 12.43a1.93 1.93 0 0 0 0-3.36L8.83 2.2a1.64 1.64 0 0 0-1.63 0L3 4.57a1.93 1.93 0 0 0 0 3.36l12.18 6.86a1.636 1.636 0 0 0 1.63 0z",
             }
-            
         }
     }
 }
@@ -50905,7 +49962,6 @@ impl IconShape for LdPackagePlus {
                 y1: "22",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -50968,7 +50024,6 @@ impl IconShape for LdPackageSearch {
             path {
                 d: "M20.27 17.27 22 19",
             }
-            
         }
     }
 }
@@ -51026,7 +50081,6 @@ impl IconShape for LdPackageX {
             path {
                 d: "m17 13 5 5m-5 0 5-5",
             }
-            
         }
     }
 }
@@ -51078,7 +50132,6 @@ impl IconShape for LdPackage {
             path {
                 d: "M12 22V12",
             }
-            
         }
     }
 }
@@ -51130,7 +50183,6 @@ impl IconShape for LdPaintBucket {
             path {
                 d: "M22 20a2 2 0 1 1-4 0c0-1.6 1.7-2.4 2-4 .3 1.6 2 2.4 2 4Z",
             }
-            
         }
     }
 }
@@ -51187,7 +50239,6 @@ impl IconShape for LdPaintRoller {
                 x: "8",
                 y: "16",
             }
-            
         }
     }
 }
@@ -51239,7 +50290,6 @@ impl IconShape for LdPaintbrush2 {
             path {
                 d: "M10 2v2",
             }
-            
         }
     }
 }
@@ -51288,7 +50338,6 @@ impl IconShape for LdPaintbrush {
             path {
                 d: "M14.5 17.5 4.5 15",
             }
-            
         }
     }
 }
@@ -51351,7 +50400,6 @@ impl IconShape for LdPalette {
             path {
                 d: "M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z",
             }
-            
         }
     }
 }
@@ -51404,7 +50452,6 @@ impl IconShape for LdPanelBottomClose {
             path {
                 d: "m15 8-3 3-3-3",
             }
-            
         }
     }
 }
@@ -51463,7 +50510,6 @@ impl IconShape for LdPanelBottomDashed {
             path {
                 d: "M9 15h1",
             }
-            
         }
     }
 }
@@ -51516,7 +50562,6 @@ impl IconShape for LdPanelBottomOpen {
             path {
                 d: "m9 10 3-3 3 3",
             }
-            
         }
     }
 }
@@ -51566,7 +50611,6 @@ impl IconShape for LdPanelBottom {
             path {
                 d: "M3 15h18",
             }
-            
         }
     }
 }
@@ -51619,7 +50663,6 @@ impl IconShape for LdPanelLeftClose {
             path {
                 d: "m16 15-3-3 3-3",
             }
-            
         }
     }
 }
@@ -51678,7 +50721,6 @@ impl IconShape for LdPanelLeftDashed {
             path {
                 d: "M9 9v1",
             }
-            
         }
     }
 }
@@ -51731,7 +50773,6 @@ impl IconShape for LdPanelLeftOpen {
             path {
                 d: "m14 9 3 3-3 3",
             }
-            
         }
     }
 }
@@ -51781,7 +50822,6 @@ impl IconShape for LdPanelLeft {
             path {
                 d: "M9 3v18",
             }
-            
         }
     }
 }
@@ -51834,7 +50874,6 @@ impl IconShape for LdPanelRightClose {
             path {
                 d: "m8 9 3 3-3 3",
             }
-            
         }
     }
 }
@@ -51893,7 +50932,6 @@ impl IconShape for LdPanelRightDashed {
             path {
                 d: "M15 9v1",
             }
-            
         }
     }
 }
@@ -51946,7 +50984,6 @@ impl IconShape for LdPanelRightOpen {
             path {
                 d: "m10 15-3-3 3-3",
             }
-            
         }
     }
 }
@@ -51996,7 +51033,6 @@ impl IconShape for LdPanelRight {
             path {
                 d: "M15 3v18",
             }
-            
         }
     }
 }
@@ -52049,7 +51085,6 @@ impl IconShape for LdPanelTopClose {
             path {
                 d: "m9 16 3-3 3 3",
             }
-            
         }
     }
 }
@@ -52108,7 +51143,6 @@ impl IconShape for LdPanelTopDashed {
             path {
                 d: "M9 9h1",
             }
-            
         }
     }
 }
@@ -52161,7 +51195,6 @@ impl IconShape for LdPanelTopOpen {
             path {
                 d: "m15 14-3 3-3-3",
             }
-            
         }
     }
 }
@@ -52211,7 +51244,6 @@ impl IconShape for LdPanelTop {
             path {
                 d: "M3 9h18",
             }
-            
         }
     }
 }
@@ -52264,7 +51296,6 @@ impl IconShape for LdPanelsLeftBottom {
             path {
                 d: "M9 15h12",
             }
-            
         }
     }
 }
@@ -52317,7 +51348,6 @@ impl IconShape for LdPanelsRightBottom {
             path {
                 d: "M15 3v18",
             }
-            
         }
     }
 }
@@ -52370,7 +51400,6 @@ impl IconShape for LdPanelsTopLeft {
             path {
                 d: "M9 21V9",
             }
-            
         }
     }
 }
@@ -52413,7 +51442,6 @@ impl IconShape for LdPaperclip {
             path {
                 d: "m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48",
             }
-            
         }
     }
 }
@@ -52459,7 +51487,6 @@ impl IconShape for LdParentheses {
             path {
                 d: "M16 3s4 3 4 9-4 9-4 9",
             }
-            
         }
     }
 }
@@ -52514,7 +51541,6 @@ impl IconShape for LdParkingMeter {
             path {
                 d: "M12 19v3",
             }
-            
         }
     }
 }
@@ -52581,7 +51607,6 @@ impl IconShape for LdPartyPopper {
             path {
                 d: "M11 13c1.93 1.93 2.83 4.17 2 5-.83.83-3.07-.07-5-2-1.93-1.93-2.83-4.17-2-5 .83-.83 3.07.07 5 2Z",
             }
-            
         }
     }
 }
@@ -52635,7 +51660,6 @@ impl IconShape for LdPause {
                 x: "6",
                 y: "4",
             }
-            
         }
     }
 }
@@ -52693,7 +51717,6 @@ impl IconShape for LdPawPrint {
             path {
                 d: "M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z",
             }
-            
         }
     }
 }
@@ -52749,7 +51772,6 @@ impl IconShape for LdPcCase {
             path {
                 d: "M9 10h6",
             }
-            
         }
     }
 }
@@ -52795,7 +51817,6 @@ impl IconShape for LdPenLine {
             path {
                 d: "M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z",
             }
-            
         }
     }
 }
@@ -52849,7 +51870,6 @@ impl IconShape for LdPenTool {
                 cy: "11",
                 r: "2",
             }
-            
         }
     }
 }
@@ -52892,7 +51912,6 @@ impl IconShape for LdPen {
             path {
                 d: "M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z",
             }
-            
         }
     }
 }
@@ -52941,7 +51960,6 @@ impl IconShape for LdPencilLine {
             path {
                 d: "m15 5 3 3",
             }
-            
         }
     }
 }
@@ -52999,7 +52017,6 @@ impl IconShape for LdPencilRuler {
             path {
                 d: "m17 11 4.3 4.3c.94.94.94 2.46 0 3.4l-2.6 2.6c-.94.94-2.46.94-3.4 0L11 17",
             }
-            
         }
     }
 }
@@ -53045,7 +52062,6 @@ impl IconShape for LdPencil {
             path {
                 d: "m15 5 4 4",
             }
-            
         }
     }
 }
@@ -53088,7 +52104,6 @@ impl IconShape for LdPentagon {
             path {
                 d: "M3.5 8.7c-.7.5-1 1.4-.7 2.2l2.8 8.7c.3.8 1 1.4 1.9 1.4h9.1c.9 0 1.6-.6 1.9-1.4l2.8-8.7c.3-.8 0-1.7-.7-2.2l-7.4-5.3a2.1 2.1 0 0 0-2.4 0Z",
             }
-            
         }
     }
 }
@@ -53144,7 +52159,6 @@ impl IconShape for LdPercent {
                 cy: "17.5",
                 r: "2.5",
             }
-            
         }
     }
 }
@@ -53198,7 +52212,6 @@ impl IconShape for LdPersonStanding {
             path {
                 d: "M12 10v4",
             }
-            
         }
     }
 }
@@ -53247,7 +52260,6 @@ impl IconShape for LdPhoneCall {
             path {
                 d: "M14.05 6A5 5 0 0 1 18 10",
             }
-            
         }
     }
 }
@@ -53299,7 +52311,6 @@ impl IconShape for LdPhoneForwarded {
             path {
                 d: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z",
             }
-            
         }
     }
 }
@@ -53351,7 +52362,6 @@ impl IconShape for LdPhoneIncoming {
             path {
                 d: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z",
             }
-            
         }
     }
 }
@@ -53406,7 +52416,6 @@ impl IconShape for LdPhoneMissed {
             path {
                 d: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z",
             }
-            
         }
     }
 }
@@ -53455,7 +52464,6 @@ impl IconShape for LdPhoneOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -53507,7 +52515,6 @@ impl IconShape for LdPhoneOutgoing {
             path {
                 d: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z",
             }
-            
         }
     }
 }
@@ -53550,7 +52557,6 @@ impl IconShape for LdPhone {
             path {
                 d: "M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z",
             }
-            
         }
     }
 }
@@ -53602,7 +52608,6 @@ impl IconShape for LdPi {
             path {
                 d: "M18 20c-1.7 0-3-1.3-3-3V4",
             }
-            
         }
     }
 }
@@ -53660,7 +52665,6 @@ impl IconShape for LdPiano {
             path {
                 d: "M18 14v4",
             }
-            
         }
     }
 }
@@ -53712,7 +52716,6 @@ impl IconShape for LdPickaxe {
             path {
                 d: "M19.686 8.314a12.501 12.501 0 0 1 1.356 10.225 1 1 0 0 1-1.751-.119 22 22 0 0 0-3.393-6.319",
             }
-            
         }
     }
 }
@@ -53762,7 +52765,6 @@ impl IconShape for LdPictureInPicture2 {
                 x: "12",
                 y: "13",
             }
-            
         }
     }
 }
@@ -53812,7 +52814,6 @@ impl IconShape for LdPictureInPicture {
                 x: "12",
                 y: "13.5",
             }
-            
         }
     }
 }
@@ -53858,7 +52859,6 @@ impl IconShape for LdPieChart {
             path {
                 d: "M22 12A10 10 0 0 0 12 2v10z",
             }
-            
         }
     }
 }
@@ -53907,7 +52907,6 @@ impl IconShape for LdPiggyBank {
             path {
                 d: "M16 11h0",
             }
-            
         }
     }
 }
@@ -53962,7 +52961,6 @@ impl IconShape for LdPilcrowLeft {
             path {
                 d: "m6 22-4-4",
             }
-            
         }
     }
 }
@@ -54017,7 +53015,6 @@ impl IconShape for LdPilcrowRight {
             path {
                 d: "m22 18-4 4",
             }
-            
         }
     }
 }
@@ -54066,7 +53063,6 @@ impl IconShape for LdPilcrow {
             path {
                 d: "M19 4H9.5a4.5 4.5 0 0 0 0 9H13",
             }
-            
         }
     }
 }
@@ -54112,7 +53108,6 @@ impl IconShape for LdPill {
             path {
                 d: "m8.5 8.5 7 7",
             }
-            
         }
     }
 }
@@ -54170,7 +53165,6 @@ impl IconShape for LdPinOff {
             path {
                 d: "M15 9.34V6h1a2 2 0 0 0 0-4H7.89",
             }
-            
         }
     }
 }
@@ -54219,7 +53213,6 @@ impl IconShape for LdPin {
             path {
                 d: "M5 17h14v-1.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V6h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1v4.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24Z",
             }
-            
         }
     }
 }
@@ -54268,7 +53261,6 @@ impl IconShape for LdPipette {
             path {
                 d: "m15 6 3.4-3.4a2.1 2.1 0 1 1 3 3L18 9l.4.4a2.1 2.1 0 1 1-3 3l-3.8-3.8a2.1 2.1 0 1 1 3-3l.4.4Z",
             }
-            
         }
     }
 }
@@ -54323,7 +53315,6 @@ impl IconShape for LdPizza {
             path {
                 d: "M5.71 17.11a17.04 17.04 0 0 1 11.4-11.4",
             }
-            
         }
     }
 }
@@ -54369,7 +53360,6 @@ impl IconShape for LdPlaneLanding {
             path {
                 d: "M3.77 10.77 2 9l2-4.5 1.1.55c.55.28.9.84.9 1.45s.35 1.17.9 1.45L8 8.5l3-6 1.05.53a2 2 0 0 1 1.09 1.52l.72 5.4a2 2 0 0 0 1.09 1.52l4.4 2.2c.42.22.78.55 1.01.96l.6 1.03c.49.88-.06 1.98-1.06 2.1l-1.18.15c-.47.06-.95-.02-1.37-.24L4.29 11.15a2 2 0 0 1-.52-.38Z",
             }
-            
         }
     }
 }
@@ -54415,7 +53405,6 @@ impl IconShape for LdPlaneTakeoff {
             path {
                 d: "M6.36 17.4 4 17l-2-4 1.1-.55a2 2 0 0 1 1.8 0l.17.1a2 2 0 0 0 1.8 0L8 12 5 6l.9-.45a2 2 0 0 1 2.09.2l4.02 3a2 2 0 0 0 2.1.2l4.19-2.06a2.41 2.41 0 0 1 1.73-.17L21 7a1.4 1.4 0 0 1 .87 1.99l-.38.76c-.23.46-.6.84-1.07 1.08L7.58 17.2a2 2 0 0 1-1.22.18Z",
             }
-            
         }
     }
 }
@@ -54458,7 +53447,6 @@ impl IconShape for LdPlane {
             path {
                 d: "M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z",
             }
-            
         }
     }
 }
@@ -54501,7 +53489,6 @@ impl IconShape for LdPlay {
             polygon {
                 points: "6 3 20 12 6 21 6 3",
             }
-            
         }
     }
 }
@@ -54556,7 +53543,6 @@ impl IconShape for LdPlug2 {
             path {
                 d: "M6 11V8h12v3a6 6 0 1 1-12 0v0Z",
             }
-            
         }
     }
 }
@@ -54611,7 +53597,6 @@ impl IconShape for LdPlugZap2 {
             path {
                 d: "M12 22v-3",
             }
-            
         }
     }
 }
@@ -54666,7 +53651,6 @@ impl IconShape for LdPlugZap {
             path {
                 d: "m18 3-4 4h6l-4 4",
             }
-            
         }
     }
 }
@@ -54718,7 +53702,6 @@ impl IconShape for LdPlug {
             path {
                 d: "M18 8v5a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V8Z",
             }
-            
         }
     }
 }
@@ -54764,7 +53747,6 @@ impl IconShape for LdPlus {
             path {
                 d: "M12 5v14",
             }
-            
         }
     }
 }
@@ -54819,7 +53801,6 @@ impl IconShape for LdPocketKnife {
             path {
                 d: "M18 11.66V22a4 4 0 0 0 4-4V6",
             }
-            
         }
     }
 }
@@ -54865,7 +53846,6 @@ impl IconShape for LdPocket {
             polyline {
                 points: "8 10 12 14 16 10",
             }
-            
         }
     }
 }
@@ -54919,7 +53899,6 @@ impl IconShape for LdPodcast {
             path {
                 d: "M13 17a1 1 0 1 0-2 0l.5 4.5a.5.5 0 1 0 1 0Z",
             }
-            
         }
     }
 }
@@ -54977,7 +53956,6 @@ impl IconShape for LdPointerOff {
             path {
                 d: "m2 2 20 20",
             }
-            
         }
     }
 }
@@ -55032,7 +54010,6 @@ impl IconShape for LdPointer {
             path {
                 d: "M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15",
             }
-            
         }
     }
 }
@@ -55084,7 +54061,6 @@ impl IconShape for LdPopcorn {
             path {
                 d: "M20 8c.5 0 .9.4.8 1l-2.6 12c-.1.5-.7 1-1.2 1H7c-.6 0-1.1-.4-1.2-1L3.2 9c-.1-.6.3-1 .8-1Z",
             }
-            
         }
     }
 }
@@ -55130,7 +54106,6 @@ impl IconShape for LdPopsicle {
             path {
                 d: "m22 22-5.5-5.5",
             }
-            
         }
     }
 }
@@ -55182,7 +54157,6 @@ impl IconShape for LdPoundSterling {
             path {
                 d: "M6 13h10",
             }
-            
         }
     }
 }
@@ -55234,7 +54208,6 @@ impl IconShape for LdPowerOff {
             path {
                 d: "m2 2 20 20",
             }
-            
         }
     }
 }
@@ -55280,7 +54253,6 @@ impl IconShape for LdPower {
             path {
                 d: "M18.4 6.6a9 9 0 1 1-12.77.04",
             }
-            
         }
     }
 }
@@ -55329,7 +54301,6 @@ impl IconShape for LdPresentation {
             path {
                 d: "m7 21 5-5 5 5",
             }
-            
         }
     }
 }
@@ -55381,7 +54352,6 @@ impl IconShape for LdPrinter {
                 x: "6",
                 y: "14",
             }
-            
         }
     }
 }
@@ -55441,7 +54411,6 @@ impl IconShape for LdProjector {
             path {
                 d: "M16 16h2",
             }
-            
         }
     }
 }
@@ -55494,7 +54463,6 @@ impl IconShape for LdProportions {
             path {
                 d: "M2 9h13a2 2 0 0 1 2 2v9",
             }
-            
         }
     }
 }
@@ -55537,7 +54505,6 @@ impl IconShape for LdPuzzle {
             path {
                 d: "M19.439 7.85c-.049.322.059.648.289.878l1.568 1.568c.47.47.706 1.087.706 1.704s-.235 1.233-.706 1.704l-1.611 1.611a.98.98 0 0 1-.837.276c-.47-.07-.802-.48-.968-.925a2.501 2.501 0 1 0-3.214 3.214c.446.166.855.497.925.968a.979.979 0 0 1-.276.837l-1.61 1.61a2.404 2.404 0 0 1-1.705.707 2.402 2.402 0 0 1-1.704-.706l-1.568-1.568a1.026 1.026 0 0 0-.877-.29c-.493.074-.84.504-1.02.968a2.5 2.5 0 1 1-3.237-3.237c.464-.18.894-.527.967-1.02a1.026 1.026 0 0 0-.289-.877l-1.568-1.568A2.402 2.402 0 0 1 1.998 12c0-.617.236-1.234.706-1.704L4.23 8.77c.24-.24.581-.353.917-.303.515.077.877.528 1.073 1.01a2.5 2.5 0 1 0 3.259-3.259c-.482-.196-.933-.558-1.01-1.073-.05-.336.062-.676.303-.917l1.525-1.525A2.402 2.402 0 0 1 12 1.998c.617 0 1.234.236 1.704.706l1.568 1.568c.23.23.556.338.877.29.493-.074.84-.504 1.02-.968a2.5 2.5 0 1 1 3.237 3.237c-.464.18-.894.527-.967 1.02Z",
             }
-            
         }
     }
 }
@@ -55583,7 +54550,6 @@ impl IconShape for LdPyramid {
             path {
                 d: "M12 2v20",
             }
-            
         }
     }
 }
@@ -55671,7 +54637,6 @@ impl IconShape for LdQrCode {
             path {
                 d: "M12 21v-1",
             }
-            
         }
     }
 }
@@ -55717,7 +54682,6 @@ impl IconShape for LdQuote {
             path {
                 d: "M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z",
             }
-            
         }
     }
 }
@@ -55772,7 +54736,6 @@ impl IconShape for LdRabbit {
             path {
                 d: "M7.612 12.524a3 3 0 1 0-1.6 4.3",
             }
-            
         }
     }
 }
@@ -55838,7 +54801,6 @@ impl IconShape for LdRadar {
             path {
                 d: "m13.41 10.59 5.66-5.66",
             }
-            
         }
     }
 }
@@ -55890,7 +54852,6 @@ impl IconShape for LdRadiation {
             path {
                 d: "M7.5 19.8c-.3.5-.1 1.1.4 1.3 2.6 1.2 5.6 1.2 8.2 0 .5-.2.7-.8.4-1.3-.5-.9-1.4-2.5-2.5-4.3-1.2.7-2.8.7-4 0-1.1 1.8-2 3.4-2.5 4.3z",
             }
-            
         }
     }
 }
@@ -55933,7 +54894,6 @@ impl IconShape for LdRadical {
             path {
                 d: "M3 12h4l3 9 4-17h7",
             }
-            
         }
     }
 }
@@ -55989,7 +54949,6 @@ impl IconShape for LdRadioReceiver {
             path {
                 d: "M18 12h0",
             }
-            
         }
     }
 }
@@ -56052,7 +55011,6 @@ impl IconShape for LdRadioTower {
             path {
                 d: "m8 22 4-11 4 11",
             }
-            
         }
     }
 }
@@ -56109,7 +55067,6 @@ impl IconShape for LdRadio {
             path {
                 d: "M19.1 4.9C23 8.8 23 15.1 19.1 19",
             }
-            
         }
     }
 }
@@ -56165,7 +55122,6 @@ impl IconShape for LdRadius {
                 cy: "12",
                 r: "2",
             }
-            
         }
     }
 }
@@ -56214,7 +55170,6 @@ impl IconShape for LdRailSymbol {
             path {
                 d: "m14 20-5-5 6-6-5-5",
             }
-            
         }
     }
 }
@@ -56263,7 +55218,6 @@ impl IconShape for LdRainbow {
             path {
                 d: "M10 17a2 2 0 0 1 4 0",
             }
-            
         }
     }
 }
@@ -56318,7 +55272,6 @@ impl IconShape for LdRat {
             path {
                 d: "M16 9h.01",
             }
-            
         }
     }
 }
@@ -56372,7 +55325,6 @@ impl IconShape for LdRatio {
                 x: "2",
                 y: "6",
             }
-            
         }
     }
 }
@@ -56421,7 +55373,6 @@ impl IconShape for LdReceiptCent {
             path {
                 d: "M15 9.4a4 4 0 1 0 0 5.2",
             }
-            
         }
     }
 }
@@ -56470,7 +55421,6 @@ impl IconShape for LdReceiptEuro {
             path {
                 d: "M16 9.5a4 4 0 1 0 0 5.2",
             }
-            
         }
     }
 }
@@ -56522,7 +55472,6 @@ impl IconShape for LdReceiptIndianRupee {
             path {
                 d: "M8 11h8",
             }
-            
         }
     }
 }
@@ -56577,7 +55526,6 @@ impl IconShape for LdReceiptJapaneseYen {
             path {
                 d: "M9 15h6",
             }
-            
         }
     }
 }
@@ -56629,7 +55577,6 @@ impl IconShape for LdReceiptPoundSterling {
             path {
                 d: "M8 17h7",
             }
-            
         }
     }
 }
@@ -56678,7 +55625,6 @@ impl IconShape for LdReceiptRussianRuble {
             path {
                 d: "M8 11h5a2 2 0 1 0 0-4h-3v10",
             }
-            
         }
     }
 }
@@ -56730,7 +55676,6 @@ impl IconShape for LdReceiptSwissFranc {
             path {
                 d: "M8 15h5",
             }
-            
         }
     }
 }
@@ -56782,7 +55727,6 @@ impl IconShape for LdReceiptText {
             path {
                 d: "M13 16H8",
             }
-            
         }
     }
 }
@@ -56831,7 +55775,6 @@ impl IconShape for LdReceipt {
             path {
                 d: "M12 17.5v-11",
             }
-            
         }
     }
 }
@@ -56887,7 +55830,6 @@ impl IconShape for LdRectangleEllipsis {
             path {
                 d: "M7 12h.01",
             }
-            
         }
     }
 }
@@ -56934,7 +55876,6 @@ impl IconShape for LdRectangleHorizontal {
                 x: "2",
                 y: "6",
             }
-            
         }
     }
 }
@@ -56981,7 +55922,6 @@ impl IconShape for LdRectangleVertical {
                 x: "6",
                 y: "2",
             }
-            
         }
     }
 }
@@ -57039,7 +55979,6 @@ impl IconShape for LdRecycle {
             path {
                 d: "m13.378 9.633 4.096 1.098 1.097-4.096",
             }
-            
         }
     }
 }
@@ -57085,7 +56024,6 @@ impl IconShape for LdRedo2 {
             path {
                 d: "M20 9H9.5A5.5 5.5 0 0 0 4 14.5v0A5.5 5.5 0 0 0 9.5 20H13",
             }
-            
         }
     }
 }
@@ -57136,7 +56074,6 @@ impl IconShape for LdRedoDot {
             path {
                 d: "M3 17a9 9 0 0 1 9-9 9 9 0 0 1 6 2.3l3 2.7",
             }
-            
         }
     }
 }
@@ -57182,7 +56119,6 @@ impl IconShape for LdRedo {
             path {
                 d: "M3 17a9 9 0 0 1 9-9 9 9 0 0 1 6 2.3l3 2.7",
             }
-            
         }
     }
 }
@@ -57239,7 +56175,6 @@ impl IconShape for LdRefreshCcwDot {
                 cy: "12",
                 r: "1",
             }
-            
         }
     }
 }
@@ -57291,7 +56226,6 @@ impl IconShape for LdRefreshCcw {
             path {
                 d: "M16 16h5v5",
             }
-            
         }
     }
 }
@@ -57352,7 +56286,6 @@ impl IconShape for LdRefreshCwOff {
             path {
                 d: "M22 22 2 2",
             }
-            
         }
     }
 }
@@ -57404,7 +56337,6 @@ impl IconShape for LdRefreshCw {
             path {
                 d: "M8 16H3v5",
             }
-            
         }
     }
 }
@@ -57453,7 +56385,6 @@ impl IconShape for LdRefrigerator {
             path {
                 d: "M15 7v6",
             }
-            
         }
     }
 }
@@ -57505,7 +56436,6 @@ impl IconShape for LdRegex {
             path {
                 d: "M9 17a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2z",
             }
-            
         }
     }
 }
@@ -57560,7 +56490,6 @@ impl IconShape for LdRemoveFormatting {
             path {
                 d: "m20 15-5 5",
             }
-            
         }
     }
 }
@@ -57615,7 +56544,6 @@ impl IconShape for LdRepeat1 {
             path {
                 d: "M11 10h1v4",
             }
-            
         }
     }
 }
@@ -57667,7 +56595,6 @@ impl IconShape for LdRepeat2 {
             path {
                 d: "M11 6h6a2 2 0 0 1 2 2v10",
             }
-            
         }
     }
 }
@@ -57719,7 +56646,6 @@ impl IconShape for LdRepeat {
             path {
                 d: "M21 13v1a4 4 0 0 1-4 4H3",
             }
-            
         }
     }
 }
@@ -57790,7 +56716,6 @@ impl IconShape for LdReplaceAll {
             path {
                 d: "M20 14c1.1 0 2 .9 2 2v4c0 1.1-.9 2-2 2",
             }
-            
         }
     }
 }
@@ -57855,7 +56780,6 @@ impl IconShape for LdReplace {
                 x: "2",
                 y: "14",
             }
-            
         }
     }
 }
@@ -57904,7 +56828,6 @@ impl IconShape for LdReplyAll {
             path {
                 d: "M22 18v-2a4 4 0 0 0-4-4H7",
             }
-            
         }
     }
 }
@@ -57950,7 +56873,6 @@ impl IconShape for LdReply {
             path {
                 d: "M20 18v-2a4 4 0 0 0-4-4H4",
             }
-            
         }
     }
 }
@@ -57996,7 +56918,6 @@ impl IconShape for LdRewind {
             polygon {
                 points: "22 19 13 12 22 5 22 19",
             }
-            
         }
     }
 }
@@ -58051,7 +56972,6 @@ impl IconShape for LdRibbon {
             path {
                 d: "M14 8c0 1-1 2-2.01 3.22C11 10 10 9 10 8a2 2 0 1 1 4 0",
             }
-            
         }
     }
 }
@@ -58103,7 +57023,6 @@ impl IconShape for LdRocket {
             path {
                 d: "M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5",
             }
-            
         }
     }
 }
@@ -58161,7 +57080,6 @@ impl IconShape for LdRockingChair {
             path {
                 d: "M2.75 18a13 13 0 0 0 18.5 0",
             }
-            
         }
     }
 }
@@ -58222,7 +57140,6 @@ impl IconShape for LdRollerCoaster {
             path {
                 d: "M2 19V9a4 4 0 0 1 4-4c2 0 4 1.33 6 4s4 4 6 4a4 4 0 1 0-3-6.65",
             }
-            
         }
     }
 }
@@ -58271,7 +57188,6 @@ impl IconShape for LdRotate3d {
             path {
                 d: "M19 15.57c-1.804.885-4.274 1.43-7 1.43-5.523 0-10-2.239-10-5s4.477-5 10-5c4.838 0 8.873 1.718 9.8 4",
             }
-            
         }
     }
 }
@@ -58320,7 +57236,6 @@ impl IconShape for LdRotateCcwSquare {
             path {
                 d: "M20 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2",
             }
-            
         }
     }
 }
@@ -58366,7 +57281,6 @@ impl IconShape for LdRotateCcw {
             path {
                 d: "M3 3v5h5",
             }
-            
         }
     }
 }
@@ -58415,7 +57329,6 @@ impl IconShape for LdRotateCwSquare {
             path {
                 d: "M4 14v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2",
             }
-            
         }
     }
 }
@@ -58461,7 +57374,6 @@ impl IconShape for LdRotateCw {
             path {
                 d: "M21 3v5h-5",
             }
-            
         }
     }
 }
@@ -58526,7 +57438,6 @@ impl IconShape for LdRouteOff {
                 cy: "5",
                 r: "3",
             }
-            
         }
     }
 }
@@ -58579,7 +57490,6 @@ impl IconShape for LdRoute {
                 cy: "5",
                 r: "3",
             }
-            
         }
     }
 }
@@ -58641,7 +57551,6 @@ impl IconShape for LdRouter {
             path {
                 d: "M20.66 4.34a8 8 0 0 0-11.31 0",
             }
-            
         }
     }
 }
@@ -58691,7 +57600,6 @@ impl IconShape for LdRows2 {
             path {
                 d: "M3 12h18",
             }
-            
         }
     }
 }
@@ -58744,7 +57652,6 @@ impl IconShape for LdRows3 {
             path {
                 d: "M21 15H3",
             }
-            
         }
     }
 }
@@ -58800,7 +57707,6 @@ impl IconShape for LdRows4 {
             path {
                 d: "M21 16.5H3",
             }
-            
         }
     }
 }
@@ -58851,7 +57757,6 @@ impl IconShape for LdRss {
                 cy: "19",
                 r: "1",
             }
-            
         }
     }
 }
@@ -58906,7 +57811,6 @@ impl IconShape for LdRuler {
             path {
                 d: "m17.5 15.5 2-2",
             }
-            
         }
     }
 }
@@ -58952,7 +57856,6 @@ impl IconShape for LdRussianRuble {
             path {
                 d: "M6 15h8",
             }
-            
         }
     }
 }
@@ -59001,7 +57904,6 @@ impl IconShape for LdSailboat {
             path {
                 d: "M10 2v16",
             }
-            
         }
     }
 }
@@ -59056,7 +57958,6 @@ impl IconShape for LdSalad {
             path {
                 d: "M10.9 7.25A3.99 3.99 0 0 0 4 10c0 .73.2 1.41.54 2",
             }
-            
         }
     }
 }
@@ -59108,7 +58009,6 @@ impl IconShape for LdSandwich {
             path {
                 d: "M12.97 19.77 7 15h12.5l-3.75 4.5a2 2 0 0 1-2.78.27Z",
             }
-            
         }
     }
 }
@@ -59160,7 +58060,6 @@ impl IconShape for LdSatelliteDish {
             path {
                 d: "M21 13A10 10 0 0 0 11 3",
             }
-            
         }
     }
 }
@@ -59215,7 +58114,6 @@ impl IconShape for LdSatellite {
             path {
                 d: "M9 21a6 6 0 0 0-6-6",
             }
-            
         }
     }
 }
@@ -59267,7 +58165,6 @@ impl IconShape for LdSaveAll {
             path {
                 d: "M18 22H4a2 2 0 0 1-2-2V6",
             }
-            
         }
     }
 }
@@ -59316,7 +58213,6 @@ impl IconShape for LdSave {
             path {
                 d: "M7 3v4a1 1 0 0 0 1 1h7",
             }
-            
         }
     }
 }
@@ -59372,7 +58268,6 @@ impl IconShape for LdScale3d {
             path {
                 d: "m5 19 6-6",
             }
-            
         }
     }
 }
@@ -59427,7 +58322,6 @@ impl IconShape for LdScale {
             path {
                 d: "M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2",
             }
-            
         }
     }
 }
@@ -59479,7 +58373,6 @@ impl IconShape for LdScaling {
             path {
                 d: "M21 3 9 15",
             }
-            
         }
     }
 }
@@ -59540,7 +58433,6 @@ impl IconShape for LdScanBarcode {
             path {
                 d: "M17 7v10",
             }
-            
         }
     }
 }
@@ -59600,7 +58492,6 @@ impl IconShape for LdScanEye {
             path {
                 d: "M5 12s2.5-5 7-5 7 5 7 5-2.5 5-7 5-7-5-7-5",
             }
-            
         }
     }
 }
@@ -59661,7 +58552,6 @@ impl IconShape for LdScanFace {
             path {
                 d: "M15 9h.01",
             }
-            
         }
     }
 }
@@ -59716,7 +58606,6 @@ impl IconShape for LdScanLine {
             path {
                 d: "M7 12h10",
             }
-            
         }
     }
 }
@@ -59776,7 +58665,6 @@ impl IconShape for LdScanSearch {
             path {
                 d: "m16 16-1.9-1.9",
             }
-            
         }
     }
 }
@@ -59837,7 +58725,6 @@ impl IconShape for LdScanText {
             path {
                 d: "M7 16h6",
             }
-            
         }
     }
 }
@@ -59889,7 +58776,6 @@ impl IconShape for LdScan {
             path {
                 d: "M7 21H5a2 2 0 0 1-2-2v-2",
             }
-            
         }
     }
 }
@@ -59957,7 +58843,6 @@ impl IconShape for LdScatterChart {
             path {
                 d: "M3 3v18h18",
             }
-            
         }
     }
 }
@@ -60017,7 +58902,6 @@ impl IconShape for LdSchool {
                 cy: "9",
                 r: "2",
             }
-            
         }
     }
 }
@@ -60082,7 +58966,6 @@ impl IconShape for LdScissorsLineDashed {
             path {
                 d: "M22 12h-2",
             }
-            
         }
     }
 }
@@ -60141,7 +59024,6 @@ impl IconShape for LdScissors {
             path {
                 d: "M14.8 14.8 20 20",
             }
-            
         }
     }
 }
@@ -60196,7 +59078,6 @@ impl IconShape for LdScreenShareOff {
             path {
                 d: "m17 3 5 5",
             }
-            
         }
     }
 }
@@ -60251,7 +59132,6 @@ impl IconShape for LdScreenShare {
             path {
                 d: "M17 3h5v5",
             }
-            
         }
     }
 }
@@ -60303,7 +59183,6 @@ impl IconShape for LdScrollText {
             path {
                 d: "M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3",
             }
-            
         }
     }
 }
@@ -60349,7 +59228,6 @@ impl IconShape for LdScroll {
             path {
                 d: "M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3",
             }
-            
         }
     }
 }
@@ -60400,7 +59278,6 @@ impl IconShape for LdSearchCheck {
             path {
                 d: "m21 21-4.3-4.3",
             }
-            
         }
     }
 }
@@ -60454,7 +59331,6 @@ impl IconShape for LdSearchCode {
             path {
                 d: "m21 21-4.3-4.3",
             }
-            
         }
     }
 }
@@ -60505,7 +59381,6 @@ impl IconShape for LdSearchSlash {
             path {
                 d: "m21 21-4.3-4.3",
             }
-            
         }
     }
 }
@@ -60559,7 +59434,6 @@ impl IconShape for LdSearchX {
             path {
                 d: "m21 21-4.3-4.3",
             }
-            
         }
     }
 }
@@ -60607,7 +59481,6 @@ impl IconShape for LdSearch {
             path {
                 d: "m21 21-4.3-4.3",
             }
-            
         }
     }
 }
@@ -60653,7 +59526,6 @@ impl IconShape for LdSendHorizontal {
             path {
                 d: "M6 12h16",
             }
-            
         }
     }
 }
@@ -60713,7 +59585,6 @@ impl IconShape for LdSendToBack {
             path {
                 d: "M14 7h1a2 2 0 0 1 2 2v1",
             }
-            
         }
     }
 }
@@ -60759,7 +59630,6 @@ impl IconShape for LdSend {
             path {
                 d: "M22 2 11 13",
             }
-            
         }
     }
 }
@@ -60811,7 +59681,6 @@ impl IconShape for LdSeparatorHorizontal {
             polyline {
                 points: "16 16 12 20 8 16",
             }
-            
         }
     }
 }
@@ -60863,7 +59732,6 @@ impl IconShape for LdSeparatorVertical {
             polyline {
                 points: "16 16 20 12 16 8",
             }
-            
         }
     }
 }
@@ -60944,7 +59812,6 @@ impl IconShape for LdServerCog {
             path {
                 d: "m13.4 8.3-.3.9",
             }
-            
         }
     }
 }
@@ -60999,7 +59866,6 @@ impl IconShape for LdServerCrash {
             path {
                 d: "m13 6-4 6h6l-4 6",
             }
-            
         }
     }
 }
@@ -61057,7 +59923,6 @@ impl IconShape for LdServerOff {
             path {
                 d: "m2 2 20 20",
             }
-            
         }
     }
 }
@@ -61125,7 +59990,6 @@ impl IconShape for LdServer {
                 y1: "18",
                 y2: "18",
             }
-            
         }
     }
 }
@@ -61181,7 +60045,6 @@ impl IconShape for LdSettings2 {
                 cy: "7",
                 r: "3",
             }
-            
         }
     }
 }
@@ -61229,7 +60092,6 @@ impl IconShape for LdSettings {
                 cy: "12",
                 r: "3",
             }
-            
         }
     }
 }
@@ -61284,7 +60146,6 @@ impl IconShape for LdShapes {
                 cy: "17.5",
                 r: "3.5",
             }
-            
         }
     }
 }
@@ -61351,7 +60212,6 @@ impl IconShape for LdShare2 {
                 y1: "6.51",
                 y2: "10.49",
             }
-            
         }
     }
 }
@@ -61403,7 +60263,6 @@ impl IconShape for LdShare {
                 y1: "2",
                 y2: "15",
             }
-            
         }
     }
 }
@@ -61475,7 +60334,6 @@ impl IconShape for LdSheet {
                 y1: "9",
                 y2: "21",
             }
-            
         }
     }
 }
@@ -61518,7 +60376,6 @@ impl IconShape for LdShell {
             path {
                 d: "M14 11a2 2 0 1 1-4 0 4 4 0 0 1 8 0 6 6 0 0 1-12 0 8 8 0 0 1 16 0 10 10 0 1 1-20 0 11.93 11.93 0 0 1 2.42-7.22 2 2 0 1 1 3.16 2.44",
             }
-            
         }
     }
 }
@@ -61567,7 +60424,6 @@ impl IconShape for LdShieldAlert {
             path {
                 d: "M12 16h.01",
             }
-            
         }
     }
 }
@@ -61613,7 +60469,6 @@ impl IconShape for LdShieldBan {
             path {
                 d: "m4.243 5.21 14.39 12.472",
             }
-            
         }
     }
 }
@@ -61659,7 +60514,6 @@ impl IconShape for LdShieldCheck {
             path {
                 d: "m9 12 2 2 4-4",
             }
-            
         }
     }
 }
@@ -61711,7 +60565,6 @@ impl IconShape for LdShieldEllipsis {
             path {
                 d: "M16 12h.01",
             }
-            
         }
     }
 }
@@ -61757,7 +60610,6 @@ impl IconShape for LdShieldHalf {
             path {
                 d: "M12 22V2",
             }
-            
         }
     }
 }
@@ -61803,7 +60655,6 @@ impl IconShape for LdShieldMinus {
             path {
                 d: "M9 12h6",
             }
-            
         }
     }
 }
@@ -61852,7 +60703,6 @@ impl IconShape for LdShieldOff {
             path {
                 d: "M9.309 3.652A12.252 12.252 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a9.784 9.784 0 0 1-.08 1.264",
             }
-            
         }
     }
 }
@@ -61901,7 +60751,6 @@ impl IconShape for LdShieldPlus {
             path {
                 d: "M12 9v6",
             }
-            
         }
     }
 }
@@ -61950,7 +60799,6 @@ impl IconShape for LdShieldQuestion {
             path {
                 d: "M12 17h.01",
             }
-            
         }
     }
 }
@@ -61999,7 +60847,6 @@ impl IconShape for LdShieldX {
             path {
                 d: "m9.5 9.5 5 5",
             }
-            
         }
     }
 }
@@ -62042,7 +60889,6 @@ impl IconShape for LdShield {
             path {
                 d: "M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",
             }
-            
         }
     }
 }
@@ -62116,7 +60962,6 @@ impl IconShape for LdShipWheel {
                 cy: "12",
                 r: "2.5",
             }
-            
         }
     }
 }
@@ -62171,7 +61016,6 @@ impl IconShape for LdShip {
             path {
                 d: "M12 2v3",
             }
-            
         }
     }
 }
@@ -62214,7 +61058,6 @@ impl IconShape for LdShirt {
             path {
                 d: "M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z",
             }
-            
         }
     }
 }
@@ -62263,7 +61106,6 @@ impl IconShape for LdShoppingBag {
             path {
                 d: "M16 10a4 4 0 0 1-8 0",
             }
-            
         }
     }
 }
@@ -62324,7 +61166,6 @@ impl IconShape for LdShoppingBasket {
             path {
                 d: "m9 11 1 9",
             }
-            
         }
     }
 }
@@ -62377,7 +61218,6 @@ impl IconShape for LdShoppingCart {
             path {
                 d: "M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12",
             }
-            
         }
     }
 }
@@ -62426,7 +61266,6 @@ impl IconShape for LdShovel {
             path {
                 d: "m17 2 5 5-.5.5a3.53 3.53 0 0 1-5 0s0 0 0 0a3.53 3.53 0 0 1 0-5L17 2",
             }
-            
         }
     }
 }
@@ -62496,7 +61335,6 @@ impl IconShape for LdShowerHead {
             path {
                 d: "M20 11v.01",
             }
-            
         }
     }
 }
@@ -62548,7 +61386,6 @@ impl IconShape for LdShrink {
             path {
                 d: "M9 4.2V9m0 0H4.2M9 9 3 3",
             }
-            
         }
     }
 }
@@ -62597,7 +61434,6 @@ impl IconShape for LdShrub {
             path {
                 d: "m14 14-2 2",
             }
-            
         }
     }
 }
@@ -62652,7 +61488,6 @@ impl IconShape for LdShuffle {
             path {
                 d: "m18 14 4 4-4 4",
             }
-            
         }
     }
 }
@@ -62695,7 +61530,6 @@ impl IconShape for LdSigma {
             path {
                 d: "M18 7V4H6l6 8-6 8h12v-3",
             }
-            
         }
     }
 }
@@ -62747,7 +61581,6 @@ impl IconShape for LdSignalHigh {
             path {
                 d: "M17 20V8",
             }
-            
         }
     }
 }
@@ -62793,7 +61626,6 @@ impl IconShape for LdSignalLow {
             path {
                 d: "M7 20v-4",
             }
-            
         }
     }
 }
@@ -62842,7 +61674,6 @@ impl IconShape for LdSignalMedium {
             path {
                 d: "M12 20v-8",
             }
-            
         }
     }
 }
@@ -62885,7 +61716,6 @@ impl IconShape for LdSignalZero {
             path {
                 d: "M2 20h.01",
             }
-            
         }
     }
 }
@@ -62940,7 +61770,6 @@ impl IconShape for LdSignal {
             path {
                 d: "M22 4v16",
             }
-            
         }
     }
 }
@@ -62992,7 +61821,6 @@ impl IconShape for LdSignpostBig {
             path {
                 d: "M8 22h8",
             }
-            
         }
     }
 }
@@ -63041,7 +61869,6 @@ impl IconShape for LdSignpost {
             path {
                 d: "M12 13v8",
             }
-            
         }
     }
 }
@@ -63105,7 +61932,6 @@ impl IconShape for LdSiren {
             path {
                 d: "M12 12v6",
             }
-            
         }
     }
 }
@@ -63154,7 +61980,6 @@ impl IconShape for LdSkipBack {
                 y1: "19",
                 y2: "5",
             }
-            
         }
     }
 }
@@ -63203,7 +62028,6 @@ impl IconShape for LdSkipForward {
                 y1: "5",
                 y2: "19",
             }
-            
         }
     }
 }
@@ -63262,7 +62086,6 @@ impl IconShape for LdSkull {
             path {
                 d: "M16 20a2 2 0 0 0 1.56-3.25 8 8 0 1 0-11.12 0A2 2 0 0 0 8 20",
             }
-            
         }
     }
 }
@@ -63342,7 +62165,6 @@ impl IconShape for LdSlack {
             path {
                 d: "M8.5 5H10V3.5A1.5 1.5 0 1 0 8.5 5",
             }
-            
         }
     }
 }
@@ -63385,7 +62207,6 @@ impl IconShape for LdSlash {
             path {
                 d: "M22 2 2 22",
             }
-            
         }
     }
 }
@@ -63431,7 +62252,6 @@ impl IconShape for LdSlice {
             path {
                 d: "M18.37 3.63 8 14l3 3L21.37 6.63a2.12 2.12 0 1 0-3-3Z",
             }
-            
         }
     }
 }
@@ -63525,7 +62345,6 @@ impl IconShape for LdSlidersHorizontal {
                 y1: "18",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -63619,7 +62438,6 @@ impl IconShape for LdSlidersVertical {
                 y1: "16",
                 y2: "16",
             }
-            
         }
     }
 }
@@ -63670,7 +62488,6 @@ impl IconShape for LdSmartphoneCharging {
             path {
                 d: "M12.667 8 10 12h4l-2.667 4",
             }
-            
         }
     }
 }
@@ -63726,7 +62543,6 @@ impl IconShape for LdSmartphoneNfc {
             path {
                 d: "M19.91 4.1a15.91 15.91 0 0 1 .01 15.8",
             }
-            
         }
     }
 }
@@ -63777,7 +62593,6 @@ impl IconShape for LdSmartphone {
             path {
                 d: "M12 18h.01",
             }
-            
         }
     }
 }
@@ -63841,7 +62656,6 @@ impl IconShape for LdSmilePlus {
             path {
                 d: "M19 2v6",
             }
-            
         }
     }
 }
@@ -63901,7 +62715,6 @@ impl IconShape for LdSmile {
                 y1: "9",
                 y2: "9",
             }
-            
         }
     }
 }
@@ -63958,7 +62771,6 @@ impl IconShape for LdSnail {
             path {
                 d: "M22 3 20.9 5.2",
             }
-            
         }
     }
 }
@@ -64022,7 +62834,6 @@ impl IconShape for LdSnowflake {
             path {
                 d: "m8 20 4-4 4 4",
             }
-            
         }
     }
 }
@@ -64077,7 +62888,6 @@ impl IconShape for LdSofa {
             path {
                 d: "M12 4v9",
             }
-            
         }
     }
 }
@@ -64135,7 +62945,6 @@ impl IconShape for LdSoup {
             path {
                 d: "M6.25 3c.27.1.8.53.75 1.36-.06.83-.93 1.2-1 2.02-.05.78.34 1.24.74 1.62",
             }
-            
         }
     }
 }
@@ -64178,7 +62987,6 @@ impl IconShape for LdSpace {
             path {
                 d: "M22 17v1c0 .5-.5 1-1 1H3c-.5 0-1-.5-1-1v-1",
             }
-            
         }
     }
 }
@@ -64224,7 +63032,6 @@ impl IconShape for LdSpade {
             path {
                 d: "M12 18v4",
             }
-            
         }
     }
 }
@@ -64267,7 +63074,6 @@ impl IconShape for LdSparkle {
             path {
                 d: "m12 3-1.9 5.8a2 2 0 0 1-1.287 1.288L3 12l5.8 1.9a2 2 0 0 1 1.288 1.287L12 21l1.9-5.8a2 2 0 0 1 1.287-1.288L21 12l-5.8-1.9a2 2 0 0 1-1.288-1.287Z",
             }
-            
         }
     }
 }
@@ -64322,7 +63128,6 @@ impl IconShape for LdSparkles {
             path {
                 d: "M17 19h4",
             }
-            
         }
     }
 }
@@ -64380,7 +63185,6 @@ impl IconShape for LdSpeaker {
             path {
                 d: "M12 14h.01",
             }
-            
         }
     }
 }
@@ -64429,7 +63233,6 @@ impl IconShape for LdSpeech {
             path {
                 d: "M17 15a3.5 3.5 0 0 0-.025-4.975",
             }
-            
         }
     }
 }
@@ -64478,7 +63281,6 @@ impl IconShape for LdSpellCheck2 {
             path {
                 d: "M4 21c1.1 0 1.1-1 2.3-1s1.1 1 2.3 1c1.1 0 1.1-1 2.3-1 1.1 0 1.1 1 2.3 1 1.1 0 1.1-1 2.3-1 1.1 0 1.1 1 2.3 1 1.1 0 1.1-1 2.3-1",
             }
-            
         }
     }
 }
@@ -64527,7 +63329,6 @@ impl IconShape for LdSpellCheck {
             path {
                 d: "m16 20 2 2 4-4",
             }
-            
         }
     }
 }
@@ -64580,7 +63381,6 @@ impl IconShape for LdSpline {
             path {
                 d: "M5 17A12 12 0 0 1 17 5",
             }
-            
         }
     }
 }
@@ -64632,7 +63432,6 @@ impl IconShape for LdSplit {
             path {
                 d: "m15 9 6-6",
             }
-            
         }
     }
 }
@@ -64705,7 +63504,6 @@ impl IconShape for LdSprayCan {
             path {
                 d: "m13 19 8-2",
             }
-            
         }
     }
 }
@@ -64757,7 +63555,6 @@ impl IconShape for LdSprout {
             path {
                 d: "M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z",
             }
-            
         }
     }
 }
@@ -64807,7 +63604,6 @@ impl IconShape for LdSquareActivity {
             path {
                 d: "M17 12h-2l-2 5-2-10-2 5H7",
             }
-            
         }
     }
 }
@@ -64860,7 +63656,6 @@ impl IconShape for LdSquareArrowDownLeft {
             path {
                 d: "M16 16H8V8",
             }
-            
         }
     }
 }
@@ -64913,7 +63708,6 @@ impl IconShape for LdSquareArrowDownRight {
             path {
                 d: "M16 8v8H8",
             }
-            
         }
     }
 }
@@ -64966,7 +63760,6 @@ impl IconShape for LdSquareArrowDown {
             path {
                 d: "m8 12 4 4 4-4",
             }
-            
         }
     }
 }
@@ -65019,7 +63812,6 @@ impl IconShape for LdSquareArrowLeft {
             path {
                 d: "M16 12H8",
             }
-            
         }
     }
 }
@@ -65068,7 +63860,6 @@ impl IconShape for LdSquareArrowOutDownLeft {
             path {
                 d: "M9 21H3v-6",
             }
-            
         }
     }
 }
@@ -65117,7 +63908,6 @@ impl IconShape for LdSquareArrowOutDownRight {
             path {
                 d: "M21 15v6h-6",
             }
-            
         }
     }
 }
@@ -65166,7 +63956,6 @@ impl IconShape for LdSquareArrowOutUpLeft {
             path {
                 d: "M3 9V3h6",
             }
-            
         }
     }
 }
@@ -65215,7 +64004,6 @@ impl IconShape for LdSquareArrowOutUpRight {
             path {
                 d: "M15 3h6v6",
             }
-            
         }
     }
 }
@@ -65268,7 +64056,6 @@ impl IconShape for LdSquareArrowRight {
             path {
                 d: "m12 16 4-4-4-4",
             }
-            
         }
     }
 }
@@ -65321,7 +64108,6 @@ impl IconShape for LdSquareArrowUpLeft {
             path {
                 d: "M16 16 8 8",
             }
-            
         }
     }
 }
@@ -65374,7 +64160,6 @@ impl IconShape for LdSquareArrowUpRight {
             path {
                 d: "m8 16 8-8",
             }
-            
         }
     }
 }
@@ -65427,7 +64212,6 @@ impl IconShape for LdSquareArrowUp {
             path {
                 d: "M12 16V8",
             }
-            
         }
     }
 }
@@ -65483,7 +64267,6 @@ impl IconShape for LdSquareAsterisk {
             path {
                 d: "m8.5 10 7 4",
             }
-            
         }
     }
 }
@@ -65551,7 +64334,6 @@ impl IconShape for LdSquareBottomDashedScissors {
             path {
                 d: "m18 6-8.586 8.586",
             }
-            
         }
     }
 }
@@ -65597,7 +64379,6 @@ impl IconShape for LdSquareCheckBig {
             path {
                 d: "M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11",
             }
-            
         }
     }
 }
@@ -65647,7 +64428,6 @@ impl IconShape for LdSquareCheck {
             path {
                 d: "m9 12 2 2 4-4",
             }
-            
         }
     }
 }
@@ -65697,7 +64477,6 @@ impl IconShape for LdSquareChevronDown {
             path {
                 d: "m16 10-4 4-4-4",
             }
-            
         }
     }
 }
@@ -65747,7 +64526,6 @@ impl IconShape for LdSquareChevronLeft {
             path {
                 d: "m14 16-4-4 4-4",
             }
-            
         }
     }
 }
@@ -65797,7 +64575,6 @@ impl IconShape for LdSquareChevronRight {
             path {
                 d: "m10 8 4 4-4 4",
             }
-            
         }
     }
 }
@@ -65847,7 +64624,6 @@ impl IconShape for LdSquareChevronUp {
             path {
                 d: "m8 14 4-4 4 4",
             }
-            
         }
     }
 }
@@ -65900,7 +64676,6 @@ impl IconShape for LdSquareCode {
             path {
                 d: "m14 14 2-2-2-2",
             }
-            
         }
     }
 }
@@ -65955,7 +64730,6 @@ impl IconShape for LdSquareDashedBottomCode {
             path {
                 d: "M14 21h1",
             }
-            
         }
     }
 }
@@ -66004,7 +64778,6 @@ impl IconShape for LdSquareDashedBottom {
             path {
                 d: "M14 21h1",
             }
-            
         }
     }
 }
@@ -66089,7 +64862,6 @@ impl IconShape for LdSquareDashedKanban {
             path {
                 d: "M3 9v1",
             }
-            
         }
     }
 }
@@ -66159,7 +64931,6 @@ impl IconShape for LdSquareDashedMousePointer {
             path {
                 d: "M3 14v1",
             }
-            
         }
     }
 }
@@ -66225,7 +64996,6 @@ impl IconShape for LdSquareDivide {
                 y1: "8",
                 y2: "8",
             }
-            
         }
     }
 }
@@ -66277,7 +65047,6 @@ impl IconShape for LdSquareDot {
                 cy: "12",
                 r: "1",
             }
-            
         }
     }
 }
@@ -66330,7 +65099,6 @@ impl IconShape for LdSquareEqual {
             path {
                 d: "M7 14h10",
             }
-            
         }
     }
 }
@@ -66384,7 +65152,6 @@ impl IconShape for LdSquareFunction {
             path {
                 d: "M9 11.2h5.7",
             }
-            
         }
     }
 }
@@ -66440,7 +65207,6 @@ impl IconShape for LdSquareGanttChart {
             path {
                 d: "M11 16h5",
             }
-            
         }
     }
 }
@@ -66496,7 +65262,6 @@ impl IconShape for LdSquareKanban {
             path {
                 d: "M16 7v9",
             }
-            
         }
     }
 }
@@ -66552,7 +65317,6 @@ impl IconShape for LdSquareLibrary {
             path {
                 d: "m15 7 2 10",
             }
-            
         }
     }
 }
@@ -66602,7 +65366,6 @@ impl IconShape for LdSquareM {
             path {
                 d: "M8 16V8l4 4 4-4v8",
             }
-            
         }
     }
 }
@@ -66658,7 +65421,6 @@ impl IconShape for LdSquareMenu {
             path {
                 d: "M7 16h10",
             }
-            
         }
     }
 }
@@ -66708,7 +65470,6 @@ impl IconShape for LdSquareMinus {
             path {
                 d: "M8 12h8",
             }
-            
         }
     }
 }
@@ -66754,7 +65515,6 @@ impl IconShape for LdSquareMousePointer {
             path {
                 d: "m12 12 4 10 1.7-4.3L22 16Z",
             }
-            
         }
     }
 }
@@ -66809,7 +65569,6 @@ impl IconShape for LdSquareParkingOff {
             path {
                 d: "M9 17v-2.3",
             }
-            
         }
     }
 }
@@ -66859,7 +65618,6 @@ impl IconShape for LdSquareParking {
             path {
                 d: "M9 17V7h4a3 3 0 0 1 0 6H9",
             }
-            
         }
     }
 }
@@ -66905,7 +65663,6 @@ impl IconShape for LdSquarePen {
             path {
                 d: "M18.375 2.625a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4Z",
             }
-            
         }
     }
 }
@@ -66961,7 +65718,6 @@ impl IconShape for LdSquarePercent {
             path {
                 d: "M15 15h.01",
             }
-            
         }
     }
 }
@@ -67017,7 +65773,6 @@ impl IconShape for LdSquarePi {
             path {
                 d: "M16 17a2 2 0 0 1-2-2V7",
             }
-            
         }
     }
 }
@@ -67073,7 +65828,6 @@ impl IconShape for LdSquarePilcrow {
             path {
                 d: "M16 7v10",
             }
-            
         }
     }
 }
@@ -67123,7 +65877,6 @@ impl IconShape for LdSquarePlay {
             path {
                 d: "m9 8 6 4-6 4Z",
             }
-            
         }
     }
 }
@@ -67176,7 +65929,6 @@ impl IconShape for LdSquarePlus {
             path {
                 d: "M12 8v8",
             }
-            
         }
     }
 }
@@ -67229,7 +65981,6 @@ impl IconShape for LdSquarePower {
             path {
                 d: "M8 9a5.14 5.14 0 0 0 4 8 4.95 4.95 0 0 0 4-8",
             }
-            
         }
     }
 }
@@ -67279,7 +66030,6 @@ impl IconShape for LdSquareRadical {
                 x: "3",
                 y: "3",
             }
-            
         }
     }
 }
@@ -67345,7 +66095,6 @@ impl IconShape for LdSquareScissors {
             path {
                 d: "m18 6-8.586 8.586",
             }
-            
         }
     }
 }
@@ -67395,7 +66144,6 @@ impl IconShape for LdSquareSigma {
             path {
                 d: "M16 8.9V7H8l4 5-4 5h8v-1.9",
             }
-            
         }
     }
 }
@@ -67448,7 +66196,6 @@ impl IconShape for LdSquareSlash {
                 y1: "15",
                 y2: "9",
             }
-            
         }
     }
 }
@@ -67500,7 +66247,6 @@ impl IconShape for LdSquareSplitHorizontal {
                 y1: "4",
                 y2: "20",
             }
-            
         }
     }
 }
@@ -67552,7 +66298,6 @@ impl IconShape for LdSquareSplitVertical {
                 y1: "12",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -67605,7 +66350,6 @@ impl IconShape for LdSquareStack {
                 x: "14",
                 y: "14",
             }
-            
         }
     }
 }
@@ -67659,7 +66403,6 @@ impl IconShape for LdSquareTerminal {
                 x: "3",
                 y: "3",
             }
-            
         }
     }
 }
@@ -67714,7 +66457,6 @@ impl IconShape for LdSquareUserRound {
                 x: "3",
                 y: "3",
             }
-            
         }
     }
 }
@@ -67769,7 +66511,6 @@ impl IconShape for LdSquareUser {
             path {
                 d: "M7 21v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2",
             }
-            
         }
     }
 }
@@ -67823,7 +66564,6 @@ impl IconShape for LdSquareX {
             path {
                 d: "m9 9 6 6",
             }
-            
         }
     }
 }
@@ -67870,7 +66610,6 @@ impl IconShape for LdSquare {
                 x: "3",
                 y: "3",
             }
-            
         }
     }
 }
@@ -67913,7 +66652,6 @@ impl IconShape for LdSquircle {
             path {
                 d: "M12 3c7.2 0 9 1.8 9 9s-1.8 9-9 9-9-1.8-9-9 1.8-9 9-9",
             }
-            
         }
     }
 }
@@ -67965,7 +66703,6 @@ impl IconShape for LdSquirrel {
             path {
                 d: "M18 6a4 4 0 0 0-4 4 7 7 0 0 0-7 7c0-5 4-5 4-10.5a4.5 4.5 0 1 0-9 0 2.5 2.5 0 0 0 5 0C7 10 3 11 3 17c0 2.8 2.2 5 5 5h10",
             }
-            
         }
     }
 }
@@ -68014,7 +66751,6 @@ impl IconShape for LdStamp {
             path {
                 d: "M14 13V8.5C14 7 15 7 15 5a3 3 0 0 0-3-3c-1.66 0-3 1-3 3s1 2 1 3.5V13",
             }
-            
         }
     }
 }
@@ -68057,7 +66793,6 @@ impl IconShape for LdStarHalf {
             path {
                 d: "M12 17.8 5.8 21 7 14.1 2 9.3l7-1L12 2",
             }
-            
         }
     }
 }
@@ -68109,7 +66844,6 @@ impl IconShape for LdStarOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -68152,7 +66886,6 @@ impl IconShape for LdStar {
             polygon {
                 points: "12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2",
             }
-            
         }
     }
 }
@@ -68201,7 +66934,6 @@ impl IconShape for LdStepBack {
             polygon {
                 points: "14,20 4,12 14,4",
             }
-            
         }
     }
 }
@@ -68250,7 +66982,6 @@ impl IconShape for LdStepForward {
             polygon {
                 points: "10,4 20,12 10,20",
             }
-            
         }
     }
 }
@@ -68301,7 +67032,6 @@ impl IconShape for LdStethoscope {
                 cy: "10",
                 r: "2",
             }
-            
         }
     }
 }
@@ -68356,7 +67086,6 @@ impl IconShape for LdSticker {
             path {
                 d: "M10 16s.8 1 2 1c1.3 0 2-1 2-1",
             }
-            
         }
     }
 }
@@ -68402,7 +67131,6 @@ impl IconShape for LdStickyNote {
             path {
                 d: "M15 3v4a2 2 0 0 0 2 2h4",
             }
-            
         }
     }
 }
@@ -68457,7 +67185,6 @@ impl IconShape for LdStore {
             path {
                 d: "M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7",
             }
-            
         }
     }
 }
@@ -68511,7 +67238,6 @@ impl IconShape for LdStretchHorizontal {
                 x: "2",
                 y: "14",
             }
-            
         }
     }
 }
@@ -68565,7 +67291,6 @@ impl IconShape for LdStretchVertical {
                 x: "14",
                 y: "2",
             }
-            
         }
     }
 }
@@ -68617,7 +67342,6 @@ impl IconShape for LdStrikethrough {
                 y1: "12",
                 y2: "12",
             }
-            
         }
     }
 }
@@ -68666,7 +67390,6 @@ impl IconShape for LdSubscript {
             path {
                 d: "M20 19h-4c0-1.5.44-2 1.5-2.5S20 15.33 20 14c0-.47-.17-.93-.48-1.29a2.11 2.11 0 0 0-2.62-.44c-.42.24-.74.62-.9 1.07",
             }
-            
         }
     }
 }
@@ -68735,7 +67458,6 @@ impl IconShape for LdSunDim {
             path {
                 d: "M6.343 6.343h.01",
             }
-            
         }
     }
 }
@@ -68804,7 +67526,6 @@ impl IconShape for LdSunMedium {
             path {
                 d: "m17.657 17.657.707.707",
             }
-            
         }
     }
 }
@@ -68871,7 +67592,6 @@ impl IconShape for LdSunMoon {
             path {
                 d: "m19.1 4.9-1.4 1.4",
             }
-            
         }
     }
 }
@@ -68944,7 +67664,6 @@ impl IconShape for LdSunSnow {
             path {
                 d: "m21 15-3-3 3-3",
             }
-            
         }
     }
 }
@@ -69013,7 +67732,6 @@ impl IconShape for LdSun {
             path {
                 d: "m19.07 4.93-1.41 1.41",
             }
-            
         }
     }
 }
@@ -69077,7 +67795,6 @@ impl IconShape for LdSunrise {
             path {
                 d: "M16 18a4 4 0 0 0-8 0",
             }
-            
         }
     }
 }
@@ -69141,7 +67858,6 @@ impl IconShape for LdSunset {
             path {
                 d: "M16 18a4 4 0 0 0-8 0",
             }
-            
         }
     }
 }
@@ -69190,7 +67906,6 @@ impl IconShape for LdSuperscript {
             path {
                 d: "M20 12h-4c0-1.5.442-2 1.5-2.5S20 8.334 20 7.002c0-.472-.17-.93-.484-1.29a2.105 2.105 0 0 0-2.617-.436c-.42.239-.738.614-.899 1.06",
             }
-            
         }
     }
 }
@@ -69242,7 +67957,6 @@ impl IconShape for LdSwatchBook {
             path {
                 d: "m11 8 2.3-2.3a2.4 2.4 0 0 1 3.404.004L18.6 7.6a2.4 2.4 0 0 1 .026 3.434L9.9 19.8",
             }
-            
         }
     }
 }
@@ -69291,7 +68005,6 @@ impl IconShape for LdSwissFranc {
             path {
                 d: "M10 9.5h7",
             }
-            
         }
     }
 }
@@ -69348,7 +68061,6 @@ impl IconShape for LdSwitchCamera {
             path {
                 d: "m6 2 3 3-3 3",
             }
-            
         }
     }
 }
@@ -69409,7 +68121,6 @@ impl IconShape for LdSword {
                 y1: "21",
                 y2: "19",
             }
-            
         }
     }
 }
@@ -69491,7 +68202,6 @@ impl IconShape for LdSwords {
                 y1: "19",
                 y2: "21",
             }
-            
         }
     }
 }
@@ -69549,7 +68259,6 @@ impl IconShape for LdSyringe {
             path {
                 d: "m14 4 6 6",
             }
-            
         }
     }
 }
@@ -69592,7 +68301,6 @@ impl IconShape for LdTable2 {
             path {
                 d: "M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18",
             }
-            
         }
     }
 }
@@ -69651,7 +68359,6 @@ impl IconShape for LdTableCellsMerge {
                 x: "3",
                 y: "3",
             }
-            
         }
     }
 }
@@ -69707,7 +68414,6 @@ impl IconShape for LdTableCellsSplit {
                 x: "3",
                 y: "3",
             }
-            
         }
     }
 }
@@ -69780,7 +68486,6 @@ impl IconShape for LdTableColumnsSplit {
             path {
                 d: "M5 3v18",
             }
-            
         }
     }
 }
@@ -69836,7 +68541,6 @@ impl IconShape for LdTableProperties {
             path {
                 d: "M21 15H3",
             }
-            
         }
     }
 }
@@ -69909,7 +68613,6 @@ impl IconShape for LdTableRowsSplit {
             path {
                 d: "M9 2v4",
             }
-            
         }
     }
 }
@@ -69965,7 +68668,6 @@ impl IconShape for LdTable {
             path {
                 d: "M3 15h18",
             }
-            
         }
     }
 }
@@ -70018,7 +68720,6 @@ impl IconShape for LdTabletSmartphone {
             path {
                 d: "M8 18h.01",
             }
-            
         }
     }
 }
@@ -70072,7 +68773,6 @@ impl IconShape for LdTablet {
                 y1: "18",
                 y2: "18",
             }
-            
         }
     }
 }
@@ -70128,7 +68828,6 @@ impl IconShape for LdTablets {
             path {
                 d: "m3.46 10.54 7.08-7.08",
             }
-            
         }
     }
 }
@@ -70176,7 +68875,6 @@ impl IconShape for LdTag {
                 cy: "7.5",
                 r: ".5",
             }
-            
         }
     }
 }
@@ -70227,7 +68925,6 @@ impl IconShape for LdTags {
                 cy: "9.5",
                 r: ".5",
             }
-            
         }
     }
 }
@@ -70270,7 +68967,6 @@ impl IconShape for LdTally1 {
             path {
                 d: "M4 4v16",
             }
-            
         }
     }
 }
@@ -70316,7 +69012,6 @@ impl IconShape for LdTally2 {
             path {
                 d: "M9 4v16",
             }
-            
         }
     }
 }
@@ -70365,7 +69060,6 @@ impl IconShape for LdTally3 {
             path {
                 d: "M14 4v16",
             }
-            
         }
     }
 }
@@ -70417,7 +69111,6 @@ impl IconShape for LdTally4 {
             path {
                 d: "M19 4v16",
             }
-            
         }
     }
 }
@@ -70472,7 +69165,6 @@ impl IconShape for LdTally5 {
             path {
                 d: "M22 6 2 18",
             }
-            
         }
     }
 }
@@ -70528,7 +69220,6 @@ impl IconShape for LdTangent {
             path {
                 d: "M12 22s-4-9-1.5-11.5S22 12 22 12",
             }
-            
         }
     }
 }
@@ -70583,7 +69274,6 @@ impl IconShape for LdTarget {
                 cy: "12",
                 r: "2",
             }
-            
         }
     }
 }
@@ -70646,7 +69336,6 @@ impl IconShape for LdTelescope {
                 cy: "13",
                 r: "2",
             }
-            
         }
     }
 }
@@ -70709,7 +69398,6 @@ impl IconShape for LdTentTree {
             path {
                 d: "m9 14 5 8",
             }
-            
         }
     }
 }
@@ -70761,7 +69449,6 @@ impl IconShape for LdTent {
             path {
                 d: "M2 21h20",
             }
-            
         }
     }
 }
@@ -70810,7 +69497,6 @@ impl IconShape for LdTerminal {
                 y1: "19",
                 y2: "19",
             }
-            
         }
     }
 }
@@ -70859,7 +69545,6 @@ impl IconShape for LdTestTubeDiagonal {
             path {
                 d: "M12 16H4",
             }
-            
         }
     }
 }
@@ -70908,7 +69593,6 @@ impl IconShape for LdTestTube {
             path {
                 d: "M14.5 16h-5",
             }
-            
         }
     }
 }
@@ -70966,7 +69650,6 @@ impl IconShape for LdTestTubes {
             path {
                 d: "M20 16h-5",
             }
-            
         }
     }
 }
@@ -71021,7 +69704,6 @@ impl IconShape for LdTextCursorInput {
             path {
                 d: "M9 7v10",
             }
-            
         }
     }
 }
@@ -71070,7 +69752,6 @@ impl IconShape for LdTextCursor {
             path {
                 d: "M7 2h1a4 4 0 0 1 4 4v1",
             }
-            
         }
     }
 }
@@ -71122,7 +69803,6 @@ impl IconShape for LdTextQuote {
             path {
                 d: "M3 12v6",
             }
-            
         }
     }
 }
@@ -71179,7 +69859,6 @@ impl IconShape for LdTextSearch {
             path {
                 d: "m21 19-1.9-1.9",
             }
-            
         }
     }
 }
@@ -71273,7 +69952,6 @@ impl IconShape for LdTextSelect {
                 y1: "16",
                 y2: "16",
             }
-            
         }
     }
 }
@@ -71322,7 +70000,6 @@ impl IconShape for LdText {
             path {
                 d: "M15.1 18H3",
             }
-            
         }
     }
 }
@@ -71389,7 +70066,6 @@ impl IconShape for LdTheater {
             path {
                 d: "M14 22v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1",
             }
-            
         }
     }
 }
@@ -71447,7 +70123,6 @@ impl IconShape for LdThermometerSnowflake {
             path {
                 d: "M20 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z",
             }
-            
         }
     }
 }
@@ -71505,7 +70180,6 @@ impl IconShape for LdThermometerSun {
             path {
                 d: "M6.34 7.34 4.93 5.93",
             }
-            
         }
     }
 }
@@ -71548,7 +70222,6 @@ impl IconShape for LdThermometer {
             path {
                 d: "M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z",
             }
-            
         }
     }
 }
@@ -71594,7 +70267,6 @@ impl IconShape for LdThumbsDown {
             path {
                 d: "M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22h0a3.13 3.13 0 0 1-3-3.88Z",
             }
-            
         }
     }
 }
@@ -71640,7 +70312,6 @@ impl IconShape for LdThumbsUp {
             path {
                 d: "M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z",
             }
-            
         }
     }
 }
@@ -71686,7 +70357,6 @@ impl IconShape for LdTicketCheck {
             path {
                 d: "m9 12 2 2 4-4",
             }
-            
         }
     }
 }
@@ -71732,7 +70402,6 @@ impl IconShape for LdTicketMinus {
             path {
                 d: "M9 12h6",
             }
-            
         }
     }
 }
@@ -71784,7 +70453,6 @@ impl IconShape for LdTicketPercent {
             path {
                 d: "M15 15h.01",
             }
-            
         }
     }
 }
@@ -71833,7 +70501,6 @@ impl IconShape for LdTicketPlus {
             path {
                 d: "M12 9v6",
             }
-            
         }
     }
 }
@@ -71879,7 +70546,6 @@ impl IconShape for LdTicketSlash {
             path {
                 d: "m9.5 14.5 5-5",
             }
-            
         }
     }
 }
@@ -71928,7 +70594,6 @@ impl IconShape for LdTicketX {
             path {
                 d: "m9.5 9.5 5 5",
             }
-            
         }
     }
 }
@@ -71980,7 +70645,6 @@ impl IconShape for LdTicket {
             path {
                 d: "M13 11v2",
             }
-            
         }
     }
 }
@@ -72035,7 +70699,6 @@ impl IconShape for LdTimerOff {
             path {
                 d: "M12 12v-2",
             }
-            
         }
     }
 }
@@ -72087,7 +70750,6 @@ impl IconShape for LdTimerReset {
             path {
                 d: "M9 17H4v5",
             }
-            
         }
     }
 }
@@ -72144,7 +70806,6 @@ impl IconShape for LdTimer {
                 cy: "14",
                 r: "8",
             }
-            
         }
     }
 }
@@ -72197,7 +70858,6 @@ impl IconShape for LdToggleLeft {
                 cy: "12",
                 r: "2",
             }
-            
         }
     }
 }
@@ -72250,7 +70910,6 @@ impl IconShape for LdToggleRight {
                 cy: "12",
                 r: "2",
             }
-            
         }
     }
 }
@@ -72305,7 +70964,6 @@ impl IconShape for LdTornado {
             path {
                 d: "M11 20H9",
             }
-            
         }
     }
 }
@@ -72357,7 +71015,6 @@ impl IconShape for LdTorus {
                 rx: "10",
                 ry: "8.5",
             }
-            
         }
     }
 }
@@ -72415,7 +71072,6 @@ impl IconShape for LdTouchpadOff {
             path {
                 d: "M22 16V6a2 2 0 0 0-2-2H10",
             }
-            
         }
     }
 }
@@ -72468,7 +71124,6 @@ impl IconShape for LdTouchpad {
             path {
                 d: "M12 20v-6",
             }
-            
         }
     }
 }
@@ -72529,7 +71184,6 @@ impl IconShape for LdTowerControl {
             path {
                 d: "M13 2h-2",
             }
-            
         }
     }
 }
@@ -72582,7 +71236,6 @@ impl IconShape for LdToyBrick {
             path {
                 d: "M19 8V5c0-.6-.4-1-1-1h-3a1 1 0 0 0-1 1v3",
             }
-            
         }
     }
 }
@@ -72653,7 +71306,6 @@ impl IconShape for LdTractor {
                 cy: "15",
                 r: "5",
             }
-            
         }
     }
 }
@@ -72705,7 +71357,6 @@ impl IconShape for LdTrafficCone {
             path {
                 d: "m7.5 12.2-4.7 2.7c-.5.3-.8.7-.8 1.1s.3.8.8 1.1l7.6 4.5c.9.5 2.1.5 3 0l7.6-4.5c.7-.3 1-.7 1-1.1s-.3-.8-.8-1.1l-4.7-2.8",
             }
-            
         }
     }
 }
@@ -72766,7 +71417,6 @@ impl IconShape for LdTrainFrontTunnel {
             path {
                 d: "m15 19 2 3",
             }
-            
         }
     }
 }
@@ -72824,7 +71474,6 @@ impl IconShape for LdTrainFront {
             path {
                 d: "m16 19 2 3",
             }
-            
         }
     }
 }
@@ -72885,7 +71534,6 @@ impl IconShape for LdTrainTrack {
             path {
                 d: "M7 22 22 7",
             }
-            
         }
     }
 }
@@ -72950,7 +71598,6 @@ impl IconShape for LdTramFront {
             path {
                 d: "M16 15h.01",
             }
-            
         }
     }
 }
@@ -73011,7 +71658,6 @@ impl IconShape for LdTrash2 {
                 y1: "11",
                 y2: "17",
             }
-            
         }
     }
 }
@@ -73060,7 +71706,6 @@ impl IconShape for LdTrash {
             path {
                 d: "M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2",
             }
-            
         }
     }
 }
@@ -73106,7 +71751,6 @@ impl IconShape for LdTreeDeciduous {
             path {
                 d: "M12 19v3",
             }
-            
         }
     }
 }
@@ -73158,7 +71802,6 @@ impl IconShape for LdTreePalm {
             path {
                 d: "M11 15.5c.5 2.5-.17 4.5-1 6.5h4c2-5.5-.5-12-1-14",
             }
-            
         }
     }
 }
@@ -73204,7 +71847,6 @@ impl IconShape for LdTreePine {
             path {
                 d: "M12 22v-3",
             }
-            
         }
     }
 }
@@ -73256,7 +71898,6 @@ impl IconShape for LdTrees {
             path {
                 d: "M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5",
             }
-            
         }
     }
 }
@@ -73316,7 +71957,6 @@ impl IconShape for LdTrello {
                 x: "14",
                 y: "7",
             }
-            
         }
     }
 }
@@ -73362,7 +72002,6 @@ impl IconShape for LdTrendingDown {
             polyline {
                 points: "16 17 22 17 22 11",
             }
-            
         }
     }
 }
@@ -73408,7 +72047,6 @@ impl IconShape for LdTrendingUp {
             polyline {
                 points: "16 7 22 7 22 13",
             }
-            
         }
     }
 }
@@ -73457,7 +72095,6 @@ impl IconShape for LdTriangleAlert {
             path {
                 d: "M12 17h.01",
             }
-            
         }
     }
 }
@@ -73500,7 +72137,6 @@ impl IconShape for LdTriangleRight {
             path {
                 d: "M22 18a2 2 0 0 1-2 2H3c-1.1 0-1.3-.6-.4-1.3L20.4 4.3c.9-.7 1.6-.4 1.6.7Z",
             }
-            
         }
     }
 }
@@ -73543,7 +72179,6 @@ impl IconShape for LdTriangle {
             path {
                 d: "M13.73 4a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z",
             }
-            
         }
     }
 }
@@ -73601,7 +72236,6 @@ impl IconShape for LdTrophy {
             path {
                 d: "M18 2H6v7a6 6 0 0 0 12 0V2Z",
             }
-            
         }
     }
 }
@@ -73660,7 +72294,6 @@ impl IconShape for LdTruck {
                 cy: "18",
                 r: "2",
             }
-            
         }
     }
 }
@@ -73712,7 +72345,6 @@ impl IconShape for LdTurtle {
             path {
                 d: "M16.93 10H20a2 2 0 0 1 0 4H2",
             }
-            
         }
     }
 }
@@ -73762,7 +72394,6 @@ impl IconShape for LdTv2 {
                 x: "2",
                 y: "3",
             }
-            
         }
     }
 }
@@ -73813,7 +72444,6 @@ impl IconShape for LdTv {
             polyline {
                 points: "17 2 12 7 7 2",
             }
-            
         }
     }
 }
@@ -73856,7 +72486,6 @@ impl IconShape for LdTwitch {
             path {
                 d: "M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7",
             }
-            
         }
     }
 }
@@ -73899,7 +72528,6 @@ impl IconShape for LdTwitter {
             path {
                 d: "M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z",
             }
-            
         }
     }
 }
@@ -73954,7 +72582,6 @@ impl IconShape for LdType {
                 y1: "4",
                 y2: "20",
             }
-            
         }
     }
 }
@@ -74006,7 +72633,6 @@ impl IconShape for LdUmbrellaOff {
             path {
                 d: "m2 2 20 20",
             }
-            
         }
     }
 }
@@ -74055,7 +72681,6 @@ impl IconShape for LdUmbrella {
             path {
                 d: "M12 2v1",
             }
-            
         }
     }
 }
@@ -74104,7 +72729,6 @@ impl IconShape for LdUnderline {
                 y1: "20",
                 y2: "20",
             }
-            
         }
     }
 }
@@ -74150,7 +72774,6 @@ impl IconShape for LdUndo2 {
             path {
                 d: "M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5v0a5.5 5.5 0 0 1-5.5 5.5H11",
             }
-            
         }
     }
 }
@@ -74201,7 +72824,6 @@ impl IconShape for LdUndoDot {
             path {
                 d: "M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13",
             }
-            
         }
     }
 }
@@ -74247,7 +72869,6 @@ impl IconShape for LdUndo {
             path {
                 d: "M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13",
             }
-            
         }
     }
 }
@@ -74311,7 +72932,6 @@ impl IconShape for LdUnfoldHorizontal {
             path {
                 d: "m5 9-3 3 3 3",
             }
-            
         }
     }
 }
@@ -74375,7 +72995,6 @@ impl IconShape for LdUnfoldVertical {
             path {
                 d: "m15 5-3-3-3 3",
             }
-            
         }
     }
 }
@@ -74429,7 +73048,6 @@ impl IconShape for LdUngroup {
                 x: "11",
                 y: "14",
             }
-            
         }
     }
 }
@@ -74492,7 +73110,6 @@ impl IconShape for LdUniversity {
             path {
                 d: "M14 22v-5a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v5",
             }
-            
         }
     }
 }
@@ -74535,7 +73152,6 @@ impl IconShape for LdUnlink2 {
             path {
                 d: "M15 7h2a5 5 0 0 1 0 10h-2m-6 0H7A5 5 0 0 1 7 7h2",
             }
-            
         }
     }
 }
@@ -74605,7 +73221,6 @@ impl IconShape for LdUnlink {
                 y1: "16",
                 y2: "16",
             }
-            
         }
     }
 }
@@ -74663,7 +73278,6 @@ impl IconShape for LdUnplug {
             path {
                 d: "m12 6 6 6 2.3-2.3a2.4 2.4 0 0 0 0-3.4l-2.6-2.6a2.4 2.4 0 0 0-3.4 0Z",
             }
-            
         }
     }
 }
@@ -74715,7 +73329,6 @@ impl IconShape for LdUpload {
                 y1: "3",
                 y2: "15",
             }
-            
         }
     }
 }
@@ -74780,7 +73393,6 @@ impl IconShape for LdUsb {
             path {
                 d: "m18 12 1-1 1 1-1 1Z",
             }
-            
         }
     }
 }
@@ -74831,7 +73443,6 @@ impl IconShape for LdUserCheck {
             polyline {
                 points: "16 11 18 13 22 9",
             }
-            
         }
     }
 }
@@ -74908,7 +73519,6 @@ impl IconShape for LdUserCog {
             path {
                 d: "m20.7 13.8 1-.4",
             }
-            
         }
     }
 }
@@ -74962,7 +73572,6 @@ impl IconShape for LdUserMinus {
                 y1: "11",
                 y2: "11",
             }
-            
         }
     }
 }
@@ -75022,7 +73631,6 @@ impl IconShape for LdUserPlus {
                 y1: "11",
                 y2: "11",
             }
-            
         }
     }
 }
@@ -75073,7 +73681,6 @@ impl IconShape for LdUserRoundCheck {
             path {
                 d: "m16 19 2 2 4-4",
             }
-            
         }
     }
 }
@@ -75150,7 +73757,6 @@ impl IconShape for LdUserRoundCog {
             path {
                 d: "m16.9 15.2-.4-.9",
             }
-            
         }
     }
 }
@@ -75201,7 +73807,6 @@ impl IconShape for LdUserRoundMinus {
             path {
                 d: "M22 19h-6",
             }
-            
         }
     }
 }
@@ -75255,7 +73860,6 @@ impl IconShape for LdUserRoundPlus {
             path {
                 d: "M22 19h-6",
             }
-            
         }
     }
 }
@@ -75311,7 +73915,6 @@ impl IconShape for LdUserRoundSearch {
             path {
                 d: "m22 22-1.9-1.9",
             }
-            
         }
     }
 }
@@ -75365,7 +73968,6 @@ impl IconShape for LdUserRoundX {
             path {
                 d: "m22 17-5 5",
             }
-            
         }
     }
 }
@@ -75413,7 +74015,6 @@ impl IconShape for LdUserRound {
             path {
                 d: "M20 21a8 8 0 0 0-16 0",
             }
-            
         }
     }
 }
@@ -75469,7 +74070,6 @@ impl IconShape for LdUserSearch {
             path {
                 d: "m21 21-1.9-1.9",
             }
-            
         }
     }
 }
@@ -75529,7 +74129,6 @@ impl IconShape for LdUserX {
                 y1: "8",
                 y2: "13",
             }
-            
         }
     }
 }
@@ -75577,7 +74176,6 @@ impl IconShape for LdUser {
                 cy: "7",
                 r: "4",
             }
-            
         }
     }
 }
@@ -75628,7 +74226,6 @@ impl IconShape for LdUsersRound {
             path {
                 d: "M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3",
             }
-            
         }
     }
 }
@@ -75682,7 +74279,6 @@ impl IconShape for LdUsers {
             path {
                 d: "M16 3.13a4 4 0 0 1 0 7.75",
             }
-            
         }
     }
 }
@@ -75734,7 +74330,6 @@ impl IconShape for LdUtensilsCrossed {
             path {
                 d: "m19 5-7 7",
             }
-            
         }
     }
 }
@@ -75783,7 +74378,6 @@ impl IconShape for LdUtensils {
             path {
                 d: "M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7",
             }
-            
         }
     }
 }
@@ -75844,7 +74438,6 @@ impl IconShape for LdUtilityPole {
             path {
                 d: "m19 5-7 7-7-7",
             }
-            
         }
     }
 }
@@ -75902,7 +74495,6 @@ impl IconShape for LdVariable {
                 y1: "9",
                 y2: "15",
             }
-            
         }
     }
 }
@@ -75986,7 +74578,6 @@ impl IconShape for LdVault {
                 cy: "12",
                 r: "2",
             }
-            
         }
     }
 }
@@ -76035,7 +74626,6 @@ impl IconShape for LdVegan {
             path {
                 d: "M17.41 3.6a10 10 0 1 0 3 3",
             }
-            
         }
     }
 }
@@ -76084,7 +74674,6 @@ impl IconShape for LdVenetianMask {
             path {
                 d: "M18 11c-1.5 0-3 .5-3 2 2 0 3 0 3-2Z",
             }
-            
         }
     }
 }
@@ -76142,7 +74731,6 @@ impl IconShape for LdVibrateOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -76195,7 +74783,6 @@ impl IconShape for LdVibrate {
                 x: "8",
                 y: "5",
             }
-            
         }
     }
 }
@@ -76244,7 +74831,6 @@ impl IconShape for LdVideoOff {
             path {
                 d: "m2 2 20 20",
             }
-            
         }
     }
 }
@@ -76294,7 +74880,6 @@ impl IconShape for LdVideo {
                 x: "2",
                 y: "6",
             }
-            
         }
     }
 }
@@ -76357,7 +74942,6 @@ impl IconShape for LdVideotape {
                 cy: "14",
                 r: "2",
             }
-            
         }
     }
 }
@@ -76409,7 +74993,6 @@ impl IconShape for LdView {
             path {
                 d: "M21 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2",
             }
-            
         }
     }
 }
@@ -76465,7 +75048,6 @@ impl IconShape for LdVoicemail {
                 y1: "16",
                 y2: "16",
             }
-            
         }
     }
 }
@@ -76511,7 +75093,6 @@ impl IconShape for LdVolume1 {
             path {
                 d: "M15.54 8.46a5 5 0 0 1 0 7.07",
             }
-            
         }
     }
 }
@@ -76560,7 +75141,6 @@ impl IconShape for LdVolume2 {
             path {
                 d: "M19.07 4.93a10 10 0 0 1 0 14.14",
             }
-            
         }
     }
 }
@@ -76615,7 +75195,6 @@ impl IconShape for LdVolumeX {
                 y1: "9",
                 y2: "15",
             }
-            
         }
     }
 }
@@ -76658,7 +75237,6 @@ impl IconShape for LdVolume {
             polygon {
                 points: "11 5 6 9 2 9 2 15 6 15 11 19 11 5",
             }
-            
         }
     }
 }
@@ -76707,7 +75285,6 @@ impl IconShape for LdVote {
             path {
                 d: "M22 19H2",
             }
-            
         }
     }
 }
@@ -76760,7 +75337,6 @@ impl IconShape for LdWalletCards {
             path {
                 d: "M3 11h3c.8 0 1.6.3 2.1.9l1.1.9c1.6 1.6 4.1 1.6 5.7 0l1.1-.9c.5-.5 1.3-.9 2.1-.9H21",
             }
-            
         }
     }
 }
@@ -76806,7 +75382,6 @@ impl IconShape for LdWalletMinimal {
             path {
                 d: "M7 7h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14",
             }
-            
         }
     }
 }
@@ -76852,7 +75427,6 @@ impl IconShape for LdWallet {
             path {
                 d: "M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4",
             }
-            
         }
     }
 }
@@ -76906,7 +75480,6 @@ impl IconShape for LdWallpaper {
             path {
                 d: "M12 17v4",
             }
-            
         }
     }
 }
@@ -76970,7 +75543,6 @@ impl IconShape for LdWandSparkles {
             path {
                 d: "M11 3H9",
             }
-            
         }
     }
 }
@@ -77037,7 +75609,6 @@ impl IconShape for LdWand {
             path {
                 d: "M12.2 6.2 11 5",
             }
-            
         }
     }
 }
@@ -77092,7 +75663,6 @@ impl IconShape for LdWarehouse {
                 x: "6",
                 y: "10",
             }
-            
         }
     }
 }
@@ -77153,7 +75723,6 @@ impl IconShape for LdWashingMachine {
             path {
                 d: "M12 18a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 1 0-5",
             }
-            
         }
     }
 }
@@ -77207,7 +75776,6 @@ impl IconShape for LdWatch {
             path {
                 d: "m7.88 16.36.8 4a2 2 0 0 0 2 1.61h2.72a2 2 0 0 0 2-1.61l.81-4.05",
             }
-            
         }
     }
 }
@@ -77256,7 +75824,6 @@ impl IconShape for LdWaves {
             path {
                 d: "M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1",
             }
-            
         }
     }
 }
@@ -77325,7 +75892,6 @@ impl IconShape for LdWaypoints {
                 cy: "19.5",
                 r: "2.5",
             }
-            
         }
     }
 }
@@ -77381,7 +75947,6 @@ impl IconShape for LdWebcam {
             path {
                 d: "M12 22v-4",
             }
-            
         }
     }
 }
@@ -77442,7 +76007,6 @@ impl IconShape for LdWebhookOff {
             path {
                 d: "m2 2 20 20",
             }
-            
         }
     }
 }
@@ -77491,7 +76055,6 @@ impl IconShape for LdWebhook {
             path {
                 d: "m12 6 3.13 5.73C15.66 12.7 16.9 13 18 13a4 4 0 0 1 0 8",
             }
-            
         }
     }
 }
@@ -77539,7 +76102,6 @@ impl IconShape for LdWeight {
             path {
                 d: "M6.5 8a2 2 0 0 0-1.905 1.46L2.1 18.5A2 2 0 0 0 4 21h16a2 2 0 0 0 1.925-2.54L19.4 9.5A2 2 0 0 0 17.48 8Z",
             }
-            
         }
     }
 }
@@ -77612,7 +76174,6 @@ impl IconShape for LdWheatOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -77676,7 +76237,6 @@ impl IconShape for LdWheat {
             path {
                 d: "M19.47 9.47 21 11l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L13 11l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z",
             }
-            
         }
     }
 }
@@ -77735,7 +76295,6 @@ impl IconShape for LdWholeWord {
             path {
                 d: "M22 17v1c0 .5-.5 1-1 1H3c-.5 0-1-.5-1-1v-1",
             }
-            
         }
     }
 }
@@ -77796,7 +76355,6 @@ impl IconShape for LdWifiOff {
             path {
                 d: "m2 2 20 20",
             }
-            
         }
     }
 }
@@ -77848,7 +76406,6 @@ impl IconShape for LdWifi {
             path {
                 d: "M8.5 16.429a5 5 0 0 1 7 0",
             }
-            
         }
     }
 }
@@ -77897,7 +76454,6 @@ impl IconShape for LdWind {
             path {
                 d: "M12.6 19.4A2 2 0 1 0 14 16H2",
             }
-            
         }
     }
 }
@@ -77955,7 +76511,6 @@ impl IconShape for LdWineOff {
                 y1: "2",
                 y2: "22",
             }
-            
         }
     }
 }
@@ -78007,7 +76562,6 @@ impl IconShape for LdWine {
             path {
                 d: "M12 15a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5Z",
             }
-            
         }
     }
 }
@@ -78064,7 +76618,6 @@ impl IconShape for LdWorkflow {
                 x: "13",
                 y: "13",
             }
-            
         }
     }
 }
@@ -78113,7 +76666,6 @@ impl IconShape for LdWorm {
             path {
                 d: "M6.47 8.23a1.68 1.68 0 0 1 2.44 1.93l-.64 2.08a6.76 6.76 0 0 0 10.16 7.67l.42-.27a1 1 0 1 0-2.73-4.21l-.42.27a1.76 1.76 0 0 1-2.63-1.99l.64-2.08A6.66 6.66 0 0 0 3.94 3.9l-.7.4a1 1 0 1 0 2.55 4.34z",
             }
-            
         }
     }
 }
@@ -78171,7 +76723,6 @@ impl IconShape for LdWrapText {
                 y1: "18",
                 y2: "18",
             }
-            
         }
     }
 }
@@ -78214,7 +76765,6 @@ impl IconShape for LdWrench {
             path {
                 d: "M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z",
             }
-            
         }
     }
 }
@@ -78260,7 +76810,6 @@ impl IconShape for LdX {
             path {
                 d: "m6 6 12 12",
             }
-            
         }
     }
 }
@@ -78306,7 +76855,6 @@ impl IconShape for LdYoutube {
             path {
                 d: "m10 15 5-3-5-3z",
             }
-            
         }
     }
 }
@@ -78358,7 +76906,6 @@ impl IconShape for LdZapOff {
             path {
                 d: "m2 2 20 20",
             }
-            
         }
     }
 }
@@ -78401,7 +76948,6 @@ impl IconShape for LdZap {
             path {
                 d: "M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z",
             }
-            
         }
     }
 }
@@ -78464,7 +77010,6 @@ impl IconShape for LdZoomIn {
                 y1: "11",
                 y2: "11",
             }
-            
         }
     }
 }
@@ -78521,7 +77066,6 @@ impl IconShape for LdZoomOut {
                 y1: "11",
                 y2: "11",
             }
-            
         }
     }
 }
