@@ -62,12 +62,12 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
     let id = props.id.unwrap_or_default();
     let width = if props.width == 0 { props.icon.width() } else { &props.width.to_string() };
     let height = if props.height == 0 { props.icon.height() } else { &props.height.to_string() };
-    let fill = props.fill.unwrap_or(props.icon.fill().to_string());
-    let stroke = props.stroke.unwrap_or(props.icon.stroke().to_string());
+    let fill = props.fill.as_deref().unwrap_or(props.icon.fill());
+    let stroke = props.stroke.as_deref().unwrap_or(props.icon.stroke());
     let stroke_width = props.stroke_width.map(|v| v.to_string()).unwrap_or(props.icon.stroke_width().to_string());
-    let stroke_linecap = props.stroke_linecap.unwrap_or(props.icon.stroke_linecap().to_string());
-    let stroke_linejoin = props.stroke_linejoin.unwrap_or(props.icon.stroke_linejoin().to_string());
-    let title = props.title.unwrap_or(props.icon.title().to_string());
+    let stroke_linecap = props.stroke_linecap.as_deref().unwrap_or(props.icon.stroke_linecap());
+    let stroke_linejoin = props.stroke_linejoin.as_deref().unwrap_or(props.icon.stroke_linejoin());
+    let title_text = props.title.as_deref().unwrap_or(props.icon.title());
 
     rsx!(
         svg {
@@ -83,9 +83,9 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
             stroke_width,
             stroke_linecap,
             stroke_linejoin,
-            if title != "" {
+            if !title_text.is_empty() {
                 title {
-                    "{title}"
+                    "{title_text}"
                 }
             },
             {props.icon.child_elements()},
