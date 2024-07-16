@@ -7,17 +7,32 @@ impl IconShape for HiAcademicCap {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -43,17 +58,32 @@ impl IconShape for HiAdjustments {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -76,17 +106,32 @@ impl IconShape for HiAnnotation {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -105,17 +150,32 @@ impl IconShape for HiArchive {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -137,17 +197,32 @@ impl IconShape for HiArrowCircleDown {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -166,17 +241,32 @@ impl IconShape for HiArrowCircleLeft {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -195,17 +285,32 @@ impl IconShape for HiArrowCircleRight {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -224,17 +329,32 @@ impl IconShape for HiArrowCircleUp {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -253,17 +373,32 @@ impl IconShape for HiArrowDown {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -282,17 +417,32 @@ impl IconShape for HiArrowLeft {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -311,17 +461,32 @@ impl IconShape for HiArrowNarrowDown {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -340,17 +505,32 @@ impl IconShape for HiArrowNarrowLeft {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -369,17 +549,32 @@ impl IconShape for HiArrowNarrowRight {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -398,17 +593,32 @@ impl IconShape for HiArrowNarrowUp {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -427,17 +637,32 @@ impl IconShape for HiArrowRight {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -456,17 +681,32 @@ impl IconShape for HiArrowSmDown {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -485,17 +725,32 @@ impl IconShape for HiArrowSmLeft {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -514,17 +769,32 @@ impl IconShape for HiArrowSmRight {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -543,17 +813,32 @@ impl IconShape for HiArrowSmUp {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -572,17 +857,32 @@ impl IconShape for HiArrowUp {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -601,17 +901,32 @@ impl IconShape for HiArrowsExpand {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -630,17 +945,32 @@ impl IconShape for HiAtSymbol {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -659,17 +989,32 @@ impl IconShape for HiBackspace {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -688,17 +1033,32 @@ impl IconShape for HiBadgeCheck {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -717,17 +1077,32 @@ impl IconShape for HiBan {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -746,17 +1121,32 @@ impl IconShape for HiBeaker {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -775,17 +1165,32 @@ impl IconShape for HiBell {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -805,17 +1210,32 @@ impl IconShape for HiBookOpen {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -832,17 +1252,32 @@ impl IconShape for HiBookmarkAlt {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -861,17 +1296,32 @@ impl IconShape for HiBookmark {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -888,17 +1338,32 @@ impl IconShape for HiBriefcase {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -920,17 +1385,32 @@ impl IconShape for HiCake {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -949,17 +1429,32 @@ impl IconShape for HiCalculator {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -978,17 +1473,32 @@ impl IconShape for HiCalendar {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1007,17 +1517,32 @@ impl IconShape for HiCamera {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1036,17 +1561,32 @@ impl IconShape for HiCash {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1065,17 +1605,32 @@ impl IconShape for HiChartBar {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1098,17 +1653,32 @@ impl IconShape for HiChartPie {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1128,17 +1698,32 @@ impl IconShape for HiChartSquareBar {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1157,17 +1742,32 @@ impl IconShape for HiChatAlt2 {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1187,17 +1787,32 @@ impl IconShape for HiChatAlt {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1216,17 +1831,32 @@ impl IconShape for HiChat {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1245,17 +1875,32 @@ impl IconShape for HiCheckCircle {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1274,17 +1919,32 @@ impl IconShape for HiCheck {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1303,17 +1963,32 @@ impl IconShape for HiChevronDoubleDown {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1332,17 +2007,32 @@ impl IconShape for HiChevronDoubleLeft {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1361,17 +2051,32 @@ impl IconShape for HiChevronDoubleRight {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1395,17 +2100,32 @@ impl IconShape for HiChevronDoubleUp {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1424,17 +2144,32 @@ impl IconShape for HiChevronDown {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1453,17 +2188,32 @@ impl IconShape for HiChevronLeft {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1482,17 +2232,32 @@ impl IconShape for HiChevronRight {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1511,17 +2276,32 @@ impl IconShape for HiChevronUp {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1540,17 +2320,32 @@ impl IconShape for HiChip {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1572,17 +2367,32 @@ impl IconShape for HiClipboardCheck {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1604,17 +2414,32 @@ impl IconShape for HiClipboardCopy {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1637,17 +2462,32 @@ impl IconShape for HiClipboardList {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1669,17 +2509,32 @@ impl IconShape for HiClipboard {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1699,17 +2554,32 @@ impl IconShape for HiClock {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1728,17 +2598,32 @@ impl IconShape for HiCloudDownload {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1757,17 +2642,32 @@ impl IconShape for HiCloudUpload {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1787,17 +2687,32 @@ impl IconShape for HiCloud {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1814,17 +2729,32 @@ impl IconShape for HiCode {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1843,17 +2773,32 @@ impl IconShape for HiCog {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1872,17 +2817,32 @@ impl IconShape for HiCollection {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1905,17 +2865,32 @@ impl IconShape for HiColorSwatch {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1934,17 +2909,32 @@ impl IconShape for HiCreditCard {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1966,17 +2956,32 @@ impl IconShape for HiCubeTransparent {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1995,17 +3000,32 @@ impl IconShape for HiCube {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2028,17 +3048,32 @@ impl IconShape for HiCurrencyBangladeshi {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2057,17 +3092,32 @@ impl IconShape for HiCurrencyDollar {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2092,17 +3142,32 @@ impl IconShape for HiCurrencyEuro {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2121,17 +3186,32 @@ impl IconShape for HiCurrencyPound {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2150,17 +3230,32 @@ impl IconShape for HiCurrencyRupee {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2179,17 +3274,32 @@ impl IconShape for HiCurrencyYen {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2208,17 +3318,32 @@ impl IconShape for HiCursorClick {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2237,17 +3362,32 @@ impl IconShape for HiDatabase {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2270,17 +3410,32 @@ impl IconShape for HiDesktopComputer {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2299,17 +3454,32 @@ impl IconShape for HiDeviceMobile {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2328,17 +3498,32 @@ impl IconShape for HiDeviceTablet {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2357,17 +3542,32 @@ impl IconShape for HiDocumentAdd {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2386,17 +3586,32 @@ impl IconShape for HiDocumentDownload {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2415,17 +3630,32 @@ impl IconShape for HiDocumentDuplicate {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2445,17 +3675,32 @@ impl IconShape for HiDocumentRemove {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2474,17 +3719,32 @@ impl IconShape for HiDocumentReport {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2503,17 +3763,32 @@ impl IconShape for HiDocumentSearch {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2535,17 +3810,32 @@ impl IconShape for HiDocumentText {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2564,17 +3854,32 @@ impl IconShape for HiDocument {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2593,17 +3898,32 @@ impl IconShape for HiDotsCircleHorizontal {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2622,17 +3942,32 @@ impl IconShape for HiDotsHorizontal {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2655,17 +3990,32 @@ impl IconShape for HiDotsVertical {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2688,17 +4038,32 @@ impl IconShape for HiDownload {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2717,17 +4082,32 @@ impl IconShape for HiDuplicate {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2747,17 +4127,32 @@ impl IconShape for HiEmojiHappy {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2776,17 +4171,32 @@ impl IconShape for HiEmojiSad {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2805,17 +4215,32 @@ impl IconShape for HiExclamationCircle {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2834,17 +4259,32 @@ impl IconShape for HiExclamation {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2863,17 +4303,32 @@ impl IconShape for HiExternalLink {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2893,17 +4348,32 @@ impl IconShape for HiEyeOff {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2925,17 +4395,32 @@ impl IconShape for HiEye {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2957,17 +4442,32 @@ impl IconShape for HiFastForward {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2984,17 +4484,32 @@ impl IconShape for HiFilm {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3013,17 +4528,32 @@ impl IconShape for HiFilter {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3042,17 +4572,32 @@ impl IconShape for HiFingerPrint {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3081,17 +4626,32 @@ impl IconShape for HiFire {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3110,17 +4670,32 @@ impl IconShape for HiFlag {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3139,17 +4714,32 @@ impl IconShape for HiFolderAdd {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3167,17 +4757,32 @@ impl IconShape for HiFolderDownload {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3195,17 +4800,32 @@ impl IconShape for HiFolderOpen {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3227,17 +4847,32 @@ impl IconShape for HiFolderRemove {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3255,17 +4890,32 @@ impl IconShape for HiFolder {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3282,17 +4932,32 @@ impl IconShape for HiGift {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3317,17 +4982,32 @@ impl IconShape for HiGlobeAlt {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3346,17 +5026,32 @@ impl IconShape for HiGlobe {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3375,17 +5070,32 @@ impl IconShape for HiHand {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3404,17 +5114,32 @@ impl IconShape for HiHashtag {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3433,17 +5158,32 @@ impl IconShape for HiHeart {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3462,17 +5202,32 @@ impl IconShape for HiHome {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3489,17 +5244,32 @@ impl IconShape for HiIdentification {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3518,17 +5288,32 @@ impl IconShape for HiInboxIn {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3548,17 +5333,32 @@ impl IconShape for HiInbox {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3577,17 +5377,32 @@ impl IconShape for HiInformationCircle {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3606,17 +5421,32 @@ impl IconShape for HiKey {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3635,17 +5465,32 @@ impl IconShape for HiLibrary {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3664,17 +5509,32 @@ impl IconShape for HiLightBulb {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3709,17 +5569,32 @@ impl IconShape for HiLightningBolt {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3738,17 +5613,32 @@ impl IconShape for HiLink {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3767,17 +5657,32 @@ impl IconShape for HiLocationMarker {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3796,17 +5701,32 @@ impl IconShape for HiLockClosed {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3825,17 +5745,32 @@ impl IconShape for HiLockOpen {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3852,17 +5787,32 @@ impl IconShape for HiLogin {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3881,17 +5831,32 @@ impl IconShape for HiLogout {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3910,17 +5875,32 @@ impl IconShape for HiMailOpen {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3939,17 +5919,32 @@ impl IconShape for HiMail {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3969,17 +5964,32 @@ impl IconShape for HiMap {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4008,17 +6018,32 @@ impl IconShape for HiMenuAlt1 {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4047,17 +6072,32 @@ impl IconShape for HiMenuAlt2 {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4086,17 +6126,32 @@ impl IconShape for HiMenuAlt3 {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4125,17 +6180,32 @@ impl IconShape for HiMenuAlt4 {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4159,17 +6229,32 @@ impl IconShape for HiMenu {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4198,17 +6283,32 @@ impl IconShape for HiMicrophone {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4227,17 +6327,32 @@ impl IconShape for HiMinusCircle {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4256,17 +6371,32 @@ impl IconShape for HiMinusSm {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4285,17 +6415,32 @@ impl IconShape for HiMinus {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4314,17 +6459,32 @@ impl IconShape for HiMoon {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4341,17 +6501,32 @@ impl IconShape for HiMusicNote {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4368,17 +6543,32 @@ impl IconShape for HiNewspaper {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4400,17 +6590,32 @@ impl IconShape for HiOfficeBuilding {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4429,17 +6634,32 @@ impl IconShape for HiPaperAirplane {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4456,17 +6676,32 @@ impl IconShape for HiPaperClip {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4485,17 +6720,32 @@ impl IconShape for HiPause {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4514,17 +6764,32 @@ impl IconShape for HiPencilAlt {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4546,17 +6811,32 @@ impl IconShape for HiPencil {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4576,17 +6856,32 @@ impl IconShape for HiPhoneIncoming {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4606,17 +6901,32 @@ impl IconShape for HiPhoneMissedCall {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4636,17 +6946,32 @@ impl IconShape for HiPhoneOutgoing {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4666,17 +6991,32 @@ impl IconShape for HiPhone {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4693,17 +7033,32 @@ impl IconShape for HiPhotograph {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4722,17 +7077,32 @@ impl IconShape for HiPlay {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4751,17 +7121,32 @@ impl IconShape for HiPlusCircle {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4780,17 +7165,32 @@ impl IconShape for HiPlusSm {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4809,17 +7209,32 @@ impl IconShape for HiPlus {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4838,17 +7253,32 @@ impl IconShape for HiPresentationChartBar {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4867,17 +7297,32 @@ impl IconShape for HiPresentationChartLine {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4896,17 +7341,32 @@ impl IconShape for HiPrinter {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4925,17 +7385,32 @@ impl IconShape for HiPuzzle {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -4952,17 +7427,32 @@ impl IconShape for HiQrcode {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5012,17 +7502,32 @@ impl IconShape for HiQuestionMarkCircle {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5041,17 +7546,32 @@ impl IconShape for HiReceiptRefund {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5070,17 +7590,32 @@ impl IconShape for HiReceiptTax {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5099,17 +7634,32 @@ impl IconShape for HiRefresh {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5128,17 +7678,32 @@ impl IconShape for HiReply {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5157,17 +7722,32 @@ impl IconShape for HiRewind {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5184,17 +7764,32 @@ impl IconShape for HiRss {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5217,17 +7812,32 @@ impl IconShape for HiSaveAs {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5250,17 +7860,32 @@ impl IconShape for HiSave {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5280,17 +7905,32 @@ impl IconShape for HiScale {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5309,17 +7949,32 @@ impl IconShape for HiScissors {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5341,17 +7996,32 @@ impl IconShape for HiSearchCircle {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5373,17 +8043,32 @@ impl IconShape for HiSearch {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5402,17 +8087,32 @@ impl IconShape for HiSelector {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5431,17 +8131,32 @@ impl IconShape for HiServer {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5465,17 +8180,32 @@ impl IconShape for HiShare {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5492,17 +8222,32 @@ impl IconShape for HiShieldCheck {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5521,17 +8266,32 @@ impl IconShape for HiShieldExclamation {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5550,17 +8310,32 @@ impl IconShape for HiShoppingBag {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5579,17 +8354,32 @@ impl IconShape for HiShoppingCart {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5612,17 +8402,32 @@ impl IconShape for HiSortAscending {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5648,17 +8453,32 @@ impl IconShape for HiSortDescending {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5684,17 +8504,32 @@ impl IconShape for HiSparkles {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5718,17 +8553,32 @@ impl IconShape for HiSpeakerphone {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5747,17 +8597,32 @@ impl IconShape for HiStar {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5774,17 +8639,32 @@ impl IconShape for HiStatusOffline {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5807,17 +8687,32 @@ impl IconShape for HiStatusOnline {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5836,17 +8731,32 @@ impl IconShape for HiStop {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5865,17 +8775,32 @@ impl IconShape for HiSun {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5894,17 +8819,32 @@ impl IconShape for HiSupport {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5923,17 +8863,32 @@ impl IconShape for HiSwitchHorizontal {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5953,17 +8908,32 @@ impl IconShape for HiSwitchVertical {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -5983,17 +8953,32 @@ impl IconShape for HiTable {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6012,17 +8997,32 @@ impl IconShape for HiTag {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6041,17 +9041,32 @@ impl IconShape for HiTemplate {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6074,17 +9089,32 @@ impl IconShape for HiTerminal {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6103,17 +9133,32 @@ impl IconShape for HiThumbDown {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6133,17 +9178,32 @@ impl IconShape for HiThumbUp {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6163,17 +9223,32 @@ impl IconShape for HiTicket {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6190,17 +9265,32 @@ impl IconShape for HiTranslate {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6219,17 +9309,32 @@ impl IconShape for HiTrash {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6248,17 +9353,32 @@ impl IconShape for HiTrendingDown {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6277,17 +9397,32 @@ impl IconShape for HiTrendingUp {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6306,17 +9441,32 @@ impl IconShape for HiTruck {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6342,17 +9492,32 @@ impl IconShape for HiUpload {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6371,17 +9536,32 @@ impl IconShape for HiUserAdd {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6404,17 +9584,32 @@ impl IconShape for HiUserCircle {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6433,17 +9628,32 @@ impl IconShape for HiUserGroup {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6475,17 +9685,32 @@ impl IconShape for HiUserRemove {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6508,17 +9733,32 @@ impl IconShape for HiUser {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6537,17 +9777,32 @@ impl IconShape for HiUsers {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6573,17 +9828,32 @@ impl IconShape for HiVariable {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6602,17 +9872,32 @@ impl IconShape for HiVideoCamera {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6632,17 +9917,32 @@ impl IconShape for HiViewBoards {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6665,17 +9965,32 @@ impl IconShape for HiViewGridAdd {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6701,17 +10016,32 @@ impl IconShape for HiViewGrid {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6737,17 +10067,32 @@ impl IconShape for HiViewList {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6766,17 +10111,32 @@ impl IconShape for HiVolumeOff {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6800,17 +10160,32 @@ impl IconShape for HiVolumeUp {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6834,17 +10209,32 @@ impl IconShape for HiWifi {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6863,17 +10253,32 @@ impl IconShape for HiXCircle {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6892,17 +10297,32 @@ impl IconShape for HiX {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6921,17 +10341,32 @@ impl IconShape for HiZoomIn {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6953,17 +10388,32 @@ impl IconShape for HiZoomOut {
     fn view_box(&self) -> &str {
         "0 0 20 20"
     }
+    fn width(&self) -> &str {
+        "20"
+    }
+    fn height(&self) -> &str {
+        "20"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "none"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
     }
     fn stroke_linejoin(&self) -> &str {
         "miter"
+    }
+    fn title(&self) -> &str {
+        ""
     }
     fn child_elements(&self) -> Element {
         rsx! {

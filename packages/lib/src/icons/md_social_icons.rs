@@ -7,11 +7,23 @@ impl IconShape for Md6FtApart {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -19,8 +31,17 @@ impl IconShape for Md6FtApart {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+                x: "0",
+            }
             path {
                 d: "M6,6c1.1,0,2-0.9,2-2S7.1,2,6,2S4,2.9,4,4S4.9,6,6,6z M10,9.43c0-0.81-0.48-1.53-1.22-1.85C7.93,7.21,6.99,7,6,7 C5.01,7,4.07,7.21,3.22,7.58C2.48,7.9,2,8.62,2,9.43V10h8V9.43z M18,6c1.1,0,2-0.9,2-2s-0.9-2-2-2s-2,0.9-2,2S16.9,6,18,6z M22,9.43 c0-0.81-0.48-1.53-1.22-1.85C19.93,7.21,18.99,7,18,7c-0.99,0-1.93,0.21-2.78,0.58C14.48,7.9,14,8.62,14,9.43V10h8V9.43z M19,17 v-2.01L5,15v2l-3-3l3-3v2.01L19,13v-2l3,3L19,17z M10,19v-1H7.5C7.22,18,7,18.22,7,18.5v3C7,21.78,7.22,22,7.5,22h2 c0.28,0,0.5-0.22,0.5-0.5V20c0-0.28-0.22-0.5-0.5-0.5H8V19H10z M9,20.5V21H8v-0.5H9z M17.5,19h-1v3h-1v-3h-1v-1h3V19z M12.5,19v0.5 h1v1h-1V22h-1v-4H14v1H12.5z",
             }
@@ -34,11 +55,23 @@ impl IconShape for MdAddModerator {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -46,10 +79,18 @@ impl IconShape for MdAddModerator {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             path {
                 d: "M0 0h24v24H0z",
+                fill: "none",
+            }
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
             }
             path {
                 d: "M13.22 22.61c-.4.15-.8.29-1.22.39-5.16-1.26-9-6.45-9-12V5l9-4 9 4v6c0 .9-.11 1.78-.3 2.65-.81-.41-1.73-.65-2.7-.65-3.31 0-6 2.69-6 6 0 1.36.46 2.61 1.22 3.61zM19 20v2.99s-1.99.01-2 0V20h-3v-2h3v-3h2v3h3v2h-3z",
@@ -64,11 +105,23 @@ impl IconShape for MdArchitecture {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -76,8 +129,16 @@ impl IconShape for MdArchitecture {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M6.36,18.78L6.61,21l1.62-1.54l2.77-7.6c-0.68-0.17-1.28-0.51-1.77-0.98L6.36,18.78z",
             }
@@ -97,11 +158,23 @@ impl IconShape for MdCake {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -109,8 +182,15 @@ impl IconShape for MdCake {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M12 6c1.11 0 2-.9 2-2 0-.38-.1-.73-.29-1.03L12 0l-1.71 2.97c-.19.3-.29.65-.29 1.03 0 1.1.9 2 2 2zm4.6 9.99l-1.07-1.07-1.08 1.07c-1.3 1.3-3.58 1.31-4.89 0l-1.07-1.07-1.09 1.07C6.75 16.64 5.88 17 4.96 17c-.73 0-1.4-.23-1.96-.61V21c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-4.61c-.56.38-1.23.61-1.96.61-.92 0-1.79-.36-2.44-1.01zM18 9h-5V7h-2v2H6c-1.66 0-3 1.34-3 3v1.54c0 1.08.88 1.96 1.96 1.96.52 0 1.02-.2 1.38-.57l2.14-2.13 2.13 2.13c.74.74 2.03.74 2.77 0l2.14-2.13 2.13 2.13c.37.37.86.57 1.38.57 1.08 0 1.96-.88 1.96-1.96V12C21 10.34 19.66 9 18 9z",
             }
@@ -124,11 +204,23 @@ impl IconShape for MdCleanHands {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -136,8 +228,16 @@ impl IconShape for MdCleanHands {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M16.99,5l0.63,1.37L18.99,7l-1.37,0.63L16.99,9l-0.63-1.37L14.99,7l1.37-0.63L16.99,5 M11,6.13V4h2 c0.57,0,1.1,0.17,1.55,0.45l1.43-1.43C15.15,2.39,14.13,2,13,2c-1.48,0-5.5,0-5.5,0v2H9v2.14C7.23,6.51,5.81,7.8,5.26,9.5h3.98 L15,11.65v-0.62C15,8.61,13.28,6.59,11,6.13z M1,22h4V11H1V22z M20,17h-7l-2.09-0.73l0.33-0.94L13,16h2.82 c0.65,0,1.18-0.53,1.18-1.18l0,0c0-0.49-0.31-0.93-0.77-1.11L8.97,11H7v9.02L14,22l8-3l0,0C21.99,17.9,21.11,17,20,17z M20,14 c1.1,0,2-0.9,2-2c0-1.1-2-4-2-4s-2,2.9-2,4C18,13.1,18.9,14,20,14z",
             }
@@ -151,11 +251,23 @@ impl IconShape for MdConnectWithoutContact {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -163,8 +275,16 @@ impl IconShape for MdConnectWithoutContact {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M11,14H9c0-4.97,4.03-9,9-9v2C14.13,7,11,10.13,11,14z M18,11V9c-2.76,0-5,2.24-5,5h2C15,12.34,16.34,11,18,11z M7,4 c0-1.11-0.89-2-2-2S3,2.89,3,4s0.89,2,2,2S7,5.11,7,4z M11.45,4.5h-2C9.21,5.92,7.99,7,6.5,7h-3C2.67,7,2,7.67,2,8.5V11h6V8.74 C9.86,8.15,11.25,6.51,11.45,4.5z M19,17c1.11,0,2-0.89,2-2s-0.89-2-2-2s-2,0.89-2,2S17.89,17,19,17z M20.5,18h-3 c-1.49,0-2.71-1.08-2.95-2.5h-2c0.2,2.01,1.59,3.65,3.45,4.24V22h6v-2.5C22,18.67,21.33,18,20.5,18z",
             }
@@ -178,11 +298,23 @@ impl IconShape for MdConstruction {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -190,8 +322,16 @@ impl IconShape for MdConstruction {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             rect {
                 height: "8.48",
                 transform: "matrix(0.7071 -0.7071 0.7071 0.7071 -6.8717 17.6255)",
@@ -212,11 +352,23 @@ impl IconShape for MdCoronavirus {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -224,8 +376,16 @@ impl IconShape for MdCoronavirus {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M21.25,10.5c-0.41,0-0.75,0.34-0.75,0.75h-1.54c-0.15-1.37-0.69-2.63-1.52-3.65l1.09-1.09l0.01,0.01 c0.29,0.29,0.77,0.29,1.06,0s0.29-0.77,0-1.06L18.54,4.4c-0.29-0.29-0.77-0.29-1.06,0c-0.29,0.29-0.29,0.76-0.01,1.05l-1.09,1.09 c-1.02-0.82-2.27-1.36-3.64-1.51V3.5h0.01c0.41,0,0.75-0.34,0.75-0.75C13.5,2.34,13.16,2,12.75,2h-1.5c-0.41,0-0.75,0.34-0.75,0.75 c0,0.41,0.33,0.74,0.74,0.75v1.55C9.87,5.19,8.62,5.74,7.6,6.56L6.51,5.47l0.01-0.01c0.29-0.29,0.29-0.77,0-1.06 c-0.29-0.29-0.77-0.29-1.06,0L4.4,5.46c-0.29,0.29-0.29,0.77,0,1.06c0.29,0.29,0.76,0.29,1.05,0.01l1.09,1.09 c-0.82,1.02-1.36,2.26-1.5,3.63H3.5c0-0.41-0.34-0.75-0.75-0.75C2.34,10.5,2,10.84,2,11.25v1.5c0,0.41,0.34,0.75,0.75,0.75 c0.41,0,0.75-0.34,0.75-0.75h1.54c0.15,1.37,0.69,2.61,1.5,3.63l-1.09,1.09c-0.29-0.29-0.76-0.28-1.05,0.01 c-0.29,0.29-0.29,0.77,0,1.06l1.06,1.06c0.29,0.29,0.77,0.29,1.06,0c0.29-0.29,0.29-0.77,0-1.06l-0.01-0.01l1.09-1.09 c1.02,0.82,2.26,1.36,3.63,1.51v1.55c-0.41,0.01-0.74,0.34-0.74,0.75c0,0.41,0.34,0.75,0.75,0.75h1.5c0.41,0,0.75-0.34,0.75-0.75 c0-0.41-0.34-0.75-0.75-0.75h-0.01v-1.54c1.37-0.14,2.62-0.69,3.64-1.51l1.09,1.09c-0.29,0.29-0.28,0.76,0.01,1.05 c0.29,0.29,0.77,0.29,1.06,0l1.06-1.06c0.29-0.29,0.29-0.77,0-1.06c-0.29-0.29-0.77-0.29-1.06,0l-0.01,0.01l-1.09-1.09 c0.82-1.02,1.37-2.27,1.52-3.65h1.54c0,0.41,0.34,0.75,0.75,0.75c0.41,0,0.75-0.34,0.75-0.75v-1.5C22,10.84,21.66,10.5,21.25,10.5z M13.75,8c0.55,0,1,0.45,1,1s-0.45,1-1,1s-1-0.45-1-1S13.2,8,13.75,8z M12,13c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1 C13,12.55,12.55,13,12,13z M10.25,8c0.55,0,1,0.45,1,1s-0.45,1-1,1s-1-0.45-1-1S9.7,8,10.25,8z M8.5,13c-0.55,0-1-0.45-1-1 c0-0.55,0.45-1,1-1s1,0.45,1,1C9.5,12.55,9.05,13,8.5,13z M10.25,16c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1 C11.25,15.55,10.8,16,10.25,16z M13.75,16c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1C14.75,15.55,14.3,16,13.75,16z M14.5,12 c0-0.55,0.45-1,1-1s1,0.45,1,1c0,0.55-0.45,1-1,1S14.5,12.55,14.5,12z",
             }
@@ -239,11 +399,23 @@ impl IconShape for MdDeck {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -251,8 +423,16 @@ impl IconShape for MdDeck {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             polygon {
                 points: "22,9 12,2 2,9 11,9 11,22 13,22 13,9",
             }
@@ -272,11 +452,23 @@ impl IconShape for MdDomain {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -284,8 +476,15 @@ impl IconShape for MdDomain {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0,0h24v24H0V0z",
+                fill: "none",
+            }
             path {
                 d: "M12,7V3H2v18h20V7H12z M6,19H4v-2h2V19z M6,15H4v-2h2V15z M6,11H4V9h2V11z M6,7H4V5h2V7z M10,19H8v-2h2V19z M10,15H8v-2h2 V15z M10,11H8V9h2V11z M10,7H8V5h2V7z M20,19h-8v-2h2v-2h-2v-2h2v-2h-2V9h8V19z M18,11h-2v2h2V11z M18,15h-2v2h2V15z",
             }
@@ -299,11 +498,23 @@ impl IconShape for MdElderly {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -311,8 +522,16 @@ impl IconShape for MdElderly {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M13.5,5.5c1.1,0,2-0.9,2-2s-0.9-2-2-2s-2,0.9-2,2S12.4,5.5,13.5,5.5z M20,12.5V23h-1V12.5c0-0.28-0.22-0.5-0.5-0.5 S18,12.22,18,12.5v1h-1v-0.69c-1.46-0.38-2.7-1.29-3.51-2.52C13.18,11.16,13,12.07,13,13c0,0.23,0.02,0.46,0.03,0.69L15,16.5V23h-2 v-5l-1.78-2.54L11,19l-3,4l-1.6-1.2L9,18.33V13c0-1.15,0.18-2.29,0.5-3.39L8,10.46V14H6V9.3l5.4-3.07l0,0.01 c0.59-0.31,1.32-0.33,1.94,0.03c0.36,0.21,0.63,0.51,0.8,0.85l0,0l0.79,1.67C15.58,10.1,16.94,11,18.5,11C19.33,11,20,11.67,20,12.5 z",
             }
@@ -326,11 +545,23 @@ impl IconShape for MdEmojiEmotions {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -338,8 +569,16 @@ impl IconShape for MdEmojiEmotions {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M11.99,2C6.47,2,2,6.48,2,12c0,5.52,4.47,10,9.99,10C17.52,22,22,17.52,22,12C22,6.48,17.52,2,11.99,2z M8.5,8 C9.33,8,10,8.67,10,9.5S9.33,11,8.5,11S7,10.33,7,9.5S7.67,8,8.5,8z M12,18c-2.28,0-4.22-1.66-5-4h10C16.22,16.34,14.28,18,12,18z M15.5,11c-0.83,0-1.5-0.67-1.5-1.5S14.67,8,15.5,8S17,8.67,17,9.5S16.33,11,15.5,11z",
             }
@@ -353,11 +592,23 @@ impl IconShape for MdEmojiEvents {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -365,8 +616,16 @@ impl IconShape for MdEmojiEvents {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M19,5h-2V3H7v2H5C3.9,5,3,5.9,3,7v1c0,2.55,1.92,4.63,4.39,4.94c0.63,1.5,1.98,2.63,3.61,2.96V19H7v2h10v-2h-4v-3.1 c1.63-0.33,2.98-1.46,3.61-2.96C19.08,12.63,21,10.55,21,8V7C21,5.9,20.1,5,19,5z M5,8V7h2v3.82C5.84,10.4,5,9.3,5,8z M19,8 c0,1.3-0.84,2.4-2,2.82V7h2V8z",
             }
@@ -380,11 +639,23 @@ impl IconShape for MdEmojiFlags {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -392,8 +663,16 @@ impl IconShape for MdEmojiFlags {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M14,9l-1-2H7V5.72C7.6,5.38,8,4.74,8,4c0-1.1-0.9-2-2-2S4,2.9,4,4c0,0.74,0.4,1.38,1,1.72V21h2v-4h5l1,2h7V9H14z M18,17h-4 l-1-2H7V9h5l1,2h5V17z",
             }
@@ -407,11 +686,23 @@ impl IconShape for MdEmojiFoodBeverage {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -419,8 +710,16 @@ impl IconShape for MdEmojiFoodBeverage {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M20,3H9v2.4l1.81,1.45C10.93,6.94,11,7.09,11,7.24v4.26c0,0.28-0.22,0.5-0.5,0.5h-4C6.22,12,6,11.78,6,11.5V7.24 c0-0.15,0.07-0.3,0.19-0.39L8,5.4V3H4v10c0,2.21,1.79,4,4,4h6c2.21,0,4-1.79,4-4v-3h2c1.11,0,2-0.9,2-2V5C22,3.89,21.11,3,20,3z M20,8h-2V5h2V8z",
             }
@@ -440,11 +739,23 @@ impl IconShape for MdEmojiNature {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -452,8 +763,16 @@ impl IconShape for MdEmojiNature {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M21.94,4.88C21.76,4.35,21.25,4,20.68,4c-0.03,0-0.06,0-0.09,0H19.6l-0.31-0.97C19.15,2.43,18.61,2,18,2h0 c-0.61,0-1.15,0.43-1.29,1.04L16.4,4h-0.98c-0.03,0-0.06,0-0.09,0c-0.57,0-1.08,0.35-1.26,0.88c-0.19,0.56,0.04,1.17,0.56,1.48 l0.87,0.52L15.1,8.12c-0.23,0.58-0.04,1.25,0.45,1.62C15.78,9.91,16.06,10,16.33,10c0.31,0,0.61-0.11,0.86-0.32L18,8.98l0.81,0.7 C19.06,9.89,19.36,10,19.67,10c0.27,0,0.55-0.09,0.78-0.26c0.5-0.37,0.68-1.04,0.45-1.62l-0.39-1.24l0.87-0.52 C21.89,6.05,22.12,5.44,21.94,4.88z M18,7c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1C19,6.55,18.55,7,18,7z",
             }
@@ -470,11 +789,23 @@ impl IconShape for MdEmojiObjects {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -482,8 +813,16 @@ impl IconShape for MdEmojiObjects {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M12,3c-0.46,0-0.93,0.04-1.4,0.14C7.84,3.67,5.64,5.9,5.12,8.66c-0.48,2.61,0.48,5.01,2.22,6.56C7.77,15.6,8,16.13,8,16.69 V19c0,1.1,0.9,2,2,2h0.28c0.35,0.6,0.98,1,1.72,1s1.38-0.4,1.72-1H14c1.1,0,2-0.9,2-2v-2.31c0-0.55,0.22-1.09,0.64-1.46 C18.09,13.95,19,12.08,19,10C19,6.13,15.87,3,12,3z M14,19h-4v-1h4V19z M14,17h-4v-1h4V17z M12.5,11.41V14h-1v-2.59L9.67,9.59 l0.71-0.71L12,10.5l1.62-1.62l0.71,0.71L12.5,11.41z",
             }
@@ -497,11 +836,23 @@ impl IconShape for MdEmojiPeople {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -509,8 +860,16 @@ impl IconShape for MdEmojiPeople {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             circle {
                 cx: "12",
                 cy: "4",
@@ -529,11 +888,23 @@ impl IconShape for MdEmojiSymbols {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -541,8 +912,16 @@ impl IconShape for MdEmojiSymbols {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             rect {
                 height: "2",
                 width: "8",
@@ -585,11 +964,23 @@ impl IconShape for MdEmojiTransportation {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -597,8 +988,16 @@ impl IconShape for MdEmojiTransportation {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M20.57,10.66C20.43,10.26,20.05,10,19.6,10h-7.19c-0.46,0-0.83,0.26-0.98,0.66L10,14.77l0.01,5.51 c0,0.38,0.31,0.72,0.69,0.72h0.62C11.7,21,12,20.62,12,20.24V19h8v1.24c0,0.38,0.31,0.76,0.69,0.76h0.61 c0.38,0,0.69-0.34,0.69-0.72L22,18.91v-4.14L20.57,10.66z M12.41,11h7.19l1.03,3h-9.25L12.41,11z M12,17c-0.55,0-1-0.45-1-1 s0.45-1,1-1s1,0.45,1,1S12.55,17,12,17z M20,17c-0.55,0-1-0.45-1-1s0.45-1,1-1s1,0.45,1,1S20.55,17,20,17z",
             }
@@ -639,11 +1038,23 @@ impl IconShape for MdEngineering {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -651,8 +1062,16 @@ impl IconShape for MdEngineering {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M9,15c-2.67,0-8,1.34-8,4v2h16v-2C17,16.34,11.67,15,9,15z",
             }
@@ -678,11 +1097,23 @@ impl IconShape for MdFacebook {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -690,8 +1121,16 @@ impl IconShape for MdFacebook {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M22,12c0-5.52-4.48-10-10-10S2,6.48,2,12c0,4.84,3.44,8.87,8,9.8V15H8v-3h2V9.5C10,7.57,11.57,6,13.5,6H16v3h-2 c-0.55,0-1,0.45-1,1v2h3v3h-3v6.95C18.05,21.45,22,17.19,22,12z",
             }
@@ -705,11 +1144,23 @@ impl IconShape for MdFireplace {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -717,8 +1168,16 @@ impl IconShape for MdFireplace {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M2,2v20h20V2H2z M11.86,16.96c0.76-0.24,1.4-1.04,1.53-1.63c0.13-0.56-0.1-1.05-0.2-1.6c-0.08-0.46-0.07-0.85,0.08-1.28 c0.54,1.21,2.15,1.64,1.98,3.18C15.06,17.33,13.14,18.01,11.86,16.96z M20,20h-2v-2h-2.02c0.63-0.84,1.02-1.87,1.02-3 c0-1.89-1.09-2.85-1.85-3.37C12.2,9.61,13,7,13,7c-6.73,3.57-6.02,7.47-6,8c0.03,0.96,0.49,2.07,1.23,3H6v2H4V4h16V20z",
             }
@@ -732,11 +1191,23 @@ impl IconShape for MdFollowTheSigns {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -744,8 +1215,16 @@ impl IconShape for MdFollowTheSigns {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M9.5,5.5c1.1,0,2-0.9,2-2s-0.9-2-2-2s-2,0.9-2,2S8.4,5.5,9.5,5.5z M5.75,8.9L3,23h2.1l1.75-8L9,17v6h2v-7.55L8.95,13.4 l0.6-3C10.85,12,12.8,13,15,13v-2c-1.85,0-3.45-1-4.35-2.45L9.7,6.95C9.35,6.35,8.7,6,8,6C7.75,6,7.5,6.05,7.25,6.15L2,8.3V13h2 V9.65L5.75,8.9 M13,2v7h3.75v14h1.5V9H22V2H13z M18.01,8V6.25H14.5v-1.5h3.51V3l2.49,2.5L18.01,8z",
             }
@@ -759,11 +1238,23 @@ impl IconShape for MdGroup {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -771,8 +1262,15 @@ impl IconShape for MdGroup {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z",
             }
@@ -786,11 +1284,23 @@ impl IconShape for MdGroupAdd {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -798,8 +1308,15 @@ impl IconShape for MdGroupAdd {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M8 10H5V7H3v3H0v2h3v3h2v-3h3v-2zm10 1c1.66 0 2.99-1.34 2.99-3S19.66 5 18 5c-.32 0-.63.05-.91.14.57.81.9 1.79.9 2.86s-.34 2.04-.9 2.86c.28.09.59.14.91.14zm-5 0c1.66 0 2.99-1.34 2.99-3S14.66 5 13 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm6.62 2.16c.83.73 1.38 1.66 1.38 2.84v2h3v-2c0-1.54-2.37-2.49-4.38-2.84zM13 13c-2 0-6 1-6 3v2h12v-2c0-2-4-3-6-3z",
             }
@@ -813,11 +1330,23 @@ impl IconShape for MdGroups {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -825,8 +1354,16 @@ impl IconShape for MdGroups {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M12,12.75c1.63,0,3.07,0.39,4.24,0.9c1.08,0.48,1.76,1.56,1.76,2.73L18,18H6l0-1.61c0-1.18,0.68-2.26,1.76-2.73 C8.93,13.14,10.37,12.75,12,12.75z M4,13c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2s-2,0.9-2,2C2,12.1,2.9,13,4,13z M5.13,14.1 C4.76,14.04,4.39,14,4,14c-0.99,0-1.93,0.21-2.78,0.58C0.48,14.9,0,15.62,0,16.43V18l4.5,0v-1.61C4.5,15.56,4.73,14.78,5.13,14.1z M20,13c1.1,0,2-0.9,2-2c0-1.1-0.9-2-2-2s-2,0.9-2,2C18,12.1,18.9,13,20,13z M24,16.43c0-0.81-0.48-1.53-1.22-1.85 C21.93,14.21,20.99,14,20,14c-0.39,0-0.76,0.04-1.13,0.1c0.4,0.68,0.63,1.46,0.63,2.29V18l4.5,0V16.43z M12,6c1.66,0,3,1.34,3,3 c0,1.66-1.34,3-3,3s-3-1.34-3-3C9,7.34,10.34,6,12,6z",
             }
@@ -840,11 +1377,23 @@ impl IconShape for MdHistoryEdu {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -852,8 +1401,16 @@ impl IconShape for MdHistoryEdu {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M9,4v1.38c-0.83-0.33-1.72-0.5-2.61-0.5c-1.79,0-3.58,0.68-4.95,2.05l3.33,3.33h1.11v1.11c0.86,0.86,1.98,1.31,3.11,1.36 V15H6v3c0,1.1,0.9,2,2,2h10c1.66,0,3-1.34,3-3V4H9z M7.89,10.41V8.26H5.61L4.57,7.22C5.14,7,5.76,6.88,6.39,6.88 c1.34,0,2.59,0.52,3.54,1.46l1.41,1.41l-0.2,0.2c-0.51,0.51-1.19,0.8-1.92,0.8C8.75,10.75,8.29,10.63,7.89,10.41z M19,17 c0,0.55-0.45,1-1,1s-1-0.45-1-1v-2h-6v-2.59c0.57-0.23,1.1-0.57,1.56-1.03l0.2-0.2L15.59,14H17v-1.41l-6-5.97V6h8V17z",
             }
@@ -867,11 +1424,23 @@ impl IconShape for MdIosShare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -879,8 +1448,15 @@ impl IconShape for MdIosShare {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0V0z",
+                fill: "none",
+            }
             path {
                 d: "M16 5l-1.42 1.42-1.59-1.59V16h-1.98V4.83L9.42 6.42 8 5l4-4 4 4zm4 5v11c0 1.1-.9 2-2 2H6c-1.11 0-2-.9-2-2V10c0-1.11.89-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .89 2 2z",
             }
@@ -894,11 +1470,23 @@ impl IconShape for MdKingBed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -906,15 +1494,25 @@ impl IconShape for MdKingBed {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
             rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
+            rect {
+                fill: "none",
                 height: "3",
                 width: "5",
                 x: "6",
                 y: "7",
             }
             rect {
+                fill: "none",
                 height: "3",
                 width: "5",
                 x: "13",
@@ -933,11 +1531,23 @@ impl IconShape for MdLocationCity {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -945,8 +1555,15 @@ impl IconShape for MdLocationCity {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M15 11V5l-3-3-3 3v2H3v14h18V11h-6zm-8 8H5v-2h2v2zm0-4H5v-2h2v2zm0-4H5V9h2v2zm6 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V9h2v2zm0-4h-2V5h2v2zm6 12h-2v-2h2v2zm0-4h-2v-2h2v2z",
             }
@@ -960,11 +1577,23 @@ impl IconShape for MdLuggage {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -972,8 +1601,16 @@ impl IconShape for MdLuggage {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M17,6h-2V3c0-0.55-0.45-1-1-1h-4C9.45,2,9,2.45,9,3v3H7C5.9,6,5,6.9,5,8v11c0,1.1,0.9,2,2,2c0,0.55,0.45,1,1,1 c0.55,0,1-0.45,1-1h6c0,0.55,0.45,1,1,1c0.55,0,1-0.45,1-1c1.1,0,2-0.9,2-2V8C19,6.9,18.1,6,17,6z M9.5,18H8V9h1.5V18z M12.75,18 h-1.5V9h1.5V18z M13.5,6h-3V3.5h3V6z M16,18h-1.5V9H16V18z",
             }
@@ -987,11 +1624,23 @@ impl IconShape for MdMasks {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -999,8 +1648,16 @@ impl IconShape for MdMasks {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M19.5,6c-1.31,0-2.37,1.01-2.48,2.3C15.14,7.8,14.18,6.5,12,6.5c-2.19,0-3.14,1.3-5.02,1.8C6.87,7.02,5.81,6,4.5,6 C3.12,6,2,7.12,2,8.5V9c0,6,3.6,7.81,6.52,7.98C9.53,17.62,10.72,18,12,18s2.47-0.38,3.48-1.02C18.4,16.81,22,15,22,9V8.5 C22,7.12,20.88,6,19.5,6z M3.5,9V8.5c0-0.55,0.45-1,1-1s1,0.45,1,1v3c0,1.28,0.38,2.47,1.01,3.48C4.99,14.27,3.5,12.65,3.5,9z M20.5,9c0,3.65-1.49,5.27-3.01,5.98c0.64-1.01,1.01-2.2,1.01-3.48v-3c0-0.55,0.45-1,1-1s1,0.45,1,1V9z M10.69,10.48 c-0.44,0.26-0.96,0.56-1.69,0.76V10.2c0.48-0.17,0.84-0.38,1.18-0.58C10.72,9.3,11.23,9,12,9s1.27,0.3,1.8,0.62 c0.34,0.2,0.71,0.42,1.2,0.59v1.04c-0.75-0.21-1.26-0.51-1.71-0.78C12.83,10.2,12.49,10,12,10C11.51,10,11.16,10.2,10.69,10.48z",
             }
@@ -1014,11 +1671,23 @@ impl IconShape for MdMilitaryTech {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1026,8 +1695,16 @@ impl IconShape for MdMilitaryTech {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M17,10.43V2H7v8.43c0,0.35,0.18,0.68,0.49,0.86l4.18,2.51l-0.99,2.34l-3.41,0.29l2.59,2.24L9.07,22L12,20.23L14.93,22 l-0.78-3.33l2.59-2.24l-3.41-0.29l-0.99-2.34l4.18-2.51C16.82,11.11,17,10.79,17,10.43z M13,12.23l-1,0.6l-1-0.6V3h2V12.23z",
             }
@@ -1041,11 +1718,23 @@ impl IconShape for MdMood {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1053,8 +1742,15 @@ impl IconShape for MdMood {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z",
             }
@@ -1068,11 +1764,23 @@ impl IconShape for MdMoodBad {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1080,8 +1788,15 @@ impl IconShape for MdMoodBad {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0V0z",
+                fill: "none",
+            }
             path {
                 d: "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 3c-2.33 0-4.31 1.46-5.11 3.5h10.22c-.8-2.04-2.78-3.5-5.11-3.5z",
             }
@@ -1095,11 +1810,23 @@ impl IconShape for MdNightsStay {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1107,8 +1834,16 @@ impl IconShape for MdNightsStay {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M11.1,12.08C8.77,7.57,10.6,3.6,11.63,2.01C6.27,2.2,1.98,6.59,1.98,12c0,0.14,0.02,0.28,0.02,0.42 C2.62,12.15,3.29,12,4,12c1.66,0,3.18,0.83,4.1,2.15C9.77,14.63,11,16.17,11,18c0,1.52-0.87,2.83-2.12,3.51 c0.98,0.32,2.03,0.5,3.11,0.5c3.5,0,6.58-1.8,8.37-4.52C18,17.72,13.38,16.52,11.1,12.08z",
             }
@@ -1125,11 +1860,23 @@ impl IconShape for MdNoLuggage {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1137,8 +1884,16 @@ impl IconShape for MdNoLuggage {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M12.75,9v0.92l1.75,1.75V9H16v4.17l3,3V8c0-1.1-0.9-2-2-2h-2V3c0-0.55-0.45-1-1-1h-4C9.45,2,9,2.45,9,3v3H8.83l3,3H12.75z M10.5,3.5h3V6h-3V3.5z M21.19,21.19L2.81,2.81L1.39,4.22l3.63,3.63C5.02,7.9,5,7.95,5,8v11c0,1.1,0.9,2,2,2c0,0.55,0.45,1,1,1 c0.55,0,1-0.45,1-1h6c0,0.55,0.45,1,1,1s1-0.45,1-1c0.34,0,0.65-0.09,0.93-0.24l1.85,1.85L21.19,21.19z M8,18v-7.17l1.5,1.5V18H8z M12.75,18h-1.5v-3.92l1.5,1.5V18z",
             }
@@ -1152,11 +1907,23 @@ impl IconShape for MdNotifications {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1164,8 +1931,15 @@ impl IconShape for MdNotifications {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
-        rsx! {}
+        rsx! {
+            path {
+                d: "M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z",
+            }
+        }
     }
 }
 
@@ -1175,11 +1949,23 @@ impl IconShape for MdNotificationsActive {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1187,8 +1973,15 @@ impl IconShape for MdNotificationsActive {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M7.58 4.08L6.15 2.65C3.75 4.48 2.17 7.3 2.03 10.5h2c.15-2.65 1.51-4.97 3.55-6.42zm12.39 6.42h2c-.15-3.2-1.73-6.02-4.12-7.85l-1.42 1.43c2.02 1.45 3.39 3.77 3.54 6.42zM18 11c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2v-5zm-6 11c.14 0 .27-.01.4-.04.65-.14 1.18-.58 1.44-1.18.1-.24.15-.5.15-.78h-4c.01 1.1.9 2 2.01 2z",
             }
@@ -1202,11 +1995,23 @@ impl IconShape for MdNotificationsNone {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1214,8 +2019,15 @@ impl IconShape for MdNotificationsNone {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z",
             }
@@ -1229,11 +2041,23 @@ impl IconShape for MdNotificationsOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1241,8 +2065,15 @@ impl IconShape for MdNotificationsOff {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M20 18.69L7.84 6.14 5.27 3.49 4 4.76l2.8 2.8v.01c-.52.99-.8 2.16-.8 3.42v5l-2 2v1h13.73l2 2L21 19.72l-1-1.03zM12 22c1.11 0 2-.89 2-2h-4c0 1.11.89 2 2 2zm6-7.32V11c0-3.08-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68c-.15.03-.29.08-.42.12-.1.03-.2.07-.3.11h-.01c-.01 0-.01 0-.02.01-.23.09-.46.2-.68.31 0 0-.01 0-.01.01L18 14.68z",
             }
@@ -1256,11 +2087,23 @@ impl IconShape for MdNotificationsPaused {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1268,8 +2111,15 @@ impl IconShape for MdNotificationsPaused {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.93 6 11v5l-2 2v1h16v-1l-2-2zm-3.5-6.2l-2.8 3.4h2.8V15h-5v-1.8l2.8-3.4H9.5V8h5v1.8z",
             }
@@ -1283,11 +2133,23 @@ impl IconShape for MdOutdoorGrill {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1295,8 +2157,16 @@ impl IconShape for MdOutdoorGrill {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M17,22c1.66,0,3-1.34,3-3s-1.34-3-3-3c-1.3,0-2.4,0.84-2.82,2H9.14l1.99-3.06C11.42,14.98,11.71,15,12,15 s0.58-0.02,0.87-0.06l1.02,1.57c0.42-0.53,0.96-0.95,1.6-1.21l-0.6-0.93C17.31,13.27,19,10.84,19,8H5c0,2.84,1.69,5.27,4.12,6.37 l-3.95,6.08c-0.3,0.46-0.17,1.08,0.29,1.38h0c0.46,0.3,1.08,0.17,1.38-0.29l1-1.55h6.34C14.6,21.16,15.7,22,17,22z M17,18 c0.55,0,1,0.45,1,1c0,0.55-0.45,1-1,1s-1-0.45-1-1C16,18.45,16.45,18,17,18z",
             }
@@ -1319,11 +2189,23 @@ impl IconShape for MdPages {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1331,8 +2213,15 @@ impl IconShape for MdPages {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M3 5v6h5L7 7l4 1V3H5c-1.1 0-2 .9-2 2zm5 8H3v6c0 1.1.9 2 2 2h6v-5l-4 1 1-4zm9 4l-4-1v5h6c1.1 0 2-.9 2-2v-6h-5l1 4zm2-14h-6v5l4-1-1 4h5V5c0-1.1-.9-2-2-2z",
             }
@@ -1346,11 +2235,23 @@ impl IconShape for MdPartyMode {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1358,8 +2259,15 @@ impl IconShape for MdPartyMode {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M20 4h-3.17L15 2H9L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-8 3c1.63 0 3.06.79 3.98 2H12c-1.66 0-3 1.34-3 3 0 .35.07.69.18 1H7.1c-.06-.32-.1-.66-.1-1 0-2.76 2.24-5 5-5zm0 10c-1.63 0-3.06-.79-3.98-2H12c1.66 0 3-1.34 3-3 0-.35-.07-.69-.18-1h2.08c.07.32.1.66.1 1 0 2.76-2.24 5-5 5z",
             }
@@ -1373,11 +2281,23 @@ impl IconShape for MdPeople {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1385,8 +2305,15 @@ impl IconShape for MdPeople {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z",
             }
@@ -1400,11 +2327,23 @@ impl IconShape for MdPeopleAlt {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1412,8 +2351,16 @@ impl IconShape for MdPeopleAlt {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M16.67,13.13C18.04,14.06,19,15.32,19,17v3h4v-3 C23,14.82,19.43,13.53,16.67,13.13z",
                 fill_rule: "evenodd",
@@ -1442,11 +2389,23 @@ impl IconShape for MdPeopleOutline {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1454,8 +2413,15 @@ impl IconShape for MdPeopleOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M16.5 13c-1.2 0-3.07.34-4.5 1-1.43-.67-3.3-1-4.5-1C5.33 13 1 14.08 1 16.25V19h22v-2.75c0-2.17-4.33-3.25-6.5-3.25zm-4 4.5h-10v-1.25c0-.54 2.56-1.75 5-1.75s5 1.21 5 1.75v1.25zm9 0H14v-1.25c0-.46-.2-.86-.52-1.22.88-.3 1.96-.53 3.02-.53 2.44 0 5 1.21 5 1.75v1.25zM7.5 12c1.93 0 3.5-1.57 3.5-3.5S9.43 5 7.5 5 4 6.57 4 8.5 5.57 12 7.5 12zm0-5.5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm9 5.5c1.93 0 3.5-1.57 3.5-3.5S18.43 5 16.5 5 13 6.57 13 8.5s1.57 3.5 3.5 3.5zm0-5.5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z",
             }
@@ -1469,11 +2435,23 @@ impl IconShape for MdPerson {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1481,8 +2459,15 @@ impl IconShape for MdPerson {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z",
             }
@@ -1496,11 +2481,23 @@ impl IconShape for MdPersonAdd {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1508,8 +2505,15 @@ impl IconShape for MdPersonAdd {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M15 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm-9-2V7H4v3H1v2h3v3h2v-3h3v-2H6zm9 4c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z",
             }
@@ -1523,11 +2527,23 @@ impl IconShape for MdPersonAddAlt {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1535,8 +2551,16 @@ impl IconShape for MdPersonAddAlt {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M13,8c0-2.21-1.79-4-4-4S5,5.79,5,8s1.79,4,4,4S13,10.21,13,8z M11,8c0,1.1-0.9,2-2,2S7,9.1,7,8s0.9-2,2-2S11,6.9,11,8z M1,18v2h16v-2c0-2.66-5.33-4-8-4S1,15.34,1,18z M3,18c0.2-0.71,3.3-2,6-2c2.69,0,5.78,1.28,6,2H3z M20,15v-3h3v-2h-3V7h-2v3h-3v2 h3v3H20z",
             }
@@ -1550,11 +2574,23 @@ impl IconShape for MdPersonAddAlt1 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1562,8 +2598,16 @@ impl IconShape for MdPersonAddAlt1 {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M13,8c0-2.21-1.79-4-4-4S5,5.79,5,8s1.79,4,4,4S13,10.21,13,8z M15,10v2h3v3h2v-3h3v-2h-3V7h-2v3H15z M1,18v2h16v-2 c0-2.66-5.33-4-8-4S1,15.34,1,18z",
             }
@@ -1577,11 +2621,23 @@ impl IconShape for MdPersonOutline {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1589,8 +2645,15 @@ impl IconShape for MdPersonOutline {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z",
             }
@@ -1604,11 +2667,23 @@ impl IconShape for MdPersonRemove {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1616,8 +2691,16 @@ impl IconShape for MdPersonRemove {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M14,8c0-2.21-1.79-4-4-4S6,5.79,6,8s1.79,4,4,4S14,10.21,14,8z M17,10v2h6v-2H17z M2,18v2h16v-2c0-2.66-5.33-4-8-4 S2,15.34,2,18z",
             }
@@ -1631,11 +2714,23 @@ impl IconShape for MdPersonRemoveAlt1 {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1643,8 +2738,16 @@ impl IconShape for MdPersonRemoveAlt1 {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M14,8c0-2.21-1.79-4-4-4S6,5.79,6,8s1.79,4,4,4S14,10.21,14,8z M17,10v2h6v-2H17z M2,18v2h16v-2c0-2.66-5.33-4-8-4 S2,15.34,2,18z",
             }
@@ -1658,11 +2761,23 @@ impl IconShape for MdPlusOne {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1670,8 +2785,15 @@ impl IconShape for MdPlusOne {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M10 8H8v4H4v2h4v4h2v-4h4v-2h-4zm4.5-1.92V7.9l2.5-.5V18h2V5z",
             }
@@ -1685,11 +2807,23 @@ impl IconShape for MdPoll {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1697,8 +2831,15 @@ impl IconShape for MdPoll {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z",
             }
@@ -1712,11 +2853,23 @@ impl IconShape for MdPsychology {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1724,8 +2877,16 @@ impl IconShape for MdPsychology {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M13,8.57c-0.79,0-1.43,0.64-1.43,1.43s0.64,1.43,1.43,1.43s1.43-0.64,1.43-1.43S13.79,8.57,13,8.57z",
             }
@@ -1742,11 +2903,23 @@ impl IconShape for MdPublic {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1754,8 +2927,15 @@ impl IconShape for MdPublic {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z",
             }
@@ -1769,11 +2949,23 @@ impl IconShape for MdPublicOff {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1781,8 +2973,16 @@ impl IconShape for MdPublicOff {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M11,8.17L6.49,3.66C8.07,2.61,9.96,2,12,2c5.52,0,10,4.48,10,10c0,2.04-0.61,3.93-1.66,5.51l-1.46-1.46 C19.59,14.87,20,13.48,20,12c0-3.35-2.07-6.22-5-7.41V5c0,1.1-0.9,2-2,2h-2V8.17z M21.19,21.19l-1.41,1.41l-2.27-2.27 C15.93,21.39,14.04,22,12,22C6.48,22,2,17.52,2,12c0-2.04,0.61-3.93,1.66-5.51L1.39,4.22l1.41-1.41L21.19,21.19z M11,18 c-1.1,0-2-0.9-2-2v-1l-4.79-4.79C4.08,10.79,4,11.38,4,12c0,4.08,3.05,7.44,7,7.93V18z",
             }
@@ -1796,11 +2996,23 @@ impl IconShape for MdRecommend {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1808,8 +3020,15 @@ impl IconShape for MdRecommend {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        "ic_recommend_24px"
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm6 9.8a.9.9 0 0 1-.1.5l-2.1 4.9a1.34 1.34 0 0 1-1.3.8H9a2 2 0 0 1-2-2v-5a1.28 1.28 0 0 1 .4-1L12 5l.69.69a1.08 1.08 0 0 1 .3.7v.2L12.41 10H17a1 1 0 0 1 1 1z",
             }
@@ -1823,11 +3042,23 @@ impl IconShape for MdReduceCapacity {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1835,8 +3066,16 @@ impl IconShape for MdReduceCapacity {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M16,4c0-1.1,0.9-2,2-2s2,0.9,2,2s-0.9,2-2,2S16,5.1,16,4z M20.78,7.58C19.93,7.21,18.99,7,18,7c-0.67,0-1.31,0.1-1.92,0.28 C16.66,7.83,17,8.6,17,9.43V10h5V9.43C22,8.62,21.52,7.9,20.78,7.58z M6,6c1.1,0,2-0.9,2-2S7.1,2,6,2S4,2.9,4,4S4.9,6,6,6z M7.92,7.28C7.31,7.1,6.67,7,6,7C5.01,7,4.07,7.21,3.22,7.58C2.48,7.9,2,8.62,2,9.43V10h5V9.43C7,8.6,7.34,7.83,7.92,7.28z M10,4 c0-1.1,0.9-2,2-2s2,0.9,2,2s-0.9,2-2,2S10,5.1,10,4z M16,10H8V9.43C8,8.62,8.48,7.9,9.22,7.58C10.07,7.21,11.01,7,12,7 c0.99,0,1.93,0.21,2.78,0.58C15.52,7.9,16,8.62,16,9.43V10z M15,16c0-1.1,0.9-2,2-2s2,0.9,2,2s-0.9,2-2,2S15,17.1,15,16z M21,22h-8 v-0.57c0-0.81,0.48-1.53,1.22-1.85C15.07,19.21,16.01,19,17,19c0.99,0,1.93,0.21,2.78,0.58C20.52,19.9,21,20.62,21,21.43V22z M5,16 c0-1.1,0.9-2,2-2s2,0.9,2,2s-0.9,2-2,2S5,17.1,5,16z M11,22H3v-0.57c0-0.81,0.48-1.53,1.22-1.85C5.07,19.21,6.01,19,7,19 c0.99,0,1.93,0.21,2.78,0.58C10.52,19.9,11,20.62,11,21.43V22z M12.75,13v-2h-1.5v2H9l3,3l3-3H12.75z",
             }
@@ -1850,11 +3089,23 @@ impl IconShape for MdRemoveModerator {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1862,8 +3113,15 @@ impl IconShape for MdRemoveModerator {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M22.27 21.73l-3.54-3.55L5.78 5.23 2.27 1.72 1 2.99 3.01 5H3v6c0 5.55 3.84 10.74 9 12 2.16-.53 4.08-1.76 5.6-3.41L21 23l1.27-1.27zM13 9.92l6.67 6.67C20.51 14.87 21 12.96 21 11V5l-9-4-5.48 2.44L11 7.92l2 2z",
             }
@@ -1877,11 +3135,23 @@ impl IconShape for MdSanitizer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1889,8 +3159,16 @@ impl IconShape for MdSanitizer {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M15.5,6.5C15.5,5.66,17,4,17,4s1.5,1.66,1.5,2.5C18.5,7.33,17.83,8,17,8S15.5,7.33,15.5,6.5z M19.5,15 c1.38,0,2.5-1.12,2.5-2.5c0-1.67-2.5-4.5-2.5-4.5S17,10.83,17,12.5C17,13.88,18.12,15,19.5,15z M13,14h-2v-2H9v2H7v2h2v2h2v-2h2V14z M16,12v10H4V12c0-2.97,2.16-5.43,5-5.91V4H7V2h6c1.13,0,2.15,0.39,2.99,1.01l-1.43,1.43C14.1,4.17,13.57,4,13,4h-2v2.09 C13.84,6.57,16,9.03,16,12z",
             }
@@ -1904,11 +3182,23 @@ impl IconShape for MdSchool {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1916,8 +3206,15 @@ impl IconShape for MdSchool {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z",
             }
@@ -1931,11 +3228,23 @@ impl IconShape for MdScience {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1943,8 +3252,16 @@ impl IconShape for MdScience {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M19.8,18.4L14,10.67V6.5l1.35-1.69C15.61,4.48,15.38,4,14.96,4H9.04C8.62,4,8.39,4.48,8.65,4.81L10,6.5v4.17L4.2,18.4 C3.71,19.06,4.18,20,5,20h14C19.82,20,20.29,19.06,19.8,18.4z",
             }
@@ -1958,11 +3275,23 @@ impl IconShape for MdSelfImprovement {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -1970,8 +3299,16 @@ impl IconShape for MdSelfImprovement {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             circle {
                 cx: "12",
                 cy: "6",
@@ -1990,11 +3327,23 @@ impl IconShape for MdSentimentDissatisfied {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2002,8 +3351,15 @@ impl IconShape for MdSentimentDissatisfied {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0V0z",
+                fill: "none",
+            }
             circle {
                 cx: "15.5",
                 cy: "9.5",
@@ -2027,11 +3383,23 @@ impl IconShape for MdSentimentNeutral {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2039,8 +3407,15 @@ impl IconShape for MdSentimentNeutral {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0V0z",
+                fill: "none",
+            }
             path {
                 d: "M9 15.5h6v1H9v-1z",
             }
@@ -2067,11 +3442,23 @@ impl IconShape for MdSentimentSatisfied {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2079,8 +3466,15 @@ impl IconShape for MdSentimentSatisfied {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0V0z",
+                fill: "none",
+            }
             circle {
                 cx: "15.5",
                 cy: "9.5",
@@ -2104,11 +3498,23 @@ impl IconShape for MdSentimentVeryDissatisfied {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2116,8 +3522,15 @@ impl IconShape for MdSentimentVeryDissatisfied {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0V0z",
+                fill: "none",
+            }
             circle {
                 cx: "15.5",
                 cy: "9.5",
@@ -2141,11 +3554,23 @@ impl IconShape for MdSentimentVerySatisfied {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2153,8 +3578,15 @@ impl IconShape for MdSentimentVerySatisfied {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0V0z",
+                fill: "none",
+            }
             circle {
                 cx: "15.5",
                 cy: "9.5",
@@ -2178,11 +3610,23 @@ impl IconShape for MdShare {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2190,8 +3634,15 @@ impl IconShape for MdShare {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z",
             }
@@ -2205,11 +3656,23 @@ impl IconShape for MdSick {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2217,8 +3680,16 @@ impl IconShape for MdSick {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M21,9c-1.1,0-2-0.9-2-2c0-1.1,2-4,2-4s2,2.9,2,4C23,8.1,22.1,9,21,9z M17.5,7c0-0.73,0.41-1.71,0.92-2.66 C16.68,2.88,14.44,2,11.99,2C6.47,2,2,6.48,2,12c0,5.52,4.47,10,9.99,10C17.52,22,22,17.52,22,12c0-0.55-0.06-1.09-0.14-1.62 C21.58,10.45,21.3,10.5,21,10.5C19.07,10.5,17.5,8.93,17.5,7z M15.62,7.38l1.06,1.06L15.62,9.5l1.06,1.06l-1.06,1.06L13.5,9.5 L15.62,7.38z M7.32,8.44l1.06-1.06L10.5,9.5l-2.12,2.12l-1.06-1.06L8.38,9.5L7.32,8.44z M15.44,17c-0.69-1.19-1.97-2-3.44-2 s-2.75,0.81-3.44,2H6.88c0.3-0.76,0.76-1.43,1.34-1.99L5.24,13.3c-0.45,0.26-1.01,0.28-1.49,0c-0.72-0.41-0.96-1.33-0.55-2.05 c0.41-0.72,1.33-0.96,2.05-0.55c0.48,0.28,0.74,0.78,0.74,1.29l3.58,2.07c0.73-0.36,1.55-0.56,2.43-0.56c2.33,0,4.32,1.45,5.12,3.5 H15.44z",
             }
@@ -2232,11 +3703,23 @@ impl IconShape for MdSingleBed {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2244,8 +3727,16 @@ impl IconShape for MdSingleBed {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M20,12c0-1.1-0.9-2-2-2V7c0-1.1-0.9-2-2-2H8C6.9,5,6,5.9,6,7v3c-1.1,0-2,0.9-2,2v5h1.33L6,19h1l0.67-2h8.67L17,19h1l0.67-2 H20V12z M16,10h-3V7h3V10z M8,7h3v3H8V7z M6,12h12v3H6V12z",
             }
@@ -2259,11 +3750,23 @@ impl IconShape for MdSports {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2271,8 +3774,16 @@ impl IconShape for MdSports {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M11.23,6C9.57,6,8.01,6.66,6.87,7.73C6.54,6.73,5.61,6,4.5,6C3.12,6,2,7.12,2,8.5C2,9.88,3.12,11,4.5,11 c0.21,0,0.41-0.03,0.61-0.08c-0.05,0.25-0.09,0.51-0.1,0.78c-0.18,3.68,2.95,6.68,6.68,6.27c2.55-0.28,4.68-2.26,5.19-4.77 c0.15-0.71,0.15-1.4,0.06-2.06c-0.09-0.6,0.38-1.13,0.99-1.13H22V6H11.23z M4.5,9C4.22,9,4,8.78,4,8.5C4,8.22,4.22,8,4.5,8 S5,8.22,5,8.5C5,8.78,4.78,9,4.5,9z M11,15c-1.66,0-3-1.34-3-3s1.34-3,3-3s3,1.34,3,3S12.66,15,11,15z",
             }
@@ -2291,11 +3802,23 @@ impl IconShape for MdSportsBaseball {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2303,8 +3826,16 @@ impl IconShape for MdSportsBaseball {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M3.81,6.28C2.67,7.9,2,9.87,2,12s0.67,4.1,1.81,5.72C6.23,16.95,8,14.68,8,12S6.23,7.05,3.81,6.28z",
             }
@@ -2324,11 +3855,23 @@ impl IconShape for MdSportsBasketball {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2336,8 +3879,16 @@ impl IconShape for MdSportsBasketball {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M17.09,11h4.86c-0.16-1.61-0.71-3.11-1.54-4.4C18.68,7.43,17.42,9.05,17.09,11z",
             }
@@ -2372,11 +3923,23 @@ impl IconShape for MdSportsCricket {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2384,8 +3947,16 @@ impl IconShape for MdSportsCricket {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M15.05,12.81L6.56,4.32c-0.39-0.39-1.02-0.39-1.41,0L2.32,7.15c-0.39,0.39-0.39,1.02,0,1.41l8.49,8.49 c0.39,0.39,1.02,0.39,1.41,0l2.83-2.83C15.44,13.83,15.44,13.2,15.05,12.81z",
             }
@@ -2411,11 +3982,23 @@ impl IconShape for MdSportsEsports {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2423,8 +4006,16 @@ impl IconShape for MdSportsEsports {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M21.58,16.09l-1.09-7.66C20.21,6.46,18.52,5,16.53,5H7.47C5.48,5,3.79,6.46,3.51,8.43l-1.09,7.66 C2.2,17.63,3.39,19,4.94,19h0c0.68,0,1.32-0.27,1.8-0.75L9,16h6l2.25,2.25c0.48,0.48,1.13,0.75,1.8,0.75h0 C20.61,19,21.8,17.63,21.58,16.09z M11,11H9v2H8v-2H6v-1h2V8h1v2h2V11z M15,10c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1 C16,9.55,15.55,10,15,10z M17,13c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1C18,12.55,17.55,13,17,13z",
             }
@@ -2438,11 +4029,23 @@ impl IconShape for MdSportsFootball {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2450,8 +4053,16 @@ impl IconShape for MdSportsFootball {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M3.02,15.62c-0.08,2.42,0.32,4.34,0.67,4.69s2.28,0.76,4.69,0.67L3.02,15.62z",
             }
@@ -2471,11 +4082,23 @@ impl IconShape for MdSportsGolf {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2483,8 +4106,16 @@ impl IconShape for MdSportsGolf {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M12,16c3.87,0,7-3.13,7-7c0-3.87-3.13-7-7-7S5,5.13,5,9C5,12.87,8.13,16,12,16z M12,4c2.76,0,5,2.24,5,5s-2.24,5-5,5 s-5-2.24-5-5S9.24,4,12,4z",
             }
@@ -2516,11 +4147,23 @@ impl IconShape for MdSportsHandball {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2528,8 +4171,16 @@ impl IconShape for MdSportsHandball {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M14.27,6C13.72,6.95,14.05,8.18,15,8.73c0.95,0.55,2.18,0.22,2.73-0.73c0.55-0.95,0.22-2.18-0.73-2.73 C16.05,4.72,14.82,5.05,14.27,6z",
             }
@@ -2549,11 +4200,23 @@ impl IconShape for MdSportsHockey {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2561,8 +4224,16 @@ impl IconShape for MdSportsHockey {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M2,17v3l2,0v-4H3C2.45,16,2,16.45,2,17z",
             }
@@ -2585,11 +4256,23 @@ impl IconShape for MdSportsKabaddi {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2597,8 +4280,16 @@ impl IconShape for MdSportsKabaddi {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             circle {
                 cx: "16.5",
                 cy: "2.38",
@@ -2623,11 +4314,23 @@ impl IconShape for MdSportsMma {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2635,8 +4338,16 @@ impl IconShape for MdSportsMma {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M7,20c0,0.55,0.45,1,1,1h8c0.55,0,1-0.45,1-1v-3H7V20z",
             }
@@ -2653,11 +4364,23 @@ impl IconShape for MdSportsMotorsports {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2665,8 +4388,16 @@ impl IconShape for MdSportsMotorsports {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M12,11.39c0-0.65-0.39-1.23-0.98-1.48L5.44,7.55c-1.48,1.68-2.32,3.7-2.8,5.45h7.75C11.28,13,12,12.28,12,11.39z",
             }
@@ -2683,11 +4414,23 @@ impl IconShape for MdSportsRugby {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2695,8 +4438,16 @@ impl IconShape for MdSportsRugby {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M20.49,3.51c-0.56-0.56-2.15-0.97-4.16-0.97c-3.08,0-7.15,0.96-9.98,3.79C1.66,11.03,2.1,19.07,3.51,20.49 c0.56,0.56,2.15,0.97,4.16,0.97c3.08,0,7.15-0.96,9.98-3.79C22.34,12.97,21.9,4.93,20.49,3.51z M7.76,7.76 c2.64-2.64,6.35-3.12,8.03-3.19c-2.05,0.94-4.46,2.45-6.61,4.61c-2.16,2.16-3.67,4.58-4.62,6.63C4.66,13.33,5.44,10.07,7.76,7.76z M16.24,16.24c-2.64,2.64-6.35,3.12-8.03,3.19c2.05-0.94,4.46-2.45,6.61-4.61c2.16-2.16,3.67-4.58,4.62-6.63 C19.34,10.67,18.56,13.93,16.24,16.24z",
             }
@@ -2710,11 +4461,23 @@ impl IconShape for MdSportsSoccer {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2722,8 +4485,16 @@ impl IconShape for MdSportsSoccer {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M13,5.3l1.35-0.95 c1.82,0.56,3.37,1.76,4.38,3.34l-0.39,1.34l-1.35,0.46L13,6.7V5.3z M9.65,4.35L11,5.3v1.4L7.01,9.49L5.66,9.03L5.27,7.69 C6.28,6.12,7.83,4.92,9.65,4.35z M7.08,17.11l-1.14,0.1C4.73,15.81,4,13.99,4,12c0-0.12,0.01-0.23,0.02-0.35l1-0.73L6.4,11.4 l1.46,4.34L7.08,17.11z M14.5,19.59C13.71,19.85,12.87,20,12,20s-1.71-0.15-2.5-0.41l-0.69-1.49L9.45,17h5.11l0.64,1.11 L14.5,19.59z M14.27,15H9.73l-1.35-4.02L12,8.44l3.63,2.54L14.27,15z M18.06,17.21l-1.14-0.1l-0.79-1.37l1.46-4.34l1.39-0.47 l1,0.73C19.99,11.77,20,11.88,20,12C20,13.99,19.27,15.81,18.06,17.21z",
             }
@@ -2737,11 +4508,23 @@ impl IconShape for MdSportsTennis {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2749,8 +4532,16 @@ impl IconShape for MdSportsTennis {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M19.52,2.49c-2.34-2.34-6.62-1.87-9.55,1.06c-1.6,1.6-2.52,3.87-2.54,5.46c-0.02,1.58,0.26,3.89-1.35,5.5l-4.24,4.24 l1.42,1.42l4.24-4.24c1.61-1.61,3.92-1.33,5.5-1.35s3.86-0.94,5.46-2.54C21.38,9.11,21.86,4.83,19.52,2.49z M10.32,11.68 c-1.53-1.53-1.05-4.61,1.06-6.72s5.18-2.59,6.72-1.06c1.53,1.53,1.05,4.61-1.06,6.72S11.86,13.21,10.32,11.68z",
             }
@@ -2767,11 +4558,23 @@ impl IconShape for MdSportsVolleyball {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2779,8 +4582,16 @@ impl IconShape for MdSportsVolleyball {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            rect {
+                fill: "none",
+                height: "24",
+                width: "24",
+            }
             path {
                 d: "M6,4.01C3.58,5.84,2,8.73,2,12c0,1.46,0.32,2.85,0.89,4.11L6,14.31V4.01z",
             }
@@ -2809,11 +4620,23 @@ impl IconShape for MdSwitchAccount {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2821,8 +4644,15 @@ impl IconShape for MdSwitchAccount {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-6 2c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H8v-1.5c0-1.99 4-3 6-3s6 1.01 6 3V16z",
             }
@@ -2836,11 +4666,23 @@ impl IconShape for MdThumbDownAlt {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2848,8 +4690,15 @@ impl IconShape for MdThumbDownAlt {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M24 24H0V0h24v24z",
+                fill: "none",
+            }
             path {
                 d: "M22 4h-2c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h2V4zM2.17 11.12c-.11.25-.17.52-.17.8V13c0 1.1.9 2 2 2h5.5l-.92 4.65c-.05.22-.02.46.08.66.23.45.52.86.88 1.22L10 22l6.41-6.41c.38-.38.59-.89.59-1.42V6.34C17 5.05 15.95 4 14.66 4h-8.1c-.71 0-1.36.37-1.72.97l-2.67 6.15z",
             }
@@ -2863,11 +4712,23 @@ impl IconShape for MdThumbUpAlt {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2875,8 +4736,15 @@ impl IconShape for MdThumbUpAlt {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M24 24H0V0h24v24z",
+                fill: "none",
+            }
             path {
                 d: "M2 20h2c.55 0 1-.45 1-1v-9c0-.55-.45-1-1-1H2v11zm19.83-7.12c.11-.25.17-.52.17-.8V11c0-1.1-.9-2-2-2h-5.5l.92-4.65c.05-.22.02-.46-.08-.66-.23-.45-.52-.86-.88-1.22L14 2 7.59 8.41C7.21 8.79 7 9.3 7 9.83v7.84C7 18.95 8.05 20 9.34 20h8.11c.7 0 1.36-.37 1.72-.97l2.66-6.15z",
             }
@@ -2890,11 +4758,23 @@ impl IconShape for MdWhatshot {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
+    fn width(&self) -> &str {
+        "24"
+    }
+    fn height(&self) -> &str {
+        "24"
+    }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
     }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
+    fn fill(&self) -> &str {
+        "black"
+    }
+    fn stroke(&self) -> &str {
+        "none"
+    }
+    fn stroke_width(&self) -> &str {
+        "1"
     }
     fn stroke_linecap(&self) -> &str {
         "butt"
@@ -2902,8 +4782,15 @@ impl IconShape for MdWhatshot {
     fn stroke_linejoin(&self) -> &str {
         "miter"
     }
+    fn title(&self) -> &str {
+        ""
+    }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M0 0h24v24H0z",
+                fill: "none",
+            }
             path {
                 d: "M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z",
             }
