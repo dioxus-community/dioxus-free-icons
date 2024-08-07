@@ -35,30 +35,56 @@ pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
     pub class: String,
     /// An accessible, short-text description for the icon.
     pub title: Option<String>,
+    /// The style of the `<svg>` element.
+    pub style: Option<String>,
 }
 
 /// Icon component which generates SVG elements
 #[allow(non_snake_case)]
 pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> Element {
     let (fill, stroke, stroke_width) = props.icon.fill_and_stroke(&props.fill);
-    rsx!(
-        svg {
-            class: "{props.class}",
-            height: "{props.height}",
-            width: "{props.width}",
-            view_box: "{props.icon.view_box()}",
-            xmlns: "{props.icon.xmlns()}",
-            fill,
-            stroke,
-            stroke_width,
-            stroke_linecap: "{props.icon.stroke_linecap()}",
-            stroke_linejoin: "{props.icon.stroke_linejoin()}",
-            if let Some(title_text) = props.title {
-                title {
-                    "{title_text}"
-                }
-            },
-            {props.icon.child_elements()}
-        }
-    )
+    if let Some(style_text) = props.style {
+        rsx!(
+            svg {
+                class: "{props.class}",
+                style: "{style_text}",
+                height: "{props.height}",
+                width: "{props.width}",
+                view_box: "{props.icon.view_box()}",
+                xmlns: "{props.icon.xmlns()}",
+                fill,
+                stroke,
+                stroke_width,
+                stroke_linecap: "{props.icon.stroke_linecap()}",
+                stroke_linejoin: "{props.icon.stroke_linejoin()}",
+                if let Some(title_text) = props.title {
+                    title {
+                        "{title_text}"
+                    }
+                },
+                {props.icon.child_elements()}
+            }
+        )
+    } else {
+        rsx!(
+            svg {
+                class: "{props.class}",
+                height: "{props.height}",
+                width: "{props.width}",
+                view_box: "{props.icon.view_box()}",
+                xmlns: "{props.icon.xmlns()}",
+                fill,
+                stroke,
+                stroke_width,
+                stroke_linecap: "{props.icon.stroke_linecap()}",
+                stroke_linejoin: "{props.icon.stroke_linejoin()}",
+                if let Some(title_text) = props.title {
+                    title {
+                        "{title_text}"
+                    }
+                },
+                {props.icon.child_elements()}
+            }
+        )
+    }
 }
