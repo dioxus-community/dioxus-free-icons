@@ -51,7 +51,6 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
             width: "{props.width}",
             view_box: "{props.icon.view_box()}",
             xmlns: "{props.icon.xmlns()}",
-            xmlns: "{props.icon.xmlns()}",
             fill,
             stroke,
             stroke_width,
