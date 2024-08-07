@@ -43,48 +43,26 @@ pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
 #[allow(non_snake_case)]
 pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> Element {
     let (fill, stroke, stroke_width) = props.icon.fill_and_stroke(&props.fill);
-    if let Some(style_text) = props.style {
-        rsx!(
-            svg {
-                class: "{props.class}",
-                style: "{style_text}",
-                height: "{props.height}",
-                width: "{props.width}",
-                view_box: "{props.icon.view_box()}",
-                xmlns: "{props.icon.xmlns()}",
-                fill,
-                stroke,
-                stroke_width,
-                stroke_linecap: "{props.icon.stroke_linecap()}",
-                stroke_linejoin: "{props.icon.stroke_linejoin()}",
-                if let Some(title_text) = props.title {
-                    title {
-                        "{title_text}"
-                    }
-                },
-                {props.icon.child_elements()}
-            }
-        )
-    } else {
-        rsx!(
-            svg {
-                class: "{props.class}",
-                height: "{props.height}",
-                width: "{props.width}",
-                view_box: "{props.icon.view_box()}",
-                xmlns: "{props.icon.xmlns()}",
-                fill,
-                stroke,
-                stroke_width,
-                stroke_linecap: "{props.icon.stroke_linecap()}",
-                stroke_linejoin: "{props.icon.stroke_linejoin()}",
-                if let Some(title_text) = props.title {
-                    title {
-                        "{title_text}"
-                    }
-                },
-                {props.icon.child_elements()}
-            }
-        )
-    }
+    rsx!(
+        svg {
+            class: "{props.class}",
+            style: props.style,
+            height: "{props.height}",
+            width: "{props.width}",
+            view_box: "{props.icon.view_box()}",
+            xmlns: "{props.icon.xmlns()}",
+            xmlns: "{props.icon.xmlns()}",
+            fill,
+            stroke,
+            stroke_width,
+            stroke_linecap: "{props.icon.stroke_linecap()}",
+            stroke_linejoin: "{props.icon.stroke_linejoin()}",
+            if let Some(title_text) = props.title {
+                title {
+                    "{title_text}"
+                }
+            },
+            {props.icon.child_elements()}
+        }
+    )
 }
