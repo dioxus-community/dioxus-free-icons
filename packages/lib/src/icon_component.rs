@@ -35,6 +35,8 @@ pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
     pub class: String,
     /// An accessible, short-text description for the icon.
     pub title: Option<String>,
+    /// The style of the `<svg>` element.
+    pub style: Option<String>,
 }
 
 /// Icon component which generates SVG elements
@@ -44,6 +46,7 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
     rsx!(
         svg {
             class: "{props.class}",
+            style: props.style,
             height: "{props.height}",
             width: "{props.width}",
             view_box: "{props.icon.view_box()}",
