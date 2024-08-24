@@ -19,6 +19,14 @@ fn main() {
         create_icon_file::create_icon_file(&svg_path, &output_path, "Hi");
     }
 
+    // create tabler icons
+    const TB_SVG_BASE_PATH: &str = "../../icon_resources/tabler-icons/icons";
+    for icon_type in vec!["filled", "outline"].into_iter() {
+        let svg_path = format!("{}/{}", TB_SVG_BASE_PATH, icon_type);
+        let output_path = format!("{}/tb_{}_icons.rs", OUTPUT_BASE_PATH, icon_type);
+        create_icon_file::create_icon_file(&svg_path, &output_path, "Tb");
+    }
+
     // create ionicons
     const IO_SVG_BASE_PATH: &str = "../../icon_resources/ionicons/src/svg";
     let output_path = format!("{}/io_icons.rs", OUTPUT_BASE_PATH);
