@@ -60,7 +60,7 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
                 title {
                     "{title_text}"
                 }
-            },
+            }
             {props.icon.child_elements()}
         }
     )
