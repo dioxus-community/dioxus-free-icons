@@ -1937,6 +1937,109 @@ impl IconShape for IoArrowDownCircle {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoArrowDownLeftBoxOutline;
+impl IconShape for IoArrowDownLeftBoxOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M123.636 269.236L123.636 90.5454C123.636 79.2617 128.119 68.4401 136.098 60.4613C144.076 52.4824 154.898 48 166.182 48L421.455 48C432.738 48 443.56 52.4824 451.539 60.4613C459.518 68.4401 464 79.2617 464 90.5454L464 345.818C464 357.102 459.518 367.924 451.539 375.902C443.56 383.881 432.738 388.364 421.455 388.364L242.764 388.364",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M48 331.636L48 464L180.364 464",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M296 216L48 464",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoArrowDownLeftBoxSharp;
+impl IconShape for IoArrowDownLeftBoxSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M32 480L32 315.636L64 315.636L64 425.373L107.636 381.736L107.636 404.364L130.264 404.364L86.6275 448L196.364 448L196.364 480L32 480ZM318.628 216L130.264 404.364L480 404.364L480 32L107.636 31.9999L107.636 381.736L296 193.373L318.628 216Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoArrowDownLeftBox;
+impl IconShape for IoArrowDownLeftBox {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M180.364 480L48 480C43.7565 480 39.6869 478.314 36.6863 475.314C33.6857 472.313 32 468.244 32 464V331.636C32 322.8 39.1635 315.636 48 315.636C56.8365 315.636 64 322.8 64 331.636V425.373L115.128 374.245C117.747 378.961 121.028 383.333 124.911 387.216C128.749 391.054 133.065 394.304 137.719 396.908L86.6274 448L180.364 448C189.2 448 196.364 455.163 196.364 464C196.364 472.837 189.2 480 180.364 480ZM137.719 396.908C146.379 401.754 156.21 404.364 166.309 404.364L421.455 404.364C436.982 404.364 451.873 398.195 462.852 387.216C473.832 376.237 480 361.345 480 345.818L480 90.5454C480 75.0182 473.832 60.1269 462.852 49.1475C451.873 38.1681 436.982 32 421.455 32L166.182 32C150.655 32 135.763 38.1681 124.784 49.1475C113.805 60.1269 107.636 75.0182 107.636 90.5454L107.636 345.818C107.636 346.626 107.696 347.42 107.812 348.196C108.185 357.394 110.72 366.307 115.128 374.245L284.686 204.686C290.935 198.438 301.065 198.438 307.314 204.686C313.562 210.935 313.562 221.065 307.314 227.314L137.719 396.908Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowDownOutline;
 impl IconShape for IoArrowDownOutline {
     fn view_box(&self) -> &str {
@@ -1966,6 +2069,109 @@ impl IconShape for IoArrowDownOutline {
                 x2: "256",
                 y1: "392",
                 y2: "100",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoArrowDownRightBoxOutline;
+impl IconShape for IoArrowDownRightBoxOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M269.236 388.364L90.5454 388.364C79.2617 388.364 68.4401 383.881 60.4612 375.902C52.4824 367.924 48 357.102 48 345.818L48 90.5454C48 79.2617 52.4824 68.4401 60.4613 60.4613C68.4401 52.4824 79.2617 48 90.5454 48L345.818 48C357.102 48 367.924 52.4825 375.902 60.4613C383.881 68.4401 388.364 79.2617 388.364 90.5455L388.364 269.236",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M331.636 464L464 464L464 331.636",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M216 216L464 464",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoArrowDownRightBoxSharp;
+impl IconShape for IoArrowDownRightBoxSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M480 480L315.636 480V448L425.373 448L381.736 404.364H404.364V381.736L448 425.372L448 315.636H480L480 480ZM216 193.372L404.364 381.736L404.364 31.9999L32.0001 31.9999V404.364H381.736L193.373 216L216 193.372Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoArrowDownRightBox;
+impl IconShape for IoArrowDownRightBox {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M480 331.636L480 464C480 468.243 478.314 472.313 475.314 475.314C472.313 478.314 468.243 480 464 480H331.636C322.8 480 315.636 472.837 315.636 464C315.636 455.163 322.8 448 331.636 448H425.373L374.245 396.872C378.961 394.253 383.333 390.972 387.216 387.089C391.054 383.251 394.304 378.935 396.908 374.281L448 425.373L448 331.636C448 322.8 455.163 315.636 464 315.636C472.837 315.636 480 322.8 480 331.636ZM396.908 374.281C401.754 365.621 404.364 355.79 404.364 345.691V90.5455C404.364 75.0182 398.195 60.127 387.216 49.1476C376.237 38.1682 361.345 32 345.818 32L90.5454 32C75.0182 32 60.1269 38.1682 49.1475 49.1476C38.1681 60.127 31.9999 75.0182 31.9999 90.5455V345.818C31.9999 361.345 38.1681 376.237 49.1475 387.216C60.1269 398.195 75.0182 404.364 90.5454 404.364H345.818C346.626 404.364 347.42 404.304 348.196 404.188C357.394 403.815 366.307 401.28 374.245 396.872L204.686 227.314C198.438 221.065 198.438 210.935 204.686 204.686C210.935 198.438 221.065 198.438 227.314 204.686L396.908 374.281Z",
+                fill_rule: "evenodd",
             }
         }
     }
@@ -2667,6 +2873,109 @@ impl IconShape for IoArrowUpCircle {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoArrowUpLeftBoxOutline;
+impl IconShape for IoArrowUpLeftBoxOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M242.764 123.636L421.455 123.636C432.738 123.636 443.56 128.119 451.539 136.098C459.518 144.076 464 154.898 464 166.182L464 421.455C464 432.738 459.518 443.56 451.539 451.539C443.56 459.518 432.738 464 421.455 464L166.182 464C154.898 464 144.076 459.518 136.098 451.539C128.119 443.56 123.636 432.738 123.636 421.455L123.636 242.764",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M180.364 48L47.9999 48L48 180.364",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M296 296L48 48",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoArrowUpLeftBoxSharp;
+impl IconShape for IoArrowUpLeftBoxSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M32.0001 31.9999L196.364 32L196.364 64L86.6274 63.9999L130.264 107.636H107.636V130.264L64.0001 86.6275L64.0001 196.364H32.0001L32.0001 31.9999ZM296 318.627L107.636 130.264L107.636 480L480 480L480 107.636L130.264 107.636L318.628 296L296 318.627Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoArrowUpLeftBox;
+impl IconShape for IoArrowUpLeftBox {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M32 180.364L32 48C32 43.7565 33.6857 39.6869 36.6862 36.6863C39.6868 33.6857 43.7565 32 48 32H180.364C189.2 32 196.364 39.1635 196.364 48C196.364 56.8365 189.2 64 180.364 64H86.6274L137.755 115.128C133.039 117.747 128.667 121.028 124.784 124.911C120.946 128.749 117.696 133.065 115.092 137.719L64 86.6274L64 180.364C64 189.2 56.8365 196.364 48 196.364C39.1634 196.364 32 189.2 32 180.364ZM115.092 137.719C110.246 146.379 107.636 156.21 107.636 166.309L107.636 421.455C107.636 436.982 113.805 451.873 124.784 462.852C135.763 473.832 150.655 480 166.182 480H421.455C436.982 480 451.873 473.832 462.852 462.852C473.832 451.873 480 436.982 480 421.455V166.182C480 150.655 473.832 135.763 462.852 124.784C451.873 113.805 436.982 107.636 421.455 107.636H166.182C165.374 107.636 164.58 107.696 163.804 107.812C154.606 108.185 145.693 110.72 137.755 115.128L307.314 284.686C313.562 290.935 313.562 301.065 307.314 307.314C301.065 313.562 290.935 313.562 284.686 307.314L115.092 137.719Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoArrowUpOutline;
 impl IconShape for IoArrowUpOutline {
     fn view_box(&self) -> &str {
@@ -2696,6 +3005,109 @@ impl IconShape for IoArrowUpOutline {
                 x2: "256",
                 y1: "120",
                 y2: "412",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoArrowUpRightBoxOutline;
+impl IconShape for IoArrowUpRightBoxOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M388.364 242.764V421.455C388.364 432.738 383.881 443.56 375.902 451.539C367.924 459.518 357.102 464 345.818 464H90.5455C79.2617 464 68.4401 459.518 60.4613 451.539C52.4825 443.56 48 432.738 48 421.455V166.182C48 154.898 52.4825 144.076 60.4613 136.098C68.4401 128.119 79.2617 123.636 90.5455 123.636H269.236",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M464 180.364L464 48L331.636 48",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M216 296L464 48",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoArrowUpRightBoxSharp;
+impl IconShape for IoArrowUpRightBoxSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M480 31.9999L480 196.364H448L448 86.6273L404.364 130.264V107.636H381.736L425.373 63.9999L315.636 64V32L480 31.9999ZM193.373 296L381.736 107.636L32 107.636L32 480H404.364V130.264L216 318.627L193.373 296Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoArrowUpRightBox;
+impl IconShape for IoArrowUpRightBox {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M331.636 32L464 32C468.243 32 472.313 33.6857 475.314 36.6863C478.314 39.6868 480 43.7565 480 48V180.364C480 189.2 472.837 196.364 464 196.364C455.163 196.364 448 189.2 448 180.364V86.6274L396.872 137.755C394.253 133.039 390.972 128.667 387.089 124.784C383.251 120.946 378.935 117.696 374.281 115.092L425.373 64L331.636 64C322.8 64 315.636 56.8365 315.636 48C315.636 39.1634 322.8 32 331.636 32ZM374.281 115.092C365.621 110.246 355.79 107.636 345.691 107.636H90.5455C75.0182 107.636 60.127 113.805 49.1476 124.784C38.1682 135.763 32 150.655 32 166.182V421.455C32 436.982 38.1682 451.873 49.1476 462.852C60.127 473.832 75.0182 480 90.5455 480H345.818C361.345 480 376.237 473.832 387.216 462.852C398.195 451.873 404.364 436.982 404.364 421.455V166.182C404.364 165.374 404.304 164.58 404.188 163.804C403.815 154.606 401.28 145.693 396.872 137.755L227.314 307.314C221.065 313.562 210.935 313.562 204.686 307.314C198.438 301.065 198.438 290.935 204.686 284.686L374.281 115.092Z",
+                fill_rule: "evenodd",
             }
         }
     }
@@ -5758,6 +6170,134 @@ impl IconShape for IoBicycle {
             }
             path {
                 d: "M367.55,192H323.79a4,4,0,0,1-3.51-2.08l-31.74-58.17h0A31,31,0,0,0,239.16,124h0L169.3,194.4a32.56,32.56,0,0,0-9.3,22.4c0,17.4,12.6,23.6,18.5,27.1C207,260.32,227.07,272.33,238.08,279a4,4,0,0,1,1.92,3.41v69.12c0,8.61,6.62,16,15.23,16.43A16,16,0,0,0,272,352V266a16,16,0,0,0-6.66-13l-37-26.61a4,4,0,0,1-.58-6l42-44.79a4,4,0,0,1,6.42.79L298,215.77A16,16,0,0,0,312,224h56a16,16,0,0,0,16-16.77C383.58,198.62,376.16,192,367.55,192Z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoBinocularsOutline;
+impl IconShape for IoBinocularsOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            circle {
+                cx: "392",
+                cy: "344",
+                r: "88",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            circle {
+                cx: "120",
+                cy: "344",
+                r: "88",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M208 344V128C208 101.5 192 80 164 80C129 80 117.5 101.5 107 128C107 128 58.5 255.833 36 317.5",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M208 184C208 184 224.5 176 256 176C287.5 176 304 184 304 184",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M208 272C208 272 224.5 264 256 264C287.5 264 304 272 304 272",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M304 344V128C304 101.5 320 80 348 80C383 80 394.5 101.5 405 128C405 128 453.5 255.833 476 317.5",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoBinocularsSharp;
+impl IconShape for IoBinocularsSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M164 64C142.711 64 126.817 70.7578 114.917 82.8311C103.846 94.0643 97.3707 108.867 92.1251 122.106L23.2827 305.692C22.6101 307.388 21.5537 310.277 20.9692 312.016C20.7194 312.701 20.5192 313.392 20.3669 314.084C17.5262 323.559 16 333.601 16 344C16 401.438 62.5624 448 120 448C177.438 448 224 401.438 224 344V283.539L224.04 283.529L288 283.539V343.886L288 344C288 401.438 334.562 448 392 448C449.438 448 496 401.438 496 344C496 333.601 494.474 323.559 491.633 314.085C491.308 313 488.718 305.693 488.718 305.693L420.511 123.778L419.875 122.106C414.629 108.867 408.155 94.0643 397.083 82.8311C385.183 70.7578 369.289 64 348 64C329.564 64 314.066 71.239 303.389 83.6068C292.943 95.7067 288 111.638 288 128V162.809L224 162.809V128C224 111.638 219.057 95.7067 208.611 83.6068C197.934 71.239 182.436 64 164 64ZM56 344C56 308.654 84.6538 280 120 280C155.346 280 184 308.654 184 344C184 379.346 155.346 408 120 408C84.6538 408 56 379.346 56 344ZM328 344C328 308.654 356.654 280 392 280C427.346 280 456 308.654 456 344C456 379.346 427.346 408 392 408C356.654 408 328 379.346 328 344Z",
+                fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoBinoculars;
+impl IconShape for IoBinoculars {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                clip_rule: "evenodd",
+                d: "M114.917 82.8311C126.817 70.7578 142.711 64 164 64C182.436 64 197.934 71.239 208.611 83.6068C219.057 95.7067 224 111.638 224 128V162.809C232.45 161.226 243.147 160 256 160C268.853 160 279.55 161.226 288 162.809V128C288 111.638 292.943 95.7067 303.389 83.6068C314.066 71.239 329.564 64 348 64C369.289 64 385.183 70.7578 397.083 82.8311C408.155 94.0643 414.629 108.867 419.875 122.106L420.511 123.778L488.718 305.693C488.718 305.693 491.308 313 491.633 314.085C494.474 323.559 496 333.601 496 344C496 401.438 449.438 448 392 448C334.562 448 288 401.438 288 344C288 343.962 288 343.924 288 343.886V283.539C287.987 283.536 287.974 283.533 287.96 283.529C281.089 281.825 270.382 280 256 280C241.618 280 230.911 281.825 224.04 283.529L224 283.539V344C224 401.438 177.438 448 120 448C62.5624 448 16 401.438 16 344C16 333.601 17.5262 323.559 20.3669 314.084C20.5192 313.392 20.7194 312.701 20.9692 312.016C21.5537 310.277 22.6101 307.388 23.2827 305.692L92.1251 122.106C97.3707 108.867 103.846 94.0643 114.917 82.8311ZM320 343.905C320.051 304.184 352.267 272 392 272C422.372 272 448.352 290.806 458.93 317.408C459.392 318.668 459.845 319.905 460.288 321.118C462.696 328.307 464 336.001 464 344C464 383.764 431.764 416 392 416C352.249 416 320.022 383.786 320 344.04C320 344.027 320 344.013 320 344M120 272C89.6287 272 63.6495 290.805 53.0706 317.406C52.6085 318.667 52.1552 319.906 51.7115 321.12C49.3042 328.308 48 336.002 48 344C48 383.764 80.2355 416 120 416C159.764 416 192 383.764 192 344C192 304.236 159.764 272 120 272Z",
+                fill_rule: "evenodd",
             }
         }
     }
@@ -11041,6 +11581,98 @@ impl IconShape for IoChevronBack {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoChevronCollapseOutline;
+impl IconShape for IoChevronCollapseOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M136 104L256 208L376 104",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M136 408L256 304L376 408",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoChevronCollapseSharp;
+impl IconShape for IoChevronCollapseSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M102.145 108.514L256 241.855l153.855-133.341-31.437-36.273L256 178.337 133.582 72.241l-31.437 36.273zm0 294.972L256 270.145l153.855 133.341-31.437 36.273L256 333.663 133.582 439.759l-31.437-36.273z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoChevronCollapse;
+impl IconShape for IoChevronCollapse {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M117.863 88.282c-8.681 10.017-7.598 25.174 2.419 33.855l120 104c9.02 7.818 22.416 7.818 31.436 0l120-104c10.017-8.681 11.1-23.838 2.419-33.855s-23.839-11.099-33.855-2.418L256 176.241 151.718 85.864c-10.016-8.681-25.174-7.598-33.855 2.418zm0 335.436c-8.681-10.017-7.598-25.174 2.419-33.855l120-104c9.02-7.818 22.416-7.818 31.436 0l120 104c10.017 8.681 11.1 23.838 2.419 33.855s-23.839 11.099-33.855 2.418L256 335.759l-104.282 90.377c-10.016 8.681-25.174 7.598-33.855-2.418z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoChevronDownCircleOutline;
 impl IconShape for IoChevronDownCircleOutline {
     fn view_box(&self) -> &str {
@@ -11205,6 +11837,118 @@ impl IconShape for IoChevronDown {
             polyline {
                 points: "112 184 256 328 400 184",
                 style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:48px",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoChevronExpandOutline;
+impl IconShape for IoChevronExpandOutline {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M136 208L256 104L376 208",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+            path {
+                d: "M136 304L256 408L376 304",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoChevronExpandSharp;
+impl IconShape for IoChevronExpandSharp {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M136 208L256 104L376 208",
+                stroke: "currentColor",
+                stroke_linecap: "square",
+                stroke_width: "48",
+            }
+            path {
+                d: "M136 304L256 408L376 304",
+                stroke: "currentColor",
+                stroke_linecap: "square",
+                stroke_width: "48",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoChevronExpand;
+impl IconShape for IoChevronExpand {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M136 208L256 104L376 208",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "48",
+            }
+            path {
+                d: "M136 304L256 408L376 304",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "48",
             }
         }
     }
@@ -13631,26 +14375,26 @@ impl IconShape for IoColorWand {
             }
             path {
                 d: "M124.1,140.1c-4.2,0-8.3-1.7-11.3-4.7l-33.9-33.9c-6.2-6.2-6.2-16.4,0-22.6s16.4-6.2,22.6,0l33.9,33.9
-        c6.3,6.2,6.3,16.4,0,22.6C132.4,138.4,128.4,140.1,124.1,140.1z",
+	c6.3,6.2,6.3,16.4,0,22.6C132.4,138.4,128.4,140.1,124.1,140.1z",
             }
             path {
                 d: "M192,112c-8.8,0-16-7.2-16-16V48c0-8.8,7.2-16,16-16s16,7.2,16,16v48C208,104.8,200.8,112,192,112z",
             }
             path {
                 d: "M259.9,140.1c-8.8,0-16-7.2-16-16c0-4.2,1.7-8.3,4.7-11.3l33.9-33.9c6.2-6.2,16.4-6.2,22.6,0c6.2,6.2,6.2,16.4,0,22.6
-        l-33.9,33.9C268.2,138.4,264.1,140.1,259.9,140.1z",
+	l-33.9,33.9C268.2,138.4,264.1,140.1,259.9,140.1z",
             }
             path {
                 d: "M90.2,309.8c-8.8,0-16-7.2-16-16c0-4.2,1.7-8.3,4.7-11.3l33.9-33.9c6.2-6.2,16.4-6.2,22.6,0s6.2,16.4,0,22.6l-33.9,33.9
-        C98.5,308.1,94.4,309.8,90.2,309.8z",
+	C98.5,308.1,94.4,309.8,90.2,309.8z",
             }
             path {
                 d: "M234.2,167c-18.4-18.7-48.5-19-67.2-0.7s-19,48.5-0.7,67.2c0.2,0.2,0.5,0.5,0.7,0.7l39.5,39.5c3.1,3.1,8.2,3.1,11.3,0
-        l55.9-55.9c3.1-3.1,3.1-8.2,0-11.3L234.2,167z",
+	l55.9-55.9c3.1-3.1,3.1-8.2,0-11.3L234.2,167z",
             }
             path {
                 d: "M457,389.8L307.6,240.4c-3.1-3.1-8.2-3.1-11.3,0l-55.9,55.9c-3.1,3.1-3.1,8.2,0,11.3L389.8,457c18.4,18.7,48.5,19,67.2,0.7
-        c18.7-18.4,19-48.5,0.7-67.2C457.5,390.3,457.3,390,457,389.8L457,389.8z",
+	c18.7-18.4,19-48.5,0.7-67.2C457.5,390.3,457.3,390,457,389.8L457,389.8z",
             }
         }
     }
@@ -26299,6 +27043,36 @@ impl IconShape for IoLogoAngular {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoLogoAppflow;
+impl IconShape for IoLogoAppflow {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M198.626 28.4235L8.00006 484.424H122.376L256 164.779L389.624 484.424H504L313.374 28.4235H198.626Z",
+            }
+            path {
+                d: "M312 346.039C312 376.967 286.928 402.039 256 402.039C225.072 402.039 200 376.967 200 346.039C200 315.111 225.072 290.039 256 290.039C286.928 290.039 312 315.111 312 346.039Z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoAppleAppstore;
 impl IconShape for IoLogoAppleAppstore {
     fn view_box(&self) -> &str {
@@ -27312,7 +28086,7 @@ impl IconShape for IoLogoGitlab {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M494.07,281.6l-25.18-78.08a11,11,0,0,0-.61-2.1L417.78,44.48a20.08,20.08,0,0,0-19.17-13.82A19.77,19.77,0,0,0,379.66,44.6L331.52,194.15h-152L131.34,44.59a19.76,19.76,0,0,0-18.86-13.94h-.11a20.15,20.15,0,0,0-19.12,14L42.7,201.73c0,.14-.11.26-.16.4L16.91,281.61a29.15,29.15,0,0,0,10.44,32.46L248.79,476.48a11.25,11.25,0,0,0,13.38-.07L483.65,314.07a29.13,29.13,0,0,0,10.42-32.47m-331-64.51L224.8,408.85,76.63,217.09m209.64,191.8,59.19-183.84,2.55-8h86.52L300.47,390.44M398.8,59.31l43.37,134.83H355.35M324.16,217l-43,133.58L255.5,430.14,186.94,217M112.27,59.31l43.46,134.83H69M40.68,295.58a6.19,6.19,0,0,1-2.21-6.9l19-59L197.08,410.27M470.34,295.58,313.92,410.22l.52-.69L453.5,229.64l19,59a6.2,6.2,0,0,1-2.19,6.92",
+                d: "M488.028 207.68L487.354 205.949L422.019 34.7949C420.69 31.4404 418.336 28.5947 415.296 26.6663C412.254 24.7705 408.705 23.8575 405.129 24.0504C401.554 24.2433 398.123 25.5329 395.301 27.7451C392.51 30.0207 390.485 33.1043 389.502 36.5762L345.388 172.054H166.756L122.641 36.5762C121.685 33.0854 119.655 29.9864 116.843 27.72C114.02 25.5078 110.59 24.2182 107.014 24.0253C103.438 23.8324 99.8898 24.7454 96.8475 26.6412C93.8139 28.5774 91.4622 31.4206 90.1241 34.7698L24.6648 205.848L24.015 207.579C14.6098 232.246 13.4489 259.314 20.7073 284.701C27.9656 310.089 43.2498 332.419 64.2553 348.326L64.4803 348.501L65.0801 348.928L164.606 423.742L213.844 461.149L243.837 483.879C247.345 486.553 251.629 488 256.034 488C260.439 488 264.723 486.553 268.231 483.879L298.224 461.149L347.462 423.742L447.588 348.476L447.838 348.276C468.796 332.366 484.045 310.059 491.292 284.706C498.54 259.353 497.394 232.323 488.028 207.68Z",
             }
         }
     }
@@ -27489,15 +28263,16 @@ impl IconShape for IoLogoIonic {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M256,153.9A102.1,102.1,0,1,0,358.1,256,102.23,102.23,0,0,0,256,153.9Z",
-            }
-            circle {
-                cx: "402.59",
-                cy: "116.45",
-                r: "46.52",
+                d: "M73.5999 256C73.5999 155.263 155.263 73.6 256 73.6C296.552 73.6 333.992 86.8115 364.286 109.203C372.232 90.5013 388.244 76.0537 407.956 70.227C366.589 36.3569 313.656 16 256 16C123.451 16 16 123.452 16 256C16 388.548 123.451 496 256 496C388.548 496 495.999 388.548 495.999 256C495.999 228.259 491.281 201.573 482.592 176.731C470.768 192.716 452.164 203.38 431.028 204.473C435.823 220.792 438.399 238.078 438.399 256C438.399 356.737 356.736 438.4 256 438.4C155.263 438.4 73.5999 356.737 73.5999 256Z",
             }
             path {
-                d: "M459.86,163.2l-1.95-4.28-3.11,3.52a70,70,0,0,1-28.06,19.32l-3,1.1,1.22,2.93A181.43,181.43,0,0,1,439,256c0,100.92-82.1,183-183,183S73,356.92,73,256,155.08,73,256,73a180.94,180.94,0,0,1,78.43,17.7L337.3,92l1.25-2.92A70.19,70.19,0,0,1,359.21,62l3.67-2.93L358.71,57A221.61,221.61,0,0,0,256,32C132.49,32,32,132.49,32,256S132.49,480,256,480,480,379.51,480,256A222.19,222.19,0,0,0,459.86,163.2Z",
+                d: "M491.065 207.374C488.908 196.899 486.068 186.667 482.592 176.731C470.769 192.715 452.164 203.38 431.028 204.473C434.42 216.016 436.702 228.043 437.747 240.437C460.006 237.7 479.247 225.211 491.065 207.374Z",
+            }
+            path {
+                d: "M256 361.001C313.853 361.001 361 313.944 361 256.001C361 198.147 313.943 151.001 256 151.001C198.057 151.001 151 198.147 151 256.001C151 313.854 198.147 361.001 256 361.001Z",
+            }
+            path {
+                d: "M413.5 166C442.495 166 466 142.495 466 113.5C466 84.5055 442.495 61.0004 413.5 61.0004C384.505 61.0004 361 84.5055 361 113.5C361 142.495 384.505 166 413.5 166Z",
             }
         }
     }
@@ -28502,6 +29277,33 @@ impl IconShape for IoLogoTiktok {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoLogoTrapeze;
+impl IconShape for IoLogoTrapeze {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M311.05 189.26C311.069 189.229 311.087 189.198 311.105 189.167L376.085 78.5494L257.923 8L192.943 118.617C192.911 118.672 192.879 118.726 192.847 118.781L8 433.451L126.162 504L212.11 357.688C226.722 375.306 244.503 390.762 265.218 403.13L434.022 503.915L504 384.789L335.197 284.004C302.598 264.541 291.801 222.142 311.05 189.26Z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoTumblr;
 impl IconShape for IoLogoTumblr {
     fn view_box(&self) -> &str {
@@ -28963,6 +29765,33 @@ impl IconShape for IoLogoWordpress {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct IoLogoX;
+impl IconShape for IoLogoX {
+    fn view_box(&self) -> &str {
+        "0 0 16 16"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, user_color, "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M9.33349 6.92867L14.5459 1H13.3109L8.78291 6.14671L5.16908 1H1L6.46604 8.78342L1 15H2.235L7.01369 9.56363L10.8309 15H15L9.33349 6.92867ZM7.64142 8.85175L7.08675 8.07621L2.68037 1.91103H4.57759L8.13472 6.88838L8.68705 7.66391L13.3103 14.1334H11.4131L7.64142 8.85175Z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct IoLogoXbox;
 impl IconShape for IoLogoXbox {
     fn view_box(&self) -> &str {
@@ -29049,7 +29878,7 @@ impl IconShape for IoLogoYahoo {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M410.32,37.13c-13.56,0-27-.93-39.12-5.13L256,218.67,140.8,32c-12.12,4.2-24.84,5.13-38.4,5.13C89.08,37.13,75.88,36.08,64,32L217.6,280.15V480c12-4.08,25-5.13,38.4-5.13s26.4,1.05,38.4,5.13V280.5L448,32C436.12,36,423.64,37.13,410.32,37.13Z",
+                d: "M0 139.009H97.6482L154.508 284.738L212.108 139.009H307.174L164.022 484H68.3374L107.526 392.583L0.00302391 139.009H0ZM417.5 256H311L405.907 28L512 28.0045L417.5 256ZM339.292 277.221C371.964 277.221 398.448 303.754 398.448 336.479C398.448 369.206 371.964 395.739 339.292 395.739C306.625 395.739 280.146 369.206 280.146 336.479C280.146 303.754 306.629 277.221 339.292 277.221Z",
             }
         }
     }
@@ -40313,22 +41142,27 @@ impl IconShape for IoServerOutline {
         rsx! {
             ellipse {
                 cx: "256",
-                cy: "128",
-                rx: "192",
+                cy: "112",
+                rx: "176",
                 ry: "80",
-                style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
             path {
-                d: "M448,214c0,44.18-86,80-192,80S64,258.18,64,214",
-                style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M432 112C432 112 432 376.055 432 400C432 444.183 353.202 480 256 480C158.798 480 80 444.183 80 400C80 378.169 80 112 80 112",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
             path {
-                d: "M448,300c0,44.18-86,80-192,80S64,344.18,64,300",
-                style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
-            }
-            path {
-                d: "M64,127.24V384.76C64,428.52,150,464,256,464s192-35.48,192-79.24V127.24",
-                style: "stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px",
+                d: "M432 256C432 300.183 353.202 336 256 336C158.798 336 80 300.183 80 256",
+                stroke: "currentColor",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
         }
     }
@@ -40355,16 +41189,13 @@ impl IconShape for IoServerSharp {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M409.43,389.87C362,410,305.4,421.05,256,421.05s-105.87-11.3-153.44-31.18S48,353.16,48,353.16v38.2c0,31.15,18,43.64,67.32,64.35C153.13,471.59,203.18,480,256,480s102.87-8.41,140.68-24.29C446,435,464,422.51,464,391.36v-38.2S456.86,369.75,409.43,389.87Z",
+                d: "M125.295 40.7282C159.804 25.1587 206.27 16 256.5 16C306.73 16 352.966 25.1588 387.248 40.7476C420.143 55.7056 448 80 448 112V112.03C447.989 117.563 444.902 125.92 435.705 136.25C426.71 146.352 413.088 156.908 395.432 166.514C360.162 185.702 310.794 200 256 200C201.206 200 151.838 185.702 116.568 166.514C98.9116 156.908 85.2901 146.352 76.2953 136.25C67.0809 125.901 64 117.532 64 112C64 79.5721 92.2455 55.6392 125.295 40.7282Z",
             }
             path {
-                d: "M63.69,173.22c11.23,9.84,27.82,19.49,48,27.92,42.48,17.76,96.45,28.37,144.36,28.37s101.88-10.61,144.36-28.37c20.13-8.43,36.72-18.08,47.95-27.92,6.06-5.31,10.85-10.12,13.47-12.85a8,8,0,0,0,2.22-5.54l0-26.06v-.1c-.84-28.79-24.71-54.41-67.21-72.14C358.83,40.71,308.84,32,256,32S153.17,40.71,115.26,56.53C72.85,74.22,49,99.78,48.05,128.5l0,26.33a8,8,0,0,0,2.21,5.54C52.84,163.1,57.62,167.91,63.69,173.22Z",
+                d: "M410.724 194.623C424.937 186.892 437.558 176.244 448 165.024V258C448 263.532 444.919 269.901 435.705 280.25C426.71 290.352 413.088 300.908 395.432 310.514C360.162 329.702 310.794 344 256 344C201.206 344 151.838 329.702 116.568 310.514C98.9116 300.908 85.2901 290.352 76.2953 280.25C67.0809 269.901 64 263.532 64 258V165.024C74.4417 176.244 87.0634 186.892 101.276 194.623C141.286 216.39 195.918 232 256 232C316.082 232 370.714 216.39 410.724 194.623Z",
             }
             path {
-                d: "M409.43,221.91C365,241,305.4,253.09,256,253.09s-108.87-12.27-153.43-31.18S48,185.2,48,185.2v47.36c.08,7.52,5.5,16.2,15.69,25.13,11.24,9.84,27.82,19.5,48,27.92C154.12,303.38,208.09,314,256,314s101.88-10.6,144.36-28.37c20.13-8.42,36.72-18.08,47.95-27.92,10.25-9,15.68-17.71,15.69-25.27V185.2S453.87,202.82,409.43,221.91Z",
-            }
-            path {
-                d: "M409.43,306.38C362,326,305.4,337.56,256,337.56s-109.87-12.8-153.43-31.18S48,269.67,48,269.67v46.25c0,7.55,5.44,16.28,15.69,25.26,11.23,9.84,27.81,19.5,48,27.92,42.48,17.77,96.44,28.37,144.36,28.37s101.88-10.6,144.36-28.37c20.13-8.43,36.72-18.08,47.95-27.92,10.19-8.93,15.61-17.61,15.69-25.13V269.67S456.87,286.76,409.43,306.38Z",
+                d: "M64 309.024V400C64 432.224 92.0043 456.169 124.928 471.134C159.297 486.756 205.653 496 256 496C306.347 496 352.703 486.756 387.072 471.134C419.996 456.169 448 432.224 448 400V309.024C437.558 320.244 424.937 330.892 410.724 338.623C370.714 360.39 316.082 376 256 376C195.918 376 141.286 360.39 101.276 338.623C87.0634 330.892 74.4417 320.244 64 309.024Z",
             }
         }
     }
@@ -40391,16 +41222,13 @@ impl IconShape for IoServer {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M256,428C203.65,428,144.61,416.39,98.07,397,81,389.81,66.38,378.18,54.43,369A4,4,0,0,0,48,372.18v12.58c0,28.07,23.49,53.22,66.14,70.82C152.29,471.33,202.67,480,256,480s103.7-8.67,141.86-24.42C440.51,438,464,412.83,464,384.76V372.18a4,4,0,0,0-6.43-3.18C445.62,378.17,431,389.81,413.92,397,367.38,416.39,308.35,428,256,428Z",
+                d: "M125.295 40.7282C159.804 25.1587 206.27 16 256.5 16C306.73 16 352.966 25.1588 387.248 40.7476C420.143 55.7056 448 80 448 112V112.03C447.989 117.563 444.902 125.92 435.705 136.25C426.71 146.352 413.088 156.908 395.432 166.514C360.162 185.702 310.794 200 256 200C201.206 200 151.838 185.702 116.568 166.514C98.9116 156.908 85.2901 146.352 76.2953 136.25C67.0809 125.901 64 117.532 64 112C64 79.5721 92.2455 55.6392 125.295 40.7282Z",
             }
             path {
-                d: "M464,126.51c-.81-27.65-24.18-52.4-66-69.85C359.74,40.76,309.34,32,256,32S152.26,40.76,114.09,56.66c-41.78,17.41-65.15,42.11-66,69.69L48,144c0,6.41,5.2,16.48,14.63,24.73,11.13,9.73,27.65,19.33,47.78,27.73C153.24,214.36,207.67,225,256,225s102.76-10.68,145.59-28.58c20.13-8.4,36.65-18,47.78-27.73C458.8,160.49,464,150.42,464,144Z",
+                d: "M410.724 194.623C420.31 189.409 429.172 182.868 437.13 175.719C441.184 172.077 448 174.829 448 180.279V258C448 263.532 444.919 269.901 435.705 280.25C426.71 290.352 413.088 300.908 395.432 310.514C360.162 329.702 310.794 344 256 344C201.206 344 151.838 329.702 116.568 310.514C98.9116 300.908 85.2901 290.352 76.2953 280.25C67.0809 269.901 64 263.532 64 258V180.279C64 174.829 70.8158 172.077 74.8702 175.719C82.8279 182.867 91.69 189.409 101.276 194.623C141.286 216.39 195.918 232 256 232C316.082 232 370.714 216.39 410.724 194.623Z",
             }
             path {
-                d: "M413.92,226C367.39,245.43,308.35,257,256,257S144.61,245.43,98.07,226C81,218.85,66.38,207.21,54.43,198A4,4,0,0,0,48,201.22V232c0,6.41,5.2,14.48,14.63,22.73,11.13,9.74,27.65,19.33,47.78,27.74C153.24,300.34,207.67,311,256,311s102.76-10.68,145.59-28.57c20.13-8.41,36.65-18,47.78-27.74C458.8,246.47,464,238.41,464,232V201.22a4,4,0,0,0-6.43-3.18C445.62,207.21,431,218.85,413.92,226Z",
-            }
-            path {
-                d: "M413.92,312C367.38,331.41,308.35,343,256,343S144.61,331.41,98.07,312C81,304.83,66.38,293.19,54.43,284A4,4,0,0,0,48,287.2V317c0,6.41,5.2,14.47,14.62,22.71,11.13,9.74,27.66,19.33,47.79,27.74C153.24,385.32,207.66,396,256,396s102.76-10.68,145.59-28.57c20.13-8.41,36.65-18,47.78-27.74C458.8,331.44,464,323.37,464,317V287.2a4,4,0,0,0-6.43-3.18C445.62,293.19,431,304.83,413.92,312Z",
+                d: "M74.8702 319.719C70.8158 316.077 64 318.829 64 324.279V400C64 432.224 92.0043 456.169 124.928 471.134C159.297 486.756 205.653 496 256 496C306.347 496 352.703 486.756 387.072 471.134C419.996 456.169 448 432.224 448 400V324.279C448 318.829 441.184 316.077 437.13 319.719C429.172 326.867 420.31 333.409 410.724 338.623C370.714 360.39 316.082 376 256 376C195.918 376 141.286 360.39 101.276 338.623C91.69 333.409 82.8279 326.867 74.8702 319.719Z",
             }
         }
     }
@@ -47638,19 +48466,25 @@ impl IconShape for IoWifiOutline {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M332.41,310.59a115,115,0,0,0-152.8,0",
-                style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M318.586 363.5L256 424L193.414 363.5C193.414 363.5 212 336 256 336C300 336 318.586 363.5 318.586 363.5Z",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
             path {
-                d: "M393.46,249.54a201.26,201.26,0,0,0-274.92,0",
-                style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
+                d: "M407.31 278L372 312C372 312 331 266 256 266C181 266 140 312 140 312L104.69 278C104.69 278 142.5 214 256 214C369.5 214 407.31 278 407.31 278Z",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
             path {
-                d: "M447.72,182.11a288,288,0,0,0-383.44,0",
-                style: "stroke-linecap:round;stroke-linejoin:round;stroke-width:32px",
-            }
-            path {
-                d: "M256,416a32,32,0,1,1,32-32A32,32,0,0,1,256,416Z",
+                d: "M496 192L459.31 227.5C459.31 227.5 386.5 141 256 141C125.5 141 52.6897 227.5 52.6897 227.5L16 192C16 192 88 88 256 88C424 88 496 192 496 192Z",
+                stroke: "black",
+                stroke_linecap: "round",
+                stroke_linejoin: "round",
+                stroke_width: "32",
             }
         }
     }
@@ -47677,19 +48511,19 @@ impl IconShape for IoWifiSharp {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M332.69,320a115,115,0,0,0-152.8,0",
-                style: "stroke-linecap:square;stroke-linejoin:round;stroke-width:42px",
+                clip_rule: "evenodd",
+                d: "M337.78 362.819C333.534 354.366 326.706 347.132 325.179 345.509C322.129 342.268 317.644 338.112 311.59 334.004C299.362 325.705 281.02 317.813 256 317.813C230.98 317.813 212.638 325.705 200.41 334.004C194.356 338.112 189.871 342.268 186.821 345.509C185.294 347.132 184.116 348.537 183.273 349.606C182.851 350.141 178.966 354.366 174.22 362.819L256 442L337.78 362.819Z",
+                fill_rule: "evenodd",
             }
             path {
-                d: "M393.74,259a201.26,201.26,0,0,0-274.92,0",
-                style: "stroke-linecap:square;stroke-linejoin:round;stroke-width:42px",
+                clip_rule: "evenodd",
+                d: "M425.25 279.287C425.25 279.287 417.255 269.058 409.547 260.359C403.564 253.606 391.447 242.649 378.646 233.982C352.884 216.538 314.749 198.905 256 198.905C197.251 198.905 159.116 216.538 133.354 233.982C120.553 242.649 112.519 249.455 104.485 258.154C96.451 266.854 86.7496 279.287 86.7496 279.287L143.384 333.878L154.421 321.49C154.446 321.463 154.509 321.395 154.608 321.289C154.808 321.078 155.157 320.716 155.652 320.224C156.643 319.24 158.218 317.742 160.361 315.898C164.655 312.205 171.184 307.165 179.834 302.094C197.103 291.97 222.709 281.78 256 281.78C289.291 281.78 314.897 291.97 332.166 302.094C340.816 307.165 347.345 312.205 351.639 315.898C353.782 317.742 355.357 319.24 356.348 320.224C356.843 320.716 357.192 321.078 357.392 321.289C357.491 321.395 357.554 321.462 357.579 321.49C357.591 321.504 357.595 321.507 357.588 321.5L368.616 333.878L425.25 279.287Z",
+                fill_rule: "evenodd",
             }
             path {
-                d: "M448,191.52a288,288,0,0,0-383.44,0",
-                style: "stroke-linecap:square;stroke-linejoin:round;stroke-width:42px",
-            }
-            path {
-                d: "M300.67,384,256,433l-44.34-49a56.73,56.73,0,0,1,88.92,0Z",
+                clip_rule: "evenodd",
+                d: "M512 195.36C512 195.36 507.5 187 500.15 178.875C495.759 174.02 493.931 171.469 488.995 166.364C479.127 156.157 464.292 142.716 444.094 129.324C403.583 102.463 341.778 76 256 76C170.222 76 108.417 102.463 67.9063 129.324C47.7083 142.716 32.8725 156.157 23.0052 166.364C18.0692 171.469 14.3673 175.775 11.85 178.875C10.591 180.425 10.066 181.116 8.95243 182.575C5.25382 187.42 0 195.36 0 195.36L58.06 251.233L69.0637 238.232L69.0664 238.228L69.0684 238.226C69.08 238.213 69.1066 238.182 69.1483 238.134C69.2369 238.032 69.3932 237.854 69.6168 237.605C70.064 237.106 70.7799 236.323 71.7606 235.296C73.7228 233.24 76.7398 230.213 80.7814 226.536C88.873 219.175 101.017 209.256 116.97 199.315C148.861 179.443 195.744 159.606 256 159.606C316.256 159.606 363.139 179.443 395.03 199.315C410.983 209.256 423.127 219.175 431.219 226.536C435.26 230.213 438.277 233.24 440.239 235.296C441.22 236.323 441.936 237.106 442.383 237.605C442.607 237.854 442.763 238.032 442.852 238.134L442.888 238.176C442.91 238.201 442.925 238.218 442.932 238.227L442.934 238.228L442.936 238.232L453.94 251.233L512 195.36Z",
+                fill_rule: "evenodd",
             }
         }
     }
@@ -47716,18 +48550,17 @@ impl IconShape for IoWifi {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M346.65,304.3a136,136,0,0,0-180.71,0,21,21,0,1,0,27.91,31.38,94,94,0,0,1,124.89,0,21,21,0,0,0,27.91-31.4Z",
+                clip_rule: "evenodd",
+                d: "M331.295 353.764C331.426 353.945 331.204 353.634 331.295 353.764C331.031 353.403 330.686 352.943 330.256 352.399C329.397 351.312 328.196 349.882 326.638 348.229C323.526 344.927 318.948 340.692 312.768 336.504C300.287 328.047 281.56 320 256 320C230.44 320 211.713 328.047 199.232 336.504C193.052 340.692 188.474 344.927 185.362 348.229C183.804 349.882 182.603 351.312 181.744 352.399C182.008 352.038 181.314 352.943 181.744 352.399L180.158 354.541C175.808 360.976 176.709 369.605 182.293 375.004L244.879 435.504C251.081 441.499 260.918 441.499 267.12 435.504L329.707 375.004C335.291 369.605 336.192 360.976 331.843 354.541L331.295 353.764Z",
+                fill_rule: "evenodd",
             }
             path {
-                d: "M256.28,183.7a221.47,221.47,0,0,0-151.8,59.92,21,21,0,1,0,28.68,30.67,180.28,180.28,0,0,1,246.24,0,21,21,0,1,0,28.68-30.67A221.47,221.47,0,0,0,256.28,183.7Z",
+                clip_rule: "evenodd",
+                d: "M421.086 269.862C420.951 269.644 420.49 268.896 420.274 268.562C419.84 267.896 419.24 267.005 418.464 265.923C416.912 263.76 414.651 260.827 411.603 257.387C405.504 250.507 396.241 241.585 383.186 232.75C356.915 214.969 315.967 198 256 198C196.033 198 155.085 214.969 128.814 232.75C115.759 241.585 106.496 250.507 100.397 257.387C97.3485 260.827 95.0878 263.76 93.5358 265.923C92.7595 267.005 92.1597 267.896 91.7263 268.562C91.5096 268.896 91.3343 269.174 91.1994 269.391C91.132 269.5 90.9141 269.862 90.9141 269.862C87.1429 276.245 88.2511 284.383 93.5918 289.526L128.902 323.526C132.036 326.543 136.263 328.154 140.61 327.988C144.936 327.823 149.009 325.913 151.901 322.695C151.903 322.692 151.905 322.689 151.909 322.686C151.936 322.656 152.001 322.586 152.104 322.477C152.311 322.258 152.669 321.886 153.178 321.381C154.197 320.37 155.812 318.834 158.009 316.945C162.411 313.16 169.102 307.998 177.964 302.804C195.658 292.436 221.893 282 256 282C290.107 282 316.342 292.436 334.036 302.804C342.898 307.998 349.589 313.16 353.991 316.945C356.188 318.834 357.803 320.37 358.822 321.381C359.331 321.886 359.689 322.258 359.896 322.477C359.999 322.586 360.064 322.656 360.091 322.686L360.086 322.68L360.073 322.665M360.073 322.665C360.082 322.675 360.091 322.685 360.099 322.694C362.991 325.913 367.064 327.823 371.39 327.988C375.737 328.154 379.964 326.543 383.098 323.526L418.408 289.526C423.749 284.383 424.857 276.245 421.086 269.862",
+                fill_rule: "evenodd",
             }
             path {
-                d: "M462,175.86a309,309,0,0,0-411.44,0,21,21,0,1,0,28,31.29,267,267,0,0,1,355.43,0,21,21,0,0,0,28-31.31Z",
-            }
-            circle {
-                cx: "256.28",
-                cy: "393.41",
-                r: "32",
+                d: "M507.974 181.264C508.317 181.723 509.155 182.893 509.155 182.893C513.613 189.332 512.754 198.052 507.126 203.499L470.436 238.999C467.248 242.083 462.923 243.706 458.493 243.479C454.074 243.253 449.947 241.207 447.091 237.829L447.088 237.826C447.077 237.813 447.049 237.78 447.003 237.727C446.911 237.621 446.75 237.437 446.521 237.179C446.062 236.665 445.328 235.858 444.324 234.8C442.315 232.684 439.229 229.571 435.095 225.79C426.82 218.221 414.405 208.026 398.098 197.809C365.499 177.384 317.58 157 256 157C194.42 157 146.501 177.384 113.902 197.809C97.5948 208.026 85.1796 218.221 76.9047 225.79C72.7716 229.571 69.685 232.684 67.676 234.8C66.6719 235.858 65.9384 236.665 65.4791 237.179C65.2496 237.437 65.0888 237.621 64.9971 237.727L64.9503 237.781L64.9205 237.815L64.916 237.821L64.9117 237.826L64.9085 237.83C62.0528 241.208 57.9255 243.253 53.5069 243.479C49.0769 243.706 44.7517 242.083 41.5639 238.999L4.87425 203.499C-0.754421 198.052 -1.61321 189.332 2.84493 182.893L2.85549 182.877L2.86773 182.86L2.89728 182.817C2.91924 182.786 2.94571 182.748 2.9767 182.704C3.03868 182.616 3.11877 182.504 3.21704 182.367C3.41359 182.093 3.68298 181.723 4.02598 181.264C4.71191 180.344 5.69278 179.065 6.97482 177.478C9.53819 174.304 13.3104 169.893 18.3417 164.66C28.3994 154.2 43.5266 140.419 64.1248 126.687C105.437 99.1458 168.481 72 256 72C343.519 72 406.563 99.1458 447.875 126.687C468.473 140.419 483.601 154.2 493.658 164.66C498.69 169.893 502.462 174.304 505.025 177.478C506.307 179.065 507.288 180.344 507.974 181.264Z",
             }
         }
     }

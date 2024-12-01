@@ -39,7 +39,7 @@ fn main() {
     let fi_output_path = format!("{}/fi_icons.rs", OUTPUT_BASE_PATH);
     create_icon_file::create_icon_file(FI_SVG_BASE_PATH, &fi_output_path, "Fi");
 
-    // create feather icons
+    // create lucide icons
     const LD_SVG_BASE_PATH: &str = "../../icon_resources/lucide/icons";
     let ld_output_path = format!("{}/ld_icons.rs", OUTPUT_BASE_PATH);
     create_icon_file::create_icon_file(LD_SVG_BASE_PATH, &ld_output_path, "Ld");

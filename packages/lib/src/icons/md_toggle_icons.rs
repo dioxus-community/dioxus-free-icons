@@ -239,7 +239,9 @@ impl IconShape for MdStarOutline {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {}
+        rsx! {
+
+        }
     }
 }
 
