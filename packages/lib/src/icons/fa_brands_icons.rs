@@ -1,7 +1,7 @@
 use super::super::IconShape;
 use dioxus::prelude::*;
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct Fa42Group;
 impl IconShape for Fa42Group {
     fn view_box(&self) -> &str {
@@ -28,7 +28,7 @@ impl IconShape for Fa42Group {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct Fa500px;
 impl IconShape for Fa500px {
     fn view_box(&self) -> &str {
@@ -55,7 +55,7 @@ impl IconShape for Fa500px {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAccessibleIcon;
 impl IconShape for FaAccessibleIcon {
     fn view_box(&self) -> &str {
@@ -82,7 +82,7 @@ impl IconShape for FaAccessibleIcon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAccusoft;
 impl IconShape for FaAccusoft {
     fn view_box(&self) -> &str {
@@ -109,7 +109,7 @@ impl IconShape for FaAccusoft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAdn;
 impl IconShape for FaAdn {
     fn view_box(&self) -> &str {
@@ -136,7 +136,7 @@ impl IconShape for FaAdn {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAdversal;
 impl IconShape for FaAdversal {
     fn view_box(&self) -> &str {
@@ -163,7 +163,7 @@ impl IconShape for FaAdversal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAffiliatetheme;
 impl IconShape for FaAffiliatetheme {
     fn view_box(&self) -> &str {
@@ -190,7 +190,7 @@ impl IconShape for FaAffiliatetheme {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAirbnb;
 impl IconShape for FaAirbnb {
     fn view_box(&self) -> &str {
@@ -217,11 +217,11 @@ impl IconShape for FaAirbnb {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAlgolia;
 impl IconShape for FaAlgolia {
     fn view_box(&self) -> &str {
-        "0 0 448 512"
+        "0 0 512 512"
     }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
@@ -238,13 +238,13 @@ impl IconShape for FaAlgolia {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M229.3 182.6c-49.3 0-89.2 39.9-89.2 89.2 0 49.3 39.9 89.2 89.2 89.2s89.2-39.9 89.2-89.2c0-49.3-40-89.2-89.2-89.2zm62.7 56.6l-58.9 30.6c-1.8.9-3.8-.4-3.8-2.3V201c0-1.5 1.3-2.7 2.7-2.6 26.2 1 48.9 15.7 61.1 37.1.7 1.3.2 3-1.1 3.7zM389.1 32H58.9C26.4 32 0 58.4 0 90.9V421c0 32.6 26.4 59 58.9 59H389c32.6 0 58.9-26.4 58.9-58.9V90.9C448 58.4 421.6 32 389.1 32zm-202.6 84.7c0-10.8 8.7-19.5 19.5-19.5h45.3c10.8 0 19.5 8.7 19.5 19.5v15.4c0 1.8-1.7 3-3.3 2.5-12.3-3.4-25.1-5.1-38.1-5.1-13.5 0-26.7 1.8-39.4 5.5-1.7.5-3.4-.8-3.4-2.5v-15.8zm-84.4 37l9.2-9.2c7.6-7.6 19.9-7.6 27.5 0l7.7 7.7c1.1 1.1 1 3-.3 4-6.2 4.5-12.1 9.4-17.6 14.9-5.4 5.4-10.4 11.3-14.8 17.4-1 1.3-2.9 1.5-4 .3l-7.7-7.7c-7.6-7.5-7.6-19.8 0-27.4zm127.2 244.8c-70 0-126.6-56.7-126.6-126.6s56.7-126.6 126.6-126.6c70 0 126.6 56.6 126.6 126.6 0 69.8-56.7 126.6-126.6 126.6z",
+                d: "M256 0C116.1 0 2 112.7 0 252.1C-2 393.6 112.9 510.8 254.5 511.6c43.7 .3 85.9-10.4 123.3-30.7c3.6-2 4.2-7 1.1-9.7l-24-21.2c-4.9-4.3-11.8-5.5-17.8-3c-26.1 11.1-54.5 16.8-83.7 16.4C139 461.9 46.5 366.8 48.3 252.4C50.1 139.5 142.6 48.2 256 48.2H463.7V417.2L345.9 312.5c-3.8-3.4-9.7-2.7-12.7 1.3c-18.9 25-49.7 40.6-83.9 38.2c-47.5-3.3-85.9-41.5-89.5-88.9c-4.2-56.6 40.6-103.9 96.3-103.9c50.4 0 91.9 38.8 96.2 88c.4 4.4 2.4 8.5 5.7 11.4l30.7 27.2c3.5 3.1 9 1.2 9.9-3.4c2.2-11.8 3-24.2 2.1-36.8c-4.9-72-63.3-130-135.4-134.4c-82.7-5.1-151.8 59.5-154 140.6c-2.1 78.9 62.6 147 141.6 148.7c33 .7 63.6-9.6 88.3-27.6L495 509.4c6.6 5.8 17 1.2 17-7.7V9.7c0-5.4-4.4-9.7-9.7-9.7H256z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAlipay;
 impl IconShape for FaAlipay {
     fn view_box(&self) -> &str {
@@ -271,7 +271,7 @@ impl IconShape for FaAlipay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAmazonPay;
 impl IconShape for FaAmazonPay {
     fn view_box(&self) -> &str {
@@ -298,7 +298,7 @@ impl IconShape for FaAmazonPay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAmazon;
 impl IconShape for FaAmazon {
     fn view_box(&self) -> &str {
@@ -325,7 +325,7 @@ impl IconShape for FaAmazon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAmilia;
 impl IconShape for FaAmilia {
     fn view_box(&self) -> &str {
@@ -352,7 +352,7 @@ impl IconShape for FaAmilia {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAndroid;
 impl IconShape for FaAndroid {
     fn view_box(&self) -> &str {
@@ -379,7 +379,7 @@ impl IconShape for FaAndroid {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAngellist;
 impl IconShape for FaAngellist {
     fn view_box(&self) -> &str {
@@ -406,7 +406,7 @@ impl IconShape for FaAngellist {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAngrycreative;
 impl IconShape for FaAngrycreative {
     fn view_box(&self) -> &str {
@@ -433,7 +433,7 @@ impl IconShape for FaAngrycreative {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAngular;
 impl IconShape for FaAngular {
     fn view_box(&self) -> &str {
@@ -460,7 +460,7 @@ impl IconShape for FaAngular {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAppStoreIos;
 impl IconShape for FaAppStoreIos {
     fn view_box(&self) -> &str {
@@ -487,7 +487,7 @@ impl IconShape for FaAppStoreIos {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAppStore;
 impl IconShape for FaAppStore {
     fn view_box(&self) -> &str {
@@ -514,7 +514,7 @@ impl IconShape for FaAppStore {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaApper;
 impl IconShape for FaApper {
     fn view_box(&self) -> &str {
@@ -541,7 +541,7 @@ impl IconShape for FaApper {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaApplePay;
 impl IconShape for FaApplePay {
     fn view_box(&self) -> &str {
@@ -568,7 +568,7 @@ impl IconShape for FaApplePay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaApple;
 impl IconShape for FaApple {
     fn view_box(&self) -> &str {
@@ -595,7 +595,7 @@ impl IconShape for FaApple {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaArtstation;
 impl IconShape for FaArtstation {
     fn view_box(&self) -> &str {
@@ -622,7 +622,7 @@ impl IconShape for FaArtstation {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAsymmetrik;
 impl IconShape for FaAsymmetrik {
     fn view_box(&self) -> &str {
@@ -649,7 +649,7 @@ impl IconShape for FaAsymmetrik {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAtlassian;
 impl IconShape for FaAtlassian {
     fn view_box(&self) -> &str {
@@ -676,7 +676,7 @@ impl IconShape for FaAtlassian {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAudible;
 impl IconShape for FaAudible {
     fn view_box(&self) -> &str {
@@ -703,7 +703,7 @@ impl IconShape for FaAudible {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAutoprefixer;
 impl IconShape for FaAutoprefixer {
     fn view_box(&self) -> &str {
@@ -730,7 +730,7 @@ impl IconShape for FaAutoprefixer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAvianex;
 impl IconShape for FaAvianex {
     fn view_box(&self) -> &str {
@@ -757,7 +757,7 @@ impl IconShape for FaAvianex {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAviato;
 impl IconShape for FaAviato {
     fn view_box(&self) -> &str {
@@ -784,7 +784,7 @@ impl IconShape for FaAviato {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaAws;
 impl IconShape for FaAws {
     fn view_box(&self) -> &str {
@@ -811,7 +811,7 @@ impl IconShape for FaAws {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBandcamp;
 impl IconShape for FaBandcamp {
     fn view_box(&self) -> &str {
@@ -838,7 +838,7 @@ impl IconShape for FaBandcamp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBattleNet;
 impl IconShape for FaBattleNet {
     fn view_box(&self) -> &str {
@@ -865,34 +865,7 @@ impl IconShape for FaBattleNet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaBehanceSquare;
-impl IconShape for FaBehanceSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M186.5 293c0 19.3-14 25.4-31.2 25.4h-45.1v-52.9h46c18.6.1 30.3 7.8 30.3 27.5zm-7.7-82.3c0-17.7-13.7-21.9-28.9-21.9h-39.6v44.8H153c15.1 0 25.8-6.6 25.8-22.9zm132.3 23.2c-18.3 0-30.5 11.4-31.7 29.7h62.2c-1.7-18.5-11.3-29.7-30.5-29.7zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zM271.7 185h77.8v-18.9h-77.8V185zm-43 110.3c0-24.1-11.4-44.9-35-51.6 17.2-8.2 26.2-17.7 26.2-37 0-38.2-28.5-47.5-61.4-47.5H68v192h93.1c34.9-.2 67.6-16.9 67.6-55.9zM380 280.5c0-41.1-24.1-75.4-67.6-75.4-42.4 0-71.1 31.8-71.1 73.6 0 43.3 27.3 73 71.1 73 33.2 0 54.7-14.9 65.1-46.8h-33.7c-3.7 11.9-18.6 18.1-30.2 18.1-22.4 0-34.1-13.1-34.1-35.3h100.2c.1-2.3.3-4.8.3-7.2z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBehance;
 impl IconShape for FaBehance {
     fn view_box(&self) -> &str {
@@ -919,7 +892,7 @@ impl IconShape for FaBehance {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBilibili;
 impl IconShape for FaBilibili {
     fn view_box(&self) -> &str {
@@ -946,7 +919,7 @@ impl IconShape for FaBilibili {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBimobject;
 impl IconShape for FaBimobject {
     fn view_box(&self) -> &str {
@@ -973,7 +946,7 @@ impl IconShape for FaBimobject {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBitbucket;
 impl IconShape for FaBitbucket {
     fn view_box(&self) -> &str {
@@ -1000,7 +973,7 @@ impl IconShape for FaBitbucket {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBitcoin;
 impl IconShape for FaBitcoin {
     fn view_box(&self) -> &str {
@@ -1027,7 +1000,7 @@ impl IconShape for FaBitcoin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBity;
 impl IconShape for FaBity {
     fn view_box(&self) -> &str {
@@ -1054,7 +1027,7 @@ impl IconShape for FaBity {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBlackTie;
 impl IconShape for FaBlackTie {
     fn view_box(&self) -> &str {
@@ -1081,7 +1054,7 @@ impl IconShape for FaBlackTie {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBlackberry;
 impl IconShape for FaBlackberry {
     fn view_box(&self) -> &str {
@@ -1108,7 +1081,7 @@ impl IconShape for FaBlackberry {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBloggerB;
 impl IconShape for FaBloggerB {
     fn view_box(&self) -> &str {
@@ -1135,7 +1108,7 @@ impl IconShape for FaBloggerB {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBlogger;
 impl IconShape for FaBlogger {
     fn view_box(&self) -> &str {
@@ -1162,7 +1135,34 @@ impl IconShape for FaBlogger {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaBluesky;
+impl IconShape for FaBluesky {
+    fn view_box(&self) -> &str {
+        "0 0 576 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M407.8 294.7c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3zM288 227.1C261.9 176.4 190.9 81.9 124.9 35.3C61.6-9.4 37.5-1.7 21.6 5.5C3.3 13.8 0 41.9 0 58.4S9.1 194 15 213.9c19.5 65.7 89.1 87.9 153.2 80.7c3.3-.5 6.6-.9 10-1.4c-3.3 .5-6.6 1-10 1.4C74.3 308.6-9.1 342.8 100.3 464.5C220.6 589.1 265.1 437.8 288 361.1c22.9 76.7 49.2 222.5 185.6 103.4c102.4-103.4 28.1-156-65.8-169.9c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3c64.1 7.1 133.6-15.1 153.2-80.7C566.9 194 576 75 576 58.4s-3.3-44.7-21.6-52.9c-15.8-7.1-40-14.9-103.2 29.8C385.1 81.9 314.1 176.4 288 227.1z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBluetoothB;
 impl IconShape for FaBluetoothB {
     fn view_box(&self) -> &str {
@@ -1189,7 +1189,7 @@ impl IconShape for FaBluetoothB {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBluetooth;
 impl IconShape for FaBluetooth {
     fn view_box(&self) -> &str {
@@ -1216,7 +1216,7 @@ impl IconShape for FaBluetooth {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBootstrap;
 impl IconShape for FaBootstrap {
     fn view_box(&self) -> &str {
@@ -1243,7 +1243,7 @@ impl IconShape for FaBootstrap {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBots;
 impl IconShape for FaBots {
     fn view_box(&self) -> &str {
@@ -1270,7 +1270,61 @@ impl IconShape for FaBots {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaBraveReverse;
+impl IconShape for FaBraveReverse {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M298 0c3 0 5.8 1.3 7.8 3.6l38.1 44c.5-.1 1-.2 1.5-.3c9.2-1.6 18.6-2.2 27.7-1.2c11.6 1.4 21.5 5.4 28.9 12.9c7.7 7.8 15.4 15.8 22.6 23.6c2.5 2.7 4.9 5.2 6.9 7.4c.7 .8 1.4 1.5 1.9 2c3.4 3.7 4.2 8.1 2.7 11.9l-9.8 24.6 13.1 38.1c.7 2 .8 4.1 .2 6.2c-.1 .4-.1 .4-.5 2.1c-.6 2.3-.6 2.3-1.5 5.8c-1.6 6.3-3.5 13.3-5.4 20.9c-5.6 21.6-11.2 43.2-16.4 63.4c-12.9 49.9-21.4 82.7-23.4 90.9c-11.1 44.5-19.9 60-48.3 80.3c-24.9 17.8-76.8 53.6-86.8 60c-1 .6-2 1.3-3.4 2.3c-.5 .4-3.2 2.2-3.9 2.7c-4.9 3.3-8.3 5.5-12.1 7.3c-4.7 2.2-9.3 3.5-13.9 3.5s-9.1-1.2-13.9-3.5c-3.7-1.8-7.2-3.9-12.1-7.3c-.8-.5-3.4-2.4-3.9-2.7c-1.4-1-2.5-1.7-3.4-2.3c-10-6.4-61.9-42.1-86.8-60c-28.4-20.4-37.2-35.8-48.3-80.3c-2-8.2-10.5-41-23.3-90.5c-5.3-20.6-10.9-42.2-16.5-63.8c-2-7.6-3.8-14.6-5.4-20.9c-.9-3.5-.9-3.5-1.5-5.8c-.4-1.7-.4-1.7-.5-2.1c-.5-2-.4-4.2 .2-6.2l13.1-38.1L11.8 104c-1.5-3.8-.7-8.2 2-11.2c1.2-1.3 1.8-2 2.6-2.8c2-2.2 4.4-4.7 6.9-7.4C30.6 74.9 38.3 66.9 46 59.1c7.4-7.5 17.3-11.6 28.9-12.9c9.1-1.1 18.5-.5 27.7 1.2c.5 .1 1 .2 1.5 .3l38.1-44C144.2 1.3 147 0 150 0H298zm-4.7 21.1H154.7L115.6 66.2c-2.6 3-6.7 4.3-10.6 3.2c-.2-.1-.7-.2-1.5-.4c-1.3-.3-2.9-.6-4.5-.9c-7.4-1.3-14.9-1.8-21.7-1C70 68 64.3 70.3 60.7 74c-7.6 7.7-15.2 15.6-22.3 23.3c-1.7 1.8-3.3 3.5-4.8 5.1l8.8 22c1 2.4 1 5 .2 7.5L29.2 170.6c.4 1.4 .5 1.9 1.2 4.8c1.6 6.3 3.5 13.3 5.4 20.9c5.6 21.6 11.2 43.2 16.4 63.4c12.9 50 21.4 82.8 23.4 91C85.7 390.8 92 402 115.8 419c24.6 17.6 76.3 53.2 85.9 59.3c1.2 .8 2.5 1.6 4 2.7c.6 .4 3.2 2.2 3.9 2.7c4 2.8 6.7 4.4 9.2 5.6c2.2 1 3.9 1.5 5.1 1.5s2.9-.5 5.1-1.5c2.5-1.2 5.2-2.8 9.2-5.6c.7-.5 3.3-2.3 3.9-2.7c1.6-1.1 2.8-1.9 4-2.7c9.6-6.1 61.3-41.7 85.9-59.3c23.8-17.1 30.2-28.2 40.1-68.3c2.1-8.3 10.5-41.1 23.3-90.7c5.3-20.6 10.9-42.2 16.5-63.8c2-7.6 3.8-14.6 5.4-20.9c.7-2.9 .9-3.4 1.2-4.8l-13.3-38.8c-.8-2.4-.8-5.1 .2-7.5l8.8-22c-1.5-1.6-3.1-3.3-4.8-5.1c-7.2-7.6-14.7-15.5-22.3-23.3c-3.7-3.7-9.3-6-16.6-6.9c-6.8-.8-14.4-.3-21.7 1c-1.7 .3-3.2 .6-4.5 .9c-.8 .2-1.3 .3-1.5 .4c-3.8 1.1-7.9-.2-10.6-3.2L293.3 21.1zM224 316c2.8 0 20.9 6.5 35.4 14.1s25 13 28.3 15.2s1.3 6.2-1.7 8.4s-44.1 34.6-48.1 38.2s-9.8 9.5-13.8 9.5s-9.8-5.9-13.8-9.5s-45.1-36-48.1-38.2s-5.1-6.2-1.7-8.4s13.9-7.5 28.3-15.2s32.5-14.1 35.4-14.1zm.1-230.7c.7 0 8.8 .2 20.5 4.2c12.3 4.2 25.7 9.4 31.9 9.4s51.9-8.9 51.9-8.9s54.2 66.7 54.2 81s-6.8 18-13.7 25.4s-36.8 39.8-40.7 43.9s-11.9 10.5-7.1 21.8s11.7 25.8 3.9 40.4s-21 24.4-29.4 22.8s-28.4-12.2-35.7-17.1s-30.5-24.3-30.5-31.8s24-20.8 28.4-23.9s24.7-14.8 25.1-19.4s.3-6-5.7-17.4s-16.7-26.7-14.9-36.8s19.1-15.4 31.5-20.2s36.2-13.7 39.2-15.1s2.2-2.7-6.8-3.6s-34.6-4.3-46.1-1.1s-31.2 8.2-32.8 10.9s-3 2.7-1.4 11.8s10.1 52.8 10.9 60.6s2.4 12.9-5.8 14.8s-22.1 5.2-26.8 5.2s-18.6-3.3-26.8-5.2s-6.6-7-5.8-14.8s9.3-51.5 10.9-60.6s.2-9.2-1.4-11.8s-21.3-7.6-32.8-10.9s-37.1 .2-46.1 1.1s-9.8 2.2-6.8 3.6s26.8 10.4 39.2 15.1s29.7 10 31.5 20.2s-9 25.4-14.9 36.8s-6.1 12.8-5.7 17.4s20.6 16.4 25.1 19.4s28.4 16.4 28.4 23.9s-23.2 27-30.5 31.8s-27.2 15.4-35.7 17.1s-21.7-8.2-29.4-22.8s-.8-29.1 3.9-40.4s-3.3-17.7-7.1-21.8s-33.8-36.5-40.7-43.9s-13.7-11.2-13.7-25.4s54.2-81 54.2-81s45.8 8.9 51.9 8.9s19.5-5.2 31.9-9.4s20.6-4.2 20.6-4.2l.1 0z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaBrave;
+impl IconShape for FaBrave {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M145.5 0H224h78.5l44.7 50.8s39.3-10.9 57.8 7.6s33.8 34.9 33.8 34.9l-12 29.5 15.3 43.7s-44.9 170.2-50.1 191c-10.4 40.9-17.4 56.8-46.9 77.5s-82.9 56.8-91.6 62.2c-1.9 1.2-3.9 2.5-5.9 3.9c-7.5 5.1-15.8 10.8-23.5 10.8l0 0 0 0c-7.7 0-16.1-5.7-23.5-10.8c-2-1.4-4-2.8-5.9-3.9c-8.7-5.5-62.1-41.5-91.6-62.2s-36.5-36.6-46.9-77.5c-5.3-20.8-50.1-191-50.1-191l15.3-43.7L9.2 93.3s15.3-16.4 33.8-34.9s57.8-7.6 57.8-7.6L145.5 0zM224 407.6l0 0c3.7 0 8.9-4.7 13-8.4c.6-.5 1.2-1.1 1.7-1.5c4.2-3.7 47.8-37.5 51-39.8s5.4-6.5 1.9-8.7c-2.8-1.7-10-5.5-20.3-10.8c-3-1.6-6.3-3.2-9.7-5c-15.4-8-34.5-14.7-37.5-14.7l0 0 0 0c-3 0-22.1 6.8-37.5 14.7c-3.5 1.8-6.7 3.5-9.7 5c-10.3 5.3-17.6 9.1-20.3 10.8c-3.6 2.2-1.4 6.4 1.9 8.7s46.8 36.1 51 39.8c.5 .5 1.1 1 1.7 1.5c4.1 3.7 9.3 8.4 13 8.4l0 0zm0-165.7l0 0c4.7 0 17.6-3 26.4-5l0 0 2-.5c7.8-1.8 7.3-6.3 6.4-13c-.1-.8-.2-1.6-.3-2.4c-.6-6.1-5.8-33.1-9.1-50.3c-1.1-5.8-2-10.5-2.4-12.9c-1.5-8.1-.6-9.4 .7-11.3c.2-.3 .5-.7 .7-1.1c1.4-2.3 16-6.2 27.9-9.5l0 0c2.5-.7 4.8-1.3 6.9-1.9c10.6-3 32.4-.6 44.2 .6c1.8 .2 3.4 .4 4.7 .5c9.6 .9 10.4 2.3 7.2 3.8c-2.3 1.1-16.2 6.3-28.7 10.9l0 0 0 0c-4.7 1.8-9.2 3.5-12.8 4.8c-1.5 .5-3 1.1-4.5 1.7c-12.5 4.6-27.2 10-28.9 19.4c-1.5 8.3 5.2 19.9 11.3 30.3l0 0c1.6 2.8 3.2 5.5 4.6 8.1c6.3 11.9 6.5 13.3 6.1 18.1c-.4 3.9-14.5 12.7-22.4 17.6l0 0c-1.8 1.1-3.3 2.1-4.2 2.7c-.8 .5-2.1 1.4-3.8 2.4c-8.6 5.2-26.3 16-26.3 22.5c0 7.8 24.6 28.1 32.4 33.2s28.9 16.1 37.9 17.8s23-8.5 31.2-23.8c7.7-14.4 1.7-28.5-3.2-40l-.9-2.2c-4.5-10.6 1.9-17 6.2-21.3l0 0c.5-.5 1-1 1.4-1.4L377.7 194c1.3-1.3 2.5-2.6 3.7-3.8l0 0c5.8-5.7 10.8-10.5 10.8-22.8c0-14.9-57.5-84.5-57.5-84.5s-48.5 9.3-55.1 9.3c-5.2 0-15.3-3.5-25.8-7.1l0 0c-2.7-.9-5.4-1.9-8-2.7C232.8 78.1 224 78 224 78l0 0 0 0s-8.7 0-21.8 4.4c-2.7 .9-5.4 1.8-8 2.7l0 0c-10.5 3.6-20.6 7.1-25.8 7.1c-6.5 0-55.1-9.3-55.1-9.3s-57.5 69.6-57.5 84.5c0 12.3 4.9 17.1 10.8 22.8l0 0c1.2 1.2 2.5 2.4 3.7 3.8l43.1 45.8c.4 .5 .9 .9 1.4 1.4l0 0c4.3 4.3 10.6 10.7 6.2 21.3l-.9 2.2c-4.9 11.5-11 25.6-3.2 40c8.2 15.3 22.2 25.5 31.2 23.8s30.1-12.7 37.9-17.8s32.4-25.4 32.4-33.2c0-6.5-17.7-17.3-26.3-22.5c-1.7-1-3.1-1.9-3.8-2.4c-.9-.6-2.4-1.5-4.2-2.7c-7.9-4.9-22-13.7-22.4-17.6c-.4-4.8-.3-6.2 6.1-18.1c1.3-2.5 2.9-5.3 4.6-8.1c6-10.4 12.8-22 11.3-30.3c-1.7-9.4-16.4-14.8-28.9-19.4c-1.6-.6-3.1-1.1-4.5-1.7c-3.6-1.4-8.1-3.1-12.8-4.8l-.1 0c-12.5-4.7-26.4-9.9-28.7-10.9c-3.2-1.5-2.3-2.8 7.2-3.8c1.3-.1 2.9-.3 4.7-.5c11.8-1.3 33.6-3.6 44.2-.6c2.1 .6 4.4 1.2 6.9 1.9c11.9 3.2 26.5 7.2 27.9 9.5c.2 .4 .5 .7 .7 1.1c1.3 1.9 2.2 3.2 .7 11.3c-.4 2.4-1.3 7.1-2.4 12.9c-3.3 17.2-8.5 44.2-9.1 50.3c-.1 .8-.2 1.7-.3 2.4c-.8 6.7-1.4 11.2 6.4 13l2 .5 0 0c8.8 2 21.8 5 26.4 5l0 0z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBtc;
 impl IconShape for FaBtc {
     fn view_box(&self) -> &str {
@@ -1297,7 +1351,7 @@ impl IconShape for FaBtc {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBuffer;
 impl IconShape for FaBuffer {
     fn view_box(&self) -> &str {
@@ -1318,14 +1372,13 @@ impl IconShape for FaBuffer {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                class: "a",
                 d: "M427.84 380.67l-196.5 97.82a18.6 18.6 0 0 1-14.67 0L20.16 380.67c-4-2-4-5.28 0-7.29L67.22 350a18.65 18.65 0 0 1 14.69 0l134.76 67a18.51 18.51 0 0 0 14.67 0l134.76-67a18.62 18.62 0 0 1 14.68 0l47.06 23.43c4.05 1.96 4.05 5.24 0 7.24zm0-136.53l-47.06-23.43a18.62 18.62 0 0 0-14.68 0l-134.76 67.08a18.68 18.68 0 0 1-14.67 0L81.91 220.71a18.65 18.65 0 0 0-14.69 0l-47.06 23.43c-4 2-4 5.29 0 7.31l196.51 97.8a18.6 18.6 0 0 0 14.67 0l196.5-97.8c4.05-2.02 4.05-5.3 0-7.31zM20.16 130.42l196.5 90.29a20.08 20.08 0 0 0 14.67 0l196.51-90.29c4-1.86 4-4.89 0-6.74L231.33 33.4a19.88 19.88 0 0 0-14.67 0l-196.5 90.28c-4.05 1.85-4.05 4.88 0 6.74z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBuromobelexperte;
 impl IconShape for FaBuromobelexperte {
     fn view_box(&self) -> &str {
@@ -1352,7 +1405,7 @@ impl IconShape for FaBuromobelexperte {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBuyNLarge;
 impl IconShape for FaBuyNLarge {
     fn view_box(&self) -> &str {
@@ -1379,7 +1432,7 @@ impl IconShape for FaBuyNLarge {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaBuysellads;
 impl IconShape for FaBuysellads {
     fn view_box(&self) -> &str {
@@ -1406,7 +1459,7 @@ impl IconShape for FaBuysellads {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCanadianMapleLeaf;
 impl IconShape for FaCanadianMapleLeaf {
     fn view_box(&self) -> &str {
@@ -1433,7 +1486,7 @@ impl IconShape for FaCanadianMapleLeaf {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCcAmazonPay;
 impl IconShape for FaCcAmazonPay {
     fn view_box(&self) -> &str {
@@ -1460,7 +1513,7 @@ impl IconShape for FaCcAmazonPay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCcAmex;
 impl IconShape for FaCcAmex {
     fn view_box(&self) -> &str {
@@ -1481,13 +1534,13 @@ impl IconShape for FaCcAmex {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M325.1 167.8c0-16.4-14.1-18.4-27.4-18.4l-39.1-.3v69.3H275v-25.1h18c18.4 0 14.5 10.3 14.8 25.1h16.6v-13.5c0-9.2-1.5-15.1-11-18.4 7.4-3 11.8-10.7 11.7-18.7zm-29.4 11.3H275v-15.3h21c5.1 0 10.7 1 10.7 7.4 0 6.6-5.3 7.9-11 7.9zM279 268.6h-52.7l-21 22.8-20.5-22.8h-66.5l-.1 69.3h65.4l21.3-23 20.4 23h32.2l.1-23.3c18.9 0 49.3 4.6 49.3-23.3 0-17.3-12.3-22.7-27.9-22.7zm-103.8 54.7h-40.6v-13.8h36.3v-14.1h-36.3v-12.5h41.7l17.9 20.2zm65.8 8.2l-25.3-28.1L241 276zm37.8-31h-21.2v-17.6h21.5c5.6 0 10.2 2.3 10.2 8.4 0 6.4-4.6 9.2-10.5 9.2zm-31.6-136.7v-14.6h-55.5v69.3h55.5v-14.3h-38.9v-13.8h37.8v-14.1h-37.8v-12.5zM576 255.4h-.2zm-194.6 31.9c0-16.4-14.1-18.7-27.1-18.7h-39.4l-.1 69.3h16.6l.1-25.3h17.6c11 0 14.8 2 14.8 13.8l-.1 11.5h16.6l.1-13.8c0-8.9-1.8-15.1-11-18.4 7.7-3.1 11.8-10.8 11.9-18.4zm-29.2 11.2h-20.7v-15.6h21c5.1 0 10.7 1 10.7 7.4 0 6.9-5.4 8.2-11 8.2zm-172.8-80v-69.3h-27.6l-19.7 47-21.7-47H83.3v65.7l-28.1-65.7H30.7L1 218.5h17.9l6.4-15.3h34.5l6.4 15.3H100v-54.2l24 54.2h14.6l24-54.2v54.2zM31.2 188.8l11.2-27.6 11.5 27.6zm477.4 158.9v-4.5c-10.8 5.6-3.9 4.5-156.7 4.5 0-25.2.1-23.9 0-25.2-1.7-.1-3.2-.1-9.4-.1 0 17.9-.1 6.8-.1 25.3h-39.6c0-12.1.1-15.3.1-29.2-10 6-22.8 6.4-34.3 6.2 0 14.7-.1 8.3-.1 23h-48.9c-5.1-5.7-2.7-3.1-15.4-17.4-3.2 3.5-12.8 13.9-16.1 17.4h-82v-92.3h83.1c5 5.6 2.8 3.1 15.5 17.2 3.2-3.5 12.2-13.4 15.7-17.2h58c9.8 0 18 1.9 24.3 5.6v-5.6c54.3 0 64.3-1.4 75.7 5.1v-5.1h78.2v5.2c11.4-6.9 19.6-5.2 64.9-5.2v5c10.3-5.9 16.6-5.2 54.3-5V80c0-26.5-21.5-48-48-48h-480c-26.5 0-48 21.5-48 48v109.8c9.4-21.9 19.7-46 23.1-53.9h39.7c4.3 10.1 1.6 3.7 9 21.1v-21.1h46c2.9 6.2 11.1 24 13.9 30 5.8-13.6 10.1-23.9 12.6-30h103c0-.1 11.5 0 11.6 0 43.7.2 53.6-.8 64.4 5.3v-5.3H363v9.3c7.6-6.1 17.9-9.3 30.7-9.3h27.6c0 .5 1.9.3 2.3.3H456c4.2 9.8 2.6 6 8.8 20.6v-20.6h43.3c4.9 8-1-1.8 11.2 18.4v-18.4h39.9v92h-41.6c-5.4-9-1.4-2.2-13.2-21.9v21.9h-52.8c-6.4-14.8-.1-.3-6.6-15.3h-19c-4.2 10-2.2 5.2-6.4 15.3h-26.8c-12.3 0-22.3-3-29.7-8.9v8.9h-66.5c-.3-13.9-.1-24.8-.1-24.8-1.8-.3-3.4-.2-9.8-.2v25.1H151.2v-11.4c-2.5 5.6-2.7 5.9-5.1 11.4h-29.5c-4-8.9-2.9-6.4-5.1-11.4v11.4H58.6c-4.2-10.1-2.2-5.3-6.4-15.3H33c-4.2 10-2.2 5.2-6.4 15.3H0V432c0 26.5 21.5 48 48 48h480.1c26.5 0 48-21.5 48-48v-90.4c-12.7 8.3-32.7 6.1-67.5 6.1zm36.3-64.5H575v-14.6h-32.9c-12.8 0-23.8 6.6-23.8 20.7 0 33 42.7 12.8 42.7 27.4 0 5.1-4.3 6.4-8.4 6.4h-32l-.1 14.8h32c8.4 0 17.6-1.8 22.5-8.9v-25.8c-10.5-13.8-39.3-1.3-39.3-13.5 0-5.8 4.6-6.5 9.2-6.5zm-57 39.8h-32.2l-.1 14.8h32.2c14.8 0 26.2-5.6 26.2-22 0-33.2-42.9-11.2-42.9-26.3 0-5.6 4.9-6.4 9.2-6.4h30.4v-14.6h-33.2c-12.8 0-23.5 6.6-23.5 20.7 0 33 42.7 12.5 42.7 27.4-.1 5.4-4.7 6.4-8.8 6.4zm-42.2-40.1v-14.3h-55.2l-.1 69.3h55.2l.1-14.3-38.6-.3v-13.8H445v-14.1h-37.8v-12.5zm-56.3-108.1c-.3.2-1.4 2.2-1.4 7.6 0 6 .9 7.7 1.1 7.9.2.1 1.1.5 3.4.5l7.3-16.9c-1.1 0-2.1-.1-3.1-.1-5.6 0-7 .7-7.3 1zm20.4-10.5h-.1zm-16.2-15.2c-23.5 0-34 12-34 35.3 0 22.2 10.2 34 33 34h19.2l6.4-15.3h34.3l6.6 15.3h33.7v-51.9l31.2 51.9h23.6v-69h-16.9v48.1l-29.1-48.1h-25.3v65.4l-27.9-65.4h-24.8l-23.5 54.5h-7.4c-13.3 0-16.1-8.1-16.1-19.9 0-23.8 15.7-20 33.1-19.7v-15.2zm42.1 12.1l11.2 27.6h-22.8zm-101.1-12v69.3h16.9v-69.3z",
+                d: "M0 432c0 26.5 21.5 48 48 48H528c26.5 0 48-21.5 48-48v-1.1H514.3l-31.9-35.1-31.9 35.1H246.8V267.1H181L262.7 82.4h78.6l28.1 63.2V82.4h97.2L483.5 130l17-47.6H576V80c0-26.5-21.5-48-48-48H48C21.5 32 0 53.5 0 80V432zm440.4-21.7L482.6 364l42 46.3H576l-68-72.1 68-72.1H525.4l-42 46.7-41.5-46.7H390.5L458 338.6l-67.4 71.6V377.1h-83V354.9h80.9V322.6H307.6V300.2h83V267.1h-122V410.3H440.4zm96.3-72L576 380.2V296.9l-39.3 41.4zm-36.3-92l36.9-100.6V246.3H576V103H515.8l-32.2 89.3L451.7 103H390.5V246.1L327.3 103H276.1L213.7 246.3h43l11.9-28.7h65.9l12 28.7h82.7V146L466 246.3h34.4zM282 185.4l19.5-46.9 19.4 46.9H282z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCcApplePay;
 impl IconShape for FaCcApplePay {
     fn view_box(&self) -> &str {
@@ -1514,7 +1567,7 @@ impl IconShape for FaCcApplePay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCcDinersClub;
 impl IconShape for FaCcDinersClub {
     fn view_box(&self) -> &str {
@@ -1541,7 +1594,7 @@ impl IconShape for FaCcDinersClub {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCcDiscover;
 impl IconShape for FaCcDiscover {
     fn view_box(&self) -> &str {
@@ -1568,7 +1621,7 @@ impl IconShape for FaCcDiscover {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCcJcb;
 impl IconShape for FaCcJcb {
     fn view_box(&self) -> &str {
@@ -1595,7 +1648,7 @@ impl IconShape for FaCcJcb {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCcMastercard;
 impl IconShape for FaCcMastercard {
     fn view_box(&self) -> &str {
@@ -1622,7 +1675,7 @@ impl IconShape for FaCcMastercard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCcPaypal;
 impl IconShape for FaCcPaypal {
     fn view_box(&self) -> &str {
@@ -1649,7 +1702,7 @@ impl IconShape for FaCcPaypal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCcStripe;
 impl IconShape for FaCcStripe {
     fn view_box(&self) -> &str {
@@ -1676,7 +1729,7 @@ impl IconShape for FaCcStripe {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCcVisa;
 impl IconShape for FaCcVisa {
     fn view_box(&self) -> &str {
@@ -1703,7 +1756,7 @@ impl IconShape for FaCcVisa {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCentercode;
 impl IconShape for FaCentercode {
     fn view_box(&self) -> &str {
@@ -1730,7 +1783,7 @@ impl IconShape for FaCentercode {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCentos;
 impl IconShape for FaCentos {
     fn view_box(&self) -> &str {
@@ -1757,11 +1810,11 @@ impl IconShape for FaCentos {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaChrome;
 impl IconShape for FaChrome {
     fn view_box(&self) -> &str {
-        "0 0 496 512"
+        "0 0 512 512"
     }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
@@ -1778,13 +1831,13 @@ impl IconShape for FaChrome {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M131.5 217.5L55.1 100.1c47.6-59.2 119-91.8 192-92.1 42.3-.3 85.5 10.5 124.8 33.2 43.4 25.2 76.4 61.4 97.4 103L264 133.4c-58.1-3.4-113.4 29.3-132.5 84.1zm32.9 38.5c0 46.2 37.4 83.6 83.6 83.6s83.6-37.4 83.6-83.6-37.4-83.6-83.6-83.6-83.6 37.3-83.6 83.6zm314.9-89.2L339.6 174c37.9 44.3 38.5 108.2 6.6 157.2L234.1 503.6c46.5 2.5 94.4-7.7 137.8-32.9 107.4-62 150.9-192 107.4-303.9zM133.7 303.6L40.4 120.1C14.9 159.1 0 205.9 0 256c0 124 90.8 226.7 209.5 244.9l63.7-124.8c-57.6 10.8-113.2-20.8-139.5-72.5z",
+                d: "M0 256C0 209.4 12.47 165.6 34.27 127.1L144.1 318.3C166 357.5 207.9 384 256 384C270.3 384 283.1 381.7 296.8 377.4L220.5 509.6C95.9 492.3 0 385.3 0 256zM365.1 321.6C377.4 302.4 384 279.1 384 256C384 217.8 367.2 183.5 340.7 160H493.4C505.4 189.6 512 222.1 512 256C512 397.4 397.4 511.1 256 512L365.1 321.6zM477.8 128H256C193.1 128 142.3 172.1 130.5 230.7L54.19 98.47C101 38.53 174 0 256 0C350.8 0 433.5 51.48 477.8 128V128zM168 256C168 207.4 207.4 168 256 168C304.6 168 344 207.4 344 256C344 304.6 304.6 344 256 344C207.4 344 168 304.6 168 256z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaChromecast;
 impl IconShape for FaChromecast {
     fn view_box(&self) -> &str {
@@ -1811,7 +1864,7 @@ impl IconShape for FaChromecast {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCloudflare;
 impl IconShape for FaCloudflare {
     fn view_box(&self) -> &str {
@@ -1838,7 +1891,7 @@ impl IconShape for FaCloudflare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCloudscale;
 impl IconShape for FaCloudscale {
     fn view_box(&self) -> &str {
@@ -1865,11 +1918,11 @@ impl IconShape for FaCloudscale {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCloudsmith;
 impl IconShape for FaCloudsmith {
     fn view_box(&self) -> &str {
-        "0 0 332 512"
+        "0 0 512 512"
     }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
@@ -1886,13 +1939,13 @@ impl IconShape for FaCloudsmith {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M332.5 419.9c0 46.4-37.6 84.1-84 84.1s-84-37.7-84-84.1 37.6-84 84-84 84 37.6 84 84zm-84-243.9c46.4 0 80-37.6 80-84s-33.6-84-80-84-88 37.6-88 84-29.6 76-76 76-84 41.6-84 88 37.6 80 84 80 84-33.6 84-80 33.6-80 80-80z",
+                d: "M512 227.6v56.9L284.4 512H227.6L0 284.4V227.6L227.6 0h56.9L512 227.6zm-256 162a133.6 133.6 0 1 0 0-267.1 133.6 133.6 0 1 0 0 267.1z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCloudversify;
 impl IconShape for FaCloudversify {
     fn view_box(&self) -> &str {
@@ -1919,7 +1972,7 @@ impl IconShape for FaCloudversify {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCmplid;
 impl IconShape for FaCmplid {
     fn view_box(&self) -> &str {
@@ -1946,7 +1999,7 @@ impl IconShape for FaCmplid {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCodepen;
 impl IconShape for FaCodepen {
     fn view_box(&self) -> &str {
@@ -1973,7 +2026,7 @@ impl IconShape for FaCodepen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCodiepie;
 impl IconShape for FaCodiepie {
     fn view_box(&self) -> &str {
@@ -2000,7 +2053,7 @@ impl IconShape for FaCodiepie {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaConfluence;
 impl IconShape for FaConfluence {
     fn view_box(&self) -> &str {
@@ -2027,7 +2080,7 @@ impl IconShape for FaConfluence {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaConnectdevelop;
 impl IconShape for FaConnectdevelop {
     fn view_box(&self) -> &str {
@@ -2054,7 +2107,7 @@ impl IconShape for FaConnectdevelop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaContao;
 impl IconShape for FaContao {
     fn view_box(&self) -> &str {
@@ -2081,7 +2134,7 @@ impl IconShape for FaContao {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCottonBureau;
 impl IconShape for FaCottonBureau {
     fn view_box(&self) -> &str {
@@ -2108,7 +2161,7 @@ impl IconShape for FaCottonBureau {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCpanel;
 impl IconShape for FaCpanel {
     fn view_box(&self) -> &str {
@@ -2135,7 +2188,7 @@ impl IconShape for FaCpanel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommonsBy;
 impl IconShape for FaCreativeCommonsBy {
     fn view_box(&self) -> &str {
@@ -2162,7 +2215,7 @@ impl IconShape for FaCreativeCommonsBy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommonsNcEu;
 impl IconShape for FaCreativeCommonsNcEu {
     fn view_box(&self) -> &str {
@@ -2189,7 +2242,7 @@ impl IconShape for FaCreativeCommonsNcEu {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommonsNcJp;
 impl IconShape for FaCreativeCommonsNcJp {
     fn view_box(&self) -> &str {
@@ -2216,7 +2269,7 @@ impl IconShape for FaCreativeCommonsNcJp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommonsNc;
 impl IconShape for FaCreativeCommonsNc {
     fn view_box(&self) -> &str {
@@ -2243,7 +2296,7 @@ impl IconShape for FaCreativeCommonsNc {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommonsNd;
 impl IconShape for FaCreativeCommonsNd {
     fn view_box(&self) -> &str {
@@ -2270,7 +2323,7 @@ impl IconShape for FaCreativeCommonsNd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommonsPdAlt;
 impl IconShape for FaCreativeCommonsPdAlt {
     fn view_box(&self) -> &str {
@@ -2297,7 +2350,7 @@ impl IconShape for FaCreativeCommonsPdAlt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommonsPd;
 impl IconShape for FaCreativeCommonsPd {
     fn view_box(&self) -> &str {
@@ -2324,7 +2377,7 @@ impl IconShape for FaCreativeCommonsPd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommonsRemix;
 impl IconShape for FaCreativeCommonsRemix {
     fn view_box(&self) -> &str {
@@ -2351,7 +2404,7 @@ impl IconShape for FaCreativeCommonsRemix {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommonsSa;
 impl IconShape for FaCreativeCommonsSa {
     fn view_box(&self) -> &str {
@@ -2378,7 +2431,7 @@ impl IconShape for FaCreativeCommonsSa {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommonsSamplingPlus;
 impl IconShape for FaCreativeCommonsSamplingPlus {
     fn view_box(&self) -> &str {
@@ -2405,7 +2458,7 @@ impl IconShape for FaCreativeCommonsSamplingPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommonsSampling;
 impl IconShape for FaCreativeCommonsSampling {
     fn view_box(&self) -> &str {
@@ -2432,7 +2485,7 @@ impl IconShape for FaCreativeCommonsSampling {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommonsShare;
 impl IconShape for FaCreativeCommonsShare {
     fn view_box(&self) -> &str {
@@ -2459,7 +2512,7 @@ impl IconShape for FaCreativeCommonsShare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommonsZero;
 impl IconShape for FaCreativeCommonsZero {
     fn view_box(&self) -> &str {
@@ -2486,7 +2539,7 @@ impl IconShape for FaCreativeCommonsZero {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCreativeCommons;
 impl IconShape for FaCreativeCommons {
     fn view_box(&self) -> &str {
@@ -2513,7 +2566,7 @@ impl IconShape for FaCreativeCommons {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCriticalRole;
 impl IconShape for FaCriticalRole {
     fn view_box(&self) -> &str {
@@ -2540,7 +2593,7 @@ impl IconShape for FaCriticalRole {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCss3Alt;
 impl IconShape for FaCss3Alt {
     fn view_box(&self) -> &str {
@@ -2567,7 +2620,7 @@ impl IconShape for FaCss3Alt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCss3;
 impl IconShape for FaCss3 {
     fn view_box(&self) -> &str {
@@ -2594,7 +2647,7 @@ impl IconShape for FaCss3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaCuttlefish;
 impl IconShape for FaCuttlefish {
     fn view_box(&self) -> &str {
@@ -2621,7 +2674,7 @@ impl IconShape for FaCuttlefish {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDAndDBeyond;
 impl IconShape for FaDAndDBeyond {
     fn view_box(&self) -> &str {
@@ -2648,7 +2701,7 @@ impl IconShape for FaDAndDBeyond {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDAndD;
 impl IconShape for FaDAndD {
     fn view_box(&self) -> &str {
@@ -2675,7 +2728,7 @@ impl IconShape for FaDAndD {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDailymotion;
 impl IconShape for FaDailymotion {
     fn view_box(&self) -> &str {
@@ -2702,7 +2755,34 @@ impl IconShape for FaDailymotion {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaDartLang;
+impl IconShape for FaDartLang {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M378.6 78.9c-2.8-.1-5.6-.2-8.5-.2l-264.1 0 143.2-72C256.6 2.3 268 0 279.6 0c13.5 0 29.4 9.2 37 16.8l62 62zM107.3 96.5l262.8 0c16 0 25.4 1.4 35.4 9.3L512 212.2 512 421l-79.3 .7L107.3 96.5zM96.5 373l0-262.2L420.3 434.6l.7 77.4-212.2 0-98.1-98.2 0 0C99.4 402.5 96.5 398.5 96.5 373zM78.7 105.3l0 267.7c0 3.3 .1 6.3 .2 9.1l-62-62C6.5 309.3 0 294.3 0 279.6c0-6.8 3.9-17.5 6.7-23.6l72-150.7z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDashcube;
 impl IconShape for FaDashcube {
     fn view_box(&self) -> &str {
@@ -2729,7 +2809,34 @@ impl IconShape for FaDashcube {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaDebian;
+impl IconShape for FaDebian {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M380.2 245.6c3-7.6 5.5-14 5.2-24.4l-4.3 9c4.4-13.2 4-27.1 3.6-40.4c-.2-6-.3-11.8 0-17.4l-1.8-.5c-1.5-45.2-40.6-93.1-75.3-109.4c-30-13.8-76.1-16.2-97.3-5.8c1.3-1.1 4.2-2 6.8-2.7l.3-.1c3.3-1 6-1.7 4-2.9c-19.2 1.9-24.9 5.5-31.1 9.4l-.1 0c-4.6 2.9-9.5 6-20.3 8.7c-3.5 3.4 1.7 2 5.8 .9l0 0c4.1-1.1 7.2-1.9-.1 2.4c-3.5 1-6.6 1.3-9.6 1.6l-.1 0c-8.3 .8-15.8 1.6-30.7 17c.8 1.3 3.4-.2 5.3-1.3l.1-.1c2.3-1.4 3.4-2-1.7 4.4c-19.1-2.4-60.3 43.7-69.1 59l4.6 .8c-3.2 8-6.8 14.8-10 20.8c-4.3 8.1-7.9 14.9-8.7 21.3c-.3 5.1-1 11-1.7 17.3l0 0c-.1 1-.2 2-.3 3l-.1 .6c-3 27.3-6.7 60.8 3.9 73l-1.3 13c.6 1.2 1.1 2.3 1.6 3.5c.2 .4 .4 .8 .5 1.1l0 0 0 0 0 0 0 0 0 0 0 0 0 0c1 2.1 2 4.2 3.3 6.2l-3 .2c7 22.1 10.8 22.5 15.1 22.9l0 0c4.4 .4 9.3 .9 18.7 24.2c-2.7-.9-5.5-1.9-9.4-7.2c-.5 4.1 5.8 16.3 13.1 25.8l-3.1 3.6c2.1 3.7 4.8 6.2 7.6 8.8l0 0 0 0c1 .9 2.1 1.9 3.1 2.9c-11.9-6.5 3.2 13.7 11.9 25.2c.8 1.1 1.5 2 2.2 2.9l0 0 0 0 0 0 0 0 0 0c1.4 1.9 2.5 3.4 2.9 4.1l2.4-4.2c-.3 6.1 4.3 13.9 13.1 24.7l7.3-.3c3 6 14 16.7 20.7 17.2l-4.4 5.8c8.1 2.6 10.3 4.3 12.7 6.2c2.6 2.1 5.4 4.3 16.1 8.1l-4.2-7.4c3.5 3 6.2 5.9 8.8 8.7l.1 .1c5.2 5.6 9.9 10.6 19.7 15.3c10.7 3.7 16.6 4.7 22.7 5.8c.3 0 .6 .1 .9 .1c5.4 .8 11.2 1.8 20.8 4.5c-1.1-.1-2.2-.1-3.3-.1h0c-2.3-.1-4.7-.1-7-.1l0 0 0 0 0 0 0 0 0 0 0 0 0 0c-14.4-.2-29.2-.4-42.7-5.2C107.8 480.5 19.5 367.2 26 250.6c-.6-9.9-.3-20.9 0-30.7c.4-13.5 .7-24.8-1.6-28.3l1-3.1c5.3-17.4 11.7-38.2 23.8-62.8l-.1-.2v-.1c.4 .4 3.4 3.4 8.8-5.8c.8-1.8 1.6-3.7 2.4-5.6c.5-1.1 .9-2.2 1.4-3.2c2.5-6.1 5.1-12.3 8.4-17.9l2.6-.6c1.7-10.1 17-23.8 29.8-35.2l1.1-1c5.7-5.1 10.7-9.7 13.6-13.1l.7 4.4c17-15.9 44.6-27.5 65.6-36.4l.5-.2c4.8-2 9.3-3.9 13.3-5.7c-3.4 3.8 2.2 2.7 10 1c4.8-1 10.4-2.1 15.3-2.4l-3.9 2.1c-2.7 1.4-5.4 2.8-8 4.6c8.1-2 11.7-1.4 15.7-.8l.3 0c3.5 .6 7.3 1.2 14.6 .2c-5.6 .8-12.3 3-11.2 3.8c7.9 .9 12.8-.1 17.2-1l.2 0c5.5-1.1 10.3-2 19.3 .9l-1-4.8c7.3 2.6 12.7 4.3 17.5 5.8l.5 .1c10 3 17.6 5.3 34.2 14.1c3.2 .2 5.3-.5 7.4-1.2l.1 0c3.6-1.1 7-2.1 15.2 1.2c.3 .5 .5 1 .7 1.4c.1 .2 .2 .5 .3 .7l0 .1c1 2.6 1.8 4.6 14.6 12.1c1.7-.7-2.7-4.7-6.4-8.2c0 0 0 0-.1-.1c-.2-.1-.3-.3-.5-.4c32.2 17.3 67.3 54.1 78 93.5c-6-11.1-5.2-5.5-4.3 .5c.6 4 1.2 8.1-.2 7.5c4.5 12.1 8.1 24.5 10.4 37.4l-.8-2.9-.1-.3c-3.3-11.9-9.6-34.3-19.9-49.3c-.4 4.3-2.8 3.9-5.2 3.5l-.1 0 0 0c-3.3-.6-6.2-1.1-1.9 12.6c2.6 3.8 3.1 2.4 3.5 1.1l0 0c.5-1.5 .9-2.7 4.7 5.2c.1 4.1 1 8.2 2.1 12.7l0 0 0 0 .1 .6c.1 .3 .1 .5 .2 .8l.1 .6c.6 2.6 1.3 5.4 1.8 8.4c-1.1-.2-2.3-2.2-3.4-4.2c-1.4-2.4-2.8-4.7-3.7-3.2c2.4 11.5 6.5 17.4 8 18.3c-.3 .6-.6 .7-1.1 .7c-.8 0-1.8 .1-1.9 5.3c.7 13.7 3.3 12.5 5.3 11.6l0 0c.6-.3 1.2-.6 1.7-.4c-.6 2.5-1.6 5.1-2.7 7.9c-2.8 7.1-6 15.4-3.4 26.1c-.8-3-2-6-3.1-8.9l-.1-.4c-.2-.5-.4-1-.6-1.5l0 0c-.3-.8-.6-1.6-.9-2.3c-.6 4.4-.3 7.7-.1 10.6c0 .2 0 .5 0 .7c.4 5.3 .7 10-3 19.9c4.3-14.2 3.8-26.9-.2-20.8c1 10.9-3.7 20.4-8 28.9l-.1 .2c-3.6 7.1-6.8 13.5-5.9 19.3l-5.2-7.1c-7.5 10.9-7 13.3-6.5 15.5l0 .1c.5 1.9 1 3.8-3.4 10.8c1.7-2.9 1.3-3.6 1-4.2l0 0c-.4-.8-.7-1.5 1.7-5.1c-1.6 .1-5.5 3.9-10.1 8.5c-3.9 3.9-8.5 8.4-12.8 11.8c-37.5 30.1-82.3 34-125.6 17.8c.2-1-.2-2.1-3.1-4.1c-36.8-28.2-58.5-52.1-50.9-107.5c2.1-1.6 3.6-5.8 5.3-10.8l0 0 0 0 .2-.4 .1-.3 0-.1c2.9-8.4 6.5-18.8 14.3-23.8c7.8-17.3 31.3-33.3 56.4-33.7c25.6-1.4 47.2 13.7 58.1 27.9c-19.8-18.4-52.1-24-79.7-10.4c-28.2 12.7-45 43.8-42.5 74.7c.3-.4 .6-.6 .9-.8l0 0s0 0 0 0c0 0 .1-.1 .1-.1l.1-.1c.6-.5 1.1-.9 1.4-3.3c-.9 60.2 64.8 104.3 112.1 82l.6 1.3c12.7-3.5 15.9-6.5 20.3-10.7l.1-.1 0 0c2.2-2.1 4.7-4.5 8.9-7.3c-.3 .7-1.3 1.7-2.4 2.7c-2.2 2.1-4.6 4.5-1.6 4.6c5-1.3 18.5-13.4 28.5-22.3l0 0 0 0c.6-.5 1.2-1 1.7-1.5c1.5-1.3 2.8-2.5 4-3.6l0 0 .3-.3c1.9-4.2 1.6-5.6 1.3-7l0-.1c-.4-1.6-.8-3.3 2.4-9.6l7.3-3.7c.8-2.1 1.5-4.1 2.2-6c.2-.6 .5-1.2 .7-1.8l-.4-.2zM349.3 34.3l-.2-.1 .2 .1 0 0zM247.8 334.1c-6-3-13.7-8.9-14.8-11.4l-.4 .3c-.3 .6-.5 1.3-.2 2.2c-12.2-5.7-23.4-14.3-32.6-24.9c4.9 7.1 10.1 14.1 17 19.5c-6.9-2.3-15.1-11.8-21.6-19.3l-.1-.1c-4.3-5-7.9-9.1-9.7-9.5c19.8 35.5 80.5 62.3 112.3 49c-14.7 .5-33.4 .3-49.9-5.8zm79.3-119.7l-.1-.2c-.5-1.5-1.1-3.1-1.7-3.4c1.4-5.8 5.4-10.7 4.4 4.6c-1 3.8-1.8 1.5-2.6-1zm-4.2 22.2c-1.3 7.9-5 15.5-10.1 22.5c.2-2-1.2-2.4-2.6-2.8l0 0c-2.9-.8-5.9-1.6 5.6-16.1c-.5 1.9-2.1 4.6-3.7 7.3l0 0 0 0-.3 .4c-3.6 5.9-6.7 11 4 4.3l1-1.8c2.6-4.5 5-8.8 6-13.8h.1zm-55.6 33.9c7.1 .6 14.1 .6 21-1.1c-2.5 2.4-5.2 4.8-8.3 7.2c-11.1-1.7-21.2-6-12.7-6.1zm-92.6 11.6c3.6 7.1 6.4 11.5 9 15.7l.1 .2c2.3 3.7 4.4 7.1 6.8 11.7c-5.1-4.2-8.7-9.5-12.5-15l-.3-.5c-1.4-2.1-2.8-4.2-4.4-6.2l1.2-5.9h.1zm7.5-9.6c1.6 3.3 3.2 6.4 5.7 9.1l2.6 7.7-1.3-2.1c-3.2-5.3-6.3-10.6-8-16.7l.8 1.6 .2 .4zm238.9-41.6c-2.3 17.4-7.7 34.6-16 50.3c7.6-14.9 12.5-30.9 14.8-47.2l1.2-3.1zM35.6 110.6c.4 .8 1.4 .5 2.3 .3c1.9-.5 3.6-.9-.1 7.6c-.5 .3-1 .7-1.5 1l0 0 0 0c-1.4 .9-2.8 1.9-3.9 3c1.9-3.8 3.5-7.4 3.2-11.9zM25.3 152.3c-.7 3.7-1.5 7.9-3.4 13.9c.2-1.9 0-3.5-.2-4.9l0-.1c-.4-3.4-.7-6.3 4.3-12.8c-.3 1.2-.5 2.5-.7 3.8v.1z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDeezer;
 impl IconShape for FaDeezer {
     fn view_box(&self) -> &str {
@@ -2756,7 +2863,7 @@ impl IconShape for FaDeezer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDelicious;
 impl IconShape for FaDelicious {
     fn view_box(&self) -> &str {
@@ -2783,7 +2890,7 @@ impl IconShape for FaDelicious {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDeploydog;
 impl IconShape for FaDeploydog {
     fn view_box(&self) -> &str {
@@ -2810,7 +2917,7 @@ impl IconShape for FaDeploydog {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDeskpro;
 impl IconShape for FaDeskpro {
     fn view_box(&self) -> &str {
@@ -2837,7 +2944,7 @@ impl IconShape for FaDeskpro {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDev;
 impl IconShape for FaDev {
     fn view_box(&self) -> &str {
@@ -2864,7 +2971,7 @@ impl IconShape for FaDev {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDeviantart;
 impl IconShape for FaDeviantart {
     fn view_box(&self) -> &str {
@@ -2891,7 +2998,7 @@ impl IconShape for FaDeviantart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDhl;
 impl IconShape for FaDhl {
     fn view_box(&self) -> &str {
@@ -2918,7 +3025,7 @@ impl IconShape for FaDhl {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDiaspora;
 impl IconShape for FaDiaspora {
     fn view_box(&self) -> &str {
@@ -2945,7 +3052,7 @@ impl IconShape for FaDiaspora {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDigg;
 impl IconShape for FaDigg {
     fn view_box(&self) -> &str {
@@ -2972,7 +3079,7 @@ impl IconShape for FaDigg {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDigitalOcean;
 impl IconShape for FaDigitalOcean {
     fn view_box(&self) -> &str {
@@ -2999,7 +3106,7 @@ impl IconShape for FaDigitalOcean {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDiscord;
 impl IconShape for FaDiscord {
     fn view_box(&self) -> &str {
@@ -3026,7 +3133,7 @@ impl IconShape for FaDiscord {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDiscourse;
 impl IconShape for FaDiscourse {
     fn view_box(&self) -> &str {
@@ -3053,7 +3160,7 @@ impl IconShape for FaDiscourse {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDochub;
 impl IconShape for FaDochub {
     fn view_box(&self) -> &str {
@@ -3080,7 +3187,7 @@ impl IconShape for FaDochub {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDocker;
 impl IconShape for FaDocker {
     fn view_box(&self) -> &str {
@@ -3107,7 +3214,7 @@ impl IconShape for FaDocker {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDraft2digital;
 impl IconShape for FaDraft2digital {
     fn view_box(&self) -> &str {
@@ -3134,34 +3241,7 @@ impl IconShape for FaDraft2digital {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaDribbbleSquare;
-impl IconShape for FaDribbbleSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M90.2 228.2c8.9-42.4 37.4-77.7 75.7-95.7 3.6 4.9 28 38.8 50.7 79-64 17-120.3 16.8-126.4 16.7zM314.6 154c-33.6-29.8-79.3-41.1-122.6-30.6 3.8 5.1 28.6 38.9 51 80 48.6-18.3 69.1-45.9 71.6-49.4zM140.1 364c40.5 31.6 93.3 36.7 137.3 18-2-12-10-53.8-29.2-103.6-55.1 18.8-93.8 56.4-108.1 85.6zm98.8-108.2c-3.4-7.8-7.2-15.5-11.1-23.2C159.6 253 93.4 252.2 87.4 252c0 1.4-.1 2.8-.1 4.2 0 35.1 13.3 67.1 35.1 91.4 22.2-37.9 67.1-77.9 116.5-91.8zm34.9 16.3c17.9 49.1 25.1 89.1 26.5 97.4 30.7-20.7 52.5-53.6 58.6-91.6-4.6-1.5-42.3-12.7-85.1-5.8zm-20.3-48.4c4.8 9.8 8.3 17.8 12 26.8 45.5-5.7 90.7 3.4 95.2 4.4-.3-32.3-11.8-61.9-30.9-85.1-2.9 3.9-25.8 33.2-76.3 53.9zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-64 176c0-88.2-71.8-160-160-160S64 167.8 64 256s71.8 160 160 160 160-71.8 160-160z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDribbble;
 impl IconShape for FaDribbble {
     fn view_box(&self) -> &str {
@@ -3188,7 +3268,7 @@ impl IconShape for FaDribbble {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDropbox;
 impl IconShape for FaDropbox {
     fn view_box(&self) -> &str {
@@ -3215,7 +3295,7 @@ impl IconShape for FaDropbox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDrupal;
 impl IconShape for FaDrupal {
     fn view_box(&self) -> &str {
@@ -3242,7 +3322,7 @@ impl IconShape for FaDrupal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaDyalog;
 impl IconShape for FaDyalog {
     fn view_box(&self) -> &str {
@@ -3269,7 +3349,7 @@ impl IconShape for FaDyalog {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaEarlybirds;
 impl IconShape for FaEarlybirds {
     fn view_box(&self) -> &str {
@@ -3296,7 +3376,7 @@ impl IconShape for FaEarlybirds {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaEbay;
 impl IconShape for FaEbay {
     fn view_box(&self) -> &str {
@@ -3323,7 +3403,7 @@ impl IconShape for FaEbay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaEdgeLegacy;
 impl IconShape for FaEdgeLegacy {
     fn view_box(&self) -> &str {
@@ -3350,7 +3430,7 @@ impl IconShape for FaEdgeLegacy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaEdge;
 impl IconShape for FaEdge {
     fn view_box(&self) -> &str {
@@ -3371,13 +3451,13 @@ impl IconShape for FaEdge {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M481.92,134.48C440.87,54.18,352.26,8,255.91,8,137.05,8,37.51,91.68,13.47,203.66c26-46.49,86.22-79.14,149.46-79.14,79.27,0,121.09,48.93,122.25,50.18,22,23.8,33,50.39,33,83.1,0,10.4-5.31,25.82-15.11,38.57-1.57,2-6.39,4.84-6.39,11,0,5.06,3.29,9.92,9.14,14,27.86,19.37,80.37,16.81,80.51,16.81A115.39,115.39,0,0,0,444.94,322a118.92,118.92,0,0,0,58.95-102.44C504.39,176.13,488.39,147.26,481.92,134.48ZM212.77,475.67a154.88,154.88,0,0,1-46.64-45c-32.94-47.42-34.24-95.6-20.1-136A155.5,155.5,0,0,1,203,215.75c59-45.2,94.84-5.65,99.06-1a80,80,0,0,0-4.89-10.14c-9.24-15.93-24-36.41-56.56-53.51-33.72-17.69-70.59-18.59-77.64-18.59-38.71,0-77.9,13-107.53,35.69C35.68,183.3,12.77,208.72,8.6,243c-1.08,12.31-2.75,62.8,23,118.27a248,248,0,0,0,248.3,141.61C241.78,496.26,214.05,476.24,212.77,475.67Zm250.72-98.33a7.76,7.76,0,0,0-7.92-.23,181.66,181.66,0,0,1-20.41,9.12,197.54,197.54,0,0,1-69.55,12.52c-91.67,0-171.52-63.06-171.52-144A61.12,61.12,0,0,1,200.61,228,168.72,168.72,0,0,0,161.85,278c-14.92,29.37-33,88.13,13.33,151.66,6.51,8.91,23,30,56,47.67,23.57,12.65,49,19.61,71.7,19.61,35.14,0,115.43-33.44,163-108.87A7.75,7.75,0,0,0,463.49,377.34Z",
+                d: "M120.1 37.44C161.1 12.23 207.7-.7753 255 .0016C423 .0016 512 123.8 512 219.5C511.9 252.2 499 283.4 476.1 306.7C453.2 329.9 422.1 343.2 389.4 343.7C314.2 343.7 297.9 320.6 297.9 311.7C297.9 307.9 299.1 305.5 302.7 302.3L303.7 301.1L304.1 299.5C314.6 288 320 273.3 320 257.9C320 179.2 237.8 115.2 136 115.2C98.46 114.9 61.46 124.1 28.48 142.1C55.48 84.58 111.2 44.5 119.8 38.28C120.6 37.73 120.1 37.44 120.1 37.44V37.44zM135.7 355.5C134.3 385.5 140.3 415.5 152.1 442.7C165.7 469.1 184.8 493.7 208.6 512C149.1 500.5 97.11 468.1 59.2 422.7C21.12 376.3 0 318.4 0 257.9C0 206.7 62.4 163.5 136 163.5C172.6 162.9 208.4 174.4 237.8 196.2L234.2 197.4C182.7 215 135.7 288.1 135.7 355.5V355.5zM469.8 400L469.1 400.1C457.3 418.9 443.2 435.2 426.9 449.6C396.1 477.6 358.8 495.1 318.1 499.5C299.5 499.8 281.3 496.3 264.3 488.1C238.7 477.8 217.2 458.1 202.7 435.1C188.3 411.2 181.6 383.4 183.7 355.5C183.1 335.4 189.1 315.2 198.7 297.3C212.6 330.4 236.2 358.6 266.3 378.1C296.4 397.6 331.8 407.6 367.7 406.7C398.7 407 429.8 400 457.9 386.2L459.8 385.3C463.7 383 467.5 381.4 471.4 385.3C475.9 390.2 473.2 394.5 470.2 399.3C470 399.5 469.9 399.8 469.8 400V400z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaElementor;
 impl IconShape for FaElementor {
     fn view_box(&self) -> &str {
@@ -3404,7 +3484,7 @@ impl IconShape for FaElementor {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaEllo;
 impl IconShape for FaEllo {
     fn view_box(&self) -> &str {
@@ -3431,7 +3511,7 @@ impl IconShape for FaEllo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaEmber;
 impl IconShape for FaEmber {
     fn view_box(&self) -> &str {
@@ -3458,7 +3538,7 @@ impl IconShape for FaEmber {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaEmpire;
 impl IconShape for FaEmpire {
     fn view_box(&self) -> &str {
@@ -3485,7 +3565,7 @@ impl IconShape for FaEmpire {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaEnvira;
 impl IconShape for FaEnvira {
     fn view_box(&self) -> &str {
@@ -3512,7 +3592,7 @@ impl IconShape for FaEnvira {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaErlang;
 impl IconShape for FaErlang {
     fn view_box(&self) -> &str {
@@ -3539,7 +3619,7 @@ impl IconShape for FaErlang {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaEthereum;
 impl IconShape for FaEthereum {
     fn view_box(&self) -> &str {
@@ -3566,7 +3646,7 @@ impl IconShape for FaEthereum {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaEtsy;
 impl IconShape for FaEtsy {
     fn view_box(&self) -> &str {
@@ -3593,7 +3673,7 @@ impl IconShape for FaEtsy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaEvernote;
 impl IconShape for FaEvernote {
     fn view_box(&self) -> &str {
@@ -3620,7 +3700,7 @@ impl IconShape for FaEvernote {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaExpeditedssl;
 impl IconShape for FaExpeditedssl {
     fn view_box(&self) -> &str {
@@ -3647,7 +3727,7 @@ impl IconShape for FaExpeditedssl {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFacebookF;
 impl IconShape for FaFacebookF {
     fn view_box(&self) -> &str {
@@ -3668,13 +3748,13 @@ impl IconShape for FaFacebookF {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z",
+                d: "M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFacebookMessenger;
 impl IconShape for FaFacebookMessenger {
     fn view_box(&self) -> &str {
@@ -3701,34 +3781,7 @@ impl IconShape for FaFacebookMessenger {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaFacebookSquare;
-impl IconShape for FaFacebookSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFacebook;
 impl IconShape for FaFacebook {
     fn view_box(&self) -> &str {
@@ -3749,13 +3802,13 @@ impl IconShape for FaFacebook {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z",
+                d: "M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFantasyFlightGames;
 impl IconShape for FaFantasyFlightGames {
     fn view_box(&self) -> &str {
@@ -3782,7 +3835,7 @@ impl IconShape for FaFantasyFlightGames {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFedex;
 impl IconShape for FaFedex {
     fn view_box(&self) -> &str {
@@ -3809,7 +3862,7 @@ impl IconShape for FaFedex {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFedora;
 impl IconShape for FaFedora {
     fn view_box(&self) -> &str {
@@ -3836,7 +3889,7 @@ impl IconShape for FaFedora {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFigma;
 impl IconShape for FaFigma {
     fn view_box(&self) -> &str {
@@ -3863,7 +3916,7 @@ impl IconShape for FaFigma {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFirefoxBrowser;
 impl IconShape for FaFirefoxBrowser {
     fn view_box(&self) -> &str {
@@ -3890,7 +3943,7 @@ impl IconShape for FaFirefoxBrowser {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFirefox;
 impl IconShape for FaFirefox {
     fn view_box(&self) -> &str {
@@ -3917,7 +3970,7 @@ impl IconShape for FaFirefox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFirstOrderAlt;
 impl IconShape for FaFirstOrderAlt {
     fn view_box(&self) -> &str {
@@ -3944,7 +3997,7 @@ impl IconShape for FaFirstOrderAlt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFirstOrder;
 impl IconShape for FaFirstOrder {
     fn view_box(&self) -> &str {
@@ -3971,7 +4024,7 @@ impl IconShape for FaFirstOrder {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFirstdraft;
 impl IconShape for FaFirstdraft {
     fn view_box(&self) -> &str {
@@ -3998,7 +4051,7 @@ impl IconShape for FaFirstdraft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFlickr;
 impl IconShape for FaFlickr {
     fn view_box(&self) -> &str {
@@ -4025,7 +4078,7 @@ impl IconShape for FaFlickr {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFlipboard;
 impl IconShape for FaFlipboard {
     fn view_box(&self) -> &str {
@@ -4052,7 +4105,34 @@ impl IconShape for FaFlipboard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaFlutter;
+impl IconShape for FaFlutter {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M429.5 236.3L291.7 374.1 429.5 512H272l-59.1-59.1-78.8-78.8L272 236.3H429.5zM272 0L16 256l78.8 78.8L429.5 0H272z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFly;
 impl IconShape for FaFly {
     fn view_box(&self) -> &str {
@@ -4079,11 +4159,11 @@ impl IconShape for FaFly {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFontAwesome;
 impl IconShape for FaFontAwesome {
     fn view_box(&self) -> &str {
-        "0 0 448 512"
+        "0 0 512 512"
     }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
@@ -4100,13 +4180,13 @@ impl IconShape for FaFontAwesome {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M448 48V384C385 407 366 416 329 416C266 416 242 384 179 384C159 384 143 388 128 392V328C143 324 159 320 179 320C242 320 266 352 329 352C349 352 364 349 384 343V135C364 141 349 144 329 144C266 144 242 112 179 112C128 112 104 133 64 141V448C64 466 50 480 32 480S0 466 0 448V64C0 46 14 32 32 32S64 46 64 64V77C104 69 128 48 179 48C242 48 266 80 329 80C366 80 385 71 448 48Z",
+                d: "M91.7 96C106.3 86.8 116 70.5 116 52C116 23.3 92.7 0 64 0S12 23.3 12 52c0 16.7 7.8 31.5 20 41l0 3 0 352 0 64 64 0 0-64 373.6 0c14.6 0 26.4-11.8 26.4-26.4c0-3.7-.8-7.3-2.3-10.7L432 272l61.7-138.9c1.5-3.4 2.3-7 2.3-10.7c0-14.6-11.8-26.4-26.4-26.4L91.7 96z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFonticonsFi;
 impl IconShape for FaFonticonsFi {
     fn view_box(&self) -> &str {
@@ -4133,7 +4213,7 @@ impl IconShape for FaFonticonsFi {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFonticons;
 impl IconShape for FaFonticons {
     fn view_box(&self) -> &str {
@@ -4160,7 +4240,7 @@ impl IconShape for FaFonticons {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFortAwesomeAlt;
 impl IconShape for FaFortAwesomeAlt {
     fn view_box(&self) -> &str {
@@ -4187,7 +4267,7 @@ impl IconShape for FaFortAwesomeAlt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFortAwesome;
 impl IconShape for FaFortAwesome {
     fn view_box(&self) -> &str {
@@ -4214,7 +4294,7 @@ impl IconShape for FaFortAwesome {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaForumbee;
 impl IconShape for FaForumbee {
     fn view_box(&self) -> &str {
@@ -4241,7 +4321,7 @@ impl IconShape for FaForumbee {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFoursquare;
 impl IconShape for FaFoursquare {
     fn view_box(&self) -> &str {
@@ -4268,7 +4348,7 @@ impl IconShape for FaFoursquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFreeCodeCamp;
 impl IconShape for FaFreeCodeCamp {
     fn view_box(&self) -> &str {
@@ -4295,7 +4375,7 @@ impl IconShape for FaFreeCodeCamp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFreebsd;
 impl IconShape for FaFreebsd {
     fn view_box(&self) -> &str {
@@ -4322,7 +4402,7 @@ impl IconShape for FaFreebsd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaFulcrum;
 impl IconShape for FaFulcrum {
     fn view_box(&self) -> &str {
@@ -4349,7 +4429,7 @@ impl IconShape for FaFulcrum {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGalacticRepublic;
 impl IconShape for FaGalacticRepublic {
     fn view_box(&self) -> &str {
@@ -4376,7 +4456,7 @@ impl IconShape for FaGalacticRepublic {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGalacticSenate;
 impl IconShape for FaGalacticSenate {
     fn view_box(&self) -> &str {
@@ -4403,7 +4483,7 @@ impl IconShape for FaGalacticSenate {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGetPocket;
 impl IconShape for FaGetPocket {
     fn view_box(&self) -> &str {
@@ -4430,7 +4510,7 @@ impl IconShape for FaGetPocket {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGgCircle;
 impl IconShape for FaGgCircle {
     fn view_box(&self) -> &str {
@@ -4457,7 +4537,7 @@ impl IconShape for FaGgCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGg;
 impl IconShape for FaGg {
     fn view_box(&self) -> &str {
@@ -4484,7 +4564,7 @@ impl IconShape for FaGg {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGitAlt;
 impl IconShape for FaGitAlt {
     fn view_box(&self) -> &str {
@@ -4511,34 +4591,7 @@ impl IconShape for FaGitAlt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaGitSquare;
-impl IconShape for FaGitSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M100.59 334.24c48.57 3.31 58.95 2.11 58.95 11.94 0 20-65.55 20.06-65.55 1.52.01-5.09 3.29-9.4 6.6-13.46zm27.95-116.64c-32.29 0-33.75 44.47-.75 44.47 32.51 0 31.71-44.47.75-44.47zM448 80v352a48 48 0 0 1-48 48H48a48 48 0 0 1-48-48V80a48 48 0 0 1 48-48h352a48 48 0 0 1 48 48zm-227 69.31c0 14.49 8.38 22.88 22.86 22.88 14.74 0 23.13-8.39 23.13-22.88S258.62 127 243.88 127c-14.48 0-22.88 7.84-22.88 22.31zM199.18 195h-49.55c-25-6.55-81.56-4.85-81.56 46.75 0 18.8 9.4 32 21.85 38.11C74.23 294.23 66.8 301 66.8 310.6c0 6.87 2.79 13.22 11.18 16.76-8.9 8.4-14 14.48-14 25.92C64 373.35 81.53 385 127.52 385c44.22 0 69.87-16.51 69.87-45.73 0-36.67-28.23-35.32-94.77-39.38l8.38-13.43c17 4.74 74.19 6.23 74.19-42.43 0-11.69-4.83-19.82-9.4-25.67l23.38-1.78zm84.34 109.84l-13-1.78c-3.82-.51-4.07-1-4.07-5.09V192.52h-52.6l-2.79 20.57c15.75 5.55 17 4.86 17 10.17V298c0 5.62-.31 4.58-17 6.87v20.06h72.42zM384 315l-6.87-22.37c-40.93 15.37-37.85-12.41-37.85-16.73v-60.72h37.85v-25.41h-35.82c-2.87 0-2 2.52-2-38.63h-24.18c-2.79 27.7-11.68 38.88-34 41.42v22.62c20.47 0 19.82-.85 19.82 2.54v66.57c0 28.72 11.43 40.91 41.67 40.91 14.45 0 30.45-4.83 41.38-10.2z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGit;
 impl IconShape for FaGit {
     fn view_box(&self) -> &str {
@@ -4565,7 +4618,7 @@ impl IconShape for FaGit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGithubAlt;
 impl IconShape for FaGithubAlt {
     fn view_box(&self) -> &str {
@@ -4592,34 +4645,7 @@ impl IconShape for FaGithubAlt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaGithubSquare;
-impl IconShape for FaGithubSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGithub;
 impl IconShape for FaGithub {
     fn view_box(&self) -> &str {
@@ -4646,7 +4672,7 @@ impl IconShape for FaGithub {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGitkraken;
 impl IconShape for FaGitkraken {
     fn view_box(&self) -> &str {
@@ -4673,7 +4699,7 @@ impl IconShape for FaGitkraken {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGitlab;
 impl IconShape for FaGitlab {
     fn view_box(&self) -> &str {
@@ -4694,13 +4720,13 @@ impl IconShape for FaGitlab {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M510.486,284.482l-27.262-83.963c.012.038.016.077.028.115-.013-.044-.021-.088-.033-.132v-.01L429.1,33.871a21.328,21.328,0,0,0-20.445-14.6A21.038,21.038,0,0,0,388.466,34L337.094,192.154H175L123.533,33.989A21.033,21.033,0,0,0,103.35,19.274h-.113A21.467,21.467,0,0,0,82.86,34L28.888,200.475l-.008.021v0c-.013.042-.019.084-.033.127.012-.038.017-.077.029-.115L1.514,284.482a30.6,30.6,0,0,0,11.117,34.283L248.893,490.427c.035.026.074.041.109.067.1.072.2.146.3.214-.1-.065-.187-.136-.282-.2l0,0c.015.012.033.02.05.031s.027.015.041.024l.006,0a11.992,11.992,0,0,0,1.137.7c.054.03.1.068.157.1l0,0c.033.016.064.038.1.054s.053.02.077.032.038.015.056.023c.044.021.092.034.136.057.205.1.421.178.633.264.2.082.389.177.592.248l.025.011c.034.012.064.028.1.04s.083.032.125.046l.05.012c.053.016.11.024.163.039.019.006.042.009.063.015.284.086.579.148.872.213.115.026.225.062.341.083.017,0,.032.009.05.012.038.008.073.021.112.027.062.011.122.031.186.04.049.007.1,0,.151.012h.033a11.918,11.918,0,0,0,1.7.136h.019a11.971,11.971,0,0,0,1.7-.136h.033c.05-.008.1,0,.153-.012s.124-.029.187-.04c.038-.006.073-.019.11-.027.017,0,.032-.009.049-.012.118-.023.231-.059.349-.084.288-.064.578-.126.861-.21.019-.006.039-.008.059-.014.055-.017.113-.024.169-.041.016-.006.035-.007.051-.012.044-.013.086-.032.129-.047s.063-.028.1-.041l.026-.01c.214-.076.417-.175.627-.261s.394-.154.584-.245c.047-.023.1-.036.142-.059.018-.009.04-.015.058-.024s.053-.02.078-.033.068-.04.1-.056l0,0c.056-.028.106-.069.161-.1a12.341,12.341,0,0,0,1.132-.695c.029-.02.062-.035.092-.056.008-.006.017-.009.024-.015.035-.026.076-.043.11-.068l236.3-171.666A30.6,30.6,0,0,0,510.486,284.482ZM408.8,49.48l46.342,142.674H362.46Zm-305.6,0,46.428,142.675H56.948ZM26.817,299.251a6.526,6.526,0,0,1-2.361-7.308l20.34-62.42L193.835,420.6Zm38.245-82.972h92.411L223.354,419.22Zm183.416,273.83c-.047-.038-.092-.079-.138-.118-.009-.008-.018-.018-.028-.026-.091-.075-.18-.152-.268-.231-.172-.15-.341-.3-.5-.462.014.012.029.022.043.035l.055.046a12.191,12.191,0,0,0,1.091.929l.012.011c.018.013.033.03.051.045C248.689,490.263,248.58,490.19,248.478,490.109Zm7.514-48.482L217.226,322.21,182.839,216.279H329.253Zm7.935,48.107c-.091.079-.178.157-.27.233l-.032.028c-.047.038-.091.079-.136.117-.1.08-.209.152-.313.229.018-.013.033-.032.053-.044l.009-.009a11.69,11.69,0,0,0,1.086-.926c.014-.013.03-.024.044-.036s.038-.03.054-.047C264.262,489.435,264.1,489.586,263.927,489.734Zm90.7-273.455h92.4l-18.91,24.23-139.468,178.7Zm130.567,82.967L318.2,420.563,467.284,229.538l20.258,62.393A6.528,6.528,0,0,1,485.189,299.246Z",
+                d: "M503.5 204.6L502.8 202.8L433.1 21.02C431.7 17.45 429.2 14.43 425.9 12.38C423.5 10.83 420.8 9.865 417.9 9.57C415 9.275 412.2 9.653 409.5 10.68C406.8 11.7 404.4 13.34 402.4 15.46C400.5 17.58 399.1 20.13 398.3 22.9L351.3 166.9H160.8L113.7 22.9C112.9 20.13 111.5 17.59 109.6 15.47C107.6 13.35 105.2 11.72 102.5 10.7C99.86 9.675 96.98 9.295 94.12 9.587C91.26 9.878 88.51 10.83 86.08 12.38C82.84 14.43 80.33 17.45 78.92 21.02L9.267 202.8L8.543 204.6C-1.484 230.8-2.72 259.6 5.023 286.6C12.77 313.5 29.07 337.3 51.47 354.2L51.74 354.4L52.33 354.8L158.3 434.3L210.9 474L242.9 498.2C246.6 500.1 251.2 502.5 255.9 502.5C260.6 502.5 265.2 500.1 268.9 498.2L300.9 474L353.5 434.3L460.2 354.4L460.5 354.1C482.9 337.2 499.2 313.5 506.1 286.6C514.7 259.6 513.5 230.8 503.5 204.6z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGitter;
 impl IconShape for FaGitter {
     fn view_box(&self) -> &str {
@@ -4727,7 +4753,7 @@ impl IconShape for FaGitter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGlideG;
 impl IconShape for FaGlideG {
     fn view_box(&self) -> &str {
@@ -4754,7 +4780,7 @@ impl IconShape for FaGlideG {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGlide;
 impl IconShape for FaGlide {
     fn view_box(&self) -> &str {
@@ -4781,7 +4807,7 @@ impl IconShape for FaGlide {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGofore;
 impl IconShape for FaGofore {
     fn view_box(&self) -> &str {
@@ -4808,7 +4834,7 @@ impl IconShape for FaGofore {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGolang;
 impl IconShape for FaGolang {
     fn view_box(&self) -> &str {
@@ -4835,7 +4861,7 @@ impl IconShape for FaGolang {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGoodreadsG;
 impl IconShape for FaGoodreadsG {
     fn view_box(&self) -> &str {
@@ -4862,7 +4888,7 @@ impl IconShape for FaGoodreadsG {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGoodreads;
 impl IconShape for FaGoodreads {
     fn view_box(&self) -> &str {
@@ -4889,7 +4915,7 @@ impl IconShape for FaGoodreads {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGoogleDrive;
 impl IconShape for FaGoogleDrive {
     fn view_box(&self) -> &str {
@@ -4916,7 +4942,7 @@ impl IconShape for FaGoogleDrive {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGooglePay;
 impl IconShape for FaGooglePay {
     fn view_box(&self) -> &str {
@@ -4943,7 +4969,7 @@ impl IconShape for FaGooglePay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGooglePlay;
 impl IconShape for FaGooglePlay {
     fn view_box(&self) -> &str {
@@ -4970,7 +4996,7 @@ impl IconShape for FaGooglePlay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGooglePlusG;
 impl IconShape for FaGooglePlusG {
     fn view_box(&self) -> &str {
@@ -4997,34 +5023,7 @@ impl IconShape for FaGooglePlusG {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaGooglePlusSquare;
-impl IconShape for FaGooglePlusSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM164 356c-55.3 0-100-44.7-100-100s44.7-100 100-100c27 0 49.5 9.8 67 26.2l-27.1 26.1c-7.4-7.1-20.3-15.4-39.8-15.4-34.1 0-61.9 28.2-61.9 63.2 0 34.9 27.8 63.2 61.9 63.2 39.6 0 54.4-28.5 56.8-43.1H164v-34.4h94.4c1 5 1.6 10.1 1.6 16.6 0 57.1-38.3 97.6-96 97.6zm220-81.8h-29v29h-29.2v-29h-29V245h29v-29H355v29h29v29.2z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGooglePlus;
 impl IconShape for FaGooglePlus {
     fn view_box(&self) -> &str {
@@ -5051,7 +5050,34 @@ impl IconShape for FaGooglePlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaGoogleScholar;
+impl IconShape for FaGoogleScholar {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M390.9 298.5c0 0 0 .1 .1 .1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64h0c1.7-3.6 3.6-7.2 5.6-10.7c4.4-7.6 9.4-14.7 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0 512 202.7l-94.7 77.1z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGoogleWallet;
 impl IconShape for FaGoogleWallet {
     fn view_box(&self) -> &str {
@@ -5078,7 +5104,7 @@ impl IconShape for FaGoogleWallet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGoogle;
 impl IconShape for FaGoogle {
     fn view_box(&self) -> &str {
@@ -5105,7 +5131,7 @@ impl IconShape for FaGoogle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGratipay;
 impl IconShape for FaGratipay {
     fn view_box(&self) -> &str {
@@ -5132,7 +5158,7 @@ impl IconShape for FaGratipay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGrav;
 impl IconShape for FaGrav {
     fn view_box(&self) -> &str {
@@ -5159,7 +5185,7 @@ impl IconShape for FaGrav {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGripfire;
 impl IconShape for FaGripfire {
     fn view_box(&self) -> &str {
@@ -5186,7 +5212,7 @@ impl IconShape for FaGripfire {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGrunt;
 impl IconShape for FaGrunt {
     fn view_box(&self) -> &str {
@@ -5213,7 +5239,7 @@ impl IconShape for FaGrunt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGuilded;
 impl IconShape for FaGuilded {
     fn view_box(&self) -> &str {
@@ -5240,7 +5266,7 @@ impl IconShape for FaGuilded {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaGulp;
 impl IconShape for FaGulp {
     fn view_box(&self) -> &str {
@@ -5267,34 +5293,7 @@ impl IconShape for FaGulp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaHackerNewsSquare;
-impl IconShape for FaHackerNewsSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM21.2 229.2H21c.1-.1.2-.3.3-.4 0 .1 0 .3-.1.4zm218 53.9V384h-31.4V281.3L128 128h37.3c52.5 98.3 49.2 101.2 59.3 125.6 12.3-27 5.8-24.4 60.6-125.6H320l-80.8 155.1z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaHackerNews;
 impl IconShape for FaHackerNews {
     fn view_box(&self) -> &str {
@@ -5321,7 +5320,7 @@ impl IconShape for FaHackerNews {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaHackerrank;
 impl IconShape for FaHackerrank {
     fn view_box(&self) -> &str {
@@ -5348,7 +5347,7 @@ impl IconShape for FaHackerrank {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaHashnode;
 impl IconShape for FaHashnode {
     fn view_box(&self) -> &str {
@@ -5375,7 +5374,7 @@ impl IconShape for FaHashnode {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaHips;
 impl IconShape for FaHips {
     fn view_box(&self) -> &str {
@@ -5402,7 +5401,7 @@ impl IconShape for FaHips {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaHireAHelper;
 impl IconShape for FaHireAHelper {
     fn view_box(&self) -> &str {
@@ -5429,7 +5428,7 @@ impl IconShape for FaHireAHelper {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaHive;
 impl IconShape for FaHive {
     fn view_box(&self) -> &str {
@@ -5456,7 +5455,7 @@ impl IconShape for FaHive {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaHooli;
 impl IconShape for FaHooli {
     fn view_box(&self) -> &str {
@@ -5483,7 +5482,7 @@ impl IconShape for FaHooli {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaHornbill;
 impl IconShape for FaHornbill {
     fn view_box(&self) -> &str {
@@ -5510,11 +5509,11 @@ impl IconShape for FaHornbill {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaHotjar;
 impl IconShape for FaHotjar {
     fn view_box(&self) -> &str {
-        "0 0 448 512"
+        "0 0 512 512"
     }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
@@ -5531,13 +5530,13 @@ impl IconShape for FaHotjar {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M414.9 161.5C340.2 29 121.1 0 121.1 0S222.2 110.4 93 197.7C11.3 252.8-21 324.4 14 402.6c26.8 59.9 83.5 84.3 144.6 93.4-29.2-55.1-6.6-122.4-4.1-129.6 57.1 86.4 165 0 110.8-93.9 71 15.4 81.6 138.6 27.1 215.5 80.5-25.3 134.1-88.9 148.8-145.6 15.5-59.3 3.7-127.9-26.3-180.9z",
+                d: "M361.5 0c0 131.6-80.7 176.8-140.2 209.4c-.6 .3-1.1 .6-1.6 .9c-53.8 30.2-88.7 49.8-89.6 122H32C32 200.8 112.7 155.6 172.2 123C227 93.2 262.5 73 262.5 0h98.9zM301 302.6c54.8-29.8 90.3-50 90.3-123h98c0 131.6-80.7 176.7-140.2 209.4c-54.8 29.8-90.3 50-90.3 123h-98c0-131.6 80.7-176.8 140.2-209.4z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaHouzz;
 impl IconShape for FaHouzz {
     fn view_box(&self) -> &str {
@@ -5564,7 +5563,7 @@ impl IconShape for FaHouzz {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaHtml5;
 impl IconShape for FaHtml5 {
     fn view_box(&self) -> &str {
@@ -5591,7 +5590,7 @@ impl IconShape for FaHtml5 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaHubspot;
 impl IconShape for FaHubspot {
     fn view_box(&self) -> &str {
@@ -5618,7 +5617,7 @@ impl IconShape for FaHubspot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaIdeal;
 impl IconShape for FaIdeal {
     fn view_box(&self) -> &str {
@@ -5645,7 +5644,7 @@ impl IconShape for FaIdeal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaImdb;
 impl IconShape for FaImdb {
     fn view_box(&self) -> &str {
@@ -5666,40 +5665,13 @@ impl IconShape for FaImdb {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM21.3 229.2H21c.1-.1.2-.3.3-.4zM97 319.8H64V192h33zm113.2 0h-28.7v-86.4l-11.6 86.4h-20.6l-12.2-84.5v84.5h-29V192h42.8c3.3 19.8 6 39.9 8.7 59.9l7.6-59.9h43zm11.4 0V192h24.6c17.6 0 44.7-1.6 49 20.9 1.7 7.6 1.4 16.3 1.4 24.4 0 88.5 11.1 82.6-75 82.5zm160.9-29.2c0 15.7-2.4 30.9-22.2 30.9-9 0-15.2-3-20.9-9.8l-1.9 8.1h-29.8V192h31.7v41.7c6-6.5 12-9.2 20.9-9.2 21.4 0 22.2 12.8 22.2 30.1zM265 229.9c0-9.7 1.6-16-10.3-16v83.7c12.2.3 10.3-8.7 10.3-18.4zm85.5 26.1c0-5.4 1.1-12.7-6.2-12.7-6 0-4.9 8.9-4.9 12.7 0 .6-1.1 39.6 1.1 44.7.8 1.6 2.2 2.4 3.8 2.4 7.8 0 6.2-9 6.2-14.4z",
+                d: "M89.5 323.6H53.93V186.2H89.5V323.6zM156.1 250.5L165.2 186.2H211.5V323.6H180.5V230.9L167.1 323.6H145.8L132.8 232.9L132.7 323.6H101.5V186.2H147.6C148.1 194.5 150.4 204.3 151.9 215.6L156.1 250.5zM223.7 323.6V186.2H250.3C267.3 186.2 277.3 187.1 283.3 188.6C289.4 190.3 294 192.8 297.2 196.5C300.3 199.8 302.3 203.1 303 208.5C303.9 212.9 304.4 221.6 304.4 234.7V282.9C304.4 295.2 303.7 303.4 302.5 307.6C301.4 311.7 299.4 315 296.5 317.3C293.7 319.7 290.1 321.4 285.8 322.3C281.6 323.1 275.2 323.6 266.7 323.6H223.7zM259.2 209.7V299.1C264.3 299.1 267.5 298.1 268.6 296.8C269.7 294.8 270.4 289.2 270.4 280.1V226.8C270.4 220.6 270.3 216.6 269.7 214.8C269.4 213 268.5 211.8 267.1 210.1C265.7 210.1 263 209.7 259.2 209.7V209.7zM316.5 323.6V186.2H350.6V230.1C353.5 227.7 356.7 225.2 360.1 223.5C363.7 222 368.9 221.1 372.9 221.1C377.7 221.1 381.8 221.9 385.2 223.3C388.6 224.8 391.2 226.8 393.2 229.5C394.9 232.1 395.9 234.8 396.3 237.3C396.7 239.9 396.1 245.3 396.1 253.5V292.1C396.1 300.3 396.3 306.4 395.3 310.5C394.2 314.5 391.5 318.1 387.5 320.1C383.4 324 378.6 325.4 372.9 325.4C368.9 325.4 363.7 324.5 360.2 322.9C356.7 321.1 353.5 318.4 350.6 314.9L348.5 323.6L316.5 323.6zM361.6 302.9C362.3 301.1 362.6 296.9 362.6 290.4V255C362.6 249.4 362.3 245.5 361.5 243.8C360.8 241.9 357.8 241.1 355.7 241.1C353.7 241.1 352.3 241.9 351.6 243.4C351 244.9 350.6 248.8 350.6 255V291.4C350.6 297.5 351 301.4 351.8 303C352.4 304.7 353.9 305.5 355.9 305.5C358.1 305.5 360.1 304.7 361.6 302.9L361.6 302.9zM418.4 32.04C434.1 33.27 447.1 47.28 447.1 63.92V448.1C447.1 464.5 435.2 478.5 418.9 479.1C418.6 479.1 418.4 480 418.1 480H29.88C29.6 480 29.32 479.1 29.04 479.9C13.31 478.5 1.093 466.1 0 449.7L.0186 61.78C1.081 45.88 13.82 33.09 30.26 31.1H417.7C417.9 31.1 418.2 32.01 418.4 32.04L418.4 32.04zM30.27 41.26C19 42.01 10.02 51.01 9.257 62.4V449.7C9.63 455.1 11.91 460.2 15.7 464C19.48 467.9 24.51 470.3 29.89 470.7H418.1C429.6 469.7 438.7 459.1 438.7 448.1V63.91C438.7 58.17 436.6 52.65 432.7 48.45C428.8 44.24 423.4 41.67 417.7 41.26L30.27 41.26z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaInstagramSquare;
-impl IconShape for FaInstagramSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaInstagram;
 impl IconShape for FaInstagram {
     fn view_box(&self) -> &str {
@@ -5726,7 +5698,7 @@ impl IconShape for FaInstagram {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaInstalod;
 impl IconShape for FaInstalod {
     fn view_box(&self) -> &str {
@@ -5753,7 +5725,7 @@ impl IconShape for FaInstalod {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaIntercom;
 impl IconShape for FaIntercom {
     fn view_box(&self) -> &str {
@@ -5780,7 +5752,7 @@ impl IconShape for FaIntercom {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaInternetExplorer;
 impl IconShape for FaInternetExplorer {
     fn view_box(&self) -> &str {
@@ -5807,7 +5779,7 @@ impl IconShape for FaInternetExplorer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaInvision;
 impl IconShape for FaInvision {
     fn view_box(&self) -> &str {
@@ -5834,7 +5806,7 @@ impl IconShape for FaInvision {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaIoxhost;
 impl IconShape for FaIoxhost {
     fn view_box(&self) -> &str {
@@ -5861,7 +5833,7 @@ impl IconShape for FaIoxhost {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaItchIo;
 impl IconShape for FaItchIo {
     fn view_box(&self) -> &str {
@@ -5888,7 +5860,7 @@ impl IconShape for FaItchIo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaItunesNote;
 impl IconShape for FaItunesNote {
     fn view_box(&self) -> &str {
@@ -5915,7 +5887,7 @@ impl IconShape for FaItunesNote {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaItunes;
 impl IconShape for FaItunes {
     fn view_box(&self) -> &str {
@@ -5942,7 +5914,7 @@ impl IconShape for FaItunes {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaJava;
 impl IconShape for FaJava {
     fn view_box(&self) -> &str {
@@ -5969,7 +5941,7 @@ impl IconShape for FaJava {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaJediOrder;
 impl IconShape for FaJediOrder {
     fn view_box(&self) -> &str {
@@ -5996,7 +5968,7 @@ impl IconShape for FaJediOrder {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaJenkins;
 impl IconShape for FaJenkins {
     fn view_box(&self) -> &str {
@@ -6023,7 +5995,7 @@ impl IconShape for FaJenkins {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaJira;
 impl IconShape for FaJira {
     fn view_box(&self) -> &str {
@@ -6050,7 +6022,7 @@ impl IconShape for FaJira {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaJoget;
 impl IconShape for FaJoget {
     fn view_box(&self) -> &str {
@@ -6077,7 +6049,7 @@ impl IconShape for FaJoget {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaJoomla;
 impl IconShape for FaJoomla {
     fn view_box(&self) -> &str {
@@ -6104,34 +6076,7 @@ impl IconShape for FaJoomla {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaJsSquare;
-impl IconShape for FaJsSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM243.8 381.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaJs;
 impl IconShape for FaJs {
     fn view_box(&self) -> &str {
@@ -6158,7 +6103,7 @@ impl IconShape for FaJs {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaJsfiddle;
 impl IconShape for FaJsfiddle {
     fn view_box(&self) -> &str {
@@ -6185,7 +6130,34 @@ impl IconShape for FaJsfiddle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaJxl;
+impl IconShape for FaJxl {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M412.2 32H35.8C16 32 0 48 0 67.8V444.2C0 464 16 480 35.8 480H412.2c19.8 0 35.8-16 35.8-35.8V67.8C448 48 432 32 412.2 32zM378.6 333.7c0 40.2-32.6 72.8-72.8 72.8H70.2c0-40.2 32.6-72.8 72.8-72.8H378.6zm0-113.9c0 40.2-32.6 72.8-72.8 72.8H70.2c0-40.2 32.6-72.8 72.8-72.8H378.6zm0-113.9c0 40.2-32.6 72.8-72.8 72.8H70.2c0-40.2 32.6-72.8 72.8-72.8H378.6z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaKaggle;
 impl IconShape for FaKaggle {
     fn view_box(&self) -> &str {
@@ -6212,7 +6184,7 @@ impl IconShape for FaKaggle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaKeybase;
 impl IconShape for FaKeybase {
     fn view_box(&self) -> &str {
@@ -6239,7 +6211,7 @@ impl IconShape for FaKeybase {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaKeycdn;
 impl IconShape for FaKeycdn {
     fn view_box(&self) -> &str {
@@ -6266,11 +6238,11 @@ impl IconShape for FaKeycdn {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaKickstarterK;
 impl IconShape for FaKickstarterK {
     fn view_box(&self) -> &str {
-        "0 0 384 512"
+        "0 0 448 512"
     }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
@@ -6287,13 +6259,13 @@ impl IconShape for FaKickstarterK {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M147.3 114.4c0-56.2-32.5-82.4-73.4-82.4C26.2 32 0 68.2 0 113.4v283c0 47.3 25.3 83.4 74.9 83.4 39.8 0 72.4-25.6 72.4-83.4v-76.5l112.1 138.3c22.7 27.2 72.1 30.7 103.2 0 27-27.6 27.3-67.4 7.4-92.2l-90.8-114.8 74.9-107.4c17.4-24.7 17.5-63.1-10.4-89.8-30.3-29-82.4-31.6-113.6 12.8L147.3 185v-70.6z",
+                d: "M356.6 256.2l40.8-40.5c42.2-41.9 42.2-110.3 0-152.1s-111-41.9-153.2 0L229.3 78.4C209.6 50.3 177.1 32 140.2 32C80.5 32 32 80.2 32 139.5V372.5C32 431.9 80.5 480 140.2 480c37.1 0 69.3-18.3 89-46.4l14.9 14.7c42.2 41.9 111 41.9 153.2 0s42.2-110.3 0-152.1l-40.8-40z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaKickstarter;
 impl IconShape for FaKickstarter {
     fn view_box(&self) -> &str {
@@ -6314,13 +6286,13 @@ impl IconShape for FaKickstarter {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M400 480H48c-26.4 0-48-21.6-48-48V80c0-26.4 21.6-48 48-48h352c26.4 0 48 21.6 48 48v352c0 26.4-21.6 48-48 48zM199.6 178.5c0-30.7-17.6-45.1-39.7-45.1-25.8 0-40 19.8-40 44.5v154.8c0 25.8 13.7 45.6 40.5 45.6 21.5 0 39.2-14 39.2-45.6v-41.8l60.6 75.7c12.3 14.9 39 16.8 55.8 0 14.6-15.1 14.8-36.8 4-50.4l-49.1-62.8 40.5-58.7c9.4-13.5 9.5-34.5-5.6-49.1-16.4-15.9-44.6-17.3-61.4 7l-44.8 64.7v-38.8z",
+                d: "M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM320.8 233l-23.3 23.1L320.8 279c24.1 23.9 24.1 63 0 86.9s-63.4 23.9-87.6 0l-8.5-8.4c-11.3 16-29.7 26.5-50.9 26.5c-34.1 0-61.9-27.5-61.9-61.4l0-133.2c0-33.8 27.7-61.4 61.9-61.4c21.1 0 39.6 10.5 50.9 26.5l8.5-8.4c24.1-23.9 63.4-23.9 87.6 0s24.1 63 0 86.9z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaKorvue;
 impl IconShape for FaKorvue {
     fn view_box(&self) -> &str {
@@ -6347,7 +6319,7 @@ impl IconShape for FaKorvue {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaLaravel;
 impl IconShape for FaLaravel {
     fn view_box(&self) -> &str {
@@ -6374,34 +6346,7 @@ impl IconShape for FaLaravel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaLastfmSquare;
-impl IconShape for FaLastfmSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-92.2 312.9c-63.4 0-85.4-28.6-97.1-64.1-16.3-51-21.5-84.3-63-84.3-22.4 0-45.1 16.1-45.1 61.2 0 35.2 18 57.2 43.3 57.2 28.6 0 47.6-21.3 47.6-21.3l11.7 31.9s-19.8 19.4-61.2 19.4c-51.3 0-79.9-30.1-79.9-85.8 0-57.9 28.6-92 82.5-92 73.5 0 80.8 41.4 100.8 101.9 8.8 26.8 24.2 46.2 61.2 46.2 24.9 0 38.1-5.5 38.1-19.1 0-19.9-21.8-22-49.9-28.6-30.4-7.3-42.5-23.1-42.5-48 0-40 32.3-52.4 65.2-52.4 37.4 0 60.1 13.6 63 46.6l-36.7 4.4c-1.5-15.8-11-22.4-28.6-22.4-16.1 0-26 7.3-26 19.8 0 11 4.8 17.6 20.9 21.3 32.7 7.1 71.8 12 71.8 57.5.1 36.7-30.7 50.6-76.1 50.6z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaLastfm;
 impl IconShape for FaLastfm {
     fn view_box(&self) -> &str {
@@ -6428,7 +6373,7 @@ impl IconShape for FaLastfm {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaLeanpub;
 impl IconShape for FaLeanpub {
     fn view_box(&self) -> &str {
@@ -6455,7 +6400,7 @@ impl IconShape for FaLeanpub {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaLess;
 impl IconShape for FaLess {
     fn view_box(&self) -> &str {
@@ -6482,11 +6427,11 @@ impl IconShape for FaLess {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaLine;
-impl IconShape for FaLine {
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaLetterboxd;
+impl IconShape for FaLetterboxd {
     fn view_box(&self) -> &str {
-        "0 0 448 512"
+        "0 0 640 512"
     }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
@@ -6503,13 +6448,40 @@ impl IconShape for FaLine {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M272.1 204.2v71.1c0 1.8-1.4 3.2-3.2 3.2h-11.4c-1.1 0-2.1-.6-2.6-1.3l-32.6-44v42.2c0 1.8-1.4 3.2-3.2 3.2h-11.4c-1.8 0-3.2-1.4-3.2-3.2v-71.1c0-1.8 1.4-3.2 3.2-3.2H219c1 0 2.1.5 2.6 1.4l32.6 44v-42.2c0-1.8 1.4-3.2 3.2-3.2h11.4c1.8-.1 3.3 1.4 3.3 3.1zm-82-3.2h-11.4c-1.8 0-3.2 1.4-3.2 3.2v71.1c0 1.8 1.4 3.2 3.2 3.2h11.4c1.8 0 3.2-1.4 3.2-3.2v-71.1c0-1.7-1.4-3.2-3.2-3.2zm-27.5 59.6h-31.1v-56.4c0-1.8-1.4-3.2-3.2-3.2h-11.4c-1.8 0-3.2 1.4-3.2 3.2v71.1c0 .9.3 1.6.9 2.2.6.5 1.3.9 2.2.9h45.7c1.8 0 3.2-1.4 3.2-3.2v-11.4c0-1.7-1.4-3.2-3.1-3.2zM332.1 201h-45.7c-1.7 0-3.2 1.4-3.2 3.2v71.1c0 1.7 1.4 3.2 3.2 3.2h45.7c1.8 0 3.2-1.4 3.2-3.2v-11.4c0-1.8-1.4-3.2-3.2-3.2H301v-12h31.1c1.8 0 3.2-1.4 3.2-3.2V234c0-1.8-1.4-3.2-3.2-3.2H301v-12h31.1c1.8 0 3.2-1.4 3.2-3.2v-11.4c-.1-1.7-1.5-3.2-3.2-3.2zM448 113.7V399c-.1 44.8-36.8 81.1-81.7 81H81c-44.8-.1-81.1-36.9-81-81.7V113c.1-44.8 36.9-81.1 81.7-81H367c44.8.1 81.1 36.8 81 81.7zm-61.6 122.6c0-73-73.2-132.4-163.1-132.4-89.9 0-163.1 59.4-163.1 132.4 0 65.4 58 120.2 136.4 130.6 19.1 4.1 16.9 11.1 12.6 36.8-.7 4.1-3.3 16.1 14.1 8.8 17.4-7.3 93.9-55.3 128.2-94.7 23.6-26 34.9-52.3 34.9-81.5z",
+                d: "M521.3 128C586.9 128 640 181.1 640 246.6s-53.1 118.6-118.7 118.6c-42.5 0-79.7-22.3-100.7-55.8c11.4-18.2 18-39.7 18-62.8s-6.6-44.6-18-62.8l0 0 .8-1.2c20.8-32.3 56.8-53.9 97.9-54.6l2 0zM320 128c42.5 0 79.7 22.3 100.7 55.8c-11.4 18.2-18 39.7-18 62.8s6.6 44.6 18 62.8l0 0-.8 1.2c-20.8 32.3-56.8 53.9-97.9 54.6l-2 0c-42.5 0-79.7-22.3-100.7-55.8c11.4-18.2 18-39.7 18-62.8s-6.6-44.6-18-62.8l0 0 .8-1.2c20.8-32.3 56.8-53.9 97.9-54.6l2 0zm-201.3 0c42.5 0 79.7 22.3 100.7 55.8c-11.4 18.2-18 39.7-18 62.8s6.6 44.6 18 62.8l0 0-.8 1.2c-20.8 32.3-56.8 53.9-97.9 54.6l-2 0C53.1 365.1 0 312.1 0 246.6S53.1 128 118.7 128z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaLine;
+impl IconShape for FaLine {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M311 196.8v81.3c0 2.1-1.6 3.7-3.7 3.7h-13c-1.3 0-2.4-.7-3-1.5l-37.3-50.3v48.2c0 2.1-1.6 3.7-3.7 3.7h-13c-2.1 0-3.7-1.6-3.7-3.7V196.9c0-2.1 1.6-3.7 3.7-3.7h12.9c1.1 0 2.4 .6 3 1.6l37.3 50.3V196.9c0-2.1 1.6-3.7 3.7-3.7h13c2.1-.1 3.8 1.6 3.8 3.5zm-93.7-3.7h-13c-2.1 0-3.7 1.6-3.7 3.7v81.3c0 2.1 1.6 3.7 3.7 3.7h13c2.1 0 3.7-1.6 3.7-3.7V196.8c0-1.9-1.6-3.7-3.7-3.7zm-31.4 68.1H150.3V196.8c0-2.1-1.6-3.7-3.7-3.7h-13c-2.1 0-3.7 1.6-3.7 3.7v81.3c0 1 .3 1.8 1 2.5c.7 .6 1.5 1 2.5 1h52.2c2.1 0 3.7-1.6 3.7-3.7v-13c0-1.9-1.6-3.7-3.5-3.7zm193.7-68.1H327.3c-1.9 0-3.7 1.6-3.7 3.7v81.3c0 1.9 1.6 3.7 3.7 3.7h52.2c2.1 0 3.7-1.6 3.7-3.7V265c0-2.1-1.6-3.7-3.7-3.7H344V247.7h35.5c2.1 0 3.7-1.6 3.7-3.7V230.9c0-2.1-1.6-3.7-3.7-3.7H344V213.5h35.5c2.1 0 3.7-1.6 3.7-3.7v-13c-.1-1.9-1.7-3.7-3.7-3.7zM512 93.4V419.4c-.1 51.2-42.1 92.7-93.4 92.6H92.6C41.4 511.9-.1 469.8 0 418.6V92.6C.1 41.4 42.2-.1 93.4 0H419.4c51.2 .1 92.7 42.1 92.6 93.4zM441.6 233.5c0-83.4-83.7-151.3-186.4-151.3s-186.4 67.9-186.4 151.3c0 74.7 66.3 137.4 155.9 149.3c21.8 4.7 19.3 12.7 14.4 42.1c-.8 4.7-3.8 18.4 16.1 10.1s107.3-63.2 146.5-108.2c27-29.7 39.9-59.8 39.9-93.1z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaLinkedinIn;
 impl IconShape for FaLinkedinIn {
     fn view_box(&self) -> &str {
@@ -6536,7 +6508,7 @@ impl IconShape for FaLinkedinIn {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaLinkedin;
 impl IconShape for FaLinkedin {
     fn view_box(&self) -> &str {
@@ -6563,7 +6535,7 @@ impl IconShape for FaLinkedin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaLinode;
 impl IconShape for FaLinode {
     fn view_box(&self) -> &str {
@@ -6590,7 +6562,7 @@ impl IconShape for FaLinode {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaLinux;
 impl IconShape for FaLinux {
     fn view_box(&self) -> &str {
@@ -6617,7 +6589,7 @@ impl IconShape for FaLinux {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaLyft;
 impl IconShape for FaLyft {
     fn view_box(&self) -> &str {
@@ -6644,7 +6616,7 @@ impl IconShape for FaLyft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMagento;
 impl IconShape for FaMagento {
     fn view_box(&self) -> &str {
@@ -6671,7 +6643,7 @@ impl IconShape for FaMagento {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMailchimp;
 impl IconShape for FaMailchimp {
     fn view_box(&self) -> &str {
@@ -6698,7 +6670,7 @@ impl IconShape for FaMailchimp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMandalorian;
 impl IconShape for FaMandalorian {
     fn view_box(&self) -> &str {
@@ -6725,7 +6697,7 @@ impl IconShape for FaMandalorian {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMarkdown;
 impl IconShape for FaMarkdown {
     fn view_box(&self) -> &str {
@@ -6752,7 +6724,7 @@ impl IconShape for FaMarkdown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMastodon;
 impl IconShape for FaMastodon {
     fn view_box(&self) -> &str {
@@ -6779,7 +6751,7 @@ impl IconShape for FaMastodon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMaxcdn;
 impl IconShape for FaMaxcdn {
     fn view_box(&self) -> &str {
@@ -6806,7 +6778,7 @@ impl IconShape for FaMaxcdn {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMdb;
 impl IconShape for FaMdb {
     fn view_box(&self) -> &str {
@@ -6833,7 +6805,7 @@ impl IconShape for FaMdb {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMedapps;
 impl IconShape for FaMedapps {
     fn view_box(&self) -> &str {
@@ -6860,7 +6832,7 @@ impl IconShape for FaMedapps {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMedium;
 impl IconShape for FaMedium {
     fn view_box(&self) -> &str {
@@ -6887,7 +6859,7 @@ impl IconShape for FaMedium {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMedrt;
 impl IconShape for FaMedrt {
     fn view_box(&self) -> &str {
@@ -6914,7 +6886,7 @@ impl IconShape for FaMedrt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMeetup;
 impl IconShape for FaMeetup {
     fn view_box(&self) -> &str {
@@ -6941,7 +6913,7 @@ impl IconShape for FaMeetup {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMegaport;
 impl IconShape for FaMegaport {
     fn view_box(&self) -> &str {
@@ -6968,7 +6940,7 @@ impl IconShape for FaMegaport {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMendeley;
 impl IconShape for FaMendeley {
     fn view_box(&self) -> &str {
@@ -6995,7 +6967,34 @@ impl IconShape for FaMendeley {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaMeta;
+impl IconShape for FaMeta {
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M640 317.9C640 409.2 600.6 466.4 529.7 466.4C467.1 466.4 433.9 431.8 372.8 329.8L341.4 277.2C333.1 264.7 326.9 253 320.2 242.2C300.1 276 273.1 325.2 273.1 325.2C206.1 441.8 168.5 466.4 116.2 466.4C43.42 466.4 0 409.1 0 320.5C0 177.5 79.78 42.4 183.9 42.4C234.1 42.4 277.7 67.08 328.7 131.9C365.8 81.8 406.8 42.4 459.3 42.4C558.4 42.4 640 168.1 640 317.9H640zM287.4 192.2C244.5 130.1 216.5 111.7 183 111.7C121.1 111.7 69.22 217.8 69.22 321.7C69.22 370.2 87.7 397.4 118.8 397.4C149 397.4 167.8 378.4 222 293.6C222 293.6 246.7 254.5 287.4 192.2V192.2zM531.2 397.4C563.4 397.4 578.1 369.9 578.1 322.5C578.1 198.3 523.8 97.08 454.9 97.08C421.7 97.08 393.8 123 360 175.1C369.4 188.9 379.1 204.1 389.3 220.5L426.8 282.9C485.5 377 500.3 397.4 531.2 397.4L531.2 397.4z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMicroblog;
 impl IconShape for FaMicroblog {
     fn view_box(&self) -> &str {
@@ -7022,7 +7021,7 @@ impl IconShape for FaMicroblog {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMicrosoft;
 impl IconShape for FaMicrosoft {
     fn view_box(&self) -> &str {
@@ -7049,7 +7048,34 @@ impl IconShape for FaMicrosoft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaMintbit;
+impl IconShape for FaMintbit {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M73.2 512V438.9H365.7V365.7h73.2V219.4H512V0H292.6V73.1H146.3v73.2H73.2V438.9H0V512H73.2zm73.1-219.4h73.2v73.1H146.3V292.6zm73.2-73.1h73.1v73.1H219.4V219.4zm73.1 0V146.3h73.2v73.1H292.6zM365.7 73.1h73.2v73.2H365.7V73.1z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMix;
 impl IconShape for FaMix {
     fn view_box(&self) -> &str {
@@ -7076,7 +7102,7 @@ impl IconShape for FaMix {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMixcloud;
 impl IconShape for FaMixcloud {
     fn view_box(&self) -> &str {
@@ -7097,13 +7123,13 @@ impl IconShape for FaMixcloud {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M424.43 219.729C416.124 134.727 344.135 68 256.919 68c-72.266 0-136.224 46.516-159.205 114.074-54.545 8.029-96.63 54.822-96.63 111.582 0 62.298 50.668 112.966 113.243 112.966h289.614c52.329 0 94.969-42.362 94.969-94.693 0-45.131-32.118-83.063-74.48-92.2zm-20.489 144.53H114.327c-39.04 0-70.881-31.564-70.881-70.604s31.841-70.604 70.881-70.604c18.827 0 36.548 7.475 49.838 20.766 19.963 19.963 50.133-10.227 30.18-30.18-14.675-14.398-32.672-24.365-52.053-29.349 19.935-44.3 64.79-73.926 114.628-73.926 69.496 0 125.979 56.483 125.979 125.702 0 13.568-2.215 26.857-6.369 39.594-8.943 27.517 32.133 38.939 40.147 13.29 2.769-8.306 4.984-16.889 6.369-25.472 19.381 7.476 33.502 26.303 33.502 48.453 0 28.795-23.535 52.33-52.607 52.33zm235.069-52.33c0 44.024-12.737 86.386-37.102 122.657-4.153 6.092-10.798 9.414-17.72 9.414-16.317 0-27.127-18.826-17.443-32.949 19.381-29.349 29.903-63.682 29.903-99.122s-10.521-69.773-29.903-98.845c-15.655-22.831 19.361-47.24 35.163-23.534 24.366 35.993 37.102 78.356 37.102 122.379zm-70.88 0c0 31.565-9.137 62.021-26.857 88.325-4.153 6.091-10.798 9.136-17.72 9.136-17.201 0-27.022-18.979-17.443-32.948 13.013-19.104 19.658-41.255 19.658-64.513 0-22.981-6.645-45.408-19.658-64.512-15.761-22.986 19.008-47.095 35.163-23.535 17.719 26.026 26.857 56.483 26.857 88.047z",
+                d: "M212.98 346.566H179.789V195.114L185.973 173.47H175.262L137.127 346.566H76.1069L37.7323 173.47H27.276L33.1913 195.114V346.566H0V165H65.6506L102.248 338.096H110.747L147.329 165H212.98L212.98 346.566ZM544.459 283.589L458.434 345.655V307.534L531.329 255.776L458.434 204.017V165.896L544.459 228.231H553.721L640 165.896V204.017L566.866 255.776L640 307.549V345.655L553.721 283.589H544.459ZM430.157 272.311H248.113V239.255H430.157V272.311Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMixer;
 impl IconShape for FaMixer {
     fn view_box(&self) -> &str {
@@ -7130,7 +7156,7 @@ impl IconShape for FaMixer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMizuni;
 impl IconShape for FaMizuni {
     fn view_box(&self) -> &str {
@@ -7157,7 +7183,7 @@ impl IconShape for FaMizuni {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaModx;
 impl IconShape for FaModx {
     fn view_box(&self) -> &str {
@@ -7184,7 +7210,7 @@ impl IconShape for FaModx {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaMonero;
 impl IconShape for FaMonero {
     fn view_box(&self) -> &str {
@@ -7211,7 +7237,7 @@ impl IconShape for FaMonero {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaNapster;
 impl IconShape for FaNapster {
     fn view_box(&self) -> &str {
@@ -7238,7 +7264,7 @@ impl IconShape for FaNapster {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaNeos;
 impl IconShape for FaNeos {
     fn view_box(&self) -> &str {
@@ -7265,7 +7291,7 @@ impl IconShape for FaNeos {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaNfcDirectional;
 impl IconShape for FaNfcDirectional {
     fn view_box(&self) -> &str {
@@ -7292,7 +7318,7 @@ impl IconShape for FaNfcDirectional {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaNfcSymbol;
 impl IconShape for FaNfcSymbol {
     fn view_box(&self) -> &str {
@@ -7319,7 +7345,7 @@ impl IconShape for FaNfcSymbol {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaNimblr;
 impl IconShape for FaNimblr {
     fn view_box(&self) -> &str {
@@ -7346,7 +7372,7 @@ impl IconShape for FaNimblr {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaNodeJs;
 impl IconShape for FaNodeJs {
     fn view_box(&self) -> &str {
@@ -7373,7 +7399,7 @@ impl IconShape for FaNodeJs {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaNode;
 impl IconShape for FaNode {
     fn view_box(&self) -> &str {
@@ -7400,7 +7426,7 @@ impl IconShape for FaNode {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaNpm;
 impl IconShape for FaNpm {
     fn view_box(&self) -> &str {
@@ -7427,7 +7453,7 @@ impl IconShape for FaNpm {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaNs8;
 impl IconShape for FaNs8 {
     fn view_box(&self) -> &str {
@@ -7454,7 +7480,7 @@ impl IconShape for FaNs8 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaNutritionix;
 impl IconShape for FaNutritionix {
     fn view_box(&self) -> &str {
@@ -7481,7 +7507,7 @@ impl IconShape for FaNutritionix {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaOctopusDeploy;
 impl IconShape for FaOctopusDeploy {
     fn view_box(&self) -> &str {
@@ -7508,34 +7534,7 @@ impl IconShape for FaOctopusDeploy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaOdnoklassnikiSquare;
-impl IconShape for FaOdnoklassnikiSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M184.2 177.1c0-22.1 17.9-40 39.8-40s39.8 17.9 39.8 40c0 22-17.9 39.8-39.8 39.8s-39.8-17.9-39.8-39.8zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-305.1 97.1c0 44.6 36.4 80.9 81.1 80.9s81.1-36.2 81.1-80.9c0-44.8-36.4-81.1-81.1-81.1s-81.1 36.2-81.1 81.1zm174.5 90.7c-4.6-9.1-17.3-16.8-34.1-3.6 0 0-22.7 18-59.3 18s-59.3-18-59.3-18c-16.8-13.2-29.5-5.5-34.1 3.6-7.9 16.1 1.1 23.7 21.4 37 17.3 11.1 41.2 15.2 56.6 16.8l-12.9 12.9c-18.2 18-35.5 35.5-47.7 47.7-17.6 17.6 10.7 45.8 28.4 28.6l47.7-47.9c18.2 18.2 35.7 35.7 47.7 47.9 17.6 17.2 46-10.7 28.6-28.6l-47.7-47.7-13-12.9c15.5-1.6 39.1-5.9 56.2-16.8 20.4-13.3 29.3-21 21.5-37z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaOdnoklassniki;
 impl IconShape for FaOdnoklassniki {
     fn view_box(&self) -> &str {
@@ -7562,7 +7561,34 @@ impl IconShape for FaOdnoklassniki {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaOdysee;
+impl IconShape for FaOdysee {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M406.7 463c-42.3 30.8-94.4 49-150.7 49C144.9 512 50.3 441.2 14.9 342.2c2.4 1.7 5.9 3.6 7.9 4.4c16.3 7.4 40.1-5.4 62.9-28.7c6.9-6.9 14.4-12.4 22.8-17.3c18.3-11.9 37.6-20.8 58.4-27.2c0 0 22.3 34.2 43.1 74.8s-22.3 54-27.2 54c-.3 0-.8 0-1.5-.1c-11-.5-70-3-56 51.1c14.9 57.4 97.5 36.6 139.6 8.9s31.7-118.3 31.7-118.3c41.1-6.4 54 37.1 57.9 59.4c.8 4.6 1.1 9.9 1.4 15.5c1.1 21.2 2.3 45.6 35.3 46.4c5.3 0 10.6-.8 15.5-2zm-95.3-23.7c-2-.5-3.5-2.5-3-5c1-2.5 3-3.5 5-3s3.5 3 3 5s-2.5 3.5-5 3zm-207-95.6c1.5-.5 3.5 1 4 3c0 2-1 4-3 4c-1.5 .5-3.5-1-4-3c-.5-1.5 1-3.5 3-4zM451.8 421C489.3 376.4 512 318.8 512 256c0-67.5-26.1-128.9-68.8-174.7c-.1 23.5-6.1 48.2-16.8 69.2c-11.9 20.3-49 58.9-69.8 78.7c-.7 .3-1.1 .9-1.5 1.4c-.2 .2-.3 .4-.5 .6c-5 6.9-4 16.8 3 21.8c21.3 15.8 56.4 45.6 59.4 72.8c3.5 34.9 27.9 75.6 34.2 86.2l0 0c.8 1.3 1.3 2.1 1.4 2.4c0 2.2-.4 4.3-.8 6.5zM390.7 251c-.5 3 1 5.9 4 6.4s5.9-1 6.4-4s-1-5.9-4-6.4c-3-1-5.9 1-6.4 4zm61.4-60.9l-11.4 5.4-3 12.9-5.4-11.4-12.9-3 11.4-5.4 3-12.9 5.4 11.4 12.9 3zM395.5 41.3c-16.2 8.2-22.1 32.8-29 61.4l0 0c-.3 1.4-.7 2.8-1 4.2c-9.5 38.5-30.6 37.6-41.7 37.2c-1.1 0-2-.1-2.9-.1c-5.1 0-6-4-8.9-17.1c-2.6-12.1-6.9-32-17.9-63.6C271.4-2.5 211.4 13.9 165.9 41.1C110.6 74.2 131.5 143 146.1 190.5c.7 2.2 1.4 4.4 2 6.6c-4 4-13.8 7.5-26 11.9c-12.1 4.3-26.6 9.5-40.3 16.9C47.9 243.9 11.5 274.9 2 288.5C.7 277.8 0 267 0 256C0 114.6 114.6 0 256 0c51.4 0 99.4 15.2 139.5 41.3zM58.9 189.6c-1.5-2-4.5-3-6.4-1.5s-3 4.5-1.5 6.4s4.5 3 6.4 1.5c2.5-1.5 3-4.5 1.5-6.4zM327.3 64.9c2-1.5 5-.5 6.4 1.5c1.5 2.5 1 5.4-1.5 6.4c-2 1.5-5 .5-6.4-1.5s-.5-5 1.5-6.4zM95.1 105c-.5 1.5 .5 3 2 3c1.5 .5 3-.5 3-2c.5-1.5-.5-3-2-3s-3 .5-3 2zm84.7-.5c-3.5-43.1 37.1-54 37.1-54c44.1-15.4 56 5.9 66.4 37.6s3 42.6-38.6 58.9s-61.9-4.5-64.9-42.6zm89.6 14.9h1c2.5 0 5-2 5-5c2-6.9 1-14.4-2-20.8c-1.5-2-4-3.5-6.4-2.5c-3 1-4.5 4-3.5 6.9c2 4.5 3 9.9 1.5 14.9c-.5 3 1.5 5.9 4.5 6.4zm-9.9-41.6c-2 0-4-1-5-3s-2-3.5-3-5c-2-2-2-5.4 0-7.4s5.4-2 7.4 0c2 2.5 3.5 5 5 7.4s.5 5.9-2.5 7.4c-.6 0-1 .2-1.3 .3c-.2 .1-.4 .2-.6 .2z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaOldRepublic;
 impl IconShape for FaOldRepublic {
     fn view_box(&self) -> &str {
@@ -7589,7 +7615,7 @@ impl IconShape for FaOldRepublic {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaOpencart;
 impl IconShape for FaOpencart {
     fn view_box(&self) -> &str {
@@ -7616,7 +7642,7 @@ impl IconShape for FaOpencart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaOpenid;
 impl IconShape for FaOpenid {
     fn view_box(&self) -> &str {
@@ -7643,7 +7669,34 @@ impl IconShape for FaOpenid {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaOpensuse;
+impl IconShape for FaOpensuse {
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M471.1 102.7s-.3 18.3-.3 20.3c-9.1-3-74.4-24.1-135.7-26.3c-51.9-1.8-122.8-4.3-223 57.3c-19.4 12.4-73.9 46.1-99.6 109.7C7 277-.1 307 7 335.1c3.3 12.8 8.9 24.9 16.5 35.7c17.4 25 46.6 41.6 78.1 44.4c44.4 3.9 78.1-16 90-53.3c8.2-25.8 0-63.6-31.5-82.9c-25.6-15.7-53.3-12.1-69.2-1.6c-13.9 9.2-21.8 23.5-21.6 39.2c.3 27.8 24.3 42.6 41.5 42.6c5.4 0 10.7-.9 15.8-2.7c6.5-1.8 13.3-6.5 13.3-14.9c0-12.1-11.6-14.8-16.8-13.9c-2.9 .5-4.5 2-11.8 2.4c-2-.2-12-3.1-12-14V316c.2-12.3 13.2-18 25.5-16.9c32.3 2.8 47.7 40.7 28.5 65.7C135 388.5 76.7 388 53.6 344.4c-26-49.2 12.7-111.2 87-98.4c33.2 5.7 83.6 35.5 102.4 104.3h45.9c-5.7-17.6-8.9-68.3 42.7-68.3c56.7 0 63.9 39.9 79.8 68.3H460c-12.8-18.3-21.7-38.7-18.9-55.8c5.6-33.8 39.7-18.4 82.4-17.4c66.5 .4 102.1-27 103.1-28c3.7-3.1 6.5-15.8 7-17.7c1.3-5.1-3.2-2.4-3.2-2.4c-8.7 5.2-30.5 15.2-50.9 15.6c-25.3 .5-76.2-25.4-81.6-28.2c-.3-.4 .1 1.2-11-25.5c88.4 58.3 118.3 40.5 145.2 21.7c.8-.6 4.3-2.9 3.6-5.7c-13.8-48.1-22.4-62.7-34.5-69.6c-37-21.6-125-34.7-129.2-35.3c.1-.1-.9-.3-.9 .7l0 0zm135.6 75.4a37.6 37.6 0 1 1 -75.2-2.6 37.6 37.6 0 1 1 75.2 2.6zm-36.6-27.9a26.3 26.3 0 1 0 -1.7 52.5 26.3 26.3 0 1 0 1.7-52.5zm4.3 28.8c-15.4 0-15.4-15.6 0-15.6s15.4 15.6 0 15.6v0z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaOpera;
 impl IconShape for FaOpera {
     fn view_box(&self) -> &str {
@@ -7670,7 +7723,7 @@ impl IconShape for FaOpera {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaOptinMonster;
 impl IconShape for FaOptinMonster {
     fn view_box(&self) -> &str {
@@ -7697,7 +7750,7 @@ impl IconShape for FaOptinMonster {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaOrcid;
 impl IconShape for FaOrcid {
     fn view_box(&self) -> &str {
@@ -7724,7 +7777,7 @@ impl IconShape for FaOrcid {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaOsi;
 impl IconShape for FaOsi {
     fn view_box(&self) -> &str {
@@ -7751,7 +7804,7 @@ impl IconShape for FaOsi {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPadlet;
 impl IconShape for FaPadlet {
     fn view_box(&self) -> &str {
@@ -7778,7 +7831,7 @@ impl IconShape for FaPadlet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPage4;
 impl IconShape for FaPage4 {
     fn view_box(&self) -> &str {
@@ -7805,7 +7858,7 @@ impl IconShape for FaPage4 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPagelines;
 impl IconShape for FaPagelines {
     fn view_box(&self) -> &str {
@@ -7832,7 +7885,7 @@ impl IconShape for FaPagelines {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPalfed;
 impl IconShape for FaPalfed {
     fn view_box(&self) -> &str {
@@ -7859,7 +7912,7 @@ impl IconShape for FaPalfed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPatreon;
 impl IconShape for FaPatreon {
     fn view_box(&self) -> &str {
@@ -7880,13 +7933,13 @@ impl IconShape for FaPatreon {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M512 194.8c0 101.3-82.4 183.8-183.8 183.8-101.7 0-184.4-82.4-184.4-183.8 0-101.6 82.7-184.3 184.4-184.3C429.6 10.5 512 93.2 512 194.8zM0 501.5h90v-491H0v491z",
+                d: "M489.7 153.8c-.1-65.4-51-119-110.7-138.3C304.8-8.5 207-5 136.1 28.4C50.3 68.9 23.3 157.7 22.3 246.2C21.5 319 28.7 510.6 136.9 512c80.3 1 92.3-102.5 129.5-152.3c26.4-35.5 60.5-45.5 102.4-55.9c72-17.8 121.1-74.7 121-150z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPaypal;
 impl IconShape for FaPaypal {
     fn view_box(&self) -> &str {
@@ -7913,7 +7966,7 @@ impl IconShape for FaPaypal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPerbyte;
 impl IconShape for FaPerbyte {
     fn view_box(&self) -> &str {
@@ -7940,7 +7993,7 @@ impl IconShape for FaPerbyte {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPeriscope;
 impl IconShape for FaPeriscope {
     fn view_box(&self) -> &str {
@@ -7967,7 +8020,7 @@ impl IconShape for FaPeriscope {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPhabricator;
 impl IconShape for FaPhabricator {
     fn view_box(&self) -> &str {
@@ -7994,7 +8047,7 @@ impl IconShape for FaPhabricator {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPhoenixFramework;
 impl IconShape for FaPhoenixFramework {
     fn view_box(&self) -> &str {
@@ -8021,7 +8074,7 @@ impl IconShape for FaPhoenixFramework {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPhoenixSquadron;
 impl IconShape for FaPhoenixSquadron {
     fn view_box(&self) -> &str {
@@ -8048,7 +8101,7 @@ impl IconShape for FaPhoenixSquadron {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPhp;
 impl IconShape for FaPhp {
     fn view_box(&self) -> &str {
@@ -8075,7 +8128,7 @@ impl IconShape for FaPhp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPiedPiperAlt;
 impl IconShape for FaPiedPiperAlt {
     fn view_box(&self) -> &str {
@@ -8102,7 +8155,7 @@ impl IconShape for FaPiedPiperAlt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPiedPiperHat;
 impl IconShape for FaPiedPiperHat {
     fn view_box(&self) -> &str {
@@ -8129,7 +8182,7 @@ impl IconShape for FaPiedPiperHat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPiedPiperPp;
 impl IconShape for FaPiedPiperPp {
     fn view_box(&self) -> &str {
@@ -8156,34 +8209,7 @@ impl IconShape for FaPiedPiperPp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaPiedPiperSquare;
-impl IconShape for FaPiedPiperSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M32 419L0 479.2l.8-328C.8 85.3 54 32 120 32h327.2c-93 28.9-189.9 94.2-253.9 168.6C122.7 282 82.6 338 32 419M448 32S305.2 98.8 261.6 199.1c-23.2 53.6-28.9 118.1-71 158.6-28.9 27.8-69.8 38.2-105.3 56.3-23.2 12-66.4 40.5-84.9 66h328.4c66 0 119.3-53.3 119.3-119.2-.1 0-.1-328.8-.1-328.8z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPiedPiper;
 impl IconShape for FaPiedPiper {
     fn view_box(&self) -> &str {
@@ -8204,14 +8230,13 @@ impl IconShape for FaPiedPiper {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                class: "cls-1",
                 d: "M455.93,23.2C429.23,30,387.79,51.69,341.35,90.66A206,206,0,0,0,240,64C125.13,64,32,157.12,32,272s93.13,208,208,208,208-93.13,208-208a207.25,207.25,0,0,0-58.75-144.81,155.35,155.35,0,0,0-17,27.4A176.16,176.16,0,0,1,417.1,272c0,97.66-79.44,177.11-177.09,177.11a175.81,175.81,0,0,1-87.63-23.4c82.94-107.33,150.79-37.77,184.31-226.65,5.79-32.62,28-94.26,126.23-160.18C471,33.45,465.35,20.8,455.93,23.2ZM125,406.4A176.66,176.66,0,0,1,62.9,272C62.9,174.34,142.35,94.9,240,94.9a174,174,0,0,1,76.63,17.75C250.64,174.76,189.77,265.52,125,406.4Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPinterestP;
 impl IconShape for FaPinterestP {
     fn view_box(&self) -> &str {
@@ -8238,34 +8263,7 @@ impl IconShape for FaPinterestP {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaPinterestSquare;
-impl IconShape for FaPinterestSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M448 80v352c0 26.5-21.5 48-48 48H154.4c9.8-16.4 22.4-40 27.4-59.3 3-11.5 15.3-58.4 15.3-58.4 8 15.3 31.4 28.2 56.3 28.2 74.1 0 127.4-68.1 127.4-152.7 0-81.1-66.2-141.8-151.4-141.8-106 0-162.2 71.1-162.2 148.6 0 36 19.2 80.8 49.8 95.1 4.7 2.2 7.1 1.2 8.2-3.3.8-3.4 5-20.1 6.8-27.8.6-2.5.3-4.6-1.7-7-10.1-12.3-18.3-34.9-18.3-56 0-54.2 41-106.6 110.9-106.6 60.3 0 102.6 41.1 102.6 99.9 0 66.4-33.5 112.4-77.2 112.4-24.1 0-42.1-19.9-36.4-44.4 6.9-29.2 20.3-60.7 20.3-81.8 0-53-75.5-45.7-75.5 25 0 21.7 7.3 36.5 7.3 36.5-31.4 132.8-36.1 134.5-29.6 192.6l2.2.8H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPinterest;
 impl IconShape for FaPinterest {
     fn view_box(&self) -> &str {
@@ -8292,7 +8290,7 @@ impl IconShape for FaPinterest {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPix;
 impl IconShape for FaPix {
     fn view_box(&self) -> &str {
@@ -8319,7 +8317,34 @@ impl IconShape for FaPix {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaPixiv;
+impl IconShape for FaPixiv {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm171.5 84c41 0 76.3 12.9 101.4 35.2l0 0c25.2 22.2 39.8 54.1 39.8 88.8c.1 35.3-16.6 66.3-42.4 87c-25.9 20.8-60.6 32.4-98.8 32.4c-43.5 0-83.8-16.1-83.8-16.1v51.8c7.4 2.2 19.7 7 11.9 14.8H104.8c-7.7-7.8 3.6-12.4 12.1-14.8V175.5C97.1 190.9 87 204.3 81.8 214.2c6 19.4-5.3 18.5-5.3 18.5L56 199.7s72.7-83.7 179.5-83.7zm-3.6 222.9c30 0 56-11.3 73.9-29.2c17.9-18.1 27.9-41.6 28-70.2c-.1-29.3-9.5-54.6-26.7-73.6c-17.2-18.9-42.7-31.3-75.2-31.4c-26.7-.1-59.8 9-80.2 23.7V323.1c18.6 9.3 46.8 15.9 80.2 15.8z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPlaystation;
 impl IconShape for FaPlaystation {
     fn view_box(&self) -> &str {
@@ -8346,7 +8371,7 @@ impl IconShape for FaPlaystation {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaProductHunt;
 impl IconShape for FaProductHunt {
     fn view_box(&self) -> &str {
@@ -8373,7 +8398,7 @@ impl IconShape for FaProductHunt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPushed;
 impl IconShape for FaPushed {
     fn view_box(&self) -> &str {
@@ -8400,7 +8425,7 @@ impl IconShape for FaPushed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaPython;
 impl IconShape for FaPython {
     fn view_box(&self) -> &str {
@@ -8427,7 +8452,7 @@ impl IconShape for FaPython {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaQq;
 impl IconShape for FaQq {
     fn view_box(&self) -> &str {
@@ -8454,7 +8479,7 @@ impl IconShape for FaQq {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaQuinscape;
 impl IconShape for FaQuinscape {
     fn view_box(&self) -> &str {
@@ -8481,7 +8506,7 @@ impl IconShape for FaQuinscape {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaQuora;
 impl IconShape for FaQuora {
     fn view_box(&self) -> &str {
@@ -8508,7 +8533,7 @@ impl IconShape for FaQuora {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaRProject;
 impl IconShape for FaRProject {
     fn view_box(&self) -> &str {
@@ -8535,7 +8560,7 @@ impl IconShape for FaRProject {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaRaspberryPi;
 impl IconShape for FaRaspberryPi {
     fn view_box(&self) -> &str {
@@ -8562,7 +8587,7 @@ impl IconShape for FaRaspberryPi {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaRavelry;
 impl IconShape for FaRavelry {
     fn view_box(&self) -> &str {
@@ -8589,7 +8614,7 @@ impl IconShape for FaRavelry {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaReact;
 impl IconShape for FaReact {
     fn view_box(&self) -> &str {
@@ -8616,7 +8641,7 @@ impl IconShape for FaReact {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaReacteurope;
 impl IconShape for FaReacteurope {
     fn view_box(&self) -> &str {
@@ -8643,7 +8668,7 @@ impl IconShape for FaReacteurope {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaReadme;
 impl IconShape for FaReadme {
     fn view_box(&self) -> &str {
@@ -8670,7 +8695,7 @@ impl IconShape for FaReadme {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaRebel;
 impl IconShape for FaRebel {
     fn view_box(&self) -> &str {
@@ -8697,7 +8722,7 @@ impl IconShape for FaRebel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaRedRiver;
 impl IconShape for FaRedRiver {
     fn view_box(&self) -> &str {
@@ -8724,7 +8749,7 @@ impl IconShape for FaRedRiver {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaRedditAlien;
 impl IconShape for FaRedditAlien {
     fn view_box(&self) -> &str {
@@ -8745,40 +8770,13 @@ impl IconShape for FaRedditAlien {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M440.3 203.5c-15 0-28.2 6.2-37.9 15.9-35.7-24.7-83.8-40.6-137.1-42.3L293 52.3l88.2 19.8c0 21.6 17.6 39.2 39.2 39.2 22 0 39.7-18.1 39.7-39.7s-17.6-39.7-39.7-39.7c-15.4 0-28.7 9.3-35.3 22l-97.4-21.6c-4.9-1.3-9.7 2.2-11 7.1L246.3 177c-52.9 2.2-100.5 18.1-136.3 42.8-9.7-10.1-23.4-16.3-38.4-16.3-55.6 0-73.8 74.6-22.9 100.1-1.8 7.9-2.6 16.3-2.6 24.7 0 83.8 94.4 151.7 210.3 151.7 116.4 0 210.8-67.9 210.8-151.7 0-8.4-.9-17.2-3.1-25.1 49.9-25.6 31.5-99.7-23.8-99.7zM129.4 308.9c0-22 17.6-39.7 39.7-39.7 21.6 0 39.2 17.6 39.2 39.7 0 21.6-17.6 39.2-39.2 39.2-22 .1-39.7-17.6-39.7-39.2zm214.3 93.5c-36.4 36.4-139.1 36.4-175.5 0-4-3.5-4-9.7 0-13.7 3.5-3.5 9.7-3.5 13.2 0 27.8 28.5 120 29 149 0 3.5-3.5 9.7-3.5 13.2 0 4.1 4 4.1 10.2.1 13.7zm-.8-54.2c-21.6 0-39.2-17.6-39.2-39.2 0-22 17.6-39.7 39.2-39.7 22 0 39.7 17.6 39.7 39.7-.1 21.5-17.7 39.2-39.7 39.2z",
+                d: "M373 138.6c-25.2 0-46.3-17.5-51.9-41l0 0c-30.6 4.3-54.2 30.7-54.2 62.4l0 .2c47.4 1.8 90.6 15.1 124.9 36.3c12.6-9.7 28.4-15.5 45.5-15.5c41.3 0 74.7 33.4 74.7 74.7c0 29.8-17.4 55.5-42.7 67.5c-2.4 86.8-97 156.6-213.2 156.6S45.5 410.1 43 323.4C17.6 311.5 0 285.7 0 255.7c0-41.3 33.4-74.7 74.7-74.7c17.2 0 33 5.8 45.7 15.6c34-21.1 76.8-34.4 123.7-36.4l0-.3c0-44.3 33.7-80.9 76.8-85.5C325.8 50.2 347.2 32 373 32c29.4 0 53.3 23.9 53.3 53.3s-23.9 53.3-53.3 53.3zM157.5 255.3c-20.9 0-38.9 20.8-40.2 47.9s17.1 38.1 38 38.1s36.6-9.8 37.8-36.9s-14.7-49.1-35.7-49.1zM395 303.1c-1.2-27.1-19.2-47.9-40.2-47.9s-36.9 22-35.7 49.1c1.2 27.1 16.9 36.9 37.8 36.9s39.3-11 38-38.1zm-60.1 70.8c1.5-3.6-1-7.7-4.9-8.1c-23-2.3-47.9-3.6-73.8-3.6s-50.8 1.3-73.8 3.6c-3.9 .4-6.4 4.5-4.9 8.1c12.9 30.8 43.3 52.4 78.7 52.4s65.8-21.6 78.7-52.4z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaRedditSquare;
-impl IconShape for FaRedditSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M283.2 345.5c2.7 2.7 2.7 6.8 0 9.2-24.5 24.5-93.8 24.6-118.4 0-2.7-2.4-2.7-6.5 0-9.2 2.4-2.4 6.5-2.4 8.9 0 18.7 19.2 81 19.6 100.5 0 2.4-2.3 6.6-2.3 9 0zm-91.3-53.8c0-14.9-11.9-26.8-26.5-26.8-14.9 0-26.8 11.9-26.8 26.8 0 14.6 11.9 26.5 26.8 26.5 14.6 0 26.5-11.9 26.5-26.5zm90.7-26.8c-14.6 0-26.5 11.9-26.5 26.8 0 14.6 11.9 26.5 26.5 26.5 14.9 0 26.8-11.9 26.8-26.5 0-14.9-11.9-26.8-26.8-26.8zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-99.7 140.6c-10.1 0-19 4.2-25.6 10.7-24.1-16.7-56.5-27.4-92.5-28.6l18.7-84.2 59.5 13.4c0 14.6 11.9 26.5 26.5 26.5 14.9 0 26.8-12.2 26.8-26.8 0-14.6-11.9-26.8-26.8-26.8-10.4 0-19.3 6.2-23.8 14.9l-65.7-14.6c-3.3-.9-6.5 1.5-7.4 4.8l-20.5 92.8c-35.7 1.5-67.8 12.2-91.9 28.9-6.5-6.8-15.8-11-25.9-11-37.5 0-49.8 50.4-15.5 67.5-1.2 5.4-1.8 11-1.8 16.7 0 56.5 63.7 102.3 141.9 102.3 78.5 0 142.2-45.8 142.2-102.3 0-5.7-.6-11.6-2.1-17 33.6-17.2 21.2-67.2-16.1-67.2z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaReddit;
 impl IconShape for FaReddit {
     fn view_box(&self) -> &str {
@@ -8799,13 +8797,13 @@ impl IconShape for FaReddit {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z",
+                d: "M0 256C0 114.6 114.6 0 256 0S512 114.6 512 256s-114.6 256-256 256L37.1 512c-13.7 0-20.5-16.5-10.9-26.2L75 437C28.7 390.7 0 326.7 0 256zM349.6 153.6c23.6 0 42.7-19.1 42.7-42.7s-19.1-42.7-42.7-42.7c-20.6 0-37.8 14.6-41.8 34c-34.5 3.7-61.4 33-61.4 68.4l0 .2c-37.5 1.6-71.8 12.3-99 29.1c-10.1-7.8-22.8-12.5-36.5-12.5c-33 0-59.8 26.8-59.8 59.8c0 24 14.1 44.6 34.4 54.1c2 69.4 77.6 125.2 170.6 125.2s168.7-55.9 170.6-125.3c20.2-9.6 34.1-30.2 34.1-54c0-33-26.8-59.8-59.8-59.8c-13.7 0-26.3 4.6-36.4 12.4c-27.4-17-62.1-27.7-100-29.1l0-.2c0-25.4 18.9-46.5 43.4-49.9l0 0c4.4 18.8 21.3 32.8 41.5 32.8zM177.1 246.9c16.7 0 29.5 17.6 28.5 39.3s-13.5 29.6-30.3 29.6s-31.4-8.8-30.4-30.5s15.4-38.3 32.1-38.3zm190.1 38.3c1 21.7-13.7 30.5-30.4 30.5s-29.3-7.9-30.3-29.6c-1-21.7 11.8-39.3 28.5-39.3s31.2 16.6 32.1 38.3zm-48.1 56.7c-10.3 24.6-34.6 41.9-63 41.9s-52.7-17.3-63-41.9c-1.2-2.9 .8-6.2 3.9-6.5c18.4-1.9 38.3-2.9 59.1-2.9s40.7 1 59.1 2.9c3.1 .3 5.1 3.6 3.9 6.5z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaRedhat;
 impl IconShape for FaRedhat {
     fn view_box(&self) -> &str {
@@ -8832,7 +8830,7 @@ impl IconShape for FaRedhat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaRenren;
 impl IconShape for FaRenren {
     fn view_box(&self) -> &str {
@@ -8859,7 +8857,7 @@ impl IconShape for FaRenren {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaReplyd;
 impl IconShape for FaReplyd {
     fn view_box(&self) -> &str {
@@ -8886,7 +8884,7 @@ impl IconShape for FaReplyd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaResearchgate;
 impl IconShape for FaResearchgate {
     fn view_box(&self) -> &str {
@@ -8913,7 +8911,7 @@ impl IconShape for FaResearchgate {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaResolving;
 impl IconShape for FaResolving {
     fn view_box(&self) -> &str {
@@ -8940,7 +8938,7 @@ impl IconShape for FaResolving {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaRev;
 impl IconShape for FaRev {
     fn view_box(&self) -> &str {
@@ -8967,7 +8965,7 @@ impl IconShape for FaRev {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaRocketchat;
 impl IconShape for FaRocketchat {
     fn view_box(&self) -> &str {
@@ -8994,7 +8992,7 @@ impl IconShape for FaRocketchat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaRockrms;
 impl IconShape for FaRockrms {
     fn view_box(&self) -> &str {
@@ -9021,7 +9019,7 @@ impl IconShape for FaRockrms {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaRust;
 impl IconShape for FaRust {
     fn view_box(&self) -> &str {
@@ -9048,7 +9046,7 @@ impl IconShape for FaRust {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSafari;
 impl IconShape for FaSafari {
     fn view_box(&self) -> &str {
@@ -9075,7 +9073,7 @@ impl IconShape for FaSafari {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSalesforce;
 impl IconShape for FaSalesforce {
     fn view_box(&self) -> &str {
@@ -9102,7 +9100,7 @@ impl IconShape for FaSalesforce {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSass;
 impl IconShape for FaSass {
     fn view_box(&self) -> &str {
@@ -9129,7 +9127,7 @@ impl IconShape for FaSass {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSchlix;
 impl IconShape for FaSchlix {
     fn view_box(&self) -> &str {
@@ -9156,7 +9154,7 @@ impl IconShape for FaSchlix {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaScreenpal;
 impl IconShape for FaScreenpal {
     fn view_box(&self) -> &str {
@@ -9183,7 +9181,7 @@ impl IconShape for FaScreenpal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaScribd;
 impl IconShape for FaScribd {
     fn view_box(&self) -> &str {
@@ -9210,7 +9208,7 @@ impl IconShape for FaScribd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSearchengin;
 impl IconShape for FaSearchengin {
     fn view_box(&self) -> &str {
@@ -9237,7 +9235,7 @@ impl IconShape for FaSearchengin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSellcast;
 impl IconShape for FaSellcast {
     fn view_box(&self) -> &str {
@@ -9264,7 +9262,7 @@ impl IconShape for FaSellcast {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSellsy;
 impl IconShape for FaSellsy {
     fn view_box(&self) -> &str {
@@ -9291,7 +9289,7 @@ impl IconShape for FaSellsy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaServicestack;
 impl IconShape for FaServicestack {
     fn view_box(&self) -> &str {
@@ -9318,7 +9316,7 @@ impl IconShape for FaServicestack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaShirtsinbulk;
 impl IconShape for FaShirtsinbulk {
     fn view_box(&self) -> &str {
@@ -9345,7 +9343,34 @@ impl IconShape for FaShirtsinbulk {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaShoelace;
+impl IconShape for FaShoelace {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M404.9 331c2.2-1.1 4.4-2.3 6.5-3.7l8.3-4.8c1.5-1.1 4.4-3.4 8.7-6.7l.5-.5c3.4-3.4 7.2-5 11.3-4.9c1.8 0 3.9 .5 6.4 1.5l31-27.5c.9-.7 1.7-1.3 2.6-1.8h.2c3.3-1.9 6-1.8 8.2 .4c3.9 2.1 4.2 5.6 .9 10.6L456.9 322c.2 .5 .4 1 .4 1.5c.5 2.2 .3 4.4-.5 6.6c-.7 1.5-1.8 2.9-3.1 4.2c-1.4 1.4-2.7 2.8-4.2 4.2l-18.8 13.7c-1.7 1.2-3.4 2.3-5.1 3.3c-2.1 1.3-4.3 2.5-6.6 3.6c-1 .4-1.9 .9-2.9 1.3c-5.9 2.5-11.9 4.2-18.2 5c-2.9 24.5-11.3 47.1-25.1 67.8c-17.5 25.7-41.4 45.4-71.8 58.8c-30.2 13.5-63 20.2-98.2 20.2c-48.6-.5-88-11.4-118.2-32.8C49.5 454.4 32 421.5 32 380.3v-5.6c1.2-28.1 9.5-54.6 24.8-79.8c15.1-24.9 37.1-41.7 66.1-50.5c14.9-4.4 29.9-6.6 45-6.6c15.5 0 31.6 2.9 48.1 8.6s35.2 15.5 55.9 29.5L326 312.2c15.1 9.8 28.8 16.5 41.2 20c-2.6-25.1-11.7-46.6-27.3-64.5c-15.7-18.1-35.6-31.3-59.9-39.7l-23.3-8c-21.4-7.5-37.3-14.9-47.7-22.2c-28.2-19.1-43.8-45.2-47-78.5l-.5-9.8c0-32.1 13-58.9 39-80.5C223.5 9.7 251.1 0 283 0c24 0 45.6 6.9 64.7 20.8c19.2 14 30.1 33.8 32.6 59.4l.5 10c0 18.6-4.8 34.5-14.4 47.7c-9.8 13.2-18.5 19.9-26 19.9c-1.6-.1-3.1-.3-4.5-.6l-34 32c-5.5 3-9.2 2.5-11.1-1.6c-1.9-2.2-1.8-4.9 .5-8.2l.2-.2c.5-.7 1.2-1.5 2-2.4l31.6-30c-.4-1.5-.6-3.1-.6-4.8c0-4.1 1.6-7.6 4.9-10.4c13.8-12.4 20.8-26.7 20.8-42.8c0-16-6.1-29.5-18.2-40.4s-28.7-16.5-49.7-16.8c-26.2 0-47.8 7.9-64.7 23.7S192.3 89.9 192.3 112c0 17.8 6.9 33.9 20.6 48.3c13.6 14.2 34.6 25.4 63 33.5c39.8 11.5 70.2 31 91.3 58.3c18.7 24.2 29.1 51.3 31.3 81.4c2.2-.7 4.3-1.5 6.5-2.6zM294.1 178.7c0 1.1 .6 1.6 1.8 1.6c.1 0 9.7-8.9 28.8-26.6c0-2.4-5.1 .9-15.3 10c-10.2 9.2-15.3 14.2-15.3 14.9zm8 6.4c0-1-.5-1.5-1.5-1.5c-1.1 0-2.1 .5-2.9 1.6c-1.9-.1-3.3 .1-4.2 .7c-.4 .2-.5 .5-.5 .7c0 .7 .5 1.3 1.5 1.6h3.3c2.9-1.1 4.4-2.2 4.4-3.3zm22.6-19.9c0-2.8-1.6-2.8-4.9 0c-1.6 1.5-3.6 3.5-6 6.2c-.8 .6-2.6 2.2-5.3 4.9c-2.8 2.9-4.2 4.7-4.2 5.3l.2 1.3c.7 .2 1.2 .4 1.5 .4c.1 0 3.3-2.9 9.5-8.7s9.3-8.9 9.3-9.3zm159.7 120l-30.6 27c1.8 1 3.2 2.4 4 4.2l30.2-27c.2-1.2 .1-2.2-.5-2.9c-.6-.5-1.6-.9-3.1-1.3zm-1.6-.9l-.7-.7-27 21.9 1.6 2 26-23.1zM366.6 363.9c-8-2.1-15.4-4.6-22.2-7.5c-15.3-6.2-34.3-17-57-32.4L250 298.7c-15.8-10.1-30.2-17.6-43.2-22.6c-13.1-4.9-26-7.3-38.6-7.3h-5.5c-32.2 1.7-57.2 13.8-75 36.2c-16.6 20.8-25 45.3-25 73.6c0 31.8 12.8 56.7 38.2 74.7c25.4 18.1 60.2 27.1 104.4 27.1c34.7 0 64-6.2 87.8-18.6c23.7-12.4 42.1-28.8 55.2-49.2c9.8-15.5 15.9-31.8 18.2-48.8z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaShopify;
 impl IconShape for FaShopify {
     fn view_box(&self) -> &str {
@@ -9372,7 +9397,7 @@ impl IconShape for FaShopify {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaShopware;
 impl IconShape for FaShopware {
     fn view_box(&self) -> &str {
@@ -9399,7 +9424,34 @@ impl IconShape for FaShopware {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSignalMessenger;
+impl IconShape for FaSignalMessenger {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M194.6 7.5l5.8 23.3C177.7 36.3 156 45.3 136 57.4L123.7 36.8c22-13.3 45.9-23.2 70.9-29.3zm122.9 0l-5.8 23.3C334.3 36.3 356 45.3 376 57.4l12.4-20.6c-22-13.3-46-23.2-71-29.3zM36.8 123.7c-13.3 22-23.2 45.9-29.3 70.9l23.3 5.8C36.3 177.7 45.3 156 57.4 136L36.8 123.7zM24 256c0-11.6 .9-23.3 2.6-34.8L2.9 217.6c-3.8 25.4-3.8 51.3 0 76.7l23.7-3.6C24.9 279.3 24 267.6 24 256zM388.3 475.2L376 454.6c-20 12.1-41.6 21-64.2 26.6l5.8 23.3c24.9-6.2 48.8-16 70.8-29.3zM488 256c0 11.6-.9 23.3-2.6 34.8l23.7 3.6c3.8-25.4 3.8-51.3 0-76.7l-23.7 3.6c1.7 11.5 2.6 23.1 2.6 34.8zm16.5 61.4l-23.3-5.8c-5.6 22.7-14.5 44.3-26.6 64.3l20.6 12.4c13.3-22 23.2-46 29.3-71zm-213.8 168c-23 3.5-46.5 3.5-69.5 0l-3.6 23.7c25.4 3.8 51.3 3.8 76.7 0l-3.6-23.7zm152-91.8c-13.8 18.7-30.4 35.3-49.2 49.1l14.2 19.3c20.7-15.2 39-33.4 54.2-54.1l-19.3-14.4zM393.6 69.2c18.8 13.8 35.3 30.4 49.2 49.2L462.1 104C446.9 83.4 428.6 65.1 408 49.9L393.6 69.2zM69.2 118.4c13.8-18.8 30.4-35.3 49.2-49.2L104 49.9C83.4 65.1 65.1 83.4 49.9 104l19.3 14.4zm406 5.3L454.6 136c12.1 20 21 41.6 26.6 64.2l23.3-5.8c-6.2-24.9-16-48.8-29.3-70.8zm-254-97.1c23-3.5 46.5-3.5 69.5 0l3.6-23.7C268.9-1 243.1-1 217.6 2.9l3.6 23.7zM81.6 468.4L32 480l11.6-49.6L20.2 425 8.6 474.5c-.9 4-.8 8.1 .3 12.1s3.2 7.5 6.1 10.4s6.5 5 10.4 6.1s8.1 1.2 12.1 .3L87 492l-5.4-23.6zM25.2 403.6L48.6 409l8-34.4c-11.7-19.6-20.4-40.8-25.8-63L7.5 317.4c5.2 21.2 13.2 41.7 23.6 60.8l-5.9 25.3zm112 52l-34.4 8 5.4 23.4 25.3-5.9c19.2 10.4 39.6 18.4 60.8 23.6l5.8-23.3c-22.1-5.5-43.3-14.3-62.8-26l-.2 .2zM256 48c-37.2 0-73.6 10-105.6 28.9s-58.4 46-76.3 78.6s-26.9 69.3-25.8 106.4s12 73.3 31.8 104.8L60 452l85.3-20c27.3 17.2 58.2 27.8 90.3 31s64.5-1.1 94.6-12.6s57.2-29.8 79-53.6s37.8-52.2 46.8-83.2s10.5-63.6 4.7-95.3s-19-61.6-38.4-87.4s-44.5-46.7-73.4-61S288.3 48 256 48z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSimplybuilt;
 impl IconShape for FaSimplybuilt {
     fn view_box(&self) -> &str {
@@ -9426,7 +9478,7 @@ impl IconShape for FaSimplybuilt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSistrix;
 impl IconShape for FaSistrix {
     fn view_box(&self) -> &str {
@@ -9453,7 +9505,7 @@ impl IconShape for FaSistrix {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSith;
 impl IconShape for FaSith {
     fn view_box(&self) -> &str {
@@ -9480,7 +9532,7 @@ impl IconShape for FaSith {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSitrox;
 impl IconShape for FaSitrox {
     fn view_box(&self) -> &str {
@@ -9507,7 +9559,7 @@ impl IconShape for FaSitrox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSketch;
 impl IconShape for FaSketch {
     fn view_box(&self) -> &str {
@@ -9534,7 +9586,7 @@ impl IconShape for FaSketch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSkyatlas;
 impl IconShape for FaSkyatlas {
     fn view_box(&self) -> &str {
@@ -9561,7 +9613,7 @@ impl IconShape for FaSkyatlas {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSkype;
 impl IconShape for FaSkype {
     fn view_box(&self) -> &str {
@@ -9588,7 +9640,7 @@ impl IconShape for FaSkype {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSlack;
 impl IconShape for FaSlack {
     fn view_box(&self) -> &str {
@@ -9615,7 +9667,7 @@ impl IconShape for FaSlack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSlideshare;
 impl IconShape for FaSlideshare {
     fn view_box(&self) -> &str {
@@ -9642,34 +9694,7 @@ impl IconShape for FaSlideshare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaSnapchatSquare;
-impl IconShape for FaSnapchatSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M384,32H64A64,64,0,0,0,0,96V416a64,64,0,0,0,64,64H384a64,64,0,0,0,64-64V96A64,64,0,0,0,384,32Zm-3.907,319.309-.083.1a32.364,32.364,0,0,1-8.717,6.823,90.26,90.26,0,0,1-20.586,8.2,12.694,12.694,0,0,0-3.852,1.76c-2.158,1.909-2.1,4.64-4.4,8.55a23.137,23.137,0,0,1-6.84,7.471c-6.707,4.632-14.244,4.923-22.23,5.23-7.214.274-15.39.581-24.729,3.669-3.761,1.245-7.753,3.694-12.377,6.533-11.265,6.9-26.68,16.353-52.3,16.353s-40.925-9.4-52.106-16.279c-4.657-2.888-8.675-5.362-12.543-6.64-9.339-3.08-17.516-3.4-24.729-3.67-7.986-.307-15.523-.6-22.231-5.229a23.085,23.085,0,0,1-6.01-6.11c-3.2-4.632-2.855-7.8-5.254-9.895a13.428,13.428,0,0,0-4.1-1.834,89.986,89.986,0,0,1-20.313-8.127,32.905,32.905,0,0,1-8.3-6.284c-6.583-6.757-8.276-14.776-5.686-21.824,3.436-9.338,11.571-12.111,19.4-16.262,14.776-8.027,26.348-18.055,34.433-29.884a68.236,68.236,0,0,0,5.985-10.567c.789-2.158.772-3.329.241-4.416a7.386,7.386,0,0,0-2.208-2.217c-2.532-1.676-5.113-3.353-6.882-4.5-3.27-2.141-5.868-3.818-7.529-4.98-6.267-4.383-10.65-9.04-13.4-14.245a28.4,28.4,0,0,1-1.369-23.584c4.134-10.924,14.469-17.706,26.978-17.706a37.141,37.141,0,0,1,7.845.83c.689.15,1.37.307,2.042.482-.108-7.43.058-15.357.722-23.119,2.358-27.261,11.912-41.589,21.874-52.994a86.836,86.836,0,0,1,22.28-17.931C188.254,100.383,205.312,96,224,96s35.828,4.383,50.944,13.016a87.169,87.169,0,0,1,22.239,17.9c9.961,11.406,19.516,25.709,21.874,52.995a231.194,231.194,0,0,1,.713,23.118c.673-.174,1.362-.332,2.051-.481a37.131,37.131,0,0,1,7.844-.83c12.5,0,22.82,6.782,26.971,17.706a28.37,28.37,0,0,1-1.4,23.559c-2.74,5.2-7.123,9.861-13.39,14.244-1.668,1.187-4.258,2.864-7.529,4.981-1.835,1.187-4.541,2.947-7.164,4.682a6.856,6.856,0,0,0-1.951,2.034c-.506,1.046-.539,2.191.166,4.208a69.015,69.015,0,0,0,6.085,10.792c8.268,12.1,20.188,22.313,35.454,30.407,1.486.772,2.98,1.5,4.441,2.258.722.332,1.569.763,2.491,1.3,4.9,2.723,9.2,6.01,11.455,12.153C387.821,336.915,386.269,344.7,380.093,351.309Zm-16.719-18.461c-50.313-24.314-58.332-61.918-58.689-64.749-.431-3.379-.921-6.035,2.806-9.472,3.594-3.328,19.541-13.19,23.965-16.278,7.33-5.114,10.534-10.219,8.16-16.495-1.66-4.316-5.686-5.976-9.961-5.976a18.5,18.5,0,0,0-3.993.448c-8.035,1.743-15.838,5.769-20.354,6.857a7.1,7.1,0,0,1-1.66.224c-2.408,0-3.279-1.071-3.088-3.968.564-8.783,1.759-25.925.373-41.937-1.884-22.032-8.99-32.948-17.432-42.6-4.051-4.624-23.135-24.654-59.536-24.654S168.53,134.359,164.479,139c-8.434,9.654-15.531,20.57-17.432,42.6-1.386,16.013-.141,33.147.373,41.937.166,2.756-.68,3.968-3.088,3.968a7.1,7.1,0,0,1-1.66-.224c-4.507-1.087-12.31-5.113-20.346-6.856a18.494,18.494,0,0,0-3.993-.449c-4.25,0-8.3,1.636-9.961,5.977-2.374,6.276.847,11.381,8.168,16.494,4.425,3.088,20.371,12.958,23.966,16.279,3.719,3.437,3.237,6.093,2.805,9.471-.356,2.79-8.384,40.394-58.689,64.749-2.946,1.428-7.96,4.45.88,9.331,13.88,7.628,23.111,6.807,30.3,11.43,6.093,3.927,2.5,12.394,6.923,15.449,5.454,3.76,21.583-.266,42.335,6.6,17.433,5.744,28.116,22.015,58.963,22.015s41.788-16.3,58.938-21.973c20.795-6.865,36.89-2.839,42.336-6.6,4.433-3.055.822-11.522,6.923-15.448,7.181-4.624,16.411-3.8,30.3-11.472C371.36,337.355,366.346,334.333,363.374,332.848Z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSnapchat;
 impl IconShape for FaSnapchat {
     fn view_box(&self) -> &str {
@@ -9696,7 +9721,7 @@ impl IconShape for FaSnapchat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSoundcloud;
 impl IconShape for FaSoundcloud {
     fn view_box(&self) -> &str {
@@ -9717,13 +9742,13 @@ impl IconShape for FaSoundcloud {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M111.4 256.3l5.8 65-5.8 68.3c-.3 2.5-2.2 4.4-4.4 4.4s-4.2-1.9-4.2-4.4l-5.6-68.3 5.6-65c0-2.2 1.9-4.2 4.2-4.2 2.2 0 4.1 2 4.4 4.2zm21.4-45.6c-2.8 0-4.7 2.2-5 5l-5 105.6 5 68.3c.3 2.8 2.2 5 5 5 2.5 0 4.7-2.2 4.7-5l5.8-68.3-5.8-105.6c0-2.8-2.2-5-4.7-5zm25.5-24.1c-3.1 0-5.3 2.2-5.6 5.3l-4.4 130 4.4 67.8c.3 3.1 2.5 5.3 5.6 5.3 2.8 0 5.3-2.2 5.3-5.3l5.3-67.8-5.3-130c0-3.1-2.5-5.3-5.3-5.3zM7.2 283.2c-1.4 0-2.2 1.1-2.5 2.5L0 321.3l4.7 35c.3 1.4 1.1 2.5 2.5 2.5s2.2-1.1 2.5-2.5l5.6-35-5.6-35.6c-.3-1.4-1.1-2.5-2.5-2.5zm23.6-21.9c-1.4 0-2.5 1.1-2.5 2.5l-6.4 57.5 6.4 56.1c0 1.7 1.1 2.8 2.5 2.8s2.5-1.1 2.8-2.5l7.2-56.4-7.2-57.5c-.3-1.4-1.4-2.5-2.8-2.5zm25.3-11.4c-1.7 0-3.1 1.4-3.3 3.3L47 321.3l5.8 65.8c.3 1.7 1.7 3.1 3.3 3.1 1.7 0 3.1-1.4 3.1-3.1l6.9-65.8-6.9-68.1c0-1.9-1.4-3.3-3.1-3.3zm25.3-2.2c-1.9 0-3.6 1.4-3.6 3.6l-5.8 70 5.8 67.8c0 2.2 1.7 3.6 3.6 3.6s3.6-1.4 3.9-3.6l6.4-67.8-6.4-70c-.3-2.2-2-3.6-3.9-3.6zm241.4-110.9c-1.1-.8-2.8-1.4-4.2-1.4-2.2 0-4.2.8-5.6 1.9-1.9 1.7-3.1 4.2-3.3 6.7v.8l-3.3 176.7 1.7 32.5 1.7 31.7c.3 4.7 4.2 8.6 8.9 8.6s8.6-3.9 8.6-8.6l3.9-64.2-3.9-177.5c-.4-3-2-5.8-4.5-7.2zm-26.7 15.3c-1.4-.8-2.8-1.4-4.4-1.4s-3.1.6-4.4 1.4c-2.2 1.4-3.6 3.9-3.6 6.7l-.3 1.7-2.8 160.8s0 .3 3.1 65.6v.3c0 1.7.6 3.3 1.7 4.7 1.7 1.9 3.9 3.1 6.4 3.1 2.2 0 4.2-1.1 5.6-2.5 1.7-1.4 2.5-3.3 2.5-5.6l.3-6.7 3.1-58.6-3.3-162.8c-.3-2.8-1.7-5.3-3.9-6.7zm-111.4 22.5c-3.1 0-5.8 2.8-5.8 6.1l-4.4 140.6 4.4 67.2c.3 3.3 2.8 5.8 5.8 5.8 3.3 0 5.8-2.5 6.1-5.8l5-67.2-5-140.6c-.2-3.3-2.7-6.1-6.1-6.1zm376.7 62.8c-10.8 0-21.1 2.2-30.6 6.1-6.4-70.8-65.8-126.4-138.3-126.4-17.8 0-35 3.3-50.3 9.4-6.1 2.2-7.8 4.4-7.8 9.2v249.7c0 5 3.9 8.6 8.6 9.2h218.3c43.3 0 78.6-35 78.6-78.3.1-43.6-35.2-78.9-78.5-78.9zm-296.7-60.3c-4.2 0-7.5 3.3-7.8 7.8l-3.3 136.7 3.3 65.6c.3 4.2 3.6 7.5 7.8 7.5 4.2 0 7.5-3.3 7.5-7.5l3.9-65.6-3.9-136.7c-.3-4.5-3.3-7.8-7.5-7.8zm-53.6-7.8c-3.3 0-6.4 3.1-6.4 6.7l-3.9 145.3 3.9 66.9c.3 3.6 3.1 6.4 6.4 6.4 3.6 0 6.4-2.8 6.7-6.4l4.4-66.9-4.4-145.3c-.3-3.6-3.1-6.7-6.7-6.7zm26.7 3.4c-3.9 0-6.9 3.1-6.9 6.9L227 321.3l3.9 66.4c.3 3.9 3.1 6.9 6.9 6.9s6.9-3.1 6.9-6.9l4.2-66.4-4.2-141.7c0-3.9-3-6.9-6.9-6.9z",
+                d: "M639.8 298.6c-1.3 23.1-11.5 44.8-28.4 60.5s-39.2 24.4-62.3 24.1h-218c-4.8 0-9.4-2-12.8-5.4s-5.3-8-5.3-12.8V130.2c-.2-4 .9-8 3.1-11.4s5.3-6.1 9-7.7c0 0 20.1-13.9 62.3-13.9c25.8 0 51.1 6.9 73.3 20.1c17.3 10.2 32.3 23.8 44.1 40.1s20 34.8 24.2 54.4c7.5-2.1 15.3-3.2 23.1-3.2c11.7-.1 23.3 2.2 34.2 6.7S606.8 226.6 615 235s14.6 18.3 18.9 29.3s6.3 22.6 5.9 34.3zm-354-153.5c.1-1 0-2-.3-2.9s-.8-1.8-1.5-2.6s-1.5-1.3-2.4-1.7s-1.9-.6-2.9-.6s-2 .2-2.9 .6s-1.7 1-2.4 1.7s-1.2 1.6-1.5 2.6s-.4 1.9-.3 2.9c-6 78.9-10.6 152.9 0 231.6c.2 1.7 1 3.3 2.3 4.5s3 1.8 4.7 1.8s3.4-.6 4.7-1.8s2.1-2.8 2.3-4.5c11.3-79.4 6.6-152 0-231.6zm-44 27.3c-.2-1.8-1.1-3.5-2.4-4.7s-3.1-1.9-5-1.9s-3.6 .7-5 1.9s-2.2 2.9-2.4 4.7c-7.9 67.9-7.9 136.5 0 204.4c.3 1.8 1.2 3.4 2.5 4.5s3.1 1.8 4.8 1.8s3.5-.6 4.8-1.8s2.2-2.8 2.5-4.5c8.8-67.8 8.8-136.5 .1-204.4zm-44.3-6.9c-.2-1.8-1-3.4-2.3-4.6s-3-1.8-4.8-1.8s-3.5 .7-4.8 1.8s-2.1 2.8-2.3 4.6c-6.7 72-10.2 139.3 0 211.1c0 1.9 .7 3.7 2.1 5s3.1 2.1 5 2.1s3.7-.7 5-2.1s2.1-3.1 2.1-5c10.5-72.8 7.3-138.2 .1-211.1zm-44 20.6c0-1.9-.8-3.8-2.1-5.2s-3.2-2.1-5.2-2.1s-3.8 .8-5.2 2.1s-2.1 3.2-2.1 5.2c-8.1 63.3-8.1 127.5 0 190.8c.2 1.8 1 3.4 2.4 4.6s3.1 1.9 4.8 1.9s3.5-.7 4.8-1.9s2.2-2.8 2.4-4.6c8.8-63.3 8.9-127.5 .3-190.8zM109 233.7c0-1.9-.8-3.8-2.1-5.1s-3.2-2.1-5.1-2.1s-3.8 .8-5.1 2.1s-2.1 3.2-2.1 5.1c-10.5 49.2-5.5 93.9 .4 143.6c.3 1.6 1.1 3.1 2.3 4.2s2.8 1.7 4.5 1.7s3.2-.6 4.5-1.7s2.1-2.5 2.3-4.2c6.6-50.4 11.6-94.1 .4-143.6zm-44.1-7.5c-.2-1.8-1.1-3.5-2.4-4.8s-3.2-1.9-5-1.9s-3.6 .7-5 1.9s-2.2 2.9-2.4 4.8c-9.3 50.2-6.2 94.4 .3 144.5c.7 7.6 13.6 7.5 14.4 0c7.2-50.9 10.5-93.8 .3-144.5zM20.3 250.8c-.2-1.8-1.1-3.5-2.4-4.8s-3.2-1.9-5-1.9s-3.6 .7-5 1.9s-2.3 2.9-2.4 4.8c-8.5 33.7-5.9 61.6 .6 95.4c.2 1.7 1 3.3 2.3 4.4s2.9 1.8 4.7 1.8s3.4-.6 4.7-1.8s2.1-2.7 2.3-4.4c7.5-34.5 11.2-61.8 .4-95.4z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSourcetree;
 impl IconShape for FaSourcetree {
     fn view_box(&self) -> &str {
@@ -9750,7 +9775,34 @@ impl IconShape for FaSourcetree {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSpaceAwesome;
+impl IconShape for FaSpaceAwesome {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M96 256H128V512H0V352H32V320H64V288H96V256zM512 352V512H384V256H416V288H448V320H480V352H512zM320 64H352V448H320V416H192V448H160V64H192V32H224V0H288V32H320V64zM288 128H224V192H288V128z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSpeakap;
 impl IconShape for FaSpeakap {
     fn view_box(&self) -> &str {
@@ -9777,7 +9829,7 @@ impl IconShape for FaSpeakap {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSpeakerDeck;
 impl IconShape for FaSpeakerDeck {
     fn view_box(&self) -> &str {
@@ -9804,7 +9856,7 @@ impl IconShape for FaSpeakerDeck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSpotify;
 impl IconShape for FaSpotify {
     fn view_box(&self) -> &str {
@@ -9831,7 +9883,88 @@ impl IconShape for FaSpotify {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareBehance;
+impl IconShape for FaSquareBehance {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M155.3 318.4c17.2 0 31.2-6.1 31.2-25.4c0-19.7-11.7-27.4-30.3-27.5h-46v52.9h45.1zm-5.4-129.6H110.3v44.8H153c15.1 0 25.8-6.6 25.8-22.9c0-17.7-13.7-21.9-28.9-21.9zm129.5 74.8h62.2c-1.7-18.5-11.3-29.7-30.5-29.7c-18.3 0-30.5 11.4-31.7 29.7zM384 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zM349.5 185H271.7V166.1h77.8V185zM193.7 243.7c23.6 6.7 35 27.5 35 51.6c0 39-32.7 55.7-67.6 55.9H68v-192h90.5c32.9 0 61.4 9.3 61.4 47.5c0 19.3-9 28.8-26.2 37zm118.7-38.6c43.5 0 67.6 34.3 67.6 75.4c0 1.6-.1 3.3-.2 5c0 .8-.1 1.5-.1 2.2H279.5c0 22.2 11.7 35.3 34.1 35.3c11.6 0 26.5-6.2 30.2-18.1h33.7c-10.4 31.9-31.9 46.8-65.1 46.8c-43.8 0-71.1-29.7-71.1-73c0-41.8 28.7-73.6 71.1-73.6z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareDribbble;
+impl IconShape for FaSquareDribbble {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M165.9 132.5c-38.3 18-66.8 53.3-75.7 95.7c6.1 .1 62.4 .3 126.4-16.7c-22.7-40.2-47.1-74.1-50.7-79zm26.1-9.1c3.8 5.1 28.6 38.9 51 80c48.6-18.3 69.1-45.9 71.6-49.4C281 124.2 235.3 112.9 192 123.4zM277.4 382c-2-12-10-53.8-29.2-103.6c-55.1 18.8-93.8 56.4-108.1 85.6c40.5 31.6 93.3 36.7 137.3 18zM227.8 232.6C159.6 253 93.4 252.2 87.4 252c0 .7 0 1.4 0 2.1s0 1.4 0 2.1c0 35.1 13.3 67.1 35.1 91.4c22.2-37.9 67.1-77.9 116.5-91.8c-3.4-7.8-7.2-15.5-11.1-23.2zm72.5 136.9c30.7-20.7 52.5-53.6 58.6-91.6c-4.6-1.5-42.3-12.7-85.1-5.8c17.9 49.1 25.1 89.1 26.5 97.4zm-34.8-119c45.5-5.7 90.7 3.4 95.2 4.4c-.3-32.3-11.8-61.9-30.9-85.1c-2.9 3.9-25.8 33.2-76.3 53.9c4.8 9.8 8.3 17.8 12 26.8zM384 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zM224 416a160 160 0 1 1 0-320 160 160 0 1 1 0 320z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareFacebook;
+impl IconShape for FaSquareFacebook {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSquareFontAwesomeStroke;
 impl IconShape for FaSquareFontAwesomeStroke {
     fn view_box(&self) -> &str {
@@ -9852,13 +9985,13 @@ impl IconShape for FaSquareFontAwesomeStroke {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M201.6,152c-25.4,0-37.4,10.4-57.6,14.4V160c0-8.8-7.2-16-16-16s-16,7.2-16,16v192c0,0.8,0.1,1.6,0.2,2.4 c0.1,0.4,0.1,0.8,0.2,1.2c1.6,7.1,8,12.4,15.6,12.4s14-5.3,15.6-12.4c0.1-0.4,0.2-0.8,0.2-1.2c0.1-0.8,0.2-1.6,0.2-2.4V198.4 c4-0.8,7.7-1.8,11.2-3c14.3-4.7,26-11.4,46.4-11.4c31.4,0,43.2,16,74.6,16c8.9,0,15.9-1.1,24.2-3.5c1.2-0.3,2.4-0.7,3.6-1.1v96 c-10,3.2-17.6,4.6-27.8,4.6c-31.4,0-43.4-16-74.6-16c-10.2,0-18.2,1.8-25.6,4v32c7.4-2.4,15.4-4,25.6-4c31.4,0,43.2,16,74.6,16	c18.6,0,28.2-4.8,59.8-16V152c-31.6,11.2-41.2,16-59.8,16C244.8,168,232.8,152,201.6,152z M384,32H64C28.7,32,0,60.7,0,96v320	c0,35.3,28.7,64,64,64h320c35.3,0,64-28.7,64-64V96C448,60.7,419.3,32,384,32z M416,416c0,17.6-14.4,32-32,32H64 c-17.6,0-32-14.4-32-32V96c0-17.6,14.4-32,32-32h320c17.6,0,32,14.4,32,32V416z",
+                d: "M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm154 58c0 9.3-4.8 17.4-12.1 22l188.9 0c7.3 0 13.2 5.9 13.2 13.2c0 1.8-.4 3.7-1.1 5.4L312 264l30.9 69.4c.8 1.7 1.1 3.5 1.1 5.4c0 7.3-5.9 13.2-13.2 13.2L144 352l0 32-32 0 0-32 0-176 0-1.5c-6.1-4.8-10-12.2-10-20.5c0-14.4 11.6-26 26-26s26 11.6 26 26z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSquareFontAwesome;
 impl IconShape for FaSquareFontAwesome {
     fn view_box(&self) -> &str {
@@ -9879,13 +10012,742 @@ impl IconShape for FaSquareFontAwesome {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M384.5,32.5h-320c-35.3,0-64,28.7-64,64v320c0,35.3,28.7,64,64,64h320c35.3,0,64-28.7,64-64v-320 C448.5,61.2,419.8,32.5,384.5,32.5z M336.5,312.5c-31.6,11.2-41.2,16-59.8,16c-31.4,0-43.2-16-74.6-16c-10.2,0-18.2,1.6-25.6,4v-32 c7.4-2.2,15.4-4,25.6-4c31.2,0,43.2,16,74.6,16c10.2,0,17.8-1.4,27.8-4.6v-96c-10,3.2-17.6,4.6-27.8,4.6c-31.4,0-43.2-16-74.6-16 c-25.4,0-37.4,10.4-57.6,14.4v153.6c0,8.8-7.2,16-16,16c-8.8,0-16-7.2-16-16v-192c0-8.8,7.2-16,16-16c8.8,0,16,7.2,16,16v6.4 c20.2-4,32.2-14.4,57.6-14.4c31.2,0,43.2,16,74.6,16c18.6,0,28.2-4.8,59.8-16V312.5z",
+                d: "M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm90 122c0 9.3-4.8 17.4-12.1 22l188.9 0c7.3 0 13.2 5.9 13.2 13.2c0 1.8-.4 3.7-1.1 5.4L312 264l30.9 69.4c.7 1.7 1.1 3.5 1.1 5.4c0 7.3-5.9 13.2-13.2 13.2L144 352l0 32-32 0 0-32 0-176 0-1.5c-6.1-4.8-10-12.2-10-20.5c0-14.4 11.6-26 26-26s26 11.6 26 26z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareGit;
+impl IconShape for FaSquareGit {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M120.8 335.5c-5.9-.4-12.6-.8-20.2-1.3c-3.3 4.1-6.6 8.4-6.6 13.5c0 18.5 65.5 18.5 65.5-1.5c0-8.3-7.4-8.7-38.8-10.7zm7.8-117.9c-32.3 0-33.7 44.5-.7 44.5c32.5 0 31.7-44.5 .7-44.5zM384 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zM243.9 172.2c-14.5 0-22.9-8.4-22.9-22.9c0-14.5 8.4-22.3 22.9-22.3c14.7 0 23.1 7.8 23.1 22.3s-8.4 22.9-23.1 22.9zM149.6 195h49.5l0 21.6-23.4 1.8c4.6 5.8 9.4 14 9.4 25.7c0 48.7-57.2 47.2-74.2 42.4l-8.4 13.4c5 .3 9.8 .6 14.3 .8c56.3 3.2 80.5 4.6 80.5 38.5c0 29.2-25.7 45.7-69.9 45.7c-46 0-63.5-11.6-63.5-31.7c0-11.4 5.1-17.5 14-25.9c-8.4-3.5-11.2-9.9-11.2-16.8c0-9.6 7.4-16.3 23-30.6l.2-.2c-12.4-6.1-21.8-19.3-21.8-38.1c0-51.6 56.6-53.3 81.6-46.8zM270.5 303.1l13 1.8 0 20.1H211.1V304.9c2.7-.4 5-.7 6.9-.9c9.9-1.2 10.1-1.3 10.1-6V223.3c0-4.4-.9-4.7-10.1-7.8c-1.9-.7-4.2-1.4-6.9-2.4l2.8-20.6h52.6V298c0 4.1 .2 4.6 4.1 5.1zm106.6-10.4L384 315c-10.9 5.4-26.9 10.2-41.4 10.2c-30.2 0-41.7-12.2-41.7-40.9V217.7c0-.8 0-1.4-.2-1.8c-.8-1.2-4.2-.7-19.6-.7V192.6c22.3-2.5 31.2-13.7 34-41.4h24.2c0 33.3-.6 38 .7 38.6c.3 .1 .7 0 1.3 0h35.8v25.4H339.3v60.7c0 .2 0 .5 0 .9c-.2 6.3-.9 30.4 37.9 15.9z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareGithub;
+impl IconShape for FaSquareGithub {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM265.8 407.7c0-1.8 0-6 .1-11.6c.1-11.4 .1-28.8 .1-43.7c0-15.6-5.2-25.5-11.3-30.7c37-4.1 76-9.2 76-73.1c0-18.2-6.5-27.3-17.1-39c1.7-4.3 7.4-22-1.7-45c-13.9-4.3-45.7 17.9-45.7 17.9c-13.2-3.7-27.5-5.6-41.6-5.6s-28.4 1.9-41.6 5.6c0 0-31.8-22.2-45.7-17.9c-9.1 22.9-3.5 40.6-1.7 45c-10.6 11.7-15.6 20.8-15.6 39c0 63.6 37.3 69 74.3 73.1c-4.8 4.3-9.1 11.7-10.6 22.3c-9.5 4.3-33.8 11.7-48.3-13.9c-9.1-15.8-25.5-17.1-25.5-17.1c-16.2-.2-1.1 10.2-1.1 10.2c10.8 5 18.4 24.2 18.4 24.2c9.7 29.7 56.1 19.7 56.1 19.7c0 9 .1 21.7 .1 30.6c0 4.8 .1 8.6 .1 10c0 4.3-3 9.5-11.5 8C106 393.6 59.8 330.8 59.8 257.4c0-91.8 70.2-161.5 162-161.5s166.2 69.7 166.2 161.5c.1 73.4-44.7 136.3-110.7 158.3c-8.4 1.5-11.5-3.7-11.5-8zm-90.5-54.8c-.2-1.5 1.1-2.8 3-3.2c1.9-.2 3.7 .6 3.9 1.9c.3 1.3-1 2.6-3 3c-1.9 .4-3.7-.4-3.9-1.7zm-9.1 3.2c-2.2 .2-3.7-.9-3.7-2.4c0-1.3 1.5-2.4 3.5-2.4c1.9-.2 3.7 .9 3.7 2.4c0 1.3-1.5 2.4-3.5 2.4zm-14.3-2.2c-1.9-.4-3.2-1.9-2.8-3.2s2.4-1.9 4.1-1.5c2 .6 3.3 2.1 2.8 3.4c-.4 1.3-2.4 1.9-4.1 1.3zm-12.5-7.3c-1.5-1.3-1.9-3.2-.9-4.1c.9-1.1 2.8-.9 4.3 .6c1.3 1.3 1.8 3.3 .9 4.1c-.9 1.1-2.8 .9-4.3-.6zm-8.5-10c-1.1-1.5-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3c1.1 1.5 1.1 3.3 0 4.1c-.9 .6-2.6 0-3.7-1.5zm-6.3-8.8c-1.1-1.3-1.3-2.8-.4-3.5c.9-.9 2.4-.4 3.5 .6c1.1 1.3 1.3 2.8 .4 3.5c-.9 .9-2.4 .4-3.5-.6zm-6-6.4c-1.3-.6-1.9-1.7-1.5-2.6c.4-.6 1.5-.9 2.8-.4c1.3 .7 1.9 1.8 1.5 2.6c-.4 .9-1.7 1.1-2.8 .4z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareGitlab;
+impl IconShape for FaSquareGitlab {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96zm337.5 12.5l44.6 116.4 .4 1.2c5.6 16.8 7.2 35.2 2.3 52.5c-5 17.2-15.4 32.4-29.8 43.3l-.2 .1-68.4 51.2-54.1 40.9c-.5 .2-1.1 .5-1.7 .8c-2 1-4.4 2-6.7 2c-3 0-6.8-1.8-8.3-2.8l-54.2-40.9L93.5 322.3l-.4-.3-.2-.1c-14.3-10.8-24.8-26-29.7-43.3s-4.2-35.7 2.2-52.5l.5-1.2 44.7-116.4c.9-2.3 2.5-4.3 4.5-5.6c1.6-1 3.4-1.6 5.2-1.8c1.3-.7 2.1-.4 3.4 .1c.6 .2 1.2 .5 2 .7c1 .4 1.6 .9 2.4 1.5c.6 .4 1.2 1 2.1 1.5c1.2 1.4 2.2 3 2.7 4.8l29.2 92.2H285l30.2-92.2c.5-1.8 1.4-3.4 2.6-4.8s2.8-2.4 4.5-3.1c1.7-.6 3.6-.9 5.4-.7s3.6 .8 5.2 1.8c2 1.3 3.7 3.3 4.6 5.6z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareGooglePlus;
+impl IconShape for FaSquareGooglePlus {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM64 256c0-55.3 44.7-100 100-100c27 0 49.5 9.8 67 26.2l-27.1 26.1c-7.4-7.1-20.3-15.4-39.8-15.4c-34.1 0-61.9 28.2-61.9 63.2c0 34.9 27.8 63.2 61.9 63.2c39.6 0 54.4-28.5 56.8-43.1H164V241.8h94.4c1 5 1.6 10.1 1.6 16.6c0 57.1-38.3 97.6-96 97.6c-55.3 0-100-44.7-100-100zm291 18.2v29H325.8v-29h-29V245h29V216H355v29h29v29.2H355z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareHackerNews;
+impl IconShape for FaSquareHackerNews {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM21 229.2c0 0 .1-.1 .1-.2s.1-.2 .2-.2c0 .1 0 .3-.1 .4H21zM239.2 384H207.8V281.3L128 128h37.3c41.5 77.7 48.1 95.8 54.1 112c1.6 4.3 3.1 8.5 5.2 13.6c3.2-7 5.1-11.9 7.1-17.3c5.9-15.3 12.8-33.2 53.5-108.3H320L239.2 283.1V384z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareInstagram;
+impl IconShape for FaSquareInstagram {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M194.4 211.7a53.3 53.3 0 1 0 59.3 88.7 53.3 53.3 0 1 0 -59.3-88.7zm142.3-68.4c-5.2-5.2-11.5-9.3-18.4-12c-18.1-7.1-57.6-6.8-83.1-6.5c-4.1 0-7.9 .1-11.2 .1c-3.3 0-7.2 0-11.4-.1c-25.5-.3-64.8-.7-82.9 6.5c-6.9 2.7-13.1 6.8-18.4 12s-9.3 11.5-12 18.4c-7.1 18.1-6.7 57.7-6.5 83.2c0 4.1 .1 7.9 .1 11.1s0 7-.1 11.1c-.2 25.5-.6 65.1 6.5 83.2c2.7 6.9 6.8 13.1 12 18.4s11.5 9.3 18.4 12c18.1 7.1 57.6 6.8 83.1 6.5c4.1 0 7.9-.1 11.2-.1c3.3 0 7.2 0 11.4 .1c25.5 .3 64.8 .7 82.9-6.5c6.9-2.7 13.1-6.8 18.4-12s9.3-11.5 12-18.4c7.2-18 6.8-57.4 6.5-83c0-4.2-.1-8.1-.1-11.4s0-7.1 .1-11.4c.3-25.5 .7-64.9-6.5-83l0 0c-2.7-6.9-6.8-13.1-12-18.4zm-67.1 44.5A82 82 0 1 1 178.4 324.2a82 82 0 1 1 91.1-136.4zm29.2-1.3c-3.1-2.1-5.6-5.1-7.1-8.6s-1.8-7.3-1.1-11.1s2.6-7.1 5.2-9.8s6.1-4.5 9.8-5.2s7.6-.4 11.1 1.1s6.5 3.9 8.6 7s3.2 6.8 3.2 10.6c0 2.5-.5 5-1.4 7.3s-2.4 4.4-4.1 6.2s-3.9 3.2-6.2 4.2s-4.8 1.5-7.3 1.5l0 0c-3.8 0-7.5-1.1-10.6-3.2zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM357 389c-18.7 18.7-41.4 24.6-67 25.9c-26.4 1.5-105.6 1.5-132 0c-25.6-1.3-48.3-7.2-67-25.9s-24.6-41.4-25.8-67c-1.5-26.4-1.5-105.6 0-132c1.3-25.6 7.1-48.3 25.8-67s41.5-24.6 67-25.8c26.4-1.5 105.6-1.5 132 0c25.6 1.3 48.3 7.1 67 25.8s24.6 41.4 25.8 67c1.5 26.3 1.5 105.4 0 131.9c-1.3 25.6-7.1 48.3-25.8 67z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareJs;
+impl IconShape for FaSquareJs {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5L152 385.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1V381.4c0 43.6-25.6 63.5-62.9 63.5zm85.8-43L301 382.1c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareLastfm;
+impl IconShape for FaSquareLastfm {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM210.7 280.8c-1.8-5.5-3.4-10.8-5-15.9c-12.9-41.9-21-68.4-58-68.4c-22.4 0-45.1 16.1-45.1 61.2c0 35.2 18 57.2 43.3 57.2c28.6 0 47.6-21.3 47.6-21.3l11.7 31.9s-19.8 19.4-61.2 19.4c-51.3 0-79.9-30.1-79.9-85.8c0-57.9 28.6-92 82.5-92c67.9 0 79.3 35.3 96.4 88.4c1.4 4.4 2.9 8.9 4.4 13.5c8.8 26.8 24.2 46.2 61.2 46.2c24.9 0 38.1-5.5 38.1-19.1c0-17.5-16.9-21.2-40-26.4c-3.2-.7-6.5-1.4-9.9-2.2c-30.4-7.3-42.5-23.1-42.5-48c0-40 32.3-52.4 65.2-52.4c37.4 0 60.1 13.6 63 46.6l-36.7 4.4c-1.5-15.8-11-22.4-28.6-22.4c-16.1 0-26 7.3-26 19.8c0 11 4.8 17.6 20.9 21.3c2.2 .5 4.5 1 6.7 1.4c31.1 6.5 65.1 13.7 65.1 56.1c.1 36.7-30.7 50.6-76.1 50.6c-63.4 0-85.4-28.6-97.1-64.1z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareLetterboxd;
+impl IconShape for FaSquareLetterboxd {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M384 32c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96C0 60.7 28.7 32 64 32H384zM105.1 187C66.4 187 35 218.3 35 257s31.4 70 70.1 70c24.8 0 46.5-12.8 59-32.2l.5-.7-.4-.6c-6.5-10.6-10.2-23.1-10.2-36.5c0-13.6 3.9-26.3 10.6-37.1c-12.4-19.8-34.4-32.9-59.5-32.9zM224 187c-24.8 0-46.5 12.8-59 32.2l-.5 .7 .4 .6c6.5 10.6 10.2 23.1 10.2 36.5c0 13.6-3.9 26.3-10.6 37.1C176.9 313.8 198.9 327 224 327c24.8 0 46.5-12.8 59-32.2l.5-.7-.4-.6c-6.5-10.6-10.2-23.1-10.2-36.5c0-13.6 3.9-26.3 10.6-37.1C271.1 200.2 249.1 187 224 187zm118.9 0c-24.8 0-46.5 12.8-59 32.2l-.5 .7 .4 .6c6.5 10.6 10.2 23.1 10.2 36.5c0 13.6-3.9 26.3-10.6 37.1c12.4 19.8 34.4 32.9 59.5 32.9c38.7 0 70.1-31.3 70.1-70s-31.4-70-70.1-70z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareOdnoklassniki;
+impl IconShape for FaSquareOdnoklassniki {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M224 137.1a39.9 39.9 0 1 0 0 79.7 39.9 39.9 0 1 0 0-79.7zM384 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zM224 95.9A81 81 0 1 1 224 258a81 81 0 1 1 0-162.1zm59.3 168.3c16.8-13.2 29.5-5.5 34.1 3.6c7.8 16-1.1 23.7-21.5 37c-17.1 10.9-40.7 15.2-56.2 16.8l13 12.9 47.7 47.7c17.4 17.9-11 45.8-28.6 28.6c-12-12.2-29.5-29.7-47.7-47.9l0 0-47.7 47.9c-17.7 17.2-46-11-28.4-28.6c3.7-3.7 7.9-7.9 12.5-12.5c10.4-10.4 22.6-22.7 35.2-35.2l12.9-12.9c-15.4-1.6-39.3-5.7-56.6-16.8c-20.3-13.3-29.3-20.9-21.4-37c4.6-9.1 17.3-16.8 34.1-3.6c0 0 22.7 18 59.3 18s59.3-18 59.3-18z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquarePiedPiper;
+impl IconShape for FaSquarePiedPiper {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M32 419L0 479.2l.8-328C.8 85.3 54 32 120 32h327.2c-93 28.9-189.9 94.2-253.9 168.6C122.7 282 82.6 338 32 419M448 32S305.2 98.8 261.6 199.1c-23.2 53.6-28.9 118.1-71 158.6-28.9 27.8-69.8 38.2-105.3 56.3-23.2 12-66.4 40.5-84.9 66h328.4c66 0 119.3-53.3 119.3-119.2-.1 0-.1-328.8-.1-328.8z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquarePinterest;
+impl IconShape for FaSquarePinterest {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M384 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h72.6l-2.2-.8c-5.4-48.1-3.1-57.5 15.7-134.7c3.9-16 8.5-35 13.9-57.9c0 0-7.3-14.8-7.3-36.5c0-70.7 75.5-78 75.5-25c0 13.5-5.4 31.1-11.2 49.8c-3.3 10.6-6.6 21.5-9.1 32c-5.7 24.5 12.3 44.4 36.4 44.4c43.7 0 77.2-46 77.2-112.4c0-58.8-42.3-99.9-102.6-99.9C153 139 112 191.4 112 245.6c0 21.1 8.2 43.7 18.3 56c2 2.4 2.3 4.5 1.7 7c-1.1 4.7-3.1 12.9-4.7 19.2c-1 4-1.8 7.3-2.1 8.6c-1.1 4.5-3.5 5.5-8.2 3.3c-30.6-14.3-49.8-59.1-49.8-95.1C67.2 167.1 123.4 96 229.4 96c85.2 0 151.4 60.7 151.4 141.8c0 84.6-53.3 152.7-127.4 152.7c-24.9 0-48.3-12.9-56.3-28.2c0 0-12.3 46.9-15.3 58.4c-5 19.3-17.6 42.9-27.4 59.3H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareReddit;
+impl IconShape for FaSquareReddit {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32zM305.9 166.4c20.6 0 37.3-16.7 37.3-37.3s-16.7-37.3-37.3-37.3c-18 0-33.1 12.8-36.6 29.8c-30.2 3.2-53.8 28.8-53.8 59.9l0 .2c-32.8 1.4-62.8 10.7-86.6 25.5c-8.8-6.8-19.9-10.9-32-10.9c-28.9 0-52.3 23.4-52.3 52.3c0 21 12.3 39 30.1 47.4c1.7 60.7 67.9 109.6 149.3 109.6s147.6-48.9 149.3-109.7c17.7-8.4 29.9-26.4 29.9-47.3c0-28.9-23.4-52.3-52.3-52.3c-12 0-23 4-31.9 10.8c-24-14.9-54.3-24.2-87.5-25.4l0-.1c0-22.2 16.5-40.7 37.9-43.7l0 0c3.9 16.5 18.7 28.7 36.3 28.7zM155 248.1c14.6 0 25.8 15.4 25 34.4s-11.8 25.9-26.5 25.9s-27.5-7.7-26.6-26.7s13.5-33.5 28.1-33.5zm166.4 33.5c.9 19-12 26.7-26.6 26.7s-25.6-6.9-26.5-25.9c-.9-19 10.3-34.4 25-34.4s27.3 14.6 28.1 33.5zm-42.1 49.6c-9 21.5-30.3 36.7-55.1 36.7s-46.1-15.1-55.1-36.7c-1.1-2.6 .7-5.4 3.4-5.7c16.1-1.6 33.5-2.5 51.7-2.5s35.6 .9 51.7 2.5c2.7 .3 4.5 3.1 3.4 5.7z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareSnapchat;
+impl IconShape for FaSquareSnapchat {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M384,32H64A64,64,0,0,0,0,96V416a64,64,0,0,0,64,64H384a64,64,0,0,0,64-64V96A64,64,0,0,0,384,32Zm-3.907,319.309-.083.1a32.364,32.364,0,0,1-8.717,6.823,90.26,90.26,0,0,1-20.586,8.2,12.694,12.694,0,0,0-3.852,1.76c-2.158,1.909-2.1,4.64-4.4,8.55a23.137,23.137,0,0,1-6.84,7.471c-6.707,4.632-14.244,4.923-22.23,5.23-7.214.274-15.39.581-24.729,3.669-3.761,1.245-7.753,3.694-12.377,6.533-11.265,6.9-26.68,16.353-52.3,16.353s-40.925-9.4-52.106-16.279c-4.657-2.888-8.675-5.362-12.543-6.64-9.339-3.08-17.516-3.4-24.729-3.67-7.986-.307-15.523-.6-22.231-5.229a23.085,23.085,0,0,1-6.01-6.11c-3.2-4.632-2.855-7.8-5.254-9.895a13.428,13.428,0,0,0-4.1-1.834,89.986,89.986,0,0,1-20.313-8.127,32.905,32.905,0,0,1-8.3-6.284c-6.583-6.757-8.276-14.776-5.686-21.824,3.436-9.338,11.571-12.111,19.4-16.262,14.776-8.027,26.348-18.055,34.433-29.884a68.236,68.236,0,0,0,5.985-10.567c.789-2.158.772-3.329.241-4.416a7.386,7.386,0,0,0-2.208-2.217c-2.532-1.676-5.113-3.353-6.882-4.5-3.27-2.141-5.868-3.818-7.529-4.98-6.267-4.383-10.65-9.04-13.4-14.245a28.4,28.4,0,0,1-1.369-23.584c4.134-10.924,14.469-17.706,26.978-17.706a37.141,37.141,0,0,1,7.845.83c.689.15,1.37.307,2.042.482-.108-7.43.058-15.357.722-23.119,2.358-27.261,11.912-41.589,21.874-52.994a86.836,86.836,0,0,1,22.28-17.931C188.254,100.383,205.312,96,224,96s35.828,4.383,50.944,13.016a87.169,87.169,0,0,1,22.239,17.9c9.961,11.406,19.516,25.709,21.874,52.995a231.194,231.194,0,0,1,.713,23.118c.673-.174,1.362-.332,2.051-.481a37.131,37.131,0,0,1,7.844-.83c12.5,0,22.82,6.782,26.971,17.706a28.37,28.37,0,0,1-1.4,23.559c-2.74,5.2-7.123,9.861-13.39,14.244-1.668,1.187-4.258,2.864-7.529,4.981-1.835,1.187-4.541,2.947-7.164,4.682a6.856,6.856,0,0,0-1.951,2.034c-.506,1.046-.539,2.191.166,4.208a69.015,69.015,0,0,0,6.085,10.792c8.268,12.1,20.188,22.313,35.454,30.407,1.486.772,2.98,1.5,4.441,2.258.722.332,1.569.763,2.491,1.3,4.9,2.723,9.2,6.01,11.455,12.153C387.821,336.915,386.269,344.7,380.093,351.309Zm-16.719-18.461c-50.313-24.314-58.332-61.918-58.689-64.749-.431-3.379-.921-6.035,2.806-9.472,3.594-3.328,19.541-13.19,23.965-16.278,7.33-5.114,10.534-10.219,8.16-16.495-1.66-4.316-5.686-5.976-9.961-5.976a18.5,18.5,0,0,0-3.993.448c-8.035,1.743-15.838,5.769-20.354,6.857a7.1,7.1,0,0,1-1.66.224c-2.408,0-3.279-1.071-3.088-3.968.564-8.783,1.759-25.925.373-41.937-1.884-22.032-8.99-32.948-17.432-42.6-4.051-4.624-23.135-24.654-59.536-24.654S168.53,134.359,164.479,139c-8.434,9.654-15.531,20.57-17.432,42.6-1.386,16.013-.141,33.147.373,41.937.166,2.756-.68,3.968-3.088,3.968a7.1,7.1,0,0,1-1.66-.224c-4.507-1.087-12.31-5.113-20.346-6.856a18.494,18.494,0,0,0-3.993-.449c-4.25,0-8.3,1.636-9.961,5.977-2.374,6.276.847,11.381,8.168,16.494,4.425,3.088,20.371,12.958,23.966,16.279,3.719,3.437,3.237,6.093,2.805,9.471-.356,2.79-8.384,40.394-58.689,64.749-2.946,1.428-7.96,4.45.88,9.331,13.88,7.628,23.111,6.807,30.3,11.43,6.093,3.927,2.5,12.394,6.923,15.449,5.454,3.76,21.583-.266,42.335,6.6,17.433,5.744,28.116,22.015,58.963,22.015s41.788-16.3,58.938-21.973c20.795-6.865,36.89-2.839,42.336-6.6,4.433-3.055.822-11.522,6.923-15.448,7.181-4.624,16.411-3.8,30.3-11.472C371.36,337.355,366.346,334.333,363.374,332.848Z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareSteam;
+impl IconShape for FaSquareSteam {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M165.6 309.1c18.6 7.7 27.3 28.9 19.6 47.4s-29 27.2-47.6 19.4l-28.5-11.8c5 10.6 13.8 19.4 25.4 24.2c25.2 10.5 54.1-1.4 64.6-26.5c5.1-12.1 5.1-25.5 .1-37.7c-5.1-12.1-14.5-21.6-26.7-26.7c-12.1-5-25-4.8-36.4-.5l29.5 12.2zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V240.7l116.6 48.1c12-8.2 26.2-12.1 40.7-11.3l55.4-80.2v-1.1c0-48.2 39.3-87.5 87.6-87.5s87.6 39.3 87.6 87.5c0 49.2-40.9 88.7-89.6 87.5l-79 56.3c1.6 38.5-29.1 68.8-65.7 68.8c-31.8 0-58.5-22.7-64.5-52.7L0 319.2V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM241.9 196.2a58.4 58.4 0 1 0 116.8 0 58.4 58.4 0 1 0 -116.8 0zm14.6-.1a43.9 43.9 0 1 1 87.8 0 43.9 43.9 0 1 1 -87.8 0z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareThreads;
+impl IconShape for FaSquareThreads {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM294.2 244.3c19.5 9.3 33.7 23.5 41.2 40.9c10.4 24.3 11.4 63.9-20.2 95.4c-24.2 24.1-53.5 35-95.1 35.3h-.2c-46.8-.3-82.8-16.1-106.9-46.8C91.5 341.8 80.4 303.7 80 256v-.1-.1c.4-47.7 11.5-85.7 33-113.1c24.2-30.7 60.2-46.5 106.9-46.8h.2c46.9 .3 83.3 16 108.2 46.6c12.3 15.1 21.3 33.3 27 54.4l-26.9 7.2c-4.7-17.2-11.9-31.9-21.4-43.6c-19.4-23.9-48.7-36.1-87-36.4c-38 .3-66.8 12.5-85.5 36.2c-17.5 22.3-26.6 54.4-26.9 95.5c.3 41.1 9.4 73.3 26.9 95.5c18.7 23.8 47.4 36 85.5 36.2c34.3-.3 56.9-8.4 75.8-27.3c21.5-21.5 21.1-47.9 14.2-64c-4-9.4-11.4-17.3-21.3-23.3c-2.4 18-7.9 32.2-16.5 43.2c-11.4 14.5-27.7 22.4-48.4 23.5c-15.7 .9-30.8-2.9-42.6-10.7c-13.9-9.2-22-23.2-22.9-39.5c-1.7-32.2 23.8-55.3 63.5-57.6c14.1-.8 27.3-.2 39.5 1.9c-1.6-9.9-4.9-17.7-9.8-23.4c-6.7-7.8-17.1-11.8-30.8-11.9h-.4c-11 0-26 3.1-35.6 17.6l-23-15.8c12.8-19.4 33.6-30.1 58.5-30.1h.6c41.8 .3 66.6 26.3 69.1 71.8c1.4 .6 2.8 1.2 4.2 1.9l.1 .5zm-71.8 67.5c17-.9 36.4-7.6 39.7-48.8c-8.8-1.9-18.6-2.9-29-2.9c-3.2 0-6.4 .1-9.6 .3c-28.6 1.6-38.1 15.5-37.4 27.9c.9 16.7 19 24.5 36.4 23.6l-.1-.1z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareTumblr;
+impl IconShape for FaSquareTumblr {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM256.8 416c-75.5 0-91.9-55.5-91.9-87.9v-90H135.2c-3.4 0-6.2-2.8-6.2-6.2V189.4c0-4.5 2.8-8.5 7.1-10c38.8-13.7 50.9-47.5 52.7-73.2c.5-6.9 4.1-10.2 10-10.2h44.3c3.4 0 6.2 2.8 6.2 6.2v72h51.9c3.4 0 6.2 2.8 6.2 6.2v51.1c0 3.4-2.8 6.2-6.2 6.2H249.1V321c0 21.4 14.8 33.5 42.5 22.4c3-1.2 5.6-2 8-1.4c2.2 .5 3.6 2.1 4.6 4.9L318 387.1c1 3.2 2 6.7-.3 9.1c-8.5 9.1-31.2 19.8-60.9 19.8z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareTwitter;
+impl IconShape for FaSquareTwitter {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM351.3 199.3v0c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3 .6 10.4 .8 15.8 .8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8 .2 5.7 .2 8.5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareUpwork;
+impl IconShape for FaSquareUpwork {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M56 32l336 0c30.9 0 56 25.1 56 56l0 336c0 30.9-25.1 56-56 56L56 480c-30.9 0-56-25.1-56-56L0 88C0 57.1 25.1 32 56 32zM270.9 274.2c6.6-52.9 25.9-69.5 51.4-69.5c25.3 0 44.9 20.2 44.9 49.7s-19.7 49.7-44.9 49.7c-27.9 0-46.3-21.5-51.4-29.9zm-26.7-41.8c-8.2-15.5-14.3-36.3-19.2-55.6l-29.7 0-33.2 0 0 78.1c0 28.4-12.9 49.4-38.2 49.4s-39.8-20.9-39.8-49.3l.3-78.1-36.2 0 0 78.1c0 22.8 7.4 43.5 20.9 58.2c13.9 15.2 32.8 23.2 54.8 23.2c43.7 0 74.2-33.5 74.2-81.5l0-52.5c4.6 17.3 15.4 50.5 36.2 79.7L215 392.6l36.8 0 12.8-78.4c4.2 3.5 8.7 6.6 13.4 9.4c12.3 7.8 26.4 12.2 40.9 12.6l.1 0c.5 0 1.1 0 1.6 0c.6 0 1.1 0 1.7 0c45.1 0 80.9-34.9 80.9-81.9s-35.9-82.2-80.9-82.2c-45.4 0-70.9 29.7-78.1 60.1z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareViadeo;
+impl IconShape for FaSquareViadeo {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM118.3 381.2c-68-73.6-19.8-196.1 81.2-196.1c13.3 0 26.6 2.1 39.1 6.7c-4.3 8.4-7.3 17.6-8.4 27.1c-9.7-4.1-20.2-6-30.7-6c-48.8 0-84.6 41.7-84.6 88.9c0 43 28.5 78.7 69.5 85.9c61.5-24 72.9-117.6 72.9-175v0c0-7.3 0-14.8-.6-22.1c-11.2-32.9-26.6-64.6-44.2-94.5c27.1 18.3 41.9 62.5 44.2 94.1v.4c7.7 22.5 11.8 46.2 11.8 70c0 54.1-21.9 99-68.3 128.2l-2.4 .2c50 1 86.2-38.6 86.2-87.2c0-12.2-2.1-24.3-6.9-35.7c9.5-1.9 18.5-5.6 26.4-10.5c15.3 36.6 12.6 87.3-22.8 125.6c-42.4 46.2-120 46.6-162.4 0zM274.6 217.6c21.9-12 49.6-30.7 62.3-53c1.5-3 4.1-8.6 4.5-12c-12.5 27.9-44.2 49.8-73.9 56.7c-4.7-7.3-7.5-15.5-7.5-24.3c0-10.3 5.2-24.1 12.9-31.6c8.3-7.9 18-10.9 27.9-14.1c16-5.1 32.5-10.3 44.5-35.9c32.5 46.2 13.1 130.3-36.3 130.3c-13.3 0-25.1-7.1-34.4-16.1z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareVimeo;
+impl IconShape for FaSquareVimeo {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM318.5 309.5C275 366 238.2 394.3 208.1 394.3c-18.7 0-34.4-17.2-47.3-51.6c-3.8-13.9-7.3-26.9-10.5-39c-18.2-68.3-28.6-107.4-46.2-107.4c-2.4 0-10.8 5-25.1 15.1L64 192c7-6.1 13.9-12.4 20.6-18.5c29.1-26.3 55.6-50.3 73.5-51.9c24.9-2.4 40.2 14.6 46 51.1c20.5 129.6 29.6 149.2 66.8 90.5c13.4-21.2 20.6-37.2 21.5-48.3c3.4-32.8-25.6-30.6-45.2-22.2c15.7-51.5 45.8-76.5 90.1-75.1c32.9 1 48.4 22.4 46.5 64c-1.4 31.1-23.2 73.8-65.3 127.9z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareWebAwesomeStroke;
+impl IconShape for FaSquareWebAwesomeStroke {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm235 81.6L288 224l52.2-10.4c-2.6-3.9-4.2-8.5-4.2-13.6c0-13.3 10.7-24 24-24s24 10.7 24 24c0 13-10.3 23.6-23.2 24L304.5 349.1c-5.2 11.5-16.6 18.9-29.2 18.9l-102.6 0c-12.6 0-24-7.4-29.2-18.9L87.2 224C74.3 223.6 64 213 64 200c0-13.3 10.7-24 24-24s24 10.7 24 24c0 5-1.5 9.7-4.2 13.6L160 224l53.1-46.4c-8.9-4.1-15-13.1-15-23.6c0-14.4 11.6-26 26-26s26 11.6 26 26c0 10.5-6.2 19.5-15.1 23.6z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareWebAwesome;
+impl IconShape for FaSquareWebAwesome {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM235 177.6L288 224l52.2-10.4c-2.6-3.9-4.2-8.5-4.2-13.6c0-13.3 10.7-24 24-24s24 10.7 24 24c0 13-10.3 23.6-23.2 24L304.5 349.1c-5.2 11.5-16.6 18.9-29.2 18.9l-102.6 0c-12.6 0-24-7.4-29.2-18.9L87.2 224C74.3 223.6 64 213 64 200c0-13.3 10.7-24 24-24s24 10.7 24 24c0 5-1.5 9.7-4.2 13.6L160 224l53.1-46.4c-8.9-4.1-15-13.1-15-23.6c0-14.4 11.6-26 26-26s26 11.6 26 26c0 10.5-6.2 19.5-15.1 23.6z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareWhatsapp;
+impl IconShape for FaSquareWhatsapp {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M92.1 254.6c0 24.9 7 49.2 20.2 70.1l3.1 5-13.3 48.6L152 365.2l4.8 2.9c20.2 12 43.4 18.4 67.1 18.4h.1c72.6 0 133.3-59.1 133.3-131.8c0-35.2-15.2-68.3-40.1-93.2c-25-25-58-38.7-93.2-38.7c-72.7 0-131.8 59.1-131.9 131.8zM274.8 330c-12.6 1.9-22.4 .9-47.5-9.9c-36.8-15.9-61.8-51.5-66.9-58.7c-.4-.6-.7-.9-.8-1.1c-2-2.6-16.2-21.5-16.2-41c0-18.4 9-27.9 13.2-32.3c.3-.3 .5-.5 .7-.8c3.6-4 7.9-5 10.6-5c2.6 0 5.3 0 7.6 .1c.3 0 .5 0 .8 0c2.3 0 5.2 0 8.1 6.8c1.2 2.9 3 7.3 4.9 11.8c3.3 8 6.7 16.3 7.3 17.6c1 2 1.7 4.3 .3 6.9c-3.4 6.8-6.9 10.4-9.3 13c-3.1 3.2-4.5 4.7-2.3 8.6c15.3 26.3 30.6 35.4 53.9 47.1c4 2 6.3 1.7 8.6-1c2.3-2.6 9.9-11.6 12.5-15.5c2.6-4 5.3-3.3 8.9-2s23.1 10.9 27.1 12.9c.8 .4 1.5 .7 2.1 1c2.8 1.4 4.7 2.3 5.5 3.6c.9 1.9 .9 9.9-2.4 19.1c-3.3 9.3-19.1 17.7-26.7 18.8zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM148.1 393.9L64 416l22.5-82.2c-13.9-24-21.2-51.3-21.2-79.3C65.4 167.1 136.5 96 223.9 96c42.4 0 82.2 16.5 112.2 46.5c29.9 30 47.9 69.8 47.9 112.2c0 87.4-72.7 158.5-160.1 158.5c-26.6 0-52.7-6.7-75.8-19.3z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareXTwitter;
+impl IconShape for FaSquareXTwitter {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareXing;
+impl IconShape for FaSquareXing {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM93.8 320.2c-5.5 0-8.7-5.3-6-10.3l49.3-86.7c.1 0 .1-.1 0-.2l-31.4-54c-3-5.6 .2-10.1 6-10.1h46.6c5.2 0 9.5 2.9 12.9 8.7l31.9 55.3c-1.3 2.3-18 31.7-50.1 88.2c-3.5 6.2-7.7 9.1-12.6 9.1H93.8zm163.5-33.4v.2l65.5 119c2.8 5.1 .1 10.1-6 10.1H270.2c-5.5 0-9.7-2.9-12.9-8.7l-66-120.3c1.8-3.2 22.9-40.4 63.3-111.6c11.7-20.7 25.1-44.3 40.1-70.8c3.3-5.8 7.4-8.7 12.5-8.7h46.9c5.7-.1 8.8 4.7 6 10L257.3 286.8z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaSquareYoutube;
+impl IconShape for FaSquareYoutube {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M282 256.2l-95.2-54.1V310.3L282 256.2zM384 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zm14.4 136.1c7.6 28.6 7.6 88.2 7.6 88.2s0 59.6-7.6 88.1c-4.2 15.8-16.5 27.7-32.2 31.9C337.9 384 224 384 224 384s-113.9 0-142.2-7.6c-15.7-4.2-28-16.1-32.2-31.9C42 315.9 42 256.3 42 256.3s0-59.7 7.6-88.2c4.2-15.8 16.5-28.2 32.2-32.4C110.1 128 224 128 224 128s113.9 0 142.2 7.7c15.7 4.2 28 16.6 32.2 32.4z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSquarespace;
 impl IconShape for FaSquarespace {
     fn view_box(&self) -> &str {
@@ -9912,7 +10774,7 @@ impl IconShape for FaSquarespace {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaStackExchange;
 impl IconShape for FaStackExchange {
     fn view_box(&self) -> &str {
@@ -9939,7 +10801,7 @@ impl IconShape for FaStackExchange {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaStackOverflow;
 impl IconShape for FaStackOverflow {
     fn view_box(&self) -> &str {
@@ -9966,7 +10828,7 @@ impl IconShape for FaStackOverflow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaStackpath;
 impl IconShape for FaStackpath {
     fn view_box(&self) -> &str {
@@ -9993,7 +10855,7 @@ impl IconShape for FaStackpath {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaStaylinked;
 impl IconShape for FaStaylinked {
     fn view_box(&self) -> &str {
@@ -10020,34 +10882,7 @@ impl IconShape for FaStaylinked {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaSteamSquare;
-impl IconShape for FaSteamSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M185.2 356.5c7.7-18.5-1-39.7-19.6-47.4l-29.5-12.2c11.4-4.3 24.3-4.5 36.4.5 12.2 5.1 21.6 14.6 26.7 26.7 5 12.2 5 25.6-.1 37.7-10.5 25.1-39.4 37-64.6 26.5-11.6-4.8-20.4-13.6-25.4-24.2l28.5 11.8c18.6 7.8 39.9-.9 47.6-19.4zM400 32H48C21.5 32 0 53.5 0 80v160.7l116.6 48.1c12-8.2 26.2-12.1 40.7-11.3l55.4-80.2v-1.1c0-48.2 39.3-87.5 87.6-87.5s87.6 39.3 87.6 87.5c0 49.2-40.9 88.7-89.6 87.5l-79 56.3c1.6 38.5-29.1 68.8-65.7 68.8-31.8 0-58.5-22.7-64.5-52.7L0 319.2V432c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-99.7 222.5c-32.2 0-58.4-26.1-58.4-58.3s26.2-58.3 58.4-58.3 58.4 26.2 58.4 58.3-26.2 58.3-58.4 58.3zm.1-14.6c24.2 0 43.9-19.6 43.9-43.8 0-24.2-19.6-43.8-43.9-43.8-24.2 0-43.9 19.6-43.9 43.8 0 24.2 19.7 43.8 43.9 43.8z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSteamSymbol;
 impl IconShape for FaSteamSymbol {
     fn view_box(&self) -> &str {
@@ -10074,7 +10909,7 @@ impl IconShape for FaSteamSymbol {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSteam;
 impl IconShape for FaSteam {
     fn view_box(&self) -> &str {
@@ -10101,7 +10936,7 @@ impl IconShape for FaSteam {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaStickerMule;
 impl IconShape for FaStickerMule {
     fn view_box(&self) -> &str {
@@ -10128,7 +10963,7 @@ impl IconShape for FaStickerMule {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaStrava;
 impl IconShape for FaStrava {
     fn view_box(&self) -> &str {
@@ -10155,7 +10990,7 @@ impl IconShape for FaStrava {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaStripeS;
 impl IconShape for FaStripeS {
     fn view_box(&self) -> &str {
@@ -10182,7 +11017,7 @@ impl IconShape for FaStripeS {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaStripe;
 impl IconShape for FaStripe {
     fn view_box(&self) -> &str {
@@ -10209,7 +11044,34 @@ impl IconShape for FaStripe {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaStubber;
+impl IconShape for FaStubber {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M136.5 294.2l58.8 22.9c9.1-36.8 25.4-61.1 55-61.1c49.4 0 71.4 63.6 142.4 63.6c15.6 0 35.9-2.8 55.3-13.3V368c0 61.8-50.4 112-112.3 112H0l41.8-56L0 368l41.7-56L0 256.1l41.8-56L0 144.1 41.8 88 0 32H335.7C397.6 32 448 82.3 448 144.1v51.3c-9.2 36.3-25.9 60.6-55 60.6c-49.6 0-71.6-63.5-142.4-63.5c-35.9 0-95.2 14.6-114.1 101.6h0z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaStudiovinari;
 impl IconShape for FaStudiovinari {
     fn view_box(&self) -> &str {
@@ -10236,7 +11098,7 @@ impl IconShape for FaStudiovinari {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaStumbleuponCircle;
 impl IconShape for FaStumbleuponCircle {
     fn view_box(&self) -> &str {
@@ -10263,7 +11125,7 @@ impl IconShape for FaStumbleuponCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaStumbleupon;
 impl IconShape for FaStumbleupon {
     fn view_box(&self) -> &str {
@@ -10290,7 +11152,7 @@ impl IconShape for FaStumbleupon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSuperpowers;
 impl IconShape for FaSuperpowers {
     fn view_box(&self) -> &str {
@@ -10317,7 +11179,7 @@ impl IconShape for FaSuperpowers {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSupple;
 impl IconShape for FaSupple {
     fn view_box(&self) -> &str {
@@ -10344,7 +11206,7 @@ impl IconShape for FaSupple {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSuse;
 impl IconShape for FaSuse {
     fn view_box(&self) -> &str {
@@ -10365,13 +11227,13 @@ impl IconShape for FaSuse {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M471.08 102.66s-.3 18.3-.3 20.3c-9.1-3-74.4-24.1-135.7-26.3-51.9-1.8-122.8-4.3-223 57.3-19.4 12.4-73.9 46.1-99.6 109.7C7 277-.12 307 7 335.06a111 111 0 0 0 16.5 35.7c17.4 25 46.6 41.6 78.1 44.4 44.4 3.9 78.1-16 90-53.3 8.2-25.8 0-63.6-31.5-82.9-25.6-15.7-53.3-12.1-69.2-1.6-13.9 9.2-21.8 23.5-21.6 39.2.3 27.8 24.3 42.6 41.5 42.6a49 49 0 0 0 15.8-2.7c6.5-1.8 13.3-6.5 13.3-14.9 0-12.1-11.6-14.8-16.8-13.9-2.9.5-4.5 2-11.8 2.4-2-.2-12-3.1-12-14V316c.2-12.3 13.2-18 25.5-16.9 32.3 2.8 47.7 40.7 28.5 65.7-18.3 23.7-76.6 23.2-99.7-20.4-26-49.2 12.7-111.2 87-98.4 33.2 5.7 83.6 35.5 102.4 104.3h45.9c-5.7-17.6-8.9-68.3 42.7-68.3 56.7 0 63.9 39.9 79.8 68.3H460c-12.8-18.3-21.7-38.7-18.9-55.8 5.6-33.8 39.7-18.4 82.4-17.4 66.5.4 102.1-27 103.1-28 3.7-3.1 6.5-15.8 7-17.7 1.3-5.1-3.2-2.4-3.2-2.4-8.7 5.2-30.5 15.2-50.9 15.6-25.3.5-76.2-25.4-81.6-28.2-.3-.4.1 1.2-11-25.5 88.4 58.3 118.3 40.5 145.2 21.7.8-.6 4.3-2.9 3.6-5.7-13.8-48.1-22.4-62.7-34.5-69.6-37-21.6-125-34.7-129.2-35.3.1-.1-.9-.3-.9.7zm60.4 72.8a37.54 37.54 0 0 1 38.9-36.3c33.4 1.2 48.8 42.3 24.4 65.2-24.2 22.7-64.4 4.6-63.3-28.9zm38.6-25.3a26.27 26.27 0 1 0 25.4 27.2 26.19 26.19 0 0 0-25.4-27.2zm4.3 28.8c-15.4 0-15.4-15.6 0-15.6s15.4 15.64 0 15.64z",
+                d: "M593.1 192.6A10.4 10.4 0 1 1 604.5 210a10.4 10.4 0 1 1 -11.4-17.4zm-47.1 12.2a38.5 38.5 0 1 1 75-17.6 38.5 38.5 0 1 1 -75 17.6zM433.7 336.7c3.2 4.6 5.8 9 7.3 13.4c1 3.1 2.4 7.3 5.5 8.9c.2 .1 .3 .2 .5 .2c5.7 2.1 20.3 1.7 20.3 1.7h26.8c2.3 0 22.4 0 21.9-2.3c-2.4-10.8-14.9-12.7-24.4-18.3c-8.7-5.2-17-11.1-20.8-21.3c-2-5.2-.8-17.4 2.6-21.8c2.5-3.2 6.1-5.3 10-6.2c4.3-.9 8.8-.1 13.1 .3c5.3 .5 10.6 1.5 15.9 2.2c10.3 1.3 20.6 1.9 31 1.6c17.1-.5 34.2-3.2 50.4-8.7c11.3-3.8 22.4-8.9 32-16.1c10.9-8.1 8.1-7.4-3-6.2c-13.3 1.4-26.6 1.6-39.9 .8c-12.4-.7-24.7-2.2-35.9-7.9c-8.8-4.6-16.4-9.1-23.4-16.2c-1-1.1-1.7-4.2 .2-6.2c1.9-1.9 5.8-.8 7 .2c12.2 10.2 30.5 18.6 49.3 19.5c10.2 .5 20.1 .7 30.4 .3c5.1-.2 12.8-.2 17.9-.3c2.6 0 9.8 .7 11.2-2.1c.4-.8 .4-1.8 .3-2.7c-1.5-40.9-4.5-86.9-47.3-106.5c-31.9-14.6-79.7-37.2-99.9-46.6c-4.7-2.2-10.2 1.3-10.2 6.5c0 13.6 .7 33.3 .7 51.1c-9.7-9.9-26-16.1-38.4-21.8c-14.1-6.5-28.7-12-43.5-16.6c-29.8-9.2-60.7-14.9-91.7-18c-35.2-3.5-71-1.8-105.7 5.3C147 115.1 90.8 142.6 48.2 182.7C22.1 207.3 1.6 242.4 .2 277.9c-2 50.3 12.1 77.3 38 105.2c41.3 44.4 130.2 50.6 166.2-2c16.2-23.7 19.7-55.8 8-82c-11.8-26.2-38.8-45.1-67.4-46c-22.2-.7-45.9 10.6-54.5 31.1c-6.5 15.7-2.8 35.1 9 47.3c4.6 4.8 10.9 8.7 17.7 7.1c4-.9 7.4-3.9 8-8c.9-6-4.4-9.9-7.6-14.5c-5.8-8.3-4.7-20.9 2.7-27.9c6.2-6 15.3-7.8 23.9-7.7c8 0 16.2 1.4 23.1 5.5c9.7 5.7 16.2 16.2 18.4 27.2c6.7 33-20.2 59.9-56.6 62c-18.6 1.1-37.6-3.8-52.1-15.5C40.1 329.9 31.1 269.4 73.2 237c40-30.7 90.4-22.8 120.2-6.8c23.8 12.8 41.5 33.6 55 56.7c6.7 11.6 12.5 23.7 17.8 36.1c5.1 11.8 9.9 23.8 20.2 32.5c6.8 5.8 15.2 5.6 24.1 5.6h50.8c6.9 0 5.2-4.6 2.2-7.7c-6.7-6.9-16.4-8.4-25.4-10.9c-20.5-5.6-18.4-32.8-12.7-32.8c18.3 0 18.9 .6 34.9 .3c23.2-.3 30.2-1.7 48.3 5c9.7 3.6 19 13.1 25.1 21.7z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSwift;
 impl IconShape for FaSwift {
     fn view_box(&self) -> &str {
@@ -10398,7 +11260,7 @@ impl IconShape for FaSwift {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaSymfony;
 impl IconShape for FaSymfony {
     fn view_box(&self) -> &str {
@@ -10425,11 +11287,11 @@ impl IconShape for FaSymfony {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaTeamspeak;
 impl IconShape for FaTeamspeak {
     fn view_box(&self) -> &str {
-        "0 0 512 512"
+        "0 0 576 512"
     }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
@@ -10446,13 +11308,13 @@ impl IconShape for FaTeamspeak {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M244.2 346.79c2.4-12.3-12-30-32.4-48.7-20.9-19.2-48.2-39.1-63.4-46.6-21.7-12-41.7-1.8-46.3 22.7-5 26.2 0 51.4 14.5 73.9 10.2 15.5 25.4 22.7 43.4 24 11.6.6 52.5 2.2 61.7-1 11.9-4.3 20.1-11.8 22.5-24.3zm205 20.8a5.22 5.22 0 0 0-8.3 2.4c-8 25.4-44.7 112.5-172.1 121.5-149.7 10.5 80.3 43.6 145.4-6.4 22.7-17.4 47.6-35 46.6-85.4-.4-10.1-4.9-26.69-11.6-32.1zm62-122.4c-.3-18.9-8.6-33.4-26-42.2-2.9-1.3-5-2.7-5.9-6.4A222.64 222.64 0 0 0 438.9 103c-1.1-1.5-3.5-3.2-2.2-5 8.5-11.5-.3-18-7-24.4Q321.4-31.11 177.4 13.09c-40.1 12.3-73.9 35.6-102 67.4-4 4.3-6.7 9.1-3 14.5 3 4 1.3 6.2-1 9.3C51.6 132 38.2 162.59 32.1 196c-.7 4.3-2.9 6-6.4 7.8-14.2 7-22.5 18.5-24.9 34L0 264.29v20.9c0 30.8 21 50.4 51.8 49 7.7-.3 11.7-4.3 12-11.5 2-77.5-2.4-95.4 3.7-125.8C92.1 72.39 234.3 5 345.3 65.39 411.4 102 445.7 159 447.6 234.79c.8 28.2 0 56.5 0 84.6 0 7 2.2 12.5 9.4 14.2 24.1 5 49.2-12 53.2-36.7 2.9-17.1 1-34.5 1-51.7zm-159.6 131.5c36.5 2.8 59.3-28.5 58.4-60.5-2.1-45.2-66.2-16.5-87.8-8-73.2 28.1-45 54.9-22.2 60.8z",
+                d: "M152.8 37.2c-32.2 38.1-56.1 82.6-69.9 130.5c0 .2-.1 .3-.1 .5C43.5 184.4 16 223 16 268c0 59.6 48.4 108 108 108s108-48.4 108-108c0-53.5-38.9-97.9-90-106.5c15.7-41.8 40.4-79.6 72.3-110.7c1.8-1.6 4-2.6 6.3-3.1c37.2-11.5 76.7-13.3 114.8-5.2C454.7 67.6 534 180.7 517.1 301.3c-8.4 62.6-38.6 112.7-87.7 151.4c-50.1 39.7-107.5 54.3-170.2 52.2l-24-1c12.4 2.8 25 4.9 37.6 6.3c40.7 4.2 81.4 2.1 120.1-12.5c94-35.5 149.3-102.3 162.9-202.5c4.8-52.6-5.8-105.4-30.8-152C454.6 11.3 290.8-38.4 159 32c-2.4 1.4-4.5 3.1-6.3 5.2zM309.4 433.9c-2.1 11.5-4.2 21.9-14.6 31.3c53.2-1 123.2-29.2 161.8-97.1c39.7-69.9 37.6-139.9-6.3-207.8C413.8 105 360.5 77.9 293.7 73.7c1.5 2.3 3.2 4.4 5.2 6.3l5.2 6.3c25.1 31.3 37.6 67.9 42.8 107.5c2.1 15.7-1 30.3-13.6 41.8c-4.2 3.1-5.2 6.3-4.2 10.4l7.3 17.7L365.7 318c5.2 11.5 4.2 19.8-6.3 28.2c-3.2 2.5-6.7 4.6-10.4 6.3l-18.8 8.4 3.1 13.6c3.1 6.3 1 12.5-3.1 17.7c-2.5 2.4-3.8 5.9-3.1 9.4c2.1 11.5-2.1 19.8-12.5 25.1c-2.1 1-4.2 5.2-5.2 7.3zm-133.6-3.1c16.7 11.5 34.5 20.9 53.2 26.1c24 5.2 41.8-6.3 44.9-30.3c1-8.4 5.2-14.6 12.5-17.7c7.3-4.2 8.4-7.3 2.1-13.6l-9.4-8.4 13.6-4.2c6.3-2.1 7.3-5.2 5.2-11.5c-1.4-3-2.4-6.2-3.1-9.4c-3.1-14.6-2.1-15.7 11.5-18.8c8.4-3.1 15.7-6.3 21.9-12.5c3.1-2.1 3.1-4.2 1-8.4l-16.7-30.3c-1-1.9-2.1-3.8-3.1-5.7c-6.4-11.7-13-23.6-15.7-37.1c-2.1-9.4-1-17.7 8.4-24c5.2-4.2 8.4-9.4 8.4-16.7c-.4-10.1-1.5-20.3-3.1-30.3c-6.3-37.6-23-68.9-51.2-95c-5.2-4.2-9.4-6.3-16.7-4.2L203.9 91.5c2 1.2 4 2.4 6 3.6l0 0c6.3 3.7 12.2 7.3 17 12.1c30.3 26.1 41.8 61.6 45.9 100.2c1 8.4 0 16.7-7.3 21.9c-8.4 5.2-10.4 12.5-7.3 20.9c4.9 13.2 10.4 26 16.7 38.6L291.6 318c-6.3 8.4-13.6 11.5-21.9 14.6c-12.5 3.1-14.6 7.3-10.4 20.9c.6 1.5 1.4 2.8 2.1 4.2c2.1 5.2 1 8.4-4.2 10.4l-12.5 3.1 5.2 4.2 4.2 4.2c4.2 5.2 4.2 8.4-2.1 10.4c-7.3 4.2-11.5 9.4-11.5 17.7c0 12.5-7.3 19.8-18.8 24c-3.8 1-7.6 1.5-11.5 1l-34.5-2.1z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaTelegram;
 impl IconShape for FaTelegram {
     fn view_box(&self) -> &str {
@@ -10479,7 +11341,7 @@ impl IconShape for FaTelegram {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaTencentWeibo;
 impl IconShape for FaTencentWeibo {
     fn view_box(&self) -> &str {
@@ -10506,7 +11368,7 @@ impl IconShape for FaTencentWeibo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaTheRedYeti;
 impl IconShape for FaTheRedYeti {
     fn view_box(&self) -> &str {
@@ -10533,7 +11395,7 @@ impl IconShape for FaTheRedYeti {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaThemeco;
 impl IconShape for FaThemeco {
     fn view_box(&self) -> &str {
@@ -10560,7 +11422,7 @@ impl IconShape for FaThemeco {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaThemeisle;
 impl IconShape for FaThemeisle {
     fn view_box(&self) -> &str {
@@ -10587,7 +11449,7 @@ impl IconShape for FaThemeisle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaThinkPeaks;
 impl IconShape for FaThinkPeaks {
     fn view_box(&self) -> &str {
@@ -10614,7 +11476,34 @@ impl IconShape for FaThinkPeaks {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaThreads;
+impl IconShape for FaThreads {
+    fn view_box(&self) -> &str {
+        "0 0 448 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M331.5 235.7c2.2 .9 4.2 1.9 6.3 2.8c29.2 14.1 50.6 35.2 61.8 61.4c15.7 36.5 17.2 95.8-30.3 143.2c-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2c-32.3-41-48.9-98.1-49.5-169.6V256v-.2C17 184.3 33.6 127.2 65.9 86.2C102.2 40.1 156.2 16.5 226.4 16h.3c70.3 .5 124.9 24 162.3 69.9c18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4c-29.2-35.8-73-54.2-130.5-54.6c-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3c28 35.6 71.2 53.9 128.2 54.4c51.4-.4 85.4-12.6 113.7-40.9c32.3-32.2 31.7-71.8 21.4-95.9c-6.1-14.2-17.1-26-31.9-34.9c-3.7 26.9-11.8 48.3-24.7 64.8c-17.1 21.8-41.4 33.6-72.7 35.3c-23.6 1.3-46.3-4.4-63.9-16c-20.8-13.8-33-34.8-34.3-59.3c-2.5-48.3 35.7-83 95.2-86.4c21.1-1.2 40.9-.3 59.2 2.8c-2.4-14.8-7.3-26.6-14.6-35.2c-10-11.7-25.6-17.7-46.2-17.8H227c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6 .4 99.9 39.5 103.7 107.7l-.2 .2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3c25.6-1.4 54.6-11.4 59.5-73.2c-13.2-2.9-27.8-4.4-43.4-4.4c-4.8 0-9.6 .1-14.4 .4c-42.9 2.4-57.2 23.2-56.2 41.8l-.1 .1z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaTiktok;
 impl IconShape for FaTiktok {
     fn view_box(&self) -> &str {
@@ -10641,7 +11530,7 @@ impl IconShape for FaTiktok {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaTradeFederation;
 impl IconShape for FaTradeFederation {
     fn view_box(&self) -> &str {
@@ -10668,7 +11557,7 @@ impl IconShape for FaTradeFederation {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaTrello;
 impl IconShape for FaTrello {
     fn view_box(&self) -> &str {
@@ -10695,34 +11584,7 @@ impl IconShape for FaTrello {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaTumblrSquare;
-impl IconShape for FaTumblrSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-82.3 364.2c-8.5 9.1-31.2 19.8-60.9 19.8-75.5 0-91.9-55.5-91.9-87.9v-90h-29.7c-3.4 0-6.2-2.8-6.2-6.2v-42.5c0-4.5 2.8-8.5 7.1-10 38.8-13.7 50.9-47.5 52.7-73.2.5-6.9 4.1-10.2 10-10.2h44.3c3.4 0 6.2 2.8 6.2 6.2v72h51.9c3.4 0 6.2 2.8 6.2 6.2v51.1c0 3.4-2.8 6.2-6.2 6.2h-52.1V321c0 21.4 14.8 33.5 42.5 22.4 3-1.2 5.6-2 8-1.4 2.2.5 3.6 2.1 4.6 4.9l13.8 40.2c1 3.2 2 6.7-.3 9.1z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaTumblr;
 impl IconShape for FaTumblr {
     fn view_box(&self) -> &str {
@@ -10749,7 +11611,7 @@ impl IconShape for FaTumblr {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaTwitch;
 impl IconShape for FaTwitch {
     fn view_box(&self) -> &str {
@@ -10776,34 +11638,7 @@ impl IconShape for FaTwitch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaTwitterSquare;
-impl IconShape for FaTwitterSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaTwitter;
 impl IconShape for FaTwitter {
     fn view_box(&self) -> &str {
@@ -10830,7 +11665,7 @@ impl IconShape for FaTwitter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaTypo3;
 impl IconShape for FaTypo3 {
     fn view_box(&self) -> &str {
@@ -10857,7 +11692,7 @@ impl IconShape for FaTypo3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaUber;
 impl IconShape for FaUber {
     fn view_box(&self) -> &str {
@@ -10884,11 +11719,11 @@ impl IconShape for FaUber {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaUbuntu;
 impl IconShape for FaUbuntu {
     fn view_box(&self) -> &str {
-        "0 0 496 512"
+        "0 0 576 512"
     }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
@@ -10905,13 +11740,13 @@ impl IconShape for FaUbuntu {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm52.7 93c8.8-15.2 28.3-20.5 43.5-11.7 15.3 8.8 20.5 28.3 11.7 43.6-8.8 15.2-28.3 20.5-43.5 11.7-15.3-8.9-20.5-28.4-11.7-43.6zM87.4 287.9c-17.6 0-31.9-14.3-31.9-31.9 0-17.6 14.3-31.9 31.9-31.9 17.6 0 31.9 14.3 31.9 31.9 0 17.6-14.3 31.9-31.9 31.9zm28.1 3.1c22.3-17.9 22.4-51.9 0-69.9 8.6-32.8 29.1-60.7 56.5-79.1l23.7 39.6c-51.5 36.3-51.5 112.5 0 148.8L172 370c-27.4-18.3-47.8-46.3-56.5-79zm228.7 131.7c-15.3 8.8-34.7 3.6-43.5-11.7-8.8-15.3-3.6-34.8 11.7-43.6 15.2-8.8 34.7-3.6 43.5 11.7 8.8 15.3 3.6 34.8-11.7 43.6zm.3-69.5c-26.7-10.3-56.1 6.6-60.5 35-5.2 1.4-48.9 14.3-96.7-9.4l22.5-40.3c57 26.5 123.4-11.7 128.9-74.4l46.1.7c-2.3 34.5-17.3 65.5-40.3 88.4zm-5.9-105.3c-5.4-62-71.3-101.2-128.9-74.4l-22.5-40.3c47.9-23.7 91.5-10.8 96.7-9.4 4.4 28.3 33.8 45.3 60.5 35 23.1 22.9 38 53.9 40.2 88.5l-46 .6z",
+                d: "M469.2 75A75.6 75.6 0 1 0 317.9 75a75.6 75.6 0 1 0 151.2 0zM154.2 240.7A75.6 75.6 0 1 0 3 240.7a75.6 75.6 0 1 0 151.2 0zM57 346C75.6 392.9 108 433 150 461.1s91.5 42.6 142 41.7c-14.7-18.6-22.9-41.5-23.2-65.2c-6.8-.9-13.3-2.1-19.5-3.4c-26.8-5.7-51.9-17.3-73.6-34s-39.3-38.1-51.7-62.5c-20.9 9.9-44.5 12.8-67.1 8.2zm395.1 89.8a75.6 75.6 0 1 0 -151.2 0 75.6 75.6 0 1 0 151.2 0zM444 351.6c18.5 14.8 31.6 35.2 37.2 58.2c33.3-41.3 52.6-92.2 54.8-145.2s-12.5-105.4-42.2-149.4c-8.6 21.5-24 39.6-43.8 51.6c15.4 28.6 22.9 60.8 21.9 93.2s-10.7 64-28 91.6zM101.1 135.4c12.4 2.7 24.3 7.5 35.1 14.3c16.6-24.2 38.9-44.1 64.8-58S255.8 70.4 285.2 70c.2-5.9 .9-11.9 2-17.7c3.6-16.7 11.1-32.3 21.8-45.5c-47.7-3.8-95.4 6-137.6 28.5S94.3 91.7 70.8 133.4c2.7-.2 5.3-.3 8-.3c7.5 0 15 .8 22.4 2.3z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaUikit;
 impl IconShape for FaUikit {
     fn view_box(&self) -> &str {
@@ -10938,7 +11773,7 @@ impl IconShape for FaUikit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaUmbraco;
 impl IconShape for FaUmbraco {
     fn view_box(&self) -> &str {
@@ -10965,7 +11800,7 @@ impl IconShape for FaUmbraco {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaUncharted;
 impl IconShape for FaUncharted {
     fn view_box(&self) -> &str {
@@ -10992,7 +11827,7 @@ impl IconShape for FaUncharted {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaUniregistry;
 impl IconShape for FaUniregistry {
     fn view_box(&self) -> &str {
@@ -11019,7 +11854,7 @@ impl IconShape for FaUniregistry {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaUnity;
 impl IconShape for FaUnity {
     fn view_box(&self) -> &str {
@@ -11046,7 +11881,7 @@ impl IconShape for FaUnity {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaUnsplash;
 impl IconShape for FaUnsplash {
     fn view_box(&self) -> &str {
@@ -11073,7 +11908,7 @@ impl IconShape for FaUnsplash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaUntappd;
 impl IconShape for FaUntappd {
     fn view_box(&self) -> &str {
@@ -11100,7 +11935,7 @@ impl IconShape for FaUntappd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaUps;
 impl IconShape for FaUps {
     fn view_box(&self) -> &str {
@@ -11127,7 +11962,34 @@ impl IconShape for FaUps {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaUpwork;
+impl IconShape for FaUpwork {
+    fn view_box(&self) -> &str {
+        "0 0 641 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M494.7 295.6c-50.3 0-83.5-38.9-92.8-53.9c11.9-95.3 46.8-125.4 92.8-125.4c45.5 0 80.9 36.4 80.9 89.7s-35.4 89.7-80.9 89.7zm0-237.8c-81.9 0-127.8 53.4-141 108.4c-14.9-28-25.9-65.5-34.5-100.3H206v141c0 51.1-23.3 89-68.8 89s-71.6-37.8-71.6-89l.5-141H.8v141c0 41.1 13.3 78.4 37.6 105.1c25 27.5 59.2 41.8 98.8 41.8c78.8 0 133.8-60.4 133.8-146.9V112.1c8.2 31.2 27.8 91.1 65.3 143.6l-35 199.4h66.4l23.1-141.3c7.6 6.3 15.7 12 24.2 17c22.2 14 47.7 21.9 73.9 22.8c0 0 4 .2 6.1 .2c81.2 0 145.9-62.9 145.9-147.8s-64.8-148.1-146-148.1z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaUsb;
 impl IconShape for FaUsb {
     fn view_box(&self) -> &str {
@@ -11154,7 +12016,7 @@ impl IconShape for FaUsb {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaUsps;
 impl IconShape for FaUsps {
     fn view_box(&self) -> &str {
@@ -11181,11 +12043,11 @@ impl IconShape for FaUsps {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaUssunnah;
 impl IconShape for FaUssunnah {
     fn view_box(&self) -> &str {
-        "0 0 512 512"
+        "0 0 482 512"
     }
     fn xmlns(&self) -> &str {
         "http://www.w3.org/2000/svg"
@@ -11202,13 +12064,13 @@ impl IconShape for FaUssunnah {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M156.8 285.1l5.7 14.4h-8.2c-1.3-3.2-3.1-7.7-3.8-9.5-2.5-6.3-1.1-8.4 0-10 1.9-2.7 3.2-4.4 3.6-5.2 0 2.2.8 5.7 2.7 10.3zm297.3 18.8c-2.1 13.8-5.7 27.1-10.5 39.7l43 23.4-44.8-18.8c-5.3 13.2-12 25.6-19.9 37.2l34.2 30.2-36.8-26.4c-8.4 11.8-18 22.6-28.7 32.3l24.9 34.7-28.1-31.8c-11 9.6-23.1 18-36.1 25.1l15.7 37.2-19.3-35.3c-13.1 6.8-27 12.1-41.6 15.9l6.7 38.4-10.5-37.4c-14.3 3.4-29.2 5.3-44.5 5.4L256 512l-1.9-38.4c-15.3-.1-30.2-2-44.5-5.3L199 505.6l6.7-38.2c-14.6-3.7-28.6-9.1-41.7-15.8l-19.2 35.1 15.6-37c-13-7-25.2-15.4-36.2-25.1l-27.9 31.6 24.7-34.4c-10.7-9.7-20.4-20.5-28.8-32.3l-36.5 26.2 33.9-29.9c-7.9-11.6-14.6-24.1-20-37.3l-44.4 18.7L67.8 344c-4.8-12.7-8.4-26.1-10.5-39.9l-51 9 50.3-14.2c-1.1-8.5-1.7-17.1-1.7-25.9 0-4.7.2-9.4.5-14.1L0 256l56-2.8c1.3-13.1 3.8-25.8 7.5-38.1L6.4 199l58.9 10.4c4-12 9.1-23.5 15.2-34.4l-55.1-30 58.3 24.6C90 159 97.2 149.2 105.3 140L55.8 96.4l53.9 38.7c8.1-8.6 17-16.5 26.6-23.6l-40-55.6 45.6 51.6c9.5-6.6 19.7-12.3 30.3-17.2l-27.3-64.9 33.8 62.1c10.5-4.4 21.4-7.9 32.7-10.4L199 6.4l19.5 69.2c11-2.1 22.3-3.2 33.8-3.4L256 0l3.6 72.2c11.5.2 22.8 1.4 33.8 3.5L313 6.4l-12.4 70.7c11.3 2.6 22.2 6.1 32.6 10.5l33.9-62.2-27.4 65.1c10.6 4.9 20.7 10.7 30.2 17.2l45.8-51.8-40.1 55.9c9.5 7.1 18.4 15 26.5 23.6l54.2-38.9-49.7 43.9c8 9.1 15.2 18.9 21.5 29.4l58.7-24.7-55.5 30.2c6.1 10.9 11.1 22.3 15.1 34.3l59.3-10.4-57.5 16.2c3.7 12.2 6.2 24.9 7.5 37.9L512 256l-56 2.8c.3 4.6.5 9.3.5 14.1 0 8.7-.6 17.3-1.6 25.8l50.7 14.3-51.5-9.1zm-21.8-31c0-97.5-79-176.5-176.5-176.5s-176.5 79-176.5 176.5 79 176.5 176.5 176.5 176.5-79 176.5-176.5zm-24 0c0 84.3-68.3 152.6-152.6 152.6s-152.6-68.3-152.6-152.6 68.3-152.6 152.6-152.6 152.6 68.3 152.6 152.6zM195 241c0 2.1 1.3 3.8 3.6 5.1 3.3 1.9 6.2 4.6 8.2 8.2 2.8-5.7 4.3-9.5 4.3-11.2 0-2.2-1.1-4.4-3.2-7-2.1-2.5-3.2-5.2-3.3-7.7-6.5 6.8-9.6 10.9-9.6 12.6zm-40.7-19c0 2.1 1.3 3.8 3.6 5.1 3.5 1.9 6.2 4.6 8.2 8.2 2.8-5.7 4.3-9.5 4.3-11.2 0-2.2-1.1-4.4-3.2-7-2.1-2.5-3.2-5.2-3.3-7.7-6.5 6.8-9.6 10.9-9.6 12.6zm-19 0c0 2.1 1.3 3.8 3.6 5.1 3.3 1.9 6.2 4.6 8.2 8.2 2.8-5.7 4.3-9.5 4.3-11.2 0-2.2-1.1-4.4-3.2-7-2.1-2.5-3.2-5.2-3.3-7.7-6.4 6.8-9.6 10.9-9.6 12.6zm204.9 87.9c-8.4-3-8.7-6.8-8.7-15.6V182c-8.2 12.5-14.2 18.6-18 18.6 6.3 14.4 9.5 23.9 9.5 28.3v64.3c0 2.2-2.2 6.5-4.7 6.5h-18c-2.8-7.5-10.2-26.9-15.3-40.3-2 2.5-7.2 9.2-10.7 13.7 2.4 1.6 4.1 3.6 5.2 6.3 2.6 6.7 6.4 16.5 7.9 20.2h-9.2c-3.9-10.4-9.6-25.4-11.8-31.1-2 2.5-7.2 9.2-10.7 13.7 2.4 1.6 4.1 3.6 5.2 6.3.8 2 2.8 7.3 4.3 10.9H256c-1.5-4.1-5.6-14.6-8.4-22-2 2.5-7.2 9.2-10.7 13.7 2.5 1.6 4.3 3.6 5.2 6.3.2.6.5 1.4.6 1.7H225c-4.6-13.9-11.4-27.7-11.4-34.1 0-2.2.3-5.1 1.1-8.2-8.8 10.8-14 15.9-14 25 0 7.5 10.4 28.3 10.4 33.3 0 1.7-.5 3.3-1.4 4.9-9.6-12.7-15.5-20.7-18.8-20.7h-12l-11.2-28c-3.8-9.6-5.7-16-5.7-18.8 0-3.8.5-7.7 1.7-12.2-1 1.3-3.7 4.7-5.5 7.1-.8-2.1-3.1-7.7-4.6-11.5-2.1 2.5-7.5 9.1-11.2 13.6.9 2.3 3.3 8.1 4.9 12.2-2.5 3.3-9.1 11.8-13.6 17.7-4 5.3-5.8 13.3-2.7 21.8 2.5 6.7 2 7.9-1.7 14.1H191c5.5 0 14.3 14 15.5 22 13.2-16 15.4-19.6 16.8-21.6h107c3.9 0 7.2-1.9 9.9-5.8zm20.1-26.6V181.7c-9 12.5-15.9 18.6-20.7 18.6 7.1 14.4 10.7 23.9 10.7 28.3v66.3c0 17.5 8.6 20.4 24 20.4 8.1 0 12.5-.8 13.7-2.7-4.3-1.6-7.6-2.5-9.9-3.3-8.1-3.2-17.8-7.4-17.8-26z",
+                d: "M481.9 268.1A240.9 240.9 0 1 1 .1 268a240.9 240.9 0 1 1 481.9 0zM24.5 268a216.5 216.5 0 1 0 432.9 0A216.5 216.5 0 1 0 24.5 268zm385.9 63.3c-12.7 0-21.6-1.9-26.7-5.9c-5.5-4.3-8.2-12.3-8.2-23.8V205.1c0-6.5-5.2-20.2-15.7-41.2c7 0 17-9.1 30-27.2V284.5c0 11 2.4 19.4 7 25.3c3.7 4.7 10.1 8.9 19 12.6c1.2 .4 2.6 .9 4.1 1.4c2.9 .9 6.3 2.1 10.3 3.5c-1.8 2.7-8.3 4-19.9 4zm-219 0c-1.3 2.4-3.6 5.5-6.8 9.4l-18.5 22.5c-1-6.1-4-13-9.3-20.6s-9.7-11.4-13.4-11.4h-8.3H53.6c3.3-5.3 4.9-8.8 4.9-10.8c0-2-.8-5.3-2.4-9.7c-1.5-4.4-2.4-8.5-2.4-12.4c0-7.4 2.1-13.9 6.3-19.3L80 253.4l-7.1-17.7L89 215.9l6.7 16.8 8-10.3c-1.8 6.4-2.6 12.3-2.6 17.7c0 4.2 2.8 13.3 8.3 27.3l16.2 40.7H135h8 .3c2.8 .4 7.7 5 14.6 13.9c1.8 2.4 4.3 5.8 7.7 10.2c1.4 1.9 2.9 3.9 4.6 6.1c1.3-2.3 2-4.6 2-7.1c0-2-1.3-6.6-4-13.4L163 304.1c-4-10.6-6.1-17.7-6.1-21.3c0-6.3 1.9-12.3 5.8-17.9c.5-.6 1-1.3 1.5-1.9c4.4-5.6 8.8-11.1 13.3-16.5c-1.1 4.6-1.7 8.7-1.7 12c0 3.7 1.7 9.9 5.1 18.8l7.9 20.4c1.9 4.7 3 8.2 3.7 10.3h17.6 8.3l-.9-2.6c-1.4-3.9-4-7-7.7-9.3l15.6-20.1 12.3 32h13.4L245 292.2c-1.5-3.9-4-7-7.7-9.3L253 262.8 270.3 308h13.4l-11.4-29.4c-1.5-3.9-4-7-7.7-9.3l15.6-20L302.6 308h10.3 8.3 7.6c1.5 0 3-1.1 4.5-3.1s2.2-4.1 2.2-6.3V205.1c0-6.5-4.5-20.3-13.7-41.2c5.4 0 14.1-9.1 26.2-27.2V300.2c0 7.2 .6 12 1.7 14.6c1.6 3.4 5.3 6.2 11.1 8.2c-3.9 5.6-8.7 8.5-14.5 8.5H321.1h-8.3H210.5h-19zM93.4 287.3c-2.7-6.7-4-11.7-4-15c-.6 1.2-2.4 3.7-5.4 7.6c-1.4 1.9-2.2 3.7-2.2 5.3c0 2.6 .8 5.7 2.2 9.3l5.6 13.9h0c5 0 9 0 11.9-.1l-8.2-20.9zm13.5-72.4c-3-5.2-7-9.3-11.9-11.9c-3.5-1.9-5.3-4.3-5.3-7.4c0-2.4 4.6-8.6 14-18.3c.2 3.8 1.9 7.6 4.9 11.2c3.1 3.6 4.6 7 4.6 10.1c0 2.6-2.1 8-6.2 16.3zm-27.6 0c-3-5.2-7-9.3-11.9-11.9c-3.5-1.9-5.3-4.3-5.3-7.4c0-2.4 4.6-8.6 14-18.3c.2 3.8 1.9 7.6 4.9 11.2c3.1 3.6 4.6 7 4.6 10.1c0 2.6-2.1 8-6.2 16.3zm87 27.5c-3-5.2-7-9.3-11.9-11.9c-3.5-1.9-5.3-4.3-5.3-7.4c0-2.4 4.6-8.6 14-18.3c.2 3.8 1.9 7.6 4.9 11.2c3.1 3.6 4.6 7 4.6 10.1c0 2.6-2.1 8-6.2 16.3z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaVaadin;
 impl IconShape for FaVaadin {
     fn view_box(&self) -> &str {
@@ -11235,7 +12097,7 @@ impl IconShape for FaVaadin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaViacoin;
 impl IconShape for FaViacoin {
     fn view_box(&self) -> &str {
@@ -11262,34 +12124,7 @@ impl IconShape for FaViacoin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaViadeoSquare;
-impl IconShape for FaViadeoSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM280.7 381.2c-42.4 46.2-120 46.6-162.4 0-68-73.6-19.8-196.1 81.2-196.1 13.3 0 26.6 2.1 39.1 6.7-4.3 8.4-7.3 17.6-8.4 27.1-9.7-4.1-20.2-6-30.7-6-48.8 0-84.6 41.7-84.6 88.9 0 43 28.5 78.7 69.5 85.9 61.5-24 72.9-117.6 72.9-175 0-7.3 0-14.8-.6-22.1-11.2-32.9-26.6-64.6-44.2-94.5 27.1 18.3 41.9 62.5 44.2 94.1v.4c7.7 22.5 11.8 46.2 11.8 70 0 54.1-21.9 99-68.3 128.2l-2.4.2c50 1 86.2-38.6 86.2-87.2 0-12.2-2.1-24.3-6.9-35.7 9.5-1.9 18.5-5.6 26.4-10.5 15.3 36.6 12.6 87.3-22.8 125.6zM309 233.7c-13.3 0-25.1-7.1-34.4-16.1 21.9-12 49.6-30.7 62.3-53 1.5-3 4.1-8.6 4.5-12-12.5 27.9-44.2 49.8-73.9 56.7-4.7-7.3-7.5-15.5-7.5-24.3 0-10.3 5.2-24.1 12.9-31.6 21.6-20.5 53-8.5 72.4-50 32.5 46.2 13.1 130.3-36.3 130.3z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaViadeo;
 impl IconShape for FaViadeo {
     fn view_box(&self) -> &str {
@@ -11316,7 +12151,7 @@ impl IconShape for FaViadeo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaViber;
 impl IconShape for FaViber {
     fn view_box(&self) -> &str {
@@ -11343,34 +12178,7 @@ impl IconShape for FaViber {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaVimeoSquare;
-impl IconShape for FaVimeoSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-16.2 149.6c-1.4 31.1-23.2 73.8-65.3 127.9-43.5 56.5-80.3 84.8-110.4 84.8-18.7 0-34.4-17.2-47.3-51.6-25.2-92.3-35.9-146.4-56.7-146.4-2.4 0-10.8 5-25.1 15.1L64 192c36.9-32.4 72.1-68.4 94.1-70.4 24.9-2.4 40.2 14.6 46 51.1 20.5 129.6 29.6 149.2 66.8 90.5 13.4-21.2 20.6-37.2 21.5-48.3 3.4-32.8-25.6-30.6-45.2-22.2 15.7-51.5 45.8-76.5 90.1-75.1 32.9 1 48.4 22.4 46.5 64z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaVimeoV;
 impl IconShape for FaVimeoV {
     fn view_box(&self) -> &str {
@@ -11397,7 +12205,7 @@ impl IconShape for FaVimeoV {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaVimeo;
 impl IconShape for FaVimeo {
     fn view_box(&self) -> &str {
@@ -11424,7 +12232,7 @@ impl IconShape for FaVimeo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaVine;
 impl IconShape for FaVine {
     fn view_box(&self) -> &str {
@@ -11451,7 +12259,7 @@ impl IconShape for FaVine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaVk;
 impl IconShape for FaVk {
     fn view_box(&self) -> &str {
@@ -11478,7 +12286,7 @@ impl IconShape for FaVk {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaVnv;
 impl IconShape for FaVnv {
     fn view_box(&self) -> &str {
@@ -11505,7 +12313,7 @@ impl IconShape for FaVnv {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaVuejs;
 impl IconShape for FaVuejs {
     fn view_box(&self) -> &str {
@@ -11532,7 +12340,7 @@ impl IconShape for FaVuejs {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWatchmanMonitoring;
 impl IconShape for FaWatchmanMonitoring {
     fn view_box(&self) -> &str {
@@ -11559,7 +12367,7 @@ impl IconShape for FaWatchmanMonitoring {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWaze;
 impl IconShape for FaWaze {
     fn view_box(&self) -> &str {
@@ -11586,7 +12394,61 @@ impl IconShape for FaWaze {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaWebAwesome;
+impl IconShape for FaWebAwesome {
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M372.2 52c0 20.9-12.4 39-30.2 47.2L448 192l104.4-20.9c-5.3-7.7-8.4-17.1-8.4-27.1c0-26.5 21.5-48 48-48s48 21.5 48 48c0 26-20.6 47.1-46.4 48L481 442.3c-10.3 23-33.2 37.7-58.4 37.7l-205.2 0c-25.2 0-48-14.8-58.4-37.7L46.4 192C20.6 191.1 0 170 0 144c0-26.5 21.5-48 48-48s48 21.5 48 48c0 10.1-3.1 19.4-8.4 27.1L192 192 298.1 99.1c-17.7-8.3-30-26.3-30-47.1c0-28.7 23.3-52 52-52s52 23.3 52 52z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaWebflow;
+impl IconShape for FaWebflow {
+    fn view_box(&self) -> &str {
+        "0 0 640 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M640 64L435.8 463.2H244l85.5-165.5h-3.8C255.1 389.3 149.9 449.5 0 463.2V300.1s95.9-5.7 152.3-64.9H0V64H171.1V204.8l3.8 0L244.9 64H374.3V203.9l3.8 0L450.7 64H640z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWeebly;
 impl IconShape for FaWeebly {
     fn view_box(&self) -> &str {
@@ -11613,7 +12475,7 @@ impl IconShape for FaWeebly {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWeibo;
 impl IconShape for FaWeibo {
     fn view_box(&self) -> &str {
@@ -11640,7 +12502,7 @@ impl IconShape for FaWeibo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWeixin;
 impl IconShape for FaWeixin {
     fn view_box(&self) -> &str {
@@ -11667,34 +12529,7 @@ impl IconShape for FaWeixin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaWhatsappSquare;
-impl IconShape for FaWhatsappSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M224 122.8c-72.7 0-131.8 59.1-131.9 131.8 0 24.9 7 49.2 20.2 70.1l3.1 5-13.3 48.6 49.9-13.1 4.8 2.9c20.2 12 43.4 18.4 67.1 18.4h.1c72.6 0 133.3-59.1 133.3-131.8 0-35.2-15.2-68.3-40.1-93.2-25-25-58-38.7-93.2-38.7zm77.5 188.4c-3.3 9.3-19.1 17.7-26.7 18.8-12.6 1.9-22.4.9-47.5-9.9-39.7-17.2-65.7-57.2-67.7-59.8-2-2.6-16.2-21.5-16.2-41s10.2-29.1 13.9-33.1c3.6-4 7.9-5 10.6-5 2.6 0 5.3 0 7.6.1 2.4.1 5.7-.9 8.9 6.8 3.3 7.9 11.2 27.4 12.2 29.4s1.7 4.3.3 6.9c-7.6 15.2-15.7 14.6-11.6 21.6 15.3 26.3 30.6 35.4 53.9 47.1 4 2 6.3 1.7 8.6-1 2.3-2.6 9.9-11.6 12.5-15.5 2.6-4 5.3-3.3 8.9-2 3.6 1.3 23.1 10.9 27.1 12.9s6.6 3 7.6 4.6c.9 1.9.9 9.9-2.4 19.1zM400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM223.9 413.2c-26.6 0-52.7-6.7-75.8-19.3L64 416l22.5-82.2c-13.9-24-21.2-51.3-21.2-79.3C65.4 167.1 136.5 96 223.9 96c42.4 0 82.2 16.5 112.2 46.5 29.9 30 47.9 69.8 47.9 112.2 0 87.4-72.7 158.5-160.1 158.5z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWhatsapp;
 impl IconShape for FaWhatsapp {
     fn view_box(&self) -> &str {
@@ -11721,7 +12556,7 @@ impl IconShape for FaWhatsapp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWhmcs;
 impl IconShape for FaWhmcs {
     fn view_box(&self) -> &str {
@@ -11748,7 +12583,7 @@ impl IconShape for FaWhmcs {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWikipediaW;
 impl IconShape for FaWikipediaW {
     fn view_box(&self) -> &str {
@@ -11775,7 +12610,7 @@ impl IconShape for FaWikipediaW {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWindows;
 impl IconShape for FaWindows {
     fn view_box(&self) -> &str {
@@ -11802,7 +12637,7 @@ impl IconShape for FaWindows {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWirsindhandwerk;
 impl IconShape for FaWirsindhandwerk {
     fn view_box(&self) -> &str {
@@ -11829,7 +12664,7 @@ impl IconShape for FaWirsindhandwerk {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWix;
 impl IconShape for FaWix {
     fn view_box(&self) -> &str {
@@ -11856,7 +12691,7 @@ impl IconShape for FaWix {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWizardsOfTheCoast;
 impl IconShape for FaWizardsOfTheCoast {
     fn view_box(&self) -> &str {
@@ -11883,7 +12718,7 @@ impl IconShape for FaWizardsOfTheCoast {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWodu;
 impl IconShape for FaWodu {
     fn view_box(&self) -> &str {
@@ -11910,7 +12745,7 @@ impl IconShape for FaWodu {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWolfPackBattalion;
 impl IconShape for FaWolfPackBattalion {
     fn view_box(&self) -> &str {
@@ -11937,7 +12772,7 @@ impl IconShape for FaWolfPackBattalion {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWordpressSimple;
 impl IconShape for FaWordpressSimple {
     fn view_box(&self) -> &str {
@@ -11964,7 +12799,7 @@ impl IconShape for FaWordpressSimple {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWordpress;
 impl IconShape for FaWordpress {
     fn view_box(&self) -> &str {
@@ -11991,7 +12826,7 @@ impl IconShape for FaWordpress {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWpbeginner;
 impl IconShape for FaWpbeginner {
     fn view_box(&self) -> &str {
@@ -12018,7 +12853,7 @@ impl IconShape for FaWpbeginner {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWpexplorer;
 impl IconShape for FaWpexplorer {
     fn view_box(&self) -> &str {
@@ -12045,7 +12880,7 @@ impl IconShape for FaWpexplorer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWpforms;
 impl IconShape for FaWpforms {
     fn view_box(&self) -> &str {
@@ -12072,7 +12907,7 @@ impl IconShape for FaWpforms {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaWpressr;
 impl IconShape for FaWpressr {
     fn view_box(&self) -> &str {
@@ -12099,7 +12934,34 @@ impl IconShape for FaWpressr {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct FaXTwitter;
+impl IconShape for FaXTwitter {
+    fn view_box(&self) -> &str {
+        "0 0 512 512"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaXbox;
 impl IconShape for FaXbox {
     fn view_box(&self) -> &str {
@@ -12126,34 +12988,7 @@ impl IconShape for FaXbox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaXingSquare;
-impl IconShape for FaXingSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM140.4 320.2H93.8c-5.5 0-8.7-5.3-6-10.3l49.3-86.7c.1 0 .1-.1 0-.2l-31.4-54c-3-5.6.2-10.1 6-10.1h46.6c5.2 0 9.5 2.9 12.9 8.7l31.9 55.3c-1.3 2.3-18 31.7-50.1 88.2-3.5 6.2-7.7 9.1-12.6 9.1zm219.7-214.1L257.3 286.8v.2l65.5 119c2.8 5.1.1 10.1-6 10.1h-46.6c-5.5 0-9.7-2.9-12.9-8.7l-66-120.3c2.3-4.1 36.8-64.9 103.4-182.3 3.3-5.8 7.4-8.7 12.5-8.7h46.9c5.7-.1 8.8 4.7 6 10z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaXing;
 impl IconShape for FaXing {
     fn view_box(&self) -> &str {
@@ -12180,7 +13015,7 @@ impl IconShape for FaXing {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaYCombinator;
 impl IconShape for FaYCombinator {
     fn view_box(&self) -> &str {
@@ -12207,7 +13042,7 @@ impl IconShape for FaYCombinator {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaYahoo;
 impl IconShape for FaYahoo {
     fn view_box(&self) -> &str {
@@ -12234,7 +13069,7 @@ impl IconShape for FaYahoo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaYammer;
 impl IconShape for FaYammer {
     fn view_box(&self) -> &str {
@@ -12261,7 +13096,7 @@ impl IconShape for FaYammer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaYandexInternational;
 impl IconShape for FaYandexInternational {
     fn view_box(&self) -> &str {
@@ -12288,7 +13123,7 @@ impl IconShape for FaYandexInternational {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaYandex;
 impl IconShape for FaYandex {
     fn view_box(&self) -> &str {
@@ -12315,7 +13150,7 @@ impl IconShape for FaYandex {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaYarn;
 impl IconShape for FaYarn {
     fn view_box(&self) -> &str {
@@ -12342,7 +13177,7 @@ impl IconShape for FaYarn {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaYelp;
 impl IconShape for FaYelp {
     fn view_box(&self) -> &str {
@@ -12369,7 +13204,7 @@ impl IconShape for FaYelp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaYoast;
 impl IconShape for FaYoast {
     fn view_box(&self) -> &str {
@@ -12396,34 +13231,7 @@ impl IconShape for FaYoast {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct FaYoutubeSquare;
-impl IconShape for FaYoutubeSquare {
-    fn view_box(&self) -> &str {
-        "0 0 448 512"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        (user_color, "none", "0")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "butt"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "miter"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M186.8 202.1l95.2 54.1-95.2 54.1V202.1zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-42 176.3s0-59.6-7.6-88.2c-4.2-15.8-16.5-28.2-32.2-32.4C337.9 128 224 128 224 128s-113.9 0-142.2 7.7c-15.7 4.2-28 16.6-32.2 32.4-7.6 28.5-7.6 88.2-7.6 88.2s0 59.6 7.6 88.2c4.2 15.8 16.5 27.7 32.2 31.9C110.1 384 224 384 224 384s113.9 0 142.2-7.7c15.7-4.2 28-16.1 32.2-31.9 7.6-28.5 7.6-88.1 7.6-88.1z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaYoutube;
 impl IconShape for FaYoutube {
     fn view_box(&self) -> &str {
@@ -12450,7 +13258,7 @@ impl IconShape for FaYoutube {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct FaZhihu;
 impl IconShape for FaZhihu {
     fn view_box(&self) -> &str {

@@ -1,7 +1,7 @@
 use super::super::IconShape;
 use dioxus::prelude::*;
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAArrowDown;
 impl IconShape for LdAArrowDown {
     fn view_box(&self) -> &str {
@@ -37,7 +37,7 @@ impl IconShape for LdAArrowDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAArrowUp;
 impl IconShape for LdAArrowUp {
     fn view_box(&self) -> &str {
@@ -73,7 +73,7 @@ impl IconShape for LdAArrowUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdALargeSmall;
 impl IconShape for LdALargeSmall {
     fn view_box(&self) -> &str {
@@ -109,7 +109,7 @@ impl IconShape for LdALargeSmall {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAccessibility;
 impl IconShape for LdAccessibility {
     fn view_box(&self) -> &str {
@@ -150,7 +150,7 @@ impl IconShape for LdAccessibility {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdActivity;
 impl IconShape for LdActivity {
     fn view_box(&self) -> &str {
@@ -171,13 +171,13 @@ impl IconShape for LdActivity {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M22 12h-4l-3 9L9 3l-3 9H2",
+                d: "M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAirVent;
 impl IconShape for LdAirVent {
     fn view_box(&self) -> &str {
@@ -213,7 +213,7 @@ impl IconShape for LdAirVent {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAirplay;
 impl IconShape for LdAirplay {
     fn view_box(&self) -> &str {
@@ -243,7 +243,7 @@ impl IconShape for LdAirplay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlarmClockCheck;
 impl IconShape for LdAlarmClockCheck {
     fn view_box(&self) -> &str {
@@ -287,7 +287,7 @@ impl IconShape for LdAlarmClockCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlarmClockMinus;
 impl IconShape for LdAlarmClockMinus {
     fn view_box(&self) -> &str {
@@ -331,7 +331,7 @@ impl IconShape for LdAlarmClockMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlarmClockOff;
 impl IconShape for LdAlarmClockOff {
     fn view_box(&self) -> &str {
@@ -373,7 +373,7 @@ impl IconShape for LdAlarmClockOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlarmClockPlus;
 impl IconShape for LdAlarmClockPlus {
     fn view_box(&self) -> &str {
@@ -420,7 +420,7 @@ impl IconShape for LdAlarmClockPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlarmClock;
 impl IconShape for LdAlarmClock {
     fn view_box(&self) -> &str {
@@ -464,7 +464,7 @@ impl IconShape for LdAlarmClock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlarmSmoke;
 impl IconShape for LdAlarmSmoke {
     fn view_box(&self) -> &str {
@@ -485,16 +485,16 @@ impl IconShape for LdAlarmSmoke {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 8a2 2 0 0 1-2-2V3h20v3a2 2 0 0 1-2 2Z",
-            }
-            path {
-                d: "m19 8-.8 3c-.1.6-.6 1-1.2 1H7c-.6 0-1.1-.4-1.2-1L5 8",
+                d: "M11 21c0-2.5 2-2.5 2-5",
             }
             path {
                 d: "M16 21c0-2.5 2-2.5 2-5",
             }
             path {
-                d: "M11 21c0-2.5 2-2.5 2-5",
+                d: "m19 8-.8 3a1.25 1.25 0 0 1-1.2 1H7a1.25 1.25 0 0 1-1.2-1L5 8",
+            }
+            path {
+                d: "M21 3a1 1 0 0 1 1 1v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a1 1 0 0 1 1-1z",
             }
             path {
                 d: "M6 21c0-2.5 2-2.5 2-5",
@@ -503,7 +503,7 @@ impl IconShape for LdAlarmSmoke {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlbum;
 impl IconShape for LdAlbum {
     fn view_box(&self) -> &str {
@@ -538,7 +538,7 @@ impl IconShape for LdAlbum {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignCenterHorizontal;
 impl IconShape for LdAlignCenterHorizontal {
     fn view_box(&self) -> &str {
@@ -577,7 +577,7 @@ impl IconShape for LdAlignCenterHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignCenterVertical;
 impl IconShape for LdAlignCenterVertical {
     fn view_box(&self) -> &str {
@@ -616,7 +616,7 @@ impl IconShape for LdAlignCenterVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignCenter;
 impl IconShape for LdAlignCenter {
     fn view_box(&self) -> &str {
@@ -636,29 +636,20 @@ impl IconShape for LdAlignCenter {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            line {
-                x1: "21",
-                x2: "3",
-                y1: "6",
-                y2: "6",
+            path {
+                d: "M17 12H7",
             }
-            line {
-                x1: "17",
-                x2: "7",
-                y1: "12",
-                y2: "12",
+            path {
+                d: "M19 18H5",
             }
-            line {
-                x1: "19",
-                x2: "5",
-                y1: "18",
-                y2: "18",
+            path {
+                d: "M21 6H3",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignEndHorizontal;
 impl IconShape for LdAlignEndHorizontal {
     fn view_box(&self) -> &str {
@@ -699,7 +690,7 @@ impl IconShape for LdAlignEndHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignEndVertical;
 impl IconShape for LdAlignEndVertical {
     fn view_box(&self) -> &str {
@@ -740,7 +731,7 @@ impl IconShape for LdAlignEndVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignHorizontalDistributeCenter;
 impl IconShape for LdAlignHorizontalDistributeCenter {
     fn view_box(&self) -> &str {
@@ -790,7 +781,7 @@ impl IconShape for LdAlignHorizontalDistributeCenter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignHorizontalDistributeEnd;
 impl IconShape for LdAlignHorizontalDistributeEnd {
     fn view_box(&self) -> &str {
@@ -834,7 +825,7 @@ impl IconShape for LdAlignHorizontalDistributeEnd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignHorizontalDistributeStart;
 impl IconShape for LdAlignHorizontalDistributeStart {
     fn view_box(&self) -> &str {
@@ -878,7 +869,7 @@ impl IconShape for LdAlignHorizontalDistributeStart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignHorizontalJustifyCenter;
 impl IconShape for LdAlignHorizontalJustifyCenter {
     fn view_box(&self) -> &str {
@@ -919,7 +910,7 @@ impl IconShape for LdAlignHorizontalJustifyCenter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignHorizontalJustifyEnd;
 impl IconShape for LdAlignHorizontalJustifyEnd {
     fn view_box(&self) -> &str {
@@ -960,7 +951,7 @@ impl IconShape for LdAlignHorizontalJustifyEnd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignHorizontalJustifyStart;
 impl IconShape for LdAlignHorizontalJustifyStart {
     fn view_box(&self) -> &str {
@@ -1001,7 +992,7 @@ impl IconShape for LdAlignHorizontalJustifyStart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignHorizontalSpaceAround;
 impl IconShape for LdAlignHorizontalSpaceAround {
     fn view_box(&self) -> &str {
@@ -1038,7 +1029,7 @@ impl IconShape for LdAlignHorizontalSpaceAround {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignHorizontalSpaceBetween;
 impl IconShape for LdAlignHorizontalSpaceBetween {
     fn view_box(&self) -> &str {
@@ -1082,7 +1073,7 @@ impl IconShape for LdAlignHorizontalSpaceBetween {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignJustify;
 impl IconShape for LdAlignJustify {
     fn view_box(&self) -> &str {
@@ -1102,29 +1093,20 @@ impl IconShape for LdAlignJustify {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            line {
-                x1: "3",
-                x2: "21",
-                y1: "6",
-                y2: "6",
+            path {
+                d: "M3 12h18",
             }
-            line {
-                x1: "3",
-                x2: "21",
-                y1: "12",
-                y2: "12",
+            path {
+                d: "M3 18h18",
             }
-            line {
-                x1: "3",
-                x2: "21",
-                y1: "18",
-                y2: "18",
+            path {
+                d: "M3 6h18",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignLeft;
 impl IconShape for LdAlignLeft {
     fn view_box(&self) -> &str {
@@ -1144,29 +1126,20 @@ impl IconShape for LdAlignLeft {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            line {
-                x1: "21",
-                x2: "3",
-                y1: "6",
-                y2: "6",
+            path {
+                d: "M15 12H3",
             }
-            line {
-                x1: "15",
-                x2: "3",
-                y1: "12",
-                y2: "12",
+            path {
+                d: "M17 18H3",
             }
-            line {
-                x1: "17",
-                x2: "3",
-                y1: "18",
-                y2: "18",
+            path {
+                d: "M21 6H3",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignRight;
 impl IconShape for LdAlignRight {
     fn view_box(&self) -> &str {
@@ -1186,29 +1159,20 @@ impl IconShape for LdAlignRight {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            line {
-                x1: "21",
-                x2: "3",
-                y1: "6",
-                y2: "6",
+            path {
+                d: "M21 12H9",
             }
-            line {
-                x1: "21",
-                x2: "9",
-                y1: "12",
-                y2: "12",
+            path {
+                d: "M21 18H7",
             }
-            line {
-                x1: "21",
-                x2: "7",
-                y1: "18",
-                y2: "18",
+            path {
+                d: "M21 6H3",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignStartHorizontal;
 impl IconShape for LdAlignStartHorizontal {
     fn view_box(&self) -> &str {
@@ -1249,7 +1213,7 @@ impl IconShape for LdAlignStartHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignStartVertical;
 impl IconShape for LdAlignStartVertical {
     fn view_box(&self) -> &str {
@@ -1290,7 +1254,7 @@ impl IconShape for LdAlignStartVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignVerticalDistributeCenter;
 impl IconShape for LdAlignVerticalDistributeCenter {
     fn view_box(&self) -> &str {
@@ -1340,7 +1304,7 @@ impl IconShape for LdAlignVerticalDistributeCenter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignVerticalDistributeEnd;
 impl IconShape for LdAlignVerticalDistributeEnd {
     fn view_box(&self) -> &str {
@@ -1384,7 +1348,7 @@ impl IconShape for LdAlignVerticalDistributeEnd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignVerticalDistributeStart;
 impl IconShape for LdAlignVerticalDistributeStart {
     fn view_box(&self) -> &str {
@@ -1428,7 +1392,7 @@ impl IconShape for LdAlignVerticalDistributeStart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignVerticalJustifyCenter;
 impl IconShape for LdAlignVerticalJustifyCenter {
     fn view_box(&self) -> &str {
@@ -1469,7 +1433,7 @@ impl IconShape for LdAlignVerticalJustifyCenter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignVerticalJustifyEnd;
 impl IconShape for LdAlignVerticalJustifyEnd {
     fn view_box(&self) -> &str {
@@ -1510,7 +1474,7 @@ impl IconShape for LdAlignVerticalJustifyEnd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignVerticalJustifyStart;
 impl IconShape for LdAlignVerticalJustifyStart {
     fn view_box(&self) -> &str {
@@ -1551,7 +1515,7 @@ impl IconShape for LdAlignVerticalJustifyStart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignVerticalSpaceAround;
 impl IconShape for LdAlignVerticalSpaceAround {
     fn view_box(&self) -> &str {
@@ -1588,7 +1552,7 @@ impl IconShape for LdAlignVerticalSpaceAround {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAlignVerticalSpaceBetween;
 impl IconShape for LdAlignVerticalSpaceBetween {
     fn view_box(&self) -> &str {
@@ -1632,7 +1596,7 @@ impl IconShape for LdAlignVerticalSpaceBetween {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAmbulance;
 impl IconShape for LdAmbulance {
     fn view_box(&self) -> &str {
@@ -1681,7 +1645,7 @@ impl IconShape for LdAmbulance {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAmpersand;
 impl IconShape for LdAmpersand {
     fn view_box(&self) -> &str {
@@ -1711,7 +1675,7 @@ impl IconShape for LdAmpersand {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAmpersands;
 impl IconShape for LdAmpersands {
     fn view_box(&self) -> &str {
@@ -1741,7 +1705,49 @@ impl IconShape for LdAmpersands {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdAmphora;
+impl IconShape for LdAmphora {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M10 2v5.632c0 .424-.272.795-.653.982A6 6 0 0 0 6 14c.006 4 3 7 5 8",
+            }
+            path {
+                d: "M10 5H8a2 2 0 0 0 0 4h.68",
+            }
+            path {
+                d: "M14 2v5.632c0 .424.272.795.652.982A6 6 0 0 1 18 14c0 4-3 7-5 8",
+            }
+            path {
+                d: "M14 5h2a2 2 0 0 1 0 4h-.68",
+            }
+            path {
+                d: "M18 22H6",
+            }
+            path {
+                d: "M9 2h6",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAnchor;
 impl IconShape for LdAnchor {
     fn view_box(&self) -> &str {
@@ -1776,7 +1782,7 @@ impl IconShape for LdAnchor {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAngry;
 impl IconShape for LdAngry {
     fn view_box(&self) -> &str {
@@ -1811,16 +1817,16 @@ impl IconShape for LdAngry {
                 d: "m14 9 2.5-1",
             }
             path {
-                d: "M9 10h0",
+                d: "M9 10h.01",
             }
             path {
-                d: "M15 10h0",
+                d: "M15 10h.01",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAnnoyed;
 impl IconShape for LdAnnoyed {
     fn view_box(&self) -> &str {
@@ -1858,7 +1864,7 @@ impl IconShape for LdAnnoyed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAntenna;
 impl IconShape for LdAntenna {
     fn view_box(&self) -> &str {
@@ -1900,7 +1906,7 @@ impl IconShape for LdAntenna {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAnvil;
 impl IconShape for LdAnvil {
     fn view_box(&self) -> &str {
@@ -1939,7 +1945,7 @@ impl IconShape for LdAnvil {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAperture;
 impl IconShape for LdAperture {
     fn view_box(&self) -> &str {
@@ -1986,7 +1992,7 @@ impl IconShape for LdAperture {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAppWindowMac;
 impl IconShape for LdAppWindowMac {
     fn view_box(&self) -> &str {
@@ -2026,7 +2032,7 @@ impl IconShape for LdAppWindowMac {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAppWindow;
 impl IconShape for LdAppWindow {
     fn view_box(&self) -> &str {
@@ -2066,7 +2072,7 @@ impl IconShape for LdAppWindow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdApple;
 impl IconShape for LdApple {
     fn view_box(&self) -> &str {
@@ -2096,7 +2102,7 @@ impl IconShape for LdApple {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArchiveRestore;
 impl IconShape for LdArchiveRestore {
     fn view_box(&self) -> &str {
@@ -2139,7 +2145,7 @@ impl IconShape for LdArchiveRestore {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArchiveX;
 impl IconShape for LdArchiveX {
     fn view_box(&self) -> &str {
@@ -2179,7 +2185,7 @@ impl IconShape for LdArchiveX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArchive;
 impl IconShape for LdArchive {
     fn view_box(&self) -> &str {
@@ -2216,37 +2222,7 @@ impl IconShape for LdArchive {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdAreaChart;
-impl IconShape for LdAreaChart {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M3 3v18h18",
-            }
-            path {
-                d: "M7 12v5h12V8l-5 5-4-4Z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArmchair;
 impl IconShape for LdArmchair {
     fn view_box(&self) -> &str {
@@ -2270,7 +2246,7 @@ impl IconShape for LdArmchair {
                 d: "M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3",
             }
             path {
-                d: "M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v2H7v-2a2 2 0 0 0-4 0Z",
+                d: "M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z",
             }
             path {
                 d: "M5 18v2",
@@ -2282,7 +2258,7 @@ impl IconShape for LdArmchair {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowBigDownDash;
 impl IconShape for LdArrowBigDownDash {
     fn view_box(&self) -> &str {
@@ -2312,7 +2288,7 @@ impl IconShape for LdArrowBigDownDash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowBigDown;
 impl IconShape for LdArrowBigDown {
     fn view_box(&self) -> &str {
@@ -2339,7 +2315,7 @@ impl IconShape for LdArrowBigDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowBigLeftDash;
 impl IconShape for LdArrowBigLeftDash {
     fn view_box(&self) -> &str {
@@ -2369,7 +2345,7 @@ impl IconShape for LdArrowBigLeftDash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowBigLeft;
 impl IconShape for LdArrowBigLeft {
     fn view_box(&self) -> &str {
@@ -2396,7 +2372,7 @@ impl IconShape for LdArrowBigLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowBigRightDash;
 impl IconShape for LdArrowBigRightDash {
     fn view_box(&self) -> &str {
@@ -2426,7 +2402,7 @@ impl IconShape for LdArrowBigRightDash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowBigRight;
 impl IconShape for LdArrowBigRight {
     fn view_box(&self) -> &str {
@@ -2453,7 +2429,7 @@ impl IconShape for LdArrowBigRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowBigUpDash;
 impl IconShape for LdArrowBigUpDash {
     fn view_box(&self) -> &str {
@@ -2483,7 +2459,7 @@ impl IconShape for LdArrowBigUpDash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowBigUp;
 impl IconShape for LdArrowBigUp {
     fn view_box(&self) -> &str {
@@ -2510,7 +2486,7 @@ impl IconShape for LdArrowBigUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowDown01;
 impl IconShape for LdArrowDown01 {
     fn view_box(&self) -> &str {
@@ -2553,7 +2529,7 @@ impl IconShape for LdArrowDown01 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowDown10;
 impl IconShape for LdArrowDown10 {
     fn view_box(&self) -> &str {
@@ -2596,7 +2572,7 @@ impl IconShape for LdArrowDown10 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowDownAZ;
 impl IconShape for LdArrowDownAZ {
     fn view_box(&self) -> &str {
@@ -2635,7 +2611,7 @@ impl IconShape for LdArrowDownAZ {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowDownFromLine;
 impl IconShape for LdArrowDownFromLine {
     fn view_box(&self) -> &str {
@@ -2668,7 +2644,7 @@ impl IconShape for LdArrowDownFromLine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowDownLeft;
 impl IconShape for LdArrowDownLeft {
     fn view_box(&self) -> &str {
@@ -2698,7 +2674,7 @@ impl IconShape for LdArrowDownLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowDownNarrowWide;
 impl IconShape for LdArrowDownNarrowWide {
     fn view_box(&self) -> &str {
@@ -2737,7 +2713,7 @@ impl IconShape for LdArrowDownNarrowWide {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowDownRight;
 impl IconShape for LdArrowDownRight {
     fn view_box(&self) -> &str {
@@ -2767,7 +2743,7 @@ impl IconShape for LdArrowDownRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowDownToDot;
 impl IconShape for LdArrowDownToDot {
     fn view_box(&self) -> &str {
@@ -2802,7 +2778,7 @@ impl IconShape for LdArrowDownToDot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowDownToLine;
 impl IconShape for LdArrowDownToLine {
     fn view_box(&self) -> &str {
@@ -2835,7 +2811,7 @@ impl IconShape for LdArrowDownToLine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowDownUp;
 impl IconShape for LdArrowDownUp {
     fn view_box(&self) -> &str {
@@ -2871,7 +2847,7 @@ impl IconShape for LdArrowDownUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowDownWideNarrow;
 impl IconShape for LdArrowDownWideNarrow {
     fn view_box(&self) -> &str {
@@ -2910,7 +2886,7 @@ impl IconShape for LdArrowDownWideNarrow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowDownZA;
 impl IconShape for LdArrowDownZA {
     fn view_box(&self) -> &str {
@@ -2949,7 +2925,7 @@ impl IconShape for LdArrowDownZA {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowDown;
 impl IconShape for LdArrowDown {
     fn view_box(&self) -> &str {
@@ -2979,7 +2955,7 @@ impl IconShape for LdArrowDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowLeftFromLine;
 impl IconShape for LdArrowLeftFromLine {
     fn view_box(&self) -> &str {
@@ -3012,7 +2988,7 @@ impl IconShape for LdArrowLeftFromLine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowLeftRight;
 impl IconShape for LdArrowLeftRight {
     fn view_box(&self) -> &str {
@@ -3048,7 +3024,7 @@ impl IconShape for LdArrowLeftRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowLeftToLine;
 impl IconShape for LdArrowLeftToLine {
     fn view_box(&self) -> &str {
@@ -3081,7 +3057,7 @@ impl IconShape for LdArrowLeftToLine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowLeft;
 impl IconShape for LdArrowLeft {
     fn view_box(&self) -> &str {
@@ -3111,7 +3087,7 @@ impl IconShape for LdArrowLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowRightFromLine;
 impl IconShape for LdArrowRightFromLine {
     fn view_box(&self) -> &str {
@@ -3144,7 +3120,7 @@ impl IconShape for LdArrowRightFromLine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowRightLeft;
 impl IconShape for LdArrowRightLeft {
     fn view_box(&self) -> &str {
@@ -3180,7 +3156,7 @@ impl IconShape for LdArrowRightLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowRightToLine;
 impl IconShape for LdArrowRightToLine {
     fn view_box(&self) -> &str {
@@ -3213,7 +3189,7 @@ impl IconShape for LdArrowRightToLine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowRight;
 impl IconShape for LdArrowRight {
     fn view_box(&self) -> &str {
@@ -3243,7 +3219,7 @@ impl IconShape for LdArrowRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowUp01;
 impl IconShape for LdArrowUp01 {
     fn view_box(&self) -> &str {
@@ -3286,7 +3262,7 @@ impl IconShape for LdArrowUp01 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowUp10;
 impl IconShape for LdArrowUp10 {
     fn view_box(&self) -> &str {
@@ -3329,7 +3305,7 @@ impl IconShape for LdArrowUp10 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowUpAZ;
 impl IconShape for LdArrowUpAZ {
     fn view_box(&self) -> &str {
@@ -3368,7 +3344,7 @@ impl IconShape for LdArrowUpAZ {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowUpDown;
 impl IconShape for LdArrowUpDown {
     fn view_box(&self) -> &str {
@@ -3404,7 +3380,7 @@ impl IconShape for LdArrowUpDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowUpFromDot;
 impl IconShape for LdArrowUpFromDot {
     fn view_box(&self) -> &str {
@@ -3439,7 +3415,7 @@ impl IconShape for LdArrowUpFromDot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowUpFromLine;
 impl IconShape for LdArrowUpFromLine {
     fn view_box(&self) -> &str {
@@ -3472,7 +3448,7 @@ impl IconShape for LdArrowUpFromLine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowUpLeft;
 impl IconShape for LdArrowUpLeft {
     fn view_box(&self) -> &str {
@@ -3502,7 +3478,7 @@ impl IconShape for LdArrowUpLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowUpNarrowWide;
 impl IconShape for LdArrowUpNarrowWide {
     fn view_box(&self) -> &str {
@@ -3541,7 +3517,7 @@ impl IconShape for LdArrowUpNarrowWide {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowUpRight;
 impl IconShape for LdArrowUpRight {
     fn view_box(&self) -> &str {
@@ -3571,7 +3547,7 @@ impl IconShape for LdArrowUpRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowUpToLine;
 impl IconShape for LdArrowUpToLine {
     fn view_box(&self) -> &str {
@@ -3604,7 +3580,7 @@ impl IconShape for LdArrowUpToLine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowUpWideNarrow;
 impl IconShape for LdArrowUpWideNarrow {
     fn view_box(&self) -> &str {
@@ -3643,7 +3619,7 @@ impl IconShape for LdArrowUpWideNarrow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowUpZA;
 impl IconShape for LdArrowUpZA {
     fn view_box(&self) -> &str {
@@ -3682,7 +3658,7 @@ impl IconShape for LdArrowUpZA {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowUp;
 impl IconShape for LdArrowUp {
     fn view_box(&self) -> &str {
@@ -3712,7 +3688,7 @@ impl IconShape for LdArrowUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdArrowsUpFromLine;
 impl IconShape for LdArrowsUpFromLine {
     fn view_box(&self) -> &str {
@@ -3751,7 +3727,7 @@ impl IconShape for LdArrowsUpFromLine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAsterisk;
 impl IconShape for LdAsterisk {
     fn view_box(&self) -> &str {
@@ -3784,7 +3760,7 @@ impl IconShape for LdAsterisk {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAtSign;
 impl IconShape for LdAtSign {
     fn view_box(&self) -> &str {
@@ -3816,7 +3792,7 @@ impl IconShape for LdAtSign {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAtom;
 impl IconShape for LdAtom {
     fn view_box(&self) -> &str {
@@ -3851,7 +3827,7 @@ impl IconShape for LdAtom {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAudioLines;
 impl IconShape for LdAudioLines {
     fn view_box(&self) -> &str {
@@ -3893,7 +3869,7 @@ impl IconShape for LdAudioLines {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAudioWaveform;
 impl IconShape for LdAudioWaveform {
     fn view_box(&self) -> &str {
@@ -3920,7 +3896,7 @@ impl IconShape for LdAudioWaveform {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAward;
 impl IconShape for LdAward {
     fn view_box(&self) -> &str {
@@ -3940,19 +3916,19 @@ impl IconShape for LdAward {
     }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526",
+            }
             circle {
                 cx: "12",
                 cy: "8",
                 r: "6",
             }
-            path {
-                d: "M15.477 12.89 17 22l-5-3-5 3 1.523-9.11",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAxe;
 impl IconShape for LdAxe {
     fn view_box(&self) -> &str {
@@ -3982,7 +3958,7 @@ impl IconShape for LdAxe {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdAxis3d;
 impl IconShape for LdAxis3d {
     fn view_box(&self) -> &str {
@@ -4012,7 +3988,7 @@ impl IconShape for LdAxis3d {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBaby;
 impl IconShape for LdBaby {
     fn view_box(&self) -> &str {
@@ -4048,7 +4024,7 @@ impl IconShape for LdBaby {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBackpack;
 impl IconShape for LdBackpack {
     fn view_box(&self) -> &str {
@@ -4069,13 +4045,7 @@ impl IconShape for LdBackpack {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 10a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z",
-            }
-            path {
-                d: "M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2",
-            }
-            path {
-                d: "M8 21v-5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v5",
+                d: "M4 10a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z",
             }
             path {
                 d: "M8 10h8",
@@ -4083,11 +4053,17 @@ impl IconShape for LdBackpack {
             path {
                 d: "M8 18h8",
             }
+            path {
+                d: "M8 22v-6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v6",
+            }
+            path {
+                d: "M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2",
+            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgeAlert;
 impl IconShape for LdBadgeAlert {
     fn view_box(&self) -> &str {
@@ -4126,7 +4102,7 @@ impl IconShape for LdBadgeAlert {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgeCent;
 impl IconShape for LdBadgeCent {
     fn view_box(&self) -> &str {
@@ -4159,7 +4135,7 @@ impl IconShape for LdBadgeCent {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgeCheck;
 impl IconShape for LdBadgeCheck {
     fn view_box(&self) -> &str {
@@ -4189,7 +4165,7 @@ impl IconShape for LdBadgeCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgeDollarSign;
 impl IconShape for LdBadgeDollarSign {
     fn view_box(&self) -> &str {
@@ -4222,7 +4198,7 @@ impl IconShape for LdBadgeDollarSign {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgeEuro;
 impl IconShape for LdBadgeEuro {
     fn view_box(&self) -> &str {
@@ -4255,7 +4231,7 @@ impl IconShape for LdBadgeEuro {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgeHelp;
 impl IconShape for LdBadgeHelp {
     fn view_box(&self) -> &str {
@@ -4291,7 +4267,7 @@ impl IconShape for LdBadgeHelp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgeIndianRupee;
 impl IconShape for LdBadgeIndianRupee {
     fn view_box(&self) -> &str {
@@ -4327,7 +4303,7 @@ impl IconShape for LdBadgeIndianRupee {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgeInfo;
 impl IconShape for LdBadgeInfo {
     fn view_box(&self) -> &str {
@@ -4366,7 +4342,7 @@ impl IconShape for LdBadgeInfo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgeJapaneseYen;
 impl IconShape for LdBadgeJapaneseYen {
     fn view_box(&self) -> &str {
@@ -4405,7 +4381,7 @@ impl IconShape for LdBadgeJapaneseYen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgeMinus;
 impl IconShape for LdBadgeMinus {
     fn view_box(&self) -> &str {
@@ -4438,7 +4414,7 @@ impl IconShape for LdBadgeMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgePercent;
 impl IconShape for LdBadgePercent {
     fn view_box(&self) -> &str {
@@ -4474,7 +4450,7 @@ impl IconShape for LdBadgePercent {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgePlus;
 impl IconShape for LdBadgePlus {
     fn view_box(&self) -> &str {
@@ -4513,7 +4489,7 @@ impl IconShape for LdBadgePlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgePoundSterling;
 impl IconShape for LdBadgePoundSterling {
     fn view_box(&self) -> &str {
@@ -4549,7 +4525,7 @@ impl IconShape for LdBadgePoundSterling {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgeRussianRuble;
 impl IconShape for LdBadgeRussianRuble {
     fn view_box(&self) -> &str {
@@ -4582,7 +4558,7 @@ impl IconShape for LdBadgeRussianRuble {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgeSwissFranc;
 impl IconShape for LdBadgeSwissFranc {
     fn view_box(&self) -> &str {
@@ -4618,7 +4594,7 @@ impl IconShape for LdBadgeSwissFranc {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadgeX;
 impl IconShape for LdBadgeX {
     fn view_box(&self) -> &str {
@@ -4657,7 +4633,7 @@ impl IconShape for LdBadgeX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBadge;
 impl IconShape for LdBadge {
     fn view_box(&self) -> &str {
@@ -4684,7 +4660,7 @@ impl IconShape for LdBadge {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBaggageClaim;
 impl IconShape for LdBaggageClaim {
     fn view_box(&self) -> &str {
@@ -4731,7 +4707,7 @@ impl IconShape for LdBaggageClaim {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBan;
 impl IconShape for LdBan {
     fn view_box(&self) -> &str {
@@ -4763,7 +4739,7 @@ impl IconShape for LdBan {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBanana;
 impl IconShape for LdBanana {
     fn view_box(&self) -> &str {
@@ -4793,7 +4769,56 @@ impl IconShape for LdBanana {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdBandage;
+impl IconShape for LdBandage {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M10 10.01h.01",
+            }
+            path {
+                d: "M10 14.01h.01",
+            }
+            path {
+                d: "M14 10.01h.01",
+            }
+            path {
+                d: "M14 14.01h.01",
+            }
+            path {
+                d: "M18 6v11.5",
+            }
+            path {
+                d: "M6 6v12",
+            }
+            rect {
+                height: "12",
+                rx: "2",
+                width: "20",
+                x: "2",
+                y: "6",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBanknote;
 impl IconShape for LdBanknote {
     fn view_box(&self) -> &str {
@@ -4832,281 +4857,7 @@ impl IconShape for LdBanknote {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdBarChart2;
-impl IconShape for LdBarChart2 {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            line {
-                x1: "18",
-                x2: "18",
-                y1: "20",
-                y2: "10",
-            }
-            line {
-                x1: "12",
-                x2: "12",
-                y1: "20",
-                y2: "4",
-            }
-            line {
-                x1: "6",
-                x2: "6",
-                y1: "20",
-                y2: "14",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdBarChart3;
-impl IconShape for LdBarChart3 {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M3 3v18h18",
-            }
-            path {
-                d: "M18 17V9",
-            }
-            path {
-                d: "M13 17V5",
-            }
-            path {
-                d: "M8 17v-3",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdBarChart4;
-impl IconShape for LdBarChart4 {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M3 3v18h18",
-            }
-            path {
-                d: "M13 17V9",
-            }
-            path {
-                d: "M18 17V5",
-            }
-            path {
-                d: "M8 17v-3",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdBarChartBig;
-impl IconShape for LdBarChartBig {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M3 3v18h18",
-            }
-            rect {
-                height: "7",
-                rx: "1",
-                width: "4",
-                x: "7",
-                y: "10",
-            }
-            rect {
-                height: "12",
-                rx: "1",
-                width: "4",
-                x: "15",
-                y: "5",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdBarChartHorizontalBig;
-impl IconShape for LdBarChartHorizontalBig {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M3 3v18h18",
-            }
-            rect {
-                height: "4",
-                rx: "1",
-                width: "12",
-                x: "7",
-                y: "5",
-            }
-            rect {
-                height: "4",
-                rx: "1",
-                width: "7",
-                x: "7",
-                y: "13",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdBarChartHorizontal;
-impl IconShape for LdBarChartHorizontal {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M3 3v18h18",
-            }
-            path {
-                d: "M7 16h8",
-            }
-            path {
-                d: "M7 11h12",
-            }
-            path {
-                d: "M7 6h3",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdBarChart;
-impl IconShape for LdBarChart {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            line {
-                x1: "12",
-                x2: "12",
-                y1: "20",
-                y2: "10",
-            }
-            line {
-                x1: "18",
-                x2: "18",
-                y1: "20",
-                y2: "4",
-            }
-            line {
-                x1: "6",
-                x2: "6",
-                y1: "20",
-                y2: "16",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBarcode;
 impl IconShape for LdBarcode {
     fn view_box(&self) -> &str {
@@ -5145,7 +4896,7 @@ impl IconShape for LdBarcode {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBaseline;
 impl IconShape for LdBaseline {
     fn view_box(&self) -> &str {
@@ -5178,7 +4929,7 @@ impl IconShape for LdBaseline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBath;
 impl IconShape for LdBath {
     fn view_box(&self) -> &str {
@@ -5229,7 +4980,7 @@ impl IconShape for LdBath {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBatteryCharging;
 impl IconShape for LdBatteryCharging {
     fn view_box(&self) -> &str {
@@ -5268,7 +5019,7 @@ impl IconShape for LdBatteryCharging {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBatteryFull;
 impl IconShape for LdBatteryFull {
     fn view_box(&self) -> &str {
@@ -5324,7 +5075,7 @@ impl IconShape for LdBatteryFull {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBatteryLow;
 impl IconShape for LdBatteryLow {
     fn view_box(&self) -> &str {
@@ -5368,7 +5119,7 @@ impl IconShape for LdBatteryLow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBatteryMedium;
 impl IconShape for LdBatteryMedium {
     fn view_box(&self) -> &str {
@@ -5418,7 +5169,7 @@ impl IconShape for LdBatteryMedium {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBatteryWarning;
 impl IconShape for LdBatteryWarning {
     fn view_box(&self) -> &str {
@@ -5439,34 +5190,25 @@ impl IconShape for LdBatteryWarning {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M14 7h2a2 2 0 0 1 2 2v6c0 1-1 2-2 2h-2",
+                d: "M10 17h.01",
             }
             path {
-                d: "M6 7H4a2 2 0 0 0-2 2v6c0 1 1 2 2 2h2",
+                d: "M10 7v6",
             }
-            line {
-                x1: "22",
-                x2: "22",
-                y1: "11",
-                y2: "13",
+            path {
+                d: "M14 7h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2",
             }
-            line {
-                x1: "10",
-                x2: "10",
-                y1: "7",
-                y2: "13",
+            path {
+                d: "M22 11v2",
             }
-            line {
-                x1: "10",
-                x2: "10",
-                y1: "17",
-                y2: "17.01",
+            path {
+                d: "M6 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBattery;
 impl IconShape for LdBattery {
     fn view_box(&self) -> &str {
@@ -5504,7 +5246,7 @@ impl IconShape for LdBattery {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBeaker;
 impl IconShape for LdBeaker {
     fn view_box(&self) -> &str {
@@ -5537,7 +5279,7 @@ impl IconShape for LdBeaker {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBeanOff;
 impl IconShape for LdBeanOff {
     fn view_box(&self) -> &str {
@@ -5576,7 +5318,7 @@ impl IconShape for LdBeanOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBean;
 impl IconShape for LdBean {
     fn view_box(&self) -> &str {
@@ -5606,7 +5348,7 @@ impl IconShape for LdBean {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBedDouble;
 impl IconShape for LdBedDouble {
     fn view_box(&self) -> &str {
@@ -5642,7 +5384,7 @@ impl IconShape for LdBedDouble {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBedSingle;
 impl IconShape for LdBedSingle {
     fn view_box(&self) -> &str {
@@ -5675,7 +5417,7 @@ impl IconShape for LdBedSingle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBed;
 impl IconShape for LdBed {
     fn view_box(&self) -> &str {
@@ -5711,7 +5453,7 @@ impl IconShape for LdBed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBeef;
 impl IconShape for LdBeef {
     fn view_box(&self) -> &str {
@@ -5746,7 +5488,7 @@ impl IconShape for LdBeef {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBeerOff;
 impl IconShape for LdBeerOff {
     fn view_box(&self) -> &str {
@@ -5794,7 +5536,7 @@ impl IconShape for LdBeerOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBeer;
 impl IconShape for LdBeer {
     fn view_box(&self) -> &str {
@@ -5833,7 +5575,7 @@ impl IconShape for LdBeer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBellDot;
 impl IconShape for LdBellDot {
     fn view_box(&self) -> &str {
@@ -5868,7 +5610,7 @@ impl IconShape for LdBellDot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBellElectric;
 impl IconShape for LdBellElectric {
     fn view_box(&self) -> &str {
@@ -5918,7 +5660,7 @@ impl IconShape for LdBellElectric {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBellMinus;
 impl IconShape for LdBellMinus {
     fn view_box(&self) -> &str {
@@ -5951,7 +5693,7 @@ impl IconShape for LdBellMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBellOff;
 impl IconShape for LdBellOff {
     fn view_box(&self) -> &str {
@@ -5987,7 +5729,7 @@ impl IconShape for LdBellOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBellPlus;
 impl IconShape for LdBellPlus {
     fn view_box(&self) -> &str {
@@ -6023,7 +5765,7 @@ impl IconShape for LdBellPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBellRing;
 impl IconShape for LdBellRing {
     fn view_box(&self) -> &str {
@@ -6059,7 +5801,7 @@ impl IconShape for LdBellRing {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBell;
 impl IconShape for LdBell {
     fn view_box(&self) -> &str {
@@ -6089,7 +5831,7 @@ impl IconShape for LdBell {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBetweenHorizontalEnd;
 impl IconShape for LdBetweenHorizontalEnd {
     fn view_box(&self) -> &str {
@@ -6130,7 +5872,7 @@ impl IconShape for LdBetweenHorizontalEnd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBetweenHorizontalStart;
 impl IconShape for LdBetweenHorizontalStart {
     fn view_box(&self) -> &str {
@@ -6171,7 +5913,7 @@ impl IconShape for LdBetweenHorizontalStart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBetweenVerticalEnd;
 impl IconShape for LdBetweenVerticalEnd {
     fn view_box(&self) -> &str {
@@ -6212,7 +5954,7 @@ impl IconShape for LdBetweenVerticalEnd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBetweenVerticalStart;
 impl IconShape for LdBetweenVerticalStart {
     fn view_box(&self) -> &str {
@@ -6253,7 +5995,40 @@ impl IconShape for LdBetweenVerticalStart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdBicepsFlexed;
+impl IconShape for LdBicepsFlexed {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12.409 13.017A5 5 0 0 1 22 15c0 3.866-4 7-9 7-4.077 0-8.153-.82-10.371-2.462-.426-.316-.631-.832-.62-1.362C2.118 12.723 2.627 2 10 2a3 3 0 0 1 3 3 2 2 0 0 1-2 2c-1.105 0-1.64-.444-2-1",
+            }
+            path {
+                d: "M15 14a5 5 0 0 0-7.584 2",
+            }
+            path {
+                d: "M9.964 6.825C8.019 7.977 9.5 13 8 15",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBike;
 impl IconShape for LdBike {
     fn view_box(&self) -> &str {
@@ -6295,7 +6070,7 @@ impl IconShape for LdBike {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBinary;
 impl IconShape for LdBinary {
     fn view_box(&self) -> &str {
@@ -6345,7 +6120,49 @@ impl IconShape for LdBinary {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdBinoculars;
+impl IconShape for LdBinoculars {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M10 10h4",
+            }
+            path {
+                d: "M19 7V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3",
+            }
+            path {
+                d: "M20 21a2 2 0 0 0 2-2v-3.851c0-1.39-2-2.962-2-4.829V8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2z",
+            }
+            path {
+                d: "M 22 16 L 2 16",
+            }
+            path {
+                d: "M4 21a2 2 0 0 1-2-2v-3.851c0-1.39 2-2.962 2-4.829V8a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v11a2 2 0 0 1-2 2z",
+            }
+            path {
+                d: "M9 7V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBiohazard;
 impl IconShape for LdBiohazard {
     fn view_box(&self) -> &str {
@@ -6401,7 +6218,7 @@ impl IconShape for LdBiohazard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBird;
 impl IconShape for LdBird {
     fn view_box(&self) -> &str {
@@ -6443,7 +6260,7 @@ impl IconShape for LdBird {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBitcoin;
 impl IconShape for LdBitcoin {
     fn view_box(&self) -> &str {
@@ -6470,7 +6287,7 @@ impl IconShape for LdBitcoin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBlend;
 impl IconShape for LdBlend {
     fn view_box(&self) -> &str {
@@ -6504,7 +6321,7 @@ impl IconShape for LdBlend {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBlinds;
 impl IconShape for LdBlinds {
     fn view_box(&self) -> &str {
@@ -6551,7 +6368,7 @@ impl IconShape for LdBlinds {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBlocks;
 impl IconShape for LdBlocks {
     fn view_box(&self) -> &str {
@@ -6585,7 +6402,7 @@ impl IconShape for LdBlocks {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBluetoothConnected;
 impl IconShape for LdBluetoothConnected {
     fn view_box(&self) -> &str {
@@ -6624,7 +6441,7 @@ impl IconShape for LdBluetoothConnected {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBluetoothOff;
 impl IconShape for LdBluetoothOff {
     fn view_box(&self) -> &str {
@@ -6657,7 +6474,7 @@ impl IconShape for LdBluetoothOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBluetoothSearching;
 impl IconShape for LdBluetoothSearching {
     fn view_box(&self) -> &str {
@@ -6690,7 +6507,7 @@ impl IconShape for LdBluetoothSearching {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBluetooth;
 impl IconShape for LdBluetooth {
     fn view_box(&self) -> &str {
@@ -6717,7 +6534,7 @@ impl IconShape for LdBluetooth {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBold;
 impl IconShape for LdBold {
     fn view_box(&self) -> &str {
@@ -6738,16 +6555,13 @@ impl IconShape for LdBold {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M14 12a4 4 0 0 0 0-8H6v8",
-            }
-            path {
-                d: "M15 20a4 4 0 0 0 0-8H6v8Z",
+                d: "M6 12h9a4 4 0 0 1 0 8H7a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h7a4 4 0 0 1 0 8",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBolt;
 impl IconShape for LdBolt {
     fn view_box(&self) -> &str {
@@ -6779,7 +6593,7 @@ impl IconShape for LdBolt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBomb;
 impl IconShape for LdBomb {
     fn view_box(&self) -> &str {
@@ -6814,7 +6628,7 @@ impl IconShape for LdBomb {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBone;
 impl IconShape for LdBone {
     fn view_box(&self) -> &str {
@@ -6841,7 +6655,7 @@ impl IconShape for LdBone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookA;
 impl IconShape for LdBookA {
     fn view_box(&self) -> &str {
@@ -6862,7 +6676,7 @@ impl IconShape for LdBookA {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
             path {
                 d: "m8 13 4-7 4 7",
@@ -6874,7 +6688,7 @@ impl IconShape for LdBookA {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookAudio;
 impl IconShape for LdBookAudio {
     fn view_box(&self) -> &str {
@@ -6895,22 +6709,22 @@ impl IconShape for LdBookAudio {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
-            }
-            path {
-                d: "M8 8v3",
-            }
-            path {
                 d: "M12 6v7",
             }
             path {
                 d: "M16 8v3",
             }
+            path {
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
+            }
+            path {
+                d: "M8 8v3",
+            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookCheck;
 impl IconShape for LdBookCheck {
     fn view_box(&self) -> &str {
@@ -6931,7 +6745,7 @@ impl IconShape for LdBookCheck {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
             path {
                 d: "m9 9.5 2 2 4-4",
@@ -6940,7 +6754,7 @@ impl IconShape for LdBookCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookCopy;
 impl IconShape for LdBookCopy {
     fn view_box(&self) -> &str {
@@ -6964,16 +6778,16 @@ impl IconShape for LdBookCopy {
                 d: "M2 16V4a2 2 0 0 1 2-2h11",
             }
             path {
-                d: "M5 14H4a2 2 0 1 0 0 4h1",
+                d: "M22 18H11a2 2 0 1 0 0 4h10.5a.5.5 0 0 0 .5-.5v-15a.5.5 0 0 0-.5-.5H11a2 2 0 0 0-2 2v12",
             }
             path {
-                d: "M22 18H11a2 2 0 1 0 0 4h11V6H11a2 2 0 0 0-2 2v12",
+                d: "M5 14H4a2 2 0 1 0 0 4h1",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookDashed;
 impl IconShape for LdBookDashed {
     fn view_box(&self) -> &str {
@@ -6994,43 +6808,43 @@ impl IconShape for LdBookDashed {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M20 22h-2",
-            }
-            path {
-                d: "M20 15v2h-2",
-            }
-            path {
-                d: "M4 19.5V15",
-            }
-            path {
-                d: "M20 8v3",
-            }
-            path {
-                d: "M18 2h2v2",
-            }
-            path {
-                d: "M4 11V9",
-            }
-            path {
-                d: "M12 2h2",
+                d: "M12 17h2",
             }
             path {
                 d: "M12 22h2",
             }
             path {
-                d: "M12 17h2",
+                d: "M12 2h2",
             }
             path {
-                d: "M8 22H6.5a2.5 2.5 0 0 1 0-5H8",
+                d: "M18 22h1a1 1 0 0 0 1-1",
+            }
+            path {
+                d: "M18 2h1a1 1 0 0 1 1 1v1",
+            }
+            path {
+                d: "M20 15v2h-2",
+            }
+            path {
+                d: "M20 8v3",
+            }
+            path {
+                d: "M4 11V9",
+            }
+            path {
+                d: "M4 19.5V15",
             }
             path {
                 d: "M4 5v-.5A2.5 2.5 0 0 1 6.5 2H8",
+            }
+            path {
+                d: "M8 22H6.5a1 1 0 0 1 0-5H8",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookDown;
 impl IconShape for LdBookDown {
     fn view_box(&self) -> &str {
@@ -7051,10 +6865,10 @@ impl IconShape for LdBookDown {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "M12 13V7",
             }
             path {
-                d: "M12 13V7",
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
             path {
                 d: "m9 10 3 3 3-3",
@@ -7063,7 +6877,7 @@ impl IconShape for LdBookDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookHeadphones;
 impl IconShape for LdBookHeadphones {
     fn view_box(&self) -> &str {
@@ -7084,12 +6898,7 @@ impl IconShape for LdBookHeadphones {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
-            }
-            circle {
-                cx: "9",
-                cy: "12",
-                r: "1",
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
             path {
                 d: "M8 12v-2a4 4 0 0 1 8 0v2",
@@ -7099,11 +6908,16 @@ impl IconShape for LdBookHeadphones {
                 cy: "12",
                 r: "1",
             }
+            circle {
+                cx: "9",
+                cy: "12",
+                r: "1",
+            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookHeart;
 impl IconShape for LdBookHeart {
     fn view_box(&self) -> &str {
@@ -7124,16 +6938,16 @@ impl IconShape for LdBookHeart {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "M16 8.2A2.22 2.22 0 0 0 13.8 6c-.8 0-1.4.3-1.8.9-.4-.6-1-.9-1.8-.9A2.22 2.22 0 0 0 8 8.2c0 .6.3 1.2.7 1.6A226.652 226.652 0 0 0 12 13a404 404 0 0 0 3.3-3.1 2.413 2.413 0 0 0 .7-1.7",
             }
             path {
-                d: "M16 8.2C16 7 15 6 13.8 6c-.8 0-1.4.3-1.8.9-.4-.6-1-.9-1.8-.9C9 6 8 7 8 8.2c0 .6.3 1.2.7 1.6h0C10 11.1 12 13 12 13s2-1.9 3.3-3.1h0c.4-.4.7-1 .7-1.7z",
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookImage;
 impl IconShape for LdBookImage {
     fn view_box(&self) -> &str {
@@ -7154,21 +6968,21 @@ impl IconShape for LdBookImage {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "m20 13.7-2.1-2.1a2 2 0 0 0-2.8 0L9.7 17",
+            }
+            path {
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
             circle {
                 cx: "10",
                 cy: "8",
                 r: "2",
             }
-            path {
-                d: "m20 13.7-2.1-2.1c-.8-.8-2-.8-2.8 0L9.7 17",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookKey;
 impl IconShape for LdBookKey {
     fn view_box(&self) -> &str {
@@ -7189,27 +7003,27 @@ impl IconShape for LdBookKey {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H14",
+                d: "m19 3 1 1",
             }
             path {
-                d: "M20 8v14H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "m20 2-4.5 4.5",
+            }
+            path {
+                d: "M20 8v13a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
+            }
+            path {
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H14",
             }
             circle {
                 cx: "14",
                 cy: "8",
                 r: "2",
             }
-            path {
-                d: "m20 2-4.5 4.5",
-            }
-            path {
-                d: "m19 3 1 1",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookLock;
 impl IconShape for LdBookLock {
     fn view_box(&self) -> &str {
@@ -7230,10 +7044,13 @@ impl IconShape for LdBookLock {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H10",
+                d: "M18 6V4a2 2 0 1 0-4 0v2",
             }
             path {
-                d: "M20 15v7H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "M20 15v6a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
+            }
+            path {
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H10",
             }
             rect {
                 height: "5",
@@ -7242,14 +7059,11 @@ impl IconShape for LdBookLock {
                 x: "12",
                 y: "6",
             }
-            path {
-                d: "M18 6V4a2 2 0 1 0-4 0v2",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookMarked;
 impl IconShape for LdBookMarked {
     fn view_box(&self) -> &str {
@@ -7270,16 +7084,16 @@ impl IconShape for LdBookMarked {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "M10 2v8l3-3 3 3V2",
             }
-            polyline {
-                points: "10 2 10 10 13 7 16 10 16 2",
+            path {
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookMinus;
 impl IconShape for LdBookMinus {
     fn view_box(&self) -> &str {
@@ -7300,7 +7114,7 @@ impl IconShape for LdBookMinus {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
             path {
                 d: "M9 10h6",
@@ -7309,7 +7123,7 @@ impl IconShape for LdBookMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookOpenCheck;
 impl IconShape for LdBookOpenCheck {
     fn view_box(&self) -> &str {
@@ -7330,19 +7144,19 @@ impl IconShape for LdBookOpenCheck {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M8 3H2v15h7c1.7 0 3 1.3 3 3V7c0-2.2-1.8-4-4-4Z",
+                d: "M12 21V7",
             }
             path {
                 d: "m16 12 2 2 4-4",
             }
             path {
-                d: "M22 6V3h-6c-2.2 0-4 1.8-4 4v14c0-1.7 1.3-3 3-3h7v-2.3",
+                d: "M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-1.3",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookOpenText;
 impl IconShape for LdBookOpenText {
     fn view_box(&self) -> &str {
@@ -7363,28 +7177,28 @@ impl IconShape for LdBookOpenText {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z",
+                d: "M12 7v14",
             }
             path {
-                d: "M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z",
-            }
-            path {
-                d: "M6 8h2",
-            }
-            path {
-                d: "M6 12h2",
+                d: "M16 12h2",
             }
             path {
                 d: "M16 8h2",
             }
             path {
-                d: "M16 12h2",
+                d: "M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z",
+            }
+            path {
+                d: "M6 12h2",
+            }
+            path {
+                d: "M6 8h2",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookOpen;
 impl IconShape for LdBookOpen {
     fn view_box(&self) -> &str {
@@ -7405,16 +7219,16 @@ impl IconShape for LdBookOpen {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z",
+                d: "M12 7v14",
             }
             path {
-                d: "M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z",
+                d: "M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookPlus;
 impl IconShape for LdBookPlus {
     fn view_box(&self) -> &str {
@@ -7435,19 +7249,19 @@ impl IconShape for LdBookPlus {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "M12 7v6",
+            }
+            path {
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
             path {
                 d: "M9 10h6",
-            }
-            path {
-                d: "M12 7v6",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookText;
 impl IconShape for LdBookText {
     fn view_box(&self) -> &str {
@@ -7468,19 +7282,19 @@ impl IconShape for LdBookText {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
-            }
-            path {
-                d: "M8 7h6",
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
             path {
                 d: "M8 11h8",
+            }
+            path {
+                d: "M8 7h6",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookType;
 impl IconShape for LdBookType {
     fn view_box(&self) -> &str {
@@ -7501,22 +7315,22 @@ impl IconShape for LdBookType {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
-            }
-            path {
-                d: "M16 8V6H8v2",
+                d: "M10 13h4",
             }
             path {
                 d: "M12 6v7",
             }
             path {
-                d: "M10 13h4",
+                d: "M16 8V6H8v2",
+            }
+            path {
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookUp2;
 impl IconShape for LdBookUp2 {
     fn view_box(&self) -> &str {
@@ -7537,13 +7351,13 @@ impl IconShape for LdBookUp2 {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2",
-            }
-            path {
-                d: "M18 2h2v20H6.5a2.5 2.5 0 0 1 0-5H20",
-            }
-            path {
                 d: "M12 13V7",
+            }
+            path {
+                d: "M18 2h1a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
+            }
+            path {
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2",
             }
             path {
                 d: "m9 10 3-3 3 3",
@@ -7555,7 +7369,7 @@ impl IconShape for LdBookUp2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookUp;
 impl IconShape for LdBookUp {
     fn view_box(&self) -> &str {
@@ -7576,10 +7390,10 @@ impl IconShape for LdBookUp {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "M12 13V7",
             }
             path {
-                d: "M12 13V7",
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
             path {
                 d: "m9 10 3-3 3 3",
@@ -7588,7 +7402,7 @@ impl IconShape for LdBookUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookUser;
 impl IconShape for LdBookUser {
     fn view_box(&self) -> &str {
@@ -7609,21 +7423,21 @@ impl IconShape for LdBookUser {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "M15 13a3 3 0 1 0-6 0",
+            }
+            path {
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
             circle {
                 cx: "12",
                 cy: "8",
                 r: "2",
             }
-            path {
-                d: "M15 13a3 3 0 1 0-6 0",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookX;
 impl IconShape for LdBookX {
     fn view_box(&self) -> &str {
@@ -7644,10 +7458,10 @@ impl IconShape for LdBookX {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "m14.5 7-5 5",
             }
             path {
-                d: "m14.5 7-5 5",
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
             path {
                 d: "m9.5 7 5 5",
@@ -7656,7 +7470,7 @@ impl IconShape for LdBookX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBook;
 impl IconShape for LdBook {
     fn view_box(&self) -> &str {
@@ -7677,13 +7491,13 @@ impl IconShape for LdBook {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+                d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookmarkCheck;
 impl IconShape for LdBookmarkCheck {
     fn view_box(&self) -> &str {
@@ -7713,7 +7527,7 @@ impl IconShape for LdBookmarkCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookmarkMinus;
 impl IconShape for LdBookmarkMinus {
     fn view_box(&self) -> &str {
@@ -7746,7 +7560,7 @@ impl IconShape for LdBookmarkMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookmarkPlus;
 impl IconShape for LdBookmarkPlus {
     fn view_box(&self) -> &str {
@@ -7785,7 +7599,7 @@ impl IconShape for LdBookmarkPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookmarkX;
 impl IconShape for LdBookmarkX {
     fn view_box(&self) -> &str {
@@ -7818,7 +7632,7 @@ impl IconShape for LdBookmarkX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBookmark;
 impl IconShape for LdBookmark {
     fn view_box(&self) -> &str {
@@ -7845,7 +7659,7 @@ impl IconShape for LdBookmark {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBoomBox;
 impl IconShape for LdBoomBox {
     fn view_box(&self) -> &str {
@@ -7898,7 +7712,7 @@ impl IconShape for LdBoomBox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBotMessageSquare;
 impl IconShape for LdBotMessageSquare {
     fn view_box(&self) -> &str {
@@ -7940,7 +7754,7 @@ impl IconShape for LdBotMessageSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBotOff;
 impl IconShape for LdBotOff {
     fn view_box(&self) -> &str {
@@ -7985,7 +7799,7 @@ impl IconShape for LdBotOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBot;
 impl IconShape for LdBot {
     fn view_box(&self) -> &str {
@@ -8031,67 +7845,7 @@ impl IconShape for LdBot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdBoxSelect;
-impl IconShape for LdBoxSelect {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M5 3a2 2 0 0 0-2 2",
-            }
-            path {
-                d: "M19 3a2 2 0 0 1 2 2",
-            }
-            path {
-                d: "M21 19a2 2 0 0 1-2 2",
-            }
-            path {
-                d: "M5 21a2 2 0 0 1-2-2",
-            }
-            path {
-                d: "M9 3h1",
-            }
-            path {
-                d: "M9 21h1",
-            }
-            path {
-                d: "M14 3h1",
-            }
-            path {
-                d: "M14 21h1",
-            }
-            path {
-                d: "M3 9v1",
-            }
-            path {
-                d: "M21 9v1",
-            }
-            path {
-                d: "M3 14v1",
-            }
-            path {
-                d: "M21 14v1",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBox;
 impl IconShape for LdBox {
     fn view_box(&self) -> &str {
@@ -8124,7 +7878,7 @@ impl IconShape for LdBox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBoxes;
 impl IconShape for LdBoxes {
     fn view_box(&self) -> &str {
@@ -8184,7 +7938,7 @@ impl IconShape for LdBoxes {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBraces;
 impl IconShape for LdBraces {
     fn view_box(&self) -> &str {
@@ -8214,7 +7968,7 @@ impl IconShape for LdBraces {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBrackets;
 impl IconShape for LdBrackets {
     fn view_box(&self) -> &str {
@@ -8244,7 +7998,7 @@ impl IconShape for LdBrackets {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBrainCircuit;
 impl IconShape for LdBrainCircuit {
     fn view_box(&self) -> &str {
@@ -8315,7 +8069,7 @@ impl IconShape for LdBrainCircuit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBrainCog;
 impl IconShape for LdBrainCog {
     fn view_box(&self) -> &str {
@@ -8389,7 +8143,7 @@ impl IconShape for LdBrainCog {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBrain;
 impl IconShape for LdBrain {
     fn view_box(&self) -> &str {
@@ -8440,7 +8194,7 @@ impl IconShape for LdBrain {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBrickWall;
 impl IconShape for LdBrickWall {
     fn view_box(&self) -> &str {
@@ -8492,7 +8246,7 @@ impl IconShape for LdBrickWall {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBriefcaseBusiness;
 impl IconShape for LdBriefcaseBusiness {
     fn view_box(&self) -> &str {
@@ -8532,7 +8286,56 @@ impl IconShape for LdBriefcaseBusiness {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdBriefcaseConveyorBelt;
+impl IconShape for LdBriefcaseConveyorBelt {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M10 20v2",
+            }
+            path {
+                d: "M14 20v2",
+            }
+            path {
+                d: "M18 20v2",
+            }
+            path {
+                d: "M21 20H3",
+            }
+            path {
+                d: "M6 20v2",
+            }
+            path {
+                d: "M8 16V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v12",
+            }
+            rect {
+                height: "10",
+                rx: "2",
+                width: "16",
+                x: "4",
+                y: "6",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBriefcaseMedical;
 impl IconShape for LdBriefcaseMedical {
     fn view_box(&self) -> &str {
@@ -8578,7 +8381,7 @@ impl IconShape for LdBriefcaseMedical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBriefcase;
 impl IconShape for LdBriefcase {
     fn view_box(&self) -> &str {
@@ -8612,7 +8415,7 @@ impl IconShape for LdBriefcase {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBringToFront;
 impl IconShape for LdBringToFront {
     fn view_box(&self) -> &str {
@@ -8649,7 +8452,7 @@ impl IconShape for LdBringToFront {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBrush;
 impl IconShape for LdBrush {
     fn view_box(&self) -> &str {
@@ -8679,7 +8482,7 @@ impl IconShape for LdBrush {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBugOff;
 impl IconShape for LdBugOff {
     fn view_box(&self) -> &str {
@@ -8730,7 +8533,7 @@ impl IconShape for LdBugOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBugPlay;
 impl IconShape for LdBugPlay {
     fn view_box(&self) -> &str {
@@ -8781,7 +8584,7 @@ impl IconShape for LdBugPlay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBug;
 impl IconShape for LdBug {
     fn view_box(&self) -> &str {
@@ -8838,7 +8641,7 @@ impl IconShape for LdBug {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBuilding2;
 impl IconShape for LdBuilding2 {
     fn view_box(&self) -> &str {
@@ -8883,7 +8686,7 @@ impl IconShape for LdBuilding2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBuilding;
 impl IconShape for LdBuilding {
     fn view_box(&self) -> &str {
@@ -8945,7 +8748,7 @@ impl IconShape for LdBuilding {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBusFront;
 impl IconShape for LdBusFront {
     fn view_box(&self) -> &str {
@@ -9000,7 +8803,7 @@ impl IconShape for LdBusFront {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdBus;
 impl IconShape for LdBus {
     fn view_box(&self) -> &str {
@@ -9049,7 +8852,7 @@ impl IconShape for LdBus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCableCar;
 impl IconShape for LdCableCar {
     fn view_box(&self) -> &str {
@@ -9101,7 +8904,7 @@ impl IconShape for LdCableCar {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCable;
 impl IconShape for LdCable {
     fn view_box(&self) -> &str {
@@ -9140,7 +8943,7 @@ impl IconShape for LdCable {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCakeSlice;
 impl IconShape for LdCakeSlice {
     fn view_box(&self) -> &str {
@@ -9178,7 +8981,7 @@ impl IconShape for LdCakeSlice {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCake;
 impl IconShape for LdCake {
     fn view_box(&self) -> &str {
@@ -9217,19 +9020,19 @@ impl IconShape for LdCake {
                 d: "M17 8v3",
             }
             path {
-                d: "M7 4h0.01",
+                d: "M7 4h.01",
             }
             path {
-                d: "M12 4h0.01",
+                d: "M12 4h.01",
             }
             path {
-                d: "M17 4h0.01",
+                d: "M17 4h.01",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalculator;
 impl IconShape for LdCalculator {
     fn view_box(&self) -> &str {
@@ -9293,7 +9096,134 @@ impl IconShape for LdCalculator {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdCalendar1;
+impl IconShape for LdCalendar1 {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M11 14h1v4",
+            }
+            path {
+                d: "M16 2v4",
+            }
+            path {
+                d: "M3 10h18",
+            }
+            path {
+                d: "M8 2v4",
+            }
+            rect {
+                height: "18",
+                rx: "2",
+                width: "18",
+                x: "3",
+                y: "4",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdCalendarArrowDown;
+impl IconShape for LdCalendarArrowDown {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "m14 18 4 4 4-4",
+            }
+            path {
+                d: "M16 2v4",
+            }
+            path {
+                d: "M18 14v8",
+            }
+            path {
+                d: "M21 11.354V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.343",
+            }
+            path {
+                d: "M3 10h18",
+            }
+            path {
+                d: "M8 2v4",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdCalendarArrowUp;
+impl IconShape for LdCalendarArrowUp {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "m14 18 4-4 4 4",
+            }
+            path {
+                d: "M16 2v4",
+            }
+            path {
+                d: "M18 22v-8",
+            }
+            path {
+                d: "M21 11.343V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9",
+            }
+            path {
+                d: "M3 10h18",
+            }
+            path {
+                d: "M8 2v4",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarCheck2;
 impl IconShape for LdCalendarCheck2 {
     fn view_box(&self) -> &str {
@@ -9332,7 +9262,7 @@ impl IconShape for LdCalendarCheck2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarCheck;
 impl IconShape for LdCalendarCheck {
     fn view_box(&self) -> &str {
@@ -9375,7 +9305,7 @@ impl IconShape for LdCalendarCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarClock;
 impl IconShape for LdCalendarClock {
     fn view_box(&self) -> &str {
@@ -9419,7 +9349,72 @@ impl IconShape for LdCalendarClock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdCalendarCog;
+impl IconShape for LdCalendarCog {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "m15.2 16.9-.9-.4",
+            }
+            path {
+                d: "m15.2 19.1-.9.4",
+            }
+            path {
+                d: "M16 2v4",
+            }
+            path {
+                d: "m16.9 15.2-.4-.9",
+            }
+            path {
+                d: "m16.9 20.8-.4.9",
+            }
+            path {
+                d: "m19.5 14.3-.4.9",
+            }
+            path {
+                d: "m19.5 21.7-.4-.9",
+            }
+            path {
+                d: "M21 10.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6",
+            }
+            path {
+                d: "m21.7 16.5-.9.4",
+            }
+            path {
+                d: "m21.7 19.5-.9-.4",
+            }
+            path {
+                d: "M3 10h18",
+            }
+            path {
+                d: "M8 2v4",
+            }
+            circle {
+                cx: "18",
+                cy: "18",
+                r: "3",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarDays;
 impl IconShape for LdCalendarDays {
     fn view_box(&self) -> &str {
@@ -9477,7 +9472,7 @@ impl IconShape for LdCalendarDays {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarFold;
 impl IconShape for LdCalendarFold {
     fn view_box(&self) -> &str {
@@ -9516,7 +9511,7 @@ impl IconShape for LdCalendarFold {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarHeart;
 impl IconShape for LdCalendarHeart {
     fn view_box(&self) -> &str {
@@ -9552,7 +9547,7 @@ impl IconShape for LdCalendarHeart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarMinus2;
 impl IconShape for LdCalendarMinus2 {
     fn view_box(&self) -> &str {
@@ -9595,7 +9590,7 @@ impl IconShape for LdCalendarMinus2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarMinus;
 impl IconShape for LdCalendarMinus {
     fn view_box(&self) -> &str {
@@ -9616,25 +9611,25 @@ impl IconShape for LdCalendarMinus {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M8 2v4",
+                d: "M16 19h6",
             }
             path {
                 d: "M16 2v4",
             }
             path {
-                d: "M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8",
+                d: "M21 15V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5",
             }
             path {
                 d: "M3 10h18",
             }
             path {
-                d: "M16 19h6",
+                d: "M8 2v4",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarOff;
 impl IconShape for LdCalendarOff {
     fn view_box(&self) -> &str {
@@ -9676,7 +9671,7 @@ impl IconShape for LdCalendarOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarPlus2;
 impl IconShape for LdCalendarPlus2 {
     fn view_box(&self) -> &str {
@@ -9722,7 +9717,7 @@ impl IconShape for LdCalendarPlus2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarPlus;
 impl IconShape for LdCalendarPlus {
     fn view_box(&self) -> &str {
@@ -9764,7 +9759,7 @@ impl IconShape for LdCalendarPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarRange;
 impl IconShape for LdCalendarRange {
     fn view_box(&self) -> &str {
@@ -9816,7 +9811,7 @@ impl IconShape for LdCalendarRange {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarSearch;
 impl IconShape for LdCalendarSearch {
     fn view_box(&self) -> &str {
@@ -9837,30 +9832,30 @@ impl IconShape for LdCalendarSearch {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M21 12V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.5",
-            }
-            path {
                 d: "M16 2v4",
             }
             path {
-                d: "M8 2v4",
+                d: "M21 11.75V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.25",
+            }
+            path {
+                d: "m22 22-1.875-1.875",
             }
             path {
                 d: "M3 10h18",
+            }
+            path {
+                d: "M8 2v4",
             }
             circle {
                 cx: "18",
                 cy: "18",
                 r: "3",
             }
-            path {
-                d: "m22 22-1.5-1.5",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarX2;
 impl IconShape for LdCalendarX2 {
     fn view_box(&self) -> &str {
@@ -9902,7 +9897,7 @@ impl IconShape for LdCalendarX2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendarX;
 impl IconShape for LdCalendarX {
     fn view_box(&self) -> &str {
@@ -9948,7 +9943,7 @@ impl IconShape for LdCalendarX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCalendar;
 impl IconShape for LdCalendar {
     fn view_box(&self) -> &str {
@@ -9988,7 +9983,7 @@ impl IconShape for LdCalendar {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCameraOff;
 impl IconShape for LdCameraOff {
     fn view_box(&self) -> &str {
@@ -10027,7 +10022,7 @@ impl IconShape for LdCameraOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCamera;
 impl IconShape for LdCamera {
     fn view_box(&self) -> &str {
@@ -10059,60 +10054,7 @@ impl IconShape for LdCamera {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdCandlestickChart;
-impl IconShape for LdCandlestickChart {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M9 5v4",
-            }
-            rect {
-                height: "6",
-                rx: "1",
-                width: "4",
-                x: "7",
-                y: "9",
-            }
-            path {
-                d: "M9 15v2",
-            }
-            path {
-                d: "M17 3v2",
-            }
-            rect {
-                height: "8",
-                rx: "1",
-                width: "4",
-                x: "15",
-                y: "5",
-            }
-            path {
-                d: "M17 13v3",
-            }
-            path {
-                d: "M3 3v18h18",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCandyCane;
 impl IconShape for LdCandyCane {
     fn view_box(&self) -> &str {
@@ -10151,7 +10093,7 @@ impl IconShape for LdCandyCane {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCandyOff;
 impl IconShape for LdCandyOff {
     fn view_box(&self) -> &str {
@@ -10202,7 +10144,7 @@ impl IconShape for LdCandyOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCandy;
 impl IconShape for LdCandy {
     fn view_box(&self) -> &str {
@@ -10241,7 +10183,7 @@ impl IconShape for LdCandy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCannabis;
 impl IconShape for LdCannabis {
     fn view_box(&self) -> &str {
@@ -10271,7 +10213,7 @@ impl IconShape for LdCannabis {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCaptionsOff;
 impl IconShape for LdCaptionsOff {
     fn view_box(&self) -> &str {
@@ -10313,7 +10255,7 @@ impl IconShape for LdCaptionsOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCaptions;
 impl IconShape for LdCaptions {
     fn view_box(&self) -> &str {
@@ -10348,7 +10290,7 @@ impl IconShape for LdCaptions {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCarFront;
 impl IconShape for LdCarFront {
     fn view_box(&self) -> &str {
@@ -10394,7 +10336,7 @@ impl IconShape for LdCarFront {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCarTaxiFront;
 impl IconShape for LdCarTaxiFront {
     fn view_box(&self) -> &str {
@@ -10443,7 +10385,7 @@ impl IconShape for LdCarTaxiFront {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCar;
 impl IconShape for LdCar {
     fn view_box(&self) -> &str {
@@ -10483,7 +10425,7 @@ impl IconShape for LdCar {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCaravan;
 impl IconShape for LdCaravan {
     fn view_box(&self) -> &str {
@@ -10503,34 +10445,25 @@ impl IconShape for LdCaravan {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            rect {
-                height: "4",
-                width: "4",
-                x: "2",
-                y: "9",
-            }
-            rect {
-                height: "10",
-                width: "4",
-                x: "10",
-                y: "9",
-            }
             path {
                 d: "M18 19V9a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v8a2 2 0 0 0 2 2h2",
+            }
+            path {
+                d: "M2 9h3a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2",
+            }
+            path {
+                d: "M22 17v1a1 1 0 0 1-1 1H10v-9a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v9",
             }
             circle {
                 cx: "8",
                 cy: "19",
                 r: "2",
             }
-            path {
-                d: "M10 19h12v-2",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCarrot;
 impl IconShape for LdCarrot {
     fn view_box(&self) -> &str {
@@ -10563,7 +10496,7 @@ impl IconShape for LdCarrot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCaseLower;
 impl IconShape for LdCaseLower {
     fn view_box(&self) -> &str {
@@ -10603,7 +10536,7 @@ impl IconShape for LdCaseLower {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCaseSensitive;
 impl IconShape for LdCaseSensitive {
     fn view_box(&self) -> &str {
@@ -10641,7 +10574,7 @@ impl IconShape for LdCaseSensitive {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCaseUpper;
 impl IconShape for LdCaseUpper {
     fn view_box(&self) -> &str {
@@ -10674,7 +10607,7 @@ impl IconShape for LdCaseUpper {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCassetteTape;
 impl IconShape for LdCassetteTape {
     fn view_box(&self) -> &str {
@@ -10721,7 +10654,7 @@ impl IconShape for LdCassetteTape {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCast;
 impl IconShape for LdCast {
     fn view_box(&self) -> &str {
@@ -10760,7 +10693,7 @@ impl IconShape for LdCast {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCastle;
 impl IconShape for LdCastle {
     fn view_box(&self) -> &str {
@@ -10787,7 +10720,7 @@ impl IconShape for LdCastle {
                 d: "M18 11V4H6v7",
             }
             path {
-                d: "M15 22v-4a3 3 0 0 0-3-3v0a3 3 0 0 0-3 3v4",
+                d: "M15 22v-4a3 3 0 0 0-3-3a3 3 0 0 0-3 3v4",
             }
             path {
                 d: "M22 11V9",
@@ -10811,7 +10744,7 @@ impl IconShape for LdCastle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCat;
 impl IconShape for LdCat {
     fn view_box(&self) -> &str {
@@ -10847,7 +10780,7 @@ impl IconShape for LdCat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCctv;
 impl IconShape for LdCctv {
     fn view_box(&self) -> &str {
@@ -10886,7 +10819,903 @@ impl IconShape for LdCctv {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartArea;
+impl IconShape for LdChartArea {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            path {
+                d: "M7 11.207a.5.5 0 0 1 .146-.353l2-2a.5.5 0 0 1 .708 0l3.292 3.292a.5.5 0 0 0 .708 0l4.292-4.292a.5.5 0 0 1 .854.353V16a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartBarBig;
+impl IconShape for LdChartBarBig {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            rect {
+                height: "4",
+                rx: "1",
+                width: "9",
+                x: "7",
+                y: "13",
+            }
+            rect {
+                height: "4",
+                rx: "1",
+                width: "12",
+                x: "7",
+                y: "5",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartBarDecreasing;
+impl IconShape for LdChartBarDecreasing {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            path {
+                d: "M7 11h8",
+            }
+            path {
+                d: "M7 16h3",
+            }
+            path {
+                d: "M7 6h12",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartBarIncreasing;
+impl IconShape for LdChartBarIncreasing {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            path {
+                d: "M7 11h8",
+            }
+            path {
+                d: "M7 16h12",
+            }
+            path {
+                d: "M7 6h3",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartBarStacked;
+impl IconShape for LdChartBarStacked {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M11 13v4",
+            }
+            path {
+                d: "M15 5v4",
+            }
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            rect {
+                height: "4",
+                rx: "1",
+                width: "9",
+                x: "7",
+                y: "13",
+            }
+            rect {
+                height: "4",
+                rx: "1",
+                width: "12",
+                x: "7",
+                y: "5",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartBar;
+impl IconShape for LdChartBar {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            path {
+                d: "M7 16h8",
+            }
+            path {
+                d: "M7 11h12",
+            }
+            path {
+                d: "M7 6h3",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartCandlestick;
+impl IconShape for LdChartCandlestick {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M9 5v4",
+            }
+            rect {
+                height: "6",
+                rx: "1",
+                width: "4",
+                x: "7",
+                y: "9",
+            }
+            path {
+                d: "M9 15v2",
+            }
+            path {
+                d: "M17 3v2",
+            }
+            rect {
+                height: "8",
+                rx: "1",
+                width: "4",
+                x: "15",
+                y: "5",
+            }
+            path {
+                d: "M17 13v3",
+            }
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartColumnBig;
+impl IconShape for LdChartColumnBig {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            rect {
+                height: "12",
+                rx: "1",
+                width: "4",
+                x: "15",
+                y: "5",
+            }
+            rect {
+                height: "9",
+                rx: "1",
+                width: "4",
+                x: "7",
+                y: "8",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartColumnDecreasing;
+impl IconShape for LdChartColumnDecreasing {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M13 17V9",
+            }
+            path {
+                d: "M18 17v-3",
+            }
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            path {
+                d: "M8 17V5",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartColumnIncreasing;
+impl IconShape for LdChartColumnIncreasing {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M13 17V9",
+            }
+            path {
+                d: "M18 17V5",
+            }
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            path {
+                d: "M8 17v-3",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartColumnStacked;
+impl IconShape for LdChartColumnStacked {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M11 13H7",
+            }
+            path {
+                d: "M19 9h-4",
+            }
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            rect {
+                height: "12",
+                rx: "1",
+                width: "4",
+                x: "15",
+                y: "5",
+            }
+            rect {
+                height: "9",
+                rx: "1",
+                width: "4",
+                x: "7",
+                y: "8",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartColumn;
+impl IconShape for LdChartColumn {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            path {
+                d: "M18 17V9",
+            }
+            path {
+                d: "M13 17V5",
+            }
+            path {
+                d: "M8 17v-3",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartGantt;
+impl IconShape for LdChartGantt {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M10 6h8",
+            }
+            path {
+                d: "M12 16h6",
+            }
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            path {
+                d: "M8 11h7",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartLine;
+impl IconShape for LdChartLine {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            path {
+                d: "m19 9-5 5-4-4-3 3",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartNetwork;
+impl IconShape for LdChartNetwork {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "m13.11 7.664 1.78 2.672",
+            }
+            path {
+                d: "m14.162 12.788-3.324 1.424",
+            }
+            path {
+                d: "m20 4-6.06 1.515",
+            }
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            circle {
+                cx: "12",
+                cy: "6",
+                r: "2",
+            }
+            circle {
+                cx: "16",
+                cy: "12",
+                r: "2",
+            }
+            circle {
+                cx: "9",
+                cy: "15",
+                r: "2",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartNoAxesColumnDecreasing;
+impl IconShape for LdChartNoAxesColumnDecreasing {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12 20V10",
+            }
+            path {
+                d: "M18 20v-4",
+            }
+            path {
+                d: "M6 20V4",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartNoAxesColumnIncreasing;
+impl IconShape for LdChartNoAxesColumnIncreasing {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            line {
+                x1: "12",
+                x2: "12",
+                y1: "20",
+                y2: "10",
+            }
+            line {
+                x1: "18",
+                x2: "18",
+                y1: "20",
+                y2: "4",
+            }
+            line {
+                x1: "6",
+                x2: "6",
+                y1: "20",
+                y2: "16",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartNoAxesColumn;
+impl IconShape for LdChartNoAxesColumn {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            line {
+                x1: "18",
+                x2: "18",
+                y1: "20",
+                y2: "10",
+            }
+            line {
+                x1: "12",
+                x2: "12",
+                y1: "20",
+                y2: "4",
+            }
+            line {
+                x1: "6",
+                x2: "6",
+                y1: "20",
+                y2: "14",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartNoAxesCombined;
+impl IconShape for LdChartNoAxesCombined {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12 16v5",
+            }
+            path {
+                d: "M16 14v7",
+            }
+            path {
+                d: "M20 10v11",
+            }
+            path {
+                d: "m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15",
+            }
+            path {
+                d: "M4 18v3",
+            }
+            path {
+                d: "M8 14v7",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartNoAxesGantt;
+impl IconShape for LdChartNoAxesGantt {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M8 6h10",
+            }
+            path {
+                d: "M6 12h9",
+            }
+            path {
+                d: "M11 18h7",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartPie;
+impl IconShape for LdChartPie {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z",
+            }
+            path {
+                d: "M21.21 15.89A10 10 0 1 1 8 2.83",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartScatter;
+impl IconShape for LdChartScatter {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            circle {
+                cx: "7.5",
+                cy: "7.5",
+                r: ".5",
+            }
+            circle {
+                cx: "18.5",
+                cy: "5.5",
+                r: ".5",
+            }
+            circle {
+                cx: "11.5",
+                cy: "11.5",
+                r: ".5",
+            }
+            circle {
+                cx: "7.5",
+                cy: "16.5",
+                r: ".5",
+            }
+            circle {
+                cx: "17.5",
+                cy: "14.5",
+                r: ".5",
+            }
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChartSpline;
+impl IconShape for LdChartSpline {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M3 3v16a2 2 0 0 0 2 2h16",
+            }
+            path {
+                d: "M7 16c.5-2 1.5-7 4-7 2 0 2 3 4 3 2.5 0 4.5-5 5-7",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCheckCheck;
 impl IconShape for LdCheckCheck {
     fn view_box(&self) -> &str {
@@ -10916,7 +11745,7 @@ impl IconShape for LdCheckCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCheck;
 impl IconShape for LdCheck {
     fn view_box(&self) -> &str {
@@ -10943,7 +11772,7 @@ impl IconShape for LdCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChefHat;
 impl IconShape for LdChefHat {
     fn view_box(&self) -> &str {
@@ -10973,7 +11802,7 @@ impl IconShape for LdChefHat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCherry;
 impl IconShape for LdCherry {
     fn view_box(&self) -> &str {
@@ -11009,7 +11838,7 @@ impl IconShape for LdCherry {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronDown;
 impl IconShape for LdChevronDown {
     fn view_box(&self) -> &str {
@@ -11036,7 +11865,7 @@ impl IconShape for LdChevronDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronFirst;
 impl IconShape for LdChevronFirst {
     fn view_box(&self) -> &str {
@@ -11066,7 +11895,7 @@ impl IconShape for LdChevronFirst {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronLast;
 impl IconShape for LdChevronLast {
     fn view_box(&self) -> &str {
@@ -11096,7 +11925,7 @@ impl IconShape for LdChevronLast {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronLeft;
 impl IconShape for LdChevronLeft {
     fn view_box(&self) -> &str {
@@ -11123,7 +11952,7 @@ impl IconShape for LdChevronLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronRight;
 impl IconShape for LdChevronRight {
     fn view_box(&self) -> &str {
@@ -11150,7 +11979,7 @@ impl IconShape for LdChevronRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronUp;
 impl IconShape for LdChevronUp {
     fn view_box(&self) -> &str {
@@ -11177,7 +12006,7 @@ impl IconShape for LdChevronUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronsDownUp;
 impl IconShape for LdChevronsDownUp {
     fn view_box(&self) -> &str {
@@ -11207,7 +12036,7 @@ impl IconShape for LdChevronsDownUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronsDown;
 impl IconShape for LdChevronsDown {
     fn view_box(&self) -> &str {
@@ -11237,7 +12066,46 @@ impl IconShape for LdChevronsDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdChevronsLeftRightEllipsis;
+impl IconShape for LdChevronsLeftRightEllipsis {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "m18 8 4 4-4 4",
+            }
+            path {
+                d: "m6 8-4 4 4 4",
+            }
+            path {
+                d: "M8 12h.01",
+            }
+            path {
+                d: "M12 12h.01",
+            }
+            path {
+                d: "M16 12h.01",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronsLeftRight;
 impl IconShape for LdChevronsLeftRight {
     fn view_box(&self) -> &str {
@@ -11267,7 +12135,7 @@ impl IconShape for LdChevronsLeftRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronsLeft;
 impl IconShape for LdChevronsLeft {
     fn view_box(&self) -> &str {
@@ -11297,7 +12165,7 @@ impl IconShape for LdChevronsLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronsRightLeft;
 impl IconShape for LdChevronsRightLeft {
     fn view_box(&self) -> &str {
@@ -11327,7 +12195,7 @@ impl IconShape for LdChevronsRightLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronsRight;
 impl IconShape for LdChevronsRight {
     fn view_box(&self) -> &str {
@@ -11357,7 +12225,7 @@ impl IconShape for LdChevronsRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronsUpDown;
 impl IconShape for LdChevronsUpDown {
     fn view_box(&self) -> &str {
@@ -11387,7 +12255,7 @@ impl IconShape for LdChevronsUpDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChevronsUp;
 impl IconShape for LdChevronsUp {
     fn view_box(&self) -> &str {
@@ -11417,7 +12285,7 @@ impl IconShape for LdChevronsUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChrome;
 impl IconShape for LdChrome {
     fn view_box(&self) -> &str {
@@ -11469,7 +12337,7 @@ impl IconShape for LdChrome {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdChurch;
 impl IconShape for LdChurch {
     fn view_box(&self) -> &str {
@@ -11490,25 +12358,25 @@ impl IconShape for LdChurch {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m18 7 4 2v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9l4-2",
-            }
-            path {
-                d: "M14 22v-4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v4",
-            }
-            path {
-                d: "M18 22V5l-6-3-6 3v17",
+                d: "M10 9h4",
             }
             path {
                 d: "M12 7v5",
             }
             path {
-                d: "M10 9h4",
+                d: "M14 22v-4a2 2 0 0 0-4 0v4",
+            }
+            path {
+                d: "M18 22V5.618a1 1 0 0 0-.553-.894l-4.553-2.277a2 2 0 0 0-1.788 0L6.553 4.724A1 1 0 0 0 6 5.618V22",
+            }
+            path {
+                d: "m18 7 3.447 1.724a1 1 0 0 1 .553.894V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9.618a1 1 0 0 1 .553-.894L6 7",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCigaretteOff;
 impl IconShape for LdCigaretteOff {
     fn view_box(&self) -> &str {
@@ -11528,35 +12396,29 @@ impl IconShape for LdCigaretteOff {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            line {
-                x1: "2",
-                x2: "22",
-                y1: "2",
-                y2: "22",
-            }
             path {
-                d: "M12 12H2v4h14",
-            }
-            path {
-                d: "M22 12v4",
-            }
-            path {
-                d: "M18 12h-.5",
-            }
-            path {
-                d: "M7 12v4",
+                d: "M12 12H3a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h13",
             }
             path {
                 d: "M18 8c0-2.5-2-2.5-2-5",
             }
             path {
+                d: "m2 2 20 20",
+            }
+            path {
+                d: "M21 12a1 1 0 0 1 1 1v2a1 1 0 0 1-.5.866",
+            }
+            path {
                 d: "M22 8c0-2.5-2-2.5-2-5",
+            }
+            path {
+                d: "M7 12v4",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCigarette;
 impl IconShape for LdCigarette {
     fn view_box(&self) -> &str {
@@ -11577,25 +12439,25 @@ impl IconShape for LdCigarette {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M18 12H2v4h16",
-            }
-            path {
-                d: "M22 12v4",
-            }
-            path {
-                d: "M7 12v4",
+                d: "M17 12H3a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14",
             }
             path {
                 d: "M18 8c0-2.5-2-2.5-2-5",
             }
             path {
+                d: "M21 16a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1",
+            }
+            path {
                 d: "M22 8c0-2.5-2-2.5-2-5",
+            }
+            path {
+                d: "M7 12v4",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleAlert;
 impl IconShape for LdCircleAlert {
     fn view_box(&self) -> &str {
@@ -11636,7 +12498,7 @@ impl IconShape for LdCircleAlert {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleArrowDown;
 impl IconShape for LdCircleArrowDown {
     fn view_box(&self) -> &str {
@@ -11671,7 +12533,7 @@ impl IconShape for LdCircleArrowDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleArrowLeft;
 impl IconShape for LdCircleArrowLeft {
     fn view_box(&self) -> &str {
@@ -11706,7 +12568,7 @@ impl IconShape for LdCircleArrowLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleArrowOutDownLeft;
 impl IconShape for LdCircleArrowOutDownLeft {
     fn view_box(&self) -> &str {
@@ -11739,7 +12601,7 @@ impl IconShape for LdCircleArrowOutDownLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleArrowOutDownRight;
 impl IconShape for LdCircleArrowOutDownRight {
     fn view_box(&self) -> &str {
@@ -11772,7 +12634,7 @@ impl IconShape for LdCircleArrowOutDownRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleArrowOutUpLeft;
 impl IconShape for LdCircleArrowOutUpLeft {
     fn view_box(&self) -> &str {
@@ -11805,7 +12667,7 @@ impl IconShape for LdCircleArrowOutUpLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleArrowOutUpRight;
 impl IconShape for LdCircleArrowOutUpRight {
     fn view_box(&self) -> &str {
@@ -11838,7 +12700,7 @@ impl IconShape for LdCircleArrowOutUpRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleArrowRight;
 impl IconShape for LdCircleArrowRight {
     fn view_box(&self) -> &str {
@@ -11873,7 +12735,7 @@ impl IconShape for LdCircleArrowRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleArrowUp;
 impl IconShape for LdCircleArrowUp {
     fn view_box(&self) -> &str {
@@ -11908,7 +12770,7 @@ impl IconShape for LdCircleArrowUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleCheckBig;
 impl IconShape for LdCircleCheckBig {
     fn view_box(&self) -> &str {
@@ -11929,7 +12791,7 @@ impl IconShape for LdCircleCheckBig {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M22 11.08V12a10 10 0 1 1-5.93-9.14",
+                d: "M21.801 10A10 10 0 1 1 17 3.335",
             }
             path {
                 d: "m9 11 3 3L22 4",
@@ -11938,7 +12800,7 @@ impl IconShape for LdCircleCheckBig {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleCheck;
 impl IconShape for LdCircleCheck {
     fn view_box(&self) -> &str {
@@ -11970,7 +12832,7 @@ impl IconShape for LdCircleCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleChevronDown;
 impl IconShape for LdCircleChevronDown {
     fn view_box(&self) -> &str {
@@ -12002,7 +12864,7 @@ impl IconShape for LdCircleChevronDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleChevronLeft;
 impl IconShape for LdCircleChevronLeft {
     fn view_box(&self) -> &str {
@@ -12034,7 +12896,7 @@ impl IconShape for LdCircleChevronLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleChevronRight;
 impl IconShape for LdCircleChevronRight {
     fn view_box(&self) -> &str {
@@ -12066,7 +12928,7 @@ impl IconShape for LdCircleChevronRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleChevronUp;
 impl IconShape for LdCircleChevronUp {
     fn view_box(&self) -> &str {
@@ -12098,7 +12960,7 @@ impl IconShape for LdCircleChevronUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleDashed;
 impl IconShape for LdCircleDashed {
     fn view_box(&self) -> &str {
@@ -12146,7 +13008,7 @@ impl IconShape for LdCircleDashed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleDivide;
 impl IconShape for LdCircleDivide {
     fn view_box(&self) -> &str {
@@ -12193,7 +13055,7 @@ impl IconShape for LdCircleDivide {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleDollarSign;
 impl IconShape for LdCircleDollarSign {
     fn view_box(&self) -> &str {
@@ -12228,7 +13090,7 @@ impl IconShape for LdCircleDollarSign {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleDotDashed;
 impl IconShape for LdCircleDotDashed {
     fn view_box(&self) -> &str {
@@ -12281,7 +13143,7 @@ impl IconShape for LdCircleDotDashed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleDot;
 impl IconShape for LdCircleDot {
     fn view_box(&self) -> &str {
@@ -12315,7 +13177,7 @@ impl IconShape for LdCircleDot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleEllipsis;
 impl IconShape for LdCircleEllipsis {
     fn view_box(&self) -> &str {
@@ -12353,7 +13215,7 @@ impl IconShape for LdCircleEllipsis {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleEqual;
 impl IconShape for LdCircleEqual {
     fn view_box(&self) -> &str {
@@ -12388,7 +13250,52 @@ impl IconShape for LdCircleEqual {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdCircleFadingArrowUp;
+impl IconShape for LdCircleFadingArrowUp {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12 2a10 10 0 0 1 7.38 16.75",
+            }
+            path {
+                d: "m16 12-4-4-4 4",
+            }
+            path {
+                d: "M12 16V8",
+            }
+            path {
+                d: "M2.5 8.875a10 10 0 0 0-.5 3",
+            }
+            path {
+                d: "M2.83 16a10 10 0 0 0 2.43 3.4",
+            }
+            path {
+                d: "M4.636 5.235a10 10 0 0 1 .891-.857",
+            }
+            path {
+                d: "M8.644 21.42a10 10 0 0 0 7.631-.38",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleFadingPlus;
 impl IconShape for LdCircleFadingPlus {
     fn view_box(&self) -> &str {
@@ -12433,7 +13340,7 @@ impl IconShape for LdCircleFadingPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleGauge;
 impl IconShape for LdCircleGauge {
     fn view_box(&self) -> &str {
@@ -12468,7 +13375,7 @@ impl IconShape for LdCircleGauge {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleHelp;
 impl IconShape for LdCircleHelp {
     fn view_box(&self) -> &str {
@@ -12503,7 +13410,7 @@ impl IconShape for LdCircleHelp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleMinus;
 impl IconShape for LdCircleMinus {
     fn view_box(&self) -> &str {
@@ -12535,7 +13442,7 @@ impl IconShape for LdCircleMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleOff;
 impl IconShape for LdCircleOff {
     fn view_box(&self) -> &str {
@@ -12568,7 +13475,7 @@ impl IconShape for LdCircleOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleParkingOff;
 impl IconShape for LdCircleParkingOff {
     fn view_box(&self) -> &str {
@@ -12606,7 +13513,7 @@ impl IconShape for LdCircleParkingOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleParking;
 impl IconShape for LdCircleParking {
     fn view_box(&self) -> &str {
@@ -12638,7 +13545,7 @@ impl IconShape for LdCircleParking {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCirclePause;
 impl IconShape for LdCirclePause {
     fn view_box(&self) -> &str {
@@ -12679,7 +13586,7 @@ impl IconShape for LdCirclePause {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCirclePercent;
 impl IconShape for LdCirclePercent {
     fn view_box(&self) -> &str {
@@ -12717,7 +13624,7 @@ impl IconShape for LdCirclePercent {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCirclePlay;
 impl IconShape for LdCirclePlay {
     fn view_box(&self) -> &str {
@@ -12749,7 +13656,7 @@ impl IconShape for LdCirclePlay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCirclePlus;
 impl IconShape for LdCirclePlus {
     fn view_box(&self) -> &str {
@@ -12784,7 +13691,7 @@ impl IconShape for LdCirclePlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCirclePower;
 impl IconShape for LdCirclePower {
     fn view_box(&self) -> &str {
@@ -12804,22 +13711,22 @@ impl IconShape for LdCirclePower {
     }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M12 7v4",
+            }
+            path {
+                d: "M7.998 9.003a5 5 0 1 0 8-.005",
+            }
             circle {
                 cx: "12",
                 cy: "12",
                 r: "10",
             }
-            path {
-                d: "M12 12V7",
-            }
-            path {
-                d: "M16 9a5 5 0 1 1-8 0",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleSlash2;
 impl IconShape for LdCircleSlash2 {
     fn view_box(&self) -> &str {
@@ -12851,7 +13758,7 @@ impl IconShape for LdCircleSlash2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleSlash;
 impl IconShape for LdCircleSlash {
     fn view_box(&self) -> &str {
@@ -12871,22 +13778,22 @@ impl IconShape for LdCircleSlash {
     }
     fn child_elements(&self) -> Element {
         rsx! {
+            circle {
+                cx: "12",
+                cy: "12",
+                r: "10",
+            }
             line {
                 x1: "9",
                 x2: "15",
                 y1: "15",
                 y2: "9",
             }
-            circle {
-                cx: "12",
-                cy: "12",
-                r: "10",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleStop;
 impl IconShape for LdCircleStop {
     fn view_box(&self) -> &str {
@@ -12913,6 +13820,7 @@ impl IconShape for LdCircleStop {
             }
             rect {
                 height: "6",
+                rx: "1",
                 width: "6",
                 x: "9",
                 y: "9",
@@ -12921,7 +13829,7 @@ impl IconShape for LdCircleStop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleUserRound;
 impl IconShape for LdCircleUserRound {
     fn view_box(&self) -> &str {
@@ -12958,7 +13866,7 @@ impl IconShape for LdCircleUserRound {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleUser;
 impl IconShape for LdCircleUser {
     fn view_box(&self) -> &str {
@@ -12995,7 +13903,7 @@ impl IconShape for LdCircleUser {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircleX;
 impl IconShape for LdCircleX {
     fn view_box(&self) -> &str {
@@ -13030,7 +13938,7 @@ impl IconShape for LdCircleX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircle;
 impl IconShape for LdCircle {
     fn view_box(&self) -> &str {
@@ -13059,7 +13967,7 @@ impl IconShape for LdCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCircuitBoard;
 impl IconShape for LdCircuitBoard {
     fn view_box(&self) -> &str {
@@ -13106,7 +14014,7 @@ impl IconShape for LdCircuitBoard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCitrus;
 impl IconShape for LdCitrus {
     fn view_box(&self) -> &str {
@@ -13142,7 +14050,7 @@ impl IconShape for LdCitrus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClapperboard;
 impl IconShape for LdClapperboard {
     fn view_box(&self) -> &str {
@@ -13178,7 +14086,7 @@ impl IconShape for LdClapperboard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClipboardCheck;
 impl IconShape for LdClipboardCheck {
     fn view_box(&self) -> &str {
@@ -13216,7 +14124,7 @@ impl IconShape for LdClipboardCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClipboardCopy;
 impl IconShape for LdClipboardCopy {
     fn view_box(&self) -> &str {
@@ -13260,7 +14168,7 @@ impl IconShape for LdClipboardCopy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClipboardList;
 impl IconShape for LdClipboardList {
     fn view_box(&self) -> &str {
@@ -13307,7 +14215,7 @@ impl IconShape for LdClipboardList {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClipboardMinus;
 impl IconShape for LdClipboardMinus {
     fn view_box(&self) -> &str {
@@ -13345,7 +14253,7 @@ impl IconShape for LdClipboardMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClipboardPaste;
 impl IconShape for LdClipboardPaste {
     fn view_box(&self) -> &str {
@@ -13378,7 +14286,7 @@ impl IconShape for LdClipboardPaste {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClipboardPenLine;
 impl IconShape for LdClipboardPenLine {
     fn view_box(&self) -> &str {
@@ -13415,13 +14323,13 @@ impl IconShape for LdClipboardPenLine {
                 d: "M8 18h1",
             }
             path {
-                d: "M18.4 9.6a2 2 0 0 1 3 3L17 17l-4 1 1-4Z",
+                d: "M21.378 12.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClipboardPen;
 impl IconShape for LdClipboardPen {
     fn view_box(&self) -> &str {
@@ -13449,19 +14357,19 @@ impl IconShape for LdClipboardPen {
                 y: "2",
             }
             path {
-                d: "M10.4 12.6a2 2 0 0 1 3 3L8 21l-4 1 1-4Z",
-            }
-            path {
                 d: "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5.5",
             }
             path {
                 d: "M4 13.5V6a2 2 0 0 1 2-2h2",
             }
+            path {
+                d: "M13.378 15.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z",
+            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClipboardPlus;
 impl IconShape for LdClipboardPlus {
     fn view_box(&self) -> &str {
@@ -13502,7 +14410,7 @@ impl IconShape for LdClipboardPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClipboardType;
 impl IconShape for LdClipboardType {
     fn view_box(&self) -> &str {
@@ -13546,7 +14454,7 @@ impl IconShape for LdClipboardType {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClipboardX;
 impl IconShape for LdClipboardX {
     fn view_box(&self) -> &str {
@@ -13587,7 +14495,7 @@ impl IconShape for LdClipboardX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClipboard;
 impl IconShape for LdClipboard {
     fn view_box(&self) -> &str {
@@ -13622,7 +14530,7 @@ impl IconShape for LdClipboard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClock1;
 impl IconShape for LdClock1 {
     fn view_box(&self) -> &str {
@@ -13654,7 +14562,7 @@ impl IconShape for LdClock1 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClock10;
 impl IconShape for LdClock10 {
     fn view_box(&self) -> &str {
@@ -13686,7 +14594,7 @@ impl IconShape for LdClock10 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClock11;
 impl IconShape for LdClock11 {
     fn view_box(&self) -> &str {
@@ -13718,7 +14626,7 @@ impl IconShape for LdClock11 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClock12;
 impl IconShape for LdClock12 {
     fn view_box(&self) -> &str {
@@ -13750,7 +14658,7 @@ impl IconShape for LdClock12 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClock2;
 impl IconShape for LdClock2 {
     fn view_box(&self) -> &str {
@@ -13782,7 +14690,7 @@ impl IconShape for LdClock2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClock3;
 impl IconShape for LdClock3 {
     fn view_box(&self) -> &str {
@@ -13814,7 +14722,7 @@ impl IconShape for LdClock3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClock4;
 impl IconShape for LdClock4 {
     fn view_box(&self) -> &str {
@@ -13846,7 +14754,7 @@ impl IconShape for LdClock4 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClock5;
 impl IconShape for LdClock5 {
     fn view_box(&self) -> &str {
@@ -13878,7 +14786,7 @@ impl IconShape for LdClock5 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClock6;
 impl IconShape for LdClock6 {
     fn view_box(&self) -> &str {
@@ -13910,7 +14818,7 @@ impl IconShape for LdClock6 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClock7;
 impl IconShape for LdClock7 {
     fn view_box(&self) -> &str {
@@ -13942,7 +14850,7 @@ impl IconShape for LdClock7 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClock8;
 impl IconShape for LdClock8 {
     fn view_box(&self) -> &str {
@@ -13974,7 +14882,7 @@ impl IconShape for LdClock8 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClock9;
 impl IconShape for LdClock9 {
     fn view_box(&self) -> &str {
@@ -14006,7 +14914,115 @@ impl IconShape for LdClock9 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdClockAlert;
+impl IconShape for LdClockAlert {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12 6v6l4 2",
+            }
+            path {
+                d: "M16 21.16a10 10 0 1 1 5-13.516",
+            }
+            path {
+                d: "M20 11.5v6",
+            }
+            path {
+                d: "M20 21.5h.01",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdClockArrowDown;
+impl IconShape for LdClockArrowDown {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12.338 21.994A10 10 0 1 1 21.925 13.227",
+            }
+            path {
+                d: "M12 6v6l2 1",
+            }
+            path {
+                d: "m14 18 4 4 4-4",
+            }
+            path {
+                d: "M18 14v8",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdClockArrowUp;
+impl IconShape for LdClockArrowUp {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M13.228 21.925A10 10 0 1 1 21.994 12.338",
+            }
+            path {
+                d: "M12 6v6l1.562.781",
+            }
+            path {
+                d: "m14 18 4-4 4 4",
+            }
+            path {
+                d: "M18 22v-8",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClock;
 impl IconShape for LdClock {
     fn view_box(&self) -> &str {
@@ -14038,7 +15054,7 @@ impl IconShape for LdClock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudCog;
 impl IconShape for LdCloudCog {
     fn view_box(&self) -> &str {
@@ -14094,7 +15110,7 @@ impl IconShape for LdCloudCog {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudDownload;
 impl IconShape for LdCloudDownload {
     fn view_box(&self) -> &str {
@@ -14115,19 +15131,19 @@ impl IconShape for LdCloudDownload {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242",
+                d: "M12 13v8l-4-4",
             }
             path {
-                d: "M12 12v9",
+                d: "m12 21 4-4",
             }
             path {
-                d: "m8 17 4 4 4-4",
+                d: "M4.393 15.269A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.436 8.284",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudDrizzle;
 impl IconShape for LdCloudDrizzle {
     fn view_box(&self) -> &str {
@@ -14172,7 +15188,7 @@ impl IconShape for LdCloudDrizzle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudFog;
 impl IconShape for LdCloudFog {
     fn view_box(&self) -> &str {
@@ -14205,7 +15221,7 @@ impl IconShape for LdCloudFog {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudHail;
 impl IconShape for LdCloudHail {
     fn view_box(&self) -> &str {
@@ -14250,7 +15266,7 @@ impl IconShape for LdCloudHail {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudLightning;
 impl IconShape for LdCloudLightning {
     fn view_box(&self) -> &str {
@@ -14280,7 +15296,7 @@ impl IconShape for LdCloudLightning {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudMoonRain;
 impl IconShape for LdCloudMoonRain {
     fn view_box(&self) -> &str {
@@ -14301,13 +15317,13 @@ impl IconShape for LdCloudMoonRain {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M10.083 9A6.002 6.002 0 0 1 16 4a4.243 4.243 0 0 0 6 6c0 2.22-1.206 4.16-3 5.197",
-            }
-            path {
-                d: "M3 20a5 5 0 1 1 8.9-4H13a3 3 0 0 1 2 5.24",
+                d: "M10.188 8.5A6 6 0 0 1 16 4a1 1 0 0 0 6 6 6 6 0 0 1-3 5.197",
             }
             path {
                 d: "M11 20v2",
+            }
+            path {
+                d: "M3 20a5 5 0 1 1 8.9-4H13a3 3 0 0 1 2 5.24",
             }
             path {
                 d: "M7 19v2",
@@ -14316,7 +15332,7 @@ impl IconShape for LdCloudMoonRain {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudMoon;
 impl IconShape for LdCloudMoon {
     fn view_box(&self) -> &str {
@@ -14337,16 +15353,16 @@ impl IconShape for LdCloudMoon {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M13 16a3 3 0 1 1 0 6H7a5 5 0 1 1 4.9-6Z",
+                d: "M10.188 8.5A6 6 0 0 1 16 4a1 1 0 0 0 6 6 6 6 0 0 1-3 5.197",
             }
             path {
-                d: "M10.1 9A6 6 0 0 1 16 4a4.24 4.24 0 0 0 6 6 6 6 0 0 1-3 5.197",
+                d: "M13 16a3 3 0 1 1 0 6H7a5 5 0 1 1 4.9-6Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudOff;
 impl IconShape for LdCloudOff {
     fn view_box(&self) -> &str {
@@ -14379,7 +15395,7 @@ impl IconShape for LdCloudOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudRainWind;
 impl IconShape for LdCloudRainWind {
     fn view_box(&self) -> &str {
@@ -14415,7 +15431,7 @@ impl IconShape for LdCloudRainWind {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudRain;
 impl IconShape for LdCloudRain {
     fn view_box(&self) -> &str {
@@ -14451,7 +15467,7 @@ impl IconShape for LdCloudRain {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudSnow;
 impl IconShape for LdCloudSnow {
     fn view_box(&self) -> &str {
@@ -14496,7 +15512,7 @@ impl IconShape for LdCloudSnow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudSunRain;
 impl IconShape for LdCloudSunRain {
     fn view_box(&self) -> &str {
@@ -14544,7 +15560,7 @@ impl IconShape for LdCloudSunRain {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudSun;
 impl IconShape for LdCloudSun {
     fn view_box(&self) -> &str {
@@ -14586,7 +15602,7 @@ impl IconShape for LdCloudSun {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudUpload;
 impl IconShape for LdCloudUpload {
     fn view_box(&self) -> &str {
@@ -14607,19 +15623,19 @@ impl IconShape for LdCloudUpload {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
+                d: "M12 13v8",
+            }
+            path {
                 d: "M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242",
             }
             path {
-                d: "M12 12v9",
-            }
-            path {
-                d: "m16 16-4-4-4 4",
+                d: "m8 17 4-4 4 4",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloud;
 impl IconShape for LdCloud {
     fn view_box(&self) -> &str {
@@ -14646,7 +15662,7 @@ impl IconShape for LdCloud {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCloudy;
 impl IconShape for LdCloudy {
     fn view_box(&self) -> &str {
@@ -14676,7 +15692,7 @@ impl IconShape for LdCloudy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClover;
 impl IconShape for LdClover {
     fn view_box(&self) -> &str {
@@ -14709,7 +15725,7 @@ impl IconShape for LdClover {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdClub;
 impl IconShape for LdClub {
     fn view_box(&self) -> &str {
@@ -14739,7 +15755,7 @@ impl IconShape for LdClub {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCodeXml;
 impl IconShape for LdCodeXml {
     fn view_box(&self) -> &str {
@@ -14772,7 +15788,7 @@ impl IconShape for LdCodeXml {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCode;
 impl IconShape for LdCode {
     fn view_box(&self) -> &str {
@@ -14802,7 +15818,7 @@ impl IconShape for LdCode {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCodepen;
 impl IconShape for LdCodepen {
     fn view_box(&self) -> &str {
@@ -14847,7 +15863,7 @@ impl IconShape for LdCodepen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCodesandbox;
 impl IconShape for LdCodesandbox {
     fn view_box(&self) -> &str {
@@ -14892,7 +15908,7 @@ impl IconShape for LdCodesandbox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCoffee;
 impl IconShape for LdCoffee {
     fn view_box(&self) -> &str {
@@ -14928,7 +15944,7 @@ impl IconShape for LdCoffee {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCog;
 impl IconShape for LdCog {
     fn view_box(&self) -> &str {
@@ -14994,7 +16010,7 @@ impl IconShape for LdCog {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCoins;
 impl IconShape for LdCoins {
     fn view_box(&self) -> &str {
@@ -15032,7 +16048,7 @@ impl IconShape for LdCoins {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdColumns2;
 impl IconShape for LdColumns2 {
     fn view_box(&self) -> &str {
@@ -15066,7 +16082,7 @@ impl IconShape for LdColumns2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdColumns3;
 impl IconShape for LdColumns3 {
     fn view_box(&self) -> &str {
@@ -15103,7 +16119,7 @@ impl IconShape for LdColumns3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdColumns4;
 impl IconShape for LdColumns4 {
     fn view_box(&self) -> &str {
@@ -15143,7 +16159,7 @@ impl IconShape for LdColumns4 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCombine;
 impl IconShape for LdCombine {
     fn view_box(&self) -> &str {
@@ -15163,24 +16179,17 @@ impl IconShape for LdCombine {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            rect {
-                height: "8",
-                rx: "2",
-                width: "8",
-                x: "2",
-                y: "2",
+            path {
+                d: "M10 18H5a3 3 0 0 1-3-3v-1",
             }
             path {
-                d: "M14 2c1.1 0 2 .9 2 2v4c0 1.1-.9 2-2 2",
+                d: "M14 2a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2",
             }
             path {
-                d: "M20 2c1.1 0 2 .9 2 2v4c0 1.1-.9 2-2 2",
+                d: "M20 2a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2",
             }
             path {
-                d: "M10 18H5c-1.7 0-3-1.3-3-3v-1",
-            }
-            polyline {
-                points: "7 21 10 18 7 15",
+                d: "m7 21 3-3-3-3",
             }
             rect {
                 height: "8",
@@ -15189,11 +16198,18 @@ impl IconShape for LdCombine {
                 x: "14",
                 y: "14",
             }
+            rect {
+                height: "8",
+                rx: "2",
+                width: "8",
+                x: "2",
+                y: "2",
+            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCommand;
 impl IconShape for LdCommand {
     fn view_box(&self) -> &str {
@@ -15220,7 +16236,7 @@ impl IconShape for LdCommand {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCompass;
 impl IconShape for LdCompass {
     fn view_box(&self) -> &str {
@@ -15240,19 +16256,19 @@ impl IconShape for LdCompass {
     }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z",
+            }
             circle {
                 cx: "12",
                 cy: "12",
                 r: "10",
             }
-            polygon {
-                points: "16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdComponent;
 impl IconShape for LdComponent {
     fn view_box(&self) -> &str {
@@ -15273,22 +16289,22 @@ impl IconShape for LdComponent {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M5.5 8.5 9 12l-3.5 3.5L2 12l3.5-3.5Z",
+                d: "M15.536 11.293a1 1 0 0 0 0 1.414l2.376 2.377a1 1 0 0 0 1.414 0l2.377-2.377a1 1 0 0 0 0-1.414l-2.377-2.377a1 1 0 0 0-1.414 0z",
             }
             path {
-                d: "m12 2 3.5 3.5L12 9 8.5 5.5 12 2Z",
+                d: "M2.297 11.293a1 1 0 0 0 0 1.414l2.377 2.377a1 1 0 0 0 1.414 0l2.377-2.377a1 1 0 0 0 0-1.414L6.088 8.916a1 1 0 0 0-1.414 0z",
             }
             path {
-                d: "M18.5 8.5 22 12l-3.5 3.5L15 12l3.5-3.5Z",
+                d: "M8.916 17.912a1 1 0 0 0 0 1.415l2.377 2.376a1 1 0 0 0 1.414 0l2.377-2.376a1 1 0 0 0 0-1.415l-2.377-2.376a1 1 0 0 0-1.414 0z",
             }
             path {
-                d: "m12 15 3.5 3.5L12 22l-3.5-3.5L12 15Z",
+                d: "M8.916 4.674a1 1 0 0 0 0 1.414l2.377 2.376a1 1 0 0 0 1.414 0l2.377-2.376a1 1 0 0 0 0-1.414l-2.377-2.377a1 1 0 0 0-1.414 0z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdComputer;
 impl IconShape for LdComputer {
     fn view_box(&self) -> &str {
@@ -15332,7 +16348,7 @@ impl IconShape for LdComputer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdConciergeBell;
 impl IconShape for LdConciergeBell {
     fn view_box(&self) -> &str {
@@ -15368,7 +16384,7 @@ impl IconShape for LdConciergeBell {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCone;
 impl IconShape for LdCone {
     fn view_box(&self) -> &str {
@@ -15401,7 +16417,7 @@ impl IconShape for LdCone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdConstruction;
 impl IconShape for LdConstruction {
     fn view_box(&self) -> &str {
@@ -15453,7 +16469,7 @@ impl IconShape for LdConstruction {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdContactRound;
 impl IconShape for LdContactRound {
     fn view_box(&self) -> &str {
@@ -15474,12 +16490,18 @@ impl IconShape for LdContactRound {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M16 18a4 4 0 0 0-8 0",
+                d: "M16 2v2",
+            }
+            path {
+                d: "M17.915 22a6 6 0 0 0-12 0",
+            }
+            path {
+                d: "M8 2v2",
             }
             circle {
                 cx: "12",
-                cy: "11",
-                r: "3",
+                cy: "12",
+                r: "4",
             }
             rect {
                 height: "18",
@@ -15488,23 +16510,11 @@ impl IconShape for LdContactRound {
                 x: "3",
                 y: "4",
             }
-            line {
-                x1: "8",
-                x2: "8",
-                y1: "2",
-                y2: "4",
-            }
-            line {
-                x1: "16",
-                x2: "16",
-                y1: "2",
-                y2: "4",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdContact;
 impl IconShape for LdContact {
     fn view_box(&self) -> &str {
@@ -15525,7 +16535,18 @@ impl IconShape for LdContact {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M17 18a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2",
+                d: "M16 2v2",
+            }
+            path {
+                d: "M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2",
+            }
+            path {
+                d: "M8 2v2",
+            }
+            circle {
+                cx: "12",
+                cy: "11",
+                r: "3",
             }
             rect {
                 height: "18",
@@ -15534,28 +16555,11 @@ impl IconShape for LdContact {
                 x: "3",
                 y: "4",
             }
-            circle {
-                cx: "12",
-                cy: "10",
-                r: "2",
-            }
-            line {
-                x1: "8",
-                x2: "8",
-                y1: "2",
-                y2: "4",
-            }
-            line {
-                x1: "16",
-                x2: "16",
-                y1: "2",
-                y2: "4",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdContainer;
 impl IconShape for LdContainer {
     fn view_box(&self) -> &str {
@@ -15594,7 +16598,7 @@ impl IconShape for LdContainer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdContrast;
 impl IconShape for LdContrast {
     fn view_box(&self) -> &str {
@@ -15626,7 +16630,7 @@ impl IconShape for LdContrast {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCookie;
 impl IconShape for LdCookie {
     fn view_box(&self) -> &str {
@@ -15668,7 +16672,7 @@ impl IconShape for LdCookie {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCookingPot;
 impl IconShape for LdCookingPot {
     fn view_box(&self) -> &str {
@@ -15704,7 +16708,7 @@ impl IconShape for LdCookingPot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCopyCheck;
 impl IconShape for LdCopyCheck {
     fn view_box(&self) -> &str {
@@ -15742,7 +16746,7 @@ impl IconShape for LdCopyCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCopyMinus;
 impl IconShape for LdCopyMinus {
     fn view_box(&self) -> &str {
@@ -15783,7 +16787,7 @@ impl IconShape for LdCopyMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCopyPlus;
 impl IconShape for LdCopyPlus {
     fn view_box(&self) -> &str {
@@ -15830,7 +16834,7 @@ impl IconShape for LdCopyPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCopySlash;
 impl IconShape for LdCopySlash {
     fn view_box(&self) -> &str {
@@ -15871,7 +16875,7 @@ impl IconShape for LdCopySlash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCopyX;
 impl IconShape for LdCopyX {
     fn view_box(&self) -> &str {
@@ -15918,7 +16922,7 @@ impl IconShape for LdCopyX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCopy;
 impl IconShape for LdCopy {
     fn view_box(&self) -> &str {
@@ -15953,7 +16957,7 @@ impl IconShape for LdCopy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCopyleft;
 impl IconShape for LdCopyleft {
     fn view_box(&self) -> &str {
@@ -15985,7 +16989,7 @@ impl IconShape for LdCopyleft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCopyright;
 impl IconShape for LdCopyright {
     fn view_box(&self) -> &str {
@@ -16017,7 +17021,7 @@ impl IconShape for LdCopyright {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCornerDownLeft;
 impl IconShape for LdCornerDownLeft {
     fn view_box(&self) -> &str {
@@ -16047,7 +17051,7 @@ impl IconShape for LdCornerDownLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCornerDownRight;
 impl IconShape for LdCornerDownRight {
     fn view_box(&self) -> &str {
@@ -16077,7 +17081,7 @@ impl IconShape for LdCornerDownRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCornerLeftDown;
 impl IconShape for LdCornerLeftDown {
     fn view_box(&self) -> &str {
@@ -16107,7 +17111,7 @@ impl IconShape for LdCornerLeftDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCornerLeftUp;
 impl IconShape for LdCornerLeftUp {
     fn view_box(&self) -> &str {
@@ -16137,7 +17141,7 @@ impl IconShape for LdCornerLeftUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCornerRightDown;
 impl IconShape for LdCornerRightDown {
     fn view_box(&self) -> &str {
@@ -16167,7 +17171,7 @@ impl IconShape for LdCornerRightDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCornerRightUp;
 impl IconShape for LdCornerRightUp {
     fn view_box(&self) -> &str {
@@ -16197,7 +17201,7 @@ impl IconShape for LdCornerRightUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCornerUpLeft;
 impl IconShape for LdCornerUpLeft {
     fn view_box(&self) -> &str {
@@ -16227,7 +17231,7 @@ impl IconShape for LdCornerUpLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCornerUpRight;
 impl IconShape for LdCornerUpRight {
     fn view_box(&self) -> &str {
@@ -16257,7 +17261,7 @@ impl IconShape for LdCornerUpRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCpu;
 impl IconShape for LdCpu {
     fn view_box(&self) -> &str {
@@ -16319,7 +17323,7 @@ impl IconShape for LdCpu {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCreativeCommons;
 impl IconShape for LdCreativeCommons {
     fn view_box(&self) -> &str {
@@ -16354,7 +17358,7 @@ impl IconShape for LdCreativeCommons {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCreditCard;
 impl IconShape for LdCreditCard {
     fn view_box(&self) -> &str {
@@ -16391,7 +17395,7 @@ impl IconShape for LdCreditCard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCroissant;
 impl IconShape for LdCroissant {
     fn view_box(&self) -> &str {
@@ -16430,7 +17434,7 @@ impl IconShape for LdCroissant {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCrop;
 impl IconShape for LdCrop {
     fn view_box(&self) -> &str {
@@ -16460,7 +17464,7 @@ impl IconShape for LdCrop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCross;
 impl IconShape for LdCross {
     fn view_box(&self) -> &str {
@@ -16487,7 +17491,7 @@ impl IconShape for LdCross {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCrosshair;
 impl IconShape for LdCrosshair {
     fn view_box(&self) -> &str {
@@ -16540,7 +17544,7 @@ impl IconShape for LdCrosshair {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCrown;
 impl IconShape for LdCrown {
     fn view_box(&self) -> &str {
@@ -16570,7 +17574,7 @@ impl IconShape for LdCrown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCuboid;
 impl IconShape for LdCuboid {
     fn view_box(&self) -> &str {
@@ -16603,7 +17607,7 @@ impl IconShape for LdCuboid {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCupSoda;
 impl IconShape for LdCupSoda {
     fn view_box(&self) -> &str {
@@ -16639,7 +17643,7 @@ impl IconShape for LdCupSoda {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCurrency;
 impl IconShape for LdCurrency {
     fn view_box(&self) -> &str {
@@ -16692,7 +17696,7 @@ impl IconShape for LdCurrency {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdCylinder;
 impl IconShape for LdCylinder {
     fn view_box(&self) -> &str {
@@ -16725,7 +17729,52 @@ impl IconShape for LdCylinder {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdDam;
+impl IconShape for LdDam {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M11 11.31c1.17.56 1.54 1.69 3.5 1.69 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1",
+            }
+            path {
+                d: "M11.75 18c.35.5 1.45 1 2.75 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1",
+            }
+            path {
+                d: "M2 10h4",
+            }
+            path {
+                d: "M2 14h4",
+            }
+            path {
+                d: "M2 18h4",
+            }
+            path {
+                d: "M2 6h4",
+            }
+            path {
+                d: "M7 3a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1L10 4a1 1 0 0 0-1-1z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDatabaseBackup;
 impl IconShape for LdDatabaseBackup {
     fn view_box(&self) -> &str {
@@ -16770,7 +17819,7 @@ impl IconShape for LdDatabaseBackup {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDatabaseZap;
 impl IconShape for LdDatabaseZap {
     fn view_box(&self) -> &str {
@@ -16812,7 +17861,7 @@ impl IconShape for LdDatabaseZap {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDatabase;
 impl IconShape for LdDatabase {
     fn view_box(&self) -> &str {
@@ -16848,7 +17897,7 @@ impl IconShape for LdDatabase {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDelete;
 impl IconShape for LdDelete {
     fn view_box(&self) -> &str {
@@ -16869,25 +17918,19 @@ impl IconShape for LdDelete {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M20 5H9l-7 7 7 7h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Z",
+                d: "M10 5a2 2 0 0 0-1.344.519l-6.328 5.74a1 1 0 0 0 0 1.481l6.328 5.741A2 2 0 0 0 10 19h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2z",
             }
-            line {
-                x1: "18",
-                x2: "12",
-                y1: "9",
-                y2: "15",
+            path {
+                d: "m12 9 6 6",
             }
-            line {
-                x1: "12",
-                x2: "18",
-                y1: "9",
-                y2: "15",
+            path {
+                d: "m18 9-6 6",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDessert;
 impl IconShape for LdDessert {
     fn view_box(&self) -> &str {
@@ -16922,7 +17965,7 @@ impl IconShape for LdDessert {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDiameter;
 impl IconShape for LdDiameter {
     fn view_box(&self) -> &str {
@@ -16965,7 +18008,7 @@ impl IconShape for LdDiameter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDiamondMinus;
 impl IconShape for LdDiamondMinus {
     fn view_box(&self) -> &str {
@@ -16995,7 +18038,7 @@ impl IconShape for LdDiamondMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDiamondPercent;
 impl IconShape for LdDiamondPercent {
     fn view_box(&self) -> &str {
@@ -17031,7 +18074,7 @@ impl IconShape for LdDiamondPercent {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDiamondPlus;
 impl IconShape for LdDiamondPlus {
     fn view_box(&self) -> &str {
@@ -17064,7 +18107,7 @@ impl IconShape for LdDiamondPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDiamond;
 impl IconShape for LdDiamond {
     fn view_box(&self) -> &str {
@@ -17091,7 +18134,7 @@ impl IconShape for LdDiamond {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDice1;
 impl IconShape for LdDice1 {
     fn view_box(&self) -> &str {
@@ -17126,7 +18169,7 @@ impl IconShape for LdDice1 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDice2;
 impl IconShape for LdDice2 {
     fn view_box(&self) -> &str {
@@ -17164,7 +18207,7 @@ impl IconShape for LdDice2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDice3;
 impl IconShape for LdDice3 {
     fn view_box(&self) -> &str {
@@ -17205,7 +18248,7 @@ impl IconShape for LdDice3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDice4;
 impl IconShape for LdDice4 {
     fn view_box(&self) -> &str {
@@ -17249,7 +18292,7 @@ impl IconShape for LdDice4 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDice5;
 impl IconShape for LdDice5 {
     fn view_box(&self) -> &str {
@@ -17296,7 +18339,7 @@ impl IconShape for LdDice5 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDice6;
 impl IconShape for LdDice6 {
     fn view_box(&self) -> &str {
@@ -17346,7 +18389,7 @@ impl IconShape for LdDice6 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDices;
 impl IconShape for LdDices {
     fn view_box(&self) -> &str {
@@ -17393,7 +18436,7 @@ impl IconShape for LdDices {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDiff;
 impl IconShape for LdDiff {
     fn view_box(&self) -> &str {
@@ -17426,7 +18469,7 @@ impl IconShape for LdDiff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDisc2;
 impl IconShape for LdDisc2 {
     fn view_box(&self) -> &str {
@@ -17463,7 +18506,7 @@ impl IconShape for LdDisc2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDisc3;
 impl IconShape for LdDisc3 {
     fn view_box(&self) -> &str {
@@ -17503,7 +18546,7 @@ impl IconShape for LdDisc3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDiscAlbum;
 impl IconShape for LdDiscAlbum {
     fn view_box(&self) -> &str {
@@ -17542,7 +18585,7 @@ impl IconShape for LdDiscAlbum {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDisc;
 impl IconShape for LdDisc {
     fn view_box(&self) -> &str {
@@ -17576,7 +18619,7 @@ impl IconShape for LdDisc {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDivide;
 impl IconShape for LdDivide {
     fn view_box(&self) -> &str {
@@ -17616,7 +18659,7 @@ impl IconShape for LdDivide {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDnaOff;
 impl IconShape for LdDnaOff {
     fn view_box(&self) -> &str {
@@ -17637,46 +18680,40 @@ impl IconShape for LdDnaOff {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M15 2c-1.35 1.5-2.092 3-2.5 4.5M9 22c1.35-1.5 2.092-3 2.5-4.5",
+                d: "M15 2c-1.35 1.5-2.092 3-2.5 4.5L14 8",
             }
             path {
-                d: "M2 15c3.333-3 6.667-3 10-3m10-3c-1.5 1.35-3 2.092-4.5 2.5",
+                d: "m17 6-2.891-2.891",
             }
             path {
-                d: "m17 6-2.5-2.5",
+                d: "M2 15c3.333-3 6.667-3 10-3",
             }
             path {
-                d: "m14 8-1.5-1.5",
+                d: "m2 2 20 20",
             }
             path {
-                d: "m7 18 2.5 2.5",
+                d: "m20 9 .891.891",
             }
             path {
-                d: "m3.5 14.5.5.5",
+                d: "M22 9c-1.5 1.35-3 2.092-4.5 2.5l-1-1",
             }
             path {
-                d: "m20 9 .5.5",
+                d: "M3.109 14.109 4 15",
             }
             path {
                 d: "m6.5 12.5 1 1",
             }
             path {
-                d: "m16.5 10.5 1 1",
+                d: "m7 18 2.891 2.891",
             }
             path {
-                d: "m10 16 1.5 1.5",
-            }
-            line {
-                x1: "2",
-                x2: "22",
-                y1: "2",
-                y2: "22",
+                d: "M9 22c1.35-1.5 2.092-3 2.5-4.5L10 16",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDna;
 impl IconShape for LdDna {
     fn view_box(&self) -> &str {
@@ -17697,43 +18734,43 @@ impl IconShape for LdDna {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M2 15c6.667-6 13.333 0 20-6",
+                d: "m10 16 1.5 1.5",
             }
             path {
-                d: "M9 22c1.798-1.998 2.518-3.995 2.807-5.993",
+                d: "m14 8-1.5-1.5",
             }
             path {
                 d: "M15 2c-1.798 1.998-2.518 3.995-2.807 5.993",
             }
             path {
-                d: "m17 6-2.5-2.5",
+                d: "m16.5 10.5 1 1",
             }
             path {
-                d: "m14 8-1-1",
+                d: "m17 6-2.891-2.891",
             }
             path {
-                d: "m7 18 2.5 2.5",
+                d: "M2 15c6.667-6 13.333 0 20-6",
             }
             path {
-                d: "m3.5 14.5.5.5",
+                d: "m20 9 .891.891",
             }
             path {
-                d: "m20 9 .5.5",
+                d: "M3.109 14.109 4 15",
             }
             path {
                 d: "m6.5 12.5 1 1",
             }
             path {
-                d: "m16.5 10.5 1 1",
+                d: "m7 18 2.891 2.891",
             }
             path {
-                d: "m10 16 1.5 1.5",
+                d: "M9 22c1.798-1.998 2.518-3.995 2.807-5.993",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDock;
 impl IconShape for LdDock {
     fn view_box(&self) -> &str {
@@ -17770,7 +18807,7 @@ impl IconShape for LdDock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDog;
 impl IconShape for LdDog {
     fn view_box(&self) -> &str {
@@ -17791,28 +18828,25 @@ impl IconShape for LdDog {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.656 1 1.261-.472 1.96-1.45 2.344-2.5",
-            }
-            path {
-                d: "M14.267 5.172c0-1.39 1.577-2.493 3.5-2.172 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5",
-            }
-            path {
-                d: "M8 14v.5",
+                d: "M11.25 16.25h1.5L12 17z",
             }
             path {
                 d: "M16 14v.5",
             }
             path {
-                d: "M11.25 16.25h1.5L12 17l-.75-.75Z",
+                d: "M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309",
             }
             path {
-                d: "M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444c0-1.061-.162-2.2-.493-3.309m-9.243-6.082A8.801 8.801 0 0 1 12 5c.78 0 1.5.108 2.161.306",
+                d: "M8 14v.5",
+            }
+            path {
+                d: "M8.5 8.5c-.384 1.05-1.083 2.028-2.344 2.5-1.931.722-3.576-.297-3.656-1-.113-.994 1.177-6.53 4-7 1.923-.321 3.651.845 3.651 2.235A7.497 7.497 0 0 1 14 5.277c0-1.39 1.844-2.598 3.767-2.277 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDollarSign;
 impl IconShape for LdDollarSign {
     fn view_box(&self) -> &str {
@@ -17845,7 +18879,7 @@ impl IconShape for LdDollarSign {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDonut;
 impl IconShape for LdDonut {
     fn view_box(&self) -> &str {
@@ -17877,7 +18911,7 @@ impl IconShape for LdDonut {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDoorClosed;
 impl IconShape for LdDoorClosed {
     fn view_box(&self) -> &str {
@@ -17910,7 +18944,7 @@ impl IconShape for LdDoorClosed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDoorOpen;
 impl IconShape for LdDoorOpen {
     fn view_box(&self) -> &str {
@@ -17949,7 +18983,7 @@ impl IconShape for LdDoorOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDot;
 impl IconShape for LdDot {
     fn view_box(&self) -> &str {
@@ -17978,7 +19012,7 @@ impl IconShape for LdDot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDownload;
 impl IconShape for LdDownload {
     fn view_box(&self) -> &str {
@@ -18014,7 +19048,7 @@ impl IconShape for LdDownload {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDraftingCompass;
 impl IconShape for LdDraftingCompass {
     fn view_box(&self) -> &str {
@@ -18034,28 +19068,28 @@ impl IconShape for LdDraftingCompass {
     }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "m12.99 6.74 1.93 3.44",
+            }
+            path {
+                d: "M19.136 12a10 10 0 0 1-14.271 0",
+            }
+            path {
+                d: "m21 21-2.16-3.84",
+            }
+            path {
+                d: "m3 21 8.02-14.26",
+            }
             circle {
                 cx: "12",
                 cy: "5",
                 r: "2",
             }
-            path {
-                d: "m3 21 8.02-14.26",
-            }
-            path {
-                d: "m12.99 6.74 1.93 3.44",
-            }
-            path {
-                d: "M19 12c-3.87 4-10.13 4-14 0",
-            }
-            path {
-                d: "m21 21-2.16-3.84",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDrama;
 impl IconShape for LdDrama {
     fn view_box(&self) -> &str {
@@ -18103,7 +19137,7 @@ impl IconShape for LdDrama {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDribbble;
 impl IconShape for LdDribbble {
     fn view_box(&self) -> &str {
@@ -18141,7 +19175,7 @@ impl IconShape for LdDribbble {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDrill;
 impl IconShape for LdDrill {
     fn view_box(&self) -> &str {
@@ -18186,7 +19220,7 @@ impl IconShape for LdDrill {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDroplet;
 impl IconShape for LdDroplet {
     fn view_box(&self) -> &str {
@@ -18213,7 +19247,7 @@ impl IconShape for LdDroplet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDroplets;
 impl IconShape for LdDroplets {
     fn view_box(&self) -> &str {
@@ -18243,7 +19277,7 @@ impl IconShape for LdDroplets {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDrum;
 impl IconShape for LdDrum {
     fn view_box(&self) -> &str {
@@ -18291,7 +19325,7 @@ impl IconShape for LdDrum {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDrumstick;
 impl IconShape for LdDrumstick {
     fn view_box(&self) -> &str {
@@ -18321,7 +19355,7 @@ impl IconShape for LdDrumstick {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdDumbbell;
 impl IconShape for LdDumbbell {
     fn view_box(&self) -> &str {
@@ -18360,7 +19394,7 @@ impl IconShape for LdDumbbell {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEarOff;
 impl IconShape for LdEarOff {
     fn view_box(&self) -> &str {
@@ -18402,7 +19436,7 @@ impl IconShape for LdEarOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEar;
 impl IconShape for LdEar {
     fn view_box(&self) -> &str {
@@ -18432,7 +19466,7 @@ impl IconShape for LdEar {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEarthLock;
 impl IconShape for LdEarthLock {
     fn view_box(&self) -> &str {
@@ -18478,7 +19512,7 @@ impl IconShape for LdEarthLock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEarth;
 impl IconShape for LdEarth {
     fn view_box(&self) -> &str {
@@ -18502,10 +19536,10 @@ impl IconShape for LdEarth {
                 d: "M21.54 15H17a2 2 0 0 0-2 2v4.54",
             }
             path {
-                d: "M7 3.34V5a3 3 0 0 0 3 3v0a2 2 0 0 1 2 2v0c0 1.1.9 2 2 2v0a2 2 0 0 0 2-2v0c0-1.1.9-2 2-2h3.17",
+                d: "M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17",
             }
             path {
-                d: "M11 21.95V18a2 2 0 0 0-2-2v0a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05",
+                d: "M11 21.95V18a2 2 0 0 0-2-2a2 2 0 0 1-2-2v-1a2 2 0 0 0-2-2H2.05",
             }
             circle {
                 cx: "12",
@@ -18516,7 +19550,7 @@ impl IconShape for LdEarth {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEclipse;
 impl IconShape for LdEclipse {
     fn view_box(&self) -> &str {
@@ -18548,7 +19582,7 @@ impl IconShape for LdEclipse {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEggFried;
 impl IconShape for LdEggFried {
     fn view_box(&self) -> &str {
@@ -18580,7 +19614,7 @@ impl IconShape for LdEggFried {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEggOff;
 impl IconShape for LdEggOff {
     fn view_box(&self) -> &str {
@@ -18616,7 +19650,7 @@ impl IconShape for LdEggOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEgg;
 impl IconShape for LdEgg {
     fn view_box(&self) -> &str {
@@ -18643,7 +19677,7 @@ impl IconShape for LdEgg {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEllipsisVertical;
 impl IconShape for LdEllipsisVertical {
     fn view_box(&self) -> &str {
@@ -18682,7 +19716,7 @@ impl IconShape for LdEllipsisVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEllipsis;
 impl IconShape for LdEllipsis {
     fn view_box(&self) -> &str {
@@ -18721,7 +19755,7 @@ impl IconShape for LdEllipsis {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEqualNot;
 impl IconShape for LdEqualNot {
     fn view_box(&self) -> &str {
@@ -18763,7 +19797,7 @@ impl IconShape for LdEqualNot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEqual;
 impl IconShape for LdEqual {
     fn view_box(&self) -> &str {
@@ -18799,7 +19833,7 @@ impl IconShape for LdEqual {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEraser;
 impl IconShape for LdEraser {
     fn view_box(&self) -> &str {
@@ -18832,7 +19866,46 @@ impl IconShape for LdEraser {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdEthernetPort;
+impl IconShape for LdEthernetPort {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "m15 20 3-3h2a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h2l3 3z",
+            }
+            path {
+                d: "M6 8v1",
+            }
+            path {
+                d: "M10 8v1",
+            }
+            path {
+                d: "M14 8v1",
+            }
+            path {
+                d: "M18 8v1",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEuro;
 impl IconShape for LdEuro {
     fn view_box(&self) -> &str {
@@ -18865,7 +19938,7 @@ impl IconShape for LdEuro {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdExpand;
 impl IconShape for LdExpand {
     fn view_box(&self) -> &str {
@@ -18901,7 +19974,7 @@ impl IconShape for LdExpand {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdExternalLink;
 impl IconShape for LdExternalLink {
     fn view_box(&self) -> &str {
@@ -18934,7 +20007,46 @@ impl IconShape for LdExternalLink {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdEyeClosed;
+impl IconShape for LdEyeClosed {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "m15 18-.722-3.25",
+            }
+            path {
+                d: "M2 8a10.645 10.645 0 0 0 20 0",
+            }
+            path {
+                d: "m20 15-1.726-2.05",
+            }
+            path {
+                d: "m4 15 1.726-2.05",
+            }
+            path {
+                d: "m9 18 .722-3.25",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEyeOff;
 impl IconShape for LdEyeOff {
     fn view_box(&self) -> &str {
@@ -18955,25 +20067,22 @@ impl IconShape for LdEyeOff {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M9.88 9.88a3 3 0 1 0 4.24 4.24",
+                d: "M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49",
             }
             path {
-                d: "M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68",
+                d: "M14.084 14.158a3 3 0 0 1-4.242-4.242",
             }
             path {
-                d: "M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61",
+                d: "M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143",
             }
-            line {
-                x1: "2",
-                x2: "22",
-                y1: "2",
-                y2: "22",
+            path {
+                d: "m2 2 20 20",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdEye;
 impl IconShape for LdEye {
     fn view_box(&self) -> &str {
@@ -18994,7 +20103,7 @@ impl IconShape for LdEye {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z",
+                d: "M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0",
             }
             circle {
                 cx: "12",
@@ -19005,7 +20114,7 @@ impl IconShape for LdEye {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFacebook;
 impl IconShape for LdFacebook {
     fn view_box(&self) -> &str {
@@ -19032,7 +20141,7 @@ impl IconShape for LdFacebook {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFactory;
 impl IconShape for LdFactory {
     fn view_box(&self) -> &str {
@@ -19068,7 +20177,7 @@ impl IconShape for LdFactory {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFan;
 impl IconShape for LdFan {
     fn view_box(&self) -> &str {
@@ -19098,7 +20207,7 @@ impl IconShape for LdFan {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFastForward;
 impl IconShape for LdFastForward {
     fn view_box(&self) -> &str {
@@ -19128,7 +20237,7 @@ impl IconShape for LdFastForward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFeather;
 impl IconShape for LdFeather {
     fn view_box(&self) -> &str {
@@ -19161,7 +20270,7 @@ impl IconShape for LdFeather {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFence;
 impl IconShape for LdFence {
     fn view_box(&self) -> &str {
@@ -19206,7 +20315,7 @@ impl IconShape for LdFence {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFerrisWheel;
 impl IconShape for LdFerrisWheel {
     fn view_box(&self) -> &str {
@@ -19259,7 +20368,7 @@ impl IconShape for LdFerrisWheel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFigma;
 impl IconShape for LdFigma {
     fn view_box(&self) -> &str {
@@ -19298,7 +20407,7 @@ impl IconShape for LdFigma {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileArchive;
 impl IconShape for LdFileArchive {
     fn view_box(&self) -> &str {
@@ -19319,30 +20428,30 @@ impl IconShape for LdFileArchive {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M16 22h2a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v18",
+                d: "M10 12v-1",
+            }
+            path {
+                d: "M10 18v-2",
+            }
+            path {
+                d: "M10 7V6",
             }
             path {
                 d: "M14 2v4a2 2 0 0 0 2 2h4",
+            }
+            path {
+                d: "M15.5 22H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v16a2 2 0 0 0 .274 1.01",
             }
             circle {
                 cx: "10",
                 cy: "20",
                 r: "2",
             }
-            path {
-                d: "M10 7V6",
-            }
-            path {
-                d: "M10 12v-1",
-            }
-            path {
-                d: "M10 18v-2",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileAudio2;
 impl IconShape for LdFileAudio2 {
     fn view_box(&self) -> &str {
@@ -19385,7 +20494,7 @@ impl IconShape for LdFileAudio2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileAudio;
 impl IconShape for LdFileAudio {
     fn view_box(&self) -> &str {
@@ -19418,7 +20527,7 @@ impl IconShape for LdFileAudio {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileAxis3d;
 impl IconShape for LdFileAxis3d {
     fn view_box(&self) -> &str {
@@ -19454,7 +20563,7 @@ impl IconShape for LdFileAxis3d {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileBadge2;
 impl IconShape for LdFileBadge2 {
     fn view_box(&self) -> &str {
@@ -19492,7 +20601,7 @@ impl IconShape for LdFileBadge2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileBadge;
 impl IconShape for LdFileBadge {
     fn view_box(&self) -> &str {
@@ -19528,85 +20637,7 @@ impl IconShape for LdFileBadge {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdFileBarChart2;
-impl IconShape for LdFileBarChart2 {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z",
-            }
-            path {
-                d: "M14 2v4a2 2 0 0 0 2 2h4",
-            }
-            path {
-                d: "M8 18v-1",
-            }
-            path {
-                d: "M12 18v-6",
-            }
-            path {
-                d: "M16 18v-3",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdFileBarChart;
-impl IconShape for LdFileBarChart {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z",
-            }
-            path {
-                d: "M14 2v4a2 2 0 0 0 2 2h4",
-            }
-            path {
-                d: "M8 18v-2",
-            }
-            path {
-                d: "M12 18v-4",
-            }
-            path {
-                d: "M16 18v-6",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileBox;
 impl IconShape for LdFileBox {
     fn view_box(&self) -> &str {
@@ -19645,7 +20676,154 @@ impl IconShape for LdFileBox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdFileChartColumnIncreasing;
+impl IconShape for LdFileChartColumnIncreasing {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z",
+            }
+            path {
+                d: "M14 2v4a2 2 0 0 0 2 2h4",
+            }
+            path {
+                d: "M8 18v-2",
+            }
+            path {
+                d: "M12 18v-4",
+            }
+            path {
+                d: "M16 18v-6",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdFileChartColumn;
+impl IconShape for LdFileChartColumn {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z",
+            }
+            path {
+                d: "M14 2v4a2 2 0 0 0 2 2h4",
+            }
+            path {
+                d: "M8 18v-1",
+            }
+            path {
+                d: "M12 18v-6",
+            }
+            path {
+                d: "M16 18v-3",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdFileChartLine;
+impl IconShape for LdFileChartLine {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z",
+            }
+            path {
+                d: "M14 2v4a2 2 0 0 0 2 2h4",
+            }
+            path {
+                d: "m16 13-3.5 3.5-2-2L8 17",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdFileChartPie;
+impl IconShape for LdFileChartPie {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M14 2v4a2 2 0 0 0 2 2h4",
+            }
+            path {
+                d: "M16 22h2a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3.5",
+            }
+            path {
+                d: "M4.017 11.512a6 6 0 1 0 8.466 8.475",
+            }
+            path {
+                d: "M9 16a1 1 0 0 1-1-1v-4c0-.552.45-1.008.995-.917a6 6 0 0 1 4.922 4.922c.091.544-.365.995-.917.995z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileCheck2;
 impl IconShape for LdFileCheck2 {
     fn view_box(&self) -> &str {
@@ -19678,7 +20856,7 @@ impl IconShape for LdFileCheck2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileCheck;
 impl IconShape for LdFileCheck {
     fn view_box(&self) -> &str {
@@ -19711,7 +20889,7 @@ impl IconShape for LdFileCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileClock;
 impl IconShape for LdFileClock {
     fn view_box(&self) -> &str {
@@ -19749,7 +20927,7 @@ impl IconShape for LdFileClock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileCode2;
 impl IconShape for LdFileCode2 {
     fn view_box(&self) -> &str {
@@ -19785,7 +20963,7 @@ impl IconShape for LdFileCode2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileCode;
 impl IconShape for LdFileCode {
     fn view_box(&self) -> &str {
@@ -19806,22 +20984,22 @@ impl IconShape for LdFileCode {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z",
+                d: "M10 12.5 8 15l2 2.5",
+            }
+            path {
+                d: "m14 12.5 2 2.5-2 2.5",
             }
             path {
                 d: "M14 2v4a2 2 0 0 0 2 2h4",
             }
             path {
-                d: "m10 13-2 2 2 2",
-            }
-            path {
-                d: "m14 17 2-2-2-2",
+                d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileCog;
 impl IconShape for LdFileCog {
     fn view_box(&self) -> &str {
@@ -19842,45 +21020,45 @@ impl IconShape for LdFileCog {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v2",
+                d: "M14 2v4a2 2 0 0 0 2 2h4",
             }
             path {
-                d: "M14 2v4a2 2 0 0 0 2 2h4",
+                d: "m3.2 12.9-.9-.4",
+            }
+            path {
+                d: "m3.2 15.1-.9.4",
+            }
+            path {
+                d: "M4.677 21.5a2 2 0 0 0 1.313.5H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v2.5",
+            }
+            path {
+                d: "m4.9 11.2-.4-.9",
+            }
+            path {
+                d: "m4.9 16.8-.4.9",
+            }
+            path {
+                d: "m7.5 10.3-.4.9",
+            }
+            path {
+                d: "m7.5 17.7-.4-.9",
+            }
+            path {
+                d: "m9.7 12.5-.9.4",
+            }
+            path {
+                d: "m9.7 15.5-.9-.4",
             }
             circle {
                 cx: "6",
                 cy: "14",
                 r: "3",
             }
-            path {
-                d: "M6 10v1",
-            }
-            path {
-                d: "M6 17v1",
-            }
-            path {
-                d: "M10 14H9",
-            }
-            path {
-                d: "M3 14H2",
-            }
-            path {
-                d: "m9 11-.88.88",
-            }
-            path {
-                d: "M3.88 16.12 3 17",
-            }
-            path {
-                d: "m9 17-.88-.88",
-            }
-            path {
-                d: "M3.88 11.88 3 11",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileDiff;
 impl IconShape for LdFileDiff {
     fn view_box(&self) -> &str {
@@ -19916,7 +21094,7 @@ impl IconShape for LdFileDiff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileDigit;
 impl IconShape for LdFileDigit {
     fn view_box(&self) -> &str {
@@ -19959,7 +21137,7 @@ impl IconShape for LdFileDigit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileDown;
 impl IconShape for LdFileDown {
     fn view_box(&self) -> &str {
@@ -19995,7 +21173,7 @@ impl IconShape for LdFileDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileHeart;
 impl IconShape for LdFileHeart {
     fn view_box(&self) -> &str {
@@ -20028,7 +21206,7 @@ impl IconShape for LdFileHeart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileImage;
 impl IconShape for LdFileImage {
     fn view_box(&self) -> &str {
@@ -20066,7 +21244,7 @@ impl IconShape for LdFileImage {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileInput;
 impl IconShape for LdFileInput {
     fn view_box(&self) -> &str {
@@ -20102,7 +21280,7 @@ impl IconShape for LdFileInput {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileJson2;
 impl IconShape for LdFileJson2 {
     fn view_box(&self) -> &str {
@@ -20138,7 +21316,7 @@ impl IconShape for LdFileJson2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileJson;
 impl IconShape for LdFileJson {
     fn view_box(&self) -> &str {
@@ -20174,7 +21352,7 @@ impl IconShape for LdFileJson {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileKey2;
 impl IconShape for LdFileKey2 {
     fn view_box(&self) -> &str {
@@ -20215,7 +21393,7 @@ impl IconShape for LdFileKey2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileKey;
 impl IconShape for LdFileKey {
     fn view_box(&self) -> &str {
@@ -20253,40 +21431,7 @@ impl IconShape for LdFileKey {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdFileLineChart;
-impl IconShape for LdFileLineChart {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z",
-            }
-            path {
-                d: "M14 2v4a2 2 0 0 0 2 2h4",
-            }
-            path {
-                d: "m16 13-3.5 3.5-2-2L8 17",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileLock2;
 impl IconShape for LdFileLock2 {
     fn view_box(&self) -> &str {
@@ -20326,7 +21471,7 @@ impl IconShape for LdFileLock2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileLock;
 impl IconShape for LdFileLock {
     fn view_box(&self) -> &str {
@@ -20363,7 +21508,7 @@ impl IconShape for LdFileLock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileMinus2;
 impl IconShape for LdFileMinus2 {
     fn view_box(&self) -> &str {
@@ -20396,7 +21541,7 @@ impl IconShape for LdFileMinus2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileMinus;
 impl IconShape for LdFileMinus {
     fn view_box(&self) -> &str {
@@ -20429,7 +21574,7 @@ impl IconShape for LdFileMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileMusic;
 impl IconShape for LdFileMusic {
     fn view_box(&self) -> &str {
@@ -20449,6 +21594,12 @@ impl IconShape for LdFileMusic {
     }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M10.5 22H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v8.4",
+            }
+            path {
+                d: "M8 18v-7.7L16 9v7",
+            }
             circle {
                 cx: "14",
                 cy: "16",
@@ -20459,17 +21610,11 @@ impl IconShape for LdFileMusic {
                 cy: "18",
                 r: "2",
             }
-            path {
-                d: "M4 12.4V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2h-7.5",
-            }
-            path {
-                d: "M8 18v-7.7L16 9v7",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileOutput;
 impl IconShape for LdFileOutput {
     fn view_box(&self) -> &str {
@@ -20508,7 +21653,7 @@ impl IconShape for LdFileOutput {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFilePenLine;
 impl IconShape for LdFilePenLine {
     fn view_box(&self) -> &str {
@@ -20529,19 +21674,19 @@ impl IconShape for LdFilePenLine {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m18 5-3-3H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2",
+                d: "m18 5-2.414-2.414A2 2 0 0 0 14.172 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2",
+            }
+            path {
+                d: "M21.378 12.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z",
             }
             path {
                 d: "M8 18h1",
-            }
-            path {
-                d: "M18.4 9.6a2 2 0 1 1 3 3L17 17l-4 1 1-4Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFilePen;
 impl IconShape for LdFilePen {
     fn view_box(&self) -> &str {
@@ -20562,55 +21707,19 @@ impl IconShape for LdFilePen {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M12 22h6a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v10",
+                d: "M12.5 22H18a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v9.5",
             }
             path {
                 d: "M14 2v4a2 2 0 0 0 2 2h4",
             }
             path {
-                d: "M10.4 12.6a2 2 0 1 1 3 3L8 21l-4 1 1-4Z",
+                d: "M13.378 15.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdFilePieChart;
-impl IconShape for LdFilePieChart {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M14 2v4a2 2 0 0 0 2 2h4",
-            }
-            path {
-                d: "M16 22h2a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3.5",
-            }
-            path {
-                d: "M4.017 11.512a6 6 0 1 0 8.466 8.475",
-            }
-            path {
-                d: "M8 16v-6a6 6 0 0 1 6 6z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFilePlus2;
 impl IconShape for LdFilePlus2 {
     fn view_box(&self) -> &str {
@@ -20646,7 +21755,7 @@ impl IconShape for LdFilePlus2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFilePlus;
 impl IconShape for LdFilePlus {
     fn view_box(&self) -> &str {
@@ -20682,7 +21791,7 @@ impl IconShape for LdFilePlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileQuestion;
 impl IconShape for LdFileQuestion {
     fn view_box(&self) -> &str {
@@ -20715,7 +21824,7 @@ impl IconShape for LdFileQuestion {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileScan;
 impl IconShape for LdFileScan {
     fn view_box(&self) -> &str {
@@ -20757,7 +21866,7 @@ impl IconShape for LdFileScan {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileSearch2;
 impl IconShape for LdFileSearch2 {
     fn view_box(&self) -> &str {
@@ -20795,7 +21904,7 @@ impl IconShape for LdFileSearch2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileSearch;
 impl IconShape for LdFileSearch {
     fn view_box(&self) -> &str {
@@ -20833,7 +21942,7 @@ impl IconShape for LdFileSearch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileSliders;
 impl IconShape for LdFileSliders {
     fn view_box(&self) -> &str {
@@ -20875,7 +21984,7 @@ impl IconShape for LdFileSliders {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileSpreadsheet;
 impl IconShape for LdFileSpreadsheet {
     fn view_box(&self) -> &str {
@@ -20917,7 +22026,7 @@ impl IconShape for LdFileSpreadsheet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileStack;
 impl IconShape for LdFileStack {
     fn view_box(&self) -> &str {
@@ -20953,7 +22062,7 @@ impl IconShape for LdFileStack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileSymlink;
 impl IconShape for LdFileSymlink {
     fn view_box(&self) -> &str {
@@ -20986,7 +22095,7 @@ impl IconShape for LdFileSymlink {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileTerminal;
 impl IconShape for LdFileTerminal {
     fn view_box(&self) -> &str {
@@ -21022,7 +22131,7 @@ impl IconShape for LdFileTerminal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileText;
 impl IconShape for LdFileText {
     fn view_box(&self) -> &str {
@@ -21061,7 +22170,7 @@ impl IconShape for LdFileText {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileType2;
 impl IconShape for LdFileType2 {
     fn view_box(&self) -> &str {
@@ -21100,7 +22209,7 @@ impl IconShape for LdFileType2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileType;
 impl IconShape for LdFileType {
     fn view_box(&self) -> &str {
@@ -21139,7 +22248,7 @@ impl IconShape for LdFileType {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileUp;
 impl IconShape for LdFileUp {
     fn view_box(&self) -> &str {
@@ -21175,7 +22284,45 @@ impl IconShape for LdFileUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdFileUser;
+impl IconShape for LdFileUser {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M14 2v4a2 2 0 0 0 2 2h4",
+            }
+            path {
+                d: "M15 18a3 3 0 1 0-6 0",
+            }
+            path {
+                d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z",
+            }
+            circle {
+                cx: "12",
+                cy: "13",
+                r: "2",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileVideo2;
 impl IconShape for LdFileVideo2 {
     fn view_box(&self) -> &str {
@@ -21215,7 +22362,7 @@ impl IconShape for LdFileVideo2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileVideo;
 impl IconShape for LdFileVideo {
     fn view_box(&self) -> &str {
@@ -21248,7 +22395,7 @@ impl IconShape for LdFileVideo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileVolume2;
 impl IconShape for LdFileVolume2 {
     fn view_box(&self) -> &str {
@@ -21287,7 +22434,7 @@ impl IconShape for LdFileVolume2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileVolume;
 impl IconShape for LdFileVolume {
     fn view_box(&self) -> &str {
@@ -21314,16 +22461,16 @@ impl IconShape for LdFileVolume {
                 d: "M14 2v4a2 2 0 0 0 2 2h4",
             }
             path {
-                d: "M4.268 21A2 2 0 0 0 6 22h12a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v3",
+                d: "M4 6.765V4a2 2 0 0 1 2-2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-.93-.23",
             }
             path {
-                d: "m7 10-3 2H2v4h2l3 2z",
+                d: "M7 10.51a.5.5 0 0 0-.826-.38l-1.893 1.628A1 1 0 0 1 3.63 12H2.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h1.129a1 1 0 0 1 .652.242l1.893 1.63a.5.5 0 0 0 .826-.38z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileWarning;
 impl IconShape for LdFileWarning {
     fn view_box(&self) -> &str {
@@ -21356,7 +22503,7 @@ impl IconShape for LdFileWarning {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileX2;
 impl IconShape for LdFileX2 {
     fn view_box(&self) -> &str {
@@ -21392,7 +22539,7 @@ impl IconShape for LdFileX2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFileX;
 impl IconShape for LdFileX {
     fn view_box(&self) -> &str {
@@ -21428,7 +22575,7 @@ impl IconShape for LdFileX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFile;
 impl IconShape for LdFile {
     fn view_box(&self) -> &str {
@@ -21458,7 +22605,7 @@ impl IconShape for LdFile {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFiles;
 impl IconShape for LdFiles {
     fn view_box(&self) -> &str {
@@ -21491,7 +22638,7 @@ impl IconShape for LdFiles {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFilm;
 impl IconShape for LdFilm {
     fn view_box(&self) -> &str {
@@ -21543,7 +22690,7 @@ impl IconShape for LdFilm {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFilterX;
 impl IconShape for LdFilterX {
     fn view_box(&self) -> &str {
@@ -21576,7 +22723,7 @@ impl IconShape for LdFilterX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFilter;
 impl IconShape for LdFilter {
     fn view_box(&self) -> &str {
@@ -21603,7 +22750,7 @@ impl IconShape for LdFilter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFingerprint;
 impl IconShape for LdFingerprint {
     fn view_box(&self) -> &str {
@@ -21654,7 +22801,7 @@ impl IconShape for LdFingerprint {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFireExtinguisher;
 impl IconShape for LdFireExtinguisher {
     fn view_box(&self) -> &str {
@@ -21696,7 +22843,7 @@ impl IconShape for LdFireExtinguisher {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFishOff;
 impl IconShape for LdFishOff {
     fn view_box(&self) -> &str {
@@ -21729,7 +22876,7 @@ impl IconShape for LdFishOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFishSymbol;
 impl IconShape for LdFishSymbol {
     fn view_box(&self) -> &str {
@@ -21756,7 +22903,7 @@ impl IconShape for LdFishSymbol {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFish;
 impl IconShape for LdFish {
     fn view_box(&self) -> &str {
@@ -21798,7 +22945,7 @@ impl IconShape for LdFish {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlagOff;
 impl IconShape for LdFlagOff {
     fn view_box(&self) -> &str {
@@ -21837,7 +22984,7 @@ impl IconShape for LdFlagOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlagTriangleLeft;
 impl IconShape for LdFlagTriangleLeft {
     fn view_box(&self) -> &str {
@@ -21864,7 +23011,7 @@ impl IconShape for LdFlagTriangleLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlagTriangleRight;
 impl IconShape for LdFlagTriangleRight {
     fn view_box(&self) -> &str {
@@ -21891,7 +23038,7 @@ impl IconShape for LdFlagTriangleRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlag;
 impl IconShape for LdFlag {
     fn view_box(&self) -> &str {
@@ -21924,7 +23071,7 @@ impl IconShape for LdFlag {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlameKindling;
 impl IconShape for LdFlameKindling {
     fn view_box(&self) -> &str {
@@ -21957,7 +23104,7 @@ impl IconShape for LdFlameKindling {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlame;
 impl IconShape for LdFlame {
     fn view_box(&self) -> &str {
@@ -21984,7 +23131,7 @@ impl IconShape for LdFlame {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlashlightOff;
 impl IconShape for LdFlashlightOff {
     fn view_box(&self) -> &str {
@@ -22026,7 +23173,7 @@ impl IconShape for LdFlashlightOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlashlight;
 impl IconShape for LdFlashlight {
     fn view_box(&self) -> &str {
@@ -22065,7 +23212,7 @@ impl IconShape for LdFlashlight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlaskConicalOff;
 impl IconShape for LdFlaskConicalOff {
     fn view_box(&self) -> &str {
@@ -22110,7 +23257,7 @@ impl IconShape for LdFlaskConicalOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlaskConical;
 impl IconShape for LdFlaskConical {
     fn view_box(&self) -> &str {
@@ -22143,7 +23290,7 @@ impl IconShape for LdFlaskConical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlaskRound;
 impl IconShape for LdFlaskRound {
     fn view_box(&self) -> &str {
@@ -22182,7 +23329,7 @@ impl IconShape for LdFlaskRound {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlipHorizontal2;
 impl IconShape for LdFlipHorizontal2 {
     fn view_box(&self) -> &str {
@@ -22224,7 +23371,7 @@ impl IconShape for LdFlipHorizontal2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlipHorizontal;
 impl IconShape for LdFlipHorizontal {
     fn view_box(&self) -> &str {
@@ -22266,7 +23413,7 @@ impl IconShape for LdFlipHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlipVertical2;
 impl IconShape for LdFlipVertical2 {
     fn view_box(&self) -> &str {
@@ -22308,7 +23455,7 @@ impl IconShape for LdFlipVertical2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlipVertical;
 impl IconShape for LdFlipVertical {
     fn view_box(&self) -> &str {
@@ -22350,7 +23497,7 @@ impl IconShape for LdFlipVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlower2;
 impl IconShape for LdFlower2 {
     fn view_box(&self) -> &str {
@@ -22391,7 +23538,7 @@ impl IconShape for LdFlower2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFlower;
 impl IconShape for LdFlower {
     fn view_box(&self) -> &str {
@@ -22447,7 +23594,7 @@ impl IconShape for LdFlower {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFocus;
 impl IconShape for LdFocus {
     fn view_box(&self) -> &str {
@@ -22488,7 +23635,7 @@ impl IconShape for LdFocus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFoldHorizontal;
 impl IconShape for LdFoldHorizontal {
     fn view_box(&self) -> &str {
@@ -22536,7 +23683,7 @@ impl IconShape for LdFoldHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFoldVertical;
 impl IconShape for LdFoldVertical {
     fn view_box(&self) -> &str {
@@ -22584,7 +23731,7 @@ impl IconShape for LdFoldVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderArchive;
 impl IconShape for LdFolderArchive {
     fn view_box(&self) -> &str {
@@ -22622,7 +23769,7 @@ impl IconShape for LdFolderArchive {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderCheck;
 impl IconShape for LdFolderCheck {
     fn view_box(&self) -> &str {
@@ -22652,7 +23799,7 @@ impl IconShape for LdFolderCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderClock;
 impl IconShape for LdFolderClock {
     fn view_box(&self) -> &str {
@@ -22687,7 +23834,7 @@ impl IconShape for LdFolderClock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderClosed;
 impl IconShape for LdFolderClosed {
     fn view_box(&self) -> &str {
@@ -22717,7 +23864,40 @@ impl IconShape for LdFolderClosed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdFolderCode;
+impl IconShape for LdFolderCode {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M10 10.5 8 13l2 2.5",
+            }
+            path {
+                d: "m14 10.5 2 2.5-2 2.5",
+            }
+            path {
+                d: "M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderCog;
 impl IconShape for LdFolderCog {
     fn view_box(&self) -> &str {
@@ -22773,7 +23953,7 @@ impl IconShape for LdFolderCog {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderDot;
 impl IconShape for LdFolderDot {
     fn view_box(&self) -> &str {
@@ -22805,7 +23985,7 @@ impl IconShape for LdFolderDot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderDown;
 impl IconShape for LdFolderDown {
     fn view_box(&self) -> &str {
@@ -22838,7 +24018,7 @@ impl IconShape for LdFolderDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderGit2;
 impl IconShape for LdFolderGit2 {
     fn view_box(&self) -> &str {
@@ -22878,7 +24058,7 @@ impl IconShape for LdFolderGit2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderGit;
 impl IconShape for LdFolderGit {
     fn view_box(&self) -> &str {
@@ -22916,7 +24096,7 @@ impl IconShape for LdFolderGit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderHeart;
 impl IconShape for LdFolderHeart {
     fn view_box(&self) -> &str {
@@ -22940,13 +24120,13 @@ impl IconShape for LdFolderHeart {
                 d: "M11 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v1.5",
             }
             path {
-                d: "M13.9 17.45c-1.2-1.2-1.14-2.8-.2-3.73a2.43 2.43 0 0 1 3.44 0l.36.34.34-.34a2.43 2.43 0 0 1 3.45-.01v0c.95.95 1 2.53-.2 3.74L17.5 21Z",
+                d: "M13.9 17.45c-1.2-1.2-1.14-2.8-.2-3.73a2.43 2.43 0 0 1 3.44 0l.36.34.34-.34a2.43 2.43 0 0 1 3.45-.01c.95.95 1 2.53-.2 3.74L17.5 21Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderInput;
 impl IconShape for LdFolderInput {
     fn view_box(&self) -> &str {
@@ -22979,7 +24159,7 @@ impl IconShape for LdFolderInput {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderKanban;
 impl IconShape for LdFolderKanban {
     fn view_box(&self) -> &str {
@@ -23015,7 +24195,7 @@ impl IconShape for LdFolderKanban {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderKey;
 impl IconShape for LdFolderKey {
     fn view_box(&self) -> &str {
@@ -23053,7 +24233,7 @@ impl IconShape for LdFolderKey {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderLock;
 impl IconShape for LdFolderLock {
     fn view_box(&self) -> &str {
@@ -23090,7 +24270,7 @@ impl IconShape for LdFolderLock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderMinus;
 impl IconShape for LdFolderMinus {
     fn view_box(&self) -> &str {
@@ -23120,7 +24300,7 @@ impl IconShape for LdFolderMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderOpenDot;
 impl IconShape for LdFolderOpenDot {
     fn view_box(&self) -> &str {
@@ -23152,7 +24332,7 @@ impl IconShape for LdFolderOpenDot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderOpen;
 impl IconShape for LdFolderOpen {
     fn view_box(&self) -> &str {
@@ -23179,7 +24359,7 @@ impl IconShape for LdFolderOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderOutput;
 impl IconShape for LdFolderOutput {
     fn view_box(&self) -> &str {
@@ -23212,7 +24392,7 @@ impl IconShape for LdFolderOutput {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderPen;
 impl IconShape for LdFolderPen {
     fn view_box(&self) -> &str {
@@ -23233,16 +24413,16 @@ impl IconShape for LdFolderPen {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M8.4 10.6a2 2 0 0 1 3 3L6 19l-4 1 1-4Z",
+                d: "M2 11.5V5a2 2 0 0 1 2-2h3.9c.7 0 1.3.3 1.7.9l.8 1.2c.4.6 1 .9 1.7.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-9.5",
             }
             path {
-                d: "M2 11.5V5a2 2 0 0 1 2-2h3.9c.7 0 1.3.3 1.7.9l.8 1.2c.4.6 1 .9 1.7.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-9.5",
+                d: "M11.378 13.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderPlus;
 impl IconShape for LdFolderPlus {
     fn view_box(&self) -> &str {
@@ -23275,7 +24455,7 @@ impl IconShape for LdFolderPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderRoot;
 impl IconShape for LdFolderRoot {
     fn view_box(&self) -> &str {
@@ -23310,7 +24490,7 @@ impl IconShape for LdFolderRoot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderSearch2;
 impl IconShape for LdFolderSearch2 {
     fn view_box(&self) -> &str {
@@ -23345,7 +24525,7 @@ impl IconShape for LdFolderSearch2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderSearch;
 impl IconShape for LdFolderSearch {
     fn view_box(&self) -> &str {
@@ -23365,22 +24545,22 @@ impl IconShape for LdFolderSearch {
     }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M10.7 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v4.1",
+            }
+            path {
+                d: "m21 21-1.9-1.9",
+            }
             circle {
                 cx: "17",
                 cy: "17",
                 r: "3",
             }
-            path {
-                d: "M10.7 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v4.1",
-            }
-            path {
-                d: "m21 21-1.5-1.5",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderSymlink;
 impl IconShape for LdFolderSymlink {
     fn view_box(&self) -> &str {
@@ -23410,7 +24590,7 @@ impl IconShape for LdFolderSymlink {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderSync;
 impl IconShape for LdFolderSync {
     fn view_box(&self) -> &str {
@@ -23449,7 +24629,7 @@ impl IconShape for LdFolderSync {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderTree;
 impl IconShape for LdFolderTree {
     fn view_box(&self) -> &str {
@@ -23485,7 +24665,7 @@ impl IconShape for LdFolderTree {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderUp;
 impl IconShape for LdFolderUp {
     fn view_box(&self) -> &str {
@@ -23518,7 +24698,7 @@ impl IconShape for LdFolderUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolderX;
 impl IconShape for LdFolderX {
     fn view_box(&self) -> &str {
@@ -23551,7 +24731,7 @@ impl IconShape for LdFolderX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolder;
 impl IconShape for LdFolder {
     fn view_box(&self) -> &str {
@@ -23578,7 +24758,7 @@ impl IconShape for LdFolder {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFolders;
 impl IconShape for LdFolders {
     fn view_box(&self) -> &str {
@@ -23608,7 +24788,7 @@ impl IconShape for LdFolders {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFootprints;
 impl IconShape for LdFootprints {
     fn view_box(&self) -> &str {
@@ -23644,7 +24824,7 @@ impl IconShape for LdFootprints {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdForklift;
 impl IconShape for LdForklift {
     fn view_box(&self) -> &str {
@@ -23684,7 +24864,7 @@ impl IconShape for LdForklift {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdForward;
 impl IconShape for LdForward {
     fn view_box(&self) -> &str {
@@ -23714,7 +24894,7 @@ impl IconShape for LdForward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFrame;
 impl IconShape for LdFrame {
     fn view_box(&self) -> &str {
@@ -23762,7 +24942,7 @@ impl IconShape for LdFrame {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFramer;
 impl IconShape for LdFramer {
     fn view_box(&self) -> &str {
@@ -23789,7 +24969,7 @@ impl IconShape for LdFramer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFrown;
 impl IconShape for LdFrown {
     fn view_box(&self) -> &str {
@@ -23833,7 +25013,7 @@ impl IconShape for LdFrown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFuel;
 impl IconShape for LdFuel {
     fn view_box(&self) -> &str {
@@ -23869,13 +25049,13 @@ impl IconShape for LdFuel {
                 d: "M14 22V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v18",
             }
             path {
-                d: "M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L18 5",
+                d: "M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2a2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L18 5",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdFullscreen;
 impl IconShape for LdFullscreen {
     fn view_box(&self) -> &str {
@@ -23918,7 +25098,7 @@ impl IconShape for LdFullscreen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGalleryHorizontalEnd;
 impl IconShape for LdGalleryHorizontalEnd {
     fn view_box(&self) -> &str {
@@ -23955,7 +25135,7 @@ impl IconShape for LdGalleryHorizontalEnd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGalleryHorizontal;
 impl IconShape for LdGalleryHorizontal {
     fn view_box(&self) -> &str {
@@ -23992,7 +25172,7 @@ impl IconShape for LdGalleryHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGalleryThumbnails;
 impl IconShape for LdGalleryThumbnails {
     fn view_box(&self) -> &str {
@@ -24035,7 +25215,7 @@ impl IconShape for LdGalleryThumbnails {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGalleryVerticalEnd;
 impl IconShape for LdGalleryVerticalEnd {
     fn view_box(&self) -> &str {
@@ -24072,7 +25252,7 @@ impl IconShape for LdGalleryVerticalEnd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGalleryVertical;
 impl IconShape for LdGalleryVertical {
     fn view_box(&self) -> &str {
@@ -24109,7 +25289,7 @@ impl IconShape for LdGalleryVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGamepad2;
 impl IconShape for LdGamepad2 {
     fn view_box(&self) -> &str {
@@ -24160,7 +25340,7 @@ impl IconShape for LdGamepad2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGamepad;
 impl IconShape for LdGamepad {
     fn view_box(&self) -> &str {
@@ -24215,40 +25395,7 @@ impl IconShape for LdGamepad {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdGanttChart;
-impl IconShape for LdGanttChart {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M8 6h10",
-            }
-            path {
-                d: "M6 12h9",
-            }
-            path {
-                d: "M11 18h7",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGauge;
 impl IconShape for LdGauge {
     fn view_box(&self) -> &str {
@@ -24278,7 +25425,7 @@ impl IconShape for LdGauge {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGavel;
 impl IconShape for LdGavel {
     fn view_box(&self) -> &str {
@@ -24317,7 +25464,7 @@ impl IconShape for LdGavel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGem;
 impl IconShape for LdGem {
     fn view_box(&self) -> &str {
@@ -24350,7 +25497,7 @@ impl IconShape for LdGem {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGhost;
 impl IconShape for LdGhost {
     fn view_box(&self) -> &str {
@@ -24383,7 +25530,7 @@ impl IconShape for LdGhost {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGift;
 impl IconShape for LdGift {
     fn view_box(&self) -> &str {
@@ -24423,7 +25570,7 @@ impl IconShape for LdGift {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitBranchPlus;
 impl IconShape for LdGitBranchPlus {
     fn view_box(&self) -> &str {
@@ -24465,7 +25612,7 @@ impl IconShape for LdGitBranchPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitBranch;
 impl IconShape for LdGitBranch {
     fn view_box(&self) -> &str {
@@ -24508,7 +25655,7 @@ impl IconShape for LdGitBranch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitCommitHorizontal;
 impl IconShape for LdGitCommitHorizontal {
     fn view_box(&self) -> &str {
@@ -24549,7 +25696,7 @@ impl IconShape for LdGitCommitHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitCommitVertical;
 impl IconShape for LdGitCommitVertical {
     fn view_box(&self) -> &str {
@@ -24584,7 +25731,7 @@ impl IconShape for LdGitCommitVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitCompareArrows;
 impl IconShape for LdGitCompareArrows {
     fn view_box(&self) -> &str {
@@ -24630,7 +25777,7 @@ impl IconShape for LdGitCompareArrows {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitCompare;
 impl IconShape for LdGitCompare {
     fn view_box(&self) -> &str {
@@ -24670,7 +25817,7 @@ impl IconShape for LdGitCompare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitFork;
 impl IconShape for LdGitFork {
     fn view_box(&self) -> &str {
@@ -24715,7 +25862,7 @@ impl IconShape for LdGitFork {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitGraph;
 impl IconShape for LdGitGraph {
     fn view_box(&self) -> &str {
@@ -24763,7 +25910,7 @@ impl IconShape for LdGitGraph {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitMerge;
 impl IconShape for LdGitMerge {
     fn view_box(&self) -> &str {
@@ -24800,7 +25947,7 @@ impl IconShape for LdGitMerge {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitPullRequestArrow;
 impl IconShape for LdGitPullRequestArrow {
     fn view_box(&self) -> &str {
@@ -24843,7 +25990,7 @@ impl IconShape for LdGitPullRequestArrow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitPullRequestClosed;
 impl IconShape for LdGitPullRequestClosed {
     fn view_box(&self) -> &str {
@@ -24889,7 +26036,7 @@ impl IconShape for LdGitPullRequestClosed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitPullRequestCreateArrow;
 impl IconShape for LdGitPullRequestCreateArrow {
     fn view_box(&self) -> &str {
@@ -24933,7 +26080,7 @@ impl IconShape for LdGitPullRequestCreateArrow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitPullRequestCreate;
 impl IconShape for LdGitPullRequestCreate {
     fn view_box(&self) -> &str {
@@ -24974,7 +26121,7 @@ impl IconShape for LdGitPullRequestCreate {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitPullRequestDraft;
 impl IconShape for LdGitPullRequestDraft {
     fn view_box(&self) -> &str {
@@ -25020,7 +26167,7 @@ impl IconShape for LdGitPullRequestDraft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitPullRequest;
 impl IconShape for LdGitPullRequest {
     fn view_box(&self) -> &str {
@@ -25063,7 +26210,7 @@ impl IconShape for LdGitPullRequest {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGithub;
 impl IconShape for LdGithub {
     fn view_box(&self) -> &str {
@@ -25093,7 +26240,7 @@ impl IconShape for LdGithub {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGitlab;
 impl IconShape for LdGitlab {
     fn view_box(&self) -> &str {
@@ -25120,7 +26267,7 @@ impl IconShape for LdGitlab {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGlassWater;
 impl IconShape for LdGlassWater {
     fn view_box(&self) -> &str {
@@ -25150,7 +26297,7 @@ impl IconShape for LdGlassWater {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGlasses;
 impl IconShape for LdGlasses {
     fn view_box(&self) -> &str {
@@ -25193,7 +26340,7 @@ impl IconShape for LdGlasses {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGlobeLock;
 impl IconShape for LdGlobeLock {
     fn view_box(&self) -> &str {
@@ -25233,7 +26380,7 @@ impl IconShape for LdGlobeLock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGlobe;
 impl IconShape for LdGlobe {
     fn view_box(&self) -> &str {
@@ -25268,7 +26415,7 @@ impl IconShape for LdGlobe {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGoal;
 impl IconShape for LdGoal {
     fn view_box(&self) -> &str {
@@ -25301,7 +26448,7 @@ impl IconShape for LdGoal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGrab;
 impl IconShape for LdGrab {
     fn view_box(&self) -> &str {
@@ -25322,25 +26469,25 @@ impl IconShape for LdGrab {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M18 11.5V9a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v1.4",
+                d: "M18 11.5V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4",
             }
             path {
-                d: "M14 10V8a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v2",
+                d: "M14 10V8a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2",
             }
             path {
-                d: "M10 9.9V9a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v5",
+                d: "M10 9.9V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5",
             }
             path {
-                d: "M6 14v0a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0",
+                d: "M6 14a2 2 0 0 0-2-2a2 2 0 0 0-2 2",
             }
             path {
-                d: "M18 11v0a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8 2 2 0 1 1 4 0",
+                d: "M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8 2 2 0 1 1 4 0",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGraduationCap;
 impl IconShape for LdGraduationCap {
     fn view_box(&self) -> &str {
@@ -25373,7 +26520,7 @@ impl IconShape for LdGraduationCap {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGrape;
 impl IconShape for LdGrape {
     fn view_box(&self) -> &str {
@@ -25440,7 +26587,103 @@ impl IconShape for LdGrape {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdGrid2x2Check;
+impl IconShape for LdGrid2x2Check {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3",
+            }
+            path {
+                d: "m16 19 2 2 4-4",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdGrid2x2Plus;
+impl IconShape for LdGrid2x2Plus {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3",
+            }
+            path {
+                d: "M16 19h6",
+            }
+            path {
+                d: "M19 22v-6",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdGrid2x2X;
+impl IconShape for LdGrid2x2X {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3",
+            }
+            path {
+                d: "m16 16 5 5",
+            }
+            path {
+                d: "m16 21 5-5",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGrid2x2;
 impl IconShape for LdGrid2x2 {
     fn view_box(&self) -> &str {
@@ -25477,7 +26720,7 @@ impl IconShape for LdGrid2x2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGrid3x3;
 impl IconShape for LdGrid3x3 {
     fn view_box(&self) -> &str {
@@ -25520,7 +26763,7 @@ impl IconShape for LdGrid3x3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGripHorizontal;
 impl IconShape for LdGripHorizontal {
     fn view_box(&self) -> &str {
@@ -25574,7 +26817,7 @@ impl IconShape for LdGripHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGripVertical;
 impl IconShape for LdGripVertical {
     fn view_box(&self) -> &str {
@@ -25628,7 +26871,7 @@ impl IconShape for LdGripVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGrip;
 impl IconShape for LdGrip {
     fn view_box(&self) -> &str {
@@ -25697,7 +26940,7 @@ impl IconShape for LdGrip {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGroup;
 impl IconShape for LdGroup {
     fn view_box(&self) -> &str {
@@ -25747,7 +26990,7 @@ impl IconShape for LdGroup {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdGuitar;
 impl IconShape for LdGuitar {
     fn view_box(&self) -> &str {
@@ -25768,27 +27011,27 @@ impl IconShape for LdGuitar {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m20 7 1.7-1.7a1 1 0 0 0 0-1.4l-1.6-1.6a1 1 0 0 0-1.4 0L17 4v3Z",
+                d: "m11.9 12.1 4.514-4.514",
             }
             path {
-                d: "m17 7-5.1 5.1",
+                d: "M20.1 2.3a1 1 0 0 0-1.4 0l-1.114 1.114A2 2 0 0 0 17 4.828v1.344a2 2 0 0 1-.586 1.414A2 2 0 0 1 17.828 7h1.344a2 2 0 0 0 1.414-.586L21.7 5.3a1 1 0 0 0 0-1.4z",
+            }
+            path {
+                d: "m6 16 2 2",
+            }
+            path {
+                d: "M8.2 9.9C8.7 8.8 9.8 8 11 8c2.8 0 5 2.2 5 5 0 1.2-.8 2.3-1.9 2.8l-.9.4A2 2 0 0 0 12 18a4 4 0 0 1-4 4c-3.3 0-6-2.7-6-6a4 4 0 0 1 4-4 2 2 0 0 0 1.8-1.2z",
             }
             circle {
                 cx: "11.5",
                 cy: "12.5",
                 r: ".5",
             }
-            path {
-                d: "M6 12a2 2 0 0 0 1.8-1.2l.4-.9C8.7 8.8 9.8 8 11 8c2.8 0 5 2.2 5 5 0 1.2-.8 2.3-1.9 2.8l-.9.4A2 2 0 0 0 12 18a4 4 0 0 1-4 4c-3.3 0-6-2.7-6-6a4 4 0 0 1 4-4",
-            }
-            path {
-                d: "m6 16 2 2",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHam;
 impl IconShape for LdHam {
     fn view_box(&self) -> &str {
@@ -25824,7 +27067,7 @@ impl IconShape for LdHam {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHammer;
 impl IconShape for LdHammer {
     fn view_box(&self) -> &str {
@@ -25857,7 +27100,7 @@ impl IconShape for LdHammer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHandCoins;
 impl IconShape for LdHandCoins {
     fn view_box(&self) -> &str {
@@ -25900,7 +27143,7 @@ impl IconShape for LdHandCoins {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHandHeart;
 impl IconShape for LdHandHeart {
     fn view_box(&self) -> &str {
@@ -25936,7 +27179,7 @@ impl IconShape for LdHandHeart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHandHelping;
 impl IconShape for LdHandHelping {
     fn view_box(&self) -> &str {
@@ -25969,7 +27212,7 @@ impl IconShape for LdHandHelping {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHandMetal;
 impl IconShape for LdHandMetal {
     fn view_box(&self) -> &str {
@@ -25990,7 +27233,7 @@ impl IconShape for LdHandMetal {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M18 12.5V10a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v1.4",
+                d: "M18 12.5V10a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.4",
             }
             path {
                 d: "M14 11V9a2 2 0 1 0-4 0v2",
@@ -26005,7 +27248,7 @@ impl IconShape for LdHandMetal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHandPlatter;
 impl IconShape for LdHandPlatter {
     fn view_box(&self) -> &str {
@@ -26047,7 +27290,7 @@ impl IconShape for LdHandPlatter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHand;
 impl IconShape for LdHand {
     fn view_box(&self) -> &str {
@@ -26068,13 +27311,13 @@ impl IconShape for LdHand {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M18 11V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0",
+                d: "M18 11V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2",
             }
             path {
-                d: "M14 10V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v2",
+                d: "M14 10V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2",
             }
             path {
-                d: "M10 10.5V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v8",
+                d: "M10 10.5V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2v8",
             }
             path {
                 d: "M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15",
@@ -26083,7 +27326,7 @@ impl IconShape for LdHand {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHandshake;
 impl IconShape for LdHandshake {
     fn view_box(&self) -> &str {
@@ -26122,7 +27365,7 @@ impl IconShape for LdHandshake {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHardDriveDownload;
 impl IconShape for LdHardDriveDownload {
     fn view_box(&self) -> &str {
@@ -26165,7 +27408,7 @@ impl IconShape for LdHardDriveDownload {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHardDriveUpload;
 impl IconShape for LdHardDriveUpload {
     fn view_box(&self) -> &str {
@@ -26208,7 +27451,7 @@ impl IconShape for LdHardDriveUpload {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHardDrive;
 impl IconShape for LdHardDrive {
     fn view_box(&self) -> &str {
@@ -26253,7 +27496,7 @@ impl IconShape for LdHardDrive {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHardHat;
 impl IconShape for LdHardHat {
     fn view_box(&self) -> &str {
@@ -26280,16 +27523,16 @@ impl IconShape for LdHardHat {
                 d: "M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5",
             }
             path {
-                d: "M4 15v-3a6 6 0 0 1 6-6h0",
+                d: "M4 15v-3a6 6 0 0 1 6-6",
             }
             path {
-                d: "M14 6h0a6 6 0 0 1 6 6v3",
+                d: "M14 6a6 6 0 0 1 6 6v3",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHash;
 impl IconShape for LdHash {
     fn view_box(&self) -> &str {
@@ -26337,7 +27580,7 @@ impl IconShape for LdHash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHaze;
 impl IconShape for LdHaze {
     fn view_box(&self) -> &str {
@@ -26385,7 +27628,7 @@ impl IconShape for LdHaze {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHdmiPort;
 impl IconShape for LdHdmiPort {
     fn view_box(&self) -> &str {
@@ -26415,7 +27658,7 @@ impl IconShape for LdHdmiPort {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeading1;
 impl IconShape for LdHeading1 {
     fn view_box(&self) -> &str {
@@ -26451,7 +27694,7 @@ impl IconShape for LdHeading1 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeading2;
 impl IconShape for LdHeading2 {
     fn view_box(&self) -> &str {
@@ -26487,7 +27730,7 @@ impl IconShape for LdHeading2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeading3;
 impl IconShape for LdHeading3 {
     fn view_box(&self) -> &str {
@@ -26526,7 +27769,7 @@ impl IconShape for LdHeading3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeading4;
 impl IconShape for LdHeading4 {
     fn view_box(&self) -> &str {
@@ -26565,7 +27808,7 @@ impl IconShape for LdHeading4 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeading5;
 impl IconShape for LdHeading5 {
     fn view_box(&self) -> &str {
@@ -26604,7 +27847,7 @@ impl IconShape for LdHeading5 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeading6;
 impl IconShape for LdHeading6 {
     fn view_box(&self) -> &str {
@@ -26645,7 +27888,7 @@ impl IconShape for LdHeading6 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeading;
 impl IconShape for LdHeading {
     fn view_box(&self) -> &str {
@@ -26678,7 +27921,46 @@ impl IconShape for LdHeading {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdHeadphoneOff;
+impl IconShape for LdHeadphoneOff {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M21 14h-1.343",
+            }
+            path {
+                d: "M9.128 3.47A9 9 0 0 1 21 12v3.343",
+            }
+            path {
+                d: "m2 2 20 20",
+            }
+            path {
+                d: "M20.414 20.414A2 2 0 0 1 19 21h-1a2 2 0 0 1-2-2v-3",
+            }
+            path {
+                d: "M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 2.636-6.364",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeadphones;
 impl IconShape for LdHeadphones {
     fn view_box(&self) -> &str {
@@ -26705,7 +27987,7 @@ impl IconShape for LdHeadphones {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeadset;
 impl IconShape for LdHeadset {
     fn view_box(&self) -> &str {
@@ -26735,7 +28017,7 @@ impl IconShape for LdHeadset {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeartCrack;
 impl IconShape for LdHeartCrack {
     fn view_box(&self) -> &str {
@@ -26765,7 +28047,7 @@ impl IconShape for LdHeartCrack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeartHandshake;
 impl IconShape for LdHeartHandshake {
     fn view_box(&self) -> &str {
@@ -26789,7 +28071,7 @@ impl IconShape for LdHeartHandshake {
                 d: "M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z",
             }
             path {
-                d: "M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08v0c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66",
+                d: "M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66",
             }
             path {
                 d: "m18 15-2-2",
@@ -26801,7 +28083,7 @@ impl IconShape for LdHeartHandshake {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeartOff;
 impl IconShape for LdHeartOff {
     fn view_box(&self) -> &str {
@@ -26837,7 +28119,7 @@ impl IconShape for LdHeartOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeartPulse;
 impl IconShape for LdHeartPulse {
     fn view_box(&self) -> &str {
@@ -26867,7 +28149,7 @@ impl IconShape for LdHeartPulse {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeart;
 impl IconShape for LdHeart {
     fn view_box(&self) -> &str {
@@ -26894,7 +28176,7 @@ impl IconShape for LdHeart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHeater;
 impl IconShape for LdHeater {
     fn view_box(&self) -> &str {
@@ -26948,7 +28230,7 @@ impl IconShape for LdHeater {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHexagon;
 impl IconShape for LdHexagon {
     fn view_box(&self) -> &str {
@@ -26975,7 +28257,7 @@ impl IconShape for LdHexagon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHighlighter;
 impl IconShape for LdHighlighter {
     fn view_box(&self) -> &str {
@@ -27005,7 +28287,7 @@ impl IconShape for LdHighlighter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHistory;
 impl IconShape for LdHistory {
     fn view_box(&self) -> &str {
@@ -27038,37 +28320,7 @@ impl IconShape for LdHistory {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdHome;
-impl IconShape for LdHome {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",
-            }
-            polyline {
-                points: "9 22 9 12 15 12 15 22",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHopOff;
 impl IconShape for LdHopOff {
     fn view_box(&self) -> &str {
@@ -27119,7 +28371,7 @@ impl IconShape for LdHopOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHop;
 impl IconShape for LdHop {
     fn view_box(&self) -> &str {
@@ -27167,7 +28419,7 @@ impl IconShape for LdHop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHospital;
 impl IconShape for LdHospital {
     fn view_box(&self) -> &str {
@@ -27209,7 +28461,7 @@ impl IconShape for LdHospital {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHotel;
 impl IconShape for LdHotel {
     fn view_box(&self) -> &str {
@@ -27267,7 +28519,7 @@ impl IconShape for LdHotel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdHourglass;
 impl IconShape for LdHourglass {
     fn view_box(&self) -> &str {
@@ -27303,7 +28555,109 @@ impl IconShape for LdHourglass {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdHousePlug;
+impl IconShape for LdHousePlug {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M10 12V8.964",
+            }
+            path {
+                d: "M14 12V8.964",
+            }
+            path {
+                d: "M15 12a1 1 0 0 1 1 1v2a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2a1 1 0 0 1 1-1z",
+            }
+            path {
+                d: "M8.5 21H5a2 2 0 0 1-2-2v-9a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2h-5a2 2 0 0 1-2-2v-2",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdHousePlus;
+impl IconShape for LdHousePlus {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M13.22 2.416a2 2 0 0 0-2.511.057l-7 5.999A2 2 0 0 0 3 10v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7.354",
+            }
+            path {
+                d: "M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8",
+            }
+            path {
+                d: "M15 6h6",
+            }
+            path {
+                d: "M18 3v6",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdHouse;
+impl IconShape for LdHouse {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8",
+            }
+            path {
+                d: "M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdIceCreamBowl;
 impl IconShape for LdIceCreamBowl {
     fn view_box(&self) -> &str {
@@ -27336,7 +28690,7 @@ impl IconShape for LdIceCreamBowl {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdIceCreamCone;
 impl IconShape for LdIceCreamCone {
     fn view_box(&self) -> &str {
@@ -27369,7 +28723,52 @@ impl IconShape for LdIceCreamCone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdIdCard;
+impl IconShape for LdIdCard {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M16 10h2",
+            }
+            path {
+                d: "M16 14h2",
+            }
+            path {
+                d: "M6.17 15a3 3 0 0 1 5.66 0",
+            }
+            circle {
+                cx: "9",
+                cy: "11",
+                r: "2",
+            }
+            rect {
+                height: "14",
+                rx: "2",
+                width: "20",
+                x: "2",
+                y: "5",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdImageDown;
 impl IconShape for LdImageDown {
     fn view_box(&self) -> &str {
@@ -27407,7 +28806,7 @@ impl IconShape for LdImageDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdImageMinus;
 impl IconShape for LdImageMinus {
     fn view_box(&self) -> &str {
@@ -27448,7 +28847,7 @@ impl IconShape for LdImageMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdImageOff;
 impl IconShape for LdImageOff {
     fn view_box(&self) -> &str {
@@ -27499,7 +28898,7 @@ impl IconShape for LdImageOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdImagePlay;
 impl IconShape for LdImagePlay {
     fn view_box(&self) -> &str {
@@ -27537,7 +28936,7 @@ impl IconShape for LdImagePlay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdImagePlus;
 impl IconShape for LdImagePlus {
     fn view_box(&self) -> &str {
@@ -27558,33 +28957,27 @@ impl IconShape for LdImagePlus {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7",
+                d: "M16 5h6",
             }
-            line {
-                x1: "16",
-                x2: "22",
-                y1: "5",
-                y2: "5",
+            path {
+                d: "M19 2v6",
             }
-            line {
-                x1: "19",
-                x2: "19",
-                y1: "2",
-                y2: "8",
+            path {
+                d: "M21 11.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7.5",
+            }
+            path {
+                d: "m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21",
             }
             circle {
                 cx: "9",
                 cy: "9",
                 r: "2",
             }
-            path {
-                d: "m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdImageUp;
 impl IconShape for LdImageUp {
     fn view_box(&self) -> &str {
@@ -27622,7 +29015,7 @@ impl IconShape for LdImageUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdImage;
 impl IconShape for LdImage {
     fn view_box(&self) -> &str {
@@ -27662,7 +29055,7 @@ impl IconShape for LdImage {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdImages;
 impl IconShape for LdImages {
     fn view_box(&self) -> &str {
@@ -27704,7 +29097,7 @@ impl IconShape for LdImages {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdImport;
 impl IconShape for LdImport {
     fn view_box(&self) -> &str {
@@ -27737,7 +29130,7 @@ impl IconShape for LdImport {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdInbox;
 impl IconShape for LdInbox {
     fn view_box(&self) -> &str {
@@ -27767,7 +29160,7 @@ impl IconShape for LdInbox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdIndentDecrease;
 impl IconShape for LdIndentDecrease {
     fn view_box(&self) -> &str {
@@ -27787,32 +29180,23 @@ impl IconShape for LdIndentDecrease {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polyline {
-                points: "7 8 3 12 7 16",
+            path {
+                d: "M21 12H11",
             }
-            line {
-                x1: "21",
-                x2: "11",
-                y1: "12",
-                y2: "12",
+            path {
+                d: "M21 18H11",
             }
-            line {
-                x1: "21",
-                x2: "11",
-                y1: "6",
-                y2: "6",
+            path {
+                d: "M21 6H11",
             }
-            line {
-                x1: "21",
-                x2: "11",
-                y1: "18",
-                y2: "18",
+            path {
+                d: "m7 8-4 4 4 4",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdIndentIncrease;
 impl IconShape for LdIndentIncrease {
     fn view_box(&self) -> &str {
@@ -27832,32 +29216,23 @@ impl IconShape for LdIndentIncrease {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polyline {
-                points: "3 8 7 12 3 16",
+            path {
+                d: "M21 12H11",
             }
-            line {
-                x1: "21",
-                x2: "11",
-                y1: "12",
-                y2: "12",
+            path {
+                d: "M21 18H11",
             }
-            line {
-                x1: "21",
-                x2: "11",
-                y1: "6",
-                y2: "6",
+            path {
+                d: "M21 6H11",
             }
-            line {
-                x1: "21",
-                x2: "11",
-                y1: "18",
-                y2: "18",
+            path {
+                d: "m3 8 4 4-4 4",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdIndianRupee;
 impl IconShape for LdIndianRupee {
     fn view_box(&self) -> &str {
@@ -27896,7 +29271,7 @@ impl IconShape for LdIndianRupee {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdInfinity;
 impl IconShape for LdInfinity {
     fn view_box(&self) -> &str {
@@ -27923,7 +29298,7 @@ impl IconShape for LdInfinity {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdInfo;
 impl IconShape for LdInfo {
     fn view_box(&self) -> &str {
@@ -27958,7 +29333,7 @@ impl IconShape for LdInfo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdInspectionPanel;
 impl IconShape for LdInspectionPanel {
     fn view_box(&self) -> &str {
@@ -28001,7 +29376,7 @@ impl IconShape for LdInspectionPanel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdInstagram;
 impl IconShape for LdInstagram {
     fn view_box(&self) -> &str {
@@ -28042,7 +29417,7 @@ impl IconShape for LdInstagram {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdItalic;
 impl IconShape for LdItalic {
     fn view_box(&self) -> &str {
@@ -28084,7 +29459,7 @@ impl IconShape for LdItalic {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdIterationCcw;
 impl IconShape for LdIterationCcw {
     fn view_box(&self) -> &str {
@@ -28114,7 +29489,7 @@ impl IconShape for LdIterationCcw {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdIterationCw;
 impl IconShape for LdIterationCw {
     fn view_box(&self) -> &str {
@@ -28144,7 +29519,7 @@ impl IconShape for LdIterationCw {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdJapaneseYen;
 impl IconShape for LdJapaneseYen {
     fn view_box(&self) -> &str {
@@ -28177,7 +29552,7 @@ impl IconShape for LdJapaneseYen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdJoystick;
 impl IconShape for LdJoystick {
     fn view_box(&self) -> &str {
@@ -28215,7 +29590,7 @@ impl IconShape for LdJoystick {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdKanban;
 impl IconShape for LdKanban {
     fn view_box(&self) -> &str {
@@ -28248,7 +29623,7 @@ impl IconShape for LdKanban {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdKeyRound;
 impl IconShape for LdKeyRound {
     fn view_box(&self) -> &str {
@@ -28269,7 +29644,7 @@ impl IconShape for LdKeyRound {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M2 18v3c0 .6.4 1 1 1h4v-3h3v-3h2l1.4-1.4a6.5 6.5 0 1 0-4-4Z",
+                d: "M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z",
             }
             circle {
                 cx: "16.5",
@@ -28280,7 +29655,7 @@ impl IconShape for LdKeyRound {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdKeySquare;
 impl IconShape for LdKeySquare {
     fn view_box(&self) -> &str {
@@ -28301,19 +29676,19 @@ impl IconShape for LdKeySquare {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M12.4 2.7c.9-.9 2.5-.9 3.4 0l5.5 5.5c.9.9.9 2.5 0 3.4l-3.7 3.7c-.9.9-2.5.9-3.4 0L8.7 9.8c-.9-.9-.9-2.5 0-3.4Z",
+                d: "M12.4 2.7a2.5 2.5 0 0 1 3.4 0l5.5 5.5a2.5 2.5 0 0 1 0 3.4l-3.7 3.7a2.5 2.5 0 0 1-3.4 0L8.7 9.8a2.5 2.5 0 0 1 0-3.4z",
             }
             path {
                 d: "m14 7 3 3",
             }
             path {
-                d: "M9.4 10.6 2 18v3c0 .6.4 1 1 1h4v-3h3v-3h2l1.4-1.4",
+                d: "m9.4 10.6-6.814 6.814A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdKey;
 impl IconShape for LdKey {
     fn view_box(&self) -> &str {
@@ -28333,22 +29708,22 @@ impl IconShape for LdKey {
     }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4",
+            }
+            path {
+                d: "m21 2-9.6 9.6",
+            }
             circle {
                 cx: "7.5",
                 cy: "15.5",
                 r: "5.5",
             }
-            path {
-                d: "m21 2-9.6 9.6",
-            }
-            path {
-                d: "m15.5 7.5 3 3L22 7l-3-3",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdKeyboardMusic;
 impl IconShape for LdKeyboardMusic {
     fn view_box(&self) -> &str {
@@ -28403,7 +29778,7 @@ impl IconShape for LdKeyboardMusic {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdKeyboardOff;
 impl IconShape for LdKeyboardOff {
     fn view_box(&self) -> &str {
@@ -28457,7 +29832,7 @@ impl IconShape for LdKeyboardOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdKeyboard;
 impl IconShape for LdKeyboard {
     fn view_box(&self) -> &str {
@@ -28512,7 +29887,7 @@ impl IconShape for LdKeyboard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLampCeiling;
 impl IconShape for LdLampCeiling {
     fn view_box(&self) -> &str {
@@ -28545,7 +29920,7 @@ impl IconShape for LdLampCeiling {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLampDesk;
 impl IconShape for LdLampDesk {
     fn view_box(&self) -> &str {
@@ -28581,7 +29956,7 @@ impl IconShape for LdLampDesk {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLampFloor;
 impl IconShape for LdLampFloor {
     fn view_box(&self) -> &str {
@@ -28614,7 +29989,7 @@ impl IconShape for LdLampFloor {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLampWallDown;
 impl IconShape for LdLampWallDown {
     fn view_box(&self) -> &str {
@@ -28647,7 +30022,7 @@ impl IconShape for LdLampWallDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLampWallUp;
 impl IconShape for LdLampWallUp {
     fn view_box(&self) -> &str {
@@ -28680,7 +30055,7 @@ impl IconShape for LdLampWallUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLamp;
 impl IconShape for LdLamp {
     fn view_box(&self) -> &str {
@@ -28713,7 +30088,7 @@ impl IconShape for LdLamp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLandPlot;
 impl IconShape for LdLandPlot {
     fn view_box(&self) -> &str {
@@ -28749,7 +30124,7 @@ impl IconShape for LdLandPlot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLandmark;
 impl IconShape for LdLandmark {
     fn view_box(&self) -> &str {
@@ -28806,7 +30181,7 @@ impl IconShape for LdLandmark {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLanguages;
 impl IconShape for LdLanguages {
     fn view_box(&self) -> &str {
@@ -28848,7 +30223,7 @@ impl IconShape for LdLanguages {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLaptopMinimal;
 impl IconShape for LdLaptopMinimal {
     fn view_box(&self) -> &str {
@@ -28886,7 +30261,7 @@ impl IconShape for LdLaptopMinimal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLaptop;
 impl IconShape for LdLaptop {
     fn view_box(&self) -> &str {
@@ -28913,7 +30288,7 @@ impl IconShape for LdLaptop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLassoSelect;
 impl IconShape for LdLassoSelect {
     fn view_box(&self) -> &str {
@@ -28946,13 +30321,13 @@ impl IconShape for LdLassoSelect {
                 d: "M5 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4z",
             }
             path {
-                d: "M14.33 22h-.09a.35.35 0 0 1-.24-.32v-10a.34.34 0 0 1 .33-.34c.08 0 .15.03.21.08l7.34 6a.33.33 0 0 1-.21.59h-4.49l-2.57 3.85a.35.35 0 0 1-.28.14v0z",
+                d: "M14.33 22h-.09a.35.35 0 0 1-.24-.32v-10a.34.34 0 0 1 .33-.34c.08 0 .15.03.21.08l7.34 6a.33.33 0 0 1-.21.59h-4.49l-2.57 3.85a.35.35 0 0 1-.28.14z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLasso;
 impl IconShape for LdLasso {
     fn view_box(&self) -> &str {
@@ -28985,7 +30360,7 @@ impl IconShape for LdLasso {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLaugh;
 impl IconShape for LdLaugh {
     fn view_box(&self) -> &str {
@@ -29029,7 +30404,7 @@ impl IconShape for LdLaugh {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLayers2;
 impl IconShape for LdLayers2 {
     fn view_box(&self) -> &str {
@@ -29059,7 +30434,7 @@ impl IconShape for LdLayers2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLayers3;
 impl IconShape for LdLayers3 {
     fn view_box(&self) -> &str {
@@ -29092,7 +30467,7 @@ impl IconShape for LdLayers3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLayers;
 impl IconShape for LdLayers {
     fn view_box(&self) -> &str {
@@ -29125,7 +30500,7 @@ impl IconShape for LdLayers {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLayoutDashboard;
 impl IconShape for LdLayoutDashboard {
     fn view_box(&self) -> &str {
@@ -29177,7 +30552,7 @@ impl IconShape for LdLayoutDashboard {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLayoutGrid;
 impl IconShape for LdLayoutGrid {
     fn view_box(&self) -> &str {
@@ -29229,7 +30604,7 @@ impl IconShape for LdLayoutGrid {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLayoutList;
 impl IconShape for LdLayoutList {
     fn view_box(&self) -> &str {
@@ -29279,7 +30654,7 @@ impl IconShape for LdLayoutList {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLayoutPanelLeft;
 impl IconShape for LdLayoutPanelLeft {
     fn view_box(&self) -> &str {
@@ -29324,7 +30699,7 @@ impl IconShape for LdLayoutPanelLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLayoutPanelTop;
 impl IconShape for LdLayoutPanelTop {
     fn view_box(&self) -> &str {
@@ -29369,7 +30744,7 @@ impl IconShape for LdLayoutPanelTop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLayoutTemplate;
 impl IconShape for LdLayoutTemplate {
     fn view_box(&self) -> &str {
@@ -29414,7 +30789,7 @@ impl IconShape for LdLayoutTemplate {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLeaf;
 impl IconShape for LdLeaf {
     fn view_box(&self) -> &str {
@@ -29444,7 +30819,7 @@ impl IconShape for LdLeaf {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLeafyGreen;
 impl IconShape for LdLeafyGreen {
     fn view_box(&self) -> &str {
@@ -29474,7 +30849,83 @@ impl IconShape for LdLeafyGreen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdLectern;
+impl IconShape for LdLectern {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M16 12h3a2 2 0 0 0 1.902-1.38l1.056-3.333A1 1 0 0 0 21 6H3a1 1 0 0 0-.958 1.287l1.056 3.334A2 2 0 0 0 5 12h3",
+            }
+            path {
+                d: "M18 6V3a1 1 0 0 0-1-1h-3",
+            }
+            rect {
+                height: "12",
+                rx: "1",
+                width: "8",
+                x: "8",
+                y: "10",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdLetterText;
+impl IconShape for LdLetterText {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M15 12h6",
+            }
+            path {
+                d: "M15 6h6",
+            }
+            path {
+                d: "m3 13 3.553-7.724a.5.5 0 0 1 .894 0L11 13",
+            }
+            path {
+                d: "M3 18h18",
+            }
+            path {
+                d: "M4 11h6",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLibraryBig;
 impl IconShape for LdLibraryBig {
     fn view_box(&self) -> &str {
@@ -29511,7 +30962,7 @@ impl IconShape for LdLibraryBig {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLibrary;
 impl IconShape for LdLibrary {
     fn view_box(&self) -> &str {
@@ -29547,7 +30998,7 @@ impl IconShape for LdLibrary {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLifeBuoy;
 impl IconShape for LdLifeBuoy {
     fn view_box(&self) -> &str {
@@ -29593,7 +31044,7 @@ impl IconShape for LdLifeBuoy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLigature;
 impl IconShape for LdLigature {
     fn view_box(&self) -> &str {
@@ -29632,7 +31083,7 @@ impl IconShape for LdLigature {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLightbulbOff;
 impl IconShape for LdLightbulbOff {
     fn view_box(&self) -> &str {
@@ -29671,7 +31122,7 @@ impl IconShape for LdLightbulbOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLightbulb;
 impl IconShape for LdLightbulb {
     fn view_box(&self) -> &str {
@@ -29704,37 +31155,7 @@ impl IconShape for LdLightbulb {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdLineChart;
-impl IconShape for LdLineChart {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M3 3v18h18",
-            }
-            path {
-                d: "m19 9-5 5-4-4-3 3",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLink2Off;
 impl IconShape for LdLink2Off {
     fn view_box(&self) -> &str {
@@ -29776,7 +31197,7 @@ impl IconShape for LdLink2Off {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLink2;
 impl IconShape for LdLink2 {
     fn view_box(&self) -> &str {
@@ -29812,7 +31233,7 @@ impl IconShape for LdLink2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLink;
 impl IconShape for LdLink {
     fn view_box(&self) -> &str {
@@ -29842,7 +31263,7 @@ impl IconShape for LdLink {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLinkedin;
 impl IconShape for LdLinkedin {
     fn view_box(&self) -> &str {
@@ -29880,7 +31301,43 @@ impl IconShape for LdLinkedin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdListCheck;
+impl IconShape for LdListCheck {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M11 18H3",
+            }
+            path {
+                d: "m15 18 2 2 4-4",
+            }
+            path {
+                d: "M16 12H3",
+            }
+            path {
+                d: "M16 6H3",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListChecks;
 impl IconShape for LdListChecks {
     fn view_box(&self) -> &str {
@@ -29919,7 +31376,7 @@ impl IconShape for LdListChecks {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListCollapse;
 impl IconShape for LdListCollapse {
     fn view_box(&self) -> &str {
@@ -29958,7 +31415,7 @@ impl IconShape for LdListCollapse {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListEnd;
 impl IconShape for LdListEnd {
     fn view_box(&self) -> &str {
@@ -29997,7 +31454,7 @@ impl IconShape for LdListEnd {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListFilter;
 impl IconShape for LdListFilter {
     fn view_box(&self) -> &str {
@@ -30030,7 +31487,7 @@ impl IconShape for LdListFilter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListMinus;
 impl IconShape for LdListMinus {
     fn view_box(&self) -> &str {
@@ -30066,7 +31523,7 @@ impl IconShape for LdListMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListMusic;
 impl IconShape for LdListMusic {
     fn view_box(&self) -> &str {
@@ -30105,7 +31562,7 @@ impl IconShape for LdListMusic {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListOrdered;
 impl IconShape for LdListOrdered {
     fn view_box(&self) -> &str {
@@ -30125,29 +31582,20 @@ impl IconShape for LdListOrdered {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            line {
-                x1: "10",
-                x2: "21",
-                y1: "6",
-                y2: "6",
-            }
-            line {
-                x1: "10",
-                x2: "21",
-                y1: "12",
-                y2: "12",
-            }
-            line {
-                x1: "10",
-                x2: "21",
-                y1: "18",
-                y2: "18",
+            path {
+                d: "M10 12h11",
             }
             path {
-                d: "M4 6h1v4",
+                d: "M10 18h11",
+            }
+            path {
+                d: "M10 6h11",
             }
             path {
                 d: "M4 10h2",
+            }
+            path {
+                d: "M4 6h1v4",
             }
             path {
                 d: "M6 18H4c0-1 2-2 2-3s-1-1.5-2-1",
@@ -30156,7 +31604,7 @@ impl IconShape for LdListOrdered {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListPlus;
 impl IconShape for LdListPlus {
     fn view_box(&self) -> &str {
@@ -30195,7 +31643,7 @@ impl IconShape for LdListPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListRestart;
 impl IconShape for LdListRestart {
     fn view_box(&self) -> &str {
@@ -30234,7 +31682,7 @@ impl IconShape for LdListRestart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListStart;
 impl IconShape for LdListStart {
     fn view_box(&self) -> &str {
@@ -30273,7 +31721,7 @@ impl IconShape for LdListStart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListTodo;
 impl IconShape for LdListTodo {
     fn view_box(&self) -> &str {
@@ -30316,7 +31764,7 @@ impl IconShape for LdListTodo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListTree;
 impl IconShape for LdListTree {
     fn view_box(&self) -> &str {
@@ -30355,7 +31803,7 @@ impl IconShape for LdListTree {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListVideo;
 impl IconShape for LdListVideo {
     fn view_box(&self) -> &str {
@@ -30391,7 +31839,7 @@ impl IconShape for LdListVideo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdListX;
 impl IconShape for LdListX {
     fn view_box(&self) -> &str {
@@ -30430,7 +31878,7 @@ impl IconShape for LdListX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdList;
 impl IconShape for LdList {
     fn view_box(&self) -> &str {
@@ -30450,47 +31898,29 @@ impl IconShape for LdList {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            line {
-                x1: "8",
-                x2: "21",
-                y1: "6",
-                y2: "6",
+            path {
+                d: "M3 12h.01",
             }
-            line {
-                x1: "8",
-                x2: "21",
-                y1: "12",
-                y2: "12",
+            path {
+                d: "M3 18h.01",
             }
-            line {
-                x1: "8",
-                x2: "21",
-                y1: "18",
-                y2: "18",
+            path {
+                d: "M3 6h.01",
             }
-            line {
-                x1: "3",
-                x2: "3.01",
-                y1: "6",
-                y2: "6",
+            path {
+                d: "M8 12h13",
             }
-            line {
-                x1: "3",
-                x2: "3.01",
-                y1: "12",
-                y2: "12",
+            path {
+                d: "M8 18h13",
             }
-            line {
-                x1: "3",
-                x2: "3.01",
-                y1: "18",
-                y2: "18",
+            path {
+                d: "M8 6h13",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLoaderCircle;
 impl IconShape for LdLoaderCircle {
     fn view_box(&self) -> &str {
@@ -30517,7 +31947,45 @@ impl IconShape for LdLoaderCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdLoaderPinwheel;
+impl IconShape for LdLoaderPinwheel {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M22 12a1 1 0 0 1-10 0 1 1 0 0 0-10 0",
+            }
+            path {
+                d: "M7 20.7a1 1 0 1 1 5-8.7 1 1 0 1 0 5-8.6",
+            }
+            path {
+                d: "M7 3.3a1 1 0 1 1 5 8.6 1 1 0 1 0 5 8.6",
+            }
+            circle {
+                cx: "12",
+                cy: "12",
+                r: "10",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLoader;
 impl IconShape for LdLoader {
     fn view_box(&self) -> &str {
@@ -30537,59 +32005,35 @@ impl IconShape for LdLoader {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            line {
-                x1: "12",
-                x2: "12",
-                y1: "2",
-                y2: "6",
+            path {
+                d: "M12 2v4",
             }
-            line {
-                x1: "12",
-                x2: "12",
-                y1: "18",
-                y2: "22",
+            path {
+                d: "m16.2 7.8 2.9-2.9",
             }
-            line {
-                x1: "4.93",
-                x2: "7.76",
-                y1: "4.93",
-                y2: "7.76",
+            path {
+                d: "M18 12h4",
             }
-            line {
-                x1: "16.24",
-                x2: "19.07",
-                y1: "16.24",
-                y2: "19.07",
+            path {
+                d: "m16.2 16.2 2.9 2.9",
             }
-            line {
-                x1: "2",
-                x2: "6",
-                y1: "12",
-                y2: "12",
+            path {
+                d: "M12 18v4",
             }
-            line {
-                x1: "18",
-                x2: "22",
-                y1: "12",
-                y2: "12",
+            path {
+                d: "m4.9 19.1 2.9-2.9",
             }
-            line {
-                x1: "4.93",
-                x2: "7.76",
-                y1: "19.07",
-                y2: "16.24",
+            path {
+                d: "M2 12h4",
             }
-            line {
-                x1: "16.24",
-                x2: "19.07",
-                y1: "7.76",
-                y2: "4.93",
+            path {
+                d: "m4.9 4.9 2.9 2.9",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLocateFixed;
 impl IconShape for LdLocateFixed {
     fn view_box(&self) -> &str {
@@ -30647,7 +32091,7 @@ impl IconShape for LdLocateFixed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLocateOff;
 impl IconShape for LdLocateOff {
     fn view_box(&self) -> &str {
@@ -30707,7 +32151,7 @@ impl IconShape for LdLocateOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLocate;
 impl IconShape for LdLocate {
     fn view_box(&self) -> &str {
@@ -30760,7 +32204,7 @@ impl IconShape for LdLocate {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLockKeyholeOpen;
 impl IconShape for LdLockKeyholeOpen {
     fn view_box(&self) -> &str {
@@ -30799,7 +32243,7 @@ impl IconShape for LdLockKeyholeOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLockKeyhole;
 impl IconShape for LdLockKeyhole {
     fn view_box(&self) -> &str {
@@ -30838,7 +32282,7 @@ impl IconShape for LdLockKeyhole {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLockOpen;
 impl IconShape for LdLockOpen {
     fn view_box(&self) -> &str {
@@ -30873,7 +32317,7 @@ impl IconShape for LdLockOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLock;
 impl IconShape for LdLock {
     fn view_box(&self) -> &str {
@@ -30908,7 +32352,7 @@ impl IconShape for LdLock {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLogIn;
 impl IconShape for LdLogIn {
     fn view_box(&self) -> &str {
@@ -30944,7 +32388,7 @@ impl IconShape for LdLogIn {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLogOut;
 impl IconShape for LdLogOut {
     fn view_box(&self) -> &str {
@@ -30980,7 +32424,58 @@ impl IconShape for LdLogOut {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdLogs;
+impl IconShape for LdLogs {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M13 12h8",
+            }
+            path {
+                d: "M13 18h8",
+            }
+            path {
+                d: "M13 6h8",
+            }
+            path {
+                d: "M3 12h1",
+            }
+            path {
+                d: "M3 18h1",
+            }
+            path {
+                d: "M3 6h1",
+            }
+            path {
+                d: "M8 12h1",
+            }
+            path {
+                d: "M8 18h1",
+            }
+            path {
+                d: "M8 6h1",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLollipop;
 impl IconShape for LdLollipop {
     fn view_box(&self) -> &str {
@@ -31015,7 +32510,7 @@ impl IconShape for LdLollipop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdLuggage;
 impl IconShape for LdLuggage {
     fn view_box(&self) -> &str {
@@ -31036,7 +32531,7 @@ impl IconShape for LdLuggage {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M6 20h0a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h0",
+                d: "M6 20a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2",
             }
             path {
                 d: "M8 18V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v14",
@@ -31058,7 +32553,7 @@ impl IconShape for LdLuggage {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMagnet;
 impl IconShape for LdMagnet {
     fn view_box(&self) -> &str {
@@ -31091,7 +32586,7 @@ impl IconShape for LdMagnet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMailCheck;
 impl IconShape for LdMailCheck {
     fn view_box(&self) -> &str {
@@ -31124,7 +32619,7 @@ impl IconShape for LdMailCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMailMinus;
 impl IconShape for LdMailMinus {
     fn view_box(&self) -> &str {
@@ -31157,7 +32652,7 @@ impl IconShape for LdMailMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMailOpen;
 impl IconShape for LdMailOpen {
     fn view_box(&self) -> &str {
@@ -31187,7 +32682,7 @@ impl IconShape for LdMailOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMailPlus;
 impl IconShape for LdMailPlus {
     fn view_box(&self) -> &str {
@@ -31223,7 +32718,7 @@ impl IconShape for LdMailPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMailQuestion;
 impl IconShape for LdMailQuestion {
     fn view_box(&self) -> &str {
@@ -31259,7 +32754,7 @@ impl IconShape for LdMailQuestion {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMailSearch;
 impl IconShape for LdMailSearch {
     fn view_box(&self) -> &str {
@@ -31286,7 +32781,7 @@ impl IconShape for LdMailSearch {
                 d: "m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7",
             }
             path {
-                d: "M18 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6v0Z",
+                d: "M18 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z",
             }
             circle {
                 cx: "18",
@@ -31300,7 +32795,7 @@ impl IconShape for LdMailSearch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMailWarning;
 impl IconShape for LdMailWarning {
     fn view_box(&self) -> &str {
@@ -31336,7 +32831,7 @@ impl IconShape for LdMailWarning {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMailX;
 impl IconShape for LdMailX {
     fn view_box(&self) -> &str {
@@ -31372,7 +32867,7 @@ impl IconShape for LdMailX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMail;
 impl IconShape for LdMail {
     fn view_box(&self) -> &str {
@@ -31406,7 +32901,7 @@ impl IconShape for LdMail {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMailbox;
 impl IconShape for LdMailbox {
     fn view_box(&self) -> &str {
@@ -31433,7 +32928,7 @@ impl IconShape for LdMailbox {
                 points: "15,9 18,9 18,11",
             }
             path {
-                d: "M6.5 5C9 5 11 7 11 9.5V17a2 2 0 0 1-2 2v0",
+                d: "M6.5 5C9 5 11 7 11 9.5V17a2 2 0 0 1-2 2",
             }
             line {
                 x1: "6",
@@ -31445,7 +32940,7 @@ impl IconShape for LdMailbox {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMails;
 impl IconShape for LdMails {
     fn view_box(&self) -> &str {
@@ -31482,7 +32977,175 @@ impl IconShape for LdMails {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdMapPinCheckInside;
+impl IconShape for LdMapPinCheckInside {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
+            }
+            path {
+                d: "m9 10 2 2 4-4",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdMapPinCheck;
+impl IconShape for LdMapPinCheck {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728",
+            }
+            circle {
+                cx: "12",
+                cy: "10",
+                r: "3",
+            }
+            path {
+                d: "m16 18 2 2 4-4",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdMapPinHouse;
+impl IconShape for LdMapPinHouse {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M15 22a1 1 0 0 1-1-1v-4a1 1 0 0 1 .445-.832l3-2a1 1 0 0 1 1.11 0l3 2A1 1 0 0 1 22 17v4a1 1 0 0 1-1 1z",
+            }
+            path {
+                d: "M18 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 .601.2",
+            }
+            path {
+                d: "M18 22v-3",
+            }
+            circle {
+                cx: "10",
+                cy: "10",
+                r: "3",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdMapPinMinusInside;
+impl IconShape for LdMapPinMinusInside {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
+            }
+            path {
+                d: "M9 10h6",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdMapPinMinus;
+impl IconShape for LdMapPinMinus {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M18.977 14C19.6 12.701 20 11.343 20 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32 32 0 0 0 .824-.738",
+            }
+            circle {
+                cx: "12",
+                cy: "10",
+                r: "3",
+            }
+            path {
+                d: "M16 18h6",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMapPinOff;
 impl IconShape for LdMapPinOff {
     fn view_box(&self) -> &str {
@@ -31503,28 +33166,167 @@ impl IconShape for LdMapPinOff {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M5.43 5.43A8.06 8.06 0 0 0 4 10c0 6 8 12 8 12a29.94 29.94 0 0 0 5-5",
+                d: "M12.75 7.09a3 3 0 0 1 2.16 2.16",
             }
             path {
-                d: "M19.18 13.52A8.66 8.66 0 0 0 20 10a8 8 0 0 0-8-8 7.88 7.88 0 0 0-3.52.82",
+                d: "M17.072 17.072c-1.634 2.17-3.527 3.912-4.471 4.727a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 1.432-4.568",
             }
             path {
-                d: "M9.13 9.13A2.78 2.78 0 0 0 9 10a3 3 0 0 0 3 3 2.78 2.78 0 0 0 .87-.13",
+                d: "m2 2 20 20",
             }
             path {
-                d: "M14.9 9.25a3 3 0 0 0-2.15-2.16",
+                d: "M8.475 2.818A8 8 0 0 1 20 10c0 1.183-.31 2.377-.81 3.533",
             }
-            line {
-                x1: "2",
-                x2: "22",
-                y1: "2",
-                y2: "22",
+            path {
+                d: "M9.13 9.13a3 3 0 0 0 3.74 3.74",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdMapPinPlusInside;
+impl IconShape for LdMapPinPlusInside {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
+            }
+            path {
+                d: "M12 7v6",
+            }
+            path {
+                d: "M9 10h6",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdMapPinPlus;
+impl IconShape for LdMapPinPlus {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M19.914 11.105A7.298 7.298 0 0 0 20 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32 32 0 0 0 .824-.738",
+            }
+            circle {
+                cx: "12",
+                cy: "10",
+                r: "3",
+            }
+            path {
+                d: "M16 18h6",
+            }
+            path {
+                d: "M19 15v6",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdMapPinXInside;
+impl IconShape for LdMapPinXInside {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
+            }
+            path {
+                d: "m14.5 7.5-5 5",
+            }
+            path {
+                d: "m9.5 7.5 5 5",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdMapPinX;
+impl IconShape for LdMapPinX {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M19.752 11.901A7.78 7.78 0 0 0 20 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 19 19 0 0 0 .09-.077",
+            }
+            circle {
+                cx: "12",
+                cy: "10",
+                r: "3",
+            }
+            path {
+                d: "m21.5 15.5-5 5",
+            }
+            path {
+                d: "m21.5 20.5-5-5",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMapPin;
 impl IconShape for LdMapPin {
     fn view_box(&self) -> &str {
@@ -31545,7 +33347,7 @@ impl IconShape for LdMapPin {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z",
+                d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
             }
             circle {
                 cx: "12",
@@ -31556,7 +33358,7 @@ impl IconShape for LdMapPin {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMapPinned;
 impl IconShape for LdMapPinned {
     fn view_box(&self) -> &str {
@@ -31577,7 +33379,7 @@ impl IconShape for LdMapPinned {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M18 8c0 4.5-6 9-6 9s-6-4.5-6-9a6 6 0 0 1 12 0",
+                d: "M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 0 1-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0 1 12 0",
             }
             circle {
                 cx: "12",
@@ -31585,13 +33387,13 @@ impl IconShape for LdMapPinned {
                 r: "2",
             }
             path {
-                d: "M8.835 14H5a1 1 0 0 0-.9.7l-2 6c-.1.1-.1.2-.1.3 0 .6.4 1 1 1h18c.6 0 1-.4 1-1 0-.1 0-.2-.1-.3l-2-6a1 1 0 0 0-.9-.7h-3.835",
+                d: "M8.714 14h-3.71a1 1 0 0 0-.948.683l-2.004 6A1 1 0 0 0 3 22h18a1 1 0 0 0 .948-1.316l-2-6a1 1 0 0 0-.949-.684h-3.712",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMap;
 impl IconShape for LdMap {
     fn view_box(&self) -> &str {
@@ -31624,7 +33426,7 @@ impl IconShape for LdMap {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMartini;
 impl IconShape for LdMartini {
     fn view_box(&self) -> &str {
@@ -31657,7 +33459,7 @@ impl IconShape for LdMartini {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMaximize2;
 impl IconShape for LdMaximize2 {
     fn view_box(&self) -> &str {
@@ -31699,7 +33501,7 @@ impl IconShape for LdMaximize2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMaximize;
 impl IconShape for LdMaximize {
     fn view_box(&self) -> &str {
@@ -31735,7 +33537,7 @@ impl IconShape for LdMaximize {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMedal;
 impl IconShape for LdMedal {
     fn view_box(&self) -> &str {
@@ -31779,7 +33581,7 @@ impl IconShape for LdMedal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMegaphoneOff;
 impl IconShape for LdMegaphoneOff {
     fn view_box(&self) -> &str {
@@ -31818,7 +33620,7 @@ impl IconShape for LdMegaphoneOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMegaphone;
 impl IconShape for LdMegaphone {
     fn view_box(&self) -> &str {
@@ -31848,7 +33650,7 @@ impl IconShape for LdMegaphone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMeh;
 impl IconShape for LdMeh {
     fn view_box(&self) -> &str {
@@ -31895,7 +33697,7 @@ impl IconShape for LdMeh {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMemoryStick;
 impl IconShape for LdMemoryStick {
     fn view_box(&self) -> &str {
@@ -31946,7 +33748,7 @@ impl IconShape for LdMemoryStick {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMenu;
 impl IconShape for LdMenu {
     fn view_box(&self) -> &str {
@@ -31988,7 +33790,7 @@ impl IconShape for LdMenu {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMerge;
 impl IconShape for LdMerge {
     fn view_box(&self) -> &str {
@@ -32021,7 +33823,7 @@ impl IconShape for LdMerge {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageCircleCode;
 impl IconShape for LdMessageCircleCode {
     fn view_box(&self) -> &str {
@@ -32042,19 +33844,19 @@ impl IconShape for LdMessageCircleCode {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M7.9 20A9 9 0 1 0 4 16.1L2 22Z",
+                d: "M10 9.5 8 12l2 2.5",
             }
             path {
-                d: "m10 10-2 2 2 2",
+                d: "m14 9.5 2 2.5-2 2.5",
             }
             path {
-                d: "m14 10 2 2-2 2",
+                d: "M7.9 20A9 9 0 1 0 4 16.1L2 22z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageCircleDashed;
 impl IconShape for LdMessageCircleDashed {
     fn view_box(&self) -> &str {
@@ -32102,7 +33904,7 @@ impl IconShape for LdMessageCircleDashed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageCircleHeart;
 impl IconShape for LdMessageCircleHeart {
     fn view_box(&self) -> &str {
@@ -32132,7 +33934,7 @@ impl IconShape for LdMessageCircleHeart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageCircleMore;
 impl IconShape for LdMessageCircleMore {
     fn view_box(&self) -> &str {
@@ -32168,7 +33970,7 @@ impl IconShape for LdMessageCircleMore {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageCircleOff;
 impl IconShape for LdMessageCircleOff {
     fn view_box(&self) -> &str {
@@ -32201,7 +34003,7 @@ impl IconShape for LdMessageCircleOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageCirclePlus;
 impl IconShape for LdMessageCirclePlus {
     fn view_box(&self) -> &str {
@@ -32234,7 +34036,7 @@ impl IconShape for LdMessageCirclePlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageCircleQuestion;
 impl IconShape for LdMessageCircleQuestion {
     fn view_box(&self) -> &str {
@@ -32267,7 +34069,7 @@ impl IconShape for LdMessageCircleQuestion {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageCircleReply;
 impl IconShape for LdMessageCircleReply {
     fn view_box(&self) -> &str {
@@ -32300,7 +34102,7 @@ impl IconShape for LdMessageCircleReply {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageCircleWarning;
 impl IconShape for LdMessageCircleWarning {
     fn view_box(&self) -> &str {
@@ -32333,7 +34135,7 @@ impl IconShape for LdMessageCircleWarning {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageCircleX;
 impl IconShape for LdMessageCircleX {
     fn view_box(&self) -> &str {
@@ -32366,7 +34168,7 @@ impl IconShape for LdMessageCircleX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageCircle;
 impl IconShape for LdMessageCircle {
     fn view_box(&self) -> &str {
@@ -32393,7 +34195,7 @@ impl IconShape for LdMessageCircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquareCode;
 impl IconShape for LdMessageSquareCode {
     fn view_box(&self) -> &str {
@@ -32414,19 +34216,19 @@ impl IconShape for LdMessageSquareCode {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
+                d: "M10 7.5 8 10l2 2.5",
+            }
+            path {
+                d: "m14 7.5 2 2.5-2 2.5",
+            }
+            path {
                 d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z",
-            }
-            path {
-                d: "m10 8-2 2 2 2",
-            }
-            path {
-                d: "m14 8 2 2-2 2",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquareDashed;
 impl IconShape for LdMessageSquareDashed {
     fn view_box(&self) -> &str {
@@ -32447,34 +34249,37 @@ impl IconShape for LdMessageSquareDashed {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M3 6V5c0-1.1.9-2 2-2h2",
+                d: "M10 17H7l-4 4v-7",
             }
             path {
-                d: "M11 3h3",
+                d: "M14 17h1",
             }
             path {
-                d: "M18 3h1c1.1 0 2 .9 2 2",
+                d: "M14 3h1",
             }
             path {
-                d: "M21 9v2",
+                d: "M19 3a2 2 0 0 1 2 2",
             }
             path {
-                d: "M21 15c0 1.1-.9 2-2 2h-1",
+                d: "M21 14v1a2 2 0 0 1-2 2",
             }
             path {
-                d: "M14 17h-3",
+                d: "M21 9v1",
             }
             path {
-                d: "m7 17-4 4v-5",
+                d: "M3 9v1",
             }
             path {
-                d: "M3 12v-2",
+                d: "M5 3a2 2 0 0 0-2 2",
+            }
+            path {
+                d: "M9 3h1",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquareDiff;
 impl IconShape for LdMessageSquareDiff {
     fn view_box(&self) -> &str {
@@ -32510,7 +34315,7 @@ impl IconShape for LdMessageSquareDiff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquareDot;
 impl IconShape for LdMessageSquareDot {
     fn view_box(&self) -> &str {
@@ -32542,7 +34347,7 @@ impl IconShape for LdMessageSquareDot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquareHeart;
 impl IconShape for LdMessageSquareHeart {
     fn view_box(&self) -> &str {
@@ -32572,7 +34377,44 @@ impl IconShape for LdMessageSquareHeart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdMessageSquareLock;
+impl IconShape for LdMessageSquareLock {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M19 15v-2a2 2 0 1 0-4 0v2",
+            }
+            path {
+                d: "M9 17H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v3.5",
+            }
+            rect {
+                height: "5",
+                rx: "1",
+                width: "8",
+                x: "13",
+                y: "15",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquareMore;
 impl IconShape for LdMessageSquareMore {
     fn view_box(&self) -> &str {
@@ -32608,7 +34450,7 @@ impl IconShape for LdMessageSquareMore {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquareOff;
 impl IconShape for LdMessageSquareOff {
     fn view_box(&self) -> &str {
@@ -32641,7 +34483,7 @@ impl IconShape for LdMessageSquareOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquarePlus;
 impl IconShape for LdMessageSquarePlus {
     fn view_box(&self) -> &str {
@@ -32674,7 +34516,7 @@ impl IconShape for LdMessageSquarePlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquareQuote;
 impl IconShape for LdMessageSquareQuote {
     fn view_box(&self) -> &str {
@@ -32707,7 +34549,7 @@ impl IconShape for LdMessageSquareQuote {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquareReply;
 impl IconShape for LdMessageSquareReply {
     fn view_box(&self) -> &str {
@@ -32740,7 +34582,7 @@ impl IconShape for LdMessageSquareReply {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquareShare;
 impl IconShape for LdMessageSquareShare {
     fn view_box(&self) -> &str {
@@ -32773,7 +34615,7 @@ impl IconShape for LdMessageSquareShare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquareText;
 impl IconShape for LdMessageSquareText {
     fn view_box(&self) -> &str {
@@ -32806,7 +34648,7 @@ impl IconShape for LdMessageSquareText {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquareWarning;
 impl IconShape for LdMessageSquareWarning {
     fn view_box(&self) -> &str {
@@ -32839,7 +34681,7 @@ impl IconShape for LdMessageSquareWarning {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquareX;
 impl IconShape for LdMessageSquareX {
     fn view_box(&self) -> &str {
@@ -32872,7 +34714,7 @@ impl IconShape for LdMessageSquareX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessageSquare;
 impl IconShape for LdMessageSquare {
     fn view_box(&self) -> &str {
@@ -32899,7 +34741,7 @@ impl IconShape for LdMessageSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMessagesSquare;
 impl IconShape for LdMessagesSquare {
     fn view_box(&self) -> &str {
@@ -32920,7 +34762,7 @@ impl IconShape for LdMessagesSquare {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2z",
+                d: "M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z",
             }
             path {
                 d: "M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1",
@@ -32929,7 +34771,7 @@ impl IconShape for LdMessagesSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMicOff;
 impl IconShape for LdMicOff {
     fn view_box(&self) -> &str {
@@ -32977,7 +34819,7 @@ impl IconShape for LdMicOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMicVocal;
 impl IconShape for LdMicVocal {
     fn view_box(&self) -> &str {
@@ -32998,10 +34840,13 @@ impl IconShape for LdMicVocal {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m12 8-9.04 9.06a2.82 2.82 0 1 0 3.98 3.98L16 12",
+                d: "m11 7.601-5.994 8.19a1 1 0 0 0 .1 1.298l.817.818a1 1 0 0 0 1.314.087L15.09 12",
+            }
+            path {
+                d: "M16.5 21.174C15.5 20.5 14.372 20 13 20c-2.058 0-3.928 2.356-6 2-2.072-.356-2.775-3.369-1.5-4.5",
             }
             circle {
-                cx: "17",
+                cx: "16",
                 cy: "7",
                 r: "5",
             }
@@ -33009,7 +34854,7 @@ impl IconShape for LdMicVocal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMic;
 impl IconShape for LdMic {
     fn view_box(&self) -> &str {
@@ -33045,7 +34890,64 @@ impl IconShape for LdMic {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdMicrochip;
+impl IconShape for LdMicrochip {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M18 12h2",
+            }
+            path {
+                d: "M18 16h2",
+            }
+            path {
+                d: "M18 20h2",
+            }
+            path {
+                d: "M18 4h2",
+            }
+            path {
+                d: "M18 8h2",
+            }
+            path {
+                d: "M4 12h2",
+            }
+            path {
+                d: "M4 16h2",
+            }
+            path {
+                d: "M4 20h2",
+            }
+            path {
+                d: "M4 4h2",
+            }
+            path {
+                d: "M4 8h2",
+            }
+            path {
+                d: "M8 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-1.5c-.276 0-.494.227-.562.495a2 2 0 0 1-3.876 0C9.994 2.227 9.776 2 9.5 2z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMicroscope;
 impl IconShape for LdMicroscope {
     fn view_box(&self) -> &str {
@@ -33087,7 +34989,7 @@ impl IconShape for LdMicroscope {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMicrowave;
 impl IconShape for LdMicrowave {
     fn view_box(&self) -> &str {
@@ -33134,7 +35036,7 @@ impl IconShape for LdMicrowave {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMilestone;
 impl IconShape for LdMilestone {
     fn view_box(&self) -> &str {
@@ -33155,19 +35057,19 @@ impl IconShape for LdMilestone {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M18 6H5a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h13l4-3.5L18 6Z",
-            }
-            path {
                 d: "M12 13v8",
             }
             path {
                 d: "M12 3v3",
             }
+            path {
+                d: "M4 6a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h13a2 2 0 0 0 1.152-.365l3.424-2.317a1 1 0 0 0 0-1.635l-3.424-2.318A2 2 0 0 0 17 6z",
+            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMilkOff;
 impl IconShape for LdMilkOff {
     fn view_box(&self) -> &str {
@@ -33206,7 +35108,7 @@ impl IconShape for LdMilkOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMilk;
 impl IconShape for LdMilk {
     fn view_box(&self) -> &str {
@@ -33239,7 +35141,7 @@ impl IconShape for LdMilk {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMinimize2;
 impl IconShape for LdMinimize2 {
     fn view_box(&self) -> &str {
@@ -33281,7 +35183,7 @@ impl IconShape for LdMinimize2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMinimize;
 impl IconShape for LdMinimize {
     fn view_box(&self) -> &str {
@@ -33317,7 +35219,7 @@ impl IconShape for LdMinimize {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMinus;
 impl IconShape for LdMinus {
     fn view_box(&self) -> &str {
@@ -33344,7 +35246,7 @@ impl IconShape for LdMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMonitorCheck;
 impl IconShape for LdMonitorCheck {
     fn view_box(&self) -> &str {
@@ -33384,7 +35286,69 @@ impl IconShape for LdMonitorCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdMonitorCog;
+impl IconShape for LdMonitorCog {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12 17v4",
+            }
+            path {
+                d: "m15.2 4.9-.9-.4",
+            }
+            path {
+                d: "m15.2 7.1-.9.4",
+            }
+            path {
+                d: "m16.9 3.2-.4-.9",
+            }
+            path {
+                d: "m16.9 8.8-.4.9",
+            }
+            path {
+                d: "m19.5 2.3-.4.9",
+            }
+            path {
+                d: "m19.5 9.7-.4-.9",
+            }
+            path {
+                d: "m21.7 4.5-.9.4",
+            }
+            path {
+                d: "m21.7 7.5-.9-.4",
+            }
+            path {
+                d: "M22 13v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7",
+            }
+            path {
+                d: "M8 21h8",
+            }
+            circle {
+                cx: "18",
+                cy: "6",
+                r: "3",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMonitorDot;
 impl IconShape for LdMonitorDot {
     fn view_box(&self) -> &str {
@@ -33422,7 +35386,7 @@ impl IconShape for LdMonitorDot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMonitorDown;
 impl IconShape for LdMonitorDown {
     fn view_box(&self) -> &str {
@@ -33465,7 +35429,7 @@ impl IconShape for LdMonitorDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMonitorOff;
 impl IconShape for LdMonitorOff {
     fn view_box(&self) -> &str {
@@ -33504,7 +35468,7 @@ impl IconShape for LdMonitorOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMonitorPause;
 impl IconShape for LdMonitorPause {
     fn view_box(&self) -> &str {
@@ -33547,7 +35511,7 @@ impl IconShape for LdMonitorPause {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMonitorPlay;
 impl IconShape for LdMonitorPlay {
     fn view_box(&self) -> &str {
@@ -33587,7 +35551,7 @@ impl IconShape for LdMonitorPlay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMonitorSmartphone;
 impl IconShape for LdMonitorSmartphone {
     fn view_box(&self) -> &str {
@@ -33627,7 +35591,7 @@ impl IconShape for LdMonitorSmartphone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMonitorSpeaker;
 impl IconShape for LdMonitorSpeaker {
     fn view_box(&self) -> &str {
@@ -33672,7 +35636,7 @@ impl IconShape for LdMonitorSpeaker {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMonitorStop;
 impl IconShape for LdMonitorStop {
     fn view_box(&self) -> &str {
@@ -33716,7 +35680,7 @@ impl IconShape for LdMonitorStop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMonitorUp;
 impl IconShape for LdMonitorUp {
     fn view_box(&self) -> &str {
@@ -33759,7 +35723,7 @@ impl IconShape for LdMonitorUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMonitorX;
 impl IconShape for LdMonitorX {
     fn view_box(&self) -> &str {
@@ -33802,7 +35766,7 @@ impl IconShape for LdMonitorX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMonitor;
 impl IconShape for LdMonitor {
     fn view_box(&self) -> &str {
@@ -33845,7 +35809,7 @@ impl IconShape for LdMonitor {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoonStar;
 impl IconShape for LdMoonStar {
     fn view_box(&self) -> &str {
@@ -33866,19 +35830,19 @@ impl IconShape for LdMoonStar {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z",
+                d: "M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9",
             }
             path {
-                d: "M19 3v4",
+                d: "M20 3v4",
             }
             path {
-                d: "M21 5h-4",
+                d: "M22 5h-4",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoon;
 impl IconShape for LdMoon {
     fn view_box(&self) -> &str {
@@ -33905,7 +35869,7 @@ impl IconShape for LdMoon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMountainSnow;
 impl IconShape for LdMountainSnow {
     fn view_box(&self) -> &str {
@@ -33935,7 +35899,7 @@ impl IconShape for LdMountainSnow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMountain;
 impl IconShape for LdMountain {
     fn view_box(&self) -> &str {
@@ -33962,7 +35926,7 @@ impl IconShape for LdMountain {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMouseOff;
 impl IconShape for LdMouseOff {
     fn view_box(&self) -> &str {
@@ -33998,7 +35962,7 @@ impl IconShape for LdMouseOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMousePointer2;
 impl IconShape for LdMousePointer2 {
     fn view_box(&self) -> &str {
@@ -34019,13 +35983,48 @@ impl IconShape for LdMousePointer2 {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m4 4 7.07 17 2.51-7.39L21 11.07z",
+                d: "M4.037 4.688a.495.495 0 0 1 .651-.651l16 6.5a.5.5 0 0 1-.063.947l-6.124 1.58a2 2 0 0 0-1.438 1.435l-1.579 6.126a.5.5 0 0 1-.947.063z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdMousePointerBan;
+impl IconShape for LdMousePointerBan {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M2.034 2.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.944L8.204 7.545a1 1 0 0 0-.66.66l-1.066 3.443a.5.5 0 0 1-.944.033z",
+            }
+            circle {
+                cx: "16",
+                cy: "16",
+                r: "6",
+            }
+            path {
+                d: "m11.8 11.8 8.4 8.4",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMousePointerClick;
 impl IconShape for LdMousePointerClick {
     fn view_box(&self) -> &str {
@@ -34046,25 +36045,25 @@ impl IconShape for LdMousePointerClick {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m9 9 5 12 1.8-5.2L21 14Z",
-            }
-            path {
-                d: "M7.2 2.2 8 5.1",
+                d: "M14 4.1 12 6",
             }
             path {
                 d: "m5.1 8-2.9-.8",
             }
             path {
-                d: "M14 4.1 12 6",
+                d: "m6 12-1.9 2",
             }
             path {
-                d: "m6 12-1.9 2",
+                d: "M7.2 2.2 8 5.1",
+            }
+            path {
+                d: "M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMousePointer;
 impl IconShape for LdMousePointer {
     fn view_box(&self) -> &str {
@@ -34085,16 +36084,16 @@ impl IconShape for LdMousePointer {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m3 3 7.07 16.97 2.51-7.39 7.39-2.51L3 3z",
+                d: "M12.586 12.586 19 19",
             }
             path {
-                d: "m13 13 6 6",
+                d: "M3.688 3.037a.497.497 0 0 0-.651.651l6.5 15.999a.501.501 0 0 0 .947-.062l1.569-6.083a2 2 0 0 1 1.448-1.479l6.124-1.579a.5.5 0 0 0 .063-.947z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMouse;
 impl IconShape for LdMouse {
     fn view_box(&self) -> &str {
@@ -34128,7 +36127,7 @@ impl IconShape for LdMouse {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMove3d;
 impl IconShape for LdMove3d {
     fn view_box(&self) -> &str {
@@ -34164,7 +36163,7 @@ impl IconShape for LdMove3d {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoveDiagonal2;
 impl IconShape for LdMoveDiagonal2 {
     fn view_box(&self) -> &str {
@@ -34184,23 +36183,20 @@ impl IconShape for LdMoveDiagonal2 {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polyline {
-                points: "5 11 5 5 11 5",
+            path {
+                d: "M19 13v6h-6",
             }
-            polyline {
-                points: "19 13 19 19 13 19",
+            path {
+                d: "M5 11V5h6",
             }
-            line {
-                x1: "5",
-                x2: "19",
-                y1: "5",
-                y2: "19",
+            path {
+                d: "m5 5 14 14",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoveDiagonal;
 impl IconShape for LdMoveDiagonal {
     fn view_box(&self) -> &str {
@@ -34220,23 +36216,20 @@ impl IconShape for LdMoveDiagonal {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polyline {
-                points: "13 5 19 5 19 11",
+            path {
+                d: "M11 19H5v-6",
             }
-            polyline {
-                points: "11 19 5 19 5 13",
+            path {
+                d: "M13 5h6v6",
             }
-            line {
-                x1: "19",
-                x2: "5",
-                y1: "5",
-                y2: "19",
+            path {
+                d: "M19 5 5 19",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoveDownLeft;
 impl IconShape for LdMoveDownLeft {
     fn view_box(&self) -> &str {
@@ -34266,7 +36259,7 @@ impl IconShape for LdMoveDownLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoveDownRight;
 impl IconShape for LdMoveDownRight {
     fn view_box(&self) -> &str {
@@ -34296,7 +36289,7 @@ impl IconShape for LdMoveDownRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoveDown;
 impl IconShape for LdMoveDown {
     fn view_box(&self) -> &str {
@@ -34326,7 +36319,7 @@ impl IconShape for LdMoveDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoveHorizontal;
 impl IconShape for LdMoveHorizontal {
     fn view_box(&self) -> &str {
@@ -34346,23 +36339,20 @@ impl IconShape for LdMoveHorizontal {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polyline {
-                points: "18 8 22 12 18 16",
+            path {
+                d: "m18 8 4 4-4 4",
             }
-            polyline {
-                points: "6 8 2 12 6 16",
+            path {
+                d: "M2 12h20",
             }
-            line {
-                x1: "2",
-                x2: "22",
-                y1: "12",
-                y2: "12",
+            path {
+                d: "m6 8-4 4 4 4",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoveLeft;
 impl IconShape for LdMoveLeft {
     fn view_box(&self) -> &str {
@@ -34392,7 +36382,7 @@ impl IconShape for LdMoveLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoveRight;
 impl IconShape for LdMoveRight {
     fn view_box(&self) -> &str {
@@ -34422,7 +36412,7 @@ impl IconShape for LdMoveRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoveUpLeft;
 impl IconShape for LdMoveUpLeft {
     fn view_box(&self) -> &str {
@@ -34452,7 +36442,7 @@ impl IconShape for LdMoveUpLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoveUpRight;
 impl IconShape for LdMoveUpRight {
     fn view_box(&self) -> &str {
@@ -34482,7 +36472,7 @@ impl IconShape for LdMoveUpRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoveUp;
 impl IconShape for LdMoveUp {
     fn view_box(&self) -> &str {
@@ -34512,7 +36502,7 @@ impl IconShape for LdMoveUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMoveVertical;
 impl IconShape for LdMoveVertical {
     fn view_box(&self) -> &str {
@@ -34532,23 +36522,20 @@ impl IconShape for LdMoveVertical {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polyline {
-                points: "8 18 12 22 16 18",
+            path {
+                d: "M12 2v20",
             }
-            polyline {
-                points: "8 6 12 2 16 6",
+            path {
+                d: "m8 18 4 4 4-4",
             }
-            line {
-                x1: "12",
-                x2: "12",
-                y1: "2",
-                y2: "22",
+            path {
+                d: "m8 6 4-4 4 4",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMove;
 impl IconShape for LdMove {
     fn view_box(&self) -> &str {
@@ -34568,35 +36555,29 @@ impl IconShape for LdMove {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polyline {
-                points: "5 9 2 12 5 15",
+            path {
+                d: "M12 2v20",
             }
-            polyline {
-                points: "9 5 12 2 15 5",
+            path {
+                d: "m15 19-3 3-3-3",
             }
-            polyline {
-                points: "15 19 12 22 9 19",
+            path {
+                d: "m19 9 3 3-3 3",
             }
-            polyline {
-                points: "19 9 22 12 19 15",
+            path {
+                d: "M2 12h20",
             }
-            line {
-                x1: "2",
-                x2: "22",
-                y1: "12",
-                y2: "12",
+            path {
+                d: "m5 9-3 3 3 3",
             }
-            line {
-                x1: "12",
-                x2: "12",
-                y1: "2",
-                y2: "22",
+            path {
+                d: "m9 5 3-3 3 3",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMusic2;
 impl IconShape for LdMusic2 {
     fn view_box(&self) -> &str {
@@ -34628,7 +36609,7 @@ impl IconShape for LdMusic2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMusic3;
 impl IconShape for LdMusic3 {
     fn view_box(&self) -> &str {
@@ -34660,7 +36641,7 @@ impl IconShape for LdMusic3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMusic4;
 impl IconShape for LdMusic4 {
     fn view_box(&self) -> &str {
@@ -34700,7 +36681,7 @@ impl IconShape for LdMusic4 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdMusic;
 impl IconShape for LdMusic {
     fn view_box(&self) -> &str {
@@ -34737,7 +36718,7 @@ impl IconShape for LdMusic {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNavigation2Off;
 impl IconShape for LdNavigation2Off {
     fn view_box(&self) -> &str {
@@ -34773,7 +36754,7 @@ impl IconShape for LdNavigation2Off {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNavigation2;
 impl IconShape for LdNavigation2 {
     fn view_box(&self) -> &str {
@@ -34800,7 +36781,7 @@ impl IconShape for LdNavigation2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNavigationOff;
 impl IconShape for LdNavigationOff {
     fn view_box(&self) -> &str {
@@ -34836,7 +36817,7 @@ impl IconShape for LdNavigationOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNavigation;
 impl IconShape for LdNavigation {
     fn view_box(&self) -> &str {
@@ -34863,7 +36844,7 @@ impl IconShape for LdNavigation {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNetwork;
 impl IconShape for LdNetwork {
     fn view_box(&self) -> &str {
@@ -34914,7 +36895,7 @@ impl IconShape for LdNetwork {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNewspaper;
 impl IconShape for LdNewspaper {
     fn view_box(&self) -> &str {
@@ -34950,7 +36931,7 @@ impl IconShape for LdNewspaper {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNfc;
 impl IconShape for LdNfc {
     fn view_box(&self) -> &str {
@@ -34986,7 +36967,7 @@ impl IconShape for LdNfc {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNotebookPen;
 impl IconShape for LdNotebookPen {
     fn view_box(&self) -> &str {
@@ -35022,13 +37003,13 @@ impl IconShape for LdNotebookPen {
                 d: "M2 18h4",
             }
             path {
-                d: "M18.4 2.6a2.17 2.17 0 0 1 3 3L16 11l-4 1 1-4Z",
+                d: "M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNotebookTabs;
 impl IconShape for LdNotebookTabs {
     fn view_box(&self) -> &str {
@@ -35083,7 +37064,7 @@ impl IconShape for LdNotebookTabs {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNotebookText;
 impl IconShape for LdNotebookText {
     fn view_box(&self) -> &str {
@@ -35135,7 +37116,7 @@ impl IconShape for LdNotebookText {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNotebook;
 impl IconShape for LdNotebook {
     fn view_box(&self) -> &str {
@@ -35181,7 +37162,7 @@ impl IconShape for LdNotebook {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNotepadTextDashed;
 impl IconShape for LdNotepadTextDashed {
     fn view_box(&self) -> &str {
@@ -35244,7 +37225,7 @@ impl IconShape for LdNotepadTextDashed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNotepadText;
 impl IconShape for LdNotepadText {
     fn view_box(&self) -> &str {
@@ -35293,7 +37274,7 @@ impl IconShape for LdNotepadText {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNutOff;
 impl IconShape for LdNutOff {
     fn view_box(&self) -> &str {
@@ -35335,7 +37316,7 @@ impl IconShape for LdNutOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdNut;
 impl IconShape for LdNut {
     fn view_box(&self) -> &str {
@@ -35368,7 +37349,7 @@ impl IconShape for LdNut {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdOctagonAlert;
 impl IconShape for LdOctagonAlert {
     fn view_box(&self) -> &str {
@@ -35388,26 +37369,50 @@ impl IconShape for LdOctagonAlert {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polygon {
-                points: "7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2",
+            path {
+                d: "M12 16h.01",
             }
-            line {
-                x1: "12",
-                x2: "12",
-                y1: "8",
-                y2: "12",
+            path {
+                d: "M12 8v4",
             }
-            line {
-                x1: "12",
-                x2: "12.01",
-                y1: "16",
-                y2: "16",
+            path {
+                d: "M15.312 2a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586l-4.688-4.688A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdOctagonMinus;
+impl IconShape for LdOctagonMinus {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z",
+            }
+            path {
+                d: "M8 12h8",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdOctagonPause;
 impl IconShape for LdOctagonPause {
     fn view_box(&self) -> &str {
@@ -35434,13 +37439,13 @@ impl IconShape for LdOctagonPause {
                 d: "M14 15V9",
             }
             path {
-                d: "M7.714 2h8.572L22 7.714v8.572L16.286 22H7.714L2 16.286V7.714z",
+                d: "M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdOctagonX;
 impl IconShape for LdOctagonX {
     fn view_box(&self) -> &str {
@@ -35460,11 +37465,11 @@ impl IconShape for LdOctagonX {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polygon {
-                points: "7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2",
-            }
             path {
                 d: "m15 9-6 6",
+            }
+            path {
+                d: "M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z",
             }
             path {
                 d: "m9 9 6 6",
@@ -35473,7 +37478,7 @@ impl IconShape for LdOctagonX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdOctagon;
 impl IconShape for LdOctagon {
     fn view_box(&self) -> &str {
@@ -35493,14 +37498,41 @@ impl IconShape for LdOctagon {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polygon {
-                points: "7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2",
+            path {
+                d: "M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdOmega;
+impl IconShape for LdOmega {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M3 20h4.5a.5.5 0 0 0 .5-.5v-.282a.52.52 0 0 0-.247-.437 8 8 0 1 1 8.494-.001.52.52 0 0 0-.247.438v.282a.5.5 0 0 0 .5.5H21",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdOption;
 impl IconShape for LdOption {
     fn view_box(&self) -> &str {
@@ -35530,7 +37562,7 @@ impl IconShape for LdOption {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdOrbit;
 impl IconShape for LdOrbit {
     fn view_box(&self) -> &str {
@@ -35575,7 +37607,7 @@ impl IconShape for LdOrbit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdOrigami;
 impl IconShape for LdOrigami {
     fn view_box(&self) -> &str {
@@ -35608,7 +37640,7 @@ impl IconShape for LdOrigami {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPackage2;
 impl IconShape for LdPackage2 {
     fn view_box(&self) -> &str {
@@ -35641,7 +37673,7 @@ impl IconShape for LdPackage2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPackageCheck;
 impl IconShape for LdPackageCheck {
     fn view_box(&self) -> &str {
@@ -35683,7 +37715,7 @@ impl IconShape for LdPackageCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPackageMinus;
 impl IconShape for LdPackageMinus {
     fn view_box(&self) -> &str {
@@ -35725,7 +37757,7 @@ impl IconShape for LdPackageMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPackageOpen;
 impl IconShape for LdPackageOpen {
     fn view_box(&self) -> &str {
@@ -35761,7 +37793,7 @@ impl IconShape for LdPackageOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPackagePlus;
 impl IconShape for LdPackagePlus {
     fn view_box(&self) -> &str {
@@ -35806,7 +37838,7 @@ impl IconShape for LdPackagePlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPackageSearch;
 impl IconShape for LdPackageSearch {
     fn view_box(&self) -> &str {
@@ -35853,7 +37885,7 @@ impl IconShape for LdPackageSearch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPackageX;
 impl IconShape for LdPackageX {
     fn view_box(&self) -> &str {
@@ -35895,7 +37927,7 @@ impl IconShape for LdPackageX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPackage;
 impl IconShape for LdPackage {
     fn view_box(&self) -> &str {
@@ -35916,22 +37948,22 @@ impl IconShape for LdPackage {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m7.5 4.27 9 5.15",
-            }
-            path {
-                d: "M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z",
-            }
-            path {
-                d: "m3.3 7 8.7 5 8.7-5",
+                d: "M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z",
             }
             path {
                 d: "M12 22V12",
+            }
+            path {
+                d: "m3.3 7 7.703 4.734a2 2 0 0 0 1.994 0L20.7 7",
+            }
+            path {
+                d: "m7.5 4.27 9 5.15",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPaintBucket;
 impl IconShape for LdPaintBucket {
     fn view_box(&self) -> &str {
@@ -35967,7 +37999,7 @@ impl IconShape for LdPaintBucket {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPaintRoller;
 impl IconShape for LdPaintRoller {
     fn view_box(&self) -> &str {
@@ -36008,9 +38040,9 @@ impl IconShape for LdPaintRoller {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdPaintbrush2;
-impl IconShape for LdPaintbrush2 {
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdPaintbrushVertical;
+impl IconShape for LdPaintbrushVertical {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -36029,22 +38061,22 @@ impl IconShape for LdPaintbrush2 {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M14 19.9V16h3a2 2 0 0 0 2-2v-2H5v2c0 1.1.9 2 2 2h3v3.9a2 2 0 1 0 4 0Z",
-            }
-            path {
-                d: "M6 12V2h12v10",
+                d: "M10 2v2",
             }
             path {
                 d: "M14 2v4",
             }
             path {
-                d: "M10 2v2",
+                d: "M17 2a1 1 0 0 1 1 1v9H6V3a1 1 0 0 1 1-1z",
+            }
+            path {
+                d: "M6 12a1 1 0 0 0-1 1v1a2 2 0 0 0 2 2h2a1 1 0 0 1 1 1v2.9a2 2 0 1 0 4 0V17a1 1 0 0 1 1-1h2a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPaintbrush;
 impl IconShape for LdPaintbrush {
     fn view_box(&self) -> &str {
@@ -36065,19 +38097,19 @@ impl IconShape for LdPaintbrush {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M18.37 2.63 14 7l-1.59-1.59a2 2 0 0 0-2.82 0L8 7l9 9 1.59-1.59a2 2 0 0 0 0-2.82L17 10l4.37-4.37a2.12 2.12 0 1 0-3-3Z",
+                d: "m14.622 17.897-10.68-2.913",
             }
             path {
-                d: "M9 8c-2 3-4 3.5-7 4l8 10c2-1 6-5 6-7",
+                d: "M18.376 2.622a1 1 0 1 1 3.002 3.002L17.36 9.643a.5.5 0 0 0 0 .707l.944.944a2.41 2.41 0 0 1 0 3.408l-.944.944a.5.5 0 0 1-.707 0L8.354 7.348a.5.5 0 0 1 0-.707l.944-.944a2.41 2.41 0 0 1 3.408 0l.944.944a.5.5 0 0 0 .707 0z",
             }
             path {
-                d: "M14.5 17.5 4.5 15",
+                d: "M9 8c-1.804 2.71-3.97 3.46-6.583 3.948a.507.507 0 0 0-.302.819l7.32 8.883a1 1 0 0 0 1.185.204C12.735 20.405 16 16.792 16 15",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPalette;
 impl IconShape for LdPalette {
     fn view_box(&self) -> &str {
@@ -36124,7 +38156,7 @@ impl IconShape for LdPalette {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelBottomClose;
 impl IconShape for LdPanelBottomClose {
     fn view_box(&self) -> &str {
@@ -36161,7 +38193,7 @@ impl IconShape for LdPanelBottomClose {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelBottomDashed;
 impl IconShape for LdPanelBottomDashed {
     fn view_box(&self) -> &str {
@@ -36204,7 +38236,7 @@ impl IconShape for LdPanelBottomDashed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelBottomOpen;
 impl IconShape for LdPanelBottomOpen {
     fn view_box(&self) -> &str {
@@ -36241,7 +38273,7 @@ impl IconShape for LdPanelBottomOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelBottom;
 impl IconShape for LdPanelBottom {
     fn view_box(&self) -> &str {
@@ -36275,7 +38307,7 @@ impl IconShape for LdPanelBottom {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelLeftClose;
 impl IconShape for LdPanelLeftClose {
     fn view_box(&self) -> &str {
@@ -36312,7 +38344,7 @@ impl IconShape for LdPanelLeftClose {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelLeftDashed;
 impl IconShape for LdPanelLeftDashed {
     fn view_box(&self) -> &str {
@@ -36355,7 +38387,7 @@ impl IconShape for LdPanelLeftDashed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelLeftOpen;
 impl IconShape for LdPanelLeftOpen {
     fn view_box(&self) -> &str {
@@ -36392,7 +38424,7 @@ impl IconShape for LdPanelLeftOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelLeft;
 impl IconShape for LdPanelLeft {
     fn view_box(&self) -> &str {
@@ -36426,7 +38458,7 @@ impl IconShape for LdPanelLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelRightClose;
 impl IconShape for LdPanelRightClose {
     fn view_box(&self) -> &str {
@@ -36463,7 +38495,7 @@ impl IconShape for LdPanelRightClose {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelRightDashed;
 impl IconShape for LdPanelRightDashed {
     fn view_box(&self) -> &str {
@@ -36506,7 +38538,7 @@ impl IconShape for LdPanelRightDashed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelRightOpen;
 impl IconShape for LdPanelRightOpen {
     fn view_box(&self) -> &str {
@@ -36543,7 +38575,7 @@ impl IconShape for LdPanelRightOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelRight;
 impl IconShape for LdPanelRight {
     fn view_box(&self) -> &str {
@@ -36577,7 +38609,7 @@ impl IconShape for LdPanelRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelTopClose;
 impl IconShape for LdPanelTopClose {
     fn view_box(&self) -> &str {
@@ -36614,7 +38646,7 @@ impl IconShape for LdPanelTopClose {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelTopDashed;
 impl IconShape for LdPanelTopDashed {
     fn view_box(&self) -> &str {
@@ -36657,7 +38689,7 @@ impl IconShape for LdPanelTopDashed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelTopOpen;
 impl IconShape for LdPanelTopOpen {
     fn view_box(&self) -> &str {
@@ -36694,7 +38726,7 @@ impl IconShape for LdPanelTopOpen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelTop;
 impl IconShape for LdPanelTop {
     fn view_box(&self) -> &str {
@@ -36728,7 +38760,7 @@ impl IconShape for LdPanelTop {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelsLeftBottom;
 impl IconShape for LdPanelsLeftBottom {
     fn view_box(&self) -> &str {
@@ -36765,7 +38797,7 @@ impl IconShape for LdPanelsLeftBottom {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelsRightBottom;
 impl IconShape for LdPanelsRightBottom {
     fn view_box(&self) -> &str {
@@ -36802,7 +38834,7 @@ impl IconShape for LdPanelsRightBottom {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPanelsTopLeft;
 impl IconShape for LdPanelsTopLeft {
     fn view_box(&self) -> &str {
@@ -36839,7 +38871,7 @@ impl IconShape for LdPanelsTopLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPaperclip;
 impl IconShape for LdPaperclip {
     fn view_box(&self) -> &str {
@@ -36866,7 +38898,7 @@ impl IconShape for LdPaperclip {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdParentheses;
 impl IconShape for LdParentheses {
     fn view_box(&self) -> &str {
@@ -36896,7 +38928,7 @@ impl IconShape for LdParentheses {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdParkingMeter;
 impl IconShape for LdParkingMeter {
     fn view_box(&self) -> &str {
@@ -36917,25 +38949,25 @@ impl IconShape for LdParkingMeter {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M9 9a3 3 0 1 1 6 0",
+                d: "M11 15h2",
             }
             path {
                 d: "M12 12v3",
             }
             path {
-                d: "M11 15h2",
-            }
-            path {
-                d: "M19 9a7 7 0 1 0-13.6 2.3C6.4 14.4 8 19 8 19h8s1.6-4.6 2.6-7.7c.3-.8.4-1.5.4-2.3",
-            }
-            path {
                 d: "M12 19v3",
+            }
+            path {
+                d: "M15.282 19a1 1 0 0 0 .948-.68l2.37-6.988a7 7 0 1 0-13.2 0l2.37 6.988a1 1 0 0 0 .948.68z",
+            }
+            path {
+                d: "M9 9a3 3 0 1 1 6 0",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPartyPopper;
 impl IconShape for LdPartyPopper {
     fn view_box(&self) -> &str {
@@ -36971,13 +39003,13 @@ impl IconShape for LdPartyPopper {
                 d: "M22 20h.01",
             }
             path {
-                d: "m22 2-2.24.75a2.9 2.9 0 0 0-1.96 3.12v0c.1.86-.57 1.63-1.45 1.63h-.38c-.86 0-1.6.6-1.76 1.44L14 10",
+                d: "m22 2-2.24.75a2.9 2.9 0 0 0-1.96 3.12c.1.86-.57 1.63-1.45 1.63h-.38c-.86 0-1.6.6-1.76 1.44L14 10",
             }
             path {
-                d: "m22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11v0c-.11.7-.72 1.22-1.43 1.22H17",
+                d: "m22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11c-.11.7-.72 1.22-1.43 1.22H17",
             }
             path {
-                d: "m11 2 .33.82c.34.86-.2 1.82-1.11 1.98v0C9.52 4.9 9 5.52 9 6.23V7",
+                d: "m11 2 .33.82c.34.86-.2 1.82-1.11 1.98C9.52 4.9 9 5.52 9 6.23V7",
             }
             path {
                 d: "M11 13c1.93 1.93 2.83 4.17 2 5-.83.83-3.07-.07-5-2-1.93-1.93-2.83-4.17-2-5 .83-.83 3.07.07 5 2Z",
@@ -36986,7 +39018,7 @@ impl IconShape for LdPartyPopper {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPause;
 impl IconShape for LdPause {
     fn view_box(&self) -> &str {
@@ -37024,7 +39056,7 @@ impl IconShape for LdPause {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPawPrint;
 impl IconShape for LdPawPrint {
     fn view_box(&self) -> &str {
@@ -37066,7 +39098,7 @@ impl IconShape for LdPawPrint {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPcCase;
 impl IconShape for LdPcCase {
     fn view_box(&self) -> &str {
@@ -37106,7 +39138,7 @@ impl IconShape for LdPcCase {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPenLine;
 impl IconShape for LdPenLine {
     fn view_box(&self) -> &str {
@@ -37130,13 +39162,46 @@ impl IconShape for LdPenLine {
                 d: "M12 20h9",
             }
             path {
-                d: "M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z",
+                d: "M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdPenOff;
+impl IconShape for LdPenOff {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "m10 10-6.157 6.162a2 2 0 0 0-.5.833l-1.322 4.36a.5.5 0 0 0 .622.624l4.358-1.323a2 2 0 0 0 .83-.5L14 13.982",
+            }
+            path {
+                d: "m12.829 7.172 4.359-4.346a1 1 0 1 1 3.986 3.986l-4.353 4.353",
+            }
+            path {
+                d: "m2 2 20 20",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPenTool;
 impl IconShape for LdPenTool {
     fn view_box(&self) -> &str {
@@ -37174,7 +39239,7 @@ impl IconShape for LdPenTool {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPen;
 impl IconShape for LdPen {
     fn view_box(&self) -> &str {
@@ -37195,13 +39260,13 @@ impl IconShape for LdPen {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z",
+                d: "M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPencilLine;
 impl IconShape for LdPencilLine {
     fn view_box(&self) -> &str {
@@ -37225,7 +39290,7 @@ impl IconShape for LdPencilLine {
                 d: "M12 20h9",
             }
             path {
-                d: "M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z",
+                d: "M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z",
             }
             path {
                 d: "m15 5 3 3",
@@ -37234,7 +39299,43 @@ impl IconShape for LdPencilLine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdPencilOff;
+impl IconShape for LdPencilOff {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "m10 10-6.157 6.162a2 2 0 0 0-.5.833l-1.322 4.36a.5.5 0 0 0 .622.624l4.358-1.323a2 2 0 0 0 .83-.5L14 13.982",
+            }
+            path {
+                d: "m12.829 7.172 4.359-4.346a1 1 0 1 1 3.986 3.986l-4.353 4.353",
+            }
+            path {
+                d: "m15 5 4 4",
+            }
+            path {
+                d: "m2 2 20 20",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPencilRuler;
 impl IconShape for LdPencilRuler {
     fn view_box(&self) -> &str {
@@ -37255,16 +39356,10 @@ impl IconShape for LdPencilRuler {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m15 5 4 4",
-            }
-            path {
                 d: "M13 7 8.7 2.7a2.41 2.41 0 0 0-3.4 0L2.7 5.3a2.41 2.41 0 0 0 0 3.4L7 13",
             }
             path {
                 d: "m8 6 2-2",
-            }
-            path {
-                d: "m2 22 5.5-1.5L21.17 6.83a2.82 2.82 0 0 0-4-4L3.5 16.5Z",
             }
             path {
                 d: "m18 16 2-2",
@@ -37272,11 +39367,17 @@ impl IconShape for LdPencilRuler {
             path {
                 d: "m17 11 4.3 4.3c.94.94.94 2.46 0 3.4l-2.6 2.6c-.94.94-2.46.94-3.4 0L11 17",
             }
+            path {
+                d: "M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z",
+            }
+            path {
+                d: "m15 5 4 4",
+            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPencil;
 impl IconShape for LdPencil {
     fn view_box(&self) -> &str {
@@ -37297,7 +39398,7 @@ impl IconShape for LdPencil {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z",
+                d: "M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z",
             }
             path {
                 d: "m15 5 4 4",
@@ -37306,7 +39407,7 @@ impl IconShape for LdPencil {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPentagon;
 impl IconShape for LdPentagon {
     fn view_box(&self) -> &str {
@@ -37327,13 +39428,13 @@ impl IconShape for LdPentagon {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M3.5 8.7c-.7.5-1 1.4-.7 2.2l2.8 8.7c.3.8 1 1.4 1.9 1.4h9.1c.9 0 1.6-.6 1.9-1.4l2.8-8.7c.3-.8 0-1.7-.7-2.2l-7.4-5.3a2.1 2.1 0 0 0-2.4 0Z",
+                d: "M10.83 2.38a2 2 0 0 1 2.34 0l8 5.74a2 2 0 0 1 .73 2.25l-3.04 9.26a2 2 0 0 1-1.9 1.37H7.04a2 2 0 0 1-1.9-1.37L2.1 10.37a2 2 0 0 1 .73-2.25z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPercent;
 impl IconShape for LdPercent {
     fn view_box(&self) -> &str {
@@ -37373,7 +39474,7 @@ impl IconShape for LdPercent {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPersonStanding;
 impl IconShape for LdPersonStanding {
     fn view_box(&self) -> &str {
@@ -37411,7 +39512,40 @@ impl IconShape for LdPersonStanding {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdPhilippinePeso;
+impl IconShape for LdPhilippinePeso {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M20 11H4",
+            }
+            path {
+                d: "M20 7H4",
+            }
+            path {
+                d: "M7 21V4a1 1 0 0 1 1-1h4a1 1 0 0 1 0 12H7",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPhoneCall;
 impl IconShape for LdPhoneCall {
     fn view_box(&self) -> &str {
@@ -37444,7 +39578,7 @@ impl IconShape for LdPhoneCall {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPhoneForwarded;
 impl IconShape for LdPhoneForwarded {
     fn view_box(&self) -> &str {
@@ -37480,7 +39614,7 @@ impl IconShape for LdPhoneForwarded {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPhoneIncoming;
 impl IconShape for LdPhoneIncoming {
     fn view_box(&self) -> &str {
@@ -37516,7 +39650,7 @@ impl IconShape for LdPhoneIncoming {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPhoneMissed;
 impl IconShape for LdPhoneMissed {
     fn view_box(&self) -> &str {
@@ -37555,7 +39689,7 @@ impl IconShape for LdPhoneMissed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPhoneOff;
 impl IconShape for LdPhoneOff {
     fn view_box(&self) -> &str {
@@ -37588,7 +39722,7 @@ impl IconShape for LdPhoneOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPhoneOutgoing;
 impl IconShape for LdPhoneOutgoing {
     fn view_box(&self) -> &str {
@@ -37624,7 +39758,7 @@ impl IconShape for LdPhoneOutgoing {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPhone;
 impl IconShape for LdPhone {
     fn view_box(&self) -> &str {
@@ -37651,7 +39785,7 @@ impl IconShape for LdPhone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPi;
 impl IconShape for LdPi {
     fn view_box(&self) -> &str {
@@ -37687,7 +39821,7 @@ impl IconShape for LdPi {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPiano;
 impl IconShape for LdPiano {
     fn view_box(&self) -> &str {
@@ -37729,7 +39863,7 @@ impl IconShape for LdPiano {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPickaxe;
 impl IconShape for LdPickaxe {
     fn view_box(&self) -> &str {
@@ -37765,7 +39899,7 @@ impl IconShape for LdPickaxe {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPictureInPicture2;
 impl IconShape for LdPictureInPicture2 {
     fn view_box(&self) -> &str {
@@ -37799,7 +39933,7 @@ impl IconShape for LdPictureInPicture2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPictureInPicture;
 impl IconShape for LdPictureInPicture {
     fn view_box(&self) -> &str {
@@ -37833,37 +39967,7 @@ impl IconShape for LdPictureInPicture {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdPieChart;
-impl IconShape for LdPieChart {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "M21.21 15.89A10 10 0 1 1 8 2.83",
-            }
-            path {
-                d: "M22 12A10 10 0 0 0 12 2v10z",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPiggyBank;
 impl IconShape for LdPiggyBank {
     fn view_box(&self) -> &str {
@@ -37884,19 +39988,19 @@ impl IconShape for LdPiggyBank {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2h0V5z",
+                d: "M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2V5z",
             }
             path {
                 d: "M2 9v1c0 1.1.9 2 2 2h1",
             }
             path {
-                d: "M16 11h0",
+                d: "M16 11h.01",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPilcrowLeft;
 impl IconShape for LdPilcrowLeft {
     fn view_box(&self) -> &str {
@@ -37935,7 +40039,7 @@ impl IconShape for LdPilcrowLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPilcrowRight;
 impl IconShape for LdPilcrowRight {
     fn view_box(&self) -> &str {
@@ -37974,7 +40078,7 @@ impl IconShape for LdPilcrowRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPilcrow;
 impl IconShape for LdPilcrow {
     fn view_box(&self) -> &str {
@@ -38007,7 +40111,44 @@ impl IconShape for LdPilcrow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdPillBottle;
+impl IconShape for LdPillBottle {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M18 11h-4a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h4",
+            }
+            path {
+                d: "M6 7v13a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7",
+            }
+            rect {
+                height: "5",
+                rx: "1",
+                width: "16",
+                x: "4",
+                y: "2",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPill;
 impl IconShape for LdPill {
     fn view_box(&self) -> &str {
@@ -38037,7 +40178,7 @@ impl IconShape for LdPill {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPinOff;
 impl IconShape for LdPinOff {
     fn view_box(&self) -> &str {
@@ -38057,29 +40198,23 @@ impl IconShape for LdPinOff {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            line {
-                x1: "2",
-                x2: "22",
-                y1: "2",
-                y2: "22",
-            }
-            line {
-                x1: "12",
-                x2: "12",
-                y1: "17",
-                y2: "22",
+            path {
+                d: "M12 17v5",
             }
             path {
-                d: "M9 9v1.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V17h12",
+                d: "M15 9.34V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H7.89",
             }
             path {
-                d: "M15 9.34V6h1a2 2 0 0 0 0-4H7.89",
+                d: "m2 2 20 20",
+            }
+            path {
+                d: "M9 9v1.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h11",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPin;
 impl IconShape for LdPin {
     fn view_box(&self) -> &str {
@@ -38099,20 +40234,17 @@ impl IconShape for LdPin {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            line {
-                x1: "12",
-                x2: "12",
-                y1: "17",
-                y2: "22",
+            path {
+                d: "M12 17v5",
             }
             path {
-                d: "M5 17h14v-1.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V6h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1v4.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24Z",
+                d: "M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPipette;
 impl IconShape for LdPipette {
     fn view_box(&self) -> &str {
@@ -38145,7 +40277,7 @@ impl IconShape for LdPipette {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPizza;
 impl IconShape for LdPizza {
     fn view_box(&self) -> &str {
@@ -38166,25 +40298,25 @@ impl IconShape for LdPizza {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M15 11h.01",
+                d: "m12 14-1 1",
             }
             path {
-                d: "M11 15h.01",
+                d: "m13.75 18.25-1.25 1.42",
             }
             path {
-                d: "M16 16h.01",
+                d: "M17.775 5.654a15.68 15.68 0 0 0-12.121 12.12",
             }
             path {
-                d: "m2 16 20 6-6-20A20 20 0 0 0 2 16",
+                d: "M18.8 9.3a1 1 0 0 0 2.1 7.7",
             }
             path {
-                d: "M5.71 17.11a17.04 17.04 0 0 1 11.4-11.4",
+                d: "M21.964 20.732a1 1 0 0 1-1.232 1.232l-18-5a1 1 0 0 1-.695-1.232A19.68 19.68 0 0 1 15.732 2.037a1 1 0 0 1 1.232.695z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPlaneLanding;
 impl IconShape for LdPlaneLanding {
     fn view_box(&self) -> &str {
@@ -38214,7 +40346,7 @@ impl IconShape for LdPlaneLanding {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPlaneTakeoff;
 impl IconShape for LdPlaneTakeoff {
     fn view_box(&self) -> &str {
@@ -38244,7 +40376,7 @@ impl IconShape for LdPlaneTakeoff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPlane;
 impl IconShape for LdPlane {
     fn view_box(&self) -> &str {
@@ -38271,7 +40403,7 @@ impl IconShape for LdPlane {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPlay;
 impl IconShape for LdPlay {
     fn view_box(&self) -> &str {
@@ -38298,7 +40430,7 @@ impl IconShape for LdPlay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPlug2;
 impl IconShape for LdPlug2 {
     fn view_box(&self) -> &str {
@@ -38331,52 +40463,13 @@ impl IconShape for LdPlug2 {
                 d: "M5 8h14",
             }
             path {
-                d: "M6 11V8h12v3a6 6 0 1 1-12 0v0Z",
+                d: "M6 11V8h12v3a6 6 0 1 1-12 0Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdPlugZap2;
-impl IconShape for LdPlugZap2 {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            path {
-                d: "m13 2-2 2.5h3L12 7",
-            }
-            path {
-                d: "M10 14v-3",
-            }
-            path {
-                d: "M14 14v-3",
-            }
-            path {
-                d: "M11 19c-1.7 0-3-1.3-3-3v-2h8v2c0 1.7-1.3 3-3 3Z",
-            }
-            path {
-                d: "M12 22v-3",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPlugZap;
 impl IconShape for LdPlugZap {
     fn view_box(&self) -> &str {
@@ -38415,7 +40508,7 @@ impl IconShape for LdPlugZap {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPlug;
 impl IconShape for LdPlug {
     fn view_box(&self) -> &str {
@@ -38451,7 +40544,7 @@ impl IconShape for LdPlug {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPlus;
 impl IconShape for LdPlus {
     fn view_box(&self) -> &str {
@@ -38481,7 +40574,7 @@ impl IconShape for LdPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPocketKnife;
 impl IconShape for LdPocketKnife {
     fn view_box(&self) -> &str {
@@ -38520,7 +40613,7 @@ impl IconShape for LdPocketKnife {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPocket;
 impl IconShape for LdPocket {
     fn view_box(&self) -> &str {
@@ -38550,7 +40643,7 @@ impl IconShape for LdPocket {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPodcast;
 impl IconShape for LdPodcast {
     fn view_box(&self) -> &str {
@@ -38588,7 +40681,7 @@ impl IconShape for LdPodcast {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPointerOff;
 impl IconShape for LdPointerOff {
     fn view_box(&self) -> &str {
@@ -38630,7 +40723,7 @@ impl IconShape for LdPointerOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPointer;
 impl IconShape for LdPointer {
     fn view_box(&self) -> &str {
@@ -38654,13 +40747,13 @@ impl IconShape for LdPointer {
                 d: "M22 14a8 8 0 0 1-8 8",
             }
             path {
-                d: "M18 11v-1a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0",
+                d: "M18 11v-1a2 2 0 0 0-2-2a2 2 0 0 0-2 2",
             }
             path {
-                d: "M14 10V9a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v1",
+                d: "M14 10V9a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1",
             }
             path {
-                d: "M10 9.5V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v10",
+                d: "M10 9.5V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v10",
             }
             path {
                 d: "M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15",
@@ -38669,7 +40762,7 @@ impl IconShape for LdPointer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPopcorn;
 impl IconShape for LdPopcorn {
     fn view_box(&self) -> &str {
@@ -38705,7 +40798,7 @@ impl IconShape for LdPopcorn {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPopsicle;
 impl IconShape for LdPopsicle {
     fn view_box(&self) -> &str {
@@ -38735,7 +40828,7 @@ impl IconShape for LdPopsicle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPoundSterling;
 impl IconShape for LdPoundSterling {
     fn view_box(&self) -> &str {
@@ -38771,7 +40864,7 @@ impl IconShape for LdPoundSterling {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPowerOff;
 impl IconShape for LdPowerOff {
     fn view_box(&self) -> &str {
@@ -38807,7 +40900,7 @@ impl IconShape for LdPowerOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPower;
 impl IconShape for LdPower {
     fn view_box(&self) -> &str {
@@ -38837,7 +40930,7 @@ impl IconShape for LdPower {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPresentation;
 impl IconShape for LdPresentation {
     fn view_box(&self) -> &str {
@@ -38870,7 +40963,43 @@ impl IconShape for LdPresentation {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdPrinterCheck;
+impl IconShape for LdPrinterCheck {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M13.5 22H7a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v.5",
+            }
+            path {
+                d: "m16 19 2 2 4-4",
+            }
+            path {
+                d: "M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2",
+            }
+            path {
+                d: "M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPrinter;
 impl IconShape for LdPrinter {
     fn view_box(&self) -> &str {
@@ -38890,14 +41019,15 @@ impl IconShape for LdPrinter {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polyline {
-                points: "6 9 6 2 18 2 18 9",
-            }
             path {
                 d: "M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2",
             }
+            path {
+                d: "M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6",
+            }
             rect {
                 height: "8",
+                rx: "1",
                 width: "12",
                 x: "6",
                 y: "14",
@@ -38906,7 +41036,7 @@ impl IconShape for LdPrinter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdProjector;
 impl IconShape for LdProjector {
     fn view_box(&self) -> &str {
@@ -38950,7 +41080,7 @@ impl IconShape for LdProjector {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdProportions;
 impl IconShape for LdProportions {
     fn view_box(&self) -> &str {
@@ -38987,7 +41117,7 @@ impl IconShape for LdProportions {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPuzzle;
 impl IconShape for LdPuzzle {
     fn view_box(&self) -> &str {
@@ -39014,7 +41144,7 @@ impl IconShape for LdPuzzle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdPyramid;
 impl IconShape for LdPyramid {
     fn view_box(&self) -> &str {
@@ -39044,7 +41174,7 @@ impl IconShape for LdPyramid {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdQrCode;
 impl IconShape for LdQrCode {
     fn view_box(&self) -> &str {
@@ -39116,7 +41246,7 @@ impl IconShape for LdQrCode {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdQuote;
 impl IconShape for LdQuote {
     fn view_box(&self) -> &str {
@@ -39137,16 +41267,16 @@ impl IconShape for LdQuote {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z",
+                d: "M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z",
             }
             path {
-                d: "M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z",
+                d: "M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRabbit;
 impl IconShape for LdRabbit {
     fn view_box(&self) -> &str {
@@ -39185,7 +41315,7 @@ impl IconShape for LdRabbit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRadar;
 impl IconShape for LdRadar {
     fn view_box(&self) -> &str {
@@ -39235,7 +41365,7 @@ impl IconShape for LdRadar {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRadiation;
 impl IconShape for LdRadiation {
     fn view_box(&self) -> &str {
@@ -39256,7 +41386,7 @@ impl IconShape for LdRadiation {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M12 12h0.01",
+                d: "M12 12h.01",
             }
             path {
                 d: "M7.5 4.2c-.3-.5-.9-.7-1.3-.4C3.9 5.5 2.3 8.1 2 11c-.1.5.4 1 1 1h5c0-1.5.8-2.8 2-3.4-1.1-1.9-2-3.5-2.5-4.4z",
@@ -39271,7 +41401,7 @@ impl IconShape for LdRadiation {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRadical;
 impl IconShape for LdRadical {
     fn view_box(&self) -> &str {
@@ -39292,13 +41422,13 @@ impl IconShape for LdRadical {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M3 12h4l3 9 4-17h7",
+                d: "M3 12h3.28a1 1 0 0 1 .948.684l2.298 7.934a.5.5 0 0 0 .96-.044L13.82 4.771A1 1 0 0 1 14.792 4H21",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRadioReceiver;
 impl IconShape for LdRadioReceiver {
     fn view_box(&self) -> &str {
@@ -39332,13 +41462,13 @@ impl IconShape for LdRadioReceiver {
                 y: "8",
             }
             path {
-                d: "M18 12h0",
+                d: "M18 12h.01",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRadioTower;
 impl IconShape for LdRadioTower {
     fn view_box(&self) -> &str {
@@ -39385,7 +41515,7 @@ impl IconShape for LdRadioTower {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRadio;
 impl IconShape for LdRadio {
     fn view_box(&self) -> &str {
@@ -39426,7 +41556,7 @@ impl IconShape for LdRadio {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRadius;
 impl IconShape for LdRadius {
     fn view_box(&self) -> &str {
@@ -39466,7 +41596,7 @@ impl IconShape for LdRadius {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRailSymbol;
 impl IconShape for LdRailSymbol {
     fn view_box(&self) -> &str {
@@ -39499,7 +41629,7 @@ impl IconShape for LdRailSymbol {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRainbow;
 impl IconShape for LdRainbow {
     fn view_box(&self) -> &str {
@@ -39532,7 +41662,7 @@ impl IconShape for LdRainbow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRat;
 impl IconShape for LdRat {
     fn view_box(&self) -> &str {
@@ -39553,7 +41683,7 @@ impl IconShape for LdRat {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M17 5c0-1.7-1.3-3-3-3s-3 1.3-3 3c0 .8.3 1.5.8 2H11c-3.9 0-7 3.1-7 7v0c0 2.2 1.8 4 4 4",
+                d: "M17 5c0-1.7-1.3-3-3-3s-3 1.3-3 3c0 .8.3 1.5.8 2H11c-3.9 0-7 3.1-7 7c0 2.2 1.8 4 4 4",
             }
             path {
                 d: "M16.8 3.9c.3-.3.6-.5 1-.7 1.5-.6 3.3.1 3.9 1.6.6 1.5-.1 3.3-1.6 3.9l1.6 2.8c.2.3.2.7.2 1-.2.8-.9 1.2-1.7 1.1 0 0-1.6-.3-2.7-.6H17c-1.7 0-3 1.3-3 3",
@@ -39571,7 +41701,7 @@ impl IconShape for LdRat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRatio;
 impl IconShape for LdRatio {
     fn view_box(&self) -> &str {
@@ -39609,7 +41739,7 @@ impl IconShape for LdRatio {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdReceiptCent;
 impl IconShape for LdReceiptCent {
     fn view_box(&self) -> &str {
@@ -39642,7 +41772,7 @@ impl IconShape for LdReceiptCent {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdReceiptEuro;
 impl IconShape for LdReceiptEuro {
     fn view_box(&self) -> &str {
@@ -39675,7 +41805,7 @@ impl IconShape for LdReceiptEuro {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdReceiptIndianRupee;
 impl IconShape for LdReceiptIndianRupee {
     fn view_box(&self) -> &str {
@@ -39711,7 +41841,7 @@ impl IconShape for LdReceiptIndianRupee {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdReceiptJapaneseYen;
 impl IconShape for LdReceiptJapaneseYen {
     fn view_box(&self) -> &str {
@@ -39750,7 +41880,7 @@ impl IconShape for LdReceiptJapaneseYen {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdReceiptPoundSterling;
 impl IconShape for LdReceiptPoundSterling {
     fn view_box(&self) -> &str {
@@ -39786,7 +41916,7 @@ impl IconShape for LdReceiptPoundSterling {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdReceiptRussianRuble;
 impl IconShape for LdReceiptRussianRuble {
     fn view_box(&self) -> &str {
@@ -39819,7 +41949,7 @@ impl IconShape for LdReceiptRussianRuble {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdReceiptSwissFranc;
 impl IconShape for LdReceiptSwissFranc {
     fn view_box(&self) -> &str {
@@ -39855,7 +41985,7 @@ impl IconShape for LdReceiptSwissFranc {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdReceiptText;
 impl IconShape for LdReceiptText {
     fn view_box(&self) -> &str {
@@ -39891,7 +42021,7 @@ impl IconShape for LdReceiptText {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdReceipt;
 impl IconShape for LdReceipt {
     fn view_box(&self) -> &str {
@@ -39924,7 +42054,7 @@ impl IconShape for LdReceipt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRectangleEllipsis;
 impl IconShape for LdRectangleEllipsis {
     fn view_box(&self) -> &str {
@@ -39964,7 +42094,7 @@ impl IconShape for LdRectangleEllipsis {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRectangleHorizontal;
 impl IconShape for LdRectangleHorizontal {
     fn view_box(&self) -> &str {
@@ -39995,7 +42125,7 @@ impl IconShape for LdRectangleHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRectangleVertical;
 impl IconShape for LdRectangleVertical {
     fn view_box(&self) -> &str {
@@ -40026,7 +42156,7 @@ impl IconShape for LdRectangleVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRecycle;
 impl IconShape for LdRecycle {
     fn view_box(&self) -> &str {
@@ -40068,7 +42198,7 @@ impl IconShape for LdRecycle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRedo2;
 impl IconShape for LdRedo2 {
     fn view_box(&self) -> &str {
@@ -40092,13 +42222,13 @@ impl IconShape for LdRedo2 {
                 d: "m15 14 5-5-5-5",
             }
             path {
-                d: "M20 9H9.5A5.5 5.5 0 0 0 4 14.5v0A5.5 5.5 0 0 0 9.5 20H13",
+                d: "M20 9H9.5A5.5 5.5 0 0 0 4 14.5A5.5 5.5 0 0 0 9.5 20H13",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRedoDot;
 impl IconShape for LdRedoDot {
     fn view_box(&self) -> &str {
@@ -40133,7 +42263,7 @@ impl IconShape for LdRedoDot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRedo;
 impl IconShape for LdRedo {
     fn view_box(&self) -> &str {
@@ -40163,7 +42293,7 @@ impl IconShape for LdRedo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRefreshCcwDot;
 impl IconShape for LdRefreshCcwDot {
     fn view_box(&self) -> &str {
@@ -40204,7 +42334,7 @@ impl IconShape for LdRefreshCcwDot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRefreshCcw;
 impl IconShape for LdRefreshCcw {
     fn view_box(&self) -> &str {
@@ -40240,7 +42370,7 @@ impl IconShape for LdRefreshCcw {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRefreshCwOff;
 impl IconShape for LdRefreshCwOff {
     fn view_box(&self) -> &str {
@@ -40285,7 +42415,7 @@ impl IconShape for LdRefreshCwOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRefreshCw;
 impl IconShape for LdRefreshCw {
     fn view_box(&self) -> &str {
@@ -40321,7 +42451,7 @@ impl IconShape for LdRefreshCw {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRefrigerator;
 impl IconShape for LdRefrigerator {
     fn view_box(&self) -> &str {
@@ -40354,7 +42484,7 @@ impl IconShape for LdRefrigerator {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRegex;
 impl IconShape for LdRegex {
     fn view_box(&self) -> &str {
@@ -40390,7 +42520,7 @@ impl IconShape for LdRegex {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRemoveFormatting;
 impl IconShape for LdRemoveFormatting {
     fn view_box(&self) -> &str {
@@ -40429,7 +42559,7 @@ impl IconShape for LdRemoveFormatting {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRepeat1;
 impl IconShape for LdRepeat1 {
     fn view_box(&self) -> &str {
@@ -40468,7 +42598,7 @@ impl IconShape for LdRepeat1 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRepeat2;
 impl IconShape for LdRepeat2 {
     fn view_box(&self) -> &str {
@@ -40504,7 +42634,7 @@ impl IconShape for LdRepeat2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRepeat;
 impl IconShape for LdRepeat {
     fn view_box(&self) -> &str {
@@ -40540,7 +42670,7 @@ impl IconShape for LdRepeat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdReplaceAll;
 impl IconShape for LdReplaceAll {
     fn view_box(&self) -> &str {
@@ -40561,22 +42691,28 @@ impl IconShape for LdReplaceAll {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M14 4c0-1.1.9-2 2-2",
+                d: "M14 14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2",
             }
             path {
-                d: "M20 2c1.1 0 2 .9 2 2",
+                d: "M14 4a2 2 0 0 1 2-2",
             }
             path {
-                d: "M22 8c0 1.1-.9 2-2 2",
+                d: "M16 10a2 2 0 0 1-2-2",
             }
             path {
-                d: "M16 10c-1.1 0-2-.9-2-2",
+                d: "M20 14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2",
+            }
+            path {
+                d: "M20 2a2 2 0 0 1 2 2",
+            }
+            path {
+                d: "M22 8a2 2 0 0 1-2 2",
             }
             path {
                 d: "m3 7 3 3 3-3",
             }
             path {
-                d: "M6 10V5c0-1.7 1.3-3 3-3h1",
+                d: "M6 10V5a 3 3 0 0 1 3-3h1",
             }
             rect {
                 height: "8",
@@ -40585,17 +42721,11 @@ impl IconShape for LdReplaceAll {
                 x: "2",
                 y: "14",
             }
-            path {
-                d: "M14 14c1.1 0 2 .9 2 2v4c0 1.1-.9 2-2 2",
-            }
-            path {
-                d: "M20 14c1.1 0 2 .9 2 2v4c0 1.1-.9 2-2 2",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdReplace;
 impl IconShape for LdReplace {
     fn view_box(&self) -> &str {
@@ -40616,22 +42746,22 @@ impl IconShape for LdReplace {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M14 4c0-1.1.9-2 2-2",
+                d: "M14 4a2 2 0 0 1 2-2",
             }
             path {
-                d: "M20 2c1.1 0 2 .9 2 2",
+                d: "M16 10a2 2 0 0 1-2-2",
             }
             path {
-                d: "M22 8c0 1.1-.9 2-2 2",
+                d: "M20 2a2 2 0 0 1 2 2",
             }
             path {
-                d: "M16 10c-1.1 0-2-.9-2-2",
+                d: "M22 8a2 2 0 0 1-2 2",
             }
             path {
                 d: "m3 7 3 3 3-3",
             }
             path {
-                d: "M6 10V5c0-1.7 1.3-3 3-3h1",
+                d: "M6 10V5a3 3 0 0 1 3-3h1",
             }
             rect {
                 height: "8",
@@ -40644,7 +42774,7 @@ impl IconShape for LdReplace {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdReplyAll;
 impl IconShape for LdReplyAll {
     fn view_box(&self) -> &str {
@@ -40677,7 +42807,7 @@ impl IconShape for LdReplyAll {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdReply;
 impl IconShape for LdReply {
     fn view_box(&self) -> &str {
@@ -40707,7 +42837,7 @@ impl IconShape for LdReply {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRewind;
 impl IconShape for LdRewind {
     fn view_box(&self) -> &str {
@@ -40737,7 +42867,7 @@ impl IconShape for LdRewind {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRibbon;
 impl IconShape for LdRibbon {
     fn view_box(&self) -> &str {
@@ -40758,25 +42888,25 @@ impl IconShape for LdRibbon {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M17.75 9.01c-.52 2.08-1.83 3.64-3.18 5.49l-2.6 3.54-2.97 4-3.5-2.54 3.85-4.97c-1.86-2.61-2.8-3.77-3.16-5.44",
+                d: "M12 11.22C11 9.997 10 9 10 8a2 2 0 0 1 4 0c0 1-.998 2.002-2.01 3.22",
             }
             path {
-                d: "M17.75 9.01A7 7 0 0 0 6.2 9.1C6.06 8.5 6 7.82 6 7c0-3.5 2.83-5 5.98-5C15.24 2 18 3.5 18 7c0 .73-.09 1.4-.25 2.01Z",
+                d: "m12 18 2.57-3.5",
             }
             path {
-                d: "m9.35 14.53 2.64-3.31",
+                d: "M6.243 9.016a7 7 0 0 1 11.507-.009",
             }
             path {
-                d: "m11.97 18.04 2.99 4 3.54-2.54-3.93-5",
+                d: "M9.35 14.53 12 11.22",
             }
             path {
-                d: "M14 8c0 1-1 2-2.01 3.22C11 10 10 9 10 8a2 2 0 1 1 4 0",
+                d: "M9.35 14.53C7.728 12.246 6 10.221 6 7a6 5 0 0 1 12 0c-.005 3.22-1.778 5.235-3.43 7.5l3.557 4.527a1 1 0 0 1-.203 1.43l-1.894 1.36a1 1 0 0 1-1.384-.215L12 18l-2.679 3.593a1 1 0 0 1-1.39.213l-1.865-1.353a1 1 0 0 1-.203-1.422z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRocket;
 impl IconShape for LdRocket {
     fn view_box(&self) -> &str {
@@ -40812,7 +42942,7 @@ impl IconShape for LdRocket {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRockingChair;
 impl IconShape for LdRockingChair {
     fn view_box(&self) -> &str {
@@ -40854,7 +42984,7 @@ impl IconShape for LdRockingChair {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRollerCoaster;
 impl IconShape for LdRollerCoaster {
     fn view_box(&self) -> &str {
@@ -40899,7 +43029,7 @@ impl IconShape for LdRollerCoaster {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRotate3d;
 impl IconShape for LdRotate3d {
     fn view_box(&self) -> &str {
@@ -40932,7 +43062,7 @@ impl IconShape for LdRotate3d {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRotateCcwSquare;
 impl IconShape for LdRotateCcwSquare {
     fn view_box(&self) -> &str {
@@ -40965,7 +43095,7 @@ impl IconShape for LdRotateCcwSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRotateCcw;
 impl IconShape for LdRotateCcw {
     fn view_box(&self) -> &str {
@@ -40995,7 +43125,7 @@ impl IconShape for LdRotateCcw {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRotateCwSquare;
 impl IconShape for LdRotateCwSquare {
     fn view_box(&self) -> &str {
@@ -41028,7 +43158,7 @@ impl IconShape for LdRotateCwSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRotateCw;
 impl IconShape for LdRotateCw {
     fn view_box(&self) -> &str {
@@ -41058,7 +43188,7 @@ impl IconShape for LdRotateCw {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRouteOff;
 impl IconShape for LdRouteOff {
     fn view_box(&self) -> &str {
@@ -41107,7 +43237,7 @@ impl IconShape for LdRouteOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRoute;
 impl IconShape for LdRoute {
     fn view_box(&self) -> &str {
@@ -41144,7 +43274,7 @@ impl IconShape for LdRoute {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRouter;
 impl IconShape for LdRouter {
     fn view_box(&self) -> &str {
@@ -41190,7 +43320,7 @@ impl IconShape for LdRouter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRows2;
 impl IconShape for LdRows2 {
     fn view_box(&self) -> &str {
@@ -41224,7 +43354,7 @@ impl IconShape for LdRows2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRows3;
 impl IconShape for LdRows3 {
     fn view_box(&self) -> &str {
@@ -41261,7 +43391,7 @@ impl IconShape for LdRows3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRows4;
 impl IconShape for LdRows4 {
     fn view_box(&self) -> &str {
@@ -41301,7 +43431,7 @@ impl IconShape for LdRows4 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRss;
 impl IconShape for LdRss {
     fn view_box(&self) -> &str {
@@ -41336,7 +43466,7 @@ impl IconShape for LdRss {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRuler;
 impl IconShape for LdRuler {
     fn view_box(&self) -> &str {
@@ -41375,7 +43505,7 @@ impl IconShape for LdRuler {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdRussianRuble;
 impl IconShape for LdRussianRuble {
     fn view_box(&self) -> &str {
@@ -41405,7 +43535,7 @@ impl IconShape for LdRussianRuble {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSailboat;
 impl IconShape for LdSailboat {
     fn view_box(&self) -> &str {
@@ -41438,7 +43568,7 @@ impl IconShape for LdSailboat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSalad;
 impl IconShape for LdSalad {
     fn view_box(&self) -> &str {
@@ -41477,7 +43607,7 @@ impl IconShape for LdSalad {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSandwich;
 impl IconShape for LdSandwich {
     fn view_box(&self) -> &str {
@@ -41498,22 +43628,29 @@ impl IconShape for LdSandwich {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M3 11v3a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-3",
+                d: "m2.37 11.223 8.372-6.777a2 2 0 0 1 2.516 0l8.371 6.777",
             }
             path {
-                d: "M12 19H4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-3.83",
+                d: "M21 15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-5.25",
             }
             path {
-                d: "m3 11 7.77-6.04a2 2 0 0 1 2.46 0L21 11H3Z",
+                d: "M3 15a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h9",
             }
             path {
-                d: "M12.97 19.77 7 15h12.5l-3.75 4.5a2 2 0 0 1-2.78.27Z",
+                d: "m6.67 15 6.13 4.6a2 2 0 0 0 2.8-.4l3.15-4.2",
+            }
+            rect {
+                height: "4",
+                rx: "1",
+                width: "20",
+                x: "2",
+                y: "11",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSatelliteDish;
 impl IconShape for LdSatelliteDish {
     fn view_box(&self) -> &str {
@@ -41549,7 +43686,7 @@ impl IconShape for LdSatelliteDish {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSatellite;
 impl IconShape for LdSatellite {
     fn view_box(&self) -> &str {
@@ -41588,7 +43725,7 @@ impl IconShape for LdSatellite {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSaveAll;
 impl IconShape for LdSaveAll {
     fn view_box(&self) -> &str {
@@ -41609,22 +43746,67 @@ impl IconShape for LdSaveAll {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M6 4a2 2 0 0 1 2-2h10l4 4v10.2a2 2 0 0 1-2 1.8H8a2 2 0 0 1-2-2Z",
+                d: "M10 2v3a1 1 0 0 0 1 1h5",
             }
             path {
-                d: "M10 2v4h6",
-            }
-            path {
-                d: "M18 18v-7h-8v7",
+                d: "M18 18v-6a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v6",
             }
             path {
                 d: "M18 22H4a2 2 0 0 1-2-2V6",
+            }
+            path {
+                d: "M8 18a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9.172a2 2 0 0 1 1.414.586l2.828 2.828A2 2 0 0 1 22 6.828V16a2 2 0 0 1-2.01 2z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdSaveOff;
+impl IconShape for LdSaveOff {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M13 13H8a1 1 0 0 0-1 1v7",
+            }
+            path {
+                d: "M14 8h1",
+            }
+            path {
+                d: "M17 21v-4",
+            }
+            path {
+                d: "m2 2 20 20",
+            }
+            path {
+                d: "M20.41 20.41A2 2 0 0 1 19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 .59-1.41",
+            }
+            path {
+                d: "M29.5 11.5s5 5 4 5",
+            }
+            path {
+                d: "M9 3h6.2a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V15",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSave;
 impl IconShape for LdSave {
     fn view_box(&self) -> &str {
@@ -41657,7 +43839,7 @@ impl IconShape for LdSave {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScale3d;
 impl IconShape for LdScale3d {
     fn view_box(&self) -> &str {
@@ -41697,7 +43879,7 @@ impl IconShape for LdScale3d {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScale;
 impl IconShape for LdScale {
     fn view_box(&self) -> &str {
@@ -41736,7 +43918,7 @@ impl IconShape for LdScale {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScaling;
 impl IconShape for LdScaling {
     fn view_box(&self) -> &str {
@@ -41772,7 +43954,7 @@ impl IconShape for LdScaling {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScanBarcode;
 impl IconShape for LdScanBarcode {
     fn view_box(&self) -> &str {
@@ -41817,7 +43999,7 @@ impl IconShape for LdScanBarcode {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScanEye;
 impl IconShape for LdScanEye {
     fn view_box(&self) -> &str {
@@ -41855,13 +44037,13 @@ impl IconShape for LdScanEye {
                 r: "1",
             }
             path {
-                d: "M5 12s2.5-5 7-5 7 5 7 5-2.5 5-7 5-7-5-7-5",
+                d: "M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScanFace;
 impl IconShape for LdScanFace {
     fn view_box(&self) -> &str {
@@ -41906,7 +44088,7 @@ impl IconShape for LdScanFace {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScanLine;
 impl IconShape for LdScanLine {
     fn view_box(&self) -> &str {
@@ -41945,7 +44127,59 @@ impl IconShape for LdScanLine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdScanQrCode;
+impl IconShape for LdScanQrCode {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M17 12v4a1 1 0 0 1-1 1h-4",
+            }
+            path {
+                d: "M17 3h2a2 2 0 0 1 2 2v2",
+            }
+            path {
+                d: "M17 8V7",
+            }
+            path {
+                d: "M21 17v2a2 2 0 0 1-2 2h-2",
+            }
+            path {
+                d: "M3 7V5a2 2 0 0 1 2-2h2",
+            }
+            path {
+                d: "M7 17h.01",
+            }
+            path {
+                d: "M7 21H5a2 2 0 0 1-2-2v-2",
+            }
+            rect {
+                height: "5",
+                rx: "1",
+                width: "5",
+                x: "7",
+                y: "7",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScanSearch;
 impl IconShape for LdScanSearch {
     fn view_box(&self) -> &str {
@@ -41989,7 +44223,7 @@ impl IconShape for LdScanSearch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScanText;
 impl IconShape for LdScanText {
     fn view_box(&self) -> &str {
@@ -42034,7 +44268,7 @@ impl IconShape for LdScanText {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScan;
 impl IconShape for LdScan {
     fn view_box(&self) -> &str {
@@ -42070,59 +44304,7 @@ impl IconShape for LdScan {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdScatterChart;
-impl IconShape for LdScatterChart {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            circle {
-                cx: "7.5",
-                cy: "7.5",
-                r: ".5",
-            }
-            circle {
-                cx: "18.5",
-                cy: "5.5",
-                r: ".5",
-            }
-            circle {
-                cx: "11.5",
-                cy: "11.5",
-                r: ".5",
-            }
-            circle {
-                cx: "7.5",
-                cy: "16.5",
-                r: ".5",
-            }
-            circle {
-                cx: "17.5",
-                cy: "14.5",
-                r: ".5",
-            }
-            path {
-                d: "M3 3v18h18",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSchool;
 impl IconShape for LdSchool {
     fn view_box(&self) -> &str {
@@ -42166,7 +44348,7 @@ impl IconShape for LdSchool {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScissorsLineDashed;
 impl IconShape for LdScissorsLineDashed {
     fn view_box(&self) -> &str {
@@ -42215,7 +44397,7 @@ impl IconShape for LdScissorsLineDashed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScissors;
 impl IconShape for LdScissors {
     fn view_box(&self) -> &str {
@@ -42258,7 +44440,7 @@ impl IconShape for LdScissors {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScreenShareOff;
 impl IconShape for LdScreenShareOff {
     fn view_box(&self) -> &str {
@@ -42297,7 +44479,7 @@ impl IconShape for LdScreenShareOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScreenShare;
 impl IconShape for LdScreenShare {
     fn view_box(&self) -> &str {
@@ -42336,7 +44518,7 @@ impl IconShape for LdScreenShare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScrollText;
 impl IconShape for LdScrollText {
     fn view_box(&self) -> &str {
@@ -42372,7 +44554,7 @@ impl IconShape for LdScrollText {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdScroll;
 impl IconShape for LdScroll {
     fn view_box(&self) -> &str {
@@ -42402,7 +44584,7 @@ impl IconShape for LdScroll {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSearchCheck;
 impl IconShape for LdSearchCheck {
     fn view_box(&self) -> &str {
@@ -42437,7 +44619,7 @@ impl IconShape for LdSearchCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSearchCode;
 impl IconShape for LdSearchCode {
     fn view_box(&self) -> &str {
@@ -42458,24 +44640,24 @@ impl IconShape for LdSearchCode {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m9 9-2 2 2 2",
+                d: "m13 13.5 2-2.5-2-2.5",
             }
             path {
-                d: "m13 13 2-2-2-2",
+                d: "m21 21-4.3-4.3",
+            }
+            path {
+                d: "M9 8.5 7 11l2 2.5",
             }
             circle {
                 cx: "11",
                 cy: "11",
                 r: "8",
             }
-            path {
-                d: "m21 21-4.3-4.3",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSearchSlash;
 impl IconShape for LdSearchSlash {
     fn view_box(&self) -> &str {
@@ -42510,7 +44692,7 @@ impl IconShape for LdSearchSlash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSearchX;
 impl IconShape for LdSearchX {
     fn view_box(&self) -> &str {
@@ -42548,7 +44730,7 @@ impl IconShape for LdSearchX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSearch;
 impl IconShape for LdSearch {
     fn view_box(&self) -> &str {
@@ -42580,7 +44762,37 @@ impl IconShape for LdSearch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdSection;
+impl IconShape for LdSection {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M16 5a4 3 0 0 0-8 0c0 4 8 3 8 7a4 3 0 0 1-8 0",
+            }
+            path {
+                d: "M8 19a4 3 0 0 0 8 0c0-4-8-3-8-7a4 3 0 0 1 8 0",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSendHorizontal;
 impl IconShape for LdSendHorizontal {
     fn view_box(&self) -> &str {
@@ -42601,7 +44813,7 @@ impl IconShape for LdSendHorizontal {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m3 3 3 9-3 9 19-9Z",
+                d: "M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z",
             }
             path {
                 d: "M6 12h16",
@@ -42610,7 +44822,7 @@ impl IconShape for LdSendHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSendToBack;
 impl IconShape for LdSendToBack {
     fn view_box(&self) -> &str {
@@ -42654,7 +44866,7 @@ impl IconShape for LdSendToBack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSend;
 impl IconShape for LdSend {
     fn view_box(&self) -> &str {
@@ -42675,16 +44887,16 @@ impl IconShape for LdSend {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m22 2-7 20-4-9-9-4Z",
+                d: "M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z",
             }
             path {
-                d: "M22 2 11 13",
+                d: "m21.854 2.147-10.94 10.939",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSeparatorHorizontal;
 impl IconShape for LdSeparatorHorizontal {
     fn view_box(&self) -> &str {
@@ -42720,7 +44932,7 @@ impl IconShape for LdSeparatorHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSeparatorVertical;
 impl IconShape for LdSeparatorVertical {
     fn view_box(&self) -> &str {
@@ -42756,7 +44968,7 @@ impl IconShape for LdSeparatorVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdServerCog;
 impl IconShape for LdServerCog {
     fn view_box(&self) -> &str {
@@ -42821,7 +45033,7 @@ impl IconShape for LdServerCog {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdServerCrash;
 impl IconShape for LdServerCrash {
     fn view_box(&self) -> &str {
@@ -42860,7 +45072,7 @@ impl IconShape for LdServerCrash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdServerOff;
 impl IconShape for LdServerOff {
     fn view_box(&self) -> &str {
@@ -42902,7 +45114,7 @@ impl IconShape for LdServerOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdServer;
 impl IconShape for LdServer {
     fn view_box(&self) -> &str {
@@ -42954,7 +45166,7 @@ impl IconShape for LdServer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSettings2;
 impl IconShape for LdSettings2 {
     fn view_box(&self) -> &str {
@@ -42994,7 +45206,7 @@ impl IconShape for LdSettings2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSettings;
 impl IconShape for LdSettings {
     fn view_box(&self) -> &str {
@@ -43026,7 +45238,7 @@ impl IconShape for LdSettings {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShapes;
 impl IconShape for LdShapes {
     fn view_box(&self) -> &str {
@@ -43065,7 +45277,7 @@ impl IconShape for LdShapes {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShare2;
 impl IconShape for LdShare2 {
     fn view_box(&self) -> &str {
@@ -43116,7 +45328,7 @@ impl IconShape for LdShare2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShare;
 impl IconShape for LdShare {
     fn view_box(&self) -> &str {
@@ -43152,7 +45364,7 @@ impl IconShape for LdShare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSheet;
 impl IconShape for LdSheet {
     fn view_box(&self) -> &str {
@@ -43208,7 +45420,7 @@ impl IconShape for LdSheet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShell;
 impl IconShape for LdShell {
     fn view_box(&self) -> &str {
@@ -43235,7 +45447,7 @@ impl IconShape for LdShell {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShieldAlert;
 impl IconShape for LdShieldAlert {
     fn view_box(&self) -> &str {
@@ -43268,7 +45480,7 @@ impl IconShape for LdShieldAlert {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShieldBan;
 impl IconShape for LdShieldBan {
     fn view_box(&self) -> &str {
@@ -43298,7 +45510,7 @@ impl IconShape for LdShieldBan {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShieldCheck;
 impl IconShape for LdShieldCheck {
     fn view_box(&self) -> &str {
@@ -43328,7 +45540,7 @@ impl IconShape for LdShieldCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShieldEllipsis;
 impl IconShape for LdShieldEllipsis {
     fn view_box(&self) -> &str {
@@ -43364,7 +45576,7 @@ impl IconShape for LdShieldEllipsis {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShieldHalf;
 impl IconShape for LdShieldHalf {
     fn view_box(&self) -> &str {
@@ -43394,7 +45606,7 @@ impl IconShape for LdShieldHalf {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShieldMinus;
 impl IconShape for LdShieldMinus {
     fn view_box(&self) -> &str {
@@ -43424,7 +45636,7 @@ impl IconShape for LdShieldMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShieldOff;
 impl IconShape for LdShieldOff {
     fn view_box(&self) -> &str {
@@ -43457,7 +45669,7 @@ impl IconShape for LdShieldOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShieldPlus;
 impl IconShape for LdShieldPlus {
     fn view_box(&self) -> &str {
@@ -43490,7 +45702,7 @@ impl IconShape for LdShieldPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShieldQuestion;
 impl IconShape for LdShieldQuestion {
     fn view_box(&self) -> &str {
@@ -43523,7 +45735,7 @@ impl IconShape for LdShieldQuestion {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShieldX;
 impl IconShape for LdShieldX {
     fn view_box(&self) -> &str {
@@ -43556,7 +45768,7 @@ impl IconShape for LdShieldX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShield;
 impl IconShape for LdShield {
     fn view_box(&self) -> &str {
@@ -43583,7 +45795,7 @@ impl IconShape for LdShield {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShipWheel;
 impl IconShape for LdShipWheel {
     fn view_box(&self) -> &str {
@@ -43641,7 +45853,7 @@ impl IconShape for LdShipWheel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShip;
 impl IconShape for LdShip {
     fn view_box(&self) -> &str {
@@ -43680,7 +45892,7 @@ impl IconShape for LdShip {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShirt;
 impl IconShape for LdShirt {
     fn view_box(&self) -> &str {
@@ -43707,7 +45919,7 @@ impl IconShape for LdShirt {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShoppingBag;
 impl IconShape for LdShoppingBag {
     fn view_box(&self) -> &str {
@@ -43740,7 +45952,7 @@ impl IconShape for LdShoppingBag {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShoppingBasket;
 impl IconShape for LdShoppingBasket {
     fn view_box(&self) -> &str {
@@ -43785,7 +45997,7 @@ impl IconShape for LdShoppingBasket {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShoppingCart;
 impl IconShape for LdShoppingCart {
     fn view_box(&self) -> &str {
@@ -43822,7 +46034,7 @@ impl IconShape for LdShoppingCart {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShovel;
 impl IconShape for LdShovel {
     fn view_box(&self) -> &str {
@@ -43855,7 +46067,7 @@ impl IconShape for LdShovel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShowerHead;
 impl IconShape for LdShowerHead {
     fn view_box(&self) -> &str {
@@ -43909,7 +46121,7 @@ impl IconShape for LdShowerHead {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShrink;
 impl IconShape for LdShrink {
     fn view_box(&self) -> &str {
@@ -43945,7 +46157,7 @@ impl IconShape for LdShrink {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShrub;
 impl IconShape for LdShrub {
     fn view_box(&self) -> &str {
@@ -43969,7 +46181,7 @@ impl IconShape for LdShrub {
                 d: "M12 22v-7l-2-2",
             }
             path {
-                d: "M17 8v.8A6 6 0 0 1 13.8 20v0H10v0A6.5 6.5 0 0 1 7 8h0a5 5 0 0 1 10 0Z",
+                d: "M17 8v.8A6 6 0 0 1 13.8 20H10A6.5 6.5 0 0 1 7 8a5 5 0 0 1 10 0Z",
             }
             path {
                 d: "m14 14-2 2",
@@ -43978,7 +46190,7 @@ impl IconShape for LdShrub {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdShuffle;
 impl IconShape for LdShuffle {
     fn view_box(&self) -> &str {
@@ -44017,7 +46229,7 @@ impl IconShape for LdShuffle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSigma;
 impl IconShape for LdSigma {
     fn view_box(&self) -> &str {
@@ -44038,13 +46250,13 @@ impl IconShape for LdSigma {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M18 7V4H6l6 8-6 8h12v-3",
+                d: "M18 7V5a1 1 0 0 0-1-1H6.5a.5.5 0 0 0-.4.8l4.5 6a2 2 0 0 1 0 2.4l-4.5 6a.5.5 0 0 0 .4.8H17a1 1 0 0 0 1-1v-2",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSignalHigh;
 impl IconShape for LdSignalHigh {
     fn view_box(&self) -> &str {
@@ -44080,7 +46292,7 @@ impl IconShape for LdSignalHigh {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSignalLow;
 impl IconShape for LdSignalLow {
     fn view_box(&self) -> &str {
@@ -44110,7 +46322,7 @@ impl IconShape for LdSignalLow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSignalMedium;
 impl IconShape for LdSignalMedium {
     fn view_box(&self) -> &str {
@@ -44143,7 +46355,7 @@ impl IconShape for LdSignalMedium {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSignalZero;
 impl IconShape for LdSignalZero {
     fn view_box(&self) -> &str {
@@ -44170,7 +46382,7 @@ impl IconShape for LdSignalZero {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSignal;
 impl IconShape for LdSignal {
     fn view_box(&self) -> &str {
@@ -44209,7 +46421,37 @@ impl IconShape for LdSignal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdSignature;
+impl IconShape for LdSignature {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "m21 17-2.156-1.868A.5.5 0 0 0 18 15.5v.5a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1c0-2.545-3.991-3.97-8.5-4a1 1 0 0 0 0 5c4.153 0 4.745-11.295 5.708-13.5a2.5 2.5 0 1 1 3.31 3.284",
+            }
+            path {
+                d: "M3 21h18",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSignpostBig;
 impl IconShape for LdSignpostBig {
     fn view_box(&self) -> &str {
@@ -44245,7 +46487,7 @@ impl IconShape for LdSignpostBig {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSignpost;
 impl IconShape for LdSignpost {
     fn view_box(&self) -> &str {
@@ -44266,19 +46508,19 @@ impl IconShape for LdSignpost {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
+                d: "M12 13v8",
+            }
+            path {
                 d: "M12 3v3",
             }
             path {
-                d: "M18.5 13h-13L2 9.5 5.5 6h13L22 9.5Z",
-            }
-            path {
-                d: "M12 13v8",
+                d: "M18 6a2 2 0 0 1 1.387.56l2.307 2.22a1 1 0 0 1 0 1.44l-2.307 2.22A2 2 0 0 1 18 13H6a2 2 0 0 1-1.387-.56l-2.306-2.22a1 1 0 0 1 0-1.44l2.306-2.22A2 2 0 0 1 6 6z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSiren;
 impl IconShape for LdSiren {
     fn view_box(&self) -> &str {
@@ -44326,7 +46568,7 @@ impl IconShape for LdSiren {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSkipBack;
 impl IconShape for LdSkipBack {
     fn view_box(&self) -> &str {
@@ -44359,7 +46601,7 @@ impl IconShape for LdSkipBack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSkipForward;
 impl IconShape for LdSkipForward {
     fn view_box(&self) -> &str {
@@ -44392,7 +46634,7 @@ impl IconShape for LdSkipForward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSkull;
 impl IconShape for LdSkull {
     fn view_box(&self) -> &str {
@@ -44412,30 +46654,27 @@ impl IconShape for LdSkull {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            circle {
-                cx: "9",
-                cy: "12",
-                r: "1",
+            path {
+                d: "m12.5 17-.5-1-.5 1h1z",
+            }
+            path {
+                d: "M15 22a1 1 0 0 0 1-1v-1a2 2 0 0 0 1.56-3.25 8 8 0 1 0-11.12 0A2 2 0 0 0 8 20v1a1 1 0 0 0 1 1z",
             }
             circle {
                 cx: "15",
                 cy: "12",
                 r: "1",
             }
-            path {
-                d: "M8 20v2h8v-2",
-            }
-            path {
-                d: "m12.5 17-.5-1-.5 1h1z",
-            }
-            path {
-                d: "M16 20a2 2 0 0 0 1.56-3.25 8 8 0 1 0-11.12 0A2 2 0 0 0 8 20",
+            circle {
+                cx: "9",
+                cy: "12",
+                r: "1",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSlack;
 impl IconShape for LdSlack {
     fn view_box(&self) -> &str {
@@ -44499,7 +46738,7 @@ impl IconShape for LdSlack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSlash;
 impl IconShape for LdSlash {
     fn view_box(&self) -> &str {
@@ -44526,7 +46765,7 @@ impl IconShape for LdSlash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSlice;
 impl IconShape for LdSlice {
     fn view_box(&self) -> &str {
@@ -44556,7 +46795,7 @@ impl IconShape for LdSlice {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSlidersHorizontal;
 impl IconShape for LdSlidersHorizontal {
     fn view_box(&self) -> &str {
@@ -44634,7 +46873,7 @@ impl IconShape for LdSlidersHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSlidersVertical;
 impl IconShape for LdSlidersVertical {
     fn view_box(&self) -> &str {
@@ -44712,7 +46951,7 @@ impl IconShape for LdSlidersVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSmartphoneCharging;
 impl IconShape for LdSmartphoneCharging {
     fn view_box(&self) -> &str {
@@ -44747,7 +46986,7 @@ impl IconShape for LdSmartphoneCharging {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSmartphoneNfc;
 impl IconShape for LdSmartphoneNfc {
     fn view_box(&self) -> &str {
@@ -44787,7 +47026,7 @@ impl IconShape for LdSmartphoneNfc {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSmartphone;
 impl IconShape for LdSmartphone {
     fn view_box(&self) -> &str {
@@ -44822,7 +47061,7 @@ impl IconShape for LdSmartphone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSmilePlus;
 impl IconShape for LdSmilePlus {
     fn view_box(&self) -> &str {
@@ -44870,7 +47109,7 @@ impl IconShape for LdSmilePlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSmile;
 impl IconShape for LdSmile {
     fn view_box(&self) -> &str {
@@ -44914,7 +47153,7 @@ impl IconShape for LdSmile {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSnail;
 impl IconShape for LdSnail {
     fn view_box(&self) -> &str {
@@ -44955,7 +47194,7 @@ impl IconShape for LdSnail {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSnowflake;
 impl IconShape for LdSnowflake {
     fn view_box(&self) -> &str {
@@ -45003,7 +47242,7 @@ impl IconShape for LdSnowflake {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSofa;
 impl IconShape for LdSofa {
     fn view_box(&self) -> &str {
@@ -45027,7 +47266,7 @@ impl IconShape for LdSofa {
                 d: "M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3",
             }
             path {
-                d: "M2 11v5a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v2H6v-2a2 2 0 0 0-4 0Z",
+                d: "M2 16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z",
             }
             path {
                 d: "M4 18v2",
@@ -45042,7 +47281,7 @@ impl IconShape for LdSofa {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSoup;
 impl IconShape for LdSoup {
     fn view_box(&self) -> &str {
@@ -45084,7 +47323,7 @@ impl IconShape for LdSoup {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSpace;
 impl IconShape for LdSpace {
     fn view_box(&self) -> &str {
@@ -45111,7 +47350,7 @@ impl IconShape for LdSpace {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSpade;
 impl IconShape for LdSpade {
     fn view_box(&self) -> &str {
@@ -45141,7 +47380,7 @@ impl IconShape for LdSpade {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSparkle;
 impl IconShape for LdSparkle {
     fn view_box(&self) -> &str {
@@ -45162,13 +47401,13 @@ impl IconShape for LdSparkle {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m12 3-1.9 5.8a2 2 0 0 1-1.287 1.288L3 12l5.8 1.9a2 2 0 0 1 1.288 1.287L12 21l1.9-5.8a2 2 0 0 1 1.287-1.288L21 12l-5.8-1.9a2 2 0 0 1-1.288-1.287Z",
+                d: "M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSparkles;
 impl IconShape for LdSparkles {
     fn view_box(&self) -> &str {
@@ -45189,25 +47428,25 @@ impl IconShape for LdSparkles {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z",
+                d: "M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z",
             }
             path {
-                d: "M5 3v4",
+                d: "M20 3v4",
             }
             path {
-                d: "M19 17v4",
+                d: "M22 5h-4",
             }
             path {
-                d: "M3 5h4",
+                d: "M4 17v2",
             }
             path {
-                d: "M17 19h4",
+                d: "M5 18H3",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSpeaker;
 impl IconShape for LdSpeaker {
     fn view_box(&self) -> &str {
@@ -45249,7 +47488,7 @@ impl IconShape for LdSpeaker {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSpeech;
 impl IconShape for LdSpeech {
     fn view_box(&self) -> &str {
@@ -45282,7 +47521,7 @@ impl IconShape for LdSpeech {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSpellCheck2;
 impl IconShape for LdSpellCheck2 {
     fn view_box(&self) -> &str {
@@ -45315,7 +47554,7 @@ impl IconShape for LdSpellCheck2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSpellCheck;
 impl IconShape for LdSpellCheck {
     fn view_box(&self) -> &str {
@@ -45348,7 +47587,7 @@ impl IconShape for LdSpellCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSpline;
 impl IconShape for LdSpline {
     fn view_box(&self) -> &str {
@@ -45385,7 +47624,7 @@ impl IconShape for LdSpline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSplit;
 impl IconShape for LdSplit {
     fn view_box(&self) -> &str {
@@ -45421,7 +47660,7 @@ impl IconShape for LdSplit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSprayCan;
 impl IconShape for LdSprayCan {
     fn view_box(&self) -> &str {
@@ -45478,7 +47717,7 @@ impl IconShape for LdSprayCan {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSprout;
 impl IconShape for LdSprout {
     fn view_box(&self) -> &str {
@@ -45514,7 +47753,7 @@ impl IconShape for LdSprout {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareActivity;
 impl IconShape for LdSquareActivity {
     fn view_box(&self) -> &str {
@@ -45548,7 +47787,7 @@ impl IconShape for LdSquareActivity {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareArrowDownLeft;
 impl IconShape for LdSquareArrowDownLeft {
     fn view_box(&self) -> &str {
@@ -45585,7 +47824,7 @@ impl IconShape for LdSquareArrowDownLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareArrowDownRight;
 impl IconShape for LdSquareArrowDownRight {
     fn view_box(&self) -> &str {
@@ -45622,7 +47861,7 @@ impl IconShape for LdSquareArrowDownRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareArrowDown;
 impl IconShape for LdSquareArrowDown {
     fn view_box(&self) -> &str {
@@ -45659,7 +47898,7 @@ impl IconShape for LdSquareArrowDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareArrowLeft;
 impl IconShape for LdSquareArrowLeft {
     fn view_box(&self) -> &str {
@@ -45696,7 +47935,7 @@ impl IconShape for LdSquareArrowLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareArrowOutDownLeft;
 impl IconShape for LdSquareArrowOutDownLeft {
     fn view_box(&self) -> &str {
@@ -45729,7 +47968,7 @@ impl IconShape for LdSquareArrowOutDownLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareArrowOutDownRight;
 impl IconShape for LdSquareArrowOutDownRight {
     fn view_box(&self) -> &str {
@@ -45762,7 +48001,7 @@ impl IconShape for LdSquareArrowOutDownRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareArrowOutUpLeft;
 impl IconShape for LdSquareArrowOutUpLeft {
     fn view_box(&self) -> &str {
@@ -45795,7 +48034,7 @@ impl IconShape for LdSquareArrowOutUpLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareArrowOutUpRight;
 impl IconShape for LdSquareArrowOutUpRight {
     fn view_box(&self) -> &str {
@@ -45828,7 +48067,7 @@ impl IconShape for LdSquareArrowOutUpRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareArrowRight;
 impl IconShape for LdSquareArrowRight {
     fn view_box(&self) -> &str {
@@ -45865,7 +48104,7 @@ impl IconShape for LdSquareArrowRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareArrowUpLeft;
 impl IconShape for LdSquareArrowUpLeft {
     fn view_box(&self) -> &str {
@@ -45902,7 +48141,7 @@ impl IconShape for LdSquareArrowUpLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareArrowUpRight;
 impl IconShape for LdSquareArrowUpRight {
     fn view_box(&self) -> &str {
@@ -45939,7 +48178,7 @@ impl IconShape for LdSquareArrowUpRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareArrowUp;
 impl IconShape for LdSquareArrowUp {
     fn view_box(&self) -> &str {
@@ -45976,7 +48215,7 @@ impl IconShape for LdSquareArrowUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareAsterisk;
 impl IconShape for LdSquareAsterisk {
     fn view_box(&self) -> &str {
@@ -46016,7 +48255,7 @@ impl IconShape for LdSquareAsterisk {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareBottomDashedScissors;
 impl IconShape for LdSquareBottomDashedScissors {
     fn view_box(&self) -> &str {
@@ -46068,7 +48307,47 @@ impl IconShape for LdSquareBottomDashedScissors {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdSquareChartGantt;
+impl IconShape for LdSquareChartGantt {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            rect {
+                height: "18",
+                rx: "2",
+                width: "18",
+                x: "3",
+                y: "3",
+            }
+            path {
+                d: "M9 8h7",
+            }
+            path {
+                d: "M8 12h6",
+            }
+            path {
+                d: "M11 16h5",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareCheckBig;
 impl IconShape for LdSquareCheckBig {
     fn view_box(&self) -> &str {
@@ -46089,16 +48368,16 @@ impl IconShape for LdSquareCheckBig {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m9 11 3 3L22 4",
+                d: "M21 10.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.5",
             }
             path {
-                d: "M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11",
+                d: "m9 11 3 3L22 4",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareCheck;
 impl IconShape for LdSquareCheck {
     fn view_box(&self) -> &str {
@@ -46132,7 +48411,7 @@ impl IconShape for LdSquareCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareChevronDown;
 impl IconShape for LdSquareChevronDown {
     fn view_box(&self) -> &str {
@@ -46166,7 +48445,7 @@ impl IconShape for LdSquareChevronDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareChevronLeft;
 impl IconShape for LdSquareChevronLeft {
     fn view_box(&self) -> &str {
@@ -46200,7 +48479,7 @@ impl IconShape for LdSquareChevronLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareChevronRight;
 impl IconShape for LdSquareChevronRight {
     fn view_box(&self) -> &str {
@@ -46234,7 +48513,7 @@ impl IconShape for LdSquareChevronRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareChevronUp;
 impl IconShape for LdSquareChevronUp {
     fn view_box(&self) -> &str {
@@ -46268,7 +48547,7 @@ impl IconShape for LdSquareChevronUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareCode;
 impl IconShape for LdSquareCode {
     fn view_box(&self) -> &str {
@@ -46288,6 +48567,12 @@ impl IconShape for LdSquareCode {
     }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M10 9.5 8 12l2 2.5",
+            }
+            path {
+                d: "m14 9.5 2 2.5-2 2.5",
+            }
             rect {
                 height: "18",
                 rx: "2",
@@ -46295,17 +48580,11 @@ impl IconShape for LdSquareCode {
                 x: "3",
                 y: "3",
             }
-            path {
-                d: "m10 10-2 2 2 2",
-            }
-            path {
-                d: "m14 14 2-2-2-2",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareDashedBottomCode;
 impl IconShape for LdSquareDashedBottomCode {
     fn view_box(&self) -> &str {
@@ -46326,10 +48605,13 @@ impl IconShape for LdSquareDashedBottomCode {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m10 10-2 2 2 2",
+                d: "M10 9.5 8 12l2 2.5",
             }
             path {
-                d: "m14 14 2-2-2-2",
+                d: "M14 21h1",
+            }
+            path {
+                d: "m14 9.5 2 2.5-2 2.5",
             }
             path {
                 d: "M5 21a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2",
@@ -46337,14 +48619,11 @@ impl IconShape for LdSquareDashedBottomCode {
             path {
                 d: "M9 21h1",
             }
-            path {
-                d: "M14 21h1",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareDashedBottom;
 impl IconShape for LdSquareDashedBottom {
     fn view_box(&self) -> &str {
@@ -46377,7 +48656,7 @@ impl IconShape for LdSquareDashedBottom {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareDashedKanban;
 impl IconShape for LdSquareDashedKanban {
     fn view_box(&self) -> &str {
@@ -46446,7 +48725,7 @@ impl IconShape for LdSquareDashedKanban {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareDashedMousePointer;
 impl IconShape for LdSquareDashedMousePointer {
     fn view_box(&self) -> &str {
@@ -46467,13 +48746,13 @@ impl IconShape for LdSquareDashedMousePointer {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
+                d: "M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z",
+            }
+            path {
                 d: "M5 3a2 2 0 0 0-2 2",
             }
             path {
                 d: "M19 3a2 2 0 0 1 2 2",
-            }
-            path {
-                d: "m12 12 4 10 1.7-4.3L22 16Z",
             }
             path {
                 d: "M5 21a2 2 0 0 1-2-2",
@@ -46500,7 +48779,67 @@ impl IconShape for LdSquareDashedMousePointer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdSquareDashed;
+impl IconShape for LdSquareDashed {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M5 3a2 2 0 0 0-2 2",
+            }
+            path {
+                d: "M19 3a2 2 0 0 1 2 2",
+            }
+            path {
+                d: "M21 19a2 2 0 0 1-2 2",
+            }
+            path {
+                d: "M5 21a2 2 0 0 1-2-2",
+            }
+            path {
+                d: "M9 3h1",
+            }
+            path {
+                d: "M9 21h1",
+            }
+            path {
+                d: "M14 3h1",
+            }
+            path {
+                d: "M14 21h1",
+            }
+            path {
+                d: "M3 9v1",
+            }
+            path {
+                d: "M21 9v1",
+            }
+            path {
+                d: "M3 14v1",
+            }
+            path {
+                d: "M21 14v1",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareDivide;
 impl IconShape for LdSquareDivide {
     fn view_box(&self) -> &str {
@@ -46550,7 +48889,7 @@ impl IconShape for LdSquareDivide {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareDot;
 impl IconShape for LdSquareDot {
     fn view_box(&self) -> &str {
@@ -46586,7 +48925,7 @@ impl IconShape for LdSquareDot {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareEqual;
 impl IconShape for LdSquareEqual {
     fn view_box(&self) -> &str {
@@ -46623,7 +48962,7 @@ impl IconShape for LdSquareEqual {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareFunction;
 impl IconShape for LdSquareFunction {
     fn view_box(&self) -> &str {
@@ -46661,47 +49000,7 @@ impl IconShape for LdSquareFunction {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdSquareGanttChart;
-impl IconShape for LdSquareGanttChart {
-    fn view_box(&self) -> &str {
-        "0 0 24 24"
-    }
-    fn xmlns(&self) -> &str {
-        "http://www.w3.org/2000/svg"
-    }
-    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
-        ("none", user_color, "2")
-    }
-    fn stroke_linecap(&self) -> &str {
-        "round"
-    }
-    fn stroke_linejoin(&self) -> &str {
-        "round"
-    }
-    fn child_elements(&self) -> Element {
-        rsx! {
-            rect {
-                height: "18",
-                rx: "2",
-                width: "18",
-                x: "3",
-                y: "3",
-            }
-            path {
-                d: "M9 8h7",
-            }
-            path {
-                d: "M8 12h6",
-            }
-            path {
-                d: "M11 16h5",
-            }
-        }
-    }
-}
-
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareKanban;
 impl IconShape for LdSquareKanban {
     fn view_box(&self) -> &str {
@@ -46741,7 +49040,7 @@ impl IconShape for LdSquareKanban {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareLibrary;
 impl IconShape for LdSquareLibrary {
     fn view_box(&self) -> &str {
@@ -46781,7 +49080,7 @@ impl IconShape for LdSquareLibrary {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareM;
 impl IconShape for LdSquareM {
     fn view_box(&self) -> &str {
@@ -46815,7 +49114,7 @@ impl IconShape for LdSquareM {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareMenu;
 impl IconShape for LdSquareMenu {
     fn view_box(&self) -> &str {
@@ -46855,7 +49154,7 @@ impl IconShape for LdSquareMenu {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareMinus;
 impl IconShape for LdSquareMinus {
     fn view_box(&self) -> &str {
@@ -46889,7 +49188,7 @@ impl IconShape for LdSquareMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareMousePointer;
 impl IconShape for LdSquareMousePointer {
     fn view_box(&self) -> &str {
@@ -46910,16 +49209,16 @@ impl IconShape for LdSquareMousePointer {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M21 11V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6",
+                d: "M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z",
             }
             path {
-                d: "m12 12 4 10 1.7-4.3L22 16Z",
+                d: "M21 11V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareParkingOff;
 impl IconShape for LdSquareParkingOff {
     fn view_box(&self) -> &str {
@@ -46958,7 +49257,7 @@ impl IconShape for LdSquareParkingOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareParking;
 impl IconShape for LdSquareParking {
     fn view_box(&self) -> &str {
@@ -46992,7 +49291,7 @@ impl IconShape for LdSquareParking {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquarePen;
 impl IconShape for LdSquarePen {
     fn view_box(&self) -> &str {
@@ -47016,13 +49315,13 @@ impl IconShape for LdSquarePen {
                 d: "M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7",
             }
             path {
-                d: "M18.375 2.625a2.121 2.121 0 1 1 3 3L12 15l-4 1 1-4Z",
+                d: "M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquarePercent;
 impl IconShape for LdSquarePercent {
     fn view_box(&self) -> &str {
@@ -47062,7 +49361,7 @@ impl IconShape for LdSquarePercent {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquarePi;
 impl IconShape for LdSquarePi {
     fn view_box(&self) -> &str {
@@ -47102,7 +49401,7 @@ impl IconShape for LdSquarePi {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquarePilcrow;
 impl IconShape for LdSquarePilcrow {
     fn view_box(&self) -> &str {
@@ -47142,7 +49441,7 @@ impl IconShape for LdSquarePilcrow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquarePlay;
 impl IconShape for LdSquarePlay {
     fn view_box(&self) -> &str {
@@ -47176,7 +49475,7 @@ impl IconShape for LdSquarePlay {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquarePlus;
 impl IconShape for LdSquarePlus {
     fn view_box(&self) -> &str {
@@ -47213,7 +49512,7 @@ impl IconShape for LdSquarePlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquarePower;
 impl IconShape for LdSquarePower {
     fn view_box(&self) -> &str {
@@ -47233,6 +49532,12 @@ impl IconShape for LdSquarePower {
     }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M12 7v4",
+            }
+            path {
+                d: "M7.998 9.003a5 5 0 1 0 8-.005",
+            }
             rect {
                 height: "18",
                 rx: "2",
@@ -47240,17 +49545,11 @@ impl IconShape for LdSquarePower {
                 x: "3",
                 y: "3",
             }
-            path {
-                d: "M12 7v5",
-            }
-            path {
-                d: "M8 9a5.14 5.14 0 0 0 4 8 4.95 4.95 0 0 0 4-8",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareRadical;
 impl IconShape for LdSquareRadical {
     fn view_box(&self) -> &str {
@@ -47284,7 +49583,7 @@ impl IconShape for LdSquareRadical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareScissors;
 impl IconShape for LdSquareScissors {
     fn view_box(&self) -> &str {
@@ -47334,7 +49633,7 @@ impl IconShape for LdSquareScissors {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareSigma;
 impl IconShape for LdSquareSigma {
     fn view_box(&self) -> &str {
@@ -47368,7 +49667,7 @@ impl IconShape for LdSquareSigma {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareSlash;
 impl IconShape for LdSquareSlash {
     fn view_box(&self) -> &str {
@@ -47405,7 +49704,7 @@ impl IconShape for LdSquareSlash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareSplitHorizontal;
 impl IconShape for LdSquareSplitHorizontal {
     fn view_box(&self) -> &str {
@@ -47441,7 +49740,7 @@ impl IconShape for LdSquareSplitHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareSplitVertical;
 impl IconShape for LdSquareSplitVertical {
     fn view_box(&self) -> &str {
@@ -47477,7 +49776,45 @@ impl IconShape for LdSquareSplitVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdSquareSquare;
+impl IconShape for LdSquareSquare {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            rect {
+                height: "18",
+                rx: "2",
+                width: "18",
+                x: "3",
+                y: "3",
+            }
+            rect {
+                height: "8",
+                rx: "1",
+                width: "8",
+                x: "8",
+                y: "8",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareStack;
 impl IconShape for LdSquareStack {
     fn view_box(&self) -> &str {
@@ -47514,7 +49851,7 @@ impl IconShape for LdSquareStack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareTerminal;
 impl IconShape for LdSquareTerminal {
     fn view_box(&self) -> &str {
@@ -47552,7 +49889,7 @@ impl IconShape for LdSquareTerminal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareUserRound;
 impl IconShape for LdSquareUserRound {
     fn view_box(&self) -> &str {
@@ -47591,7 +49928,7 @@ impl IconShape for LdSquareUserRound {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareUser;
 impl IconShape for LdSquareUser {
     fn view_box(&self) -> &str {
@@ -47630,7 +49967,7 @@ impl IconShape for LdSquareUser {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquareX;
 impl IconShape for LdSquareX {
     fn view_box(&self) -> &str {
@@ -47668,7 +50005,7 @@ impl IconShape for LdSquareX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquare;
 impl IconShape for LdSquare {
     fn view_box(&self) -> &str {
@@ -47699,7 +50036,7 @@ impl IconShape for LdSquare {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquircle;
 impl IconShape for LdSquircle {
     fn view_box(&self) -> &str {
@@ -47726,7 +50063,7 @@ impl IconShape for LdSquircle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSquirrel;
 impl IconShape for LdSquirrel {
     fn view_box(&self) -> &str {
@@ -47762,7 +50099,7 @@ impl IconShape for LdSquirrel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdStamp;
 impl IconShape for LdStamp {
     fn view_box(&self) -> &str {
@@ -47795,7 +50132,7 @@ impl IconShape for LdStamp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdStarHalf;
 impl IconShape for LdStarHalf {
     fn view_box(&self) -> &str {
@@ -47816,13 +50153,13 @@ impl IconShape for LdStarHalf {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M12 17.8 5.8 21 7 14.1 2 9.3l7-1L12 2",
+                d: "M12 18.338a2.1 2.1 0 0 0-.987.244L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16l2.309-4.679A.53.53 0 0 1 12 2",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdStarOff;
 impl IconShape for LdStarOff {
     fn view_box(&self) -> &str {
@@ -47858,7 +50195,7 @@ impl IconShape for LdStarOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdStar;
 impl IconShape for LdStar {
     fn view_box(&self) -> &str {
@@ -47878,14 +50215,14 @@ impl IconShape for LdStar {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polygon {
-                points: "12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2",
+            path {
+                d: "M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdStepBack;
 impl IconShape for LdStepBack {
     fn view_box(&self) -> &str {
@@ -47918,7 +50255,7 @@ impl IconShape for LdStepBack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdStepForward;
 impl IconShape for LdStepForward {
     fn view_box(&self) -> &str {
@@ -47951,7 +50288,7 @@ impl IconShape for LdStepForward {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdStethoscope;
 impl IconShape for LdStethoscope {
     fn view_box(&self) -> &str {
@@ -47972,10 +50309,16 @@ impl IconShape for LdStethoscope {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3",
+                d: "M11 2v2",
             }
             path {
-                d: "M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4",
+                d: "M5 2v2",
+            }
+            path {
+                d: "M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1",
+            }
+            path {
+                d: "M8 15a6 6 0 0 0 12 0v-3",
             }
             circle {
                 cx: "20",
@@ -47986,7 +50329,7 @@ impl IconShape for LdStethoscope {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSticker;
 impl IconShape for LdSticker {
     fn view_box(&self) -> &str {
@@ -48013,10 +50356,10 @@ impl IconShape for LdSticker {
                 d: "M14 3v4a2 2 0 0 0 2 2h4",
             }
             path {
-                d: "M8 13h0",
+                d: "M8 13h.01",
             }
             path {
-                d: "M16 13h0",
+                d: "M16 13h.01",
             }
             path {
                 d: "M10 16s.8 1 2 1c1.3 0 2-1 2-1",
@@ -48025,7 +50368,7 @@ impl IconShape for LdSticker {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdStickyNote;
 impl IconShape for LdStickyNote {
     fn view_box(&self) -> &str {
@@ -48055,7 +50398,7 @@ impl IconShape for LdStickyNote {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdStore;
 impl IconShape for LdStore {
     fn view_box(&self) -> &str {
@@ -48088,13 +50431,13 @@ impl IconShape for LdStore {
                 d: "M2 7h20",
             }
             path {
-                d: "M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7",
+                d: "M22 7v3a2 2 0 0 1-2 2a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12a2 2 0 0 1-2-2V7",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdStretchHorizontal;
 impl IconShape for LdStretchHorizontal {
     fn view_box(&self) -> &str {
@@ -48132,7 +50475,7 @@ impl IconShape for LdStretchHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdStretchVertical;
 impl IconShape for LdStretchVertical {
     fn view_box(&self) -> &str {
@@ -48170,7 +50513,7 @@ impl IconShape for LdStretchVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdStrikethrough;
 impl IconShape for LdStrikethrough {
     fn view_box(&self) -> &str {
@@ -48206,7 +50549,7 @@ impl IconShape for LdStrikethrough {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSubscript;
 impl IconShape for LdSubscript {
     fn view_box(&self) -> &str {
@@ -48239,7 +50582,7 @@ impl IconShape for LdSubscript {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSunDim;
 impl IconShape for LdSunDim {
     fn view_box(&self) -> &str {
@@ -48292,7 +50635,7 @@ impl IconShape for LdSunDim {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSunMedium;
 impl IconShape for LdSunMedium {
     fn view_box(&self) -> &str {
@@ -48345,7 +50688,7 @@ impl IconShape for LdSunMedium {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSunMoon;
 impl IconShape for LdSunMoon {
     fn view_box(&self) -> &str {
@@ -48396,7 +50739,7 @@ impl IconShape for LdSunMoon {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSunSnow;
 impl IconShape for LdSunSnow {
     fn view_box(&self) -> &str {
@@ -48453,7 +50796,7 @@ impl IconShape for LdSunSnow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSun;
 impl IconShape for LdSun {
     fn view_box(&self) -> &str {
@@ -48506,7 +50849,7 @@ impl IconShape for LdSun {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSunrise;
 impl IconShape for LdSunrise {
     fn view_box(&self) -> &str {
@@ -48554,7 +50897,7 @@ impl IconShape for LdSunrise {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSunset;
 impl IconShape for LdSunset {
     fn view_box(&self) -> &str {
@@ -48602,7 +50945,7 @@ impl IconShape for LdSunset {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSuperscript;
 impl IconShape for LdSuperscript {
     fn view_box(&self) -> &str {
@@ -48635,7 +50978,7 @@ impl IconShape for LdSuperscript {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSwatchBook;
 impl IconShape for LdSwatchBook {
     fn view_box(&self) -> &str {
@@ -48662,7 +51005,7 @@ impl IconShape for LdSwatchBook {
                 d: "M16.7 13H19a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H7",
             }
             path {
-                d: "M 7 17h0.01",
+                d: "M 7 17h.01",
             }
             path {
                 d: "m11 8 2.3-2.3a2.4 2.4 0 0 1 3.404.004L18.6 7.6a2.4 2.4 0 0 1 .026 3.434L9.9 19.8",
@@ -48671,7 +51014,7 @@ impl IconShape for LdSwatchBook {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSwissFranc;
 impl IconShape for LdSwissFranc {
     fn view_box(&self) -> &str {
@@ -48704,7 +51047,7 @@ impl IconShape for LdSwissFranc {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSwitchCamera;
 impl IconShape for LdSwitchCamera {
     fn view_box(&self) -> &str {
@@ -48745,7 +51088,7 @@ impl IconShape for LdSwitchCamera {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSword;
 impl IconShape for LdSword {
     fn view_box(&self) -> &str {
@@ -48790,7 +51133,7 @@ impl IconShape for LdSword {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSwords;
 impl IconShape for LdSwords {
     fn view_box(&self) -> &str {
@@ -48856,7 +51199,7 @@ impl IconShape for LdSwords {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdSyringe;
 impl IconShape for LdSyringe {
     fn view_box(&self) -> &str {
@@ -48898,7 +51241,7 @@ impl IconShape for LdSyringe {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTable2;
 impl IconShape for LdTable2 {
     fn view_box(&self) -> &str {
@@ -48925,7 +51268,7 @@ impl IconShape for LdTable2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTableCellsMerge;
 impl IconShape for LdTableCellsMerge {
     fn view_box(&self) -> &str {
@@ -48968,7 +51311,7 @@ impl IconShape for LdTableCellsMerge {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTableCellsSplit;
 impl IconShape for LdTableCellsSplit {
     fn view_box(&self) -> &str {
@@ -49008,7 +51351,7 @@ impl IconShape for LdTableCellsSplit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTableColumnsSplit;
 impl IconShape for LdTableColumnsSplit {
     fn view_box(&self) -> &str {
@@ -49065,7 +51408,49 @@ impl IconShape for LdTableColumnsSplit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdTableOfContents;
+impl IconShape for LdTableOfContents {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M16 12H3",
+            }
+            path {
+                d: "M16 18H3",
+            }
+            path {
+                d: "M16 6H3",
+            }
+            path {
+                d: "M21 12h.01",
+            }
+            path {
+                d: "M21 18h.01",
+            }
+            path {
+                d: "M21 6h.01",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTableProperties;
 impl IconShape for LdTableProperties {
     fn view_box(&self) -> &str {
@@ -49105,7 +51490,7 @@ impl IconShape for LdTableProperties {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTableRowsSplit;
 impl IconShape for LdTableRowsSplit {
     fn view_box(&self) -> &str {
@@ -49162,7 +51547,7 @@ impl IconShape for LdTableRowsSplit {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTable;
 impl IconShape for LdTable {
     fn view_box(&self) -> &str {
@@ -49202,7 +51587,7 @@ impl IconShape for LdTable {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTabletSmartphone;
 impl IconShape for LdTabletSmartphone {
     fn view_box(&self) -> &str {
@@ -49239,7 +51624,7 @@ impl IconShape for LdTabletSmartphone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTablet;
 impl IconShape for LdTablet {
     fn view_box(&self) -> &str {
@@ -49277,7 +51662,7 @@ impl IconShape for LdTablet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTablets;
 impl IconShape for LdTablets {
     fn view_box(&self) -> &str {
@@ -49317,7 +51702,7 @@ impl IconShape for LdTablets {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTag;
 impl IconShape for LdTag {
     fn view_box(&self) -> &str {
@@ -49349,7 +51734,7 @@ impl IconShape for LdTag {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTags;
 impl IconShape for LdTags {
     fn view_box(&self) -> &str {
@@ -49384,7 +51769,7 @@ impl IconShape for LdTags {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTally1;
 impl IconShape for LdTally1 {
     fn view_box(&self) -> &str {
@@ -49411,7 +51796,7 @@ impl IconShape for LdTally1 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTally2;
 impl IconShape for LdTally2 {
     fn view_box(&self) -> &str {
@@ -49441,7 +51826,7 @@ impl IconShape for LdTally2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTally3;
 impl IconShape for LdTally3 {
     fn view_box(&self) -> &str {
@@ -49474,7 +51859,7 @@ impl IconShape for LdTally3 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTally4;
 impl IconShape for LdTally4 {
     fn view_box(&self) -> &str {
@@ -49510,7 +51895,7 @@ impl IconShape for LdTally4 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTally5;
 impl IconShape for LdTally5 {
     fn view_box(&self) -> &str {
@@ -49549,7 +51934,7 @@ impl IconShape for LdTally5 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTangent;
 impl IconShape for LdTangent {
     fn view_box(&self) -> &str {
@@ -49589,7 +51974,7 @@ impl IconShape for LdTangent {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTarget;
 impl IconShape for LdTarget {
     fn view_box(&self) -> &str {
@@ -49628,7 +52013,7 @@ impl IconShape for LdTarget {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTelescope;
 impl IconShape for LdTelescope {
     fn view_box(&self) -> &str {
@@ -49675,7 +52060,7 @@ impl IconShape for LdTelescope {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTentTree;
 impl IconShape for LdTentTree {
     fn view_box(&self) -> &str {
@@ -49722,7 +52107,7 @@ impl IconShape for LdTentTree {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTent;
 impl IconShape for LdTent {
     fn view_box(&self) -> &str {
@@ -49758,7 +52143,7 @@ impl IconShape for LdTent {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTerminal;
 impl IconShape for LdTerminal {
     fn view_box(&self) -> &str {
@@ -49791,7 +52176,7 @@ impl IconShape for LdTerminal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTestTubeDiagonal;
 impl IconShape for LdTestTubeDiagonal {
     fn view_box(&self) -> &str {
@@ -49812,7 +52197,7 @@ impl IconShape for LdTestTubeDiagonal {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M21 7 6.82 21.18a2.83 2.83 0 0 1-3.99-.01v0a2.83 2.83 0 0 1 0-4L17 3",
+                d: "M21 7 6.82 21.18a2.83 2.83 0 0 1-3.99-.01a2.83 2.83 0 0 1 0-4L17 3",
             }
             path {
                 d: "m16 2 6 6",
@@ -49824,7 +52209,7 @@ impl IconShape for LdTestTubeDiagonal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTestTube;
 impl IconShape for LdTestTube {
     fn view_box(&self) -> &str {
@@ -49845,7 +52230,7 @@ impl IconShape for LdTestTube {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5h0c-1.4 0-2.5-1.1-2.5-2.5V2",
+                d: "M14.5 2v17.5c0 1.4-1.1 2.5-2.5 2.5c-1.4 0-2.5-1.1-2.5-2.5V2",
             }
             path {
                 d: "M8.5 2h7",
@@ -49857,7 +52242,7 @@ impl IconShape for LdTestTube {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTestTubes;
 impl IconShape for LdTestTubes {
     fn view_box(&self) -> &str {
@@ -49878,10 +52263,10 @@ impl IconShape for LdTestTubes {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M9 2v17.5A2.5 2.5 0 0 1 6.5 22v0A2.5 2.5 0 0 1 4 19.5V2",
+                d: "M9 2v17.5A2.5 2.5 0 0 1 6.5 22A2.5 2.5 0 0 1 4 19.5V2",
             }
             path {
-                d: "M20 2v17.5a2.5 2.5 0 0 1-2.5 2.5v0a2.5 2.5 0 0 1-2.5-2.5V2",
+                d: "M20 2v17.5a2.5 2.5 0 0 1-2.5 2.5a2.5 2.5 0 0 1-2.5-2.5V2",
             }
             path {
                 d: "M3 2h7",
@@ -49899,7 +52284,7 @@ impl IconShape for LdTestTubes {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTextCursorInput;
 impl IconShape for LdTextCursorInput {
     fn view_box(&self) -> &str {
@@ -49938,7 +52323,7 @@ impl IconShape for LdTextCursorInput {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTextCursor;
 impl IconShape for LdTextCursor {
     fn view_box(&self) -> &str {
@@ -49971,7 +52356,7 @@ impl IconShape for LdTextCursor {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTextQuote;
 impl IconShape for LdTextQuote {
     fn view_box(&self) -> &str {
@@ -50007,7 +52392,7 @@ impl IconShape for LdTextQuote {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTextSearch;
 impl IconShape for LdTextSearch {
     fn view_box(&self) -> &str {
@@ -50048,7 +52433,7 @@ impl IconShape for LdTextSearch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTextSelect;
 impl IconShape for LdTextSelect {
     fn view_box(&self) -> &str {
@@ -50126,7 +52511,7 @@ impl IconShape for LdTextSelect {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdText;
 impl IconShape for LdText {
     fn view_box(&self) -> &str {
@@ -50159,7 +52544,7 @@ impl IconShape for LdText {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTheater;
 impl IconShape for LdTheater {
     fn view_box(&self) -> &str {
@@ -50210,7 +52595,7 @@ impl IconShape for LdTheater {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdThermometerSnowflake;
 impl IconShape for LdThermometerSnowflake {
     fn view_box(&self) -> &str {
@@ -50252,7 +52637,7 @@ impl IconShape for LdThermometerSnowflake {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdThermometerSun;
 impl IconShape for LdThermometerSun {
     fn view_box(&self) -> &str {
@@ -50294,7 +52679,7 @@ impl IconShape for LdThermometerSun {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdThermometer;
 impl IconShape for LdThermometer {
     fn view_box(&self) -> &str {
@@ -50321,7 +52706,7 @@ impl IconShape for LdThermometer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdThumbsDown;
 impl IconShape for LdThumbsDown {
     fn view_box(&self) -> &str {
@@ -50345,13 +52730,13 @@ impl IconShape for LdThumbsDown {
                 d: "M17 14V2",
             }
             path {
-                d: "M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22h0a3.13 3.13 0 0 1-3-3.88Z",
+                d: "M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdThumbsUp;
 impl IconShape for LdThumbsUp {
     fn view_box(&self) -> &str {
@@ -50375,13 +52760,13 @@ impl IconShape for LdThumbsUp {
                 d: "M7 10v12",
             }
             path {
-                d: "M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z",
+                d: "M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTicketCheck;
 impl IconShape for LdTicketCheck {
     fn view_box(&self) -> &str {
@@ -50411,7 +52796,7 @@ impl IconShape for LdTicketCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTicketMinus;
 impl IconShape for LdTicketMinus {
     fn view_box(&self) -> &str {
@@ -50441,7 +52826,7 @@ impl IconShape for LdTicketMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTicketPercent;
 impl IconShape for LdTicketPercent {
     fn view_box(&self) -> &str {
@@ -50477,7 +52862,7 @@ impl IconShape for LdTicketPercent {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTicketPlus;
 impl IconShape for LdTicketPlus {
     fn view_box(&self) -> &str {
@@ -50510,7 +52895,7 @@ impl IconShape for LdTicketPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTicketSlash;
 impl IconShape for LdTicketSlash {
     fn view_box(&self) -> &str {
@@ -50540,7 +52925,7 @@ impl IconShape for LdTicketSlash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTicketX;
 impl IconShape for LdTicketX {
     fn view_box(&self) -> &str {
@@ -50573,7 +52958,7 @@ impl IconShape for LdTicketX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTicket;
 impl IconShape for LdTicket {
     fn view_box(&self) -> &str {
@@ -50609,7 +52994,99 @@ impl IconShape for LdTicket {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdTicketsPlane;
+impl IconShape for LdTicketsPlane {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M10.5 17h1.227a2 2 0 0 0 1.345-.52L18 12",
+            }
+            path {
+                d: "m12 13.5 3.75.5",
+            }
+            path {
+                d: "m4.5 8 10.58-5.06a1 1 0 0 1 1.342.488L18.5 8",
+            }
+            path {
+                d: "M6 10V8",
+            }
+            path {
+                d: "M6 14v1",
+            }
+            path {
+                d: "M6 19v2",
+            }
+            rect {
+                height: "13",
+                rx: "2",
+                width: "20",
+                x: "2",
+                y: "8",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdTickets;
+impl IconShape for LdTickets {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "m4.5 8 10.58-5.06a1 1 0 0 1 1.342.488L18.5 8",
+            }
+            path {
+                d: "M6 10V8",
+            }
+            path {
+                d: "M6 14v1",
+            }
+            path {
+                d: "M6 19v2",
+            }
+            rect {
+                height: "13",
+                rx: "2",
+                width: "20",
+                x: "2",
+                y: "8",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTimerOff;
 impl IconShape for LdTimerOff {
     fn view_box(&self) -> &str {
@@ -50648,7 +53125,7 @@ impl IconShape for LdTimerOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTimerReset;
 impl IconShape for LdTimerReset {
     fn view_box(&self) -> &str {
@@ -50684,7 +53161,7 @@ impl IconShape for LdTimerReset {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTimer;
 impl IconShape for LdTimer {
     fn view_box(&self) -> &str {
@@ -50725,7 +53202,7 @@ impl IconShape for LdTimer {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdToggleLeft;
 impl IconShape for LdToggleLeft {
     fn view_box(&self) -> &str {
@@ -50762,7 +53239,7 @@ impl IconShape for LdToggleLeft {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdToggleRight;
 impl IconShape for LdToggleRight {
     fn view_box(&self) -> &str {
@@ -50799,7 +53276,7 @@ impl IconShape for LdToggleRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTornado;
 impl IconShape for LdTornado {
     fn view_box(&self) -> &str {
@@ -50838,7 +53315,7 @@ impl IconShape for LdTornado {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTorus;
 impl IconShape for LdTorus {
     fn view_box(&self) -> &str {
@@ -50874,7 +53351,7 @@ impl IconShape for LdTorus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTouchpadOff;
 impl IconShape for LdTouchpadOff {
     fn view_box(&self) -> &str {
@@ -50916,7 +53393,7 @@ impl IconShape for LdTouchpadOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTouchpad;
 impl IconShape for LdTouchpad {
     fn view_box(&self) -> &str {
@@ -50953,7 +53430,7 @@ impl IconShape for LdTouchpad {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTowerControl;
 impl IconShape for LdTowerControl {
     fn view_box(&self) -> &str {
@@ -50998,7 +53475,7 @@ impl IconShape for LdTowerControl {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdToyBrick;
 impl IconShape for LdToyBrick {
     fn view_box(&self) -> &str {
@@ -51035,7 +53512,7 @@ impl IconShape for LdToyBrick {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTractor;
 impl IconShape for LdTractor {
     fn view_box(&self) -> &str {
@@ -51056,7 +53533,7 @@ impl IconShape for LdTractor {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "m10 11 11 .9c.6 0 .9.5.8 1.1l-.8 5h-1",
+                d: "m10 11 11 .9a1 1 0 0 1 .8 1.1l-.665 4.158a1 1 0 0 1-.988.842H20",
             }
             path {
                 d: "M16 18h-5",
@@ -51065,7 +53542,7 @@ impl IconShape for LdTractor {
                 d: "M18 5a1 1 0 0 0-1 1v5.573",
             }
             path {
-                d: "M3 4h9l1 7.246",
+                d: "M3 4h8.129a1 1 0 0 1 .99.863L13 11.246",
             }
             path {
                 d: "M4 11V4",
@@ -51090,7 +53567,7 @@ impl IconShape for LdTractor {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTrafficCone;
 impl IconShape for LdTrafficCone {
     fn view_box(&self) -> &str {
@@ -51126,7 +53603,7 @@ impl IconShape for LdTrafficCone {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTrainFrontTunnel;
 impl IconShape for LdTrainFrontTunnel {
     fn view_box(&self) -> &str {
@@ -51171,7 +53648,7 @@ impl IconShape for LdTrainFrontTunnel {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTrainFront;
 impl IconShape for LdTrainFront {
     fn view_box(&self) -> &str {
@@ -51213,7 +53690,7 @@ impl IconShape for LdTrainFront {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTrainTrack;
 impl IconShape for LdTrainTrack {
     fn view_box(&self) -> &str {
@@ -51258,7 +53735,7 @@ impl IconShape for LdTrainTrack {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTramFront;
 impl IconShape for LdTramFront {
     fn view_box(&self) -> &str {
@@ -51307,7 +53784,7 @@ impl IconShape for LdTramFront {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTrash2;
 impl IconShape for LdTrash2 {
     fn view_box(&self) -> &str {
@@ -51352,7 +53829,7 @@ impl IconShape for LdTrash2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTrash;
 impl IconShape for LdTrash {
     fn view_box(&self) -> &str {
@@ -51385,7 +53862,7 @@ impl IconShape for LdTrash {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTreeDeciduous;
 impl IconShape for LdTreeDeciduous {
     fn view_box(&self) -> &str {
@@ -51415,7 +53892,7 @@ impl IconShape for LdTreeDeciduous {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTreePalm;
 impl IconShape for LdTreePalm {
     fn view_box(&self) -> &str {
@@ -51451,7 +53928,7 @@ impl IconShape for LdTreePalm {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTreePine;
 impl IconShape for LdTreePine {
     fn view_box(&self) -> &str {
@@ -51481,7 +53958,7 @@ impl IconShape for LdTreePine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTrees;
 impl IconShape for LdTrees {
     fn view_box(&self) -> &str {
@@ -51502,7 +53979,7 @@ impl IconShape for LdTrees {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M10 10v.2A3 3 0 0 1 8.9 16v0H5v0h0a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z",
+                d: "M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z",
             }
             path {
                 d: "M7 16v6",
@@ -51517,7 +53994,7 @@ impl IconShape for LdTrees {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTrello;
 impl IconShape for LdTrello {
     fn view_box(&self) -> &str {
@@ -51561,7 +54038,7 @@ impl IconShape for LdTrello {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTrendingDown;
 impl IconShape for LdTrendingDown {
     fn view_box(&self) -> &str {
@@ -51591,7 +54068,43 @@ impl IconShape for LdTrendingDown {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdTrendingUpDown;
+impl IconShape for LdTrendingUpDown {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M14.828 14.828 21 21",
+            }
+            path {
+                d: "M21 16v5h-5",
+            }
+            path {
+                d: "m21 3-9 9-4-4-6 6",
+            }
+            path {
+                d: "M21 8V3h-5",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTrendingUp;
 impl IconShape for LdTrendingUp {
     fn view_box(&self) -> &str {
@@ -51621,7 +54134,7 @@ impl IconShape for LdTrendingUp {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTriangleAlert;
 impl IconShape for LdTriangleAlert {
     fn view_box(&self) -> &str {
@@ -51654,7 +54167,7 @@ impl IconShape for LdTriangleAlert {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTriangleRight;
 impl IconShape for LdTriangleRight {
     fn view_box(&self) -> &str {
@@ -51681,7 +54194,7 @@ impl IconShape for LdTriangleRight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTriangle;
 impl IconShape for LdTriangle {
     fn view_box(&self) -> &str {
@@ -51708,7 +54221,7 @@ impl IconShape for LdTriangle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTrophy;
 impl IconShape for LdTrophy {
     fn view_box(&self) -> &str {
@@ -51750,7 +54263,7 @@ impl IconShape for LdTrophy {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTruck;
 impl IconShape for LdTruck {
     fn view_box(&self) -> &str {
@@ -51793,7 +54306,7 @@ impl IconShape for LdTruck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTurtle;
 impl IconShape for LdTurtle {
     fn view_box(&self) -> &str {
@@ -51829,9 +54342,46 @@ impl IconShape for LdTurtle {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
-pub struct LdTv2;
-impl IconShape for LdTv2 {
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdTvMinimalPlay;
+impl IconShape for LdTvMinimalPlay {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M10 7.75a.75.75 0 0 1 1.142-.638l3.664 2.249a.75.75 0 0 1 0 1.278l-3.664 2.25a.75.75 0 0 1-1.142-.64z",
+            }
+            path {
+                d: "M7 21h10",
+            }
+            rect {
+                height: "14",
+                rx: "2",
+                width: "20",
+                x: "2",
+                y: "3",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdTvMinimal;
+impl IconShape for LdTvMinimal {
     fn view_box(&self) -> &str {
         "0 0 24 24"
     }
@@ -51863,7 +54413,7 @@ impl IconShape for LdTv2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTv;
 impl IconShape for LdTv {
     fn view_box(&self) -> &str {
@@ -51898,7 +54448,7 @@ impl IconShape for LdTv {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTwitch;
 impl IconShape for LdTwitch {
     fn view_box(&self) -> &str {
@@ -51925,7 +54475,7 @@ impl IconShape for LdTwitch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdTwitter;
 impl IconShape for LdTwitter {
     fn view_box(&self) -> &str {
@@ -51952,7 +54502,34 @@ impl IconShape for LdTwitter {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdTypeOutline;
+impl IconShape for LdTypeOutline {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M14 16.5a.5.5 0 0 0 .5.5h.5a2 2 0 0 1 0 4H9a2 2 0 0 1 0-4h.5a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V8a2 2 0 0 1-4 0V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v3a2 2 0 0 1-4 0v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5Z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdType;
 impl IconShape for LdType {
     fn view_box(&self) -> &str {
@@ -51991,7 +54568,7 @@ impl IconShape for LdType {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUmbrellaOff;
 impl IconShape for LdUmbrellaOff {
     fn view_box(&self) -> &str {
@@ -52027,7 +54604,7 @@ impl IconShape for LdUmbrellaOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUmbrella;
 impl IconShape for LdUmbrella {
     fn view_box(&self) -> &str {
@@ -52060,7 +54637,7 @@ impl IconShape for LdUmbrella {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUnderline;
 impl IconShape for LdUnderline {
     fn view_box(&self) -> &str {
@@ -52093,7 +54670,7 @@ impl IconShape for LdUnderline {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUndo2;
 impl IconShape for LdUndo2 {
     fn view_box(&self) -> &str {
@@ -52117,13 +54694,13 @@ impl IconShape for LdUndo2 {
                 d: "M9 14 4 9l5-5",
             }
             path {
-                d: "M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5v0a5.5 5.5 0 0 1-5.5 5.5H11",
+                d: "M4 9h10.5a5.5 5.5 0 0 1 5.5 5.5a5.5 5.5 0 0 1-5.5 5.5H11",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUndoDot;
 impl IconShape for LdUndoDot {
     fn view_box(&self) -> &str {
@@ -52143,22 +54720,22 @@ impl IconShape for LdUndoDot {
     }
     fn child_elements(&self) -> Element {
         rsx! {
+            path {
+                d: "M21 17a9 9 0 0 0-15-6.7L3 13",
+            }
+            path {
+                d: "M3 7v6h6",
+            }
             circle {
                 cx: "12",
                 cy: "17",
                 r: "1",
             }
-            path {
-                d: "M3 7v6h6",
-            }
-            path {
-                d: "M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13",
-            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUndo;
 impl IconShape for LdUndo {
     fn view_box(&self) -> &str {
@@ -52188,7 +54765,7 @@ impl IconShape for LdUndo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUnfoldHorizontal;
 impl IconShape for LdUnfoldHorizontal {
     fn view_box(&self) -> &str {
@@ -52236,7 +54813,7 @@ impl IconShape for LdUnfoldHorizontal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUnfoldVertical;
 impl IconShape for LdUnfoldVertical {
     fn view_box(&self) -> &str {
@@ -52284,7 +54861,7 @@ impl IconShape for LdUnfoldVertical {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUngroup;
 impl IconShape for LdUngroup {
     fn view_box(&self) -> &str {
@@ -52322,7 +54899,7 @@ impl IconShape for LdUngroup {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUniversity;
 impl IconShape for LdUniversity {
     fn view_box(&self) -> &str {
@@ -52363,13 +54940,13 @@ impl IconShape for LdUniversity {
                 d: "M18 13v.01",
             }
             path {
-                d: "M14 22v-5a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v5",
+                d: "M14 22v-5a2 2 0 0 0-2-2a2 2 0 0 0-2 2v5",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUnlink2;
 impl IconShape for LdUnlink2 {
     fn view_box(&self) -> &str {
@@ -52396,7 +54973,7 @@ impl IconShape for LdUnlink2 {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUnlink;
 impl IconShape for LdUnlink {
     fn view_box(&self) -> &str {
@@ -52450,7 +55027,7 @@ impl IconShape for LdUnlink {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUnplug;
 impl IconShape for LdUnplug {
     fn view_box(&self) -> &str {
@@ -52492,7 +55069,7 @@ impl IconShape for LdUnplug {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUpload;
 impl IconShape for LdUpload {
     fn view_box(&self) -> &str {
@@ -52528,7 +55105,7 @@ impl IconShape for LdUpload {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUsb;
 impl IconShape for LdUsb {
     fn view_box(&self) -> &str {
@@ -52577,7 +55154,7 @@ impl IconShape for LdUsb {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUserCheck;
 impl IconShape for LdUserCheck {
     fn view_box(&self) -> &str {
@@ -52612,7 +55189,7 @@ impl IconShape for LdUserCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUserCog;
 impl IconShape for LdUserCog {
     fn view_box(&self) -> &str {
@@ -52673,7 +55250,7 @@ impl IconShape for LdUserCog {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUserMinus;
 impl IconShape for LdUserMinus {
     fn view_box(&self) -> &str {
@@ -52711,7 +55288,42 @@ impl IconShape for LdUserMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdUserPen;
+impl IconShape for LdUserPen {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M11.5 15H7a4 4 0 0 0-4 4v2",
+            }
+            path {
+                d: "M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z",
+            }
+            circle {
+                cx: "10",
+                cy: "7",
+                r: "4",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUserPlus;
 impl IconShape for LdUserPlus {
     fn view_box(&self) -> &str {
@@ -52755,7 +55367,7 @@ impl IconShape for LdUserPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUserRoundCheck;
 impl IconShape for LdUserRoundCheck {
     fn view_box(&self) -> &str {
@@ -52790,7 +55402,7 @@ impl IconShape for LdUserRoundCheck {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUserRoundCog;
 impl IconShape for LdUserRoundCog {
     fn view_box(&self) -> &str {
@@ -52851,7 +55463,7 @@ impl IconShape for LdUserRoundCog {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUserRoundMinus;
 impl IconShape for LdUserRoundMinus {
     fn view_box(&self) -> &str {
@@ -52886,7 +55498,42 @@ impl IconShape for LdUserRoundMinus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdUserRoundPen;
+impl IconShape for LdUserRoundPen {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M2 21a8 8 0 0 1 10.821-7.487",
+            }
+            path {
+                d: "M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z",
+            }
+            circle {
+                cx: "10",
+                cy: "8",
+                r: "5",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUserRoundPlus;
 impl IconShape for LdUserRoundPlus {
     fn view_box(&self) -> &str {
@@ -52924,7 +55571,7 @@ impl IconShape for LdUserRoundPlus {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUserRoundSearch;
 impl IconShape for LdUserRoundSearch {
     fn view_box(&self) -> &str {
@@ -52964,7 +55611,7 @@ impl IconShape for LdUserRoundSearch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUserRoundX;
 impl IconShape for LdUserRoundX {
     fn view_box(&self) -> &str {
@@ -53002,7 +55649,7 @@ impl IconShape for LdUserRoundX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUserRound;
 impl IconShape for LdUserRound {
     fn view_box(&self) -> &str {
@@ -53034,7 +55681,7 @@ impl IconShape for LdUserRound {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUserSearch;
 impl IconShape for LdUserSearch {
     fn view_box(&self) -> &str {
@@ -53074,7 +55721,7 @@ impl IconShape for LdUserSearch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUserX;
 impl IconShape for LdUserX {
     fn view_box(&self) -> &str {
@@ -53118,7 +55765,7 @@ impl IconShape for LdUserX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUser;
 impl IconShape for LdUser {
     fn view_box(&self) -> &str {
@@ -53150,7 +55797,7 @@ impl IconShape for LdUser {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUsersRound;
 impl IconShape for LdUsersRound {
     fn view_box(&self) -> &str {
@@ -53185,7 +55832,7 @@ impl IconShape for LdUsersRound {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUsers;
 impl IconShape for LdUsers {
     fn view_box(&self) -> &str {
@@ -53223,7 +55870,7 @@ impl IconShape for LdUsers {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUtensilsCrossed;
 impl IconShape for LdUtensilsCrossed {
     fn view_box(&self) -> &str {
@@ -53259,7 +55906,7 @@ impl IconShape for LdUtensilsCrossed {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUtensils;
 impl IconShape for LdUtensils {
     fn view_box(&self) -> &str {
@@ -53286,13 +55933,13 @@ impl IconShape for LdUtensils {
                 d: "M7 2v20",
             }
             path {
-                d: "M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7",
+                d: "M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdUtilityPole;
 impl IconShape for LdUtilityPole {
     fn view_box(&self) -> &str {
@@ -53337,7 +55984,7 @@ impl IconShape for LdUtilityPole {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVariable;
 impl IconShape for LdVariable {
     fn view_box(&self) -> &str {
@@ -53379,7 +56026,7 @@ impl IconShape for LdVariable {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVault;
 impl IconShape for LdVault {
     fn view_box(&self) -> &str {
@@ -53447,7 +56094,7 @@ impl IconShape for LdVault {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVegan;
 impl IconShape for LdVegan {
     fn view_box(&self) -> &str {
@@ -53480,7 +56127,7 @@ impl IconShape for LdVegan {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVenetianMask;
 impl IconShape for LdVenetianMask {
     fn view_box(&self) -> &str {
@@ -53513,7 +56160,7 @@ impl IconShape for LdVenetianMask {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVibrateOff;
 impl IconShape for LdVibrateOff {
     fn view_box(&self) -> &str {
@@ -53555,7 +56202,7 @@ impl IconShape for LdVibrateOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVibrate;
 impl IconShape for LdVibrate {
     fn view_box(&self) -> &str {
@@ -53592,7 +56239,7 @@ impl IconShape for LdVibrate {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVideoOff;
 impl IconShape for LdVideoOff {
     fn view_box(&self) -> &str {
@@ -53625,7 +56272,7 @@ impl IconShape for LdVideoOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVideo;
 impl IconShape for LdVideo {
     fn view_box(&self) -> &str {
@@ -53659,7 +56306,7 @@ impl IconShape for LdVideo {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVideotape;
 impl IconShape for LdVideotape {
     fn view_box(&self) -> &str {
@@ -53706,7 +56353,7 @@ impl IconShape for LdVideotape {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdView;
 impl IconShape for LdView {
     fn view_box(&self) -> &str {
@@ -53727,22 +56374,24 @@ impl IconShape for LdView {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M5 12s2.545-5 7-5c4.454 0 7 5 7 5s-2.546 5-7 5c-4.455 0-7-5-7-5z",
-            }
-            path {
-                d: "M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2z",
-            }
-            path {
                 d: "M21 17v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2",
             }
             path {
                 d: "M21 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2",
             }
+            circle {
+                cx: "12",
+                cy: "12",
+                r: "1",
+            }
+            path {
+                d: "M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0",
+            }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVoicemail;
 impl IconShape for LdVoicemail {
     fn view_box(&self) -> &str {
@@ -53782,7 +56431,51 @@ impl IconShape for LdVoicemail {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdVolleyball;
+impl IconShape for LdVolleyball {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M11.1 7.1a16.55 16.55 0 0 1 10.9 4",
+            }
+            path {
+                d: "M12 12a12.6 12.6 0 0 1-8.7 5",
+            }
+            path {
+                d: "M16.8 13.6a16.55 16.55 0 0 1-9 7.5",
+            }
+            path {
+                d: "M20.7 17a12.8 12.8 0 0 0-8.7-5 13.3 13.3 0 0 1 0-10",
+            }
+            path {
+                d: "M6.3 3.8a16.55 16.55 0 0 0 1.9 11.5",
+            }
+            circle {
+                cx: "12",
+                cy: "12",
+                r: "10",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVolume1;
 impl IconShape for LdVolume1 {
     fn view_box(&self) -> &str {
@@ -53802,17 +56495,17 @@ impl IconShape for LdVolume1 {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polygon {
-                points: "11 5 6 9 2 9 2 15 6 15 11 19 11 5",
+            path {
+                d: "M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z",
             }
             path {
-                d: "M15.54 8.46a5 5 0 0 1 0 7.07",
+                d: "M16 9a5 5 0 0 1 0 6",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVolume2;
 impl IconShape for LdVolume2 {
     fn view_box(&self) -> &str {
@@ -53832,20 +56525,59 @@ impl IconShape for LdVolume2 {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polygon {
-                points: "11 5 6 9 2 9 2 15 6 15 11 19 11 5",
+            path {
+                d: "M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z",
             }
             path {
-                d: "M15.54 8.46a5 5 0 0 1 0 7.07",
+                d: "M16 9a5 5 0 0 1 0 6",
             }
             path {
-                d: "M19.07 4.93a10 10 0 0 1 0 14.14",
+                d: "M19.364 18.364a9 9 0 0 0 0-12.728",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdVolumeOff;
+impl IconShape for LdVolumeOff {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M16 9a5 5 0 0 1 .95 2.293",
+            }
+            path {
+                d: "M19.364 5.636a9 9 0 0 1 1.889 9.96",
+            }
+            path {
+                d: "m2 2 20 20",
+            }
+            path {
+                d: "m7 7-.587.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298V11",
+            }
+            path {
+                d: "M9.828 4.172A.686.686 0 0 1 11 4.657v.686",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVolumeX;
 impl IconShape for LdVolumeX {
     fn view_box(&self) -> &str {
@@ -53865,8 +56597,8 @@ impl IconShape for LdVolumeX {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polygon {
-                points: "11 5 6 9 2 9 2 15 6 15 11 19 11 5",
+            path {
+                d: "M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z",
             }
             line {
                 x1: "22",
@@ -53884,7 +56616,7 @@ impl IconShape for LdVolumeX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVolume;
 impl IconShape for LdVolume {
     fn view_box(&self) -> &str {
@@ -53904,14 +56636,14 @@ impl IconShape for LdVolume {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            polygon {
-                points: "11 5 6 9 2 9 2 15 6 15 11 19 11 5",
+            path {
+                d: "M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z",
             }
         }
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdVote;
 impl IconShape for LdVote {
     fn view_box(&self) -> &str {
@@ -53944,7 +56676,7 @@ impl IconShape for LdVote {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWalletCards;
 impl IconShape for LdWalletCards {
     fn view_box(&self) -> &str {
@@ -53981,7 +56713,7 @@ impl IconShape for LdWalletCards {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWalletMinimal;
 impl IconShape for LdWalletMinimal {
     fn view_box(&self) -> &str {
@@ -54011,7 +56743,7 @@ impl IconShape for LdWalletMinimal {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWallet;
 impl IconShape for LdWallet {
     fn view_box(&self) -> &str {
@@ -54041,7 +56773,7 @@ impl IconShape for LdWallet {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWallpaper;
 impl IconShape for LdWallpaper {
     fn view_box(&self) -> &str {
@@ -54079,7 +56811,7 @@ impl IconShape for LdWallpaper {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWandSparkles;
 impl IconShape for LdWandSparkles {
     fn view_box(&self) -> &str {
@@ -54127,7 +56859,7 @@ impl IconShape for LdWandSparkles {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWand;
 impl IconShape for LdWand {
     fn view_box(&self) -> &str {
@@ -54163,7 +56895,7 @@ impl IconShape for LdWand {
                 d: "M17.8 11.8 19 13",
             }
             path {
-                d: "M15 9h0",
+                d: "M15 9h.01",
             }
             path {
                 d: "M17.8 6.2 19 5",
@@ -54178,7 +56910,7 @@ impl IconShape for LdWand {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWarehouse;
 impl IconShape for LdWarehouse {
     fn view_box(&self) -> &str {
@@ -54217,7 +56949,7 @@ impl IconShape for LdWarehouse {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWashingMachine;
 impl IconShape for LdWashingMachine {
     fn view_box(&self) -> &str {
@@ -54262,7 +56994,7 @@ impl IconShape for LdWashingMachine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWatch;
 impl IconShape for LdWatch {
     fn view_box(&self) -> &str {
@@ -54300,7 +57032,7 @@ impl IconShape for LdWatch {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWaves;
 impl IconShape for LdWaves {
     fn view_box(&self) -> &str {
@@ -54333,7 +57065,7 @@ impl IconShape for LdWaves {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWaypoints;
 impl IconShape for LdWaypoints {
     fn view_box(&self) -> &str {
@@ -54386,7 +57118,7 @@ impl IconShape for LdWaypoints {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWebcam;
 impl IconShape for LdWebcam {
     fn view_box(&self) -> &str {
@@ -54426,7 +57158,7 @@ impl IconShape for LdWebcam {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWebhookOff;
 impl IconShape for LdWebhookOff {
     fn view_box(&self) -> &str {
@@ -54471,7 +57203,7 @@ impl IconShape for LdWebhookOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWebhook;
 impl IconShape for LdWebhook {
     fn view_box(&self) -> &str {
@@ -54504,7 +57236,7 @@ impl IconShape for LdWebhook {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWeight;
 impl IconShape for LdWeight {
     fn view_box(&self) -> &str {
@@ -54536,7 +57268,7 @@ impl IconShape for LdWeight {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWheatOff;
 impl IconShape for LdWheatOff {
     fn view_box(&self) -> &str {
@@ -54593,7 +57325,7 @@ impl IconShape for LdWheatOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWheat;
 impl IconShape for LdWheat {
     fn view_box(&self) -> &str {
@@ -54641,7 +57373,7 @@ impl IconShape for LdWheat {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWholeWord;
 impl IconShape for LdWholeWord {
     fn view_box(&self) -> &str {
@@ -54684,7 +57416,70 @@ impl IconShape for LdWholeWord {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdWifiHigh;
+impl IconShape for LdWifiHigh {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12 20h.01",
+            }
+            path {
+                d: "M5 12.859a10 10 0 0 1 14 0",
+            }
+            path {
+                d: "M8.5 16.429a5 5 0 0 1 7 0",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdWifiLow;
+impl IconShape for LdWifiLow {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12 20h.01",
+            }
+            path {
+                d: "M8.5 16.429a5 5 0 0 1 7 0",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWifiOff;
 impl IconShape for LdWifiOff {
     fn view_box(&self) -> &str {
@@ -54729,7 +57524,34 @@ impl IconShape for LdWifiOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
+pub struct LdWifiZero;
+impl IconShape for LdWifiZero {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ("none", user_color, "2")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "round"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "round"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12 20h.01",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWifi;
 impl IconShape for LdWifi {
     fn view_box(&self) -> &str {
@@ -54765,7 +57587,7 @@ impl IconShape for LdWifi {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWind;
 impl IconShape for LdWind {
     fn view_box(&self) -> &str {
@@ -54798,7 +57620,7 @@ impl IconShape for LdWind {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWineOff;
 impl IconShape for LdWineOff {
     fn view_box(&self) -> &str {
@@ -54840,7 +57662,7 @@ impl IconShape for LdWineOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWine;
 impl IconShape for LdWine {
     fn view_box(&self) -> &str {
@@ -54876,7 +57698,7 @@ impl IconShape for LdWine {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWorkflow;
 impl IconShape for LdWorkflow {
     fn view_box(&self) -> &str {
@@ -54917,7 +57739,7 @@ impl IconShape for LdWorkflow {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWorm;
 impl IconShape for LdWorm {
     fn view_box(&self) -> &str {
@@ -54950,7 +57772,7 @@ impl IconShape for LdWorm {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWrapText;
 impl IconShape for LdWrapText {
     fn view_box(&self) -> &str {
@@ -54992,7 +57814,7 @@ impl IconShape for LdWrapText {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdWrench;
 impl IconShape for LdWrench {
     fn view_box(&self) -> &str {
@@ -55019,7 +57841,7 @@ impl IconShape for LdWrench {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdX;
 impl IconShape for LdX {
     fn view_box(&self) -> &str {
@@ -55049,7 +57871,7 @@ impl IconShape for LdX {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdYoutube;
 impl IconShape for LdYoutube {
     fn view_box(&self) -> &str {
@@ -55079,7 +57901,7 @@ impl IconShape for LdYoutube {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdZapOff;
 impl IconShape for LdZapOff {
     fn view_box(&self) -> &str {
@@ -55115,7 +57937,7 @@ impl IconShape for LdZapOff {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdZap;
 impl IconShape for LdZap {
     fn view_box(&self) -> &str {
@@ -55142,7 +57964,7 @@ impl IconShape for LdZap {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdZoomIn;
 impl IconShape for LdZoomIn {
     fn view_box(&self) -> &str {
@@ -55189,7 +58011,7 @@ impl IconShape for LdZoomIn {
     }
 }
 
-#[derive(Copy, Clone, Debug, PartialEq)]
+#[derive(Copy, Clone, Debug, PartialEq, Default)]
 pub struct LdZoomOut;
 impl IconShape for LdZoomOut {
     fn view_box(&self) -> &str {
