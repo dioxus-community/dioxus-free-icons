@@ -13,7 +13,7 @@ To use `dioxus-free-icons`, add this to your Cargo.toml:
 
 ```toml
 [dependencies]
-dioxus-free-icons = { version = "0.8", features = ["font-awesome-brands"] }
+dioxus-free-icons = { version = "0.9", features = ["font-awesome-brands"] }
 ```
 
 ### Support features
