@@ -154,6 +154,7 @@ fn extract_svg_colors(icon_prefix: &str) -> (&str, &str, &str) {
     match icon_prefix {
         "Fi" => ("\"none\"", "user_color", "\"2\""),
         "Ld" => ("\"none\"", "user_color", "\"2\""),
+        "Tb" => ("\"none\"", "user_color", "\"0\""),
         "Io" => ("user_color", "user_color", "\"0\""),
         _ => ("user_color", "\"none\"", "\"0\""),
     }
@@ -163,6 +164,7 @@ fn extract_stroke_linecap(icon_prefix: &str) -> &str {
     match icon_prefix {
         "Ld" => "round",
         "Fi" => "round",
+        "Tb" => "round",
         _ => "butt",
     }
 }
@@ -171,6 +173,7 @@ fn extract_stroke_linejoin(icon_prefix: &str) -> &str {
     match icon_prefix {
         "Ld" => "round",
         "Fi" => "round",
+        "Tb" => "round",
         _ => "miter",
     }
 }
