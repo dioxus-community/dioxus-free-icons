@@ -193,7 +193,7 @@ fn extract_svg_child_elements(elements: &[&Element], icon_prefix: &str) -> Strin
                         value.to_string()
                     };
                     let re = Regex::new(r"^data-.*$").unwrap();
-                    if !re.is_match(name) && name != "fill" {
+                    if !re.is_match(name) && name != "fill" && name != "stroke" {
                         Some(format!(
                             "                {}: \"{}\",",
                             name.to_snake_case(),
