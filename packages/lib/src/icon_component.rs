@@ -21,12 +21,10 @@ pub trait IconShape {
 pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
     /// The icon shape to use.
     pub icon: T,
-    /// The height of the `<svg>` element. Defaults to 20.
-    #[props(default = 20)]
-    pub height: u32,
-    /// The width of the `<svg>` element. Defaults to 20.
-    #[props(default = 20)]
-    pub width: u32,
+    /// The height of the `<svg>` element. Omitted by default.
+    pub height: Option<u32>,
+    /// The width of the `<svg>` element. Omitted by default.
+    pub width: Option<u32>,
     /// The color to use for filling the icon. Defaults to "currentColor".
     #[props(default = "currentColor".to_string())]
     pub fill: String,
@@ -47,8 +45,8 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
         svg {
             class: "{props.class}",
             style: props.style,
-            height: "{props.height}",
-            width: "{props.width}",
+            height: props.height.map(|height| height.to_string()),
+            width: props.width.map(|width| width.to_string()),
             view_box: "{props.icon.view_box()}",
             xmlns: "{props.icon.xmlns()}",
             fill,
