@@ -21,9 +21,11 @@ pub trait IconShape {
 pub struct IconProps<T: IconShape + Clone + PartialEq + 'static> {
     /// The icon shape to use.
     pub icon: T,
-    /// The height of the `<svg>` element. Omitted by default.
+    /// The height of the `<svg>` element. Defaults to 20. Pass None to omit.
+    #[props(default = Some(20))]
     pub height: Option<u32>,
-    /// The width of the `<svg>` element. Omitted by default.
+    /// The width of the `<svg>` element. Defaults to 20. Pass None to omit.
+    #[props(default = Some(20))]
     pub width: Option<u32>,
     /// The color to use for filling the icon. Defaults to "currentColor".
     #[props(default = "currentColor".to_string())]
@@ -55,9 +57,7 @@ pub fn Icon<T: IconShape + Clone + PartialEq + 'static>(props: IconProps<T>) -> 
             stroke_linecap: "{props.icon.stroke_linecap()}",
             stroke_linejoin: "{props.icon.stroke_linejoin()}",
             if let Some(title_text) = props.title {
-                title {
-                    "{title_text}"
-                }
+                title { "{title_text}" }
             }
             {props.icon.child_elements()}
         }
