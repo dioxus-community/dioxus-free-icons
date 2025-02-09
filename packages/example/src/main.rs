@@ -1,9 +1,11 @@
 #![allow(non_snake_case)]
+mod icons;
 mod use_clipboard;
 use dioxus::prelude::*;
 
 use dioxus_free_icons::icons::fa_brands_icons::FaRust;
 use dioxus_free_icons::Icon;
+use icons::get_icon_sets;
 use use_clipboard::copy_to_clipboard;
 const _STYLE: &str = manganis::mg!(file("public/tailwind.css"));
 
@@ -39,7 +41,7 @@ pub struct SearchIcon(String);
 fn MainWrapper() -> Element {
     let grey_background = true;
     let mut search_icon = use_context_provider(|| Signal::new(SearchIcon(String::new())));
-    let _iconsets = use_context_provider(|| Signal::new(build_iconsets()));
+    let _iconsets = use_context_provider(|| Signal::new(get_icon_sets()));
     rsx!(
         div {
             header {
@@ -120,25 +122,15 @@ fn Index() -> Element {
     }
 }
 
-fn build_iconsets() -> Vec<IconSet> {
-    vec![IconSet {
-        code: "ant".to_string(),
-        name: "Ant Design Icons".to_string(),
-        license: "MIT".to_string(),
-        url: "".to_string(),
-        icons: vec![IconName {
-            name: "rust".to_string(),
-            icon: rsx!(Icon { icon: FaRust }),
-        }],
-    }]
-}
-
 #[derive(Clone, Debug, Default)]
 pub struct IconSet {
     pub code: String,
     pub name: String,
-    pub license: String,
     pub url: String,
+    pub license: String,
+    pub license_url: String,
+    pub version: String,
+    pub source_url: String,
     pub icons: Vec<IconName>,
 }
 

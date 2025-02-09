@@ -29,7 +29,9 @@ impl IconShape for {ICON_NAME} {
 }
 "#;
 
-pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
+pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) -> Vec<String> {
+    // we create icons and we returns names to be used in example demo
+    let mut icons_names = vec![];
     let mut files = collect_svg_files(svg_path, icon_prefix);
     // we sort the files to ensure that the order of the icons is consistent
     // across different runs of the codegen
@@ -60,9 +62,10 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
             let icon_name = icon_name(&file, icon_prefix);
             let (view_box, xmlns) = extract_svg_attrs(svg_element);
             let child_elements = extract_svg_child_elements(svg_child_elements, icon_prefix);
-
+            let full_icon_name = format!("{}{}", icon_prefix, &icon_name);
+            icons_names.push(full_icon_name.clone());
             ICON_TEMPLATE
-                .replace("{ICON_NAME}", &format!("{}{}", icon_prefix, &icon_name))
+                .replace("{ICON_NAME}", &full_icon_name)
                 .replace("{VIEW_BOX}", &view_box)
                 .replace("{XMLNS}", &xmlns)
                 .replace("{CHILD_ELEMENTS}", &child_elements)
@@ -82,6 +85,7 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) {
     .unwrap();
     file.flush().unwrap();
     println!("Created icon file: {}", output_path);
+    icons_names
 }
 
 fn collect_svg_files(svg_path: &str, icon_prefix: &str) -> Vec<PathBuf> {

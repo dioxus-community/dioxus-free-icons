@@ -158,6 +158,42 @@ impl IconShape for MdAgriculture {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdAirlineStops;
+impl IconShape for MdAirlineStops {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M18.21,9.21C15.93,10.78,13.45,13.3,13,17h2v2H9v-2h2c-0.5-4.5-4.37-8-9-8V7c4.39,0,8.22,2.55,10,6.3 c1.13-2.43,2.99-4.25,4.78-5.52L14,5h7v7L18.21,9.21z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdAirlines;
+impl IconShape for MdAirlines {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M13,4L2,20h17l3-16H13z M14.5,14c-1.38,0-2.5-1.12-2.5-2.5c0-1.38,1.12-2.5,2.5-2.5s2.5,1.12,2.5,2.5 C17,12.88,15.88,14,14.5,14z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdAltRoute;
 impl IconShape for MdAltRoute {
     fn view_box(&self) -> String {
@@ -347,6 +383,24 @@ impl IconShape for MdBusAlert {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdCarCrash;
+impl IconShape for MdCarCrash {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M18,1c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S20.76,1,18,1z M18.5,7h-1V3h1V7z M18.5,8v1h-1V8H18.5z M17.91,13 c0.06,0.16,0.09,0.33,0.09,0.5c0,0.83-0.67,1.5-1.5,1.5S15,14.33,15,13.5c0-0.39,0.15-0.74,0.39-1.01 c-1.63-0.66-2.96-1.91-3.71-3.49H5.81l1.04-3H11c0-0.69,0.1-1.37,0.29-2H6.5C5.84,4,5.29,4.42,5.08,5.01L3,11v8c0,0.55,0.45,1,1,1 h1c0.55,0,1-0.45,1-1v-1h12v1c0,0.55,0.45,1,1,1h1c0.55,0,1-0.45,1-1v-6.68C19.95,12.83,18.84,13.01,17.91,13z M7.5,15 C6.67,15,6,14.33,6,13.5S6.67,12,7.5,12S9,12.67,9,13.5S8.33,15,7.5,15z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdCarRental;
 impl IconShape for MdCarRental {
     fn view_box(&self) -> String {
@@ -380,6 +434,24 @@ impl IconShape for MdCarRepair {
         rsx! {
             path {
                 d: "M16.22,12c0.68,0,1.22-0.54,1.22-1.22c0-0.67-0.54-1.22-1.22-1.22S15,10.11,15,10.78C15,11.46,15.55,12,16.22,12z M6.56,10.78c0,0.67,0.54,1.22,1.22,1.22S9,11.46,9,10.78c0-0.67-0.54-1.22-1.22-1.22S6.56,10.11,6.56,10.78z M7.61,4L6.28,8h11.43 l-1.33-4H7.61z M16.28,3c0,0,0.54,0.01,0.92,0.54c0.02,0.02,0.03,0.04,0.05,0.07c0.07,0.11,0.14,0.24,0.19,0.4 C17.66,4.66,19,8.69,19,8.69v6.5c0,0.45-0.35,0.81-0.78,0.81h-0.44C17.35,16,17,15.64,17,15.19V14H7v1.19C7,15.64,6.65,16,6.22,16 H5.78C5.35,16,5,15.64,5,15.19v-6.5c0,0,1.34-4.02,1.55-4.69c0.05-0.16,0.12-0.28,0.19-0.4C6.77,3.58,6.78,3.56,6.8,3.54 C7.18,3.01,7.72,3,7.72,3H16.28z M4,17.01h16V19h-7v3h-2v-3H4V17.01z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdCastle;
+impl IconShape for MdCastle {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M21,9v2h-2V3h-2v2h-2V3h-2v2h-2V3H9v2H7V3H5v8H3V9H1v12h9v-3c0-1.1,0.9-2,2-2s2,0.9,2,2v3h9V9H21z M11,12H9V9h2V12z M15,12h-2V9h2V12z",
             }
         }
     }
@@ -442,6 +514,24 @@ impl IconShape for MdCelebration {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdChurch;
+impl IconShape for MdChurch {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M18,12.22V9l-5-2.5V5h2V3h-2V1h-2v2H9v2h2v1.5L6,9v3.22L2,14v8h8v-3c0-1.1,0.9-2,2-2s2,0.9,2,2v3h8v-8L18,12.22z M12,13.5 c-0.83,0-1.5-0.67-1.5-1.5s0.67-1.5,1.5-1.5s1.5,0.67,1.5,1.5S12.83,13.5,12,13.5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdCleaningServices;
 impl IconShape for MdCleaningServices {
     fn view_box(&self) -> String {
@@ -477,6 +567,42 @@ impl IconShape for MdCompassCalibration {
             }
             path {
                 d: "M12 10.07c1.95 0 3.72.79 5 2.07l5-5C19.44 4.59 15.9 3 12 3S4.56 4.59 2 7.15l5 5c1.28-1.28 3.05-2.08 5-2.08z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdConnectingAirports;
+impl IconShape for MdConnectingAirports {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M15.4,17l1.3,4.4h-1.1L13,17h-3c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1h3l2.6-4.4h1.1L15.4,15h2.85L19,14h1l-0.6,2l0.6,2h-1 l-0.75-1H15.4z M5.75,7L5,6H4l0.6,2L4,10h1l0.75-1H8.6l-1.3,4.4h1.1L11,9h3c0.55,0,1-0.45,1-1s-0.45-1-1-1h-3L8.4,2.6H7.3L8.6,7 H5.75z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdCrisisAlert;
+impl IconShape for MdCrisisAlert {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M14.5,2.5c0,1.5-1.5,6-1.5,6h-2c0,0-1.5-4.5-1.5-6C9.5,1.12,10.62,0,12,0S14.5,1.12,14.5,2.5z M12,10c-1.1,0-2,0.9-2,2 s0.9,2,2,2s2-0.9,2-2S13.1,10,12,10z M16.08,5.11c0.18-0.75,0.33-1.47,0.39-2.06C19.75,4.69,22,8.08,22,12c0,5.52-4.48,10-10,10 S2,17.52,2,12c0-3.92,2.25-7.31,5.53-8.95C7.6,3.64,7.74,4.37,7.92,5.11C5.58,6.51,4,9.07,4,12c0,4.42,3.58,8,8,8s8-3.58,8-8 C20,9.07,18.42,6.51,16.08,5.11z M18,12c0,3.31-2.69,6-6,6s-6-2.69-6-6c0-2,0.98-3.77,2.48-4.86c0.23,0.81,0.65,2.07,0.65,2.07 C8.43,9.93,8,10.92,8,12c0,2.21,1.79,4,4,4s4-1.79,4-4c0-1.08-0.43-2.07-1.13-2.79c0,0,0.41-1.22,0.65-2.07C17.02,8.23,18,10,18,12 z",
             }
         }
     }
@@ -549,6 +675,36 @@ impl IconShape for MdDesignServices {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdDiamond;
+impl IconShape for MdDiamond {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            polygon {
+                points: "12.16,3 11.84,3 9.21,8.25 14.79,8.25",
+            }
+            polygon {
+                points: "16.46,8.25 21.62,8.25 19,3 13.84,3",
+            }
+            polygon {
+                points: "21.38,9.75 12.75,9.75 12.75,20.1",
+            }
+            polygon {
+                points: "11.25,20.1 11.25,9.75 2.62,9.75",
+            }
+            polygon {
+                points: "7.54,8.25 10.16,3 5,3 2.38,8.25",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdDinnerDining;
 impl IconShape for MdDinnerDining {
     fn view_box(&self) -> String {
@@ -578,7 +734,7 @@ impl IconShape for MdDirections {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M21.71 11.29l-9-9c-.39-.39-1.02-.39-1.41 0l-9 9c-.39.39-.39 1.02 0 1.41l9 9c.39.39 1.02.39 1.41 0l9-9c.39-.38.39-1.01 0-1.41zM14 14.5V12h-4v3H8v-4c0-.55.45-1 1-1h5V7.5l3.5 3.5-3.5 3.5z",
+                d: "m21.41 10.59-7.99-8c-.78-.78-2.05-.78-2.83 0l-8.01 8c-.78.78-.78 2.05 0 2.83l8.01 8c.78.78 2.05.78 2.83 0l7.99-8c.79-.79.79-2.05 0-2.83zM13.5 14.5V12H10v3H8v-4c0-.55.45-1 1-1h4.5V7.5L17 11l-3.5 3.5z",
             }
         }
     }
@@ -621,6 +777,24 @@ impl IconShape for MdDirectionsBoat {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdDirectionsBoatFilled;
+impl IconShape for MdDirectionsBoatFilled {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M20,21c-1.39,0-2.78-0.47-4-1.32c-2.44,1.71-5.56,1.71-8,0C6.78,20.53,5.39,21,4,21H2v2h2c1.38,0,2.74-0.35,4-0.99 c2.52,1.29,5.48,1.29,8,0c1.26,0.65,2.62,0.99,4,0.99h2v-2H20z M3.95,19H4c1.6,0,3.02-0.88,4-2c0.98,1.12,2.4,2,4,2s3.02-0.88,4-2 c0.98,1.12,2.4,2,4,2h0.05l1.9-6.68c0.11-0.37,0.04-1.06-0.66-1.28L20,10.62V6c0-1.1-0.9-2-2-2h-3V1H9v3H6C4.9,4,4,4.9,4,6v4.62 l-1.29,0.42c-0.63,0.19-0.81,0.84-0.66,1.28L3.95,19z M6,6h12v3.97L12,8L6,9.97V6z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdDirectionsBus;
 impl IconShape for MdDirectionsBus {
     fn view_box(&self) -> String {
@@ -633,6 +807,25 @@ impl IconShape for MdDirectionsBus {
         rsx! {
             path {
                 d: "M4 16c0 .88.39 1.67 1 2.22V20c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h8v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1.78c.61-.55 1-1.34 1-2.22V6c0-3.5-3.58-4-8-4s-8 .5-8 4v10zm3.5 1c-.83 0-1.5-.67-1.5-1.5S6.67 14 7.5 14s1.5.67 1.5 1.5S8.33 17 7.5 17zm9 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm1.5-6H6V6h12v5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdDirectionsBusFilled;
+impl IconShape for MdDirectionsBusFilled {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12,2C8,2,4,2.5,4,6v9.5c0,0.95,0.38,1.81,1,2.44V20c0,0.55,0.45,1,1,1h1c0.55,0,1-0.45,1-1 v-1h8v1c0,0.55,0.45,1,1,1h1c0.55,0,1-0.45,1-1v-2.06c0.62-0.63,1-1.49,1-2.44V6C20,2.5,16.42,2,12,2z M8.5,16 C7.67,16,7,15.33,7,14.5S7.67,13,8.5,13s1.5,0.67,1.5,1.5S9.33,16,8.5,16z M15.5,16c-0.83,0-1.5-0.67-1.5-1.5s0.67-1.5,1.5-1.5 s1.5,0.67,1.5,1.5S16.33,16,15.5,16z M18,10H6V7h12V10z",
+                enable_background: "new",
             }
         }
     }
@@ -657,6 +850,24 @@ impl IconShape for MdDirectionsCar {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdDirectionsCarFilled;
+impl IconShape for MdDirectionsCarFilled {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M18.92,6.01C18.72,5.42,18.16,5,17.5,5h-11C5.84,5,5.29,5.42,5.08,6.01L3,12v8c0,0.55,0.45,1,1,1h1c0.55,0,1-0.45,1-1v-1 h12v1c0,0.55,0.45,1,1,1h1c0.55,0,1-0.45,1-1v-8L18.92,6.01z M7.5,16C6.67,16,6,15.33,6,14.5S6.67,13,7.5,13S9,13.67,9,14.5 S8.33,16,7.5,16z M16.5,16c-0.83,0-1.5-0.67-1.5-1.5s0.67-1.5,1.5-1.5s1.5,0.67,1.5,1.5S17.33,16,16.5,16z M5.81,10l1.04-3h10.29 l1.04,3H5.81z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdDirectionsRailway;
 impl IconShape for MdDirectionsRailway {
     fn view_box(&self) -> String {
@@ -669,6 +880,25 @@ impl IconShape for MdDirectionsRailway {
         rsx! {
             path {
                 d: "M4 15.5C4 17.43 5.57 19 7.5 19L6 20.5v.5h12v-.5L16.5 19c1.93 0 3.5-1.57 3.5-3.5V5c0-3.5-3.58-4-8-4s-8 .5-8 4v10.5zm8 1.5c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm6-7H6V5h12v5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdDirectionsRailwayFilled;
+impl IconShape for MdDirectionsRailwayFilled {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12,2C8,2,4,2.5,4,6v9.5C4,17.43,5.57,19,7.5,19L6,20v1h12v-1l-1.5-1c1.93,0,3.5-1.57,3.5-3.5 V6C20,2.5,16.42,2,12,2z M12,16c-0.83,0-1.5-0.67-1.5-1.5S11.17,13,12,13s1.5,0.67,1.5,1.5S12.83,16,12,16z M18,10H6V7h12V10z",
+                enable_background: "new",
             }
         }
     }
@@ -711,6 +941,24 @@ impl IconShape for MdDirectionsSubway {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdDirectionsSubwayFilled;
+impl IconShape for MdDirectionsSubwayFilled {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12,2C8,2,4,2.5,4,6v9.5C4,17.43,5.57,19,7.5,19L6,20v1h12v-1l-1.5-1c1.93,0,3.5-1.57,3.5-3.5V6C20,2.5,16.42,2,12,2z M8.5,16C7.67,16,7,15.33,7,14.5S7.67,13,8.5,13s1.5,0.67,1.5,1.5S9.33,16,8.5,16z M11,10H6V7h5V10z M15.5,16 c-0.83,0-1.5-0.67-1.5-1.5s0.67-1.5,1.5-1.5s1.5,0.67,1.5,1.5S16.33,16,15.5,16z M18,10h-5V7h5V10z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdDirectionsTransit;
 impl IconShape for MdDirectionsTransit {
     fn view_box(&self) -> String {
@@ -723,6 +971,24 @@ impl IconShape for MdDirectionsTransit {
         rsx! {
             path {
                 d: "M12 2c-4.42 0-8 .5-8 4v9.5C4 17.43 5.57 19 7.5 19L6 20.5v.5h12v-.5L16.5 19c1.93 0 3.5-1.57 3.5-3.5V6c0-3.5-3.58-4-8-4zM7.5 17c-.83 0-1.5-.67-1.5-1.5S6.67 14 7.5 14s1.5.67 1.5 1.5S8.33 17 7.5 17zm3.5-6H6V6h5v5zm5.5 6c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm1.5-6h-5V6h5v5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdDirectionsTransitFilled;
+impl IconShape for MdDirectionsTransitFilled {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12,2C8,2,4,2.5,4,6v9.5C4,17.43,5.57,19,7.5,19L6,20v1h12v-1l-1.5-1c1.93,0,3.5-1.57,3.5-3.5V6C20,2.5,16.42,2,12,2z M8.5,16C7.67,16,7,15.33,7,14.5S7.67,13,8.5,13s1.5,0.67,1.5,1.5S9.33,16,8.5,16z M11,10H6V7h5V10z M15.5,16 c-0.83,0-1.5-0.67-1.5-1.5s0.67-1.5,1.5-1.5s1.5,0.67,1.5,1.5S16.33,16,15.5,16z M18,10h-5V7h5V10z",
             }
         }
     }
@@ -801,6 +1067,30 @@ impl IconShape for MdEditLocation {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdEditLocationAlt;
+impl IconShape for MdEditLocationAlt {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M13.95,13H9V8.05l5.61-5.61C13.78,2.16,12.9,2,12,2c-4.2,0-8,3.22-8,8.2c0,3.32,2.67,7.25,8,11.8c5.33-4.55,8-8.48,8-11.8 c0-1.01-0.16-1.94-0.45-2.8L13.95,13z",
+            }
+            polygon {
+                points: "11,11 13.12,11 19.28,4.84 17.16,2.72 11,8.88",
+            }
+            path {
+                d: "M20.71,2L20,1.29C19.8,1.1,19.55,1,19.29,1c-0.13,0-0.48,0.07-0.71,0.29l-0.72,0.72l2.12,2.12l0.72-0.72 C21.1,3.02,21.1,2.39,20.71,2z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdEditRoad;
 impl IconShape for MdEditRoad {
     fn view_box(&self) -> String {
@@ -840,6 +1130,42 @@ impl IconShape for MdEditRoad {
             }
             path {
                 d: "M22.56,12.59l-1.15-1.15c-0.59-0.59-1.54-0.59-2.12,0L14,16.73V20h3.27l5.29-5.29C23.15,14.12,23.15,13.17,22.56,12.59z M16.58,18.45h-1.03v-1.03L19,13.97L20.03,15L16.58,18.45z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdEgg;
+impl IconShape for MdEgg {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12,3C8.5,3,5,9.33,5,14c0,3.87,3.13,7,7,7s7-3.13,7-7C19,9.33,15.5,3,12,3z M13,18c-3,0-5-1.99-5-5c0-0.55,0.45-1,1-1 s1,0.45,1,1c0,2.92,2.42,3,3,3c0.55,0,1,0.45,1,1S13.55,18,13,18z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdEggAlt;
+impl IconShape for MdEggAlt {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M19,9C17,7,15.99,2,9.97,2C4.95,2,1.94,6,2,11.52C2.06,17.04,6.96,19,9.97,19c2.01,0,2.01,3,6.02,3C19,22,22,19,22,15.02 C22,12,21.01,11,19,9z M12,15.5c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S13.93,15.5,12,15.5z",
             }
         }
     }
@@ -990,6 +1316,60 @@ impl IconShape for MdElectricalServices {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdEmergency;
+impl IconShape for MdEmergency {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            polygon {
+                points: "20.79,9.23 18.79,5.77 14,8.54 14,3 10,3 10,8.54 5.21,5.77 3.21,9.23 8,12 3.21,14.77 5.21,18.23 10,15.46 10,21 14,21 14,15.46 18.79,18.23 20.79,14.77 16,12",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdEmergencyRecording;
+impl IconShape for MdEmergencyRecording {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M18,10.48V6c0-1.1-0.9-2-2-2H4C2.9,4,2,4.9,2,6v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-4.48l4,3.98v-11L18,10.48z M12,12 l3,1.73l-1,1.73l-3-1.73V17H9v-3.27l-3,1.73l-1-1.73L8,12l-3-1.73l1-1.73l3,1.73V7h2v3.27l3-1.73l1,1.73L12,12z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdEmergencyShare;
+impl IconShape for MdEmergencyShare {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12,9c-3.15,0-6,2.41-6,6.15c0,2.49,2,5.44,6,8.85c4-3.41,6-6.36,6-8.85C18,11.41,15.15,9,12,9z M12,16.5 c-0.83,0-1.5-0.67-1.5-1.5s0.67-1.5,1.5-1.5s1.5,0.67,1.5,1.5S12.83,16.5,12,16.5z M12,4c1.93,0,3.68,0.78,4.95,2.05l-1.41,1.41 C14.63,6.56,13.38,6,12,6S9.37,6.56,8.46,7.46L7.05,6.05C8.32,4.78,10.07,4,12,4z M19.78,3.23l-1.41,1.41 C16.74,3.01,14.49,2,12.01,2S7.27,3.01,5.64,4.63L4.22,3.22C6.22,1.23,8.97,0,12.01,0S17.79,1.23,19.78,3.23z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdEvStation;
 impl IconShape for MdEvStation {
     fn view_box(&self) -> String {
@@ -1002,6 +1382,24 @@ impl IconShape for MdEvStation {
         rsx! {
             path {
                 d: "M19.77 7.23l.01-.01-3.72-3.72L15 4.56l2.11 2.11c-.94.36-1.61 1.26-1.61 2.33 0 1.38 1.12 2.5 2.5 2.5.36 0 .69-.08 1-.21v7.21c0 .55-.45 1-1 1s-1-.45-1-1V14c0-1.1-.9-2-2-2h-1V5c0-1.1-.9-2-2-2H6c-1.1 0-2 .9-2 2v16h10v-7.5h1.5v5c0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5V9c0-.69-.28-1.32-.73-1.77zM18 10c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zM8 18v-4.5H6L10 6v5h2l-4 7z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdFactory;
+impl IconShape for MdFactory {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M22,10v12H2V10l7-3v2l5-2l0,0l0,3H22z M17.2,8.5L18,2h3l0.8,6.5H17.2z M11,18h2v-4h-2V18z M7,18h2v-4H7V18z M17,14h-2v4h2 V14z",
             }
         }
     }
@@ -1044,6 +1442,50 @@ impl IconShape for MdFestival {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdFireHydrantAlt;
+impl IconShape for MdFireHydrantAlt {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M19,11h-1V8h2V6h-2.35C16.83,3.67,14.61,2,12,2S7.17,3.67,6.35,6H4v2h2v3H5c-1.1,0-2,0.9-2,2v2c0,1.1,0.9,2,2,2h1v3H4v2 h16v-2h-2v-3h1c1.1,0,2-0.9,2-2v-2C21,11.9,20.1,11,19,11z M12,17.5c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5 S13.93,17.5,12,17.5z",
+            }
+            circle {
+                cx: "12",
+                cy: "14",
+                r: "1.5",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdFireTruck;
+impl IconShape for MdFireTruck {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M22.9,10.69l-1.44-4.32C21.18,5.55,20.42,5,19.56,5H19V4c0-0.55-0.45-1-1-1h-1c-0.55,0-1,0.45-1,1v1h-2c-1.1,0-2,0.9-2,2 v4H1v5c0,1.1,0.9,2,2,2h1c0,1.66,1.34,3,3,3s3-1.34,3-3h4c0,1.66,1.34,3,3,3s3-1.34,3-3h3v-6.68C23,11.11,22.97,10.9,22.9,10.69z M7,19c-0.55,0-1-0.45-1-1s0.45-1,1-1s1,0.45,1,1S7.55,19,7,19z M17,19c-0.55,0-1-0.45-1-1s0.45-1,1-1s1,0.45,1,1S17.55,19,17,19z M14,11V7h5.56l1.33,4H14z",
+            }
+            path {
+                d: "M11,8.5h-1v-2h1V5H1v1.5h1v2H1V10h10V8.5z M5.25,8.5H3.5v-2h1.75V8.5z M8.5,8.5H6.75v-2H8.5V8.5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdFlight;
 impl IconShape for MdFlight {
     fn view_box(&self) -> String {
@@ -1056,6 +1498,105 @@ impl IconShape for MdFlight {
         rsx! {
             path {
                 d: "M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdFlightClass;
+impl IconShape for MdFlightClass {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M16,4h-2c-1.1,0-2,0.9-2,2v5c0,1.1,0.9,2,2,2h2c1.1,0,2-0.9,2-2V6C18,4.9,17.1,4,16,4z M9.5,16H18v2H9.49 c-0.88,0-1.66-0.58-1.92-1.43L5,8V4h2v4L9.5,16z M8,19h10v2H8V19z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdForest;
+impl IconShape for MdForest {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            polygon {
+                points: "16,12 9,2 2,12 3.86,12 0,18 7,18 7,22 11,22 11,18 18,18 14.14,12",
+            }
+            polygon {
+                points: "20.14,12 22,12 15,2 12.61,5.41 17.92,13 16,13 15.97,13 19.19,18 24,18",
+            }
+            rect {
+                height: "3",
+                width: "4",
+                x: "13",
+                y: "19",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdForkLeft;
+impl IconShape for MdForkLeft {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M9.41,15.59L8,17l-4-4l4-4l1.41,1.41L7.83,12c1.51-0.33,3.73,0.08,5.17,1.36l0-6.53l-1.59,1.59L10,7l4-4l4,4l-1.41,1.41 L15,6.83V21l-2,0v-4c-0.73-2.58-3.07-3.47-5.17-3L9.41,15.59z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdForkRight;
+impl IconShape for MdForkRight {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M14.59,15.59L16,17l4-4l-4-4l-1.41,1.41L16.17,12c-1.51-0.33-3.73,0.08-5.17,1.36l0-6.53l1.59,1.59L14,7l-4-4L6,7 l1.41,1.41L9,6.83V21l2,0v-4c0.73-2.58,3.07-3.47,5.17-3L14.59,15.59z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdFort;
+impl IconShape for MdFort {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M21,3v2h-2V3h-2v2h-2V3h-2v4l2,2v1H9V9l2-2V3H9v2H7V3H5v2H3V3H1v4l2,2v6l-2,2v4h9v-3c0-1.1,0.9-2,2-2s2,0.9,2,2v3h9v-4 l-2-2V9l2-2V3H21z",
             }
         }
     }
@@ -1204,6 +1745,24 @@ impl IconShape for MdIcecream {
             path {
                 d: "M8.79,12.4l3.26,6.22l3.17-6.21c-0.11-0.08-0.21-0.16-0.3-0.25 C14.08,12.69,13.07,13,12,13s-2.08-0.31-2.92-0.84C8.99,12.25,8.89,12.33,8.79,12.4z M6.83,12.99C5.25,12.9,4,11.6,4,10 c0-1.49,1.09-2.73,2.52-2.96C6.75,4.22,9.12,2,12,2s5.25,2.22,5.48,5.04C18.91,7.27,20,8.51,20,10c0,1.59-1.24,2.9-2.81,2.99 L12.07,23L6.83,12.99z",
                 fill_rule: "evenodd",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdKebabDining;
+impl IconShape for MdKebabDining {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M7.75,8H11v5H7.75v1H8.5c1.38,0,2.5,1.12,2.5,2.5c0,1.38-1.12,2.5-2.5,2.5H7.75v4h-1.5v-4H5.5C4.12,19,3,17.88,3,16.5 C3,15.12,4.12,14,5.5,14h0.75v-1H3V8h3.25V7H5.5C4.12,7,3,5.88,3,4.5C3,3.12,4.12,2,5.5,2h0.75V1h1.5v1H8.5C9.88,2,11,3.12,11,4.5 C11,5.88,9.88,7,8.5,7H7.75V8z M17.75,7h0.75C19.88,7,21,5.88,21,4.5C21,3.12,19.88,2,18.5,2h-0.75V1h-1.5v1H15.5 C14.12,2,13,3.12,13,4.5C13,5.88,14.12,7,15.5,7h0.75v1H13v5h3.25v1H15.5c-1.38,0-2.5,1.12-2.5,2.5c0,1.38,1.12,2.5,2.5,2.5h0.75v4 h1.5v-4h0.75c1.38,0,2.5-1.12,2.5-2.5c0-1.38-1.12-2.5-2.5-2.5h-0.75v-1H21V8h-3.25V7z",
             }
         }
     }
@@ -1440,7 +1999,10 @@ impl IconShape for MdLocalFireDepartment {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M19.48,12.35c-1.57-4.08-7.16-4.3-5.81-10.23c0.1-0.44-0.37-0.78-0.75-0.55C9.29,3.71,6.68,8,8.87,13.62 c0.18,0.46-0.36,0.89-0.75,0.59c-1.81-1.37-2-3.34-1.84-4.75c0.06-0.52-0.62-0.77-0.91-0.34C4.69,10.16,4,11.84,4,14.37 c0.38,5.6,5.11,7.32,6.81,7.54c2.43,0.31,5.06-0.14,6.95-1.87C19.84,18.11,20.6,15.03,19.48,12.35z M10.2,17.38 c1.44-0.35,2.18-1.39,2.38-2.31c0.33-1.43-0.96-2.83-0.09-5.09c0.33,1.87,3.27,3.04,3.27,5.08C15.84,17.59,13.1,19.76,10.2,17.38z",
+                d: "M12,12.9l-2.13,2.09C9.31,15.55,9,16.28,9,17.06C9,18.68,10.35,20,12,20s3-1.32,3-2.94c0-0.78-0.31-1.52-0.87-2.07 L12,12.9z",
+            }
+            path {
+                d: "M16,6l-0.44,0.55C14.38,8.02,12,7.19,12,5.3V2c0,0-8,4-8,11c0,2.92,1.56,5.47,3.89,6.86C7.33,19.07,7,18.1,7,17.06 c0-1.32,0.52-2.56,1.47-3.5L12,10.1l3.53,3.47c0.95,0.93,1.47,2.17,1.47,3.5c0,1.02-0.31,1.96-0.85,2.75 c1.89-1.15,3.29-3.06,3.71-5.3C20.52,10.97,18.79,7.62,16,6z",
             }
         }
     }
@@ -1476,7 +2038,7 @@ impl IconShape for MdLocalGasStation {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M19.77 7.23l.01-.01-3.72-3.72L15 4.56l2.11 2.11c-.94.36-1.61 1.26-1.61 2.33 0 1.38 1.12 2.5 2.5 2.5.36 0 .69-.08 1-.21v7.21c0 .55-.45 1-1 1s-1-.45-1-1V14c0-1.1-.9-2-2-2h-1V5c0-1.1-.9-2-2-2H6c-1.1 0-2 .9-2 2v16h10v-7.5h1.5v5c0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5V9c0-.69-.28-1.32-.73-1.77zM12 10H6V5h6v5zm6 0c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z",
+                d: "m19.77 7.23.01-.01-3.72-3.72L15 4.56l2.11 2.11c-.94.36-1.61 1.26-1.61 2.33 0 1.38 1.12 2.5 2.5 2.5.36 0 .69-.08 1-.21v7.21c0 .55-.45 1-1 1s-1-.45-1-1V14c0-1.1-.9-2-2-2h-1V5c0-1.1-.9-2-2-2H6c-1.1 0-2 .9-2 2v16h10v-7.5h1.5v5c0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5V9c0-.69-.28-1.32-.73-1.77zM12 10H6V5h6v5zm6 0c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z",
             }
         }
     }
@@ -1620,7 +2182,7 @@ impl IconShape for MdLocalOffer {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z",
+                d: "m21.41 11.58-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z",
             }
         }
     }
@@ -1912,6 +2474,24 @@ impl IconShape for MdMapsUgc {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdMedicalInformation;
+impl IconShape for MdMedicalInformation {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M20,7h-5V4c0-1.1-0.9-2-2-2h-2C9.9,2,9,2.9,9,4v3H4C2.9,7,2,7.9,2,9v11c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V9 C22,7.9,21.1,7,20,7z M11,4h2v5h-2V4z M11,16H9v2H7v-2H5v-2h2v-2h2v2h2V16z M13,14.5V13h6v1.5H13z M13,17.5V16h4v1.5H13z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdMedicalServices;
 impl IconShape for MdMedicalServices {
     fn view_box(&self) -> String {
@@ -1957,6 +2537,42 @@ impl IconShape for MdMenuBook {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdMerge;
+impl IconShape for MdMerge {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M6.41,21L5,19.59l4.83-4.83c0.75-0.75,1.17-1.77,1.17-2.83v-5.1L9.41,8.41L8,7l4-4l4,4l-1.41,1.41L13,6.83v5.1 c0,1.06,0.42,2.08,1.17,2.83L19,19.59L17.59,21L12,15.41L6.41,21z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdMinorCrash;
+impl IconShape for MdMinorCrash {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M18.92,9.01C18.72,8.42,18.16,8,17.5,8h-11C5.84,8,5.29,8.42,5.08,9.01L3,15v8c0,0.55,0.45,1,1,1h1c0.55,0,1-0.45,1-1v-1 h12v1c0,0.55,0.45,1,1,1h1c0.55,0,1-0.45,1-1v-8L18.92,9.01z M6.85,10h10.29l1.04,3H5.81L6.85,10z M6,17.5C6,16.67,6.67,16,7.5,16 S9,16.67,9,17.5S8.33,19,7.5,19S6,18.33,6,17.5z M15,17.5c0-0.83,0.67-1.5,1.5-1.5s1.5,0.67,1.5,1.5S17.33,19,16.5,19 S15,18.33,15,17.5z M9.41,5L8,6.41l-3-3L6.41,2L9.41,5z M16,6.41L14.59,5l3-3L19,3.41L16,6.41z M13,5h-2V0h2V5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdMiscellaneousServices;
 impl IconShape for MdMiscellaneousServices {
     fn view_box(&self) -> String {
@@ -1972,6 +2588,24 @@ impl IconShape for MdMiscellaneousServices {
             }
             path {
                 d: "M21.92,18.67l-0.96-0.74c0.02-0.14,0.04-0.29,0.04-0.44c0-0.15-0.01-0.3-0.04-0.44l0.95-0.74 c0.08-0.07,0.11-0.19,0.05-0.29l-0.9-1.55c-0.05-0.1-0.17-0.13-0.28-0.1l-1.11,0.45c-0.23-0.18-0.48-0.33-0.76-0.44l-0.17-1.18 C18.73,13.08,18.63,13,18.53,13h-1.79c-0.11,0-0.21,0.08-0.22,0.19l-0.17,1.18c-0.27,0.12-0.53,0.26-0.76,0.44l-1.11-0.45 c-0.1-0.04-0.22,0-0.28,0.1l-0.9,1.55c-0.05,0.1-0.04,0.22,0.05,0.29l0.95,0.74c-0.02,0.14-0.03,0.29-0.03,0.44 c0,0.15,0.01,0.3,0.03,0.44l-0.95,0.74c-0.08,0.07-0.11,0.19-0.05,0.29l0.9,1.55c0.05,0.1,0.17,0.13,0.28,0.1l1.11-0.45 c0.23,0.18,0.48,0.33,0.76,0.44l0.17,1.18c0.02,0.11,0.11,0.19,0.22,0.19h1.79c0.11,0,0.21-0.08,0.22-0.19l0.17-1.18 c0.27-0.12,0.53-0.26,0.75-0.44l1.12,0.45c0.1,0.04,0.22,0,0.28-0.1l0.9-1.55C22.03,18.86,22,18.74,21.92,18.67z M17.63,18.83 c-0.74,0-1.35-0.6-1.35-1.35s0.6-1.35,1.35-1.35s1.35,0.6,1.35,1.35S18.37,18.83,17.63,18.83z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdModeOfTravel;
+impl IconShape for MdModeOfTravel {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M15.31,18.9c-0.96,1-2.06,2.03-3.31,3.1c-5.33-4.55-8-8.48-8-11.8C4,5.22,7.8,2,12,2c4,0,7.64,2.92,7.97,7.5l3.53,0L19,14 l-4.5-4.5l3.47,0C17.65,6.24,15.13,4,12,4c-3.35,0-6,2.57-6,6.2c0,2.34,1.95,5.44,6,9.14c0.64-0.59,1.23-1.16,1.77-1.71 c-0.17-0.34-0.27-0.72-0.27-1.12c0-1.38,1.12-2.5,2.5-2.5s2.5,1.12,2.5,2.5S17.38,19,16,19C15.76,19,15.53,18.97,15.31,18.9z",
             }
         }
     }
@@ -2023,6 +2657,45 @@ impl IconShape for MdMoped {
             }
             path {
                 d: "M19,13c-1.66,0-3,1.34-3,3s1.34,3,3,3s3-1.34,3-3S20.66,13,19,13z M19,17c-0.55,0-1-0.45-1-1s0.45-1,1-1s1,0.45,1,1 S19.55,17,19,17z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdMosque;
+impl IconShape for MdMosque {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M7,8h10c0.29,0,0.57,0.06,0.84,0.13C17.93,7.8,18,7.46,18,7.09c0-1.31-0.65-2.53-1.74-3.25L12,1L7.74,3.84 C6.65,4.56,6,5.78,6,7.09C6,7.46,6.07,7.8,6.16,8.13C6.43,8.06,6.71,8,7,8z",
+            }
+            path {
+                d: "M24,7c0-1.1-2-3-2-3s-2,1.9-2,3c0,0.74,0.4,1.38,1,1.72V13h-2v-2c0-1.1-0.9-2-2-2H7c-1.1,0-2,0.9-2,2v2H3V8.72 C3.6,8.38,4,7.74,4,7c0-1.1-2-3-2-3S0,5.9,0,7c0,0.74,0.4,1.38,1,1.72V21h9v-4c0-1.1,0.9-2,2-2s2,0.9,2,2v4h9V8.72 C23.6,8.38,24,7.74,24,7z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdMoving;
+impl IconShape for MdMoving {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M19.71,9.71L22,12V6h-6l2.29,2.29l-4.17,4.17c-0.39,0.39-1.02,0.39-1.41,0l-1.17-1.17c-1.17-1.17-3.07-1.17-4.24,0L2,16.59 L3.41,18l5.29-5.29c0.39-0.39,1.02-0.39,1.41,0l1.17,1.17c1.17,1.17,3.07,1.17,4.24,0L19.71,9.71z",
             }
         }
     }
@@ -2149,6 +2822,24 @@ impl IconShape for MdNightlife {
         rsx! {
             path {
                 d: "M1,5h14l-6,9v4h2v2H5v-2h2v-4L1,5z M10.1,9l1.4-2H4.49l1.4,2H10.1z M17,5h5v3h-3v9h0c0,1.66-1.34,3-3,3s-3-1.34-3-3 s1.34-3,3-3c0.35,0,0.69,0.06,1,0.17L17,5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdNoCrash;
+impl IconShape for MdNoCrash {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M18.92,9.01C18.72,8.42,18.16,8,17.5,8h-11C5.84,8,5.29,8.42,5.08,9.01L3,15v8c0,0.55,0.45,1,1,1h1c0.55,0,1-0.45,1-1v-1 h12v1c0,0.55,0.45,1,1,1h1c0.55,0,1-0.45,1-1v-8L18.92,9.01z M6.85,10h10.29l1.04,3H5.81L6.85,10z M6,17.5C6,16.67,6.67,16,7.5,16 S9,16.67,9,17.5S8.33,19,7.5,19S6,18.33,6,17.5z M15,17.5c0-0.83,0.67-1.5,1.5-1.5s1.5,0.67,1.5,1.5S17.33,19,16.5,19 S15,18.33,15,17.5z M12,6.36L9.17,3.54l1.41-1.41L12,3.54L15.54,0l1.41,1.41L12,6.36z",
             }
         }
     }
@@ -2292,7 +2983,7 @@ impl IconShape for MdPersonPinCircle {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M12,2C8.14,2,5,5.14,5,9c0,5.25,7,13,7,13s7-7.75,7-13C19,5.14,15.86,2,12,2z M12,4c1.1,0,2,0.9,2,2c0,1.11-0.9,2-2,2 s-2-0.89-2-2C10,4.9,10.9,4,12,4z M12,14c-1.67,0-3.14-0.85-4-2.15c0.02-1.32,2.67-2.05,4-2.05s3.98,0.73,4,2.05 C15.14,13.15,13.67,14,12,14z",
+                d: "M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 2c1.1 0 2 .9 2 2 0 1.11-.9 2-2 2s-2-.89-2-2c0-1.1.9-2 2-2zm0 10c-1.67 0-3.14-.85-4-2.15.02-1.32 2.67-2.05 4-2.05s3.98.73 4 2.05c-.86 1.3-2.33 2.15-4 2.15z",
             }
         }
     }
@@ -2431,6 +3122,42 @@ impl IconShape for MdRamenDining {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdRampLeft;
+impl IconShape for MdRampLeft {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M13,21h-2V6.83L9.41,8.41L8,7l4-4l4,4l-1.41,1.41L13,6.83V9c0,4.27,4.03,7.13,6,8.27l-1.46,1.46 c-1.91-1.16-3.44-2.53-4.54-4.02L13,21z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdRampRight;
+impl IconShape for MdRampRight {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M11,21h2V6.83l1.59,1.59L16,7l-4-4L8,7l1.41,1.41L11,6.83V9c0,4.27-4.03,7.13-6,8.27l1.46,1.46 C8.37,17.56,9.9,16.19,11,14.7L11,21z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdRateReview;
 impl IconShape for MdRateReview {
     fn view_box(&self) -> String {
@@ -2443,6 +3170,54 @@ impl IconShape for MdRateReview {
         rsx! {
             path {
                 d: "M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 14v-2.47l6.88-6.88c.2-.2.51-.2.71 0l1.77 1.77c.2.2.2.51 0 .71L8.47 14H6zm12 0h-7.5l2-2H18v2z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdRemoveRoad;
+impl IconShape for MdRemoveRoad {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            rect {
+                height: "9",
+                width: "2",
+                x: "18",
+                y: "4",
+            }
+            rect {
+                height: "16",
+                width: "2",
+                x: "4",
+                y: "4",
+            }
+            rect {
+                height: "4",
+                width: "2",
+                x: "11",
+                y: "4",
+            }
+            rect {
+                height: "4",
+                width: "2",
+                x: "11",
+                y: "10",
+            }
+            rect {
+                height: "4",
+                width: "2",
+                x: "11",
+                y: "16",
+            }
+            polygon {
+                points: "22.5,16.41 21.09,15 19,17.09 16.91,15 15.5,16.41 17.59,18.5 15.5,20.59 16.91,22 19,19.91 21.09,22 22.5,20.59 20.41,18.5",
             }
         }
     }
@@ -2485,6 +3260,60 @@ impl IconShape for MdRestaurantMenu {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdRoundaboutLeft;
+impl IconShape for MdRoundaboutLeft {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M10.08,8c0.48-2.84,2.94-5,5.92-5c3.31,0,6,2.69,6,6c0,2.97-2.16,5.44-5,5.92L17,21h-2l0-6.09c0-0.98,0.71-1.8,1.67-1.97 C18.56,12.63,20,10.98,20,9c0-2.21-1.79-4-4-4c-1.98,0-3.63,1.44-3.94,3.33C11.89,9.29,11.07,10,10.09,10l-4.26,0l1.59,1.59L6,13 L2,9l4-4l1.41,1.41L5.83,8L10.08,8z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdRoundaboutRight;
+impl IconShape for MdRoundaboutRight {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M13.92,8C13.44,5.16,10.97,3,8,3C4.69,3,2,5.69,2,9c0,2.97,2.16,5.44,5,5.92L7,21h2l0-6.09c0-0.98-0.71-1.8-1.67-1.97 C5.44,12.63,4,10.98,4,9c0-2.21,1.79-4,4-4c1.98,0,3.63,1.44,3.94,3.33C12.11,9.29,12.93,10,13.91,10l4.26,0l-1.59,1.59L18,13l4-4 l-4-4l-1.41,1.41L18.17,8L13.92,8z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdRoute;
+impl IconShape for MdRoute {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M19,15.18V7c0-2.21-1.79-4-4-4s-4,1.79-4,4v10c0,1.1-0.9,2-2,2s-2-0.9-2-2V8.82C8.16,8.4,9,7.3,9,6c0-1.66-1.34-3-3-3 S3,4.34,3,6c0,1.3,0.84,2.4,2,2.82V17c0,2.21,1.79,4,4,4s4-1.79,4-4V7c0-1.1,0.9-2,2-2s2,0.9,2,2v8.18c-1.16,0.41-2,1.51-2,2.82 c0,1.66,1.34,3,3,3s3-1.34,3-3C21,16.7,20.16,15.6,19,15.18z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdRunCircle;
 impl IconShape for MdRunCircle {
     fn view_box(&self) -> String {
@@ -2497,6 +3326,42 @@ impl IconShape for MdRunCircle {
         rsx! {
             path {
                 d: "M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M13.5,6c0.55,0,1,0.45,1,1 c0,0.55-0.45,1-1,1s-1-0.45-1-1C12.5,6.45,12.95,6,13.5,6z M16,12c-0.7,0-2.01-0.54-2.91-1.76l-0.41,2.35L14,14.03V18h-1v-3.58 l-1.11-1.21l-0.52,2.64L7.6,15.08l0.2-0.98l2.78,0.57l0.96-4.89L10,10.35V12H9V9.65l3.28-1.21c0.49-0.18,1.03,0.06,1.26,0.53 C14.37,10.67,15.59,11,16,11V12z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdSafetyCheck;
+impl IconShape for MdSafetyCheck {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12,2L4,5v6.09c0,5.05,3.41,9.76,8,10.91c4.59-1.15,8-5.86,8-10.91V5L12,2z M12,17c-2.76,0-5-2.24-5-5s2.24-5,5-5 s5,2.24,5,5S14.76,17,12,17z M13.65,14.35l-2.15-2.15V9h1v2.79l1.85,1.85L13.65,14.35z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdSailing;
+impl IconShape for MdSailing {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M11,13.5V2L3,13.5H11z M21,13.5C21,6.5,14.5,1,12.5,1c0,0,1,3,1,6.5s-1,6-1,6H21z M22,15H2c0.31,1.53,1.16,2.84,2.33,3.73 C4.98,18.46,5.55,18.01,6,17.5C6.73,18.34,7.8,19,9,19s2.27-0.66,3-1.5c0.73,0.84,1.8,1.5,3,1.5s2.26-0.66,3-1.5 c0.45,0.51,1.02,0.96,1.67,1.23C20.84,17.84,21.69,16.53,22,15z M22,23v-2h-1c-1.04,0-2.08-0.35-3-1c-1.83,1.3-4.17,1.3-6,0 c-1.83,1.3-4.17,1.3-6,0c-0.91,0.65-1.96,1-3,1H2l0,2h1c1.03,0,2.05-0.25,3-0.75c1.89,1,4.11,1,6,0c1.89,1,4.11,1,6,0h0 c0.95,0.5,1.97,0.75,3,0.75H22z",
             }
         }
     }
@@ -2521,6 +3386,24 @@ impl IconShape for MdSatellite {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdScreenRotationAlt;
+impl IconShape for MdScreenRotationAlt {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M4,7.59l5-5c0.78-0.78,2.05-0.78,2.83,0L20.24,11h-2.83L10.4,4L5.41,9H8v2H2V5h2V7.59z M20,19h2v-6h-6v2h2.59l-4.99,5 l-7.01-7H3.76l8.41,8.41c0.78,0.78,2.05,0.78,2.83,0l5-5V19z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdSetMeal;
 impl IconShape for MdSetMeal {
     fn view_box(&self) -> String {
@@ -2539,6 +3422,96 @@ impl IconShape for MdSetMeal {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdSignpost;
+impl IconShape for MdSignpost {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            polygon {
+                points: "13,10 18,10 21,7 18,4 13,4 13,2 11,2 11,4 4,4 4,10 11,10 11,12 6,12 3,15 6,18 11,18 11,22 13,22 13,18 20,18 20,12 13,12",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdSnowmobile;
+impl IconShape for MdSnowmobile {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M22,17c0,0.55-0.45,1-1,1h-0.17l-2.2-2.2C20.58,15.37,22,14.4,22,13c0-1-8-8-8-8h-3v2h2.25l1.45,1.3L11,11l-9.5-1L0,13 l4.54,1.36l-3.49,1.88C-0.77,17.22-0.07,20,2,20h6c2.21,0,4-1.79,4-4h4l2,2h-3v2h6c1.66,0,3-1.34,3-3H22z M8,18H2l5.25-2.83L10,16 C10,17.1,9.11,18,8,18z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdSos;
+impl IconShape for MdSos {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M13.5,7h-3c-1.1,0-2,0.9-2,2v6c0,1.1,0.9,2,2,2h3c1.1,0,2-0.9,2-2V9C15.5,7.9,14.6,7,13.5,7z M13.5,15h-3V9h3V15z M1,15h4 v-2H3c-1.1,0-2-0.9-2-2V9c0-1.1,0.9-2,2-2h4v2H3v2h2c1.1,0,2,0.9,2,2v2c0,1.1-0.9,2-2,2H1V15z M17,15h4v-2h-2c-1.1,0-2-0.9-2-2V9 c0-1.1,0.9-2,2-2h4v2h-4v2h2c1.1,0,2,0.9,2,2v2c0,1.1-0.9,2-2,2h-4V15z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdSoupKitchen;
+impl IconShape for MdSoupKitchen {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M6.4,7C6.06,7.55,6,7.97,6,8.38C6,9.15,7,11,7,12c0,0.95-0.4,1.5-0.4,1.5H5.1c0,0,0.4-0.55,0.4-1.5c0-1-1-2.85-1-3.62 C4.5,7.97,4.56,7.55,4.9,7H6.4z M11.4,7C11.06,7.55,11,7.97,11,8.38C11,9.15,12,11,12,12c0,0.95-0.4,1.5-0.4,1.5h1.5 c0,0,0.4-0.55,0.4-1.5c0-1-1-2.85-1-3.62c0-0.41,0.06-0.83,0.4-1.38H11.4z M8.15,7c-0.34,0.55-0.4,0.97-0.4,1.38 c0,0.77,1,2.63,1,3.62c0,0.95-0.4,1.5-0.4,1.5h1.5c0,0,0.4-0.55,0.4-1.5c0-1-1-2.85-1-3.62c0-0.41,0.06-0.83,0.4-1.38H8.15z M21.47,6.5c0,0,0.13-1.06,0.13-1.5c0-1.65-1.35-3-3-3c-1.54,0-2.81,1.16-2.98,2.65L14.53,15H4.01c-0.6,0-1.09,0.53-1,1.13 C3.53,19.46,6.39,22,9.75,22c3.48,0,6.34-2.73,6.71-6.23l1.15-10.87C17.66,4.39,18.08,4,18.6,4c0.55,0,1,0.45,1,1 c0,0.3-0.1,1.25-0.1,1.25L21.47,6.5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdStadium;
+impl IconShape for MdStadium {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M7,5L3,7V3L7,5z M18,3v4l4-2L18,3z M11,2v4l4-2L11,2z M5,10.04C6.38,10.53,8.77,11,12,11s5.62-0.47,7-0.96 C19,9.86,16.22,9,12,9S5,9.86,5,10.04z M15,17H9l0,4.88C4.94,21.49,2,20.34,2,19v-9c0-1.66,4.48-3,10-3s10,1.34,10,3v9 c0,1.34-2.94,2.48-7,2.87L15,17z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdStoreMallDirectory;
 impl IconShape for MdStoreMallDirectory {
     fn view_box(&self) -> String {
@@ -2551,6 +3524,24 @@ impl IconShape for MdStoreMallDirectory {
         rsx! {
             path {
                 d: "M20 4H4v2h16V4zm1 10v-2l-1-5H4l-1 5v2h1v6h10v-6h4v6h2v-6h1zm-9 4H6v-4h6v4z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdStraight;
+impl IconShape for MdStraight {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            polygon {
+                points: "11,6.83 9.41,8.41 8,7 12,3 16,7 14.59,8.41 13,6.83 13,21 11,21",
             }
         }
     }
@@ -2611,6 +3602,42 @@ impl IconShape for MdSubway {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdSynagogue;
+impl IconShape for MdSynagogue {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M6,8v13h4v-5c0-1.1,0.9-2,2-2s2,0.9,2,2v5h4V8l-6-5L6,8z M13.5,10c0,0.83-0.67,1.5-1.5,1.5s-1.5-0.67-1.5-1.5 s0.67-1.5,1.5-1.5S13.5,9.17,13.5,10z",
+            }
+            path {
+                d: "M3,5C1.9,5,1,5.9,1,7v1h4V7C5,5.9,4.1,5,3,5z",
+            }
+            rect {
+                height: "12",
+                width: "4",
+                x: "1",
+                y: "9",
+            }
+            path {
+                d: "M21,5c-1.1,0-2,0.9-2,2v1h4V7C23,5.9,22.1,5,21,5z",
+            }
+            rect {
+                height: "12",
+                width: "4",
+                x: "19",
+                y: "9",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdTakeoutDining;
 impl IconShape for MdTakeoutDining {
     fn view_box(&self) -> String {
@@ -2642,6 +3669,54 @@ impl IconShape for MdTaxiAlert {
         rsx! {
             path {
                 d: "M23 8A7 7 0 0 0 9.68 5H7v2H4.5a1.5 1.5 0 0 0-1.42 1.01L1 14v8a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1h12v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-7.68A7.01 7.01 0 0 0 23 8zm-18.5.5h4.53a6.93 6.93 0 0 0 2.08 4.5H3l1.5-4.5zm0 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm11 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm2.93-5.63l-.21.11-.18.09a4.97 4.97 0 0 1-.42.16l-.22.07-.23.06-.2.05a5 5 0 0 1-5.94-4.41A4.07 4.07 0 0 1 11 8l.02-.47.02-.17.04-.28.04-.21.05-.21.07-.24.05-.13a4.99 4.99 0 0 1 9.69 1.7 4.96 4.96 0 0 1-2.55 4.38zM15 4h2v5h-2zm0 6h2v2h-2z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdTempleBuddhist;
+impl IconShape for MdTempleBuddhist {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M21,9.02c0,1.09-0.89,1.98-1.98,1.98H4.98C3.89,11,3,10.11,3,9.02H1c0,1.86,1.28,3.4,3,3.84V22h6v-3c0-1.1,0.9-2,2-2 s2,0.9,2,2v3h6v-9.14c0.55-0.14,3-1.04,3-3.86L21,9.02z",
+            }
+            path {
+                d: "M6,8.86V10h12V8.86c0.55-0.14,3-1.04,3-3.86l-2,0.02C19,6.11,18.11,7,17.02,7H6.98C5.89,7,5,6.11,5,5.02H3 C3,6.87,4.28,8.42,6,8.86z",
+            }
+            polygon {
+                points: "12,1 8.25,6 15.75,6",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdTempleHindu;
+impl IconShape for MdTempleHindu {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            polygon {
+                points: "6.6,11 17.4,11 16.5,8 7.5,8",
+            }
+            polygon {
+                points: "20,11 20,13 4,13 4,11 2,11 2,22 10,22 10,17 14,17 14,22 22,22 22,11",
+            }
+            polygon {
+                points: "15.9,6 15,3 15,1 13,1 13,3 10.97,3 10.97,1 8.97,1 8.97,3.12 8.1,6",
             }
         }
     }
@@ -2681,6 +3756,27 @@ impl IconShape for MdTheaterComedy {
             }
             path {
                 d: "M11,3v6h3v2.5c0-0.83,1.12-1.5,2.5-1.5c1.38,0,2.5,0.67,2.5,1.5h-5V14v0.39c0.75,0.38,1.6,0.61,2.5,0.61 c3.04,0,5.5-2.46,5.5-5.5V3H11z M14,8.08c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1C15,7.64,14.55,8.08,14,8.08z M19,8.08 c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1C20,7.64,19.55,8.08,19,8.08z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdTireRepair;
+impl IconShape for MdTireRepair {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M18,7c0,0.55,0.45,1,1,1c0.28,0,0.53-0.11,0.71-0.29c0.4-0.4,1.04-2.46,1.04-2.46s-2.06,0.64-2.46,1.04 C18.11,6.47,18,6.72,18,7z",
+            }
+            path {
+                d: "M19,2c-2.76,0-5,2.24-5,5c0,2.05,1.23,3.81,3,4.58V13h1v5c0,0.55-0.45,1-1,1s-1-0.45-1-1v-2c0-1.65-1.35-3-3-3 c-0.35,0-0.69,0.06-1,0.17V5c0-1.1-0.9-2-2-2H4C2.9,3,2,3.9,2,5v14c0,1.1,0.9,2,2,2h6c1.1,0,2-0.9,2-2v-3c0-0.55,0.45-1,1-1 s1,0.45,1,1v2c0,1.65,1.35,3,3,3s3-1.35,3-3v-5h1v-1.42c1.77-0.77,3-2.53,3-4.58C24,4.24,21.76,2,19,2z M6,19.5l-2-2v-2.83l2,2 V19.5z M6,14.5l-2-2V9.67l2,2V14.5z M6,9.5l-2-2V4.67l2,2V9.5z M10,17.5l-2,2v-2.83l2-2V17.5z M10,12.5l-2,2v-2.83l2-2V12.5z M10,7.5l-2,2V6.67l2-2V7.5z M19,10c-1.66,0-3-1.34-3-3s1.34-3,3-3s3,1.34,3,3S20.66,10,19,10z",
             }
         }
     }
@@ -2798,6 +3894,114 @@ impl IconShape for MdTripOrigin {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdTurnLeft;
+impl IconShape for MdTurnLeft {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M6.83,11l1.59,1.59L7,14l-4-4l4-4l1.41,1.41L6.83,9L15,9c1.1,0,2,0.9,2,2v9h-2v-9L6.83,11z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdTurnRight;
+impl IconShape for MdTurnRight {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M17.17,11l-1.59,1.59L17,14l4-4l-4-4l-1.41,1.41L17.17,9L9,9c-1.1,0-2,0.9-2,2v9h2v-9L17.17,11z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdTurnSharpLeft;
+impl IconShape for MdTurnSharpLeft {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M6,6.83L4.41,8.41L3,7l4-4l4,4L9.59,8.41L8,6.83V13h8c1.1,0,2,0.9,2,2v6h-2v-6H8c-1.1,0-2-0.9-2-2V6.83z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdTurnSharpRight;
+impl IconShape for MdTurnSharpRight {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M18,6.83l1.59,1.59L21,7l-4-4l-4,4l1.41,1.41L16,6.83V13H8c-1.1,0-2,0.9-2,2v6h2v-6h8c1.1,0,2-0.9,2-2V6.83z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdTurnSlightLeft;
+impl IconShape for MdTurnSlightLeft {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M11.66,6V4H6v5.66h2V7.41l5,5V20h2v-7.58c0-0.53-0.21-1.04-0.59-1.41l-5-5H11.66z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdTurnSlightRight;
+impl IconShape for MdTurnSlightRight {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12.34,6V4H18v5.66h-2V7.41l-5,5V20H9v-7.58c0-0.53,0.21-1.04,0.59-1.41l5-5H12.34z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdTwoWheeler;
 impl IconShape for MdTwoWheeler {
     fn view_box(&self) -> String {
@@ -2810,6 +4014,42 @@ impl IconShape for MdTwoWheeler {
         rsx! {
             path {
                 d: "M20,11c-0.18,0-0.36,0.03-0.53,0.05L17.41,9H20V6l-3.72,1.86L13.41,5H9v2h3.59l2,2H11l-4,2L5,9H0v2h4c-2.21,0-4,1.79-4,4 c0,2.21,1.79,4,4,4c2.21,0,4-1.79,4-4l2,2h3l3.49-6.1l1.01,1.01C16.59,12.64,16,13.75,16,15c0,2.21,1.79,4,4,4c2.21,0,4-1.79,4-4 C24,12.79,22.21,11,20,11z M4,17c-1.1,0-2-0.9-2-2c0-1.1,0.9-2,2-2c1.1,0,2,0.9,2,2C6,16.1,5.1,17,4,17z M20,17c-1.1,0-2-0.9-2-2 c0-1.1,0.9-2,2-2s2,0.9,2,2C22,16.1,21.1,17,20,17z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdUTurnLeft;
+impl IconShape for MdUTurnLeft {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M18,9v12h-2V9c0-2.21-1.79-4-4-4S8,6.79,8,9v4.17l1.59-1.59L11,13l-4,4l-4-4l1.41-1.41L6,13.17V9c0-3.31,2.69-6,6-6 S18,5.69,18,9z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdUTurnRight;
+impl IconShape for MdUTurnRight {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M6,9v12h2V9c0-2.21,1.79-4,4-4s4,1.79,4,4v4.17l-1.59-1.59L13,13l4,4l4-4l-1.41-1.41L18,13.17V9c0-3.31-2.69-6-6-6 S6,5.69,6,9z",
             }
         }
     }
@@ -2837,6 +4077,24 @@ impl IconShape for MdVolunteerActivism {
             }
             path {
                 d: "M20,17h-7l-2.09-0.73l0.33-0.94L13,16h2.82c0.65,0,1.18-0.53,1.18-1.18v0c0-0.49-0.31-0.93-0.77-1.11L8.97,11H7v9.02 L14,22l8.01-3v0C22,17.9,21.11,17,20,17z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdWarehouse;
+impl IconShape for MdWarehouse {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M22,21V7L12,3L2,7v14h5v-9h10v9H22z M11,19H9v2h2V19z M13,16h-2v2h2V16z M15,19h-2v2h2V19z",
             }
         }
     }
@@ -2876,6 +4134,24 @@ impl IconShape for MdWrongLocation {
             }
             polygon {
                 points: "22.54,2.88 21.12,1.46 19,3.59 16.88,1.46 15.46,2.88 17.59,5 15.46,7.12 16.88,8.54 19,6.41 21.12,8.54 22.54,7.12 20.41,5",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdZoomInMap;
+impl IconShape for MdZoomInMap {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M9,9l0-6L7,3l0,2.59L3.91,2.5L2.5,3.91L5.59,7L3,7l0,2L9,9z M21,9V7l-2.59,0l3.09-3.09L20.09,2.5L17,5.59V3l-2,0l0,6L21,9z M3,15l0,2h2.59L2.5,20.09l1.41,1.41L7,18.41L7,21h2l0-6L3,15z M15,15l0,6h2v-2.59l3.09,3.09l1.41-1.41L18.41,17H21v-2L15,15z",
             }
         }
     }

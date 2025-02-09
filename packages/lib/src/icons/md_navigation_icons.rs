@@ -2,6 +2,30 @@ use super::super::IconShape;
 use dioxus::prelude::*;
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdAddHomeWork;
+impl IconShape for MdAddHomeWork {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M15,11.68V11L8,6l-7,5v10h5v-6h4v6h1.68C11.25,20.09,11,19.08,11,18C11,15.21,12.64,12.81,15,11.68z",
+            }
+            path {
+                d: "M23,13.11V3H10v1.97l7,5v1.11c0.33-0.05,0.66-0.08,1-0.08C19.96,11,21.73,11.81,23,13.11z M17,7h2v2h-2V7z",
+            }
+            path {
+                d: "M23,18c0-2.76-2.24-5-5-5s-5,2.24-5,5s2.24,5,5,5S23,20.76,23,18z M17.5,21v-2.5H15v-1h2.5V15h1v2.5H21v1h-2.5V21H17.5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdAppSettingsAlt;
 impl IconShape for MdAppSettingsAlt {
     fn view_box(&self) -> String {
@@ -38,6 +62,24 @@ impl IconShape for MdApps {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdAppsOutage;
+impl IconShape for MdAppsOutage {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M4,8h4V4H4V8z M10,20h4v-4h-4V20z M4,20h4v-4H4V20z M4,14h4v-4H4V14z M10,14h4v-4h-4V14z M16,20h4v-4h-4V20z M19,0 c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S21.76,0,19,0z M19.5,8h-1V7h1V8z M19.5,6h-1V2h1V6z M16,14h4v-2.07 C19.67,11.98,19.34,12,19,12c-1.07,0-2.09-0.24-3-0.68V14z M10,4v4h2.68C12.24,7.09,12,6.07,12,5c0-0.34,0.02-0.67,0.07-1H10z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdArrowBack;
 impl IconShape for MdArrowBack {
     fn view_box(&self) -> String {
@@ -68,6 +110,24 @@ impl IconShape for MdArrowBackIos {
         rsx! {
             path {
                 d: "M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdArrowBackIosNew;
+impl IconShape for MdArrowBackIosNew {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            polygon {
+                points: "17.77,3.77 16,2 6,12 16,22 17.77,20.23 9.54,12",
             }
         }
     }
@@ -174,8 +234,8 @@ impl IconShape for MdArrowForwardIos {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            path {
-                d: "M5.88 4.12L13.76 12l-7.88 7.88L8 22l10-10L8 2z",
+            polygon {
+                points: "6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12",
             }
         }
     }
@@ -419,6 +479,24 @@ impl IconShape for MdEast {
 }
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdExpandCircleDown;
+impl IconShape for MdExpandCircleDown {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M12,15.5L7.5,11l1.42-1.41L12,12.67 l3.08-3.08L16.5,11L12,15.5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdExpandLess;
 impl IconShape for MdExpandLess {
     fn view_box(&self) -> String {
@@ -519,14 +597,11 @@ impl IconShape for MdHomeWork {
     }
     fn child_elements(&self) -> Element {
         rsx! {
-            path {
-                d: "M8.17 5.7L1 10.48V21h5v-8h4v8h5V10.25z",
+            polygon {
+                points: "1,11 1,21 6,21 6,15 10,15 10,21 15,21 15,11 8,6",
             }
             path {
-                d: "M17 7h2v2h-2z",
-            }
-            path {
-                d: "M10 3v1.51l2 1.33L13.73 7H15v.85l2 1.34V11h2v2h-2v2h2v2h-2v4h6V3H10zm9 6h-2V7h2v2z",
+                d: "M10,3v1.97l7,5V11h2v2h-2v2h2v2h-2v4h6V3H10z M19,9h-2V7h2V9z",
             }
         }
     }
@@ -563,6 +638,27 @@ impl IconShape for MdLegendToggle {
         rsx! {
             path {
                 d: "M20,15H4v-2h16V15z M20,17H4v2h16V17z M15,11l5-3.55L20,5l-5,3.55L10,5L4,8.66L4,11l5.92-3.61L15,11z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdMapsHomeWork;
+impl IconShape for MdMapsHomeWork {
+    fn view_box(&self) -> String {
+        String::from("0 0 24 24")
+    }
+    fn xmlns(&self) -> String {
+        String::from("http://www.w3.org/2000/svg")
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            polygon {
+                points: "1,11 1,21 6,21 6,15 10,15 10,21 15,21 15,11 8,6",
+            }
+            path {
+                d: "M10,3v1.97l7,5V11h2v2h-2v2h2v2h-2v4h6V3H10z M19,9h-2V7h2V9z",
             }
         }
     }

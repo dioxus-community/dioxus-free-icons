@@ -11,8 +11,12 @@ license = "MIT"
 repository = "https://github.com/dioxus-community/dioxus-free-icons"
 readme = "../../README.md"
 
+[profile.dev]
+opt-level = 1
+incremental = true
+
 [dependencies]
-dioxus = { version = "0.5.0" }
+dioxus = { version = "0.5.1" }
 
 [features]
 font-awesome-brands = []
