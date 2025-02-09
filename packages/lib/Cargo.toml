@@ -1,6 +1,6 @@
 [package]
 name = "dioxus-free-icons"
-version = "0.8.3"
+version = "0.9.0"
 edition = "2021"
 authors = [
     "Daiki Nishikawa <nd.12021218@gmail.com>",
@@ -16,7 +16,7 @@ opt-level = 1
 incremental = true
 
 [dependencies]
-dioxus = { version = "0.5.1" }
+dioxus = { workspace = true }
 
 [features]
 font-awesome-brands = []
@@ -30,6 +30,7 @@ octicons = []
 hero-icons-outline = []
 hero-icons-solid = []
 ionicons = []
+lucide = []
 material-design-icons-action = []
 material-design-icons-alert = []
 material-design-icons-av = []

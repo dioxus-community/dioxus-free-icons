@@ -15,11 +15,20 @@ use walkdir::WalkDir;
 const ICON_TEMPLATE: &str = r#"#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct {ICON_NAME};
 impl IconShape for {ICON_NAME} {
-    fn view_box(&self) -> String {
-        String::from("{VIEW_BOX}")
+    fn view_box(&self) -> &str {
+        "{VIEW_BOX}"
     }
-    fn xmlns(&self) -> String {
-        String::from("{XMLNS}")
+    fn xmlns(&self) -> &str {
+        "{XMLNS}"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        ({FILL_COLOR}, {STROKE_COLOR}, {STROKE_WIDTH})
+    }
+    fn stroke_linecap(&self) -> &str {
+        "{STROKE_LINECAP}"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "{STROKE_LINEJOIN}"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -64,11 +73,20 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) ->
             let child_elements = extract_svg_child_elements(svg_child_elements, icon_prefix);
             let full_icon_name = format!("{}{}", icon_prefix, &icon_name);
             icons_names.push(full_icon_name.clone());
+            let (fill_color, stroke_color, stroke_width) = extract_svg_colors(icon_prefix);
+            let stroke_linecap = extract_stroke_linecap(icon_prefix);
+            let stroke_linejoin = extract_stroke_linejoin(icon_prefix);
+
             ICON_TEMPLATE
                 .replace("{ICON_NAME}", &full_icon_name)
                 .replace("{VIEW_BOX}", &view_box)
                 .replace("{XMLNS}", &xmlns)
                 .replace("{CHILD_ELEMENTS}", &child_elements)
+                .replace("{FILL_COLOR}", &fill_color)
+                .replace("{STROKE_COLOR}", &stroke_color)
+                .replace("{STROKE_WIDTH}", &stroke_width)
+                .replace("{STROKE_LINECAP}", &stroke_linecap)
+                .replace("{STROKE_LINEJOIN}", &stroke_linejoin)
         })
         .collect::<Vec<_>>()
         .join("\n");
@@ -90,6 +108,7 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) ->
 
 fn collect_svg_files(svg_path: &str, icon_prefix: &str) -> Vec<PathBuf> {
     let dir_entries = WalkDir::new(svg_path)
+        .sort_by_file_name()
         .into_iter()
         .filter_map(|e| e.ok())
         .collect::<Vec<_>>();
@@ -139,7 +158,32 @@ fn extract_svg_attrs(element: &Element) -> (String, String) {
         .unwrap_or("http://www.w3.org/2000/svg");
     (String::from(view_box), String::from(xmlns))
 }
-// "fill:none;stroke:#000;
+
+fn extract_svg_colors(icon_prefix: &str) -> (&str, &str, &str) {
+    match icon_prefix {
+        "Fi" => ("\"none\"", "user_color", "\"2\""),
+        "Ld" => ("\"none\"", "user_color", "\"2\""),
+        "Io" => ("user_color", "user_color", "\"0\""),
+        _ => ("user_color", "\"none\"", "\"0\""),
+    }
+}
+
+fn extract_stroke_linecap(icon_prefix: &str) -> &str {
+    match icon_prefix {
+        "Ld" => "round",
+        "Fi" => "round",
+        _ => "butt",
+    }
+}
+
+fn extract_stroke_linejoin(icon_prefix: &str) -> &str {
+    match icon_prefix {
+        "Ld" => "round",
+        "Fi" => "round",
+        _ => "miter",
+    }
+}
+
 fn extract_svg_child_elements(elements: &[&Element], icon_prefix: &str) -> String {
     let elements = match icon_prefix {
         "Md" => &elements[1..],
