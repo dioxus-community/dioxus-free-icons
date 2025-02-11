@@ -166,11 +166,20 @@ impl IconShape for MdBackpack {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdBalcony;
 impl IconShape for MdBalcony {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -270,11 +279,20 @@ impl IconShape for MdBento {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdBungalow;
 impl IconShape for MdBungalow {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -315,11 +333,20 @@ impl IconShape for MdBusinessCenter {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdCabin;
 impl IconShape for MdCabin {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -387,11 +414,20 @@ impl IconShape for MdCasino {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdChalet;
 impl IconShape for MdChalet {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -550,11 +586,20 @@ impl IconShape for MdCorporateFare {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdCottage;
 impl IconShape for MdCottage {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -595,11 +640,20 @@ impl IconShape for MdCountertops {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdCrib;
 impl IconShape for MdCrib {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -613,11 +667,20 @@ impl IconShape for MdCrib {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdDesk;
 impl IconShape for MdDesk {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -982,11 +1045,20 @@ impl IconShape for MdFreeBreakfast {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdGite;
 impl IconShape for MdGite {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1059,11 +1131,20 @@ impl IconShape for MdGrass {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdHolidayVillage;
 impl IconShape for MdHolidayVillage {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1163,11 +1244,20 @@ impl IconShape for MdHouseSiding {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdHouseboat;
 impl IconShape for MdHouseboat {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1181,11 +1271,20 @@ impl IconShape for MdHouseboat {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdIron;
 impl IconShape for MdIron {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1242,7 +1341,9 @@ impl IconShape for MdMeetingRoom {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {}
+        rsx! {
+
+        }
     }
 }
 
@@ -1454,7 +1555,9 @@ impl IconShape for MdNoMeetingRoom {
         "miter"
     }
     fn child_elements(&self) -> Element {
-        rsx! {}
+        rsx! {
+
+        }
     }
 }
 
@@ -1515,11 +1618,20 @@ impl IconShape for MdNoStroller {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdOtherHouses;
 impl IconShape for MdOtherHouses {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2016,11 +2128,20 @@ impl IconShape for MdUmbrella {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdVapeFree;
 impl IconShape for MdVapeFree {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2034,11 +2155,20 @@ impl IconShape for MdVapeFree {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdVapingRooms;
 impl IconShape for MdVapingRooms {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2052,11 +2182,20 @@ impl IconShape for MdVapingRooms {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdVilla;
 impl IconShape for MdVilla {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {

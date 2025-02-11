@@ -7,7 +7,6 @@ use dioxus_free_icons::icons::fa_brands_icons::FaRust;
 use dioxus_free_icons::Icon;
 use icons::get_icon_sets;
 use use_clipboard::copy_to_clipboard;
-const _STYLE: &str = manganis::mg!(file("public/tailwind.css"));
 
 /// An enum of all of the possible routes in the app.
 #[derive(Routable, Clone)]
@@ -31,8 +30,18 @@ fn main() {
     launch(app);
 }
 
+const TAILWIND_CSS: Asset = asset!("/public/tailwind.css");
+// const FAVICON: Asset = asset!("/assets/favicon.ico");
+// const MAIN_CSS: Asset = asset!("/assets/styling/main.css");
+
 pub fn app() -> Element {
-    rsx!(Router::<Route> {})
+    rsx! {
+        // Global app resources
+        // document::Link { rel: "icon", href: FAVICON }
+        // document::Link { rel: "stylesheet", href: MAIN_CSS }
+        document::Link { rel: "stylesheet", href: TAILWIND_CSS }
+        Router::<Route> {}
+    }
 }
 
 #[derive(Clone)]
@@ -63,21 +72,27 @@ fn MainWrapper() -> Element {
                             placeholder: "Search Icons",
                             oninput: move |e| {
                                 search_icon.set(SearchIcon(e.value()));
-                            }
+                            },
                         }
                     }
                     li {
                         Link {
                             class: "mr-5 hover:text-white",
                             to: Route::Template {
-                                code: "ant".to_string(),
+                                code: "fa_solid_icons".to_string(),
                             },
-                            "First Link"
+                            "Font Awesome Solid Icons"
                         }
                     }
-                    li { a { class: "mr-5 hover:text-white", "Second Link" } }
-                    li { a { class: "mr-5 hover:text-white", "Third Link" } }
-                    li { a { class: "mr-5 hover:text-white", "Fourth Link" } }
+                    li {
+                        a { class: "mr-5 hover:text-white", "Second Link" }
+                    }
+                    li {
+                        a { class: "mr-5 hover:text-white", "Third Link" }
+                    }
+                    li {
+                        a { class: "mr-5 hover:text-white", "Fourth Link" }
+                    }
                 }
 
                 div { class: "col-span-3 grow text-gray-400 bg-gray-900 body-font lg:flex-grow px-5 py-5 space-y-5",
@@ -116,13 +131,13 @@ fn Index() -> Element {
                 class: "object-cover object-center rounded",
                 src: "https://i.imgur.com/oK6BLtw.png",
                 referrerpolicy: "no-referrer",
-                alt: "hero"
+                alt: "hero",
             }
         }
     }
 }
 
-#[derive(Clone, Debug, Default)]
+#[derive(Clone, Debug)]
 pub struct IconSet {
     pub code: String,
     pub name: String,
@@ -134,7 +149,22 @@ pub struct IconSet {
     pub icons: Vec<IconName>,
 }
 
-#[derive(Clone, Debug, Default)]
+impl Default for IconSet {
+    fn default() -> Self {
+        Self {
+            code: "default".to_string(),
+            name: "Default".to_string(),
+            url: "https://example.com".to_string(),
+            license: "MIT".to_string(),
+            license_url: "https://example.com".to_string(),
+            version: "1.0.0".to_string(),
+            source_url: "https://example.com".to_string(),
+            icons: vec![],
+        }
+    }
+}
+
+#[derive(Clone, Debug)]
 pub struct IconName {
     pub name: String,
     pub icon: Element,
@@ -185,7 +215,7 @@ fn Template(code: String) -> Element {
                                 .unwrap()
                         };
                     },
-                    {icon.icon},
+                    {icon.icon}
                     div { {icon.name.clone()} }
                 }
             }

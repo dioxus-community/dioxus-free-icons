@@ -2,6 +2,39 @@ use super::super::IconShape;
 use dioxus::prelude::*;
 
 #[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdAddHomeWork;
+impl IconShape for MdAddHomeWork {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M15,11.68V11L8,6l-7,5v10h5v-6h4v6h1.68C11.25,20.09,11,19.08,11,18C11,15.21,12.64,12.81,15,11.68z",
+            }
+            path {
+                d: "M23,13.11V3H10v1.97l7,5v1.11c0.33-0.05,0.66-0.08,1-0.08C19.96,11,21.73,11.81,23,13.11z M17,7h2v2h-2V7z",
+            }
+            path {
+                d: "M23,18c0-2.76-2.24-5-5-5s-5,2.24-5,5s2.24,5,5,5S23,20.76,23,18z M17.5,21v-2.5H15v-1h2.5V15h1v2.5H21v1h-2.5V21H17.5z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdAppSettingsAlt;
 impl IconShape for MdAppSettingsAlt {
     fn view_box(&self) -> &str {
@@ -22,7 +55,7 @@ impl IconShape for MdAppSettingsAlt {
     fn child_elements(&self) -> Element {
         rsx! {
             path {
-                d: "M4,8h4V4H4V8z M10,20h4v-4h-4V20z M4,20h4v-4H4V20z M4,14h4v-4H4V14z M10,14h4v-4h-4V14z M16,20h4v-4h-4V20z M19,0 c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S21.76,0,19,0z M19.5,8h-1V7h1V8z M19.5,6h-1V2h1V6z M16,14h4v-2.07 C19.67,11.98,19.34,12,19,12c-1.07,0-2.09-0.24-3-0.68V14z M10,4v4h2.68C12.24,7.09,12,6.07,12,5c0-0.34,0.02-0.67,0.07-1H10z",
+                d: "M21.81 12.74l-.82-.63v-.22l.8-.63c.16-.12.2-.34.1-.51l-.85-1.48c-.07-.13-.21-.2-.35-.2-.05 0-.1.01-.15.03l-.95.38c-.08-.05-.11-.07-.19-.11l-.15-1.01c-.03-.21-.2-.36-.4-.36h-1.71c-.2 0-.37.15-.4.34l-.14 1.01c-.03.02-.07.03-.1.05l-.09.06-.95-.38c-.05-.02-.1-.03-.15-.03-.14 0-.27.07-.35.2l-.85 1.48c-.1.17-.06.39.1.51l.8.63v.23l-.8.63c-.16.12-.2.34-.1.51l.85 1.48c.07.13.21.2.35.2.05 0 .1-.01.15-.03l.95-.37c.08.05.12.07.2.11l.15 1.01c.03.2.2.34.4.34h1.71c.2 0 .37-.15.4-.34l.15-1.01c.03-.02.07-.03.1-.05l.09-.06.95.38c.05.02.1.03.15.03.14 0 .27-.07.35-.2l.85-1.48c.1-.17.06-.39-.1-.51zM18 13.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM17 17h2v4c0 1.1-.9 2-2 2H7c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2v4h-2V6H7v12h10v-1z",
             }
         }
     }
@@ -50,6 +83,33 @@ impl IconShape for MdApps {
         rsx! {
             path {
                 d: "M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z",
+            }
+        }
+    }
+}
+
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub struct MdAppsOutage;
+impl IconShape for MdAppsOutage {
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
+    }
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
+    }
+    fn child_elements(&self) -> Element {
+        rsx! {
+            path {
+                d: "M4,8h4V4H4V8z M10,20h4v-4h-4V20z M4,20h4v-4H4V20z M4,14h4v-4H4V14z M10,14h4v-4h-4V14z M16,20h4v-4h-4V20z M19,0 c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S21.76,0,19,0z M19.5,8h-1V7h1V8z M19.5,6h-1V2h1V6z M16,14h4v-2.07 C19.67,11.98,19.34,12,19,12c-1.07,0-2.09-0.24-3-0.68V14z M10,4v4h2.68C12.24,7.09,12,6.07,12,5c0-0.34,0.02-0.67,0.07-1H10z",
             }
         }
     }
@@ -112,11 +172,20 @@ impl IconShape for MdArrowBackIos {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdArrowBackIosNew;
 impl IconShape for MdArrowBackIosNew {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -646,11 +715,20 @@ impl IconShape for MdEast {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdExpandCircleDown;
 impl IconShape for MdExpandCircleDown {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -883,11 +961,20 @@ impl IconShape for MdLegendToggle {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct MdMapsHomeWork;
 impl IconShape for MdMapsHomeWork {
-    fn view_box(&self) -> String {
-        String::from("0 0 24 24")
+    fn view_box(&self) -> &str {
+        "0 0 24 24"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {

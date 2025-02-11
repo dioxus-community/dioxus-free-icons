@@ -7,5 +7,6 @@
 #### Start a `dev-server` for the project:
 
 ```
-dioxus serve
+dx serve --platform web
 ```
+

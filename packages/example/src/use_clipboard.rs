@@ -6,7 +6,7 @@ pub async fn copy_to_clipboard(text: &str) -> Result<()> {
             .context("Unable to get the window object")?
             .navigator()
             .clipboard()
-            .context("Unable to get the clipboard object")?
+            // .context("Unable to get the clipboard object")?
             .write_text(text),
     )
     .await

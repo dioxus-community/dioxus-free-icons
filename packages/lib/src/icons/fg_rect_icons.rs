@@ -4,11 +4,20 @@ use dioxus::prelude::*;
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAd;
 impl IconShape for FgRAd {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -502,11 +511,20 @@ impl IconShape for FgRAd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAe;
 impl IconShape for FgRAe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -529,11 +547,20 @@ impl IconShape for FgRAe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAf;
 impl IconShape for FgRAf {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -783,11 +810,20 @@ impl IconShape for FgRAf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAg;
 impl IconShape for FgRAg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -825,11 +861,20 @@ impl IconShape for FgRAg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAi;
 impl IconShape for FgRAi {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -922,11 +967,20 @@ impl IconShape for FgRAi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAl;
 impl IconShape for FgRAl {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -950,11 +1004,20 @@ impl IconShape for FgRAl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAm;
 impl IconShape for FgRAm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -974,11 +1037,20 @@ impl IconShape for FgRAm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAo;
 impl IconShape for FgRAo {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1028,11 +1100,20 @@ impl IconShape for FgRAo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAq;
 impl IconShape for FgRAq {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1056,11 +1137,20 @@ impl IconShape for FgRAq {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAr;
 impl IconShape for FgRAr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1221,11 +1311,20 @@ impl IconShape for FgRAr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRArab;
 impl IconShape for FgRArab {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1660,11 +1759,20 @@ impl IconShape for FgRArab {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAs;
 impl IconShape for FgRAs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1885,11 +1993,20 @@ impl IconShape for FgRAs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAt;
 impl IconShape for FgRAt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1909,11 +2026,20 @@ impl IconShape for FgRAt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAu;
 impl IconShape for FgRAu {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -1942,11 +2068,20 @@ impl IconShape for FgRAu {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAw;
 impl IconShape for FgRAw {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2501,11 +2636,20 @@ impl IconShape for FgRAw {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAx;
 impl IconShape for FgRAx {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2548,11 +2692,20 @@ impl IconShape for FgRAx {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRAz;
 impl IconShape for FgRAz {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2585,11 +2738,20 @@ impl IconShape for FgRAz {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBa;
 impl IconShape for FgRBa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2621,11 +2783,20 @@ impl IconShape for FgRBa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBb;
 impl IconShape for FgRBb {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2652,11 +2823,20 @@ impl IconShape for FgRBb {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBd;
 impl IconShape for FgRBd {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2675,11 +2855,20 @@ impl IconShape for FgRBd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBe;
 impl IconShape for FgRBe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2703,11 +2892,20 @@ impl IconShape for FgRBe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBf;
 impl IconShape for FgRBf {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2730,11 +2928,20 @@ impl IconShape for FgRBf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBg;
 impl IconShape for FgRBg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2758,11 +2965,20 @@ impl IconShape for FgRBg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBh;
 impl IconShape for FgRBh {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2779,11 +2995,20 @@ impl IconShape for FgRBh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBi;
 impl IconShape for FgRBi {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2826,11 +3051,20 @@ impl IconShape for FgRBi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBj;
 impl IconShape for FgRBj {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2864,11 +3098,20 @@ impl IconShape for FgRBj {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBl;
 impl IconShape for FgRBl {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -2888,11 +3131,20 @@ impl IconShape for FgRBl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBm;
 impl IconShape for FgRBm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3372,11 +3624,20 @@ impl IconShape for FgRBm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBn;
 impl IconShape for FgRBn {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -3483,11 +3744,20 @@ impl IconShape for FgRBn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBo;
 impl IconShape for FgRBo {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6560,11 +6830,20 @@ impl IconShape for FgRBo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBq;
 impl IconShape for FgRBq {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6584,11 +6863,20 @@ impl IconShape for FgRBq {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBr;
 impl IconShape for FgRBr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6708,11 +6996,20 @@ impl IconShape for FgRBr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBs;
 impl IconShape for FgRBs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -6747,11 +7044,20 @@ impl IconShape for FgRBs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBt;
 impl IconShape for FgRBt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7017,11 +7323,20 @@ impl IconShape for FgRBt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBv;
 impl IconShape for FgRBv {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7056,11 +7371,20 @@ impl IconShape for FgRBv {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBw;
 impl IconShape for FgRBw {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7083,11 +7407,20 @@ impl IconShape for FgRBw {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBy;
 impl IconShape for FgRBy {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7137,11 +7470,20 @@ impl IconShape for FgRBy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRBz;
 impl IconShape for FgRBz {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7603,11 +7945,20 @@ impl IconShape for FgRBz {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCa;
 impl IconShape for FgRCa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7624,11 +7975,20 @@ impl IconShape for FgRCa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCc;
 impl IconShape for FgRCc {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7711,11 +8071,20 @@ impl IconShape for FgRCc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCd;
 impl IconShape for FgRCd {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7735,11 +8104,20 @@ impl IconShape for FgRCd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCefta;
 impl IconShape for FgRCefta {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7801,11 +8179,20 @@ impl IconShape for FgRCefta {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCf;
 impl IconShape for FgRCf {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7846,11 +8233,20 @@ impl IconShape for FgRCf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCg;
 impl IconShape for FgRCg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7883,11 +8279,20 @@ impl IconShape for FgRCg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCh;
 impl IconShape for FgRCh {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7914,11 +8319,20 @@ impl IconShape for FgRCh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCi;
 impl IconShape for FgRCi {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7941,11 +8355,20 @@ impl IconShape for FgRCi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCk;
 impl IconShape for FgRCk {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -7978,11 +8401,20 @@ impl IconShape for FgRCk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCl;
 impl IconShape for FgRCl {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8017,11 +8449,20 @@ impl IconShape for FgRCl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCm;
 impl IconShape for FgRCm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8081,11 +8522,20 @@ impl IconShape for FgRCm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCn;
 impl IconShape for FgRCn {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8133,11 +8583,20 @@ impl IconShape for FgRCn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCo;
 impl IconShape for FgRCo {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8161,11 +8620,20 @@ impl IconShape for FgRCo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCp;
 impl IconShape for FgRCp {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8189,11 +8657,20 @@ impl IconShape for FgRCp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCr;
 impl IconShape for FgRCr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8217,11 +8694,20 @@ impl IconShape for FgRCr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCu;
 impl IconShape for FgRCu {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8256,11 +8742,20 @@ impl IconShape for FgRCu {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCv;
 impl IconShape for FgRCv {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8295,11 +8790,20 @@ impl IconShape for FgRCv {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCw;
 impl IconShape for FgRCw {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8347,11 +8851,20 @@ impl IconShape for FgRCw {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCx;
 impl IconShape for FgRCx {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8413,11 +8926,20 @@ impl IconShape for FgRCx {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCy;
 impl IconShape for FgRCy {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8444,11 +8966,20 @@ impl IconShape for FgRCy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRCz;
 impl IconShape for FgRCz {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8468,11 +8999,20 @@ impl IconShape for FgRCz {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRDe;
 impl IconShape for FgRDe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -8492,11 +9032,20 @@ impl IconShape for FgRDe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRDg;
 impl IconShape for FgRDg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9142,11 +9691,20 @@ impl IconShape for FgRDg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRDj;
 impl IconShape for FgRDj {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9181,11 +9739,20 @@ impl IconShape for FgRDj {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRDk;
 impl IconShape for FgRDk {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9205,11 +9772,20 @@ impl IconShape for FgRDk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRDm;
 impl IconShape for FgRDm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -9871,11 +10447,20 @@ impl IconShape for FgRDm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRDo;
 impl IconShape for FgRDo {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10249,11 +10834,20 @@ impl IconShape for FgRDo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRDz;
 impl IconShape for FgRDz {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10273,11 +10867,20 @@ impl IconShape for FgRDz {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgREac;
 impl IconShape for FgREac {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -10497,11 +11100,20 @@ impl IconShape for FgREac {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgREc;
 impl IconShape for FgREc {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11157,11 +11769,20 @@ impl IconShape for FgREc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgREe;
 impl IconShape for FgREe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11192,11 +11813,20 @@ impl IconShape for FgREe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgREg;
 impl IconShape for FgREg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11328,11 +11958,20 @@ impl IconShape for FgREg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgREh;
 impl IconShape for FgREh {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11380,11 +12019,20 @@ impl IconShape for FgREh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgREr;
 impl IconShape for FgREr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11410,11 +12058,20 @@ impl IconShape for FgREr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgREsCt;
 impl IconShape for FgREsCt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -11434,11 +12091,20 @@ impl IconShape for FgREsCt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgREsGa;
 impl IconShape for FgREsGa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12223,11 +12889,20 @@ impl IconShape for FgREsGa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgREsPv;
 impl IconShape for FgREsPv {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -12247,11 +12922,20 @@ impl IconShape for FgREsPv {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgREs;
 impl IconShape for FgREs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14503,11 +15187,20 @@ impl IconShape for FgREs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgREt;
 impl IconShape for FgREt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14549,11 +15242,20 @@ impl IconShape for FgREt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgREu;
 impl IconShape for FgREu {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14650,11 +15352,20 @@ impl IconShape for FgREu {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRFi;
 impl IconShape for FgRFi {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -14674,11 +15385,20 @@ impl IconShape for FgRFi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRFj;
 impl IconShape for FgRFj {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15083,11 +15803,20 @@ impl IconShape for FgRFj {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRFk;
 impl IconShape for FgRFk {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15592,11 +16321,20 @@ impl IconShape for FgRFk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRFm;
 impl IconShape for FgRFm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15626,11 +16364,20 @@ impl IconShape for FgRFm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRFo;
 impl IconShape for FgRFo {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15663,11 +16410,20 @@ impl IconShape for FgRFo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRFr;
 impl IconShape for FgRFr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15687,11 +16443,20 @@ impl IconShape for FgRFr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGa;
 impl IconShape for FgRGa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15714,11 +16479,20 @@ impl IconShape for FgRGa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGbEng;
 impl IconShape for FgRGbEng {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -15738,11 +16512,20 @@ impl IconShape for FgRGbEng {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGbNir;
 impl IconShape for FgRGbNir {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16317,11 +17100,20 @@ impl IconShape for FgRGbNir {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGbSct;
 impl IconShape for FgRGbSct {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16341,11 +17133,20 @@ impl IconShape for FgRGbSct {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGbWls;
 impl IconShape for FgRGbWls {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16377,11 +17178,20 @@ impl IconShape for FgRGbWls {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGb;
 impl IconShape for FgRGb {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16407,11 +17217,20 @@ impl IconShape for FgRGb {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGd;
 impl IconShape for FgRGd {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16520,11 +17339,20 @@ impl IconShape for FgRGd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGe;
 impl IconShape for FgRGe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16548,11 +17376,20 @@ impl IconShape for FgRGe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGf;
 impl IconShape for FgRGf {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16572,11 +17409,20 @@ impl IconShape for FgRGf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGg;
 impl IconShape for FgRGg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16618,11 +17464,20 @@ impl IconShape for FgRGg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGh;
 impl IconShape for FgRGh {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16645,11 +17500,20 @@ impl IconShape for FgRGh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGi;
 impl IconShape for FgRGi {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16747,11 +17611,20 @@ impl IconShape for FgRGi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGl;
 impl IconShape for FgRGl {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16768,11 +17641,20 @@ impl IconShape for FgRGl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGm;
 impl IconShape for FgRGm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16811,11 +17693,20 @@ impl IconShape for FgRGm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGn;
 impl IconShape for FgRGn {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16839,11 +17730,20 @@ impl IconShape for FgRGn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGp;
 impl IconShape for FgRGp {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16863,11 +17763,20 @@ impl IconShape for FgRGp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGq;
 impl IconShape for FgRGq {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -16943,11 +17852,20 @@ impl IconShape for FgRGq {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGr;
 impl IconShape for FgRGr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17006,11 +17924,20 @@ impl IconShape for FgRGr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGs;
 impl IconShape for FgRGs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -17598,11 +18525,20 @@ impl IconShape for FgRGs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGt;
 impl IconShape for FgRGt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18275,11 +19211,20 @@ impl IconShape for FgRGt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGu;
 impl IconShape for FgRGu {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18402,11 +19347,20 @@ impl IconShape for FgRGu {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGw;
 impl IconShape for FgRGw {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18465,11 +19419,20 @@ impl IconShape for FgRGw {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRGy;
 impl IconShape for FgRGy {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18498,11 +19461,20 @@ impl IconShape for FgRGy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRHk;
 impl IconShape for FgRHk {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18536,11 +19508,20 @@ impl IconShape for FgRHk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRHm;
 impl IconShape for FgRHm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18569,11 +19550,20 @@ impl IconShape for FgRHm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRHn;
 impl IconShape for FgRHn {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18655,11 +19645,20 @@ impl IconShape for FgRHn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRHr;
 impl IconShape for FgRHr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -18830,11 +19829,20 @@ impl IconShape for FgRHr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRHt;
 impl IconShape for FgRHt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19237,11 +20245,20 @@ impl IconShape for FgRHt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRHu;
 impl IconShape for FgRHu {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19264,11 +20281,20 @@ impl IconShape for FgRHu {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRIc;
 impl IconShape for FgRIc {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19292,11 +20318,20 @@ impl IconShape for FgRIc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRId;
 impl IconShape for FgRId {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19313,11 +20348,20 @@ impl IconShape for FgRId {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRIe;
 impl IconShape for FgRIe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19341,11 +20385,20 @@ impl IconShape for FgRIe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRIl;
 impl IconShape for FgRIl {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19383,11 +20436,20 @@ impl IconShape for FgRIl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRIm;
 impl IconShape for FgRIm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19550,11 +20612,20 @@ impl IconShape for FgRIm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRIn;
 impl IconShape for FgRIn {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -19635,11 +20706,20 @@ impl IconShape for FgRIn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRIo;
 impl IconShape for FgRIo {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20285,11 +21365,20 @@ impl IconShape for FgRIo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRIq;
 impl IconShape for FgRIq {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20323,11 +21412,20 @@ impl IconShape for FgRIq {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRIr;
 impl IconShape for FgRIr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20911,11 +22009,20 @@ impl IconShape for FgRIr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRIs;
 impl IconShape for FgRIs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20947,11 +22054,20 @@ impl IconShape for FgRIs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRIt;
 impl IconShape for FgRIt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -20975,11 +22091,20 @@ impl IconShape for FgRIt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRJe;
 impl IconShape for FgRJe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21255,11 +22380,20 @@ impl IconShape for FgRJe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRJm;
 impl IconShape for FgRJm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21285,11 +22419,20 @@ impl IconShape for FgRJm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRJo;
 impl IconShape for FgRJo {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21330,11 +22473,20 @@ impl IconShape for FgRJo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRJp;
 impl IconShape for FgRJp {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21367,11 +22519,20 @@ impl IconShape for FgRJp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRKe;
 impl IconShape for FgRKe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21459,11 +22620,20 @@ impl IconShape for FgRKe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRKg;
 impl IconShape for FgRKg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21504,11 +22674,20 @@ impl IconShape for FgRKg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRKh;
 impl IconShape for FgRKh {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21698,11 +22877,20 @@ impl IconShape for FgRKh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRKi;
 impl IconShape for FgRKi {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21879,11 +23067,20 @@ impl IconShape for FgRKi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRKm;
 impl IconShape for FgRKm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21927,11 +23124,20 @@ impl IconShape for FgRKm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRKn;
 impl IconShape for FgRKn {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -21969,11 +23175,20 @@ impl IconShape for FgRKn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRKp;
 impl IconShape for FgRKp {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22015,11 +23230,20 @@ impl IconShape for FgRKp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRKr;
 impl IconShape for FgRKr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22087,11 +23311,20 @@ impl IconShape for FgRKr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRKw;
 impl IconShape for FgRKw {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22127,11 +23360,20 @@ impl IconShape for FgRKw {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRKy;
 impl IconShape for FgRKy {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22432,11 +23674,20 @@ impl IconShape for FgRKy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRKz;
 impl IconShape for FgRKz {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22563,11 +23814,20 @@ impl IconShape for FgRKz {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRLa;
 impl IconShape for FgRLa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22598,11 +23858,20 @@ impl IconShape for FgRLa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRLb;
 impl IconShape for FgRLb {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22645,11 +23914,20 @@ impl IconShape for FgRLb {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRLc;
 impl IconShape for FgRLc {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22675,11 +23953,20 @@ impl IconShape for FgRLc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRLi;
 impl IconShape for FgRLi {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22849,11 +24136,20 @@ impl IconShape for FgRLi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRLk;
 impl IconShape for FgRLk {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22934,11 +24230,20 @@ impl IconShape for FgRLk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRLr;
 impl IconShape for FgRLr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -22976,11 +24281,20 @@ impl IconShape for FgRLr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRLs;
 impl IconShape for FgRLs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23013,11 +24327,20 @@ impl IconShape for FgRLs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRLt;
 impl IconShape for FgRLt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23051,11 +24374,20 @@ impl IconShape for FgRLt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRLu;
 impl IconShape for FgRLu {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23075,11 +24407,20 @@ impl IconShape for FgRLu {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRLv;
 impl IconShape for FgRLv {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23099,11 +24440,20 @@ impl IconShape for FgRLv {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRLy;
 impl IconShape for FgRLy {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23136,11 +24486,20 @@ impl IconShape for FgRLy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMa;
 impl IconShape for FgRMa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23159,11 +24518,20 @@ impl IconShape for FgRMa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMc;
 impl IconShape for FgRMc {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23184,11 +24552,20 @@ impl IconShape for FgRMc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMd;
 impl IconShape for FgRMd {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23506,11 +24883,20 @@ impl IconShape for FgRMd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMe;
 impl IconShape for FgRMe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23959,11 +25345,20 @@ impl IconShape for FgRMe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMf;
 impl IconShape for FgRMf {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -23983,11 +25378,20 @@ impl IconShape for FgRMf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMg;
 impl IconShape for FgRMg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24011,11 +25415,20 @@ impl IconShape for FgRMg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMh;
 impl IconShape for FgRMh {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24038,11 +25451,20 @@ impl IconShape for FgRMh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMk;
 impl IconShape for FgRMk {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24066,11 +25488,20 @@ impl IconShape for FgRMk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMl;
 impl IconShape for FgRMl {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24093,11 +25524,20 @@ impl IconShape for FgRMl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMm;
 impl IconShape for FgRMm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24148,11 +25588,20 @@ impl IconShape for FgRMm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMn;
 impl IconShape for FgRMn {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24208,11 +25657,20 @@ impl IconShape for FgRMn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMo;
 impl IconShape for FgRMo {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24244,11 +25702,20 @@ impl IconShape for FgRMo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMp;
 impl IconShape for FgRMp {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24647,11 +26114,20 @@ impl IconShape for FgRMp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMq;
 impl IconShape for FgRMq {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24671,11 +26147,20 @@ impl IconShape for FgRMq {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMr;
 impl IconShape for FgRMr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24699,11 +26184,20 @@ impl IconShape for FgRMr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMs;
 impl IconShape for FgRMs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24807,11 +26301,20 @@ impl IconShape for FgRMs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMt;
 impl IconShape for FgRMt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -24987,11 +26490,20 @@ impl IconShape for FgRMt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMu;
 impl IconShape for FgRMu {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25017,11 +26529,20 @@ impl IconShape for FgRMu {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMv;
 impl IconShape for FgRMv {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25048,11 +26569,20 @@ impl IconShape for FgRMv {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMw;
 impl IconShape for FgRMw {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -25085,11 +26615,20 @@ impl IconShape for FgRMw {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMx;
 impl IconShape for FgRMx {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26451,11 +27990,20 @@ impl IconShape for FgRMx {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMy;
 impl IconShape for FgRMy {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26526,11 +28074,20 @@ impl IconShape for FgRMy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRMz;
 impl IconShape for FgRMz {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26615,11 +28172,20 @@ impl IconShape for FgRMz {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRNa;
 impl IconShape for FgRNa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26662,11 +28228,20 @@ impl IconShape for FgRNa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRNc;
 impl IconShape for FgRNc {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26724,11 +28299,20 @@ impl IconShape for FgRNc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRNe;
 impl IconShape for FgRNe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26753,11 +28337,20 @@ impl IconShape for FgRNe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRNf;
 impl IconShape for FgRNf {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26797,11 +28390,20 @@ impl IconShape for FgRNf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRNg;
 impl IconShape for FgRNg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -26822,11 +28424,20 @@ impl IconShape for FgRNg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRNi;
 impl IconShape for FgRNi {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27350,11 +28961,20 @@ impl IconShape for FgRNi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRNl;
 impl IconShape for FgRNl {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27374,11 +28994,20 @@ impl IconShape for FgRNl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRNo;
 impl IconShape for FgRNo {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27404,11 +29033,20 @@ impl IconShape for FgRNo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRNp;
 impl IconShape for FgRNp {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27441,11 +29079,20 @@ impl IconShape for FgRNp {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRNr;
 impl IconShape for FgRNr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27478,11 +29125,20 @@ impl IconShape for FgRNr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRNu;
 impl IconShape for FgRNu {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27519,11 +29175,20 @@ impl IconShape for FgRNu {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRNz;
 impl IconShape for FgRNz {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -27641,11 +29306,20 @@ impl IconShape for FgRNz {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgROm;
 impl IconShape for FgROm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28240,11 +29914,20 @@ impl IconShape for FgROm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPa;
 impl IconShape for FgRPa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28284,11 +29967,20 @@ impl IconShape for FgRPa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPc;
 impl IconShape for FgRPc {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28474,11 +30166,20 @@ impl IconShape for FgRPc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPe;
 impl IconShape for FgRPe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28495,11 +30196,20 @@ impl IconShape for FgRPe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPf;
 impl IconShape for FgRPf {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28573,11 +30283,20 @@ impl IconShape for FgRPf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPg;
 impl IconShape for FgRPg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28614,11 +30333,20 @@ impl IconShape for FgRPg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPh;
 impl IconShape for FgRPh {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28641,11 +30369,20 @@ impl IconShape for FgRPh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPk;
 impl IconShape for FgRPk {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28684,11 +30421,20 @@ impl IconShape for FgRPk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPl;
 impl IconShape for FgRPl {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28708,11 +30454,20 @@ impl IconShape for FgRPl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPm;
 impl IconShape for FgRPm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28732,11 +30487,20 @@ impl IconShape for FgRPm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPn;
 impl IconShape for FgRPn {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -28984,11 +30748,20 @@ impl IconShape for FgRPn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPr;
 impl IconShape for FgRPr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29023,11 +30796,20 @@ impl IconShape for FgRPr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPs;
 impl IconShape for FgRPs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29065,11 +30847,20 @@ impl IconShape for FgRPs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPt;
 impl IconShape for FgRPt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29289,11 +31080,20 @@ impl IconShape for FgRPt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPw;
 impl IconShape for FgRPw {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29323,11 +31123,20 @@ impl IconShape for FgRPw {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRPy;
 impl IconShape for FgRPy {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29810,11 +31619,20 @@ impl IconShape for FgRPy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRQa;
 impl IconShape for FgRQa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29831,11 +31649,20 @@ impl IconShape for FgRQa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRRe;
 impl IconShape for FgRRe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29855,11 +31682,20 @@ impl IconShape for FgRRe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRRo;
 impl IconShape for FgRRo {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -29883,11 +31719,20 @@ impl IconShape for FgRRo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRRs;
 impl IconShape for FgRRs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30777,11 +32622,20 @@ impl IconShape for FgRRs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRRu;
 impl IconShape for FgRRu {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30805,11 +32659,20 @@ impl IconShape for FgRRu {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRRw;
 impl IconShape for FgRRw {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30856,11 +32719,20 @@ impl IconShape for FgRRw {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSa;
 impl IconShape for FgRSa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30931,11 +32803,20 @@ impl IconShape for FgRSa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSb;
 impl IconShape for FgRSb {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -30971,11 +32852,20 @@ impl IconShape for FgRSb {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSc;
 impl IconShape for FgRSc {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31001,11 +32891,20 @@ impl IconShape for FgRSc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSd;
 impl IconShape for FgRSd {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31041,11 +32940,20 @@ impl IconShape for FgRSd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSe;
 impl IconShape for FgRSe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31062,11 +32970,20 @@ impl IconShape for FgRSe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSg;
 impl IconShape for FgRSg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -31100,11 +33017,20 @@ impl IconShape for FgRSg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRShAc;
 impl IconShape for FgRShAc {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33355,11 +35281,20 @@ impl IconShape for FgRShAc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRShHl;
 impl IconShape for FgRShHl {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -33906,11 +35841,20 @@ impl IconShape for FgRShHl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRShTa;
 impl IconShape for FgRShTa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34181,11 +36125,20 @@ impl IconShape for FgRShTa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSh;
 impl IconShape for FgRSh {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34211,11 +36164,20 @@ impl IconShape for FgRSh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSi;
 impl IconShape for FgRSi {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34266,11 +36228,20 @@ impl IconShape for FgRSi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSj;
 impl IconShape for FgRSj {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34296,11 +36267,20 @@ impl IconShape for FgRSj {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSk;
 impl IconShape for FgRSk {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34332,11 +36312,20 @@ impl IconShape for FgRSk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSl;
 impl IconShape for FgRSl {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34359,11 +36348,20 @@ impl IconShape for FgRSl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSm;
 impl IconShape for FgRSm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34699,11 +36697,20 @@ impl IconShape for FgRSm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSn;
 impl IconShape for FgRSn {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34730,11 +36737,20 @@ impl IconShape for FgRSn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSo;
 impl IconShape for FgRSo {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34763,11 +36779,20 @@ impl IconShape for FgRSo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSr;
 impl IconShape for FgRSr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34790,11 +36815,20 @@ impl IconShape for FgRSr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSs;
 impl IconShape for FgRSs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34823,11 +36857,20 @@ impl IconShape for FgRSs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSt;
 impl IconShape for FgRSt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -34896,11 +36939,20 @@ impl IconShape for FgRSt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSv;
 impl IconShape for FgRSv {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37229,11 +39281,20 @@ impl IconShape for FgRSv {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSx;
 impl IconShape for FgRSx {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37462,11 +39523,20 @@ impl IconShape for FgRSx {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSy;
 impl IconShape for FgRSy {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37489,11 +39559,20 @@ impl IconShape for FgRSy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRSz;
 impl IconShape for FgRSz {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37618,11 +39697,20 @@ impl IconShape for FgRSz {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTc;
 impl IconShape for FgRTc {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37777,11 +39865,20 @@ impl IconShape for FgRTc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTd;
 impl IconShape for FgRTd {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37804,11 +39901,20 @@ impl IconShape for FgRTd {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTf;
 impl IconShape for FgRTf {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37878,11 +39984,20 @@ impl IconShape for FgRTf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTg;
 impl IconShape for FgRTg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37920,11 +40035,20 @@ impl IconShape for FgRTg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTh;
 impl IconShape for FgRTh {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -37947,11 +40071,20 @@ impl IconShape for FgRTh {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTj;
 impl IconShape for FgRTj {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38044,11 +40177,20 @@ impl IconShape for FgRTj {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTk;
 impl IconShape for FgRTk {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38068,11 +40210,20 @@ impl IconShape for FgRTk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTl;
 impl IconShape for FgRTl {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38107,11 +40258,20 @@ impl IconShape for FgRTl {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTm;
 impl IconShape for FgRTm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38668,11 +40828,20 @@ impl IconShape for FgRTm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTn;
 impl IconShape for FgRTn {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38689,11 +40858,20 @@ impl IconShape for FgRTn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTo;
 impl IconShape for FgRTo {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38723,11 +40901,20 @@ impl IconShape for FgRTo {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTr;
 impl IconShape for FgRTr {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38753,11 +40940,20 @@ impl IconShape for FgRTr {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTt;
 impl IconShape for FgRTt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38779,11 +40975,20 @@ impl IconShape for FgRTt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTv;
 impl IconShape for FgRTv {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38816,11 +41021,20 @@ impl IconShape for FgRTv {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTw;
 impl IconShape for FgRTw {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38922,11 +41136,20 @@ impl IconShape for FgRTw {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRTz;
 impl IconShape for FgRTz {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38962,11 +41185,20 @@ impl IconShape for FgRTz {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRUa;
 impl IconShape for FgRUa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -38987,11 +41219,20 @@ impl IconShape for FgRUa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRUg;
 impl IconShape for FgRUg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39129,11 +41370,20 @@ impl IconShape for FgRUg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRUm;
 impl IconShape for FgRUm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39167,11 +41417,20 @@ impl IconShape for FgRUm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRUn;
 impl IconShape for FgRUn {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39230,11 +41489,20 @@ impl IconShape for FgRUn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRUs;
 impl IconShape for FgRUs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39268,11 +41536,20 @@ impl IconShape for FgRUs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRUy;
 impl IconShape for FgRUy {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39359,11 +41636,20 @@ impl IconShape for FgRUy {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRUz;
 impl IconShape for FgRUz {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -39482,11 +41768,20 @@ impl IconShape for FgRUz {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRVa;
 impl IconShape for FgRVa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -40402,11 +42697,20 @@ impl IconShape for FgRVa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRVc;
 impl IconShape for FgRVc {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -40432,11 +42736,20 @@ impl IconShape for FgRVc {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRVe;
 impl IconShape for FgRVe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -40525,11 +42838,20 @@ impl IconShape for FgRVe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRVg;
 impl IconShape for FgRVg {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -40750,11 +43072,20 @@ impl IconShape for FgRVg {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRVi;
 impl IconShape for FgRVi {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -40877,11 +43208,20 @@ impl IconShape for FgRVi {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRVn;
 impl IconShape for FgRVn {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -40910,11 +43250,20 @@ impl IconShape for FgRVn {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRVu;
 impl IconShape for FgRVu {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -40974,11 +43323,20 @@ impl IconShape for FgRVu {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRWf;
 impl IconShape for FgRWf {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -40998,11 +43356,20 @@ impl IconShape for FgRWf {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRWs;
 impl IconShape for FgRWs {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -41026,11 +43393,20 @@ impl IconShape for FgRWs {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRXk;
 impl IconShape for FgRXk {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -41050,11 +43426,20 @@ impl IconShape for FgRXk {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRXx;
 impl IconShape for FgRXx {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -41076,11 +43461,20 @@ impl IconShape for FgRXx {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRYe;
 impl IconShape for FgRYe {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -41104,11 +43498,20 @@ impl IconShape for FgRYe {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRYt;
 impl IconShape for FgRYt {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -41128,11 +43531,20 @@ impl IconShape for FgRYt {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRZa;
 impl IconShape for FgRZa {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -41176,11 +43588,20 @@ impl IconShape for FgRZa {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRZm;
 impl IconShape for FgRZm {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {
@@ -41278,11 +43699,20 @@ impl IconShape for FgRZm {
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct FgRZw;
 impl IconShape for FgRZw {
-    fn view_box(&self) -> String {
-        String::from("0 0 640 480")
+    fn view_box(&self) -> &str {
+        "0 0 640 480"
     }
-    fn xmlns(&self) -> String {
-        String::from("http://www.w3.org/2000/svg")
+    fn xmlns(&self) -> &str {
+        "http://www.w3.org/2000/svg"
+    }
+    fn fill_and_stroke<'a>(&self, user_color: &'a str) -> (&'a str, &'a str, &'a str) {
+        (user_color, "none", "0")
+    }
+    fn stroke_linecap(&self) -> &str {
+        "butt"
+    }
+    fn stroke_linejoin(&self) -> &str {
+        "miter"
     }
     fn child_elements(&self) -> Element {
         rsx! {

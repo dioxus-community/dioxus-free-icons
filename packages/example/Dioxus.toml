@@ -1,7 +1,7 @@
 [application]
 
 # App (Project) Name
-name = "hello-dioxus"
+name = "Dioxus Free Icons"
 
 # Dioxus App Default Platform
 # desktop, web, mobile, ssr

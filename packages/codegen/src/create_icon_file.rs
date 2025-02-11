@@ -46,7 +46,7 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) ->
     // across different runs of the codegen
     files.sort();
 
-    let icon_file = files
+    let mut icon_file = files
         .into_iter()
         .map(|file| {
             let svg_str = fs::read_to_string(&file).unwrap();
@@ -90,6 +90,16 @@ pub fn create_icon_file(svg_path: &str, output_path: &str, icon_prefix: &str) ->
         })
         .collect::<Vec<_>>()
         .join("\n");
+
+    icon_file.push_str(
+        "\n\n#[cfg(feature = \"names\")]\npub fn names() -> HashMap<&str, Box<dyn IconShape>> {{\n    let mut icons = HashMap::new();\n}}");
+    let name_section = icons_names
+        .iter()
+        .map(|name| format!("icons.push(\"{}\", Box::new({}));", name, name))
+        .collect::<Vec<_>>()
+        .join("\n");
+    icon_file.push_str(&name_section);
+    icon_file.push_str("\n    icons\n}}");
 
     // write to file
     let mut file = File::create(output_path).unwrap();

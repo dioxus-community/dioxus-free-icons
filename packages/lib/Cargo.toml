@@ -19,6 +19,7 @@ incremental = true
 dioxus = { workspace = true }
 
 [features]
+names = []
 font-awesome-brands = []
 font-awesome-regular = []
 font-awesome-solid = []
